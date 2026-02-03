@@ -1879,3 +1879,130 @@ a:hover {
     display: none;
   }
 }
+
+/* ============================================
+   Ratings and Views System
+   ============================================ */
+
+/* Card Stats Container */
+.card-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm);
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-bg-light);
+  font-size: var(--font-size-sm);
+}
+
+/* Stars Display */
+.stars-display {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.stars {
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+.star.full {
+  color: #FFB800;
+}
+
+.star.half {
+  color: #FFB800;
+  opacity: 0.6;
+}
+
+.star.empty {
+  color: #DDD;
+}
+
+.rating-text {
+  margin-left: var(--spacing-xs);
+  color: var(--color-text-light);
+  font-size: var(--font-size-xs);
+}
+
+/* Views Count */
+.views-count {
+  color: var(--color-text-light);
+  font-weight: 500;
+}
+
+/* Modal Stats */
+.modal-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-bg-light);
+}
+
+/* Interactive Star Rating */
+.interactive-stars {
+  margin: var(--spacing-md) 0;
+  padding: var(--spacing-md);
+  background-color: var(--color-bg-light);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.interactive-stars p {
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+  color: var(--color-text-dark);
+}
+
+.star-btn {
+  font-size: 2em;
+  color: #DDD;
+  cursor: pointer;
+  transition: color var(--transition-fast), transform var(--transition-fast);
+  padding: 0 var(--spacing-xs);
+}
+
+.star-btn:hover {
+  color: #FFB800;
+  transform: scale(1.2);
+}
+
+.star-btn:active {
+  transform: scale(1.1);
+}
+
+.rating-submitted {
+  padding: var(--spacing-sm);
+  background-color: #E8F5E9;
+  color: #2E7D32;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-stats {
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    align-items: flex-start;
+  }
+
+  .modal-stats {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    align-items: flex-start;
+  }
+
+  .star-btn {
+    font-size: 1.5em;
+  }
+}

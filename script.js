@@ -190,6 +190,11 @@ function renderGallery() {
 
   // Initialize tutorial hints for first-time users
   initializeTutorialHints();
+
+  // Load ratings and views for all photos
+  if (typeof loadAllStats === 'function') {
+    loadAllStats();
+  }
 }
 
 /**
@@ -199,6 +204,7 @@ function createGalleryItem(image) {
   const item = document.createElement('div');
   item.className = 'gallery-item';
   item.dataset.category = image.category;
+  item.dataset.photoId = image.id;
   item.setAttribute('role', 'listitem');
 
   const categoryName = getCategoryDisplayName(image.category);
@@ -228,6 +234,19 @@ function createGalleryItem(image) {
           <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
         </svg>
       </button>
+    </div>
+    <div class="card-stats">
+      <div class="stars-display">
+        <div class="stars">
+          <span class="star empty">☆</span>
+          <span class="star empty">☆</span>
+          <span class="star empty">☆</span>
+          <span class="star empty">☆</span>
+          <span class="star empty">☆</span>
+        </div>
+        <span class="rating-text">0.0 (0)</span>
+      </div>
+      <div class="views-count">0 Views</div>
     </div>
   `;
 
@@ -339,6 +358,11 @@ async function openModal(imageId) {
     return;
   }
 
+  // Record view (Firebase)
+  if (typeof recordPhotoView === 'function') {
+    recordPhotoView(image.id);
+  }
+
   // Show modal
   modal.style.display = 'flex';
   document.body.style.overflow = 'hidden'; // Prevent background scrolling
@@ -362,6 +386,35 @@ async function openModal(imageId) {
     ${categoryName}
   `;
 
+  // Add stats container if it doesn't exist
+  let statsContainer = document.querySelector('.modal-stats');
+  if (!statsContainer) {
+    const modalHeader = document.querySelector('.modal-header');
+    statsContainer = document.createElement('div');
+    statsContainer.className = 'modal-stats';
+    statsContainer.innerHTML = `
+      <div class="stars-display">
+        <div class="stars">
+          <span class="star empty">☆</span>
+          <span class="star empty">☆</span>
+          <span class="star empty">☆</span>
+          <span class="star empty">☆</span>
+          <span class="star empty">☆</span>
+        </div>
+        <span class="rating-text">0.0 (0)</span>
+      </div>
+      <div class="views-count">0 Views</div>
+    `;
+    modalHeader.parentNode.insertBefore(statsContainer, modalBody);
+  }
+
+  // Load and display ratings/views
+  if (typeof getRatings === 'function' && typeof getViews === 'function') {
+    const ratings = await getRatings(image.id);
+    const views = await getViews(image.id);
+    updateModalStats(ratings, views);
+  }
+
   // Show loading state
   modalBody.innerHTML = `
     <div class="loading-content">
@@ -372,6 +425,14 @@ async function openModal(imageId) {
 
   // Load educational content
   await loadEducationalContent(image, modalBody);
+
+  // Add interactive rating stars at the end of content
+  if (typeof generateInteractiveStarsHTML === 'function') {
+    const ratingHTML = generateInteractiveStarsHTML(image.id);
+    const ratingContainer = document.createElement('div');
+    ratingContainer.innerHTML = ratingHTML;
+    modalBody.appendChild(ratingContainer);
+  }
 
   // Focus management for accessibility
   modal.querySelector('.close-btn').focus();

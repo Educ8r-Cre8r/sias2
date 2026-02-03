@@ -9,7 +9,7 @@
       "imagePath": "images/life-science/100_1681.jpeg",
       "contentFile": "content/life-science/100_1681.json",
       "title": "Seedling",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "imagePath": "images/life-science/Deceased Deer.jpg",
       "contentFile": "content/life-science/Deceased Deer.json",
       "title": "Deceased Deer",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 3,
@@ -27,7 +27,7 @@
       "imagePath": "images/life-science/IMG_0318.jpg",
       "contentFile": "content/life-science/IMG_0318.json",
       "title": "Mourning Dove",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 4,
@@ -36,7 +36,7 @@
       "imagePath": "images/life-science/IMG_0343,jpg.jpg",
       "contentFile": "content/life-science/IMG_0343,jpg.json",
       "title": "Anole",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 5,
@@ -45,7 +45,7 @@
       "imagePath": "images/life-science/IMG_0356.jpeg",
       "contentFile": "content/life-science/IMG_0356.json",
       "title": "Parts of a Plant",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 6,
@@ -54,7 +54,7 @@
       "imagePath": "images/life-science/IMG_0506.jpeg",
       "contentFile": "content/life-science/IMG_0506.json",
       "title": "Predator and Prey",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 7,
@@ -63,7 +63,7 @@
       "imagePath": "images/life-science/IMG_2566.jpeg",
       "contentFile": "content/life-science/IMG_2566.json",
       "title": "Swallowtail Butterfly",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 8,
@@ -72,7 +72,7 @@
       "imagePath": "images/life-science/IMG_4274.jpeg",
       "contentFile": "content/life-science/IMG_4274.json",
       "title": "Dragonfly",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 9,
@@ -81,7 +81,7 @@
       "imagePath": "images/life-science/IMG_9509,jpeg.jpg",
       "contentFile": "content/life-science/IMG_9509,jpeg.json",
       "title": "Seed Germination",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 10,
@@ -90,7 +90,7 @@
       "imagePath": "images/life-science/backyard2.jpg",
       "contentFile": "content/life-science/backyard2.json",
       "title": "Backyard Landscape",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 11,
@@ -108,7 +108,7 @@
       "imagePath": "images/life-science/blackbird.jpg",
       "contentFile": "content/life-science/blackbird.json",
       "title": "Blackbird",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 13,
@@ -117,7 +117,7 @@
       "imagePath": "images/life-science/cicada06282020_hdr.jpg",
       "contentFile": "content/life-science/cicada06282020_hdr.json",
       "title": "Cicada",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 14,
@@ -126,7 +126,7 @@
       "imagePath": "images/life-science/cows.jpg",
       "contentFile": "content/life-science/cows.json",
       "title": "Cows",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 15,
@@ -135,7 +135,7 @@
       "imagePath": "images/life-science/deer camouflage.jpeg",
       "contentFile": "content/life-science/deer camouflage.json",
       "title": "Deer Camouflage",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 16,
@@ -144,7 +144,7 @@
       "imagePath": "images/life-science/find the hidden animal.jpeg",
       "contentFile": "content/life-science/find the hidden animal.json",
       "title": "Find The Hidden Animal",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 17,
@@ -153,7 +153,7 @@
       "imagePath": "images/life-science/fungi01.jpeg",
       "contentFile": "content/life-science/fungi01.json",
       "title": "Fungi01",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 18,
@@ -162,7 +162,7 @@
       "imagePath": "images/life-science/fungi02.jpeg",
       "contentFile": "content/life-science/fungi02.json",
       "title": "Fungi02",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 19,
@@ -171,7 +171,7 @@
       "imagePath": "images/life-science/fungi03.jpeg",
       "contentFile": "content/life-science/fungi03.json",
       "title": "Fungi03",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 20,
@@ -180,7 +180,7 @@
       "imagePath": "images/life-science/fungi04.jpeg",
       "contentFile": "content/life-science/fungi04.json",
       "title": "Fungi04",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 21,
@@ -189,7 +189,7 @@
       "imagePath": "images/life-science/grasshopper eating hibiscus bud.jpeg",
       "contentFile": "content/life-science/grasshopper eating hibiscus bud.json",
       "title": "Grasshopper Eating Hibiscus Bud",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 22,
@@ -198,7 +198,7 @@
       "imagePath": "images/life-science/great egret.jpeg",
       "contentFile": "content/life-science/great egret.json",
       "title": "Great Egret",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 23,
@@ -207,7 +207,7 @@
       "imagePath": "images/life-science/lizard06292020.jpeg",
       "contentFile": "content/life-science/lizard06292020.json",
       "title": "Anole",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 24,
@@ -216,7 +216,7 @@
       "imagePath": "images/life-science/monarch0.jpeg",
       "contentFile": "content/life-science/monarch0.json",
       "title": "Life Cycle Stage of Monarch Butterfly",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 25,
@@ -225,7 +225,7 @@
       "imagePath": "images/life-science/monarch1.jpeg",
       "contentFile": "content/life-science/monarch1.json",
       "title": "Life Cycle Stage of Monarch Butterfly",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 26,
@@ -243,7 +243,7 @@
       "imagePath": "images/life-science/mourning dove 06062020.jpg",
       "contentFile": "content/life-science/mourning dove 06062020.json",
       "title": "Mourning Dove",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 28,
@@ -252,7 +252,7 @@
       "imagePath": "images/life-science/p9.jpg",
       "contentFile": "content/life-science/p9.json",
       "title": "Monarch Caterpillar",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 29,
@@ -261,7 +261,7 @@
       "imagePath": "images/life-science/pelican.jpeg",
       "contentFile": "content/life-science/pelican.json",
       "title": "Pelican",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 30,
@@ -270,7 +270,7 @@
       "imagePath": "images/life-science/pepper.jpeg",
       "contentFile": "content/life-science/pepper.json",
       "title": "Bell Pepper",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 31,
@@ -279,7 +279,7 @@
       "imagePath": "images/life-science/photograph.jpeg",
       "contentFile": "content/life-science/photograph.json",
       "title": "Ecosystem",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 32,
@@ -288,7 +288,7 @@
       "imagePath": "images/life-science/raccoon.jpeg",
       "contentFile": "content/life-science/raccoon.json",
       "title": "Raccoon",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 33,
@@ -297,7 +297,7 @@
       "imagePath": "images/life-science/snowy egret.jpeg",
       "contentFile": "content/life-science/snowy egret.json",
       "title": "Snowy Egret",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 34,
@@ -315,7 +315,7 @@
       "imagePath": "images/life-science/turtles.jpeg",
       "contentFile": "content/life-science/turtles.json",
       "title": "Turtles",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 36,
@@ -324,7 +324,7 @@
       "imagePath": "images/earth-space-science/100_1680.jpeg",
       "contentFile": "content/earth-space-science/100_1680.json",
       "title": "Seasons",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 37,
@@ -333,7 +333,7 @@
       "imagePath": "images/earth-space-science/IMG_1334.jpeg",
       "contentFile": "content/earth-space-science/IMG_1334.json",
       "title": "Mammal",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 38,
@@ -342,7 +342,7 @@
       "imagePath": "images/earth-space-science/IMG_3140.jpeg",
       "contentFile": "content/earth-space-science/IMG_3140.json",
       "title": "Beach",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 39,
@@ -351,7 +351,7 @@
       "imagePath": "images/earth-space-science/IMG_4086.jpeg",
       "contentFile": "content/earth-space-science/IMG_4086.json",
       "title": "Rocks",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 40,
@@ -360,7 +360,7 @@
       "imagePath": "images/earth-space-science/beach.jpeg",
       "contentFile": "content/earth-space-science/beach.json",
       "title": "Beach",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 41,
@@ -369,7 +369,7 @@
       "imagePath": "images/earth-space-science/e01.jpeg",
       "contentFile": "content/earth-space-science/e01.json",
       "title": "Sunrise",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 42,
@@ -378,7 +378,7 @@
       "imagePath": "images/earth-space-science/e02.jpeg",
       "contentFile": "content/earth-space-science/e02.json",
       "title": "Hill",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 43,
@@ -387,7 +387,7 @@
       "imagePath": "images/earth-space-science/e03.jpeg",
       "contentFile": "content/earth-space-science/e03.json",
       "title": "Clouds",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 44,
@@ -396,7 +396,7 @@
       "imagePath": "images/earth-space-science/e05.jpeg",
       "contentFile": "content/earth-space-science/e05.json",
       "title": "Rock covered with Moss and Lichen",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 45,
@@ -405,7 +405,7 @@
       "imagePath": "images/earth-space-science/e06.jpeg",
       "contentFile": "content/earth-space-science/e06.json",
       "title": "Drought",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 46,
@@ -423,7 +423,7 @@
       "imagePath": "images/earth-space-science/fossil02.jpeg",
       "contentFile": "content/earth-space-science/fossil02.json",
       "title": "Fossil in Sedimentary Rock",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 48,
@@ -432,7 +432,7 @@
       "imagePath": "images/earth-space-science/fossil03.jpeg",
       "contentFile": "content/earth-space-science/fossil03.json",
       "title": "Fossil in Sedimentary Rock",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 49,
@@ -441,7 +441,7 @@
       "imagePath": "images/earth-space-science/fossil04.jpeg",
       "contentFile": "content/earth-space-science/fossil04.json",
       "title": "Fossil in Sedimentary Rock",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 50,
@@ -450,7 +450,7 @@
       "imagePath": "images/earth-space-science/p23.jpg",
       "contentFile": "content/earth-space-science/p23.json",
       "title": "Erosion",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 51,
@@ -459,7 +459,7 @@
       "imagePath": "images/earth-space-science/p48.jpg",
       "contentFile": "content/earth-space-science/p48.json",
       "title": "Chrysalis",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 52,
@@ -468,7 +468,7 @@
       "imagePath": "images/earth-space-science/rock.jpeg",
       "contentFile": "content/earth-space-science/rock.json",
       "title": "Sedimentary Rock",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 53,
@@ -477,7 +477,7 @@
       "imagePath": "images/earth-space-science/wood.jpeg",
       "contentFile": "content/earth-space-science/wood.json",
       "title": "Wood",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 54,
@@ -495,7 +495,7 @@
       "imagePath": "images/physical-science/fountain.jpeg",
       "contentFile": "content/physical-science/fountain.json",
       "title": "Fountain",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 56,
@@ -504,7 +504,7 @@
       "imagePath": "images/physical-science/p11.jpg",
       "contentFile": "content/physical-science/p11.json",
       "title": "Matter",
-      "hasContent": false
+      "hasContent": true
     },
     {
       "id": 57,
