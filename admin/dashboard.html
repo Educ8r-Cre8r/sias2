@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIAS Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin-styles.css">
+    <style>
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            border-bottom: 2px solid var(--border);
+        }
+        .tab {
+            padding: 12px 24px;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            transition: all 0.2s;
+        }
+        .tab:hover {
+            color: var(--primary);
+        }
+        .tab.active {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .photo-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid var(--border);
+            transition: all 0.2s;
+        }
+        .photo-card:hover {
+            border-color: var(--primary);
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-2px);
+        }
+        .photo-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .photo-card-body {
+            padding: 16px;
+        }
+        .photo-card-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .photo-card-meta {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+        .photo-card-actions {
+            display: flex;
+            gap: 8px;
+        }
+        .btn-icon {
+            padding: 8px 16px;
+            font-size: 0.875rem;
+        }
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+        .btn-danger:hover {
+            background: #dc2626;
+        }
+        .category-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .badge-life { background: #dcfce7; color: #166534; }
+        .badge-earth { background: #dbeafe; color: #1e40af; }
+        .badge-physical { background: #fce7f3; color: #9f1239; }
+        .toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .search-box {
+            flex: 1;
+            max-width: 400px;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 10px 16px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+        }
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            border: 2px solid var(--border);
+        }
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <header class="admin-header">
+            <div class="header-content">
+                <h1>🔬 Science In A Snapshot</h1>
+                <p class="subtitle">Complete Admin Dashboard</p>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-secondary" onclick="window.open('../index.html', '_blank')">
+                    <span>👁️</span> View Gallery
+                </button>
+            </div>
+        </header>
+
+        <main class="admin-main">
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab('upload')">📤 Upload Photos</button>
+                <button class="tab" onclick="switchTab('manage')">🗂️ Manage Photos</button>
+            </div>
+
+            <!-- Upload Tab -->
+            <div id="uploadTab" class="tab-content active">
+                <div class="card upload-card">
+                    <h2>📤 Upload New Photos</h2>
+
+                    <div class="dropzone" id="dropzone">
+                        <div class="dropzone-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                            <h3>Drag & Drop Photos Here</h3>
+                            <p>or click to browse</p>
+                            <p class="file-types">Supports: JPG, JPEG, PNG, WebP</p>
+                        </div>
+                        <input type="file" id="fileInput" multiple accept="image/jpeg,image/jpg,image/png,image/webp" hidden>
+                    </div>
+
+                    <button class="btn btn-primary btn-large" onclick="document.getElementById('fileInput').click()">
+                        <span>➕</span> Add Photos
+                    </button>
+                </div>
+
+                <!-- Photos to Process -->
+                <div class="card photos-card" id="photosCard" style="display: none;">
+                    <div class="card-header">
+                        <h2>📸 Photos to Upload (<span id="photoCount">0</span>)</h2>
+                        <button class="btn btn-secondary btn-small" onclick="clearAllPhotos()">Clear All</button>
+                    </div>
+                    <div class="photos-grid" id="photosGrid"></div>
+                    <div class="process-section">
+                        <button class="btn btn-success btn-large" onclick="uploadPhotos()" id="uploadBtn">
+                            <span>🚀</span> Upload & Publish to GitHub
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Processing Progress -->
+                <div class="card progress-card" id="progressCard" style="display: none;">
+                    <h2>⚙️ Processing...</h2>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">Uploading files...</p>
+                    <div class="progress-log" id="progressLog"></div>
+                </div>
+
+                <!-- Success Message -->
+                <div class="card success-card" id="successCard" style="display: none;">
+                    <div class="success-icon">✅</div>
+                    <h2>Success!</h2>
+                    <p id="successMessage">Photos uploaded and published!</p>
+                    <button class="btn btn-primary" onclick="resetUploadForm()">Upload More</button>
+                    <button class="btn btn-secondary" onclick="switchTab('manage')">View All Photos</button>
+                </div>
+            </div>
+
+            <!-- Manage Tab -->
+            <div id="manageTab" class="tab-content">
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalPhotos">-</div>
+                        <div class="stat-label">Total Photos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="lifeScience">-</div>
+                        <div class="stat-label">🌱 Life Science</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="earthScience">-</div>
+                        <div class="stat-label">🌍 Earth & Space</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="physicalScience">-</div>
+                        <div class="stat-label">⚗️ Physical Science</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="toolbar">
+                        <div class="search-box">
+                            <input type="search" id="searchInput" placeholder="Search photos...">
+                        </div>
+                        <div class="filter-buttons">
+                            <button class="btn btn-primary btn-small active" data-filter="all" onclick="filterCategory('all', this)">All</button>
+                            <button class="btn btn-secondary btn-small" data-filter="life-science" onclick="filterCategory('life-science', this)">🌱 Life</button>
+                            <button class="btn btn-secondary btn-small" data-filter="earth-space-science" onclick="filterCategory('earth-space-science', this)">🌍 Earth</button>
+                            <button class="btn btn-secondary btn-small" data-filter="physical-science" onclick="filterCategory('physical-science', this)">⚗️ Physical</button>
+                        </div>
+                    </div>
+
+                    <div id="loadingState" style="text-align: center; padding: 40px;">
+                        <div class="spinner"></div>
+                        <p>Loading photos...</p>
+                    </div>
+
+                    <div id="photoGrid" class="photo-grid" style="display: none;"></div>
+                    <div id="emptyState" style="display: none; text-align: center; padding: 40px;">
+                        <p>No photos found.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="admin-footer">
+            <p>&copy; 2026 Alex Jones, M.Ed. | Science In A Snapshot Admin</p>
+        </footer>
+    </div>
+
+    <!-- Photo Item Template (for upload) -->
+    <template id="photoItemTemplate">
+        <div class="photo-item" data-index="">
+            <div class="photo-preview">
+                <img src="" alt="">
+                <button class="btn-remove" onclick="removePhoto(this)">×</button>
+            </div>
+            <div class="photo-details">
+                <div class="form-group">
+                    <label>Title <span class="required">*</span></label>
+                    <input type="text" class="photo-title" placeholder="Enter title" required>
+                </div>
+                <div class="form-group">
+                    <label>Category <span class="required">*</span></label>
+                    <select class="photo-category" required>
+                        <option value="">Select category...</option>
+                        <option value="life-science">🌱 Life Science</option>
+                        <option value="earth-space-science">🌍 Earth & Space Science</option>
+                        <option value="physical-science">⚗️ Physical Science</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Markdown <span class="optional">Optional</span></label>
+                    <input type="file" class="markdown-file" accept=".md,.markdown">
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Delete Confirmation Modal -->
+    <div id="deleteModal" class="modal">
+        <div class="modal-overlay" onclick="closeDeleteModal()"></div>
+        <div class="modal-content">
+            <h2>⚠️ Delete Photo?</h2>
+            <p id="deleteMessage">Are you sure?</p>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeDeleteModal()">Cancel</button>
+                <button class="btn btn-danger" onclick="confirmDelete()">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

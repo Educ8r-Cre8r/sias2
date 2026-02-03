@@ -1,0 +1,18 @@
+{
+  "name": "sias-tools",
+  "version": "1.0.0",
+  "description": "Automation tools for Science In A Snapshot",
+  "type": "module",
+  "scripts": {
+    "categorize": "node categorize-images.js",
+    "generate": "node generate-content.js",
+    "add-photo": "node add-photo.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {},
+  "author": "Alex Jones",
+  "license": "MIT"
+}

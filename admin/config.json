@@ -1,0 +1,24 @@
+{
+  "projectRoot": "/Users/alexjones/Library/CloudStorage/CloudMounter-DXP6800Pro01CM/Educ8r/Claude AI/sias",
+  "uploadsDir": "admin/uploads/pending",
+  "processedDir": "admin/uploads/processed",
+  "imagesDir": "images",
+  "contentDir": "content",
+  "metadataFile": "gallery-metadata.json",
+  "categories": [
+    "life-science",
+    "earth-space-science",
+    "physical-science"
+  ],
+  "imageSettings": {
+    "maxWidth": 2000,
+    "maxHeight": 2000,
+    "quality": 90,
+    "format": "jpeg"
+  },
+  "git": {
+    "autoCommit": true,
+    "autoPush": true,
+    "commitMessageTemplate": "Add {count} new image(s) via admin interface"
+  }
+}

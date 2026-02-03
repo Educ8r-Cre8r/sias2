@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIAS Admin - Photo Upload Manager</title>
+    <link rel="stylesheet" href="css/admin-styles.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Header -->
+        <header class="admin-header">
+            <div class="header-content">
+                <h1>🔬 Science In A Snapshot</h1>
+                <p class="subtitle">Admin Photo Upload Manager</p>
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-secondary" onclick="viewGallery()">
+                    <span>👁️</span> View Gallery
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="admin-main">
+            <!-- Instructions Card -->
+            <div class="card instructions-card">
+                <h2>📝 Quick Guide</h2>
+                <ol>
+                    <li>Drag and drop photos or click "Add Photos" below</li>
+                    <li>For each photo: select category, add title, and optionally upload markdown</li>
+                    <li>Click "Process & Publish" to automatically optimize, organize, and push to GitHub</li>
+                </ol>
+            </div>
+
+            <!-- Upload Section -->
+            <div class="card upload-card">
+                <h2>📤 Upload Photos</h2>
+
+                <div class="dropzone" id="dropzone">
+                    <div class="dropzone-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        <h3>Drag & Drop Photos Here</h3>
+                        <p>or click to browse</p>
+                        <p class="file-types">Supports: JPG, JPEG, PNG, WebP</p>
+                    </div>
+                    <input type="file" id="fileInput" multiple accept="image/jpeg,image/jpg,image/png,image/webp" hidden>
+                </div>
+
+                <button class="btn btn-primary btn-large" onclick="document.getElementById('fileInput').click()">
+                    <span>➕</span> Add Photos
+                </button>
+            </div>
+
+            <!-- Photos Preview Section -->
+            <div class="card photos-card" id="photosCard" style="display: none;">
+                <div class="card-header">
+                    <h2>📸 Photos to Process (<span id="photoCount">0</span>)</h2>
+                    <button class="btn btn-secondary btn-small" onclick="clearAllPhotos()">
+                        Clear All
+                    </button>
+                </div>
+
+                <div class="photos-grid" id="photosGrid">
+                    <!-- Photo items will be added here dynamically -->
+                </div>
+
+                <div class="process-section">
+                    <button class="btn btn-success btn-large" onclick="processAndPublish()" id="processBtn">
+                        <span>🚀</span> Process & Publish to GitHub
+                    </button>
+                </div>
+            </div>
+
+            <!-- Progress Section -->
+            <div class="card progress-card" id="progressCard" style="display: none;">
+                <h2>⚙️ Processing...</h2>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <p class="progress-text" id="progressText">Initializing...</p>
+                <div class="progress-log" id="progressLog"></div>
+            </div>
+
+            <!-- Success Section -->
+            <div class="card success-card" id="successCard" style="display: none;">
+                <div class="success-icon">✅</div>
+                <h2>Success!</h2>
+                <p id="successMessage">Photos have been processed and published to GitHub.</p>
+                <button class="btn btn-primary" onclick="resetForm()">Upload More Photos</button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="admin-footer">
+            <p>&copy; 2026 Alex Jones, M.Ed. | Science In A Snapshot Admin</p>
+        </footer>
+    </div>
+
+    <!-- Photo Item Template -->
+    <template id="photoItemTemplate">
+        <div class="photo-item" data-index="">
+            <div class="photo-preview">
+                <img src="" alt="Photo preview">
+                <button class="btn-remove" onclick="removePhoto(this)" title="Remove photo">×</button>
+            </div>
+            <div class="photo-details">
+                <div class="form-group">
+                    <label>Title <span class="required">*</span></label>
+                    <input type="text" class="photo-title" placeholder="Enter photo title" required>
+                </div>
+                <div class="form-group">
+                    <label>Category <span class="required">*</span></label>
+                    <select class="photo-category" required>
+                        <option value="">Select category...</option>
+                        <option value="life-science">🌱 Life Science</option>
+                        <option value="earth-space-science">🌍 Earth & Space Science</option>
+                        <option value="physical-science">⚗️ Physical Science</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Educational Content (Markdown) <span class="optional">Optional</span></label>
+                    <div class="file-upload-wrapper">
+                        <input type="file" class="markdown-file" accept=".md,.markdown" onchange="handleMarkdownUpload(this)">
+                        <span class="file-upload-label">Choose .md file...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Science In A Snapshot - Exploring the natural world through photography. Educational resources for Third Grade science teachers.">
+    <title>Science In A Snapshot | Educational Science Photography Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section with Parallax -->
+    <section id="hero" class="hero-section">
+        <div class="parallax-background" id="hero-background">
+            <div class="parallax-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Science In A Snapshot</h1>
+            <p class="hero-subtitle">Exploring the natural world through photography</p>
+            <div class="hero-buttons">
+                <button class="explore-btn" onclick="scrollToGallery()" aria-label="Scroll to photo gallery">
+                    Explore Gallery
+                    <span class="arrow-down">↓</span>
+                </button>
+                <button class="overview-btn" onclick="openOverviewModal()" aria-label="Watch overview video">
+                    Overview
+                </button>
+            </div>
+        </div>
+        <!-- Signature Image -->
+        <img src="Alex_name.png" alt="Alex Jones signature" class="hero-signature">
+    </section>
+
+    <!-- Main Gallery Section -->
+    <main id="gallery-section" class="gallery-section">
+        <!-- Particles Background -->
+        <div class="particles-container" id="particles-container"></div>
+        <div class="container">
+            <!-- Category Filters -->
+            <nav class="category-filters" role="navigation" aria-label="Filter gallery by category">
+                <button class="filter-btn active" data-category="all" aria-pressed="true">
+                    All
+                </button>
+                <button class="filter-btn" data-category="life-science" aria-pressed="false">
+                    <span class="category-icon">🌱</span>
+                    Life Science
+                </button>
+                <button class="filter-btn" data-category="earth-space-science" aria-pressed="false">
+                    <span class="category-icon">🌍</span>
+                    Earth & Space Science
+                </button>
+                <button class="filter-btn" data-category="physical-science" aria-pressed="false">
+                    <span class="category-icon">⚗️</span>
+                    Physical Science
+                </button>
+            </nav>
+
+            <!-- Search and Grade Level Controls -->
+            <div class="search-container">
+                <label for="gallery-search" class="sr-only">Search gallery</label>
+                <input
+                    type="search"
+                    id="gallery-search"
+                    class="search-input"
+                    placeholder="Search photos..."
+                    aria-label="Search photos by name or description">
+
+                <label for="grade-level-select" class="sr-only">Select grade level</label>
+                <select
+                    id="grade-level-select"
+                    class="grade-level-select"
+                    aria-label="Select grade level for educational content">
+                    <option value="general">General (3rd Grade)</option>
+                    <option value="kindergarten">Kindergarten</option>
+                    <option value="grade1">1st Grade</option>
+                    <option value="grade2">2nd Grade</option>
+                    <option value="grade3">3rd Grade</option>
+                    <option value="grade4">4th Grade</option>
+                    <option value="grade5">5th Grade</option>
+                </select>
+            </div>
+
+            <!-- Loading State -->
+            <div id="loading-state" class="loading-state">
+                <div class="spinner"></div>
+                <p>Loading gallery...</p>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="gallery-grid" role="list">
+                <!-- Gallery items will be rendered by JavaScript -->
+            </div>
+
+            <!-- Empty State -->
+            <div id="empty-state" class="empty-state" style="display: none;">
+                <p>No images found matching your criteria.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Educational Content Modal -->
+    <div id="educational-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" style="display: none;">
+        <div class="modal-overlay" aria-hidden="true"></div>
+        <div class="modal-content">
+            <!-- AI Disclaimer -->
+            <div class="ai-disclaimer">
+                <span class="warning-icon" aria-hidden="true">⚠️</span>
+                <p>
+                    <strong>AI-Generated Content:</strong> The analysis, suggestions, and all other content generated by the AI are for informational purposes only. This content may contain inaccuracies or biases. You are responsible for reviewing and validating all information before using it in a classroom setting. Do not rely solely on the AI for lesson planning or assessment. Use the grade level selector above to view content tailored for Kindergarten through 5th grade.
+                </p>
+            </div>
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <img class="modal-thumbnail" src="" alt="" loading="lazy">
+                <div class="modal-title-wrapper">
+                    <h2 id="modal-title" class="modal-title"></h2>
+                    <p class="modal-category"></p>
+                </div>
+                <button class="close-btn" onclick="closeModal()" aria-label="Close modal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Modal Body (Educational Content) -->
+            <div class="modal-body" id="modal-body">
+                <div class="loading-content">
+                    <div class="spinner"></div>
+                    <p>Loading educational content...</p>
+                </div>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <p class="copyright">© <span id="current-year">2026</span> Alex Jones, M.Ed. All rights reserved.</p>
+            </div>
+
+            <!-- Scroll to Top Button (inside modal-content for proper positioning) -->
+            <button class="modal-scroll-top-btn" onclick="scrollModalToTop('modal-body')" aria-label="Scroll to top of content" title="Back to top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Image Viewer Modal -->
+    <div id="image-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="image-modal-title">
+        <div class="modal-overlay" onclick="closeImageModal()"></div>
+        <div class="image-modal-content">
+            <div class="image-modal-header">
+                <div class="image-modal-title-section">
+                    <h2 id="image-modal-title" class="image-modal-title"></h2>
+                    <p id="image-modal-credit" class="image-credit">All photographs were taken by Alex Jones.</p>
+                </div>
+                <button class="close-btn image-modal-close-btn" onclick="closeImageModal()" aria-label="Close image viewer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="image-modal-body">
+                <img id="modal-image" src="" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Overview Video Modal -->
+    <div id="overview-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="overview-modal-title">
+        <div class="modal-overlay" onclick="closeOverviewModal()"></div>
+        <div class="video-modal-content">
+            <div class="video-modal-header">
+                <h2 id="overview-modal-title" class="video-modal-title">Overview</h2>
+                <button class="close-btn video-modal-close-btn" onclick="closeOverviewModal()" aria-label="Close overview video">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="video-modal-body">
+                <iframe id="overview-video" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Arkansas Portal Modal -->
+    <div id="arkansas-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="arkansas-modal-title" style="display: none;">
+        <div class="modal-overlay" onclick="closeArkansasPortal()"></div>
+        <div class="arkansas-modal-content">
+            <div class="arkansas-modal-header">
+                <h2 id="arkansas-modal-title">Arkansas State Portal</h2>
+                <button class="close-btn" onclick="closeArkansasPortal()" aria-label="Close Arkansas portal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="arkansas-modal-body">
+                <iframe id="arkansas-iframe" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Visionary Modal -->
+    <div id="visionary-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="visionary-modal-title" style="display: none;">
+        <div class="modal-overlay" onclick="closeVisionaryModal()"></div>
+        <div class="visionary-modal-content">
+            <div class="visionary-modal-header">
+                <h2 id="visionary-modal-title">The Visionary</h2>
+                <button class="close-btn" onclick="closeVisionaryModal()" aria-label="Close visionary profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="visionary-modal-body">
+                <div class="visionary-text">
+                    <p>I am a STEM educator with nearly 20 years of progressive leadership experience in elementary science and STEM education. I previously served as Science Content Specialist for the Massachusetts Department of Elementary and Secondary Education, where I managed the Elementary OpenSciEd grant program across multiple districts and led the Science, Technology, and Engineering evaluation component of CURATE (Curriculum Ratings by Teachers). In this role, I partnered with federal agencies including the U.S. Department of Education Green Ribbon Schools Program and served on the Presidential Awards for Excellence in Mathematics and Science Teaching (PAEMST) committee for the National Science Foundation for the state of Massachusetts.</p>
+
+                    <p>My background includes roles as Educational Technology Specialist, Special Projects Coordinator and Education Specialist developing eLearning curricula. I was selected as a Noyce Fellow at Rice University for The Texas Leadership Initiative for Inquiry Science Teaching (TLIIST), a prestigious National Science Foundation-funded program, and participated in the ExxonMobil Teachers Academy. I hold certifications in Arkansas and Texas in elementary education and building-level administration. I enjoy exploring innovative approaches to digital media integration in elementary science and STEM instruction.</p>
+                </div>
+                <div class="visionary-image">
+                    <img src="visionary.png" alt="The Visionary - STEM Educator" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Gallery Button -->
+    <button id="scroll-to-gallery-btn" class="scroll-to-gallery-btn" onclick="scrollToGallerySmooth()" aria-label="Back to gallery" title="Back to gallery">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Arkansas Section (Left) -->
+                <div class="footer-arkansas">
+                    <img src="AR.png" alt="Arkansas state outline with location marker" class="footer-arkansas-image" onclick="openArkansasPortal()" role="button" tabindex="0" aria-label="Open Arkansas State Portal">
+                    <p class="footer-arkansas-text">Curated in Arkansas</p>
+                </div>
+
+                <!-- Copyright Section (Right) -->
+                <div class="footer-copyright">
+                    <p>Science In A Snapshot © <span id="footer-year">2026</span> Alex Jones, M.Ed.</p>
+                    <p class="footer-credits"><a href="/STEM-Educ8r/svp/index.html" target="_blank" rel="noopener noreferrer">English Learner Strategies</a> | <a href="javascript:void(0);" onclick="openVisionaryModal();" class="visionary-link">The Visionary</a></p>
+                    <img src="Alex_name.png" alt="Alex Jones signature" class="footer-signature" onclick="window.open('../STEM-Educ8r-main/STEM-Educ8r/index.html', '_blank')" role="button" tabindex="0" aria-label="Visit Alex Jones portfolio" style="cursor: pointer;">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="lib/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

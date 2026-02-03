@@ -1,0 +1,506 @@
+[
+  {
+    "filename": "100_1680.jpeg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  },
+  {
+    "filename": "100_1681.jpeg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  },
+  {
+    "filename": "Deceased Deer.jpg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "IMG_0318.jpg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "IMG_0343,jpg.jpg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "IMG_0356.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "IMG_0506.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "IMG_1334.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "IMG_2566.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "IMG_3140.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "IMG_4086.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "IMG_4274.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "IMG_9509,jpeg.jpg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Generic filename - defaulted to earth-space-science",
+    "method": "default-pattern"
+  },
+  {
+    "filename": "backyard2.jpg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  },
+  {
+    "filename": "beach.jpeg",
+    "category": "earth-space-science",
+    "confidence": "medium",
+    "justification": "Filename contains earth/space science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "bee.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "blackbird.jpg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "cicada06282020_hdr.jpg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  },
+  {
+    "filename": "conductor.jpeg",
+    "category": "physical-science",
+    "confidence": "medium",
+    "justification": "Filename contains physical science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "cows.jpg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "deer camouflage.jpeg",
+    "category": "life-science",
+    "confidence": "high",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "e01.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'e##' suggests earth science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "e02.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'e##' suggests earth science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "e03.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'e##' suggests earth science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "e05.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'e##' suggests earth science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "e06.jpeg",
+    "category": "earth-space-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'e##' suggests earth science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "find the hidden animal.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "fossil01.jpeg",
+    "category": "earth-space-science",
+    "confidence": "medium",
+    "justification": "Filename contains earth/space science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "fossil02.jpeg",
+    "category": "earth-space-science",
+    "confidence": "medium",
+    "justification": "Filename contains earth/space science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "fossil03.jpeg",
+    "category": "earth-space-science",
+    "confidence": "medium",
+    "justification": "Filename contains earth/space science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "fossil04.jpeg",
+    "category": "earth-space-science",
+    "confidence": "medium",
+    "justification": "Filename contains earth/space science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "fountain.jpeg",
+    "category": "earth-space-science",
+    "confidence": "medium",
+    "justification": "Filename contains earth/space science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "fungi01.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "fungi02.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "fungi03.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "fungi04.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "grasshopper eating hibiscus bud.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "great egret.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "lizard06292020.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "monarch0.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "monarch1.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "monarch2.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "mourning dove 06062020.jpg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "p11.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p12.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p13.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p15.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p16.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p17.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p19.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p20.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p21.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p23.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p25.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p26.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p28.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p30.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p31.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p32.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p34.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p48.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p6.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "p9.jpg",
+    "category": "physical-science",
+    "confidence": "low",
+    "justification": "Filename pattern 'p##' suggests physical science",
+    "method": "filename-pattern"
+  },
+  {
+    "filename": "pelican.jpeg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  },
+  {
+    "filename": "pepper.jpeg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  },
+  {
+    "filename": "photograph.jpeg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  },
+  {
+    "filename": "raccoon.jpeg",
+    "category": "life-science",
+    "confidence": "medium",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "rock.jpeg",
+    "category": "earth-space-science",
+    "confidence": "medium",
+    "justification": "Filename contains earth/space science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "snowy egret.jpeg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  },
+  {
+    "filename": "sunflower.jpeg",
+    "category": "life-science",
+    "confidence": "high",
+    "justification": "Filename contains life science keywords",
+    "method": "filename-keywords"
+  },
+  {
+    "filename": "turtles.jpeg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  },
+  {
+    "filename": "wood.jpeg",
+    "category": "life-science",
+    "confidence": "low",
+    "justification": "No clear indicators - defaulted to life-science",
+    "method": "fallback"
+  }
+]
