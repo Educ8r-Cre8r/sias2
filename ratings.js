@@ -57,7 +57,16 @@ async function submitRating(photoId, stars) {
 
   // Check if Firebase is available
   if (typeof db === 'undefined' || !db) {
-    alert('Ratings system is currently unavailable. Please check your internet connection or try again later.');
+    const errorMsg = 'Ratings system is currently unavailable.\n\nPossible causes:\n' +
+      '1. Firestore security rules may be too restrictive\n' +
+      '2. Network connectivity issue\n' +
+      '3. Firebase not properly initialized\n\n' +
+      'Please check the browser console (F12) for detailed error information.';
+    alert(errorMsg);
+
+    console.error('=== FIREBASE NOT AVAILABLE ===');
+    console.error('db is undefined. Check firebase-config.js initialization.');
+    console.error('Open browser DevTools > Console for detailed diagnostics.');
     return;
   }
 
@@ -97,13 +106,29 @@ async function submitRating(photoId, stars) {
     userRatings[id] = stars;
     localStorage.setItem('userRatings', JSON.stringify(userRatings));
 
-    console.log(`Rating submitted for photo ${id}: ${stars} stars`);
+    console.log(`✅ Rating submitted for photo ${id}: ${stars} stars`);
 
     // Update UI
-    await updateRatingDisplay(id);
+    await updateRatingDisplay(photoId);
 
   } catch (error) {
-    console.error('Error submitting rating:', error);
+    console.error('❌ Error submitting rating:', error);
+
+    // Provide specific error feedback
+    if (error.code === 'permission-denied') {
+      alert('Permission denied. Firestore security rules need to be updated.\n\n' +
+        'Visit Firebase Console > Firestore > Rules and update to allow writes:\n\n' +
+        'rules_version = \'2\';\n' +
+        'service cloud.firestore {\n' +
+        '  match /databases/{database}/documents {\n' +
+        '    match /{document=**} {\n' +
+        '      allow read, write: if true;\n' +
+        '    }\n' +
+        '  }\n' +
+        '}');
+    } else {
+      alert('Failed to submit rating: ' + error.message);
+    }
   }
 }
 
@@ -281,7 +306,7 @@ function generateInteractiveStarsHTML(photoId) {
   html += '<p>Rate this photo:</p>';
 
   for (let i = 1; i <= 5; i++) {
-    html += `<span class="star-btn" data-stars="${i}" onclick="submitRating('${id}', ${i})">☆</span>`;
+    html += `<span class="star-btn" data-stars="${i}" onclick="submitRating(${id}, ${i})">☆</span>`;
   }
 
   html += '</div>';

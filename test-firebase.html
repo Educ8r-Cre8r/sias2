@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Connection Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .test-item {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #ccc;
+        }
+        .test-item.pending {
+            background: #fff9e6;
+            border-color: #ffc107;
+        }
+        .test-item.success {
+            background: #e8f5e9;
+            border-color: #4CAF50;
+        }
+        .test-item.error {
+            background: #ffebee;
+            border-color: #f44336;
+        }
+        .test-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .test-result {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .icon {
+            font-size: 20px;
+            margin-right: 8px;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 Firebase Rating System Test</h1>
+
+        <div id="test-1" class="test-item pending">
+            <div class="test-label"><span class="icon">📦</span>Test 1: Firebase SDK Loading</div>
+            <div class="test-result">Checking...</div>
+        </div>
+
+        <div id="test-2" class="test-item pending">
+            <div class="test-label"><span class="icon">🔌</span>Test 2: Firebase Initialization</div>
+            <div class="test-result">Waiting for SDK...</div>
+        </div>
+
+        <div id="test-3" class="test-item pending">
+            <div class="test-label"><span class="icon">🗄️</span>Test 3: Firestore Database Connection</div>
+            <div class="test-result">Waiting for initialization...</div>
+        </div>
+
+        <div id="test-4" class="test-item pending">
+            <div class="test-label"><span class="icon">📖</span>Test 4: Read Permission (Test Collection)</div>
+            <div class="test-result">Waiting for database...</div>
+        </div>
+
+        <div id="test-5" class="test-item pending">
+            <div class="test-label"><span class="icon">✏️</span>Test 5: Write Permission (Test Collection)</div>
+            <div class="test-result">Waiting for database...</div>
+        </div>
+
+        <div id="test-6" class="test-item pending">
+            <div class="test-label"><span class="icon">⭐</span>Test 6: Submit Test Rating</div>
+            <div class="test-result">Waiting for permissions...</div>
+        </div>
+
+        <div id="test-7" class="test-item pending">
+            <div class="test-label"><span class="icon">📊</span>Test 7: Read Test Rating</div>
+            <div class="test-result">Waiting for rating submission...</div>
+        </div>
+
+        <div style="margin-top: 30px;">
+            <button id="retest-btn" onclick="runAllTests()">🔄 Run Tests Again</button>
+            <button onclick="window.location.href='index.html'">🏠 Go to Main Site</button>
+        </div>
+
+        <div style="margin-top: 20px; padding: 15px; background: #e3f2fd; border-radius: 5px;">
+            <strong>ℹ️ Troubleshooting:</strong>
+            <ul>
+                <li>If tests fail, check <code>RATING_SYSTEM_FIX.md</code> for solutions</li>
+                <li>Most common issue: Firestore security rules need updating</li>
+                <li>Open browser console (F12) for detailed error messages</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+
+    <script>
+        // Test configuration
+        const TEST_PHOTO_ID = 'test-photo-' + Date.now();
+
+        // Update test status
+        function updateTest(testId, status, message) {
+            const element = document.getElementById(testId);
+            element.className = 'test-item ' + status;
+            element.querySelector('.test-result').textContent = message;
+        }
+
+        // Run all tests
+        async function runAllTests() {
+            console.log('🧪 Starting Firebase tests...');
+
+            // Test 1: Check if Firebase SDK loaded
+            setTimeout(() => {
+                if (typeof firebase !== 'undefined') {
+                    updateTest('test-1', 'success', '✅ Firebase SDK loaded successfully');
+                    runTest2();
+                } else {
+                    updateTest('test-1', 'error', '❌ Firebase SDK failed to load. Check internet connection.');
+                    console.error('Firebase SDK not loaded');
+                }
+            }, 1000);
+        }
+
+        // Test 2: Firebase initialization
+        function runTest2() {
+            try {
+                const firebaseConfig = {
+                    apiKey: "AIzaSyAB15zfLw4O8pUg-NY81lk8UDP24_P_4Eg",
+                    authDomain: "science-in-a-snapshot-cce9d.firebaseapp.com",
+                    projectId: "science-in-a-snapshot-cce9d",
+                    storageBucket: "science-in-a-snapshot-cce9d.firebasestorage.app",
+                    messagingSenderId: "583048081127",
+                    appId: "1:583048081127:web:2a50a9d18cf02befd77c42"
+                };
+
+                // Check if already initialized
+                if (firebase.apps.length === 0) {
+                    firebase.initializeApp(firebaseConfig);
+                }
+
+                window.db = firebase.firestore();
+                updateTest('test-2', 'success', '✅ Firebase initialized with project: ' + firebaseConfig.projectId);
+                runTest3();
+            } catch (error) {
+                updateTest('test-2', 'error', '❌ Initialization failed: ' + error.message);
+                console.error('Firebase initialization error:', error);
+            }
+        }
+
+        // Test 3: Database connection
+        function runTest3() {
+            if (typeof db !== 'undefined' && db) {
+                updateTest('test-3', 'success', '✅ Firestore database object created');
+                runTest4();
+            } else {
+                updateTest('test-3', 'error', '❌ Database object is undefined');
+            }
+        }
+
+        // Test 4: Read permission
+        async function runTest4() {
+            try {
+                const testDoc = await db.collection('_test').doc('_connection').get();
+                updateTest('test-4', 'success', '✅ Read permission granted. Can read from Firestore.');
+                runTest5();
+            } catch (error) {
+                if (error.code === 'permission-denied') {
+                    updateTest('test-4', 'error', '❌ PERMISSION DENIED. Update Firestore security rules! See RATING_SYSTEM_FIX.md');
+                } else {
+                    updateTest('test-4', 'error', '❌ Read failed: ' + error.message);
+                }
+                console.error('Read test failed:', error);
+            }
+        }
+
+        // Test 5: Write permission
+        async function runTest5() {
+            try {
+                await db.collection('_test').doc('_write_test').set({
+                    test: true,
+                    timestamp: firebase.firestore.FieldValue.serverTimestamp()
+                });
+                updateTest('test-5', 'success', '✅ Write permission granted. Can write to Firestore.');
+                runTest6();
+            } catch (error) {
+                if (error.code === 'permission-denied') {
+                    updateTest('test-5', 'error', '❌ PERMISSION DENIED. Update Firestore security rules! See RATING_SYSTEM_FIX.md');
+                } else {
+                    updateTest('test-5', 'error', '❌ Write failed: ' + error.message);
+                }
+                console.error('Write test failed:', error);
+            }
+        }
+
+        // Test 6: Submit a test rating
+        async function runTest6() {
+            try {
+                await db.collection('ratings').doc(TEST_PHOTO_ID).set({
+                    photoId: TEST_PHOTO_ID,
+                    totalRatings: 1,
+                    totalStars: 5,
+                    averageRating: 5,
+                    firstRated: firebase.firestore.FieldValue.serverTimestamp(),
+                    lastRated: firebase.firestore.FieldValue.serverTimestamp()
+                });
+                updateTest('test-6', 'success', '✅ Test rating submitted successfully (5 stars)');
+                runTest7();
+            } catch (error) {
+                if (error.code === 'permission-denied') {
+                    updateTest('test-6', 'error', '❌ PERMISSION DENIED on ratings collection. Update security rules!');
+                } else {
+                    updateTest('test-6', 'error', '❌ Rating submission failed: ' + error.message);
+                }
+                console.error('Rating submission failed:', error);
+            }
+        }
+
+        // Test 7: Read the test rating
+        async function runTest7() {
+            try {
+                const doc = await db.collection('ratings').doc(TEST_PHOTO_ID).get();
+                if (doc.exists) {
+                    const data = doc.data();
+                    updateTest('test-7', 'success',
+                        `✅ Test rating retrieved: ${data.averageRating} stars (${data.totalRatings} ratings)`);
+                    showSuccessMessage();
+                } else {
+                    updateTest('test-7', 'error', '❌ Rating document not found');
+                }
+            } catch (error) {
+                updateTest('test-7', 'error', '❌ Read rating failed: ' + error.message);
+                console.error('Read rating failed:', error);
+            }
+        }
+
+        // Show success message
+        function showSuccessMessage() {
+            console.log('🎉 All tests passed! Rating system is working correctly.');
+
+            const container = document.querySelector('.container');
+            const successDiv = document.createElement('div');
+            successDiv.style.cssText = 'margin-top: 30px; padding: 20px; background: #4CAF50; color: white; border-radius: 10px; text-align: center;';
+            successDiv.innerHTML = `
+                <h2 style="margin: 0 0 10px 0;">🎉 All Tests Passed!</h2>
+                <p style="margin: 0;">Your rating system is working correctly. You can now use ratings on your main site!</p>
+            `;
+            container.appendChild(successDiv);
+        }
+
+        // Auto-run tests on page load
+        window.addEventListener('load', runAllTests);
+    </script>
+</body>
+</html>
