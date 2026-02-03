@@ -1,6 +1,9 @@
 # Environment variables (contains API keys)
 .env
 
+# Firebase configuration (contains API keys)
+firebase-config.js
+
 # Documentation with API keys (create sanitized versions for GitHub)
 PROJECT_SUMMARY.md
 QUICK_REFERENCE.md

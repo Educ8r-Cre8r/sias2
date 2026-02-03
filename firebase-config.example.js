@@ -1,14 +1,14 @@
-// Firebase Configuration
-// Import Firebase modules from CDN (we'll use the CDN version for simplicity)
+// Firebase Configuration Example
+// Copy this file to firebase-config.js and add your actual API keys
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAB15zfLw4O8pUg-NY81lk8UDP24_P_4Eg",
-  authDomain: "science-in-a-snapshot-cce9d.firebaseapp.com",
-  projectId: "science-in-a-snapshot-cce9d",
-  storageBucket: "science-in-a-snapshot-cce9d.firebasestorage.app",
-  messagingSenderId: "583048081127",
-  appId: "1:583048081127:web:42bfcea2e8937bced77c42",
-  measurementId: "G-VGHEPPWXN2"
+  apiKey: "YOUR_API_KEY_HERE",
+  authDomain: "your-project.firebaseapp.com",
+  projectId: "your-project-id",
+  storageBucket: "your-project.firebasestorage.app",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 // Initialize Firebase with error handling
