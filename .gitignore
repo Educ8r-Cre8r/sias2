@@ -1,6 +1,10 @@
 # Environment variables (contains API keys)
 .env
 
+# Documentation with API keys (create sanitized versions for GitHub)
+PROJECT_SUMMARY.md
+QUICK_REFERENCE.md
+
 # Node modules
 node_modules/
 

@@ -1,29 +1,20 @@
 # Science In A Snapshot - Quick Reference
 
-## 📍 Project Location
-```
-/Users/alexjones/Library/CloudStorage/CloudMounter-DXP6800Pro01CM/Educ8r/Claude AI/sias2/sias2
-```
-
 ## 🚀 Quick Commands
 
 ### Start Local Server
 ```bash
-cd "/Users/alexjones/Library/CloudStorage/CloudMounter-DXP6800Pro01CM/Educ8r/Claude AI/sias2/sias2"
 python3 -m http.server 8080
 ```
 Then open: **http://localhost:8080**
 
 ### Check for New Photos
 ```bash
-cd "/Users/alexjones/Library/CloudStorage/CloudMounter-DXP6800Pro01CM/Educ8r/Claude AI/sias2/sias2"
 node check-new-photos.js
 ```
 
 ### Generate Content for New Photos
 ```bash
-cd "/Users/alexjones/Library/CloudStorage/CloudMounter-DXP6800Pro01CM/Educ8r/Claude AI/sias2/sias2"
-
 # For all new photos
 node generate-educational-content.js
 
@@ -39,7 +30,6 @@ node generate-educational-content.js --dry-run
 
 ### Restart Server
 ```bash
-cd "/Users/alexjones/Library/CloudStorage/CloudMounter-DXP6800Pro01CM/Educ8r/Claude AI/sias2/sias2"
 lsof -ti:8080 | xargs kill
 python3 -m http.server 8080
 ```
@@ -53,10 +43,14 @@ python3 -m http.server 8080
 
 ## 🔑 API Configuration
 
-Your API key is in `.env`:
+Create a `.env` file in the project root:
 ```
-ANTHROPIC_API_KEY=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
+ANTHROPIC_API_KEY=your_api_key_here
 ```
+
+Get your API key from: https://console.anthropic.com/
+
+**The `.env` file is protected by `.gitignore` and will not be committed to GitHub.**
 
 ## 📁 Key Files
 
@@ -86,7 +80,38 @@ ANTHROPIC_API_KEY=sk-ant-api03-xZEI9126fFHDl0Zv8dK8wbqW-oNB6v1MSqr0rg8ciw8JuGjwQ
 
 ## 📚 Documentation
 
-- `PROJECT_SUMMARY.md` - Complete overview
+- `PROJECT_SUMMARY_PUBLIC.md` - Complete overview
 - `NEW_PHOTO_WORKFLOW.md` - How to add photos
 - `EDUCATIONAL_CONTENT_GENERATOR.md` - Generator docs
 - `GRADE_LEVEL_FEATURE_SUMMARY.md` - Feature details
+
+## Setup Instructions
+
+1. **Install dependencies:**
+   ```bash
+   npm install @anthropic-ai/sdk dotenv
+   ```
+
+2. **Create `.env` file:**
+   ```bash
+   echo "ANTHROPIC_API_KEY=your_key_here" > .env
+   ```
+
+3. **Start the server:**
+   ```bash
+   python3 -m http.server 8080
+   ```
+
+4. **Open in browser:**
+   ```
+   http://localhost:8080
+   ```
+
+## Adding New Photos
+
+1. Add image to `images/<category>/`
+2. Create JSON file in `content/<category>/`
+3. Run: `node generate-educational-content.js`
+4. Refresh browser to see new photo
+
+That's it! 🎉
