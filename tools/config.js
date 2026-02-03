@@ -13,7 +13,7 @@
 export const config = {
   // Claude API Configuration
   ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY || '',
-  MODEL: 'claude-3-5-sonnet-20241022',
+  MODEL: 'claude-sonnet-4-20250514',
   MAX_TOKENS: 4096,
   TEMPERATURE: 0.7,
 

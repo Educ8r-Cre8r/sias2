@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-02T22:20:00.000Z",
-  "totalImages": 80,
+  "lastUpdated": "2026-02-03T23:50:00.000Z",
+  "totalImages": 81,
   "images": [
     {
       "id": 1,
@@ -720,6 +720,15 @@
       "imagePath": "images/physical-science/ice_ball.jpg",
       "contentFile": "content/physical-science/ice_ball.json",
       "title": "Ice Ball",
+      "hasContent": true
+    },
+    {
+      "id": 81,
+      "filename": "stinkhorn_mushroom.pg.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/stinkhorn_mushroom.pg.jpg",
+      "contentFile": "content/life-science/stinkhorn_mushroom.pg.json",
+      "title": "Stinkhorn Mushroom",
       "hasContent": true
     }
   ]
