@@ -1,5 +1,10 @@
 // Firebase Configuration
 // Import Firebase modules from CDN (we'll use the CDN version for simplicity)
+//
+// NOTE: This API key is intentionally public and safe to commit to GitHub.
+// Firebase client API keys are designed to be included in public code.
+// Security is enforced through Firestore security rules, not by hiding the API key.
+// See: https://firebase.google.com/docs/projects/api-keys
 
 const firebaseConfig = {
   apiKey: "AIzaSyBFn1uuftmVEO3Nx7CFhjtW5RQbifJLcdQ",
