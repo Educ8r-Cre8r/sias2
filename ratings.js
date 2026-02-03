@@ -10,6 +10,11 @@ const userRatings = JSON.parse(localStorage.getItem('userRatings') || '{}');
  * Record a view for a photo
  */
 async function recordPhotoView(photoId) {
+  // Wait for Firebase to initialize
+  if (typeof window.waitForFirebase === 'function') {
+    await window.waitForFirebase();
+  }
+
   // Check if Firebase is available
   if (typeof db === 'undefined' || !db) {
     console.warn('Firebase not available - views will not be recorded');
@@ -53,6 +58,11 @@ async function submitRating(photoId, stars) {
   if (stars < 1 || stars > 5) {
     console.error('Invalid rating: must be 1-5 stars');
     return;
+  }
+
+  // Wait for Firebase to initialize
+  if (typeof window.waitForFirebase === 'function') {
+    await window.waitForFirebase();
   }
 
   // Check if Firebase is available
@@ -136,6 +146,11 @@ async function submitRating(photoId, stars) {
  * Get ratings for a photo
  */
 async function getRatings(photoId) {
+  // Wait for Firebase to initialize
+  if (typeof window.waitForFirebase === 'function') {
+    await window.waitForFirebase();
+  }
+
   // Check if Firebase is available
   if (typeof db === 'undefined' || !db) {
     const id = String(photoId);
@@ -171,6 +186,11 @@ async function getRatings(photoId) {
  * Get view count for a photo
  */
 async function getViews(photoId) {
+  // Wait for Firebase to initialize
+  if (typeof window.waitForFirebase === 'function') {
+    await window.waitForFirebase();
+  }
+
   // Check if Firebase is available
   if (typeof db === 'undefined' || !db) {
     return 0;
