@@ -272,28 +272,72 @@ async function generateContent(imagePath, filename, category, repoDir, anthropic
   for (const grade of GRADE_LEVELS) {
     console.log(`   📝 Generating ${grade.name} content...`);
 
-    const prompt = `You are an educational content creator for Science In A Snapshot, a platform for elementary school science education.
+    const prompt = `You are an expert K-5 Science Instructional Coach and NGSS Curriculum Specialist.
 
-Create age-appropriate educational content for ${grade.name} students about this science image.
+Your goal is to analyze the provided image to help a teacher create a rigorous, age-appropriate science lesson for a **${grade.name}** class.
 
-Requirements:
-- Title: Short, engaging title (5-10 words)
-- Description: ${grade.key === 'kindergarten' ? '2-3 simple sentences' : grade.key.includes('first') || grade.key.includes('second') ? '3-4 sentences' : '4-5 sentences'}
-- Vocabulary appropriate for ${grade.name}
-- Focus on observation and wonder
-- Encourage curiosity about science
+Category: ${category}
+Image: ${filename}
 
-Return ONLY valid JSON in this exact format:
-{
-  "title": "engaging title here",
-  "description": "educational description here",
-  "gradeLevel": "${grade.name}"
-}`;
+### GUIDELINES
+- **Tone:** Professional, encouraging, and scientifically accurate
+- **Audience:** The teacher (not the student)
+- **Format:** Strict Markdown. Start directly with the first section header
+- **Safety:** Ensure all suggested activities are safe for elementary students
+
+### REQUIRED OUTPUT SECTIONS
+Generate ONLY the sections below. Use Level 2 Markdown headers (##) with emojis.
+
+## 📸 Photo Description
+Describe the key scientific elements visible in 2-3 sentences at ${grade.name} reading level. Focus on observable features.
+
+## 🔬 Scientific Phenomena
+Identify the specific "Anchoring Phenomenon" this image represents. Explain WHY it is happening scientifically, in language appropriate for elementary teachers.
+
+## 📚 Core Science Concepts
+Detail 2-4 fundamental science concepts illustrated by this photo. Use numbered or bulleted lists.
+
+**CRITICAL:** Somewhere within this section, you MUST include:
+1. A short pedagogical tip wrapped in <pedagogical-tip>...</pedagogical-tip> tags
+2. A Universal Design for Learning (UDL) suggestion wrapped in <udl-suggestions>...</udl-suggestions> tags
+
+## 🎓 NGSS Connections
+- You MUST use specific formatting for clickable links
+- Wrap Disciplinary Core Ideas (DCI) in double brackets: [[NGSS:DCI:Code]]
+  Example: [[NGSS:DCI:3-LS4.D]]
+- Wrap Crosscutting Concepts (CCC) in double brackets: [[NGSS:CCC:Name]]
+  Example: [[NGSS:CCC:Patterns]]
+- List the Performance Expectation (PE) code and text normally
+
+## 💬 Discussion Questions
+Provide 3-4 open-ended questions. Label EVERY question with its Bloom's Taxonomy level and Depth of Knowledge (DOK) level.
+Example: "Why did the ice melt? (Bloom's: Analyze | DOK: 2)"
+
+## 📖 Vocabulary
+Provide a bulleted list of 3-6 tier 2 or tier 3 science words.
+Format strictly as: * **Word:** Kid-friendly definition (1 sentence)
+
+## 🌡️ Extension Activities
+Provide 2-3 hands-on extension activities appropriate for ${grade.name} students.
+
+## 📚 External Resources
+Provide real, existing resources:
+- **Children's Books:** Title by Author (2-3 books)
+- **YouTube Videos:** Title, brief description, and valid URL (2 videos)
+
+---
+
+Remember:
+- Use Markdown formatting throughout
+- Include the special XML tags for pedagogical tips and UDL strategies
+- Use the [[NGSS:...]] format for standards
+- Keep language at ${grade.name} level where appropriate
+- Be scientifically accurate and engaging`;
 
     try {
       const response = await anthropic.messages.create({
         model: 'claude-sonnet-4-20250514',
-        max_tokens: 1024,
+        max_tokens: 4096,
         messages: [{
           role: 'user',
           content: [
@@ -319,19 +363,18 @@ Return ONLY valid JSON in this exact format:
       const cost = (inputTokens * 0.003 / 1000) + (outputTokens * 0.015 / 1000);
       totalCost += cost;
 
-      // Parse the response
-      const contentText = response.content[0].text;
-      const content = JSON.parse(contentText);
+      // Get the markdown content directly
+      const markdownContent = response.content[0].text;
 
       // Create the full structure for individual grade-level file
       const gradeFileContent = {
         id: 0, // Will be set by metadata
-        title: content.title,
+        title: baseFilename.charAt(0).toUpperCase() + baseFilename.slice(1).replace(/-/g, ' '),
         category: category,
         imageFile: filename,
         imagePath: `images/${category}/${filename}`,
-        gradeLevel: content.gradeLevel,
-        content: content.description, // Use description as the content field
+        gradeLevel: grade.name,
+        content: markdownContent, // Store the full markdown content
         generatedAt: new Date().toISOString()
       };
 
@@ -339,8 +382,8 @@ Return ONLY valid JSON in this exact format:
       const contentFilePath = path.join(contentDir, `${baseFilename}-${grade.key}.json`);
       await fs.writeFile(contentFilePath, JSON.stringify(gradeFileContent, null, 2));
 
-      // Store for combined file (using description as the content)
-      educationalContent[grade.key.replace('-', '')] = content.description;
+      // Store for combined file (using markdown as the content)
+      educationalContent[grade.key.replace('-', '')] = markdownContent;
 
       console.log(`   ✅ ${grade.name} content saved`);
 
