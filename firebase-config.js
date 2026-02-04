@@ -55,42 +55,46 @@ function initializeFirebase() {
     db = firebase.firestore();
     auth = firebase.auth();
 
-    // Sign in anonymously
-    auth.signInAnonymously()
-      .then(() => {
-        console.log('✅ Signed in anonymously');
+    // Set up auth state listener FIRST (before any sign-in attempts)
+    // This will detect if user is already signed in from previous session
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        currentUser = user;
+        console.log('✅ User authenticated:', user.isAnonymous ? 'Anonymous' : user.email);
+        console.log('   User ID:', user.uid);
+        console.log('   Session persisted:', !user.isAnonymous ? 'Google account' : 'Anonymous');
 
-        // Listen for auth state changes
-        auth.onAuthStateChanged((user) => {
-          if (user) {
-            currentUser = user;
-            console.log('✅ User authenticated:', user.isAnonymous ? 'Anonymous' : user.email);
-            console.log('   User ID:', user.uid);
+        // Update UI based on user type
+        updateAuthUI(user);
 
-            // Update UI based on user type
-            updateAuthUI(user);
+        // Mark Firebase as ready after authentication
+        if (!firebaseInitialized) {
+          firebaseInitialized = true;
+          window.firebaseReadyResolve(true);
+        }
+      } else {
+        // No user signed in - sign in anonymously
+        console.log('⚠️ No user session found, signing in anonymously...');
+        currentUser = null;
+        updateAuthUI(null);
 
-            // Mark Firebase as ready after authentication
+        auth.signInAnonymously()
+          .then(() => {
+            console.log('✅ Signed in anonymously (new session)');
+          })
+          .catch((error) => {
+            console.error('❌ Anonymous sign-in failed:', error);
+            console.error('Error code:', error.code);
+            console.error('Error message:', error.message);
+
+            // Still mark as initialized so we can attempt operations
             if (!firebaseInitialized) {
               firebaseInitialized = true;
-              window.firebaseReadyResolve(true);
+              window.firebaseReadyResolve(false);
             }
-          } else {
-            console.log('❌ No user signed in');
-            currentUser = null;
-            updateAuthUI(null);
-          }
-        });
-      })
-      .catch((error) => {
-        console.error('❌ Anonymous sign-in failed:', error);
-        console.error('Error code:', error.code);
-        console.error('Error message:', error.message);
-
-        // Still mark as initialized so we can attempt operations
-        firebaseInitialized = true;
-        window.firebaseReadyResolve(false);
-      });
+          });
+      }
+    });
 
   } catch (error) {
     console.error('Firebase initialization error:', error);
