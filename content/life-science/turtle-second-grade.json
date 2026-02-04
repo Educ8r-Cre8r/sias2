@@ -1,5 +1,10 @@
 {
+  "id": 85,
   "title": "Amazing Box Turtle in Its Natural Home",
-  "description": "Look at this wonderful box turtle resting among the plants and rocks! Box turtles have hard shells that protect them like a suit of armor. They love to eat plants, berries, and insects they find on the forest floor. Can you see how its colorful shell helps it blend in with the leaves and dirt around it?",
-  "gradeLevel": "Second Grade"
+  "category": "life-science",
+  "imageFile": "turtle.jpg",
+  "imagePath": "images/life-science/turtle.jpg",
+  "gradeLevel": "Second Grade",
+  "content": "Look at this wonderful box turtle resting among the plants and rocks! Box turtles have hard shells that protect them like a suit of armor. They love to eat plants, berries, and insects they find on the forest floor. Can you see how its colorful shell helps it blend in with the leaves and dirt around it?",
+  "generatedAt": "2026-02-04T21:00:00.000Z"
 }

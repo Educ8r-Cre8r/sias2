@@ -323,9 +323,21 @@ Return ONLY valid JSON in this exact format:
       const contentText = response.content[0].text;
       const content = JSON.parse(contentText);
 
+      // Create the full structure for individual grade-level file
+      const gradeFileContent = {
+        id: 0, // Will be set by metadata
+        title: content.title,
+        category: category,
+        imageFile: filename,
+        imagePath: `images/${category}/${filename}`,
+        gradeLevel: content.gradeLevel,
+        content: content.description, // Use description as the content field
+        generatedAt: new Date().toISOString()
+      };
+
       // Save individual grade-level file
       const contentFilePath = path.join(contentDir, `${baseFilename}-${grade.key}.json`);
-      await fs.writeFile(contentFilePath, JSON.stringify(content, null, 2));
+      await fs.writeFile(contentFilePath, JSON.stringify(gradeFileContent, null, 2));
 
       // Store for combined file (using description as the content)
       educationalContent[grade.key.replace('-', '')] = content.description;

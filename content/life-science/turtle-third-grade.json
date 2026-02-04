@@ -1,5 +1,10 @@
 {
+  "id": 85,
   "title": "A Turtle's Amazing Natural Home",
-  "description": "Look at this cool turtle hiding among the rocks and plants! Turtles are reptiles that carry their homes on their backs wherever they go. This turtle's shell has beautiful patterns that help it blend in with its surroundings. Can you see how the turtle's colors match the rocks and leaves around it? This special camouflage helps keep the turtle safe from animals that might want to hurt it.",
-  "gradeLevel": "Third Grade"
+  "category": "life-science",
+  "imageFile": "turtle.jpg",
+  "imagePath": "images/life-science/turtle.jpg",
+  "gradeLevel": "Third Grade",
+  "content": "Look at this cool turtle hiding among the rocks and plants! Turtles are reptiles that carry their homes on their backs wherever they go. This turtle's shell has beautiful patterns that help it blend in with its surroundings. Can you see how the turtle's colors match the rocks and leaves around it? This special camouflage helps keep the turtle safe from animals that might want to hurt it.",
+  "generatedAt": "2026-02-04T21:00:00.000Z"
 }
