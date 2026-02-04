@@ -44,18 +44,29 @@ function getImageMediaType(filename) {
   return 'image/jpeg';
 }
 
-// Generate educational content for a single image
-async function generateContent(imageItem) {
+// Grade level configurations
+const GRADE_LEVELS = {
+  'kindergarten': { name: 'Kindergarten', readingLevel: 'K.0-1.0', ngssGrade: 'K' },
+  'first-grade': { name: 'First Grade', readingLevel: '1.0-2.0', ngssGrade: '1' },
+  'second-grade': { name: 'Second Grade', readingLevel: '2.0-3.0', ngssGrade: '2' },
+  'third-grade': { name: 'Third Grade', readingLevel: '3.0-4.0', ngssGrade: '3' },
+  'fourth-grade': { name: 'Fourth Grade', readingLevel: '4.0-5.0', ngssGrade: '4' },
+  'fifth-grade': { name: 'Fifth Grade', readingLevel: '5.0-6.0', ngssGrade: '5' }
+};
+
+// Generate educational content for a single image at a specific grade level
+async function generateContent(imageItem, gradeLevel) {
   try {
     const imagePath = path.join(__dirname, '..', imageItem.imagePath);
     const imageBase64 = readImageAsBase64(imagePath);
     const mediaType = getImageMediaType(imageItem.filename);
 
     const categoryName = config.CATEGORIES[imageItem.category]?.name || imageItem.category;
+    const grade = GRADE_LEVELS[gradeLevel];
 
     const prompt = `You are an expert K-5 Science Instructional Coach and NGSS Curriculum Specialist.
 
-Your goal is to analyze the provided image to help a teacher create a rigorous, age-appropriate science lesson for a **Third Grade** class.
+Your goal is to analyze the provided image to help a teacher create a rigorous, age-appropriate science lesson for a **${grade.name}** class.
 
 Category: ${categoryName}
 Image: ${imageItem.filename}
@@ -70,7 +81,7 @@ Image: ${imageItem.filename}
 Generate ONLY the sections below. Use Level 2 Markdown headers (##) with emojis.
 
 ## 📸 Photo Description
-Describe the key scientific elements visible in 2-3 sentences at 3rd grade reading level (Flesch-Kincaid 3.0-4.0). Focus on observable features.
+Describe the key scientific elements visible in 2-3 sentences at ${grade.name} reading level (Flesch-Kincaid ${grade.readingLevel}). Focus on observable features.
 
 ## 🔬 Scientific Phenomena
 Identify the specific "Anchoring Phenomenon" this image represents. Explain WHY it is happening scientifically, in language appropriate for elementary teachers.
@@ -88,7 +99,7 @@ Provide two distinct perspectives:
 2. **Zoom Out:** The larger system connection (e.g., ecosystem, watershed, planetary)
 
 ## 🤔 Potential Student Misconceptions
-List 1-3 common naive conceptions Third Grade students might have about this topic and provide the scientific clarification.
+List 1-3 common naive conceptions ${grade.name} students might have about this topic and provide the scientific clarification.
 
 ## 🎓 NGSS Connections
 - You MUST use specific formatting for clickable links
@@ -116,8 +127,8 @@ Provide real, existing resources:
 Remember:
 - Use Markdown formatting throughout
 - Include the special XML tags for pedagogical tips and UDL strategies
-- Use the [[NGSS:...]] format for standards
-- Keep language at Third Grade level where appropriate
+- Use the [[NGSS:...]] format for standards (use ${grade.ngssGrade} standards when available)
+- Keep language at ${grade.name} level where appropriate
 - Be scientifically accurate and engaging`;
 
     const message = await anthropic.messages.create({
@@ -153,6 +164,7 @@ Remember:
       category: imageItem.category,
       imageFile: imageItem.filename,
       imagePath: imageItem.imagePath,
+      gradeLevel: gradeLevel,
       content: content,
       generatedAt: new Date().toISOString()
     };
@@ -199,38 +211,73 @@ async function generateAllContent(options = {}) {
     console.log(`🎯 Processing single image: ${options.image}`);
   }
 
-  console.log(`📊 Generating content for ${imagesToProcess.length} images\n`);
+  // Skip images that already have content for ALL grade levels (unless forced)
+  if (!options.force) {
+    const beforeCount = imagesToProcess.length;
+    imagesToProcess = imagesToProcess.filter(img => {
+      // Check if content exists for all grade levels
+      const baseName = path.basename(img.contentFile, '.json');
+      const dirName = path.dirname(img.contentFile);
+
+      for (const gradeKey of Object.keys(GRADE_LEVELS)) {
+        const gradeContentFile = `${dirName}/${baseName}-${gradeKey}.json`;
+        const contentPath = path.join(__dirname, '..', gradeContentFile);
+        if (!fs.existsSync(contentPath)) {
+          return true; // Include this image because at least one grade level is missing
+        }
+      }
+      return false; // Skip this image because all grade levels exist
+    });
+    const skippedCount = beforeCount - imagesToProcess.length;
+    if (skippedCount > 0) {
+      console.log(`📋 Skipped ${skippedCount} images that already have content for all grade levels`);
+    }
+  }
+
+  const totalGenerations = imagesToProcess.length * Object.keys(GRADE_LEVELS).length;
+  console.log(`📊 Generating content for ${imagesToProcess.length} images × ${Object.keys(GRADE_LEVELS).length} grade levels = ${totalGenerations} total pieces\n`);
 
   let successCount = 0;
   let errorCount = 0;
 
   for (let i = 0; i < imagesToProcess.length; i++) {
     const imageItem = imagesToProcess[i];
-    console.log(`[${i + 1}/${imagesToProcess.length}] Generating: ${imageItem.filename}`);
+    console.log(`\n[${i + 1}/${imagesToProcess.length}] Processing: ${imageItem.filename}`);
 
-    const result = await generateContent(imageItem);
+    // Generate content for each grade level
+    for (const [gradeKey, gradeInfo] of Object.entries(GRADE_LEVELS)) {
+      console.log(`   📝 Generating ${gradeInfo.name} content...`);
 
-    if (result) {
-      // Save content to JSON file
-      const contentPath = path.join(__dirname, '..', imageItem.contentFile);
-      const contentDir = path.dirname(contentPath);
+      const result = await generateContent(imageItem, gradeKey);
 
-      // Ensure directory exists
-      if (!fs.existsSync(contentDir)) {
-        fs.mkdirSync(contentDir, { recursive: true });
+      if (result) {
+        // Create grade-specific filename
+        const baseName = path.basename(imageItem.contentFile, '.json');
+        const dirName = path.dirname(imageItem.contentFile);
+        const gradeContentFile = `${dirName}/${baseName}-${gradeKey}.json`;
+        const contentPath = path.join(__dirname, '..', gradeContentFile);
+        const contentDir = path.dirname(contentPath);
+
+        // Ensure directory exists
+        if (!fs.existsSync(contentDir)) {
+          fs.mkdirSync(contentDir, { recursive: true });
+        }
+
+        fs.writeFileSync(contentPath, JSON.stringify(result, null, 2));
+        console.log(`   ✅ ${gradeInfo.name} content saved`);
+        successCount++;
+
+      } else {
+        console.log(`   ❌ Failed to generate ${gradeInfo.name} content`);
+        errorCount++;
       }
 
-      fs.writeFileSync(contentPath, JSON.stringify(result, null, 2));
-      console.log(`   ✅ Content saved to ${imageItem.contentFile}\n`);
-      successCount++;
-
-      // Update metadata
-      imageItem.hasContent = true;
-
-    } else {
-      console.log(`   ❌ Failed to generate content\n`);
-      errorCount++;
+      // Rate limiting between grade levels
+      await delay(config.RATE_LIMIT_DELAY);
     }
+
+    // Update metadata to indicate content exists
+    imageItem.hasContent = true;
 
     // Rate limiting
     if (i < imagesToProcess.length - 1) {
@@ -244,13 +291,18 @@ async function generateAllContent(options = {}) {
   console.log('💾 Updated gallery-metadata.json\n');
 
   // Summary
-  console.log('📊 Summary:');
+  console.log('\n📊 Summary:');
   console.log(`   ✅ Successfully generated: ${successCount}`);
   console.log(`   ❌ Failed: ${errorCount}`);
-  console.log(`   📁 Total processed: ${imagesToProcess.length}\n`);
+  console.log(`   📁 Total images processed: ${imagesToProcess.length}`);
+  console.log(`   📚 Total grade-level content pieces generated: ${successCount}\n`);
+
+  // Rough cost estimation (Claude Sonnet 4: $3/MTok input, $15/MTok output)
+  // Estimated ~2000 tokens input, ~3000 tokens output per generation
+  const estimatedCost = successCount * ((2000 * 3 / 1000000) + (3000 * 15 / 1000000));
+  console.log(`💰 Estimated cost: $${estimatedCost.toFixed(2)}\n`);
 
   console.log('✨ Content generation complete!');
-  console.log('   Next step: Build the website frontend (index.html, style.css, script.js)\n');
 }
 
 // Parse command line arguments
