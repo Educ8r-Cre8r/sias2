@@ -464,8 +464,14 @@ async function loadEducationalContent(image, modalBody) {
     const baseFile = image.contentFile.replace('.json', '');
     const gradeContentFile = `${baseFile}-${state.selectedGradeLevel}.json`;
 
-    // Load from JSON file
-    const response = await fetch(gradeContentFile);
+    // Try to load grade-specific file first
+    let response = await fetch(gradeContentFile);
+
+    // If grade-specific file doesn't exist, fall back to original file
+    if (!response.ok) {
+      console.log(`Grade-specific file not found: ${gradeContentFile}, falling back to ${image.contentFile}`);
+      response = await fetch(image.contentFile);
+    }
 
     if (!response.ok) {
       throw new Error('Content not found');
@@ -484,8 +490,8 @@ async function loadEducationalContent(image, modalBody) {
     modalBody.innerHTML = `
       <div class="error-message">
         <p><strong>⚠️ Content Not Available</strong></p>
-        <p>Educational content for this grade level hasn't been generated yet.</p>
-        <p>Please try a different grade level or check back later.</p>
+        <p>Educational content for this image hasn't been generated yet.</p>
+        <p>Please check back later or contact the site administrator.</p>
       </div>
     `;
   }
