@@ -130,8 +130,6 @@ function updateAuthUI(user) {
   requestAnimationFrame(() => {
     const authAnonymous = document.getElementById('auth-anonymous');
     const authSignedIn = document.getElementById('auth-signed-in');
-    const userPhoto = document.getElementById('user-photo');
-    const userName = document.getElementById('user-name');
 
     if (!authAnonymous || !authSignedIn) {
       console.warn('Auth UI elements not found, will retry...');
@@ -150,21 +148,117 @@ function updateAuthUI(user) {
       authSignedIn.style.display = 'none';
       console.log('📱 UI: Showing sign-in button (anonymous user)');
     } else {
-      // Signed in with Google - show profile
+      // Signed in with Google - show avatar
       authAnonymous.style.display = 'none';
       authSignedIn.style.display = 'block';
 
-      // Update profile info
-      if (userPhoto && user.photoURL) {
-        userPhoto.src = user.photoURL;
-        userPhoto.alt = user.displayName || 'User profile photo';
+      // Get user initials from name or email
+      const displayName = user.displayName || user.email || 'User';
+      const initials = getInitials(displayName);
+
+      // Update avatar initials (both small and large)
+      const userInitials = document.getElementById('user-initials');
+      const userInitialsLarge = document.getElementById('user-initials-large');
+      if (userInitials) userInitials.textContent = initials;
+      if (userInitialsLarge) userInitialsLarge.textContent = initials;
+
+      // Update menu info
+      const userNameMenu = document.getElementById('user-name-menu');
+      const userEmailMenu = document.getElementById('user-email-menu');
+      if (userNameMenu) userNameMenu.textContent = user.displayName || 'User';
+      if (userEmailMenu) userEmailMenu.textContent = user.email || '';
+
+      // If user has a photo URL, add it as background (but keep initials as fallback)
+      if (user.photoURL) {
+        const userAvatar = document.getElementById('user-avatar');
+        const userAvatarLarge = document.getElementById('user-avatar-large');
+
+        if (userAvatar && !userAvatar.querySelector('img')) {
+          const img = document.createElement('img');
+          img.src = user.photoURL;
+          img.className = 'user-avatar-bg';
+          img.alt = displayName;
+          // Hide initials when photo loads
+          img.onload = () => {
+            if (userInitials) userInitials.style.display = 'none';
+          };
+          // Show initials if photo fails to load
+          img.onerror = () => {
+            img.remove();
+            if (userInitials) userInitials.style.display = 'block';
+          };
+          userAvatar.appendChild(img);
+        }
+
+        if (userAvatarLarge && !userAvatarLarge.querySelector('img')) {
+          const img = document.createElement('img');
+          img.src = user.photoURL;
+          img.className = 'user-avatar-large-bg';
+          img.alt = displayName;
+          img.onload = () => {
+            if (userInitialsLarge) userInitialsLarge.style.display = 'none';
+          };
+          img.onerror = () => {
+            img.remove();
+            if (userInitialsLarge) userInitialsLarge.style.display = 'block';
+          };
+          userAvatarLarge.appendChild(img);
+        }
       }
-      if (userName) {
-        userName.textContent = user.displayName || user.email || 'User';
-      }
-      console.log('📱 UI: Showing user profile:', user.displayName || user.email);
+
+      console.log('📱 UI: Showing user avatar:', displayName, initials);
     }
   });
+}
+
+/**
+ * Get initials from display name
+ */
+function getInitials(name) {
+  if (!name) return '?';
+
+  const parts = name.trim().split(/\s+/);
+  if (parts.length === 1) {
+    // Single name: take first 2 characters
+    return parts[0].substring(0, 2).toUpperCase();
+  } else {
+    // Multiple names: take first letter of first two words
+    return (parts[0][0] + parts[1][0]).toUpperCase();
+  }
+}
+
+/**
+ * Toggle user menu dropdown
+ */
+function toggleUserMenu() {
+  const userMenu = document.getElementById('user-menu');
+  if (!userMenu) return;
+
+  if (userMenu.style.display === 'none' || !userMenu.style.display) {
+    userMenu.style.display = 'block';
+    // Close menu when clicking outside
+    setTimeout(() => {
+      document.addEventListener('click', closeUserMenuOnClickOutside);
+    }, 0);
+  } else {
+    userMenu.style.display = 'none';
+    document.removeEventListener('click', closeUserMenuOnClickOutside);
+  }
+}
+
+/**
+ * Close user menu when clicking outside
+ */
+function closeUserMenuOnClickOutside(event) {
+  const userMenu = document.getElementById('user-menu');
+  const userAvatarBtn = document.getElementById('user-avatar-btn');
+
+  if (userMenu && userAvatarBtn &&
+      !userMenu.contains(event.target) &&
+      !userAvatarBtn.contains(event.target)) {
+    userMenu.style.display = 'none';
+    document.removeEventListener('click', closeUserMenuOnClickOutside);
+  }
 }
 
 /**
@@ -239,3 +333,4 @@ async function signOut() {
 // Expose functions globally
 window.signInWithGoogle = signInWithGoogle;
 window.signOut = signOut;
+window.toggleUserMenu = toggleUserMenu;

@@ -30,14 +30,33 @@
                 </button>
             </div>
 
-            <!-- Signed In User - Show Profile -->
+            <!-- Signed In User - Show Avatar Button with Dropdown -->
             <div class="auth-signed-in" id="auth-signed-in" style="display: none;">
-                <div class="user-profile">
-                    <img id="user-photo" class="user-photo" src="" alt="User profile photo">
-                    <div class="user-info">
-                        <span id="user-name" class="user-name"></span>
-                        <button class="sign-out-btn" onclick="signOut()" aria-label="Sign out">Sign Out</button>
+                <button class="user-avatar-btn" id="user-avatar-btn" onclick="toggleUserMenu()" aria-label="User menu">
+                    <div class="user-avatar" id="user-avatar">
+                        <span id="user-initials" class="user-initials"></span>
                     </div>
+                </button>
+                <!-- Dropdown Menu -->
+                <div class="user-menu" id="user-menu" style="display: none;">
+                    <div class="user-menu-header">
+                        <div class="user-avatar-large" id="user-avatar-large">
+                            <span id="user-initials-large" class="user-initials"></span>
+                        </div>
+                        <div class="user-menu-info">
+                            <div id="user-name-menu" class="user-name-menu"></div>
+                            <div id="user-email-menu" class="user-email-menu"></div>
+                        </div>
+                    </div>
+                    <div class="user-menu-divider"></div>
+                    <button class="user-menu-item" onclick="signOut()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                            <polyline points="16 17 21 12 16 7"></polyline>
+                            <line x1="21" y1="12" x2="9" y2="12"></line>
+                        </svg>
+                        Sign out
+                    </button>
                 </div>
             </div>
         </div>
