@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-04T22:15:13.649Z",
-  "totalImages": 87,
+  "lastUpdated": "2026-02-04T22:30:03.150Z",
+  "totalImages": 88,
   "images": [
     {
       "id": 1,
@@ -783,6 +783,15 @@
       "imagePath": "images/life-science/owl.jpg",
       "contentFile": "content/life-science/owl.json",
       "title": "Owl",
+      "hasContent": true
+    },
+    {
+      "id": 88,
+      "filename": "insect.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/insect.jpg",
+      "contentFile": "content/life-science/insect.json",
+      "title": "Insect",
       "hasContent": true
     }
   ]
