@@ -9,7 +9,7 @@ const state = {
   currentCategory: 'all',
   searchQuery: '',
   loadedContent: {}, // Cache for loaded educational content
-  selectedGradeLevel: 'general' // Default to general (3rd grade) content
+  selectedGradeLevel: 'third-grade' // Default to third grade content
 };
 
 // Initialize on DOM load
@@ -338,8 +338,14 @@ function handleGradeLevelChange(event) {
     const image = state.galleryData.images.find(img => img.title === imageTitle);
     if (image) {
       const modalBody = document.getElementById('modal-body');
-      // Clear cache for this image to force reload with new grade level
-      delete state.loadedContent[image.id];
+      // Show loading state while fetching new grade level content
+      modalBody.innerHTML = `
+        <div class="loading-content">
+          <div class="spinner"></div>
+          <p>Loading ${event.target.options[event.target.selectedIndex].text} content...</p>
+        </div>
+      `;
+      // Load new grade level content (will use cache if already loaded)
       loadEducationalContent(image, modalBody);
     }
   }
@@ -444,14 +450,22 @@ async function openModal(imageId) {
  */
 async function loadEducationalContent(image, modalBody) {
   try {
+    // Generate cache key based on image ID and grade level
+    const cacheKey = `${image.id}-${state.selectedGradeLevel}`;
+
     // Check cache first
-    if (state.loadedContent[image.id]) {
-      renderContent(state.loadedContent[image.id], modalBody);
+    if (state.loadedContent[cacheKey]) {
+      renderContent(state.loadedContent[cacheKey], modalBody);
       return;
     }
 
+    // Construct the grade-specific content file path
+    // Example: content/life-science/mushroom.json → content/life-science/mushroom-kindergarten.json
+    const baseFile = image.contentFile.replace('.json', '');
+    const gradeContentFile = `${baseFile}-${state.selectedGradeLevel}.json`;
+
     // Load from JSON file
-    const response = await fetch(image.contentFile);
+    const response = await fetch(gradeContentFile);
 
     if (!response.ok) {
       throw new Error('Content not found');
@@ -459,8 +473,8 @@ async function loadEducationalContent(image, modalBody) {
 
     const contentData = await response.json();
 
-    // Cache the content
-    state.loadedContent[image.id] = contentData;
+    // Cache the content with grade-specific key
+    state.loadedContent[cacheKey] = contentData;
 
     // Render the content
     renderContent(contentData, modalBody);
@@ -470,8 +484,8 @@ async function loadEducationalContent(image, modalBody) {
     modalBody.innerHTML = `
       <div class="error-message">
         <p><strong>⚠️ Content Not Available</strong></p>
-        <p>Educational content for this image hasn't been generated yet.</p>
-        <p>Please check back later or contact the site administrator.</p>
+        <p>Educational content for this grade level hasn't been generated yet.</p>
+        <p>Please try a different grade level or check back later.</p>
       </div>
     `;
   }
@@ -481,16 +495,9 @@ async function loadEducationalContent(image, modalBody) {
  * Render educational content in modal
  */
 function renderContent(contentData, modalBody) {
-  // Determine which content to use based on selected grade level
-  let markdownContent;
-
-  if (state.selectedGradeLevel !== 'general' && contentData.educational && contentData.educational[state.selectedGradeLevel]) {
-    // Use grade-specific content if available
-    markdownContent = contentData.educational[state.selectedGradeLevel];
-  } else {
-    // Fall back to general content
-    markdownContent = contentData.content;
-  }
+  // Content is directly in the contentData.content field
+  // (Each grade level has its own JSON file with content at the root)
+  let markdownContent = contentData.content;
 
   // Parse NGSS links before markdown conversion
   markdownContent = parseNGSSLinks(markdownContent);
