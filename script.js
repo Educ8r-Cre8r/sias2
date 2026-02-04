@@ -64,6 +64,7 @@ async function initializeApp() {
   updateCopyrightYear();
   setupEventListeners();
   await loadGalleryData();
+  loadFiltersFromURL(); // Apply filters from URL if present
   renderGallery();
 }
 
@@ -136,6 +137,80 @@ async function loadGalleryData() {
   } catch (error) {
     console.error('Error loading gallery:', error);
     showError('Failed to load gallery. Please refresh the page.');
+  }
+}
+
+/**
+ * Update URL with current filter state (deep linking)
+ */
+function updateURL() {
+  const params = new URLSearchParams();
+
+  // Add category if not 'all'
+  if (state.currentCategory !== 'all') {
+    params.set('category', state.currentCategory);
+  }
+
+  // Add grade level if not the default 'third-grade'
+  if (state.selectedGradeLevel !== 'third-grade') {
+    params.set('grade', state.selectedGradeLevel);
+  }
+
+  // Add search query if present
+  if (state.searchQuery) {
+    params.set('search', state.searchQuery);
+  }
+
+  // Update URL without reloading the page
+  const newURL = params.toString() ? `?${params}` : window.location.pathname;
+  window.history.pushState({}, '', newURL);
+}
+
+/**
+ * Load filters from URL parameters on page load (deep linking)
+ */
+function loadFiltersFromURL() {
+  const params = new URLSearchParams(window.location.search);
+
+  // Apply category filter from URL
+  if (params.has('category')) {
+    const category = params.get('category');
+    state.currentCategory = category;
+
+    // Update UI to reflect the category
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      if (btn.dataset.category === category) {
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+      } else {
+        btn.classList.remove('active');
+        btn.setAttribute('aria-pressed', 'false');
+      }
+    });
+  }
+
+  // Apply grade level from URL
+  if (params.has('grade')) {
+    const grade = params.get('grade');
+    state.selectedGradeLevel = grade;
+
+    // Update dropdown to reflect the grade level
+    const gradeLevelSelect = document.getElementById('grade-level-select');
+    if (gradeLevelSelect) {
+      gradeLevelSelect.value = grade;
+    }
+  }
+
+  // Apply search query from URL
+  if (params.has('search')) {
+    const search = params.get('search');
+    state.searchQuery = search;
+
+    // Update search input to reflect the query
+    const searchInput = document.getElementById('gallery-search');
+    if (searchInput) {
+      searchInput.value = search;
+    }
   }
 }
 
@@ -311,6 +386,7 @@ function handleCategoryFilter(event) {
 
   // Update state and re-render
   state.currentCategory = category;
+  updateURL(); // Update URL to reflect new filter state
   renderGallery();
 }
 
@@ -319,6 +395,7 @@ function handleCategoryFilter(event) {
  */
 function handleSearch(event) {
   state.searchQuery = event.target.value;
+  updateURL(); // Update URL to reflect new search query
   renderGallery();
 }
 
@@ -327,6 +404,7 @@ function handleSearch(event) {
  */
 function handleGradeLevelChange(event) {
   state.selectedGradeLevel = event.target.value;
+  updateURL(); // Update URL to reflect new grade level
 
   // If a modal is currently open, reload its content with the new grade level
   const modal = document.getElementById('educational-modal');
