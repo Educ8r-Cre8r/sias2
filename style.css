@@ -2006,3 +2006,155 @@ a:hover {
     font-size: 1.5em;
   }
 }
+
+/* ==========================================
+   Authentication UI Styles
+   ========================================== */
+
+/* Auth Container - Top Right of Hero */
+.auth-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+/* Sign In Button */
+.sign-in-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: white;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-btn:hover {
+  background: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.sign-in-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in-btn svg {
+  flex-shrink: 0;
+}
+
+/* User Profile Display */
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sign-out-btn {
+  font-size: 12px;
+  color: #666;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  transition: color 0.2s ease;
+}
+
+.sign-out-btn:hover {
+  color: #d32f2f;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .auth-container {
+    top: 10px;
+    right: 10px;
+  }
+
+  .sign-in-btn {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .user-profile {
+    padding: 6px 10px;
+    gap: 8px;
+  }
+
+  .user-photo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .user-name {
+    font-size: 13px;
+    max-width: 100px;
+  }
+
+  .sign-out-btn {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+
+  .sign-in-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+    gap: 6px;
+  }
+
+  .sign-in-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .user-name {
+    max-width: 80px;
+  }
+}

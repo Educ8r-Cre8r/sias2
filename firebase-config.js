@@ -67,6 +67,9 @@ function initializeFirebase() {
             console.log('✅ User authenticated:', user.isAnonymous ? 'Anonymous' : user.email);
             console.log('   User ID:', user.uid);
 
+            // Update UI based on user type
+            updateAuthUI(user);
+
             // Mark Firebase as ready after authentication
             if (!firebaseInitialized) {
               firebaseInitialized = true;
@@ -75,6 +78,7 @@ function initializeFirebase() {
           } else {
             console.log('❌ No user signed in');
             currentUser = null;
+            updateAuthUI(null);
           }
         });
       })
@@ -117,3 +121,111 @@ window.getCurrentUserId = function() {
 window.isUserAuthenticated = function() {
   return currentUser !== null;
 };
+
+/**
+ * Update Auth UI based on user state
+ */
+function updateAuthUI(user) {
+  const authAnonymous = document.getElementById('auth-anonymous');
+  const authSignedIn = document.getElementById('auth-signed-in');
+  const userPhoto = document.getElementById('user-photo');
+  const userName = document.getElementById('user-name');
+
+  if (!authAnonymous || !authSignedIn) return;
+
+  if (!user) {
+    // No user - hide everything
+    authAnonymous.style.display = 'none';
+    authSignedIn.style.display = 'none';
+  } else if (user.isAnonymous) {
+    // Anonymous user - show sign in button
+    authAnonymous.style.display = 'block';
+    authSignedIn.style.display = 'none';
+  } else {
+    // Signed in with Google - show profile
+    authAnonymous.style.display = 'none';
+    authSignedIn.style.display = 'block';
+
+    // Update profile info
+    if (userPhoto && user.photoURL) {
+      userPhoto.src = user.photoURL;
+      userPhoto.alt = user.displayName || 'User profile photo';
+    }
+    if (userName) {
+      userName.textContent = user.displayName || user.email || 'User';
+    }
+  }
+}
+
+/**
+ * Sign in with Google
+ */
+async function signInWithGoogle() {
+  try {
+    const provider = new firebase.auth.GoogleAuthProvider();
+
+    // Check if user is currently anonymous
+    const wasAnonymous = currentUser && currentUser.isAnonymous;
+
+    if (wasAnonymous) {
+      // Link anonymous account to Google account
+      console.log('Linking anonymous account to Google...');
+
+      const result = await currentUser.linkWithPopup(provider);
+      console.log('✅ Anonymous account linked to Google:', result.user.email);
+      alert(`Welcome! Your anonymous ratings have been saved to your Google account (${result.user.email}).`);
+
+    } else {
+      // Regular sign in
+      console.log('Signing in with Google...');
+
+      const result = await firebase.auth().signInWithPopup(provider);
+      console.log('✅ Signed in with Google:', result.user.email);
+      alert(`Welcome back, ${result.user.displayName}!`);
+    }
+
+  } catch (error) {
+    console.error('❌ Google sign-in error:', error);
+
+    if (error.code === 'auth/popup-closed-by-user') {
+      // User closed the popup - no action needed
+      console.log('User closed sign-in popup');
+    } else if (error.code === 'auth/credential-already-in-use') {
+      // This Google account is already linked to a different anonymous account
+      alert('This Google account is already in use. Signing you in...');
+
+      // Sign in with the credential
+      const credential = error.credential;
+      await firebase.auth().signInWithCredential(credential);
+    } else {
+      alert('Sign-in failed: ' + error.message);
+    }
+  }
+}
+
+/**
+ * Sign out
+ */
+async function signOut() {
+  try {
+    // Confirm sign out
+    const confirmed = confirm('Are you sure you want to sign out? You will be signed in anonymously after sign out.');
+
+    if (!confirmed) return;
+
+    await firebase.auth().signOut();
+    console.log('✅ Signed out');
+
+    // Sign back in anonymously
+    await firebase.auth().signInAnonymously();
+    console.log('✅ Signed in anonymously');
+
+  } catch (error) {
+    console.error('❌ Sign out error:', error);
+    alert('Sign out failed: ' + error.message);
+  }
+}
+
+// Expose functions globally
+window.signInWithGoogle = signInWithGoogle;
+window.signOut = signOut;
