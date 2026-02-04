@@ -126,35 +126,45 @@ window.isUserAuthenticated = function() {
  * Update Auth UI based on user state
  */
 function updateAuthUI(user) {
-  const authAnonymous = document.getElementById('auth-anonymous');
-  const authSignedIn = document.getElementById('auth-signed-in');
-  const userPhoto = document.getElementById('user-photo');
-  const userName = document.getElementById('user-name');
+  // Use requestAnimationFrame to ensure DOM is ready
+  requestAnimationFrame(() => {
+    const authAnonymous = document.getElementById('auth-anonymous');
+    const authSignedIn = document.getElementById('auth-signed-in');
+    const userPhoto = document.getElementById('user-photo');
+    const userName = document.getElementById('user-name');
 
-  if (!authAnonymous || !authSignedIn) return;
-
-  if (!user) {
-    // No user - hide everything
-    authAnonymous.style.display = 'none';
-    authSignedIn.style.display = 'none';
-  } else if (user.isAnonymous) {
-    // Anonymous user - show sign in button
-    authAnonymous.style.display = 'block';
-    authSignedIn.style.display = 'none';
-  } else {
-    // Signed in with Google - show profile
-    authAnonymous.style.display = 'none';
-    authSignedIn.style.display = 'block';
-
-    // Update profile info
-    if (userPhoto && user.photoURL) {
-      userPhoto.src = user.photoURL;
-      userPhoto.alt = user.displayName || 'User profile photo';
+    if (!authAnonymous || !authSignedIn) {
+      console.warn('Auth UI elements not found, will retry...');
+      // Retry after a short delay if elements aren't ready
+      setTimeout(() => updateAuthUI(user), 100);
+      return;
     }
-    if (userName) {
-      userName.textContent = user.displayName || user.email || 'User';
+
+    if (!user) {
+      // No user - hide everything
+      authAnonymous.style.display = 'none';
+      authSignedIn.style.display = 'none';
+    } else if (user.isAnonymous) {
+      // Anonymous user - show sign in button
+      authAnonymous.style.display = 'block';
+      authSignedIn.style.display = 'none';
+      console.log('📱 UI: Showing sign-in button (anonymous user)');
+    } else {
+      // Signed in with Google - show profile
+      authAnonymous.style.display = 'none';
+      authSignedIn.style.display = 'block';
+
+      // Update profile info
+      if (userPhoto && user.photoURL) {
+        userPhoto.src = user.photoURL;
+        userPhoto.alt = user.displayName || 'User profile photo';
+      }
+      if (userName) {
+        userName.textContent = user.displayName || user.email || 'User';
+      }
+      console.log('📱 UI: Showing user profile:', user.displayName || user.email);
     }
-  }
+  });
 }
 
 /**
