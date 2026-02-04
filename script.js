@@ -512,7 +512,7 @@ async function openModal(imageId) {
 
   // Add interactive rating stars at the end of content
   if (typeof generateInteractiveStarsHTML === 'function') {
-    const ratingHTML = generateInteractiveStarsHTML(image.id);
+    const ratingHTML = await generateInteractiveStarsHTML(image.id);
     const ratingContainer = document.createElement('div');
     ratingContainer.innerHTML = ratingHTML;
     modalBody.appendChild(ratingContainer);

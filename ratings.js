@@ -1,10 +1,11 @@
 /**
  * Ratings and Views System
  * Handles star ratings and view counting for photos
+ * Now uses Firebase Authentication to track user ratings properly
  */
 
-// Track which photos this user has rated (stored locally to prevent duplicate ratings)
-const userRatings = JSON.parse(localStorage.getItem('userRatings') || '{}');
+// Cache of user ratings loaded from Firestore
+let userRatingsCache = {};
 
 /**
  * Record a view for a photo
@@ -52,6 +53,60 @@ async function recordPhotoView(photoId) {
 }
 
 /**
+ * Check if current user has already rated a photo
+ */
+async function hasUserRated(photoId) {
+  const userId = window.getCurrentUserId ? window.getCurrentUserId() : null;
+  if (!userId) return false;
+
+  // Check cache first
+  const cacheKey = `${userId}-${photoId}`;
+  if (userRatingsCache[cacheKey] !== undefined) {
+    return userRatingsCache[cacheKey];
+  }
+
+  // Check Firestore
+  try {
+    const userRatingDoc = await db.collection('userRatings').doc(cacheKey).get();
+    const hasRated = userRatingDoc.exists;
+    userRatingsCache[cacheKey] = hasRated ? userRatingDoc.data().stars : false;
+    return hasRated;
+  } catch (error) {
+    console.error('Error checking user rating:', error);
+    return false;
+  }
+}
+
+/**
+ * Get user's rating for a specific photo
+ */
+async function getUserRating(photoId) {
+  const userId = window.getCurrentUserId ? window.getCurrentUserId() : null;
+  if (!userId) return null;
+
+  const cacheKey = `${userId}-${photoId}`;
+
+  // Return from cache if available
+  if (userRatingsCache[cacheKey]) {
+    return userRatingsCache[cacheKey];
+  }
+
+  // Fetch from Firestore
+  try {
+    const userRatingDoc = await db.collection('userRatings').doc(cacheKey).get();
+    if (userRatingDoc.exists) {
+      const stars = userRatingDoc.data().stars;
+      userRatingsCache[cacheKey] = stars;
+      return stars;
+    }
+  } catch (error) {
+    console.error('Error getting user rating:', error);
+  }
+
+  return null;
+}
+
+/**
  * Submit a rating for a photo
  */
 async function submitRating(photoId, stars) {
@@ -80,12 +135,37 @@ async function submitRating(photoId, stars) {
     return;
   }
 
-  try {
-    // Ensure photoId is a string
-    const id = String(photoId);
-    const ratingRef = db.collection('ratings').doc(id);
+  // Get current user ID
+  const userId = window.getCurrentUserId ? window.getCurrentUserId() : null;
+  if (!userId) {
+    alert('You must be signed in to rate photos. Please refresh the page and try again.');
+    console.error('No user ID available. User not authenticated.');
+    return;
+  }
 
-    // Get current ratings
+  try {
+    const id = String(photoId);
+
+    // Check if user has already rated this photo
+    const userRatingId = `${userId}-${id}`;
+    const existingRatingDoc = await db.collection('userRatings').doc(userRatingId).get();
+
+    if (existingRatingDoc.exists) {
+      alert('You have already rated this photo!');
+      console.log('User has already rated photo:', id);
+      return;
+    }
+
+    // Record the user's individual rating in userRatings collection
+    await db.collection('userRatings').doc(userRatingId).set({
+      userId: userId,
+      photoId: id,
+      stars: stars,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp()
+    });
+
+    // Update the aggregate ratings for the photo
+    const ratingRef = db.collection('ratings').doc(id);
     const doc = await ratingRef.get();
 
     if (doc.exists) {
@@ -103,7 +183,7 @@ async function submitRating(photoId, stars) {
     } else {
       // Create new rating record
       await ratingRef.set({
-        photoId: photoId,
+        photoId: id,
         totalRatings: 1,
         totalStars: stars,
         averageRating: stars,
@@ -112,9 +192,8 @@ async function submitRating(photoId, stars) {
       });
     }
 
-    // Store that this user has rated this photo
-    userRatings[id] = stars;
-    localStorage.setItem('userRatings', JSON.stringify(userRatings));
+    // Update cache
+    userRatingsCache[userRatingId] = stars;
 
     console.log(`✅ Rating submitted for photo ${id}: ${stars} stars`);
 
@@ -126,16 +205,7 @@ async function submitRating(photoId, stars) {
 
     // Provide specific error feedback
     if (error.code === 'permission-denied') {
-      alert('Permission denied. Firestore security rules need to be updated.\n\n' +
-        'Visit Firebase Console > Firestore > Rules and update to allow writes:\n\n' +
-        'rules_version = \'2\';\n' +
-        'service cloud.firestore {\n' +
-        '  match /databases/{database}/documents {\n' +
-        '    match /{document=**} {\n' +
-        '      allow read, write: if true;\n' +
-        '    }\n' +
-        '  }\n' +
-        '}');
+      alert('Permission denied. Please make sure you are signed in and try again.');
     } else {
       alert('Failed to submit rating: ' + error.message);
     }
@@ -314,9 +384,11 @@ function generateStarsHTML(averageRating, totalRatings) {
 /**
  * Generate HTML for interactive star rating (for user to click)
  */
-function generateInteractiveStarsHTML(photoId) {
+async function generateInteractiveStarsHTML(photoId) {
   const id = String(photoId);
-  const userRating = userRatings[id];
+
+  // Check if user has already rated this photo
+  const userRating = await getUserRating(id);
 
   if (userRating) {
     return `<div class="rating-submitted">You rated this ${userRating} stars</div>`;
