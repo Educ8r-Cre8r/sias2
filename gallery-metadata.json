@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-04T12:15:00.000Z",
-  "totalImages": 84,
+  "lastUpdated": "2026-02-04T20:29:13.701Z",
+  "totalImages": 85,
   "images": [
     {
       "id": 1,
@@ -756,6 +756,15 @@
       "imagePath": "images/physical-science/infrared_thermometer.jpg",
       "contentFile": "content/physical-science/infrared_thermometer.json",
       "title": "Infrared Thermometer",
+      "hasContent": true
+    },
+    {
+      "id": 85,
+      "filename": "turtle.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/turtle.jpg",
+      "contentFile": "content/life-science/turtle.json",
+      "title": "Turtle",
       "hasContent": true
     }
   ]
