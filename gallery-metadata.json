@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-04T21:18:22.987Z",
-  "totalImages": 86,
+  "lastUpdated": "2026-02-04T22:15:13.649Z",
+  "totalImages": 87,
   "images": [
     {
       "id": 1,
@@ -774,6 +774,15 @@
       "imagePath": "images/earth-space-science/agriculture.jpg",
       "contentFile": "content/earth-space-science/agriculture.json",
       "title": "Agriculture",
+      "hasContent": true
+    },
+    {
+      "id": 87,
+      "filename": "owl.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/owl.jpg",
+      "contentFile": "content/life-science/owl.json",
+      "title": "Owl",
       "hasContent": true
     }
   ]
