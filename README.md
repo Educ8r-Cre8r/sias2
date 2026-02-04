@@ -1,6 +1,6 @@
 # Science In A Snapshot 📸🔬
 
-> Exploring the natural world through photography - An educational photo gallery with AI-generated Third Grade science lesson content.
+> Exploring the natural world through photography - An educational photo gallery with AI-generated elementary science lesson content.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
