@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-04T20:29:13.701Z",
-  "totalImages": 85,
+  "lastUpdated": "2026-02-04T21:18:22.987Z",
+  "totalImages": 86,
   "images": [
     {
       "id": 1,
@@ -765,6 +765,15 @@
       "imagePath": "images/life-science/turtle.jpg",
       "contentFile": "content/life-science/turtle.json",
       "title": "Turtle",
+      "hasContent": true
+    },
+    {
+      "id": 86,
+      "filename": "agriculture.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/agriculture.jpg",
+      "contentFile": "content/earth-space-science/agriculture.json",
+      "title": "Agriculture",
       "hasContent": true
     }
   ]
