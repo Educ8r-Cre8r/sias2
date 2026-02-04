@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-03T23:50:00.000Z",
-  "totalImages": 81,
+  "lastUpdated": "2026-02-04T12:15:00.000Z",
+  "totalImages": 84,
   "images": [
     {
       "id": 1,
@@ -729,6 +729,33 @@
       "imagePath": "images/life-science/stinkhorn_mushroom.pg.jpg",
       "contentFile": "content/life-science/stinkhorn_mushroom.pg.json",
       "title": "Stinkhorn Mushroom",
+      "hasContent": true
+    },
+    {
+      "id": 82,
+      "filename": "frog.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/frog.jpg",
+      "contentFile": "content/life-science/frog.json",
+      "title": "Frog",
+      "hasContent": true
+    },
+    {
+      "id": 83,
+      "filename": "toad.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/toad.jpg",
+      "contentFile": "content/life-science/toad.json",
+      "title": "Toad",
+      "hasContent": true
+    },
+    {
+      "id": 84,
+      "filename": "infrared_thermometer.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/infrared_thermometer.jpg",
+      "contentFile": "content/physical-science/infrared_thermometer.json",
+      "title": "Infrared Thermometer",
       "hasContent": true
     }
   ]
