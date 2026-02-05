@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T05:30:24.768Z",
-  "totalImages": 91,
+  "lastUpdated": "2026-02-05T05:38:07.873Z",
+  "totalImages": 92,
   "images": [
     {
       "id": 1,
@@ -819,6 +819,15 @@
       "imagePath": "images/life-science/snail.jpg",
       "contentFile": "content/life-science/snail.json",
       "title": "Snail",
+      "hasContent": true
+    },
+    {
+      "id": 92,
+      "filename": "pollination.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/pollination.jpg",
+      "contentFile": "content/life-science/pollination.json",
+      "title": "Pollination",
       "hasContent": true
     }
   ]

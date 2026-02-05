@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "35%",
+      "label": "Bee's Pollen Baskets",
+      "fact": "Honeybees have special pouches on their hind legs called pollen baskets where they collect and carry pollen from flowers. You can see the yellow pollen packed into these baskets on this bee's legs!"
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "55%",
+      "label": "Flower Nectar Source",
+      "fact": "This purple flower produces sweet nectar that bees drink to get energy. As the bee collects nectar, pollen sticks to its fuzzy body and gets carried to the next flower, helping plants make seeds."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "25%",
+      "label": "Bee's Compound Eyes",
+      "fact": "Bees have large eyes made up of thousands of tiny lenses that help them see flowers and find their way home. Their eyes can see ultraviolet patterns on flowers that humans cannot see!"
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "30%",
+      "label": "Fuzzy Body Hair",
+      "fact": "A bee's entire body is covered in tiny hairs that act like velcro for pollen. This is why bees are such great pollinators—pollen clings to their fur as they move from flower to flower."
+    }
+  ]
+}
