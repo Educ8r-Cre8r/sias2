@@ -285,6 +285,38 @@
         </div>
     </div>
 
+    <!-- Copyright & Terms Modal -->
+    <div id="copyright-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="copyright-modal-title" style="display: none;">
+        <div class="modal-overlay" onclick="closeCopyrightModal()"></div>
+        <div class="copyright-modal-content">
+            <div class="copyright-modal-header">
+                <h2 id="copyright-modal-title">Copyright & Terms of Use</h2>
+                <button class="close-btn" onclick="closeCopyrightModal()" aria-label="Close copyright terms">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="copyright-modal-body">
+                <h3>📸 Educational Use Policy</h3>
+                <p>These photographs are provided strictly for educational purposes and may not be reproduced, distributed, or utilized for commercial, promotional, or any other unauthorized use without prior written consent from the rights holder.</p>
+                
+                <h3>⚖️ Intellectual Property Rights</h3>
+                <p>All intellectual property rights remain with the original creator. For permission to use these images beyond educational contexts, please contact the copyright owner directly.</p>
+                
+                <h3>✉️ Request Permission</h3>
+                <p>To request permission for use beyond educational purposes, please contact:</p>
+                <p><strong>Email:</strong> <a href="mailto:mr.alexdjones@gmail.com">mr.alexdjones@gmail.com</a></p>
+                
+                <p class="copyright-footer">Thank you for respecting ethical and legal standards in content usage.</p>
+                
+                <p class="copyright-date"><em>Last Updated: February 2026</em></p>
+            </div>
+        </div>
+    </div>
+
     <!-- Scroll to Gallery Button -->
     <button id="scroll-to-gallery-btn" class="scroll-to-gallery-btn" onclick="scrollToGallerySmooth()" aria-label="Back to gallery" title="Back to gallery">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
@@ -305,7 +337,7 @@
                 <!-- Copyright Section (Right) -->
                 <div class="footer-copyright">
                     <p>Science In A Snapshot © <span id="footer-year">2026</span> Alex Jones, M.Ed.</p>
-                    <p class="footer-credits"><a href="/STEM-Educ8r/svp/index.html" target="_blank" rel="noopener noreferrer">English Learner Strategies</a> | <a href="javascript:void(0);" onclick="openVisionaryModal();" class="visionary-link">The Visionary</a></p>
+                    <p class="footer-credits"><a href="/STEM-Educ8r/svp/index.html" target="_blank" rel="noopener noreferrer">English Learner Strategies</a> | <a href="javascript:void(0);" onclick="openVisionaryModal();" class="visionary-link">The Visionary</a> | <a href="javascript:void(0);" onclick="openCopyrightModal();" class="copyright-link">Copyright & Terms</a></p>
                     <img src="Alex_name.png" alt="Alex Jones signature" class="footer-signature" onclick="window.open('../STEM-Educ8r-main/STEM-Educ8r/index.html', '_blank')" role="button" tabindex="0" aria-label="Visit Alex Jones portfolio" style="cursor: pointer;">
                 </div>
             </div>

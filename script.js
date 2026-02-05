@@ -329,7 +329,7 @@ function createGalleryItem(image) {
   const imgElement = item.querySelector('.image-container img');
   imgElement.style.cursor = 'pointer';
   imgElement.onclick = () => {
-    openImageModal(image.imagePath, image.title);
+    openImageModal(image.imagePath, image.title, image);
     handleTutorialInteraction();
   };
 
@@ -670,6 +670,10 @@ function renderCustomTags(html) {
  */
 function closeModal() {
   const modal = document.getElementById('educational-modal');
+  
+  // Clean up hotspots
+  cleanupHotspots();
+  
   modal.style.display = 'none';
   document.body.style.overflow = ''; // Restore scrolling
   releaseFocus();
@@ -834,7 +838,7 @@ function showError(message) {
 /**
  * Open image modal with aspect ratio-based sizing
  */
-function openImageModal(imagePath, altText) {
+function openImageModal(imagePath, altText, imageData = null) {
   const modal = document.getElementById('image-modal');
   const modalImage = document.getElementById('modal-image');
   const modalTitle = document.getElementById('image-modal-title');
@@ -894,6 +898,18 @@ function openImageModal(imagePath, altText) {
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
 
+    // Load hotspots if image data is available
+    if (imageData) {
+      // Wait for modal image to be fully loaded
+      if (modalImage.complete) {
+        loadHotspotsForImageModal(imageData, modalImage);
+      } else {
+        modalImage.addEventListener('load', () => {
+          loadHotspotsForImageModal(imageData, modalImage);
+        }, { once: true });
+      }
+    }
+
     // Focus management
     const closeBtn = modal.querySelector('.close-btn');
     if (closeBtn) {
@@ -920,6 +936,9 @@ function closeImageModal() {
   const modal = document.getElementById('image-modal');
 
   if (!modal) return;
+
+  // Clean up hotspots
+  cleanupHotspots();
 
   modal.classList.remove('active');
   modal.style.display = 'none';
@@ -1226,3 +1245,405 @@ window.closeVisionaryModal = closeVisionaryModal;
 window.scrollToGallerySmooth = scrollToGallerySmooth;
 window.scrollModalToTop = scrollModalToTop;
 window.resetTutorial = resetTutorial; // Export for testing
+
+
+/**
+ * ==========================================
+ * HOTSPOT FUNCTIONALITY
+ * ==========================================
+ */
+
+// Track current open tooltip
+let currentTooltip = null;
+
+/**
+ * Load and render hotspots for image modal
+ */
+async function loadHotspotsForImageModal(image, modalImage) {
+  console.log('[Hotspots] Loading hotspots for image modal:', image);
+  try {
+    // Construct hotspot file path using filename without extension
+    // Example: hotspots/life-science/IMG_2566.json
+    const filenameWithoutExt = image.filename.replace(/\.[^/.]+$/, '');
+    const hotspotFile = `hotspots/${image.category}/${filenameWithoutExt}.json`;
+    
+    console.log('[Hotspots] Fetching:', hotspotFile);
+    const response = await fetch(hotspotFile);
+    
+    if (!response.ok) {
+      // No hotspots available for this image
+      console.log(`[Hotspots] No hotspots found for ${image.filename} (${response.status})`);
+      return;
+    }
+    
+    const hotspotData = await response.json();
+    console.log('[Hotspots] Loaded data:', hotspotData);
+    
+    // Render hotspots on the image modal
+    renderHotspotsOnImageModal(hotspotData.hotspots, modalImage);
+    console.log('[Hotspots] Render complete');
+    
+  } catch (error) {
+    console.error(`[Hotspots] Error loading hotspots for ${image.filename}:`, error);
+  }
+}
+
+/**
+ * Render hotspot markers on the modal thumbnail
+ */
+function renderHotspots(hotspots, image) {
+  console.log('[Hotspots] Rendering', hotspots.length, 'hotspots');
+  const modalHeader = document.querySelector('.modal-header');
+  const modalThumbnail = document.querySelector('.modal-thumbnail');
+  
+  console.log('[Hotspots] Modal elements:', { modalHeader, modalThumbnail });
+  
+  if (!modalHeader || !modalThumbnail) {
+    console.error('[Hotspots] Modal elements not found');
+    return;
+  }
+  
+  // Remove any existing hotspot container
+  const existingContainer = document.querySelector('.hotspot-container');
+  if (existingContainer) {
+    existingContainer.remove();
+  }
+  
+  // Create hotspot container
+  const hotspotContainer = document.createElement('div');
+  hotspotContainer.className = 'hotspot-container';
+  
+  // Position container relative to thumbnail
+  const thumbnailRect = modalThumbnail.getBoundingClientRect();
+  const headerRect = modalHeader.getBoundingClientRect();
+  
+  // Calculate offset from header
+  hotspotContainer.style.top = `${thumbnailRect.top - headerRect.top}px`;
+  hotspotContainer.style.left = `${thumbnailRect.left - headerRect.left}px`;
+  hotspotContainer.style.width = `${thumbnailRect.width}px`;
+  hotspotContainer.style.height = `${thumbnailRect.height}px`;
+  
+  // Create hotspot markers
+  hotspots.forEach(hotspot => {
+    const marker = document.createElement('div');
+    marker.className = 'hotspot';
+    marker.style.left = hotspot.x;
+    marker.style.top = hotspot.y;
+    marker.textContent = hotspot.id;
+    marker.setAttribute('data-hotspot-id', hotspot.id);
+    marker.setAttribute('role', 'button');
+    marker.setAttribute('aria-label', `Hotspot ${hotspot.id}: ${hotspot.label}`);
+    marker.setAttribute('tabindex', '0');
+    
+    // Click handler
+    marker.addEventListener('click', (e) => {
+      e.stopPropagation();
+      showHotspotTooltip(hotspot, marker, hotspotContainer);
+    });
+    
+    // Keyboard accessibility
+    marker.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        e.stopPropagation();
+        showHotspotTooltip(hotspot, marker, hotspotContainer);
+      }
+    });
+    
+    hotspotContainer.appendChild(marker);
+  });
+  
+  // Add container to modal header
+  modalHeader.appendChild(hotspotContainer);
+  
+  // Update hotspot positions on window resize
+  const resizeHandler = () => {
+    const newThumbnailRect = modalThumbnail.getBoundingClientRect();
+    const newHeaderRect = modalHeader.getBoundingClientRect();
+    hotspotContainer.style.top = `${newThumbnailRect.top - newHeaderRect.top}px`;
+    hotspotContainer.style.left = `${newThumbnailRect.left - newHeaderRect.left}px`;
+    hotspotContainer.style.width = `${newThumbnailRect.width}px`;
+    hotspotContainer.style.height = `${newThumbnailRect.height}px`;
+  };
+  
+  window.addEventListener('resize', resizeHandler);
+  
+  // Clean up on modal close
+  const modal = document.getElementById('educational-modal');
+  const closeHandler = () => {
+    window.removeEventListener('resize', resizeHandler);
+    if (currentTooltip) {
+      currentTooltip.remove();
+      currentTooltip = null;
+    }
+  };
+  
+  // Store cleanup function for later use
+  if (!modal._hotspotCleanup) {
+    modal._hotspotCleanup = [];
+  }
+  modal._hotspotCleanup.push(closeHandler);
+}
+
+/**
+ * Render hotspots on the image modal (large photo view)
+ */
+function renderHotspotsOnImageModal(hotspots, modalImage) {
+  console.log('[Hotspots] Rendering', hotspots.length, 'hotspots on image modal');
+  
+  const imageModalBody = document.querySelector('.image-modal-body');
+  
+  if (!imageModalBody || !modalImage) {
+    console.error('[Hotspots] Image modal elements not found');
+    return;
+  }
+  
+  // Remove any existing hotspot container
+  const existingContainer = imageModalBody.querySelector('.hotspot-container');
+  if (existingContainer) {
+    existingContainer.remove();
+  }
+  
+  // Create hotspot container
+  const hotspotContainer = document.createElement('div');
+  hotspotContainer.className = 'hotspot-container';
+  hotspotContainer.style.position = 'absolute';
+  hotspotContainer.style.top = '0';
+  hotspotContainer.style.left = '0';
+  hotspotContainer.style.width = '100%';
+  hotspotContainer.style.height = '100%';
+  hotspotContainer.style.pointerEvents = 'none';
+  
+  // Make image modal body relative for absolute positioning
+  imageModalBody.style.position = 'relative';
+  
+  // Create hotspot markers
+  hotspots.forEach(hotspot => {
+    const marker = document.createElement('div');
+    marker.className = 'hotspot';
+    marker.style.left = hotspot.x;
+    marker.style.top = hotspot.y;
+    marker.textContent = hotspot.id;
+    marker.setAttribute('data-hotspot-id', hotspot.id);
+    marker.setAttribute('role', 'button');
+    marker.setAttribute('aria-label', `Hotspot ${hotspot.id}: ${hotspot.label}`);
+    marker.setAttribute('tabindex', '0');
+    
+    // Click handler
+    marker.addEventListener('click', (e) => {
+      e.stopPropagation();
+      showHotspotTooltip(hotspot, marker, hotspotContainer);
+    });
+    
+    // Keyboard accessibility
+    marker.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        e.stopPropagation();
+        showHotspotTooltip(hotspot, marker, hotspotContainer);
+      }
+    });
+    
+    hotspotContainer.appendChild(marker);
+  });
+  
+  // Add container to image modal body
+  imageModalBody.appendChild(hotspotContainer);
+  
+  console.log('[Hotspots] Rendered on image modal');
+}
+
+/**
+ * Show tooltip for a hotspot
+ */
+function showHotspotTooltip(hotspot, marker, container) {
+  // Close existing tooltip
+  if (currentTooltip) {
+    currentTooltip.remove();
+    // Remove active class from previous marker
+    document.querySelectorAll('.hotspot.active').forEach(m => m.classList.remove('active'));
+  }
+  
+  // Mark this hotspot as active
+  marker.classList.add('active');
+  
+  // Create tooltip
+  const tooltip = document.createElement('div');
+  tooltip.className = 'hotspot-tooltip';
+  tooltip.innerHTML = `
+    <button class="hotspot-tooltip-close" aria-label="Close tooltip">&times;</button>
+    <div class="hotspot-tooltip-header">
+      <div class="hotspot-tooltip-number">${hotspot.id}</div>
+      <div class="hotspot-tooltip-label">${hotspot.label}</div>
+    </div>
+    <div class="hotspot-tooltip-fact">${hotspot.fact}</div>
+  `;
+  
+  // Position tooltip
+  positionTooltip(tooltip, marker, container);
+  
+  // Add to container
+  container.appendChild(tooltip);
+  
+  // Animate in
+  setTimeout(() => tooltip.classList.add('show'), 10);
+  
+  // Close button handler
+  const closeBtn = tooltip.querySelector('.hotspot-tooltip-close');
+  closeBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    closeTooltip(tooltip, marker);
+  });
+  
+  // Click outside to close
+  const outsideClickHandler = (e) => {
+    if (!tooltip.contains(e.target) && !marker.contains(e.target)) {
+      closeTooltip(tooltip, marker);
+      document.removeEventListener('click', outsideClickHandler);
+    }
+  };
+  setTimeout(() => document.addEventListener('click', outsideClickHandler), 10);
+  
+  // Store current tooltip
+  currentTooltip = tooltip;
+}
+
+/**
+ * Position tooltip relative to marker
+ */
+function positionTooltip(tooltip, marker, container) {
+  const markerRect = marker.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect();
+  
+  // Get marker position within container
+  const markerX = markerRect.left - containerRect.left + markerRect.width / 2;
+  const markerY = markerRect.top - containerRect.top + markerRect.height / 2;
+  
+  // Tooltip dimensions (approximate before render)
+  const tooltipWidth = 300;
+  const tooltipHeight = 200;
+  const offset = 20;
+  
+  // Determine best position (prefer top, then bottom, then sides)
+  let placement = 'top';
+  let left = markerX;
+  let top = markerY - offset;
+  
+  // Check if there's space on top
+  if (markerY < tooltipHeight + offset) {
+    placement = 'bottom';
+    top = markerY + offset;
+  }
+  
+  // Check horizontal boundaries
+  if (left - tooltipWidth / 2 < 0) {
+    // Not enough space on left, position to right of marker
+    placement = 'right';
+    left = markerX + offset;
+    top = markerY;
+  } else if (left + tooltipWidth / 2 > containerRect.width) {
+    // Not enough space on right, position to left of marker
+    placement = 'left';
+    left = markerX - offset;
+    top = markerY;
+  }
+  
+  // Apply positioning
+  tooltip.classList.add(`tooltip-${placement}`);
+  
+  switch (placement) {
+    case 'top':
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+      tooltip.style.transform = 'translate(-50%, -100%)';
+      break;
+    case 'bottom':
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+      tooltip.style.transform = 'translate(-50%, 0)';
+      break;
+    case 'left':
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+      tooltip.style.transform = 'translate(-100%, -50%)';
+      break;
+    case 'right':
+      tooltip.style.left = `${left}px`;
+      tooltip.style.top = `${top}px`;
+      tooltip.style.transform = 'translate(0, -50%)';
+      break;
+  }
+}
+
+/**
+ * Close tooltip
+ */
+function closeTooltip(tooltip, marker) {
+  tooltip.classList.remove('show');
+  marker.classList.remove('active');
+  setTimeout(() => {
+    if (tooltip.parentNode) {
+      tooltip.remove();
+    }
+    if (currentTooltip === tooltip) {
+      currentTooltip = null;
+    }
+  }, 300);
+}
+
+/**
+ * Clean up hotspots when modal closes
+ */
+function cleanupHotspots() {
+  const modal = document.getElementById('educational-modal');
+  if (modal && modal._hotspotCleanup) {
+    modal._hotspotCleanup.forEach(cleanup => cleanup());
+    modal._hotspotCleanup = [];
+  }
+  
+  // Remove hotspot container
+  const hotspotContainer = document.querySelector('.hotspot-container');
+  if (hotspotContainer) {
+    hotspotContainer.remove();
+  }
+  
+  // Close any open tooltip
+  if (currentTooltip) {
+    currentTooltip.remove();
+    currentTooltip = null;
+  }
+}
+
+
+/**
+ * Copyright & Terms Modal Functions
+ */
+function openCopyrightModal() {
+  const modal = document.getElementById('copyright-modal');
+  if (modal) {
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    
+    // Focus on modal for accessibility
+    modal.setAttribute('tabindex', '-1');
+    modal.focus();
+  }
+}
+
+function closeCopyrightModal() {
+  const modal = document.getElementById('copyright-modal');
+  if (modal) {
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    const copyrightModal = document.getElementById('copyright-modal');
+    if (copyrightModal && copyrightModal.style.display === 'flex') {
+      closeCopyrightModal();
+    }
+  }
+});

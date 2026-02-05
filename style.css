@@ -2280,3 +2280,361 @@ a:hover {
     max-width: 320px;
   }
 }
+
+
+/* ==========================================
+   HOTSPOT STYLES
+   ========================================== */
+
+/* Hotspot container positioned over modal thumbnail */
+.hotspot-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Allow clicks to pass through container */
+  z-index: 5;
+}
+
+/* Individual hotspot marker */
+.hotspot {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 3px solid #667eea;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #667eea;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  pointer-events: auto; /* Enable clicks on hotspots */
+  animation: hotspot-pulse 2s infinite;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes hotspot-pulse {
+  0%, 100% {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(102, 126, 234, 0.7);
+  }
+  50% {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 0 0 15px rgba(102, 126, 234, 0);
+  }
+}
+
+.hotspot:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+  background: #667eea;
+  color: white;
+  animation: none;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.hotspot.active {
+  background: #667eea;
+  color: white;
+  transform: translate(-50%, -50%) scale(1.2);
+  animation: none;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.6);
+}
+
+/* Hotspot tooltip */
+.hotspot-tooltip {
+  position: absolute;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  max-width: 320px;
+  min-width: 280px;
+  z-index: 1000;
+  pointer-events: auto;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.hotspot-tooltip.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.hotspot-tooltip-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.hotspot-tooltip-number {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.hotspot-tooltip-label {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.hotspot-tooltip-fact {
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.hotspot-tooltip-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: all 0.2s ease;
+  padding: 0;
+  line-height: 1;
+}
+
+.hotspot-tooltip-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(90deg);
+}
+
+/* Tooltip arrow */
+.hotspot-tooltip::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+}
+
+/* Arrow positioning based on tooltip placement */
+.hotspot-tooltip.tooltip-top::before {
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top-color: #764ba2;
+}
+
+.hotspot-tooltip.tooltip-bottom::before {
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-color: #667eea;
+}
+
+.hotspot-tooltip.tooltip-left::before {
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-left-color: #764ba2;
+}
+
+.hotspot-tooltip.tooltip-right::before {
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-right-color: #667eea;
+}
+
+/* Modal header needs relative positioning for hotspot container */
+.modal-header {
+  position: relative;
+}
+
+.modal-thumbnail {
+  position: relative;
+}
+
+/* Mobile responsive hotspots */
+@media (max-width: 768px) {
+  .hotspot {
+    width: 50px;
+    height: 50px;
+    font-size: 1.4rem;
+  }
+
+  .hotspot-tooltip {
+    max-width: calc(100vw - 40px);
+    min-width: 260px;
+  }
+
+  @keyframes hotspot-pulse {
+    0%, 100% {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(102, 126, 234, 0.7);
+    }
+    50% {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 0 0 20px rgba(102, 126, 234, 0);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hotspot {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+
+  .hotspot-tooltip {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+
+  .hotspot-tooltip-label {
+    font-size: 1.05rem;
+  }
+
+  .hotspot-tooltip-fact {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* Copyright & Terms Modal */
+.copyright-modal-content {
+  background: white;
+  border-radius: 16px;
+  max-width: 700px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalSlideUp 0.3s ease-out;
+  position: relative;
+  z-index: 10001;
+}
+
+.copyright-modal-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 24px 30px;
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.copyright-modal-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.copyright-modal-body {
+  padding: 30px;
+  line-height: 1.8;
+}
+
+.copyright-modal-body h3 {
+  color: #667eea;
+  font-size: 1.2rem;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.copyright-modal-body h3:first-child {
+  margin-top: 0;
+}
+
+.copyright-modal-body p {
+  margin-bottom: 16px;
+  color: #4a5568;
+  font-size: 1rem;
+}
+
+.copyright-modal-body a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.copyright-modal-body a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.copyright-footer {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 2px solid #e2e8f0;
+  font-weight: 500;
+  color: #2d3748;
+}
+
+.copyright-date {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #718096;
+  font-style: italic;
+}
+
+.copyright-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.copyright-link:hover {
+  color: #667eea;
+}
+
+/* Mobile responsive for copyright modal */
+@media (max-width: 768px) {
+  .copyright-modal-content {
+    width: 95%;
+    max-height: 90vh;
+  }
+
+  .copyright-modal-header {
+    padding: 20px;
+  }
+
+  .copyright-modal-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .copyright-modal-body {
+    padding: 20px;
+  }
+
+  .copyright-modal-body h3 {
+    font-size: 1.1rem;
+  }
+
+  .copyright-modal-body p {
+    font-size: 0.95rem;
+  }
+}

@@ -184,11 +184,10 @@ exports.processImage = functions
     // Commit and push to GitHub
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
-    await repoGit.commit(`Add ${filename} with educational content and hotspots
+    await repoGit.commit(`Add ${filename} with educational content
 
 - Category: ${category}
 - Generated content for all grade levels (K-5)
-- Generated interactive hotspots (3-4 per image)
 - Total cost: $${totalCost.toFixed(2)}
 
 Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
@@ -244,109 +243,6 @@ function generateTitle(filename) {
     .join(' ');
 
   return title;
-}
-
-/**
- * Generate interactive hotspots for an image using Anthropic API (Claude Haiku 4.5)
- */
-async function generateHotspots(imagePath, filename, category, repoDir, anthropicKey, imageBase64, mediaType) {
-  const anthropic = new Anthropic({ apiKey: anthropicKey });
-  
-  console.log(`   🎯 Calling Claude Haiku 4.5 for hotspot generation...`);
-  
-  const prompt = `Analyze this science image and create interactive hotspots for students.
-
-Generate 3-4 hotspots that highlight scientifically interesting features in the image.
-
-For each hotspot, provide:
-1. x and y coordinates as percentages (e.g., "35%" for x-axis, "45%" for y-axis)
-2. A short label (2-4 words) describing what the hotspot points to
-3. An engaging, educational fact (2-3 sentences) appropriate for elementary students
-
-Return ONLY valid JSON in this exact format:
-{
-  "hotspots": [
-    {
-      "id": 1,
-      "x": "30%",
-      "y": "40%",
-      "label": "Feature Name",
-      "fact": "Educational fact here. Should be 2-3 sentences."
-    }
-  ]
-}
-
-Be precise with coordinates - think about where a student would click to learn about that feature.`;
-
-  try {
-    const response = await anthropic.messages.create({
-      model: 'claude-haiku-4-5-20251001',
-      max_tokens: 2000,
-      temperature: 1.0,
-      messages: [{
-        role: 'user',
-        content: [
-          {
-            type: 'image',
-            source: {
-              type: 'base64',
-              media_type: mediaType,
-              data: imageBase64
-            }
-          },
-          {
-            type: 'text',
-            text: prompt
-          }
-        ]
-      }]
-    });
-
-    // Calculate cost (Haiku 4.5 pricing: $1/MTok input, $5/MTok output)
-    const inputTokens = response.usage.input_tokens;
-    const outputTokens = response.usage.output_tokens;
-    const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
-
-    // Parse the response
-    let responseText = response.content[0].text;
-    let hotspotData;
-    
-    try {
-      hotspotData = JSON.parse(responseText);
-    } catch (parseError) {
-      // Try to extract JSON if wrapped in markdown or other text
-      const start = responseText.indexOf('{');
-      const end = responseText.lastIndexOf('}') + 1;
-      if (start !== -1 && end > start) {
-        hotspotData = JSON.parse(responseText.substring(start, end));
-      } else {
-        throw new Error('Could not parse JSON from response');
-      }
-    }
-
-    // Validate hotspot data
-    if (!hotspotData.hotspots || hotspotData.hotspots.length < 3) {
-      throw new Error('Invalid hotspot data structure');
-    }
-
-    // Save hotspot file
-    const baseFilename = path.parse(filename).name;
-    const hotspotDir = path.join(repoDir, 'hotspots', category);
-    await fs.mkdir(hotspotDir, { recursive: true });
-    
-    const hotspotFilePath = path.join(hotspotDir, `${baseFilename}.json`);
-    await fs.writeFile(hotspotFilePath, JSON.stringify(hotspotData, null, 2));
-    
-    const hotspotCount = hotspotData.hotspots.length;
-    console.log(`   ✅ Generated ${hotspotCount} hotspots (cost: $${cost.toFixed(4)})`);
-    
-    return cost;
-
-  } catch (error) {
-    console.error(`   ❌ Failed to generate hotspots:`, error.message);
-    // Don't throw - we want content generation to succeed even if hotspots fail
-    return 0;
-  }
 }
 
 /**
@@ -440,7 +336,7 @@ Remember:
 
     try {
       const response = await anthropic.messages.create({
-        model: 'claude-haiku-4-5-20251001',
+        model: 'claude-sonnet-4-20250514',
         max_tokens: 4096,
         messages: [{
           role: 'user',
@@ -461,10 +357,10 @@ Remember:
         }]
       });
 
-      // Calculate cost (Haiku 4.5 pricing: $1/MTok input, $5/MTok output)
+      // Calculate cost (approximate)
       const inputTokens = response.usage.input_tokens;
       const outputTokens = response.usage.output_tokens;
-      const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+      const cost = (inputTokens * 0.003 / 1000) + (outputTokens * 0.015 / 1000);
       totalCost += cost;
 
       // Get the markdown content directly
@@ -517,12 +413,5 @@ Remember:
   console.log(`   ✅ Base content file created: ${baseFilename}.json`);
 
   console.log(`✅ All content generated. Total cost: $${totalCost.toFixed(2)}`);
-  
-  // Generate hotspots
-  console.log(`\n🎯 Generating interactive hotspots...`);
-  const hotspotCost = await generateHotspots(imagePath, filename, category, repoDir, anthropicKey, imageBase64, mediaType);
-  totalCost += hotspotCost;
-  
-  console.log(`✅ Total cost (content + hotspots): $${totalCost.toFixed(2)}`);
   return totalCost;
 }
