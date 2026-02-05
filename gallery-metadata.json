@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T18:59:39.649Z",
-  "totalImages": 98,
+  "lastUpdated": "2026-02-05T19:03:28.777Z",
+  "totalImages": 99,
   "images": [
     {
       "id": 1,
@@ -882,6 +882,15 @@
       "imagePath": "images/physical-science/mechanical_energy.jpeg",
       "contentFile": "content/physical-science/mechanical_energy.json",
       "title": "Mechanical Energy",
+      "hasContent": true
+    },
+    {
+      "id": 99,
+      "filename": "lake_landform.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/lake_landform.jpg",
+      "contentFile": "content/earth-space-science/lake_landform.json",
+      "title": "Lake Landform",
       "hasContent": true
     }
   ]

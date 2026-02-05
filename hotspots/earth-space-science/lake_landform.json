@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "75%",
+      "y": "25%",
+      "label": "Fall Foliage Colors",
+      "fact": "These trees are changing colors because the days are getting shorter and colder. Trees stop making green chlorophyll in fall and we see beautiful reds, oranges, and yellows underneath!"
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "55%",
+      "label": "Fallen Tree Log",
+      "fact": "When trees fall into the water, they become homes for fish, insects, and other animals. This dead wood, called a 'snag,' is super important for forest ecosystems!"
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "70%",
+      "label": "Seasonal Leaf Drop",
+      "fact": "The ground is covered with fallen leaves because deciduous trees drop their leaves in autumn to save water and energy during winter. These leaves decompose and make the soil rich!"
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "35%",
+      "label": "Forest Ecosystem",
+      "fact": "This lake is surrounded by a healthy forest with many different types of trees. Forests provide clean air, clean water, and homes for thousands of animals and plants!"
+    }
+  ]
+}
