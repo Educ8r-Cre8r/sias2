@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "15%",
+      "label": "Plant Roots",
+      "fact": "These small green plants are growing in the soil with their roots spreading downward to find water and nutrients. Plant roots are like tiny straws that help the plant drink from the ground!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Soil Layers",
+      "fact": "You can see different colored layers in this soil cross-section. Each layer tells a story about how old the soil is and what materials it contains, like sand, clay, and organic matter."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "75%",
+      "label": "Decomposing Matter",
+      "fact": "The darker layers at the bottom contain decomposed plants and organisms that have broken down over time. This creates rich nutrients that help new plants grow!"
+    },
+    {
+      "id": 4,
+      "x": "30%",
+      "y": "35%",
+      "label": "Healthy Soil",
+      "fact": "The dark brown and black colors show this is fertile soil full of organic material. Fertile soil is like nature's kitchen where it mixes everything needed to feed growing plants."
+    }
+  ]
+}

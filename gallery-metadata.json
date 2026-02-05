@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T05:38:07.873Z",
-  "totalImages": 92,
+  "lastUpdated": "2026-02-05T18:12:56.206Z",
+  "totalImages": 93,
   "images": [
     {
       "id": 1,
@@ -828,6 +828,15 @@
       "imagePath": "images/life-science/pollination.jpg",
       "contentFile": "content/life-science/pollination.json",
       "title": "Pollination",
+      "hasContent": true
+    },
+    {
+      "id": 93,
+      "filename": "soil.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/soil.jpg",
+      "contentFile": "content/earth-space-science/soil.json",
+      "title": "Soil",
       "hasContent": true
     }
   ]
