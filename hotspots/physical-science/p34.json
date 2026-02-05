@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Icicle Formation",
+      "fact": "Icicles form when water drips and freezes layer by layer in cold temperatures. Each drop adds a thin layer of ice, making the icicle longer over time, like a natural sculpture!"
+    },
+    {
+      "id": 2,
+      "x": "35%",
+      "y": "50%",
+      "label": "Frozen Water Crystals",
+      "fact": "The clear, pointy shapes you see are ice crystals that formed as water froze. Water always freezes into beautiful geometric patterns, and no two icicles are exactly alike!"
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "60%",
+      "label": "Evergreen Trees",
+      "fact": "The green trees in the background stay green all winter long! These evergreens keep their needles year-round, which helps them survive the freezing temperatures of winter."
+    },
+    {
+      "id": 4,
+      "x": "20%",
+      "y": "70%",
+      "label": "Icicle Hanging Cycle",
+      "fact": "Icicles hang from roofs or overhangs where water can drip down and freeze. During thaws, they can fall to the ground, which is why it's important to stay away from them!"
+    }
+  ]
+}

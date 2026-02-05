@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Eye Stalks",
+      "fact": "This crab has long eye stalks that stick up from its head, allowing it to see in all directions while staying hidden in the sand. These special eyes help it spot food and danger without exposing its whole body."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Large Claw",
+      "fact": "Ghost crabs have one claw that is much larger than the other! The big claw is used for defending itself, digging burrows, and catching food like small insects and other creatures."
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "65%",
+      "label": "Sandy Habitat",
+      "fact": "This ghost crab lives on sandy beaches and is perfectly camouflaged with its tan and brown coloring. It digs U-shaped burrows in the sand to hide from predators and stay cool during the day."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "50%",
+      "label": "Walking Legs",
+      "fact": "Ghost crabs have four pairs of legs that help them run sideways across the beach at speeds up to 10 miles per hour! This sideways walking helps them move quickly to escape danger."
+    }
+  ]
+}

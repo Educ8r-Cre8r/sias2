@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "25%",
+      "label": "Vertical Eye Pupil",
+      "fact": "This lizard has a vertical pupil in its eye that helps it see better in dim light and bright sunlight. The pupil can shrink to a tiny slit to protect the eye from too much light."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "45%",
+      "label": "Textured Scales",
+      "fact": "Lizards are covered in tiny scales that protect their skin and help them blend in with their surroundings. These bumpy scales also help the lizard grip branches as it climbs."
+    },
+    {
+      "id": 3,
+      "x": "48%",
+      "y": "65%",
+      "label": "Long Tail",
+      "fact": "A lizard's tail helps it balance while climbing and can even break off if a predator grabs it. The lizard can then grow a new tail, though it's never quite the same as the original."
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "55%",
+      "label": "Strong Legs",
+      "fact": "This lizard's legs are built for gripping branches and climbing trees. The sharp claws on its feet act like hooks to help it hold onto rough bark and branches."
+    }
+  ]
+}

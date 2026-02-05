@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "55%",
+      "label": "Fungal Gills",
+      "fact": "These thin, blade-like structures underneath the mushroom cap are called gills. They produce millions of tiny spores that help the fungus reproduce, similar to how plants use seeds."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "35%",
+      "label": "Mushroom Cap",
+      "fact": "The umbrella-shaped cap protects the delicate gills underneath from rain and damage. Its peachy-orange color helps scientists identify different mushroom species."
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "70%",
+      "label": "Fungal Stem",
+      "fact": "This stalk, called a stipe, supports the mushroom cap and connects it to the fungal network underground called mycelium, which breaks down dead wood for nutrients."
+    },
+    {
+      "id": 4,
+      "x": "30%",
+      "y": "20%",
+      "label": "Host Tree",
+      "fact": "Mushrooms like these grow on dead or dying trees and logs. They are nature's recyclers, breaking down dead wood and returning nutrients back to the soil for new plants to use."
+    }
+  ]
+}

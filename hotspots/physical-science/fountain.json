@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "45%",
+      "label": "Ice Formation",
+      "fact": "When water freezes, it expands and forms ice crystals that create beautiful icicles like these. The icicles grow longer as more water drips and freezes in cold temperatures, creating nature's own frozen sculptures!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "20%",
+      "label": "Water Fountain",
+      "fact": "Fountains circulate water through pumps that push it upward against gravity. The water then falls back down in a cycle, demonstrating how energy is used to move water and create beautiful displays in public spaces."
+    },
+    {
+      "id": 3,
+      "x": "15%",
+      "y": "70%",
+      "label": "Deciduous Trees",
+      "fact": "These trees are losing their leaves in fall, which is a survival strategy for cold weather. Trees slow down their growth and rest during winter to conserve energy and protect themselves from freezing temperatures."
+    },
+    {
+      "id": 4,
+      "x": "85%",
+      "y": "60%",
+      "label": "Temperature Adaptation",
+      "fact": "Plants and outdoor structures must withstand freezing conditions. Ice buildup on the fountain shows how cold weather affects our environment and why cities sometimes drain fountains in winter to prevent damage from expanding ice."
+    }
+  ]
+}

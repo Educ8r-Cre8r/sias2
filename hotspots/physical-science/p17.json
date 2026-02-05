@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "50%",
+      "label": "Reflective Glass Panels",
+      "fact": "The shiny glass on the left building acts like a mirror, reflecting light and other buildings around it. This special glass helps keep the building cooler by reflecting the sun's heat away, which saves energy!"
+    },
+    {
+      "id": 2,
+      "x": "75%",
+      "y": "50%",
+      "label": "Older Building Architecture",
+      "fact": "The tan-colored building visible through the glass is much older than the modern skyscraper in front of it. Scientists study how cities grow by comparing old and new buildings to understand urban development over time."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "30%",
+      "label": "Window Grid Pattern",
+      "fact": "The rectangular grid pattern of windows is designed by engineers to distribute weight evenly and make the building strong. Each window is precisely measured to let in natural light while supporting the structure above."
+    },
+    {
+      "id": 4,
+      "x": "40%",
+      "y": "15%",
+      "label": "Ventilation Systems",
+      "fact": "The dark rectangles and metal parts at the top of the building are HVAC systems that control air flow and temperature inside. These systems work like the lungs of a building, keeping the air fresh and comfortable for everyone inside!"
+    }
+  ]
+}

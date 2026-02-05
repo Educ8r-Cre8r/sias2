@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "35%",
+      "label": "Plant Seedling",
+      "fact": "This young plant is growing roots in water instead of soil! Plants can absorb nutrients and water directly through their roots, which is why this seedling can survive in a bottle. This method of growing plants is called hydroponics."
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "50%",
+      "label": "Recycled Bottle",
+      "fact": "This plastic bottle is being reused as a planter instead of being thrown away! Recycling and reusing materials helps protect our environment. Creative reuse like this shows how we can solve problems with everyday objects."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "65%",
+      "label": "Green Leaves",
+      "fact": "The bright green color of these leaves comes from chlorophyll, a special pigment that helps plants make food from sunlight! This process is called photosynthesis and is how plants get energy to grow."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "15%",
+      "label": "Window View",
+      "fact": "Plants need sunlight to grow, which is why this seedling is placed near a sunny window! Sunlight provides the energy plants need for photosynthesis, helping them grow strong and healthy leaves and roots."
+    }
+  ]
+}

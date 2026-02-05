@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "45%",
+      "label": "Spiral Shell Chamber",
+      "fact": "This is a fossilized ammonite, an ancient sea creature that lived millions of years ago. The spiral chamber you see helped the ammonite control its depth in the ocean by filling sections with gas or water, like a submarine!"
+    },
+    {
+      "id": 2,
+      "x": "45%",
+      "y": "55%",
+      "label": "Shell Texture & Ridges",
+      "fact": "The ridges and bumps on the shell helped the ammonite move through water and may have protected it from predators. These detailed patterns are so well preserved that scientists can study them to learn about ancient oceans."
+    },
+    {
+      "id": 3,
+      "x": "30%",
+      "y": "25%",
+      "label": "Fossilization Process",
+      "fact": "Over 65 million years, minerals replaced the original shell material, turning it into stone. This fossil is like a natural time capsule that shows us what life was like when dinosaurs roamed the Earth!"
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "35%",
+      "label": "Surrounding Rock Matrix",
+      "fact": "The tan-colored rock surrounding the fossil is called the matrix. It protected the ammonite shell for millions of years and helps scientists know the age and environment where this creature lived."
+    }
+  ]
+}

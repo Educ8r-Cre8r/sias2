@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "LED Light Bulb",
+      "fact": "This tiny LED light is glowing brightly! LEDs use much less electricity than regular bulbs and stay cool to the touch, making them super efficient and safe."
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "45%",
+      "label": "Red Wire",
+      "fact": "The red wire carries positive electrical current to the LED. Red wires are a standard color choice in electronics because they help scientists and engineers quickly identify the positive side of a circuit."
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "55%",
+      "label": "Battery Unit",
+      "fact": "This battery provides the electrical energy needed to light up the LED. The +D marking shows this is a special-sized battery that stores chemical energy and converts it into electricity!"
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "35%",
+      "label": "Circuit Connection",
+      "fact": "When the tweezers complete the circuit by touching both ends, electricity flows from the battery through the red wire to light the LED. A complete circuit is needed for electricity to flow!"
+    }
+  ]
+}

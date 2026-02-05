@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Gills",
+      "fact": "These thin, blade-like structures under the mushroom cap are called gills. They produce millions of tiny spores that help mushrooms reproduce, similar to how plants use seeds."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "15%",
+      "label": "Mushroom Cap",
+      "fact": "The flat, tan-colored cap you see is the fruiting body of the mushroom. It protects the delicate gills underneath and helps release spores into the air when they're ready."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "60%",
+      "label": "Stem (Stipe)",
+      "fact": "This tube-like structure supports the cap above the ground. The stem connects to a vast underground network called mycelium, which helps the mushroom absorb nutrients from soil and dead plants."
+    },
+    {
+      "id": 4,
+      "x": "30%",
+      "y": "50%",
+      "label": "Grass Habitat",
+      "fact": "Mushrooms grow in grassy areas because they need moisture and organic matter to survive. They help break down dead plant material and return nutrients to the soil, making them important decomposers in nature."
+    }
+  ]
+}

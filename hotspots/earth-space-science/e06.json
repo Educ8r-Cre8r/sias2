@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Mud Cracks Pattern",
+      "fact": "When mud dries out, it shrinks and cracks into puzzle-like pieces. These cracks show us that this area experienced a drought where water disappeared. Scientists use mud crack patterns to understand past climates and weather conditions."
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "70%",
+      "label": "Drought-Resistant Plants",
+      "fact": "These small plants growing in the cracked mud are specially adapted to survive with very little water. Plants like these have deep roots and waxy leaves that help them stay alive during dry periods. They're nature's solution to living in harsh, arid environments."
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "50%",
+      "label": "Soil Layers Visible",
+      "fact": "You can see different colored soil layers in the deep cracks\u2014lighter tan on top and darker mud underneath. These layers tell us about different time periods and how the soil formed. Deeper, darker layers are usually older and have more organic material."
+    },
+    {
+      "id": 4,
+      "x": "40%",
+      "y": "65%",
+      "label": "Extreme Desiccation",
+      "fact": "This severe cracking is called desiccation and happens when soil loses almost all its water. The deeper the cracks, the drier the conditions have been. This image shows an extreme drought that would make it very difficult for most plants and animals to survive."
+    }
+  ]
+}

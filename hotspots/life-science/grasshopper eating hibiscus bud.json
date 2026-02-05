@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Grasshopper's Eye",
+      "fact": "Grasshoppers have large eyes that can see in almost all directions at once! This helps them spot predators and find food quickly."
+    },
+    {
+      "id": 2,
+      "x": "30%",
+      "y": "55%",
+      "label": "Strong Back Legs",
+      "fact": "A grasshopper's back legs are specially designed for jumping. They have powerful muscles that let them leap up to 20 times their own body length!"
+    },
+    {
+      "id": 3,
+      "x": "60%",
+      "y": "50%",
+      "label": "Deep Red Flower",
+      "fact": "This dark red flower attracts insects like grasshoppers with its bright color and sweet nectar. The grasshopper uses its mouth to drink the nectar."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "70%",
+      "label": "Green Body Camouflage",
+      "fact": "The grasshopper's green color helps it blend in with plants and leaves. This camouflage keeps it safe from animals that want to eat it!"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Water Erosion Stream",
+      "fact": "This flowing water has carved a path through the rocks and soil over time. Water is a powerful force that shapes Earth's surface by breaking down rocks and carrying them away to new places."
+    },
+    {
+      "id": 2,
+      "x": "20%",
+      "y": "20%",
+      "label": "Gravel and Stones",
+      "fact": "These light-colored rocks have been broken down from larger boulders by weathering and water movement. Over many years, big rocks become smaller stones and pebbles through natural processes."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "50%",
+      "label": "Soil and Plant Growth",
+      "fact": "The darker material contains soil mixed with decomposed plants and organic matter. Plants grow here because soil provides nutrients and water that help seeds sprout and grow into healthy plants."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "60%",
+      "label": "Sediment Layers",
+      "fact": "Different colored layers show how materials have been sorted by water movement. Heavier rocks settle faster while lighter sediment travels farther, creating visible layers in the ground."
+    }
+  ]
+}

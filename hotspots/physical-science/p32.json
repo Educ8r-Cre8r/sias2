@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Soap Bubble Film",
+      "fact": "Bubbles are made of a thin layer of soap and water trapped between two layers of air. The rainbow colors you see happen because light bounces off the bubble's surface and splits into different colors, just like a prism!"
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "50%",
+      "label": "Bubble Wand",
+      "fact": "The circular wand helps create a large surface area for the soapy water to stretch across. When you move the wand through the air, it pushes the bubble film forward and helps it float away!"
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "45%",
+      "label": "Rainbow Colors",
+      "fact": "The purple, blue, yellow, and orange colors appear because of how light waves bounce and bend on the bubble's curved surface. This is called interference, and it's the same science that creates rainbows in the sky!"
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "75%",
+      "label": "Surface Tension",
+      "fact": "Soap makes water molecules stick together more weakly, allowing them to stretch into a thin film that can hold air. Without soap, plain water bubbles would pop instantly because the surface isn't strong enough!"
+    }
+  ]
+}

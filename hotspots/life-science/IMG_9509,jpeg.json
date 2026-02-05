@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Young Seedling Leaves",
+      "fact": "These bright green leaves are called cotyledons, which are the plant's first leaves! They help the tiny seedling capture sunlight and energy to grow into a bigger plant."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Sprouting Stem",
+      "fact": "This green stem is pushing up through the soil to reach sunlight. Plants grow stems upward toward light because they need light to make food and survive."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "70%",
+      "label": "Wood Chip Mulch",
+      "fact": "The dark pieces around the seedling are wood chips that help protect the soil and keep it moist and warm. As they break down, they also add nutrients back to the soil for plants to use!"
+    },
+    {
+      "id": 4,
+      "x": "30%",
+      "y": "60%",
+      "label": "Root System Below",
+      "fact": "Underground, this seedling has tiny roots growing downward to absorb water and nutrients from the soil. Roots are just as important as the leaves we can see above!"
+    }
+  ]
+}

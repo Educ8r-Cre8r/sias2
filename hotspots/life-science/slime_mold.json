@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "35%",
+      "y": "30%",
+      "label": "Bright Yellow Color",
+      "fact": "This fungus is bright yellow because of special pigments in its cells. The vibrant color helps scientists identify different types of fungi in nature."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "45%",
+      "label": "Spongy Texture",
+      "fact": "This fungus has a bumpy, spongy texture that feels gelatinous or rubbery. This unusual structure helps the fungus absorb water and nutrients from decaying wood."
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "60%",
+      "label": "Decaying Wood Home",
+      "fact": "This fungus grows on dead wood and leaves on the forest floor. Fungi are nature's recyclers\u2014they break down dead plants and return nutrients to the soil."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "65%",
+      "label": "Fungal Growth Pattern",
+      "fact": "Notice how the fungus grows in different shapes and sizes! This is called the fruiting body, and it's how the fungus releases spores to create new fungus elsewhere."
+    }
+  ]
+}

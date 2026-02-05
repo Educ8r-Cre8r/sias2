@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "55%",
+      "y": "15%",
+      "label": "Long Antennae",
+      "fact": "Grasshoppers use their long antennae to feel their surroundings and detect vibrations in the air. These antennae help them find food and sense danger from predators nearby."
+    },
+    {
+      "id": 2,
+      "x": "35%",
+      "y": "50%",
+      "label": "Powerful Hind Legs",
+      "fact": "A grasshopper's back legs are incredibly strong and can launch it 20 times its own body length! These muscular legs are specially designed for jumping to escape danger."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "65%",
+      "label": "Plant Seed Head",
+      "fact": "Grasshoppers are herbivores that eat plants, seeds, and grains. This seed head provides nutritious food for the grasshopper to munch on throughout the day."
+    },
+    {
+      "id": 4,
+      "x": "45%",
+      "y": "30%",
+      "label": "Large Compound Eyes",
+      "fact": "Grasshoppers have huge eyes that can see in many directions at once, helping them spot movement and predators. Their excellent vision helps them navigate through grass quickly."
+    }
+  ]
+}

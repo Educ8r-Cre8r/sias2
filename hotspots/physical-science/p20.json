@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Colorful Pebbles",
+      "fact": "These colorful stones are made from different minerals and rocks that come from mountains and cliffs nearby. Over thousands of years, waves and weather break these rocks into smaller pieces, creating the beautiful pebbles you see on the beach!"
+    },
+    {
+      "id": 2,
+      "x": "70%",
+      "y": "55%",
+      "label": "White Sand Grains",
+      "fact": "The white material between the pebbles is sand made mostly from tiny pieces of shell and quartz. Sand grains are so small that millions of them fit in a teaspoon, but each one is a miniature treasure from the ocean!"
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "60%",
+      "label": "Brown and Red Rocks",
+      "fact": "The reddish and brownish pebbles contain iron and other minerals that give them their color. These rocks are evidence of volcanic activity and geological processes that shaped Earth millions of years ago!"
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "70%",
+      "label": "Dark Stone",
+      "fact": "This dark pebble is likely basalt, a volcanic rock that forms when lava cools very quickly. It's much heavier and denser than the lighter colored rocks around it, making it one of the ocean's most durable treasures!"
+    }
+  ]
+}

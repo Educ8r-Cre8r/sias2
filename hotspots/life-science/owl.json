@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "15%",
+      "y": "20%",
+      "label": "Ear Tufts",
+      "fact": "These pointed feathers on top of the owl's head are called ear tufts, but they're not actually ears! They help the owl blend in with trees and branches by making it look pointy like branches."
+    },
+    {
+      "id": 2,
+      "x": "20%",
+      "y": "45%",
+      "label": "Camouflage Feathers",
+      "fact": "The owl's gray and brown speckled feathers are perfect camouflage. This coloring helps the owl hide on tree bark and rocks so prey animals can't see it. This is called cryptic coloration."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "35%",
+      "label": "Large Forward Eyes",
+      "fact": "Owls have big eyes that face forward like humans do. This helps them see prey very well at night. Their eyes are so big that they can't move them side to side\u2014they have to turn their whole head!"
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "65%",
+      "label": "White Wing Markings",
+      "fact": "The white spots on this owl's wings create a pattern unique to each individual owl. Scientists use these patterns to identify and study different owls in the wild, like fingerprints for birds!"
+    }
+  ]
+}

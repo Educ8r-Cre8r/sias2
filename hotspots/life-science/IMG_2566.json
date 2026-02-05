@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "25%",
+      "label": "Wing Patterns",
+      "fact": "This butterfly's wings have beautiful yellow and black spots that help identify its species. These colorful patterns also help scare away predators by making the butterfly look bigger and more dangerous than it really is."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "45%",
+      "label": "Long Antennae",
+      "fact": "Butterflies use their antennae like we use our nose - to smell! These thin, curved structures help the butterfly find flowers with sweet nectar and locate other butterflies."
+    },
+    {
+      "id": 3,
+      "x": "45%",
+      "y": "55%",
+      "label": "Curled Proboscis",
+      "fact": "The butterfly's tongue is called a proboscis and works like a drinking straw. When not eating, it curls up like a garden hose, then unrolls to sip sweet nectar from deep inside flowers."
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "50%",
+      "label": "Flower Center",
+      "fact": "The bright yellow center of this zinnia flower is packed with tiny flowers and sweet nectar. This sugary liquid gives butterflies the energy they need to fly and helps flowers make seeds when butterflies carry pollen between plants."
+    }
+  ]
+}

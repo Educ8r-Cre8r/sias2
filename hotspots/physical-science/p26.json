@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Ship's Smokestacks",
+      "fact": "These tall pipes called funnels release smoke and gases from the ship's engines. The black smoke shows that this cargo ship uses fuel to power its massive engines and move through the water."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "65%",
+      "label": "Hull Design",
+      "fact": "The red and black painted hull is the ship's outer shell that protects it from water. The red color helps prevent rust and corrosion from the salty seawater."
+    },
+    {
+      "id": 3,
+      "x": "45%",
+      "y": "50%",
+      "label": "Cargo Loading Cranes",
+      "fact": "The tall yellow cranes on deck are used to load and unload heavy cargo from the ship. These cranes can lift tons of cargo at a time and move it on and off the vessel."
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "45%",
+      "label": "Bridge and Radar",
+      "fact": "The tall structures on top house the bridge where the captain steers the ship and radar systems that help navigate. These help the crew safely guide the massive ship through the ocean."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Lichen Growth",
+      "fact": "The white and gray patches on the rock are called lichens, which are living organisms made of algae and fungi working together. Lichens grow very slowly and can live for hundreds of years, making them nature's patient decorators!"
+    },
+    {
+      "id": 2,
+      "x": "40%",
+      "y": "55%",
+      "label": "Green Moss",
+      "fact": "The bright green fuzzy covering is moss, a tiny plant without roots that absorbs water directly through its leaves. Moss loves moist, shady places and helps break down rocks into soil over many years."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "75%",
+      "label": "Rock Weathering",
+      "fact": "This rounded rock has been shaped by weather, water, and time into a smooth boulder. Living things like lichens and moss actually help break rocks apart by slowly wearing them down into smaller pieces and eventually soil."
+    },
+    {
+      "id": 4,
+      "x": "80%",
+      "y": "80%",
+      "label": "Forest Habitat",
+      "fact": "The soil and mulch around the rock create a perfect home for mosses and lichens because it stays damp and shady. This damp forest floor is like an apartment building for thousands of tiny living things!"
+    }
+  ]
+}

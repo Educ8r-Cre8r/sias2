@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "55%",
+      "y": "35%",
+      "label": "Large Bulging Eyes",
+      "fact": "Toads have excellent vision and can see in many directions without moving their heads. Their large eyes help them spot insects and other prey from far away."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Bumpy, Warty Skin",
+      "fact": "These bumps on a toad's skin contain special glands that produce toxins to protect them from predators. The bumpy texture also helps toads blend in with dirt and rocks."
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "45%",
+      "label": "Insects on Twig",
+      "fact": "Toads are carnivores that eat insects like flies, beetles, and mosquitoes. They use their sticky tongues to catch and eat insects in just a fraction of a second!"
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "70%",
+      "label": "Short, Sturdy Legs",
+      "fact": "Toad legs are built for hopping and walking on land, unlike frogs which are better jumpers. Toads move slower but can travel long distances looking for food and water."
+    }
+  ]
+}

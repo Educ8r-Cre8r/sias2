@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "25%",
+      "label": "Gelatinous Fruiting Body",
+      "fact": "These jelly-like structures are called fruiting bodies, and they're how this fungus spreads its spores. The bright pink color helps attract insects and animals that help scatter the spores to new locations."
+    },
+    {
+      "id": 2,
+      "x": "70%",
+      "y": "55%",
+      "label": "Individual Spore Clusters",
+      "fact": "Each small sphere you see is packed with millions of microscopic spores. When these spores land in the right conditions, they can grow into new fungi!"
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "70%",
+      "label": "Wood Decomposition",
+      "fact": "This fungus is breaking down dead wood and turning it into nutrients that help soil and new plants grow. Fungi are nature's recyclers!"
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "60%",
+      "label": "Wrinkled Surface Texture",
+      "fact": "The bumpy, wrinkled surface increases the area where spores can form and be released. This clever design helps the fungus spread more effectively."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Fossil Face",
+      "fact": "This is a trilobite fossil, an ancient creature that lived in the ocean over 500 million years ago. You can see its face with eyes and segments that protected its body like armor."
+    },
+    {
+      "id": 2,
+      "x": "52%",
+      "y": "55%",
+      "label": "Segmented Body",
+      "fact": "The lines and ridges on the trilobite show its body segments, which allowed it to curl up in a ball for protection. These segments were flexible, like your backbone!"
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "45%",
+      "label": "Preserved Details",
+      "fact": "Even though this creature died millions of years ago, we can still see fine details like its legs and shell pattern in the rock. This helps scientists understand what ancient life looked like."
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "50%",
+      "label": "Rock Matrix",
+      "fact": "The tan and brown rock surrounding the fossil is called sedimentary rock. It formed from mud and sand that buried the trilobite and hardened over millions of years."
+    }
+  ]
+}

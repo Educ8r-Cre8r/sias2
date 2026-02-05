@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "25%",
+      "label": "Flower Bud",
+      "fact": "This is a flower bud that is about to bloom! The sepals (green parts) protect the delicate petals inside until the flower is ready to open. When the bud opens, beautiful petals will unfold."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "55%",
+      "label": "Green Stem",
+      "fact": "The stem carries water and nutrients from the roots up to the flower and leaves. It also holds the flower upright so it can get plenty of sunlight for energy!"
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "70%",
+      "label": "Opened Flower",
+      "fact": "This flower has already bloomed and opened its petals! Flowers produce pollen that helps make new seeds. Bees and other insects visit flowers to collect pollen and nectar."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "50%",
+      "label": "Sepals",
+      "fact": "These green leaf-like parts are called sepals, and they protect the flower while it develops inside the bud. Once the flower blooms, the sepals often curl back to show off the colorful petals!"
+    }
+  ]
+}

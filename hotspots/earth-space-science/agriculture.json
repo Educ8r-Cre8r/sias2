@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Large Tractor Tires",
+      "fact": "These huge tires are specially designed to grip muddy soil without sinking. The deep treads help distribute the tractor's heavy weight over a larger area, which prevents the machine from getting stuck in wet fields."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "25%",
+      "label": "Tractor Engine Cab",
+      "fact": "Modern farm tractors have air-conditioned cabs with computers inside! Farmers can monitor soil conditions, GPS location, and fuel levels right from their seat while working the fields."
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "50%",
+      "label": "Plowed Soil",
+      "fact": "The dark, freshly turned soil is rich with nutrients and minerals that help plants grow. Plowing breaks up the soil and mixes in organic material, making it ready for planting crops."
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "50%",
+      "label": "Agricultural Field",
+      "fact": "This large, flat farmland is ideal for growing crops because it allows water to drain properly and gives plants plenty of space for their roots to grow deep into the soil."
+    }
+  ]
+}

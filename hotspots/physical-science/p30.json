@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Ocean Wave Crash",
+      "fact": "Waves are created by wind blowing across the ocean surface. When waves hit rocks or land, they break apart into white foam called sea spray. The more powerful the wave, the bigger the splash!"
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "65%",
+      "label": "Dark Rocky Formations",
+      "fact": "These dark rocks are likely made of basalt, a type of volcanic rock. Rocks like these are constantly being worn down by waves, wind, and water through a process called erosion. Over thousands of years, rocks get smaller and smaller!"
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "70%",
+      "label": "Sandy Beach Surface",
+      "fact": "Sand is made of tiny pieces of broken rocks and shells. The sand you see on beaches is created when waves crash on rocks repeatedly, grinding them into smaller and smaller particles over many years."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "50%",
+      "label": "Wave Energy and Motion",
+      "fact": "The power of ocean waves comes from wind energy traveling across vast distances. This crashing water demonstrates kinetic energy\u2014the energy of movement\u2014which shapes our coastlines and creates the dramatic scenes we see at the beach!"
+    }
+  ]
+}

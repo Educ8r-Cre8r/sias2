@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Galls on Branch",
+      "fact": "These round, bumpy growths on tree branches are called galls. They form when insects lay eggs inside the plant, and the plant grows protective tissue around them. It's like nature's nursery for baby insects!"
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "50%",
+      "label": "Dead Wood Decay",
+      "fact": "This weathered, gray wood is decomposing and breaking down. Fungi and insects help break down dead wood into nutrients that return to the soil and feed new plants and trees."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "55%",
+      "label": "Rusted Metal",
+      "fact": "The orange-brown color on metal is rust, formed when iron reacts with oxygen and water. Rust is an example of oxidation, a chemical change that happens naturally over time."
+    },
+    {
+      "id": 4,
+      "x": "45%",
+      "y": "70%",
+      "label": "Lichen Growth",
+      "fact": "The whitish, crusty coating on some surfaces is lichen, which is actually two organisms living together\u2014fungi and algae. They help each other survive in harsh environments!"
+    }
+  ]
+}

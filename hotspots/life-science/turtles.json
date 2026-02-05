@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "35%",
+      "y": "45%",
+      "label": "Turtle Shell",
+      "fact": "A turtle's shell is made of bone covered by tough plates called scutes. The shell protects the turtle's body from predators and helps it survive in water and on land."
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "50%",
+      "label": "Moss Growth",
+      "fact": "Moss grows on the turtle's shell in wet environments like this swamp. The moss doesn't hurt the turtle\u2014it's called a symbiotic relationship where both organisms benefit."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "20%",
+      "label": "Wetland Habitat",
+      "fact": "Turtles live in wetlands with shallow water, plants, and logs. These habitats provide food, shelter, and places for turtles to bask in the sun to warm their bodies."
+    },
+    {
+      "id": 4,
+      "x": "45%",
+      "y": "55%",
+      "label": "Duckweed Cover",
+      "fact": "The green covering on the water is duckweed, a tiny floating plant. Duckweed provides food and shelter for many water animals, including turtles and fish."
+    }
+  ]
+}

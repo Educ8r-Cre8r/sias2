@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "45%",
+      "label": "V8 Engine",
+      "fact": "This powerful V8 engine has 8 cylinders that work together to create energy by burning fuel. The cylinders fire in a specific order to push pistons up and down, which turns the wheels and makes the car go super fast!"
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "55%",
+      "label": "Air Intake Pipe",
+      "fact": "This large black tube sucks in air from outside the car and feeds it to the engine. The engine needs oxygen from the air to mix with fuel so it can create the explosions that power the car."
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "25%",
+      "label": "Engine Cover",
+      "fact": "The silver cover on top protects all the important engine parts and keeps them from getting dirty or damaged. It also helps keep the heat from the engine contained so it doesn't burn anything nearby."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "35%",
+      "label": "Battery (Red Terminal)",
+      "fact": "This red battery provides electrical power to start the engine and run the car's lights and electronics. It's like the heart of the car's electrical system, sending power everywhere it's needed!"
+    }
+  ]
+}

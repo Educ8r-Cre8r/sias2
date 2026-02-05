@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "35%",
+      "label": "Urban Heat Island",
+      "fact": "The tall buildings in the distance create what scientists call an 'urban heat island,' where cities are warmer than nearby areas. This happens because buildings and roads absorb and trap heat from the sun differently than natural surfaces like beaches and forests."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "75%",
+      "label": "Ocean Waves & Erosion",
+      "fact": "The waves you see are created by wind pushing water across the ocean. These waves help shape beaches by moving sand and rocks, a process called coastal erosion that changes the shoreline over time."
+    },
+    {
+      "id": 3,
+      "x": "15%",
+      "y": "50%",
+      "label": "Seagulls & Food Web",
+      "fact": "The seagulls on the beach are part of the ocean's food web! They eat small fish and organisms left behind by waves, helping keep the beach clean while finding their own meals."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "50%",
+      "label": "Hazy Air Quality",
+      "fact": "The foggy, hazy appearance in this photo shows poor air quality, likely from pollution or dust in the atmosphere. Scientists study air quality to understand how pollution affects human health and the environment."
+    }
+  ]
+}

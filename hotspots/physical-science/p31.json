@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "American Flag",
+      "fact": "The American flag has 13 stripes representing the original 13 colonies, and 50 stars representing all 50 states. Flags are made from special materials that can withstand wind, rain, and sunlight without fading quickly."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "75%",
+      "label": "Clock Tower",
+      "fact": "This clock tells time using mechanical gears and springs, similar to how clocks have worked for hundreds of years. The clock face is a circle divided into 12 sections, with numbers that help us read the exact time."
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "50%",
+      "label": "Red Brick Building",
+      "fact": "Buildings use bricks as a strong, durable building material that can last for hundreds of years. Red bricks are made from clay that is heated in very hot kilns, making them hard and weather-resistant."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "45%",
+      "label": "Metal Architecture",
+      "fact": "Tall buildings use strong metals like steel in their frames to support their weight and resist wind. Metal is a great choice because it is lightweight yet very strong, allowing buildings to reach high into the sky."
+    }
+  ]
+}

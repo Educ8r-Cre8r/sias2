@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "55%",
+      "label": "Seeds and Placenta",
+      "fact": "The bumpy, cream-colored structure inside the pepper is called the placenta, and it holds all the seeds! This is where baby pepper plants start growing. The placenta is actually edible and nutritious, just like the rest of the pepper."
+    },
+    {
+      "id": 2,
+      "x": "35%",
+      "y": "35%",
+      "label": "Pepper Skin",
+      "fact": "The smooth, shiny green outer layer is called the epidermis, and it protects the pepper like your skin protects you! This waxy coating helps keep the pepper fresh and prevents it from drying out too quickly."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "20%",
+      "label": "Pepper Top (Calyx)",
+      "fact": "The bumpy crown-like part at the top of the pepper is called the calyx, and it's where the flower was attached! As the pepper grows, this crown-shaped piece stays attached and protects the opening of the fruit."
+    },
+    {
+      "id": 4,
+      "x": "45%",
+      "y": "50%",
+      "label": "Hollow Chamber",
+      "fact": "The empty space inside the pepper is called the seed cavity, and it's designed perfectly to hold and protect the seeds! This hollow chamber helps the pepper stay lightweight so it can hang from the plant without breaking branches."
+    }
+  ]
+}

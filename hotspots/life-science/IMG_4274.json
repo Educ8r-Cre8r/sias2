@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "35%",
+      "label": "Large Compound Eyes",
+      "fact": "Dragonflies have enormous eyes that can see in almost every direction at once! Their eyes have thousands of tiny lenses that help them spot moving insects while flying at high speeds."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Head and Thorax",
+      "fact": "A dragonfly's head is mostly made up of its huge eyes, while its thorax (middle body) contains powerful flight muscles. These muscles let dragonflies fly forwards, backwards, and hover in place!"
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "55%",
+      "label": "Transparent Wings",
+      "fact": "Dragonfly wings are made of a clear material called chitin and have delicate veins running through them. These wings beat very fast and can move independently, making dragonflies some of the most skilled fliers in the insect world."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "25%",
+      "label": "Striped Abdomen",
+      "fact": "The long striped body at the back of the dragonfly is called the abdomen. It helps the dragonfly balance and steer while flying, kind of like the tail on a kite!"
+    }
+  ]
+}

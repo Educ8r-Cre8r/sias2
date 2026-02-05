@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "25%",
+      "label": "Cumulus Cloud Top",
+      "fact": "The bright white, puffy top of this cloud is called a cumulus cloud. These clouds form when warm air rises into the cooler atmosphere and water vapor condenses into water droplets."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "60%",
+      "label": "Tower Crane",
+      "fact": "This construction crane is dwarfed by the massive cloud behind it! The cloud shows how enormous weather systems are compared to human-made structures on the ground."
+    },
+    {
+      "id": 3,
+      "x": "45%",
+      "y": "45%",
+      "label": "Cloud Shading Variation",
+      "fact": "Notice how parts of the cloud are bright white and other parts are darker gray. The darker areas are shadowed regions where sunlight cannot reach through the thick cloud, showing the cloud's great depth and height."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "70%",
+      "label": "Clear Blue Sky",
+      "fact": "The deep blue sky shows clean, dry air with very few clouds. This contrast helps us see how clouds contain water and are heavier than the surrounding air around them."
+    }
+  ]
+}

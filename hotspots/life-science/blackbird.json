@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "25%",
+      "label": "Black Head",
+      "fact": "This bird's dark head helps it blend into shadows and dark spaces. The bright yellow eye stands out so other birds can see it from far away!"
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "35%",
+      "label": "Sharp Beak",
+      "fact": "Birds like this one have pointed beaks perfect for catching insects and small food in grass. The thin shape helps them poke into tight spaces to find meals."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "50%",
+      "label": "Long Tail Feathers",
+      "fact": "Long tail feathers help birds balance and change direction quickly while flying. They also look impressive and help birds recognize each other!"
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "60%",
+      "label": "Grassland Habitat",
+      "fact": "This bird walks on the ground in grassy areas hunting for food. The green grass provides camouflage and plenty of insects to eat throughout the day."
+    }
+  ]
+}

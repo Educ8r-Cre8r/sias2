@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Large Prominent Eye",
+      "fact": "This tree frog has big, bulging eyes that can see in many directions at once. Large eyes help frogs spot insects to eat and watch for predators that might want to eat them."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Sticky Toe Pads",
+      "fact": "Tree frogs have special sticky pads on their toes that work like tiny suction cups. These pads let the frog climb smooth leaves and branches without slipping or falling."
+    },
+    {
+      "id": 3,
+      "x": "30%",
+      "y": "50%",
+      "label": "Green Skin Camouflage",
+      "fact": "This frog's bright green color helps it hide on leaves in the rainforest. This camouflage makes it hard for predators to see the frog, even when it's sitting right in front of them."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "45%",
+      "label": "Smooth Moist Skin",
+      "fact": "Frogs breathe through their skin as well as their lungs, so their skin must stay wet. This frog's smooth, moist skin helps it absorb water and oxygen from the air around it."
+    }
+  ]
+}

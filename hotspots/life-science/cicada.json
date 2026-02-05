@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "50%",
+      "label": "Transparent Wings",
+      "fact": "Cicadas have wings made of thin, see-through material that lets light pass through. These delicate wings help them fly and make a loud buzzing sound when they vibrate super fast!"
+    },
+    {
+      "id": 2,
+      "x": "70%",
+      "y": "35%",
+      "label": "Compound Eyes",
+      "fact": "Cicadas have large eyes on the sides of their head that help them see in many directions at once. They also have three small eyes on top of their head called ocelli!"
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "65%",
+      "label": "Strong Legs",
+      "fact": "Cicadas have powerful back legs built for jumping and clinging to branches and plants. Their legs help them grip tightly so they don't fall off while they rest or eat."
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "45%",
+      "label": "Red Flowers",
+      "fact": "Cicadas are attracted to brightly colored flowers like these red ones because they contain sap for food. The bright colors help insects find flowers easily in nature!"
+    }
+  ]
+}

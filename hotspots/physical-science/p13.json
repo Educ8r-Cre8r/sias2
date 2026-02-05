@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "15%",
+      "label": "Blue Balloon",
+      "fact": "Balloons float because they are filled with air or helium gas, which is lighter than the air around us. When you blow up a balloon, you're filling it with gas that takes up space and pushes outward on the balloon's walls."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "60%",
+      "label": "Colorful Confetti",
+      "fact": "Confetti comes in many bright colors made from different dyes and materials. When objects fall or scatter like this confetti, they follow the force of gravity pulling them downward toward Earth."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "35%",
+      "label": "Water Droplets",
+      "fact": "The clear droplets hanging from the balloon show how water clings together in small beads. This happens because of a property called surface tension, which makes water form rounded shapes."
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "50%",
+      "label": "Reflection & Light",
+      "fact": "You can see bright spots reflecting off the shiny balloon surface because light bounces off smooth, curved objects. The blue balloon's color comes from how it absorbs some colors of light and reflects the blue light back to our eyes."
+    }
+  ]
+}

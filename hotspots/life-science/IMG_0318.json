@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Large Dark Eye",
+      "fact": "This bird has a large, dark eye that helps it see very well, even in dim light. Birds of prey and ground-nesting birds often have excellent vision to spot danger from far away."
+    },
+    {
+      "id": 2,
+      "x": "15%",
+      "y": "45%",
+      "label": "Curved Black Beak",
+      "fact": "The curved beak is perfect for picking up small seeds and insects from the ground. This shape helps the bird grip and crack open seeds that are part of its diet."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "55%",
+      "label": "Patterned Feathers",
+      "fact": "The gray and brown spotted pattern on these feathers is called camouflage. It helps the bird blend in with rocks and dirt so predators have a harder time seeing it."
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "50%",
+      "label": "Wing Feathers",
+      "fact": "These long feathers on the wings help the bird fly and balance in the air. Each feather is specially designed to catch the wind and help the bird move smoothly."
+    }
+  ]
+}

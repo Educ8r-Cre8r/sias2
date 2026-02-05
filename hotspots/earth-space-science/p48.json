@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "50%",
+      "label": "Chrysalis/Pupa",
+      "fact": "This green case is called a chrysalis, and it's where a caterpillar transforms into a butterfly! Inside, the caterpillar's body completely changes over several weeks in an amazing process called metamorphosis."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "35%",
+      "label": "Cremaster (Attachment)",
+      "fact": "The tiny hook at the top is called a cremaster, and it's how the chrysalis hangs safely from branches or other objects. This strong attachment keeps the developing butterfly protected from falling!"
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "55%",
+      "label": "Protective Shell",
+      "fact": "The hard green shell protects the butterfly growing inside from hungry predators and bad weather. The shell is so tough that it can protect the butterfly for weeks or even months!"
+    },
+    {
+      "id": 4,
+      "x": "60%",
+      "y": "58%",
+      "label": "Black Spots",
+      "fact": "These small black markings on the chrysalis help scientists identify which type of butterfly is growing inside. Different butterfly species have different patterns and colors on their chrysalises!"
+    }
+  ]
+}

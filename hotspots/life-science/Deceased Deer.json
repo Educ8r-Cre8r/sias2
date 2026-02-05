@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "30%",
+      "label": "Long Slender Legs",
+      "fact": "This animal has extremely long, thin legs that help it run very fast and jump high. These legs are built for speed and allow it to escape from predators in open areas."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Stretched Body Position",
+      "fact": "This animal is stretching out its body, which is something many mammals do to warm up their muscles. Stretching helps prepare the body for running and playing, just like when you stretch before exercise!"
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "70%",
+      "label": "Hoofed Feet",
+      "fact": "Notice the dark hooves on the feet - these hard structures protect the animal's feet and help it grip the ground. Hooves are made of keratin, the same material as your fingernails!"
+    },
+    {
+      "id": 4,
+      "x": "45%",
+      "y": "15%",
+      "label": "Small Head and Ears",
+      "fact": "This animal has a small, pointed head and ears that can rotate to hear sounds from different directions. Good hearing helps it detect danger from far away and stay safe in its environment."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Frost Crystals",
+      "fact": "These sparkling ice crystals form when water vapor freezes directly onto cold plant surfaces during winter. This process is called frost, and it creates beautiful patterns that protect plants by insulating them from extreme cold!"
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "50%",
+      "label": "Feathery Grass Seed Heads",
+      "fact": "The fluffy, feather-like structures you see are seed heads designed by nature to scatter seeds on the wind. The fine filaments act like tiny parachutes, helping seeds travel far from the parent plant to find new growing spaces."
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "65%",
+      "label": "Green Plant Tissue",
+      "fact": "Even in winter, these grass plants retain some green color because they contain chlorophyll, the pigment that helps them make food from sunlight. Evergreen plants like this grass stay active throughout the cold season!"
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "40%",
+      "label": "Ice-Covered Stems",
+      "fact": "When moisture freezes on plant stems, it can actually protect the plant's delicate inner tissues from harsh winter winds and extreme temperatures. This ice layer acts like a natural blanket!"
+    }
+  ]
+}

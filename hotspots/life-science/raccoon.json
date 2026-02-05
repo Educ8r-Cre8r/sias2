@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Raccoon Face Mask",
+      "fact": "Raccoons have distinctive black markings across their eyes that look like a mask! These dark patches help reduce glare from the sun and water, making it easier for raccoons to see when they're hunting at night."
+    },
+    {
+      "id": 2,
+      "x": "40%",
+      "y": "60%",
+      "label": "Tree Stump Habitat",
+      "fact": "Dead trees and stumps are important homes for many animals and insects. Raccoons often rest on logs and stumps near water while they search for food like frogs, crayfish, and insects to eat."
+    },
+    {
+      "id": 3,
+      "x": "75%",
+      "y": "45%",
+      "label": "Wetland Environment",
+      "fact": "Raccoons love living near water like ponds and marshes because they find lots of food there. They use their sensitive front paws to feel around in the mud and water to catch fish and other creatures."
+    },
+    {
+      "id": 4,
+      "x": "20%",
+      "y": "25%",
+      "label": "Rounded Ears",
+      "fact": "A raccoon's ears are small and rounded, which helps them hear well even when they're focusing on hunting in the water. Their excellent hearing helps them detect the sounds of prey moving nearby."
+    }
+  ]
+}

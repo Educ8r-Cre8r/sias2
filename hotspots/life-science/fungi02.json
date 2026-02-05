@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Mushroom Caps",
+      "fact": "These umbrella-shaped caps help mushrooms spread their spores into the air. The spores are like tiny seeds that fall and grow into new mushrooms in other places."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Mushroom Stems",
+      "fact": "The thin, tan-colored stems support the mushroom caps and help them reach up toward sunlight. These stems are much more delicate than plant stems because mushrooms don't need to be as strong."
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "60%",
+      "label": "Wood Chips",
+      "fact": "Mushrooms grow on dead wood and decompose it, breaking it down into nutrients that return to the soil. This makes mushrooms nature's recyclers, helping dead material become food for new plants!"
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "55%",
+      "label": "Young Mushrooms",
+      "fact": "These smaller mushrooms are just beginning to grow and are called 'button mushrooms' when they're this young. They will get bigger and eventually release spores to create more mushrooms."
+    }
+  ]
+}

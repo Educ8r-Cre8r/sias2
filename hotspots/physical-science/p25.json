@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Red Gerbera Flowers",
+      "fact": "These bright red flowers are Gerberas, and their vivid color helps attract pollinators like bees and butterflies in nature. The petals are arranged in a circular pattern, which is called a radial pattern, and this helps guide insects to the flower's center."
+    },
+    {
+      "id": 2,
+      "x": "22%",
+      "y": "50%",
+      "label": "Plant Stems and Roots",
+      "fact": "You can see the green stems in the clear vase with water. Plants absorb water through their roots and transport it up through the stems to the flowers and leaves using tiny tubes called xylem vessels."
+    },
+    {
+      "id": 3,
+      "x": "75%",
+      "y": "20%",
+      "label": "Pendant Light Bulb",
+      "fact": "This light bulb provides artificial light similar to sunlight. Plants need light to make food through photosynthesis, converting light energy into chemical energy they can use to grow."
+    },
+    {
+      "id": 4,
+      "x": "60%",
+      "y": "65%",
+      "label": "Transparent Vase",
+      "fact": "The clear glass vase allows us to see the water level and flower stems. Transparency is important because it lets light pass through while holding the water that keeps the cut flowers fresh and hydrated."
+    }
+  ]
+}

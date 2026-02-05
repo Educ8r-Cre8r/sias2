@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "65%",
+      "label": "Shell Fossil",
+      "fact": "This is a fossilized shell imprint preserved in rock for millions of years! Fossils help scientists learn about ancient creatures that lived long ago."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "30%",
+      "label": "Sedimentary Rock",
+      "fact": "This rock formed from layers of sand and sediment that were pressed together over time. Sedimentary rocks often contain fossils because organisms get buried in these layers."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "50%",
+      "label": "Fossil Details",
+      "fact": "You can see the detailed ridges and patterns on this shell fossil! These details tell us what kind of sea creature lived here millions of years ago."
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "20%",
+      "label": "Rock Weathering",
+      "fact": "The cracks and pits on the rock surface show weathering from wind and water. Over time, rocks slowly break down into smaller pieces like sand."
+    }
+  ]
+}

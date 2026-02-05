@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Layered Rock Strata",
+      "fact": "These horizontal bands are called layers or strata, and each one was formed at different times in Earth's history. By studying these layers, scientists can learn about ancient environments and how rocks formed over millions of years."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Light and Dark Bands",
+      "fact": "The alternating light and dark colored bands show different types of sediment that settled in ancient seas or lakes. These color differences tell us about changes in water depth, temperature, or the materials being deposited."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "70%",
+      "label": "Weathering and Erosion",
+      "fact": "The rough, crumbly surface of this rock shows how wind, water, and weather break down rocks over time. This process, called weathering, is how mountains become smaller and rocks turn into sand and soil."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "25%",
+      "label": "Tilted Layers",
+      "fact": "Notice how the layers are slanted instead of perfectly flat. This happens when Earth's forces push and fold rocks, showing that our planet is always changing and moving very slowly beneath our feet."
+    }
+  ]
+}

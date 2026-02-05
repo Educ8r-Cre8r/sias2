@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Annual Growth Rings",
+      "fact": "Each ring you see represents one year of the tree's life! The light and dark bands show when the tree grew fast in spring and slower in summer. By counting these rings, scientists can figure out exactly how old a tree was."
+    },
+    {
+      "id": 2,
+      "x": "28%",
+      "y": "55%",
+      "label": "Tree Heartwood",
+      "fact": "The darker center part of the log is called heartwood and is no longer alive. This older wood is actually stronger and helps support the tree. The lighter outer ring is sapwood, which carries water and nutrients up the tree."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "50%",
+      "label": "Bark Layer",
+      "fact": "The rough, dark outer layer is bark that protects the tree from insects, diseases, and weather. Bark is like the tree's skin! Different tree species have different colored and textured bark to help us identify them."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "70%",
+      "label": "Wood Grain Pattern",
+      "fact": "The lines and patterns in the wood show how the tree grew and responded to its environment. Trees growing in harsh conditions or with less sunlight create different patterns than trees in ideal conditions. This makes each log unique!"
+    }
+  ]
+}

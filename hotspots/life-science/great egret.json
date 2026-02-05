@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Great Egret Bird",
+      "fact": "This white bird is called a Great Egret and uses its long, sharp beak to catch fish in water. Egrets are wading birds that hunt in shallow ponds and wetlands by standing very still and waiting for prey to swim nearby."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "25%",
+      "label": "Blue Agave Plant",
+      "fact": "The large, gray-blue spiky plant behind the egret is an agave, which stores water in its thick leaves to survive in dry climates. Agaves are succulents that can live for many years before producing a single tall flower stalk."
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "50%",
+      "label": "Frog Sculpture",
+      "fact": "This green frog statue is part of the garden decoration and represents real frogs that live near water. Frogs are amphibians that start their lives in water as tadpoles and later develop legs to live on land."
+    },
+    {
+      "id": 4,
+      "x": "60%",
+      "y": "55%",
+      "label": "River Rocks & Logs",
+      "fact": "The rocks, pebbles, and logs create a natural water garden habitat that mimics a real stream or pond environment. These materials help filter water, provide shelter for insects and small animals, and support plant growth."
+    }
+  ]
+}

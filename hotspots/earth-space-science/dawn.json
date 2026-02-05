@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Morning Fog/Mist",
+      "fact": "This white fog forms when warm, moist air near the ground cools down in the early morning. The water vapor in the air turns into tiny water droplets, creating the misty layer you see floating above the field."
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "60%",
+      "label": "Agricultural Crop Field",
+      "fact": "The green plants covering this field are likely crops grown for food. Farmers plant seeds in spring and summer, and the crops grow tall to eventually be harvested in the fall."
+    },
+    {
+      "id": 3,
+      "x": "15%",
+      "y": "50%",
+      "label": "River or Stream",
+      "fact": "This water body flows through the landscape and is essential for the surrounding ecosystem. Rivers provide water for drinking, irrigation for crops, and habitats for fish and other aquatic animals."
+    },
+    {
+      "id": 4,
+      "x": "60%",
+      "y": "25%",
+      "label": "Trees Along Horizon",
+      "fact": "Trees help clean our air by taking in carbon dioxide and releasing oxygen that we breathe. They also prevent soil erosion and provide homes and food for many different animals and birds."
+    }
+  ]
+}

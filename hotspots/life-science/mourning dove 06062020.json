@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "45%",
+      "label": "Meerkat",
+      "fact": "This is a meerkat, a small animal from Africa that lives in groups called mobs. Meerkats stand on their hind legs to watch for danger and keep their family safe from predators."
+    },
+    {
+      "id": 2,
+      "x": "40%",
+      "y": "35%",
+      "label": "Feathery Green Plant",
+      "fact": "This delicate, feathery plant is likely asparagus fern or a similar herb. Its fine, needle-like leaves help it survive in dry conditions by reducing water loss."
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "15%",
+      "label": "Terracotta Pot",
+      "fact": "Terracotta pots are made from baked clay and are popular in gardens because they allow air and water to pass through their walls. This helps keep plant roots healthy and prevents overwatering."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "50%",
+      "label": "White Flowering Plant",
+      "fact": "These small white flowers attract bees and other pollinators to the garden. Plants use flowers to make seeds, and pollinators help this process by moving pollen from flower to flower."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "45%",
+      "label": "Transparent Wings",
+      "fact": "This cicada's wings are see-through and made of a thin membrane supported by tiny veins. The intricate pattern of veins helps make the wings strong while keeping them light, allowing the cicada to fly and make its loud buzzing sound."
+    },
+    {
+      "id": 2,
+      "x": "60%",
+      "y": "35%",
+      "label": "Large Compound Eyes",
+      "fact": "Cicadas have big eyes made up of thousands of tiny lenses working together. These powerful eyes help them spot movement and navigate through plants to find mates during their short adult lives."
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "50%",
+      "label": "Red Flowers",
+      "fact": "Cicadas are attracted to flowering plants like these red blossoms. They use their straw-like mouth parts to pierce plant stems and drink the nutrient-rich sap inside, similar to how you might drink juice through a straw."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "60%",
+      "label": "Brown Exoskeleton",
+      "fact": "The cicada's hard outer shell is called an exoskeleton and protects its soft body inside. Unlike human skin, this shell doesn't stretch or grow, so cicadas must shed it several times as they get bigger."
+    }
+  ]
+}

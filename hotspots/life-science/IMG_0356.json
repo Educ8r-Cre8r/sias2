@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "45%",
+      "label": "Sprouting Seed",
+      "fact": "This is a bean sprout that has just started to grow! The green leaves are called cotyledons, and they help the tiny plant make its own food using sunlight. Seeds need water, warmth, and air to sprout and grow into bigger plants."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Root System",
+      "fact": "These thin, thread-like structures are roots that grow downward into soil. Roots absorb water and nutrients from the ground to feed the growing plant. They also anchor the plant so it doesn't fall over!"
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "40%",
+      "label": "Dried Seed Pod",
+      "fact": "This brown, papery structure is an old seed pod that has dried out. Seeds develop inside pods, and when they're ready, the pod opens to release the seeds. This helps spread new plants to different areas!"
+    },
+    {
+      "id": 4,
+      "x": "45%",
+      "y": "65%",
+      "label": "Paper Towel",
+      "fact": "The seed is growing on a damp paper towel instead of soil! Scientists often use this method to study plant growth because you can easily see the roots and sprouts without digging in dirt."
+    }
+  ]
+}

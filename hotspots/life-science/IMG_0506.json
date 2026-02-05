@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Dragonfly Wings",
+      "fact": "Dragonfly wings are made of a thin, see-through material called chitin that forms a web of veins. These veins make the wings strong but light, allowing dragonflies to fly in any direction at speeds up to 30 miles per hour!"
+    },
+    {
+      "id": 2,
+      "x": "48%",
+      "y": "50%",
+      "label": "Compound Eyes",
+      "fact": "Dragonflies have huge eyes made up of thousands of tiny lenses that work together. These amazing eyes can see in almost all directions at once, making them excellent hunters that can spot moving insects from far away."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "55%",
+      "label": "Long Abdomen",
+      "fact": "A dragonfly's long, tube-shaped belly is called an abdomen and contains important organs. The abdomen also helps the dragonfly balance and steer while flying, like the tail of an airplane!"
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "70%",
+      "label": "Clawed Feet",
+      "fact": "Dragonflies have six legs with tiny claws at the end that help them grip leaves and branches. They often rest on plants like this one while waiting to hunt for smaller insects."
+    }
+  ]
+}

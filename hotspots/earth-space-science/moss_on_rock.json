@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Bright Green Moss",
+      "fact": "Moss is a tiny plant that grows in damp, shady places like rocks and logs. It doesn't have roots like bigger plants, but instead absorbs water directly through its leaves!"
+    },
+    {
+      "id": 2,
+      "x": "70%",
+      "y": "50%",
+      "label": "Weathered Rock",
+      "fact": "This rock has been slowly broken down by rain, wind, and freezing temperatures over many years. This process is called weathering and helps create soil for plants to grow."
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "60%",
+      "label": "Lichen (Yellow-Green)",
+      "fact": "Lichen is actually two organisms living together - a fungus and an alga! The alga makes food from sunlight, while the fungus provides structure and holds water."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "70%",
+      "label": "Pink Stone Layers",
+      "fact": "The different colors in this rock tell us it's made of different minerals. Geologists read these layers like a history book to learn about Earth's past!"
+    }
+  ]
+}

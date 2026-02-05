@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Turtle Shell Pattern",
+      "fact": "A turtle's shell is covered with special plates called scutes that grow throughout its life. The ridges and rings on the scutes can help scientists figure out how old the turtle is, kind of like counting tree rings!"
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "55%",
+      "label": "Turtle Head",
+      "fact": "Turtles have excellent eyesight and can see in color! Their eyes help them find food and navigate through their habitat, whether they live on land or in water."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "65%",
+      "label": "Scaly Legs",
+      "fact": "A turtle's legs are covered with tough, scaly skin that helps protect them. Land turtles have sturdy legs for walking, while water turtles have webbed feet for swimming!"
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "50%",
+      "label": "Natural Habitat",
+      "fact": "This turtle is surrounded by plants and soil, which shows its natural forest home. Turtles are found on every continent except Antarctica and have adapted to many different environments."
+    }
+  ]
+}

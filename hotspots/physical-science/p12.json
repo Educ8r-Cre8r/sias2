@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "50%",
+      "label": "Brass Instruments",
+      "fact": "Brass instruments like trumpets and trombones make sound when air vibrates through metal tubes. The longer the tube, the lower the sound produced by the instrument."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "35%",
+      "label": "Sound Waves",
+      "fact": "When musicians play instruments together, their sound waves travel through the air and combine. This is called acoustics, and it's why concerts sound better in certain spaces!"
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "55%",
+      "label": "Wind Instruments",
+      "fact": "Wind instruments produce sound when air vibrates inside them. The musician controls the pitch by changing how much air they blow and which holes they cover."
+    },
+    {
+      "id": 4,
+      "x": "10%",
+      "y": "70%",
+      "label": "Marching Band Formation",
+      "fact": "Marching bands arrange musicians in specific patterns to project sound evenly across a field. The positioning helps sound waves reach more people in the audience at once."
+    }
+  ]
+}

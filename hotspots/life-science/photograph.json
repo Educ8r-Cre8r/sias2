@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "85%",
+      "y": "50%",
+      "label": "Highway Through Forest",
+      "fact": "Roads cut through forests to help people travel. Engineers must carefully plan roads to minimize damage to ecosystems while connecting communities. This road shows how human infrastructure and nature share the same land."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "25%",
+      "label": "Dense Forest Canopy",
+      "fact": "The thick green layer you see is the forest canopy made up of tree leaves and branches. This canopy provides homes for thousands of animals and helps clean our air by producing oxygen. Forests like this are vital for fighting climate change!"
+    },
+    {
+      "id": 3,
+      "x": "60%",
+      "y": "65%",
+      "label": "Agricultural Fields",
+      "fact": "The lighter green and yellow patches in the distance are farms and fields where crops grow. Farmers use this land to grow food for people while forests provide natural habitats. Both land types are important for human survival and nature."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "30%",
+      "label": "Forest Edge/Boundary",
+      "fact": "Where the dark forest meets the lighter farmland is called an ecotone or edge. This transition zone is special because it has a mix of forest and field animals, creating unique biodiversity. Edge areas help different ecosystems interact."
+    }
+  ]
+}

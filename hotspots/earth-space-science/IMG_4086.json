@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "55%",
+      "label": "Stacked Stone Cairn",
+      "fact": "This tower of stacked rocks is called a cairn, and it's built without any cement or glue! The weight and careful placement of each stone keeps it balanced, demonstrating how gravity and friction work together."
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "65%",
+      "label": "Garden Plants",
+      "fact": "Plants with white leaves and green foliage in the foreground are caladiums and ornamental grasses. These plants are adapted to different light levels and moisture conditions, showing how organisms develop special features to survive."
+    },
+    {
+      "id": 3,
+      "x": "15%",
+      "y": "25%",
+      "label": "Climbing Vines",
+      "fact": "The green vines hanging from the roof are plants that grow upward by clinging to surfaces. This is an adaptation that helps plants reach sunlight more efficiently in nature."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "20%",
+      "label": "Mulch Ground Cover",
+      "fact": "The brown material covering the ground is mulch made from decomposed wood and leaves. As it breaks down, it returns nutrients to the soil, helping new plants grow and completing the nutrient cycle."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "50%",
+      "label": "Monarch Wing Pattern",
+      "fact": "The bright orange and black colors on monarch butterfly wings warn predators that they are poisonous and taste bad. This warning coloring is called aposematism and helps protect the butterfly from being eaten."
+    },
+    {
+      "id": 2,
+      "x": "70%",
+      "y": "35%",
+      "label": "Antennae",
+      "fact": "Butterflies use their long, thin antennae to smell flowers and find food from far away. The antennae have special sensory organs that help monarchs locate milkweed plants to lay their eggs on."
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "45%",
+      "label": "Chrysalis Shell",
+      "fact": "This empty chrysalis shell is what remains after a monarch butterfly emerges. Inside the chrysalis, the caterpillar undergoes an amazing transformation called metamorphosis into a beautiful butterfly."
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "65%",
+      "label": "Wet Wings",
+      "fact": "When monarchs first emerge from their chrysalis, their wings are wet and crumpled. The butterfly must pump special fluid into its wings and let them dry completely before it can fly away."
+    }
+  ]
+}

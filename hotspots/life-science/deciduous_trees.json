@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Autumn Forest Colors",
+      "fact": "Trees change color in fall because they stop making green chlorophyll and we see beautiful yellows, oranges, and reds underneath. This happens because shorter days and cooler temperatures tell trees to prepare for winter by dropping their leaves."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Wooden Boardwalk",
+      "fact": "Boardwalks are built over water to protect the ecosystem below by keeping people from walking on plants and disturbing animals. The mesh railings allow fish and other aquatic creatures to move freely while keeping visitors safe."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "48%",
+      "label": "Lake or River Ecosystem",
+      "fact": "This body of water is home to many different plants and animals that depend on each other to survive. Fish, frogs, birds, and water plants all work together in an interconnected system called an ecosystem."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "65%",
+      "label": "Fallen Leaves",
+      "fact": "The leaves falling on the boardwalk eventually decompose and return nutrients to the soil, helping new plants grow. This natural recycling process is part of the water cycle and keeps ecosystems healthy and balanced."
+    }
+  ]
+}

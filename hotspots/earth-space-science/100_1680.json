@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "15%",
+      "y": "25%",
+      "label": "Snow-Covered Evergreen",
+      "fact": "Evergreen trees like this pine keep their needles all winter long, which helps them survive freezing temperatures. The snow piles up on the branches because the waxy coating on pine needles prevents the snow from sliding off easily."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Frozen Lake",
+      "fact": "When water freezes solid enough, you can see it turning into ice! This frozen lake is safe to walk on because the ice is thick and strong. In winter, many animals actually live under the ice in the water below."
+    },
+    {
+      "id": 3,
+      "x": "60%",
+      "y": "30%",
+      "label": "Bare Deciduous Trees",
+      "fact": "These trees lost their leaves in fall to conserve water during winter. The trees are dormant, or sleeping, and will wake up when spring arrives and temperatures warm up again."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "65%",
+      "label": "Snow Accumulation",
+      "fact": "Heavy snow has piled up on this old wagon, weighing it down with thick white layers. Snow is actually very light and fluffy at first, but as more snow falls on top, it gets compressed and becomes heavier and denser."
+    }
+  ]
+}

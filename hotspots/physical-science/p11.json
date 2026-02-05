@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "35%",
+      "y": "30%",
+      "label": "Palm Tree",
+      "fact": "Palm trees are adapted to warm climates and can survive in sandy or poor soil. Their large leaves help them capture sunlight and their deep roots find water underground, making them perfect for desert and tropical environments."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "45%",
+      "label": "Metal Arch Sculpture",
+      "fact": "This curved metal structure demonstrates engineering and physics principles like load distribution and structural strength. Engineers design arches to support weight efficiently by spreading force outward and downward."
+    },
+    {
+      "id": 3,
+      "x": "78%",
+      "y": "25%",
+      "label": "Tall Building",
+      "fact": "Skyscrapers are built with strong steel and concrete frames to support their enormous weight and withstand forces like wind and earthquakes. Architects design these buildings to maximize space while keeping people safe high above the ground."
+    },
+    {
+      "id": 4,
+      "x": "22%",
+      "y": "50%",
+      "label": "Brick and Concrete",
+      "fact": "Building materials like brick and concrete are made from natural resources like clay and limestone mixed with water and cement. These materials are durable and can last for hundreds of years, protecting people inside from weather and other elements."
+    }
+  ]
+}

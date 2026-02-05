@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "15%",
+      "y": "35%",
+      "label": "Urban Smog Layer",
+      "fact": "The hazy, grayish air visible over the distant city is called smog, which forms when pollution from cars and factories mixes with sunlight. This helps us see how air pollution spreads across large areas and affects air quality far away from cities."
+    },
+    {
+      "id": 2,
+      "x": "12%",
+      "y": "20%",
+      "label": "Roof Material",
+      "fact": "The red clay tiles on this mansion's roof are made from natural clay that's been heated in a kiln. These materials absorb less heat than dark colors, which helps keep buildings cooler in sunny climates."
+    },
+    {
+      "id": 3,
+      "x": "45%",
+      "y": "50%",
+      "label": "Forest Ecosystem",
+      "fact": "The dense green vegetation covering these hills is a forest ecosystem that provides homes for thousands of plant and animal species. These forests also help clean our air by producing oxygen and absorbing carbon dioxide."
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "45%",
+      "label": "Topography & Erosion",
+      "fact": "The rolling hills and valleys you see were shaped by water erosion over millions of years as rain and streams carved into the landscape. This process is still happening today and constantly changes Earth's surface features."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Long Pointed Beak",
+      "fact": "Pelicans have long, curved beaks specially designed for catching fish in the water. The beak can hold up to 3 gallons of water in a pouch underneath, making it one of the largest beaks of any bird!"
+    },
+    {
+      "id": 2,
+      "x": "45%",
+      "y": "45%",
+      "label": "Waterproof Feathers",
+      "fact": "Pelican feathers are covered with a special oil that makes them waterproof. This helps them stay dry and warm even after diving into the ocean to catch fish."
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "70%",
+      "label": "Strong Feet",
+      "fact": "Pelicans have webbed feet that help them swim and balance on rocks or docks. Their feet act like little paddles to push them through the water efficiently."
+    },
+    {
+      "id": 4,
+      "x": "30%",
+      "y": "20%",
+      "label": "Eye and Head Markings",
+      "fact": "The white and black markings on a pelican's head help it look for fish in the water. Their excellent eyesight helps them spot fish from far away before diving down to catch them."
+    }
+  ]
+}

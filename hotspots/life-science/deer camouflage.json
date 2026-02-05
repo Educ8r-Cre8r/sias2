@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "85%",
+      "y": "35%",
+      "label": "White-tailed Deer",
+      "fact": "This deer blends in with its surroundings using camouflage, which helps it hide from predators. Deer are herbivores that eat plants and grasses found in forests and fields like this one."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "70%",
+      "label": "Dried Grasses",
+      "fact": "These golden-brown grasses are dormant during winter, storing energy in their roots underground. When spring arrives, these same plants will regrow and provide food for deer and other animals."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "25%",
+      "label": "Deciduous Forest",
+      "fact": "These trees have lost their leaves in preparation for winter, a process called senescence. In spring and summer, these bare branches will be covered with green leaves for photosynthesis."
+    },
+    {
+      "id": 4,
+      "x": "20%",
+      "y": "50%",
+      "label": "Forest Edge Habitat",
+      "fact": "The area where the open field meets the forest is called an ecotone, and many animals prefer hunting and living here. This transition zone provides both shelter from trees and open space to find food."
+    }
+  ]
+}

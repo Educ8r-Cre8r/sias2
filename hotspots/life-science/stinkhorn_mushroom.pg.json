@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "55%",
+      "y": "35%",
+      "label": "Bright Orange Foot",
+      "fact": "This newt's bright orange belly is a warning to predators that it's poisonous! The vibrant color tells other animals to stay away. This is called aposematism, or warning coloration."
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "25%",
+      "label": "Bumpy Skin Texture",
+      "fact": "Newts have bumpy, warty skin that helps them absorb moisture and oxygen directly through their skin. They can breathe partly through their skin, which is why they must stay moist!"
+    },
+    {
+      "id": 3,
+      "x": "45%",
+      "y": "55%",
+      "label": "Newt Body Shape",
+      "fact": "Newts are small salamanders with long tails that help them swim and balance. They live part of their lives in water and part on land, making them amphibians!"
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "48%",
+      "label": "Moist Habitat (Mulch)",
+      "fact": "This newt is found in damp places like leaf litter and soil. Newts need moisture to survive because their skin can dry out easily, so they avoid hot, dry areas."
+    }
+  ]
+}

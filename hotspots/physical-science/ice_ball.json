@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Ice Crystal Structure",
+      "fact": "This clear sphere is filled with ice crystals that form beautiful patterns as water freezes. Ice crystals arrange themselves in geometric shapes because water molecules naturally organize in a specific way when they get cold!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Frozen Water Mass",
+      "fact": "When water freezes into ice, it expands and takes up more space than liquid water. This is why ice floats on water and why this sphere is so full and round!"
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "75%",
+      "label": "Blue Collection Tray",
+      "fact": "The blue tray catches drips as the ice melts over time. Scientists use containers like this to observe and measure physical changes when matter transforms from solid ice back into liquid water."
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "20%",
+      "label": "Transparent Sphere",
+      "fact": "You can see through this clear plastic sphere because it's made of a transparent material. This allows scientists to observe all the ice crystal formations inside without opening it up!"
+    }
+  ]
+}

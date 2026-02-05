@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "60%",
+      "y": "45%",
+      "label": "Monarch Caterpillar",
+      "fact": "This colorful caterpillar has bright yellow, black, and white stripes that warn predators it's poisonous. Monarch caterpillars only eat milkweed plants, which makes them toxic to animals that try to eat them."
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "35%",
+      "label": "Chrysalis Shell",
+      "fact": "This pale, leaf-shaped object is an empty chrysalis where a caterpillar transformed into a butterfly. Inside the chrysalis, the caterpillar's body completely reorganizes into a butterfly in about 10-14 days!"
+    },
+    {
+      "id": 3,
+      "x": "60%",
+      "y": "65%",
+      "label": "Tentacle-like Antennae",
+      "fact": "The two long, thin structures at the caterpillar's head are called tentacles or antennae. These help the caterpillar sense its environment and find the milkweed plants it needs to eat."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "25%",
+      "label": "Body Segments",
+      "fact": "The caterpillar's body is divided into rings or segments with bands of different colors. These segments contain muscles that help the caterpillar stretch, crawl, and move along plants."
+    }
+  ]
+}

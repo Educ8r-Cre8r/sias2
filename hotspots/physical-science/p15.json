@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Bubble Formation",
+      "fact": "This bubble is filled with air trapped inside a thin layer of liquid. Bubbles are round because the surface of the liquid pulls equally in all directions, creating the most compact shape possible."
+    },
+    {
+      "id": 2,
+      "x": "45%",
+      "y": "50%",
+      "label": "Surface Tension",
+      "fact": "The clear bubble skin you see is made possible by surface tension, which is like an invisible elastic layer on water. This tension allows the bubble to hold its shape without popping immediately."
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "55%",
+      "label": "Light Refraction",
+      "fact": "You can see the red and black colors distorted through the bubble because light bends when it passes through curved surfaces. This bending of light is called refraction and helps create the rainbow-like shimmer on bubbles."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "45%",
+      "label": "Thin Liquid Film",
+      "fact": "Bubbles are incredibly thin\u2014sometimes thinner than a human hair! Despite being so thin, the film of liquid can trap air inside and create a pocket that floats in the air."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "50%",
+      "label": "Fossilized Shells",
+      "fact": "These curved shell-shaped rocks are fossils from animals that lived millions of years ago in ancient oceans. Over time, the shells turned to stone and are now part of this rocky beach!"
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "35%",
+      "label": "Weathered Pebbles",
+      "fact": "These smooth, rounded rocks have been shaped by water and waves for many years. The constant movement of water wears down sharp edges and makes them nice and smooth."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "60%",
+      "label": "Mixed Rock Sizes",
+      "fact": "You can see rocks of many different sizes in one place! Larger rocks stay closer to shore while smaller pebbles and sand get carried farther by waves and currents."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "25%",
+      "label": "Rock Color Variation",
+      "fact": "These rocks have different colors because they come from different types of stone and minerals. The browns, tans, and grays tell us about Earth's diverse geology!"
+    }
+  ]
+}

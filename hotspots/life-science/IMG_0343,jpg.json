@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "55%",
+      "y": "35%",
+      "label": "Bright Red Dewlap",
+      "fact": "This colorful fan-like skin under the lizard's chin is called a dewlap. Male lizards display their dewlaps to show they are strong and to communicate with other lizards in their territory."
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "50%",
+      "label": "Textured Scales",
+      "fact": "The bumpy scales covering this lizard's body help protect it and blend in with rocks and trees. Each scale is made of keratin, the same material as your fingernails!"
+    },
+    {
+      "id": 3,
+      "x": "40%",
+      "y": "25%",
+      "label": "Round Eye with Gold Iris",
+      "fact": "Lizards have excellent vision and can see in color. The golden-colored iris helps this lizard spot insects to eat and notice danger from predators nearby."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "65%",
+      "label": "Strong Legs and Claws",
+      "fact": "These muscular legs with sharp claws help lizards climb rocks and trees quickly. They can grip rough surfaces and escape from predators by scurrying away at fast speeds."
+    }
+  ]
+}

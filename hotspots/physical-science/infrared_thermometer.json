@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "68%",
+      "y": "52%",
+      "label": "Digital Display",
+      "fact": "This screen shows the exact temperature in degrees Celsius. Digital displays use electricity to light up tiny dots that form numbers we can read. This helps scientists and workers measure heat very precisely!"
+    },
+    {
+      "id": 2,
+      "x": "68%",
+      "y": "78%",
+      "label": "Temperature Unit Buttons",
+      "fact": "The \u00b0C/F button lets you switch between Celsius and Fahrenheit temperature scales. Water freezes at 0\u00b0C (32\u00b0F) and boils at 100\u00b0C (212\u00b0F). Different countries use different scales, so this tool can show both!"
+    },
+    {
+      "id": 3,
+      "x": "68%",
+      "y": "28%",
+      "label": "Infrared Sensor",
+      "fact": "This thermometer uses infrared light (heat rays you can't see) to measure temperature without touching objects. It's like having superpowers to see heat! That's why it's perfect for checking hot surfaces safely."
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "50%",
+      "label": "Brick Surface",
+      "fact": "The thermometer is measuring this brick wall's temperature at 113.5\u00b0F. Bricks absorb heat from the sun and get very hot on sunny days. This shows how different materials heat up differently!"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Bright Yellow Stripes",
+      "fact": "These bold yellow and black stripes are a warning sign to predators that this caterpillar is toxic and tastes bad. Bright colors in nature are nature's way of saying 'Don't eat me!'"
+    },
+    {
+      "id": 2,
+      "x": "20%",
+      "y": "15%",
+      "label": "Tentacle-like Antennae",
+      "fact": "These two dark tentacles on the caterpillar's head are called tentacles or filaments. They help the caterpillar sense its environment and find food by detecting chemicals in the air."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "50%",
+      "label": "Segmented Body",
+      "fact": "This caterpillar's body is divided into many ring-like segments connected together. This flexible segmentation allows the caterpillar to move in a smooth, wave-like motion as it crawls along branches."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "60%",
+      "label": "Host Plant Connection",
+      "fact": "This caterpillar is likely a Monarch butterfly caterpillar that eats milkweed plants. When it eats the milkweed, it absorbs toxins that make the adult butterfly poisonous to birds too!"
+    }
+  ]
+}

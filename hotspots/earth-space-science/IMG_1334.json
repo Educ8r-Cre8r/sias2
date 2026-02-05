@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Fluffy Tail",
+      "fact": "A squirrel's bushy tail helps it balance when jumping from tree to tree and keeps it warm in winter by wrapping around its body like a blanket. The tail also helps squirrels communicate with each other by twitching it in different ways!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "35%",
+      "label": "Sharp Front Teeth",
+      "fact": "Squirrels have two large front teeth called incisors that never stop growing throughout their lives. They use these powerful teeth to crack open hard nuts and shells, and they stay sharp by constantly gnawing on things."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "50%",
+      "label": "Orange Food Item",
+      "fact": "This squirrel is holding food, which it will either eat right away or bury in the ground to save for winter. Sometimes squirrels forget where they buried nuts, and those nuts grow into new trees!"
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "55%",
+      "label": "Strong Hind Legs",
+      "fact": "A squirrel's back legs are very strong and muscular, allowing it to jump up to 20 times its own body length. These powerful legs help squirrels leap between branches and escape from predators."
+    }
+  ]
+}

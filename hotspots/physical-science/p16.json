@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Fried Coating",
+      "fact": "The golden-brown crispy coating is made by cooking protein in hot oil. This cooking method is called frying, and it creates a crunchy texture through a chemical process called the Maillard reaction, which also gives it that delicious golden color!"
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "70%",
+      "label": "Fresh Lettuce",
+      "fact": "Lettuce is a leafy green vegetable that is mostly water\u2014about 95%! It provides important nutrients like fiber and vitamins that help keep our bodies healthy and strong."
+    },
+    {
+      "id": 3,
+      "x": "60%",
+      "y": "65%",
+      "label": "Diced Vegetables",
+      "fact": "The white onions and orange carrots are cut into small pieces to add flavor and nutrition to the meal. Raw vegetables keep more of their vitamins compared to cooked vegetables!"
+    },
+    {
+      "id": 4,
+      "x": "45%",
+      "y": "25%",
+      "label": "Black Seasoning",
+      "fact": "The black specks are likely pepper or other seasonings sprinkled on top. Seasonings don't add calories or fat, but they make food taste amazing and can have health benefits!"
+    }
+  ]
+}

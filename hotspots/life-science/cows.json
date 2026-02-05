@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "70%",
+      "y": "55%",
+      "label": "Holstein Dairy Cow",
+      "fact": "The black and white cow is a Holstein, one of the most common dairy breeds in the world. Holsteins can produce up to 6 gallons of milk per day, making them very valuable for farms!"
+    },
+    {
+      "id": 2,
+      "x": "35%",
+      "y": "50%",
+      "label": "White Beef Cattle",
+      "fact": "These white cows are likely beef cattle breeds like Charolais. Unlike dairy cows, beef cattle are raised primarily for meat rather than milk production."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "20%",
+      "label": "Forest Ecosystem",
+      "fact": "The dense forest behind the pasture provides shade, shelter, and windbreaks for the cattle. Forests also help clean the air and provide habitats for many other animals and plants."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "35%",
+      "label": "Pasture Grazing Land",
+      "fact": "The green grass is a natural food source for cattle. Grazing on pasture helps cattle stay healthy and allows them to exercise, which is better than keeping them in barns all day."
+    }
+  ]
+}

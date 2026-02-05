@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "35%",
+      "label": "Bee's Eyes",
+      "fact": "Bees have large compound eyes made up of thousands of tiny lenses that help them see flowers and navigate through the sky. They can also see ultraviolet colors that humans cannot, which helps them find the best flowers for pollen!"
+    },
+    {
+      "id": 2,
+      "x": "70%",
+      "y": "55%",
+      "label": "Pollen Baskets",
+      "fact": "Bees have special pouches on their back legs called pollen baskets where they collect and carry pollen from flowers. A single bee can carry pollen weighing almost as much as itself!"
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "50%",
+      "label": "Fuzzy Body",
+      "fact": "A bee's body is covered in tiny hairs that act like velcro to catch pollen as it moves from flower to flower. This is how bees accidentally pollinate plants while collecting food for their hive."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "60%",
+      "label": "Green Plant Pod",
+      "fact": "This appears to be a developing seed pod on a plant. Bees help create these pods by pollinating flowers, and the seeds inside will grow into new plants!"
+    }
+  ]
+}

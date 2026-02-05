@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "55%",
+      "y": "45%",
+      "label": "Fossil Imprint",
+      "fact": "This is a fossil of an ancient sea creature called a trilobite that lived hundreds of millions of years ago. The detailed pattern you see shows the segments of its hard outer shell preserved in stone."
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "50%",
+      "label": "Fine Detail Lines",
+      "fact": "These tiny lines show the texture of the trilobite's exoskeleton, which is like armor that protected its body. Scientists use these details to identify different species of trilobites."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "55%",
+      "label": "Rock Matrix",
+      "fact": "The tan and gray rock surrounding the fossil is called the matrix. It formed from sediment on the ocean floor and hardened over millions of years, preserving the trilobite inside."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "25%",
+      "label": "Segmented Body",
+      "fact": "You can see the trilobite's body is divided into segments, which helped it bend and move. Trilobites were some of the first animals with external skeletons!"
+    }
+  ]
+}

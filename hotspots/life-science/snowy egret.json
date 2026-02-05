@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "75%",
+      "y": "25%",
+      "label": "Sharp Pointed Beak",
+      "fact": "This egret's long, pointed beak is perfectly designed for hunting fish and small creatures in the water. The sharp tip helps it quickly catch slippery prey by piercing through the water."
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "70%",
+      "label": "Yellow Feet",
+      "fact": "Egrets have bright yellow feet that help them walk through shallow water without sinking. These long, thin toes spread out to distribute their weight across the muddy or rocky bottom."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "40%",
+      "label": "White Feathers",
+      "fact": "The egret's pure white feathers help it blend in with water and sky, making it harder for fish to notice it sneaking up. This camouflage is called being 'cryptic' in nature."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "15%",
+      "label": "Orange Eye Ring",
+      "fact": "The yellow and orange coloring around the egret's eye helps it see clearly underwater when hunting. These colors also help other egrets recognize each other during breeding season."
+    }
+  ]
+}

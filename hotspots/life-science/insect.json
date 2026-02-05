@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "25%",
+      "label": "Assassin Bug",
+      "fact": "This reddish-brown insect is called an assassin bug, and it's actually a helpful predator! It hunts and eats other insects that might harm plants, making it a natural pest controller in gardens."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Yellow Disk Florets",
+      "fact": "The bright yellow center of the daisy is made up of hundreds of tiny flowers packed tightly together! Each small yellow bump can produce its own seed, so one daisy flower is actually many flowers combined."
+    },
+    {
+      "id": 3,
+      "x": "40%",
+      "y": "35%",
+      "label": "White Ray Petals",
+      "fact": "These white petals aren't really petals at all\u2014they're special flowers called ray florets! Their job is to make the daisy look pretty and attract insects like our assassin bug friend to visit."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "60%",
+      "label": "Pollination Partnership",
+      "fact": "When the assassin bug walks on the daisy, pollen dust sticks to its body. As it moves to other flowers, it spreads this pollen and helps plants make new seeds\u2014a perfect partnership!"
+    }
+  ]
+}
