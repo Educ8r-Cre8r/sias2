@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "15%",
+      "label": "Sunset Sky Colors",
+      "fact": "The orange and pink colors you see come from sunlight scattering through the atmosphere. The different cloud layers create beautiful color gradients as the sun gets lower on the horizon."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "45%",
+      "label": "Road Perspective Lines",
+      "fact": "The yellow center lines seem to meet at a point far away—this is called perspective! Even though the road stays the same width, our eyes and brain make it look like it gets smaller in the distance."
+    },
+    {
+      "id": 3,
+      "x": "15%",
+      "y": "60%",
+      "label": "Flat Landscape Horizon",
+      "fact": "The completely flat land with no mountains shows this area has very little elevation change. Many plains and prairie regions look like this, making them perfect for farming and seeing far distances."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "55%",
+      "label": "Tree Line Silhouette",
+      "fact": "The dark trees on the horizon are silhouetted because the bright sunset is behind them. This happens when an object is between you and a bright light source, blocking the light and creating a dark shadow."
+    }
+  ]
+}

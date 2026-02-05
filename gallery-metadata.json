@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T19:03:28.777Z",
-  "totalImages": 99,
+  "lastUpdated": "2026-02-05T19:06:15.615Z",
+  "totalImages": 100,
   "images": [
     {
       "id": 1,
@@ -891,6 +891,15 @@
       "imagePath": "images/earth-space-science/lake_landform.jpg",
       "contentFile": "content/earth-space-science/lake_landform.json",
       "title": "Lake Landform",
+      "hasContent": true
+    },
+    {
+      "id": 100,
+      "filename": "sunrise.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/sunrise.jpg",
+      "contentFile": "content/earth-space-science/sunrise.json",
+      "title": "Sunrise",
       "hasContent": true
     }
   ]
