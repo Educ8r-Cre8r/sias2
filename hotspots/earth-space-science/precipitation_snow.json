@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Snowfall Precipitation",
+      "fact": "Snow falls when water vapor in cold air freezes into ice crystals. These crystals combine together to form snowflakes that fall to the ground, creating the white blanket you see covering this historic building."
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "45%",
+      "label": "Climbing Ivy Growth",
+      "fact": "Ivy vines grow up the brick walls by using tiny roots that grip the surface. Plants like ivy are adapted to grow vertically and can survive in winter, keeping their leaves green even when snow falls around them."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "60%",
+      "label": "Historic Brick Architecture",
+      "fact": "Bricks are made from clay that is heated at very high temperatures. This ancient building material is strong and durable, which is why this structure has survived for many years through different weather conditions and seasons."
+    },
+    {
+      "id": 4,
+      "x": "20%",
+      "y": "50%",
+      "label": "Winter Tree Dormancy",
+      "fact": "Trees lose their leaves in winter as a survival strategy to conserve water and energy during the cold months. Even without leaves, these trees are still alive and will grow new leaves in spring when temperatures warm up."
+    }
+  ]
+}
