@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Spider Body",
+      "fact": "This spider has eight long legs that help it move quickly across the ground to hunt for food. Spiders are predators that catch insects, which helps control pest populations in nature."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Cephalothorax Region",
+      "fact": "The dark body section in the middle contains the spider's brain, eyes, and mouth. Unlike insects with three body parts, spiders have only two main body sections called the cephalothorax and abdomen."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "65%",
+      "label": "Ground Habitat",
+      "fact": "This spider lives on dry, sandy soil where it can hide in small spaces and wait to ambush prey. Many ground-dwelling spiders are called \"ground spiders\" or hunting spiders because they actively chase their food instead of building webs."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "45%",
+      "label": "Long Leg Span",
+      "fact": "A spider's long legs help it sense vibrations in the ground that tell it when prey is nearby. These sensitive legs are covered with tiny hairs that detect movement, helping the spider hunt even in complete darkness."
+    }
+  ]
+}

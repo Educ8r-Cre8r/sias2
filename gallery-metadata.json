@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T18:28:41.239Z",
-  "totalImages": 96,
+  "lastUpdated": "2026-02-05T18:52:49.209Z",
+  "totalImages": 97,
   "images": [
     {
       "id": 1,
@@ -864,6 +864,15 @@
       "imagePath": "images/earth-space-science/precipitation_snow.jpg",
       "contentFile": "content/earth-space-science/precipitation_snow.json",
       "title": "Precipitation Snow",
+      "hasContent": true
+    },
+    {
+      "id": 97,
+      "filename": "arachnid.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/arachnid.jpg",
+      "contentFile": "content/life-science/arachnid.json",
+      "title": "Arachnid",
       "hasContent": true
     }
   ]
