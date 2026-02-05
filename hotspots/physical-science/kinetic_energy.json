@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Gravity and Motion",
+      "fact": "When the skateboarder jumps, gravity pulls them back down to Earth! This same force keeps us on the ground and makes objects fall. The skateboarder must push off hard enough to overcome gravity's pull."
+    },
+    {
+      "id": 2,
+      "x": "45%",
+      "y": "55%",
+      "label": "Skateboard Wheels",
+      "fact": "The round wheels on the skateboard are designed to roll smoothly and reduce friction! Wheels make it easier to move heavy objects by rolling instead of sliding. The wheels' curved shape helps the skateboard balance during tricks."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "25%",
+      "label": "Protective Helmet",
+      "fact": "The helmet protects the skateboarder's brain from injury if they fall! Hard helmets are made from strong materials that absorb the force of impacts. Wearing safety gear is smart science that keeps us healthy."
+    },
+    {
+      "id": 4,
+      "x": "20%",
+      "y": "45%",
+      "label": "Concrete Ramp Surface",
+      "fact": "The smooth concrete creates friction that helps the skateboard grip and move! Different surfaces create different amounts of friction - rough surfaces have more than smooth ones. This friction helps athletes perform tricks safely and with control."
+    }
+  ]
+}

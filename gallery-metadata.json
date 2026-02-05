@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T18:15:57.568Z",
-  "totalImages": 94,
+  "lastUpdated": "2026-02-05T18:21:35.077Z",
+  "totalImages": 95,
   "images": [
     {
       "id": 1,
@@ -846,6 +846,15 @@
       "imagePath": "images/earth-space-science/fall_seasons.jpg",
       "contentFile": "content/earth-space-science/fall_seasons.json",
       "title": "Fall Seasons",
+      "hasContent": true
+    },
+    {
+      "id": 95,
+      "filename": "kinetic_energy.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/kinetic_energy.jpg",
+      "contentFile": "content/physical-science/kinetic_energy.json",
+      "title": "Kinetic Energy",
       "hasContent": true
     }
   ]
