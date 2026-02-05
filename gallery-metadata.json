@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T18:12:56.206Z",
-  "totalImages": 93,
+  "lastUpdated": "2026-02-05T18:15:57.568Z",
+  "totalImages": 94,
   "images": [
     {
       "id": 1,
@@ -837,6 +837,15 @@
       "imagePath": "images/earth-space-science/soil.jpg",
       "contentFile": "content/earth-space-science/soil.json",
       "title": "Soil",
+      "hasContent": true
+    },
+    {
+      "id": 94,
+      "filename": "fall_seasons.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/fall_seasons.jpg",
+      "contentFile": "content/earth-space-science/fall_seasons.json",
+      "title": "Fall Seasons",
       "hasContent": true
     }
   ]

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Fall Leaf Colors",
+      "fact": "Leaves change color in autumn because trees stop making green chlorophyll as temperatures drop. Hidden yellow and red pigments that were always in the leaves become visible when the green disappears!"
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "60%",
+      "label": "Decomposing Leaves",
+      "fact": "When leaves fall and decay on the ground, they break down and return nutrients to the soil. This natural recycling process helps feed the grass and plants growing below!"
+    },
+    {
+      "id": 3,
+      "x": "75%",
+      "y": "50%",
+      "label": "Green Grass Below",
+      "fact": "Even in fall, grass continues to grow beneath the fallen leaves. The leaves act like a blanket, protecting the grass roots from freezing temperatures during winter."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "15%",
+      "label": "Seasonal Transition",
+      "fact": "This yard shows autumn's change from summer to winter. Scientists call this seasonal cycle important for nature because it helps plants rest and prepare for spring growth."
+    }
+  ]
+}
