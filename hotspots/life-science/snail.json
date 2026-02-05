@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Snail Shell",
+      "fact": "A snail's shell is made of a hard material called calcium carbonate, the same stuff that makes up chalk and limestone. The shell grows with the snail and protects its soft body from predators and keeps it from drying out."
+    },
+    {
+      "id": 2,
+      "x": "20%",
+      "y": "50%",
+      "label": "Snail Tentacles",
+      "fact": "These long, thin tentacles are called eyestalks or tentacles, and snails use them to sense their surroundings. Some snails have eyes at the tips of their tentacles so they can see where they're going!"
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "55%",
+      "label": "Lichen on Rock",
+      "fact": "Lichen is a partnership between a fungus and an alga living together! The snail is munching on this tasty meal because lichen is nutritious and easy for snails to eat with their special tongue."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "65%",
+      "label": "Snail Slime Trail",
+      "fact": "Snails produce a slimy mucus from their foot that helps them move smoothly across rough surfaces without getting hurt. This slime also keeps them from drying out, which is especially important for land snails!"
+    }
+  ]
+}
