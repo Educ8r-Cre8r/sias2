@@ -440,7 +440,7 @@ Remember:
 
     try {
       const response = await anthropic.messages.create({
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-haiku-4-5-20251001',
         max_tokens: 4096,
         messages: [{
           role: 'user',
@@ -461,10 +461,10 @@ Remember:
         }]
       });
 
-      // Calculate cost (approximate)
+      // Calculate cost (Haiku 4.5 pricing: $1/MTok input, $5/MTok output)
       const inputTokens = response.usage.input_tokens;
       const outputTokens = response.usage.output_tokens;
-      const cost = (inputTokens * 0.003 / 1000) + (outputTokens * 0.015 / 1000);
+      const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
       totalCost += cost;
 
       // Get the markdown content directly
