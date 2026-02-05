@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-04T22:30:03.150Z",
-  "totalImages": 88,
+  "lastUpdated": "2026-02-04T21:18:22.987Z",
+  "totalImages": 86,
   "images": [
     {
       "id": 1,
@@ -774,24 +774,6 @@
       "imagePath": "images/earth-space-science/agriculture.jpg",
       "contentFile": "content/earth-space-science/agriculture.json",
       "title": "Agriculture",
-      "hasContent": true
-    },
-    {
-      "id": 87,
-      "filename": "owl.jpg",
-      "category": "life-science",
-      "imagePath": "images/life-science/owl.jpg",
-      "contentFile": "content/life-science/owl.json",
-      "title": "Owl",
-      "hasContent": true
-    },
-    {
-      "id": 88,
-      "filename": "insect.jpg",
-      "category": "life-science",
-      "imagePath": "images/life-science/insect.jpg",
-      "contentFile": "content/life-science/insect.json",
-      "title": "Insect",
       "hasContent": true
     }
   ]
