@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Camera Eye",
+      "fact": "This robot has a special camera eye that helps it see and explore the world around it. The orange ring helps the camera focus on objects, just like how your eyes focus to see clearly!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "65%",
+      "label": "Wheeled Base",
+      "fact": "The three round wheels at the bottom help this robot roll and move across different surfaces. Wheels are a simple machine that helps robots travel efficiently through gardens and outdoor spaces!"
+    },
+    {
+      "id": 3,
+      "x": "85%",
+      "y": "50%",
+      "label": "Grass and Soil",
+      "fact": "This robot is exploring a natural environment with plants and soil. Scientists use robots like this to study how plants grow and to collect data about gardens without disturbing the delicate ecosystem!"
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "18%",
+      "label": "Blue Outer Shell",
+      "fact": "The bright blue color is called the robot's exterior shell, which protects all the electronic parts inside. This durable plastic keeps the sensitive equipment safe from dirt, water, and bumps!"
+    }
+  ]
+}
