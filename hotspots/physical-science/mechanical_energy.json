@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Ford Truck Engine",
+      "fact": "This Ford truck has a powerful engine that burns fuel to create energy that moves the heavy vehicle. Trucks need strong engines because they have to lift and carry very heavy loads, like the crane on top!"
+    },
+    {
+      "id": 2,
+      "x": "70%",
+      "y": "15%",
+      "label": "Hydraulic Crane Boom",
+      "fact": "The long arm is called a boom and uses hydraulics—pressurized liquid—to lift and move heavy objects. Hydraulics work by pushing fluid through tubes to make the boom go up, down, and around with great power!"
+    },
+    {
+      "id": 3,
+      "x": "80%",
+      "y": "50%",
+      "label": "Steel Cable and Pulley",
+      "fact": "The thick steel cable acts like a rope that holds the heavy ball and uses pulleys to change the direction of the pulling force. Pulleys make it easier to lift heavy things by spreading out the work!"
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "55%",
+      "label": "Large Truck Tires",
+      "fact": "Truck tires are much bigger and thicker than car tires because they need to support extremely heavy loads. The large surface area helps spread the weight so the truck can drive safely without sinking into soft ground!"
+    }
+  ]
+}

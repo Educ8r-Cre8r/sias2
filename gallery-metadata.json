@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T18:52:49.209Z",
-  "totalImages": 97,
+  "lastUpdated": "2026-02-05T18:59:39.649Z",
+  "totalImages": 98,
   "images": [
     {
       "id": 1,
@@ -873,6 +873,15 @@
       "imagePath": "images/life-science/arachnid.jpg",
       "contentFile": "content/life-science/arachnid.json",
       "title": "Arachnid",
+      "hasContent": true
+    },
+    {
+      "id": 98,
+      "filename": "mechanical_energy.jpeg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/mechanical_energy.jpeg",
+      "contentFile": "content/physical-science/mechanical_energy.json",
+      "title": "Mechanical Energy",
       "hasContent": true
     }
   ]
