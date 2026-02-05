@@ -1099,6 +1099,17 @@ a:hover {
   align-items: center;
   border-bottom: 1px solid #f0e6b3;
   position: relative;
+  min-height: 120px;
+}
+
+.image-modal-header .header-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 70px;
+  width: auto;
+  z-index: 1;
 }
 
 .image-modal-title-section {
@@ -1106,6 +1117,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-xs);
+  position: relative;
+  z-index: 2;
 }
 
 .image-modal-title {
@@ -1120,7 +1133,7 @@ a:hover {
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-text-light);
-  font-style: italic;
+  font-style: normal;
 }
 
 /* Removed .image-modal-close-btn override - using base .close-btn styles */
