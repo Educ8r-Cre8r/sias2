@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T05:17:50.367Z",
-  "totalImages": 89,
+  "lastUpdated": "2026-02-05T05:22:22.585Z",
+  "totalImages": 90,
   "images": [
     {
       "id": 1,
@@ -801,6 +801,15 @@
       "imagePath": "images/physical-science/robot.jpg",
       "contentFile": "content/physical-science/robot.json",
       "title": "Robot",
+      "hasContent": true
+    },
+    {
+      "id": 90,
+      "filename": "snake_skin.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/snake_skin.jpg",
+      "contentFile": "content/life-science/snake_skin.json",
+      "title": "Snake Skin",
       "hasContent": true
     }
   ]

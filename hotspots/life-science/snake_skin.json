@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Snake Body",
+      "fact": "This snake has scales that overlap like roof tiles to protect its body. Snakes use their long, flexible bodies to move through grass and hide from predators in their environment."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "28%",
+      "label": "Snake Head",
+      "fact": "A snake's head contains special sense organs that help it find food and navigate. Snakes can sense heat and smell using special pits and organs in their face."
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "50%",
+      "label": "Dried Plant Matter",
+      "fact": "Snakes live in habitats with dead leaves and wood because these materials provide hiding spots and shelter. The camouflage from this brown environment helps snakes stay safe from larger animals."
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "70%",
+      "label": "Natural Habitat",
+      "fact": "This snake's brown coloring is perfect for blending in with dead grass and wood, called camouflage. This adaptation helps snakes hunt for food and escape from danger in nature."
+    }
+  ]
+}
