@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:12:17.689Z",
-  "totalImages": 128,
+  "lastUpdated": "2026-02-06T22:15:17.345Z",
+  "totalImages": 129,
   "images": [
     {
       "id": 1,
@@ -2560,6 +2560,26 @@
         "life cycle",
         "camouflage",
         "vertebrates"
+      ]
+    },
+    {
+      "id": 129,
+      "filename": "engineering.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/engineering.jpg",
+      "thumbPath": "images/physical-science/thumbs/engineering.jpg",
+      "webpPath": "images/physical-science/webp/engineering.webp",
+      "placeholderPath": "images/physical-science/placeholders/engineering.jpg",
+      "contentFile": "content/physical-science/engineering.json",
+      "title": "Engineering",
+      "hasContent": true,
+      "keywords": [
+        "robotics",
+        "simple machines",
+        "engineering design",
+        "motion",
+        "wheels and axles",
+        "energy transfer"
       ]
     }
   ]

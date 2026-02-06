@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "LEGO Figures",
+      "fact": "These LEGO figures are part of an engineering project where students build and program robots! The googly eyes make them look friendly, but they help teach us about how machines can be designed to look like living creatures."
+    },
+    {
+      "id": 2,
+      "x": "30%",
+      "y": "55%",
+      "label": "Green Wheels",
+      "fact": "These bright green wheels are specially designed for movement and grip! Wheels are a simple machine that makes it easier for robots to move around by reducing friction with the ground."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "50%",
+      "label": "Programming Blocks",
+      "fact": "These black blocks are used to program the robot's movements and actions! By connecting different blocks together, students can give the robot instructions on what to do, just like writing a recipe."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "30%",
+      "label": "Mouse Controller",
+      "fact": "The computer mouse connects to a program that controls these robots! This shows how computers and physical machines work together in robotics and engineering."
+    }
+  ]
+}
