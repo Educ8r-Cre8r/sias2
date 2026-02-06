@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "45%",
+      "label": "Coolant Reservoir",
+      "fact": "This white container holds coolant fluid that circulates through the engine to keep it from overheating. The yellow liquid inside absorbs heat from the engine and releases it through the radiator, kind of like how sweat cools your body!"
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "25%",
+      "label": "Windshield Washer Fluid",
+      "fact": "The pink/purple glowing container on the left stores washer fluid that sprays on your windshield to clean it. This helps drivers see clearly and stay safe on the road, especially when the windshield gets dirty from rain or dust."
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "25%",
+      "label": "Engine Oil Cap",
+      "fact": "This black cap with yellow writing protects the oil inside the engine. Oil is like the blood of a car—it lubricates moving parts so they don't wear out quickly and keeps the engine running smoothly."
+    },
+    {
+      "id": 4,
+      "x": "45%",
+      "y": "60%",
+      "label": "Radiator Hoses",
+      "fact": "These flexible black tubes carry hot coolant from the engine to the radiator where it cools down. The clamps tighten the hoses so no fluid leaks out, similar to how veins and arteries transport blood throughout your body!"
+    }
+  ]
+}
