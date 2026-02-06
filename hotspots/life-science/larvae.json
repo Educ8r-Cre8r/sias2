@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "55%",
+      "y": "35%",
+      "label": "Larva Head",
+      "fact": "This is the head of a beetle larva with its reddish-brown jaws called mandibles. Larvae use these strong jaws to chew through wood, soil, and other materials as they grow and develop."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Segmented Body",
+      "fact": "The curved white body is divided into segments, which is a characteristic of all insects and many other animals. These segments allow the larva to bend and move through tight spaces in the soil."
+    },
+    {
+      "id": 3,
+      "x": "75%",
+      "y": "60%",
+      "label": "Body Texture",
+      "fact": "The larva's smooth, pale skin helps it move easily through soil and protects it from drying out. This stage can last for months or even years before the larva transforms into an adult beetle."
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "50%",
+      "label": "Soil Environment",
+      "fact": "This beetle larva lives underground in soil where it's dark and moist. Many insect larvae develop in soil before emerging as adults, making them important for breaking down dead plants and enriching the soil."
+    }
+  ]
+}

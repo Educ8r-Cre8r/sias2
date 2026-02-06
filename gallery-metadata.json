@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T02:43:13.013Z",
-  "totalImages": 104,
+  "lastUpdated": "2026-02-06T02:46:12.051Z",
+  "totalImages": 105,
   "images": [
     {
       "id": 1,
@@ -936,6 +936,15 @@
       "imagePath": "images/life-science/flower_parts.jpg",
       "contentFile": "content/life-science/flower_parts.json",
       "title": "Flower Parts",
+      "hasContent": true
+    },
+    {
+      "id": 105,
+      "filename": "larvae.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/larvae.jpg",
+      "contentFile": "content/life-science/larvae.json",
+      "title": "Larvae",
       "hasContent": true
     }
   ]
