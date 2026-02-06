@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "25%",
+      "label": "Wrinkled Head",
+      "fact": "This bird's head has loose, wrinkled skin that helps it stay clean while eating messy food. The wrinkles can expand and contract, kind of like an accordion!"
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "35%",
+      "label": "Powerful Wings",
+      "fact": "These large black wings help vultures soar high in the sky for hours without flapping. They ride warm air currents called thermals to search for food below."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "70%",
+      "label": "Strong Gray Legs",
+      "fact": "Vultures have thick, powerful legs built for walking on the ground. Their feet are flat and not as sharp as eagles' talons because they don't need to catch live prey."
+    },
+    {
+      "id": 4,
+      "x": "30%",
+      "y": "50%",
+      "label": "All Black Feathers",
+      "fact": "The dark black feathers help vultures absorb heat from the sun, which gives them energy to fly. Dark colors also help them blend in while flying high overhead."
+    }
+  ]
+}

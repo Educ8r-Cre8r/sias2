@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T23:12:19.481Z",
-  "totalImages": 148,
+  "lastUpdated": "2026-02-06T23:15:20.054Z",
+  "totalImages": 149,
   "images": [
     {
       "id": 1,
@@ -2960,6 +2960,26 @@
         "adaptation",
         "animal behavior",
         "habitat"
+      ]
+    },
+    {
+      "id": 149,
+      "filename": "scavenger.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/scavenger.jpg",
+      "thumbPath": "images/life-science/thumbs/scavenger.jpg",
+      "webpPath": "images/life-science/webp/scavenger.webp",
+      "placeholderPath": "images/life-science/placeholders/scavenger.jpg",
+      "contentFile": "content/life-science/scavenger.json",
+      "title": "Scavenger",
+      "hasContent": true,
+      "keywords": [
+        "bird",
+        "animal behavior",
+        "foraging",
+        "predator",
+        "adaptation",
+        "wildlife"
       ]
     }
   ]
