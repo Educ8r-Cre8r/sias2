@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:21:17.795Z",
-  "totalImages": 131,
+  "lastUpdated": "2026-02-06T22:24:18.223Z",
+  "totalImages": 132,
   "images": [
     {
       "id": 1,
@@ -2620,6 +2620,26 @@
         "seasonal change",
         "daffodil",
         "plant adaptation"
+      ]
+    },
+    {
+      "id": 132,
+      "filename": "bumble_bee.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/bumble_bee.jpg",
+      "thumbPath": "images/life-science/thumbs/bumble_bee.jpg",
+      "webpPath": "images/life-science/webp/bumble_bee.webp",
+      "placeholderPath": "images/life-science/placeholders/bumble_bee.jpg",
+      "contentFile": "content/life-science/bumble_bee.json",
+      "title": "Bumble Bee",
+      "hasContent": true,
+      "keywords": [
+        "pollination",
+        "bees",
+        "flowers",
+        "insects",
+        "plant reproduction",
+        "ecosystems"
       ]
     }
   ]

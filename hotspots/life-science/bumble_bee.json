@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Compound Eyes",
+      "fact": "Bees have huge compound eyes made of thousands of tiny lenses that work together. This helps them see flowers and navigate through the air super fast!"
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Wings",
+      "fact": "A bee's wings beat about 200 times per second, which creates the buzzing sound we hear. These powerful wings help bees carry pollen back to their hive."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "65%",
+      "label": "Pollen Baskets",
+      "fact": "Bees have special pouches on their back legs called pollen baskets where they collect and carry pollen. This yellow dust helps flowers make seeds and new plants!"
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "75%",
+      "label": "Fuzzy Body",
+      "fact": "A bee's fuzzy hair is perfect for picking up pollen grains as it visits flowers. The hair on their body acts like nature's velcro for collecting pollen!"
+    }
+  ]
+}
