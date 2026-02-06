@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Long Bean Pod",
+      "fact": "This is a yard-long bean, also called an asparagus bean! These beans grow much longer than regular green beans and can reach up to 3 feet long. They're popular vegetables in Asian cooking and grow on climbing vines."
+    },
+    {
+      "id": 2,
+      "x": "60%",
+      "y": "45%",
+      "label": "Climbing Vine Structure",
+      "fact": "This plant uses curling tendrils to grab onto the wooden fence for support as it grows upward. This climbing ability helps the plant reach sunlight while saving space in gardens!"
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "25%",
+      "label": "Yellow Flowers",
+      "fact": "These yellow flowers will develop into the bean pods we see below! Flowers are important because they contain the plant's reproductive parts and must be pollinated before beans can grow."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "60%",
+      "label": "Wooden Fence Support",
+      "fact": "Gardeners use fences and trellises to support climbing plants like this bean vine. This helps the plant grow vertically, keeps beans off the ground, and makes harvesting easier!"
+    }
+  ]
+}

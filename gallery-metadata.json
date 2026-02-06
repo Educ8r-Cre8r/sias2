@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T03:33:12.749Z",
-  "totalImages": 112,
+  "lastUpdated": "2026-02-06T05:34:17.137Z",
+  "totalImages": 113,
   "images": [
     {
       "id": 1,
@@ -1345,6 +1345,15 @@
       "thumbPath": "images/life-science/thumbs/alligator_predator.jpg",
       "webpPath": "images/life-science/webp/alligator_predator.webp",
       "placeholderPath": "images/life-science/placeholders/alligator_predator.jpg"
+    },
+    {
+      "id": 113,
+      "filename": "vine.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/vine.jpg",
+      "contentFile": "content/life-science/vine.json",
+      "title": "Vine",
+      "hasContent": true
     }
   ]
 }
