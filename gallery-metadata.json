@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:18:18.088Z",
-  "totalImages": 130,
+  "lastUpdated": "2026-02-06T22:21:17.795Z",
+  "totalImages": 131,
   "images": [
     {
       "id": 1,
@@ -2600,6 +2600,26 @@
         "mechanical advantage",
         "work",
         "tools"
+      ]
+    },
+    {
+      "id": 131,
+      "filename": "water_cycle.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/water_cycle.jpg",
+      "thumbPath": "images/earth-space-science/thumbs/water_cycle.jpg",
+      "webpPath": "images/earth-space-science/webp/water_cycle.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/water_cycle.jpg",
+      "contentFile": "content/earth-space-science/water_cycle.json",
+      "title": "Water Cycle",
+      "hasContent": true,
+      "keywords": [
+        "snow",
+        "winter weather",
+        "frost",
+        "seasonal change",
+        "daffodil",
+        "plant adaptation"
       ]
     }
   ]

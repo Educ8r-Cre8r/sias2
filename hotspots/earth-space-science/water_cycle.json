@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Yellow Daffodil Flower",
+      "fact": "This bright yellow daffodil is blooming even in the snow! Daffodils are early spring flowers that can survive cold temperatures because they store energy in their bulbs underground during winter."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Snow on Leaves",
+      "fact": "The snow sticks to the plant's leaves and stems because water freezes when temperatures drop below 32°F (0°C). Plants have special waxy coatings on their leaves that help them survive freezing weather."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "60%",
+      "label": "Green Buds",
+      "fact": "These reddish-brown buds are waiting to open into flowers when it gets warmer. Plants can sense changes in temperature and daylight, which tells them when it's time to bloom."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "55%",
+      "label": "Frost Crystals",
+      "fact": "The sparkly white coating on the leaves is frost—tiny ice crystals that form when water vapor in the air freezes directly into ice without becoming liquid first. This process is called deposition!"
+    }
+  ]
+}
