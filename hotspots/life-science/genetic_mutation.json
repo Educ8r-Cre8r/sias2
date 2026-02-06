@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Pink Ray Petals",
+      "fact": "These bright pink petals are the flower's outer leaves that protect it while it grows. They also attract insects like bees and butterflies to help pollinate the flower so it can make seeds!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Yellow Stamens",
+      "fact": "These tiny yellow structures in the center are called stamens, and they make pollen. Pollen is like the flower's powder that sticks to insects and helps create new plants."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "65%",
+      "label": "Dark Red Disk",
+      "fact": "The dark reddish-brown center is called the disk florets. This Zinnia flower is actually made of hundreds of tiny flowers packed together, all working as one!"
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "50%",
+      "label": "Pollinator Visitor",
+      "fact": "You can see a small insect on this flower! Insects visit flowers to drink nectar, which is a sweet liquid plants make. As they move between flowers, they help spread pollen."
+    }
+  ]
+}

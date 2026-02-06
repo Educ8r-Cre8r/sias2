@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T11:00:18.502Z",
-  "totalImages": 123,
+  "lastUpdated": "2026-02-06T11:03:18.074Z",
+  "totalImages": 124,
   "images": [
     {
       "id": 1,
@@ -2460,6 +2460,26 @@
         "wildlife",
         "bird perch",
         "natural selection"
+      ]
+    },
+    {
+      "id": 124,
+      "filename": "genetic_mutation.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/genetic_mutation.jpg",
+      "thumbPath": "images/life-science/thumbs/genetic_mutation.jpg",
+      "webpPath": "images/life-science/webp/genetic_mutation.webp",
+      "placeholderPath": "images/life-science/placeholders/genetic_mutation.jpg",
+      "contentFile": "content/life-science/genetic_mutation.json",
+      "title": "Genetic Mutation",
+      "hasContent": true,
+      "keywords": [
+        "flower parts",
+        "pollination",
+        "plant reproduction",
+        "flower structure",
+        "stamen",
+        "petals"
       ]
     }
   ]
