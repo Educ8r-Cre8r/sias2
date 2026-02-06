@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "48%",
+      "y": "35%",
+      "label": "Fire Hydrant",
+      "fact": "Fire hydrants are connected to underground water pipes that supply water to fight fires. They are painted bright colors like blue and orange so firefighters can easily find them in emergencies. Each hydrant can spray thousands of gallons of water per minute!"
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "50%",
+      "label": "Safety Cone",
+      "fact": "Traffic cones are brightly colored orange and white to warn people about hazards or construction areas. The reflective stripes help drivers see them at night using their headlights. These cones protect people by marking dangerous zones."
+    },
+    {
+      "id": 3,
+      "x": "80%",
+      "y": "65%",
+      "label": "Storm Drain Canal",
+      "fact": "This waterway channels rainwater and storm runoff away from streets and homes to prevent flooding. The water flows downhill through these channels toward larger bodies of water or treatment facilities. Engineers designed these systems to protect communities from water damage."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "25%",
+      "label": "Concrete Sidewalk",
+      "fact": "Sidewalks are made from concrete, a material that hardens when mixed with water and cement. The flat surface is designed for safe walking and protects pedestrians from traffic. Over time, weather and tree roots can crack concrete, requiring repairs."
+    }
+  ]
+}
