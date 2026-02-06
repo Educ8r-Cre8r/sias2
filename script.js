@@ -9,8 +9,12 @@ const state = {
   currentCategory: 'all',
   searchQuery: '',
   loadedContent: {}, // Cache for loaded educational content
-  selectedGradeLevel: 'third-grade' // Default to third grade content
+  selectedGradeLevel: 'third-grade', // Default to third grade content
+  visibleCount: 24, // Number of images currently visible
+  filteredImages: [] // Current filtered image set
 };
+
+const IMAGES_PER_PAGE = 24;
 
 // Initialize on DOM load
 document.addEventListener('DOMContentLoaded', () => {
@@ -255,8 +259,17 @@ function renderGallery() {
     );
   }
 
+  // Store filtered images in state for Load More
+  state.filteredImages = filteredImages;
+
   // Clear grid
   galleryGrid.innerHTML = '';
+
+  // Remove existing Load More button
+  const existingLoadMore = document.getElementById('load-more-container');
+  if (existingLoadMore) {
+    existingLoadMore.remove();
+  }
 
   if (filteredImages.length === 0) {
     showEmptyState('No images found matching your criteria.');
@@ -268,11 +281,15 @@ function renderGallery() {
     emptyState.style.display = 'none';
   }
 
-  // Render each image
-  filteredImages.forEach(image => {
+  // Render only up to visibleCount images
+  const imagesToShow = filteredImages.slice(0, state.visibleCount);
+  imagesToShow.forEach(image => {
     const item = createGalleryItem(image);
     galleryGrid.appendChild(item);
   });
+
+  // Show Load More button if there are more images
+  updateLoadMoreButton();
 
   // Initialize tutorial hints for first-time users
   initializeTutorialHints();
@@ -280,6 +297,77 @@ function renderGallery() {
   // Load ratings and views for all photos
   if (typeof loadAllStats === 'function') {
     loadAllStats();
+  }
+}
+
+/**
+ * Load more images into the gallery
+ */
+function loadMoreImages() {
+  const galleryGrid = document.getElementById('gallery-grid');
+  const previousCount = state.visibleCount;
+  state.visibleCount += IMAGES_PER_PAGE;
+
+  // Get the next batch of images
+  const nextBatch = state.filteredImages.slice(previousCount, state.visibleCount);
+
+  // Append new images with fade-in animation
+  nextBatch.forEach((image, index) => {
+    const item = createGalleryItem(image);
+    item.style.opacity = '0';
+    item.style.transform = 'translateY(20px)';
+    item.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+    galleryGrid.appendChild(item);
+
+    // Stagger the fade-in
+    setTimeout(() => {
+      item.style.opacity = '1';
+      item.style.transform = 'translateY(0)';
+    }, index * 50);
+  });
+
+  // Update Load More button
+  updateLoadMoreButton();
+
+  // Load ratings for new photos
+  if (typeof loadAllStats === 'function') {
+    loadAllStats();
+  }
+}
+
+/**
+ * Update the Load More button visibility and count
+ */
+function updateLoadMoreButton() {
+  const galleryGrid = document.getElementById('gallery-grid');
+  const totalImages = state.filteredImages.length;
+  const showing = Math.min(state.visibleCount, totalImages);
+  const remaining = totalImages - showing;
+
+  // Remove existing button
+  const existingContainer = document.getElementById('load-more-container');
+  if (existingContainer) {
+    existingContainer.remove();
+  }
+
+  // Only show button if there are more images to load
+  if (remaining > 0) {
+    const container = document.createElement('div');
+    container.id = 'load-more-container';
+    container.className = 'load-more-container';
+
+    const nextBatchSize = Math.min(IMAGES_PER_PAGE, remaining);
+
+    container.innerHTML = `
+      <p class="load-more-count">Showing ${showing} of ${totalImages} images</p>
+      <button class="load-more-btn" onclick="loadMoreImages()" aria-label="Load more images">
+        <span>Load More</span>
+        <span class="load-more-badge">${nextBatchSize}</span>
+      </button>
+    `;
+
+    // Insert after the gallery grid
+    galleryGrid.parentNode.insertBefore(container, galleryGrid.nextSibling);
   }
 }
 
@@ -401,8 +489,9 @@ function handleCategoryFilter(event) {
   button.classList.add('active');
   button.setAttribute('aria-pressed', 'true');
 
-  // Update state and re-render
+  // Update state, reset pagination, and re-render
   state.currentCategory = category;
+  state.visibleCount = IMAGES_PER_PAGE;
   updateURL(); // Update URL to reflect new filter state
   renderGallery();
 }
@@ -412,6 +501,7 @@ function handleCategoryFilter(event) {
  */
 function handleSearch(event) {
   state.searchQuery = event.target.value;
+  state.visibleCount = IMAGES_PER_PAGE;
   updateURL(); // Update URL to reflect new search query
   renderGallery();
 }
