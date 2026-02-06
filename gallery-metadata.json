@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T02:46:12.051Z",
-  "totalImages": 105,
+  "lastUpdated": "2026-02-06T02:49:11.922Z",
+  "totalImages": 106,
   "images": [
     {
       "id": 1,
@@ -945,6 +945,15 @@
       "imagePath": "images/life-science/larvae.jpg",
       "contentFile": "content/life-science/larvae.json",
       "title": "Larvae",
+      "hasContent": true
+    },
+    {
+      "id": 106,
+      "filename": "orb_weaver.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/orb_weaver.jpg",
+      "contentFile": "content/life-science/orb_weaver.json",
+      "title": "Orb Weaver",
       "hasContent": true
     }
   ]

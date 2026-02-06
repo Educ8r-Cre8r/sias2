@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "25%",
+      "label": "Spider's Eyes",
+      "fact": "Spiders have multiple eyes, usually 8, that help them see in different directions at once! These large eyes on top help the spider spot movement and hunt for food."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "35%",
+      "label": "Spider's Fangs",
+      "fact": "Those sharp, pointed parts are called fangs or chelicerae. Spiders use them to catch and hold their prey, similar to how we use our hands!"
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "50%",
+      "label": "Long Legs",
+      "fact": "Spiders have 8 legs covered in tiny hairs that are super sensitive! These hairs help spiders feel vibrations from prey and sense their surroundings."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "60%",
+      "label": "Spider's Body",
+      "fact": "A spider's body has two main parts: the head-chest area and the abdomen. The brown and tan colors help this spider blend in with bark and branches in nature!"
+    }
+  ]
+}
