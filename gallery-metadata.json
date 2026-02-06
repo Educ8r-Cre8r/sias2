@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T23:09:19.279Z",
-  "totalImages": 147,
+  "lastUpdated": "2026-02-06T23:12:19.481Z",
+  "totalImages": 148,
   "images": [
     {
       "id": 1,
@@ -2940,6 +2940,26 @@
         "utility management",
         "flood prevention",
         "civil engineering"
+      ]
+    },
+    {
+      "id": 148,
+      "filename": "reptile_molting.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/reptile_molting.jpg",
+      "thumbPath": "images/life-science/thumbs/reptile_molting.jpg",
+      "webpPath": "images/life-science/webp/reptile_molting.webp",
+      "placeholderPath": "images/life-science/placeholders/reptile_molting.jpg",
+      "contentFile": "content/life-science/reptile_molting.json",
+      "title": "Reptile Molting",
+      "hasContent": true,
+      "keywords": [
+        "lizard",
+        "reptile",
+        "camouflage",
+        "adaptation",
+        "animal behavior",
+        "habitat"
       ]
     }
   ]

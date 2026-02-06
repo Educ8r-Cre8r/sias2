@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "70%",
+      "y": "25%",
+      "label": "Large Round Eye",
+      "fact": "Lizards have excellent vision and can see in color! Their large eyes help them spot insects to eat and watch for danger. Some lizards can even see ultraviolet light that humans cannot see."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Adhesive Toe Pads",
+      "fact": "This lizard's feet have special pads with millions of tiny hairs that help it climb smooth surfaces like leaves! These adhesive pads work like natural sticky tape, allowing the lizard to grip almost anything without falling."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "75%",
+      "label": "Patterned Tail",
+      "fact": "If a predator grabs this lizard's tail, it can actually break off and keep wiggling to distract the enemy! The lizard escapes safely and grows a new tail over time—this amazing ability is called autotomy."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "50%",
+      "label": "Color-Changing Skin",
+      "fact": "Many lizards can change colors to blend in with their surroundings—this is called camouflage! The white and brown coloring on this lizard helps it hide from predators by matching leaves and branches in its habitat."
+    }
+  ]
+}
