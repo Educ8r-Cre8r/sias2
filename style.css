@@ -827,16 +827,19 @@ a:hover {
   height: 36px;
   padding: 0;
   border: none;
+  outline: none;
   background: transparent;
   color: #333;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 0;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   box-shadow: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .close-btn:hover {
