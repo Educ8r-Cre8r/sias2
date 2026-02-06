@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Snow-Covered Evergreen",
+      "fact": "Evergreen trees like this one keep their needles all winter long, unlike trees that lose their leaves. The snow sticks to the needles because they're sticky and rough, creating a beautiful winter coat!"
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "55%",
+      "label": "Accumulated Snow Load",
+      "fact": "Heavy snow piles up on tree branches because snow is much lighter and fluffier than rain. Trees have evolved flexible branches that can bend down under the weight of snow without breaking!"
+    },
+    {
+      "id": 3,
+      "x": "75%",
+      "y": "50%",
+      "label": "Winter Frost Formation",
+      "fact": "The white coating on the branches is frost or rime ice that forms when water vapor in cold air freezes directly onto the tree. This process is called deposition and happens without the water becoming liquid first!"
+    },
+    {
+      "id": 4,
+      "x": "60%",
+      "y": "70%",
+      "label": "Bare Deciduous Trees",
+      "fact": "The brown trees in the background are deciduous trees that have lost all their leaves for winter. They do this to save energy and water when it's too cold for their roots to absorb water from frozen soil."
+    }
+  ]
+}

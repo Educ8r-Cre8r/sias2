@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T03:07:12.355Z",
-  "totalImages": 109,
+  "lastUpdated": "2026-02-06T03:21:12.691Z",
+  "totalImages": 110,
   "images": [
     {
       "id": 1,
@@ -981,6 +981,15 @@
       "imagePath": "images/life-science/inherited_traits.jpg",
       "contentFile": "content/life-science/inherited_traits.json",
       "title": "Inherited Traits",
+      "hasContent": true
+    },
+    {
+      "id": 110,
+      "filename": "winter_seasons.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/winter_seasons.jpg",
+      "contentFile": "content/earth-space-science/winter_seasons.json",
+      "title": "Winter Seasons",
       "hasContent": true
     }
   ]
