@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:45:18.170Z",
-  "totalImages": 139,
+  "lastUpdated": "2026-02-06T22:48:18.975Z",
+  "totalImages": 140,
   "images": [
     {
       "id": 1,
@@ -2780,6 +2780,26 @@
         "habitat",
         "animal adaptation",
         "food chain"
+      ]
+    },
+    {
+      "id": 140,
+      "filename": "hummingbird.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/hummingbird.jpg",
+      "thumbPath": "images/life-science/thumbs/hummingbird.jpg",
+      "webpPath": "images/life-science/webp/hummingbird.webp",
+      "placeholderPath": "images/life-science/placeholders/hummingbird.jpg",
+      "contentFile": "content/life-science/hummingbird.json",
+      "title": "Hummingbird",
+      "hasContent": true,
+      "keywords": [
+        "hummingbird",
+        "pollination",
+        "flowers",
+        "animal adaptation",
+        "nectar",
+        "plant and animal interactions"
       ]
     }
   ]

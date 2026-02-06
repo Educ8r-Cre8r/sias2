@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Hummingbird Beak",
+      "fact": "A hummingbird's long, thin beak is perfectly designed to reach deep into flowers to drink nectar. The beak can be as long as the bird's entire body! This special shape helps hummingbirds get the energy they need to fly so fast."
+    },
+    {
+      "id": 2,
+      "x": "45%",
+      "y": "55%",
+      "label": "Hummingbird Wings",
+      "fact": "Hummingbird wings beat about 80 times per second, which is faster than the human eye can see! This super-fast wing movement allows them to hover in place and even fly backwards while visiting flowers."
+    },
+    {
+      "id": 3,
+      "x": "75%",
+      "y": "60%",
+      "label": "Nectar-Rich Flower",
+      "fact": "Bright pink and red flowers like these gerberas attract hummingbirds with their vibrant colors. The flowers produce sweet nectar that hummingbirds drink for energy, and in return, the birds help pollinate the flowers by spreading pollen from plant to plant."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "20%",
+      "label": "Iridescent Feathers",
+      "fact": "Hummingbird feathers shimmer and change color in the light, like a rainbow! This special coloring is created by the structure of the feathers, not pigment, similar to how a soap bubble reflects different colors."
+    }
+  ]
+}
