@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://educ8r-cre8r.github.io/sias2/sitemap.xml
