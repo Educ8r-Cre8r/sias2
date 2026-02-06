@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:09:18.356Z",
-  "totalImages": 127,
+  "lastUpdated": "2026-02-06T22:12:17.689Z",
+  "totalImages": 128,
   "images": [
     {
       "id": 1,
@@ -2540,6 +2540,26 @@
         "adaptation",
         "animal skin",
         "camouflage"
+      ]
+    },
+    {
+      "id": 128,
+      "filename": "amphibian.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/amphibian.jpg",
+      "thumbPath": "images/life-science/thumbs/amphibian.jpg",
+      "webpPath": "images/life-science/webp/amphibian.webp",
+      "placeholderPath": "images/life-science/placeholders/amphibian.jpg",
+      "contentFile": "content/life-science/amphibian.json",
+      "title": "Amphibian",
+      "hasContent": true,
+      "keywords": [
+        "amphibians",
+        "frog",
+        "animal adaptation",
+        "life cycle",
+        "camouflage",
+        "vertebrates"
       ]
     }
   ]

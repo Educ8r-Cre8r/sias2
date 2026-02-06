@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "35%",
+      "y": "25%",
+      "label": "Adhesive Toe Pads",
+      "fact": "These special sticky toe pads help the frog climb smooth surfaces like walls and glass! The tiny hairs on each toe pad create a grip that works even on wet surfaces."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Bumpy Skin Texture",
+      "fact": "The bumpy, warty-looking skin helps the frog blend in with tree bark and rocks. This camouflage helps the frog hide from predators in its natural forest home."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "40%",
+      "label": "Large Bulging Eyes",
+      "fact": "A frog's huge eyes help it see in many directions at once to spot insects and danger! Frogs have excellent night vision, which helps them hunt when it's dark."
+    },
+    {
+      "id": 4,
+      "x": "72%",
+      "y": "70%",
+      "label": "Long Hind Legs",
+      "fact": "These powerful back legs allow frogs to jump up to 20 times their own body length! The strong muscles in the hind legs make frogs amazing jumpers and swimmers."
+    }
+  ]
+}
