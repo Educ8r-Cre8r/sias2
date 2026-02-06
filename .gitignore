@@ -16,3 +16,4 @@ package-lock.json
 
 # Logs
 *.log
+firebase-service-account.json
