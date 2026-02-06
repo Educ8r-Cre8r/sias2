@@ -246,6 +246,27 @@ async function processImageFromQueue(queueItem) {
     await fs.copyFile(tempFilePath, targetImagePath);
     console.log(`📁 Copied image to: images/${category}/${filename}`);
 
+    // Generate optimized image variants (thumbnail, WebP, placeholder)
+    const nameNoExt = path.parse(filename).name;
+    const thumbsDir = path.join(repoDir, 'images', category, 'thumbs');
+    const webpDir = path.join(repoDir, 'images', category, 'webp');
+    const placeholdersDir = path.join(repoDir, 'images', category, 'placeholders');
+    await fs.mkdir(thumbsDir, { recursive: true });
+    await fs.mkdir(webpDir, { recursive: true });
+    await fs.mkdir(placeholdersDir, { recursive: true });
+
+    try {
+      // Generate 600px thumbnail
+      await sharp(targetImagePath).resize({ height: 600 }).toFile(path.join(thumbsDir, filename));
+      // Generate WebP from thumbnail
+      await sharp(path.join(thumbsDir, filename)).webp({ quality: 80 }).toFile(path.join(webpDir, `${nameNoExt}.webp`));
+      // Generate 20px blur-up placeholder
+      await sharp(targetImagePath).resize({ width: 20 }).toFile(path.join(placeholdersDir, filename));
+      console.log(`🖼️  Generated optimized variants (thumb, webp, placeholder)`);
+    } catch (optimizeError) {
+      console.warn(`⚠️  Image optimization failed (non-blocking): ${optimizeError.message}`);
+    }
+
     // Read gallery-metadata.json
     const metadataPath = path.join(repoDir, 'gallery-metadata.json');
     const metadataContent = await fs.readFile(metadataPath, 'utf8');
@@ -265,6 +286,9 @@ async function processImageFromQueue(queueItem) {
       filename: filename,
       category: category,
       imagePath: `images/${category}/${filename}`,
+      thumbPath: `images/${category}/thumbs/${filename}`,
+      webpPath: `images/${category}/webp/${nameNoExt}.webp`,
+      placeholderPath: `images/${category}/placeholders/${filename}`,
       contentFile: `content/${category}/${path.parse(filename).name}.json`,
       title: title,
       hasContent: false
