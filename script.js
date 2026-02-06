@@ -898,6 +898,12 @@ function openImageModal(imagePath, altText, imageData = null) {
     modal.style.display = 'flex';
     document.body.style.overflow = 'hidden';
 
+    // Hide toggle button until hotspots are loaded
+    const toggleBtn = document.getElementById('hotspot-toggle-btn');
+    if (toggleBtn) {
+      toggleBtn.style.display = 'none';
+    }
+
     // Load hotspots if image data is available
     if (imageData) {
       // Wait for modal image to be fully loaded
@@ -1449,7 +1455,17 @@ function renderHotspotsOnImageModal(hotspots, modalImage) {
   
   // Add container to image modal body
   imageModalBody.appendChild(hotspotContainer);
-  
+
+  // Show the hotspot toggle button
+  const toggleBtn = document.getElementById('hotspot-toggle-btn');
+  if (toggleBtn) {
+    toggleBtn.style.display = 'flex';
+    toggleBtn.classList.remove('hotspots-hidden');
+    // Reset icon to eye-open
+    toggleBtn.querySelector('svg').innerHTML = '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle>';
+    toggleBtn.querySelector('span').textContent = 'Hotspots';
+  }
+
   console.log('[Hotspots] Rendered on image modal');
 }
 
@@ -1611,6 +1627,40 @@ function cleanupHotspots() {
   if (currentTooltip) {
     currentTooltip.remove();
     currentTooltip = null;
+  }
+
+  // Hide the toggle button
+  const toggleBtn = document.getElementById('hotspot-toggle-btn');
+  if (toggleBtn) {
+    toggleBtn.style.display = 'none';
+  }
+}
+
+/**
+ * Toggle hotspot visibility on image modal
+ */
+function toggleHotspots() {
+  const container = document.querySelector('.image-modal-body .hotspot-container');
+  const toggleBtn = document.getElementById('hotspot-toggle-btn');
+  if (!container || !toggleBtn) return;
+
+  const isHidden = container.classList.toggle('hotspots-hidden');
+  toggleBtn.classList.toggle('hotspots-hidden', isHidden);
+
+  // Close any open tooltip when hiding
+  if (isHidden && currentTooltip) {
+    currentTooltip.remove();
+    currentTooltip = null;
+    document.querySelectorAll('.hotspot.active').forEach(m => m.classList.remove('active'));
+  }
+
+  // Update button icon and text
+  if (isHidden) {
+    toggleBtn.querySelector('svg').innerHTML = '<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line>';
+    toggleBtn.querySelector('span').textContent = 'Show';
+  } else {
+    toggleBtn.querySelector('svg').innerHTML = '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle>';
+    toggleBtn.querySelector('span').textContent = 'Hotspots';
   }
 }
 

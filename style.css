@@ -1086,7 +1086,7 @@ a:hover {
   z-index: 2001;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* Image Modal Header */
@@ -1100,6 +1100,7 @@ a:hover {
   border-bottom: 1px solid #f0e6b3;
   position: relative;
   min-height: 120px;
+  z-index: 1;
 }
 
 .image-modal-header .header-logo {
@@ -1161,7 +1162,9 @@ a:hover {
   justify-content: center;
   flex: 1;
   padding: var(--spacing-lg);
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  z-index: 2;
 }
 
 .image-modal-body img {
@@ -2307,7 +2310,7 @@ a:hover {
   width: 100%;
   height: 100%;
   pointer-events: none; /* Allow clicks to pass through container */
-  z-index: 5;
+  z-index: 10;
 }
 
 /* Individual hotspot marker */
@@ -2367,7 +2370,7 @@ a:hover {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   max-width: 320px;
   min-width: 280px;
-  z-index: 1000;
+  z-index: 100;
   pointer-events: auto;
   opacity: 0;
   transform: scale(0.8);
@@ -2530,6 +2533,57 @@ a:hover {
   }
 }
 
+/* Hotspot toggle button */
+.hotspot-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(102, 126, 234, 0.1);
+  border: 2px solid #667eea;
+  color: #667eea;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.hotspot-toggle-btn:hover {
+  background: #667eea;
+  color: white;
+}
+
+.hotspot-toggle-btn.hotspots-hidden {
+  background: rgba(102, 126, 234, 0.05);
+  border-color: #aab;
+  color: #888;
+}
+
+.hotspot-toggle-btn.hotspots-hidden:hover {
+  background: #667eea;
+  border-color: #667eea;
+  color: white;
+}
+
+.hotspot-toggle-btn svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* Hidden state for hotspots */
+.hotspot-container.hotspots-hidden .hotspot {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.hotspot-container .hotspot {
+  transition: opacity 0.3s ease, all 0.3s ease;
+}
 
 /* Copyright & Terms Modal */
 .copyright-modal-content {
