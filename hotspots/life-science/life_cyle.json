@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "35%",
+      "y": "30%",
+      "label": "Eggshell Fragment",
+      "fact": "This broken eggshell shows where a baby bird hatched and broke free! Eggshells are made of calcium, which makes them hard and protective for the growing baby inside."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "45%",
+      "label": "Nestling or Chick",
+      "fact": "This appears to be a young bird that recently hatched. Baby birds are covered in soft down feathers and depend on their parents for food and warmth until they grow stronger."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "65%",
+      "label": "Nest Materials",
+      "fact": "Birds build nests from grass, twigs, and plant material to create a safe home for their eggs. This natural mulch and debris help insulate and protect the nest from weather."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "50%",
+      "label": "Wood Chips",
+      "fact": "The wood chips in this area help birds by providing good drainage and preventing moisture from harming eggs. Many ground-nesting birds prefer areas with natural mulch for protection."
+    }
+  ]
+}

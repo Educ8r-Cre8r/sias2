@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T23:00:20.731Z",
-  "totalImages": 144,
+  "lastUpdated": "2026-02-06T23:03:19.099Z",
+  "totalImages": 145,
   "images": [
     {
       "id": 1,
@@ -2880,6 +2880,26 @@
         "fruit dissection",
         "plant reproduction",
         "life cycles"
+      ]
+    },
+    {
+      "id": 145,
+      "filename": "life_cyle.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/life_cyle.jpg",
+      "thumbPath": "images/life-science/thumbs/life_cyle.jpg",
+      "webpPath": "images/life-science/webp/life_cyle.webp",
+      "placeholderPath": "images/life-science/placeholders/life_cyle.jpg",
+      "contentFile": "content/life-science/life_cyle.json",
+      "title": "Life Cyle",
+      "hasContent": true,
+      "keywords": [
+        "germination",
+        "seed growth",
+        "plant lifecycle",
+        "seedling",
+        "soil",
+        "decomposition"
       ]
     }
   ]
