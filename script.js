@@ -11,7 +11,9 @@ const state = {
   loadedContent: {}, // Cache for loaded educational content
   selectedGradeLevel: 'third-grade', // Default to third grade content
   visibleCount: 24, // Number of images currently visible
-  filteredImages: [] // Current filtered image set
+  filteredImages: [], // Current filtered image set
+  ngssIndex: null, // NGSS standards index (loaded on demand)
+  ngssFilter: null // Active NGSS filter { type, code, imageIds }
 };
 
 const IMAGES_PER_PAGE = 24;
@@ -128,6 +130,20 @@ function setupEventListeners() {
 
   if (closeBtn) {
     closeBtn.addEventListener('click', closeModal);
+  }
+
+  // NGSS search input
+  const ngssInput = document.getElementById('ngss-search');
+  if (ngssInput) {
+    ngssInput.addEventListener('input', handleNGSSSearch);
+    // Close suggestions when clicking outside
+    document.addEventListener('click', (e) => {
+      const suggestionsEl = document.getElementById('ngss-suggestions');
+      const ngssWrapper = document.querySelector('.ngss-search-wrapper');
+      if (suggestionsEl && ngssWrapper && !ngssWrapper.contains(e.target)) {
+        suggestionsEl.style.display = 'none';
+      }
+    });
   }
 
   // Keyboard events
@@ -339,6 +355,12 @@ function renderGallery() {
       img.category.toLowerCase().includes(query) ||
       (Array.isArray(img.keywords) && img.keywords.some(kw => kw.toLowerCase().includes(query)))
     );
+  }
+
+  // Apply NGSS standard filter
+  if (state.ngssFilter && state.ngssFilter.imageIds.length > 0) {
+    const ngssIds = new Set(state.ngssFilter.imageIds);
+    filteredImages = filteredImages.filter(img => ngssIds.has(img.id));
   }
 
   // Store filtered images in state for Load More
@@ -577,9 +599,14 @@ function handleCategoryFilter(event) {
   button.classList.add('active');
   button.setAttribute('aria-pressed', 'true');
 
-  // Update state, reset pagination, and re-render
+  // Update state, reset pagination, clear NGSS filter, and re-render
   state.currentCategory = category;
   state.visibleCount = IMAGES_PER_PAGE;
+  if (state.ngssFilter) {
+    state.ngssFilter = null;
+    const activeFilter = document.getElementById('ngss-active-filter');
+    if (activeFilter) activeFilter.style.display = 'none';
+  }
   updateURL(); // Update URL to reflect new filter state
   renderGallery();
 }
@@ -590,7 +617,163 @@ function handleCategoryFilter(event) {
 function handleSearch(event) {
   state.searchQuery = event.target.value;
   state.visibleCount = IMAGES_PER_PAGE;
+  // Clear NGSS filter when text searching
+  if (state.ngssFilter) {
+    state.ngssFilter = null;
+    const activeFilter = document.getElementById('ngss-active-filter');
+    if (activeFilter) activeFilter.style.display = 'none';
+  }
   updateURL(); // Update URL to reflect new search query
+  renderGallery();
+}
+
+/**
+ * ============================================
+ * NGSS Standards Search System
+ * ============================================
+ */
+
+/**
+ * Load NGSS index (lazy, on first interaction)
+ */
+async function loadNGSSIndex() {
+  if (state.ngssIndex) return state.ngssIndex;
+  try {
+    const response = await fetch('ngss-index.json');
+    if (!response.ok) throw new Error('NGSS index not found');
+    state.ngssIndex = await response.json();
+    return state.ngssIndex;
+  } catch (error) {
+    console.error('Failed to load NGSS index:', error);
+    return null;
+  }
+}
+
+/**
+ * Handle NGSS search input with autocomplete suggestions
+ */
+async function handleNGSSSearch(event) {
+  const query = event.target.value.trim();
+  const suggestionsEl = document.getElementById('ngss-suggestions');
+  const clearBtn = document.getElementById('ngss-clear-btn');
+
+  // Show/hide clear button
+  clearBtn.style.display = query.length > 0 ? 'flex' : 'none';
+
+  if (query.length < 1) {
+    suggestionsEl.style.display = 'none';
+    return;
+  }
+
+  const index = await loadNGSSIndex();
+  if (!index) return;
+
+  // Search across all standards
+  const q = query.toLowerCase();
+  const matches = index.allStandards.filter(std =>
+    std.toLowerCase().includes(q)
+  ).slice(0, 10); // Limit to 10 suggestions
+
+  if (matches.length === 0) {
+    suggestionsEl.innerHTML = '<div class="ngss-no-results">No matching standards found</div>';
+    suggestionsEl.style.display = 'block';
+    return;
+  }
+
+  suggestionsEl.innerHTML = matches.map(std => {
+    // Parse the type and code
+    const [type, ...codeParts] = std.split(': ');
+    const code = codeParts.join(': ');
+    const count = getImageCountForStandard(index, type, code);
+
+    return `<div class="ngss-suggestion" onclick="selectNGSSStandard('${type}', '${code.replace(/'/g, "\\'")}')">
+      <span class="ngss-suggestion-type ngss-type-${type.toLowerCase()}">${type}</span>
+      <span class="ngss-suggestion-code">${code}</span>
+      <span class="ngss-suggestion-count">${count} image${count !== 1 ? 's' : ''}</span>
+    </div>`;
+  }).join('');
+
+  suggestionsEl.style.display = 'block';
+}
+
+/**
+ * Get image count for a given standard
+ */
+function getImageCountForStandard(index, type, code) {
+  if (type === 'PE') return (index.performanceExpectations[code] || []).length;
+  if (type === 'DCI') return (index.disciplinaryCoreIdeas[code] || []).length;
+  if (type === 'CCC') return (index.crosscuttingConcepts[code] || []).length;
+  return 0;
+}
+
+/**
+ * Select an NGSS standard and filter gallery
+ */
+function selectNGSSStandard(type, code) {
+  const index = state.ngssIndex;
+  if (!index) return;
+
+  let imageIds = [];
+  if (type === 'PE') imageIds = index.performanceExpectations[code] || [];
+  else if (type === 'DCI') imageIds = index.disciplinaryCoreIdeas[code] || [];
+  else if (type === 'CCC') imageIds = index.crosscuttingConcepts[code] || [];
+
+  // Set the NGSS filter
+  state.ngssFilter = { type, code, imageIds };
+  state.visibleCount = IMAGES_PER_PAGE;
+
+  // Clear text search and reset category to 'all'
+  state.searchQuery = '';
+  const searchInput = document.getElementById('gallery-search');
+  if (searchInput) searchInput.value = '';
+
+  state.currentCategory = 'all';
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.category === 'all');
+    btn.setAttribute('aria-pressed', btn.dataset.category === 'all' ? 'true' : 'false');
+  });
+
+  // Update UI
+  const suggestionsEl = document.getElementById('ngss-suggestions');
+  const ngssInput = document.getElementById('ngss-search');
+  const activeFilter = document.getElementById('ngss-active-filter');
+  const clearBtn = document.getElementById('ngss-clear-btn');
+
+  suggestionsEl.style.display = 'none';
+  ngssInput.value = '';
+  clearBtn.style.display = 'none';
+
+  // Show active filter pill
+  activeFilter.innerHTML = `
+    <span class="ngss-filter-pill">
+      <span class="ngss-type-${type.toLowerCase()}">${type}</span>
+      <strong>${code}</strong>
+      <span class="ngss-filter-count">${imageIds.length} image${imageIds.length !== 1 ? 's' : ''}</span>
+      <button class="ngss-filter-remove" onclick="clearNGSSSearch()" aria-label="Remove NGSS filter">✕</button>
+    </span>
+  `;
+  activeFilter.style.display = 'flex';
+
+  renderGallery();
+}
+
+/**
+ * Clear NGSS search filter
+ */
+function clearNGSSSearch() {
+  state.ngssFilter = null;
+  state.visibleCount = IMAGES_PER_PAGE;
+
+  const ngssInput = document.getElementById('ngss-search');
+  const suggestionsEl = document.getElementById('ngss-suggestions');
+  const activeFilter = document.getElementById('ngss-active-filter');
+  const clearBtn = document.getElementById('ngss-clear-btn');
+
+  if (ngssInput) ngssInput.value = '';
+  if (suggestionsEl) suggestionsEl.style.display = 'none';
+  if (activeFilter) activeFilter.style.display = 'none';
+  if (clearBtn) clearBtn.style.display = 'none';
+
   renderGallery();
 }
 
@@ -833,7 +1016,7 @@ function extractDiscussionCard(markdownContent) {
   }).join('');
 
   return `
-    <div class="discussion-quick-card">
+    <div class="discussion-quick-card collapsed">
       <div class="dqc-header" onclick="this.parentElement.classList.toggle('collapsed')">
         <span class="dqc-icon">💬</span>
         <span class="dqc-title">Discussion Questions</span>
