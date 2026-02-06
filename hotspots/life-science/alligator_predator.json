@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "28%",
+      "label": "Crocodile or Alligator",
+      "fact": "This reptile is sunbathing in shallow water to warm up its body! Crocodiles and alligators are cold-blooded, which means they rely on the sun's heat to stay active and digest their food."
+    },
+    {
+      "id": 2,
+      "x": "35%",
+      "y": "65%",
+      "label": "Marsh Vegetation",
+      "fact": "These small plants growing in shallow water are called marsh plants or wetland plants. They provide food and shelter for many animals like fish, insects, and birds that live in swamps and wetlands."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "55%",
+      "label": "Muddy Bottom",
+      "fact": "The murky green water and muddy bottom create a perfect habitat for wetland creatures. Many animals burrow in the mud or hide in the water to stay safe from predators."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "45%",
+      "label": "Shallow Water Ecosystem",
+      "fact": "Shallow wetlands like this one are called 'nurseries' because many fish and amphibians lay their eggs here. The plants and shallow water protect young animals until they are big enough to survive in deeper water."
+    }
+  ]
+}

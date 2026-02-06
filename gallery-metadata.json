@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T03:24:12.240Z",
-  "totalImages": 111,
+  "lastUpdated": "2026-02-06T03:33:12.749Z",
+  "totalImages": 112,
   "images": [
     {
       "id": 1,
@@ -999,6 +999,15 @@
       "imagePath": "images/physical-science/force_and_motion.jpg",
       "contentFile": "content/physical-science/force_and_motion.json",
       "title": "Force And Motion",
+      "hasContent": true
+    },
+    {
+      "id": 112,
+      "filename": "alligator_predator.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/alligator_predator.jpg",
+      "contentFile": "content/life-science/alligator_predator.json",
+      "title": "Alligator Predator",
       "hasContent": true
     }
   ]
