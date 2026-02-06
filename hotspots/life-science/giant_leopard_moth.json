@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Patterned Wings",
+      "fact": "This insect has beautiful brown and white patterned wings that help it blend in with tree bark and leaves. This camouflage helps protect it from predators who might want to eat it."
+    },
+    {
+      "id": 2,
+      "x": "35%",
+      "y": "50%",
+      "label": "Long Antennae",
+      "fact": "The long, thin antennae on the insect's head are used to smell and touch things in its environment. These special sensors help the insect find food and detect danger nearby."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "75%",
+      "label": "Eggs Cluster",
+      "fact": "The tiny yellow-white balls are eggs laid by the adult insect! When these eggs hatch, baby insects called nymphs will emerge and grow into adults like their mother."
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "45%",
+      "label": "Segmented Legs",
+      "fact": "This insect has six jointed legs that bend at multiple points, making it very flexible and able to walk on many different surfaces. The legs have claws that help it grip branches and bark."
+    }
+  ]
+}

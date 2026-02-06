@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T07:35:19.040Z",
-  "totalImages": 119,
+  "lastUpdated": "2026-02-06T07:38:18.495Z",
+  "totalImages": 120,
   "images": [
     {
       "id": 1,
@@ -2380,6 +2380,26 @@
         "weather patterns",
         "atmospheric conditions",
         "climate"
+      ]
+    },
+    {
+      "id": 120,
+      "filename": "giant_leopard_moth.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/giant_leopard_moth.jpg",
+      "thumbPath": "images/life-science/thumbs/giant_leopard_moth.jpg",
+      "webpPath": "images/life-science/webp/giant_leopard_moth.webp",
+      "placeholderPath": "images/life-science/placeholders/giant_leopard_moth.jpg",
+      "contentFile": "content/life-science/giant_leopard_moth.json",
+      "title": "Giant Leopard Moth",
+      "hasContent": true,
+      "keywords": [
+        "insect life cycle",
+        "eggs",
+        "metamorphosis",
+        "insect reproduction",
+        "organism development",
+        "cicada"
       ]
     }
   ]
