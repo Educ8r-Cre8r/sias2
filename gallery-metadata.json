@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:57:19.379Z",
-  "totalImages": 143,
+  "lastUpdated": "2026-02-06T23:00:20.731Z",
+  "totalImages": 144,
   "images": [
     {
       "id": 1,
@@ -2860,6 +2860,26 @@
         "defense mechanism",
         "plant structure",
         "forest ecosystem"
+      ]
+    },
+    {
+      "id": 144,
+      "filename": "plant_reproduction.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/plant_reproduction.jpg",
+      "thumbPath": "images/life-science/thumbs/plant_reproduction.jpg",
+      "webpPath": "images/life-science/webp/plant_reproduction.webp",
+      "placeholderPath": "images/life-science/placeholders/plant_reproduction.jpg",
+      "contentFile": "content/life-science/plant_reproduction.json",
+      "title": "Plant Reproduction",
+      "hasContent": true,
+      "keywords": [
+        "seed structure",
+        "plant seeds",
+        "seed anatomy",
+        "fruit dissection",
+        "plant reproduction",
+        "life cycles"
       ]
     }
   ]

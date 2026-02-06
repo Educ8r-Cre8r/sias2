@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "25%",
+      "label": "Central Cavity",
+      "fact": "This hollow space inside the squash holds all the seeds! The cavity protects the seeds and stores nutrients that help them grow into new plants."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Seeds and Fibers",
+      "fact": "The stringy fibers you see are called vascular tissue, which carries water and nutrients throughout the fruit. The seeds are surrounded by these fibers for protection and nutrition."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "65%",
+      "label": "Flesh (Pulp)",
+      "fact": "This thick, yellowish part is full of starches and sugars that taste sweet and creamy when cooked. It's packed with vitamins that help keep us healthy!"
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "30%",
+      "label": "Green Skin",
+      "fact": "The hard outer skin protects the fruit inside from damage and pests. It's made of waxy cells that keep moisture from escaping and help the fruit stay fresh."
+    }
+  ]
+}
