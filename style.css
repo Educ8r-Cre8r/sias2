@@ -382,13 +382,27 @@ a:hover {
   z-index: 1;
 }
 
+/* Gallery Header (Logo + Filters) */
+.gallery-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.gallery-logo {
+  width: 180px;
+  height: auto;
+  flex-shrink: 0;
+}
+
 /* Category Filters */
 .category-filters {
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-sm);
   justify-content: center;
-  margin-bottom: var(--spacing-xl);
+  flex: 1;
 }
 
 .filter-btn {
@@ -1707,6 +1721,14 @@ a:hover {
   .footer-arkansas-text,
   .footer-credits {
     font-size: var(--font-size-xs);
+  }
+
+  .gallery-header {
+    flex-direction: column;
+  }
+
+  .gallery-logo {
+    width: 140px;
   }
 
   .category-filters {
