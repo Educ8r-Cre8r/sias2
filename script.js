@@ -77,7 +77,10 @@ function initializeRandomHeroImage() {
 async function initializeApp() {
   updateCopyrightYear();
   setupEventListeners();
+  showSkeletonPlaceholders(12);
   await loadGalleryData();
+  computeRecentImages();
+  updateCategoryBadges();
   loadFiltersFromURL(); // Apply filters from URL if present
   renderGallery();
 }
@@ -135,6 +138,9 @@ function setupEventListeners() {
 
   // Scroll to gallery button visibility
   window.addEventListener('scroll', handleScrollToGalleryButton);
+
+  // Back to Filters button visibility
+  window.addEventListener('scroll', handleBackToFiltersButton);
 }
 
 /**
@@ -226,6 +232,82 @@ function loadFiltersFromURL() {
       searchInput.value = search;
     }
   }
+}
+
+/**
+ * Determine if an image is "recently added"
+ * Currently uses the top N highest IDs as a proxy for recency.
+ * TODO: Switch to dateAdded field when available in gallery-metadata.json
+ */
+const RECENT_IMAGE_COUNT = 6; // Number of images considered "new"
+let recentImageIds = new Set();
+
+function computeRecentImages() {
+  if (!state.galleryData || !state.galleryData.images) return;
+  const sorted = [...state.galleryData.images].sort((a, b) => b.id - a.id);
+  recentImageIds = new Set(sorted.slice(0, RECENT_IMAGE_COUNT).map(img => img.id));
+}
+
+/**
+ * Show skeleton loading placeholders in the gallery grid
+ */
+function showSkeletonPlaceholders(count = 12) {
+  const galleryGrid = document.getElementById('gallery-grid');
+  if (!galleryGrid) return;
+
+  galleryGrid.innerHTML = '';
+  for (let i = 0; i < count; i++) {
+    const skeleton = document.createElement('div');
+    skeleton.className = 'gallery-item skeleton-card';
+    skeleton.setAttribute('aria-hidden', 'true');
+    skeleton.innerHTML = `
+      <div class="skeleton-image shimmer"></div>
+      <div class="skeleton-info">
+        <div class="skeleton-title shimmer"></div>
+        <div class="skeleton-category shimmer"></div>
+      </div>
+      <div class="skeleton-stats">
+        <div class="skeleton-bar shimmer"></div>
+      </div>
+    `;
+    galleryGrid.appendChild(skeleton);
+  }
+}
+
+/**
+ * Update category filter badges with image counts
+ */
+function updateCategoryBadges() {
+  if (!state.galleryData || !state.galleryData.images) return;
+
+  const images = state.galleryData.images;
+  const counts = {
+    'all': images.length,
+    'life-science': 0,
+    'earth-space-science': 0,
+    'physical-science': 0
+  };
+
+  images.forEach(img => {
+    if (counts.hasOwnProperty(img.category)) {
+      counts[img.category]++;
+    }
+  });
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    const category = btn.dataset.category;
+    const count = counts[category] || 0;
+
+    // Remove existing badge if any
+    const existingBadge = btn.querySelector('.category-badge');
+    if (existingBadge) existingBadge.remove();
+
+    // Add badge
+    const badge = document.createElement('span');
+    badge.className = 'category-badge';
+    badge.textContent = count;
+    btn.appendChild(badge);
+  });
 }
 
 /**
@@ -384,8 +466,11 @@ function createGalleryItem(image) {
   const categoryName = getCategoryDisplayName(image.category);
   const categoryIcon = getCategoryIcon(image.category);
 
+  const isRecent = recentImageIds.has(image.id);
+
   item.innerHTML = `
     <div class="image-container" style="background-image: url('${image.placeholderPath || image.imagePath}'); background-size: cover; background-position: center;">
+      ${isRecent ? '<span class="new-badge">✨ New</span>' : ''}
       <picture>
         ${image.webpPath ? `<source srcset="${image.webpPath}" type="image/webp">` : ''}
         <img
@@ -400,10 +485,13 @@ function createGalleryItem(image) {
       </picture>
     </div>
     <div class="item-info">
-      <p class="item-category">
-        <span>${categoryIcon}</span>
-        ${categoryName}
-      </p>
+      <div class="item-text">
+        <p class="item-title">${image.title}</p>
+        <p class="item-category">
+          <span>${categoryIcon}</span>
+          ${categoryName}
+        </p>
+      </div>
       <button
         class="notebook-icon-btn"
         onclick="openModal(${image.id})"
@@ -699,8 +787,11 @@ function renderContent(contentData, modalBody) {
   // Process custom XML tags
   html = renderCustomTags(html);
 
-  // Update modal body
-  modalBody.innerHTML = html;
+  // Extract discussion questions for the quick-access card
+  const discussionCard = extractDiscussionCard(markdownContent);
+
+  // Update modal body with discussion card pinned at top
+  modalBody.innerHTML = discussionCard + html;
 
   // Add animated class to trigger staggered animations
   modalBody.classList.remove('animated'); // Remove if exists
@@ -709,6 +800,49 @@ function renderContent(contentData, modalBody) {
 
   // Smooth scroll to top of modal body
   modalBody.scrollTop = 0;
+}
+
+/**
+ * Extract discussion questions from markdown content and build a quick-access card
+ */
+function extractDiscussionCard(markdownContent) {
+  // Find the Discussion Questions section
+  const discussionMatch = markdownContent.match(/##\s*💬\s*Discussion Questions\s*\n([\s\S]*?)(?=\n##\s|$)/);
+  if (!discussionMatch) return '';
+
+  const questionsBlock = discussionMatch[1].trim();
+  // Parse numbered questions - match lines starting with number + period or number + asterisks
+  const questionLines = questionsBlock.split('\n').filter(line => /^\d+\.\s/.test(line.trim()));
+
+  if (questionLines.length === 0) return '';
+
+  const questionsHtml = questionLines.map(line => {
+    // Clean markdown formatting: remove ** wrappers and extract question text
+    let cleaned = line.replace(/^\d+\.\s*/, '').trim();
+    // Remove outer bold wrappers
+    cleaned = cleaned.replace(/\*\*(.*?)\*\*/g, '$1');
+    // Split at Bloom's/DOK annotation if present
+    const parts = cleaned.split(/\s*\(Bloom['']s:/);
+    const questionText = parts[0].trim();
+    const metaText = parts[1] ? '(' + 'Bloom\'s:' + parts[1] : '';
+
+    return `<li>
+      <span class="dq-text">${questionText}</span>
+      ${metaText ? `<span class="dq-meta">${metaText}</span>` : ''}
+    </li>`;
+  }).join('');
+
+  return `
+    <div class="discussion-quick-card">
+      <div class="dqc-header" onclick="this.parentElement.classList.toggle('collapsed')">
+        <span class="dqc-icon">💬</span>
+        <span class="dqc-title">Discussion Questions</span>
+        <span class="dqc-count">${questionLines.length}</span>
+        <span class="dqc-toggle">▾</span>
+      </div>
+      <ol class="dqc-list">${questionsHtml}</ol>
+    </div>
+  `;
 }
 
 /**
@@ -1209,6 +1343,33 @@ function handleScrollToGalleryButton() {
     scrollBtn.classList.add('visible');
   } else {
     scrollBtn.classList.remove('visible');
+  }
+}
+
+/**
+ * Handle visibility of "Back to Filters" floating button
+ */
+function handleBackToFiltersButton() {
+  const btn = document.getElementById('back-to-filters-btn');
+  const filtersNav = document.querySelector('.category-filters');
+  if (!btn || !filtersNav) return;
+
+  const filtersBottom = filtersNav.getBoundingClientRect().bottom;
+  // Show when filters are scrolled out of view
+  if (filtersBottom < 0) {
+    btn.classList.add('visible');
+  } else {
+    btn.classList.remove('visible');
+  }
+}
+
+/**
+ * Scroll smoothly to the category filters area
+ */
+function scrollToFilters() {
+  const filtersNav = document.querySelector('.gallery-header');
+  if (filtersNav) {
+    filtersNav.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
 
