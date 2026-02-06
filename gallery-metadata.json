@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T05:37:16.438Z",
-  "totalImages": 114,
+  "lastUpdated": "2026-02-06T05:40:17.252Z",
+  "totalImages": 115,
   "images": [
     {
       "id": 1,
@@ -1362,6 +1362,15 @@
       "imagePath": "images/life-science/cicada_shell.jpg",
       "contentFile": "content/life-science/cicada_shell.json",
       "title": "Cicada Shell",
+      "hasContent": true
+    },
+    {
+      "id": 115,
+      "filename": "snow_geese.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/snow_geese.jpg",
+      "contentFile": "content/life-science/snow_geese.json",
+      "title": "Snow Geese",
       "hasContent": true
     }
   ]
