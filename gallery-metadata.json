@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T07:32:18.253Z",
-  "totalImages": 118,
+  "lastUpdated": "2026-02-06T07:35:19.040Z",
+  "totalImages": 119,
   "images": [
     {
       "id": 1,
@@ -2360,6 +2360,26 @@
         "current flow",
         "energy transfer",
         "circuits"
+      ]
+    },
+    {
+      "id": 119,
+      "filename": "weather.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/weather.jpg",
+      "thumbPath": "images/earth-space-science/thumbs/weather.jpg",
+      "webpPath": "images/earth-space-science/webp/weather.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/weather.jpg",
+      "contentFile": "content/earth-space-science/weather.json",
+      "title": "Weather",
+      "hasContent": true,
+      "keywords": [
+        "severe weather",
+        "storm clouds",
+        "thunderstorm",
+        "weather patterns",
+        "atmospheric conditions",
+        "climate"
       ]
     }
   ]

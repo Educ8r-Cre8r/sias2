@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "15%",
+      "label": "Storm Cloud Formation",
+      "fact": "These dark, heavy clouds are called cumulonimbus clouds, which form when warm air rises quickly into the atmosphere. They can grow very tall and often bring thunderstorms, heavy rain, and strong winds to areas below them."
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "50%",
+      "label": "Utility Power Lines",
+      "fact": "These power lines carry electricity from power plants to homes and businesses. Electricity travels through these wires at the speed of light, providing the energy we need for lights, computers, and other devices."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "60%",
+      "label": "Weather System Moving In",
+      "fact": "The wall cloud visible in the distance shows how weather systems move across the landscape. Meteorologists study these patterns to predict storms and help keep communities safe by issuing weather warnings."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "70%",
+      "label": "Green Plants and Trees",
+      "fact": "Plants on the left side use sunlight to make their own food through photosynthesis. They also release oxygen into the air that we breathe and help protect the soil from erosion during heavy storms."
+    }
+  ]
+}
