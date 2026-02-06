@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "35%",
+      "y": "50%",
+      "label": "Dry Ingredients Mixed",
+      "fact": "This bowl contains dry ingredients like flour and cinnamon that have been whisked together. Mixing dry ingredients separately helps distribute leavening agents and spices evenly throughout the batter for consistent flavor and texture."
+    },
+    {
+      "id": 2,
+      "x": "70%",
+      "y": "55%",
+      "label": "Wet Ingredients Combined",
+      "fact": "The KitchenAid mixer is combining red wet ingredients like eggs, oil, or food coloring. Mixing wet and dry ingredients separately then combining them is a baking technique that creates better texture and helps cakes rise properly."
+    },
+    {
+      "id": 3,
+      "x": "15%",
+      "y": "25%",
+      "label": "Sugar Measurement",
+      "fact": "Sugar is a key ingredient in baking that does more than just add sweetness. It helps cakes stay moist, gives them structure, and creates a golden-brown color when baked through a chemical reaction called caramelization."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "20%",
+      "label": "Precision Baking Tools",
+      "fact": "Using a stand mixer and precise measurements is important in baking science. Unlike cooking, baking requires exact amounts of ingredients because chemical reactions depend on specific ratios to create the right texture and rise."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:33:19.291Z",
-  "totalImages": 135,
+  "lastUpdated": "2026-02-06T22:36:18.903Z",
+  "totalImages": 136,
   "images": [
     {
       "id": 1,
@@ -2700,6 +2700,26 @@
         "states of matter",
         "winter weather",
         "condensation"
+      ]
+    },
+    {
+      "id": 136,
+      "filename": "mixtures.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/mixtures.jpg",
+      "thumbPath": "images/physical-science/thumbs/mixtures.jpg",
+      "webpPath": "images/physical-science/webp/mixtures.webp",
+      "placeholderPath": "images/physical-science/placeholders/mixtures.jpg",
+      "contentFile": "content/physical-science/mixtures.json",
+      "title": "Mixtures",
+      "hasContent": true,
+      "keywords": [
+        "mixing",
+        "chemical reaction",
+        "baking",
+        "ingredients",
+        "states of matter",
+        "physical properties"
       ]
     }
   ]
