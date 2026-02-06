@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Stigma and Stamens",
+      "fact": "The yellow ball-shaped parts at the very top are called the stigma, and the thin structures below with orange tips are stamens. These are the flower's reproductive parts that help make seeds!"
+    },
+    {
+      "id": 2,
+      "x": "48%",
+      "y": "50%",
+      "label": "Stamen Filaments",
+      "fact": "These thread-like orange and yellow structures are called stamens, and they produce pollen. Pollen is like flower dust that helps create new plants when it travels to other flowers."
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "65%",
+      "label": "Pink Petals",
+      "fact": "These bright pink petals attract insects like bees and butterflies to the flower. The insects come for nectar to eat, and in return, they help spread pollen between flowers!"
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "70%",
+      "label": "Pistil and Style",
+      "fact": "The thick pale tube connecting the petals to the reproductive parts is called the style. It leads down to the ovary where seeds will develop after pollination happens."
+    }
+  ]
+}

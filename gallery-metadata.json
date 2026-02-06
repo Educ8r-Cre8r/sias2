@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T02:40:13.365Z",
-  "totalImages": 103,
+  "lastUpdated": "2026-02-06T02:43:13.013Z",
+  "totalImages": 104,
   "images": [
     {
       "id": 1,
@@ -927,6 +927,15 @@
       "imagePath": "images/life-science/king_snake.jpg",
       "contentFile": "content/life-science/king_snake.json",
       "title": "King Snake",
+      "hasContent": true
+    },
+    {
+      "id": 104,
+      "filename": "flower_parts.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/flower_parts.jpg",
+      "contentFile": "content/life-science/flower_parts.json",
+      "title": "Flower Parts",
       "hasContent": true
     }
   ]
