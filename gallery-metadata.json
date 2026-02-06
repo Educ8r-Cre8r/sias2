@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:42:18.879Z",
-  "totalImages": 138,
+  "lastUpdated": "2026-02-06T22:45:18.170Z",
+  "totalImages": 139,
   "images": [
     {
       "id": 1,
@@ -2760,6 +2760,26 @@
         "camouflage",
         "herbivore",
         "animal behavior"
+      ]
+    },
+    {
+      "id": 139,
+      "filename": "katydid_camouflage.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/katydid_camouflage.jpg",
+      "thumbPath": "images/life-science/thumbs/katydid_camouflage.jpg",
+      "webpPath": "images/life-science/webp/katydid_camouflage.webp",
+      "placeholderPath": "images/life-science/placeholders/katydid_camouflage.jpg",
+      "contentFile": "content/life-science/katydid_camouflage.json",
+      "title": "Katydid Camouflage",
+      "hasContent": true,
+      "keywords": [
+        "insect",
+        "grasshopper",
+        "camouflage",
+        "habitat",
+        "animal adaptation",
+        "food chain"
       ]
     }
   ]

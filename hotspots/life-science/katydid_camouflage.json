@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "55%",
+      "y": "45%",
+      "label": "Katydid Insect",
+      "fact": "This is a katydid, also called a bush cricket! Katydids are masters of camouflage and turn green to hide among leaves and grass. They make loud chirping sounds by rubbing their wings together to communicate with each other."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "35%",
+      "label": "Wing Structure",
+      "fact": "You can see the katydid's long, leafy wings folded over its back. These wings have tiny veins running through them, just like real leaves! This amazing camouflage helps protect the katydid from predators."
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "50%",
+      "label": "Grass Habitat",
+      "fact": "Katydids live in tall grass and shrubs where they can hide and find food. They eat leaves from plants and are an important food source for birds and other animals in their ecosystem."
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "60%",
+      "label": "Long Antennae",
+      "fact": "The katydid has very long antennae sticking out from its head. These antennae help it sense its surroundings, find food, and detect vibrations from other katydids making sounds nearby!"
+    }
+  ]
+}
