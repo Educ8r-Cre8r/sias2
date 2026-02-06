@@ -305,7 +305,8 @@ async function processImageFromQueue(queueItem) {
     // Generate educational content for all grade levels
     console.log('🤖 Generating educational content...');
     const anthropicKey = process.env.ANTHROPIC_API_KEY;
-    const totalCost = await generateContent(tempFilePath, filename, category, repoDir, anthropicKey);
+    const { totalCost: contentCost, imageBase64, mediaType } = await generateContent(tempFilePath, filename, category, repoDir, anthropicKey);
+    let totalCost = contentCost;
 
     // Update metadata to mark content as generated
     const metadataUpdated = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
@@ -316,14 +317,20 @@ async function processImageFromQueue(queueItem) {
       console.log('✅ Marked hasContent as true');
     }
 
+    // Generate search keywords
+    console.log('🏷️  Generating search keywords...');
+    const keywordCost = await generateKeywords(filename, category, metadataPath, nextId, anthropicKey, imageBase64, mediaType);
+    totalCost += keywordCost;
+
     // Commit and push to GitHub
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
-    await repoGit.commit(`Add ${filename} with educational content and hotspots
+    await repoGit.commit(`Add ${filename} with educational content, hotspots, and keywords
 
 - Category: ${category}
 - Generated content for all grade levels (K-5)
 - Generated interactive hotspots (3-4 per image)
+- Generated search keywords
 - Total cost: $${totalCost.toFixed(2)}
 
 Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
@@ -480,6 +487,102 @@ Be precise with coordinates - think about where a student would click to learn a
   } catch (error) {
     console.error(`   ❌ Failed to generate hotspots:`, error.message);
     // Don't throw - we want content generation to succeed even if hotspots fail
+    return 0;
+  }
+}
+
+/**
+ * Generate search keywords for an image using Anthropic API (Claude Haiku 4.5)
+ */
+async function generateKeywords(filename, category, metadataPath, imageId, anthropicKey, imageBase64, mediaType) {
+  const anthropic = new Anthropic({ apiKey: anthropicKey });
+
+  console.log(`   🏷️  Calling Claude Haiku 4.5 for keyword generation...`);
+
+  const prompt = `Analyze this science image and generate search keywords for an elementary science education app.
+
+Generate 3-6 keywords that a K-5 teacher would use to find this image. Keywords should be:
+- NGSS-aligned where possible
+- A mix of concrete observable terms (what you can see) and broader concept terms
+- Single-word or two-word phrases only
+- All lowercase
+- Relevant to the science category: ${category}
+
+Return ONLY a valid JSON array of strings. No other text.
+
+Example output:
+["germination", "plant lifecycle", "seed", "growth", "soil"]`;
+
+  try {
+    const response = await anthropic.messages.create({
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 300,
+      temperature: 1.0,
+      messages: [{
+        role: 'user',
+        content: [
+          {
+            type: 'image',
+            source: {
+              type: 'base64',
+              media_type: mediaType,
+              data: imageBase64
+            }
+          },
+          {
+            type: 'text',
+            text: prompt
+          }
+        ]
+      }]
+    });
+
+    // Calculate cost (Haiku 4.5 pricing: $1/MTok input, $5/MTok output)
+    const inputTokens = response.usage.input_tokens;
+    const outputTokens = response.usage.output_tokens;
+    const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+
+    // Parse the response
+    let responseText = response.content[0].text;
+    let keywords;
+
+    try {
+      keywords = JSON.parse(responseText);
+    } catch (parseError) {
+      // Try to extract JSON array if wrapped in markdown or other text
+      const start = responseText.indexOf('[');
+      const end = responseText.lastIndexOf(']') + 1;
+      if (start !== -1 && end > start) {
+        keywords = JSON.parse(responseText.substring(start, end));
+      } else {
+        throw new Error('Could not parse JSON array from response');
+      }
+    }
+
+    // Validate keywords
+    if (!Array.isArray(keywords) || keywords.length < 3) {
+      throw new Error('Invalid keywords: expected array of 3+ strings');
+    }
+
+    // Normalize: lowercase, trim, filter empties
+    keywords = keywords.map(k => String(k).toLowerCase().trim()).filter(k => k.length > 0);
+
+    // Write keywords into gallery-metadata.json
+    const metadataContent = await fs.readFile(metadataPath, 'utf8');
+    const metadata = JSON.parse(metadataContent);
+    const imageEntry = metadata.images.find(img => img.id === imageId);
+    if (imageEntry) {
+      imageEntry.keywords = keywords;
+      await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
+    }
+
+    console.log(`   ✅ Generated ${keywords.length} keywords: ${keywords.join(', ')} (cost: $${cost.toFixed(4)})`);
+
+    return cost;
+
+  } catch (error) {
+    console.error(`   ❌ Failed to generate keywords:`, error.message);
+    // Don't throw - we want the rest of the pipeline to succeed even if keywords fail
     return 0;
   }
 }
@@ -659,5 +762,5 @@ Remember:
   totalCost += hotspotCost;
   
   console.log(`✅ Total cost (content + hotspots): $${totalCost.toFixed(2)}`);
-  return totalCost;
+  return { totalCost, imageBase64, mediaType };
 }

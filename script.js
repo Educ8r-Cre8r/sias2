@@ -250,7 +250,8 @@ function renderGallery() {
     filteredImages = filteredImages.filter(img =>
       img.title.toLowerCase().includes(query) ||
       img.filename.toLowerCase().includes(query) ||
-      img.category.toLowerCase().includes(query)
+      img.category.toLowerCase().includes(query) ||
+      (Array.isArray(img.keywords) && img.keywords.some(kw => kw.toLowerCase().includes(query)))
     );
   }
 

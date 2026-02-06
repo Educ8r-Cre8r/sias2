@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T06:03:16.004Z",
+  "lastUpdated": "2026-02-06T07:05:58.580Z",
   "totalImages": 117,
   "images": [
     {
@@ -12,7 +12,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/100_1681.jpeg",
       "webpPath": "images/life-science/webp/100_1681.webp",
-      "placeholderPath": "images/life-science/placeholders/100_1681.jpeg"
+      "placeholderPath": "images/life-science/placeholders/100_1681.jpeg",
+      "keywords": [
+        "plant growth",
+        "water propagation",
+        "root development",
+        "hydroponics",
+        "plant reproduction",
+        "germination"
+      ]
     },
     {
       "id": 2,
@@ -24,7 +32,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/Deceased Deer.jpg",
       "webpPath": "images/life-science/webp/Deceased Deer.webp",
-      "placeholderPath": "images/life-science/placeholders/Deceased Deer.jpg"
+      "placeholderPath": "images/life-science/placeholders/Deceased Deer.jpg",
+      "keywords": [
+        "animal behavior",
+        "rest",
+        "body position",
+        "canine",
+        "animal anatomy",
+        "mammals"
+      ]
     },
     {
       "id": 3,
@@ -36,7 +52,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/IMG_0318.jpg",
       "webpPath": "images/life-science/webp/IMG_0318.webp",
-      "placeholderPath": "images/life-science/placeholders/IMG_0318.jpg"
+      "placeholderPath": "images/life-science/placeholders/IMG_0318.jpg",
+      "keywords": [
+        "bird behavior",
+        "camouflage",
+        "ground nesting",
+        "animal adaptation",
+        "plover",
+        "predator protection"
+      ]
     },
     {
       "id": 4,
@@ -48,7 +72,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/IMG_0343,jpg.jpg",
       "webpPath": "images/life-science/webp/IMG_0343,jpg.webp",
-      "placeholderPath": "images/life-science/placeholders/IMG_0343,jpg.jpg"
+      "placeholderPath": "images/life-science/placeholders/IMG_0343,jpg.jpg",
+      "keywords": [
+        "lizard",
+        "animal adaptation",
+        "color display",
+        "reptile",
+        "camouflage",
+        "behavior"
+      ]
     },
     {
       "id": 5,
@@ -60,7 +92,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/IMG_0356.jpeg",
       "webpPath": "images/life-science/webp/IMG_0356.webp",
-      "placeholderPath": "images/life-science/placeholders/IMG_0356.jpeg"
+      "placeholderPath": "images/life-science/placeholders/IMG_0356.jpeg",
+      "keywords": [
+        "seed germination",
+        "plant growth",
+        "seedling",
+        "root development",
+        "life cycle",
+        "plant structure"
+      ]
     },
     {
       "id": 6,
@@ -72,7 +112,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/IMG_0506.jpeg",
       "webpPath": "images/life-science/webp/IMG_0506.webp",
-      "placeholderPath": "images/life-science/placeholders/IMG_0506.jpeg"
+      "placeholderPath": "images/life-science/placeholders/IMG_0506.jpeg",
+      "keywords": [
+        "dragonfly",
+        "insect anatomy",
+        "animal adaptation",
+        "wings",
+        "life cycle",
+        "habitat"
+      ]
     },
     {
       "id": 7,
@@ -84,7 +132,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/IMG_2566.jpeg",
       "webpPath": "images/life-science/webp/IMG_2566.webp",
-      "placeholderPath": "images/life-science/placeholders/IMG_2566.jpeg"
+      "placeholderPath": "images/life-science/placeholders/IMG_2566.jpeg",
+      "keywords": [
+        "butterfly",
+        "pollination",
+        "insect",
+        "flower",
+        "life cycle",
+        "animal behavior"
+      ]
     },
     {
       "id": 8,
@@ -96,7 +152,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/IMG_4274.jpeg",
       "webpPath": "images/life-science/webp/IMG_4274.webp",
-      "placeholderPath": "images/life-science/placeholders/IMG_4274.jpeg"
+      "placeholderPath": "images/life-science/placeholders/IMG_4274.jpeg",
+      "keywords": [
+        "dragonfly",
+        "insect",
+        "animal adaptation",
+        "compound eyes",
+        "life cycles",
+        "aquatic insects"
+      ]
     },
     {
       "id": 9,
@@ -108,7 +172,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/IMG_9509,jpeg.jpg",
       "webpPath": "images/life-science/webp/IMG_9509,jpeg.webp",
-      "placeholderPath": "images/life-science/placeholders/IMG_9509,jpeg.jpg"
+      "placeholderPath": "images/life-science/placeholders/IMG_9509,jpeg.jpg",
+      "keywords": [
+        "germination",
+        "plant growth",
+        "seedling",
+        "soil",
+        "life cycle",
+        "sprouting"
+      ]
     },
     {
       "id": 10,
@@ -120,7 +192,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/backyard2.jpg",
       "webpPath": "images/life-science/webp/backyard2.webp",
-      "placeholderPath": "images/life-science/placeholders/backyard2.jpg"
+      "placeholderPath": "images/life-science/placeholders/backyard2.jpg",
+      "keywords": [
+        "garden ecosystem",
+        "plant growth",
+        "flower blooms",
+        "habitat",
+        "biodiversity",
+        "living organisms"
+      ]
     },
     {
       "id": 11,
@@ -132,7 +212,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/bee.jpeg",
       "webpPath": "images/life-science/webp/bee.webp",
-      "placeholderPath": "images/life-science/placeholders/bee.jpeg"
+      "placeholderPath": "images/life-science/placeholders/bee.jpeg",
+      "keywords": [
+        "pollination",
+        "bee",
+        "plant reproduction",
+        "insect",
+        "flower parts",
+        "life cycles"
+      ]
     },
     {
       "id": 12,
@@ -144,7 +232,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/blackbird.jpg",
       "webpPath": "images/life-science/webp/blackbird.webp",
-      "placeholderPath": "images/life-science/placeholders/blackbird.jpg"
+      "placeholderPath": "images/life-science/placeholders/blackbird.jpg",
+      "keywords": [
+        "bird behavior",
+        "animal adaptation",
+        "black bird",
+        "habitat",
+        "bird characteristics",
+        "organism"
+      ]
     },
     {
       "id": 13,
@@ -156,7 +252,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/cicada06282020_hdr.jpg",
       "webpPath": "images/life-science/webp/cicada06282020_hdr.webp",
-      "placeholderPath": "images/life-science/placeholders/cicada06282020_hdr.jpg"
+      "placeholderPath": "images/life-science/placeholders/cicada06282020_hdr.jpg",
+      "keywords": [
+        "insect",
+        "cicada",
+        "life cycle",
+        "plant adaptation",
+        "animal behavior",
+        "pollinator"
+      ]
     },
     {
       "id": 14,
@@ -168,7 +272,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/cows.jpg",
       "webpPath": "images/life-science/webp/cows.webp",
-      "placeholderPath": "images/life-science/placeholders/cows.jpg"
+      "placeholderPath": "images/life-science/placeholders/cows.jpg",
+      "keywords": [
+        "farm animals",
+        "cattle",
+        "livestock",
+        "animal habitats",
+        "herbivores",
+        "ecosystems"
+      ]
     },
     {
       "id": 15,
@@ -180,7 +292,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/deer camouflage.jpeg",
       "webpPath": "images/life-science/webp/deer camouflage.webp",
-      "placeholderPath": "images/life-science/placeholders/deer camouflage.jpeg"
+      "placeholderPath": "images/life-science/placeholders/deer camouflage.jpeg",
+      "keywords": [
+        "habitat",
+        "wildlife",
+        "camouflage",
+        "ecosystem",
+        "food chain",
+        "animal behavior"
+      ]
     },
     {
       "id": 16,
@@ -192,7 +312,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/find the hidden animal.jpeg",
       "webpPath": "images/life-science/webp/find the hidden animal.webp",
-      "placeholderPath": "images/life-science/placeholders/find the hidden animal.jpeg"
+      "placeholderPath": "images/life-science/placeholders/find the hidden animal.jpeg",
+      "keywords": [
+        "rocks and soil",
+        "soil composition",
+        "decomposition",
+        "earth materials",
+        "habitat",
+        "weathering"
+      ]
     },
     {
       "id": 17,
@@ -204,7 +332,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/fungi01.jpeg",
       "webpPath": "images/life-science/webp/fungi01.webp",
-      "placeholderPath": "images/life-science/placeholders/fungi01.jpeg"
+      "placeholderPath": "images/life-science/placeholders/fungi01.jpeg",
+      "keywords": [
+        "mushroom",
+        "fungi",
+        "decomposition",
+        "life cycles",
+        "gills",
+        "organism"
+      ]
     },
     {
       "id": 18,
@@ -216,7 +352,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/fungi02.jpeg",
       "webpPath": "images/life-science/webp/fungi02.webp",
-      "placeholderPath": "images/life-science/placeholders/fungi02.jpeg"
+      "placeholderPath": "images/life-science/placeholders/fungi02.jpeg",
+      "keywords": [
+        "fungus",
+        "decomposition",
+        "fungi",
+        "ecosystem",
+        "wood decay",
+        "organism"
+      ]
     },
     {
       "id": 19,
@@ -228,7 +372,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/fungi03.jpeg",
       "webpPath": "images/life-science/webp/fungi03.webp",
-      "placeholderPath": "images/life-science/placeholders/fungi03.jpeg"
+      "placeholderPath": "images/life-science/placeholders/fungi03.jpeg",
+      "keywords": [
+        "fungus",
+        "decomposition",
+        "mushrooms",
+        "organism",
+        "wood decay",
+        "ecosystem"
+      ]
     },
     {
       "id": 20,
@@ -240,7 +392,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/fungi04.jpeg",
       "webpPath": "images/life-science/webp/fungi04.webp",
-      "placeholderPath": "images/life-science/placeholders/fungi04.jpeg"
+      "placeholderPath": "images/life-science/placeholders/fungi04.jpeg",
+      "keywords": [
+        "fungi",
+        "decomposition",
+        "forest floor",
+        "wood decay",
+        "organism",
+        "ecosystem"
+      ]
     },
     {
       "id": 21,
@@ -252,7 +412,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/grasshopper eating hibiscus bud.jpeg",
       "webpPath": "images/life-science/webp/grasshopper eating hibiscus bud.webp",
-      "placeholderPath": "images/life-science/placeholders/grasshopper eating hibiscus bud.jpeg"
+      "placeholderPath": "images/life-science/placeholders/grasshopper eating hibiscus bud.jpeg",
+      "keywords": [
+        "grasshopper",
+        "insect",
+        "flower",
+        "plant-insect interaction",
+        "camouflage",
+        "life cycle"
+      ]
     },
     {
       "id": 22,
@@ -264,7 +432,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/great egret.jpeg",
       "webpPath": "images/life-science/webp/great egret.webp",
-      "placeholderPath": "images/life-science/placeholders/great egret.jpeg"
+      "placeholderPath": "images/life-science/placeholders/great egret.jpeg",
+      "keywords": [
+        "animal adaptation",
+        "bird behavior",
+        "habitat",
+        "ecosystem",
+        "wildlife",
+        "wetland"
+      ]
     },
     {
       "id": 23,
@@ -276,7 +452,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/lizard06292020.jpeg",
       "webpPath": "images/life-science/webp/lizard06292020.webp",
-      "placeholderPath": "images/life-science/placeholders/lizard06292020.jpeg"
+      "placeholderPath": "images/life-science/placeholders/lizard06292020.jpeg",
+      "keywords": [
+        "reptile",
+        "lizard",
+        "camouflage",
+        "adaptation",
+        "animal behavior",
+        "scales"
+      ]
     },
     {
       "id": 24,
@@ -288,7 +472,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/monarch0.jpeg",
       "webpPath": "images/life-science/webp/monarch0.webp",
-      "placeholderPath": "images/life-science/placeholders/monarch0.jpeg"
+      "placeholderPath": "images/life-science/placeholders/monarch0.jpeg",
+      "keywords": [
+        "monarch caterpillar",
+        "insect metamorphosis",
+        "life cycle",
+        "chrysalis",
+        "larva",
+        "butterfly development"
+      ]
     },
     {
       "id": 25,
@@ -300,7 +492,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/monarch1.jpeg",
       "webpPath": "images/life-science/webp/monarch1.webp",
-      "placeholderPath": "images/life-science/placeholders/monarch1.jpeg"
+      "placeholderPath": "images/life-science/placeholders/monarch1.jpeg",
+      "keywords": [
+        "insect life cycle",
+        "chrysalis",
+        "metamorphosis",
+        "butterfly",
+        "pupa",
+        "insect development"
+      ]
     },
     {
       "id": 26,
@@ -312,7 +512,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/monarch2.jpeg",
       "webpPath": "images/life-science/webp/monarch2.webp",
-      "placeholderPath": "images/life-science/placeholders/monarch2.jpeg"
+      "placeholderPath": "images/life-science/placeholders/monarch2.jpeg",
+      "keywords": [
+        "monarch butterfly",
+        "insect metamorphosis",
+        "chrysalis",
+        "butterfly lifecycle",
+        "life cycle",
+        "insect development"
+      ]
     },
     {
       "id": 27,
@@ -324,7 +532,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/mourning dove 06062020.jpg",
       "webpPath": "images/life-science/webp/mourning dove 06062020.webp",
-      "placeholderPath": "images/life-science/placeholders/mourning dove 06062020.jpg"
+      "placeholderPath": "images/life-science/placeholders/mourning dove 06062020.jpg",
+      "keywords": [
+        "animal habitat",
+        "garden ecosystem",
+        "meerkat",
+        "plant growth",
+        "camouflage",
+        "soil"
+      ]
     },
     {
       "id": 28,
@@ -336,7 +552,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/p9.jpg",
       "webpPath": "images/life-science/webp/p9.webp",
-      "placeholderPath": "images/life-science/placeholders/p9.jpg"
+      "placeholderPath": "images/life-science/placeholders/p9.jpg",
+      "keywords": [
+        "caterpillar",
+        "monarch butterfly",
+        "insect life cycle",
+        "metamorphosis",
+        "animal adaptation",
+        "larvae"
+      ]
     },
     {
       "id": 29,
@@ -348,7 +572,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/pelican.jpeg",
       "webpPath": "images/life-science/webp/pelican.webp",
-      "placeholderPath": "images/life-science/placeholders/pelican.jpeg"
+      "placeholderPath": "images/life-science/placeholders/pelican.jpeg",
+      "keywords": [
+        "pelican",
+        "water birds",
+        "animal adaptation",
+        "beak",
+        "coastal habitat",
+        "bird behavior"
+      ]
     },
     {
       "id": 30,
@@ -360,7 +592,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/pepper.jpeg",
       "webpPath": "images/life-science/webp/pepper.webp",
-      "placeholderPath": "images/life-science/placeholders/pepper.jpeg"
+      "placeholderPath": "images/life-science/placeholders/pepper.jpeg",
+      "keywords": [
+        "seed",
+        "plant structure",
+        "seed dispersal",
+        "germination",
+        "plant anatomy",
+        "life cycles"
+      ]
     },
     {
       "id": 31,
@@ -372,7 +612,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/photograph.jpeg",
       "webpPath": "images/life-science/webp/photograph.webp",
-      "placeholderPath": "images/life-science/placeholders/photograph.jpeg"
+      "placeholderPath": "images/life-science/placeholders/photograph.jpeg",
+      "keywords": [
+        "forest ecosystem",
+        "biodiversity",
+        "habitat",
+        "deciduous trees",
+        "land use",
+        "vegetation"
+      ]
     },
     {
       "id": 32,
@@ -384,7 +632,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/raccoon.jpeg",
       "webpPath": "images/life-science/webp/raccoon.webp",
-      "placeholderPath": "images/life-science/placeholders/raccoon.jpeg"
+      "placeholderPath": "images/life-science/placeholders/raccoon.jpeg",
+      "keywords": [
+        "raccoon",
+        "animal habitat",
+        "wetland ecosystem",
+        "wildlife",
+        "food chain",
+        "animal behavior"
+      ]
     },
     {
       "id": 33,
@@ -396,7 +652,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/snowy egret.jpeg",
       "webpPath": "images/life-science/webp/snowy egret.webp",
-      "placeholderPath": "images/life-science/placeholders/snowy egret.jpeg"
+      "placeholderPath": "images/life-science/placeholders/snowy egret.jpeg",
+      "keywords": [
+        "bird adaptation",
+        "wading bird",
+        "animal behavior",
+        "habitat",
+        "predator hunting",
+        "wildlife"
+      ]
     },
     {
       "id": 34,
@@ -408,7 +672,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/sunflower.jpeg",
       "webpPath": "images/life-science/webp/sunflower.webp",
-      "placeholderPath": "images/life-science/placeholders/sunflower.jpeg"
+      "placeholderPath": "images/life-science/placeholders/sunflower.jpeg",
+      "keywords": [
+        "seed germination",
+        "plant growth",
+        "seedling",
+        "seed coat",
+        "lifecycle",
+        "sprouting"
+      ]
     },
     {
       "id": 35,
@@ -420,7 +692,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/turtles.jpeg",
       "webpPath": "images/life-science/webp/turtles.webp",
-      "placeholderPath": "images/life-science/placeholders/turtles.jpeg"
+      "placeholderPath": "images/life-science/placeholders/turtles.jpeg",
+      "keywords": [
+        "turtle",
+        "habitat",
+        "wetland",
+        "animal adaptation",
+        "ecosystem",
+        "reptile"
+      ]
     },
     {
       "id": 36,
@@ -432,7 +712,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/100_1680.jpeg",
       "webpPath": "images/earth-space-science/webp/100_1680.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/100_1680.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/100_1680.jpeg",
+      "keywords": [
+        "winter",
+        "snow",
+        "seasonal change",
+        "frozen water",
+        "weather",
+        "ice"
+      ]
     },
     {
       "id": 37,
@@ -444,7 +732,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/IMG_1334.jpeg",
       "webpPath": "images/earth-space-science/webp/IMG_1334.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/IMG_1334.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/IMG_1334.jpeg",
+      "keywords": [
+        "animal behavior",
+        "squirrel",
+        "food chain",
+        "habitat",
+        "organisms",
+        "plants and animals"
+      ]
     },
     {
       "id": 38,
@@ -456,7 +752,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/IMG_3140.jpeg",
       "webpPath": "images/earth-space-science/webp/IMG_3140.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/IMG_3140.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/IMG_3140.jpeg",
+      "keywords": [
+        "beach erosion",
+        "coastal city",
+        "ocean waves",
+        "weathering",
+        "human impact",
+        "shoreline"
+      ]
     },
     {
       "id": 39,
@@ -468,7 +772,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/IMG_4086.jpeg",
       "webpPath": "images/earth-space-science/webp/IMG_4086.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/IMG_4086.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/IMG_4086.jpeg",
+      "keywords": [
+        "rock formation",
+        "stone stacking",
+        "erosion",
+        "weathering",
+        "landforms",
+        "earth materials"
+      ]
     },
     {
       "id": 40,
@@ -480,7 +792,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/beach.jpeg",
       "webpPath": "images/earth-space-science/webp/beach.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/beach.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/beach.jpeg",
+      "keywords": [
+        "crab",
+        "beach habitat",
+        "sand",
+        "ocean life",
+        "animal adaptation",
+        "coastal ecosystem"
+      ]
     },
     {
       "id": 41,
@@ -492,7 +812,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/e01.jpeg",
       "webpPath": "images/earth-space-science/webp/e01.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/e01.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/e01.jpeg",
+      "keywords": [
+        "weathering",
+        "erosion",
+        "human impact",
+        "urban development",
+        "landforms",
+        "city infrastructure"
+      ]
     },
     {
       "id": 42,
@@ -504,7 +832,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/e02.jpeg",
       "webpPath": "images/earth-space-science/webp/e02.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/e02.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/e02.jpeg",
+      "keywords": [
+        "landforms",
+        "valley",
+        "erosion",
+        "topography",
+        "hills",
+        "landscape"
+      ]
     },
     {
       "id": 43,
@@ -516,7 +852,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/e03.jpeg",
       "webpPath": "images/earth-space-science/webp/e03.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/e03.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/e03.jpeg",
+      "keywords": [
+        "clouds",
+        "weather",
+        "cumulus clouds",
+        "water cycle",
+        "atmosphere",
+        "sky"
+      ]
     },
     {
       "id": 44,
@@ -528,7 +872,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/e05.jpeg",
       "webpPath": "images/earth-space-science/webp/e05.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/e05.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/e05.jpeg",
+      "keywords": [
+        "lichen",
+        "moss",
+        "weathering",
+        "rock",
+        "decomposition",
+        "ecosystem"
+      ]
     },
     {
       "id": 45,
@@ -540,7 +892,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/e06.jpeg",
       "webpPath": "images/earth-space-science/webp/e06.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/e06.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/e06.jpeg",
+      "keywords": [
+        "drought",
+        "soil erosion",
+        "weathering",
+        "water cycle",
+        "cracked earth",
+        "desertification"
+      ]
     },
     {
       "id": 46,
@@ -552,7 +912,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/fossil01.jpeg",
       "webpPath": "images/earth-space-science/webp/fossil01.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/fossil01.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/fossil01.jpeg",
+      "keywords": [
+        "fossils",
+        "ammonite",
+        "paleontology",
+        "rock formation",
+        "ancient life",
+        "earth history"
+      ]
     },
     {
       "id": 47,
@@ -564,7 +932,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/fossil02.jpeg",
       "webpPath": "images/earth-space-science/webp/fossil02.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/fossil02.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/fossil02.jpeg",
+      "keywords": [
+        "fossils",
+        "ammonite",
+        "shells",
+        "rock layers",
+        "paleontology",
+        "earth history"
+      ]
     },
     {
       "id": 48,
@@ -576,7 +952,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/fossil03.jpeg",
       "webpPath": "images/earth-space-science/webp/fossil03.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/fossil03.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/fossil03.jpeg",
+      "keywords": [
+        "fossil",
+        "paleontology",
+        "ancient life",
+        "rock layers",
+        "sedimentary rock",
+        "preserved organism"
+      ]
     },
     {
       "id": 49,
@@ -588,7 +972,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/fossil04.jpeg",
       "webpPath": "images/earth-space-science/webp/fossil04.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/fossil04.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/fossil04.jpeg",
+      "keywords": [
+        "fossils",
+        "sedimentary rock",
+        "shell imprints",
+        "paleontology",
+        "rock layers",
+        "earth history"
+      ]
     },
     {
       "id": 50,
@@ -600,7 +992,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/p23.jpg",
       "webpPath": "images/earth-space-science/webp/p23.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/p23.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/p23.jpg",
+      "keywords": [
+        "erosion",
+        "water flow",
+        "weathering",
+        "soil",
+        "sediment",
+        "runoff"
+      ]
     },
     {
       "id": 51,
@@ -612,7 +1012,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/p48.jpg",
       "webpPath": "images/earth-space-science/webp/p48.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/p48.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/p48.jpg",
+      "keywords": [
+        "chrysalis",
+        "metamorphosis",
+        "butterfly lifecycle",
+        "insect",
+        "pupa",
+        "life cycle"
+      ]
     },
     {
       "id": 52,
@@ -624,7 +1032,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/rock.jpeg",
       "webpPath": "images/earth-space-science/webp/rock.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/rock.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/rock.jpeg",
+      "keywords": [
+        "rock layers",
+        "sedimentary rock",
+        "stratification",
+        "erosion",
+        "weathering",
+        "earth science"
+      ]
     },
     {
       "id": 53,
@@ -636,7 +1052,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/wood.jpeg",
       "webpPath": "images/earth-space-science/webp/wood.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/wood.jpeg"
+      "placeholderPath": "images/earth-space-science/placeholders/wood.jpeg",
+      "keywords": [
+        "tree rings",
+        "wood",
+        "logging",
+        "natural resources",
+        "renewable resources",
+        "forest"
+      ]
     },
     {
       "id": 54,
@@ -648,7 +1072,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/conductor.jpeg",
       "webpPath": "images/physical-science/webp/conductor.webp",
-      "placeholderPath": "images/physical-science/placeholders/conductor.jpeg"
+      "placeholderPath": "images/physical-science/placeholders/conductor.jpeg",
+      "keywords": [
+        "circuits",
+        "light bulb",
+        "electricity",
+        "energy",
+        "conductors",
+        "simple circuit"
+      ]
     },
     {
       "id": 55,
@@ -660,7 +1092,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/fountain.jpeg",
       "webpPath": "images/physical-science/webp/fountain.webp",
-      "placeholderPath": "images/physical-science/placeholders/fountain.jpeg"
+      "placeholderPath": "images/physical-science/placeholders/fountain.jpeg",
+      "keywords": [
+        "freezing",
+        "ice formation",
+        "water cycle",
+        "temperature",
+        "states of matter",
+        "crystallization"
+      ]
     },
     {
       "id": 56,
@@ -672,7 +1112,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p11.jpg",
       "webpPath": "images/physical-science/webp/p11.webp",
-      "placeholderPath": "images/physical-science/placeholders/p11.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p11.jpg",
+      "keywords": [
+        "arch structure",
+        "bridge design",
+        "structural engineering",
+        "force and motion",
+        "load bearing",
+        "construction"
+      ]
     },
     {
       "id": 57,
@@ -684,7 +1132,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p12.jpg",
       "webpPath": "images/physical-science/webp/p12.webp",
-      "placeholderPath": "images/physical-science/placeholders/p12.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p12.jpg",
+      "keywords": [
+        "sound waves",
+        "vibration",
+        "musical instruments",
+        "brass instruments",
+        "sound energy",
+        "acoustic properties"
+      ]
     },
     {
       "id": 58,
@@ -696,7 +1152,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p13.jpg",
       "webpPath": "images/physical-science/webp/p13.webp",
-      "placeholderPath": "images/physical-science/placeholders/p13.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p13.jpg",
+      "keywords": [
+        "confetti",
+        "gravity",
+        "motion",
+        "force",
+        "falling objects",
+        "air resistance"
+      ]
     },
     {
       "id": 59,
@@ -708,7 +1172,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p15.jpg",
       "webpPath": "images/physical-science/webp/p15.webp",
-      "placeholderPath": "images/physical-science/placeholders/p15.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p15.jpg",
+      "keywords": [
+        "surface tension",
+        "water properties",
+        "states of matter",
+        "bubble formation",
+        "liquid",
+        "physics"
+      ]
     },
     {
       "id": 60,
@@ -720,7 +1192,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p16.jpg",
       "webpPath": "images/physical-science/webp/p16.webp",
-      "placeholderPath": "images/physical-science/placeholders/p16.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p16.jpg",
+      "keywords": [
+        "texture",
+        "states of matter",
+        "food preparation",
+        "heat transfer",
+        "cooking",
+        "material properties"
+      ]
     },
     {
       "id": 61,
@@ -732,7 +1212,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p17.jpg",
       "webpPath": "images/physical-science/webp/p17.webp",
-      "placeholderPath": "images/physical-science/placeholders/p17.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p17.jpg",
+      "keywords": [
+        "reflection",
+        "light and shadows",
+        "glass",
+        "transparency",
+        "architecture",
+        "properties of materials"
+      ]
     },
     {
       "id": 62,
@@ -744,7 +1232,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p19.jpg",
       "webpPath": "images/physical-science/webp/p19.webp",
-      "placeholderPath": "images/physical-science/placeholders/p19.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p19.jpg",
+      "keywords": [
+        "diffusion",
+        "color mixing",
+        "liquids",
+        "matter",
+        "chemical reaction",
+        "solutions"
+      ]
     },
     {
       "id": 63,
@@ -756,7 +1252,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p20.jpg",
       "webpPath": "images/physical-science/webp/p20.webp",
-      "placeholderPath": "images/physical-science/placeholders/p20.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p20.jpg",
+      "keywords": [
+        "sand",
+        "rocks",
+        "minerals",
+        "texture",
+        "composition",
+        "earth materials"
+      ]
     },
     {
       "id": 64,
@@ -768,7 +1272,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p21.jpg",
       "webpPath": "images/physical-science/webp/p21.webp",
-      "placeholderPath": "images/physical-science/placeholders/p21.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p21.jpg",
+      "keywords": [
+        "engine",
+        "combustion",
+        "mechanical energy",
+        "force and motion",
+        "machine parts",
+        "energy transfer"
+      ]
     },
     {
       "id": 65,
@@ -780,7 +1292,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p25.jpg",
       "webpPath": "images/physical-science/webp/p25.webp",
-      "placeholderPath": "images/physical-science/placeholders/p25.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p25.jpg",
+      "keywords": [
+        "light and shadow",
+        "reflection",
+        "light sources",
+        "indoor lighting",
+        "light properties",
+        "shadows"
+      ]
     },
     {
       "id": 66,
@@ -792,7 +1312,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p26.jpg",
       "webpPath": "images/physical-science/webp/p26.webp",
-      "placeholderPath": "images/physical-science/placeholders/p26.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p26.jpg",
+      "keywords": [
+        "cargo ship",
+        "buoyancy",
+        "floating",
+        "load capacity",
+        "density",
+        "maritime engineering"
+      ]
     },
     {
       "id": 67,
@@ -804,7 +1332,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p28.jpg",
       "webpPath": "images/physical-science/webp/p28.webp",
-      "placeholderPath": "images/physical-science/placeholders/p28.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p28.jpg",
+      "keywords": [
+        "electric transportation",
+        "energy transfer",
+        "overhead power lines",
+        "electrical energy",
+        "motion",
+        "electric train"
+      ]
     },
     {
       "id": 68,
@@ -816,7 +1352,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p30.jpg",
       "webpPath": "images/physical-science/webp/p30.webp",
-      "placeholderPath": "images/physical-science/placeholders/p30.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p30.jpg",
+      "keywords": [
+        "waves",
+        "ocean energy",
+        "erosion",
+        "rocks",
+        "water force",
+        "coastal weathering"
+      ]
     },
     {
       "id": 69,
@@ -828,7 +1372,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p31.jpg",
       "webpPath": "images/physical-science/webp/p31.webp",
-      "placeholderPath": "images/physical-science/placeholders/p31.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p31.jpg",
+      "keywords": [
+        "time",
+        "clock",
+        "measurement",
+        "tools",
+        "timekeeping",
+        "motion"
+      ]
     },
     {
       "id": 70,
@@ -840,7 +1392,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p32.jpg",
       "webpPath": "images/physical-science/webp/p32.webp",
-      "placeholderPath": "images/physical-science/placeholders/p32.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p32.jpg",
+      "keywords": [
+        "bubbles",
+        "surface tension",
+        "light refraction",
+        "states of matter",
+        "thin films",
+        "light spectrum"
+      ]
     },
     {
       "id": 71,
@@ -852,7 +1412,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p34.jpg",
       "webpPath": "images/physical-science/webp/p34.webp",
-      "placeholderPath": "images/physical-science/placeholders/p34.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p34.jpg",
+      "keywords": [
+        "ice formation",
+        "freezing",
+        "water cycle",
+        "states of matter",
+        "temperature",
+        "icicles"
+      ]
     },
     {
       "id": 72,
@@ -864,7 +1432,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/p6.jpg",
       "webpPath": "images/physical-science/webp/p6.webp",
-      "placeholderPath": "images/physical-science/placeholders/p6.jpg"
+      "placeholderPath": "images/physical-science/placeholders/p6.jpg",
+      "keywords": [
+        "rust",
+        "oxidation",
+        "corrosion",
+        "weathering",
+        "metal degradation",
+        "chemical change"
+      ]
     },
     {
       "id": 73,
@@ -876,7 +1452,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/moss_on_rock.jpg",
       "webpPath": "images/earth-space-science/webp/moss_on_rock.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/moss_on_rock.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/moss_on_rock.jpg",
+      "keywords": [
+        "moss",
+        "weathering",
+        "rock erosion",
+        "decomposition",
+        "earth materials",
+        "living things"
+      ]
     },
     {
       "id": 74,
@@ -888,7 +1472,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/ornamental_grass.jpg",
       "webpPath": "images/earth-space-science/webp/ornamental_grass.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/ornamental_grass.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/ornamental_grass.jpg",
+      "keywords": [
+        "frost",
+        "ice crystals",
+        "winter",
+        "plant adaptation",
+        "weather",
+        "frozen water"
+      ]
     },
     {
       "id": 75,
@@ -900,7 +1492,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/slime_mold.jpg",
       "webpPath": "images/life-science/webp/slime_mold.webp",
-      "placeholderPath": "images/life-science/placeholders/slime_mold.jpg"
+      "placeholderPath": "images/life-science/placeholders/slime_mold.jpg",
+      "keywords": [
+        "fungi",
+        "decomposition",
+        "yellow fungus",
+        "organism",
+        "forest floor",
+        "life cycles"
+      ]
     },
     {
       "id": 76,
@@ -912,7 +1512,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/deciduous_trees.jpg",
       "webpPath": "images/life-science/webp/deciduous_trees.webp",
-      "placeholderPath": "images/life-science/placeholders/deciduous_trees.jpg"
+      "placeholderPath": "images/life-science/placeholders/deciduous_trees.jpg",
+      "keywords": [
+        "autumn",
+        "ecosystem",
+        "deciduous trees",
+        "seasonal change",
+        "woodland habitat",
+        "water environment"
+      ]
     },
     {
       "id": 77,
@@ -924,7 +1532,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/grasshopper.jpg",
       "webpPath": "images/life-science/webp/grasshopper.webp",
-      "placeholderPath": "images/life-science/placeholders/grasshopper.jpg"
+      "placeholderPath": "images/life-science/placeholders/grasshopper.jpg",
+      "keywords": [
+        "grasshopper",
+        "insect",
+        "plant adaptation",
+        "feeding behavior",
+        "life cycles",
+        "organism habitat"
+      ]
     },
     {
       "id": 78,
@@ -936,7 +1552,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/cicada.jpg",
       "webpPath": "images/life-science/webp/cicada.webp",
-      "placeholderPath": "images/life-science/placeholders/cicada.jpg"
+      "placeholderPath": "images/life-science/placeholders/cicada.jpg",
+      "keywords": [
+        "insect",
+        "cicada",
+        "animal adaptation",
+        "life cycle",
+        "wings",
+        "nature"
+      ]
     },
     {
       "id": 79,
@@ -948,7 +1572,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/dawn.jpg",
       "webpPath": "images/earth-space-science/webp/dawn.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/dawn.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/dawn.jpg",
+      "keywords": [
+        "fog",
+        "weather",
+        "water cycle",
+        "evaporation",
+        "condensation",
+        "agriculture"
+      ]
     },
     {
       "id": 80,
@@ -960,7 +1592,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/ice_ball.jpg",
       "webpPath": "images/physical-science/webp/ice_ball.webp",
-      "placeholderPath": "images/physical-science/placeholders/ice_ball.jpg"
+      "placeholderPath": "images/physical-science/placeholders/ice_ball.jpg",
+      "keywords": [
+        "ice",
+        "freezing",
+        "states of matter",
+        "water cycle",
+        "condensation",
+        "solid"
+      ]
     },
     {
       "id": 81,
@@ -972,7 +1612,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/stinkhorn_mushroom.pg.jpg",
       "webpPath": "images/life-science/webp/stinkhorn_mushroom.pg.webp",
-      "placeholderPath": "images/life-science/placeholders/stinkhorn_mushroom.pg.jpg"
+      "placeholderPath": "images/life-science/placeholders/stinkhorn_mushroom.pg.jpg",
+      "keywords": [
+        "slug",
+        "mollusk",
+        "gastropod",
+        "animal adaptation",
+        "soil organism",
+        "decomposer"
+      ]
     },
     {
       "id": 82,
@@ -984,7 +1632,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/frog.jpg",
       "webpPath": "images/life-science/webp/frog.webp",
-      "placeholderPath": "images/life-science/placeholders/frog.jpg"
+      "placeholderPath": "images/life-science/placeholders/frog.jpg",
+      "keywords": [
+        "amphibian",
+        "frog",
+        "camouflage",
+        "adaptation",
+        "animal habitat",
+        "life cycle"
+      ]
     },
     {
       "id": 83,
@@ -996,7 +1652,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/toad.jpg",
       "webpPath": "images/life-science/webp/toad.webp",
-      "placeholderPath": "images/life-science/placeholders/toad.jpg"
+      "placeholderPath": "images/life-science/placeholders/toad.jpg",
+      "keywords": [
+        "toad",
+        "amphibian",
+        "animal adaptation",
+        "insect predation",
+        "desert habitat",
+        "life cycles"
+      ]
     },
     {
       "id": 84,
@@ -1008,7 +1672,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/infrared_thermometer.jpg",
       "webpPath": "images/physical-science/webp/infrared_thermometer.webp",
-      "placeholderPath": "images/physical-science/placeholders/infrared_thermometer.jpg"
+      "placeholderPath": "images/physical-science/placeholders/infrared_thermometer.jpg",
+      "keywords": [
+        "temperature",
+        "thermal energy",
+        "heat measurement",
+        "infrared thermometer",
+        "celsius fahrenheit",
+        "matter properties"
+      ]
     },
     {
       "id": 85,
@@ -1020,7 +1692,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/turtle.jpg",
       "webpPath": "images/life-science/webp/turtle.webp",
-      "placeholderPath": "images/life-science/placeholders/turtle.jpg"
+      "placeholderPath": "images/life-science/placeholders/turtle.jpg",
+      "keywords": [
+        "reptile",
+        "turtle",
+        "habitat",
+        "animal behavior",
+        "shell",
+        "camouflage"
+      ]
     },
     {
       "id": 86,
@@ -1032,7 +1712,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/agriculture.jpg",
       "webpPath": "images/earth-space-science/webp/agriculture.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/agriculture.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/agriculture.jpg",
+      "keywords": [
+        "agriculture",
+        "soil",
+        "farming equipment",
+        "land use",
+        "earth science",
+        "human systems"
+      ]
     },
     {
       "id": 87,
@@ -1044,7 +1732,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/owl.jpg",
       "webpPath": "images/life-science/webp/owl.webp",
-      "placeholderPath": "images/life-science/placeholders/owl.jpg"
+      "placeholderPath": "images/life-science/placeholders/owl.jpg",
+      "keywords": [
+        "owl",
+        "camouflage",
+        "animal adaptation",
+        "nocturnal animals",
+        "predator",
+        "bird"
+      ]
     },
     {
       "id": 88,
@@ -1056,7 +1752,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/insect.jpg",
       "webpPath": "images/life-science/webp/insect.webp",
-      "placeholderPath": "images/life-science/placeholders/insect.jpg"
+      "placeholderPath": "images/life-science/placeholders/insect.jpg",
+      "keywords": [
+        "pollination",
+        "insect",
+        "flower",
+        "plant reproduction",
+        "ecosystem",
+        "organism"
+      ]
     },
     {
       "id": 89,
@@ -1068,7 +1772,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/robot.jpg",
       "webpPath": "images/physical-science/webp/robot.webp",
-      "placeholderPath": "images/physical-science/placeholders/robot.jpg"
+      "placeholderPath": "images/physical-science/placeholders/robot.jpg",
+      "keywords": [
+        "robot",
+        "technology",
+        "engineering",
+        "simple machines",
+        "design",
+        "mechanical"
+      ]
     },
     {
       "id": 90,
@@ -1080,7 +1792,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/snake_skin.jpg",
       "webpPath": "images/life-science/webp/snake_skin.webp",
-      "placeholderPath": "images/life-science/placeholders/snake_skin.jpg"
+      "placeholderPath": "images/life-science/placeholders/snake_skin.jpg",
+      "keywords": [
+        "snake",
+        "animal habitat",
+        "camouflage",
+        "reptile",
+        "predator",
+        "ecosystem"
+      ]
     },
     {
       "id": 91,
@@ -1092,7 +1812,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/snail.jpg",
       "webpPath": "images/life-science/webp/snail.webp",
-      "placeholderPath": "images/life-science/placeholders/snail.jpg"
+      "placeholderPath": "images/life-science/placeholders/snail.jpg",
+      "keywords": [
+        "snail",
+        "mollusk",
+        "animal adaptation",
+        "habitat",
+        "organism behavior",
+        "shell"
+      ]
     },
     {
       "id": 92,
@@ -1104,7 +1832,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/pollination.jpg",
       "webpPath": "images/life-science/webp/pollination.webp",
-      "placeholderPath": "images/life-science/placeholders/pollination.jpg"
+      "placeholderPath": "images/life-science/placeholders/pollination.jpg",
+      "keywords": [
+        "pollination",
+        "bee",
+        "flower",
+        "insect",
+        "plant reproduction",
+        "life cycle"
+      ]
     },
     {
       "id": 93,
@@ -1116,7 +1852,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/soil.jpg",
       "webpPath": "images/earth-space-science/webp/soil.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/soil.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/soil.jpg",
+      "keywords": [
+        "soil layers",
+        "soil profile",
+        "soil composition",
+        "erosion",
+        "plant roots",
+        "earth materials"
+      ]
     },
     {
       "id": 94,
@@ -1128,7 +1872,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/fall_seasons.jpg",
       "webpPath": "images/earth-space-science/webp/fall_seasons.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/fall_seasons.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/fall_seasons.jpg",
+      "keywords": [
+        "fall leaves",
+        "seasonal change",
+        "decomposition",
+        "autumn",
+        "leaf color",
+        "weather patterns"
+      ]
     },
     {
       "id": 95,
@@ -1140,7 +1892,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/kinetic_energy.jpg",
       "webpPath": "images/physical-science/webp/kinetic_energy.webp",
-      "placeholderPath": "images/physical-science/placeholders/kinetic_energy.jpg"
+      "placeholderPath": "images/physical-science/placeholders/kinetic_energy.jpg",
+      "keywords": [
+        "motion",
+        "force",
+        "gravity",
+        "balance",
+        "momentum",
+        "friction"
+      ]
     },
     {
       "id": 96,
@@ -1152,7 +1912,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/precipitation_snow.jpg",
       "webpPath": "images/earth-space-science/webp/precipitation_snow.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/precipitation_snow.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/precipitation_snow.jpg",
+      "keywords": [
+        "weather",
+        "precipitation",
+        "snow",
+        "seasons",
+        "climate",
+        "observation"
+      ]
     },
     {
       "id": 97,
@@ -1164,7 +1932,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/arachnid.jpg",
       "webpPath": "images/life-science/webp/arachnid.webp",
-      "placeholderPath": "images/life-science/placeholders/arachnid.jpg"
+      "placeholderPath": "images/life-science/placeholders/arachnid.jpg",
+      "keywords": [
+        "arachnid",
+        "spider",
+        "animal habitat",
+        "soil ecosystem",
+        "predator",
+        "arthropod"
+      ]
     },
     {
       "id": 98,
@@ -1176,7 +1952,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/mechanical_energy.jpeg",
       "webpPath": "images/physical-science/webp/mechanical_energy.webp",
-      "placeholderPath": "images/physical-science/placeholders/mechanical_energy.jpeg"
+      "placeholderPath": "images/physical-science/placeholders/mechanical_energy.jpeg",
+      "keywords": [
+        "simple machines",
+        "pulley",
+        "lever",
+        "force",
+        "work",
+        "mechanical advantage"
+      ]
     },
     {
       "id": 99,
@@ -1188,7 +1972,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/lake_landform.jpg",
       "webpPath": "images/earth-space-science/webp/lake_landform.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/lake_landform.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/lake_landform.jpg",
+      "keywords": [
+        "autumn",
+        "seasons",
+        "fall foliage",
+        "water cycle",
+        "ecosystem",
+        "erosion"
+      ]
     },
     {
       "id": 100,
@@ -1200,7 +1992,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/sunrise.jpg",
       "webpPath": "images/earth-space-science/webp/sunrise.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/sunrise.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/sunrise.jpg",
+      "keywords": [
+        "sunset",
+        "sky colors",
+        "weather patterns",
+        "atmosphere",
+        "clouds",
+        "horizon"
+      ]
     },
     {
       "id": 101,
@@ -1212,7 +2012,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/camouflage.jpg",
       "webpPath": "images/life-science/webp/camouflage.webp",
-      "placeholderPath": "images/life-science/placeholders/camouflage.jpg"
+      "placeholderPath": "images/life-science/placeholders/camouflage.jpg",
+      "keywords": [
+        "decomposition",
+        "dead wood",
+        "decay",
+        "forest floor",
+        "organism habitat",
+        "nutrient cycle"
+      ]
     },
     {
       "id": 102,
@@ -1224,7 +2032,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/germination.jpg",
       "webpPath": "images/life-science/webp/germination.webp",
-      "placeholderPath": "images/life-science/placeholders/germination.jpg"
+      "placeholderPath": "images/life-science/placeholders/germination.jpg",
+      "keywords": [
+        "seed germination",
+        "plant growth",
+        "lifecycle",
+        "seed pod",
+        "sprouting",
+        "life cycle"
+      ]
     },
     {
       "id": 103,
@@ -1236,7 +2052,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/king_snake.jpg",
       "webpPath": "images/life-science/webp/king_snake.webp",
-      "placeholderPath": "images/life-science/placeholders/king_snake.jpg"
+      "placeholderPath": "images/life-science/placeholders/king_snake.jpg",
+      "keywords": [
+        "snake",
+        "reptile",
+        "coral snake",
+        "animal behavior",
+        "predator adaptation",
+        "animal characteristics"
+      ]
     },
     {
       "id": 104,
@@ -1248,7 +2072,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/flower_parts.jpg",
       "webpPath": "images/life-science/webp/flower_parts.webp",
-      "placeholderPath": "images/life-science/placeholders/flower_parts.jpg"
+      "placeholderPath": "images/life-science/placeholders/flower_parts.jpg",
+      "keywords": [
+        "flower structure",
+        "plant reproduction",
+        "stamen",
+        "pollination",
+        "hibiscus",
+        "flower parts"
+      ]
     },
     {
       "id": 105,
@@ -1260,7 +2092,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/larvae.jpg",
       "webpPath": "images/life-science/webp/larvae.webp",
-      "placeholderPath": "images/life-science/placeholders/larvae.jpg"
+      "placeholderPath": "images/life-science/placeholders/larvae.jpg",
+      "keywords": [
+        "insect lifecycle",
+        "larva",
+        "grub",
+        "metamorphosis",
+        "soil organism",
+        "beetle development"
+      ]
     },
     {
       "id": 106,
@@ -1272,7 +2112,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/orb_weaver.jpg",
       "webpPath": "images/life-science/webp/orb_weaver.webp",
-      "placeholderPath": "images/life-science/placeholders/orb_weaver.jpg"
+      "placeholderPath": "images/life-science/placeholders/orb_weaver.jpg",
+      "keywords": [
+        "insect",
+        "arachnid",
+        "spider",
+        "animal behavior",
+        "habitat",
+        "organism"
+      ]
     },
     {
       "id": 107,
@@ -1284,7 +2132,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/scales.jpg",
       "webpPath": "images/life-science/webp/scales.webp",
-      "placeholderPath": "images/life-science/placeholders/scales.jpg"
+      "placeholderPath": "images/life-science/placeholders/scales.jpg",
+      "keywords": [
+        "reptile",
+        "alligator",
+        "animal behavior",
+        "wildlife handling",
+        "scales",
+        "habitats"
+      ]
     },
     {
       "id": 108,
@@ -1296,7 +2152,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/pond_habitat.jpg",
       "webpPath": "images/life-science/webp/pond_habitat.webp",
-      "placeholderPath": "images/life-science/placeholders/pond_habitat.jpg"
+      "placeholderPath": "images/life-science/placeholders/pond_habitat.jpg",
+      "keywords": [
+        "water lilies",
+        "pond ecosystem",
+        "aquatic plants",
+        "plant habitats",
+        "flowering plants",
+        "water environment"
+      ]
     },
     {
       "id": 109,
@@ -1308,7 +2172,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/inherited_traits.jpg",
       "webpPath": "images/life-science/webp/inherited_traits.webp",
-      "placeholderPath": "images/life-science/placeholders/inherited_traits.jpg"
+      "placeholderPath": "images/life-science/placeholders/inherited_traits.jpg",
+      "keywords": [
+        "bird parenting",
+        "animal offspring",
+        "parent-child",
+        "bird behavior",
+        "life cycles",
+        "animal care"
+      ]
     },
     {
       "id": 110,
@@ -1320,7 +2192,15 @@
       "hasContent": true,
       "thumbPath": "images/earth-space-science/thumbs/winter_seasons.jpg",
       "webpPath": "images/earth-space-science/webp/winter_seasons.webp",
-      "placeholderPath": "images/earth-space-science/placeholders/winter_seasons.jpg"
+      "placeholderPath": "images/earth-space-science/placeholders/winter_seasons.jpg",
+      "keywords": [
+        "winter",
+        "snow",
+        "evergreen trees",
+        "weather",
+        "seasonal change",
+        "precipitation"
+      ]
     },
     {
       "id": 111,
@@ -1332,7 +2212,15 @@
       "hasContent": true,
       "thumbPath": "images/physical-science/thumbs/force_and_motion.jpg",
       "webpPath": "images/physical-science/webp/force_and_motion.webp",
-      "placeholderPath": "images/physical-science/placeholders/force_and_motion.jpg"
+      "placeholderPath": "images/physical-science/placeholders/force_and_motion.jpg",
+      "keywords": [
+        "motion",
+        "force",
+        "jumping",
+        "physics",
+        "athletic performance",
+        "body mechanics"
+      ]
     },
     {
       "id": 112,
@@ -1344,7 +2232,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/alligator_predator.jpg",
       "webpPath": "images/life-science/webp/alligator_predator.webp",
-      "placeholderPath": "images/life-science/placeholders/alligator_predator.jpg"
+      "placeholderPath": "images/life-science/placeholders/alligator_predator.jpg",
+      "keywords": [
+        "wetland habitat",
+        "marsh plants",
+        "water ecosystem",
+        "plant adaptation",
+        "shallow water",
+        "aquatic life"
+      ]
     },
     {
       "id": 113,
@@ -1356,7 +2252,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/vine.jpg",
       "webpPath": "images/life-science/webp/vine.webp",
-      "placeholderPath": "images/life-science/placeholders/vine.jpg"
+      "placeholderPath": "images/life-science/placeholders/vine.jpg",
+      "keywords": [
+        "plant growth",
+        "climbing vines",
+        "bean pods",
+        "plant structures",
+        "life cycles",
+        "vegetable garden"
+      ]
     },
     {
       "id": 114,
@@ -1368,7 +2272,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/cicada_shell.jpg",
       "webpPath": "images/life-science/webp/cicada_shell.webp",
-      "placeholderPath": "images/life-science/placeholders/cicada_shell.jpg"
+      "placeholderPath": "images/life-science/placeholders/cicada_shell.jpg",
+      "keywords": [
+        "insect lifecycle",
+        "metamorphosis",
+        "cicada",
+        "exoskeleton",
+        "habitat adaptation",
+        "tree bark"
+      ]
     },
     {
       "id": 115,
@@ -1380,7 +2292,15 @@
       "hasContent": true,
       "thumbPath": "images/life-science/thumbs/snow_geese.jpg",
       "webpPath": "images/life-science/webp/snow_geese.webp",
-      "placeholderPath": "images/life-science/placeholders/snow_geese.jpg"
+      "placeholderPath": "images/life-science/placeholders/snow_geese.jpg",
+      "keywords": [
+        "bird migration",
+        "animal behavior",
+        "habitat",
+        "flock",
+        "waterfowl",
+        "seasonal patterns"
+      ]
     },
     {
       "id": 116,
@@ -1392,7 +2312,15 @@
       "placeholderPath": "images/life-science/placeholders/spider_web.JPG",
       "contentFile": "content/life-science/spider_web.json",
       "title": "Spider Web",
-      "hasContent": true
+      "hasContent": true,
+      "keywords": [
+        "spider web",
+        "animal structures",
+        "insect adaptation",
+        "web design",
+        "animal behavior",
+        "nature patterns"
+      ]
     },
     {
       "id": 117,
@@ -1404,7 +2332,15 @@
       "placeholderPath": "images/life-science/placeholders/food_chain.jpg",
       "contentFile": "content/life-science/food_chain.json",
       "title": "Food Chain",
-      "hasContent": true
+      "hasContent": true,
+      "keywords": [
+        "amphibian",
+        "toad",
+        "habitat",
+        "soil",
+        "animal adaptation",
+        "life cycle"
+      ]
     }
   ]
 }
