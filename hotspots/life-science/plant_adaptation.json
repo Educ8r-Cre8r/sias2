@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "50%",
+      "label": "Tree Thorns",
+      "fact": "These sharp, pointy thorns are a plant's way of protecting itself from animals that might eat it. Thorns make it uncomfortable for hungry creatures to bite or chew on the branches and leaves."
+    },
+    {
+      "id": 2,
+      "x": "15%",
+      "y": "35%",
+      "label": "Rough Bark Texture",
+      "fact": "Tree bark is like the skin of a tree! It protects the tree from insects, diseases, and weather. The rough, bumpy texture helps water run down to the roots and provides places for small animals to hide."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "45%",
+      "label": "Branch Growth Pattern",
+      "fact": "Notice how the branches spread out in different directions from the main stem. This branching pattern helps the tree catch more sunlight on its leaves, which it needs to make food and energy."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "20%",
+      "label": "Forest Canopy",
+      "fact": "The tall trees in the background create a thick canopy above the forest floor. This shaded area is home to many plants and animals that prefer cooler, darker conditions away from direct sunlight."
+    }
+  ]
+}

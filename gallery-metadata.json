@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:54:19.193Z",
-  "totalImages": 142,
+  "lastUpdated": "2026-02-06T22:57:19.379Z",
+  "totalImages": 143,
   "images": [
     {
       "id": 1,
@@ -2840,6 +2840,26 @@
         "rails",
         "transportation",
         "parallel lines"
+      ]
+    },
+    {
+      "id": 143,
+      "filename": "plant_adaptation.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/plant_adaptation.jpg",
+      "thumbPath": "images/life-science/thumbs/plant_adaptation.jpg",
+      "webpPath": "images/life-science/webp/plant_adaptation.webp",
+      "placeholderPath": "images/life-science/placeholders/plant_adaptation.jpg",
+      "contentFile": "content/life-science/plant_adaptation.json",
+      "title": "Plant Adaptation",
+      "hasContent": true,
+      "keywords": [
+        "thorns",
+        "plant adaptation",
+        "tree bark",
+        "defense mechanism",
+        "plant structure",
+        "forest ecosystem"
       ]
     }
   ]
