@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T11:03:18.074Z",
-  "totalImages": 124,
+  "lastUpdated": "2026-02-06T22:03:17.996Z",
+  "totalImages": 125,
   "images": [
     {
       "id": 1,
@@ -2480,6 +2480,26 @@
         "flower structure",
         "stamen",
         "petals"
+      ]
+    },
+    {
+      "id": 125,
+      "filename": "rain_gauge.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/rain_gauge.jpg",
+      "thumbPath": "images/earth-space-science/thumbs/rain_gauge.jpg",
+      "webpPath": "images/earth-space-science/webp/rain_gauge.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/rain_gauge.jpg",
+      "contentFile": "content/earth-space-science/rain_gauge.json",
+      "title": "Rain Gauge",
+      "hasContent": true,
+      "keywords": [
+        "rain gauge",
+        "precipitation measurement",
+        "weather instruments",
+        "water cycle",
+        "rainfall",
+        "weather observation"
       ]
     }
   ]

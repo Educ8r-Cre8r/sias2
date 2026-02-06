@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Rain Gauge Tube",
+      "fact": "This clear tube collects rainwater to measure how much rain falls. Scientists use rain gauges like this one to track weather patterns and help predict future storms!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "70%",
+      "label": "Collection Basin",
+      "fact": "The white cup at the bottom catches and funnels rainwater into the measuring tube above. This design helps make accurate measurements by preventing water from splashing out."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "15%",
+      "label": "Measurement Scale",
+      "fact": "The red numbers show inches of rainfall, helping scientists measure precipitation precisely. Most rain gauges measure rainfall in increments to track amounts from light drizzles to heavy storms."
+    },
+    {
+      "id": 4,
+      "x": "85%",
+      "y": "50%",
+      "label": "Wood Post Mount",
+      "fact": "The gauge is attached to a wooden post to keep it steady and level. A straight, stable position is important so rainfall measurements are accurate and not affected by tilting."
+    }
+  ]
+}
