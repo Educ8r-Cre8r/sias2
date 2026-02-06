@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-05T19:06:15.615Z",
-  "totalImages": 100,
+  "lastUpdated": "2026-02-06T02:26:12.979Z",
+  "totalImages": 101,
   "images": [
     {
       "id": 1,
@@ -900,6 +900,15 @@
       "imagePath": "images/earth-space-science/sunrise.jpg",
       "contentFile": "content/earth-space-science/sunrise.json",
       "title": "Sunrise",
+      "hasContent": true
+    },
+    {
+      "id": 101,
+      "filename": "camouflage.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/camouflage.jpg",
+      "contentFile": "content/life-science/camouflage.json",
+      "title": "Camouflage",
       "hasContent": true
     }
   ]

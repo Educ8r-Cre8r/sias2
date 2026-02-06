@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Decaying Log",
+      "fact": "This dark, weathered log is decomposing and breaking apart. Dead wood is super important because it feeds nutrients back into the soil and provides homes for insects, fungi, and tiny creatures!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "25%",
+      "label": "Peeling Bark",
+      "fact": "The bark is flaking off the log as it rots. Tree bark protects the wood underneath, but as it decays, it separates and creates hiding spots for beetles and other forest insects."
+    },
+    {
+      "id": 3,
+      "x": "40%",
+      "y": "50%",
+      "label": "Fallen Leaves",
+      "fact": "The brown and tan leaves scattered around are part of the forest floor. These leaves break down over time to create rich soil that helps new plants grow in the forest."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "20%",
+      "label": "Decomposition Process",
+      "fact": "This is nature's recycling system! As wood and leaves decay, bacteria and fungi break them down into nutrients that get recycled back into the ecosystem to feed new plants and animals."
+    }
+  ]
+}
