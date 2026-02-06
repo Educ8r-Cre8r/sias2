@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "55%",
+      "y": "25%",
+      "label": "Large Eye",
+      "fact": "Birds have excellent eyesight! This dove's large eye can see in many directions at once, helping it spot danger and find food. Birds' eyes are positioned on the sides of their heads, giving them a very wide field of vision."
+    },
+    {
+      "id": 2,
+      "x": "45%",
+      "y": "35%",
+      "label": "Curved Beak",
+      "fact": "This curved beak is perfect for eating seeds and grains. The shape helps the dove pick up small food items from the ground. Many different birds have different beak shapes depending on what they eat."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "60%",
+      "label": "Fluffy Chicks",
+      "fact": "These baby doves are covered in soft, fluffy down feathers that keep them warm. The parent bird (called a squab) will care for these chicks and feed them a special milk-like substance called crop milk until they grow their adult feathers."
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "50%",
+      "label": "Protective Parent",
+      "fact": "Doves are devoted parents that take turns caring for their eggs and babies. Both the mother and father dove work together to keep their chicks safe, warm, and well-fed until the young birds are ready to fly on their own."
+    }
+  ]
+}

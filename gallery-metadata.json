@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T03:04:13.211Z",
-  "totalImages": 108,
+  "lastUpdated": "2026-02-06T03:07:12.355Z",
+  "totalImages": 109,
   "images": [
     {
       "id": 1,
@@ -972,6 +972,15 @@
       "imagePath": "images/life-science/pond_habitat.jpg",
       "contentFile": "content/life-science/pond_habitat.json",
       "title": "Pond Habitat",
+      "hasContent": true
+    },
+    {
+      "id": 109,
+      "filename": "inherited_traits.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/inherited_traits.jpg",
+      "contentFile": "content/life-science/inherited_traits.json",
+      "title": "Inherited Traits",
       "hasContent": true
     }
   ]
