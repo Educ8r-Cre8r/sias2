@@ -2146,5 +2146,88 @@ document.addEventListener('keydown', function(e) {
     if (copyrightModal && copyrightModal.style.display === 'flex') {
       closeCopyrightModal();
     }
+    const contactModal = document.getElementById('contact-modal');
+    if (contactModal && contactModal.style.display === 'flex') {
+      closeContactModal();
+    }
   }
 });
+
+/**
+ * Contact Form Modal Functions
+ */
+function openContactModal() {
+  const modal = document.getElementById('contact-modal');
+  if (modal) {
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    modal.setAttribute('tabindex', '-1');
+    modal.focus();
+  }
+}
+
+function closeContactModal() {
+  const modal = document.getElementById('contact-modal');
+  if (modal) {
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+}
+
+async function handleContactSubmit(event) {
+  event.preventDefault();
+
+  const form = document.getElementById('contact-form');
+  const submitBtn = document.getElementById('contact-submit-btn');
+  const submitText = submitBtn.querySelector('.submit-text');
+  const submitSpinner = submitBtn.querySelector('.submit-spinner');
+
+  // Show loading state
+  submitBtn.disabled = true;
+  submitText.style.display = 'none';
+  submitSpinner.style.display = 'flex';
+
+  try {
+    const formData = new FormData(form);
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData
+    });
+
+    const result = await response.json();
+
+    if (result.success) {
+      // Show success
+      form.style.display = 'none';
+      document.querySelector('.contact-intro').style.display = 'none';
+      document.getElementById('contact-success').style.display = 'block';
+      document.getElementById('contact-error').style.display = 'none';
+    } else {
+      // Show error
+      form.style.display = 'none';
+      document.querySelector('.contact-intro').style.display = 'none';
+      document.getElementById('contact-error').style.display = 'block';
+      document.getElementById('contact-success').style.display = 'none';
+    }
+  } catch (error) {
+    // Show error
+    form.style.display = 'none';
+    document.querySelector('.contact-intro').style.display = 'none';
+    document.getElementById('contact-error').style.display = 'block';
+    document.getElementById('contact-success').style.display = 'none';
+  } finally {
+    // Reset button
+    submitBtn.disabled = false;
+    submitText.style.display = 'inline';
+    submitSpinner.style.display = 'none';
+  }
+}
+
+function resetContactForm() {
+  const form = document.getElementById('contact-form');
+  form.reset();
+  form.style.display = 'flex';
+  document.querySelector('.contact-intro').style.display = 'block';
+  document.getElementById('contact-success').style.display = 'none';
+  document.getElementById('contact-error').style.display = 'none';
+}
