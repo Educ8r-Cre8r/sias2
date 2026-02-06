@@ -27,6 +27,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 // Initialize Firebase Admin
 admin.initializeApp();
+const db = admin.firestore();
 
 // Grade levels for content generation
 const GRADE_LEVELS = [
@@ -534,3 +535,96 @@ Remember:
   console.log(`✅ Total cost (content + hotspots): $${totalCost.toFixed(2)}`);
   return totalCost;
 }
+
+/**
+ * QUEUE SYSTEM - Processes images one-at-a-time
+ * Rename processImage to queueImage, then add processQueue scheduler
+ */
+
+// Rename the main trigger to add to queue instead
+exports.queueImage = exports.processImage;
+delete exports.processImage;
+
+// Wrap original function for queue processing
+const originalProcessLogic = exports.queueImage;
+
+// New queue-adding function
+exports.queueImage = functions
+  .storage.object().onFinalize(async (object) => {
+  const filePath = object.name;
+  const contentType = object.contentType;
+
+  console.log(`📥 New file: ${filePath}`);
+
+  if (!filePath.startsWith('uploads/') || !contentType?.startsWith('image/')) {
+    return null;
+  }
+
+  const pathParts = filePath.split('/');
+  if (pathParts.length !== 3) return null;
+
+  const [, category, filename] = pathParts;
+
+  try {
+    await db.collection('imageQueue').add({
+      filePath,
+      category,
+      filename,
+      bucketName: object.bucket,
+      status: 'pending',
+      createdAt: admin.firestore.FieldValue.serverTimestamp(),
+      attempts: 0
+    });
+
+    console.log(`✅ Queued: ${filename}`);
+    return { success: true };
+  } catch (error) {
+    console.error('❌ Queue error:', error);
+    throw error;
+  }
+});
+
+// Process queue every minute
+exports.processQueue = functions.pubsub
+  .schedule('every 1 minutes')
+  .onRun(async () => {
+
+  const snapshot = await db.collection('imageQueue')
+    .where('status', '==', 'pending')
+    .orderBy('createdAt', 'asc')
+    .limit(1)
+    .get();
+
+  if (snapshot.empty) return null;
+
+  const doc = snapshot.docs[0];
+  const item = doc.data();
+
+  console.log(`🚀 Processing: ${item.filename}`);
+
+  await doc.ref.update({ status: 'processing' });
+
+  // Create mock object for original function
+  const mockObject = {
+    name: item.filePath,
+    contentType: 'image/jpeg',
+    size: '1000000',
+    bucket: item.bucketName
+  };
+
+  try {
+    await originalProcessLogic(mockObject);
+    await doc.ref.update({ status: 'completed' });
+    setTimeout(() => doc.ref.delete(), 3600000);
+    console.log(`✅ Done: ${item.filename}`);
+  } catch (error) {
+    const attempts = (item.attempts || 0) + 1;
+    if (attempts >= 3) {
+      await doc.ref.update({ status: 'failed', attempts });
+    } else {
+      await doc.ref.update({ status: 'pending', attempts });
+    }
+  }
+
+  return null;
+});
