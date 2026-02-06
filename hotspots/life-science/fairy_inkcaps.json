@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Mushroom Caps",
+      "fact": "These umbrella-shaped caps help the mushroom spread its spores into the air. The ridges underneath the caps are called gills, and they contain millions of tiny spores that float away like dust to create new mushrooms."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Mushroom Stems",
+      "fact": "The pale stems support the mushroom and help it grow upward toward light. These stems are mostly made of water, which is why mushrooms can pop up overnight after it rains!"
+    },
+    {
+      "id": 3,
+      "x": "30%",
+      "y": "65%",
+      "label": "Dead Wood",
+      "fact": "Mushrooms grow on decaying wood because they feed on the dead plant material. They break down the wood into nutrients that help plants and soil stay healthy, making them nature's recyclers!"
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "50%",
+      "label": "Clustered Growth",
+      "fact": "Mushrooms often grow in groups or clusters called 'fairy rings' because they all come from the same underground network called mycelium. This root-like system can spread beneath the soil for a very long time."
+    }
+  ]
+}

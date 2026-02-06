@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:27:18.593Z",
-  "totalImages": 133,
+  "lastUpdated": "2026-02-06T22:30:19.199Z",
+  "totalImages": 134,
   "images": [
     {
       "id": 1,
@@ -2660,6 +2660,26 @@
         "habitat",
         "animal behavior",
         "ecosystem"
+      ]
+    },
+    {
+      "id": 134,
+      "filename": "fairy_inkcaps.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/fairy_inkcaps.jpg",
+      "thumbPath": "images/life-science/thumbs/fairy_inkcaps.jpg",
+      "webpPath": "images/life-science/webp/fairy_inkcaps.webp",
+      "placeholderPath": "images/life-science/placeholders/fairy_inkcaps.jpg",
+      "contentFile": "content/life-science/fairy_inkcaps.json",
+      "title": "Fairy Inkcaps",
+      "hasContent": true,
+      "keywords": [
+        "mushroom",
+        "fungi",
+        "decomposition",
+        "organism lifecycle",
+        "wood decay",
+        "forest ecosystem"
       ]
     }
   ]
