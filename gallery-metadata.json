@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T02:26:12.979Z",
-  "totalImages": 101,
+  "lastUpdated": "2026-02-06T02:29:13.280Z",
+  "totalImages": 102,
   "images": [
     {
       "id": 1,
@@ -909,6 +909,15 @@
       "imagePath": "images/life-science/camouflage.jpg",
       "contentFile": "content/life-science/camouflage.json",
       "title": "Camouflage",
+      "hasContent": true
+    },
+    {
+      "id": 102,
+      "filename": "germination.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/germination.jpg",
+      "contentFile": "content/life-science/germination.json",
+      "title": "Germination",
       "hasContent": true
     }
   ]

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "20%",
+      "label": "Opening Seed Pod",
+      "fact": "This seed pod is opening up to release its seeds into the world. The shell cracks open when it's ready, allowing the seeds inside to spread and grow into new plants."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Green Stem",
+      "fact": "The green stem transports water and nutrients from the soil up to the seed pod. Green plants use sunlight, water, and air to make their own food through a process called photosynthesis."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "75%",
+      "label": "Dropped Seeds",
+      "fact": "These seeds have already fallen from their pod onto the soil below. Seeds need soil, water, and sunlight to germinate and grow into new plants."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "15%",
+      "label": "Seed Texture",
+      "fact": "The rough, spotted texture on the seed helps protect the embryo inside. This hard coating keeps the seed safe until conditions are right for it to sprout."
+    }
+  ]
+}
