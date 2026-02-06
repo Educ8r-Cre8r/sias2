@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "40%",
+      "y": "35%",
+      "label": "Toad's Bumpy Skin",
+      "fact": "Toads have bumpy, warty skin that helps them blend in with dirt and soil. These bumps contain special glands that produce toxins to protect the toad from predators who might try to eat it."
+    },
+    {
+      "id": 2,
+      "x": "45%",
+      "y": "50%",
+      "label": "Powerful Back Legs",
+      "fact": "Toads have strong, muscular back legs that help them hop and jump to escape danger. These legs are shorter and stouter than a frog's legs, which is why toads walk more than they hop."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "55%",
+      "label": "Camouflage in Soil",
+      "fact": "The toad's brownish-gray color matches the dirt and soil around it perfectly. This camouflage helps toads hide from predators and sneak up on insects they want to eat."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "40%",
+      "label": "Toad's Large Eye",
+      "fact": "Toads have big, round eyes that help them see insects moving nearby. Their excellent vision helps them hunt for food like beetles, ants, and other small creatures."
+    }
+  ]
+}

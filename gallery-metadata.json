@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T06:00:16.211Z",
-  "totalImages": 116,
+  "lastUpdated": "2026-02-06T06:03:16.004Z",
+  "totalImages": 117,
   "images": [
     {
       "id": 1,
@@ -1383,6 +1383,18 @@
       "placeholderPath": "images/life-science/placeholders/spider_web.JPG",
       "contentFile": "content/life-science/spider_web.json",
       "title": "Spider Web",
+      "hasContent": true
+    },
+    {
+      "id": 117,
+      "filename": "food_chain.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/food_chain.jpg",
+      "thumbPath": "images/life-science/thumbs/food_chain.jpg",
+      "webpPath": "images/life-science/webp/food_chain.webp",
+      "placeholderPath": "images/life-science/placeholders/food_chain.jpg",
+      "contentFile": "content/life-science/food_chain.json",
+      "title": "Food Chain",
       "hasContent": true
     }
   ]
