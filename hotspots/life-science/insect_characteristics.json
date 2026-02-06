@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Long Antennae",
+      "fact": "Grasshoppers use their long antennae to feel vibrations and sense their surroundings. These antennae help them detect danger and find food in grass and plants."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "60%",
+      "label": "Powerful Back Legs",
+      "fact": "Grasshoppers have huge back legs filled with strong muscles that help them jump up to 20 times their own body length! This helps them escape from predators quickly."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "30%",
+      "label": "Large Eyes",
+      "fact": "Grasshoppers have big eyes that can see in many directions at once. This helps them spot predators approaching from different angles while they eat."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "75%",
+      "label": "Green Camouflage",
+      "fact": "Grasshoppers are green to blend in with grass and leaves in their habitat. This camouflage helps protect them from animals that hunt them for food."
+    }
+  ]
+}

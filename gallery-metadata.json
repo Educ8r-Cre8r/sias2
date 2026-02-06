@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:39:19.483Z",
-  "totalImages": 137,
+  "lastUpdated": "2026-02-06T22:42:18.879Z",
+  "totalImages": 138,
   "images": [
     {
       "id": 1,
@@ -2740,6 +2740,26 @@
         "clean energy",
         "sustainable resources",
         "energy generation"
+      ]
+    },
+    {
+      "id": 138,
+      "filename": "insect_characteristics.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/insect_characteristics.jpg",
+      "thumbPath": "images/life-science/thumbs/insect_characteristics.jpg",
+      "webpPath": "images/life-science/webp/insect_characteristics.webp",
+      "placeholderPath": "images/life-science/placeholders/insect_characteristics.jpg",
+      "contentFile": "content/life-science/insect_characteristics.json",
+      "title": "Insect Characteristics",
+      "hasContent": true,
+      "keywords": [
+        "grasshopper",
+        "insect",
+        "adaptation",
+        "camouflage",
+        "herbivore",
+        "animal behavior"
       ]
     }
   ]
