@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:36:18.903Z",
-  "totalImages": 136,
+  "lastUpdated": "2026-02-06T22:39:19.483Z",
+  "totalImages": 137,
   "images": [
     {
       "id": 1,
@@ -2720,6 +2720,26 @@
         "ingredients",
         "states of matter",
         "physical properties"
+      ]
+    },
+    {
+      "id": 137,
+      "filename": "wind_turbines.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/wind_turbines.jpg",
+      "thumbPath": "images/earth-space-science/thumbs/wind_turbines.jpg",
+      "webpPath": "images/earth-space-science/webp/wind_turbines.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/wind_turbines.jpg",
+      "contentFile": "content/earth-space-science/wind_turbines.json",
+      "title": "Wind Turbines",
+      "hasContent": true,
+      "keywords": [
+        "renewable energy",
+        "wind turbines",
+        "wind power",
+        "clean energy",
+        "sustainable resources",
+        "energy generation"
       ]
     }
   ]
