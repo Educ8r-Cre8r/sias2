@@ -27,3 +27,6 @@ functions/index-backup-*.js
 functions/index-broken-*.js
 functions/index-queue-*.js
 functions/index-working-*.js
+
+# Firebase cache
+.firebase/
