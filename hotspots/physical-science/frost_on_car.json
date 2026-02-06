@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Frost Crystals",
+      "fact": "The sparkly ice crystals you see covering the grass form when water vapor freezes directly into ice without becoming liquid water first. This process is called deposition and happens on cold winter mornings!"
+    },
+    {
+      "id": 2,
+      "x": "75%",
+      "y": "60%",
+      "label": "Rising Sun",
+      "fact": "The bright sun low on the horizon tells us this photo was taken at sunrise or sunset. The sun's light bounces off the ice crystals, making them sparkle like tiny diamonds!"
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "50%",
+      "label": "Grass Blades",
+      "fact": "Each blade of grass has its own coating of frost crystals. Plants are covered with these ice layers because they lose water through their leaves, which freezes in freezing temperatures."
+    },
+    {
+      "id": 4,
+      "x": "85%",
+      "y": "75%",
+      "label": "Building Structure",
+      "fact": "The house in the background shows how frost affects our human environment too. Ice can form on roofs and windows, making buildings look beautiful but also requiring clearing for safety."
+    }
+  ]
+}
