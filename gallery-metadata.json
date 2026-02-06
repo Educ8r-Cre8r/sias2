@@ -1353,7 +1353,10 @@
       "imagePath": "images/life-science/vine.jpg",
       "contentFile": "content/life-science/vine.json",
       "title": "Vine",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/vine.jpg",
+      "webpPath": "images/life-science/webp/vine.webp",
+      "placeholderPath": "images/life-science/placeholders/vine.jpg"
     },
     {
       "id": 114,
@@ -1362,7 +1365,10 @@
       "imagePath": "images/life-science/cicada_shell.jpg",
       "contentFile": "content/life-science/cicada_shell.json",
       "title": "Cicada Shell",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/cicada_shell.jpg",
+      "webpPath": "images/life-science/webp/cicada_shell.webp",
+      "placeholderPath": "images/life-science/placeholders/cicada_shell.jpg"
     },
     {
       "id": 115,
@@ -1371,7 +1377,10 @@
       "imagePath": "images/life-science/snow_geese.jpg",
       "contentFile": "content/life-science/snow_geese.json",
       "title": "Snow Geese",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/snow_geese.jpg",
+      "webpPath": "images/life-science/webp/snow_geese.webp",
+      "placeholderPath": "images/life-science/placeholders/snow_geese.jpg"
     },
     {
       "id": 116,
