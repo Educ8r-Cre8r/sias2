@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:06:18.587Z",
-  "totalImages": 126,
+  "lastUpdated": "2026-02-06T22:09:18.356Z",
+  "totalImages": 127,
   "images": [
     {
       "id": 1,
@@ -2520,6 +2520,26 @@
         "habitat",
         "tree bark",
         "natural selection"
+      ]
+    },
+    {
+      "id": 127,
+      "filename": "animal_behavior.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/animal_behavior.jpg",
+      "thumbPath": "images/life-science/thumbs/animal_behavior.jpg",
+      "webpPath": "images/life-science/webp/animal_behavior.webp",
+      "placeholderPath": "images/life-science/placeholders/animal_behavior.jpg",
+      "contentFile": "content/life-science/animal_behavior.json",
+      "title": "Animal Behavior",
+      "hasContent": true,
+      "keywords": [
+        "reptile",
+        "lizard",
+        "scales",
+        "adaptation",
+        "animal skin",
+        "camouflage"
       ]
     }
   ]
