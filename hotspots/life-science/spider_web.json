@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "50%",
+      "label": "Spider Web Center",
+      "fact": "Spiders create webs from silk that they produce in their bodies. This silk is stronger than steel of the same thickness, making it one of nature's toughest materials!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "30%",
+      "label": "Radial Web Strands",
+      "fact": "The straight lines stretching from the center are called radial threads. Spiders use these like spokes on a wheel to support the entire web structure."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "70%",
+      "label": "Spiral Catching Threads",
+      "fact": "The curved lines you see form a spiral pattern that catches insects. These sticky threads trap prey, while the radial threads are not sticky so the spider can walk safely."
+    },
+    {
+      "id": 4,
+      "x": "85%",
+      "y": "45%",
+      "label": "Dew Drops on Web",
+      "fact": "The tiny beads of water on the web are morning dew. They help us see the web's intricate design and also attract insects to the sticky threads."
+    }
+  ]
+}

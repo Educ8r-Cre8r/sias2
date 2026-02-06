@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T05:40:17.252Z",
-  "totalImages": 115,
+  "lastUpdated": "2026-02-06T06:00:16.211Z",
+  "totalImages": 116,
   "images": [
     {
       "id": 1,
@@ -1371,6 +1371,18 @@
       "imagePath": "images/life-science/snow_geese.jpg",
       "contentFile": "content/life-science/snow_geese.json",
       "title": "Snow Geese",
+      "hasContent": true
+    },
+    {
+      "id": 116,
+      "filename": "spider_web.JPG",
+      "category": "life-science",
+      "imagePath": "images/life-science/spider_web.JPG",
+      "thumbPath": "images/life-science/thumbs/spider_web.JPG",
+      "webpPath": "images/life-science/webp/spider_web.webp",
+      "placeholderPath": "images/life-science/placeholders/spider_web.JPG",
+      "contentFile": "content/life-science/spider_web.json",
+      "title": "Spider Web",
       "hasContent": true
     }
   ]
