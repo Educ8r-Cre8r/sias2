@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T05:34:17.137Z",
-  "totalImages": 113,
+  "lastUpdated": "2026-02-06T05:37:16.438Z",
+  "totalImages": 114,
   "images": [
     {
       "id": 1,
@@ -1353,6 +1353,15 @@
       "imagePath": "images/life-science/vine.jpg",
       "contentFile": "content/life-science/vine.json",
       "title": "Vine",
+      "hasContent": true
+    },
+    {
+      "id": 114,
+      "filename": "cicada_shell.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/cicada_shell.jpg",
+      "contentFile": "content/life-science/cicada_shell.json",
+      "title": "Cicada Shell",
       "hasContent": true
     }
   ]

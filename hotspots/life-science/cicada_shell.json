@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "45%",
+      "label": "Insect Exoskeleton",
+      "fact": "This brown insect has a hard outer shell called an exoskeleton that protects its body like armor. As it grows, the insect must shed this shell and grow a new, bigger one!"
+    },
+    {
+      "id": 2,
+      "x": "30%",
+      "y": "35%",
+      "label": "Lichen Growth",
+      "fact": "The green, crusty patches are lichens, which are living organisms made of fungi and algae working together. Lichens grow very slowly and can live for hundreds of years!"
+    },
+    {
+      "id": 3,
+      "x": "75%",
+      "y": "50%",
+      "label": "Tree Bark",
+      "fact": "The gray and brown crumbly surface is tree bark, which protects the living wood inside. Bark also provides a home for many tiny creatures like insects and fungi."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "65%",
+      "label": "Camouflage",
+      "fact": "The insect's brown color helps it blend in with the bark and lichen around it. This hiding strategy called camouflage helps protect the insect from predators that hunt by sight."
+    }
+  ]
+}
