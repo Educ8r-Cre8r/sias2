@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Jumping Motion",
+      "fact": "This student is using their leg muscles to push off the ground and jump over the cone. When muscles contract, they pull on bones to create movement, allowing the body to jump high into the air."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "65%",
+      "label": "Athletic Shoes",
+      "fact": "The shoes have a textured sole that provides grip and traction on the ground. This friction helps the feet stay connected to the surface, making jumping and running safer and more controlled."
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "50%",
+      "label": "Center of Balance",
+      "fact": "As the student jumps, their body must balance in the air. The brain uses signals from muscles and inner ear to control balance, helping athletes land safely and maintain their position."
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "75%",
+      "label": "Orange Training Cone",
+      "fact": "The cone marks a target for the athlete to jump over. Training with cones helps improve coordination, which is the ability of the brain and muscles to work together smoothly."
+    }
+  ]
+}
