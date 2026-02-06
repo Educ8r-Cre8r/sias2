@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T02:29:13.280Z",
-  "totalImages": 102,
+  "lastUpdated": "2026-02-06T02:40:13.365Z",
+  "totalImages": 103,
   "images": [
     {
       "id": 1,
@@ -918,6 +918,15 @@
       "imagePath": "images/life-science/germination.jpg",
       "contentFile": "content/life-science/germination.json",
       "title": "Germination",
+      "hasContent": true
+    },
+    {
+      "id": 103,
+      "filename": "king_snake.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/king_snake.jpg",
+      "contentFile": "content/life-science/king_snake.json",
+      "title": "King Snake",
       "hasContent": true
     }
   ]

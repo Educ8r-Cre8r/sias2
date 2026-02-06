@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Coral Snake Pattern",
+      "fact": "This snake has bright red, yellow, and black bands in a specific pattern. The saying 'red touches yellow, kill a fellow' helps identify coral snakes, which are venomous and live in warm places like Florida and the southern United States."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Snake Scales",
+      "fact": "The snake's body is covered with overlapping scales made of keratin, the same material as your fingernails! These scales protect the snake and help it move smoothly across different surfaces."
+    },
+    {
+      "id": 3,
+      "x": "45%",
+      "y": "60%",
+      "label": "Forked Tongue",
+      "fact": "Snakes use their forked tongues to collect scent particles from the air and ground. These particles tell the snake about food, danger, and other snakes nearby, almost like having a super-sensitive nose!"
+    },
+    {
+      "id": 4,
+      "x": "35%",
+      "y": "30%",
+      "label": "Snake Eye",
+      "fact": "Snakes have eyes without eyelids, so they cannot blink! Instead, their eyes are covered with a clear scale called a spectacle that protects them while they hunt and explore."
+    }
+  ]
+}
