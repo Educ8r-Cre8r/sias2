@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:03:17.996Z",
-  "totalImages": 125,
+  "lastUpdated": "2026-02-06T22:06:18.587Z",
+  "totalImages": 126,
   "images": [
     {
       "id": 1,
@@ -2500,6 +2500,26 @@
         "water cycle",
         "rainfall",
         "weather observation"
+      ]
+    },
+    {
+      "id": 126,
+      "filename": "arachnid_camouflage.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/arachnid_camouflage.jpg",
+      "thumbPath": "images/life-science/thumbs/arachnid_camouflage.jpg",
+      "webpPath": "images/life-science/webp/arachnid_camouflage.webp",
+      "placeholderPath": "images/life-science/placeholders/arachnid_camouflage.jpg",
+      "contentFile": "content/life-science/arachnid_camouflage.json",
+      "title": "Arachnid Camouflage",
+      "hasContent": true,
+      "keywords": [
+        "camouflage",
+        "animal adaptation",
+        "spider",
+        "habitat",
+        "tree bark",
+        "natural selection"
       ]
     }
   ]
