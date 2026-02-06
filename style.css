@@ -823,12 +823,12 @@ a:hover {
 }
 
 .close-btn {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   padding: 0;
-  border: 2px solid #3b82f5;
-  background: #F18F01;
-  color: white;
+  border: none;
+  background: transparent;
+  color: #333;
   cursor: pointer;
   border-radius: 50%;
   transition: all 0.3s ease;
@@ -836,18 +836,18 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 2px 8px rgba(241, 143, 1, 0.3);
+  box-shadow: none;
 }
 
 .close-btn:hover {
   animation: spin 0.5s ease-in-out;
-  box-shadow: 0 4px 15px rgba(241, 143, 1, 0.5);
-  background: #d67d01;
+  color: #000;
 }
 
 .close-btn svg {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
 }
 
 /* Modal Body */
