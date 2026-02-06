@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:15:17.345Z",
-  "totalImages": 129,
+  "lastUpdated": "2026-02-06T22:18:18.088Z",
+  "totalImages": 130,
   "images": [
     {
       "id": 1,
@@ -2580,6 +2580,26 @@
         "motion",
         "wheels and axles",
         "energy transfer"
+      ]
+    },
+    {
+      "id": 130,
+      "filename": "balanced_and_unbalanced_forces.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/balanced_and_unbalanced_forces.jpg",
+      "thumbPath": "images/physical-science/thumbs/balanced_and_unbalanced_forces.jpg",
+      "webpPath": "images/physical-science/webp/balanced_and_unbalanced_forces.webp",
+      "placeholderPath": "images/physical-science/placeholders/balanced_and_unbalanced_forces.jpg",
+      "contentFile": "content/physical-science/balanced_and_unbalanced_forces.json",
+      "title": "Balanced And Unbalanced Forces",
+      "hasContent": true,
+      "keywords": [
+        "simple machines",
+        "lever",
+        "excavator",
+        "mechanical advantage",
+        "work",
+        "tools"
       ]
     }
   ]

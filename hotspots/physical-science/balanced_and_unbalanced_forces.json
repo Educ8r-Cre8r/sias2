@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Excavator Bucket",
+      "fact": "This large bucket uses a hydraulic arm to scoop and lift heavy materials like dirt and rocks. The bucket's curved shape helps it grab and hold loads efficiently, making it perfect for digging and moving earth during construction."
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Heavy Machinery Engine",
+      "fact": "This backhoe has a powerful diesel engine that provides the energy to operate all the moving parts. The engine powers the hydraulic system, which uses pressurized fluid to move the bucket and loader arms with great force."
+    },
+    {
+      "id": 3,
+      "x": "75%",
+      "y": "45%",
+      "label": "Loader Bucket Teeth",
+      "fact": "The front loader bucket has metal teeth or prongs along its edge that help it grip loose materials like gravel and soil. These teeth prevent materials from sliding off while the bucket is being moved and lifted."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "20%",
+      "label": "Overhead Gantry Crane",
+      "fact": "This fixed crane uses a pulley system and strong metal cables to lift extremely heavy objects from above. Construction sites use overhead cranes to safely move materials that are too heavy for other equipment to handle."
+    }
+  ]
+}
