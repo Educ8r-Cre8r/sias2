@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T02:49:11.922Z",
-  "totalImages": 106,
+  "lastUpdated": "2026-02-06T03:02:12.633Z",
+  "totalImages": 107,
   "images": [
     {
       "id": 1,
@@ -954,6 +954,15 @@
       "imagePath": "images/life-science/orb_weaver.jpg",
       "contentFile": "content/life-science/orb_weaver.json",
       "title": "Orb Weaver",
+      "hasContent": true
+    },
+    {
+      "id": 107,
+      "filename": "scales.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/scales.jpg",
+      "contentFile": "content/life-science/scales.json",
+      "title": "Scales",
       "hasContent": true
     }
   ]

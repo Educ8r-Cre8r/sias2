@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "25%",
+      "label": "Alligator Head",
+      "fact": "This young alligator has a V-shaped snout that helps it catch fish and other prey in the water. Alligators are reptiles that have been around since the time of dinosaurs!"
+    },
+    {
+      "id": 2,
+      "x": "40%",
+      "y": "50%",
+      "label": "Textured Scales",
+      "fact": "The bumpy scales covering the alligator's skin are made of keratin, the same material as your fingernails. These tough scales protect the alligator from predators and help it stay waterproof."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "65%",
+      "label": "Patterned Tail",
+      "fact": "The dark and light bands on the tail help the alligator blend into murky water where it hunts. The tail is powerful and helps the alligator swim fast through water."
+    },
+    {
+      "id": 4,
+      "x": "20%",
+      "y": "65%",
+      "label": "Strong Claws",
+      "fact": "Alligators have sharp claws on their feet that help them dig burrows, climb on land, and grip their food. Even young alligators like this one have claws they'll keep their whole lives!"
+    }
+  ]
+}
