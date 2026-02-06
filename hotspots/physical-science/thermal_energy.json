@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Egg Yolk",
+      "fact": "The yellow yolk is the part of the egg that contains nutrients and energy for a growing baby chick. When you cook an egg, heat causes the proteins in the yolk to change and become solid!"
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "55%",
+      "label": "Egg White",
+      "fact": "The clear, white part of the egg is called albumin and it's mostly water and protein. When heated, it changes from clear and runny to white and solid, which is why we see it turn white when cooking!"
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "65%",
+      "label": "Heat Source",
+      "fact": "The blue flame below the pan is natural gas burning at high temperature. This heat energy transfers to the pan and egg, causing the proteins to denature and change state from liquid to solid."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "50%",
+      "label": "Cooking Process",
+      "fact": "This fried egg shows how heat transforms raw food into cooked food through a chemical change. The texture, color, and consistency all change because the heat energy rearranges the molecules in the egg!"
+    }
+  ]
+}

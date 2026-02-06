@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T07:38:18.495Z",
-  "totalImages": 120,
+  "lastUpdated": "2026-02-06T10:54:17.165Z",
+  "totalImages": 121,
   "images": [
     {
       "id": 1,
@@ -2400,6 +2400,26 @@
         "insect reproduction",
         "organism development",
         "cicada"
+      ]
+    },
+    {
+      "id": 121,
+      "filename": "thermal_energy.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/thermal_energy.jpg",
+      "thumbPath": "images/physical-science/thumbs/thermal_energy.jpg",
+      "webpPath": "images/physical-science/webp/thermal_energy.webp",
+      "placeholderPath": "images/physical-science/placeholders/thermal_energy.jpg",
+      "contentFile": "content/physical-science/thermal_energy.json",
+      "title": "Thermal Energy",
+      "hasContent": true,
+      "keywords": [
+        "cooking",
+        "heat transfer",
+        "states of matter",
+        "egg",
+        "chemical change",
+        "temperature"
       ]
     }
   ]
