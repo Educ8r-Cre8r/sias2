@@ -17,3 +17,13 @@ package-lock.json
 # Logs
 *.log
 firebase-service-account.json
+
+# Temporary/utility scripts
+clean-queue.js
+clean-queue.sh
+manually-queue-existing.js
+monitor-queue.sh
+functions/index-backup-*.js
+functions/index-broken-*.js
+functions/index-queue-*.js
+functions/index-working-*.js
