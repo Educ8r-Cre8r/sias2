@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Black Head and Face",
+      "fact": "This bird is a American Robin, and the males have dark gray-black heads that help them attract mates. The bright coloring is like nature's way of showing other robins that this bird is healthy and strong."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "45%",
+      "label": "Rust-Colored Breast",
+      "fact": "The robin's orange-red belly is one of its most famous features and helps us identify it easily. This bright color comes from the food robins eat, especially berries and insects throughout the year."
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "70%",
+      "label": "Thin, Pointed Beak",
+      "fact": "Robins have long, slender beaks perfect for catching worms and insects in the soil. Their beaks are also great for picking berries from trees, making them important helpers in spreading seeds around gardens and forests."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "65%",
+      "label": "Legs and Posture",
+      "fact": "Notice how the robin stands upright on its long, thin legs—this helps it spot predators and food from a good distance. Robins often hop along the ground looking for earthworms, which is why you see them in yards during spring."
+    }
+  ]
+}

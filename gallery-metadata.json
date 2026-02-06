@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T10:57:17.478Z",
-  "totalImages": 122,
+  "lastUpdated": "2026-02-06T11:00:18.502Z",
+  "totalImages": 123,
   "images": [
     {
       "id": 1,
@@ -2440,6 +2440,26 @@
         "adaptation",
         "camouflage",
         "animal behavior"
+      ]
+    },
+    {
+      "id": 123,
+      "filename": "american_robin.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/american_robin.jpg",
+      "thumbPath": "images/life-science/thumbs/american_robin.jpg",
+      "webpPath": "images/life-science/webp/american_robin.webp",
+      "placeholderPath": "images/life-science/placeholders/american_robin.jpg",
+      "contentFile": "content/life-science/american_robin.json",
+      "title": "American Robin",
+      "hasContent": true,
+      "keywords": [
+        "bird behavior",
+        "animal adaptation",
+        "habitat",
+        "wildlife",
+        "bird perch",
+        "natural selection"
       ]
     }
   ]
