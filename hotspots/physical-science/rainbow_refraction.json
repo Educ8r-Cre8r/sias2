@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "55%",
+      "y": "25%",
+      "label": "Rainbow Formation",
+      "fact": "Rainbows form when sunlight passes through water droplets in the air and bends into different colors. The sun must be behind you and rain in front of you to see a rainbow. Each color bends at a slightly different angle, which is why red appears on the outside and violet on the inside!"
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "60%",
+      "label": "Green Grass Photosynthesis",
+      "fact": "Plants use sunlight, water, and air to make their own food through photosynthesis. The green color in plants comes from chlorophyll, which captures the sun's energy. This process is why plants are so important—they create oxygen for us to breathe!"
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "55%",
+      "label": "Water on Road Surface",
+      "fact": "After rain, water sits on roads and soil because the ground becomes saturated. This water reflects light and can be slippery, which is why drivers must be careful. Over time, water soaks into the ground to refill underground water supplies called aquifers."
+    },
+    {
+      "id": 4,
+      "x": "80%",
+      "y": "45%",
+      "label": "Puffy White Clouds",
+      "fact": "Clouds form when water vapor in the air cools down and condenses around tiny dust particles. These puffy clouds indicate fair weather, but if they grow taller and darker, they might bring rain or storms. Clouds are constantly moving and changing shape as air currents push them around!"
+    }
+  ]
+}

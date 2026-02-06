@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T23:03:19.099Z",
-  "totalImages": 145,
+  "lastUpdated": "2026-02-06T23:06:19.752Z",
+  "totalImages": 146,
   "images": [
     {
       "id": 1,
@@ -2900,6 +2900,26 @@
         "seedling",
         "soil",
         "decomposition"
+      ]
+    },
+    {
+      "id": 146,
+      "filename": "rainbow_refraction.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/rainbow_refraction.jpg",
+      "thumbPath": "images/physical-science/thumbs/rainbow_refraction.jpg",
+      "webpPath": "images/physical-science/webp/rainbow_refraction.webp",
+      "placeholderPath": "images/physical-science/placeholders/rainbow_refraction.jpg",
+      "contentFile": "content/physical-science/rainbow_refraction.json",
+      "title": "Rainbow Refraction",
+      "hasContent": true,
+      "keywords": [
+        "rainbow",
+        "light refraction",
+        "weather",
+        "water cycle",
+        "precipitation",
+        "atmospheric phenomena"
       ]
     }
   ]
