@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T03:02:12.633Z",
-  "totalImages": 107,
+  "lastUpdated": "2026-02-06T03:04:13.211Z",
+  "totalImages": 108,
   "images": [
     {
       "id": 1,
@@ -963,6 +963,15 @@
       "imagePath": "images/life-science/scales.jpg",
       "contentFile": "content/life-science/scales.json",
       "title": "Scales",
+      "hasContent": true
+    },
+    {
+      "id": 108,
+      "filename": "pond_habitat.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/pond_habitat.jpg",
+      "contentFile": "content/life-science/pond_habitat.json",
+      "title": "Pond Habitat",
       "hasContent": true
     }
   ]

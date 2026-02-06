@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Water Lily Flowers",
+      "fact": "Water lilies are aquatic plants that float on the water's surface with their roots anchored in the muddy bottom. These beautiful white flowers only open during the day and close at night to protect themselves from insects and the cold."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Lily Pad Leaves",
+      "fact": "The large, flat green leaves you see are called lily pads, and they're specially adapted to float on water. These leaves have a waxy coating that repels water, helping the plant stay dry while living in wet environments."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "25%",
+      "label": "Pink Flowering Plants",
+      "fact": "The pink flowers in the background are grown on land, unlike water lilies. Plants need different adaptations depending on where they live—water plants have special features to survive in wet conditions, while land plants have different roots and leaves."
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "20%",
+      "label": "Ecosystem Habitat",
+      "fact": "This pond garden is an ecosystem where many living things interact with each other. Water lilies provide shade and shelter for fish and insects, while insects help pollinate the flowers so the plants can reproduce."
+    }
+  ]
+}
