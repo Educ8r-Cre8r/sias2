@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T10:54:17.165Z",
-  "totalImages": 121,
+  "lastUpdated": "2026-02-06T10:57:17.478Z",
+  "totalImages": 122,
   "images": [
     {
       "id": 1,
@@ -2420,6 +2420,26 @@
         "egg",
         "chemical change",
         "temperature"
+      ]
+    },
+    {
+      "id": 122,
+      "filename": "praying_mantis.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/praying_mantis.jpg",
+      "thumbPath": "images/life-science/thumbs/praying_mantis.jpg",
+      "webpPath": "images/life-science/webp/praying_mantis.webp",
+      "placeholderPath": "images/life-science/placeholders/praying_mantis.jpg",
+      "contentFile": "content/life-science/praying_mantis.json",
+      "title": "Praying Mantis",
+      "hasContent": true,
+      "keywords": [
+        "praying mantis",
+        "insect",
+        "predator",
+        "adaptation",
+        "camouflage",
+        "animal behavior"
       ]
     }
   ]

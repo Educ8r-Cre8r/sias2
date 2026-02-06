@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "20%",
+      "label": "Compound Eyes",
+      "fact": "Mantises have large compound eyes that can see in almost all directions at once! This helps them spot prey and predators from far away."
+    },
+    {
+      "id": 2,
+      "x": "20%",
+      "y": "45%",
+      "label": "Front Legs",
+      "fact": "A mantis uses its powerful front legs to catch and hold insects. These legs fold up like a praying position, which is why it's called a 'praying' mantis!"
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "65%",
+      "label": "Spikes & Claws",
+      "fact": "The sharp spikes and claws on a mantis's front legs help it grip slippery insects. They work together like a deadly trap when the mantis strikes!"
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "35%",
+      "label": "Pink Flowers",
+      "fact": "Mantises often hide on flowers that match their green color to camouflage from prey. This makes them expert hunters that wait perfectly still for insects to visit!"
+    }
+  ]
+}
