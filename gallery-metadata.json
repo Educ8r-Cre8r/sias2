@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:51:18.155Z",
-  "totalImages": 141,
+  "lastUpdated": "2026-02-06T22:54:19.193Z",
+  "totalImages": 142,
   "images": [
     {
       "id": 1,
@@ -2820,6 +2820,26 @@
         "heat management",
         "automotive maintenance",
         "mechanical systems"
+      ]
+    },
+    {
+      "id": 142,
+      "filename": "railroad.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/railroad.jpg",
+      "thumbPath": "images/physical-science/thumbs/railroad.jpg",
+      "webpPath": "images/physical-science/webp/railroad.webp",
+      "placeholderPath": "images/physical-science/placeholders/railroad.jpg",
+      "contentFile": "content/physical-science/railroad.json",
+      "title": "Railroad",
+      "hasContent": true,
+      "keywords": [
+        "force and motion",
+        "friction",
+        "simple machines",
+        "rails",
+        "transportation",
+        "parallel lines"
       ]
     }
   ]

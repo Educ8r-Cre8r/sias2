@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "25%",
+      "label": "Railroad Tracks",
+      "fact": "Railroad tracks are made of steel rails laid on wooden ties and gravel called ballast. The two parallel rails help guide heavy trains safely down the same path over and over again."
+    },
+    {
+      "id": 2,
+      "x": "75%",
+      "y": "50%",
+      "label": "Forest Canopy",
+      "fact": "The thick green leaves above form a forest canopy that provides shade and habitat for many animals. Trees along railroad lines help prevent erosion and provide oxygen for all living things."
+    },
+    {
+      "id": 3,
+      "x": "15%",
+      "y": "60%",
+      "label": "Ballast Stones",
+      "fact": "The gray and white stones between the railroad ties are called ballast, which drains water away from the tracks. This prevents rust and keeps the tracks stable so trains can run safely."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "70%",
+      "label": "Wooden Ties",
+      "fact": "These wooden crosspieces, called railroad ties or sleepers, space the two rails the correct distance apart. They are treated with preservatives to resist rotting and can last many years outdoors."
+    }
+  ]
+}
