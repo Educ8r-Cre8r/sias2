@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T07:05:58.580Z",
-  "totalImages": 117,
+  "lastUpdated": "2026-02-06T07:32:18.253Z",
+  "totalImages": 118,
   "images": [
     {
       "id": 1,
@@ -2340,6 +2340,26 @@
         "soil",
         "animal adaptation",
         "life cycle"
+      ]
+    },
+    {
+      "id": 118,
+      "filename": "circuits.JPG",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/circuits.JPG",
+      "thumbPath": "images/physical-science/thumbs/circuits.JPG",
+      "webpPath": "images/physical-science/webp/circuits.webp",
+      "placeholderPath": "images/physical-science/placeholders/circuits.JPG",
+      "contentFile": "content/physical-science/circuits.json",
+      "title": "Circuits",
+      "hasContent": true,
+      "keywords": [
+        "electrical circuit",
+        "conductors",
+        "wiring",
+        "current flow",
+        "energy transfer",
+        "circuits"
       ]
     }
   ]

@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Terminal Block Connector",
+      "fact": "This green terminal block is where wires connect to safely deliver electricity to different parts of a building or device. Each numbered slot can hold one wire, and they're color-coded to help electricians know which wires go where!"
+    },
+    {
+      "id": 2,
+      "x": "75%",
+      "y": "30%",
+      "label": "Capacitor Component",
+      "fact": "This yellow box is a capacitor that stores electrical energy, like a tiny battery. Capacitors help smooth out electrical power and protect equipment from sudden power surges that could damage it."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "55%",
+      "label": "Color-Coded Wires",
+      "fact": "These wires use different colors (red, black, green, yellow, blue) so electricians can tell them apart and connect them safely. Each color has a specific job, like red for power and black for ground."
+    },
+    {
+      "id": 4,
+      "x": "55%",
+      "y": "65%",
+      "label": "Wire Stripping Tool",
+      "fact": "This copper wire being exposed shows how electricians prepare wires for connections. Removing the colored plastic coating reveals the metal inside that actually carries the electrical current."
+    }
+  ]
+}
