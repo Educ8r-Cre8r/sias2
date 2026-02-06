@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "55%",
+      "label": "Tire Tread Pattern",
+      "fact": "The deep grooves you see are called tread, and they help tires grip the road safely. These patterns channel water away during rain so the tire stays in contact with the ground, preventing slipping."
+    },
+    {
+      "id": 2,
+      "x": "45%",
+      "y": "35%",
+      "label": "Rubber Compound",
+      "fact": "Tires are made from rubber that has been mixed with other materials to make them strong and flexible. This special blend allows tires to grip the road while withstanding the heat and pressure created by driving."
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "45%",
+      "label": "Tire Wear Signs",
+      "fact": "The dark spots and worn areas show how tires gradually wear down from friction with the road. Even though rubber seems hard, it slowly breaks down with use, which is why tires need to be replaced periodically."
+    },
+    {
+      "id": 4,
+      "x": "75%",
+      "y": "20%",
+      "label": "Wheel Rim",
+      "fact": "The metal wheel shown here is called the rim, and it supports the entire tire. The rim is made from metal alloys that are strong and lightweight, allowing the wheel to rotate smoothly."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T23:15:20.054Z",
-  "totalImages": 149,
+  "lastUpdated": "2026-02-06T23:18:20.695Z",
+  "totalImages": 150,
   "images": [
     {
       "id": 1,
@@ -2980,6 +2980,26 @@
         "predator",
         "adaptation",
         "wildlife"
+      ]
+    },
+    {
+      "id": 150,
+      "filename": "tires.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/tires.jpg",
+      "thumbPath": "images/physical-science/thumbs/tires.jpg",
+      "webpPath": "images/physical-science/webp/tires.webp",
+      "placeholderPath": "images/physical-science/placeholders/tires.jpg",
+      "contentFile": "content/physical-science/tires.json",
+      "title": "Tires",
+      "hasContent": true,
+      "keywords": [
+        "tire tread",
+        "friction",
+        "texture",
+        "materials",
+        "wear and tear",
+        "physical properties"
       ]
     }
   ]
