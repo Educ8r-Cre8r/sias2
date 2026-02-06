@@ -9,7 +9,10 @@
       "imagePath": "images/life-science/100_1681.jpeg",
       "contentFile": "content/life-science/100_1681.json",
       "title": "Seedling",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/100_1681.jpeg",
+      "webpPath": "images/life-science/webp/100_1681.webp",
+      "placeholderPath": "images/life-science/placeholders/100_1681.jpeg"
     },
     {
       "id": 2,
@@ -18,7 +21,10 @@
       "imagePath": "images/life-science/Deceased Deer.jpg",
       "contentFile": "content/life-science/Deceased Deer.json",
       "title": "Deceased Deer",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/Deceased Deer.jpg",
+      "webpPath": "images/life-science/webp/Deceased Deer.webp",
+      "placeholderPath": "images/life-science/placeholders/Deceased Deer.jpg"
     },
     {
       "id": 3,
@@ -27,7 +33,10 @@
       "imagePath": "images/life-science/IMG_0318.jpg",
       "contentFile": "content/life-science/IMG_0318.json",
       "title": "Mourning Dove",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/IMG_0318.jpg",
+      "webpPath": "images/life-science/webp/IMG_0318.webp",
+      "placeholderPath": "images/life-science/placeholders/IMG_0318.jpg"
     },
     {
       "id": 4,
@@ -36,7 +45,10 @@
       "imagePath": "images/life-science/IMG_0343,jpg.jpg",
       "contentFile": "content/life-science/IMG_0343,jpg.json",
       "title": "Anole",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/IMG_0343,jpg.jpg",
+      "webpPath": "images/life-science/webp/IMG_0343,jpg.webp",
+      "placeholderPath": "images/life-science/placeholders/IMG_0343,jpg.jpg"
     },
     {
       "id": 5,
@@ -45,7 +57,10 @@
       "imagePath": "images/life-science/IMG_0356.jpeg",
       "contentFile": "content/life-science/IMG_0356.json",
       "title": "Parts of a Plant",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/IMG_0356.jpeg",
+      "webpPath": "images/life-science/webp/IMG_0356.webp",
+      "placeholderPath": "images/life-science/placeholders/IMG_0356.jpeg"
     },
     {
       "id": 6,
@@ -54,7 +69,10 @@
       "imagePath": "images/life-science/IMG_0506.jpeg",
       "contentFile": "content/life-science/IMG_0506.json",
       "title": "Predator and Prey",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/IMG_0506.jpeg",
+      "webpPath": "images/life-science/webp/IMG_0506.webp",
+      "placeholderPath": "images/life-science/placeholders/IMG_0506.jpeg"
     },
     {
       "id": 7,
@@ -63,7 +81,10 @@
       "imagePath": "images/life-science/IMG_2566.jpeg",
       "contentFile": "content/life-science/IMG_2566.json",
       "title": "Swallowtail Butterfly",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/IMG_2566.jpeg",
+      "webpPath": "images/life-science/webp/IMG_2566.webp",
+      "placeholderPath": "images/life-science/placeholders/IMG_2566.jpeg"
     },
     {
       "id": 8,
@@ -72,7 +93,10 @@
       "imagePath": "images/life-science/IMG_4274.jpeg",
       "contentFile": "content/life-science/IMG_4274.json",
       "title": "Dragonfly",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/IMG_4274.jpeg",
+      "webpPath": "images/life-science/webp/IMG_4274.webp",
+      "placeholderPath": "images/life-science/placeholders/IMG_4274.jpeg"
     },
     {
       "id": 9,
@@ -81,7 +105,10 @@
       "imagePath": "images/life-science/IMG_9509,jpeg.jpg",
       "contentFile": "content/life-science/IMG_9509,jpeg.json",
       "title": "Seed Germination",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/IMG_9509,jpeg.jpg",
+      "webpPath": "images/life-science/webp/IMG_9509,jpeg.webp",
+      "placeholderPath": "images/life-science/placeholders/IMG_9509,jpeg.jpg"
     },
     {
       "id": 10,
@@ -90,7 +117,10 @@
       "imagePath": "images/life-science/backyard2.jpg",
       "contentFile": "content/life-science/backyard2.json",
       "title": "Backyard Landscape",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/backyard2.jpg",
+      "webpPath": "images/life-science/webp/backyard2.webp",
+      "placeholderPath": "images/life-science/placeholders/backyard2.jpg"
     },
     {
       "id": 11,
@@ -99,7 +129,10 @@
       "imagePath": "images/life-science/bee.jpeg",
       "contentFile": "content/life-science/bee.json",
       "title": "Bee",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/bee.jpeg",
+      "webpPath": "images/life-science/webp/bee.webp",
+      "placeholderPath": "images/life-science/placeholders/bee.jpeg"
     },
     {
       "id": 12,
@@ -108,7 +141,10 @@
       "imagePath": "images/life-science/blackbird.jpg",
       "contentFile": "content/life-science/blackbird.json",
       "title": "Blackbird",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/blackbird.jpg",
+      "webpPath": "images/life-science/webp/blackbird.webp",
+      "placeholderPath": "images/life-science/placeholders/blackbird.jpg"
     },
     {
       "id": 13,
@@ -117,7 +153,10 @@
       "imagePath": "images/life-science/cicada06282020_hdr.jpg",
       "contentFile": "content/life-science/cicada06282020_hdr.json",
       "title": "Cicada",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/cicada06282020_hdr.jpg",
+      "webpPath": "images/life-science/webp/cicada06282020_hdr.webp",
+      "placeholderPath": "images/life-science/placeholders/cicada06282020_hdr.jpg"
     },
     {
       "id": 14,
@@ -126,7 +165,10 @@
       "imagePath": "images/life-science/cows.jpg",
       "contentFile": "content/life-science/cows.json",
       "title": "Cows",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/cows.jpg",
+      "webpPath": "images/life-science/webp/cows.webp",
+      "placeholderPath": "images/life-science/placeholders/cows.jpg"
     },
     {
       "id": 15,
@@ -135,7 +177,10 @@
       "imagePath": "images/life-science/deer camouflage.jpeg",
       "contentFile": "content/life-science/deer camouflage.json",
       "title": "Deer Camouflage",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/deer camouflage.jpeg",
+      "webpPath": "images/life-science/webp/deer camouflage.webp",
+      "placeholderPath": "images/life-science/placeholders/deer camouflage.jpeg"
     },
     {
       "id": 16,
@@ -144,7 +189,10 @@
       "imagePath": "images/life-science/find the hidden animal.jpeg",
       "contentFile": "content/life-science/find the hidden animal.json",
       "title": "Find The Hidden Animal",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/find the hidden animal.jpeg",
+      "webpPath": "images/life-science/webp/find the hidden animal.webp",
+      "placeholderPath": "images/life-science/placeholders/find the hidden animal.jpeg"
     },
     {
       "id": 17,
@@ -153,7 +201,10 @@
       "imagePath": "images/life-science/fungi01.jpeg",
       "contentFile": "content/life-science/fungi01.json",
       "title": "Fungi01",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/fungi01.jpeg",
+      "webpPath": "images/life-science/webp/fungi01.webp",
+      "placeholderPath": "images/life-science/placeholders/fungi01.jpeg"
     },
     {
       "id": 18,
@@ -162,7 +213,10 @@
       "imagePath": "images/life-science/fungi02.jpeg",
       "contentFile": "content/life-science/fungi02.json",
       "title": "Fungi02",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/fungi02.jpeg",
+      "webpPath": "images/life-science/webp/fungi02.webp",
+      "placeholderPath": "images/life-science/placeholders/fungi02.jpeg"
     },
     {
       "id": 19,
@@ -171,7 +225,10 @@
       "imagePath": "images/life-science/fungi03.jpeg",
       "contentFile": "content/life-science/fungi03.json",
       "title": "Fungi03",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/fungi03.jpeg",
+      "webpPath": "images/life-science/webp/fungi03.webp",
+      "placeholderPath": "images/life-science/placeholders/fungi03.jpeg"
     },
     {
       "id": 20,
@@ -180,7 +237,10 @@
       "imagePath": "images/life-science/fungi04.jpeg",
       "contentFile": "content/life-science/fungi04.json",
       "title": "Fungi04",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/fungi04.jpeg",
+      "webpPath": "images/life-science/webp/fungi04.webp",
+      "placeholderPath": "images/life-science/placeholders/fungi04.jpeg"
     },
     {
       "id": 21,
@@ -189,7 +249,10 @@
       "imagePath": "images/life-science/grasshopper eating hibiscus bud.jpeg",
       "contentFile": "content/life-science/grasshopper eating hibiscus bud.json",
       "title": "Grasshopper Eating Hibiscus Bud",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/grasshopper eating hibiscus bud.jpeg",
+      "webpPath": "images/life-science/webp/grasshopper eating hibiscus bud.webp",
+      "placeholderPath": "images/life-science/placeholders/grasshopper eating hibiscus bud.jpeg"
     },
     {
       "id": 22,
@@ -198,7 +261,10 @@
       "imagePath": "images/life-science/great egret.jpeg",
       "contentFile": "content/life-science/great egret.json",
       "title": "Great Egret",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/great egret.jpeg",
+      "webpPath": "images/life-science/webp/great egret.webp",
+      "placeholderPath": "images/life-science/placeholders/great egret.jpeg"
     },
     {
       "id": 23,
@@ -207,7 +273,10 @@
       "imagePath": "images/life-science/lizard06292020.jpeg",
       "contentFile": "content/life-science/lizard06292020.json",
       "title": "Anole",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/lizard06292020.jpeg",
+      "webpPath": "images/life-science/webp/lizard06292020.webp",
+      "placeholderPath": "images/life-science/placeholders/lizard06292020.jpeg"
     },
     {
       "id": 24,
@@ -216,7 +285,10 @@
       "imagePath": "images/life-science/monarch0.jpeg",
       "contentFile": "content/life-science/monarch0.json",
       "title": "Life Cycle Stage of Monarch Butterfly",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/monarch0.jpeg",
+      "webpPath": "images/life-science/webp/monarch0.webp",
+      "placeholderPath": "images/life-science/placeholders/monarch0.jpeg"
     },
     {
       "id": 25,
@@ -225,7 +297,10 @@
       "imagePath": "images/life-science/monarch1.jpeg",
       "contentFile": "content/life-science/monarch1.json",
       "title": "Life Cycle Stage of Monarch Butterfly",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/monarch1.jpeg",
+      "webpPath": "images/life-science/webp/monarch1.webp",
+      "placeholderPath": "images/life-science/placeholders/monarch1.jpeg"
     },
     {
       "id": 26,
@@ -234,7 +309,10 @@
       "imagePath": "images/life-science/monarch2.jpeg",
       "contentFile": "content/life-science/monarch2.json",
       "title": "Life Cycle Stage of Monarch Butterfly",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/monarch2.jpeg",
+      "webpPath": "images/life-science/webp/monarch2.webp",
+      "placeholderPath": "images/life-science/placeholders/monarch2.jpeg"
     },
     {
       "id": 27,
@@ -243,7 +321,10 @@
       "imagePath": "images/life-science/mourning dove 06062020.jpg",
       "contentFile": "content/life-science/mourning dove 06062020.json",
       "title": "Mourning Dove",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/mourning dove 06062020.jpg",
+      "webpPath": "images/life-science/webp/mourning dove 06062020.webp",
+      "placeholderPath": "images/life-science/placeholders/mourning dove 06062020.jpg"
     },
     {
       "id": 28,
@@ -252,7 +333,10 @@
       "imagePath": "images/life-science/p9.jpg",
       "contentFile": "content/life-science/p9.json",
       "title": "Monarch Caterpillar",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/p9.jpg",
+      "webpPath": "images/life-science/webp/p9.webp",
+      "placeholderPath": "images/life-science/placeholders/p9.jpg"
     },
     {
       "id": 29,
@@ -261,7 +345,10 @@
       "imagePath": "images/life-science/pelican.jpeg",
       "contentFile": "content/life-science/pelican.json",
       "title": "Pelican",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/pelican.jpeg",
+      "webpPath": "images/life-science/webp/pelican.webp",
+      "placeholderPath": "images/life-science/placeholders/pelican.jpeg"
     },
     {
       "id": 30,
@@ -270,7 +357,10 @@
       "imagePath": "images/life-science/pepper.jpeg",
       "contentFile": "content/life-science/pepper.json",
       "title": "Bell Pepper",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/pepper.jpeg",
+      "webpPath": "images/life-science/webp/pepper.webp",
+      "placeholderPath": "images/life-science/placeholders/pepper.jpeg"
     },
     {
       "id": 31,
@@ -279,7 +369,10 @@
       "imagePath": "images/life-science/photograph.jpeg",
       "contentFile": "content/life-science/photograph.json",
       "title": "Ecosystem",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/photograph.jpeg",
+      "webpPath": "images/life-science/webp/photograph.webp",
+      "placeholderPath": "images/life-science/placeholders/photograph.jpeg"
     },
     {
       "id": 32,
@@ -288,7 +381,10 @@
       "imagePath": "images/life-science/raccoon.jpeg",
       "contentFile": "content/life-science/raccoon.json",
       "title": "Raccoon",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/raccoon.jpeg",
+      "webpPath": "images/life-science/webp/raccoon.webp",
+      "placeholderPath": "images/life-science/placeholders/raccoon.jpeg"
     },
     {
       "id": 33,
@@ -297,7 +393,10 @@
       "imagePath": "images/life-science/snowy egret.jpeg",
       "contentFile": "content/life-science/snowy egret.json",
       "title": "Snowy Egret",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/snowy egret.jpeg",
+      "webpPath": "images/life-science/webp/snowy egret.webp",
+      "placeholderPath": "images/life-science/placeholders/snowy egret.jpeg"
     },
     {
       "id": 34,
@@ -306,7 +405,10 @@
       "imagePath": "images/life-science/sunflower.jpeg",
       "contentFile": "content/life-science/sunflower.json",
       "title": "Sunflower",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/sunflower.jpeg",
+      "webpPath": "images/life-science/webp/sunflower.webp",
+      "placeholderPath": "images/life-science/placeholders/sunflower.jpeg"
     },
     {
       "id": 35,
@@ -315,7 +417,10 @@
       "imagePath": "images/life-science/turtles.jpeg",
       "contentFile": "content/life-science/turtles.json",
       "title": "Turtles",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/turtles.jpeg",
+      "webpPath": "images/life-science/webp/turtles.webp",
+      "placeholderPath": "images/life-science/placeholders/turtles.jpeg"
     },
     {
       "id": 36,
@@ -324,7 +429,10 @@
       "imagePath": "images/earth-space-science/100_1680.jpeg",
       "contentFile": "content/earth-space-science/100_1680.json",
       "title": "Seasons",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/100_1680.jpeg",
+      "webpPath": "images/earth-space-science/webp/100_1680.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/100_1680.jpeg"
     },
     {
       "id": 37,
@@ -333,7 +441,10 @@
       "imagePath": "images/earth-space-science/IMG_1334.jpeg",
       "contentFile": "content/earth-space-science/IMG_1334.json",
       "title": "Mammal",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/IMG_1334.jpeg",
+      "webpPath": "images/earth-space-science/webp/IMG_1334.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/IMG_1334.jpeg"
     },
     {
       "id": 38,
@@ -342,7 +453,10 @@
       "imagePath": "images/earth-space-science/IMG_3140.jpeg",
       "contentFile": "content/earth-space-science/IMG_3140.json",
       "title": "Beach",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/IMG_3140.jpeg",
+      "webpPath": "images/earth-space-science/webp/IMG_3140.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/IMG_3140.jpeg"
     },
     {
       "id": 39,
@@ -351,7 +465,10 @@
       "imagePath": "images/earth-space-science/IMG_4086.jpeg",
       "contentFile": "content/earth-space-science/IMG_4086.json",
       "title": "Rocks",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/IMG_4086.jpeg",
+      "webpPath": "images/earth-space-science/webp/IMG_4086.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/IMG_4086.jpeg"
     },
     {
       "id": 40,
@@ -360,7 +477,10 @@
       "imagePath": "images/earth-space-science/beach.jpeg",
       "contentFile": "content/earth-space-science/beach.json",
       "title": "Beach",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/beach.jpeg",
+      "webpPath": "images/earth-space-science/webp/beach.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/beach.jpeg"
     },
     {
       "id": 41,
@@ -369,7 +489,10 @@
       "imagePath": "images/earth-space-science/e01.jpeg",
       "contentFile": "content/earth-space-science/e01.json",
       "title": "Sunrise",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/e01.jpeg",
+      "webpPath": "images/earth-space-science/webp/e01.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/e01.jpeg"
     },
     {
       "id": 42,
@@ -378,7 +501,10 @@
       "imagePath": "images/earth-space-science/e02.jpeg",
       "contentFile": "content/earth-space-science/e02.json",
       "title": "Hill",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/e02.jpeg",
+      "webpPath": "images/earth-space-science/webp/e02.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/e02.jpeg"
     },
     {
       "id": 43,
@@ -387,7 +513,10 @@
       "imagePath": "images/earth-space-science/e03.jpeg",
       "contentFile": "content/earth-space-science/e03.json",
       "title": "Clouds",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/e03.jpeg",
+      "webpPath": "images/earth-space-science/webp/e03.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/e03.jpeg"
     },
     {
       "id": 44,
@@ -396,7 +525,10 @@
       "imagePath": "images/earth-space-science/e05.jpeg",
       "contentFile": "content/earth-space-science/e05.json",
       "title": "Rock covered with Moss and Lichen",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/e05.jpeg",
+      "webpPath": "images/earth-space-science/webp/e05.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/e05.jpeg"
     },
     {
       "id": 45,
@@ -405,7 +537,10 @@
       "imagePath": "images/earth-space-science/e06.jpeg",
       "contentFile": "content/earth-space-science/e06.json",
       "title": "Drought",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/e06.jpeg",
+      "webpPath": "images/earth-space-science/webp/e06.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/e06.jpeg"
     },
     {
       "id": 46,
@@ -414,7 +549,10 @@
       "imagePath": "images/earth-space-science/fossil01.jpeg",
       "contentFile": "content/earth-space-science/fossil01.json",
       "title": "Fossil in Sedimentary Rock",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/fossil01.jpeg",
+      "webpPath": "images/earth-space-science/webp/fossil01.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/fossil01.jpeg"
     },
     {
       "id": 47,
@@ -423,7 +561,10 @@
       "imagePath": "images/earth-space-science/fossil02.jpeg",
       "contentFile": "content/earth-space-science/fossil02.json",
       "title": "Fossil in Sedimentary Rock",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/fossil02.jpeg",
+      "webpPath": "images/earth-space-science/webp/fossil02.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/fossil02.jpeg"
     },
     {
       "id": 48,
@@ -432,7 +573,10 @@
       "imagePath": "images/earth-space-science/fossil03.jpeg",
       "contentFile": "content/earth-space-science/fossil03.json",
       "title": "Fossil in Sedimentary Rock",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/fossil03.jpeg",
+      "webpPath": "images/earth-space-science/webp/fossil03.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/fossil03.jpeg"
     },
     {
       "id": 49,
@@ -441,7 +585,10 @@
       "imagePath": "images/earth-space-science/fossil04.jpeg",
       "contentFile": "content/earth-space-science/fossil04.json",
       "title": "Fossil in Sedimentary Rock",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/fossil04.jpeg",
+      "webpPath": "images/earth-space-science/webp/fossil04.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/fossil04.jpeg"
     },
     {
       "id": 50,
@@ -450,7 +597,10 @@
       "imagePath": "images/earth-space-science/p23.jpg",
       "contentFile": "content/earth-space-science/p23.json",
       "title": "Erosion",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/p23.jpg",
+      "webpPath": "images/earth-space-science/webp/p23.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/p23.jpg"
     },
     {
       "id": 51,
@@ -459,7 +609,10 @@
       "imagePath": "images/earth-space-science/p48.jpg",
       "contentFile": "content/earth-space-science/p48.json",
       "title": "Chrysalis",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/p48.jpg",
+      "webpPath": "images/earth-space-science/webp/p48.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/p48.jpg"
     },
     {
       "id": 52,
@@ -468,7 +621,10 @@
       "imagePath": "images/earth-space-science/rock.jpeg",
       "contentFile": "content/earth-space-science/rock.json",
       "title": "Sedimentary Rock",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/rock.jpeg",
+      "webpPath": "images/earth-space-science/webp/rock.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/rock.jpeg"
     },
     {
       "id": 53,
@@ -477,7 +633,10 @@
       "imagePath": "images/earth-space-science/wood.jpeg",
       "contentFile": "content/earth-space-science/wood.json",
       "title": "Wood",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/wood.jpeg",
+      "webpPath": "images/earth-space-science/webp/wood.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/wood.jpeg"
     },
     {
       "id": 54,
@@ -486,7 +645,10 @@
       "imagePath": "images/physical-science/conductor.jpeg",
       "contentFile": "content/physical-science/conductor.json",
       "title": "Conductor",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/conductor.jpeg",
+      "webpPath": "images/physical-science/webp/conductor.webp",
+      "placeholderPath": "images/physical-science/placeholders/conductor.jpeg"
     },
     {
       "id": 55,
@@ -495,7 +657,10 @@
       "imagePath": "images/physical-science/fountain.jpeg",
       "contentFile": "content/physical-science/fountain.json",
       "title": "Fountain",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/fountain.jpeg",
+      "webpPath": "images/physical-science/webp/fountain.webp",
+      "placeholderPath": "images/physical-science/placeholders/fountain.jpeg"
     },
     {
       "id": 56,
@@ -504,7 +669,10 @@
       "imagePath": "images/physical-science/p11.jpg",
       "contentFile": "content/physical-science/p11.json",
       "title": "Matter",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p11.jpg",
+      "webpPath": "images/physical-science/webp/p11.webp",
+      "placeholderPath": "images/physical-science/placeholders/p11.jpg"
     },
     {
       "id": 57,
@@ -513,7 +681,10 @@
       "imagePath": "images/physical-science/p12.jpg",
       "contentFile": "content/physical-science/p12.json",
       "title": "Sound",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p12.jpg",
+      "webpPath": "images/physical-science/webp/p12.webp",
+      "placeholderPath": "images/physical-science/placeholders/p12.jpg"
     },
     {
       "id": 58,
@@ -522,7 +693,10 @@
       "imagePath": "images/physical-science/p13.jpg",
       "contentFile": "content/physical-science/p13.json",
       "title": "Static Electricity",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p13.jpg",
+      "webpPath": "images/physical-science/webp/p13.webp",
+      "placeholderPath": "images/physical-science/placeholders/p13.jpg"
     },
     {
       "id": 59,
@@ -531,7 +705,10 @@
       "imagePath": "images/physical-science/p15.jpg",
       "contentFile": "content/physical-science/p15.json",
       "title": "Ice",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p15.jpg",
+      "webpPath": "images/physical-science/webp/p15.webp",
+      "placeholderPath": "images/physical-science/placeholders/p15.jpg"
     },
     {
       "id": 60,
@@ -540,7 +717,10 @@
       "imagePath": "images/physical-science/p16.jpg",
       "contentFile": "content/physical-science/p16.json",
       "title": "Mixture",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p16.jpg",
+      "webpPath": "images/physical-science/webp/p16.webp",
+      "placeholderPath": "images/physical-science/placeholders/p16.jpg"
     },
     {
       "id": 61,
@@ -549,7 +729,10 @@
       "imagePath": "images/physical-science/p17.jpg",
       "contentFile": "content/physical-science/p17.json",
       "title": "Reflection",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p17.jpg",
+      "webpPath": "images/physical-science/webp/p17.webp",
+      "placeholderPath": "images/physical-science/placeholders/p17.jpg"
     },
     {
       "id": 62,
@@ -558,7 +741,10 @@
       "imagePath": "images/physical-science/p19.jpg",
       "contentFile": "content/physical-science/p19.json",
       "title": "Solution",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p19.jpg",
+      "webpPath": "images/physical-science/webp/p19.webp",
+      "placeholderPath": "images/physical-science/placeholders/p19.jpg"
     },
     {
       "id": 63,
@@ -567,7 +753,10 @@
       "imagePath": "images/physical-science/p20.jpg",
       "contentFile": "content/physical-science/p20.json",
       "title": "Mixture",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p20.jpg",
+      "webpPath": "images/physical-science/webp/p20.webp",
+      "placeholderPath": "images/physical-science/placeholders/p20.jpg"
     },
     {
       "id": 64,
@@ -576,7 +765,10 @@
       "imagePath": "images/physical-science/p21.jpg",
       "contentFile": "content/physical-science/p21.json",
       "title": "System",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p21.jpg",
+      "webpPath": "images/physical-science/webp/p21.webp",
+      "placeholderPath": "images/physical-science/placeholders/p21.jpg"
     },
     {
       "id": 65,
@@ -585,7 +777,10 @@
       "imagePath": "images/physical-science/p25.jpg",
       "contentFile": "content/physical-science/p25.json",
       "title": "Reflection",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p25.jpg",
+      "webpPath": "images/physical-science/webp/p25.webp",
+      "placeholderPath": "images/physical-science/placeholders/p25.jpg"
     },
     {
       "id": 66,
@@ -594,7 +789,10 @@
       "imagePath": "images/physical-science/p26.jpg",
       "contentFile": "content/physical-science/p26.json",
       "title": "Buoyancy",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p26.jpg",
+      "webpPath": "images/physical-science/webp/p26.webp",
+      "placeholderPath": "images/physical-science/placeholders/p26.jpg"
     },
     {
       "id": 67,
@@ -603,7 +801,10 @@
       "imagePath": "images/physical-science/p28.jpg",
       "contentFile": "content/physical-science/p28.json",
       "title": "Friction",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p28.jpg",
+      "webpPath": "images/physical-science/webp/p28.webp",
+      "placeholderPath": "images/physical-science/placeholders/p28.jpg"
     },
     {
       "id": 68,
@@ -612,7 +813,10 @@
       "imagePath": "images/physical-science/p30.jpg",
       "contentFile": "content/physical-science/p30.json",
       "title": "Force",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p30.jpg",
+      "webpPath": "images/physical-science/webp/p30.webp",
+      "placeholderPath": "images/physical-science/placeholders/p30.jpg"
     },
     {
       "id": 69,
@@ -621,7 +825,10 @@
       "imagePath": "images/physical-science/p31.jpg",
       "contentFile": "content/physical-science/p31.json",
       "title": "Force",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p31.jpg",
+      "webpPath": "images/physical-science/webp/p31.webp",
+      "placeholderPath": "images/physical-science/placeholders/p31.jpg"
     },
     {
       "id": 70,
@@ -630,7 +837,10 @@
       "imagePath": "images/physical-science/p32.jpg",
       "contentFile": "content/physical-science/p32.json",
       "title": "Solution",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p32.jpg",
+      "webpPath": "images/physical-science/webp/p32.webp",
+      "placeholderPath": "images/physical-science/placeholders/p32.jpg"
     },
     {
       "id": 71,
@@ -639,7 +849,10 @@
       "imagePath": "images/physical-science/p34.jpg",
       "contentFile": "content/physical-science/p34.json",
       "title": "Matter",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p34.jpg",
+      "webpPath": "images/physical-science/webp/p34.webp",
+      "placeholderPath": "images/physical-science/placeholders/p34.jpg"
     },
     {
       "id": 72,
@@ -648,7 +861,10 @@
       "imagePath": "images/physical-science/p6.jpg",
       "contentFile": "content/physical-science/p6.json",
       "title": "Matter",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/p6.jpg",
+      "webpPath": "images/physical-science/webp/p6.webp",
+      "placeholderPath": "images/physical-science/placeholders/p6.jpg"
     },
     {
       "id": 73,
@@ -657,7 +873,10 @@
       "imagePath": "images/earth-space-science/moss_on_rock.jpg",
       "contentFile": "content/earth-space-science/moss_on_rock.json",
       "title": "Moss on Rock",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/moss_on_rock.jpg",
+      "webpPath": "images/earth-space-science/webp/moss_on_rock.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/moss_on_rock.jpg"
     },
     {
       "id": 74,
@@ -666,7 +885,10 @@
       "imagePath": "images/earth-space-science/ornamental_grass.jpg",
       "contentFile": "content/earth-space-science/ornamental_grass.json",
       "title": "Ornamental Grass",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/ornamental_grass.jpg",
+      "webpPath": "images/earth-space-science/webp/ornamental_grass.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/ornamental_grass.jpg"
     },
     {
       "id": 75,
@@ -675,7 +897,10 @@
       "imagePath": "images/life-science/slime_mold.jpg",
       "contentFile": "content/life-science/slime_mold.json",
       "title": "Slime Mold",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/slime_mold.jpg",
+      "webpPath": "images/life-science/webp/slime_mold.webp",
+      "placeholderPath": "images/life-science/placeholders/slime_mold.jpg"
     },
     {
       "id": 76,
@@ -684,7 +909,10 @@
       "imagePath": "images/life-science/deciduous_trees.jpg",
       "contentFile": "content/life-science/deciduous_trees.json",
       "title": "Deciduous Trees",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/deciduous_trees.jpg",
+      "webpPath": "images/life-science/webp/deciduous_trees.webp",
+      "placeholderPath": "images/life-science/placeholders/deciduous_trees.jpg"
     },
     {
       "id": 77,
@@ -693,7 +921,10 @@
       "imagePath": "images/life-science/grasshopper.jpg",
       "contentFile": "content/life-science/grasshopper.json",
       "title": "Grasshopper",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/grasshopper.jpg",
+      "webpPath": "images/life-science/webp/grasshopper.webp",
+      "placeholderPath": "images/life-science/placeholders/grasshopper.jpg"
     },
     {
       "id": 78,
@@ -702,7 +933,10 @@
       "imagePath": "images/life-science/cicada.jpg",
       "contentFile": "content/life-science/cicada.json",
       "title": "Cicada",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/cicada.jpg",
+      "webpPath": "images/life-science/webp/cicada.webp",
+      "placeholderPath": "images/life-science/placeholders/cicada.jpg"
     },
     {
       "id": 79,
@@ -711,7 +945,10 @@
       "imagePath": "images/earth-space-science/dawn.jpg",
       "contentFile": "content/earth-space-science/dawn.json",
       "title": "Dawn",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/dawn.jpg",
+      "webpPath": "images/earth-space-science/webp/dawn.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/dawn.jpg"
     },
     {
       "id": 80,
@@ -720,7 +957,10 @@
       "imagePath": "images/physical-science/ice_ball.jpg",
       "contentFile": "content/physical-science/ice_ball.json",
       "title": "Ice Ball",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/ice_ball.jpg",
+      "webpPath": "images/physical-science/webp/ice_ball.webp",
+      "placeholderPath": "images/physical-science/placeholders/ice_ball.jpg"
     },
     {
       "id": 81,
@@ -729,7 +969,10 @@
       "imagePath": "images/life-science/stinkhorn_mushroom.pg.jpg",
       "contentFile": "content/life-science/stinkhorn_mushroom.pg.json",
       "title": "Stinkhorn Mushroom",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/stinkhorn_mushroom.pg.jpg",
+      "webpPath": "images/life-science/webp/stinkhorn_mushroom.pg.webp",
+      "placeholderPath": "images/life-science/placeholders/stinkhorn_mushroom.pg.jpg"
     },
     {
       "id": 82,
@@ -738,7 +981,10 @@
       "imagePath": "images/life-science/frog.jpg",
       "contentFile": "content/life-science/frog.json",
       "title": "Frog",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/frog.jpg",
+      "webpPath": "images/life-science/webp/frog.webp",
+      "placeholderPath": "images/life-science/placeholders/frog.jpg"
     },
     {
       "id": 83,
@@ -747,7 +993,10 @@
       "imagePath": "images/life-science/toad.jpg",
       "contentFile": "content/life-science/toad.json",
       "title": "Toad",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/toad.jpg",
+      "webpPath": "images/life-science/webp/toad.webp",
+      "placeholderPath": "images/life-science/placeholders/toad.jpg"
     },
     {
       "id": 84,
@@ -756,7 +1005,10 @@
       "imagePath": "images/physical-science/infrared_thermometer.jpg",
       "contentFile": "content/physical-science/infrared_thermometer.json",
       "title": "Infrared Thermometer",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/infrared_thermometer.jpg",
+      "webpPath": "images/physical-science/webp/infrared_thermometer.webp",
+      "placeholderPath": "images/physical-science/placeholders/infrared_thermometer.jpg"
     },
     {
       "id": 85,
@@ -765,7 +1017,10 @@
       "imagePath": "images/life-science/turtle.jpg",
       "contentFile": "content/life-science/turtle.json",
       "title": "Turtle",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/turtle.jpg",
+      "webpPath": "images/life-science/webp/turtle.webp",
+      "placeholderPath": "images/life-science/placeholders/turtle.jpg"
     },
     {
       "id": 86,
@@ -774,7 +1029,10 @@
       "imagePath": "images/earth-space-science/agriculture.jpg",
       "contentFile": "content/earth-space-science/agriculture.json",
       "title": "Agriculture",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/agriculture.jpg",
+      "webpPath": "images/earth-space-science/webp/agriculture.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/agriculture.jpg"
     },
     {
       "id": 87,
@@ -783,7 +1041,10 @@
       "imagePath": "images/life-science/owl.jpg",
       "contentFile": "content/life-science/owl.json",
       "title": "Owl",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/owl.jpg",
+      "webpPath": "images/life-science/webp/owl.webp",
+      "placeholderPath": "images/life-science/placeholders/owl.jpg"
     },
     {
       "id": 88,
@@ -792,7 +1053,10 @@
       "imagePath": "images/life-science/insect.jpg",
       "contentFile": "content/life-science/insect.json",
       "title": "Insect",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/insect.jpg",
+      "webpPath": "images/life-science/webp/insect.webp",
+      "placeholderPath": "images/life-science/placeholders/insect.jpg"
     },
     {
       "id": 89,
@@ -801,7 +1065,10 @@
       "imagePath": "images/physical-science/robot.jpg",
       "contentFile": "content/physical-science/robot.json",
       "title": "Robot",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/robot.jpg",
+      "webpPath": "images/physical-science/webp/robot.webp",
+      "placeholderPath": "images/physical-science/placeholders/robot.jpg"
     },
     {
       "id": 90,
@@ -810,7 +1077,10 @@
       "imagePath": "images/life-science/snake_skin.jpg",
       "contentFile": "content/life-science/snake_skin.json",
       "title": "Snake Skin",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/snake_skin.jpg",
+      "webpPath": "images/life-science/webp/snake_skin.webp",
+      "placeholderPath": "images/life-science/placeholders/snake_skin.jpg"
     },
     {
       "id": 91,
@@ -819,7 +1089,10 @@
       "imagePath": "images/life-science/snail.jpg",
       "contentFile": "content/life-science/snail.json",
       "title": "Snail",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/snail.jpg",
+      "webpPath": "images/life-science/webp/snail.webp",
+      "placeholderPath": "images/life-science/placeholders/snail.jpg"
     },
     {
       "id": 92,
@@ -828,7 +1101,10 @@
       "imagePath": "images/life-science/pollination.jpg",
       "contentFile": "content/life-science/pollination.json",
       "title": "Pollination",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/pollination.jpg",
+      "webpPath": "images/life-science/webp/pollination.webp",
+      "placeholderPath": "images/life-science/placeholders/pollination.jpg"
     },
     {
       "id": 93,
@@ -837,7 +1113,10 @@
       "imagePath": "images/earth-space-science/soil.jpg",
       "contentFile": "content/earth-space-science/soil.json",
       "title": "Soil",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/soil.jpg",
+      "webpPath": "images/earth-space-science/webp/soil.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/soil.jpg"
     },
     {
       "id": 94,
@@ -846,7 +1125,10 @@
       "imagePath": "images/earth-space-science/fall_seasons.jpg",
       "contentFile": "content/earth-space-science/fall_seasons.json",
       "title": "Fall Seasons",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/fall_seasons.jpg",
+      "webpPath": "images/earth-space-science/webp/fall_seasons.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/fall_seasons.jpg"
     },
     {
       "id": 95,
@@ -855,7 +1137,10 @@
       "imagePath": "images/physical-science/kinetic_energy.jpg",
       "contentFile": "content/physical-science/kinetic_energy.json",
       "title": "Kinetic Energy",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/kinetic_energy.jpg",
+      "webpPath": "images/physical-science/webp/kinetic_energy.webp",
+      "placeholderPath": "images/physical-science/placeholders/kinetic_energy.jpg"
     },
     {
       "id": 96,
@@ -864,7 +1149,10 @@
       "imagePath": "images/earth-space-science/precipitation_snow.jpg",
       "contentFile": "content/earth-space-science/precipitation_snow.json",
       "title": "Precipitation Snow",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/precipitation_snow.jpg",
+      "webpPath": "images/earth-space-science/webp/precipitation_snow.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/precipitation_snow.jpg"
     },
     {
       "id": 97,
@@ -873,7 +1161,10 @@
       "imagePath": "images/life-science/arachnid.jpg",
       "contentFile": "content/life-science/arachnid.json",
       "title": "Arachnid",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/arachnid.jpg",
+      "webpPath": "images/life-science/webp/arachnid.webp",
+      "placeholderPath": "images/life-science/placeholders/arachnid.jpg"
     },
     {
       "id": 98,
@@ -882,7 +1173,10 @@
       "imagePath": "images/physical-science/mechanical_energy.jpeg",
       "contentFile": "content/physical-science/mechanical_energy.json",
       "title": "Mechanical Energy",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/mechanical_energy.jpeg",
+      "webpPath": "images/physical-science/webp/mechanical_energy.webp",
+      "placeholderPath": "images/physical-science/placeholders/mechanical_energy.jpeg"
     },
     {
       "id": 99,
@@ -891,7 +1185,10 @@
       "imagePath": "images/earth-space-science/lake_landform.jpg",
       "contentFile": "content/earth-space-science/lake_landform.json",
       "title": "Lake Landform",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/lake_landform.jpg",
+      "webpPath": "images/earth-space-science/webp/lake_landform.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/lake_landform.jpg"
     },
     {
       "id": 100,
@@ -900,7 +1197,10 @@
       "imagePath": "images/earth-space-science/sunrise.jpg",
       "contentFile": "content/earth-space-science/sunrise.json",
       "title": "Sunrise",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/sunrise.jpg",
+      "webpPath": "images/earth-space-science/webp/sunrise.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/sunrise.jpg"
     },
     {
       "id": 101,
@@ -909,7 +1209,10 @@
       "imagePath": "images/life-science/camouflage.jpg",
       "contentFile": "content/life-science/camouflage.json",
       "title": "Camouflage",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/camouflage.jpg",
+      "webpPath": "images/life-science/webp/camouflage.webp",
+      "placeholderPath": "images/life-science/placeholders/camouflage.jpg"
     },
     {
       "id": 102,
@@ -918,7 +1221,10 @@
       "imagePath": "images/life-science/germination.jpg",
       "contentFile": "content/life-science/germination.json",
       "title": "Germination",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/germination.jpg",
+      "webpPath": "images/life-science/webp/germination.webp",
+      "placeholderPath": "images/life-science/placeholders/germination.jpg"
     },
     {
       "id": 103,
@@ -927,7 +1233,10 @@
       "imagePath": "images/life-science/king_snake.jpg",
       "contentFile": "content/life-science/king_snake.json",
       "title": "King Snake",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/king_snake.jpg",
+      "webpPath": "images/life-science/webp/king_snake.webp",
+      "placeholderPath": "images/life-science/placeholders/king_snake.jpg"
     },
     {
       "id": 104,
@@ -936,7 +1245,10 @@
       "imagePath": "images/life-science/flower_parts.jpg",
       "contentFile": "content/life-science/flower_parts.json",
       "title": "Flower Parts",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/flower_parts.jpg",
+      "webpPath": "images/life-science/webp/flower_parts.webp",
+      "placeholderPath": "images/life-science/placeholders/flower_parts.jpg"
     },
     {
       "id": 105,
@@ -945,7 +1257,10 @@
       "imagePath": "images/life-science/larvae.jpg",
       "contentFile": "content/life-science/larvae.json",
       "title": "Larvae",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/larvae.jpg",
+      "webpPath": "images/life-science/webp/larvae.webp",
+      "placeholderPath": "images/life-science/placeholders/larvae.jpg"
     },
     {
       "id": 106,
@@ -954,7 +1269,10 @@
       "imagePath": "images/life-science/orb_weaver.jpg",
       "contentFile": "content/life-science/orb_weaver.json",
       "title": "Orb Weaver",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/orb_weaver.jpg",
+      "webpPath": "images/life-science/webp/orb_weaver.webp",
+      "placeholderPath": "images/life-science/placeholders/orb_weaver.jpg"
     },
     {
       "id": 107,
@@ -963,7 +1281,10 @@
       "imagePath": "images/life-science/scales.jpg",
       "contentFile": "content/life-science/scales.json",
       "title": "Scales",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/scales.jpg",
+      "webpPath": "images/life-science/webp/scales.webp",
+      "placeholderPath": "images/life-science/placeholders/scales.jpg"
     },
     {
       "id": 108,
@@ -972,7 +1293,10 @@
       "imagePath": "images/life-science/pond_habitat.jpg",
       "contentFile": "content/life-science/pond_habitat.json",
       "title": "Pond Habitat",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/pond_habitat.jpg",
+      "webpPath": "images/life-science/webp/pond_habitat.webp",
+      "placeholderPath": "images/life-science/placeholders/pond_habitat.jpg"
     },
     {
       "id": 109,
@@ -981,7 +1305,10 @@
       "imagePath": "images/life-science/inherited_traits.jpg",
       "contentFile": "content/life-science/inherited_traits.json",
       "title": "Inherited Traits",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/inherited_traits.jpg",
+      "webpPath": "images/life-science/webp/inherited_traits.webp",
+      "placeholderPath": "images/life-science/placeholders/inherited_traits.jpg"
     },
     {
       "id": 110,
@@ -990,7 +1317,10 @@
       "imagePath": "images/earth-space-science/winter_seasons.jpg",
       "contentFile": "content/earth-space-science/winter_seasons.json",
       "title": "Winter Seasons",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/earth-space-science/thumbs/winter_seasons.jpg",
+      "webpPath": "images/earth-space-science/webp/winter_seasons.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/winter_seasons.jpg"
     },
     {
       "id": 111,
@@ -999,7 +1329,10 @@
       "imagePath": "images/physical-science/force_and_motion.jpg",
       "contentFile": "content/physical-science/force_and_motion.json",
       "title": "Force And Motion",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/physical-science/thumbs/force_and_motion.jpg",
+      "webpPath": "images/physical-science/webp/force_and_motion.webp",
+      "placeholderPath": "images/physical-science/placeholders/force_and_motion.jpg"
     },
     {
       "id": 112,
@@ -1008,7 +1341,10 @@
       "imagePath": "images/life-science/alligator_predator.jpg",
       "contentFile": "content/life-science/alligator_predator.json",
       "title": "Alligator Predator",
-      "hasContent": true
+      "hasContent": true,
+      "thumbPath": "images/life-science/thumbs/alligator_predator.jpg",
+      "webpPath": "images/life-science/webp/alligator_predator.webp",
+      "placeholderPath": "images/life-science/placeholders/alligator_predator.jpg"
     }
   ]
 }

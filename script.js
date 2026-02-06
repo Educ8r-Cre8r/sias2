@@ -26,11 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
 function initializeRandomHeroImage() {
   // Array of hero images
   const heroImages = [
-    'hero_images/hero_img01.jpg',
-    'hero_images/hero_img02.jpg',
-    'hero_images/hero_img03.jpg',
-    'hero_images/hero_img04.jpg',
-    'hero_images/hero_img05.jpg'
+    { webp: 'hero_images/webp/hero_img01.webp', jpg: 'hero_images/thumbs/hero_img01.jpg', original: 'hero_images/hero_img01.jpg' },
+    { webp: 'hero_images/webp/hero_img02.webp', jpg: 'hero_images/thumbs/hero_img02.jpg', original: 'hero_images/hero_img02.jpg' },
+    { webp: 'hero_images/webp/hero_img03.webp', jpg: 'hero_images/thumbs/hero_img03.jpg', original: 'hero_images/hero_img03.jpg' },
+    { webp: 'hero_images/webp/hero_img04.webp', jpg: 'hero_images/thumbs/hero_img04.jpg', original: 'hero_images/hero_img04.jpg' },
+    { webp: 'hero_images/webp/hero_img05.webp', jpg: 'hero_images/thumbs/hero_img05.jpg', original: 'hero_images/hero_img05.jpg' }
   ];
 
   // Get the last shown image from localStorage to avoid immediate repeats
@@ -39,7 +39,7 @@ function initializeRandomHeroImage() {
   // Filter out the last shown image if it exists
   let availableImages = heroImages;
   if (lastShownImage && heroImages.length > 1) {
-    availableImages = heroImages.filter(img => img !== lastShownImage);
+    availableImages = heroImages.filter(img => img.original !== lastShownImage);
   }
 
   // Select a random image from available images
@@ -47,13 +47,23 @@ function initializeRandomHeroImage() {
   const selectedImage = availableImages[randomIndex];
 
   // Store the selected image for next time
-  localStorage.setItem('lastHeroImage', selectedImage);
+  localStorage.setItem('lastHeroImage', selectedImage.original);
 
-  // Apply the background image
+  // Apply the background image with WebP support
   const heroBackground = document.getElementById('hero-background');
   if (heroBackground) {
-    heroBackground.style.backgroundImage = `url('${selectedImage}')`;
-    console.log('[Hero] Selected image:', selectedImage);
+    // Check WebP support and use optimized image
+    const testWebP = new Image();
+    testWebP.onload = function() {
+      heroBackground.style.backgroundImage = `url('${selectedImage.webp}')`;
+    };
+    testWebP.onerror = function() {
+      heroBackground.style.backgroundImage = `url('${selectedImage.jpg}')`;
+    };
+    testWebP.src = 'data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA';
+    // Set jpg immediately as fallback, webp will override if supported
+    heroBackground.style.backgroundImage = `url('${selectedImage.jpg}')`;
+    console.log('[Hero] Selected image:', selectedImage.original);
   }
 }
 
@@ -286,13 +296,19 @@ function createGalleryItem(image) {
   const categoryIcon = getCategoryIcon(image.category);
 
   item.innerHTML = `
-    <div class="image-container">
-      <img
-        src="${image.imagePath}"
-        alt="${image.title}"
-        loading="lazy"
-        onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'400\\' height=\\'300\\'%3E%3Crect fill=\\'%23f0f0f0\\' width=\\'400\\' height=\\'300\\'/%3E%3Ctext fill=\\'%23999\\' x=\\'50%25\\' y=\\'50%25\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\'%3EImage not found%3C/text%3E%3C/svg%3E'"
-      />
+    <div class="image-container" style="background-image: url('${image.placeholderPath || image.imagePath}'); background-size: cover; background-position: center;">
+      <picture>
+        ${image.webpPath ? `<source srcset="${image.webpPath}" type="image/webp">` : ''}
+        <img
+          src="${image.thumbPath || image.imagePath}"
+          alt="${image.title}"
+          width="400"
+          height="280"
+          loading="lazy"
+          decoding="async"
+          onerror="this.src='${image.imagePath}'"
+        />
+      </picture>
     </div>
     <div class="item-info">
       <p class="item-category">

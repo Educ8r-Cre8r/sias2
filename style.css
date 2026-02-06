@@ -545,6 +545,13 @@ a:hover {
   width: 100%;
   overflow: hidden;
   background-color: var(--color-bg-light);
+  filter: blur(0);
+}
+
+.image-container img,
+.image-container picture {
+  width: 100%;
+  display: block;
 }
 
 .image-container img {
@@ -552,7 +559,7 @@ a:hover {
   height: 280px;
   object-fit: cover;
   display: block;
-  transition: transform var(--transition-base);
+  transition: transform var(--transition-base), opacity 0.3s ease;
 }
 
 .gallery-item:hover .image-container img {
