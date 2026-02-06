@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "45%",
+      "label": "Animal Footprints",
+      "fact": "These are fresh footprints pressed into the soft mud! Animals leave tracks like these when they walk through wet soil or sand. Scientists called trackers use footprints to identify which animals visited an area and where they were going."
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "30%",
+      "label": "Green Plant Growth",
+      "fact": "The green plants growing around the tracks show how life returns quickly to disturbed soil. Plants need sunlight, water, and nutrients from the soil to grow and thrive in their habitat."
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "50%",
+      "label": "Pink Flowering Plants",
+      "fact": "These small pink flowers are blooming in the natural meadow habitat. Flowers attract insects like bees and butterflies that help pollinate plants so they can make seeds and new plants."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "20%",
+      "label": "Soil Composition",
+      "fact": "The reddish-brown soil visible in the footprints contains minerals, organic matter, and organisms that help plants grow. Healthy soil is home to billions of tiny creatures that break down dead plants and recycle nutrients."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T22:24:18.223Z",
-  "totalImages": 132,
+  "lastUpdated": "2026-02-06T22:27:18.593Z",
+  "totalImages": 133,
   "images": [
     {
       "id": 1,
@@ -2640,6 +2640,26 @@
         "insects",
         "plant reproduction",
         "ecosystems"
+      ]
+    },
+    {
+      "id": 133,
+      "filename": "herbivore.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/herbivore.jpg",
+      "thumbPath": "images/life-science/thumbs/herbivore.jpg",
+      "webpPath": "images/life-science/webp/herbivore.webp",
+      "placeholderPath": "images/life-science/placeholders/herbivore.jpg",
+      "contentFile": "content/life-science/herbivore.json",
+      "title": "Herbivore",
+      "hasContent": true,
+      "keywords": [
+        "animal tracks",
+        "wildlife observation",
+        "soil",
+        "habitat",
+        "animal behavior",
+        "ecosystem"
       ]
     }
   ]
