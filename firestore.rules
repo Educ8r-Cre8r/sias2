@@ -28,6 +28,21 @@ service cloud.firestore {
       allow delete: if false;
     }
 
+    // Comments collection - require Google auth to write
+    match /comments/{commentId} {
+      // Anyone can read comments
+      allow read: if true;
+
+      // Authenticated (non-anonymous) users can create comments
+      allow create: if request.auth != null
+        && request.auth.token.firebase.sign_in_provider != 'anonymous'
+        && request.resource.data.userId == request.auth.uid;
+
+      // Users can only update/delete their own comments
+      allow update, delete: if request.auth != null
+        && resource.data.userId == request.auth.uid;
+    }
+
     // Test collection for connection testing
     match /_test/{document} {
       allow read: if true;

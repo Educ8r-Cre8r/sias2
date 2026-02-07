@@ -335,18 +335,17 @@ function updateGalleryCardStats(photoId, ratings, views) {
   if (!statsContainer) return;
 
   const avgRating = ratings.averageRating || 0;
-  const totalRatings = ratings.totalRatings || 0;
 
-  // Update stars
-  const starsDisplay = statsContainer.querySelector('.stars-display');
-  if (starsDisplay) {
-    starsDisplay.innerHTML = generateStarsHTML(avgRating, totalRatings);
+  // Update rating badge value
+  const ratingValue = statsContainer.querySelector('.rating-value');
+  if (ratingValue) {
+    ratingValue.textContent = avgRating.toFixed(1);
   }
 
-  // Update views
+  // Update views badge value
   const viewsDisplay = statsContainer.querySelector('.views-count');
   if (viewsDisplay) {
-    viewsDisplay.textContent = formatViews(views);
+    viewsDisplay.textContent = formatViewsShort(views);
   }
 }
 
@@ -407,7 +406,7 @@ async function generateInteractiveStarsHTML(photoId) {
 }
 
 /**
- * Format view count for display
+ * Format view count for display (full label)
  */
 function formatViews(count) {
   if (count >= 1000000) {
@@ -416,6 +415,19 @@ function formatViews(count) {
     return (count / 1000).toFixed(1) + 'K Views';
   } else {
     return count + ' Views';
+  }
+}
+
+/**
+ * Format view count for badge display (compact)
+ */
+function formatViewsShort(count) {
+  if (count >= 1000000) {
+    return (count / 1000000).toFixed(1) + 'M';
+  } else if (count >= 1000) {
+    return (count / 1000).toFixed(1) + 'k';
+  } else {
+    return String(count);
   }
 }
 

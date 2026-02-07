@@ -437,6 +437,11 @@ function loadMoreImages() {
   if (typeof loadAllStats === 'function') {
     loadAllStats();
   }
+
+  // Load comment counts for gallery cards
+  if (typeof loadAllCommentCounts === 'function') {
+    loadAllCommentCounts();
+  }
 }
 
 /**
@@ -526,17 +531,9 @@ function createGalleryItem(image) {
       </button>
     </div>
     <div class="card-stats">
-      <div class="stars-display">
-        <div class="stars">
-          <span class="star empty">☆</span>
-          <span class="star empty">☆</span>
-          <span class="star empty">☆</span>
-          <span class="star empty">☆</span>
-          <span class="star empty">☆</span>
-        </div>
-        <span class="rating-text">0.0 (0)</span>
-      </div>
-      <div class="views-count">0 Views</div>
+      <span class="badge badge-views" data-tooltip="Views"><span class="badge-icon">👁</span> <span class="views-count">0</span></span>
+      <span class="badge badge-rating" data-tooltip="Rating"><span class="badge-icon">⭐</span> <span class="rating-value">0.0</span></span>
+      <span class="badge badge-comments" data-tooltip="Comments"><span class="badge-icon">💬</span> <span class="comment-count" data-comment-photo-id="${image.id}">0</span></span>
     </div>
   `;
 
@@ -894,6 +891,21 @@ async function openModal(imageId) {
     const ratingContainer = document.createElement('div');
     ratingContainer.innerHTML = ratingHTML;
     modalBody.appendChild(ratingContainer);
+  }
+
+  // Add comment section at the end of content
+  if (typeof generateCommentSectionHTML === 'function') {
+    const commentHTML = generateCommentSectionHTML(image.id);
+    const commentContainer = document.createElement('div');
+    commentContainer.id = 'modal-comment-section';
+    commentContainer.innerHTML = commentHTML;
+    modalBody.appendChild(commentContainer);
+    if (typeof setupCommentListeners === 'function') {
+      setupCommentListeners(image.id);
+    }
+    if (typeof loadComments === 'function') {
+      loadComments(image.id);
+    }
   }
 
   // Focus management for accessibility
