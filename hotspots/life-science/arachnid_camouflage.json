@@ -4,29 +4,29 @@
       "id": 1,
       "x": "50%",
       "y": "45%",
-      "label": "Whip Scorpion",
-      "fact": "This is a whip scorpion, a harmless arachnid that looks scary but cannot hurt humans. Despite their name, they are not true scorpions and have no venom!"
+      "label": "Harvestman Arachnid",
+      "fact": "This photograph features an arachnid, specifically a harvestman (Opiliones), resting on the deeply textured bark of a tree."
     },
     {
       "id": 2,
       "x": "35%",
       "y": "60%",
-      "label": "Tree Bark Texture",
-      "fact": "Tree bark protects the living wood underneath from insects, weather, and damage. The rough texture and grooves you see help water drain off and provide hiding places for tiny creatures."
+      "label": "Eight Legs",
+      "fact": "Its eight exceptionally long, thin legs radiate outward, breaking up its silhouette against the irregular shadows and ridges of the tree surface."
     },
     {
       "id": 3,
       "x": "70%",
       "y": "30%",
       "label": "Lichen Growth",
-      "fact": "Lichen is a combination of fungus and algae living together. These colorful patches help break down bark over many years and are a sign of clean, healthy air!"
+      "fact": "The specimen displays remarkable crypsis (camouflage), with its body coloration and leg banding mirroring the mottled greys, browns, and whites of the lichen-covered bark."
     },
     {
       "id": 4,
       "x": "15%",
       "y": "50%",
-      "label": "Moss and Algae",
-      "fact": "Mosses and algae grow on bark because they love moisture and shade. These plants help create a miniature ecosystem where insects and other small creatures can live."
+      "label": "Camouflaged Body",
+      "fact": "The body is positioned centrally, exhibiting a compact cephalothorax and abdomen that blend seamlessly into a dark crevice in the bark."
     }
   ]
 }

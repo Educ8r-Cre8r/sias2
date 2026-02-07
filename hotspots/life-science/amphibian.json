@@ -5,14 +5,14 @@
       "x": "35%",
       "y": "25%",
       "label": "Adhesive Toe Pads",
-      "fact": "These special sticky toe pads help the frog climb smooth surfaces like walls and glass! The tiny hairs on each toe pad create a grip that works even on wet surfaces."
+      "fact": "These special sticky toe pads help the frog climb! The tiny hairs on each toe pad create a grip that works even on wet surfaces."
     },
     {
       "id": 2,
       "x": "50%",
       "y": "55%",
-      "label": "Bumpy Skin Texture",
-      "fact": "The bumpy, warty-looking skin helps the frog blend in with tree bark and rocks. This camouflage helps the frog hide from predators in its natural forest home."
+      "label": "Skin Texture",
+      "fact": "The frog exhibits a highly specialized skin pattern consisting of mottled grey, white, and dark charcoal blotches that mimic lichen or tree bark."
     },
     {
       "id": 3,

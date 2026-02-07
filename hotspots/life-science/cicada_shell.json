@@ -5,7 +5,7 @@
       "x": "50%",
       "y": "45%",
       "label": "Insect Exoskeleton",
-      "fact": "This brown insect has a hard outer shell called an exoskeleton that protects its body like armor. As it grows, the insect must shed this shell and grow a new, bigger one!"
+      "fact": "Cicadas have a hard outer shell called an exoskeleton that protects their body like armor. As it grows, the insect must shed this shell and grow a new, bigger one!"
     },
     {
       "id": 2,
@@ -19,14 +19,14 @@
       "x": "75%",
       "y": "50%",
       "label": "Tree Bark",
-      "fact": "The gray and brown crumbly surface is tree bark, which protects the living wood inside. Bark also provides a home for many tiny creatures like insects and fungi."
+      "fact": "The adult cicada emerges from the ground or tree bark, shedding its exoskeleton (exuvia) as it transforms. The gray and brown crumbly surface is tree bark, which protects the living wood inside."
     },
     {
       "id": 4,
       "x": "55%",
       "y": "65%",
-      "label": "Camouflage",
-      "fact": "The insect's brown color helps it blend in with the bark and lichen around it. This hiding strategy called camouflage helps protect the insect from predators that hunt by sight."
+      "label": "Metamorphosis",
+      "fact": "This image illustrates the life cycle of a cicada and its relationship with its environment. Cicadas undergo incomplete metamorphosis, molting from nymphs to adults."
     }
   ]
 }
