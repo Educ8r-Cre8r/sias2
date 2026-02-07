@@ -205,7 +205,7 @@ async function submitRating(photoId, stars) {
 
     // Provide specific error feedback
     if (error.code === 'permission-denied') {
-      alert('Permission denied. Please make sure you are signed in and try again.');
+      alert('You have already rated this photo!');
     } else {
       alert('Failed to submit rating: ' + error.message);
     }

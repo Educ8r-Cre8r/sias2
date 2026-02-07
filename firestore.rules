@@ -28,6 +28,19 @@ service cloud.firestore {
       allow delete: if false;
     }
 
+    // User Ratings collection - track individual user ratings
+    match /userRatings/{ratingId} {
+      // Users can read their own ratings (needed for duplicate check)
+      allow read: if true;
+
+      // Authenticated users can create a rating (one per user per photo)
+      allow create: if request.auth != null
+        && request.resource.data.userId == request.auth.uid;
+
+      // Prevent updates and deletes to preserve rating integrity
+      allow update, delete: if false;
+    }
+
     // Comments collection - require Google auth to write
     match /comments/{commentId} {
       // Anyone can read comments

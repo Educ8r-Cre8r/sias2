@@ -16,6 +16,7 @@ const admin = require('firebase-admin');
 const Anthropic = require('@anthropic-ai/sdk');
 const simpleGit = require('simple-git');
 const sharp = require('sharp');
+const nodemailer = require('nodemailer');
 const path = require('path');
 const fs = require('fs').promises;
 const os = require('os');
@@ -764,3 +765,96 @@ Remember:
   console.log(`✅ Total cost (content + hotspots): $${totalCost.toFixed(2)}`);
   return { totalCost, imageBase64, mediaType };
 }
+
+// ============================================================
+// Comment Email Notification
+// ============================================================
+
+/**
+ * Send email notification when a new comment is created
+ * Triggers on Firestore document creation in the 'comments' collection
+ */
+exports.onCommentCreated = functions.firestore
+  .document('comments/{commentId}')
+  .onCreate(async (snapshot, context) => {
+    const comment = snapshot.data();
+    const commentId = context.params.commentId;
+
+    console.log(`💬 New comment detected: ${commentId}`);
+
+    // Get SMTP credentials from environment variables
+    const gmailUser = process.env.GMAIL_USER;
+    const gmailPass = process.env.GMAIL_APP_PASSWORD;
+
+    if (!gmailUser || !gmailPass) {
+      console.error('❌ Gmail credentials not configured.');
+      console.error('Add GMAIL_USER and GMAIL_APP_PASSWORD to functions/.env');
+      return null;
+    }
+
+    // Create transporter
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: gmailUser,
+        pass: gmailPass,
+      },
+    });
+
+    // Format timestamp
+    let timeStr = 'just now';
+    if (comment.timestamp && comment.timestamp.toDate) {
+      timeStr = comment.timestamp.toDate().toLocaleString('en-US', {
+        dateStyle: 'medium',
+        timeStyle: 'short',
+      });
+    }
+
+    // Build email
+    const mailOptions = {
+      from: `"SIAS Comments" <${gmailUser}>`,
+      to: 'mr.alexdjones@gmail.com',
+      subject: `💬 New Comment on SIAS Photo #${comment.imageId}`,
+      html: `
+        <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto;">
+          <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 12px 12px 0 0;">
+            <h2 style="color: white; margin: 0; font-size: 20px;">💬 New Comment on SIAS</h2>
+          </div>
+          <div style="background: #f8f9fa; padding: 24px; border: 1px solid #e9ecef; border-top: none; border-radius: 0 0 12px 12px;">
+            <div style="background: white; padding: 16px; border-radius: 8px; border: 1px solid #e9ecef; margin-bottom: 16px;">
+              <div style="display: flex; align-items: center; margin-bottom: 12px;">
+                ${comment.photoURL
+                  ? `<img src="${comment.photoURL}" alt="" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 12px;">`
+                  : `<div style="width: 40px; height: 40px; border-radius: 50%; background: #667eea; color: white; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 12px;">${(comment.displayName || '?')[0].toUpperCase()}</div>`
+                }
+                <div>
+                  <strong style="color: #333; font-size: 15px;">${comment.displayName || 'User'}</strong>
+                  <div style="color: #888; font-size: 13px;">${timeStr}</div>
+                </div>
+              </div>
+              <p style="color: #444; font-size: 15px; line-height: 1.5; margin: 0; padding: 12px; background: #f8f9fa; border-radius: 6px;">
+                "${comment.text}"
+              </p>
+            </div>
+            <div style="color: #888; font-size: 13px;">
+              <p style="margin: 4px 0;">📸 Photo ID: ${comment.imageId}</p>
+              <p style="margin: 4px 0;">🔑 Comment ID: ${commentId}</p>
+            </div>
+            <hr style="border: none; border-top: 1px solid #e9ecef; margin: 16px 0;">
+            <p style="color: #aaa; font-size: 12px; margin: 0; text-align: center;">
+              Science In A Snapshot — Comment Notification
+            </p>
+          </div>
+        </div>
+      `,
+    };
+
+    try {
+      await transporter.sendMail(mailOptions);
+      console.log(`✅ Email notification sent for comment: ${commentId}`);
+      return null;
+    } catch (error) {
+      console.error('❌ Error sending email notification:', error);
+      return null;
+    }
+  });

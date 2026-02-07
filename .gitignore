@@ -1,5 +1,6 @@
 # Environment variables (contains API keys)
 .env
+functions/.env
 
 # Documentation with API keys (create sanitized versions for GitHub)
 PROJECT_SUMMARY.md

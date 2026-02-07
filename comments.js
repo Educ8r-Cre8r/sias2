@@ -178,7 +178,7 @@ function generateCommentSectionHTML(imageId) {
       <div class="comment-form">
         <textarea
           id="comment-textarea"
-          placeholder="Share your thoughts on this photo..."
+          placeholder="Share your thoughts on this photo and/or educational content..."
           maxlength="500"
           rows="3"
         ></textarea>
