@@ -1402,7 +1402,7 @@ function openOverviewModal() {
   if (!modal || !videoIframe) return;
 
   // Convert Google Drive link to embeddable format
-  const driveUrl = 'https://drive.google.com/file/d/1O49N8PM81pnE-VWd224BaSBvKp1ocDQo/preview';
+  const driveUrl = 'https://drive.google.com/file/d/1E2xFdHB4cmy9XlSva7CTzVhFZ5_MJO-v/preview';
   videoIframe.src = driveUrl;
 
   modal.classList.add('active');
