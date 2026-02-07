@@ -156,8 +156,10 @@ function updateAuthUI(user) {
       authAnonymous.style.display = 'none';
       authSignedIn.style.display = 'block';
 
-      // Get user initials from name or email
-      const displayName = user.displayName || user.email || 'User';
+      // Get user info from provider data (more reliable for linked accounts)
+      const googleProvider = user.providerData && user.providerData.find(p => p.providerId === 'google.com');
+      const displayName = googleProvider?.displayName || user.displayName || user.email || 'User';
+      const photoURL = googleProvider?.photoURL || user.photoURL || null;
       const initials = getInitials(displayName);
 
       // Update avatar initials (both small and large)
@@ -169,17 +171,17 @@ function updateAuthUI(user) {
       // Update menu info
       const userNameMenu = document.getElementById('user-name-menu');
       const userEmailMenu = document.getElementById('user-email-menu');
-      if (userNameMenu) userNameMenu.textContent = user.displayName || 'User';
-      if (userEmailMenu) userEmailMenu.textContent = user.email || '';
+      if (userNameMenu) userNameMenu.textContent = displayName;
+      if (userEmailMenu) userEmailMenu.textContent = googleProvider?.email || user.email || '';
 
       // If user has a photo URL, add it as background (but keep initials as fallback)
-      if (user.photoURL) {
+      if (photoURL) {
         const userAvatar = document.getElementById('user-avatar');
         const userAvatarLarge = document.getElementById('user-avatar-large');
 
         if (userAvatar && !userAvatar.querySelector('img')) {
           const img = document.createElement('img');
-          img.src = user.photoURL;
+          img.src = photoURL;
           img.className = 'user-avatar-bg';
           img.alt = displayName;
           // Hide initials when photo loads
@@ -196,7 +198,7 @@ function updateAuthUI(user) {
 
         if (userAvatarLarge && !userAvatarLarge.querySelector('img')) {
           const img = document.createElement('img');
-          img.src = user.photoURL;
+          img.src = photoURL;
           img.className = 'user-avatar-large-bg';
           img.alt = displayName;
           img.onload = () => {

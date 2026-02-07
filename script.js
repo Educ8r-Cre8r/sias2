@@ -402,6 +402,11 @@ function renderGallery() {
   if (typeof loadAllStats === 'function') {
     loadAllStats();
   }
+
+  // Load comment counts for gallery cards
+  if (typeof loadAllCommentCounts === 'function') {
+    loadAllCommentCounts();
+  }
 }
 
 /**
