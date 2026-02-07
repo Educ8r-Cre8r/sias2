@@ -323,15 +323,47 @@ async function processImageFromQueue(queueItem) {
     const keywordCost = await generateKeywords(filename, category, metadataPath, nextId, anthropicKey, imageBase64, mediaType);
     totalCost += keywordCost;
 
+    // Generate lesson PDFs for all 6 grade levels
+    console.log('📄 Generating lesson PDFs...');
+    const { generatePDF } = require('./pdf-generator');
+    const logoPath = path.join(repoDir, 'sias_logo.png');
+    let pdfCount = 0;
+
+    for (const grade of GRADE_LEVELS) {
+      try {
+        const contentPath = path.join(repoDir, 'content', category, `${nameNoExt}-${grade.key}.json`);
+        const contentData = JSON.parse(await fs.readFile(contentPath, 'utf8'));
+
+        const pdfBuffer = await generatePDF({
+          title: generateTitle(filename),
+          category,
+          gradeLevel: grade.key,
+          markdownContent: contentData.content,
+          imagePath: targetImagePath,
+          logoPath
+        });
+
+        const pdfDir = path.join(repoDir, 'pdfs', category);
+        await fs.mkdir(pdfDir, { recursive: true });
+        await fs.writeFile(path.join(pdfDir, `${nameNoExt}-${grade.key}.pdf`), pdfBuffer);
+        pdfCount++;
+        console.log(`   ✅ ${grade.name} PDF generated`);
+      } catch (pdfErr) {
+        console.warn(`   ⚠️ ${grade.name} PDF failed (non-blocking): ${pdfErr.message}`);
+      }
+    }
+    console.log(`✅ Generated ${pdfCount} lesson PDFs`);
+
     // Commit and push to GitHub
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
-    await repoGit.commit(`Add ${filename} with educational content, hotspots, and keywords
+    await repoGit.commit(`Add ${filename} with educational content, hotspots, keywords, and lesson PDFs
 
 - Category: ${category}
 - Generated content for all grade levels (K-5)
 - Generated interactive hotspots (3-4 per image)
 - Generated search keywords
+- Generated ${pdfCount} lesson guide PDFs
 - Total cost: $${totalCost.toFixed(2)}
 
 Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);

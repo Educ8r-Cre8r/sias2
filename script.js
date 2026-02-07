@@ -867,18 +867,23 @@ async function openModal(imageId) {
         </div>
         <span class="rating-text">0.0 (0)</span>
       </div>
-      <button class="lesson-pdf-btn" aria-label="Download lesson snippet as PDF" title="Download one-page teacher handout as PDF">
-        📄 Download Lesson Snippet
+      <button class="lesson-pdf-btn" aria-label="Download lesson guide as PDF" title="Download two-page teacher lesson guide as PDF">
+        📄 Download Lesson Guide
       </button>
       <div class="views-count">0 Views</div>
     `;
     modalHeader.parentNode.insertBefore(statsContainer, modalBody);
   }
 
-  // Update download button with current image ID
+  // Update download button to open pre-generated PDF
   const pdfBtn = statsContainer.querySelector('.lesson-pdf-btn');
   if (pdfBtn) {
-    pdfBtn.onclick = () => downloadLessonPDF(image.id);
+    pdfBtn.onclick = () => {
+      const baseFilename = image.filename.replace(/\.[^/.]+$/, ''); // strip extension
+      const gradeKey = state.selectedGradeLevel; // read at click time for grade changes
+      const pdfPath = `pdfs/${image.category}/${baseFilename}-${gradeKey}.pdf`;
+      window.open(pdfPath, '_blank');
+    };
   }
 
   // Load and display ratings/views
