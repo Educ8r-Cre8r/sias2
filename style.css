@@ -1619,32 +1619,37 @@ a:hover {
 
 .visionary-modal-content {
   position: relative;
-  background: var(--color-bg-white);
-  border-radius: var(--radius-lg);
+  background: white;
+  border-radius: 16px;
   width: 90vw;
   max-width: 1200px;
   max-height: 95vh;
-  box-shadow: var(--shadow-xl);
-  z-index: 2001;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  z-index: 10001;
   display: flex;
   flex-direction: column;
-  animation: slideUp 0.3s ease;
+  animation: modalSlideUp 0.3s ease-out;
   overflow: hidden;
 }
 
 .visionary-modal-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 24px 30px;
+  border-radius: 16px 16px 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-lg) var(--spacing-xl);
-  border-bottom: 1px solid var(--color-border);
-  background: var(--color-accent);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .visionary-modal-header h2 {
   margin: 0;
-  font-size: var(--font-size-xl);
-  color: var(--color-text-dark);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
 }
 
 /* Removed .visionary-modal-header .close-btn override - using base .close-btn styles */
@@ -1878,6 +1883,14 @@ a:hover {
   .visionary-modal-content {
     width: 95vw;
     max-height: 90vh;
+  }
+
+  .visionary-modal-header {
+    padding: 20px;
+  }
+
+  .visionary-modal-header h2 {
+    font-size: 1.3rem;
   }
 
   .visionary-text p {
