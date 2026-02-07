@@ -100,12 +100,18 @@ async function submitComment(imageId, text) {
       return false;
     }
 
+    // Get display name and photo from provider data (more reliable than top-level fields)
+    const user = firebase.auth().currentUser || currentUser;
+    const googleProvider = user.providerData && user.providerData.find(p => p.providerId === 'google.com');
+    const displayName = googleProvider?.displayName || user.displayName || user.email || 'User';
+    const photoURL = googleProvider?.photoURL || user.photoURL || null;
+
     // Write comment
     await db.collection('comments').doc(docId).set({
       userId: userId,
       imageId: id,
-      displayName: currentUser.displayName || 'User',
-      photoURL: currentUser.photoURL || null,
+      displayName: displayName,
+      photoURL: photoURL,
       text: trimmed,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       approved: true
