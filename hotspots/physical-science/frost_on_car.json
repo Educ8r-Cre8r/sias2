@@ -5,7 +5,7 @@
       "x": "50%",
       "y": "35%",
       "label": "Frost Crystals",
-      "fact": "The sparkly ice crystals you see covering the grass form when water vapor freezes directly into ice without becoming liquid water first. This process is called deposition and happens on cold winter mornings!"
+      "fact": "The sparkly ice crystals you see covering the hood of the car form when water vapor freezes directly into ice without becoming liquid water first. This process is called deposition and happens on cold winter mornings!"
     },
     {
       "id": 2,
@@ -18,8 +18,8 @@
       "id": 3,
       "x": "20%",
       "y": "50%",
-      "label": "Grass Blades",
-      "fact": "Each blade of grass has its own coating of frost crystals. Plants are covered with these ice layers because they lose water through their leaves, which freezes in freezing temperatures."
+      "label": "Cold Surface",
+      "fact": "When moist air comes into contact with this very cold surface, the water molecules lose thermal energy rapidly and \"lock\" into a solid crystalline structure.  This is distinct from dew freezing; the sharp, feathery points indicate the ice grew directly from the air."
     },
     {
       "id": 4,

@@ -11,15 +11,15 @@
       "id": 2,
       "x": "25%",
       "y": "50%",
-      "label": "Scaled Skin",
-      "fact": "This lizard's skin is covered in tiny overlapping scales that protect its body and help prevent water loss. The scales' bright green color helps the lizard blend in with leaves in its rainforest home."
+      "label": "Textured Jaw",
+      "fact": "The detailed patterns on the jaw show where the lizard's lower and upper jaws meet. These patterns help scientists identify different species and understand how lizards eat and hunt their food."
     },
     {
       "id": 3,
       "x": "70%",
       "y": "60%",
-      "label": "Textured Jaw",
-      "fact": "The detailed patterns on the jaw show where the lizard's lower and upper jaws meet. These patterns help scientists identify different species and understand how lizards eat and hunt their food."
+      "label": "Scaled Skin",
+      "fact": "This lizard's skin is covered in tiny overlapping scales that protect its body and help prevent water loss. The scales' bright green color helps the lizard blend in with leaves in its rainforest home."
     },
     {
       "id": 4,
