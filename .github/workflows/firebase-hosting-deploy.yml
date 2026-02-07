@@ -21,6 +21,9 @@ jobs:
       - name: Rebuild NGSS standards index
         run: node tools/build-ngss-index.cjs
 
+      - name: Check YouTube links
+        run: node tools/check-youtube-links.cjs --ci
+
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:

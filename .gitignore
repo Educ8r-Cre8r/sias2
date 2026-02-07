@@ -31,3 +31,4 @@ functions/index-working-*.js
 
 # Firebase cache
 .firebase/
+youtube-link-report.json
