@@ -35,11 +35,11 @@
       "placeholderPath": "images/life-science/placeholders/Deceased Deer.jpg",
       "keywords": [
         "animal behavior",
-        "rest",
-        "body position",
-        "canine",
-        "animal anatomy",
-        "mammals"
+        "decomposition",
+        "life cycle",
+        "herbivore",
+        "food chain",
+        "mammal"
       ]
     },
     {
@@ -56,9 +56,9 @@
       "keywords": [
         "bird behavior",
         "camouflage",
-        "ground nesting",
+        "bird",
         "animal adaptation",
-        "plover",
+        "feathers",
         "predator protection"
       ]
     },
@@ -257,9 +257,9 @@
         "insect",
         "cicada",
         "life cycle",
-        "plant adaptation",
+        "adaptation",
         "animal behavior",
-        "pollinator"
+        "food chain"
       ]
     },
     {
@@ -316,9 +316,9 @@
       "keywords": [
         "rocks and soil",
         "soil composition",
-        "decomposition",
+        "camouflage",
         "earth materials",
-        "habitat",
+        "sedimentary rock",
         "weathering"
       ]
     },
@@ -338,7 +338,7 @@
         "fungi",
         "decomposition",
         "life cycles",
-        "gills",
+        "decomposer",
         "organism"
       ]
     },
@@ -417,7 +417,7 @@
         "grasshopper",
         "insect",
         "flower",
-        "plant-insect interaction",
+        "food chain",
         "camouflage",
         "life cycle"
       ]
@@ -536,7 +536,7 @@
       "keywords": [
         "animal habitat",
         "garden ecosystem",
-        "meerkat",
+        "food chain",
         "plant growth",
         "camouflage",
         "soil"
@@ -655,7 +655,7 @@
       "placeholderPath": "images/life-science/placeholders/snowy egret.jpeg",
       "keywords": [
         "bird adaptation",
-        "wading bird",
+        "food chain",
         "animal behavior",
         "habitat",
         "predator hunting",
@@ -717,7 +717,7 @@
         "winter",
         "snow",
         "seasonal change",
-        "frozen water",
+        "precipitation",
         "weather",
         "ice"
       ]
@@ -814,12 +814,12 @@
       "webpPath": "images/earth-space-science/webp/e01.webp",
       "placeholderPath": "images/earth-space-science/placeholders/e01.jpeg",
       "keywords": [
-        "weathering",
-        "erosion",
-        "human impact",
-        "urban development",
-        "landforms",
-        "city infrastructure"
+        "sun",
+        "inexhaustible energy",
+        "rotation",
+        "revolution",
+        "sunlight",
+        "night and day"
       ]
     },
     {
@@ -918,7 +918,7 @@
         "ammonite",
         "paleontology",
         "rock formation",
-        "ancient life",
+        "sedimentary rock",
         "earth history"
       ]
     },
@@ -939,7 +939,7 @@
         "shells",
         "rock layers",
         "paleontology",
-        "earth history"
+        "sedimentary rock"
       ]
     },
     {
@@ -979,7 +979,7 @@
         "shell imprints",
         "paleontology",
         "rock layers",
-        "earth history"
+        "sedimentary rock"
       ]
     },
     {
@@ -1056,7 +1056,7 @@
       "keywords": [
         "tree rings",
         "wood",
-        "logging",
+        "patterns",
         "natural resources",
         "renewable resources",
         "forest"
@@ -1099,7 +1099,7 @@
         "water cycle",
         "temperature",
         "states of matter",
-        "crystallization"
+        "solid"
       ]
     },
     {
@@ -1114,11 +1114,11 @@
       "webpPath": "images/physical-science/webp/p11.webp",
       "placeholderPath": "images/physical-science/placeholders/p11.jpg",
       "keywords": [
-        "arch structure",
-        "bridge design",
+        "states of matter",
+        "solid",
         "structural engineering",
         "force and motion",
-        "load bearing",
+        "reflection",
         "construction"
       ]
     },
@@ -1139,7 +1139,7 @@
         "musical instruments",
         "brass instruments",
         "sound energy",
-        "acoustic properties"
+        "sound"
       ]
     },
     {
@@ -1154,11 +1154,11 @@
       "webpPath": "images/physical-science/webp/p13.webp",
       "placeholderPath": "images/physical-science/placeholders/p13.jpg",
       "keywords": [
-        "confetti",
+        "static electricity",
         "gravity",
         "motion",
         "force",
-        "falling objects",
+        "states of matter",
         "air resistance"
       ]
     },
@@ -1174,12 +1174,12 @@
       "webpPath": "images/physical-science/webp/p15.webp",
       "placeholderPath": "images/physical-science/placeholders/p15.jpg",
       "keywords": [
-        "surface tension",
+        "freezing point",
         "water properties",
         "states of matter",
-        "bubble formation",
+        "ice",
         "liquid",
-        "physics"
+        "buoyancy"
       ]
     },
     {
@@ -1194,12 +1194,12 @@
       "webpPath": "images/physical-science/webp/p16.webp",
       "placeholderPath": "images/physical-science/placeholders/p16.jpg",
       "keywords": [
-        "texture",
+        "mixture",
         "states of matter",
-        "food preparation",
-        "heat transfer",
-        "cooking",
-        "material properties"
+        "separation of mixtures",
+        "solids",
+        "food",
+        "properties"
       ]
     },
     {
@@ -1218,7 +1218,7 @@
         "light and shadows",
         "glass",
         "transparency",
-        "architecture",
+        "matter",
         "properties of materials"
       ]
     },
@@ -1238,7 +1238,7 @@
         "color mixing",
         "liquids",
         "matter",
-        "chemical reaction",
+        "states of matter",
         "solutions"
       ]
     },
@@ -1256,7 +1256,7 @@
       "keywords": [
         "sand",
         "rocks",
-        "minerals",
+        "cement",
         "texture",
         "composition",
         "earth materials"
@@ -1314,12 +1314,12 @@
       "webpPath": "images/physical-science/webp/p26.webp",
       "placeholderPath": "images/physical-science/placeholders/p26.jpg",
       "keywords": [
-        "cargo ship",
+        "states of matter",
         "buoyancy",
         "floating",
         "load capacity",
         "density",
-        "maritime engineering"
+        "mass"
       ]
     },
     {
@@ -1334,12 +1334,12 @@
       "webpPath": "images/physical-science/webp/p28.webp",
       "placeholderPath": "images/physical-science/placeholders/p28.jpg",
       "keywords": [
-        "electric transportation",
+        "mechanical energy",
         "energy transfer",
-        "overhead power lines",
+        "kinetic energy",
         "electrical energy",
         "motion",
-        "electric train"
+        "states of matter"
       ]
     },
     {
@@ -1355,11 +1355,11 @@
       "placeholderPath": "images/physical-science/placeholders/p30.jpg",
       "keywords": [
         "waves",
-        "ocean energy",
+        "kinetic energy",
         "erosion",
-        "rocks",
-        "water force",
-        "coastal weathering"
+        "states of matter",
+        "force",
+        "sound energy"
       ]
     },
     {
@@ -1374,11 +1374,11 @@
       "webpPath": "images/physical-science/webp/p31.webp",
       "placeholderPath": "images/physical-science/placeholders/p31.jpg",
       "keywords": [
-        "time",
-        "clock",
-        "measurement",
-        "tools",
-        "timekeeping",
+        "kinetic energy",
+        "thermal energy",
+        "reflection",
+        "light and shadows",
+        "states of matter",
         "motion"
       ]
     },
@@ -1419,7 +1419,7 @@
         "water cycle",
         "states of matter",
         "temperature",
-        "icicles"
+        "freezing point"
       ]
     },
     {
@@ -1437,7 +1437,7 @@
         "rust",
         "oxidation",
         "corrosion",
-        "weathering",
+        "states of matter",
         "metal degradation",
         "chemical change"
       ]
@@ -1476,10 +1476,10 @@
       "keywords": [
         "frost",
         "ice crystals",
-        "winter",
+        "seasons",
         "plant adaptation",
         "weather",
-        "frozen water"
+        "dew"
       ]
     },
     {
@@ -1517,7 +1517,7 @@
         "autumn",
         "ecosystem",
         "deciduous trees",
-        "seasonal change",
+        "seasons",
         "woodland habitat",
         "water environment"
       ]
@@ -1559,7 +1559,7 @@
         "animal adaptation",
         "life cycle",
         "wings",
-        "nature"
+        "food chain"
       ]
     },
     {
@@ -1614,10 +1614,10 @@
       "webpPath": "images/life-science/webp/stinkhorn_mushroom.pg.webp",
       "placeholderPath": "images/life-science/placeholders/stinkhorn_mushroom.pg.jpg",
       "keywords": [
-        "slug",
-        "mollusk",
-        "gastropod",
-        "animal adaptation",
+        "organic",
+        "organism",
+        "nutients",
+        "life cycle",
         "soil organism",
         "decomposer"
       ]
@@ -1638,7 +1638,7 @@
         "frog",
         "camouflage",
         "adaptation",
-        "animal habitat",
+        "food chain",
         "life cycle"
       ]
     },
@@ -1657,7 +1657,7 @@
         "toad",
         "amphibian",
         "animal adaptation",
-        "insect predation",
+        "food chain",
         "desert habitat",
         "life cycles"
       ]
@@ -1697,7 +1697,7 @@
         "reptile",
         "turtle",
         "habitat",
-        "animal behavior",
+        "food chain",
         "shell",
         "camouflage"
       ]
@@ -1774,11 +1774,11 @@
       "webpPath": "images/physical-science/webp/robot.webp",
       "placeholderPath": "images/physical-science/placeholders/robot.jpg",
       "keywords": [
-        "robot",
-        "technology",
+        "sound energy",
+        "light energy",
         "engineering",
         "simple machines",
-        "design",
+        "kinetic energy",
         "mechanical"
       ]
     },
@@ -1799,7 +1799,7 @@
         "camouflage",
         "reptile",
         "predator",
-        "ecosystem"
+        "life cycle"
       ]
     },
     {
@@ -1855,7 +1855,7 @@
       "placeholderPath": "images/earth-space-science/placeholders/soil.jpg",
       "keywords": [
         "soil layers",
-        "soil profile",
+        "dirt",
         "soil composition",
         "erosion",
         "plant roots",
@@ -1919,7 +1919,7 @@
         "snow",
         "seasons",
         "climate",
-        "observation"
+        "freezing point"
       ]
     },
     {
@@ -1936,8 +1936,8 @@
       "keywords": [
         "arachnid",
         "spider",
-        "animal habitat",
-        "soil ecosystem",
+        "life cycle",
+        "food chain",
         "predator",
         "arthropod"
       ]
@@ -1959,7 +1959,7 @@
         "lever",
         "force",
         "work",
-        "mechanical advantage"
+        "mechanical energy"
       ]
     },
     {
@@ -1976,7 +1976,7 @@
       "keywords": [
         "autumn",
         "seasons",
-        "fall foliage",
+        "landforms",
         "water cycle",
         "ecosystem",
         "erosion"
@@ -2015,11 +2015,11 @@
       "placeholderPath": "images/life-science/placeholders/camouflage.jpg",
       "keywords": [
         "decomposition",
-        "dead wood",
-        "decay",
-        "forest floor",
+        "predator",
+        "prey",
+        "camouflage",
         "organism habitat",
-        "nutrient cycle"
+        "reptile"
       ]
     },
     {
@@ -2056,10 +2056,10 @@
       "keywords": [
         "snake",
         "reptile",
-        "coral snake",
+        "king snake",
         "animal behavior",
         "predator adaptation",
-        "animal characteristics"
+        "predator"
       ]
     },
     {
@@ -2098,7 +2098,7 @@
         "larva",
         "grub",
         "metamorphosis",
-        "soil organism",
+        "food chain",
         "beetle development"
       ]
     },
@@ -2137,7 +2137,7 @@
         "reptile",
         "alligator",
         "animal behavior",
-        "wildlife handling",
+        "predator",
         "scales",
         "habitats"
       ]
@@ -2179,7 +2179,7 @@
         "parent-child",
         "bird behavior",
         "life cycles",
-        "animal care"
+        "offspring"
       ]
     },
     {
@@ -2218,8 +2218,8 @@
         "force",
         "jumping",
         "physics",
-        "athletic performance",
-        "body mechanics"
+        "kinetic energy",
+        "potential energy"
       ]
     },
     {
@@ -2234,11 +2234,11 @@
       "webpPath": "images/life-science/webp/alligator_predator.webp",
       "placeholderPath": "images/life-science/placeholders/alligator_predator.jpg",
       "keywords": [
-        "wetland habitat",
-        "marsh plants",
-        "water ecosystem",
-        "plant adaptation",
-        "shallow water",
+        "food chain",
+        "predator",
+        "life cycle",
+        "adaptation",
+        "reptile",
         "aquatic life"
       ]
     },
@@ -2259,7 +2259,7 @@
         "bean pods",
         "plant structures",
         "life cycles",
-        "vegetable garden"
+        "seeds"
       ]
     },
     {
@@ -2399,7 +2399,7 @@
         "metamorphosis",
         "insect reproduction",
         "organism development",
-        "cicada"
+        "prey"
       ]
     },
     {
@@ -2414,10 +2414,10 @@
       "title": "Thermal Energy",
       "hasContent": true,
       "keywords": [
-        "cooking",
+        "gas",
         "heat transfer",
         "states of matter",
-        "egg",
+        "liquid",
         "chemical change",
         "temperature"
       ]
@@ -2434,7 +2434,7 @@
       "title": "Praying Mantis",
       "hasContent": true,
       "keywords": [
-        "praying mantis",
+        "predator",
         "insect",
         "predator",
         "adaptation",
@@ -2457,7 +2457,7 @@
         "bird behavior",
         "animal adaptation",
         "habitat",
-        "wildlife",
+        "food chain",
         "bird perch",
         "natural selection"
       ]
@@ -2518,8 +2518,8 @@
         "animal adaptation",
         "spider",
         "habitat",
-        "tree bark",
-        "natural selection"
+        "arachnid",
+        "prey"
       ]
     },
     {
@@ -2538,7 +2538,7 @@
         "lizard",
         "scales",
         "adaptation",
-        "animal skin",
+        "scales",
         "camouflage"
       ]
     },
@@ -2574,11 +2574,11 @@
       "title": "Engineering",
       "hasContent": true,
       "keywords": [
-        "robotics",
+        "kinetic energy",
         "simple machines",
         "engineering design",
         "motion",
-        "wheels and axles",
+        "mechanical energy",
         "energy transfer"
       ]
     },
@@ -2596,10 +2596,10 @@
       "keywords": [
         "simple machines",
         "lever",
-        "excavator",
-        "mechanical advantage",
+        "kinetic energy",
+        "mechanical energy",
         "work",
-        "tools"
+        "force"
       ]
     },
     {
@@ -2618,8 +2618,8 @@
         "winter weather",
         "frost",
         "seasonal change",
-        "daffodil",
-        "plant adaptation"
+        "precipitation",
+        "water cycle"
       ]
     },
     {
@@ -2654,9 +2654,9 @@
       "title": "Herbivore",
       "hasContent": true,
       "keywords": [
-        "animal tracks",
-        "wildlife observation",
-        "soil",
+        "herbivore",
+        "mammal",
+        "prey",
         "habitat",
         "animal behavior",
         "ecosystem"
@@ -2714,10 +2714,10 @@
       "title": "Mixtures",
       "hasContent": true,
       "keywords": [
-        "mixing",
+        "mixture",
         "chemical reaction",
-        "baking",
-        "ingredients",
+        "solutions",
+        "solids",
         "states of matter",
         "physical properties"
       ]
@@ -2775,7 +2775,7 @@
       "hasContent": true,
       "keywords": [
         "insect",
-        "grasshopper",
+        "exoskeleton",
         "camouflage",
         "habitat",
         "animal adaptation",
@@ -2798,7 +2798,7 @@
         "pollination",
         "flowers",
         "animal adaptation",
-        "nectar",
+        "bird",
         "plant and animal interactions"
       ]
     },
@@ -2814,12 +2814,12 @@
       "title": "Properties Of Matter",
       "hasContent": true,
       "keywords": [
-        "coolant",
-        "engine systems",
-        "fluid transfer",
-        "heat management",
-        "automotive maintenance",
-        "mechanical systems"
+        "states of matter",
+        "work",
+        "kinetic energy",
+        "thermal energy",
+        "systems",
+        "mechanical energy"
       ]
     },
     {
@@ -2838,7 +2838,7 @@
         "friction",
         "simple machines",
         "rails",
-        "transportation",
+        "states of matter",
         "parallel lines"
       ]
     },
@@ -2934,12 +2934,12 @@
       "title": "States Of Matter",
       "hasContent": true,
       "keywords": [
-        "water infrastructure",
-        "erosion control",
-        "drainage system",
-        "utility management",
-        "flood prevention",
-        "civil engineering"
+        "water",
+        "liquid",
+        "states of matter",
+        "force",
+        "kinetic energy",
+        "sound energy"
       ]
     },
     {
@@ -2979,7 +2979,7 @@
         "foraging",
         "predator",
         "adaptation",
-        "wildlife"
+        "food chain"
       ]
     },
     {
@@ -2994,11 +2994,11 @@
       "title": "Tires",
       "hasContent": true,
       "keywords": [
-        "tire tread",
+        "states of matter",
         "friction",
-        "texture",
-        "materials",
-        "wear and tear",
+        "force",
+        "solid",
+        "systems",
         "physical properties"
       ]
     }
