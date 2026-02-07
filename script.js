@@ -817,9 +817,9 @@ async function openModal(imageId) {
     return;
   }
 
-  // Record view (Firebase)
+  // Record view (Firebase) - await so the count is updated before we read it
   if (typeof recordPhotoView === 'function') {
-    recordPhotoView(image.id);
+    await recordPhotoView(image.id);
   }
 
   // Show modal
