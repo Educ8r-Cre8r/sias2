@@ -867,9 +867,18 @@ async function openModal(imageId) {
         </div>
         <span class="rating-text">0.0 (0)</span>
       </div>
+      <button class="lesson-pdf-btn" aria-label="Download lesson snippet as PDF" title="Download one-page teacher handout as PDF">
+        📄 Download Lesson Snippet
+      </button>
       <div class="views-count">0 Views</div>
     `;
     modalHeader.parentNode.insertBefore(statsContainer, modalBody);
+  }
+
+  // Update download button with current image ID
+  const pdfBtn = statsContainer.querySelector('.lesson-pdf-btn');
+  if (pdfBtn) {
+    pdfBtn.onclick = () => downloadLessonPDF(image.id);
   }
 
   // Load and display ratings/views
