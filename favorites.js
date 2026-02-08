@@ -193,8 +193,13 @@ function toggleCollectionFilter() {
     state.searchQuery = '';
     state.ngssFilter = null;
 
-    // Reset category button states (exclude collection button)
-    document.querySelectorAll('.filter-btn:not(.collection-filter-btn)').forEach(b => {
+    // Clear featured filter
+    if (typeof clearFeaturedFilter === 'function') {
+      clearFeaturedFilter();
+    }
+
+    // Reset category button states (exclude collection and featured buttons)
+    document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(b => {
       b.classList.remove('active');
       b.setAttribute('aria-pressed', 'false');
     });

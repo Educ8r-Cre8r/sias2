@@ -116,11 +116,6 @@
                     <span class="category-icon">⚗️</span>
                     Physical Science
                 </button>
-                <button class="filter-btn collection-filter-btn" id="my-collection-btn" onclick="toggleCollectionFilter()" aria-pressed="false" style="display: none;">
-                    <span class="collection-label">My Collection</span>
-                    <span class="collection-heart-emoji">&#x2764;&#xFE0F;</span>
-                    <span class="category-badge collection-badge" id="collection-badge" style="display: none;">0</span>
-                </button>
             </nav>
             </div>
 
@@ -147,6 +142,11 @@
                     <option value="fourth-grade">4th Grade</option>
                     <option value="fifth-grade">5th Grade</option>
                 </select>
+                <button class="filter-btn collection-filter-btn" id="my-collection-btn" onclick="toggleCollectionFilter()" aria-pressed="false" style="display: none;">
+                    <span class="collection-label">My Collection</span>
+                    <span class="collection-heart-emoji">&#x2764;&#xFE0F;</span>
+                    <span class="category-badge collection-badge" id="collection-badge" style="display: none;">0</span>
+                </button>
             </div>
 
             <!-- NGSS Standards Search -->
@@ -167,6 +167,15 @@
                     <div id="ngss-suggestions" class="ngss-suggestions" style="display:none;"></div>
                 </div>
                 <div id="ngss-active-filter" class="ngss-active-filter" style="display:none;"></div>
+            </div>
+
+            <!-- Featured Collection -->
+            <div class="featured-collection-container">
+                <button class="filter-btn featured-filter-btn" id="featured-pollination-btn" onclick="toggleFeaturedFilter()" aria-pressed="false">
+                    <span class="featured-label">Featured Collection - Pollination</span>
+                    <span class="featured-icon-emoji">💡</span>
+                    <span class="category-badge featured-badge" id="featured-badge" style="display: none;">0</span>
+                </button>
             </div>
 
             <!-- Loading State -->

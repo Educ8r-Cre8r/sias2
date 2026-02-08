@@ -14,7 +14,8 @@ const state = {
   filteredImages: [], // Current filtered image set
   ngssIndex: null, // NGSS standards index (loaded on demand)
   ngssFilter: null, // Active NGSS filter { type, code, imageIds }
-  collectionFilter: false // My Collection filter active
+  collectionFilter: false, // My Collection filter active
+  featuredFilter: false // Featured Collection filter active
 };
 
 const IMAGES_PER_PAGE = 24;
@@ -84,6 +85,7 @@ async function initializeApp() {
   await loadGalleryData();
   computeRecentImages();
   updateCategoryBadges();
+  updateFeaturedBadge();
   loadFiltersFromURL(); // Apply filters from URL if present
   renderGallery();
 }
@@ -104,7 +106,7 @@ function updateCopyrightYear() {
  */
 function setupEventListeners() {
   // Category filter buttons (exclude collection button — it has its own onclick)
-  const filterButtons = document.querySelectorAll('.filter-btn:not(.collection-filter-btn)');
+  const filterButtons = document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)');
   filterButtons.forEach(btn => {
     btn.addEventListener('click', handleCategoryFilter);
   });
@@ -203,6 +205,11 @@ function updateURL() {
     params.set('collection', 'mine');
   }
 
+  // Add featured filter if active
+  if (state.featuredFilter) {
+    params.set('featured', 'pollination');
+  }
+
   // Update URL without reloading the page
   const newURL = params.toString() ? `?${params}` : window.location.pathname;
   window.history.pushState({}, '', newURL);
@@ -220,7 +227,7 @@ function loadFiltersFromURL() {
     state.currentCategory = category;
 
     // Update UI to reflect the category (exclude collection button)
-    document.querySelectorAll('.filter-btn:not(.collection-filter-btn)').forEach(btn => {
+    document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(btn => {
       if (btn.dataset.category === category) {
         btn.classList.add('active');
         btn.setAttribute('aria-pressed', 'true');
@@ -262,6 +269,16 @@ function loadFiltersFromURL() {
     if (collectionBtn) {
       collectionBtn.classList.add('active');
       collectionBtn.setAttribute('aria-pressed', 'true');
+    }
+  }
+
+  // Apply featured filter from URL
+  if (params.get('featured') === 'pollination') {
+    state.featuredFilter = true;
+    const featuredBtn = document.getElementById('featured-pollination-btn');
+    if (featuredBtn) {
+      featuredBtn.classList.add('active');
+      featuredBtn.setAttribute('aria-pressed', 'true');
     }
   }
 }
@@ -326,7 +343,7 @@ function updateCategoryBadges() {
     }
   });
 
-  document.querySelectorAll('.filter-btn:not(.collection-filter-btn)').forEach(btn => {
+  document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(btn => {
     const category = btn.dataset.category;
     const count = counts[category] || 0;
 
@@ -384,6 +401,13 @@ function renderGallery() {
     filteredImages = filteredImages.filter(img => isPhotoFavorited(img.id));
   }
 
+  // Apply Featured Collection filter (keyword-based)
+  if (state.featuredFilter) {
+    filteredImages = filteredImages.filter(img =>
+      Array.isArray(img.keywords) && img.keywords.some(kw => kw.toLowerCase() === 'pollination')
+    );
+  }
+
   // Store filtered images in state for Load More
   state.filteredImages = filteredImages;
 
@@ -399,6 +423,8 @@ function renderGallery() {
   if (filteredImages.length === 0) {
     if (state.collectionFilter) {
       showEmptyState('Your collection is empty. Open a photo\'s lesson content and tap the heart to add it to your collection!');
+    } else if (state.featuredFilter) {
+      showEmptyState('No photos found for this featured collection.');
     } else {
       showEmptyState('No images found matching your criteria.');
     }
@@ -618,7 +644,7 @@ function handleCategoryFilter(event) {
   const category = button.dataset.category;
 
   // Update active state (exclude collection button)
-  document.querySelectorAll('.filter-btn:not(.collection-filter-btn)').forEach(btn => {
+  document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(btn => {
     btn.classList.remove('active');
     btn.setAttribute('aria-pressed', 'false');
   });
@@ -638,6 +664,8 @@ function handleCategoryFilter(event) {
   if (typeof clearCollectionFilter === 'function') {
     clearCollectionFilter();
   }
+  // Clear featured filter when switching categories
+  clearFeaturedFilter();
   updateURL(); // Update URL to reflect new filter state
   renderGallery();
 }
@@ -658,6 +686,8 @@ function handleSearch(event) {
   if (typeof clearCollectionFilter === 'function') {
     clearCollectionFilter();
   }
+  // Clear featured filter when searching
+  clearFeaturedFilter();
   updateURL(); // Update URL to reflect new search query
   renderGallery();
 }
@@ -763,7 +793,7 @@ function selectNGSSStandard(type, code) {
   if (searchInput) searchInput.value = '';
 
   state.currentCategory = 'all';
-  document.querySelectorAll('.filter-btn:not(.collection-filter-btn)').forEach(btn => {
+  document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.category === 'all');
     btn.setAttribute('aria-pressed', btn.dataset.category === 'all' ? 'true' : 'false');
   });
@@ -1773,6 +1803,99 @@ function scrollModalToTop(modalBodyId) {
   }
 }
 
+/**
+ * ==========================================
+ * FEATURED COLLECTION FILTER
+ * ==========================================
+ */
+
+/**
+ * Toggle Featured Collection (Pollination) filter on/off
+ */
+function toggleFeaturedFilter() {
+  const btn = document.getElementById('featured-pollination-btn');
+  if (!btn) return;
+
+  if (state.featuredFilter) {
+    // Deactivate
+    state.featuredFilter = false;
+    btn.classList.remove('active');
+    btn.setAttribute('aria-pressed', 'false');
+  } else {
+    // Activate
+    state.featuredFilter = true;
+    btn.classList.add('active');
+    btn.setAttribute('aria-pressed', 'true');
+
+    // Clear other filters
+    state.currentCategory = 'all';
+    state.searchQuery = '';
+    state.ngssFilter = null;
+    state.collectionFilter = false;
+
+    // Reset category buttons
+    document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-pressed', 'false');
+    });
+    const allBtn = document.querySelector('.filter-btn[data-category="all"]');
+    if (allBtn) {
+      allBtn.classList.add('active');
+      allBtn.setAttribute('aria-pressed', 'true');
+    }
+
+    // Clear collection button
+    const collectionBtn = document.getElementById('my-collection-btn');
+    if (collectionBtn) {
+      collectionBtn.classList.remove('active');
+      collectionBtn.setAttribute('aria-pressed', 'false');
+    }
+
+    // Clear search input
+    const searchInput = document.getElementById('gallery-search');
+    if (searchInput) searchInput.value = '';
+
+    // Clear NGSS filter UI
+    const activeFilter = document.getElementById('ngss-active-filter');
+    if (activeFilter) activeFilter.style.display = 'none';
+    const ngssInput = document.getElementById('ngss-search');
+    if (ngssInput) ngssInput.value = '';
+    const clearBtn = document.getElementById('ngss-clear-btn');
+    if (clearBtn) clearBtn.style.display = 'none';
+  }
+
+  state.visibleCount = IMAGES_PER_PAGE;
+  updateURL();
+  renderGallery();
+}
+
+/**
+ * Clear the featured filter (called when other filters are activated)
+ */
+function clearFeaturedFilter() {
+  state.featuredFilter = false;
+  const btn = document.getElementById('featured-pollination-btn');
+  if (btn) {
+    btn.classList.remove('active');
+    btn.setAttribute('aria-pressed', 'false');
+  }
+}
+
+/**
+ * Update the Featured Collection badge with matching photo count
+ */
+function updateFeaturedBadge() {
+  const badge = document.getElementById('featured-badge');
+  if (!badge || !state.galleryData || !state.galleryData.images) return;
+
+  const count = state.galleryData.images.filter(img =>
+    Array.isArray(img.keywords) && img.keywords.some(kw => kw.toLowerCase() === 'pollination')
+  ).length;
+
+  badge.textContent = count;
+  badge.style.display = count > 0 ? 'inline-flex' : 'none';
+}
+
 // Export functions for onclick handlers in HTML
 window.openModal = openModal;
 window.closeModal = closeModal;
@@ -1788,6 +1911,8 @@ window.closeVisionaryModal = closeVisionaryModal;
 window.scrollToGallerySmooth = scrollToGallerySmooth;
 window.scrollModalToTop = scrollModalToTop;
 window.resetTutorial = resetTutorial; // Export for testing
+window.toggleFeaturedFilter = toggleFeaturedFilter;
+window.clearFeaturedFilter = clearFeaturedFilter;
 
 
 /**

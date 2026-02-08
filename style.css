@@ -4044,3 +4044,67 @@ a:hover {
     display: none;
   }
 }
+
+/* ============================================
+   Featured Collection System
+   ============================================ */
+
+.featured-collection-container {
+  max-width: 600px;
+  margin: 0 auto var(--spacing-lg);
+  text-align: center;
+}
+
+.featured-filter-btn {
+  position: relative;
+}
+
+.featured-icon-emoji {
+  font-size: 1em;
+  line-height: 1;
+}
+
+.featured-filter-btn.active {
+  background-color: #f59e0b !important;
+  border-color: #f59e0b !important;
+  color: white !important;
+}
+
+.featured-filter-btn:hover:not(.active) {
+  border-color: #f59e0b;
+  color: #d97706;
+}
+
+.featured-badge {
+  background-color: #f59e0b;
+  color: white;
+  min-width: 20px;
+  height: 20px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+.featured-filter-btn.active .featured-badge {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .featured-label {
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 400px) {
+  .featured-label {
+    font-size: 0.75rem;
+  }
+}
