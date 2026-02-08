@@ -764,7 +764,7 @@ a:hover {
 .gallery-item {
   background-color: var(--color-bg-white);
   border-radius: var(--radius-lg);
-  overflow: hidden;
+  overflow: visible;
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-base);
   animation: fadeIn 0.5s ease;
@@ -783,6 +783,7 @@ a:hover {
   overflow: hidden;
   background-color: var(--color-bg-light);
   filter: blur(0);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
 }
 
 .image-container img,
