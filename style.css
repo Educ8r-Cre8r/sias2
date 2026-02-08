@@ -842,12 +842,54 @@ a:hover {
   box-shadow: var(--shadow-sm);
   border: none;
   flex-shrink: 0;
+  position: relative;
 }
 
 .notebook-icon-btn:hover {
   transform: scale(1.1);
   background-color: var(--color-accent);
   box-shadow: var(--shadow-md);
+}
+
+/* Tooltip above notebook button — matches badge tooltip style */
+.notebook-icon-btn[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.9);
+  background-color: var(--color-text-dark);
+  color: white;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.7rem;
+  font-weight: 500;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+
+.notebook-icon-btn[data-tooltip]::before {
+  content: '';
+  position: absolute;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-top-color: var(--color-text-dark);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.notebook-icon-btn[data-tooltip]:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
+.notebook-icon-btn[data-tooltip]:hover::before {
+  opacity: 1;
 }
 
 .notebook-icon-btn svg {
