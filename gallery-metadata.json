@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-06T23:18:20.695Z",
-  "totalImages": 150,
+  "lastUpdated": "2026-02-08T00:01:22.787Z",
+  "totalImages": 151,
   "images": [
     {
       "id": 1,
@@ -3000,6 +3000,26 @@
         "solid",
         "systems",
         "physical properties"
+      ]
+    },
+    {
+      "id": 151,
+      "filename": "earthworm.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/earthworm.jpg",
+      "thumbPath": "images/life-science/thumbs/earthworm.jpg",
+      "webpPath": "images/life-science/webp/earthworm.webp",
+      "placeholderPath": "images/life-science/placeholders/earthworm.jpg",
+      "contentFile": "content/life-science/earthworm.json",
+      "title": "Earthworm",
+      "hasContent": true,
+      "keywords": [
+        "earthworm",
+        "decomposer",
+        "soil organism",
+        "ecosystem",
+        "animal habitat",
+        "life cycle"
       ]
     }
   ]

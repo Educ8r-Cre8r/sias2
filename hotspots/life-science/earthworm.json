@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "45%",
+      "label": "Earthworm Body",
+      "fact": "Earthworms have long, tube-shaped bodies made up of ring-like segments called annuli. These segments help the worm stretch and compress as it moves through soil and tunnels underground."
+    },
+    {
+      "id": 2,
+      "x": "35%",
+      "y": "50%",
+      "label": "Worm Skin",
+      "fact": "Earthworm skin is moist and slimy, which helps them breathe! Unlike humans, earthworms don't have lungs—they absorb oxygen directly through their skin, which is why they need to stay damp."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "48%",
+      "label": "Worm Movement",
+      "fact": "Earthworms move by contracting and relaxing their muscle segments in waves. This motion pushes them forward through soil, creating tunnels that help water and air reach plant roots."
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "25%",
+      "label": "Grass Habitat",
+      "fact": "Earthworms live in soil under grass and plants. They are decomposers that break down dead leaves and organic matter, turning it into nutrient-rich soil that helps plants grow."
+    }
+  ]
+}
