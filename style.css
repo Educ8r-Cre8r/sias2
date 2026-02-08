@@ -19,10 +19,27 @@
 
   /* Neutrals */
   --color-text-dark: #212121;
+  --color-text-medium: #333333;
   --color-text-light: #757575;
+  --color-text-muted: #666666;
   --color-bg-light: #FAFAFA;
   --color-bg-white: #FFFFFF;
   --color-border: #E0E0E0;
+
+  /* Interactive / Focus */
+  --color-primary-dark: #1E40AF;
+  --color-primary-hover: #1a6b8a;
+  --color-accent-dark: #D97706;
+  --color-focus: #3b82f6;
+  --color-interactive: #667eea;
+  --color-interactive-dark: #764ba2;
+
+  /* Feature Colors */
+  --color-heart: #e91e63;
+  --color-heart-bg: #fce4ec;
+  --color-star: #f59e0b;
+  --color-error: #d32f2f;
+  --color-success-text: #2E7D32;
 
   /* Alerts & Warnings */
   --color-warning-bg: #FFF9C4;
@@ -275,7 +292,7 @@ a:hover {
 }
 
 .overview-btn:hover {
-  background-color: #1E40AF;
+  background-color: var(--color-primary-dark);
   transform: translateY(-2px);
   box-shadow: var(--shadow-xl);
 }
@@ -287,7 +304,7 @@ a:hover {
 }
 
 .explore-btn:hover {
-  background-color: #D97706;
+  background-color: var(--color-accent-dark);
   transform: translateY(-2px);
   box-shadow: var(--shadow-xl);
 }
@@ -362,7 +379,7 @@ a:hover {
   position: absolute;
   width: 5px;
   height: 5px;
-  background-color: #2e86ab;
+  background-color: var(--color-primary);
   border-radius: 50%;
   animation: floatUpDown ease-in-out infinite;
 }
@@ -540,14 +557,14 @@ a:hover {
 }
 
 .ngss-input-group:hover {
-  border-color: #3b82f6;
-  color: #3b82f6;
+  border-color: var(--color-focus);
+  color: var(--color-focus);
   transform: translateY(-2px);
   box-shadow: var(--shadow-sm);
 }
 
 .ngss-input-group:focus-within {
-  border-color: #3b82f6;
+  border-color: var(--color-focus);
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
 }
 
@@ -575,7 +592,7 @@ a:hover {
 }
 
 .ngss-input-group:hover .ngss-search-input::placeholder {
-  color: #3b82f6;
+  color: var(--color-focus);
 }
 
 .ngss-clear-btn {
@@ -645,8 +662,8 @@ a:hover {
 }
 
 .ngss-type-dci {
-  background: #E8F5E9;
-  color: #2E7D32;
+  background: var(--color-udl-bg);
+  color: var(--color-success-text);
 }
 
 .ngss-type-ccc {
@@ -895,7 +912,7 @@ a:hover {
   align-items: center;
   gap: 10px;
   padding: 14px 36px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-interactive) 0%, var(--color-interactive-dark) 100%);
   color: white;
   border: none;
   border-radius: var(--radius-full);
@@ -1121,7 +1138,7 @@ a:hover {
   border: none;
   outline: none;
   background: transparent;
-  color: #333;
+  color: var(--color-text-medium);
   cursor: pointer;
   border-radius: 0;
   transition: all 0.3s ease;
@@ -1238,7 +1255,7 @@ a:hover {
 }
 
 .ngss-link:hover {
-  background-color: #D97706;
+  background-color: var(--color-accent-dark);
   text-decoration: none;
   transform: translateY(-1px);
   box-shadow: var(--shadow-sm);
@@ -1386,7 +1403,7 @@ a:hover {
 
 /* Image Modal Header */
 .image-modal-header {
-  background: #fff9c4;
+  background: var(--color-warning-bg);
   padding: var(--spacing-md) var(--spacing-lg);
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   display: flex;
@@ -1514,7 +1531,7 @@ a:hover {
 
 /* Video Modal Header */
 .video-modal-header {
-  background: #fff9c4;
+  background: var(--color-warning-bg);
   padding: var(--spacing-md) var(--spacing-lg);
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   display: flex;
@@ -1658,7 +1675,7 @@ a:hover {
 }
 
 .visionary-modal-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-interactive) 0%, var(--color-interactive-dark) 100%);
   color: white;
   padding: 24px 30px;
   border-radius: 16px 16px 0 0;
@@ -1772,7 +1789,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 0;
-  background: #F18F01;
+  background: var(--color-accent);
   color: white;
   border: none;
   border-radius: 50%;
@@ -1816,7 +1833,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 0;
-  background: #F18F01;
+  background: var(--color-accent);
   color: white;
   border: none;
   border-radius: 50%;
@@ -2327,7 +2344,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: linear-gradient(135deg, var(--color-primary), #1a6b8a);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-hover));
   color: white;
   border: none;
   padding: 8px 18px;
@@ -2344,7 +2361,7 @@ a:hover {
 }
 
 .lesson-pdf-btn:hover {
-  background: linear-gradient(135deg, #1a6b8a, var(--color-primary));
+  background: linear-gradient(135deg, var(--color-primary-hover), var(--color-primary));
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
@@ -2400,7 +2417,7 @@ a:hover {
 
 .star-btn {
   font-size: 2em;
-  color: #DDD;
+  color: var(--color-border);
   cursor: pointer;
   transition: color var(--transition-fast), transform var(--transition-fast);
   padding: 0 var(--spacing-xs);
@@ -2417,8 +2434,8 @@ a:hover {
 
 .rating-submitted {
   padding: var(--spacing-sm);
-  background-color: #E8F5E9;
-  color: #2E7D32;
+  background-color: var(--color-udl-bg);
+  color: var(--color-success-text);
   border-radius: var(--radius-md);
   font-weight: 600;
   text-align: center;
@@ -2498,7 +2515,7 @@ a:hover {
 }
 
 .comment-submit-btn:hover {
-  background-color: #256d8a;
+  background-color: var(--color-primary-hover);
 }
 
 .comment-submit-btn:disabled {
@@ -2616,7 +2633,7 @@ a:hover {
 }
 
 .comment-delete-btn:hover {
-  color: #d32f2f;
+  color: var(--color-error);
 }
 
 /* Gallery Card Comment Count */
@@ -2685,8 +2702,8 @@ a:hover {
   gap: 8px;
   padding: 10px 20px;
   background: white;
-  color: #333;
-  border: 1px solid #ddd;
+  color: var(--color-text-medium);
+  border: 1px solid var(--color-border);
   border-radius: 6px;
   font-size: 14px;
   font-weight: 500;
@@ -2733,7 +2750,7 @@ a:hover {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-interactive) 0%, var(--color-interactive-dark) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2817,7 +2834,7 @@ a:hover {
 .user-name-menu {
   font-size: 16px;
   font-weight: 600;
-  color: #333;
+  color: var(--color-text-medium);
   margin-bottom: 4px;
   white-space: nowrap;
   overflow: hidden;
@@ -2826,7 +2843,7 @@ a:hover {
 
 .user-email-menu {
   font-size: 13px;
-  color: #666;
+  color: var(--color-text-muted);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2835,7 +2852,7 @@ a:hover {
 /* Menu Divider */
 .user-menu-divider {
   height: 1px;
-  background: #e0e0e0;
+  background: var(--color-border);
 }
 
 /* Menu Items */
@@ -2849,7 +2866,7 @@ a:hover {
   border: none;
   cursor: pointer;
   font-size: 14px;
-  color: #333;
+  color: var(--color-text-medium);
   transition: background 0.2s ease;
   text-align: left;
 }
@@ -2860,7 +2877,7 @@ a:hover {
 
 .user-menu-item svg {
   flex-shrink: 0;
-  color: #666;
+  color: var(--color-text-muted);
 }
 
 /* Responsive Design */
@@ -2962,7 +2979,7 @@ a:hover {
   width: 40px;
   height: 40px;
   background: rgba(255, 255, 255, 0.95);
-  border: 3px solid #667eea;
+  border: 3px solid var(--color-interactive);
   border-radius: 50%;
   cursor: pointer;
   transform: translate(-50%, -50%);
@@ -2970,7 +2987,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: #667eea;
+  color: var(--color-interactive);
   font-size: 1.2rem;
   transition: all 0.3s ease;
   pointer-events: auto; /* Enable clicks on hotspots */
@@ -2989,14 +3006,14 @@ a:hover {
 
 .hotspot:hover {
   transform: translate(-50%, -50%) scale(1.2);
-  background: #667eea;
+  background: var(--color-interactive);
   color: white;
   animation: none;
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
 
 .hotspot.active {
-  background: #667eea;
+  background: var(--color-interactive);
   color: white;
   transform: translate(-50%, -50%) scale(1.2);
   animation: none;
@@ -3006,7 +3023,7 @@ a:hover {
 /* Hotspot tooltip */
 .hotspot-tooltip {
   position: absolute;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-interactive) 0%, var(--color-interactive-dark) 100%);
   color: white;
   padding: 20px;
   border-radius: 12px;
@@ -3099,28 +3116,28 @@ a:hover {
   bottom: -20px;
   left: 50%;
   transform: translateX(-50%);
-  border-top-color: #764ba2;
+  border-top-color: var(--color-interactive-dark);
 }
 
 .hotspot-tooltip.tooltip-bottom::before {
   top: -20px;
   left: 50%;
   transform: translateX(-50%);
-  border-bottom-color: #667eea;
+  border-bottom-color: var(--color-interactive);
 }
 
 .hotspot-tooltip.tooltip-left::before {
   right: -20px;
   top: 50%;
   transform: translateY(-50%);
-  border-left-color: #764ba2;
+  border-left-color: var(--color-interactive-dark);
 }
 
 .hotspot-tooltip.tooltip-right::before {
   left: -20px;
   top: 50%;
   transform: translateY(-50%);
-  border-right-color: #667eea;
+  border-right-color: var(--color-interactive);
 }
 
 /* Modal header needs relative positioning for hotspot container */
@@ -3182,8 +3199,8 @@ a:hover {
   align-items: center;
   gap: 6px;
   background: rgba(102, 126, 234, 0.1);
-  border: 2px solid #667eea;
-  color: #667eea;
+  border: 2px solid var(--color-interactive);
+  color: var(--color-interactive);
   padding: 6px 12px;
   border-radius: 20px;
   cursor: pointer;
@@ -3195,7 +3212,7 @@ a:hover {
 }
 
 .hotspot-toggle-btn:hover {
-  background: #667eea;
+  background: var(--color-interactive);
   color: white;
 }
 
@@ -3206,8 +3223,8 @@ a:hover {
 }
 
 .hotspot-toggle-btn.hotspots-hidden:hover {
-  background: #667eea;
-  border-color: #667eea;
+  background: var(--color-interactive);
+  border-color: var(--color-interactive);
   color: white;
 }
 
@@ -3243,7 +3260,7 @@ a:hover {
 }
 
 .copyright-modal-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-interactive) 0%, var(--color-interactive-dark) 100%);
   color: white;
   padding: 24px 30px;
   border-radius: 16px 16px 0 0;
@@ -3267,7 +3284,7 @@ a:hover {
 }
 
 .copyright-modal-body h3 {
-  color: #667eea;
+  color: var(--color-interactive);
   font-size: 1.2rem;
   margin-top: 24px;
   margin-bottom: 12px;
@@ -3285,14 +3302,14 @@ a:hover {
 }
 
 .copyright-modal-body a {
-  color: #667eea;
+  color: var(--color-interactive);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
 
 .copyright-modal-body a:hover {
-  color: #764ba2;
+  color: var(--color-interactive-dark);
   text-decoration: underline;
 }
 
@@ -3318,7 +3335,7 @@ a:hover {
 }
 
 .copyright-link:hover {
-  color: #667eea;
+  color: var(--color-interactive);
 }
 
 /* Mobile responsive for copyright modal */
@@ -3475,7 +3492,7 @@ a:hover {
   align-items: center;
   gap: 6px;
   padding: 10px 18px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-interactive) 0%, var(--color-interactive-dark) 100%);
   color: white;
   border: none;
   border-radius: var(--radius-full);
@@ -3690,7 +3707,7 @@ a:hover {
 }
 
 .contact-modal-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-interactive) 0%, var(--color-interactive-dark) 100%);
   color: white;
   padding: 24px 30px;
   border-radius: 16px 16px 0 0;
@@ -3762,7 +3779,7 @@ a:hover {
 .form-input:focus,
 .form-select:focus,
 .form-textarea:focus {
-  border-color: #667eea;
+  border-color: var(--color-interactive);
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.15);
   background: white;
 }
@@ -3787,7 +3804,7 @@ a:hover {
 }
 
 .contact-submit-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-interactive) 0%, var(--color-interactive-dark) 100%);
   color: white;
   border: none;
   padding: 14px 28px;
@@ -3848,7 +3865,7 @@ a:hover {
 }
 
 .contact-result a {
-  color: #667eea;
+  color: var(--color-interactive);
   text-decoration: none;
   font-weight: 500;
 }
@@ -3858,7 +3875,7 @@ a:hover {
 }
 
 .contact-another-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-interactive) 0%, var(--color-interactive-dark) 100%);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -3881,7 +3898,7 @@ a:hover {
 }
 
 .contact-link:hover {
-  color: #667eea;
+  color: var(--color-interactive);
 }
 
 /* Mobile responsive for contact modal */
@@ -3931,18 +3948,18 @@ a:hover {
 }
 
 .collection-filter-btn.active {
-  background-color: #e91e63 !important;
-  border-color: #e91e63 !important;
+  background-color: var(--color-heart) !important;
+  border-color: var(--color-heart) !important;
   color: white !important;
 }
 
 .collection-filter-btn:hover:not(.active) {
-  border-color: #e91e63;
-  color: #e91e63;
+  border-color: var(--color-heart);
+  color: var(--color-heart);
 }
 
 .collection-badge {
-  background-color: #e91e63;
+  background-color: var(--color-heart);
   color: white;
   min-width: 20px;
   height: 20px;
@@ -3986,27 +4003,27 @@ a:hover {
 }
 
 .modal-favorite-btn:hover {
-  border-color: #e91e63;
-  color: #e91e63;
+  border-color: var(--color-heart);
+  color: var(--color-heart);
   transform: translateY(-1px);
   box-shadow: var(--shadow-sm);
 }
 
 .modal-favorite-btn:hover svg {
-  stroke: #e91e63;
+  stroke: var(--color-heart);
   fill: rgba(233, 30, 99, 0.1);
 }
 
 /* Favorited state */
 .modal-favorite-btn.favorited {
-  background-color: #fce4ec;
-  border-color: #e91e63;
-  color: #e91e63;
+  background-color: var(--color-heart-bg);
+  border-color: var(--color-heart);
+  color: var(--color-heart);
 }
 
 .modal-favorite-btn.favorited svg {
-  fill: #e91e63;
-  stroke: #e91e63;
+  fill: var(--color-heart);
+  stroke: var(--color-heart);
 }
 
 .modal-favorite-btn.favorited .favorite-label::after {
@@ -4075,18 +4092,18 @@ a:hover {
 }
 
 .featured-filter-btn.active {
-  background-color: #f59e0b !important;
-  border-color: #f59e0b !important;
+  background-color: var(--color-star) !important;
+  border-color: var(--color-star) !important;
   color: white !important;
 }
 
 .featured-filter-btn:hover:not(.active) {
-  border-color: #f59e0b;
-  color: #f59e0b;
+  border-color: var(--color-star);
+  color: var(--color-star);
 }
 
 .featured-badge {
-  background-color: #f59e0b;
+  background-color: var(--color-star);
   color: white;
   min-width: 20px;
   height: 20px;
