@@ -1372,9 +1372,9 @@ a:hover {
 .footer-signature-row {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: var(--spacing-sm);
   margin-top: var(--spacing-xs);
-  margin-left: auto;
 }
 
 .footer-signature-row .footer-signature {
