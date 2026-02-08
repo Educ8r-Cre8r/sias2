@@ -142,14 +142,19 @@ function updateAuthUI(user) {
       return;
     }
 
+    // Show/hide My Collection button based on auth status
+    const collectionBtn = document.getElementById('my-collection-btn');
+
     if (!user) {
       // No user - hide everything
       authAnonymous.style.display = 'none';
       authSignedIn.style.display = 'none';
+      if (collectionBtn) collectionBtn.style.display = 'none';
     } else if (user.isAnonymous) {
       // Anonymous user - show sign in button
       authAnonymous.style.display = 'block';
       authSignedIn.style.display = 'none';
+      if (collectionBtn) collectionBtn.style.display = 'none';
       console.log('📱 UI: Showing sign-in button (anonymous user)');
     } else {
       // Signed in with Google - show avatar
@@ -213,6 +218,26 @@ function updateAuthUI(user) {
       }
 
       console.log('📱 UI: Showing user avatar:', displayName, initials);
+
+      // Show My Collection button with personalized label and load favorites
+      if (collectionBtn) {
+        collectionBtn.style.display = 'inline-flex';
+        const firstName = displayName.split(/\s+/)[0];
+        const collectionLabel = collectionBtn.querySelector('.collection-label');
+        if (collectionLabel) {
+          collectionLabel.textContent = `${firstName}'s Collection`;
+        }
+      }
+      if (typeof loadUserFavorites === 'function') {
+        loadUserFavorites();
+      } else {
+        // favorites.js may not be loaded yet — retry after a short delay
+        setTimeout(() => {
+          if (typeof loadUserFavorites === 'function') {
+            loadUserFavorites();
+          }
+        }, 500);
+      }
     }
   });
 }

@@ -13,7 +13,8 @@ const state = {
   visibleCount: 24, // Number of images currently visible
   filteredImages: [], // Current filtered image set
   ngssIndex: null, // NGSS standards index (loaded on demand)
-  ngssFilter: null // Active NGSS filter { type, code, imageIds }
+  ngssFilter: null, // Active NGSS filter { type, code, imageIds }
+  collectionFilter: false // My Collection filter active
 };
 
 const IMAGES_PER_PAGE = 24;
@@ -197,6 +198,11 @@ function updateURL() {
     params.set('search', state.searchQuery);
   }
 
+  // Add collection filter if active
+  if (state.collectionFilter) {
+    params.set('collection', 'mine');
+  }
+
   // Update URL without reloading the page
   const newURL = params.toString() ? `?${params}` : window.location.pathname;
   window.history.pushState({}, '', newURL);
@@ -246,6 +252,16 @@ function loadFiltersFromURL() {
     const searchInput = document.getElementById('gallery-search');
     if (searchInput) {
       searchInput.value = search;
+    }
+  }
+
+  // Apply collection filter from URL
+  if (params.get('collection') === 'mine') {
+    state.collectionFilter = true;
+    const collectionBtn = document.getElementById('my-collection-btn');
+    if (collectionBtn) {
+      collectionBtn.classList.add('active');
+      collectionBtn.setAttribute('aria-pressed', 'true');
     }
   }
 }
@@ -310,7 +326,7 @@ function updateCategoryBadges() {
     }
   });
 
-  document.querySelectorAll('.filter-btn').forEach(btn => {
+  document.querySelectorAll('.filter-btn:not(.collection-filter-btn)').forEach(btn => {
     const category = btn.dataset.category;
     const count = counts[category] || 0;
 
@@ -363,6 +379,11 @@ function renderGallery() {
     filteredImages = filteredImages.filter(img => ngssIds.has(img.id));
   }
 
+  // Apply My Collection filter
+  if (state.collectionFilter && typeof isPhotoFavorited === 'function') {
+    filteredImages = filteredImages.filter(img => isPhotoFavorited(img.id));
+  }
+
   // Store filtered images in state for Load More
   state.filteredImages = filteredImages;
 
@@ -376,7 +397,11 @@ function renderGallery() {
   }
 
   if (filteredImages.length === 0) {
-    showEmptyState('No images found matching your criteria.');
+    if (state.collectionFilter) {
+      showEmptyState('Your collection is empty. Open a photo\'s lesson content and tap the heart to add it to your collection!');
+    } else {
+      showEmptyState('No images found matching your criteria.');
+    }
     return;
   }
 
@@ -609,6 +634,10 @@ function handleCategoryFilter(event) {
     const activeFilter = document.getElementById('ngss-active-filter');
     if (activeFilter) activeFilter.style.display = 'none';
   }
+  // Clear collection filter when switching categories
+  if (typeof clearCollectionFilter === 'function') {
+    clearCollectionFilter();
+  }
   updateURL(); // Update URL to reflect new filter state
   renderGallery();
 }
@@ -624,6 +653,10 @@ function handleSearch(event) {
     state.ngssFilter = null;
     const activeFilter = document.getElementById('ngss-active-filter');
     if (activeFilter) activeFilter.style.display = 'none';
+  }
+  // Clear collection filter when searching
+  if (typeof clearCollectionFilter === 'function') {
+    clearCollectionFilter();
   }
   updateURL(); // Update URL to reflect new search query
   renderGallery();
@@ -870,9 +903,31 @@ async function openModal(imageId) {
       <button class="lesson-pdf-btn" aria-label="Download lesson guide as PDF" title="Download two-page teacher lesson guide as PDF">
         📄 Download Lesson Guide
       </button>
+      <button id="modal-favorite-btn" class="modal-favorite-btn" onclick="toggleFavorite(this.dataset.photoId)" aria-label="Add to My Collection" title="Add to My Collection">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+        </svg>
+        <span class="favorite-label">Favorite</span>
+      </button>
       <div class="views-count">0 Views</div>
     `;
     modalHeader.parentNode.insertBefore(statsContainer, modalBody);
+  }
+
+  // Update favorite button state for this photo
+  const favoriteBtn = document.getElementById('modal-favorite-btn');
+  if (favoriteBtn) {
+    favoriteBtn.dataset.photoId = image.id;
+    const isFav = typeof isPhotoFavorited === 'function' && isPhotoFavorited(image.id);
+    if (isFav) {
+      favoriteBtn.classList.add('favorited');
+      favoriteBtn.setAttribute('aria-label', 'Remove from My Collection');
+      favoriteBtn.title = 'Remove from My Collection';
+    } else {
+      favoriteBtn.classList.remove('favorited');
+      favoriteBtn.setAttribute('aria-label', 'Add to My Collection');
+      favoriteBtn.title = 'Add to My Collection';
+    }
   }
 
   // Update download button to open pre-generated PDF

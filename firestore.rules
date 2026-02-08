@@ -41,6 +41,26 @@ service cloud.firestore {
       allow update, delete: if false;
     }
 
+    // Favorites collection - require Google auth
+    match /favorites/{favoriteId} {
+      // Users can read/list their own favorites (non-anonymous only)
+      allow read: if request.auth != null
+        && request.auth.token.firebase.sign_in_provider != 'anonymous';
+
+      // Authenticated (non-anonymous) users can create favorites
+      allow create: if request.auth != null
+        && request.auth.token.firebase.sign_in_provider != 'anonymous'
+        && request.resource.data.userId == request.auth.uid;
+
+      // Users can only delete their own favorites
+      allow delete: if request.auth != null
+        && request.auth.token.firebase.sign_in_provider != 'anonymous'
+        && resource.data.userId == request.auth.uid;
+
+      // No updates needed - favorites are add/remove only
+      allow update: if false;
+    }
+
     // Comments collection - require Google auth to write
     match /comments/{commentId} {
       // Anyone can read comments
