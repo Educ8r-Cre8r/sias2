@@ -964,6 +964,13 @@ async function openModal(imageId) {
   const pdfBtn = statsContainer.querySelector('.lesson-pdf-btn');
   if (pdfBtn) {
     pdfBtn.onclick = () => {
+      // Require Google sign-in (not anonymous) to download lesson guides
+      if (!currentUser || currentUser.isAnonymous) {
+        if (confirm('Sign in with Google to download lesson guides. Sign in now?')) {
+          signInWithGoogle();
+        }
+        return;
+      }
       const baseFilename = image.filename.replace(/\.[^/.]+$/, ''); // strip extension
       const gradeKey = state.selectedGradeLevel; // read at click time for grade changes
       const pdfPath = `pdfs/${image.category}/${baseFilename}-${gradeKey}.pdf`;
