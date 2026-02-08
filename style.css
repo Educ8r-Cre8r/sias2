@@ -521,12 +521,6 @@ a:hover {
   align-items: center;
   gap: var(--spacing-md);
   margin: 0 auto var(--spacing-lg);
-  max-width: 800px;
-  flex-wrap: wrap;
-}
-
-.ngss-search-container {
-  flex: 0 1 auto;
 }
 
 .ngss-search-wrapper {
