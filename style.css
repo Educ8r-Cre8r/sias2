@@ -514,9 +514,19 @@ a:hover {
 /* ============================================
    NGSS Standards Search
    ============================================ */
-.ngss-search-container {
-  max-width: 600px;
+/* NGSS + Featured Collection row */
+.ngss-featured-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--spacing-md);
   margin: 0 auto var(--spacing-lg);
+  max-width: 700px;
+  flex-wrap: wrap;
+}
+
+.ngss-search-container {
+  flex: 0 1 auto;
 }
 
 .ngss-search-wrapper {
@@ -526,15 +536,23 @@ a:hover {
 .ngss-input-group {
   display: flex;
   align-items: center;
-  border: 2px solid var(--color-border);
-  border-radius: var(--radius-lg);
+  border: 2px solid #3b82f6;
+  border-radius: var(--radius-full);
   background: white;
-  transition: border-color var(--transition-fast);
+  transition: all var(--transition-base);
   overflow: hidden;
+  padding: 2px 4px 2px 0;
+}
+
+.ngss-input-group:hover {
+  border-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
 }
 
 .ngss-input-group:focus-within {
-  border-color: #7C4DFF;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
 }
 
 .ngss-search-icon {
@@ -545,12 +563,21 @@ a:hover {
 
 .ngss-search-input {
   flex: 1;
-  padding: var(--spacing-sm) var(--spacing-md);
+  padding: 6px 8px;
   font-size: var(--font-size-sm);
+  font-weight: 600;
   border: none;
   outline: none;
   background: transparent;
   min-width: 0;
+  width: 160px;
+  max-width: 200px;
+  color: var(--color-text-dark);
+}
+
+.ngss-search-input::placeholder {
+  color: #3b82f6;
+  font-weight: 600;
 }
 
 .ngss-clear-btn {
@@ -694,9 +721,19 @@ a:hover {
 }
 
 @media (max-width: 640px) {
+  .ngss-featured-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 var(--spacing-md);
+  }
+
   .ngss-search-container {
-    margin-left: var(--spacing-md);
-    margin-right: var(--spacing-md);
+    width: 100%;
+  }
+
+  .ngss-search-input {
+    width: 100%;
+    max-width: none;
   }
 }
 
@@ -3908,6 +3945,7 @@ a:hover {
 /* My Collection filter button in gallery header */
 .collection-filter-btn {
   position: relative;
+  white-space: nowrap;
 }
 
 .collection-heart-emoji {
@@ -4049,14 +4087,9 @@ a:hover {
    Featured Collection System
    ============================================ */
 
-.featured-collection-container {
-  max-width: 600px;
-  margin: 0 auto var(--spacing-lg);
-  text-align: center;
-}
-
 .featured-filter-btn {
   position: relative;
+  white-space: nowrap;
 }
 
 .featured-icon-emoji {
