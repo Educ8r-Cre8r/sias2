@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Railroad Crossing Signal",
+      "fact": "This red light warns drivers that a train is coming and they must stop. The signal automatically turns red when a train approaches to keep people safe at the crossing."
+    },
+    {
+      "id": 2,
+      "x": "15%",
+      "y": "55%",
+      "label": "Steel Train Wheels",
+      "fact": "Train wheels are made of hard steel that can support extremely heavy loads. The metal wheels grip the steel rails to help the train move smoothly down the track."
+    },
+    {
+      "id": 3,
+      "x": "60%",
+      "y": "50%",
+      "label": "Freight Train Cars",
+      "fact": "These large cargo containers can carry millions of pounds of goods across the country. Trains are one of the most efficient ways to transport heavy materials because steel wheels create very little friction on steel rails."
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "75%",
+      "label": "Railroad Tracks",
+      "fact": "Railroad tracks are made of steel rails that are parallel to each other. The smooth, straight design allows trains to travel long distances safely and efficiently."
+    }
+  ]
+}

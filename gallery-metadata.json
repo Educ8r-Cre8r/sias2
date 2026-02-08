@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-08T00:01:22.787Z",
-  "totalImages": 151,
+  "lastUpdated": "2026-02-08T03:37:23.401Z",
+  "totalImages": 152,
   "images": [
     {
       "id": 1,
@@ -3020,6 +3020,26 @@
         "ecosystem",
         "animal habitat",
         "life cycle"
+      ]
+    },
+    {
+      "id": 152,
+      "filename": "science of trains.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/science of trains.jpg",
+      "thumbPath": "images/physical-science/thumbs/science of trains.jpg",
+      "webpPath": "images/physical-science/webp/science of trains.webp",
+      "placeholderPath": "images/physical-science/placeholders/science of trains.jpg",
+      "contentFile": "content/physical-science/science of trains.json",
+      "title": "Science Of Trains",
+      "hasContent": true,
+      "keywords": [
+        "train",
+        "railroad crossing",
+        "motion",
+        "transportation",
+        "force",
+        "signals"
       ]
     }
   ]
