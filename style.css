@@ -1477,15 +1477,6 @@ a:hover {
 
 /* Removed .image-modal-close-btn override - using base .close-btn styles */
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .image-credit {
   text-align: center;
   font-size: var(--font-size-sm);
@@ -2433,10 +2424,6 @@ a:hover {
   border-top-color: white;
   border-radius: 50%;
   animation: spin 0.6s linear infinite;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
 }
 
 /* Interactive Star Rating */
@@ -3876,12 +3863,7 @@ a:hover {
 }
 
 .spin-icon {
-  animation: spinRotate 1s linear infinite;
-}
-
-@keyframes spinRotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  animation: spin 1s linear infinite;
 }
 
 /* Success / Error states */
