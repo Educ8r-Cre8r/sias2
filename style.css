@@ -2356,13 +2356,11 @@ a:hover {
   background: linear-gradient(135deg, #1a6b8a, var(--color-primary));
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
-  animation: none;
 }
 
 .lesson-pdf-btn:active {
   transform: translateY(0);
   box-shadow: var(--shadow-sm);
-  animation: none;
 }
 
 @keyframes pdfBtnFadeIn {
