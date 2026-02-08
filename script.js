@@ -587,9 +587,9 @@ function createGalleryItem(image) {
       </button>
     </div>
     <div class="card-stats">
-      <span class="badge badge-views" data-tooltip="Views"><span class="badge-icon">👁</span> <span class="views-count">0</span></span>
-      <span class="badge badge-rating" data-tooltip="Rating"><span class="badge-icon">⭐</span> <span class="rating-value">0.0</span></span>
-      <span class="badge badge-comments" data-tooltip="Comments"><span class="badge-icon">💬</span> <span class="comment-count" data-comment-photo-id="${image.id}">0</span></span>
+      <span class="badge badge-views" data-tooltip="Views" tabindex="0" role="status"><span class="badge-icon">👁</span> <span class="views-count">0</span></span>
+      <span class="badge badge-rating" data-tooltip="Rating" tabindex="0" role="status"><span class="badge-icon">⭐</span> <span class="rating-value">0.0</span></span>
+      <span class="badge badge-comments" data-tooltip="Comments" tabindex="0" role="status"><span class="badge-icon">💬</span> <span class="comment-count" data-comment-photo-id="${image.id}">0</span></span>
     </div>
   `;
 

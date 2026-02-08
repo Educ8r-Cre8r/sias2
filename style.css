@@ -861,10 +861,16 @@ a:hover {
   flex-shrink: 0;
 }
 
-.notebook-icon-btn:hover {
+.notebook-icon-btn:hover,
+.notebook-icon-btn:focus-visible {
   transform: scale(1.1);
   background-color: var(--color-accent);
   box-shadow: var(--shadow-md);
+}
+
+.notebook-icon-btn:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
 }
 
 .notebook-icon-btn svg {
@@ -2250,9 +2256,15 @@ a:hover {
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
-.badge:hover {
+.badge:hover,
+.badge:focus-visible {
   transform: translateY(-1px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.badge:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 1px;
 }
 
 /* Tooltip above badge */
@@ -2288,12 +2300,14 @@ a:hover {
   transition: opacity var(--transition-fast);
 }
 
-.badge[data-tooltip]:hover::after {
+.badge[data-tooltip]:hover::after,
+.badge[data-tooltip]:focus-visible::after {
   opacity: 1;
   transform: translateX(-50%) scale(1);
 }
 
-.badge[data-tooltip]:hover::before {
+.badge[data-tooltip]:hover::before,
+.badge[data-tooltip]:focus-visible::before {
   opacity: 1;
 }
 
@@ -2360,10 +2374,16 @@ a:hover {
   animation: pdfBtnFadeIn 0.5s ease 0.3s backwards, tutorialPulse 2.5s ease-in-out infinite 1s;
 }
 
-.lesson-pdf-btn:hover {
+.lesson-pdf-btn:hover,
+.lesson-pdf-btn:focus-visible {
   background: linear-gradient(135deg, var(--color-primary-hover), var(--color-primary));
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+}
+
+.lesson-pdf-btn:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
 }
 
 .lesson-pdf-btn:active {
