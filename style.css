@@ -571,7 +571,7 @@ a:hover {
   border: none;
   outline: none;
   background: transparent;
-  min-width: 0;
+  min-width: 380px;
   color: var(--color-text-dark);
 }
 
@@ -733,6 +733,10 @@ a:hover {
 
   .ngss-search-container {
     width: 100%;
+  }
+
+  .ngss-search-input {
+    min-width: 0;
   }
 }
 
