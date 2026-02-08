@@ -1369,6 +1369,37 @@ a:hover {
   opacity: 1;
 }
 
+.footer-signature-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xs);
+  margin-left: auto;
+}
+
+.footer-signature-row .footer-signature {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.footer-x-link {
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-x-link:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.footer-x-icon {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+}
+
 /* ============================================
    Image Viewer Modal
    ============================================ */
