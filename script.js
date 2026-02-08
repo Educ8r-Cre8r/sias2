@@ -103,8 +103,8 @@ function updateCopyrightYear() {
  * Set up event listeners
  */
 function setupEventListeners() {
-  // Category filter buttons
-  const filterButtons = document.querySelectorAll('.filter-btn');
+  // Category filter buttons (exclude collection button — it has its own onclick)
+  const filterButtons = document.querySelectorAll('.filter-btn:not(.collection-filter-btn)');
   filterButtons.forEach(btn => {
     btn.addEventListener('click', handleCategoryFilter);
   });
@@ -219,8 +219,8 @@ function loadFiltersFromURL() {
     const category = params.get('category');
     state.currentCategory = category;
 
-    // Update UI to reflect the category
-    document.querySelectorAll('.filter-btn').forEach(btn => {
+    // Update UI to reflect the category (exclude collection button)
+    document.querySelectorAll('.filter-btn:not(.collection-filter-btn)').forEach(btn => {
       if (btn.dataset.category === category) {
         btn.classList.add('active');
         btn.setAttribute('aria-pressed', 'true');
@@ -617,8 +617,8 @@ function handleCategoryFilter(event) {
   const button = event.currentTarget;
   const category = button.dataset.category;
 
-  // Update active state
-  document.querySelectorAll('.filter-btn').forEach(btn => {
+  // Update active state (exclude collection button)
+  document.querySelectorAll('.filter-btn:not(.collection-filter-btn)').forEach(btn => {
     btn.classList.remove('active');
     btn.setAttribute('aria-pressed', 'false');
   });
@@ -763,7 +763,7 @@ function selectNGSSStandard(type, code) {
   if (searchInput) searchInput.value = '';
 
   state.currentCategory = 'all';
-  document.querySelectorAll('.filter-btn').forEach(btn => {
+  document.querySelectorAll('.filter-btn:not(.collection-filter-btn)').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.category === 'all');
     btn.setAttribute('aria-pressed', btn.dataset.category === 'all' ? 'true' : 'false');
   });
