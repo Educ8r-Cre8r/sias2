@@ -64,6 +64,8 @@ const COLORS = {
     extension:        { bg: [224, 247, 250], text: [0, 105, 92] },     // #E0F7FA / #00695C
     ngss:             { bg: [232, 234, 246], text: [40, 53, 147] },    // #E8EAF6 / #283593
     vocabulary:       { bg: [227, 242, 253], text: [13, 71, 161] },    // #E3F2FD / #0D47A1
+    crossCurricular:  { bg: [225, 245, 254], text: [1, 87, 155] },     // #E1F5FE / #01579B
+    stemCareers:      { bg: [243, 229, 245], text: [106, 27, 154] },   // #F3E5F5 / #6A1B9A
     resources:        { bg: [245, 245, 245], text: [66, 66, 66] }      // #F5F5F5 / #424242
   },
 
@@ -111,7 +113,9 @@ function parseSections(markdown) {
     { key: 'discussion',          regex: /##\s*💬\s*Discussion Questions\s*\n([\s\S]*?)(?=\n##\s|$)/ },
     { key: 'vocabulary',          regex: /##\s*📖\s*(?:Science\s+)?Vocabulary\s*\n([\s\S]*?)(?=\n##\s|$)/ },
     { key: 'extensionActivities', regex: /##\s*🌡️?\s*Extension Activities\s*\n([\s\S]*?)(?=\n##\s|$)/ },
-    { key: 'resources',           regex: /##\s*📚\s*External Resources\s*\n([\s\S]*?)(?=\n##\s|$)/ }
+    { key: 'crossCurricular',    regex: /##\s*🔗\s*Cross-Curricular Ideas\s*\n([\s\S]*?)(?=\n##\s|$)/ },
+    { key: 'stemCareers',        regex: /##\s*🚀\s*STEM Career Connection\s*\n([\s\S]*?)(?=\n##\s|$)/ },
+    { key: 'resources',          regex: /##\s*📚\s*External Resources\s*\n([\s\S]*?)(?=\n##\s|$)/ }
   ];
 
   for (const { key, regex } of patterns) {
@@ -623,6 +627,20 @@ async function generatePDF(options) {
     y = ensureSpace(doc, y, 60, headerOpts, state);
     y = renderSectionHeader(doc, 'Extension Activities', y, COLORS.sections.extension);
     y = renderBodyText(doc, sections.extensionActivities, MARGIN + 4, y, CONTENT_WIDTH - 8, null, headerOpts, state);
+  }
+
+  // --- Cross-Curricular Ideas ---
+  if (sections.crossCurricular) {
+    y = ensureSpace(doc, y, 60, headerOpts, state);
+    y = renderSectionHeader(doc, 'Cross-Curricular Ideas', y, COLORS.sections.crossCurricular);
+    y = renderBodyText(doc, sections.crossCurricular, MARGIN + 4, y, CONTENT_WIDTH - 8, null, headerOpts, state);
+  }
+
+  // --- STEM Career Connection ---
+  if (sections.stemCareers) {
+    y = ensureSpace(doc, y, 60, headerOpts, state);
+    y = renderSectionHeader(doc, 'STEM Career Connection', y, COLORS.sections.stemCareers);
+    y = renderBodyText(doc, sections.stemCareers, MARGIN + 4, y, CONTENT_WIDTH - 8, null, headerOpts, state);
   }
 
   // --- NGSS Connections ---

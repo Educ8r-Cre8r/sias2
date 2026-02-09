@@ -689,6 +689,14 @@ Detail 2-4 fundamental science concepts illustrated by this photo. Use numbered 
 1. A short pedagogical tip wrapped in <pedagogical-tip>...</pedagogical-tip> tags
 2. A Universal Design for Learning (UDL) suggestion wrapped in <udl-suggestions>...</udl-suggestions> tags
 
+## 🔍 Zoom In / Zoom Out Concepts
+Provide two distinct perspectives:
+1. **Zoom In:** A microscopic or unseen process (e.g., cellular level, atomic)
+2. **Zoom Out:** The larger system connection (e.g., ecosystem, watershed, planetary)
+
+## 🤔 Potential Student Misconceptions
+List 1-3 common naive conceptions ${grade.name} students might have about this topic and provide the scientific clarification.
+
 ## 🎓 NGSS Connections
 - You MUST use specific formatting for clickable links
 - Wrap Disciplinary Core Ideas (DCI) in double brackets: [[NGSS:DCI:Code]]
@@ -708,10 +716,15 @@ Format strictly as: * **Word:** Kid-friendly definition (1 sentence)
 ## 🌡️ Extension Activities
 Provide 2-3 hands-on extension activities appropriate for ${grade.name} students.
 
+## 🔗 Cross-Curricular Ideas
+Provide 3-4 ideas for connecting the science in this photo to other subjects like Math, ELA, Social Studies, or Art for a ${grade.name} classroom.
+
+## 🚀 STEM Career Connection
+List and briefly describe 2-3 STEM careers that relate to the science shown in this photo. Describe the job simply for a ${grade.name} student. For each career, also provide an estimated average annual salary in USD.
+
 ## 📚 External Resources
 Provide real, existing resources:
 - **Children's Books:** Title by Author (2-3 books)
-- **YouTube Videos:** Title, brief description, and valid URL (2 videos)
 
 ---
 
@@ -725,7 +738,7 @@ Remember:
     try {
       const response = await anthropic.messages.create({
         model: 'claude-haiku-4-5-20251001',
-        max_tokens: 4096,
+        max_tokens: 5000,
         messages: [{
           role: 'user',
           content: [
