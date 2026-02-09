@@ -117,10 +117,15 @@ Example: "Why did the ice melt? (Bloom's: Analyze | DOK: 2)"
 Provide a bulleted list of 3-6 tier 2 or tier 3 science words.
 Format strictly as: * **Word:** Kid-friendly definition (1 sentence)
 
+## 🔗 Cross-Curricular Ideas
+Provide 3-4 ideas for connecting the science in this photo to other subjects like Math, ELA, Social Studies, or Art for a ${grade.name} classroom.
+
+## 🚀 STEM Career Connection
+List and briefly describe 2-3 STEM careers that relate to the science shown in this photo. Describe the job simply for a ${grade.name} student. For each career, also provide an estimated average annual salary in USD.
+
 ## 📚 External Resources
 Provide real, existing resources:
 - **Children's Books:** Title by Author (2-3 books)
-- **YouTube Videos:** Title, brief description, and valid URL (2 videos)
 
 ---
 
