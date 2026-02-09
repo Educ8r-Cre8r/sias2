@@ -354,16 +354,29 @@ async function processImageFromQueue(queueItem) {
     }
     console.log(`✅ Generated ${pdfCount} lesson PDFs`);
 
+    // Generate Engineering Design Process content and PDF
+    console.log('🔧 Generating Engineering Design Process content...');
+    try {
+      const edpCost = await generateEDPContentAndPDF(
+        anthropicKey, imageBase64, mediaType, filename, category, repoDir, targetImagePath, logoPath, nameNoExt
+      );
+      totalCost += edpCost;
+      console.log(`✅ EDP content and PDF generated (cost: $${edpCost.toFixed(4)})`);
+    } catch (edpErr) {
+      console.warn(`⚠️ EDP generation failed (non-blocking): ${edpErr.message}`);
+    }
+
     // Commit and push to GitHub
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
-    await repoGit.commit(`Add ${filename} with educational content, hotspots, keywords, and lesson PDFs
+    await repoGit.commit(`Add ${filename} with educational content, hotspots, keywords, lesson PDFs, and EDP
 
 - Category: ${category}
 - Generated content for all grade levels (K-5)
 - Generated interactive hotspots (3-4 per image)
 - Generated search keywords
 - Generated ${pdfCount} lesson guide PDFs
+- Generated engineering design process challenge PDF
 - Total cost: $${totalCost.toFixed(2)}
 
 Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
@@ -796,6 +809,142 @@ Remember:
   
   console.log(`✅ Total cost (content + hotspots): $${totalCost.toFixed(2)}`);
   return { totalCost, imageBase64, mediaType };
+}
+
+// ============================================================
+// Engineering Design Process Content + PDF Generation
+// ============================================================
+
+const EDP_SYSTEM_PROMPT = `You are an NGSS Engineering Design Process (EDP) Coach. Teachers upload any photograph (classroom, nature, objects, etc.). Your job: transform it into a grade-appropriate engineering challenge based on what is visible in the image.
+
+Core Rules:
+1. Visible elements only - List only what is directly observable in the photo. Do not invent objects, materials, or creatures that are not shown.
+2. Reasonable inferences allowed - You may make logical connections from visible elements. Label these clearly as inferences, separate from direct observations.
+3. Invent a task - If the photo shows no engineering activity, create a realistic EDP challenge inspired by visible elements and reasonable inferences.
+4. Grade-adapt:
+   - K-2: Use concrete nouns, simple verbs, no technical terms. Frame as playful building tasks.
+   - 3-5: Include specific constraints and criteria. Use measurable success conditions.
+5. No false context - Never reference students, classrooms, or ongoing projects unless the photo clearly shows them.
+6. Ambiguity rule - If fewer than 3 distinct elements are visible, offer 2 task options ranked by plausibility.
+
+Never invent elements not visible in the photo. Never use engineering jargon for K-2 tasks. Never skip any section.
+Tone: Practical, coach-like, jargon-free.`;
+
+const EDP_USER_PROMPT_TEMPLATE = `Analyze this science education photo and generate an engineering design process challenge.
+
+Category: {category}
+Photo: {filename}
+
+Generate ALL of the following sections using ### headers. No exceptions.
+
+### Visible Elements in Photo
+List only what is directly observable (3-5 bullet points).
+
+### Reasonable Inferences
+List 1-3 logical inferences drawn from visible elements. Label each with the element it stems from.
+
+### Engineering Task
+Provide both grade bands:
+- **K-2**: A simple, concrete building or design challenge using plain language.
+- **3-5**: A constraint-based engineering challenge with measurable criteria.
+
+### EDP Phase Targeted
+Pick ONE phase the task would start with:
+- **Ask / Define Problem** - Best for nature or real-world photos where a need can be identified.
+- **Imagine / Plan** - Best when the photo suggests a solution direction already.
+- **Create / Test** - Best when materials or structures are visible and can be iterated on.
+Briefly explain why this phase fits.
+
+### Suggested Materials
+List 3-5 simple, classroom-available materials a teacher could use for this activity.
+
+### Estimated Time
+Provide a time range for the activity (e.g., "30-45 minutes" or "Two 30-minute sessions").
+
+### Why This Works for Teachers
+One sentence connecting the task to a specific NGSS ETS1 standard.`;
+
+/**
+ * Generate EDP content via Claude API and render to PDF
+ * Called during the image processing pipeline after lesson PDFs are generated.
+ */
+async function generateEDPContentAndPDF(anthropicKey, imageBase64, mediaType, filename, category, repoDir, targetImagePath, logoPath, nameNoExt) {
+  const anthropic = new Anthropic({ apiKey: anthropicKey });
+
+  const userPrompt = EDP_USER_PROMPT_TEMPLATE
+    .replace('{category}', category)
+    .replace('{filename}', filename);
+
+  console.log('   🔧 Calling Claude Haiku 4.5 for EDP content...');
+
+  const response = await anthropic.messages.create({
+    model: 'claude-haiku-4-5-20251001',
+    max_tokens: 2048,
+    system: EDP_SYSTEM_PROMPT,
+    messages: [{
+      role: 'user',
+      content: [
+        {
+          type: 'image',
+          source: {
+            type: 'base64',
+            media_type: mediaType,
+            data: imageBase64
+          }
+        },
+        {
+          type: 'text',
+          text: userPrompt
+        }
+      ]
+    }]
+  });
+
+  // Calculate cost (Haiku 4.5: $1/MTok input, $5/MTok output)
+  const inputTokens = response.usage.input_tokens;
+  const outputTokens = response.usage.output_tokens;
+  const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+
+  const markdownContent = response.content[0].text;
+
+  // Save EDP content JSON
+  const edpData = {
+    title: nameNoExt.charAt(0).toUpperCase() + nameNoExt.slice(1).replace(/-/g, ' '),
+    category,
+    imageFile: filename,
+    imagePath: `images/${category}/${filename}`,
+    content: markdownContent,
+    inputTokens,
+    outputTokens,
+    cost,
+    generatedAt: new Date().toISOString()
+  };
+
+  const contentDir = path.join(repoDir, 'content', category);
+  await fs.mkdir(contentDir, { recursive: true });
+  await fs.writeFile(
+    path.join(contentDir, `${nameNoExt}-edp.json`),
+    JSON.stringify(edpData, null, 2)
+  );
+  console.log(`   ✅ EDP content saved: ${nameNoExt}-edp.json`);
+
+  // Generate EDP PDF
+  const { generateEDPpdf } = require('./edp-pdf-generator');
+
+  const pdfBuffer = await generateEDPpdf({
+    title: edpData.title,
+    category,
+    markdownContent,
+    imagePath: targetImagePath,
+    logoPath
+  });
+
+  const pdfDir = path.join(repoDir, 'pdfs', category);
+  await fs.mkdir(pdfDir, { recursive: true });
+  await fs.writeFile(path.join(pdfDir, `${nameNoExt}-edp.pdf`), pdfBuffer);
+  console.log(`   ✅ EDP PDF saved: ${nameNoExt}-edp.pdf`);
+
+  return cost;
 }
 
 // ============================================================

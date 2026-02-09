@@ -925,6 +925,9 @@ async function openModal(imageId) {
       <button class="lesson-pdf-btn" aria-label="Download lesson guide as PDF" title="Download two-page teacher lesson guide as PDF">
         📄 Download Lesson Guide
       </button>
+      <button class="edp-pdf-btn" aria-label="Download engineering challenge as PDF" title="Download engineering design process challenge as PDF">
+        🔧 Engineering Challenge
+      </button>
       <button id="modal-favorite-btn" class="modal-favorite-btn" onclick="toggleFavorite(this.dataset.photoId)" aria-label="Add to My Collection" title="Add to My Collection">
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
@@ -967,6 +970,23 @@ async function openModal(imageId) {
       const gradeKey = state.selectedGradeLevel; // read at click time for grade changes
       const pdfPath = `pdfs/${image.category}/${baseFilename}-${gradeKey}.pdf`;
       window.open(pdfPath, '_blank');
+    };
+  }
+
+  // Update EDP download button to open pre-generated engineering challenge PDF
+  const edpBtn = statsContainer.querySelector('.edp-pdf-btn');
+  if (edpBtn) {
+    edpBtn.onclick = () => {
+      // Require Google sign-in (not anonymous) to download
+      if (!currentUser || currentUser.isAnonymous) {
+        if (confirm('Sign in with Google to download engineering challenges. Sign in now?')) {
+          signInWithGoogle();
+        }
+        return;
+      }
+      const baseFilename = image.filename.replace(/\.[^/.]+$/, '');
+      const edpPath = `pdfs/${image.category}/${baseFilename}-edp.pdf`;
+      window.open(edpPath, '_blank');
     };
   }
 
