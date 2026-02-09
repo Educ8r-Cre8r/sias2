@@ -446,9 +446,6 @@ function renderGallery() {
   // Show Load More button if there are more images
   updateLoadMoreButton();
 
-  // Initialize tutorial hints for first-time users
-  initializeTutorialHints();
-
   // Load ratings and views for all photos
   if (typeof loadAllStats === 'function') {
     loadAllStats();
@@ -581,9 +578,7 @@ function createGalleryItem(image) {
         aria-label="View educational content for ${image.title}"
         title="View lesson content"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
-        </svg>
+        <span class="notebook-emoji" aria-hidden="true">📓</span>
       </button>
     </div>
     <div class="card-stats">
@@ -598,15 +593,6 @@ function createGalleryItem(image) {
   imgElement.style.cursor = 'pointer';
   imgElement.onclick = () => {
     openImageModal(image.imagePath, image.title, image);
-    handleTutorialInteraction();
-  };
-
-  // Add click handler to notebook button for tutorial tracking
-  const notebookBtn = item.querySelector('.notebook-icon-btn');
-  const originalOnclick = notebookBtn.onclick;
-  notebookBtn.onclick = (e) => {
-    handleTutorialInteraction();
-    openModal(image.id);
   };
 
   return item;
@@ -1680,48 +1666,6 @@ function scrollToFilters() {
 }
 
 /**
- * Tutorial Hint System
- * Pulsing visual hints for first-time users
- */
-
-/**
- * Initialize tutorial hints on first gallery item
- */
-function initializeTutorialHints() {
-  // Wait a moment for gallery to render
-  setTimeout(() => {
-    const firstItem = document.querySelector('.gallery-item');
-
-    if (!firstItem) {
-      console.log('[Tutorial] No gallery items found');
-      return;
-    }
-
-    console.log('[Tutorial] Initializing pulsing hints on first item');
-
-    // Add tutorial-active class to enable pulsing animation
-    firstItem.classList.add('tutorial-active');
-    console.log('[Tutorial] Pulsing animation enabled');
-  }, 500);
-}
-
-/**
- * Handle tutorial interaction - keep hints visible permanently
- */
-function handleTutorialInteraction() {
-  // No longer needed - we keep the pulsing effect and tooltips permanently
-  console.log('[Tutorial] User interacted with gallery');
-}
-
-/**
- * Reset tutorial (for testing or user preference)
- */
-function resetTutorial() {
-  localStorage.removeItem('galleryTutorialCompleted');
-  location.reload();
-}
-
-/**
  * Initialize CSS-based particles for gallery background
  */
 function initializeParticles() {
@@ -1917,7 +1861,6 @@ window.openVisionaryModal = openVisionaryModal;
 window.closeVisionaryModal = closeVisionaryModal;
 window.scrollToGallerySmooth = scrollToGallerySmooth;
 window.scrollModalToTop = scrollModalToTop;
-window.resetTutorial = resetTutorial; // Export for testing
 window.toggleFeaturedFilter = toggleFeaturedFilter;
 window.clearFeaturedFilter = clearFeaturedFilter;
 

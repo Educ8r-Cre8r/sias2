@@ -263,14 +263,15 @@ a:hover {
 
 .hero-buttons {
   display: flex;
+  flex-direction: column;
   gap: var(--spacing-md);
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .explore-btn,
-.overview-btn {
+.overview-btn,
+.tutorial-btn {
   background-color: var(--color-accent);
   color: var(--color-bg-white);
   border: none;
@@ -293,6 +294,16 @@ a:hover {
 
 .overview-btn:hover {
   background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+}
+
+.tutorial-btn {
+  background-color: #9b8ec4;
+}
+
+.tutorial-btn:hover {
+  background-color: #8678b0;
   transform: translateY(-2px);
   box-shadow: var(--shadow-xl);
 }
@@ -501,9 +512,6 @@ a:hover {
   background-color: white;
   cursor: pointer;
   transition: border-color var(--transition-fast);
-  position: relative;
-  animation: tutorialPulse 2.5s ease-in-out infinite;
-  animation-delay: 0.6s;
 }
 
 .grade-level-select:hover {
@@ -849,23 +857,24 @@ a:hover {
 .notebook-icon-btn {
   width: 40px;
   height: 40px;
-  background-color: var(--color-primary);
-  border-radius: var(--radius-md);
+  background: none;
+  border-radius: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: all var(--transition-base);
-  box-shadow: var(--shadow-sm);
+  box-shadow: none;
   border: none;
   flex-shrink: 0;
+  padding: 0;
 }
 
 .notebook-icon-btn:hover,
 .notebook-icon-btn:focus-visible {
-  transform: scale(1.1);
-  background-color: var(--color-accent);
-  box-shadow: var(--shadow-md);
+  transform: scale(1.15);
+  background: none;
+  box-shadow: none;
 }
 
 .notebook-icon-btn:focus-visible {
@@ -878,6 +887,11 @@ a:hover {
   height: 20px;
   fill: var(--color-bg-white);
   transition: fill var(--transition-fast);
+}
+
+.notebook-emoji {
+  font-size: 2rem;
+  line-height: 1;
 }
 
 /* Loading & Empty States */
@@ -2042,7 +2056,8 @@ a:hover {
   }
 
   .explore-btn,
-  .overview-btn {
+  .overview-btn,
+  .tutorial-btn {
     width: 100%;
     justify-content: center;
   }
@@ -2140,136 +2155,6 @@ a:hover {
   }
 }
 
-/* ============================================
-   Tutorial Hints (Pulsing Visual Hints)
-   ============================================ */
-
-/* Pulsing animation for tutorial hints */
-@keyframes tutorialPulse {
-  0%, 100% {
-    box-shadow: 0 0 0 0 rgba(46, 134, 171, 0.7);
-  }
-  50% {
-    box-shadow: 0 0 0 15px rgba(46, 134, 171, 0),
-                0 0 20px 5px rgba(46, 134, 171, 0.3);
-  }
-}
-
-/* Apply pulse to first gallery item's image container */
-.gallery-item.tutorial-active .image-container {
-  position: relative;
-  animation: tutorialPulse 2.5s ease-in-out infinite;
-  border-radius: var(--radius-md);
-}
-
-/* Apply pulse to first gallery item's notebook icon */
-.gallery-item.tutorial-active .notebook-icon-btn {
-  position: relative;
-  animation: tutorialPulse 2.5s ease-in-out infinite;
-  animation-delay: 0.3s;
-}
-
-/* Tooltip styles */
-.tutorial-tooltip {
-  position: absolute;
-  background: var(--color-text-dark);
-  color: var(--color-bg-white);
-  padding: 8px 12px;
-  border-radius: var(--radius-sm);
-  font-size: 14px;
-  font-weight: 500;
-  white-space: nowrap;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
-  z-index: 10000;
-  box-shadow: var(--shadow-lg);
-}
-
-/* Tooltip arrow */
-.tutorial-tooltip::after {
-  content: '';
-  position: absolute;
-  border: 6px solid transparent;
-}
-
-/* Tooltip for image container - positioned above */
-.image-container {
-  position: relative;
-}
-
-.image-container .tutorial-tooltip {
-  bottom: calc(100% + 12px);
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.image-container .tutorial-tooltip::after {
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  border-top-color: var(--color-text-dark);
-}
-
-/* Tooltip for notebook icon - positioned to the left with more spacing */
-.notebook-icon-btn .tutorial-tooltip {
-  right: calc(100% + 20px);
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.notebook-icon-btn .tutorial-tooltip::after {
-  left: 100%;
-  top: 50%;
-  transform: translateY(-50%);
-  border-left-color: var(--color-text-dark);
-}
-
-/* Show tooltip on hover (desktop only) */
-@media (hover: hover) and (pointer: fine) {
-  /* Hover on entire image container area - tooltip shows when hovering anywhere in container */
-  .gallery-item .image-container:hover .tutorial-tooltip {
-    opacity: 1 !important;
-  }
-
-  /* Hover on notebook button - tooltip shows when hovering the button */
-  .gallery-item .notebook-icon-btn:hover .tutorial-tooltip {
-    opacity: 1 !important;
-  }
-}
-
-/* Respect reduced motion preference */
-@media (prefers-reduced-motion: reduce) {
-  .gallery-item.tutorial-active .image-container,
-  .gallery-item.tutorial-active .notebook-icon-btn {
-    animation: none;
-    /* Use static highlight instead */
-    box-shadow: 0 0 0 3px rgba(46, 134, 171, 0.4);
-  }
-
-  .tutorial-tooltip {
-    transition: none;
-  }
-}
-
-/* Mobile adjustments */
-@media (max-width: 768px) {
-  /* Smaller pulse on mobile */
-  @keyframes tutorialPulse {
-    0%, 100% {
-      box-shadow: 0 0 0 0 rgba(46, 134, 171, 0.7);
-    }
-    50% {
-      box-shadow: 0 0 0 10px rgba(46, 134, 171, 0),
-                  0 0 15px 3px rgba(46, 134, 171, 0.3);
-    }
-  }
-
-  /* Hide tooltips on mobile (pulse is sufficient hint) */
-  .tutorial-tooltip {
-    display: none;
-  }
-}
 
 /* ============================================
    Ratings and Views System
@@ -2416,7 +2301,7 @@ a:hover {
   white-space: nowrap;
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-base);
-  animation: pdfBtnFadeIn 0.5s ease 0.3s backwards, tutorialPulse 2.5s ease-in-out infinite 1s;
+  animation: pdfBtnFadeIn 0.5s ease 0.3s backwards;
 }
 
 .lesson-pdf-btn:hover,

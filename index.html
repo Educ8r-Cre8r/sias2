@@ -78,7 +78,8 @@
     }
     </script>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=6">
+    <link rel="stylesheet" href="tutorial-modal.css">
 </head>
 <body>
     <!-- Hero Section with Parallax -->
@@ -140,6 +141,9 @@
             <div class="hero-buttons">
                 <button class="overview-btn" onclick="openOverviewModal()" aria-label="Watch overview video">
                     Overview
+                </button>
+                <button class="tutorial-btn" onclick="openTutorialModal()" aria-label="Open site tutorial">
+                    Tutorial
                 </button>
                 <button class="explore-btn" onclick="scrollToGallery()" aria-label="Scroll to photo gallery">
                     Explore Gallery
@@ -536,7 +540,7 @@
                 <!-- Copyright Section (Right) -->
                 <div class="footer-copyright">
                     <p>Science In A Snapshot © <span id="footer-year">2026</span> Alex Jones, M.Ed.</p>
-                    <p class="footer-credits"><a href="/STEM-Educ8r/svp/index.html" target="_blank" rel="noopener noreferrer">English Learner Strategies</a> | <a href="javascript:void(0);" onclick="openVisionaryModal();" class="visionary-link">The Visionary</a> | <a href="javascript:void(0);" onclick="openContactModal();" class="contact-link">Contact</a> | <a href="javascript:void(0);" onclick="openCopyrightModal();" class="copyright-link">Copyright & Terms</a></p>
+                    <p class="footer-credits"><a href="/STEM-Educ8r/svp/index.html" target="_blank" rel="noopener noreferrer">English Learner Strategies</a> | <a href="javascript:void(0);" onclick="openVisionaryModal();" class="visionary-link">The Visionary</a> | <a href="javascript:void(0);" onclick="openContactModal();" class="contact-link">Contact</a> | <a href="javascript:void(0);" onclick="openCopyrightModal();" class="copyright-link">Copyright & Terms</a> | <a href="javascript:void(0);" onclick="openTutorialModal();" class="replay-tour-link" aria-label="Learn how Science In A Snapshot works">How It Works</a></p>
                     <div class="footer-signature-row">
                         <a href="https://x.com/sci_snap" target="_blank" rel="noopener noreferrer" aria-label="Follow Science In A Snapshot on X" class="footer-x-link">
                             <svg viewBox="0 0 24 24" width="24" height="24" class="footer-x-icon" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
@@ -568,6 +572,9 @@
     <script src="favorites.js"></script>
 
     <!-- Main Script -->
-    <script src="script.js"></script>
+    <script src="script.js?v=4"></script>
+
+    <!-- Tutorial Carousel Modal -->
+    <script src="tutorial-modal.js"></script>
 </body>
 </html>
