@@ -482,7 +482,7 @@ a:hover {
 
 /* Search Bar */
 .search-container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto var(--spacing-xl);
   display: flex;
   gap: var(--spacing-md);
@@ -491,11 +491,25 @@ a:hover {
 
 .search-input {
   flex: 1;
-  padding: var(--spacing-sm) var(--spacing-md);
-  font-size: var(--font-size-base);
+  min-width: 220px;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
   border: 2px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  transition: border-color var(--transition-fast);
+  border-radius: var(--radius-full);
+  transition: all var(--transition-base);
+}
+
+.search-input::placeholder {
+  color: var(--color-text-dark);
+  font-weight: 600;
+}
+
+.search-input:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
 }
 
 .search-input:focus {
@@ -504,25 +518,36 @@ a:hover {
 }
 
 .grade-level-select {
-  min-width: 180px;
-  padding: var(--spacing-sm) var(--spacing-md);
-  font-size: var(--font-size-base);
+  min-width: 220px;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
   border: 2px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  background-color: white;
+  border-radius: var(--radius-full);
+  background-color: var(--color-bg-white);
+  color: var(--color-text-dark);
   cursor: pointer;
-  transition: border-color var(--transition-fast);
+  transition: all var(--transition-base);
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--spacing-md) center;
+  padding-right: calc(var(--spacing-lg) + 16px);
 }
 
 .grade-level-select:hover {
   border-color: var(--color-primary);
-  animation: none; /* Stop pulsing on hover */
+  color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+  animation: none;
 }
 
 .grade-level-select:focus {
   border-color: var(--color-primary);
   outline: none;
-  animation: none; /* Stop pulsing when focused */
+  animation: none;
 }
 
 /* Responsive: Stack on mobile */
