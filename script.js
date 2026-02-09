@@ -2359,6 +2359,24 @@ function closeCCModal() {
   }
 }
 
+function openELModal() {
+  const modal = document.getElementById('el-strategies-modal');
+  if (modal) {
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    modal.setAttribute('tabindex', '-1');
+    modal.focus();
+  }
+}
+
+function closeELModal() {
+  const modal = document.getElementById('el-strategies-modal');
+  if (modal) {
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+}
+
 async function handleContactSubmit(event) {
   event.preventDefault();
 
