@@ -571,6 +571,12 @@ function createGalleryItem(image) {
           <span>${categoryIcon}</span>
           ${categoryName}
         </p>
+        <button type="button" class="cc-license-link" onclick="openCCModal()" aria-label="Creative Commons BY-NC-ND 4.0 License" title="Creative Commons Licensing">
+          <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" class="cc-icon">
+          <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" class="cc-icon">
+          <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="NC" class="cc-icon">
+          <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="ND" class="cc-icon">
+        </button>
       </div>
       <button
         class="notebook-icon-btn"
@@ -2329,6 +2335,24 @@ function openContactModal() {
 
 function closeContactModal() {
   const modal = document.getElementById('contact-modal');
+  if (modal) {
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+}
+
+function openCCModal() {
+  const modal = document.getElementById('cc-license-modal');
+  if (modal) {
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    modal.setAttribute('tabindex', '-1');
+    modal.focus();
+  }
+}
+
+function closeCCModal() {
+  const modal = document.getElementById('cc-license-modal');
   if (modal) {
     modal.style.display = 'none';
     document.body.style.overflow = '';

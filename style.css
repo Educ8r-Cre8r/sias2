@@ -894,6 +894,52 @@ a:hover {
   line-height: 1;
 }
 
+/* Creative Commons License Icons */
+.cc-license-link {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-top: 4px;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity var(--transition-fast);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.cc-license-link:hover {
+  opacity: 1;
+}
+
+.cc-icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* Creative Commons License Modal */
+.cc-modal-content {
+  background: white;
+  border-radius: 16px;
+  width: 95%;
+  height: 95vh;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalSlideUp 0.3s ease-out;
+  position: relative;
+  z-index: 10001;
+  display: flex;
+  flex-direction: column;
+}
+
+.cc-modal-iframe {
+  flex: 1;
+  width: 100%;
+  border: none;
+  border-radius: 0 0 16px 16px;
+}
+
 /* Loading & Empty States */
 .loading-state,
 .empty-state {
