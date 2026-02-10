@@ -1505,6 +1505,15 @@ function closeImageModal() {
   // Clean up hotspots
   cleanupHotspots();
 
+  // Reset sentence stems
+  const overlay = document.getElementById('sentence-stems-overlay');
+  const stemBtn = document.getElementById('sentence-stems-toggle-btn');
+  if (overlay) {
+    overlay.style.display = 'none';
+    overlay.classList.remove('show');
+    if (stemBtn) stemBtn.classList.remove('active');
+  }
+
   modal.classList.remove('active');
   modal.style.display = 'none';
   document.body.style.overflow = '';
@@ -2282,6 +2291,17 @@ function toggleHotspots() {
   const toggleBtn = document.getElementById('hotspot-toggle-btn');
   if (!container || !toggleBtn) return;
 
+  // Hide sentence stems if visible
+  const overlay = document.getElementById('sentence-stems-overlay');
+  const stemBtn = document.getElementById('sentence-stems-toggle-btn');
+  if (overlay && overlay.style.display !== 'none') {
+    overlay.classList.remove('show');
+    setTimeout(() => {
+      overlay.style.display = 'none';
+    }, 600);
+    if (stemBtn) stemBtn.classList.remove('active');
+  }
+
   const isHidden = container.classList.toggle('hotspots-hidden');
   toggleBtn.classList.toggle('hotspots-hidden', isHidden);
 
@@ -2292,13 +2312,72 @@ function toggleHotspots() {
     document.querySelectorAll('.hotspot.active').forEach(m => m.classList.remove('active'));
   }
 
-  // Update button icon and text
+  // Update button emoji and text
+  const btnIcon = toggleBtn.querySelector('.btn-icon');
+  const btnText = toggleBtn.querySelector('span:not(.btn-icon)');
   if (isHidden) {
-    toggleBtn.querySelector('svg').innerHTML = '<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line>';
-    toggleBtn.querySelector('span').textContent = 'Show';
+    btnIcon.textContent = '🙈'; // Hidden eye emoji
+    btnText.textContent = 'Show';
   } else {
-    toggleBtn.querySelector('svg').innerHTML = '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle>';
-    toggleBtn.querySelector('span').textContent = 'Hotspots';
+    btnIcon.textContent = '👁️'; // Eye emoji
+    btnText.textContent = 'Hotspots';
+  }
+}
+
+/**
+ * Sentence Stems Overlay Functions
+ */
+function toggleSentenceStems() {
+  const overlay = document.getElementById('sentence-stems-overlay');
+  const hotspotContainer = document.querySelector('.hotspot-container');
+  const stemBtn = document.getElementById('sentence-stems-toggle-btn');
+
+  if (overlay.style.display === 'none' || overlay.style.display === '') {
+    // Show sentence stems
+    overlay.style.display = 'flex';
+    // Use setTimeout to trigger transition after display change
+    setTimeout(() => {
+      overlay.classList.add('show');
+    }, 10);
+    stemBtn.classList.add('active');
+
+    // ALWAYS hide hotspots when showing sentence stems (one-click behavior)
+    if (hotspotContainer && !hotspotContainer.classList.contains('hotspots-hidden')) {
+      // Hide hotspots WITHOUT toggling their button
+      hotspotContainer.classList.add('hotspots-hidden');
+      if (currentTooltip) {
+        currentTooltip.remove();
+        currentTooltip = null;
+        document.querySelectorAll('.hotspot.active').forEach(m => m.classList.remove('active'));
+      }
+    }
+  } else {
+    // Hide sentence stems
+    overlay.classList.remove('show');
+    // Wait for transition to complete before hiding
+    setTimeout(() => {
+      overlay.style.display = 'none';
+    }, 600); // Match slower transition duration
+    stemBtn.classList.remove('active');
+  }
+}
+
+function showImageOnly() {
+  const overlay = document.getElementById('sentence-stems-overlay');
+  const hotspotContainer = document.querySelector('.hotspot-container');
+  const stemBtn = document.getElementById('sentence-stems-toggle-btn');
+  const hotspotBtn = document.getElementById('hotspot-toggle-btn');
+
+  // Hide sentence stems
+  if (overlay) {
+    overlay.style.display = 'none';
+    overlay.classList.remove('show');
+    if (stemBtn) stemBtn.classList.remove('active');
+  }
+
+  // Hide hotspots if visible
+  if (hotspotContainer && !hotspotContainer.classList.contains('hotspots-hidden')) {
+    toggleHotspots();
   }
 }
 
