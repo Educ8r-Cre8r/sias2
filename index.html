@@ -159,28 +159,34 @@
     <main id="gallery-section" class="gallery-section">
         <!-- Particles Background -->
         <div class="particles-container" id="particles-container"></div>
-        <div class="container">
-            <!-- Logo and Category Filters -->
+
+        <!-- Logo and Category Filters (Sticky) - Moved outside container -->
+        <div class="gallery-header-wrapper">
             <div class="gallery-header">
-                <img src="sias_logo.png" alt="Science In A Snapshot logo" class="gallery-logo" width="60" height="60">
-                <nav class="category-filters" role="navigation" aria-label="Filter gallery by category">
-                <button class="filter-btn active" data-category="all" aria-pressed="true">
-                    All
-                </button>
-                <button class="filter-btn" data-category="life-science" aria-pressed="false">
-                    <span class="category-icon">🌱</span>
-                    Life Science
-                </button>
-                <button class="filter-btn" data-category="earth-space-science" aria-pressed="false">
-                    <span class="category-icon">🌍</span>
-                    Earth & Space Science
-                </button>
-                <button class="filter-btn" data-category="physical-science" aria-pressed="false">
-                    <span class="category-icon">⚗️</span>
-                    Physical Science
-                </button>
-            </nav>
+                <div class="container">
+                    <img src="sias_logo.png" alt="Science In A Snapshot logo" class="gallery-logo" width="60" height="60">
+                    <nav class="category-filters" role="navigation" aria-label="Filter gallery by category">
+                    <button class="filter-btn active" data-category="all" aria-pressed="true">
+                        All
+                    </button>
+                    <button class="filter-btn" data-category="life-science" aria-pressed="false">
+                        <span class="category-icon">🌱</span>
+                        Life Science
+                    </button>
+                    <button class="filter-btn" data-category="earth-space-science" aria-pressed="false">
+                        <span class="category-icon">🌍</span>
+                        Earth & Space Science
+                    </button>
+                    <button class="filter-btn" data-category="physical-science" aria-pressed="false">
+                        <span class="category-icon">⚗️</span>
+                        Physical Science
+                    </button>
+                </nav>
+                </div>
             </div>
+        </div>
+
+        <div class="container">
 
             <!-- Search and Grade Level Controls -->
             <div class="search-container">

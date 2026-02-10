@@ -167,14 +167,14 @@ function setupEventListeners() {
  * Initialize sticky filter behavior with intersection observer
  */
 function initializeStickyFilters() {
-  const galleryHeader = document.querySelector('.gallery-header');
-  if (!galleryHeader) return;
+  const galleryHeaderWrapper = document.querySelector('.gallery-header-wrapper');
+  if (!galleryHeaderWrapper) return;
 
   // Create an intersection observer to detect when header reaches top
   const observer = new IntersectionObserver(
     ([entry]) => {
       // Toggle 'is-stuck' class when header is no longer intersecting
-      galleryHeader.classList.toggle('is-stuck', !entry.isIntersecting);
+      galleryHeaderWrapper.classList.toggle('is-stuck', !entry.isIntersecting);
     },
     {
       threshold: [1],
@@ -182,14 +182,14 @@ function initializeStickyFilters() {
     }
   );
 
-  // Create a sentinel element just above the gallery header
+  // Create a sentinel element just above the gallery header wrapper
   const sentinel = document.createElement('div');
   sentinel.style.height = '1px';
   sentinel.style.visibility = 'hidden';
   sentinel.setAttribute('aria-hidden', 'true');
 
-  // Insert sentinel before the gallery header
-  galleryHeader.parentNode.insertBefore(sentinel, galleryHeader);
+  // Insert sentinel before the gallery header wrapper
+  galleryHeaderWrapper.parentNode.insertBefore(sentinel, galleryHeaderWrapper);
 
   // Start observing the sentinel
   observer.observe(sentinel);
