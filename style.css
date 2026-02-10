@@ -1222,7 +1222,7 @@ a:hover {
 /* Modal Header */
 .modal-header {
   display: grid;
-  grid-template-columns: 100px 1fr auto;
+  grid-template-columns: 100px 1fr auto auto;
   gap: var(--spacing-md);
   align-items: center;
   padding: var(--spacing-lg);
@@ -1239,6 +1239,56 @@ a:hover {
 
 .modal-title-wrapper {
   min-width: 0;
+}
+
+/* Modal Recommendations ("more like this") */
+.modal-recommendations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.modal-recommendations-label {
+  font-size: 0.7rem;
+  color: var(--color-text-light);
+  text-transform: lowercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.modal-rec-thumbs {
+  display: flex;
+  gap: 10px;
+}
+
+.modal-rec-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  max-width: 75px;
+}
+
+.modal-rec-item:focus {
+  outline: 2px solid var(--color-primary, #4a90d9);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.modal-rec-thumb {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.modal-rec-item:hover .modal-rec-thumb {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .modal-title {
@@ -2068,7 +2118,7 @@ a:hover {
 
   .modal-header {
     grid-template-columns: 1fr auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
   }
 
   .modal-thumbnail {
@@ -2076,6 +2126,22 @@ a:hover {
     width: 100%;
     height: 200px;
     margin-bottom: var(--spacing-sm);
+  }
+
+  .modal-recommendations {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .modal-rec-thumb {
+    width: 55px;
+    height: 55px;
+  }
+
+  .modal-rec-item {
+    max-width: 60px;
   }
 
   .modal-body {

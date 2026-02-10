@@ -894,6 +894,69 @@ function clearNGSSSearch() {
 }
 
 /**
+ * Get recommended images based on shared NGSS standards for the selected grade level
+ */
+async function getRecommendedImages(currentImage, maxCount = 3) {
+  const index = await loadNGSSIndex();
+  if (!index) return [];
+
+  const gradeKey = mapGradeLevelKey(state.selectedGradeLevel);
+  const currentStandards = currentImage.ngssStandards?.[gradeKey] || [];
+  if (currentStandards.length === 0) return [];
+
+  // Collect candidate image IDs from all matching standards
+  const candidateScores = {};
+  for (const code of currentStandards) {
+    const peIds = index.performanceExpectations[code] || [];
+    const dciIds = index.disciplinaryCoreIdeas[code] || [];
+    const allIds = [...peIds, ...dciIds];
+    for (const id of allIds) {
+      if (id === currentImage.id) continue;
+      candidateScores[id] = (candidateScores[id] || 0) + 1;
+    }
+  }
+
+  // Sort by overlap count descending
+  const sorted = Object.entries(candidateScores)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, maxCount)
+    .map(([id]) => Number(id));
+
+  // Resolve to full image objects
+  return sorted
+    .map(id => state.galleryData.images.find(img => img.id === id))
+    .filter(Boolean);
+}
+
+/**
+ * Render recommendation thumbnails in the modal header
+ */
+async function renderRecommendations(currentImage) {
+  const container = document.getElementById('modal-recommendations');
+  const thumbsContainer = document.getElementById('modal-rec-thumbs');
+  if (!container || !thumbsContainer) return;
+
+  const recommended = await getRecommendedImages(currentImage);
+
+  if (recommended.length === 0) {
+    container.style.display = 'none';
+    return;
+  }
+
+  thumbsContainer.innerHTML = recommended.map(img => {
+    const thumbSrc = img.thumbPath || img.imagePath;
+    const title = img.title || 'Untitled';
+    return `
+      <div class="modal-rec-item" onclick="openModal(${img.id})" role="button" tabindex="0" aria-label="View ${title}">
+        <img class="modal-rec-thumb" src="${thumbSrc}" alt="${title}" loading="lazy">
+      </div>
+    `;
+  }).join('');
+
+  container.style.display = 'flex';
+}
+
+/**
  * Update NGSS badges when grade level changes
  */
 function updateGalleryNGSSBadges() {
@@ -964,6 +1027,8 @@ function handleGradeLevelChange(event) {
       `;
       // Load new grade level content (will use cache if already loaded)
       loadEducationalContent(image, modalBody);
+      // Update recommendations for new grade level
+      renderRecommendations(image);
     }
   }
 }
@@ -1008,6 +1073,9 @@ async function openModal(imageId) {
     <span>${categoryIcon}</span>
     ${categoryName}
   `;
+
+  // Render NGSS-based recommendations
+  renderRecommendations(image);
 
   // Add stats container if it doesn't exist
   let statsContainer = document.querySelector('.modal-stats');
