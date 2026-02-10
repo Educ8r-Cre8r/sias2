@@ -466,26 +466,32 @@ function extractNGSSStandards(content) {
 
 /**
  * Extract NGSS standards from all grade levels
+ * Handles both naming conventions:
+ * - Abbreviated: grade1, grade2, grade3, grade4, grade5
+ * - Spelled-out: firstgrade, secondgrade, thirdgrade, fourthgrade, fifthgrade
  */
 function extractAllGradeLevelStandards(educational) {
   const ngssStandards = {};
   
-  // Map grade keys to match the educational object structure
+  // Map of output keys (abbreviated) to possible input keys (both conventions)
   const gradeMapping = {
-    'kindergarten': 'kindergarten',
-    'firstgrade': 'grade1',
-    'secondgrade': 'grade2',
-    'thirdgrade': 'grade3',
-    'fourthgrade': 'grade4',
-    'fifthgrade': 'grade5'
+    'kindergarten': ['kindergarten'],
+    'grade1': ['grade1', 'firstgrade'],
+    'grade2': ['grade2', 'secondgrade'],
+    'grade3': ['grade3', 'thirdgrade'],
+    'grade4': ['grade4', 'fourthgrade'],
+    'grade5': ['grade5', 'fifthgrade']
   };
 
-  for (const [edKey, gradeKey] of Object.entries(gradeMapping)) {
-    const content = educational[edKey];
-    if (content) {
-      const extracted = extractNGSSStandards(content);
-      if (extracted.length > 0) {
-        ngssStandards[gradeKey] = extracted;
+  for (const [outputKey, possibleKeys] of Object.entries(gradeMapping)) {
+    // Try each possible key until we find content
+    for (const inputKey of possibleKeys) {
+      if (educational[inputKey]) {
+        const standards = extractNGSSStandards(educational[inputKey]);
+        if (standards.length > 0) {
+          ngssStandards[outputKey] = standards;
+        }
+        break; // Found content for this grade, move to next
       }
     }
   }
