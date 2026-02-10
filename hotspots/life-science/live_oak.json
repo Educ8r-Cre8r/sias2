@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Tree Canopy",
+      "fact": "This tree's wide, spreading canopy provides shade for the entire park! Trees produce oxygen through photosynthesis and help keep our air clean and fresh."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "65%",
+      "label": "Thick Trunk",
+      "fact": "This tree's massive trunk has grown over many years by adding rings of new wood each season. The darker, wrinkled bark protects the tree from insects and weather."
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "45%",
+      "label": "Root System",
+      "fact": "Beneath the soil, this tree has extensive roots that anchor it firmly to the ground. Roots absorb water and nutrients from the soil to help the tree grow tall and strong."
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "25%",
+      "label": "Green Leaves",
+      "fact": "The green color comes from chlorophyll, a special pigment that helps leaves capture sunlight. Through photosynthesis, leaves convert sunlight into energy that feeds the entire tree."
+    }
+  ]
+}

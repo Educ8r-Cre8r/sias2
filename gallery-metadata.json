@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-10T04:15:23.170Z",
-  "totalImages": 155,
+  "lastUpdated": "2026-02-10T04:19:23.169Z",
+  "totalImages": 156,
   "images": [
     {
       "id": 1,
@@ -3100,6 +3100,26 @@
         "ecosystems",
         "food chains",
         "wildlife"
+      ]
+    },
+    {
+      "id": 156,
+      "filename": "live_oak.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/live_oak.jpg",
+      "thumbPath": "images/life-science/thumbs/live_oak.jpg",
+      "webpPath": "images/life-science/webp/live_oak.webp",
+      "placeholderPath": "images/life-science/placeholders/live_oak.jpg",
+      "contentFile": "content/life-science/live_oak.json",
+      "title": "Live Oak",
+      "hasContent": true,
+      "keywords": [
+        "tree growth",
+        "plant structure",
+        "mature tree",
+        "tree trunk",
+        "life cycles",
+        "organism habitat"
       ]
     }
   ]
