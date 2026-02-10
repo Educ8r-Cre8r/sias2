@@ -167,6 +167,8 @@ function updateAuthUI(user) {
       const photoURL = googleProvider?.photoURL || user.photoURL || null;
       const initials = getInitials(displayName);
 
+      console.log('🔍 Avatar Debug:', { displayName, photoURL, hasGoogleProvider: !!googleProvider });
+
       // Update avatar initials (both small and large)
       const userInitials = document.getElementById('user-initials');
       const userInitialsLarge = document.getElementById('user-initials-large');
@@ -184,7 +186,12 @@ function updateAuthUI(user) {
         const userAvatar = document.getElementById('user-avatar');
         const userAvatarLarge = document.getElementById('user-avatar-large');
 
-        if (userAvatar && !userAvatar.querySelector('img')) {
+        if (userAvatar) {
+          // Remove existing image if any
+          const existingImg = userAvatar.querySelector('img');
+          if (existingImg) existingImg.remove();
+
+          // Create new image
           const img = document.createElement('img');
           img.src = photoURL;
           img.className = 'user-avatar-bg';
@@ -201,7 +208,12 @@ function updateAuthUI(user) {
           userAvatar.appendChild(img);
         }
 
-        if (userAvatarLarge && !userAvatarLarge.querySelector('img')) {
+        if (userAvatarLarge) {
+          // Remove existing image if any
+          const existingImg = userAvatarLarge.querySelector('img');
+          if (existingImg) existingImg.remove();
+
+          // Create new image
           const img = document.createElement('img');
           img.src = photoURL;
           img.className = 'user-avatar-large-bg';
@@ -214,6 +226,22 @@ function updateAuthUI(user) {
             if (userInitialsLarge) userInitialsLarge.style.display = 'block';
           };
           userAvatarLarge.appendChild(img);
+        }
+      } else {
+        // No photo URL - ensure initials are visible and remove any leftover images
+        const userAvatar = document.getElementById('user-avatar');
+        const userAvatarLarge = document.getElementById('user-avatar-large');
+
+        if (userAvatar) {
+          const existingImg = userAvatar.querySelector('img');
+          if (existingImg) existingImg.remove();
+          if (userInitials) userInitials.style.display = 'block';
+        }
+
+        if (userAvatarLarge) {
+          const existingImg = userAvatarLarge.querySelector('img');
+          if (existingImg) existingImg.remove();
+          if (userInitialsLarge) userInitialsLarge.style.display = 'block';
         }
       }
 
