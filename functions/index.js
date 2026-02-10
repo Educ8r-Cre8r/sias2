@@ -171,6 +171,8 @@ async function processImageFromQueue(queueItem) {
   console.log(`📸 Processing: ${filename}`);
   console.log(`📂 Category: ${category}`);
 
+  const processingStartTime = Date.now();
+
   try {
     // Parse the file path: uploads/category/filename.jpg
     const pathParts = filePath.split('/');
@@ -374,6 +376,23 @@ async function processImageFromQueue(queueItem) {
       console.warn(`⚠️ EDP generation failed (non-blocking): ${edpErr.message}`);
     }
 
+    // Calculate processing duration
+    const processingDurationMs = Date.now() - processingStartTime;
+    const processingMinutes = Math.floor(processingDurationMs / 60000);
+    const processingSeconds = Math.round((processingDurationMs % 60000) / 1000);
+    const processingTimeStr = `${processingMinutes}m ${processingSeconds}s`;
+
+    // Update metadata with cost and processing time
+    const metadataFinal = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+    const imageFinalEntry = metadataFinal.images.find(img => img.id === nextId);
+    if (imageFinalEntry) {
+      imageFinalEntry.processingCost = parseFloat(totalCost.toFixed(4));
+      imageFinalEntry.processingTime = processingTimeStr;
+      imageFinalEntry.processedAt = new Date().toISOString();
+      await fs.writeFile(metadataPath, JSON.stringify(metadataFinal, null, 2));
+      console.log(`✅ Added processing cost ($${totalCost.toFixed(4)}) and time (${processingTimeStr}) to metadata`);
+    }
+
     // Commit and push to GitHub
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
@@ -386,7 +405,8 @@ async function processImageFromQueue(queueItem) {
 - Extracted ${totalStandards} NGSS standards for gallery badges
 - Generated ${pdfCount} lesson guide PDFs
 - Generated engineering design process challenge PDF
-- Total cost: $${totalCost.toFixed(2)}
+- Processing time: ${processingTimeStr}
+- Total cost: $${totalCost.toFixed(4)}
 
 Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
 
