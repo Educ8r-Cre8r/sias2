@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "15%",
+      "y": "25%",
+      "label": "Long Curved Beak",
+      "fact": "Ibises have long, curved beaks that are perfectly designed for finding food in muddy water and wetlands. Their beak shape is an adaptation that helps them probe into the mud to catch small fish, shrimp, and insects. This is called **adaptation** — a special body part or behavior that helps an animal survive in its habitat.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps an animal survive and find food in its environment."
+      }
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "60%",
+      "label": "Group Behavior",
+      "fact": "These ibises are living together in a group called a flock, and they help keep each other safe by looking out for danger. Animals often live together in groups because it helps them find food more easily and protect their young from predators. This group living is part of how animals interact in their **ecosystem** — a community of living things in one place.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A group of living animals and plants that live together in the same area and depend on each other."
+      }
+    },
+    {
+      "id": 3,
+      "x": "60%",
+      "y": "45%",
+      "label": "Wetland Habitat",
+      "fact": "Ibises live in shallow wetlands with muddy ground and water, which is the perfect place for them to hunt for food. Different animals need different habitats to survive — for example, ibises need wet, muddy areas while desert animals need dry, sandy places. The place where an animal lives is called its **habitat**, and each habitat has special foods and shelter the animal needs.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The home or place where an animal or plant lives and finds everything it needs to survive."
+      }
+    },
+    {
+      "id": 4,
+      "x": "30%",
+      "y": "55%",
+      "label": "White Feathers",
+      "fact": "Ibises have white feathers that help them stay warm and dry in their wet habitat, and the white color also helps them blend into bright sunny areas. All birds have feathers that help them fly, stay warm, and survive in their environment. Birds use their feathers to stay healthy and survive, which is an important **life function** — something all living things must do to stay alive.",
+      "vocabulary": {
+        "term": "Life Functions",
+        "definition": "Things that all living animals must do to survive, like eating, breathing, moving, and staying warm."
+      }
+    }
+  ]
+}

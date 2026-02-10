@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-10T18:47:44.386Z",
-  "totalImages": 157,
+  "lastUpdated": "2026-02-10T18:57:28.837Z",
+  "totalImages": 158,
   "images": [
     {
       "id": 1,
@@ -7913,6 +7913,57 @@
         "decay",
         "fungi",
         "nutrient cycling",
+        "ecosystem"
+      ]
+    },
+    {
+      "id": 158,
+      "filename": "white_ibises.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/white_ibises.jpg",
+      "thumbPath": "images/life-science/thumbs/white_ibises.jpg",
+      "webpPath": "images/life-science/webp/white_ibises.webp",
+      "placeholderPath": "images/life-science/placeholders/white_ibises.jpg",
+      "contentFile": "content/life-science/white_ibises.json",
+      "title": "White Ibises",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A",
+          "1-LS1.B"
+        ],
+        "grade2": [
+          "2-LS1-1",
+          "2-LS1.A",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS3.B",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A",
+          "4-LS1.D"
+        ],
+        "grade5": [
+          "5-LS1.A",
+          "5-LS2.A"
+        ]
+      },
+      "keywords": [
+        "wading birds",
+        "animal behavior",
+        "wetland habitat",
+        "feeding",
+        "birds",
         "ecosystem"
       ]
     }
