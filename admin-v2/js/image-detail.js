@@ -50,7 +50,10 @@ function showDetailModal(imageId) {
             <div>
                 <img class="detail-image" src="../${image.imagePath}" alt="${escapeHtml(image.title)}"
                      onerror="this.src='../${image.thumbPath || image.imagePath}'">
-                <div class="mt-16">
+                <div class="mt-16" style="display: flex; gap: 8px;">
+                    <button class="btn btn-primary btn-small" onclick="reprocessImage(${image.id})">
+                        Re-process
+                    </button>
                     <button class="btn btn-danger btn-small" onclick="closeDetailModal(); showDeleteModal(${image.id});">
                         Delete Image
                     </button>

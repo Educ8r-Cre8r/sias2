@@ -21,6 +21,9 @@ async function initDashboard() {
     renderCostAnalytics();
     renderContentAudit();
 
+    // Load NGSS coverage (part of Content Audit tab)
+    if (typeof loadNgssCoverage === 'function') loadNgssCoverage();
+
     // Start real-time queue monitor
     startQueueMonitor();
 }
@@ -38,6 +41,10 @@ function switchTab(tabName) {
     document.querySelectorAll('.tab-content').forEach(content => {
         content.classList.toggle('active', content.id === 'tab-' + tabName);
     });
+
+    // Lazy-load data for tabs that query Firestore
+    if (tabName === 'activity' && typeof loadActivityFeed === 'function') loadActivityFeed();
+    if (tabName === 'analytics' && typeof loadAnalytics === 'function') loadAnalytics();
 }
 
 /**

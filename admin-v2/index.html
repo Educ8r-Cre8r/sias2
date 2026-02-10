@@ -61,6 +61,8 @@
                 <button class="tab-btn" data-tab="queue" onclick="switchTab('queue')">Processing Queue</button>
                 <button class="tab-btn" data-tab="costs" onclick="switchTab('costs')">Cost Analytics</button>
                 <button class="tab-btn" data-tab="audit" onclick="switchTab('audit')">Content Audit</button>
+                <button class="tab-btn" data-tab="activity" onclick="switchTab('activity')">Activity</button>
+                <button class="tab-btn" data-tab="analytics" onclick="switchTab('analytics')">Analytics</button>
             </nav>
 
             <!-- ======== OVERVIEW TAB ======== -->
@@ -200,6 +202,7 @@
                                 <option value="title-asc">Title A-Z</option>
                                 <option value="cost-desc">Highest Cost</option>
                             </select>
+                            <button class="btn btn-small btn-secondary" onclick="exportImagesCSV()">Export CSV</button>
                             <label class="select-all-label">
                                 <input type="checkbox" id="select-all" onchange="toggleSelectAll()">
                                 Select All
@@ -314,15 +317,104 @@
                 <div class="card">
                     <div class="card-header">
                         <h2>Content Completeness Audit</h2>
-                        <div class="filter-pills">
-                            <button class="pill active" data-audit="all" onclick="filterAudit('all')">All</button>
-                            <button class="pill" data-audit="complete" onclick="filterAudit('complete')">Complete</button>
-                            <button class="pill" data-audit="partial" onclick="filterAudit('partial')">Partial</button>
-                            <button class="pill" data-audit="missing" onclick="filterAudit('missing')">Missing</button>
+                        <div class="header-actions-inline">
+                            <div class="filter-pills">
+                                <button class="pill active" data-audit="all" onclick="filterAudit('all')">All</button>
+                                <button class="pill" data-audit="complete" onclick="filterAudit('complete')">Complete</button>
+                                <button class="pill" data-audit="partial" onclick="filterAudit('partial')">Partial</button>
+                                <button class="pill" data-audit="missing" onclick="filterAudit('missing')">Missing</button>
+                            </div>
+                            <button class="btn btn-small btn-secondary" onclick="exportAuditCSV()">Export CSV</button>
                         </div>
                     </div>
                     <div id="audit-list" class="audit-list">
                         <p class="text-muted">Loading audit data...</p>
+                    </div>
+                </div>
+
+                <!-- NGSS Coverage Map -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>NGSS Standards Coverage</h2>
+                        <button class="btn btn-small btn-secondary" onclick="refreshNgssCoverage()">Refresh</button>
+                    </div>
+                    <div id="ngss-coverage-container">
+                        <p class="text-muted">Loading NGSS coverage data...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======== ACTIVITY TAB ======== -->
+            <div id="tab-activity" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Recent Activity</h2>
+                        <button class="btn btn-small btn-secondary" onclick="refreshActivityFeed()">Refresh</button>
+                    </div>
+                    <div id="activity-feed-list">
+                        <p class="text-muted">Switch to this tab to load activity...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======== ANALYTICS TAB ======== -->
+            <div id="tab-analytics" class="tab-content">
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <div class="stat-value" id="analytics-total-views">--</div>
+                        <div class="stat-label">Total Views</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="analytics-total-ratings">--</div>
+                        <div class="stat-label">Total Ratings</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="analytics-avg-rating">--</div>
+                        <div class="stat-label">Avg Rating</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="analytics-most-viewed">--</div>
+                        <div class="stat-label">Most Viewed</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Engagement by Category</h2>
+                    </div>
+                    <div id="analytics-category-bars" class="cost-bars"></div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Most Viewed Images</h2>
+                        <button class="btn btn-small btn-secondary" onclick="refreshAnalytics()">Refresh</button>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="data-table">
+                            <thead>
+                                <tr><th>Rank</th><th>Title</th><th>Category</th><th>Views</th><th>Avg Rating</th></tr>
+                            </thead>
+                            <tbody id="most-viewed-body">
+                                <tr><td colspan="5" class="text-muted">Loading...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Highest Rated Images</h2>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="data-table">
+                            <thead>
+                                <tr><th>Rank</th><th>Title</th><th>Category</th><th>Avg Rating</th><th>Ratings</th></tr>
+                            </thead>
+                            <tbody id="highest-rated-body">
+                                <tr><td colspan="5" class="text-muted">Loading...</td></tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -366,6 +458,10 @@
     <script src="js/content-audit.js"></script>
     <script src="js/search-filter.js"></script>
     <script src="js/upload-manager.js"></script>
+    <script src="js/reprocess-manager.js"></script>
+    <script src="js/ngss-coverage.js"></script>
+    <script src="js/activity-feed.js"></script>
+    <script src="js/analytics.js"></script>
 
 </body>
 </html>

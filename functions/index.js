@@ -1411,3 +1411,53 @@ exports.adminClearCompletedQueue = functions
 
     return { success: true, count: snapshot.size };
   });
+
+/**
+ * Admin: Re-process an image by copying it back to uploads/ in Storage
+ * This triggers the existing queueImage pipeline automatically.
+ */
+exports.adminReprocessImage = functions
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { imageId } = data;
+    if (!imageId) {
+      throw new functions.https.HttpsError('invalid-argument', 'imageId is required');
+    }
+
+    console.log(`🔄 Admin re-processing image ID: ${imageId}`);
+
+    try {
+      // Read gallery-metadata.json to find the image
+      const bucket = admin.storage().bucket();
+      const metaFile = bucket.file('gallery-metadata.json');
+      const [metaContent] = await metaFile.download();
+      const metadata = JSON.parse(metaContent.toString());
+
+      const image = metadata.images.find(img => img.id === imageId);
+      if (!image) {
+        throw new functions.https.HttpsError('not-found', `Image ${imageId} not found`);
+      }
+
+      // Download the original image from its current hosting path
+      const sourceFile = bucket.file(image.imagePath);
+      const [exists] = await sourceFile.exists();
+      if (!exists) {
+        throw new functions.https.HttpsError('not-found', 'Source image file not found in storage');
+      }
+
+      // Copy to uploads/{category}/{filename} to trigger queueImage
+      const destPath = `uploads/${image.category}/${image.filename}`;
+      await sourceFile.copy(bucket.file(destPath));
+
+      console.log(`✅ Copied ${image.imagePath} → ${destPath}, queueImage will trigger`);
+
+      return { success: true, message: `Image ${imageId} queued for re-processing` };
+    } catch (error) {
+      console.error('Re-process error:', error);
+      if (error instanceof functions.https.HttpsError) {
+        throw error;
+      }
+      throw new functions.https.HttpsError('internal', 'Re-process failed: ' + error.message);
+    }
+  });

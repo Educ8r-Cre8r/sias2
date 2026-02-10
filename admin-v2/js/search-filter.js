@@ -216,6 +216,34 @@ function updateCardSelectionState(imageId, selected) {
     }
 }
 
+/**
+ * Export images metadata to CSV
+ */
+function exportImagesCSV() {
+    const images = metadataManager.getImages();
+    const header = 'ID,Title,Filename,Category,Has Content,Keywords,NGSS Standards,Cost,Processing Time,Processed At\n';
+    const rows = images.map(img => {
+        const keywords = (img.keywords || []).join('; ');
+        let ngss = '';
+        if (img.ngssStandards && typeof img.ngssStandards === 'object') {
+            const all = new Set();
+            Object.values(img.ngssStandards).forEach(arr => { if (Array.isArray(arr)) arr.forEach(s => all.add(s)); });
+            ngss = [...all].join('; ');
+        }
+        const cost = img.processingCost !== undefined ? img.processingCost.toFixed(4) : '';
+        return `${img.id},"${(img.title || '').replace(/"/g, '""')}","${img.filename}",${img.category},${img.hasContent ? 'Yes' : 'No'},"${keywords}","${ngss}",${cost},"${img.processingTime || ''}",${img.processedAt || ''}`;
+    }).join('\n');
+
+    const blob = new Blob([header + rows], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'sias-images-' + new Date().toISOString().split('T')[0] + '.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+    showToast('Images CSV exported', 'success');
+}
+
 // Expose globally
 window.renderImagesGrid = renderImagesGrid;
 window.filterImages = filterImages;
@@ -225,3 +253,4 @@ window.toggleImageSelect = toggleImageSelect;
 window.toggleSelectAll = toggleSelectAll;
 window.clearSelection = clearSelection;
 window.getSelectedImageIds = getSelectedImageIds;
+window.exportImagesCSV = exportImagesCSV;

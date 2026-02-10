@@ -158,6 +158,29 @@ function filterAudit(filter) {
     renderContentAudit();
 }
 
+/**
+ * Export audit results to CSV
+ */
+function exportAuditCSV() {
+    const images = metadataManager.getImages();
+    const results = images.map(img => auditImage(img));
+    const header = 'ID,Title,Category,Status,Score,Present,Total,Missing Items\n';
+    const rows = results.map(r => {
+        const missing = r.checks.filter(c => !c.present).map(c => c.name).join('; ');
+        return `${r.image.id},"${(r.image.title || r.image.filename).replace(/"/g, '""')}",${r.image.category},${r.status},${r.score}%,${r.presentCount},${r.totalChecks},"${missing}"`;
+    }).join('\n');
+
+    const blob = new Blob([header + rows], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'sias-content-audit-' + new Date().toISOString().split('T')[0] + '.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+    showToast('Audit CSV exported', 'success');
+}
+
 // Expose globally
 window.renderContentAudit = renderContentAudit;
 window.filterAudit = filterAudit;
+window.exportAuditCSV = exportAuditCSV;
