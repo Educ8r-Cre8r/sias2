@@ -307,16 +307,23 @@ async function processImageFromQueue(queueItem) {
     // Generate educational content for all grade levels
     console.log('🤖 Generating educational content...');
     const anthropicKey = process.env.ANTHROPIC_API_KEY;
-    const { totalCost: contentCost, imageBase64, mediaType } = await generateContent(tempFilePath, filename, category, repoDir, anthropicKey);
+    const { totalCost: contentCost, imageBase64, mediaType, educationalContent } = await generateContent(tempFilePath, filename, category, repoDir, anthropicKey);
     let totalCost = contentCost;
 
-    // Update metadata to mark content as generated
+    // Extract NGSS standards from educational content
+    console.log('🎓 Extracting NGSS standards...');
+    const ngssStandards = extractAllGradeLevelStandards(educationalContent);
+    const totalStandards = Object.values(ngssStandards).reduce((sum, arr) => sum + arr.length, 0);
+    console.log(`✅ Extracted ${totalStandards} NGSS standards across all grade levels`);
+
+    // Update metadata with content flag and NGSS standards
     const metadataUpdated = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
     const imageEntry = metadataUpdated.images.find(img => img.id === nextId);
     if (imageEntry) {
       imageEntry.hasContent = true;
+      imageEntry.ngssStandards = ngssStandards;
       await fs.writeFile(metadataPath, JSON.stringify(metadataUpdated, null, 2));
-      console.log('✅ Marked hasContent as true');
+      console.log('✅ Marked hasContent as true and added NGSS standards to metadata');
     }
 
     // Generate search keywords
@@ -370,12 +377,13 @@ async function processImageFromQueue(queueItem) {
     // Commit and push to GitHub
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
-    await repoGit.commit(`Add ${filename} with educational content, hotspots, keywords, lesson PDFs, and EDP
+    await repoGit.commit(`Add ${filename} with educational content, hotspots, keywords, NGSS standards, lesson PDFs, and EDP
 
 - Category: ${category}
 - Generated content for all grade levels (K-5)
 - Generated interactive hotspots (3-4 per image)
 - Generated search keywords
+- Extracted ${totalStandards} NGSS standards for gallery badges
 - Generated ${pdfCount} lesson guide PDFs
 - Generated engineering design process challenge PDF
 - Total cost: $${totalCost.toFixed(2)}
@@ -433,6 +441,56 @@ function generateTitle(filename) {
     .join(' ');
 
   return title;
+}
+
+/**
+ * Extract NGSS standards from educational content
+ * Matches patterns like: K-LS1-1, 3-LS4.C, 2-PS1.A, 5-ESS2-1, 3-LS4-3
+ */
+function extractNGSSStandards(content) {
+  if (!content) return [];
+
+  // Regex pattern to match NGSS standard codes
+  // Matches: [K/1-5]-[2-4 letters][optional digit][. or -][digit(s) OR letter]
+  const ngssPattern = /\b([K1-5]-[A-Z]{2,4}\d?[.-](?:\d+[A-Z]?|[A-Z]))\b/g;
+  const matches = content.matchAll(ngssPattern);
+
+  // Extract unique standards
+  const standards = new Set();
+  for (const match of matches) {
+    standards.add(match[1]);
+  }
+
+  return Array.from(standards).sort();
+}
+
+/**
+ * Extract NGSS standards from all grade levels
+ */
+function extractAllGradeLevelStandards(educational) {
+  const ngssStandards = {};
+  
+  // Map grade keys to match the educational object structure
+  const gradeMapping = {
+    'kindergarten': 'kindergarten',
+    'firstgrade': 'grade1',
+    'secondgrade': 'grade2',
+    'thirdgrade': 'grade3',
+    'fourthgrade': 'grade4',
+    'fifthgrade': 'grade5'
+  };
+
+  for (const [edKey, gradeKey] of Object.entries(gradeMapping)) {
+    const content = educational[edKey];
+    if (content) {
+      const extracted = extractNGSSStandards(content);
+      if (extracted.length > 0) {
+        ngssStandards[gradeKey] = extracted;
+      }
+    }
+  }
+
+  return ngssStandards;
 }
 
 /**
@@ -824,7 +882,7 @@ Remember:
   totalCost += hotspotCost;
   
   console.log(`✅ Total cost (content + hotspots): $${totalCost.toFixed(2)}`);
-  return { totalCost, imageBase64, mediaType };
+  return { totalCost, imageBase64, mediaType, educationalContent };
 }
 
 // ============================================================

@@ -569,6 +569,21 @@ function updateLoadMoreButton() {
 }
 
 /**
+ * Map grade level selector value to content file key
+ */
+function mapGradeLevelKey(selectedLevel) {
+  const mapping = {
+    'kindergarten': 'kindergarten',
+    'first-grade': 'grade1',
+    'second-grade': 'grade2',
+    'third-grade': 'grade3',
+    'fourth-grade': 'grade4',
+    'fifth-grade': 'grade5'
+  };
+  return mapping[selectedLevel] || 'grade3';
+}
+
+/**
  * Create a gallery item element
  */
 function createGalleryItem(image) {
@@ -583,9 +598,18 @@ function createGalleryItem(image) {
 
   const isRecent = recentImageIds.has(image.id);
 
+  // Get NGSS standards for current grade level
+  const gradeKey = mapGradeLevelKey(state.selectedGradeLevel);
+  const standards = image.ngssStandards?.[gradeKey] || [];
+
   item.innerHTML = `
     <div class="image-container" style="background-image: url('${image.placeholderPath || image.imagePath}'); background-size: cover; background-position: center;">
       ${isRecent ? '<span class="new-badge">✨ New</span>' : ''}
+      ${standards.length > 0 ? `
+        <div class="ngss-badges-container">
+          ${standards.map(code => `<span class="ngss-badge">${code}</span>`).join('')}
+        </div>
+      ` : ''}
       <picture>
         ${image.webpPath ? `<source srcset="${image.webpPath}" type="image/webp">` : ''}
         <img
@@ -870,11 +894,56 @@ function clearNGSSSearch() {
 }
 
 /**
+ * Update NGSS badges when grade level changes
+ */
+function updateGalleryNGSSBadges() {
+  const gradeKey = mapGradeLevelKey(state.selectedGradeLevel);
+  const galleryItems = document.querySelectorAll('.gallery-item');
+
+  galleryItems.forEach((item, index) => {
+    const image = state.filteredImages[index];
+    if (!image) return;
+
+    const standards = image.ngssStandards?.[gradeKey] || [];
+    let container = item.querySelector('.ngss-badges-container');
+
+    if (standards.length > 0) {
+      // If container doesn't exist, create it
+      if (!container) {
+        container = document.createElement('div');
+        container.className = 'ngss-badges-container';
+        const imageContainer = item.querySelector('.image-container');
+        if (imageContainer) {
+          // Insert after the new badge if it exists, otherwise insert as first child
+          const newBadge = imageContainer.querySelector('.new-badge');
+          if (newBadge) {
+            newBadge.insertAdjacentElement('afterend', container);
+          } else {
+            imageContainer.insertBefore(container, imageContainer.firstChild);
+          }
+        }
+      }
+
+      // Update badges
+      container.innerHTML = standards
+        .map(code => `<span class="ngss-badge">${code}</span>`)
+        .join('');
+    } else if (container) {
+      // Remove container if no standards
+      container.remove();
+    }
+  });
+}
+
+/**
  * Handle grade level selection change
  */
 function handleGradeLevelChange(event) {
   state.selectedGradeLevel = event.target.value;
   updateURL(); // Update URL to reflect new grade level
+
+  // Update NGSS badges for all gallery cards
+  updateGalleryNGSSBadges();
 
   // If a modal is currently open, reload its content with the new grade level
   const modal = document.getElementById('educational-modal');

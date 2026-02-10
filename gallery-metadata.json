@@ -20,7 +20,36 @@
         "hydroponics",
         "plant reproduction",
         "germination"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-LS2-1",
+          "2-LS2.A",
+          "K-LS1.C"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "5-LS1-1",
+          "5-LS1.C",
+          "K-ESS3.A"
+        ],
+        "grade5": [
+          "5-LS1-1",
+          "5-LS1.C",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 2,
@@ -40,7 +69,37 @@
         "herbivore",
         "food chain",
         "mammal"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-2",
+          "1-LS1.B"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A",
+          "5-LS2.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "5-LS2.A"
+        ],
+        "grade4": [
+          "5-LS2-1",
+          "5-LS2.B",
+          "5-PS1.A"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 3,
@@ -60,7 +119,37 @@
         "animal adaptation",
         "feathers",
         "predator protection"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "3-LS4-3",
+          "3-LS4.B",
+          "3-LS4.C"
+        ],
+        "grade5": [
+          "3-LS4.B",
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 4,
@@ -80,7 +169,35 @@
         "reptile",
         "camouflage",
         "behavior"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "1-LS1-2",
+          "1-LS1.B"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "4-LS1-2",
+          "4-LS1.D"
+        ],
+        "grade5": [
+          "5-LS1.D",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 5,
@@ -100,7 +217,33 @@
         "root development",
         "life cycle",
         "plant structure"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS2-1",
+          "2-LS2.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "5-LS1-1"
+        ],
+        "grade5": [
+          "5-LS1-1",
+          "5-LS1.C",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 6,
@@ -120,7 +263,36 @@
         "wings",
         "life cycle",
         "habitat"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS2.D",
+          "3-LS4-3",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 7,
@@ -140,7 +312,37 @@
         "flower",
         "life cycle",
         "animal behavior"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS2-2",
+          "2-LS2.A",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-PS3.D"
+        ]
+      }
     },
     {
       "id": 8,
@@ -160,7 +362,35 @@
         "compound eyes",
         "life cycles",
         "aquatic insects"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1.B",
+          "3-LS4-3",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "5-LS1.A",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 9,
@@ -180,7 +410,36 @@
         "soil",
         "life cycle",
         "sprouting"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-LS2-1",
+          "2-LS2.A",
+          "K-LS1.C"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "5-LS1-1",
+          "5-LS1.C",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS1-1",
+          "5-LS1.C",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 10,
@@ -200,7 +459,36 @@
         "habitat",
         "biodiversity",
         "living organisms"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS2-1",
+          "2-LS2.A"
+        ],
+        "grade3": [
+          "3-LS1.B",
+          "3-LS4-3",
+          "3-LS4.B"
+        ],
+        "grade4": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 11,
@@ -220,7 +508,36 @@
         "insect",
         "flower parts",
         "life cycles"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS1.B",
+          "3-LS4-3",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "3-LS4.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 12,
@@ -240,7 +557,37 @@
         "habitat",
         "bird characteristics",
         "organism"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "3-LS4.B",
+          "3-LS4.C",
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 13,
@@ -260,7 +607,36 @@
         "adaptation",
         "animal behavior",
         "food chain"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "1-LS1.A",
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS1.B",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 14,
@@ -280,7 +656,37 @@
         "animal habitats",
         "herbivores",
         "ecosystems"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "K-ESS3-1",
+          "K-ESS3.A"
+        ],
+        "grade3": [
+          "3-LS1.B",
+          "3-LS4-2",
+          "3-LS4.B"
+        ],
+        "grade4": [
+          "3-LS4.B",
+          "5-LS2-1",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "3-LS4.B",
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 15,
@@ -300,7 +706,34 @@
         "ecosystem",
         "food chain",
         "animal behavior"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade5": [
+          "5-LS2-1"
+        ]
+      }
     },
     {
       "id": 16,
@@ -320,7 +753,36 @@
         "earth materials",
         "sedimentary rock",
         "weathering"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.B",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "3-LS4.B",
+          "3-LS4.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 17,
@@ -340,7 +802,34 @@
         "life cycles",
         "decomposer",
         "organism"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 18,
@@ -360,7 +849,36 @@
         "ecosystem",
         "wood decay",
         "organism"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 19,
@@ -380,7 +898,36 @@
         "organism",
         "wood decay",
         "ecosystem"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS2.D",
+          "3-LS4-3",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 20,
@@ -400,7 +947,36 @@
         "wood decay",
         "organism",
         "ecosystem"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.D",
+          "5-LS2.A"
+        ],
+        "grade4": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 21,
@@ -420,7 +996,36 @@
         "food chain",
         "camouflage",
         "life cycle"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS2.A",
+          "2-LS4-1"
+        ],
+        "grade3": [
+          "3-LS2.D",
+          "3-LS4-3",
+          "3-LS4.B"
+        ],
+        "grade4": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 22,
@@ -440,7 +1045,35 @@
         "ecosystem",
         "wildlife",
         "wetland"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "5-LS1.A",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 23,
@@ -460,7 +1093,35 @@
         "adaptation",
         "animal behavior",
         "scales"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS3.B",
+          "3-LS4-2",
+          "3-LS4.B"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "3-LS4.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 24,
@@ -480,7 +1141,38 @@
         "chrysalis",
         "larva",
         "butterfly development"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS3-1",
+          "1-LS3.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A",
+          "K-LS1.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS4.B",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS1.B",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 25,
@@ -500,7 +1192,36 @@
         "butterfly",
         "pupa",
         "insect development"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-2",
+          "1-LS1.B"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D",
+          "K-LS1.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade5": [
+          "3-LS1.B",
+          "5-LS1.B",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 26,
@@ -520,7 +1241,32 @@
         "butterfly lifecycle",
         "life cycle",
         "insect development"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS3-1"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS2-1"
+        ]
+      }
     },
     {
       "id": 27,
@@ -540,7 +1286,37 @@
         "plant growth",
         "camouflage",
         "soil"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A",
+          "1-LS1.D"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "3-LS1.B",
+          "3-LS4-3",
+          "3-LS4.C"
+        ],
+        "grade5": [
+          "5-ESS3.A",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 28,
@@ -560,7 +1336,37 @@
         "metamorphosis",
         "animal adaptation",
         "larvae"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-2",
+          "1-LS1.B"
+        ],
+        "grade2": [
+          "1-LS3.A",
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS4.B",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade5": [
+          "5-LS1.B",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 29,
@@ -580,7 +1386,33 @@
         "beak",
         "coastal habitat",
         "bird behavior"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.B",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "5-LS2-1"
+        ]
+      }
     },
     {
       "id": 30,
@@ -600,7 +1432,36 @@
         "germination",
         "plant anatomy",
         "life cycles"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-LS2.A",
+          "2-LS4-1"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS4.B"
+        ],
+        "grade4": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "5-LS1.A"
+        ],
+        "grade5": [
+          "3-LS1.B",
+          "5-LS1-1",
+          "5-LS1.C"
+        ]
+      }
     },
     {
       "id": 31,
@@ -620,7 +1481,36 @@
         "deciduous trees",
         "land use",
         "vegetation"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS3-1",
+          "K-ESS3.A"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS2.D",
+          "3-LS4-3",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ],
+        "grade5": [
+          "5-ESS3.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 32,
@@ -640,7 +1530,36 @@
         "wildlife",
         "food chain",
         "animal behavior"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "3-LS4.C",
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 33,
@@ -660,7 +1579,37 @@
         "habitat",
         "predator hunting",
         "wildlife"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade5": [
+          "3-LS4.C",
+          "3-LS4.D",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 34,
@@ -680,7 +1629,35 @@
         "seed coat",
         "lifecycle",
         "sprouting"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-LS2-1",
+          "2-LS2.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "5-LS1.C"
+        ],
+        "grade5": [
+          "5-LS1-1",
+          "5-LS1.C",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 35,
@@ -700,7 +1677,34 @@
         "animal adaptation",
         "ecosystem",
         "reptile"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 36,
@@ -720,7 +1724,36 @@
         "precipitation",
         "weather",
         "ice"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade1": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "K-ESS2.D"
+        ],
+        "grade3": [
+          "2-PS1.A",
+          "3-ESS2-1",
+          "3-ESS2.D"
+        ],
+        "grade4": [
+          "2-PS1.A",
+          "5-ESS1-2",
+          "5-ESS2.A"
+        ],
+        "grade5": [
+          "2-PS1.A",
+          "5-ESS2-1",
+          "5-ESS2.A"
+        ]
+      }
     },
     {
       "id": 37,
@@ -740,7 +1773,35 @@
         "habitat",
         "organisms",
         "plants and animals"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1.B",
+          "3-LS4-3",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "4-LS1-1"
+        ],
+        "grade5": [
+          "5-ESS3.C",
+          "5-LS1.A",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 38,
@@ -760,7 +1821,35 @@
         "weathering",
         "human impact",
         "shoreline"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade1": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C",
+          "K-ESS2.D"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "5-ESS2-1",
+          "5-ESS2.A"
+        ],
+        "grade5": [
+          "5-ESS2-1",
+          "5-ESS2.A",
+          "5-ESS2.C"
+        ]
+      }
     },
     {
       "id": 39,
@@ -780,7 +1869,35 @@
         "weathering",
         "landforms",
         "earth materials"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ETS1-1",
+          "K-ESS2.E"
+        ],
+        "grade1": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C",
+          "4-ESS1.C"
+        ],
+        "grade4": [
+          "4-ESS1-1",
+          "4-ESS1.C"
+        ],
+        "grade5": [
+          "5-ESS2-1",
+          "5-ESS2.A",
+          "5-ESS2.C"
+        ]
+      }
     },
     {
       "id": 40,
@@ -800,7 +1917,37 @@
         "ocean life",
         "animal adaptation",
         "coastal ecosystem"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "3-LS4.C",
+          "5-ESS2.A",
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 41,
@@ -820,7 +1967,35 @@
         "revolution",
         "sunlight",
         "night and day"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade1": [
+          "1-ESS1-1",
+          "1-ESS1.A"
+        ],
+        "grade2": [
+          "1-ESS1-1",
+          "1-ESS1.A",
+          "1-ESS1.B"
+        ],
+        "grade3": [
+          "5-ESS1-2",
+          "5-ESS1.B"
+        ],
+        "grade4": [
+          "5-ESS1-2",
+          "5-ESS1.B"
+        ],
+        "grade5": [
+          "5-ESS3-1",
+          "5-ESS3.C",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 42,
@@ -840,7 +2015,37 @@
         "topography",
         "hills",
         "landscape"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-2",
+          "K-ESS2.A",
+          "K-ESS3.A"
+        ],
+        "grade1": [
+          "K-ESS3-3",
+          "K-ESS3.A",
+          "K-ESS3.C"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C",
+          "K-ESS3.1"
+        ],
+        "grade4": [
+          "5-ESS2-1",
+          "5-ESS2.A",
+          "5-ETS1.A"
+        ],
+        "grade5": [
+          "5-ESS3-1",
+          "5-ESS3.C"
+        ]
+      }
     },
     {
       "id": 43,
@@ -860,7 +2065,33 @@
         "water cycle",
         "atmosphere",
         "sky"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade1": [
+          "1-ESS1-1",
+          "K-ESS2.D"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "K-ESS2.D"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "5-ESS2-1",
+          "5-ESS2.A"
+        ],
+        "grade5": [
+          "5-ESS2-1",
+          "5-ESS2.A"
+        ]
+      }
     },
     {
       "id": 44,
@@ -880,7 +2111,35 @@
         "rock",
         "decomposition",
         "ecosystem"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-2",
+          "K-ESS2.E"
+        ],
+        "grade1": [
+          "K-ESS2-2",
+          "K-ESS2.E"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "4-ESS1-1",
+          "4-ESS1.C",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-ESS1-1",
+          "5-ESS2.A",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 45,
@@ -900,7 +2159,37 @@
         "water cycle",
         "cracked earth",
         "desertification"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade1": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C",
+          "K-ESS3.B"
+        ],
+        "grade3": [
+          "2-ESS1.C",
+          "3-LS4-3",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "2-ESS1.C",
+          "5-ESS2-1",
+          "5-ESS2.A"
+        ],
+        "grade5": [
+          "5-ESS2-1",
+          "5-ESS2.A",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 46,
@@ -920,7 +2209,33 @@
         "rock formation",
         "sedimentary rock",
         "earth history"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS3-1",
+          "K-ESS3.A"
+        ],
+        "grade1": [
+          "1-ESS1-1",
+          "K-ESS2.D"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "4-ESS1-1",
+          "4-ESS1.C"
+        ],
+        "grade5": [
+          "5-ESS1-2",
+          "5-ESS1.C"
+        ]
+      }
     },
     {
       "id": 47,
@@ -940,7 +2255,35 @@
         "rock layers",
         "paleontology",
         "sedimentary rock"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS3-1",
+          "K-ESS3.A"
+        ],
+        "grade1": [
+          "1-ESS1-1",
+          "1-ESS1.A"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C",
+          "4-ESS1.C"
+        ],
+        "grade4": [
+          "4-ESS1-1",
+          "4-ESS1.C"
+        ],
+        "grade5": [
+          "3-LS4.A",
+          "5-ESS1-2",
+          "5-ESS1.C"
+        ]
+      }
     },
     {
       "id": 48,
@@ -960,7 +2303,32 @@
         "rock layers",
         "sedimentary rock",
         "preserved organism"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS3-1",
+          "K-ESS3.A"
+        ],
+        "grade1": [
+          "1-ESS1-1"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "4-ESS1-1",
+          "4-ESS1.C"
+        ],
+        "grade5": [
+          "5-ESS1-2",
+          "5-ESS1.C"
+        ]
+      }
     },
     {
       "id": 49,
@@ -980,7 +2348,34 @@
         "paleontology",
         "rock layers",
         "sedimentary rock"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ESS1.C",
+          "K-ESS3-1",
+          "K-ESS3.A"
+        ],
+        "grade1": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "4-ESS1-1",
+          "4-ESS1.C"
+        ],
+        "grade5": [
+          "5-ESS1-2",
+          "5-ESS1.C"
+        ]
+      }
     },
     {
       "id": 50,
@@ -1000,7 +2395,36 @@
         "soil",
         "sediment",
         "runoff"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade1": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "4-ESS1.C",
+          "4-ESS2.A",
+          "4-ESS3-2",
+          "4-ESS3.B"
+        ],
+        "grade5": [
+          "2-ESS1.C",
+          "5-ESS2-1",
+          "5-ESS2.A"
+        ]
+      }
     },
     {
       "id": 51,
@@ -1020,7 +2444,33 @@
         "insect",
         "pupa",
         "life cycle"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS3-1",
+          "1-LS3.A"
+        ],
+        "grade2": [
+          "2-LS4-1"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade5": [
+          "5-LS1.B",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 52,
@@ -1040,7 +2490,33 @@
         "erosion",
         "weathering",
         "earth science"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade1": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "4-ESS1-1",
+          "4-ESS1.C"
+        ],
+        "grade5": [
+          "2-ESS1.C",
+          "5-ESS1-2"
+        ]
+      }
     },
     {
       "id": 53,
@@ -1060,7 +2536,34 @@
         "natural resources",
         "renewable resources",
         "forest"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "5-LS1-1",
+          "5-LS1.C"
+        ],
+        "grade5": [
+          "5-ESS1.A",
+          "5-LS1-1",
+          "5-LS1.C"
+        ]
+      }
     },
     {
       "id": 54,
@@ -1080,7 +2583,34 @@
         "energy",
         "conductors",
         "simple circuit"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS3-1",
+          "K-PS3.A"
+        ],
+        "grade1": [
+          "1-PS4-3",
+          "1-PS4.C"
+        ],
+        "grade2": [
+          "K-PS3-1"
+        ],
+        "grade3": [
+          "4-PS3-2",
+          "4-PS3.A",
+          "4-PS3.B"
+        ],
+        "grade4": [
+          "4-PS3-2"
+        ],
+        "grade5": [
+          "4-PS3.A",
+          "4-PS3.B",
+          "5-PS1-3",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 55,
@@ -1100,7 +2630,34 @@
         "temperature",
         "states of matter",
         "solid"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS1-1",
+          "K-PS1.A"
+        ],
+        "grade1": [
+          "K-PS1-1"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-PS1-1",
+          "2-PS1.A",
+          "5-PS1.A"
+        ],
+        "grade4": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade5": [
+          "2-PS1.A",
+          "5-PS1-3",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 56,
@@ -1120,7 +2677,36 @@
         "force and motion",
         "reflection",
         "construction"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ETS1-1",
+          "2-ETS1.A"
+        ],
+        "grade1": [
+          "1-PS4-4",
+          "2-ETS1.A"
+        ],
+        "grade2": [
+          "2-ETS1-1",
+          "2-ETS1.A"
+        ],
+        "grade3": [
+          "2-ETS1-1",
+          "2-ETS1.A",
+          "2-ETS1.B"
+        ],
+        "grade4": [
+          "4-PS3.A",
+          "5-ETS1-2",
+          "5-ETS1.B"
+        ],
+        "grade5": [
+          "2-ETS1.A",
+          "5-ESS1-2",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 57,
@@ -1140,7 +2726,33 @@
         "brass instruments",
         "sound energy",
         "sound"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1"
+        ],
+        "grade1": [
+          "1-PS4-1",
+          "1-PS4.A"
+        ],
+        "grade2": [
+          "1-PS4-1",
+          "1-PS4.A"
+        ],
+        "grade3": [
+          "1-PS4-1",
+          "1-PS4.A",
+          "1-PS4.C"
+        ],
+        "grade4": [
+          "4-PS3-2",
+          "4-PS3.A",
+          "4-PS3.B"
+        ],
+        "grade5": [
+          "5-PS1-3"
+        ]
+      }
     },
     {
       "id": 58,
@@ -1160,7 +2772,33 @@
         "force",
         "states of matter",
         "air resistance"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A"
+        ],
+        "grade1": [
+          "K-PS2-1",
+          "K-PS2.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A",
+          "K-PS2.A"
+        ],
+        "grade3": [
+          "3-PS2-3"
+        ],
+        "grade4": [
+          "5-PS1-3"
+        ],
+        "grade5": [
+          "5-PS1-3",
+          "5-PS1.A",
+          "5-PS1.B"
+        ]
+      }
     },
     {
       "id": 59,
@@ -1180,7 +2818,33 @@
         "ice",
         "liquid",
         "buoyancy"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS1-1",
+          "K-PS1.A"
+        ],
+        "grade1": [
+          "K-PS1-1",
+          "K-PS1.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade4": [
+          "5-PS1-1"
+        ],
+        "grade5": [
+          "2-PS1.A",
+          "5-PS1-1",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 60,
@@ -1200,7 +2864,36 @@
         "solids",
         "food",
         "properties"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS1-3",
+          "K-PS1.A"
+        ],
+        "grade1": [
+          "1-PS4-1",
+          "2-PS1.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A",
+          "2-PS1.B"
+        ],
+        "grade3": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade4": [
+          "4-PS3.A",
+          "5-PS1-4",
+          "5-PS1.B"
+        ],
+        "grade5": [
+          "5-PS1-4",
+          "5-PS1.A",
+          "5-PS1.B"
+        ]
+      }
     },
     {
       "id": 61,
@@ -1220,7 +2913,34 @@
         "transparency",
         "matter",
         "properties of materials"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A"
+        ],
+        "grade1": [
+          "1-PS4-3",
+          "1-PS4.B"
+        ],
+        "grade2": [
+          "1-PS4-3",
+          "1-PS4.B"
+        ],
+        "grade3": [
+          "1-PS4-3",
+          "1-PS4.B"
+        ],
+        "grade4": [
+          "4-PS4-2",
+          "4-PS4.B"
+        ],
+        "grade5": [
+          "1-PS4.B",
+          "5-PS1-3",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 62,
@@ -1240,7 +2960,33 @@
         "matter",
         "states of matter",
         "solutions"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS1-1",
+          "K-PS1.A"
+        ],
+        "grade1": [
+          "1-PS4-1",
+          "2-PS1.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade4": [
+          "5-PS1-1",
+          "5-PS1.A"
+        ],
+        "grade5": [
+          "5-PS1-1",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 63,
@@ -1260,7 +3006,37 @@
         "texture",
         "composition",
         "earth materials"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ETS1-1",
+          "2-ETS1.A"
+        ],
+        "grade1": [
+          "1-PS4-1",
+          "2-PS1.A"
+        ],
+        "grade2": [
+          "2-ETS1.A",
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-PS1-2",
+          "2-PS1.A",
+          "2-PS1.B"
+        ],
+        "grade4": [
+          "5-ETS1.A",
+          "5-PS1-3",
+          "5-PS1.A"
+        ],
+        "grade5": [
+          "2-ESS1.C",
+          "5-PS1-3",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 64,
@@ -1280,7 +3056,34 @@
         "force and motion",
         "machine parts",
         "energy transfer"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1"
+        ],
+        "grade1": [
+          "1-PS4-1"
+        ],
+        "grade2": [
+          "2-ETS1-1",
+          "2-ETS1.A",
+          "2-PS1.B"
+        ],
+        "grade3": [
+          "5-PS1-3"
+        ],
+        "grade4": [
+          "4-PS3-4"
+        ],
+        "grade5": [
+          "4-PS3.A",
+          "4-PS3.D",
+          "5-ETS1.A",
+          "5-ETS1.B",
+          "5-PS1-3",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 65,
@@ -1300,7 +3103,34 @@
         "indoor lighting",
         "light properties",
         "shadows"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ETS1-1",
+          "K-ESS3.A"
+        ],
+        "grade1": [
+          "1-PS4-3",
+          "1-PS4.B"
+        ],
+        "grade2": [
+          "1-PS4-3",
+          "1-PS4.B"
+        ],
+        "grade3": [
+          "1-PS4-3",
+          "1-PS4.B"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "5-LS1.C",
+          "5-PS1-3",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 66,
@@ -1320,7 +3150,35 @@
         "load capacity",
         "density",
         "mass"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ETS1-1",
+          "2-PS1.A"
+        ],
+        "grade1": [
+          "2-ETS1-1",
+          "2-ETS1.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-PS1-2",
+          "2-PS1.A"
+        ],
+        "grade4": [
+          "5-ETS1.A",
+          "5-PS1-3",
+          "5-PS1.A"
+        ],
+        "grade5": [
+          "2-ETS1.A",
+          "5-PS1-3",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 67,
@@ -1340,7 +3198,35 @@
         "electrical energy",
         "motion",
         "states of matter"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A"
+        ],
+        "grade1": [
+          "K-PS2-1",
+          "K-PS2.A"
+        ],
+        "grade2": [
+          "2-ETS1-1",
+          "2-ETS1.A"
+        ],
+        "grade3": [
+          "3-PS2-3",
+          "3-PS2.B"
+        ],
+        "grade4": [
+          "4-PS3-2",
+          "4-PS3.A",
+          "4-PS3.B"
+        ],
+        "grade5": [
+          "5-ESS3.C",
+          "5-PS1-3",
+          "5-PS3.B"
+        ]
+      }
     },
     {
       "id": 68,
@@ -1360,7 +3246,35 @@
         "states of matter",
         "force",
         "sound energy"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ETS1-1",
+          "2-ETS1.A"
+        ],
+        "grade1": [
+          "1-PS4-1",
+          "1-PS4.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-ESS1.C",
+          "3-PS2-1",
+          "3-PS2.A"
+        ],
+        "grade4": [
+          "4-PS3-1"
+        ],
+        "grade5": [
+          "2-ESS1.C",
+          "5-ESS1-2",
+          "5-ESS2.A",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 69,
@@ -1380,7 +3294,36 @@
         "light and shadows",
         "states of matter",
         "motion"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A"
+        ],
+        "grade1": [
+          "K-PS2-1",
+          "K-PS2.A"
+        ],
+        "grade2": [
+          "K-PS2-1",
+          "K-PS2.A"
+        ],
+        "grade3": [
+          "3-PS2-1",
+          "3-PS2.A"
+        ],
+        "grade4": [
+          "4-PS3-2",
+          "4-PS3.A",
+          "4-PS3.B",
+          "5-ETS1.A"
+        ],
+        "grade5": [
+          "2-ETS1.A",
+          "5-PS2-1",
+          "5-PS2.A"
+        ]
+      }
     },
     {
       "id": 70,
@@ -1400,7 +3343,31 @@
         "states of matter",
         "thin films",
         "light spectrum"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS1-3",
+          "K-PS1.A"
+        ],
+        "grade1": [
+          "1-PS4-1",
+          "1-PS4.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade4": [
+          "4-PS4-2"
+        ],
+        "grade5": [
+          "5-PS1-3"
+        ]
+      }
     },
     {
       "id": 71,
@@ -1420,7 +3387,35 @@
         "states of matter",
         "temperature",
         "freezing point"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS1-1",
+          "K-PS1.A"
+        ],
+        "grade1": [
+          "1-PS4-3",
+          "2-PS1.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade4": [
+          "2-PS1-1",
+          "2-PS1.A",
+          "5-PS1.B"
+        ],
+        "grade5": [
+          "2-PS1.A",
+          "5-PS1-3",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 72,
@@ -1440,7 +3435,35 @@
         "states of matter",
         "metal degradation",
         "chemical change"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ETS1-1",
+          "2-PS1.A"
+        ],
+        "grade1": [
+          "1-PS4-1",
+          "2-PS1.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-PS1-4",
+          "2-PS1.B"
+        ],
+        "grade4": [
+          "2-PS1.A",
+          "5-PS1-4",
+          "5-PS1.B"
+        ],
+        "grade5": [
+          "2-PS1.A",
+          "5-PS1-4",
+          "5-PS1.B"
+        ]
+      }
     },
     {
       "id": 73,
@@ -1460,7 +3483,35 @@
         "decomposition",
         "earth materials",
         "living things"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade1": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "2-ESS1.C",
+          "4-ESS1-1",
+          "4-ESS1.C"
+        ],
+        "grade5": [
+          "5-ESS1-1",
+          "5-ESS2.A",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 74,
@@ -1480,7 +3531,36 @@
         "plant adaptation",
         "weather",
         "dew"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-LS4.A",
+          "K-ESS2.D"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "5-ESS2-1",
+          "5-ESS2.A"
+        ],
+        "grade5": [
+          "5-ESS2.A",
+          "5-LS1.C",
+          "5-LS2-1"
+        ]
+      }
     },
     {
       "id": 75,
@@ -1500,7 +3580,35 @@
         "organism",
         "forest floor",
         "life cycles"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "5-LS2-1",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 76,
@@ -1520,7 +3628,37 @@
         "seasons",
         "woodland habitat",
         "water environment"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ],
+        "grade1": [
+          "1-LS1-2",
+          "1-LS1.B"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 77,
@@ -1540,7 +3678,38 @@
         "feeding behavior",
         "life cycles",
         "organism habitat"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1.B",
+          "3-LS4-3",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A",
+          "5-LS2.A"
+        ],
+        "grade5": [
+          "1-LS1.A",
+          "3-LS4.B",
+          "5-LS1.A",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 78,
@@ -1560,7 +3729,36 @@
         "life cycle",
         "wings",
         "food chain"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-2",
+          "1-LS1.B"
+        ],
+        "grade2": [
+          "1-LS1.A",
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B"
+        ],
+        "grade4": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS4.B"
+        ],
+        "grade5": [
+          "5-LS1.A",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 79,
@@ -1580,7 +3778,34 @@
         "evaporation",
         "condensation",
         "agriculture"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2.D",
+          "K-ESS3-2"
+        ],
+        "grade1": [
+          "1-ESS1-1",
+          "1-ESS1.A"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade4": [
+          "5-ESS2-1",
+          "5-ESS2.A"
+        ],
+        "grade5": [
+          "2-PS1.A",
+          "5-ESS2-1",
+          "5-ESS2.A"
+        ]
+      }
     },
     {
       "id": 80,
@@ -1600,7 +3825,36 @@
         "water cycle",
         "condensation",
         "solid"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2.D",
+          "K-PS1-3",
+          "K-PS1.A"
+        ],
+        "grade1": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade4": [
+          "2-PS1.A",
+          "5-PS1-1",
+          "5-PS1.A"
+        ],
+        "grade5": [
+          "2-PS1.A",
+          "5-PS1-3",
+          "5-PS1.A"
+        ]
+      }
     },
     {
       "id": 81,
@@ -1620,7 +3874,37 @@
         "life cycle",
         "soil organism",
         "decomposer"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-LS4.D",
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade3": [
+          "3-LS1.B",
+          "3-LS4-3",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      }
     },
     {
       "id": 82,
@@ -1640,7 +3924,36 @@
         "adaptation",
         "food chain",
         "life cycle"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "3-LS4-3",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade5": [
+          "3-LS4.C",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 83,
@@ -1660,7 +3973,36 @@
         "food chain",
         "desert habitat",
         "life cycles"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1.B",
+          "3-LS4-3",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "3-LS1.B",
+          "3-LS4-3",
+          "3-LS4.C"
+        ],
+        "grade5": [
+          "5-LS1.A",
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      }
     },
     {
       "id": 84,
@@ -1680,7 +4022,30 @@
         "infrared thermometer",
         "celsius fahrenheit",
         "matter properties"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS3-1",
+          "K-PS3.A"
+        ],
+        "grade1": [
+          "2-ETS1-1",
+          "K-PS3.A"
+        ],
+        "grade2": [
+          "2-PS1-4",
+          "2-PS1.B"
+        ],
+        "grade3": [
+          "3-PS2-1"
+        ],
+        "grade4": [
+          "4-PS3-2"
+        ],
+        "grade5": [
+          "5-PS1-3"
+        ]
+      }
     },
     {
       "id": 85,
@@ -1700,7 +4065,13 @@
         "food chain",
         "shell",
         "camouflage"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 86,
@@ -1720,7 +4091,13 @@
         "land use",
         "earth science",
         "human systems"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS3-1",
+          "K-ESS3.A"
+        ]
+      }
     },
     {
       "id": 87,
@@ -1740,7 +4117,14 @@
         "nocturnal animals",
         "predator",
         "bird"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "1-LS1.A",
+          "K-LS1-1",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 88,
@@ -1760,7 +4144,13 @@
         "plant reproduction",
         "ecosystem",
         "organism"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 89,
@@ -1780,7 +4170,14 @@
         "simple machines",
         "kinetic energy",
         "mechanical"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ETS1-1",
+          "2-ETS1.A",
+          "K-PS2.A"
+        ]
+      }
     },
     {
       "id": 90,
@@ -1800,7 +4197,14 @@
         "reptile",
         "predator",
         "life cycle"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 91,
@@ -1820,7 +4224,14 @@
         "habitat",
         "organism behavior",
         "shell"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 92,
@@ -1840,7 +4251,14 @@
         "insect",
         "plant reproduction",
         "life cycle"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 93,
@@ -1860,7 +4278,15 @@
         "erosion",
         "plant roots",
         "earth materials"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.A",
+          "K-LS1-1",
+          "K-LS1.A"
+        ]
+      }
     },
     {
       "id": 94,
@@ -1880,7 +4306,14 @@
         "autumn",
         "leaf color",
         "weather patterns"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D",
+          "K-LS1.D"
+        ]
+      }
     },
     {
       "id": 95,
@@ -1900,7 +4333,13 @@
         "balance",
         "momentum",
         "friction"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A"
+        ]
+      }
     },
     {
       "id": 96,
@@ -1920,7 +4359,14 @@
         "seasons",
         "climate",
         "freezing point"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D",
+          "K-PS1.A"
+        ]
+      }
     },
     {
       "id": 97,
@@ -1940,7 +4386,13 @@
         "food chain",
         "predator",
         "arthropod"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ]
+      }
     },
     {
       "id": 98,
@@ -1960,7 +4412,14 @@
         "force",
         "work",
         "mechanical energy"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A",
+          "K-PS2.B"
+        ]
+      }
     },
     {
       "id": 99,
@@ -1980,7 +4439,15 @@
         "water cycle",
         "ecosystem",
         "erosion"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.A",
+          "K-ESS2.B",
+          "K-ESS3-1"
+        ]
+      }
     },
     {
       "id": 100,
@@ -2000,7 +4467,14 @@
         "atmosphere",
         "clouds",
         "horizon"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D",
+          "K-PS4.B"
+        ]
+      }
     },
     {
       "id": 101,
@@ -2020,7 +4494,14 @@
         "camouflage",
         "organism habitat",
         "reptile"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 102,
@@ -2040,7 +4521,14 @@
         "seed pod",
         "sprouting",
         "life cycle"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 103,
@@ -2060,7 +4548,14 @@
         "animal behavior",
         "predator adaptation",
         "predator"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.D"
+        ]
+      }
     },
     {
       "id": 104,
@@ -2080,7 +4575,14 @@
         "pollination",
         "hibiscus",
         "flower parts"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 105,
@@ -2100,7 +4602,14 @@
         "metamorphosis",
         "food chain",
         "beetle development"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 106,
@@ -2120,7 +4629,14 @@
         "animal behavior",
         "habitat",
         "organism"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 107,
@@ -2140,7 +4656,14 @@
         "predator",
         "scales",
         "habitats"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.B"
+        ]
+      }
     },
     {
       "id": 108,
@@ -2160,7 +4683,14 @@
         "plant habitats",
         "flowering plants",
         "water environment"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 109,
@@ -2180,7 +4710,13 @@
         "bird behavior",
         "life cycles",
         "offspring"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.B"
+        ]
+      }
     },
     {
       "id": 110,
@@ -2200,7 +4736,13 @@
         "weather",
         "seasonal change",
         "precipitation"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ]
+      }
     },
     {
       "id": 111,
@@ -2220,7 +4762,14 @@
         "physics",
         "kinetic energy",
         "potential energy"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A",
+          "K-PS2.B"
+        ]
+      }
     },
     {
       "id": 112,
@@ -2240,7 +4789,13 @@
         "adaptation",
         "reptile",
         "aquatic life"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ]
+      }
     },
     {
       "id": 113,
@@ -2260,7 +4815,15 @@
         "plant structures",
         "life cycles",
         "seeds"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2.E",
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 114,
@@ -2280,7 +4843,14 @@
         "exoskeleton",
         "habitat adaptation",
         "tree bark"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.B",
+          "K-LS1.D"
+        ]
+      }
     },
     {
       "id": 115,
@@ -2300,7 +4870,14 @@
         "flock",
         "waterfowl",
         "seasonal patterns"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.B"
+        ]
+      }
     },
     {
       "id": 116,
@@ -2320,7 +4897,14 @@
         "web design",
         "animal behavior",
         "nature patterns"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.D"
+        ]
+      }
     },
     {
       "id": 117,
@@ -2340,7 +4924,14 @@
         "soil",
         "animal adaptation",
         "life cycle"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 118,
@@ -2360,7 +4951,13 @@
         "current flow",
         "energy transfer",
         "circuits"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS3.A"
+        ]
+      }
     },
     {
       "id": 119,
@@ -2380,7 +4977,13 @@
         "weather patterns",
         "atmospheric conditions",
         "climate"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ]
+      }
     },
     {
       "id": 120,
@@ -2400,7 +5003,14 @@
         "insect reproduction",
         "organism development",
         "prey"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.B"
+        ]
+      }
     },
     {
       "id": 121,
@@ -2420,7 +5030,15 @@
         "liquid",
         "chemical change",
         "temperature"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-PS1-1",
+          "K-PS3.A",
+          "K-PS3.B"
+        ]
+      }
     },
     {
       "id": 122,
@@ -2440,7 +5058,14 @@
         "adaptation",
         "camouflage",
         "animal behavior"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 123,
@@ -2460,7 +5085,14 @@
         "food chain",
         "bird perch",
         "natural selection"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.B"
+        ]
+      }
     },
     {
       "id": 124,
@@ -2480,7 +5112,13 @@
         "flower structure",
         "stamen",
         "petals"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ]
+      }
     },
     {
       "id": 125,
@@ -2500,7 +5138,13 @@
         "water cycle",
         "rainfall",
         "weather observation"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ]
+      }
     },
     {
       "id": 126,
@@ -2520,7 +5164,14 @@
         "habitat",
         "arachnid",
         "prey"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 127,
@@ -2540,7 +5191,14 @@
         "adaptation",
         "scales",
         "camouflage"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "2-LS4.D",
+          "K-LS1-1",
+          "K-LS1.A"
+        ]
+      }
     },
     {
       "id": 128,
@@ -2560,7 +5218,14 @@
         "life cycle",
         "camouflage",
         "vertebrates"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.B"
+        ]
+      }
     },
     {
       "id": 129,
@@ -2580,7 +5245,14 @@
         "motion",
         "mechanical energy",
         "energy transfer"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ETS1.A",
+          "K-PS2-1",
+          "K-PS2.A"
+        ]
+      }
     },
     {
       "id": 130,
@@ -2600,7 +5272,14 @@
         "mechanical energy",
         "work",
         "force"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A",
+          "K-PS2.B"
+        ]
+      }
     },
     {
       "id": 131,
@@ -2620,7 +5299,13 @@
         "seasonal change",
         "precipitation",
         "water cycle"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.D"
+        ]
+      }
     },
     {
       "id": 132,
@@ -2640,7 +5325,14 @@
         "insects",
         "plant reproduction",
         "ecosystems"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 133,
@@ -2660,7 +5352,14 @@
         "habitat",
         "animal behavior",
         "ecosystem"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 134,
@@ -2680,7 +5379,14 @@
         "organism lifecycle",
         "wood decay",
         "forest ecosystem"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 135,
@@ -2700,7 +5406,14 @@
         "states of matter",
         "winter weather",
         "condensation"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2.D",
+          "K-PS1-1",
+          "K-PS1.A"
+        ]
+      }
     },
     {
       "id": 136,
@@ -2720,7 +5433,14 @@
         "solids",
         "states of matter",
         "physical properties"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ETS1.A",
+          "K-PS1-1",
+          "K-PS1.A"
+        ]
+      }
     },
     {
       "id": 137,
@@ -2740,7 +5460,15 @@
         "clean energy",
         "sustainable resources",
         "energy generation"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2.E",
+          "K-ETS1.A",
+          "K-PS3-1",
+          "K-PS3.A"
+        ]
+      }
     },
     {
       "id": 138,
@@ -2760,7 +5488,14 @@
         "camouflage",
         "herbivore",
         "animal behavior"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.B"
+        ]
+      }
     },
     {
       "id": 139,
@@ -2780,7 +5515,13 @@
         "habitat",
         "animal adaptation",
         "food chain"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ]
+      }
     },
     {
       "id": 140,
@@ -2800,7 +5541,14 @@
         "animal adaptation",
         "bird",
         "plant and animal interactions"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 141,
@@ -2820,7 +5568,13 @@
         "thermal energy",
         "systems",
         "mechanical energy"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS1-1",
+          "K-PS1.A"
+        ]
+      }
     },
     {
       "id": 142,
@@ -2840,7 +5594,14 @@
         "rails",
         "states of matter",
         "parallel lines"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A",
+          "K-PS2.B"
+        ]
+      }
     },
     {
       "id": 143,
@@ -2860,7 +5621,14 @@
         "defense mechanism",
         "plant structure",
         "forest ecosystem"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 144,
@@ -2880,7 +5648,14 @@
         "fruit dissection",
         "plant reproduction",
         "life cycles"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 145,
@@ -2900,7 +5675,14 @@
         "seedling",
         "soil",
         "decomposition"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 146,
@@ -2920,7 +5702,13 @@
         "water cycle",
         "precipitation",
         "atmospheric phenomena"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS4-1",
+          "K-PS4.A"
+        ]
+      }
     },
     {
       "id": 147,
@@ -2940,7 +5728,14 @@
         "force",
         "kinetic energy",
         "sound energy"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2.A",
+          "K-PS2.A",
+          "K-PS3-1"
+        ]
+      }
     },
     {
       "id": 148,
@@ -2960,7 +5755,14 @@
         "adaptation",
         "animal behavior",
         "habitat"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 149,
@@ -2980,7 +5782,14 @@
         "predator",
         "adaptation",
         "food chain"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 150,
@@ -3000,7 +5809,14 @@
         "solid",
         "systems",
         "physical properties"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A",
+          "K-PS2.B"
+        ]
+      }
     },
     {
       "id": 151,
@@ -3020,7 +5836,14 @@
         "ecosystem",
         "animal habitat",
         "life cycle"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 152,
@@ -3040,7 +5863,14 @@
         "transportation",
         "force",
         "signals"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2.A",
+          "K-PS2.B"
+        ]
+      }
     },
     {
       "id": 153,
@@ -3060,7 +5890,13 @@
         "animal adaptation",
         "exoskeleton",
         "predator"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ]
+      }
     },
     {
       "id": 154,
@@ -3080,7 +5916,14 @@
         "landforms",
         "seasonal changes",
         "weathering"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2.D",
+          "K-PS1-1",
+          "K-PS1.A"
+        ]
+      }
     },
     {
       "id": 155,
@@ -3100,7 +5943,14 @@
         "ecosystems",
         "food chains",
         "wildlife"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     },
     {
       "id": 156,
@@ -3120,7 +5970,14 @@
         "tree trunk",
         "life cycles",
         "organism habitat"
-      ]
+      ],
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A",
+          "K-LS1.C"
+        ]
+      }
     }
   ]
 }

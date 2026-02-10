@@ -24,6 +24,7 @@ const Anthropic = require('@anthropic-ai/sdk');
 
 // Configuration
 const CONTENT_DIR = path.join(__dirname, 'content');
+const GALLERY_METADATA_PATH = path.join(__dirname, 'gallery-metadata.json');
 const GRADE_LEVELS = ['kindergarten', 'grade1', 'grade2', 'grade3', 'grade4', 'grade5'];
 const CATEGORIES = ['earth-space-science', 'life-science', 'physical-science'];
 
@@ -39,6 +40,80 @@ const config = {
 const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
 });
+
+/**
+ * Extract NGSS standards from educational content
+ * Matches patterns like: K-LS1-1, 3-LS4.C, 2-PS1.A, 5-ESS2-1, 3-LS4-3
+ */
+function extractNGSSStandards(content) {
+  if (!content) return [];
+
+  // Regex pattern to match NGSS standard codes
+  // Matches: [K/1-5]-[2-4 letters][optional digit][. or -][digit(s) OR letter]
+  const ngssPattern = /\b([K1-5]-[A-Z]{2,4}\d?[.-](?:\d+[A-Z]?|[A-Z]))\b/g;
+  const matches = content.matchAll(ngssPattern);
+
+  // Extract unique standards
+  const standards = new Set();
+  for (const match of matches) {
+    standards.add(match[1]);
+  }
+
+  return Array.from(standards).sort();
+}
+
+/**
+ * Extract NGSS standards from all grade levels
+ */
+function extractAllGradeLevelStandards(educational) {
+  const ngssStandards = {};
+
+  for (const gradeLevel of GRADE_LEVELS) {
+    const content = educational[gradeLevel];
+    if (content) {
+      ngssStandards[gradeLevel] = extractNGSSStandards(content);
+    }
+  }
+
+  return ngssStandards;
+}
+
+/**
+ * Update gallery metadata with NGSS standards
+ */
+async function updateGalleryMetadata(photoTitle, category, ngssStandards) {
+  try {
+    // Read existing metadata
+    const metadataContent = await fs.readFile(GALLERY_METADATA_PATH, 'utf-8');
+    const metadata = JSON.parse(metadataContent);
+
+    // Find the image entry by title and category
+    const imageIndex = metadata.images.findIndex(img =>
+      img.title === photoTitle && img.category === category
+    );
+
+    if (imageIndex !== -1) {
+      // Add NGSS standards to the image entry
+      metadata.images[imageIndex].ngssStandards = ngssStandards;
+
+      // Write updated metadata back to file
+      await fs.writeFile(
+        GALLERY_METADATA_PATH,
+        JSON.stringify(metadata, null, 2),
+        'utf-8'
+      );
+
+      console.log(`   📊 Updated metadata with ${Object.keys(ngssStandards).length} grade-level standards`);
+      return true;
+    } else {
+      console.log(`   ⚠️  Warning: Could not find "${photoTitle}" in gallery metadata`);
+      return false;
+    }
+  } catch (error) {
+    console.error(`   ❌ Error updating gallery metadata:`, error.message);
+    return false;
+  }
+}
 
 /**
  * Generate educational content for a specific grade level
@@ -153,6 +228,12 @@ async function processPhoto(category, filename) {
 
     // Write back to file
     await fs.writeFile(filePath, JSON.stringify(photoData, null, 2), 'utf-8');
+
+    // Extract NGSS standards from all grade levels
+    const ngssStandards = extractAllGradeLevelStandards(educational);
+
+    // Update gallery metadata with extracted standards
+    await updateGalleryMetadata(photoData.title, category, ngssStandards);
 
     console.log(`   ✅ Complete!`);
     return { success: true, grades: GRADE_LEVELS.length };
