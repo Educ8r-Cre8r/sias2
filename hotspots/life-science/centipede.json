@@ -4,29 +4,29 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Scorpion Head",
-      "fact": "A scorpion's head contains two large eyes on top and smaller eyes on the sides to help it hunt at night. These eyes work together to detect movement of prey in dark places."
+      "label": "Structure and Function  ",
+      "fact": "The centipede's segmented body and numerous legs are specialized structures. The legs provide speed for hunting, while the antennae serve as primary sensory organs in dark environments."
     },
     {
       "id": 2,
       "x": "50%",
       "y": "50%",
       "label": "Segmented Body",
-      "fact": "A scorpion's body is divided into 12 segments that work like rings of armor to protect its soft insides. This flexible design allows the scorpion to curl up and move in tight spaces."
+      "fact": "This centipede represents a predator that has evolved specific physical structures to thrive in its niche. The segmentation allows for extreme flexibility, enabling the creature to navigate tight crevices in soil or wood."
     },
     {
       "id": 3,
       "x": "50%",
       "y": "75%",
       "label": "Curved Tail with Stinger",
-      "fact": "The scorpion's curved tail is called the metasoma and contains venom in a stinger at the tip. Scorpions use their tails to catch and paralyze prey much larger than their heads!"
+      "fact": "It uses its antennae to sense vibrations and chemical signals from prey, then utilizes its modified front legs (forcipules) to deliver venom."
     },
     {
       "id": 4,
       "x": "35%",
       "y": "55%",
-      "label": "Legs and Pedipalps",
-      "fact": "Scorpions have 8 walking legs plus two special front appendages called pedipalps that look like claws. They use their pedipalps to grab and hold onto food while eating."
+      "label": "Ecosystem Roles",
+      "fact": "As a predator of insects and spiders, the centipede plays a crucial role in maintaining the balance of the local food web."
     }
   ]
 }
