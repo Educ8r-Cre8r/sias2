@@ -1841,7 +1841,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   animation: modalSlideUp 0.3s ease-out;
-  overflow: hidden;
+  overflow: visible; /* Changed from hidden to allow scrolling */
 }
 
 .visionary-modal-header {
@@ -1871,7 +1871,10 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-xl);
   padding: var(--spacing-xl);
+  padding-bottom: calc(var(--spacing-xl) * 2); /* Extra bottom padding for scrolling */
   align-items: center;
+  overflow-y: auto;
+  flex: 1;
 }
 
 .visionary-text {
@@ -2087,6 +2090,8 @@ a:hover {
   .visionary-modal-body {
     grid-template-columns: 1fr;
     gap: var(--spacing-lg);
+    padding: var(--spacing-md);
+    padding-bottom: calc(var(--spacing-md) * 2); /* Extra bottom padding for mobile */
   }
 
   .visionary-image {
