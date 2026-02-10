@@ -1867,12 +1867,11 @@ a:hover {
 /* Removed .visionary-modal-header .close-btn override - using base .close-btn styles */
 
 .visionary-modal-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: var(--spacing-xl);
   padding: var(--spacing-xl);
   padding-bottom: calc(var(--spacing-xl) * 2); /* Extra bottom padding for scrolling */
-  align-items: center;
   overflow-y: auto;
   flex: 1;
 }
@@ -1896,13 +1895,15 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: var(--spacing-md);
+  margin-top: var(--spacing-md);
 }
 
 .visionary-image img {
+  max-width: 600px;
   width: 100%;
   height: auto;
   border-radius: var(--radius-lg);
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Staggered Fade-In Animations */
@@ -2088,14 +2089,13 @@ a:hover {
   }
 
   .visionary-modal-body {
-    grid-template-columns: 1fr;
     gap: var(--spacing-lg);
     padding: var(--spacing-md);
     padding-bottom: calc(var(--spacing-md) * 2); /* Extra bottom padding for mobile */
   }
 
-  .visionary-image {
-    order: -1; /* Image on top for mobile */
+  .visionary-image img {
+    max-width: 100%;
   }
 
   .visionary-modal-content {
