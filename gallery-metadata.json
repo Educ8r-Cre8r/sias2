@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-10T00:41:21.674Z",
-  "totalImages": 153,
+  "lastUpdated": "2026-02-10T01:52:23.835Z",
+  "totalImages": 154,
   "images": [
     {
       "id": 1,
@@ -3060,6 +3060,26 @@
         "animal adaptation",
         "exoskeleton",
         "life science"
+      ]
+    },
+    {
+      "id": 154,
+      "filename": "thawing_pond.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/thawing_pond.jpg",
+      "thumbPath": "images/earth-space-science/thumbs/thawing_pond.jpg",
+      "webpPath": "images/earth-space-science/webp/thawing_pond.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/thawing_pond.jpg",
+      "contentFile": "content/earth-space-science/thawing_pond.json",
+      "title": "Thawing Pond",
+      "hasContent": true,
+      "keywords": [
+        "water bodies",
+        "ecosystem",
+        "erosion",
+        "landforms",
+        "seasonal changes",
+        "weathering"
       ]
     }
   ]

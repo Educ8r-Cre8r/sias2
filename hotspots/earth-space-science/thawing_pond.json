@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "35%",
+      "y": "35%",
+      "label": "Bare Tree Branches",
+      "fact": "These trees have lost their leaves because it's winter or early spring! Trees drop their leaves to save energy and water during cold months. In a few weeks, new leaves will grow back when it gets warmer."
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Frozen or Cold Lake",
+      "fact": "This body of water is very cold and might be partially frozen. Lakes freeze from the top down because ice is less dense than liquid water, so it floats on the surface and keeps the water below from freezing solid."
+    },
+    {
+      "id": 3,
+      "x": "65%",
+      "y": "60%",
+      "label": "Brown Reed Plants",
+      "fact": "These dried plants are wetland vegetation that grows in shallow water and marshy areas. They provide homes for birds, insects, and small animals, and they help filter water to keep it clean."
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "20%",
+      "label": "Forest Canopy",
+      "fact": "The bare branches at the top create a canopy structure that protects the ground below. Even without leaves, the canopy helps regulate temperature and provides shelter for forest animals during winter."
+    }
+  ]
+}
