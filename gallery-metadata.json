@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-10T01:52:23.835Z",
-  "totalImages": 154,
+  "lastUpdated": "2026-02-10T04:15:23.170Z",
+  "totalImages": 155,
   "images": [
     {
       "id": 1,
@@ -3080,6 +3080,26 @@
         "landforms",
         "seasonal changes",
         "weathering"
+      ]
+    },
+    {
+      "id": 155,
+      "filename": "cattle_egret.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/cattle_egret.jpg",
+      "thumbPath": "images/life-science/thumbs/cattle_egret.jpg",
+      "webpPath": "images/life-science/webp/cattle_egret.webp",
+      "placeholderPath": "images/life-science/placeholders/cattle_egret.jpg",
+      "contentFile": "content/life-science/cattle_egret.json",
+      "title": "Cattle Egret",
+      "hasContent": true,
+      "keywords": [
+        "animal behavior",
+        "birds",
+        "habitats",
+        "ecosystems",
+        "food chains",
+        "wildlife"
       ]
     }
   ]

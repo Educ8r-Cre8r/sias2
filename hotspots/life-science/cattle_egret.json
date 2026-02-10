@@ -1,0 +1,32 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "25%",
+      "label": "Great Egret",
+      "fact": "This white bird is called a Great Egret and is a type of heron that hunts for fish in water. Egrets have long, thin legs that help them wade through shallow water without getting stuck in the mud."
+    },
+    {
+      "id": 2,
+      "x": "20%",
+      "y": "55%",
+      "label": "Grazing Cow",
+      "fact": "Cows are herbivores that spend most of their day eating grass in pastures like this one. A single cow can eat up to 40 pounds of grass each day to get the energy and nutrients it needs!"
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "70%",
+      "label": "Pasture Grass",
+      "fact": "This green grass is food for farm animals like cows and sheep. Grass is a plant that grows from the ground and uses sunlight, water, and soil nutrients to grow strong and healthy."
+    },
+    {
+      "id": 4,
+      "x": "85%",
+      "y": "15%",
+      "label": "Forest Habitat",
+      "fact": "The thick forest in the background is a habitat where many animals live, including birds, deer, and insects. Forests provide food, shelter, and protection for wildlife that cannot live in open farm areas."
+    }
+  ]
+}
