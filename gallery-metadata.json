@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-08T03:37:23.401Z",
-  "totalImages": 152,
+  "lastUpdated": "2026-02-10T00:41:21.674Z",
+  "totalImages": 153,
   "images": [
     {
       "id": 1,
@@ -3040,6 +3040,26 @@
         "transportation",
         "force",
         "signals"
+      ]
+    },
+    {
+      "id": 153,
+      "filename": "centipede.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/centipede.jpg",
+      "thumbPath": "images/life-science/thumbs/centipede.jpg",
+      "webpPath": "images/life-science/webp/centipede.webp",
+      "placeholderPath": "images/life-science/placeholders/centipede.jpg",
+      "contentFile": "content/life-science/centipede.json",
+      "title": "Centipede",
+      "hasContent": true,
+      "keywords": [
+        "arthropod",
+        "centipede",
+        "segmented body",
+        "animal adaptation",
+        "exoskeleton",
+        "life science"
       ]
     }
   ]
