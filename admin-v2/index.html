@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIAS Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin-dashboard.css">
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-functions-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-storage-compat.js"></script>
+</head>
+<body>
+
+    <!-- ============ AUTH GATE ============ -->
+    <div id="auth-screen" class="auth-screen">
+        <div class="auth-card">
+            <div class="auth-logo">SIAS</div>
+            <h1>Admin Dashboard</h1>
+            <p>Sign in with your authorized Google account to continue.</p>
+            <button id="google-sign-in-btn" class="btn btn-google" onclick="adminSignIn()">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844a4.14 4.14 0 01-1.796 2.716v2.259h2.908c1.702-1.567 2.684-3.875 2.684-6.615z" fill="#4285F4"/><path d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 009 18z" fill="#34A853"/><path d="M3.964 10.71A5.41 5.41 0 013.682 9c0-.593.102-1.17.282-1.71V4.958H.957A8.997 8.997 0 000 9c0 1.452.348 2.827.957 4.042l3.007-2.332z" fill="#FBBC05"/><path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 00.957 4.958L3.964 6.29C4.672 4.163 6.656 2.58 9 2.58z" fill="#EA4335"/></svg>
+                Sign in with Google
+            </button>
+            <div id="auth-error" class="auth-error hidden"></div>
+            <div class="auth-loading hidden" id="auth-loading">
+                <div class="spinner"></div>
+                <span>Signing in...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ MAIN DASHBOARD ============ -->
+    <div id="dashboard" class="hidden">
+        <div class="admin-container">
+
+            <!-- Header -->
+            <header class="admin-header">
+                <div class="header-content">
+                    <h1>SIAS Admin Dashboard</h1>
+                    <p class="subtitle">Science In A Snapshot — Content Management</p>
+                </div>
+                <div class="header-actions">
+                    <a href="../index.html" class="btn btn-secondary btn-small" target="_blank">View Gallery</a>
+                    <div class="user-info">
+                        <div id="user-avatar" class="user-avatar" title="">
+                            <span id="user-initials" class="user-initials"></span>
+                        </div>
+                        <button class="btn btn-small btn-outline" onclick="adminSignOut()">Sign Out</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Tab Navigation -->
+            <nav class="tab-nav">
+                <button class="tab-btn active" data-tab="overview" onclick="switchTab('overview')">Overview</button>
+                <button class="tab-btn" data-tab="images" onclick="switchTab('images')">Images</button>
+                <button class="tab-btn" data-tab="queue" onclick="switchTab('queue')">Processing Queue</button>
+                <button class="tab-btn" data-tab="costs" onclick="switchTab('costs')">Cost Analytics</button>
+                <button class="tab-btn" data-tab="audit" onclick="switchTab('audit')">Content Audit</button>
+            </nav>
+
+            <!-- ======== OVERVIEW TAB ======== -->
+            <div id="tab-overview" class="tab-content active">
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-total">--</div>
+                        <div class="stat-label">Total Images</div>
+                    </div>
+                    <div class="stat-card stat-life">
+                        <div class="stat-value" id="stat-life">--</div>
+                        <div class="stat-label">Life Science</div>
+                    </div>
+                    <div class="stat-card stat-earth">
+                        <div class="stat-value" id="stat-earth">--</div>
+                        <div class="stat-label">Earth & Space</div>
+                    </div>
+                    <div class="stat-card stat-physical">
+                        <div class="stat-value" id="stat-physical">--</div>
+                        <div class="stat-label">Physical Science</div>
+                    </div>
+                    <div class="stat-card stat-cost">
+                        <div class="stat-value" id="stat-total-cost">--</div>
+                        <div class="stat-label">Total Cost</div>
+                    </div>
+                    <div class="stat-card stat-avg">
+                        <div class="stat-value" id="stat-avg-cost">--</div>
+                        <div class="stat-label">Avg Cost/Image</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Recent Queue Activity</h2>
+                        <button class="btn btn-small btn-secondary" onclick="switchTab('queue')">View All</button>
+                    </div>
+                    <div id="recent-queue-list" class="activity-list">
+                        <p class="text-muted">Loading...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======== IMAGES TAB ======== -->
+            <div id="tab-images" class="tab-content">
+
+                <!-- Upload Section (collapsible) -->
+                <div class="card upload-section">
+                    <div class="upload-header" onclick="toggleUploadSection()">
+                        <h2>Upload New Image</h2>
+                        <span id="upload-toggle-icon" class="upload-toggle-icon">&#9662;</span>
+                    </div>
+                    <div id="upload-body" class="upload-body">
+                        <!-- Category Selection -->
+                        <div class="upload-step">
+                            <label class="upload-step-label">1. Select Category</label>
+                            <div class="upload-category-pills">
+                                <button class="pill" data-upload-category="life-science" onclick="selectUploadCategory('life-science')">Life Science</button>
+                                <button class="pill" data-upload-category="earth-space-science" onclick="selectUploadCategory('earth-space-science')">Earth & Space</button>
+                                <button class="pill" data-upload-category="physical-science" onclick="selectUploadCategory('physical-science')">Physical Science</button>
+                            </div>
+                        </div>
+
+                        <!-- Dropzone -->
+                        <div class="upload-step">
+                            <label class="upload-step-label">2. Select Image</label>
+                            <div id="upload-dropzone" class="upload-dropzone"
+                                 ondragover="handleDragOver(event)"
+                                 ondragleave="handleDragLeave(event)"
+                                 ondrop="handleDrop(event)"
+                                 onclick="document.getElementById('upload-file-input').click()">
+                                <div class="dropzone-content">
+                                    <div class="dropzone-icon">&#128247;</div>
+                                    <p class="dropzone-text">Drag & drop image here or click to select</p>
+                                    <p class="dropzone-hint">JPEG, PNG, WebP — Max 2 MB</p>
+                                </div>
+                            </div>
+                            <input type="file" id="upload-file-input" accept="image/jpeg,image/png,image/webp" style="display:none" onchange="handleFileSelect(event)">
+                        </div>
+
+                        <!-- Preview (hidden until file selected) -->
+                        <div id="upload-preview" class="upload-preview hidden">
+                            <img id="upload-preview-img" class="upload-preview-img" src="" alt="Preview">
+                            <div class="upload-preview-info">
+                                <span id="upload-preview-name" class="upload-preview-name"></span>
+                                <span id="upload-preview-meta" class="upload-preview-meta"></span>
+                            </div>
+                            <button class="btn btn-small btn-outline" onclick="clearUploadFile()">Remove</button>
+                        </div>
+
+                        <!-- Duplicate Warning (hidden) -->
+                        <div id="upload-duplicate-warning" class="upload-duplicate-warning hidden">
+                            <strong>Warning:</strong> <span id="upload-duplicate-text"></span>
+                        </div>
+
+                        <!-- Error Message (hidden) -->
+                        <div id="upload-error" class="upload-error hidden"></div>
+
+                        <!-- Upload Button -->
+                        <button id="upload-btn" class="btn btn-primary btn-large" onclick="startUpload()" disabled>
+                            Upload & Process
+                        </button>
+
+                        <!-- Progress Bar (hidden) -->
+                        <div id="upload-progress" class="upload-progress hidden">
+                            <div class="upload-progress-track">
+                                <div id="upload-progress-bar" class="upload-progress-bar" style="width: 0%"></div>
+                            </div>
+                            <span id="upload-progress-text" class="upload-progress-text">0% uploading...</span>
+                        </div>
+
+                        <!-- Success Message (hidden) -->
+                        <div id="upload-success" class="upload-success hidden">
+                            <div class="upload-success-icon">&#10003;</div>
+                            <p><strong>Uploaded!</strong> Processing will start within ~1 minute.</p>
+                            <p class="upload-success-hint">Switch to the <a href="#" onclick="switchTab('queue'); return false;">Processing Queue</a> tab to monitor progress.</p>
+                            <button class="btn btn-small btn-secondary mt-8" onclick="resetUpload()">Upload Another</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Toolbar -->
+                <div class="toolbar card">
+                    <div class="toolbar-row">
+                        <div class="search-box">
+                            <input type="text" id="image-search" placeholder="Search images..." oninput="filterImages()">
+                        </div>
+                        <div class="filter-pills">
+                            <button class="pill active" data-category="all" onclick="filterByCategory('all')">All</button>
+                            <button class="pill" data-category="life-science" onclick="filterByCategory('life-science')">Life Science</button>
+                            <button class="pill" data-category="earth-space-science" onclick="filterByCategory('earth-space-science')">Earth & Space</button>
+                            <button class="pill" data-category="physical-science" onclick="filterByCategory('physical-science')">Physical Science</button>
+                        </div>
+                        <div class="toolbar-actions">
+                            <select id="sort-select" onchange="sortImages()">
+                                <option value="id-desc">Newest First</option>
+                                <option value="id-asc">Oldest First</option>
+                                <option value="title-asc">Title A-Z</option>
+                                <option value="cost-desc">Highest Cost</option>
+                            </select>
+                            <label class="select-all-label">
+                                <input type="checkbox" id="select-all" onchange="toggleSelectAll()">
+                                Select All
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bulk Action Bar -->
+                <div id="bulk-bar" class="bulk-bar hidden">
+                    <span id="bulk-count">0 selected</span>
+                    <button class="btn btn-small btn-danger" onclick="bulkDelete()">Delete Selected</button>
+                    <button class="btn btn-small btn-secondary" onclick="clearSelection()">Clear Selection</button>
+                </div>
+
+                <!-- Image Grid -->
+                <div id="images-grid" class="photos-grid">
+                    <p class="text-muted">Loading images...</p>
+                </div>
+            </div>
+
+            <!-- ======== PROCESSING QUEUE TAB ======== -->
+            <div id="tab-queue" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Processing Queue</h2>
+                        <div class="header-actions-inline">
+                            <span id="queue-status-badge" class="badge badge-neutral">--</span>
+                            <button class="btn btn-small btn-secondary" onclick="clearCompletedQueue()">Clear Completed</button>
+                        </div>
+                    </div>
+                    <div id="queue-list" class="queue-list">
+                        <p class="text-muted">Connecting to Firestore...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======== COST ANALYTICS TAB ======== -->
+            <div id="tab-costs" class="tab-content">
+                <div class="stats-row">
+                    <div class="stat-card stat-cost">
+                        <div class="stat-value" id="cost-total">--</div>
+                        <div class="stat-label">Total Spent</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="cost-avg">--</div>
+                        <div class="stat-label">Avg / Image</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="cost-highest">--</div>
+                        <div class="stat-label">Highest Single</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="cost-total-time">--</div>
+                        <div class="stat-label">Total Processing Time</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="cost-tracked-count">--</div>
+                        <div class="stat-label">Images w/ Cost Data</div>
+                    </div>
+                </div>
+
+                <!-- Category Cost Breakdown -->
+                <div class="card">
+                    <h2>Cost by Category</h2>
+                    <div id="category-cost-bars" class="cost-bars"></div>
+                </div>
+
+                <!-- Processing Table -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Processing Details</h2>
+                        <button class="btn btn-small btn-secondary" onclick="exportCostCSV()">Export CSV</button>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="data-table" id="cost-table">
+                            <thead>
+                                <tr>
+                                    <th class="sortable" onclick="sortCostTable('id')">ID</th>
+                                    <th class="sortable" onclick="sortCostTable('title')">Title</th>
+                                    <th>Category</th>
+                                    <th class="sortable" onclick="sortCostTable('cost')">Cost</th>
+                                    <th class="sortable" onclick="sortCostTable('time')">Processing Time</th>
+                                    <th class="sortable" onclick="sortCostTable('date')">Processed At</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cost-table-body">
+                                <tr><td colspan="6" class="text-muted">Loading...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ======== CONTENT AUDIT TAB ======== -->
+            <div id="tab-audit" class="tab-content">
+                <div class="stats-row">
+                    <div class="stat-card stat-complete">
+                        <div class="stat-value" id="audit-complete">--</div>
+                        <div class="stat-label">Complete</div>
+                    </div>
+                    <div class="stat-card stat-partial">
+                        <div class="stat-value" id="audit-partial">--</div>
+                        <div class="stat-label">Partial</div>
+                    </div>
+                    <div class="stat-card stat-missing">
+                        <div class="stat-value" id="audit-missing">--</div>
+                        <div class="stat-label">Missing Critical</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Content Completeness Audit</h2>
+                        <div class="filter-pills">
+                            <button class="pill active" data-audit="all" onclick="filterAudit('all')">All</button>
+                            <button class="pill" data-audit="complete" onclick="filterAudit('complete')">Complete</button>
+                            <button class="pill" data-audit="partial" onclick="filterAudit('partial')">Partial</button>
+                            <button class="pill" data-audit="missing" onclick="filterAudit('missing')">Missing</button>
+                        </div>
+                    </div>
+                    <div id="audit-list" class="audit-list">
+                        <p class="text-muted">Loading audit data...</p>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- .admin-container -->
+    </div><!-- #dashboard -->
+
+    <!-- ============ IMAGE DETAIL MODAL ============ -->
+    <div id="detail-modal" class="modal hidden">
+        <div class="modal-backdrop" onclick="closeDetailModal()"></div>
+        <div class="modal-content modal-large">
+            <button class="modal-close" onclick="closeDetailModal()">&times;</button>
+            <div id="detail-modal-body">
+                <!-- Populated by image-detail.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ DELETE CONFIRMATION MODAL ============ -->
+    <div id="delete-modal" class="modal hidden">
+        <div class="modal-backdrop" onclick="closeDeleteModal()"></div>
+        <div class="modal-content">
+            <h2>Delete Image</h2>
+            <div id="delete-modal-body">
+                <!-- Populated by delete-manager.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ NOTIFICATION TOAST ============ -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- JavaScript -->
+    <script src="js/auth.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/metadata.js"></script>
+    <script src="js/processing-table.js"></script>
+    <script src="js/queue-monitor.js"></script>
+    <script src="js/delete-manager.js"></script>
+    <script src="js/image-detail.js"></script>
+    <script src="js/content-audit.js"></script>
+    <script src="js/search-filter.js"></script>
+    <script src="js/upload-manager.js"></script>
+
+</body>
+</html>

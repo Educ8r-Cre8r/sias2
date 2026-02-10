@@ -1159,3 +1159,255 @@ exports.onCommentCreated = functions.firestore
       return null;
     }
   });
+
+// ============================================================
+// Admin Dashboard — Cloud Functions
+// ============================================================
+
+const ADMIN_EMAIL = 'mr.alexdjones@gmail.com';
+
+/**
+ * Verify the caller is an authorized admin
+ */
+async function verifyAdmin(context) {
+  if (!context.auth) {
+    throw new functions.https.HttpsError('unauthenticated', 'Must be signed in');
+  }
+  if (context.auth.token.email !== ADMIN_EMAIL) {
+    throw new functions.https.HttpsError('permission-denied', 'Admin access only');
+  }
+}
+
+/**
+ * Admin: Delete an image and ALL associated files
+ * Callable from the admin dashboard.
+ */
+exports.adminDeleteImage = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 300, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const imageId = data.imageId;
+    if (!imageId && imageId !== 0) {
+      throw new functions.https.HttpsError('invalid-argument', 'imageId is required');
+    }
+
+    console.log(`🗑️  Admin delete requested for image ID: ${imageId}`);
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-admin-delete');
+
+    try {
+      // Clean up any existing repo directory
+      try {
+        await fs.rm(repoDir, { recursive: true, force: true });
+      } catch (e) { /* doesn't exist */ }
+
+      // Clone the repo
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+
+      console.log('📦 Cloning repository...');
+      const git = simpleGit();
+      await git.clone(repoUrl, repoDir);
+      const repoGit = simpleGit(repoDir);
+      await repoGit.addConfig('user.name', 'SIAS Admin');
+      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+      console.log('✅ Repository cloned');
+
+      // Read gallery-metadata.json from the cloned repo
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+
+      // Find the image entry
+      const imageIndex = metadata.images.findIndex(img => img.id === imageId);
+      if (imageIndex === -1) {
+        throw new functions.https.HttpsError('not-found', `Image with ID ${imageId} not found`);
+      }
+
+      const image = metadata.images[imageIndex];
+      const { filename, category, title } = image;
+      const nameNoExt = filename.replace(/\.[^.]+$/, '');
+      const grades = ['kindergarten', 'first-grade', 'second-grade', 'third-grade', 'fourth-grade', 'fifth-grade'];
+
+      console.log(`📸 Deleting: "${title}" (${filename}) from ${category}`);
+
+      // Build list of all files to delete
+      const filesToDelete = [
+        // Image variants
+        `images/${category}/${filename}`,
+        `images/${category}/thumbs/${filename}`,
+        `images/${category}/webp/${nameNoExt}.webp`,
+        `images/${category}/placeholders/${filename}`,
+        // Content files
+        `content/${category}/${nameNoExt}.json`,
+        ...grades.map(g => `content/${category}/${nameNoExt}-${g}.json`),
+        `content/${category}/${nameNoExt}-edp.json`,
+        // Hotspots
+        `hotspots/${category}/${nameNoExt}.json`,
+        // PDFs
+        ...grades.map(g => `pdfs/${category}/${nameNoExt}-${g}.pdf`),
+        `pdfs/${category}/${nameNoExt}-edp.pdf`,
+      ];
+
+      // Delete each file (silently skip missing ones)
+      let deletedCount = 0;
+      let skippedCount = 0;
+
+      for (const filePath of filesToDelete) {
+        const fullPath = path.join(repoDir, filePath);
+        try {
+          await fs.unlink(fullPath);
+          deletedCount++;
+          console.log(`  ✅ Deleted: ${filePath}`);
+        } catch (err) {
+          skippedCount++;
+          console.log(`  ⏭️  Skipped (not found): ${filePath}`);
+        }
+      }
+
+      console.log(`📊 Deleted ${deletedCount} files, skipped ${skippedCount}`);
+
+      // Remove the image entry from metadata
+      metadata.images.splice(imageIndex, 1);
+      metadata.totalImages = metadata.images.length;
+      metadata.lastUpdated = new Date().toISOString();
+
+      await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
+      console.log('✅ Updated gallery-metadata.json');
+
+      // Commit and push
+      await repoGit.add('-A');
+      await repoGit.commit(`Delete "${title}" (${filename}) and all associated files
+
+- Removed ${deletedCount} files from ${category}
+- Skipped ${skippedCount} missing files
+- Updated gallery-metadata.json (${metadata.totalImages} images remaining)
+
+Deleted via SIAS Admin Dashboard
+Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
+
+      await repoGit.push('origin', 'main');
+      console.log('✅ Changes pushed to GitHub');
+
+      // Delete Firestore records associated with this image
+      const imageIdStr = String(imageId);
+      let firestoreDeleted = 0;
+
+      // Delete from ratings collection (keyed by photoId)
+      try {
+        const ratingsDoc = db.collection('ratings').doc(imageIdStr);
+        const ratingsSnap = await ratingsDoc.get();
+        if (ratingsSnap.exists) {
+          await ratingsDoc.delete();
+          firestoreDeleted++;
+        }
+      } catch (e) { console.log('  ⏭️  No ratings doc for', imageIdStr); }
+
+      // Delete from views collection
+      try {
+        const viewsDoc = db.collection('views').doc(imageIdStr);
+        const viewsSnap = await viewsDoc.get();
+        if (viewsSnap.exists) {
+          await viewsDoc.delete();
+          firestoreDeleted++;
+        }
+      } catch (e) { console.log('  ⏭️  No views doc for', imageIdStr); }
+
+      // Delete userRatings where photoId matches
+      try {
+        const userRatingsSnap = await db.collection('userRatings')
+          .where('photoId', '==', imageIdStr).get();
+        if (!userRatingsSnap.empty) {
+          const batch = db.batch();
+          userRatingsSnap.forEach(doc => batch.delete(doc.ref));
+          await batch.commit();
+          firestoreDeleted += userRatingsSnap.size;
+        }
+      } catch (e) { console.log('  ⏭️  Error cleaning userRatings:', e.message); }
+
+      // Delete favorites where photoId matches
+      try {
+        const favSnap = await db.collection('favorites')
+          .where('photoId', '==', imageIdStr).get();
+        if (!favSnap.empty) {
+          const batch = db.batch();
+          favSnap.forEach(doc => batch.delete(doc.ref));
+          await batch.commit();
+          firestoreDeleted += favSnap.size;
+        }
+      } catch (e) { console.log('  ⏭️  Error cleaning favorites:', e.message); }
+
+      // Delete comments where imageId matches
+      try {
+        const commentsSnap = await db.collection('comments')
+          .where('imageId', '==', imageIdStr).get();
+        if (!commentsSnap.empty) {
+          const batch = db.batch();
+          commentsSnap.forEach(doc => batch.delete(doc.ref));
+          await batch.commit();
+          firestoreDeleted += commentsSnap.size;
+        }
+      } catch (e) { console.log('  ⏭️  Error cleaning comments:', e.message); }
+
+      console.log(`🔥 Deleted ${firestoreDeleted} Firestore records`);
+
+      // Clean up temp directory
+      try {
+        await fs.rm(repoDir, { recursive: true, force: true });
+      } catch (e) { /* ignore cleanup errors */ }
+
+      console.log(`✅ Admin delete complete for "${title}"`);
+
+      return {
+        success: true,
+        imageId,
+        title,
+        filename,
+        category,
+        filesDeleted: deletedCount,
+        filesSkipped: skippedCount,
+        firestoreDeleted,
+      };
+
+    } catch (error) {
+      // Clean up on failure
+      try {
+        await fs.rm(repoDir, { recursive: true, force: true });
+      } catch (e) { /* ignore */ }
+
+      console.error('❌ Admin delete failed:', error);
+
+      if (error instanceof functions.https.HttpsError) {
+        throw error;
+      }
+      throw new functions.https.HttpsError('internal', 'Delete failed: ' + error.message);
+    }
+  });
+
+/**
+ * Admin: Clear completed items from the processing queue
+ */
+exports.adminClearCompletedQueue = functions
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    console.log('🧹 Admin clearing completed queue items...');
+
+    const snapshot = await db.collection('imageQueue')
+      .where('status', '==', 'completed')
+      .get();
+
+    if (snapshot.empty) {
+      console.log('No completed items to clear');
+      return { success: true, count: 0 };
+    }
+
+    const batch = db.batch();
+    snapshot.forEach(doc => batch.delete(doc.ref));
+    await batch.commit();
+
+    console.log(`✅ Cleared ${snapshot.size} completed queue items`);
+
+    return { success: true, count: snapshot.size };
+  });

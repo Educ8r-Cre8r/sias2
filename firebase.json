@@ -11,6 +11,14 @@
     ],
     "rewrites": [
       {
+        "source": "/admin-v2",
+        "destination": "/admin-v2/index.html"
+      },
+      {
+        "source": "/admin-v2/",
+        "destination": "/admin-v2/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
@@ -22,6 +30,15 @@
           {
             "key": "Cache-Control",
             "value": "max-age=7200"
+          }
+        ]
+      },
+      {
+        "source": "/gallery-metadata.json",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=300"
           }
         ]
       }

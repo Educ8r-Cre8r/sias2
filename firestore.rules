@@ -81,6 +81,12 @@ service cloud.firestore {
       allow read: if true;
     }
 
+    // Image processing queue - admin read access for dashboard monitoring
+    match /imageQueue/{docId} {
+      allow read: if request.auth != null
+        && request.auth.token.email == 'mr.alexdjones@gmail.com';
+    }
+
     // Deny all other collections by default
     match /{document=**} {
       allow read, write: if false;
