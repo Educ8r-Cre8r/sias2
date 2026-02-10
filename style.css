@@ -1833,15 +1833,15 @@ a:hover {
   position: relative;
   background: white;
   border-radius: 16px;
-  width: 90vw;
-  max-width: 1200px;
-  max-height: 95vh;
+  width: 95vw;
+  max-width: 1400px;
+  height: 95vh;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
   z-index: 10001;
   display: flex;
   flex-direction: column;
   animation: modalSlideUp 0.3s ease-out;
-  overflow: visible; /* Changed from hidden to allow scrolling */
+  overflow: hidden;
 }
 
 .visionary-modal-header {
@@ -1871,10 +1871,12 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-xl);
   padding: var(--spacing-xl);
-  padding-bottom: calc(var(--spacing-xl) * 2); /* Extra bottom padding for scrolling */
+  padding-bottom: calc(var(--spacing-xl) * 2);
   align-items: start;
   overflow-y: auto;
+  overflow-x: hidden;
   flex: 1;
+  min-height: 0;
 }
 
 .visionary-text {
@@ -2117,7 +2119,7 @@ a:hover {
 
   .visionary-modal-content {
     width: 95vw;
-    max-height: 90vh;
+    height: 95vh;
   }
 
   .visionary-modal-header {
