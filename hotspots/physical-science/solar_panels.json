@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "40%",
+      "y": "20%",
+      "label": "Solar Panels",
+      "fact": "These blue panels on the roof catch sunlight and turn it into electricity that powers homes and buildings! This is called **solar energy** — a type of renewable energy that comes directly from the sun and never runs out.",
+      "vocabulary": {
+        "term": "Solar Energy",
+        "definition": "Energy that comes from the sun and can be captured and changed into electricity or heat to power our homes and devices."
+      }
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "15%",
+      "label": "Light Energy Transfer",
+      "fact": "The sun's light travels millions of miles through space as energy waves to reach Earth and hit these solar panels. When light hits the panels, it transfers its energy to electrons in the material, which creates an electric current that we can use.",
+      "vocabulary": {
+        "term": "Energy Transfer",
+        "definition": "When energy moves from one place to another or changes from one form into a different form, like light becoming electricity."
+      }
+    },
+    {
+      "id": 3,
+      "x": "25%",
+      "y": "50%",
+      "label": "City Skyline",
+      "fact": "All those buildings in the distance need lots of energy to run lights, heat, and machines! Solar panels like these on roofs help provide clean energy so cities don't have to use as much fuel that creates pollution.",
+      "vocabulary": {
+        "term": "Renewable Energy",
+        "definition": "Energy that comes from nature and can be used over and over again without running out, like energy from the sun, wind, or water."
+      }
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "25%",
+      "label": "Black Support Structures",
+      "fact": "These black frames hold the solar panels in the best position to catch the most sunlight during the day. Engineers designed them to withstand forces like wind and rain while keeping the panels stable and angled toward the sun.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can change how something moves, stops, or changes direction — like wind pushing on the panels or gravity pulling them down."
+      }
+    }
+  ]
+}

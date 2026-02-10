@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-10T18:57:28.837Z",
-  "totalImages": 158,
+  "lastUpdated": "2026-02-10T21:11:26.704Z",
+  "totalImages": 159,
   "images": [
     {
       "id": 1,
@@ -7966,6 +7966,62 @@
         "birds",
         "ecosystem"
       ]
+    },
+    {
+      "id": 159,
+      "filename": "solar_panels.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/solar_panels.jpg",
+      "thumbPath": "images/physical-science/thumbs/solar_panels.jpg",
+      "webpPath": "images/physical-science/webp/solar_panels.webp",
+      "placeholderPath": "images/physical-science/placeholders/solar_panels.jpg",
+      "contentFile": "content/physical-science/solar_panels.json",
+      "title": "Solar Panels",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ETS1.A",
+          "K-PS3-1",
+          "K-PS3.A"
+        ],
+        "grade1": [
+          "1-ESS1.A",
+          "1-PS4-3",
+          "1-PS4.A"
+        ],
+        "grade2": [
+          "2-ETS1.A",
+          "2-PS1-1",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "3-LS1.C",
+          "3-PS2-1",
+          "3-PS3.A",
+          "3-PS3.B"
+        ],
+        "grade4": [
+          "4-PS3-2",
+          "4-PS3.A",
+          "4-PS3.B"
+        ],
+        "grade5": [
+          "5-PS3-1",
+          "5-PS3.A",
+          "5-PS3.D"
+        ]
+      },
+      "keywords": [
+        "solar panels",
+        "renewable energy",
+        "photovoltaic",
+        "energy conversion",
+        "sustainable technology",
+        "electricity generation"
+      ],
+      "processingCost": 0.1015,
+      "processingTime": "3m 33s",
+      "processedAt": "2026-02-10T21:14:34.958Z"
     }
   ]
 }
