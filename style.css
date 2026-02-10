@@ -371,7 +371,7 @@ a:hover {
   padding: var(--spacing-2xl) 0;
   background-color: var(--color-bg-white);
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; REMOVED - breaks sticky positioning */
 }
 
 /* CSS Particles Background */
