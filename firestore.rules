@@ -61,18 +61,22 @@ service cloud.firestore {
       allow update: if false;
     }
 
-    // Comments collection - require Google auth to write
+    // Comments collection - require Google auth to write, approval to read
     match /comments/{commentId} {
-      // Anyone can read comments
-      allow read: if true;
+      // Public can only read approved comments; admin can read all
+      allow read: if resource.data.status == 'approved'
+        || (request.auth != null
+            && request.auth.token.email == 'mr.alexdjones@gmail.com');
 
       // Authenticated (non-anonymous) users can create comments
       allow create: if request.auth != null
         && request.auth.token.firebase.sign_in_provider != 'anonymous'
         && request.resource.data.userId == request.auth.uid;
 
-      // Users can update/delete their own comments; admin can delete any
-      allow update, delete: if request.auth != null
+      // Admin can update (approve/reject) or delete any; users can delete own
+      allow update: if request.auth != null
+        && request.auth.token.email == 'mr.alexdjones@gmail.com';
+      allow delete: if request.auth != null
         && (resource.data.userId == request.auth.uid
             || request.auth.token.email == 'mr.alexdjones@gmail.com');
     }

@@ -1508,6 +1508,23 @@ body {
     border-radius: var(--radius-sm);
 }
 
+/* Pending badge on tab button */
+.pending-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: 9px;
+    background: var(--warning);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 700;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
 /* ===================================
    Image Edit Mode Styles
    =================================== */

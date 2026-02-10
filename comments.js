@@ -113,7 +113,7 @@ async function submitComment(imageId, text) {
       topLevelPhotoURL: user.photoURL
     });
 
-    // Write comment
+    // Write comment with pending status (requires admin approval)
     await db.collection('comments').doc(docId).set({
       userId: userId,
       imageId: id,
@@ -121,16 +121,20 @@ async function submitComment(imageId, text) {
       photoURL: photoURL,
       text: trimmed,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-      approved: true
+      status: 'pending'
     });
 
-    console.log(`Comment submitted for photo ${id}`);
+    console.log(`Comment submitted for photo ${id} (pending approval)`);
 
-    // Refresh comments in modal
-    await loadComments(imageId);
-
-    // Update gallery card count
-    updateCardCommentCount(imageId);
+    // Show user a "submitted for review" message instead of refreshing
+    const commentList = document.getElementById('comment-list');
+    if (commentList) {
+      const notice = document.createElement('div');
+      notice.className = 'comment-pending-notice';
+      notice.style.cssText = 'background: #fef3c7; border: 1px solid #f59e0b; border-radius: 8px; padding: 12px; margin-bottom: 12px; font-size: 0.9rem; color: #92400e;';
+      notice.textContent = 'Your comment has been submitted and is awaiting review. It will appear once approved.';
+      commentList.prepend(notice);
+    }
 
     return true;
   } catch (error) {

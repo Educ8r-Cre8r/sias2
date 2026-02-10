@@ -483,16 +483,21 @@
                         <div class="stat-value" id="comments-unique-users">--</div>
                         <div class="stat-label">Unique Users</div>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-value" id="comments-today-count">--</div>
-                        <div class="stat-label">Today</div>
+                    <div class="stat-card" style="border-color: var(--warning);">
+                        <div class="stat-value" id="comments-pending-count" style="color: var(--warning);">--</div>
+                        <div class="stat-label">Pending Approval</div>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="card-header">
-                        <h2>All Comments</h2>
-                        <div style="display: flex; gap: 8px; align-items: center;">
+                        <h2>Comment Moderation</h2>
+                        <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                            <div class="filter-pills" id="comment-filter-pills">
+                                <button class="pill active" data-filter="all" onclick="setCommentFilter('all')">All</button>
+                                <button class="pill" data-filter="pending" onclick="setCommentFilter('pending')">Pending</button>
+                                <button class="pill" data-filter="approved" onclick="setCommentFilter('approved')">Approved</button>
+                            </div>
                             <input type="text" id="comment-search" placeholder="Search comments..."
                                    oninput="filterComments()" style="padding: 6px 12px; border: 2px solid var(--border); border-radius: var(--radius-sm); font-size: 0.85rem; width: 200px;">
                             <button class="btn btn-small btn-secondary" onclick="refreshComments()">Refresh</button>
