@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "65%",
       "y": "35%",
-      "label": "Grasshopper's Eye",
-      "fact": "Grasshoppers have large eyes that can see in almost all directions at once! This helps them spot predators and find food quickly."
+      "label": "Dark Red Flower",
+      "fact": "This beautiful dark red flower is part of the plant's life cycle and helps it make seeds. Insects like grasshoppers are attracted to flowers to drink sweet liquid called nectar, and when they visit, they help the plant by spreading pollen. This is called **pollination** — that's when pollen is carried from one flower to another so plants can make seeds.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen is carried from one flower to another, helping plants make seeds."
+      }
     },
     {
       "id": 2,
-      "x": "30%",
+      "x": "35%",
       "y": "55%",
-      "label": "Strong Back Legs",
-      "fact": "A grasshopper's back legs are specially designed for jumping. They have powerful muscles that let them leap up to 20 times their own body length!"
+      "label": "Grasshopper Body",
+      "fact": "This green grasshopper has a body specially adapted for its environment! Grasshoppers have strong back legs for jumping, antennae on their head to sense food and danger, and eyes that help them see movement. Each of these body parts helps the grasshopper survive in its habitat among plants.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive in its environment."
+      }
     },
     {
       "id": 3,
-      "x": "60%",
-      "y": "50%",
-      "label": "Deep Red Flower",
-      "fact": "This dark red flower attracts insects like grasshoppers with its bright color and sweet nectar. The grasshopper uses its mouth to drink the nectar."
+      "x": "55%",
+      "y": "70%",
+      "label": "Green Plant Stem",
+      "fact": "The green stem holds up the flower and carries water and nutrients from the roots to all parts of the plant. Plants need water, sunlight, and nutrients from soil to grow strong and make flowers. This is how plants get the energy they need to live and grow, just like you need food for energy!",
+      "vocabulary": {
+        "term": "Stem",
+        "definition": "The main part of a plant that holds up the leaves and flowers and carries water throughout the plant."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "70%",
-      "label": "Green Body Camouflage",
-      "fact": "The grasshopper's green color helps it blend in with plants and leaves. This camouflage keeps it safe from animals that want to eat it!"
+      "x": "25%",
+      "y": "35%",
+      "label": "Grasshopper Antennae",
+      "fact": "The long thin antennae on the grasshopper's head are like super-sensitive feelers! They help the grasshopper smell food, feel vibrations, and sense danger in its environment. Without antennae, grasshoppers wouldn't be able to find the plants they eat or know when a predator is nearby.",
+      "vocabulary": {
+        "term": "Antennae",
+        "definition": "Long, thin sense organs on an insect's head that help it smell, touch, and feel its surroundings."
+      }
     }
   ]
 }

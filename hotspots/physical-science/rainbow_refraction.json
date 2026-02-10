@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "55%",
+      "x": "50%",
       "y": "25%",
-      "label": "Rainbow Formation",
-      "fact": "Rainbows form when sunlight passes through water droplets in the air and bends into different colors. The sun must be behind you and rain in front of you to see a rainbow. Each color bends at a slightly different angle, which is why red appears on the outside and violet on the inside!"
+      "label": "Rainbow Light",
+      "fact": "Rainbows form when sunlight passes through water droplets in the air and bends, splitting into different colors. Light is a form of energy that travels in straight lines, but when it hits water droplets, the light bends and separates into the colors we see—red, orange, yellow, green, blue, indigo, and violet. This is called **refraction** — that's when light bends as it passes through different materials like water or air.",
+      "vocabulary": {
+        "term": "Refraction",
+        "definition": "When light bends and changes direction as it passes through something like water or glass."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "60%",
-      "label": "Green Grass Photosynthesis",
-      "fact": "Plants use sunlight, water, and air to make their own food through photosynthesis. The green color in plants comes from chlorophyll, which captures the sun's energy. This process is why plants are so important—they create oxygen for us to breathe!"
+      "x": "85%",
+      "y": "70%",
+      "label": "Moving Car",
+      "fact": "The car moving on the wet road shows how forces and motion work together. A force from the car's engine pushes the car forward, causing it to move and change position. The wet road also creates friction, which is a force that opposes motion and can slow the car down. This is called **friction** — that's a force that happens when two surfaces rub together.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that happens when two surfaces rub together and makes it harder for things to slide or move."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
+      "x": "15%",
       "y": "55%",
-      "label": "Water on Road Surface",
-      "fact": "After rain, water sits on roads and soil because the ground becomes saturated. This water reflects light and can be slippery, which is why drivers must be careful. Over time, water soaks into the ground to refill underground water supplies called aquifers."
+      "label": "Wet Ground Surface",
+      "fact": "After rain, the ground is wet because water has a special property—it can absorb into soil and also sit on top of surfaces. Water is matter that can change states between solid (ice), liquid (water), and gas (water vapor). The wet ground you see here shows water in its liquid state, and this water will eventually evaporate into water vapor when the sun's heat energy warms it up. This process is called the **water cycle** — that's when water changes forms and moves between Earth, the air, and living things.",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous movement of water between Earth's surface and the air, where water changes between liquid, solid, and gas forms."
+      }
     },
     {
       "id": 4,
-      "x": "80%",
-      "y": "45%",
-      "label": "Puffy White Clouds",
-      "fact": "Clouds form when water vapor in the air cools down and condenses around tiny dust particles. These puffy clouds indicate fair weather, but if they grow taller and darker, they might bring rain or storms. Clouds are constantly moving and changing shape as air currents push them around!"
+      "x": "40%",
+      "y": "50%",
+      "label": "Green Trees and Grass",
+      "fact": "Trees and grass use energy from sunlight to grow and live. Plants absorb light energy and convert it into chemical energy they can use to make food and grow bigger. The green color shows chlorophyll, a special material in plants that helps them capture light energy. When sunlight hits these plants, it transfers energy that helps them survive and thrive. This process is called **photosynthesis** — that's when plants use sunlight to make their own food and energy.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The process where plants use energy from sunlight to make food and grow."
+      }
     }
   ]
 }

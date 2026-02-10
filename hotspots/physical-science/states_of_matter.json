@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "48%",
+      "x": "50%",
       "y": "35%",
       "label": "Fire Hydrant",
-      "fact": "Fire hydrants are connected to underground water pipes that supply water to fight fires. They are painted bright colors like blue and orange so firefighters can easily find them in emergencies. Each hydrant can spray thousands of gallons of water per minute!"
+      "fact": "This fire hydrant is made of metal, which is a hard material that doesn't break easily. Metal is chosen for things like fire hydrants because it has special properties that make it strong and durable, so it can protect water pipes underground and help firefighters do their jobs. This is called **durability** — that's when something can last a long time and handle tough conditions without breaking.",
+      "vocabulary": {
+        "term": "Material Properties",
+        "definition": "The special characteristics of something, like whether it's hard, soft, shiny, or flexible. Different materials have different properties that make them useful for different things."
+      }
     },
     {
       "id": 2,
       "x": "65%",
       "y": "50%",
-      "label": "Safety Cone",
-      "fact": "Traffic cones are brightly colored orange and white to warn people about hazards or construction areas. The reflective stripes help drivers see them at night using their headlights. These cones protect people by marking dangerous zones."
+      "label": "Traffic Cone",
+      "fact": "The bright orange and white stripes on this traffic cone are designed to be seen easily, even from far away. The cone has a special shape that makes it stable and hard to knock over, which helps keep people safe. The color and shape are examples of how we use **physical properties** — the visible features of matter — to solve problems and keep people safe.",
+      "vocabulary": {
+        "term": "Physical Properties",
+        "definition": "Characteristics of matter that you can see or measure without changing what the material is, like color, shape, size, and texture."
+      }
     },
     {
       "id": 3,
-      "x": "80%",
-      "y": "65%",
-      "label": "Storm Drain Canal",
-      "fact": "This waterway channels rainwater and storm runoff away from streets and homes to prevent flooding. The water flows downhill through these channels toward larger bodies of water or treatment facilities. Engineers designed these systems to protect communities from water damage."
+      "x": "75%",
+      "y": "75%",
+      "label": "Water Flow",
+      "fact": "Water is flowing from the ground near the water line, and this movement shows us how forces push and pull on matter. Water flows because of **gravity**, which is a pulling force that makes objects move downward and helps water flow from high places to low places. This demonstrates how forces affect the motion of liquids in our environment.",
+      "vocabulary": {
+        "term": "Gravity",
+        "definition": "A pulling force that brings things down toward Earth. It's the reason water flows downhill and why objects fall when you drop them."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "25%",
+      "x": "25%",
+      "y": "50%",
       "label": "Concrete Sidewalk",
-      "fact": "Sidewalks are made from concrete, a material that hardens when mixed with water and cement. The flat surface is designed for safe walking and protects pedestrians from traffic. Over time, weather and tree roots can crack concrete, requiring repairs."
+      "fact": "The concrete sidewalk is made from a mixture of materials that get hard when they dry, creating a solid surface. This solid material can support the **force** of people walking on it without breaking. The weight and pressure of people walking is a pushing force that the concrete must be strong enough to resist.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that makes something move, stop, or change direction. Weight is a type of force that pushes down on objects below it."
+      }
     }
   ]
 }

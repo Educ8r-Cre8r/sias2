@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "35%",
-      "label": "Annual Growth Rings",
-      "fact": "Each ring you see represents one year of the tree's life! The light and dark bands show when the tree grew fast in spring and slower in summer. By counting these rings, scientists can figure out exactly how old a tree was."
+      "label": "Tree Rings",
+      "fact": "Each dark and light ring in a tree trunk shows one year of growth! Scientists can count these rings to figure out exactly how old a tree is and learn about weather from the past. This is called **tree ring dating** — when scientists count the rings to tell how old something is and what the climate was like long ago.",
+      "vocabulary": {
+        "term": "Tree Rings",
+        "definition": "Circular patterns in wood that form as a tree grows, with each ring representing one year of the tree's life."
+      }
     },
     {
       "id": 2,
-      "x": "28%",
-      "y": "55%",
-      "label": "Tree Heartwood",
-      "fact": "The darker center part of the log is called heartwood and is no longer alive. This older wood is actually stronger and helps support the tree. The lighter outer ring is sapwood, which carries water and nutrients up the tree."
+      "x": "25%",
+      "y": "50%",
+      "label": "Wood Structure",
+      "fact": "Trees are living things that grow from the inside out, adding new layers of wood each year to become stronger and taller! The lighter wood on the outside is newer growth, while the darker wood in the center is older. This is called **growth** — when living things get bigger and develop over time.",
+      "vocabulary": {
+        "term": "Growth",
+        "definition": "When a living thing gets bigger and develops new parts, like how a tree adds new rings of wood every year."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "50%",
-      "label": "Bark Layer",
-      "fact": "The rough, dark outer layer is bark that protects the tree from insects, diseases, and weather. Bark is like the tree's skin! Different tree species have different colored and textured bark to help us identify them."
+      "x": "70%",
+      "y": "60%",
+      "label": "Different Log Sizes",
+      "fact": "Trees grow at different speeds depending on weather and soil conditions, which is why these logs are different sizes! A log that grew quickly in good weather might be wider than one that grew slowly during dry years. Scientists study how **environment** — all the things around a living thing like rain, sunshine, and soil — affects how living things grow.",
+      "vocabulary": {
+        "term": "Environment",
+        "definition": "Everything around a living thing, including weather, soil, water, and sunlight, that affects how it lives and grows."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "70%",
-      "label": "Wood Grain Pattern",
-      "fact": "The lines and patterns in the wood show how the tree grew and responded to its environment. Trees growing in harsh conditions or with less sunlight create different patterns than trees in ideal conditions. This makes each log unique!"
+      "x": "55%",
+      "y": "65%",
+      "label": "Bark Layer",
+      "fact": "The dark outer layer protecting each log is called bark, and it protected the living tree from weather, insects, and damage! Bark is like a tree's skin that keeps it safe and healthy. This is called **adaptation** — special features that help a living thing survive in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or skill that helps a living thing survive and thrive in its environment."
+      }
     }
   ]
 }

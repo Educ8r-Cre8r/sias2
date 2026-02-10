@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "55%",
-      "y": "35%",
-      "label": "Bright Red Dewlap",
-      "fact": "This colorful fan-like skin under the lizard's chin is called a dewlap. Male lizards display their dewlaps to show they are strong and to communicate with other lizards in their territory."
+      "x": "48%",
+      "y": "28%",
+      "label": "Eye and Vision",
+      "fact": "This lizard has a large, round eye that helps it see movement and find food in its environment. Lizards use their eyes to spot insects and other small animals to eat, which is an important way they get energy to survive. This is called **adaptation** — special body parts that help animals live in their habitat.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live in its environment."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "50%",
-      "label": "Textured Scales",
-      "fact": "The bumpy scales covering this lizard's body help protect it and blend in with rocks and trees. Each scale is made of keratin, the same material as your fingernails!"
+      "x": "35%",
+      "y": "65%",
+      "label": "Colored Throat Pouch",
+      "fact": "The bright red and yellow throat pouch is called a dewlap, and male lizards use it to communicate with other lizards. When a lizard extends this colorful pouch, it can warn other lizards to stay away or attract a mate to have babies. This special display is an important way animals interact with each other in their ecosystem. This is called **behavior** — the way animals act and respond to their world.",
+      "vocabulary": {
+        "term": "Behavior",
+        "definition": "The way an animal acts, moves, or responds to things around it, like displaying colors or making sounds."
+      }
     },
     {
       "id": 3,
-      "x": "40%",
-      "y": "25%",
-      "label": "Round Eye with Gold Iris",
-      "fact": "Lizards have excellent vision and can see in color. The golden-colored iris helps this lizard spot insects to eat and notice danger from predators nearby."
+      "x": "22%",
+      "y": "72%",
+      "label": "Scaly Skin",
+      "fact": "A lizard's body is covered with tiny scales that protect it from getting hurt and help it stay from drying out. These scales are part of the lizard's body structure that helps it survive in dry, warm places like deserts and rocky areas. The scales also help the lizard blend in with its surroundings so predators cannot easily see it. This is called **camouflage** — when an animal's color or pattern helps it hide in its environment.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors, patterns, or textures on an animal's body that help it blend in and hide from predators."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "65%",
-      "label": "Strong Legs and Claws",
-      "fact": "These muscular legs with sharp claws help lizards climb rocks and trees quickly. They can grip rough surfaces and escape from predators by scurrying away at fast speeds."
+      "x": "58%",
+      "y": "50%",
+      "label": "Body and Limbs",
+      "fact": "This lizard has four strong legs and a long tail that help it run quickly, balance, and even drop the tail if a predator grabs it—the tail will grow back! A lizard's body structure is perfectly designed for living on the ground and climbing on rocks and trees. These body parts work together to help the lizard hunt for food, escape danger, and survive in its habitat.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "The way something is built or organized, like how an animal's body parts are arranged and connected."
+      }
     }
   ]
 }

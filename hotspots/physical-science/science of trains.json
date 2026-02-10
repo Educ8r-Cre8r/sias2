@@ -5,28 +5,44 @@
       "x": "50%",
       "y": "35%",
       "label": "Railroad Crossing Signal",
-      "fact": "This red light warns drivers that a train is coming and they must stop. The signal automatically turns red when a train approaches to keep people safe at the crossing."
+      "fact": "This red light is a signal that tells cars and people to stop when a heavy train is coming! The signal uses electrical energy to light up and warn everyone that a powerful force is about to move through this crossing. This is called a **force** — it's a push or pull that can move objects, like when a train pushes forward on its tracks.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop, or change direction."
+      }
     },
     {
       "id": 2,
-      "x": "15%",
+      "x": "35%",
       "y": "55%",
-      "label": "Steel Train Wheels",
-      "fact": "Train wheels are made of hard steel that can support extremely heavy loads. The metal wheels grip the steel rails to help the train move smoothly down the track."
+      "label": "Train Wheels on Tracks",
+      "fact": "The big metal wheels on the train roll along the steel tracks to move the train forward. The wheels are circular, which makes rolling easier than sliding and helps the heavy train move smoothly down the track. This is called **friction** — it's a force that happens when two things rub together and can slow things down or help them grip better.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that happens when two surfaces rub together and makes it harder for things to slide or move."
+      }
     },
     {
       "id": 3,
-      "x": "60%",
+      "x": "55%",
       "y": "50%",
-      "label": "Freight Train Cars",
-      "fact": "These large cargo containers can carry millions of pounds of goods across the country. Trains are one of the most efficient ways to transport heavy materials because steel wheels create very little friction on steel rails."
+      "label": "Large Train Cars",
+      "fact": "These enormous metal train cars are very heavy and hold lots of material inside! Even though they weigh thousands of pounds, the engine can pull them forward because it has a very strong force. The heavier something is, the more force you need to move it — this is called **mass**, and it matters a lot when moving big objects like trains.",
+      "vocabulary": {
+        "term": "Mass",
+        "definition": "How much stuff or material something is made of; heavier things have more mass."
+      }
     },
     {
       "id": 4,
       "x": "70%",
-      "y": "75%",
-      "label": "Railroad Tracks",
-      "fact": "Railroad tracks are made of steel rails that are parallel to each other. The smooth, straight design allows trains to travel long distances safely and efficiently."
+      "y": "65%",
+      "label": "Metal Bumper and Coupling",
+      "fact": "This metal bumper and connector link the train cars together so they move as one unit! When the engine pulls with a strong force, all the connected cars move together down the tracks. The metal is hard and strong, which are **physical properties** — these are things we can observe about matter without changing what it's made of.",
+      "vocabulary": {
+        "term": "Physical Properties",
+        "definition": "Characteristics of something we can see or measure, like color, shape, size, or how hard it is, without changing what it's made of."
+      }
     }
   ]
 }

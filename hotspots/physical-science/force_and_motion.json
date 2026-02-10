@@ -5,28 +5,44 @@
       "x": "50%",
       "y": "35%",
       "label": "Jumping Motion",
-      "fact": "This student is using their leg muscles to push off the ground and jump over the cone. When muscles contract, they pull on bones to create movement, allowing the body to jump high into the air."
+      "fact": "When this student jumps, their muscles push down on the ground with force, and the ground pushes back up with equal force. This causes the student to move upward into the air! This is called **force** — a push or pull that makes something move or change direction.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that makes something move, stop, or change direction."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "65%",
-      "label": "Athletic Shoes",
-      "fact": "The shoes have a textured sole that provides grip and traction on the ground. This friction helps the feet stay connected to the surface, making jumping and running safer and more controlled."
+      "y": "60%",
+      "label": "Orange Cone Target",
+      "fact": "The student is using force to jump over this cone as part of an athletic challenge. The cone stays still on the ground because nothing is pushing or pulling it hard enough to move it. Objects at rest stay at rest unless a force acts on them!",
+      "vocabulary": {
+        "term": "Motion",
+        "definition": "When something changes position or moves from one place to another."
+      }
     },
     {
       "id": 3,
-      "x": "55%",
-      "y": "50%",
-      "label": "Center of Balance",
-      "fact": "As the student jumps, their body must balance in the air. The brain uses signals from muscles and inner ear to control balance, helping athletes land safely and maintain their position."
+      "x": "50%",
+      "y": "20%",
+      "label": "Arms Out for Balance",
+      "fact": "The student spreads their arms out while jumping to help balance their body in the air. This spreading out changes how the student's weight is distributed, which helps with stability and control during the jump. Balanced **forces** help keep things stable!",
+      "vocabulary": {
+        "term": "Balance",
+        "definition": "When forces are equal on all sides, keeping something stable and steady."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
+      "x": "50%",
       "y": "75%",
-      "label": "Orange Training Cone",
-      "fact": "The cone marks a target for the athlete to jump over. Training with cones helps improve coordination, which is the ability of the brain and muscles to work together smoothly."
+      "label": "Shoes Making Contact",
+      "fact": "The student's shoes are pushing against the ground with great force to launch them into the air. When the student lands, their shoes will experience a large force from the ground pushing back up. These **action and reaction forces** happen in pairs and are equal in strength!",
+      "vocabulary": {
+        "term": "Action and Reaction Forces",
+        "definition": "When one object pushes on another, the second object pushes back with equal force in the opposite direction."
+      }
     }
   ]
 }

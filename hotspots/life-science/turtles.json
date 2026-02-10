@@ -5,28 +5,44 @@
       "x": "35%",
       "y": "45%",
       "label": "Turtle Shell",
-      "fact": "A turtle's shell is made of bone covered by tough plates called scutes. The shell protects the turtle's body from predators and helps it survive in water and on land."
+      "fact": "A turtle's shell is made of special bone covered by hard plates that protect its body from predators and keep it safe. The shell is part of the turtle's skeleton, which means it's connected to the turtle's body and helps it move around. This protective covering is called a **carapace** — that's the hard outer shell that shields a turtle like armor!",
+      "vocabulary": {
+        "term": "Carapace",
+        "definition": "The hard, protective shell that covers a turtle's back and helps keep it safe from danger."
+      }
     },
     {
       "id": 2,
-      "x": "65%",
+      "x": "25%",
       "y": "50%",
-      "label": "Moss Growth",
-      "fact": "Moss grows on the turtle's shell in wet environments like this swamp. The moss doesn't hurt the turtle\u2014it's called a symbiotic relationship where both organisms benefit."
+      "label": "Aquatic Habitat",
+      "fact": "These turtles live in water with shallow areas where they can rest and sun themselves. The muddy water, plants, and logs create a perfect home where turtles can find food and hide from danger. A **habitat** is the place where an animal lives and finds everything it needs to survive, like water, shelter, and food.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The natural home of an animal where it finds water, food, shelter, and everything else it needs to live."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
-      "y": "20%",
-      "label": "Wetland Habitat",
-      "fact": "Turtles live in wetlands with shallow water, plants, and logs. These habitats provide food, shelter, and places for turtles to bask in the sun to warm their bodies."
+      "x": "60%",
+      "y": "35%",
+      "label": "Dead Plant Material",
+      "fact": "The dried plants and logs you see in the background will break down over time and become part of the soil, feeding new plants that grow there. When plants and animals die, they decompose and return nutrients to the environment, which helps new life grow. This cycling of materials through nature is called the **nutrient cycle** — it's how nature recycles to keep ecosystems healthy!",
+      "vocabulary": {
+        "term": "Decompose",
+        "definition": "When dead plants and animals break down into smaller pieces and become part of the soil to feed new plants."
+      }
     },
     {
       "id": 4,
-      "x": "45%",
-      "y": "55%",
-      "label": "Duckweed Cover",
-      "fact": "The green covering on the water is duckweed, a tiny floating plant. Duckweed provides food and shelter for many water animals, including turtles and fish."
+      "x": "50%",
+      "y": "70%",
+      "label": "Green Algae & Moss",
+      "fact": "The green algae and moss growing on the rocks and in the water are living organisms that help clean the water and provide food for small animals that turtles eat. These plants are **producers** because they make their own food using sunlight, and they're an important part of the food chain that keeps this ecosystem healthy.",
+      "vocabulary": {
+        "term": "Producer",
+        "definition": "A living thing, like a plant or algae, that makes its own food using sunlight and becomes food for other animals."
+      }
     }
   ]
 }

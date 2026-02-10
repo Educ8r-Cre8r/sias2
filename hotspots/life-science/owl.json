@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "15%",
+      "x": "25%",
       "y": "20%",
       "label": "Ear Tufts",
-      "fact": "These pointed feathers on top of the owl's head are called ear tufts, but they're not actually ears! They help the owl blend in with trees and branches by making it look pointy like branches."
+      "fact": "This owl has special feather tufts on its head that look like ears, but they're not really ears at all! These tufts help the owl blend in with trees and branches to hide from predators. This is called **camouflage** — that's when an animal's colors or patterns help it hide in its environment.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors, patterns, or shapes that help an animal hide by blending in with its surroundings."
+      }
     },
     {
       "id": 2,
-      "x": "20%",
+      "x": "35%",
       "y": "45%",
-      "label": "Camouflage Feathers",
-      "fact": "The owl's gray and brown speckled feathers are perfect camouflage. This coloring helps the owl hide on tree bark and rocks so prey animals can't see it. This is called cryptic coloration."
+      "label": "Feather Pattern",
+      "fact": "An owl's feathers have a mottled gray and brown pattern that helps it hide on tree bark and rocks. These feathers are also specially designed to help owls fly silently through the night sky. The feathers are a key **body structure** that helps this animal survive and hunt.",
+      "vocabulary": {
+        "term": "Body structure",
+        "definition": "The different parts of an animal's body that help it do important things like move, eat, and stay safe."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "35%",
-      "label": "Large Forward Eyes",
-      "fact": "Owls have big eyes that face forward like humans do. This helps them see prey very well at night. Their eyes are so big that they can't move them side to side\u2014they have to turn their whole head!"
+      "x": "20%",
+      "y": "60%",
+      "label": "Owl's Eyes",
+      "fact": "Although you can't see them clearly in this picture, owls have huge forward-facing eyes that help them see in the dark at night. Owls are **nocturnal** animals, which means they are active at night and sleep during the day. Their special eyes are adaptations that help them survive in their nighttime habitat.",
+      "vocabulary": {
+        "term": "Nocturnal",
+        "definition": "An animal that is active and hunts at night and rests during the day."
+      }
     },
     {
       "id": 4,
-      "x": "25%",
-      "y": "65%",
-      "label": "White Wing Markings",
-      "fact": "The white spots on this owl's wings create a pattern unique to each individual owl. Scientists use these patterns to identify and study different owls in the wild, like fingerprints for birds!"
+      "x": "45%",
+      "y": "55%",
+      "label": "Perched on Object",
+      "fact": "This owl is perched on what looks like a metal object near a white stone wall, which could be its habitat. Owls live in many different habitats like forests, deserts, and near buildings where they can find food like mice and insects. Understanding where animals live helps us protect their **ecosystems**.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives that has everything it needs, like food, water, shelter, and space."
+      }
     }
   ]
 }

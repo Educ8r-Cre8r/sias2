@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Stigma and Stamens",
-      "fact": "The yellow ball-shaped parts at the very top are called the stigma, and the thin structures below with orange tips are stamens. These are the flower's reproductive parts that help make seeds!"
+      "label": "Stamen and Stigma",
+      "fact": "The yellow parts at the tip of this flower are called the stamen and stigma — they are the flower's reproductive parts that help make new plants. When pollen from one flower reaches the stigma of another flower, it can grow into seeds. This process is called **pollination**, which is when pollen is carried from one flower to another so plants can make seeds.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen is moved from one flower to another, allowing plants to make seeds and create new baby plants."
+      }
     },
     {
       "id": 2,
-      "x": "48%",
-      "y": "50%",
-      "label": "Stamen Filaments",
-      "fact": "These thread-like orange and yellow structures are called stamens, and they produce pollen. Pollen is like flower dust that helps create new plants when it travels to other flowers."
+      "x": "50%",
+      "y": "55%",
+      "label": "Flower Petals",
+      "fact": "The bright pink petals are one of the main parts of a flower that help attract insects and animals. These colorful petals are structures that flowers use to get attention from visitors like bees and butterflies. When these insects visit the flower to drink nectar, they help spread pollen between flowers.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "A part of a living thing that has a special job — like petals that attract insects to flowers."
+      }
     },
     {
       "id": 3,
-      "x": "20%",
-      "y": "65%",
-      "label": "Pink Petals",
-      "fact": "These bright pink petals attract insects like bees and butterflies to the flower. The insects come for nectar to eat, and in return, they help spread pollen between flowers!"
+      "x": "50%",
+      "y": "68%",
+      "label": "Flower Base",
+      "fact": "Below the colorful petals is the base of the flower, which holds and supports all the reproductive parts above it. Different plants have different structures that help them survive and make new plants. This flower's structure, with its bright petals and special center parts, is designed to attract pollinators that help it reproduce.",
+      "vocabulary": {
+        "term": "Reproduce",
+        "definition": "When a living thing creates babies or new versions of itself — flowers reproduce by making seeds."
+      }
     },
     {
       "id": 4,
-      "x": "55%",
-      "y": "70%",
-      "label": "Pistil and Style",
-      "fact": "The thick pale tube connecting the petals to the reproductive parts is called the style. It leads down to the ovary where seeds will develop after pollination happens."
+      "x": "50%",
+      "y": "15%",
+      "label": "Pollen Grains",
+      "fact": "The tiny orange and yellow grains you see on the stamen are called pollen — they contain the material needed to create new plants. Pollen is very light and can travel through the air, on insects' legs, or on the wind to reach other flowers. Once pollen reaches another flower's stigma, a new plant can begin to grow from a seed.",
+      "vocabulary": {
+        "term": "Pollen",
+        "definition": "Tiny grains produced by flowers that carry the material needed to make seeds and grow new plants."
+      }
     }
   ]
 }

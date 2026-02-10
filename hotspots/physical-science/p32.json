@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "25%",
       "y": "35%",
-      "label": "Soap Bubble Film",
-      "fact": "Bubbles are made of a thin layer of soap and water trapped between two layers of air. The rainbow colors you see happen because light bounces off the bubble's surface and splits into different colors, just like a prism!"
+      "label": "Bubble Film",
+      "fact": "The thin, colorful film you see is made of soapy water that traps air inside. This bubble is an example of matter — something that takes up space and has weight. The beautiful rainbow colors happen because light bends and bounces off the curved surface of the bubble, creating this is called **refraction** — that's when light bends as it passes through different materials.",
+      "vocabulary": {
+        "term": "Matter",
+        "definition": "Anything that takes up space and has weight, like air, water, soap, and everything around us."
+      }
     },
     {
       "id": 2,
-      "x": "65%",
+      "x": "60%",
       "y": "50%",
-      "label": "Bubble Wand",
-      "fact": "The circular wand helps create a large surface area for the soapy water to stretch across. When you move the wand through the air, it pushes the bubble film forward and helps it float away!"
+      "label": "Bubble Wand Ring",
+      "fact": "The circular wand creates a bubble by using a force called tension — the soapy film stretches and pulls to form a round shape. The wand transfers the force from your hand to the soapy water, causing the bubble to form and float into the air. This shows how forces cause **motion** — the movement of objects from one place to another.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that makes something move, stop, or change direction."
+      }
     },
     {
       "id": 3,
-      "x": "25%",
-      "y": "45%",
-      "label": "Rainbow Colors",
-      "fact": "The purple, blue, yellow, and orange colors appear because of how light waves bounce and bend on the bubble's curved surface. This is called interference, and it's the same science that creates rainbows in the sky!"
+      "x": "35%",
+      "y": "20%",
+      "label": "Floating Bubble",
+      "fact": "This bubble floats because it's filled with air that is lighter than the air around it, so it rises up. The bubble's curved shape helps it move smoothly through the air with very little friction. Eventually, the bubble will pop when the soapy film breaks, and all the air inside will escape — this is a change in the physical properties of the materials.",
+      "vocabulary": {
+        "term": "Physical Properties",
+        "definition": "Features of something that you can observe or measure, like its color, size, shape, and whether it floats or sinks."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "75%",
-      "label": "Surface Tension",
-      "fact": "Soap makes water molecules stick together more weakly, allowing them to stretch into a thin film that can hold air. Without soap, plain water bubbles would pop instantly because the surface isn't strong enough!"
+      "x": "15%",
+      "y": "45%",
+      "label": "Child's Hand",
+      "fact": "Your hand pushes the wand through the air to create the bubble — this is an example of how forces can cause objects to move and change. The force you apply transfers energy to the soapy film, which stretches and expands to create the bubble shape. Without this **force** from your hand, the bubble would never form!",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The ability to make things move or change; it comes from actions like pushing, pulling, or moving."
+      }
     }
   ]
 }

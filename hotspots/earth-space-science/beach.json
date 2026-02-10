@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "35%",
-      "label": "Eye Stalks",
-      "fact": "This crab has long eye stalks that stick up from its head, allowing it to see in all directions while staying hidden in the sand. These special eyes help it spot food and danger without exposing its whole body."
+      "label": "Crab's Eye Stalks",
+      "fact": "This crab has long eye stalks that stick up so it can see above the sand while hiding its body. Animals have different body parts that help them survive in their environment, just like how this crab's eyes help it hunt for food and watch for danger on the beach. This special adaptation helps it live in the sandy habitat where it makes its home.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive in its environment."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "55%",
-      "label": "Large Claw",
-      "fact": "Ghost crabs have one claw that is much larger than the other! The big claw is used for defending itself, digging burrows, and catching food like small insects and other creatures."
+      "y": "50%",
+      "label": "Sandy Beach Habitat",
+      "fact": "This crab lives in sand, which is made of tiny pieces of rock and shells broken down over many years by waves and wind. Sand is a type of sediment that covers beaches and ocean floors all around the world. Different animals like crabs, insects, and clams live in sandy habitats because the sand provides them with shelter and places to hide.",
+      "vocabulary": {
+        "term": "Sediment",
+        "definition": "Tiny pieces of rock, sand, and shells that are found on beaches and at the bottom of oceans and rivers."
+      }
     },
     {
       "id": 3,
-      "x": "55%",
-      "y": "65%",
-      "label": "Sandy Habitat",
-      "fact": "This ghost crab lives on sandy beaches and is perfectly camouflaged with its tan and brown coloring. It digs U-shaped burrows in the sand to hide from predators and stay cool during the day."
+      "x": "35%",
+      "y": "45%",
+      "label": "Crab's Claws",
+      "fact": "Crabs use their strong claws to catch food, dig in the sand, and protect themselves from other animals. These claws are part of a crab's body structure that helps it get the energy it needs to survive. The crab's claws show how animals have special tools that help them find and catch the food they need.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "The way a body part is built or shaped, which helps an animal do something important like eating or moving."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "50%",
-      "label": "Walking Legs",
-      "fact": "Ghost crabs have four pairs of legs that help them run sideways across the beach at speeds up to 10 miles per hour! This sideways walking helps them move quickly to escape danger."
+      "x": "60%",
+      "y": "60%",
+      "label": "Crab's Legs",
+      "fact": "This crab's legs are specially designed for walking across sand and even swimming in shallow water when the tide comes in. The way crabs move helps them search for food and escape from predators that might try to eat them. Animals have different ways of moving that help them survive in their homes at the beach.",
+      "vocabulary": {
+        "term": "Predator",
+        "definition": "An animal that hunts and eats other animals for food."
+      }
     }
   ]
 }

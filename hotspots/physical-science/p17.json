@@ -4,29 +4,45 @@
       "id": 1,
       "x": "25%",
       "y": "50%",
-      "label": "Reflective Glass Panels",
-      "fact": "The shiny glass on the left building acts like a mirror, reflecting light and other buildings around it. This special glass helps keep the building cooler by reflecting the sun's heat away, which saves energy!"
+      "label": "Reflective Glass Windows",
+      "fact": "These glass windows reflect light from the sun and other buildings, which is a physical property of the glass material. When light bounces off a shiny surface like glass, it travels in a new direction—this is called reflection. This is why you can see the old building reflected in the modern glass building's windows!",
+      "vocabulary": {
+        "term": "Reflection",
+        "definition": "When light bounces off a shiny surface and travels in a new direction, like when you see yourself in a mirror."
+      }
     },
     {
       "id": 2,
-      "x": "75%",
-      "y": "50%",
-      "label": "Older Building Architecture",
-      "fact": "The tan-colored building visible through the glass is much older than the modern skyscraper in front of it. Scientists study how cities grow by comparing old and new buildings to understand urban development over time."
+      "x": "65%",
+      "y": "55%",
+      "label": "Transparent and Opaque Materials",
+      "fact": "The glass on the right side is transparent, which means light passes through it so you can see inside the building. The tan-colored stone walls are opaque, which means light cannot pass through them. Different materials have different physical properties that affect how light interacts with them!",
+      "vocabulary": {
+        "term": "Transparent",
+        "definition": "A material that lets light pass through it so you can see clearly through it, like clean glass or water."
+      }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "30%",
-      "label": "Window Grid Pattern",
-      "fact": "The rectangular grid pattern of windows is designed by engineers to distribute weight evenly and make the building strong. Each window is precisely measured to let in natural light while supporting the structure above."
+      "y": "25%",
+      "label": "Building Structure and Strength",
+      "fact": "This tall building is held up by forces working together—gravity pulls the building down, and the metal and stone framework pushes up to support it. The strong materials and careful design of the building help it stay standing even when forces like wind push on it from different directions.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop, or change direction, like gravity pulling things downward."
+      }
     },
     {
       "id": 4,
       "x": "40%",
-      "y": "15%",
-      "label": "Ventilation Systems",
-      "fact": "The dark rectangles and metal parts at the top of the building are HVAC systems that control air flow and temperature inside. These systems work like the lungs of a building, keeping the air fresh and comfortable for everyone inside!"
+      "y": "35%",
+      "label": "Light and Shadow Patterns",
+      "fact": "You can see shadows created by the metal frames and building structures when sunlight hits them. Shadows form when opaque objects block light from passing through, creating dark areas behind them. The patterns and angles of these shadows change throughout the day as the sun moves across the sky!",
+      "vocabulary": {
+        "term": "Shadow",
+        "definition": "A dark area created when an object blocks light from shining through it or onto a surface."
+      }
     }
   ]
 }

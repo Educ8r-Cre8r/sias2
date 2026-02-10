@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "20%",
-      "label": "Opening Seed Pod",
-      "fact": "This seed pod is opening up to release its seeds into the world. The shell cracks open when it's ready, allowing the seeds inside to spread and grow into new plants."
+      "label": "Flower Bud Opening",
+      "fact": "This flower bud is starting to open up, which is part of the plant's life cycle. Plants grow through different stages, just like animals do—first as seeds, then sprouts, and eventually into flowering plants that make new seeds. This is called **flowering** — that's when a plant opens its blooms to show its colorful petals.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The different stages a living thing goes through from birth to becoming an adult and making babies of its own."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "55%",
-      "label": "Green Stem",
-      "fact": "The green stem transports water and nutrients from the soil up to the seed pod. Green plants use sunlight, water, and air to make their own food through a process called photosynthesis."
+      "y": "60%",
+      "label": "Green Plant Stem",
+      "fact": "The green stem holds up the flower and carries water and nutrients from the roots to all parts of the plant. Stems are very important because they help plants stand tall and strong, and they act like tubes delivering food and water throughout the plant. This structure is called the **stem** — one of the main parts that keeps plants organized and healthy.",
+      "vocabulary": {
+        "term": "Stem",
+        "definition": "The green tube-like part of a plant that holds it up and carries water and food to the leaves and flowers."
+      }
     },
     {
       "id": 3,
       "x": "35%",
       "y": "75%",
-      "label": "Dropped Seeds",
-      "fact": "These seeds have already fallen from their pod onto the soil below. Seeds need soil, water, and sunlight to germinate and grow into new plants."
+      "label": "Plant Growing in Soil",
+      "fact": "Plants need soil to grow because soil contains nutrients and water that roots absorb to keep the plant alive and healthy. The soil provides everything a plant needs to survive, similar to how food provides energy for people and animals. A healthy **habitat** like soil helps living things get the resources they need to grow.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a living thing naturally lives and finds everything it needs to survive, like food, water, and shelter."
+      }
     },
     {
       "id": 4,
       "x": "50%",
-      "y": "15%",
-      "label": "Seed Texture",
-      "fact": "The rough, spotted texture on the seed helps protect the embryo inside. This hard coating keeps the seed safe until conditions are right for it to sprout."
+      "y": "35%",
+      "label": "Flower Parts",
+      "fact": "Inside this flower are special parts that help make seeds so new plants can grow! The flower's job is to create seeds, and it does this by catching pollen from other flowers. This special process is called **pollination** — that's when pollen is moved from one flower to another so plants can make seeds.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen moves from one flower to another, helping plants make seeds and grow new plants."
+      }
     }
   ]
 }

@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "15%",
-      "label": "Storm Cloud Formation",
-      "fact": "These dark, heavy clouds are called cumulonimbus clouds, which form when warm air rises quickly into the atmosphere. They can grow very tall and often bring thunderstorms, heavy rain, and strong winds to areas below them."
+      "label": "Dark Storm Clouds",
+      "fact": "Those dark, thick clouds are a sign that severe weather might be coming soon! Clouds form when water vapor rises into the atmosphere and cools down, creating tiny water droplets. Dark clouds like these often bring heavy rain, strong winds, or even severe thunderstorms to an area.",
+      "vocabulary": {
+        "term": "Weather",
+        "definition": "The day-to-day conditions of the atmosphere, including temperature, clouds, wind, and precipitation (rain or snow)."
+      }
     },
     {
       "id": 2,
       "x": "25%",
-      "y": "50%",
-      "label": "Utility Power Lines",
-      "fact": "These power lines carry electricity from power plants to homes and businesses. Electricity travels through these wires at the speed of light, providing the energy we need for lights, computers, and other devices."
+      "y": "60%",
+      "label": "Power Lines and Poles",
+      "fact": "These poles carry electricity through wires to homes and businesses in the community. Electricity is a form of energy that powers our lights, refrigerators, and many other devices we use every day. During severe storms like the one shown here, power lines can sometimes be damaged by high winds or lightning.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The ability to do work or make things happen; electricity is one type of energy that we use in our daily lives."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "60%",
-      "label": "Weather System Moving In",
-      "fact": "The wall cloud visible in the distance shows how weather systems move across the landscape. Meteorologists study these patterns to predict storms and help keep communities safe by issuing weather warnings."
+      "x": "60%",
+      "y": "50%",
+      "label": "Industrial Area Below Storm",
+      "fact": "This shows how humans have changed the land by building factories, warehouses, and roads in communities. Weather patterns and climate can affect where people choose to build and how they design buildings to stay safe during storms. This is an example of how Earth's systems interact with human activities.",
+      "vocabulary": {
+        "term": "Landforms",
+        "definition": "Natural features of Earth's surface, like mountains, valleys, and plains; human-made structures like buildings and roads change the landscape too."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "70%",
-      "label": "Green Plants and Trees",
-      "fact": "Plants on the left side use sunlight to make their own food through photosynthesis. They also release oxygen into the air that we breathe and help protect the soil from erosion during heavy storms."
+      "x": "35%",
+      "y": "25%",
+      "label": "Water Body in Distance",
+      "fact": "You can see what appears to be a lake or large body of water in the distance beneath the storm clouds. Water is constantly moving between Earth's surface and the atmosphere in a cycle called the water cycle—water evaporates from oceans and lakes, forms clouds, and then falls as rain or snow.",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous movement of water from Earth's surface (oceans, lakes, rivers) into the atmosphere as water vapor, and back down as precipitation like rain or snow."
+      }
     }
   ]
 }

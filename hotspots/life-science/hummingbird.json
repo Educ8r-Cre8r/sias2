@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
-      "label": "Hummingbird Beak",
-      "fact": "A hummingbird's long, thin beak is perfectly designed to reach deep into flowers to drink nectar. The beak can be as long as the bird's entire body! This special shape helps hummingbirds get the energy they need to fly so fast."
+      "y": "45%",
+      "label": "Hummingbird's Long Beak",
+      "fact": "A hummingbird has a long, thin beak that is perfectly shaped to drink nectar from flowers. This special body structure helps the hummingbird get the food it needs to survive. This is called **adaptation** — that's when an animal's body has special features that help it live in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and find food in its home."
+      }
     },
     {
       "id": 2,
-      "x": "45%",
-      "y": "55%",
-      "label": "Hummingbird Wings",
-      "fact": "Hummingbird wings beat about 80 times per second, which is faster than the human eye can see! This super-fast wing movement allows them to hover in place and even fly backwards while visiting flowers."
+      "x": "75%",
+      "y": "35%",
+      "label": "Bright Pink Flower",
+      "fact": "Hummingbirds are attracted to bright flowers like this one because they see the vivid pink color. When the hummingbird visits the flower to drink nectar, pollen sticks to its beak and head. This is called **pollination** — that's when pollen is carried from one flower to another so plants can make seeds.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "The process where pollen from one flower moves to another flower so the plant can make new seeds."
+      }
     },
     {
       "id": 3,
-      "x": "75%",
-      "y": "60%",
-      "label": "Nectar-Rich Flower",
-      "fact": "Bright pink and red flowers like these gerberas attract hummingbirds with their vibrant colors. The flowers produce sweet nectar that hummingbirds drink for energy, and in return, the birds help pollinate the flowers by spreading pollen from plant to plant."
+      "x": "50%",
+      "y": "30%",
+      "label": "Hummingbird Wings in Motion",
+      "fact": "A hummingbird's wings beat super fast—up to 80 times per second! This fast wing movement lets the hummingbird hover in one spot while it eats from flowers. Hummingbirds need lots of food energy because their bodies work so hard to stay alive.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The power that living things need to move, grow, and do all their activities."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "20%",
-      "label": "Iridescent Feathers",
-      "fact": "Hummingbird feathers shimmer and change color in the light, like a rainbow! This special coloring is created by the structure of the feathers, not pigment, similar to how a soap bubble reflects different colors."
+      "x": "30%",
+      "y": "55%",
+      "label": "Flower and Hummingbird Relationship",
+      "fact": "The hummingbird and flower need each other to survive—this is called a **food chain**. The flower gives the hummingbird sweet nectar to eat, and the hummingbird helps the flower by spreading pollen. Both living things depend on each other in nature!",
+      "vocabulary": {
+        "term": "Food Chain",
+        "definition": "The path that energy takes as it moves from plants to animals that eat the plants."
+      }
     }
   ]
 }

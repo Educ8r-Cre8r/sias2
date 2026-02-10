@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "45%",
-      "y": "30%",
-      "label": "Lizard Eye",
-      "fact": "The lizard on the left shows a darkened, black patch behind the eye, which is a physiological indicator of stress or aggression in this species."
+      "y": "35%",
+      "label": "Large Eye",
+      "fact": "This lizard has big eyes that help it see insects and other small animals to eat. Good eyesight is an important body part that helps this reptile survive in its habitat. Animals have different body structures that help them find food and stay safe.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and do things it needs to do, like hunting for food."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
+      "x": "70%",
       "y": "50%",
-      "label": "Textured Jaw",
-      "fact": "The detailed patterns on the jaw show where the lizard's lower and upper jaws meet. These patterns help scientists identify different species and understand how lizards eat and hunt their food."
+      "label": "Bumpy Scales",
+      "fact": "The bumpy texture you see on this green lizard's skin is made of tiny scales that protect its body, just like armor! Scales are a special feature that all reptiles have to keep their skin safe and healthy. This is called **adaptation** — a special body part that helps animals survive.",
+      "vocabulary": {
+        "term": "Scales",
+        "definition": "Tiny overlapping pieces of hard skin that cover a reptile's body to protect it and keep it from drying out."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "60%",
-      "label": "Scaled Skin",
-      "fact": "This lizard's skin is covered in tiny overlapping scales that protect its body and help prevent water loss. The scales' bright green color helps the lizard blend in with leaves in its rainforest home."
+      "x": "30%",
+      "y": "50%",
+      "label": "Green Color",
+      "fact": "This lizard's bright green color helps it blend in with leaves and trees in its environment, so predators have a harder time seeing it. This special coloring is called **camouflage**, and it's an important adaptation that helps the animal stay hidden and safe. The color helps the lizard survive in its natural habitat.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors or patterns on an animal's body that help it blend in with its surroundings so other animals can't see it as easily."
+      }
     },
     {
       "id": 4,
-      "x": "80%",
-      "y": "75%",
-      "label": "Patterned Scales",
-      "fact": "The larger, more defined scales on the body are called keeled scales because they have a ridge down the middle. These scales help the lizard grip branches and move through trees with ease."
+      "x": "55%",
+      "y": "65%",
+      "label": "Strong Jaw",
+      "fact": "This reptile has a long, strong jaw that helps it catch and eat small insects, spiders, and other tiny animals. The shape and strength of its jaw is a special body part that shows how this animal is built to hunt and survive. Different animals have different mouth shapes depending on what they eat.",
+      "vocabulary": {
+        "term": "Predator",
+        "definition": "An animal that hunts and eats other animals to survive."
+      }
     }
   ]
 }

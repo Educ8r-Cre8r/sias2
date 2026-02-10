@@ -4,29 +4,45 @@
       "id": 1,
       "x": "55%",
       "y": "35%",
-      "label": "Larva Head",
-      "fact": "This is the head of a beetle larva with its reddish-brown jaws called mandibles. Larvae use these strong jaws to chew through wood, soil, and other materials as they grow and develop."
+      "label": "Head and Eyes",
+      "fact": "This insect larva has a brown head with eyes that help it see and find food in the soil. Different organisms have different body parts that help them survive in their habitats, like how this larva's small eyes work well in dark soil.",
+      "vocabulary": {
+        "term": "Larva",
+        "definition": "A young insect that looks different from an adult insect and goes through big changes as it grows."
+      }
     },
     {
       "id": 2,
       "x": "50%",
       "y": "55%",
-      "label": "Segmented Body",
-      "fact": "The curved white body is divided into segments, which is a characteristic of all insects and many other animals. These segments allow the larva to bend and move through tight spaces in the soil."
+      "label": "Curved White Body",
+      "fact": "This C-shaped body is soft and flexible, which helps the larva move through soil and hide from predators. As insects grow and change in their life cycle, they look very different from when they become adults.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The stages a living thing goes through from birth to growing up to having babies of its own."
+      }
     },
     {
       "id": 3,
-      "x": "75%",
-      "y": "60%",
-      "label": "Body Texture",
-      "fact": "The larva's smooth, pale skin helps it move easily through soil and protects it from drying out. This stage can last for months or even years before the larva transforms into an adult beetle."
+      "x": "45%",
+      "y": "70%",
+      "label": "Legs and Segments",
+      "fact": "You can see small legs on this larva's body! Insects have segmented bodies made of parts that work together to help them move, eat, and grow. These body structures help the larva survive in the soil where it lives.",
+      "vocabulary": {
+        "term": "Segments",
+        "definition": "The separate connected sections that make up an insect's body, like rings stacked on top of each other."
+      }
     },
     {
       "id": 4,
-      "x": "25%",
+      "x": "30%",
       "y": "50%",
-      "label": "Soil Environment",
-      "fact": "This beetle larva lives underground in soil where it's dark and moist. Many insect larvae develop in soil before emerging as adults, making them important for breaking down dead plants and enriching the soil."
+      "label": "Soil Habitat",
+      "fact": "This larva lives in soil, which is its habitat—the place where it finds food, water, and shelter. Many organisms live in soil and depend on it to survive, making soil an important part of ecosystems.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a plant or animal lives that has everything it needs to survive, like food, water, and shelter."
+      }
     }
   ]
 }

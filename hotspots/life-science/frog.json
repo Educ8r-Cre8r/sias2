@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "35%",
-      "label": "Large Prominent Eye",
-      "fact": "This tree frog has big, bulging eyes that can see in many directions at once. Large eyes help frogs spot insects to eat and watch for predators that might want to eat them."
+      "label": "Large Round Eye",
+      "fact": "This tiny frog has big eyes that help it see insects to eat and watch for danger. The large eye with the colorful iris helps the frog survive in its rainforest home. This is called **adaptation** — that's a body part or behavior that helps an animal live and survive in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or skill that helps an animal survive and live in its home."
+      }
     },
     {
       "id": 2,
       "x": "50%",
       "y": "55%",
-      "label": "Sticky Toe Pads",
-      "fact": "Tree frogs have special sticky pads on their toes that work like tiny suction cups. These pads let the frog climb smooth leaves and branches without slipping or falling."
+      "label": "Small Body Structure",
+      "fact": "This tiny tree frog is much smaller than most frogs, which helps it live safely on leaves high up in trees. Different animals have different body sizes that help them fit into their homes, called habitats. This **body structure** — or physical shape and size — helps this frog hide from predators and move around easily on thin leaves.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The physical parts and shape of an animal's body that help it survive."
+      }
     },
     {
       "id": 3,
-      "x": "30%",
+      "x": "65%",
       "y": "50%",
-      "label": "Green Skin Camouflage",
-      "fact": "This frog's bright green color helps it hide on leaves in the rainforest. This camouflage makes it hard for predators to see the frog, even when it's sitting right in front of them."
+      "label": "Green Coloring",
+      "fact": "This frog's green color helps it blend in with the leaves and plants around it, keeping it safe from animals that want to eat it. This special color is an **adaptation** that makes the frog hard to see in its rainforest home. Green skin helps the frog survive because predators have trouble spotting it among the green leaves.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors or patterns on an animal's body that help it hide by blending in with its surroundings."
+      }
     },
     {
       "id": 4,
-      "x": "55%",
-      "y": "45%",
-      "label": "Smooth Moist Skin",
-      "fact": "Frogs breathe through their skin as well as their lungs, so their skin must stay wet. This frog's smooth, moist skin helps it absorb water and oxygen from the air around it."
+      "x": "35%",
+      "y": "60%",
+      "label": "Leaf Habitat",
+      "fact": "This frog lives on leaves in rainforests, which is its **habitat** — the place where an animal lives and finds food and water. Tree frogs have special feet with sticky pads that help them grip smooth leaves without falling. Living on leaves high in trees keeps this small frog safe from ground predators and gives it a place to hunt for tiny insects.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The home where an animal lives and gets food, water, and shelter."
+      }
     }
   ]
 }

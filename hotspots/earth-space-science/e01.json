@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "50%",
       "y": "35%",
-      "label": "Tall Skyscrapers",
-      "fact": "These buildings are made of steel and glass, which are strong materials that can support their huge weight. Skyscrapers need special foundations deep underground to keep them standing safely, even during storms and earthquakes."
+      "label": "Sun and Light",
+      "fact": "The bright sun in the sky gives energy to Earth and causes day and night. The sun's light and heat help plants grow and warm our planet. This is called **insolation** — that's the energy from the sun that reaches Earth's surface.",
+      "vocabulary": {
+        "term": "Insolation",
+        "definition": "The amount of the sun's energy that reaches Earth's surface."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "45%",
-      "label": "River and Bridge",
-      "fact": "Rivers are bodies of water that flow downhill toward oceans. Engineers designed this bridge to span across the river so people and cars can cross safely without stopping the water flow underneath."
+      "x": "30%",
+      "y": "65%",
+      "label": "River and Water",
+      "fact": "The river in front of the city is part of Earth's water system and helps shape the land. Water flows from high places to low places, and it is always moving around our planet. This continuous movement of water is called the **water cycle** — water evaporates from oceans and rivers, forms clouds, and falls as rain.",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous movement of water as it evaporates, condenses into clouds, falls as precipitation, and returns to oceans and rivers."
+      }
     },
     {
       "id": 3,
-      "x": "55%",
-      "y": "50%",
-      "label": "Green Trees",
-      "fact": "Trees help clean our air by taking in carbon dioxide and making oxygen that we breathe. The trees in cities like this one also help cool the air and provide homes for birds and insects."
+      "x": "50%",
+      "y": "25%",
+      "label": "Tall Buildings and Resources",
+      "fact": "These buildings are made from materials like steel and concrete that come from Earth's rocks and minerals. Humans dig up and use natural resources from Earth to build cities and homes. This is called **natural resource extraction** — taking materials from the Earth to use for building and other purposes.",
+      "vocabulary": {
+        "term": "Natural Resources",
+        "definition": "Materials from Earth that people use, such as rocks, metals, water, and trees."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
-      "y": "30%",
-      "label": "Sunlight and Reflection",
-      "fact": "The sun's light bounces off the glass windows of buildings, creating bright reflections. This light energy travels from the sun to Earth in just 8 minutes and gives us warmth and energy for life."
+      "x": "25%",
+      "y": "55%",
+      "label": "Trees and Vegetation",
+      "fact": "The green trees and plants in this area help clean our air and prevent soil from washing away. Plants are living things that grow in soil and depend on the sun, water, and nutrients from Earth. These plants are part of Earth's **biosphere** — the layer of Earth where all living things exist.",
+      "vocabulary": {
+        "term": "Biosphere",
+        "definition": "All the places on Earth where living things, like plants and animals, can be found."
+      }
     }
   ]
 }

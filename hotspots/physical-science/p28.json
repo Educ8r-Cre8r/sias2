@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "35%",
-      "y": "25%",
-      "label": "Pantograph Arm",
-      "fact": "This curved metal arm on top of the train connects to overhead electrical wires to power the vehicle. It slides along the wires as the train moves, collecting electricity that makes the train go!"
+      "x": "50%",
+      "y": "20%",
+      "label": "Overhead Power Lines",
+      "fact": "This light rail train gets its energy from the overhead wires you see above it! Electricity travels through those wires and powers the train so it can move down the tracks. This is called **electrical energy** — that's power that comes from electricity and can make things work and move.",
+      "vocabulary": {
+        "term": "Electrical Energy",
+        "definition": "Power that comes from electricity and makes machines and vehicles run."
+      }
     },
     {
       "id": 2,
       "x": "75%",
       "y": "45%",
-      "label": "Aerodynamic Design",
-      "fact": "The smooth, curved front of this light rail train is designed to cut through air efficiently. This streamlined shape reduces wind resistance and helps the train move faster while using less energy."
+      "label": "Pantograph Connector",
+      "fact": "That metal arm reaching up to the power lines is called a pantograph, and it's the connection that lets electricity flow from the wires into the train. Without this connector, the train wouldn't have the **energy** it needs to move forward and carry all those passengers!",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The power to make something work, move, or change."
+      }
     },
     {
       "id": 3,
-      "x": "15%",
-      "y": "55%",
-      "label": "Steel Wheels and Rails",
-      "fact": "Metal wheels rolling on steel rails create very little friction compared to rubber tires on roads. This means electric trains can move passengers very efficiently with less energy waste!"
+      "x": "35%",
+      "y": "65%",
+      "label": "Metal Rails and Wheels",
+      "fact": "The train's wheels roll smoothly on metal rails, which reduces **friction** between the wheels and the track. Less friction means the train can move more easily and uses less energy to keep going, making it an efficient way to transport people!",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that slows things down when they rub against each other."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
-      "y": "70%",
-      "label": "Traction System",
-      "fact": "Electric motors in this train convert electrical power into motion that turns the wheels. Modern light rail trains like this one are much quieter and cleaner than buses or cars!"
+      "x": "60%",
+      "y": "55%",
+      "label": "Large Heavy Train Car",
+      "fact": "This train is very heavy because it's made of metal and carries many passengers, but the electric motors inside are strong enough to push and pull all that **mass** forward! The train demonstrates how a large **force** from the motors must work to overcome the train's weight and get it moving.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop, or change direction."
+      }
     }
   ]
 }

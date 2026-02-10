@@ -5,28 +5,44 @@
       "x": "65%",
       "y": "35%",
       "label": "Plant Seedling",
-      "fact": "Plants can absorb nutrients and water directly through their roots, which is why this seedling can survive in the bottle."
+      "fact": "This young plant is growing from a seed inside the bottle! Plants need water, sunlight, and air to grow and stay healthy. You can see the green leaves and stem developing as the plant grows, which is part of its **life cycle** — the stages a plant goes through from seed to adult plant.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "All the stages that a living thing goes through, starting as a baby and growing into an adult."
+      }
     },
     {
       "id": 2,
       "x": "25%",
-      "y": "50%",
-      "label": "Recycled Bottle",
-      "fact": "This plastic bottle is being reused as a planter instead of being thrown away! Recycling and reusing materials helps protect our environment. Creative reuse like this shows how we can solve problems with everyday objects."
+      "y": "55%",
+      "label": "Recycled Bottle Home",
+      "fact": "This bottle has been reused to create a home for the plant! When we reuse bottles and containers instead of throwing them away, we help take care of our environment. Using what we already have is a smart way to reduce waste and provide resources that living things need, like soil and water for plants.",
+      "vocabulary": {
+        "term": "Reuse",
+        "definition": "To use something again in a new way instead of throwing it away."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "65%",
-      "label": "Green Leaves",
-      "fact": "The bright green color of these leaves comes from chlorophyll, a special pigment that helps plants make food from sunlight! This process is called photosynthesis and is how plants get energy to grow."
+      "x": "55%",
+      "y": "15%",
+      "label": "Soil in Bottle",
+      "fact": "The dark material inside the bottle is soil, which is very important for plants! Soil gives plants nutrients — special food that helps them grow strong and healthy. Plants use their roots to pull water and nutrients from the soil so they can survive and grow.",
+      "vocabulary": {
+        "term": "Nutrients",
+        "definition": "Special things in soil and food that help living things grow strong and healthy."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "15%",
-      "label": "Window View",
-      "fact": "Plants need sunlight to grow, which is why this seedling is placed near a sunny window! Sunlight provides the energy plants need for photosynthesis, helping them grow strong and healthy leaves and roots."
+      "x": "10%",
+      "y": "20%",
+      "label": "Window & Sunlight",
+      "fact": "The plant is sitting by the window where it gets sunlight! Plants need sunlight to make their own food through a process called **photosynthesis**. The green color in the leaves helps the plant capture light energy and turn it into food, which the plant uses to grow bigger and stronger.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The way plants use sunlight to make their own food so they can grow."
+      }
     }
   ]
 }

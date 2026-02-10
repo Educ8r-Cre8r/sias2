@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Patterned Wings",
-      "fact": "This insect has beautiful brown and white patterned wings that help it blend in with tree bark and leaves. This camouflage helps protect it from predators who might want to eat it."
+      "label": "Insect Wings",
+      "fact": "This insect has wings with special patterns on them that help it survive in nature. The brown markings on the wings help the insect blend in with tree bark and branches so predators cannot easily see it. This hiding ability is called **camouflage** — that's when an animal's colors and patterns help it blend in with its surroundings to stay safe.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors, patterns, or shapes that help an animal hide or blend in with its environment."
+      }
     },
     {
       "id": 2,
       "x": "35%",
-      "y": "50%",
-      "label": "Long Antennae",
-      "fact": "The long, thin antennae on the insect's head are used to smell and touch things in its environment. These special sensors help the insect find food and detect danger nearby."
+      "y": "60%",
+      "label": "Insect Legs",
+      "fact": "Insects like this one have six jointed legs that help them walk, climb, and balance on surfaces. These legs are made of hard segments called **exoskeletons** that support and protect the insect's body. The joints in the legs allow the insect to move in different directions and grip onto branches.",
+      "vocabulary": {
+        "term": "Exoskeleton",
+        "definition": "A hard outer covering on the outside of an animal's body that protects it, like armor."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "75%",
-      "label": "Eggs Cluster",
-      "fact": "The tiny yellow-white balls are eggs laid by the adult insect! When these eggs hatch, baby insects called nymphs will emerge and grow into adults like their mother."
+      "x": "60%",
+      "y": "70%",
+      "label": "Eggs Nearby",
+      "fact": "The small yellow objects nearby represent insect eggs that are part of this creature's **life cycle**. Insects go through different stages of life: egg, young insect, and adult insect. These eggs will hatch into baby insects that grow and change until they become adults like the one shown here.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The different stages an animal goes through from birth to adulthood, including growing and changing."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
-      "y": "45%",
-      "label": "Segmented Legs",
-      "fact": "This insect has six jointed legs that bend at multiple points, making it very flexible and able to walk on many different surfaces. The legs have claws that help it grip branches and bark."
+      "x": "48%",
+      "y": "10%",
+      "label": "Insect Head",
+      "fact": "The insect's head contains important body parts like its eyes and mouth that help it sense and eat food. Insects use their eyes to see and find food sources like plants, flowers, and leaves in their **habitat**. The head also has antennae that help the insect smell and touch things around it.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The natural home or environment where an animal or plant lives and finds food, water, and shelter."
+      }
     }
   ]
 }

@@ -4,29 +4,45 @@
       "id": 1,
       "x": "15%",
       "y": "35%",
-      "label": "Urban Smog Layer",
-      "fact": "The hazy, grayish air visible over the distant city is called smog, which forms when pollution from cars and factories mixes with sunlight. This helps us see how air pollution spreads across large areas and affects air quality far away from cities."
+      "label": "Mansion on Hillside",
+      "fact": "This building was constructed on a hillside, which is a raised landform on Earth's surface. People often build homes on hills because water runs downhill, keeping the area drier and safer from flooding. This is called **topography** — that's the shape and features of the land, like hills, valleys, and mountains.",
+      "vocabulary": {
+        "term": "Topography",
+        "definition": "The shape and arrangement of land features like hills, valleys, and mountains."
+      }
     },
     {
       "id": 2,
-      "x": "12%",
-      "y": "20%",
-      "label": "Roof Material",
-      "fact": "The red clay tiles on this mansion's roof are made from natural clay that's been heated in a kiln. These materials absorb less heat than dark colors, which helps keep buildings cooler in sunny climates."
+      "x": "50%",
+      "y": "60%",
+      "label": "Dense Forest Trees",
+      "fact": "The green forest covering the hills provides a natural home for plants and animals. Trees help clean our air by taking in carbon dioxide and releasing oxygen that we breathe. This living system is called an **ecosystem** — a community where plants, animals, and their environment all work together.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things (plants and animals) that interact with each other and their environment."
+      }
     },
     {
       "id": 3,
-      "x": "45%",
-      "y": "50%",
-      "label": "Forest Ecosystem",
-      "fact": "The dense green vegetation covering these hills is a forest ecosystem that provides homes for thousands of plant and animal species. These forests also help clean our air by producing oxygen and absorbing carbon dioxide."
+      "x": "70%",
+      "y": "30%",
+      "label": "Hazy Distant City",
+      "fact": "The blurry, hazy appearance in the distance shows how weather and air quality affect what we can see. This haze can come from clouds, fog, or **air pollution** — tiny particles floating in the air. Understanding Earth's atmosphere helps us predict weather and protect our environment.",
+      "vocabulary": {
+        "term": "Atmosphere",
+        "definition": "The invisible blanket of air surrounding Earth that we breathe and that affects our weather."
+      }
     },
     {
       "id": 4,
-      "x": "70%",
-      "y": "45%",
-      "label": "Topography & Erosion",
-      "fact": "The rolling hills and valleys you see were shaped by water erosion over millions of years as rain and streams carved into the landscape. This process is still happening today and constantly changes Earth's surface features."
+      "x": "45%",
+      "y": "15%",
+      "label": "Overcast Sky",
+      "fact": "The cloudy sky shows how water moves through Earth's water cycle. Water evaporates from oceans, lakes, and soil, rises into the air, and forms clouds like these. Eventually, this water falls back to Earth as rain or snow, and the cycle starts again. This process is called the **water cycle** — nature's way of moving water around our planet.",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous movement of water from Earth's surface to the atmosphere and back again through evaporation, condensation, and precipitation."
+      }
     }
   ]
 }

@@ -502,19 +502,31 @@ function extractAllGradeLevelStandards(educational) {
 /**
  * Generate interactive hotspots for an image using Anthropic API (Claude Haiku 4.5)
  */
-async function generateHotspots(imagePath, filename, category, repoDir, anthropicKey, imageBase64, mediaType) {
+async function generateHotspots(imagePath, filename, category, repoDir, anthropicKey, imageBase64, mediaType, ngssStandards = []) {
   const anthropic = new Anthropic({ apiKey: anthropicKey });
-  
+
   console.log(`   🎯 Calling Claude Haiku 4.5 for hotspot generation...`);
-  
-  const prompt = `Analyze this science image and create interactive hotspots for students.
+
+  // Format category for display (e.g., "life-science" -> "Life Science")
+  const categoryDisplay = category.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+  // Build NGSS context if standards are available
+  const ngssContext = ngssStandards.length > 0
+    ? `\nThe following NGSS standards have been identified for this image: ${ngssStandards.join(', ')}. Each hotspot fact should connect to one of these standards or their underlying disciplinary core ideas.`
+    : '';
+
+  const prompt = `Analyze this ${categoryDisplay} image and create interactive hotspots for elementary students (grades K-5).
+
+This image belongs to the "${categoryDisplay}" category. Focus your hotspots on ${categoryDisplay.toLowerCase()} concepts — for example, ${category === 'life-science' ? 'living organisms, habitats, body structures, life cycles, and ecosystems' : category === 'earth-space-science' ? 'rocks, weather, water, landforms, and space' : 'forces, motion, energy, matter, and physical properties'}.
+${ngssContext}
 
 Generate 3-4 hotspots that highlight scientifically interesting features in the image.
 
 For each hotspot, provide:
 1. x and y coordinates as percentages (e.g., "35%" for x-axis, "45%" for y-axis)
 2. A short label (2-4 words) describing what the hotspot points to
-3. An engaging, educational fact (2-3 sentences) appropriate for elementary students
+3. An engaging, educational fact (2-3 sentences) that connects to the NGSS standards and disciplinary core ideas listed above. Write at a level appropriate for elementary students.
+4. A science vocabulary word relevant to the hotspot, with a kid-friendly definition. Introduce it naturally, like: "This is called **pollination** — that's when pollen is carried from one flower to another so plants can make seeds."
 
 Return ONLY valid JSON in this exact format:
 {
@@ -524,7 +536,11 @@ Return ONLY valid JSON in this exact format:
       "x": "30%",
       "y": "40%",
       "label": "Feature Name",
-      "fact": "Educational fact here. Should be 2-3 sentences."
+      "fact": "Educational fact here that ties to NGSS standards. Should be 2-3 sentences and include the vocabulary word naturally.",
+      "vocabulary": {
+        "term": "Science Word",
+        "definition": "Kid-friendly definition of the word."
+      }
     }
   ]
 }
@@ -882,9 +898,13 @@ Remember:
 
   console.log(`✅ All content generated. Total cost: $${totalCost.toFixed(2)}`);
   
+  // Extract NGSS standards from educational content for hotspot context
+  const hotspotNGSS = extractAllGradeLevelStandards(educationalContent);
+  const hotspotStandardsList = [...new Set(Object.values(hotspotNGSS).flat())];
+
   // Generate hotspots
   console.log(`\n🎯 Generating interactive hotspots...`);
-  const hotspotCost = await generateHotspots(imagePath, filename, category, repoDir, anthropicKey, imageBase64, mediaType);
+  const hotspotCost = await generateHotspots(imagePath, filename, category, repoDir, anthropicKey, imageBase64, mediaType, hotspotStandardsList);
   totalCost += hotspotCost;
   
   console.log(`✅ Total cost (content + hotspots): $${totalCost.toFixed(2)}`);

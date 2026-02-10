@@ -4,29 +4,45 @@
       "id": 1,
       "x": "25%",
       "y": "50%",
-      "label": "Brass Instruments",
-      "fact": "Brass instruments like trumpets and trombones make sound when air vibrates through metal tubes. The longer the tube, the lower the sound produced by the instrument."
+      "label": "Brass Trumpet",
+      "fact": "When musicians blow air through a trumpet, it makes the air vibrate and creates sound waves that travel through the air to your ears. The longer the air path inside the trumpet, the lower the sound becomes. This is called **vibration** — that's when something moves back and forth very quickly to make sound.",
+      "vocabulary": {
+        "term": "Sound Wave",
+        "definition": "An invisible pattern of moving air that travels from a musical instrument to your ears so you can hear the music."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "35%",
-      "label": "Sound Waves",
-      "fact": "When musicians play instruments together, their sound waves travel through the air and combine. This is called acoustics, and it's why concerts sound better in certain spaces!"
+      "x": "45%",
+      "y": "45%",
+      "label": "Trombone Bell",
+      "fact": "The large, shiny part at the end of the trombone is called the bell, and it helps direct the sound energy outward so the music can be heard by people far away. The curved shape of the bell focuses the sound waves, which is an example of how the physical shape of an object affects how energy travels. This is called **energy transfer** — that's when sound energy moves from one place to another.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The ability to make something move, change, or make sound. Sound energy is the type of energy that creates noise."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
+      "x": "60%",
       "y": "55%",
-      "label": "Wind Instruments",
-      "fact": "Wind instruments produce sound when air vibrates inside them. The musician controls the pitch by changing how much air they blow and which holes they cover."
+      "label": "Drum with Drumstick",
+      "fact": "When a drummer hits a drum with a stick, the stick applies a force that makes the drum's surface vibrate up and down very quickly. These vibrations push on the air and create sound waves that we hear as music. The harder you hit the drum, the more force you use, and the louder the sound becomes. This shows how **force** causes motion and affects sound.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that makes something move, change direction, or change shape."
+      }
     },
     {
       "id": 4,
-      "x": "10%",
-      "y": "70%",
-      "label": "Marching Band Formation",
-      "fact": "Marching bands arrange musicians in specific patterns to project sound evenly across a field. The positioning helps sound waves reach more people in the audience at once."
+      "x": "80%",
+      "y": "40%",
+      "label": "Multiple Brass Instruments",
+      "fact": "Each brass instrument is made of different lengths and shapes of metal tubes, which causes them to produce different pitches—some high and some low. When air travels through a shorter tube, it vibrates faster and makes a higher sound, but when it travels through a longer tube, it vibrates slower and makes a lower sound. This is called **pitch** — that's how high or low a sound is.",
+      "vocabulary": {
+        "term": "Pitch",
+        "definition": "How high or low a sound is. Short instruments make high pitches, and long instruments make low pitches."
+      }
     }
   ]
 }

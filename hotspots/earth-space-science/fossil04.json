@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "50%",
       "y": "65%",
       "label": "Shell Fossil",
-      "fact": "This is a fossilized shell imprint preserved in rock for millions of years! Fossils help scientists learn about ancient creatures that lived long ago."
+      "fact": "This shell left an imprint in the rock, showing us that an ocean animal lived here long, long ago! Fossils are the remains or traces of plants and animals that lived in the past, and they help scientists learn about Earth's history. By studying fossils, we can understand what Earth looked like millions of years ago.",
+      "vocabulary": {
+        "term": "Fossil",
+        "definition": "The preserved remains or trace of a plant or animal that lived a very long time ago, usually found in rock."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
+      "x": "20%",
       "y": "30%",
-      "label": "Sedimentary Rock",
-      "fact": "This rock formed from layers of sand and sediment that were pressed together over time. Sedimentary rocks often contain fossils because organisms get buried in these layers."
+      "label": "Weathered Rock Surface",
+      "fact": "This rocky surface shows how rocks break down and change over time through a process called weathering. Wind, water, and temperature changes slowly wear away rocks into smaller pieces and sand. This is how mountains become smaller and how sand on beaches forms!",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The breaking down of rocks into smaller pieces by wind, water, ice, and weather over long periods of time."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "50%",
-      "label": "Fossil Details",
-      "fact": "You can see the detailed ridges and patterns on this shell fossil! These details tell us what kind of sea creature lived here millions of years ago."
+      "x": "65%",
+      "y": "25%",
+      "label": "Sandy Sediment",
+      "fact": "The sandy material covering this fossil is made of tiny pieces of rock and minerals that have been broken down by weathering. Over time, layers of sediment like this get pressed together and form sedimentary rock, which often contains fossils. This helps us understand how Earth's layers formed!",
+      "vocabulary": {
+        "term": "Sediment",
+        "definition": "Small pieces of rock, sand, and minerals that are carried by water or wind and settle in layers on the ground."
+      }
     },
     {
       "id": 4,
-      "x": "25%",
-      "y": "20%",
-      "label": "Rock Weathering",
-      "fact": "The cracks and pits on the rock surface show weathering from wind and water. Over time, rocks slowly break down into smaller pieces like sand."
+      "x": "75%",
+      "y": "60%",
+      "label": "Rock Layers and Texture",
+      "fact": "The bumpy texture and different colors in this rock tell us about its history and what it's made of. Scientists study rock layers to learn about Earth's past, including ancient climates, oceans, and life forms. Each layer can be like a page in a book telling Earth's story!",
+      "vocabulary": {
+        "term": "Rock Layer",
+        "definition": "A sheet of rock formed during a certain time period, stacked on top of other layers like pages in a book."
+      }
     }
   ]
 }

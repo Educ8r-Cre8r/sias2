@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "25%",
-      "label": "Spider's Eyes",
-      "fact": "Spiders have multiple eyes, usually 8, that help them see in different directions at once! These large eyes on top help the spider spot movement and hunt for food."
+      "label": "Spider's Long Legs",
+      "fact": "Spiders have eight long, thin legs that help them move quickly and sense their environment. These legs are covered with tiny hairs that can feel vibrations in the air and on the ground, helping the spider find food and stay safe from danger.",
+      "vocabulary": {
+        "term": "Appendages",
+        "definition": "Body parts that stick out from an animal's body, like legs, arms, or antennae, that help it move and interact with the world."
+      }
     },
     {
       "id": 2,
       "x": "50%",
       "y": "35%",
-      "label": "Spider's Fangs",
-      "fact": "Those sharp, pointed parts are called fangs or chelicerae. Spiders use them to catch and hold their prey, similar to how we use our hands!"
+      "label": "Spider's Body Parts",
+      "fact": "A spider's body has two main sections: the head and body combined (called the cephalothorax) and the back section (called the abdomen). Different body parts help the spider do important jobs like seeing, eating, and making silk for webs.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The different parts that make up an animal's body and how they work together to help the animal survive and do activities."
+      }
     },
     {
       "id": 3,
-      "x": "55%",
-      "y": "50%",
-      "label": "Long Legs",
-      "fact": "Spiders have 8 legs covered in tiny hairs that are super sensitive! These hairs help spiders feel vibrations from prey and sense their surroundings."
+      "x": "65%",
+      "y": "45%",
+      "label": "Spider as a Predator",
+      "fact": "Spiders are hunters that catch insects for food, which makes them important members of ecosystems. By eating insects, spiders help control insect populations and keep nature balanced, showing how different living things depend on each other.",
+      "vocabulary": {
+        "term": "Predator",
+        "definition": "An animal that hunts and eats other animals to survive."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "60%",
-      "label": "Spider's Body",
-      "fact": "A spider's body has two main parts: the head-chest area and the abdomen. The brown and tan colors help this spider blend in with bark and branches in nature!"
+      "x": "55%",
+      "y": "20%",
+      "label": "Spider's Eyes",
+      "fact": "Most spiders have multiple eyes, usually eight, that help them see movement and find prey. Spider eyes are very good at detecting when something is moving nearby, which helps them survive in their habitat.",
+      "vocabulary": {
+        "term": "Sensory Organs",
+        "definition": "Special body parts that help animals sense and learn about their surroundings, like eyes for seeing and ears for hearing."
+      }
     }
   ]
 }

@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
+      "x": "50%",
       "y": "25%",
-      "label": "Cumulus Cloud Top",
-      "fact": "The bright white, puffy top of this cloud is called a cumulus cloud. These clouds form when warm air rises into the cooler atmosphere and water vapor condenses into water droplets."
+      "label": "Cumulus Clouds",
+      "fact": "These puffy white clouds are called cumulus clouds, and they form when warm air rises up into the sky. Clouds are made of tiny water droplets that float together, and they help us predict weather patterns. This is called a **cumulus cloud** — that's a puffy, white cloud with a flat bottom that forms when warm air rises on a sunny day.",
+      "vocabulary": {
+        "term": "Cumulus Cloud",
+        "definition": "A puffy, white cloud with a flat bottom that forms when warm air bubbles rise into the sky on sunny days."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "60%",
-      "label": "Tower Crane",
-      "fact": "This construction crane is dwarfed by the massive cloud behind it! The cloud shows how enormous weather systems are compared to human-made structures on the ground."
+      "x": "45%",
+      "y": "55%",
+      "label": "Construction Crane",
+      "fact": "This tall crane is used by people to build structures, and it shows how humans shape the Earth and land around them. The crane helps construct buildings and other structures that change our environment and landscape. Humans use tools like cranes to modify **landforms** — that's when people change the shape of Earth's surface by building on it.",
+      "vocabulary": {
+        "term": "Landform",
+        "definition": "A natural or human-made shape on Earth's surface, like a mountain, valley, or building site."
+      }
     },
     {
       "id": 3,
-      "x": "45%",
-      "y": "45%",
-      "label": "Cloud Shading Variation",
-      "fact": "Notice how parts of the cloud are bright white and other parts are darker gray. The darker areas are shadowed regions where sunlight cannot reach through the thick cloud, showing the cloud's great depth and height."
+      "x": "70%",
+      "y": "50%",
+      "label": "Water Vapor Rising",
+      "fact": "The water in oceans, lakes, and rivers evaporates and rises into the air as invisible water vapor, which then forms clouds like the ones above. This process is part of the water cycle, which moves water around our planet continuously. This movement of water from liquid to gas is called **evaporation** — that's when water from Earth's surface turns into invisible water vapor and rises into the atmosphere.",
+      "vocabulary": {
+        "term": "Evaporation",
+        "definition": "When liquid water from oceans, lakes, and rivers turns into invisible water vapor and rises into the air."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "70%",
-      "label": "Clear Blue Sky",
-      "fact": "The deep blue sky shows clean, dry air with very few clouds. This contrast helps us see how clouds contain water and are heavier than the surrounding air around them."
+      "x": "35%",
+      "y": "20%",
+      "label": "Blue Sky",
+      "fact": "The blue color of the sky comes from sunlight scattering in our atmosphere, which is the layer of air surrounding Earth. The atmosphere protects us and contains the air we breathe, and it's also where weather happens. The layer of air around Earth is called the **atmosphere** — that's the blanket of gases that surrounds our planet and where all our weather occurs.",
+      "vocabulary": {
+        "term": "Atmosphere",
+        "definition": "The invisible layer of air and gases that surrounds Earth and protects all life on our planet."
+      }
     }
   ]
 }

@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "75%",
+      "x": "50%",
       "y": "25%",
-      "label": "Sharp Pointed Beak",
-      "fact": "This egret's long, pointed beak is perfectly designed for hunting fish and small creatures in the water. The sharp tip helps it quickly catch slippery prey by piercing through the water."
+      "label": "Long Neck",
+      "fact": "This egret has a long, curved neck that helps it catch fish in the water. The special shape of its neck lets it bend and move quickly to grab food. This is called **adaptation** — that's when an animal's body part helps it survive and find food in its home.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live in its environment."
+      }
     },
     {
       "id": 2,
-      "x": "65%",
-      "y": "70%",
-      "label": "Yellow Feet",
-      "fact": "Egrets have bright yellow feet that help them walk through shallow water without sinking. These long, thin toes spread out to distribute their weight across the muddy or rocky bottom."
+      "x": "75%",
+      "y": "75%",
+      "label": "Yellow Legs",
+      "fact": "The egret's bright yellow legs help it walk through shallow water without sinking deep into the mud. These long, thin legs are perfect for living in wetlands where it hunts for food. This is an example of how an animal's **body structure** helps it live in a specific habitat.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives that has everything it needs, like food, water, and shelter."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
-      "y": "40%",
-      "label": "White Feathers",
-      "fact": "The egret's pure white feathers help it blend in with water and sky, making it harder for fish to notice it sneaking up. This camouflage is called being 'cryptic' in nature."
+      "x": "40%",
+      "y": "30%",
+      "label": "Sharp Pointed Beak",
+      "fact": "An egret uses its long, sharp beak like a spear to catch fish and other small animals in the water. The pointed shape makes it easy to grab slippery prey quickly. Different animals have different beaks and teeth based on what they eat — this is part of how each **organism** is designed to get its food.",
+      "vocabulary": {
+        "term": "Organism",
+        "definition": "Any living thing, like an animal, plant, or tiny creature you can't see."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "15%",
-      "label": "Orange Eye Ring",
-      "fact": "The yellow and orange coloring around the egret's eye helps it see clearly underwater when hunting. These colors also help other egrets recognize each other during breeding season."
+      "x": "30%",
+      "y": "55%",
+      "label": "Water Habitat",
+      "fact": "This egret lives in shallow water habitats like ponds, marshes, and rivers where it can find plenty of fish to eat. The water provides food and shelter for this bird and many other animals. Living things depend on their habitat to survive, and they also affect other organisms in their **ecosystem**.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things (plants and animals) that live together in the same environment and affect each other."
+      }
     }
   ]
 }

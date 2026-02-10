@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Fried Coating",
-      "fact": "The golden-brown crispy coating is made by cooking protein in hot oil. This cooking method is called frying, and it creates a crunchy texture through a chemical process called the Maillard reaction, which also gives it that delicious golden color!"
+      "label": "Crispy Fried Coating",
+      "fact": "The golden-brown coating on these shrimp changed from soft to hard and crispy when heat was applied during cooking. This is a physical change because the shrimp is still shrimp, but its texture and appearance changed. Heat energy transformed the wet batter into a crunchy shell through a process called **frying** — that's when food is cooked quickly in hot oil.",
+      "vocabulary": {
+        "term": "Physical change",
+        "definition": "When something changes how it looks or feels, but is still made of the same material, like when water freezes into ice or batter becomes crispy."
+      }
     },
     {
       "id": 2,
       "x": "25%",
-      "y": "70%",
+      "y": "60%",
       "label": "Fresh Lettuce",
-      "fact": "Lettuce is a leafy green vegetable that is mostly water\u2014about 95%! It provides important nutrients like fiber and vitamins that help keep our bodies healthy and strong."
+      "fact": "The lettuce and other raw vegetables in this salad show us the physical properties of different foods. Some foods, like lettuce, are firm and crisp, while the shrimp is soft inside its crispy coating. These differences in texture and hardness are **physical properties** — characteristics we can observe and measure without changing what the food is made of.",
+      "vocabulary": {
+        "term": "Physical properties",
+        "definition": "Characteristics of something that you can observe with your senses, like color, size, texture, or how hard or soft it is."
+      }
     },
     {
       "id": 3,
-      "x": "60%",
-      "y": "65%",
-      "label": "Diced Vegetables",
-      "fact": "The white onions and orange carrots are cut into small pieces to add flavor and nutrition to the meal. Raw vegetables keep more of their vitamins compared to cooked vegetables!"
+      "x": "45%",
+      "y": "70%",
+      "label": "Diced White Onions",
+      "fact": "When the onions were chopped into small pieces, the cook changed their size and shape through cutting. This is an example of how matter can be broken apart into smaller pieces without becoming something else — it's still onion! Breaking food into smaller pieces requires **force** — a push or pull that changes an object's motion or shape.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can move something, stop something, or change its shape."
+      }
     },
     {
       "id": 4,
-      "x": "45%",
-      "y": "25%",
-      "label": "Black Seasoning",
-      "fact": "The black specks are likely pepper or other seasonings sprinkled on top. Seasonings don't add calories or fat, but they make food taste amazing and can have health benefits!"
+      "x": "65%",
+      "y": "50%",
+      "label": "Orange Bell Pepper",
+      "fact": "This colorful pepper shows us how different materials have different physical properties. The orange pepper has its own color, size, and texture that is different from the lettuce or shrimp. When we mix different ingredients together in a bowl, we create a **mixture** — a combination of materials that keeps their own properties and can be separated.",
+      "vocabulary": {
+        "term": "Mixture",
+        "definition": "When two or more different materials are put together but each one stays the same. You can usually separate the parts of a mixture, like picking out vegetables from a salad."
+      }
     }
   ]
 }

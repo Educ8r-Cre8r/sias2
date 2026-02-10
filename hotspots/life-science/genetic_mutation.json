@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Pink Ray Petals",
-      "fact": "These bright pink petals are the flower's outer leaves that protect it while it grows. They also attract insects like bees and butterflies to help pollinate the flower so it can make seeds!"
+      "label": "Pink Petals",
+      "fact": "These bright pink petals are one of the main parts that help flowers attract insects like bees and butterflies. The colorful petals are a structure that flowers use to get animals to visit them, which helps the plant make seeds. This is called **pollination** — that's when pollen is carried from one flower to another so plants can make seeds.",
+      "vocabulary": {
+        "term": "Petals",
+        "definition": "The colorful leaf-like parts of a flower that help attract insects and animals."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "55%",
-      "label": "Yellow Stamens",
-      "fact": "These tiny yellow structures in the center are called stamens, and they make pollen. Pollen is like the flower's powder that sticks to insects and helps create new plants."
+      "y": "50%",
+      "label": "Yellow Stamen",
+      "fact": "The yellow parts in the center of this flower are called stamens, and they hold pollen—a special powder that flowers need to make seeds. When insects visit the flower to drink nectar, pollen sticks to their bodies and gets carried to other flowers. This transfer of pollen between flowers helps plants reproduce and make new plants.",
+      "vocabulary": {
+        "term": "Stamen",
+        "definition": "The male part of a flower that makes pollen, a powder needed to create seeds."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
-      "y": "65%",
-      "label": "Dark Red Disk",
-      "fact": "The dark reddish-brown center is called the disk florets. This Zinnia flower is actually made of hundreds of tiny flowers packed together, all working as one!"
+      "x": "65%",
+      "y": "70%",
+      "label": "Flower Structure",
+      "fact": "This flower has all the important structures that help it survive and make new plants—the petals attract pollinators, the stamens make pollen, and deep inside is the pistil that will become seeds. All living things, including plants, have different body structures that help them do important jobs like eating, growing, and making babies. This flower shows how plants are organized with special parts working together.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "A body part that has a special job, like a flower's petals that attract insects."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "50%",
-      "label": "Pollinator Visitor",
-      "fact": "You can see a small insect on this flower! Insects visit flowers to drink nectar, which is a sweet liquid plants make. As they move between flowers, they help spread pollen."
+      "x": "30%",
+      "y": "20%",
+      "label": "Visiting Insect",
+      "fact": "You can see a tiny insect visiting this flower to drink the sweet nectar inside! Insects like bees and beetles are part of an important relationship with flowers—the insect gets food, and the flower gets help spreading its pollen to make seeds. This is called a **symbiotic relationship** because both the plant and insect benefit from each other.",
+      "vocabulary": {
+        "term": "Pollinator",
+        "definition": "An animal, like a bee or butterfly, that carries pollen from flower to flower."
+      }
     }
   ]
 }

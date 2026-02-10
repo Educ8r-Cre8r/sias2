@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Morning Fog/Mist",
-      "fact": "This white fog forms when warm, moist air near the ground cools down in the early morning. The water vapor in the air turns into tiny water droplets, creating the misty layer you see floating above the field."
+      "label": "Morning Fog",
+      "fact": "The white, cloudy air you see covering the field is called fog, which forms when water vapor in the air cools down near the ground. Fog is a type of cloud that happens close to Earth's surface, usually in the early morning or evening. This is called **fog** — that's when water vapor in the air cools down and turns into tiny water droplets we can see floating in the air.",
+      "vocabulary": {
+        "term": "Fog",
+        "definition": "A cloud that forms near the ground when cool air meets water vapor in the atmosphere."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "60%",
+      "x": "15%",
+      "y": "50%",
       "label": "Agricultural Crop Field",
-      "fact": "The green plants covering this field are likely crops grown for food. Farmers plant seeds in spring and summer, and the crops grow tall to eventually be harvested in the fall."
+      "fact": "The green plants growing in organized rows are crops that farmers planted to grow food for people and animals. Farmers depend on water from rain and rivers, as well as soil that is rich with nutrients to help these plants grow strong and healthy. This area shows how humans use the land and water resources around them, which is an important part of how we live on Earth.",
+      "vocabulary": {
+        "term": "Crops",
+        "definition": "Plants that people grow on farms to use as food or materials."
+      }
     },
     {
       "id": 3,
-      "x": "15%",
-      "y": "50%",
-      "label": "River or Stream",
-      "fact": "This water body flows through the landscape and is essential for the surrounding ecosystem. Rivers provide water for drinking, irrigation for crops, and habitats for fish and other aquatic animals."
+      "x": "8%",
+      "y": "65%",
+      "label": "River and Water",
+      "fact": "The water you see in the foreground is part of a river or stream that flows through the land. Rivers carry water from higher places to lower places, bringing nutrients to the soil and providing water for plants and animals. Water constantly moves around Earth through rain, rivers, oceans, and back into the sky — this endless cycle is called the water cycle.",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous movement of water from Earth's surface into the atmosphere and back again through evaporation, condensation, and precipitation."
+      }
     },
     {
       "id": 4,
-      "x": "60%",
-      "y": "25%",
-      "label": "Trees Along Horizon",
-      "fact": "Trees help clean our air by taking in carbon dioxide and releasing oxygen that we breathe. They also prevent soil erosion and provide homes and food for many different animals and birds."
+      "x": "55%",
+      "y": "70%",
+      "label": "Sky at Dawn",
+      "fact": "The beautiful colors in the sky — from blue to pink to orange — happen because of how sunlight travels through Earth's atmosphere at sunrise. The sun is lower in the sky during early morning, so its light travels through more air and creates these amazing colors. This shows us that the sun's position in the sky changes throughout the day, which creates our day and night cycle.",
+      "vocabulary": {
+        "term": "Atmosphere",
+        "definition": "The layer of air that surrounds Earth and protects all living things."
+      }
     }
   ]
 }

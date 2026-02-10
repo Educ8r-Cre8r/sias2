@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "65%",
-      "y": "55%",
+      "y": "50%",
       "label": "Tire Tread Pattern",
-      "fact": "The deep grooves you see are called tread, and they help tires grip the road safely. These patterns channel water away during rain so the tire stays in contact with the ground, preventing slipping."
+      "fact": "The deep grooves and bumps on this tire are called tread, and they help the tire grip the road better. This is a good example of how the shape and texture of an object affects how it moves and stops. A tire with worn-down tread doesn't grip as well, so the car takes longer to stop when the brakes are applied.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that happens when two surfaces rub together and slows down or stops movement. The tire tread creates more friction with the road."
+      }
     },
     {
       "id": 2,
-      "x": "45%",
-      "y": "35%",
-      "label": "Rubber Compound",
-      "fact": "Tires are made from rubber that has been mixed with other materials to make them strong and flexible. This special blend allows tires to grip the road while withstanding the heat and pressure created by driving."
+      "x": "15%",
+      "y": "25%",
+      "label": "Metal Wheel Rim",
+      "fact": "The metal wheel rim is a rigid material that holds the tire in place and helps support the weight of the car. Metal is strong and doesn't bend easily, which makes it perfect for this job. This shows how we choose different materials based on the properties we need for a design.",
+      "vocabulary": {
+        "term": "Material Properties",
+        "definition": "The special qualities of something that make it good or bad for different jobs, like being hard, flexible, heavy, or light."
+      }
     },
     {
       "id": 3,
-      "x": "20%",
-      "y": "45%",
-      "label": "Tire Wear Signs",
-      "fact": "The dark spots and worn areas show how tires gradually wear down from friction with the road. Even though rubber seems hard, it slowly breaks down with use, which is why tires need to be replaced periodically."
+      "x": "50%",
+      "y": "65%",
+      "label": "Worn Tread Surface",
+      "fact": "You can see the tire tread is dirty and worn from rolling on the ground and experiencing friction. As tires wear down over time, they lose their grip on the road because there's less surface area to create friction. This is why car tires need to be replaced eventually to keep cars safe.",
+      "vocabulary": {
+        "term": "Wear and Tear",
+        "definition": "When something gets damaged or worn out from being used over time, like how a tire gets smoother the more you drive on it."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "20%",
-      "label": "Wheel Rim",
-      "fact": "The metal wheel shown here is called the rim, and it supports the entire tire. The rim is made from metal alloys that are strong and lightweight, allowing the wheel to rotate smoothly."
+      "x": "10%",
+      "y": "55%",
+      "label": "Tire Rubber Compound",
+      "fact": "Tires are made of rubber, which is a material chosen because it is flexible and has good friction with the road. The rubber can grip and hold onto the road surface, which helps the car stop when needed. Engineers designed tires this way to help control motion and keep cars safe.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop moving, or change direction. Friction between the tire and road creates a force that slows down the car."
+      }
     }
   ]
 }

@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
+      "x": "55%",
       "y": "35%",
       "label": "Large Compound Eyes",
-      "fact": "Dragonflies have enormous eyes that can see in almost every direction at once! Their eyes have thousands of tiny lenses that help them spot moving insects while flying at high speeds."
+      "fact": "Dragonflies have huge eyes that help them see in many directions at once! These eyes are made up of thousands of tiny lenses, which helps them spot moving insects to eat. This is called **adaptation** — a special body feature that helps an animal survive in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps an animal or plant survive and do well in its home."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "50%",
-      "label": "Head and Thorax",
-      "fact": "A dragonfly's head is mostly made up of its huge eyes, while its thorax (middle body) contains powerful flight muscles. These muscles let dragonflies fly forwards, backwards, and hover in place!"
+      "x": "45%",
+      "y": "55%",
+      "label": "Segmented Body",
+      "fact": "A dragonfly's body is divided into three main parts: the head, thorax (middle), and abdomen (tail). Each part has a different job to help the dragonfly live and move. These sections are called **segments** — separate body parts that work together.",
+      "vocabulary": {
+        "term": "Segments",
+        "definition": "Separate body sections that are connected together, like the rings on a caterpillar."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "55%",
+      "x": "65%",
+      "y": "45%",
       "label": "Transparent Wings",
-      "fact": "Dragonfly wings are made of a clear material called chitin and have delicate veins running through them. These wings beat very fast and can move independently, making dragonflies some of the most skilled fliers in the insect world."
+      "fact": "Dragonfly wings are thin and clear, made of a special material that lets light pass through! These wings help dragonflies fly super fast and turn quickly to catch other insects. This is an important **body structure** that helps dragonflies hunt for food and escape danger.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The different parts of an animal's body and how they are organized to help the animal live."
+      }
     },
     {
       "id": 4,
-      "x": "55%",
-      "y": "25%",
-      "label": "Striped Abdomen",
-      "fact": "The long striped body at the back of the dragonfly is called the abdomen. It helps the dragonfly balance and steer while flying, kind of like the tail on a kite!"
+      "x": "40%",
+      "y": "70%",
+      "label": "Gray Textured Surface (Habitat)",
+      "fact": "This dragonfly is resting on a rough, gray surface like concrete or stone — a place where it might hunt or hide. Dragonflies live near water where they lay their eggs, but they can be found on many different surfaces. The place where an animal lives is called its **habitat** — all the things it needs to survive.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The home of an animal or plant, including everything it needs like food, water, and shelter."
+      }
     }
   ]
 }

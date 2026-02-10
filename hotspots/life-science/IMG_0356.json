@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "25%",
-      "y": "45%",
-      "label": "Sprouting Seed",
-      "fact": "This is a bean sprout that has just started to grow! The green leaves are called cotyledons, and they help the tiny plant make its own food using sunlight. Seeds need water, warmth, and air to sprout and grow into bigger plants."
+      "y": "35%",
+      "label": "Green Seedling Leaves",
+      "fact": "This young plant is just beginning to grow! Plants need sunlight, water, and soil to survive and grow into bigger plants. The green leaves you see are called **cotyledons** — that's the first leaves that come out when a seed starts growing, and they help the baby plant get energy from sunlight.",
+      "vocabulary": {
+        "term": "Cotyledons",
+        "definition": "The first leaves that grow from a seed; they help baby plants get energy from the sun."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "50%",
-      "label": "Root System",
-      "fact": "These thin, thread-like structures are roots that grow downward into soil. Roots absorb water and nutrients from the ground to feed the growing plant. They also anchor the plant so it doesn't fall over!"
+      "y": "45%",
+      "label": "Plant Root Structure",
+      "fact": "The thin, pale strands coming down from the plant are roots, which are a very important body part! Roots absorb water and nutrients from the soil that help the plant grow strong and healthy. This is called **root growth** — that's when the plant's roots stretch down into the soil to find what it needs to survive.",
+      "vocabulary": {
+        "term": "Root",
+        "definition": "The part of a plant that grows underground and absorbs water and nutrients from the soil."
+      }
     },
     {
       "id": 3,
       "x": "70%",
-      "y": "40%",
-      "label": "Dried Seed Pod",
-      "fact": "This brown, papery structure is an old seed pod that has dried out. Seeds develop inside pods, and when they're ready, the pod opens to release the seeds. This helps spread new plants to different areas!"
+      "y": "50%",
+      "label": "Dried Seedpod",
+      "fact": "This brown, dried-up part is what's left after the plant has finished making seeds. Plants go through different stages in their **life cycle** — they are born (germinate), grow, make flowers, create seeds, and eventually the flower parts dry up. The seeds inside will grow into new plants if they land in good soil and get water!",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The different stages a living thing goes through from birth to making babies to growing old."
+      }
     },
     {
       "id": 4,
       "x": "45%",
-      "y": "65%",
-      "label": "Paper Towel",
-      "fact": "The seed is growing on a damp paper towel instead of soil! Scientists often use this method to study plant growth because you can easily see the roots and sprouts without digging in dirt."
+      "y": "60%",
+      "label": "Seedpod with Seed",
+      "fact": "Inside this dried pod is a seed, which is like a baby plant that's waiting to grow! Seeds need three main things to start growing: water, warmth, and air. This process is called **germination** — that's when a seed wakes up and starts to grow roots and leaves to become a new plant.",
+      "vocabulary": {
+        "term": "Germination",
+        "definition": "When a seed starts to grow and develops roots and leaves to become a young plant."
+      }
     }
   ]
 }

@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "55%",
+      "x": "60%",
       "y": "35%",
-      "label": "Bright Orange Foot",
-      "fact": "This newt's bright orange belly is a warning to predators that it's poisonous! The vibrant color tells other animals to stay away. This is called aposematism, or warning coloration."
+      "label": "Newt's Body Structure",
+      "fact": "This newt has a long body and a tail that help it move through water and on land. Different animals have different body parts that help them survive in their habitats. This is called **adaptation** — that's when an animal's body parts help it live in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live in its home."
+      }
     },
     {
       "id": 2,
       "x": "65%",
-      "y": "25%",
-      "label": "Bumpy Skin Texture",
-      "fact": "Newts have bumpy, warty skin that helps them absorb moisture and oxygen directly through their skin. They can breathe partly through their skin, which is why they must stay moist!"
+      "y": "55%",
+      "label": "Bright Orange Color",
+      "fact": "The bright orange belly of this newt is a warning to other animals that it might be poisonous or taste bad. This colorful pattern helps protect the newt from predators that want to eat it. This is called **camouflage or warning coloration** — that's when an animal's colors help keep it safe.",
+      "vocabulary": {
+        "term": "Warning Coloration",
+        "definition": "Bright colors on an animal's body that tell other animals 'stay away, I might be dangerous.'"
+      }
     },
     {
       "id": 3,
       "x": "45%",
-      "y": "55%",
-      "label": "Newt Body Shape",
-      "fact": "Newts are small salamanders with long tails that help them swim and balance. They live part of their lives in water and part on land, making them amphibians!"
+      "y": "70%",
+      "label": "Wood Chip Habitat",
+      "fact": "This newt is resting on wood chips and soil, which are part of its habitat on land. Newts need moist places to live because their skin needs to stay wet to help them breathe. The **ecosystem** includes the newt, the wood, the soil, and all the other living and nonliving things around it.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives that has everything it needs, like food, water, and shelter."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "48%",
-      "label": "Moist Habitat (Mulch)",
-      "fact": "This newt is found in damp places like leaf litter and soil. Newts need moisture to survive because their skin can dry out easily, so they avoid hot, dry areas."
+      "x": "75%",
+      "y": "50%",
+      "label": "Newt as a Consumer",
+      "fact": "Newts are consumers in their food chain because they eat insects, worms, and other small animals. Plants are producers that make their own food, and animals like newts eat those plants and other animals. This is called a **food chain** — that's the path food energy takes from the sun to plants to animals.",
+      "vocabulary": {
+        "term": "Food Chain",
+        "definition": "The order in which animals eat plants and each other to get energy and survive."
+      }
     }
   ]
 }

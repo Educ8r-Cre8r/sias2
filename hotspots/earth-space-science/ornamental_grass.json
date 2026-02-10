@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Frost Crystals",
-      "fact": "These sparkling ice crystals form when water vapor freezes directly onto cold plant surfaces during winter. This process is called frost, and it creates beautiful patterns that protect plants by insulating them from extreme cold!"
+      "label": "Frost on Grass",
+      "fact": "When temperatures drop below freezing, water vapor in the air turns into tiny ice crystals that cover plants and grass. This process is called **frost** — that's when water freezes directly into ice without becoming liquid water first. Frost helps us see how weather changes affect living things in nature!",
+      "vocabulary": {
+        "term": "Frost",
+        "definition": "Tiny crystals of ice that form on surfaces when the air temperature drops below freezing."
+      }
     },
     {
       "id": 2,
       "x": "65%",
       "y": "50%",
-      "label": "Feathery Grass Seed Heads",
-      "fact": "The fluffy, feather-like structures you see are seed heads designed by nature to scatter seeds on the wind. The fine filaments act like tiny parachutes, helping seeds travel far from the parent plant to find new growing spaces."
+      "label": "Grass Structure",
+      "fact": "Grass is a plant that has adapted to survive in cold winters by storing energy in its roots underground. Even when frost covers the grass blades, the roots stay protected beneath the soil and help the plant grow again in spring. Plants have special parts that help them live in different environments!",
+      "vocabulary": {
+        "term": "Roots",
+        "definition": "The parts of a plant that grow underground and absorb water and nutrients from the soil."
+      }
     },
     {
       "id": 3,
-      "x": "20%",
-      "y": "65%",
-      "label": "Green Plant Tissue",
-      "fact": "Even in winter, these grass plants retain some green color because they contain chlorophyll, the pigment that helps them make food from sunlight. Evergreen plants like this grass stay active throughout the cold season!"
+      "x": "35%",
+      "y": "60%",
+      "label": "Water Freezing",
+      "fact": "The moisture on these grass blades froze because the air temperature dropped below 32°F (0°C). When water freezes into ice crystals, it changes from a liquid to a solid — this is an example of how water can change states. This happens during fall and winter weather cycles in many places on Earth!",
+      "vocabulary": {
+        "term": "Freezing",
+        "definition": "The process when a liquid turns into a solid because the temperature gets cold enough."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "40%",
-      "label": "Ice-Covered Stems",
-      "fact": "When moisture freezes on plant stems, it can actually protect the plant's delicate inner tissues from harsh winter winds and extreme temperatures. This ice layer acts like a natural blanket!"
+      "x": "55%",
+      "y": "70%",
+      "label": "Morning Dew and Frost",
+      "fact": "You can see sparkling ice crystals on the grass because water from the air condensed and froze overnight. This teaches us about the water cycle — water moves between the air, land, and living things in nature. Cool temperatures at night cause water vapor to condense and freeze into the frost we see here!",
+      "vocabulary": {
+        "term": "Condensation",
+        "definition": "When water vapor in the air turns into liquid water droplets, usually when air cools down."
+      }
     }
   ]
 }

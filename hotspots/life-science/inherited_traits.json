@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "55%",
+      "x": "50%",
       "y": "25%",
-      "label": "Large Eye",
-      "fact": "Birds have excellent eyesight! This dove's large eye can see in many directions at once, helping it spot danger and find food. Birds' eyes are positioned on the sides of their heads, giving them a very wide field of vision."
+      "label": "Parent Bird's Eye",
+      "fact": "This bird has a large, bright eye that helps it see very well to find food and watch for danger. Birds use their eyes to sense their environment, which is one of their important body structures. This is called **sensing** — that's when an animal uses its body parts like eyes to notice things around it.",
+      "vocabulary": {
+        "term": "Sensing",
+        "definition": "When an animal uses body parts like eyes, ears, or nose to notice and learn about the world around it."
+      }
     },
     {
       "id": 2,
-      "x": "45%",
-      "y": "35%",
-      "label": "Curved Beak",
-      "fact": "This curved beak is perfect for eating seeds and grains. The shape helps the dove pick up small food items from the ground. Many different birds have different beak shapes depending on what they eat."
+      "x": "55%",
+      "y": "65%",
+      "label": "Chicks (Baby Birds)",
+      "fact": "These are baby birds called chicks, and they look different from the adult bird caring for them. Over time, chicks will grow feathers and learn to fly just like their parent. This change from baby to adult is part of an animal's **life cycle** — that's all the stages a living thing goes through from birth to adulthood.",
+      "vocabulary": {
+        "term": "Life cycle",
+        "definition": "All the different stages an animal goes through in its life, from being born as a baby to growing into an adult."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
-      "y": "60%",
-      "label": "Fluffy Chicks",
-      "fact": "These baby doves are covered in soft, fluffy down feathers that keep them warm. The parent bird (called a squab) will care for these chicks and feed them a special milk-like substance called crop milk until they grow their adult feathers."
+      "x": "60%",
+      "y": "40%",
+      "label": "Curved Beak",
+      "fact": "This bird has a long, curved beak that is shaped just right for picking up small seeds and food from the ground. The beak is a special body structure that helps this bird survive and get the food it needs. This is an example of how animals have **adaptations** — special body parts that help them live in their environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or skill that helps an animal survive and live in its environment."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
-      "y": "50%",
-      "label": "Protective Parent",
-      "fact": "Doves are devoted parents that take turns caring for their eggs and babies. Both the mother and father dove work together to keep their chicks safe, warm, and well-fed until the young birds are ready to fly on their own."
+      "x": "25%",
+      "y": "55%",
+      "label": "Straw and Nest",
+      "fact": "The parent bird built this nest from straw and plant material to provide a safe home for its chicks. The nest is part of the bird's **habitat** — the place where this animal lives and finds everything it needs to survive. A good habitat gives birds shelter, food, and a safe place to raise their babies.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives that has all the things it needs, like food, water, shelter, and space."
+      }
     }
   ]
 }

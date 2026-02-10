@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "75%",
-      "y": "25%",
-      "label": "Fall Foliage Colors",
-      "fact": "These trees are changing colors because the days are getting shorter and colder. Trees stop making green chlorophyll in fall and we see beautiful reds, oranges, and yellows underneath!"
+      "x": "50%",
+      "y": "35%",
+      "label": "Autumn Leaves",
+      "fact": "The trees are showing beautiful fall colors because the weather is getting colder and there's less sunlight. When trees get less sunlight and warmth, they stop making food and their green color fades, revealing pretty red, orange, and yellow colors underneath. This is called **seasonal change** — that's when things in nature change as the seasons go from summer to fall to winter.",
+      "vocabulary": {
+        "term": "Seasonal change",
+        "definition": "The way nature changes as the seasons go from spring to summer to fall to winter."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "55%",
-      "label": "Fallen Tree Log",
-      "fact": "When trees fall into the water, they become homes for fish, insects, and other animals. This dead wood, called a 'snag,' is super important for forest ecosystems!"
+      "x": "50%",
+      "y": "50%",
+      "label": "Lake or Pond Water",
+      "fact": "This body of water is an important part of Earth's water cycle, where water moves between the sky, land, and water bodies. The trees and plants around this water depend on it to survive and grow. This type of water body is called a **freshwater ecosystem** — that's a place where freshwater plants and animals live together.",
+      "vocabulary": {
+        "term": "Freshwater ecosystem",
+        "definition": "A community of plants and animals that live together in or around fresh water like lakes, ponds, or rivers."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
-      "y": "70%",
-      "label": "Seasonal Leaf Drop",
-      "fact": "The ground is covered with fallen leaves because deciduous trees drop their leaves in autumn to save water and energy during winter. These leaves decompose and make the soil rich!"
+      "x": "45%",
+      "y": "65%",
+      "label": "Fallen Log",
+      "fact": "This fallen tree trunk is decomposing, which means it's breaking down and becoming part of the soil again. As the log breaks down, it returns nutrients to the earth that help new plants grow, showing how matter cycles through nature. This process is called **decomposition** — that's when dead plants and animals break down and turn back into soil.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "The natural process where dead plants and animals break down and turn into soil."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "35%",
-      "label": "Forest Ecosystem",
-      "fact": "This lake is surrounded by a healthy forest with many different types of trees. Forests provide clean air, clean water, and homes for thousands of animals and plants!"
+      "x": "20%",
+      "y": "25%",
+      "label": "Forested Shoreline",
+      "fact": "The forest along the water's edge helps protect the land from erosion and provides homes for many animals and plants. Trees and their roots hold the soil in place, preventing it from washing away into the water. This area where land and water meet is called a **riparian zone** — that's where special plants and animals live along rivers and lakes.",
+      "vocabulary": {
+        "term": "Riparian zone",
+        "definition": "The area of land right next to a river or lake where special plants and animals live."
+      }
     }
   ]
 }

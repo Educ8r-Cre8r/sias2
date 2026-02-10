@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "50%",
       "y": "35%",
-      "label": "Lichen Growth",
-      "fact": "The white and gray patches on the rock are called lichens, which are living organisms made of algae and fungi working together. Lichens grow very slowly and can live for hundreds of years, making them nature's patient decorators!"
+      "label": "Lichen (White Patches)",
+      "fact": "Those white and green patches on the rock are living organisms called lichen that help break down the rock over many years. This is called **weathering** — that's when rocks slowly break apart into smaller pieces due to wind, water, and living things. Lichen shows us how Earth's surface is always changing!",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down of rocks into smaller pieces by wind, water, ice, and living things over time."
+      }
     },
     {
       "id": 2,
-      "x": "40%",
-      "y": "55%",
-      "label": "Green Moss",
-      "fact": "The bright green fuzzy covering is moss, a tiny plant without roots that absorbs water directly through its leaves. Moss loves moist, shady places and helps break down rocks into soil over many years."
+      "x": "65%",
+      "y": "50%",
+      "label": "Green Moss Growth",
+      "fact": "The green moss growing on this rock shows that plants can live almost anywhere on Earth, even on hard rocks! Plants like moss need water, air, and sunlight to grow, and this shady forest spot provides all three. This tells us how different organisms interact with their environment.",
+      "vocabulary": {
+        "term": "Organism",
+        "definition": "Any living thing, like a plant, animal, or tiny moss, that needs food, water, and air to survive."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "75%",
-      "label": "Rock Weathering",
-      "fact": "This rounded rock has been shaped by weather, water, and time into a smooth boulder. Living things like lichens and moss actually help break rocks apart by slowly wearing them down into smaller pieces and eventually soil."
+      "x": "20%",
+      "y": "65%",
+      "label": "Brown Rock Material",
+      "fact": "This rock is made of minerals and particles that came from other rocks that broke apart long ago. Rocks are one of the main materials that make up Earth's surface, and they can last for millions of years! Understanding rocks helps us learn about Earth's history.",
+      "vocabulary": {
+        "term": "Rock",
+        "definition": "A hard, solid material made up of minerals that is found in Earth's crust and helps form mountains, hills, and the ground we walk on."
+      }
     },
     {
       "id": 4,
-      "x": "80%",
-      "y": "80%",
-      "label": "Forest Habitat",
-      "fact": "The soil and mulch around the rock create a perfect home for mosses and lichens because it stays damp and shady. This damp forest floor is like an apartment building for thousands of tiny living things!"
+      "x": "85%",
+      "y": "70%",
+      "label": "Green Grass Sprouting",
+      "fact": "The grass growing right next to the rock shows how soil forms and how plants and rocks are connected in nature. As rocks break down into tiny pieces over time, they mix with dead plants to create soil that new plants can grow in. This cycle helps Earth stay alive and healthy!",
+      "vocabulary": {
+        "term": "Soil",
+        "definition": "A mixture of broken-down rock pieces, dead plants, water, and air that plants need to grow."
+      }
     }
   ]
 }

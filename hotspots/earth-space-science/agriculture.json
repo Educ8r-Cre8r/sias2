@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "50%",
       "y": "35%",
-      "label": "Large Tractor Tires",
-      "fact": "These huge tires are specially designed to grip muddy soil without sinking. The deep treads help distribute the tractor's heavy weight over a larger area, which prevents the machine from getting stuck in wet fields."
+      "label": "Soil and Land",
+      "fact": "The brown soil you see has been turned over by this big machine to prepare the land for planting crops. Healthy soil is made of rock pieces, dead plants, and tiny living things that help plants grow strong. This is called **soil** — it's the loose material on Earth's surface where plants can put down their roots and get nutrients to grow.",
+      "vocabulary": {
+        "term": "Soil",
+        "definition": "The loose, dark material covering Earth's land where plants grow their roots and get food and water."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "25%",
-      "label": "Tractor Engine Cab",
-      "fact": "Modern farm tractors have air-conditioned cabs with computers inside! Farmers can monitor soil conditions, GPS location, and fuel levels right from their seat while working the fields."
+      "x": "25%",
+      "y": "65%",
+      "label": "Agricultural Land Use",
+      "fact": "Farmers use big machines like this tractor to help grow food that people and animals eat. When we use land to grow crops, we are using Earth's natural resources to meet our needs. Humans depend on the land, water, and sunshine to produce the food we need to survive, which is called **agriculture** — the practice of growing plants and raising animals for food.",
+      "vocabulary": {
+        "term": "Agriculture",
+        "definition": "The practice of growing crops and raising animals on land to produce food for people."
+      }
     },
     {
       "id": 3,
-      "x": "25%",
-      "y": "50%",
-      "label": "Plowed Soil",
-      "fact": "The dark, freshly turned soil is rich with nutrients and minerals that help plants grow. Plowing breaks up the soil and mixes in organic material, making it ready for planting crops."
+      "x": "70%",
+      "y": "55%",
+      "label": "Clear Sky and Weather",
+      "fact": "The clear blue sky and sunny weather we see in this picture are perfect conditions for growing crops! Sunlight helps plants make their own food through a process called photosynthesis. Weather patterns like rain, sunshine, and temperature all affect how well plants grow, and farmers need to watch the **weather** — the day-to-day conditions of the atmosphere like temperature, rain, and wind — to decide when to plant and harvest.",
+      "vocabulary": {
+        "term": "Weather",
+        "definition": "The day-to-day conditions of the air around us, including temperature, rain, wind, and sunshine."
+      }
     },
     {
       "id": 4,
-      "x": "70%",
-      "y": "50%",
-      "label": "Agricultural Field",
-      "fact": "This large, flat farmland is ideal for growing crops because it allows water to drain properly and gives plants plenty of space for their roots to grow deep into the soil."
+      "x": "85%",
+      "y": "45%",
+      "label": "Flat Landform",
+      "fact": "This field is mostly flat and open, which makes it perfect farmland for planting crops in straight rows. Different areas on Earth have different **landforms** — natural features shaped by Earth's surface like mountains, valleys, and plains. Farmers often choose flat land because it's easier to use machines on it and water can flow across the soil evenly.",
+      "vocabulary": {
+        "term": "Landform",
+        "definition": "A natural shape or feature of Earth's surface, such as a mountain, valley, hill, or plain."
+      }
     }
   ]
 }

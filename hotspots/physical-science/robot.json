@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Camera Eye",
-      "fact": "This robot has a special camera eye that helps it see and explore the world around it. The orange ring helps the camera focus on objects, just like how your eyes focus to see clearly!"
+      "label": "Blue Spherical Shell",
+      "fact": "This robot toy has a round shape that can roll smoothly across different surfaces like grass and rocks. The curved surface reduces friction, which means there's less resistance slowing it down, allowing the robot to move more easily. This is called **friction** — that's the force that makes objects slow down when they rub against surfaces.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that slows down moving objects when they rub against surfaces, like when you slide across the floor."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "65%",
-      "label": "Wheeled Base",
-      "fact": "The three round wheels at the bottom help this robot roll and move across different surfaces. Wheels are a simple machine that helps robots travel efficiently through gardens and outdoor spaces!"
+      "x": "45%",
+      "y": "55%",
+      "label": "Robot Movement Base",
+      "fact": "The lower part of this robot is designed with wheels and a wide base that helps it stay balanced and move forward. Engineers designed it this way so the robot can push against the ground with enough force to overcome friction and move across different terrains. This is called **engineering design** — using science and math to solve real-world problems like making a robot that can move.",
+      "vocabulary": {
+        "term": "Engineering design",
+        "definition": "The process of using science and math ideas to create something new that solves a problem or does a useful job."
+      }
     },
     {
       "id": 3,
-      "x": "85%",
-      "y": "50%",
-      "label": "Grass and Soil",
-      "fact": "This robot is exploring a natural environment with plants and soil. Scientists use robots like this to study how plants grow and to collect data about gardens without disturbing the delicate ecosystem!"
+      "x": "50%",
+      "y": "25%",
+      "label": "Orange Ring and Eye",
+      "fact": "The orange ring and camera-like eye on top show how this robot is built with different materials and parts working together. The eye likely helps the robot sense light and objects in its environment, while the round design helps light reflect evenly across its surface. This demonstrates how **physical properties** like shape, color, and material affect how things work and interact with their surroundings.",
+      "vocabulary": {
+        "term": "Physical properties",
+        "definition": "Characteristics of objects you can observe or measure, like color, shape, size, weight, and how smooth or rough something feels."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "18%",
-      "label": "Blue Outer Shell",
-      "fact": "The bright blue color is called the robot's exterior shell, which protects all the electronic parts inside. This durable plastic keeps the sensitive equipment safe from dirt, water, and bumps!"
+      "x": "30%",
+      "y": "65%",
+      "label": "Rock and Ground Contact",
+      "fact": "The robot is sitting on a concrete rock, showing how different surfaces can affect movement and stability. When the robot moves from a hard surface like rock to a soft surface like soil or grass, the **forces** acting on it change, which changes how fast and far it can travel. This is called **motion** — the way something moves depends on the forces pushing or pulling it and the surface it moves across.",
+      "vocabulary": {
+        "term": "Forces",
+        "definition": "Pushes or pulls that make objects move, stop, speed up, slow down, or change direction."
+      }
     }
   ]
 }

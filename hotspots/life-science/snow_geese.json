@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Birds in Flight",
-      "fact": "These birds are likely geese or cranes migrating to find food and better weather. Birds fly in formation to save energy by drafting off each other, kind of like how cyclists ride close together!"
+      "label": "Birds Flying Together",
+      "fact": "These birds are flying together as a group, which helps them survive and find food more easily. When birds fly in groups like this, they can share information about where to find the best places to eat and rest. This is called **migration** — that's when animals travel long distances to find food, water, and safe places to live during different seasons.",
+      "vocabulary": {
+        "term": "Migration",
+        "definition": "When animals travel to different places at certain times of the year to find food, water, and shelter."
+      }
     },
     {
       "id": 2,
-      "x": "30%",
-      "y": "55%",
-      "label": "Flock on Ground",
-      "fact": "Large flocks gather in open fields to rest and feed during migration. These birds can travel thousands of miles, stopping at fields like this to refuel with seeds and plants."
+      "x": "35%",
+      "y": "65%",
+      "label": "Large Flock Resting",
+      "fact": "There are many white birds resting together in this field, which is a great **habitat** for them to find food and water. Birds need special places where they can find everything they need to survive, like seeds, insects, and safe areas to rest. Farmers' fields like this one give birds the food and shelter they need to stay healthy and strong.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "A place where an animal lives that has all the things it needs to survive, like food, water, and shelter."
+      }
     },
     {
       "id": 3,
       "x": "75%",
-      "y": "50%",
-      "label": "Agricultural Field",
-      "fact": "Harvested farm fields provide perfect resting spots for migrating birds. The leftover seeds and grains give birds the energy they need for their long journeys between summer and winter homes."
+      "y": "60%",
+      "label": "Bird Body Structure",
+      "fact": "You can see the birds have special body parts that help them live in this environment. Their wings help them fly to find food and escape danger, and their beaks help them eat seeds and plants from the ground. These **adaptations** are special features that help animals survive in their habitats.",
+      "vocabulary": {
+        "term": "Adaptations",
+        "definition": "Special body parts or behaviors that help animals survive in the places where they live."
+      }
     },
     {
       "id": 4,
-      "x": "85%",
-      "y": "35%",
-      "label": "Power Lines",
-      "fact": "Birds often perch on power lines and utility structures to rest and observe their surroundings. These human-made structures have become natural gathering spots for migratory birds across the continent."
+      "x": "50%",
+      "y": "50%",
+      "label": "Ecosystem Community",
+      "fact": "All these birds together with the plants, soil, and field create an **ecosystem** — a community of living things that depend on each other. The birds eat seeds from plants, and when they move to other places, they help spread seeds by dropping them in new areas. This shows how plants and animals work together and need each other to survive in nature.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things (like plants and animals) in a place and how they work together with their environment."
+      }
     }
   ]
 }

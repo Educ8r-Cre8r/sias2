@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Gravity and Motion",
-      "fact": "When the skateboarder jumps, gravity pulls them back down to Earth! This same force keeps us on the ground and makes objects fall. The skateboarder must push off hard enough to overcome gravity's pull."
+      "label": "Skateboarder in Motion",
+      "fact": "The skateboarder is moving through the air because of forces acting on his body. When he pushes off the ramp, he gains energy that helps him jump into the air. This is called **force** — a push or pull that makes things move, speed up, slow down, or change direction.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop, speed up, slow down, or change direction."
+      }
     },
     {
       "id": 2,
-      "x": "45%",
+      "x": "35%",
       "y": "55%",
-      "label": "Skateboard Wheels",
-      "fact": "The round wheels on the skateboard are designed to roll smoothly and reduce friction! Wheels make it easier to move heavy objects by rolling instead of sliding. The wheels' curved shape helps the skateboard balance during tricks."
+      "label": "Skateboard Falling",
+      "fact": "Notice how the skateboard is falling toward the ground while the skateboarder is in the air. Both are being pulled down by an invisible force called gravity that pulls all objects toward Earth. This is called **gravity** — the force that pulls things down toward the ground.",
+      "vocabulary": {
+        "term": "Gravity",
+        "definition": "An invisible force that pulls objects toward Earth, making them fall down instead of floating in the air."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "25%",
-      "label": "Protective Helmet",
-      "fact": "The helmet protects the skateboarder's brain from injury if they fall! Hard helmets are made from strong materials that absorb the force of impacts. Wearing safety gear is smart science that keeps us healthy."
+      "x": "20%",
+      "y": "45%",
+      "label": "Curved Concrete Ramp",
+      "fact": "The curved ramp changes the direction of the skateboarder's motion and helps transfer energy. As the skater moves down the smooth, curved surface, friction between the skateboard wheels and the concrete is reduced, which helps him move faster. This is called **friction** — a force that slows down moving objects when they rub against something.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force created when two things rub together that slows down or stops movement."
+      }
     },
     {
       "id": 4,
-      "x": "20%",
-      "y": "45%",
-      "label": "Concrete Ramp Surface",
-      "fact": "The smooth concrete creates friction that helps the skateboard grip and move! Different surfaces create different amounts of friction - rough surfaces have more than smooth ones. This friction helps athletes perform tricks safely and with control."
+      "x": "55%",
+      "y": "25%",
+      "label": "Arms Outstretched",
+      "fact": "The skateboarder spreads his arms wide to help balance his body in the air. This shows how our bodies use forces and motion to control movement and stay balanced. When objects are balanced, the forces pushing on them from different directions are equal, helping them stay stable. This is called **balance** — when forces on an object are equal, making it stable.",
+      "vocabulary": {
+        "term": "Balance",
+        "definition": "When forces pushing on an object from different directions are equal, making the object steady and stable."
+      }
     }
   ]
 }

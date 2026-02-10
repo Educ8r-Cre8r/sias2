@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
-      "label": "Gills",
-      "fact": "These thin, blade-like structures under the mushroom cap are called gills. They produce millions of tiny spores that help mushrooms reproduce, similar to how plants use seeds."
+      "y": "45%",
+      "label": "Gills underneath",
+      "fact": "See those thin lines under the mushroom's cap? Those are called **gills**, and they help the mushroom spread tiny spores to make new mushrooms. This is how fungi, which are living things just like plants and animals, make babies! Fungi are important decomposers that help break down dead plants and leaves in nature.",
+      "vocabulary": {
+        "term": "Gills",
+        "definition": "Thin, blade-like structures under a mushroom's cap that produce and release spores for reproduction."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "15%",
-      "label": "Mushroom Cap",
-      "fact": "The flat, tan-colored cap you see is the fruiting body of the mushroom. It protects the delicate gills underneath and helps release spores into the air when they're ready."
+      "y": "65%",
+      "label": "Stem or stalk",
+      "fact": "The thick part holding up the mushroom cap is called the **stalk** or stem, and it connects the cap to the ground where the fungus gets food and water. Just like plants need roots to stay alive, fungi need to be connected to soil to grow. The stalk helps support the cap and transport nutrients throughout the mushroom.",
+      "vocabulary": {
+        "term": "Stalk",
+        "definition": "The stem-like structure that holds up and supports a mushroom's cap."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
-      "y": "60%",
-      "label": "Stem (Stipe)",
-      "fact": "This tube-like structure supports the cap above the ground. The stem connects to a vast underground network called mycelium, which helps the mushroom absorb nutrients from soil and dead plants."
+      "x": "35%",
+      "y": "30%",
+      "label": "Cap shape",
+      "fact": "This flat, umbrella-shaped cap is perfect for releasing spores into the air where they can travel and grow into new mushrooms! Different mushroom species have different cap shapes, which helps scientists identify them. The shape of a living thing's body, called its **structure**, helps it survive and do its job in nature.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "The way a living thing's body is shaped and how its different parts are arranged to help it survive."
+      }
     },
     {
       "id": 4,
-      "x": "30%",
-      "y": "50%",
-      "label": "Grass Habitat",
-      "fact": "Mushrooms grow in grassy areas because they need moisture and organic matter to survive. They help break down dead plant material and return nutrients to the soil, making them important decomposers in nature."
+      "x": "50%",
+      "y": "15%",
+      "label": "Habitat: grass and soil",
+      "fact": "Mushrooms grow in grassy areas and soil because that's where they find the dead plants and materials they need to eat—this is their **habitat**, or home! Fungi play a very important role in ecosystems by breaking down dead things and returning nutrients back to the soil so new plants can grow. Without fungi, nature couldn't recycle these important materials.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a living thing naturally lives and finds everything it needs to survive, like food and shelter."
+      }
     }
   ]
 }

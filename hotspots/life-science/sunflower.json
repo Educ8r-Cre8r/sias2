@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
-      "y": "25%",
+      "x": "50%",
+      "y": "20%",
       "label": "Flower Bud",
-      "fact": "This is a flower bud that is about to bloom! The sepals (green parts) protect the delicate petals inside until the flower is ready to open. When the bud opens, beautiful petals will unfold."
+      "fact": "This flower bud is part of the plant's life cycle—it will soon open into a beautiful flower! The bud is like a protective package that keeps the delicate flower parts safe until they're ready to bloom. This is called a **bud** — that's a small bump on a plant that grows into a flower, leaf, or branch.",
+      "vocabulary": {
+        "term": "Bud",
+        "definition": "A small bump on a plant that grows and develops into a flower, leaf, or new branch."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "55%",
+      "x": "50%",
+      "y": "50%",
       "label": "Green Stem",
-      "fact": "The stem carries water and nutrients from the roots up to the flower and leaves. It also holds the flower upright so it can get plenty of sunlight for energy!"
+      "fact": "The green stem holds up the flower bud and carries water and nutrients from the roots to help the plant grow strong and healthy. Without a strong stem, the flower wouldn't be able to reach sunlight! The stem is like the plant's skeleton—it provides **support** to keep all the plant parts standing tall.",
+      "vocabulary": {
+        "term": "Stem",
+        "definition": "The main green part of a plant that holds up the leaves and flowers and carries water from the roots."
+      }
     },
     {
       "id": 3,
       "x": "25%",
       "y": "70%",
-      "label": "Opened Flower",
-      "fact": "This flower has already bloomed and opened its petals! Flowers produce pollen that helps make new seeds. Bees and other insects visit flowers to collect pollen and nectar."
+      "label": "Plant Growth",
+      "fact": "This young plant is growing and developing, which is an important part of its life cycle. Plants need sunlight, water, and nutrients from soil to grow bigger and stronger each day. Living things like plants grow throughout their lives, changing size and shape as time passes—this is called **growth**.",
+      "vocabulary": {
+        "term": "Growth",
+        "definition": "The process of getting bigger and developing over time as a living thing gets older."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "50%",
-      "label": "Sepals",
-      "fact": "These green leaf-like parts are called sepals, and they protect the flower while it develops inside the bud. Once the flower blooms, the sepals often curl back to show off the colorful petals!"
+      "x": "40%",
+      "y": "35%",
+      "label": "Seed Pod Below Bud",
+      "fact": "This small brown part at the bottom is where seeds will develop after the flower is pollinated and bloomed. Seeds are how plants make babies and spread to new places in nature! A **seed** is a tiny package that contains a baby plant inside and has everything it needs to grow into a new plant.",
+      "vocabulary": {
+        "term": "Seed",
+        "definition": "A tiny object made by a plant that can grow into a new plant when it has water, soil, and sunlight."
+      }
     }
   ]
 }

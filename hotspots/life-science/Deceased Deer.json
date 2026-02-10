@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "25%",
-      "y": "30%",
-      "label": "Long Slender Legs",
-      "fact": "This animal has extremely long, thin legs that help it run very fast and jump high. These legs are built for speed and allow it to escape from predators in open areas."
+      "y": "35%",
+      "label": "Long, Thin Legs",
+      "fact": "This animal has long, slender legs that help it run fast and move across different terrains like sandy ground. These legs are specially designed body parts called **adaptations** — that's when an animal's body features help it survive in its environment and escape from predators.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and do well in its home."
+      }
     },
     {
       "id": 2,
       "x": "55%",
-      "y": "50%",
-      "label": "Stretched Body Position",
-      "fact": "This animal is stretching out its body, which is something many mammals do to warm up their muscles. Stretching helps prepare the body for running and playing, just like when you stretch before exercise!"
+      "y": "25%",
+      "label": "Ears and Head",
+      "fact": "Notice the small, pointed ears on this animal's head! These ears help it hear sounds from far away so it can detect danger early. Different animals have different body structures that help them sense their surroundings and stay safe in their **habitat**, which is the place where an animal lives.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The natural home or place where a living thing lives and finds food, water, and shelter."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "70%",
-      "label": "Hoofed Feet",
-      "fact": "Notice the dark hooves on the feet - these hard structures protect the animal's feet and help it grip the ground. Hooves are made of keratin, the same material as your fingernails!"
+      "x": "60%",
+      "y": "65%",
+      "label": "Body and Fur",
+      "fact": "This animal's light-colored fur helps it blend in with sandy and dusty environments, making it hard for other animals to see it. This protective feature is called **camouflage** — when an animal's color or pattern matches its surroundings so it can hide from hunters or sneak up on prey.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors, patterns, or features that help an animal blend in with its surroundings so it can hide."
+      }
     },
     {
       "id": 4,
-      "x": "45%",
-      "y": "15%",
-      "label": "Small Head and Ears",
-      "fact": "This animal has a small, pointed head and ears that can rotate to hear sounds from different directions. Good hearing helps it detect danger from far away and stay safe in its environment."
+      "x": "35%",
+      "y": "60%",
+      "label": "Stretched Out Position",
+      "fact": "When animals stretch out like this, they are resting and saving energy for activities like finding food and escaping danger. All living things need to rest and move to stay healthy, and this animal's body structure helps it do both efficiently in its desert or open grassland home.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The power that helps living things move, grow, and do activities like running and playing."
+      }
     }
   ]
 }

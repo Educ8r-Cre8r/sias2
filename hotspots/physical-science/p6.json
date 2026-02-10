@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "50%",
+      "x": "45%",
       "y": "35%",
-      "label": "Galls on Branch",
-      "fact": "These round, bumpy growths on tree branches are called galls. They form when insects lay eggs inside the plant, and the plant grows protective tissue around them. It's like nature's nursery for baby insects!"
+      "label": "Rusty Metal Objects",
+      "fact": "When metal is exposed to air and water over time, it changes into a new material called rust. This is a chemical change where the metal reacts with oxygen in the air. Once rust forms, you cannot turn it back into shiny metal just by wiping it off—the change is permanent!",
+      "vocabulary": {
+        "term": "Chemical Change",
+        "definition": "When something changes into a completely new material that looks, feels, or acts differently and cannot easily be changed back."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "50%",
-      "label": "Dead Wood Decay",
-      "fact": "This weathered, gray wood is decomposing and breaking down. Fungi and insects help break down dead wood into nutrients that return to the soil and feed new plants and trees."
+      "x": "65%",
+      "y": "55%",
+      "label": "Decaying Wood Surface",
+      "fact": "The old, weathered wood in this image shows how matter breaks down over time when exposed to sun, rain, and wind. Decomposition is a natural process where materials slowly change and break apart into smaller pieces. The wood's texture and color have changed because of these physical forces acting on it.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "The natural process where dead plants and materials break down into smaller and smaller pieces over time."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "55%",
-      "label": "Rusted Metal",
-      "fact": "The orange-brown color on metal is rust, formed when iron reacts with oxygen and water. Rust is an example of oxidation, a chemical change that happens naturally over time."
+      "x": "30%",
+      "y": "25%",
+      "label": "Branches and Twigs",
+      "fact": "These dried branches show how brittle materials can break apart when force is applied to them. The wood loses water as it dries, making it more likely to snap or splinter. Breaking wood is a physical change because the wood's properties change, but it's still made of the same material.",
+      "vocabulary": {
+        "term": "Physical Property",
+        "definition": "A characteristic of something you can observe or measure, like color, size, shape, texture, or how hard or brittle it is."
+      }
     },
     {
       "id": 4,
-      "x": "45%",
-      "y": "70%",
-      "label": "Lichen Growth",
-      "fact": "The whitish, crusty coating on some surfaces is lichen, which is actually two organisms living together\u2014fungi and algae. They help each other survive in harsh environments!"
+      "x": "50%",
+      "y": "65%",
+      "label": "Weathered Surface Texture",
+      "fact": "All these objects show weathering—the wearing away of materials by wind, sun, and rain over long periods of time. Weathering is a slow process caused by forces in nature that gradually change how things look and feel. You can observe the rough, damaged texture created by years of exposure to weather.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow wearing away and breaking down of rocks and materials caused by wind, water, sun, and other natural forces."
+      }
     }
   ]
 }

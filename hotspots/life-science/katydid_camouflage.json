@@ -5,28 +5,44 @@
       "x": "55%",
       "y": "45%",
       "label": "Katydid Insect",
-      "fact": "This is a katydid, also called a bush cricket! Katydids are masters of camouflage and turn green to hide among leaves and grass. They make loud chirping sounds by rubbing their wings together to communicate with each other."
+      "fact": "This green insect is called a katydid, and it has a special body structure that helps it survive in nature. Its green color is called **camouflage** — that's when an animal's color or shape helps it blend in with its surroundings so predators can't see it easily. This is an example of how living things are adapted, or specially suited, to their habitats!",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors or patterns on an animal's body that help it hide by blending in with its environment."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "35%",
-      "label": "Wing Structure",
-      "fact": "You can see the katydid's long, leafy wings folded over its back. These wings have tiny veins running through them, just like real leaves! This amazing camouflage helps protect the katydid from predators."
+      "x": "50%",
+      "y": "55%",
+      "label": "Grass Habitat",
+      "fact": "This katydid lives in a grass habitat, which means it lives among and eats grass and plants. Animals like this insect depend on plants for food and shelter to survive. The grass provides everything this katydid needs to live, grow, and find a safe place to hide from predators.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a living thing naturally lives, with the food, water, and shelter it needs."
+      }
     },
     {
       "id": 3,
-      "x": "20%",
-      "y": "50%",
-      "label": "Grass Habitat",
-      "fact": "Katydids live in tall grass and shrubs where they can hide and find food. They eat leaves from plants and are an important food source for birds and other animals in their ecosystem."
+      "x": "60%",
+      "y": "40%",
+      "label": "Insect Legs and Body",
+      "fact": "The katydid's long, thin legs are perfectly designed for jumping and moving through tall grass. Insects like this katydid have body parts that help them survive in their environment. These structures, called **adaptations**, help animals find food, move around, and escape from danger.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live successfully in its habitat."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
-      "y": "60%",
-      "label": "Long Antennae",
-      "fact": "The katydid has very long antennae sticking out from its head. These antennae help it sense its surroundings, find food, and detect vibrations from other katydids making sounds nearby!"
+      "x": "35%",
+      "y": "25%",
+      "label": "Plant Stem Structure",
+      "fact": "The tall green stems in this image are part of a plant, which is a living organism just like the katydid. Plants and animals are very different types of living things, but they both need certain things to grow and survive. In this ecosystem, the plant provides food and homes for small animals like insects to eat and live among.",
+      "vocabulary": {
+        "term": "Living Organism",
+        "definition": "Any living thing, like plants, animals, or insects, that grows, eats or makes food, and can make babies."
+      }
     }
   ]
 }

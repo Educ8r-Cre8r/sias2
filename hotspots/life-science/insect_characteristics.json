@@ -4,29 +4,45 @@
       "id": 1,
       "x": "25%",
       "y": "35%",
-      "label": "Long Antennae",
-      "fact": "Grasshoppers use their long antennae to feel vibrations and sense their surroundings. These antennae help them detect danger and find food in grass and plants."
+      "label": "Grasshopper's Head",
+      "fact": "A grasshopper has big eyes on the sides of its head that help it see in many directions to watch for danger. This is an important **adaptation** — a special body part or behavior that helps an animal survive in its environment. Having good vision helps grasshoppers stay safe from predators.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal live and survive in its home."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "60%",
-      "label": "Powerful Back Legs",
-      "fact": "Grasshoppers have huge back legs filled with strong muscles that help them jump up to 20 times their own body length! This helps them escape from predators quickly."
+      "x": "20%",
+      "y": "30%",
+      "label": "Long Antennae",
+      "fact": "Grasshoppers use their long antennae like feelers to sense their surroundings and find food. These antennae are sensory organs that help the grasshopper understand its environment. This is one way grasshoppers gather information about the world around them.",
+      "vocabulary": {
+        "term": "Sensory organs",
+        "definition": "Body parts that help an animal see, hear, smell, taste, or feel things."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "30%",
-      "label": "Large Eyes",
-      "fact": "Grasshoppers have big eyes that can see in many directions at once. This helps them spot predators approaching from different angles while they eat."
+      "x": "50%",
+      "y": "55%",
+      "label": "Strong Back Legs",
+      "fact": "A grasshopper's back legs are much bigger and stronger than its front legs, which helps it jump very far and fast. This body structure allows grasshoppers to escape from predators and move around their **habitat** to find food. The shape and size of an animal's body parts help it survive.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal or plant lives that has everything it needs to survive."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "75%",
-      "label": "Green Camouflage",
-      "fact": "Grasshoppers are green to blend in with grass and leaves in their habitat. This camouflage helps protect them from animals that hunt them for food."
+      "x": "65%",
+      "y": "50%",
+      "label": "Green Coloring",
+      "fact": "Grasshoppers are often green, which helps them blend in with grass and leaves—this is called **camouflage**. When a grasshopper looks like its surroundings, predators have a harder time seeing it. This color adaptation is an important way grasshoppers stay safe in nature.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors or patterns on an animal's body that help it hide by blending in with its surroundings."
+      }
     }
   ]
 }

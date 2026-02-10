@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "70%",
+      "x": "65%",
       "y": "55%",
-      "label": "Holstein Dairy Cow",
-      "fact": "The black and white cow is a Holstein, one of the most common dairy breeds in the world. Holsteins can produce up to 6 gallons of milk per day, making them very valuable for farms!"
+      "label": "Cow's Body Features",
+      "fact": "Cows are living organisms that have special body parts to help them survive. They have a large body to store energy from the grass they eat, and their four stomachs help them digest plant food. This is called a **herbivore** — an animal that eats only plants to get the energy and nutrients it needs to live and grow.",
+      "vocabulary": {
+        "term": "Herbivore",
+        "definition": "An animal that eats only plants, like cows, sheep, and deer."
+      }
     },
     {
       "id": 2,
-      "x": "35%",
+      "x": "20%",
       "y": "50%",
-      "label": "White Beef Cattle",
-      "fact": "These white cows are likely beef cattle breeds like Charolais. Unlike dairy cows, beef cattle are raised primarily for meat rather than milk production."
+      "label": "Grazing Habitat",
+      "fact": "These cows live in a pasture, which is their habitat — the place where they find everything they need to survive. The grass is their food source, the open field keeps them safe from predators, and the forest in the background provides shade on hot days. A **habitat** is like an animal's home that gives it food, water, shelter, and safety.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal or plant lives and has everything it needs to survive, like food, water, and shelter."
+      }
     },
     {
       "id": 3,
       "x": "50%",
       "y": "20%",
       "label": "Forest Ecosystem",
-      "fact": "The dense forest behind the pasture provides shade, shelter, and windbreaks for the cattle. Forests also help clean the air and provide habitats for many other animals and plants."
+      "fact": "The tall trees in the background are part of a forest ecosystem where many living things depend on each other. Trees provide oxygen we breathe, food and homes for animals, and shade for grazing animals like these cows. All the plants and animals living together in one place create a community that relies on each other to survive. An **ecosystem** includes all the living things and non-living things in an area that work together.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living organisms (plants and animals) and non-living things (soil, water, air) in one area that work together."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "35%",
-      "label": "Pasture Grazing Land",
-      "fact": "The green grass is a natural food source for cattle. Grazing on pasture helps cattle stay healthy and allows them to exercise, which is better than keeping them in barns all day."
+      "x": "45%",
+      "y": "65%",
+      "label": "Food Chain Link",
+      "fact": "Cows eat grass, which means they are consumers in this pasture's food chain. The grass is the producer because it makes its own food using sunlight. Humans are also part of this food chain because we eat beef from cows and use their milk. A **food chain** shows how energy moves from plants to animals in order.",
+      "vocabulary": {
+        "term": "Food Chain",
+        "definition": "The order of who eats what in nature — plants make food, animals eat plants or other animals, and energy moves through this chain."
+      }
     }
   ]
 }

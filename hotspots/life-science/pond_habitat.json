@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
-      "y": "35%",
+      "x": "35%",
+      "y": "25%",
       "label": "Water Lily Flowers",
-      "fact": "Water lilies are aquatic plants that float on the water's surface with their roots anchored in the muddy bottom. These beautiful white flowers only open during the day and close at night to protect themselves from insects and the cold."
+      "fact": "These beautiful white flowers are water lilies that live in ponds and lakes. Water lilies need water, sunlight, and soil to grow, and they make food using energy from the sun through a process called **photosynthesis** — that's how plants turn sunlight into energy to grow and stay healthy.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The process plants use to turn sunlight, water, and air into food and energy so they can grow."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "50%",
+      "x": "60%",
+      "y": "35%",
       "label": "Lily Pad Leaves",
-      "fact": "The large, flat green leaves you see are called lily pads, and they're specially adapted to float on water. These leaves have a waxy coating that repels water, helping the plant stay dry while living in wet environments."
+      "fact": "The big green circular leaves floating on the water are called lily pads, and they are specially adapted to live in water. These leaves have a waxy coating that keeps them from getting waterlogged, and their flat shape helps them float and get plenty of sunlight. This is an example of how plants have special body structures that help them survive in their **habitat**.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a plant or animal lives that has everything it needs to survive, like water, sunlight, and soil."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "25%",
-      "label": "Pink Flowering Plants",
-      "fact": "The pink flowers in the background are grown on land, unlike water lilies. Plants need different adaptations depending on where they live—water plants have special features to survive in wet conditions, while land plants have different roots and leaves."
+      "x": "75%",
+      "y": "50%",
+      "label": "Colorful Garden Flowers",
+      "fact": "The bright pink and red flowers in the background are part of this garden ecosystem, where many living things interact together. These flowering plants attract insects like bees and butterflies that help carry pollen between flowers in a relationship called **pollination**, which allows plants to make seeds and grow new plants.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen is moved from one flower to another by insects or wind, helping plants make seeds for new baby plants."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "20%",
-      "label": "Ecosystem Habitat",
-      "fact": "This pond garden is an ecosystem where many living things interact with each other. Water lilies provide shade and shelter for fish and insects, while insects help pollinate the flowers so the plants can reproduce."
+      "x": "45%",
+      "y": "55%",
+      "label": "Pond Ecosystem",
+      "fact": "This whole pond garden is an **ecosystem** — a community of living plants and animals that all depend on each other and their environment. The plants provide food and homes for insects and other animals, while the water provides the moisture that all these organisms need to survive and grow.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things (plants and animals) and their non-living environment (like water, soil, and sunlight) all working together."
+      }
     }
   ]
 }

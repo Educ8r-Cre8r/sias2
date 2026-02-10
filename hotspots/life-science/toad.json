@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "55%",
+      "x": "50%",
       "y": "35%",
-      "label": "Large Bulging Eyes",
-      "fact": "Toads have excellent vision and can see in many directions without moving their heads. Their large eyes help them spot insects and other prey from far away."
+      "label": "Toad's Large Eye",
+      "fact": "This toad has big, bulging eyes that help it see insects moving around it. Toads use their excellent eyesight to hunt for food like the dragonfly shown on the left. Different animals have body parts that are specially shaped to help them survive in their habitat, which is called an **adaptation** — that's a special feature that helps a living thing stay alive and find food.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps a living thing survive and thrive in its environment."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "55%",
-      "label": "Bumpy, Warty Skin",
-      "fact": "These bumps on a toad's skin contain special glands that produce toxins to protect them from predators. The bumpy texture also helps toads blend in with dirt and rocks."
+      "x": "20%",
+      "y": "30%",
+      "label": "Dragonfly Prey",
+      "fact": "The dragonfly perched on the branch is food for this toad! This shows a food chain in nature, where the toad eats the dragonfly. In an **ecosystem** like this one, plants and animals depend on each other for food and survival.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things (plants and animals) and their non-living environment working together."
+      }
     },
     {
       "id": 3,
-      "x": "25%",
-      "y": "45%",
-      "label": "Insects on Twig",
-      "fact": "Toads are carnivores that eat insects like flies, beetles, and mosquitoes. They use their sticky tongues to catch and eat insects in just a fraction of a second!"
+      "x": "52%",
+      "y": "55%",
+      "label": "Bumpy, Warty Skin",
+      "fact": "The toad's bumpy skin looks rough and knobby, but those bumps serve an important purpose! A toad's bumpy skin helps protect it from predators and helps it blend in with rocks and dirt. This special skin texture is an adaptation that helps the toad survive in its environment, which might include rocks, soil, and plants like the flowers shown here.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors and patterns on an animal's body that help it blend in with its surroundings so predators can't see it as easily."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
-      "y": "70%",
-      "label": "Short, Sturdy Legs",
-      "fact": "Toad legs are built for hopping and walking on land, unlike frogs which are better jumpers. Toads move slower but can travel long distances looking for food and water."
+      "x": "40%",
+      "y": "65%",
+      "label": "Toad's Habitat",
+      "fact": "This toad lives among plants, rocks, and soil on the ground—this is its **habitat**, or home! The toad needs this environment to find food, hide from dangers, and survive. Different animals need different habitats with the right plants, shelter, and food sources to live and grow.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a plant or animal lives, including all the things it needs to survive like food, water, and shelter."
+      }
     }
   ]
 }

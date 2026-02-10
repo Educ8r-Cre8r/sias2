@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "25%",
-      "y": "35%",
-      "label": "Snail Shell",
-      "fact": "A snail's shell is made of a hard material called calcium carbonate, the same stuff that makes up chalk and limestone. The shell grows with the snail and protects its soft body from predators and keeps it from drying out."
+      "x": "30%",
+      "y": "25%",
+      "label": "Snail's Shell",
+      "fact": "A snail's shell is like a house that protects its soft body from being hurt by other animals and from drying out. The shell is made of a hard material that the snail's body produces, and it grows bigger as the snail grows bigger. This is called a **shell** — a hard outer covering that protects an animal's body.",
+      "vocabulary": {
+        "term": "Shell",
+        "definition": "A hard outer covering that protects the soft body of an animal like a snail or clam."
+      }
     },
     {
       "id": 2,
       "x": "20%",
-      "y": "50%",
-      "label": "Snail Tentacles",
-      "fact": "These long, thin tentacles are called eyestalks or tentacles, and snails use them to sense their surroundings. Some snails have eyes at the tips of their tentacles so they can see where they're going!"
+      "y": "45%",
+      "label": "Snail's Body",
+      "fact": "The soft, slimy part of the snail you see here is its body, which contains all the parts it needs to live and move. Snails are living things that need food, water, and shelter to survive, just like all animals do. This is called a **body** — all the parts of a living thing put together.",
+      "vocabulary": {
+        "term": "Body",
+        "definition": "All the parts of a living thing that work together to help it live and move."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
+      "x": "15%",
       "y": "55%",
-      "label": "Lichen on Rock",
-      "fact": "Lichen is a partnership between a fungus and an alga living together! The snail is munching on this tasty meal because lichen is nutritious and easy for snails to eat with their special tongue."
+      "label": "Snail's Tentacles",
+      "fact": "The long, thin parts sticking out from the snail's head are called tentacles, and they help the snail sense and explore its environment. Snails use their tentacles to feel objects, find food, and understand what's around them, even though they cannot see very well. This is called **sensing** — using body parts to learn about what's happening around you.",
+      "vocabulary": {
+        "term": "Tentacles",
+        "definition": "Long, thin feelers that help an animal sense and explore the world around it."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "65%",
-      "label": "Snail Slime Trail",
-      "fact": "Snails produce a slimy mucus from their foot that helps them move smoothly across rough surfaces without getting hurt. This slime also keeps them from drying out, which is especially important for land snails!"
+      "x": "65%",
+      "y": "50%",
+      "label": "Snail's Habitat",
+      "fact": "Snails live in moist places like on rocks and plants covered with moss and lichen, because they need moisture to survive and stay healthy. The snail eats the plants and algae around it, and the cool, damp rocks and plants provide shelter and food for the snail's life. This is called a **habitat** — the special place where an animal lives and finds everything it needs.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The special place where an animal lives and finds food, water, and shelter."
+      }
     }
   ]
 }

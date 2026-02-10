@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "45%",
-      "label": "V8 Engine",
-      "fact": "This powerful V8 engine has 8 cylinders that work together to create energy by burning fuel. The cylinders fire in a specific order to push pistons up and down, which turns the wheels and makes the car go super fast!"
+      "y": "35%",
+      "label": "Engine Block",
+      "fact": "This powerful engine converts chemical energy from fuel into motion that moves the car forward. When gasoline burns inside the cylinders, it creates hot gases that push pistons up and down, which is a form of **energy transformation** — changing one type of energy into another type we can use.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The ability to make things move or change. Energy can be stored in fuel and released to do work, like powering a car."
+      }
     },
     {
       "id": 2,
-      "x": "65%",
-      "y": "55%",
-      "label": "Air Intake Pipe",
-      "fact": "This large black tube sucks in air from outside the car and feeds it to the engine. The engine needs oxygen from the air to mix with fuel so it can create the explosions that power the car."
+      "x": "70%",
+      "y": "50%",
+      "label": "Air Intake Hose",
+      "fact": "This large tube pulls air into the engine where it mixes with fuel to create combustion. The engine needs a lot of air to burn fuel efficiently, which shows how **matter** (both air and fuel) combines to produce energy and motion.",
+      "vocabulary": {
+        "term": "Combustion",
+        "definition": "A chemical reaction where fuel burns in oxygen to create heat and energy. This is what happens inside car engines to make them run."
+      }
     },
     {
       "id": 3,
       "x": "25%",
       "y": "25%",
-      "label": "Engine Cover",
-      "fact": "The silver cover on top protects all the important engine parts and keeps them from getting dirty or damaged. It also helps keep the heat from the engine contained so it doesn't burn anything nearby."
+      "label": "Battery (Red Box)",
+      "fact": "The battery stores electrical energy that starts the engine and powers the car's lights and electronics. This shows how **stored energy** can be released to do work, which is an important concept in understanding how machines operate.",
+      "vocabulary": {
+        "term": "Electrical Energy",
+        "definition": "Energy that comes from the movement of tiny particles called electrons. Batteries store this type of energy to power devices."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "35%",
-      "label": "Battery (Red Terminal)",
-      "fact": "This red battery provides electrical power to start the engine and run the car's lights and electronics. It's like the heart of the car's electrical system, sending power everywhere it's needed!"
+      "x": "50%",
+      "y": "15%",
+      "label": "Strut Bar (Metal Rod)",
+      "fact": "This metal bar is part of the car's support system that helps the engine stay in place and handles the **forces** created when the engine operates and the car moves. Engineers designed it this way to make sure the engine's powerful vibrations and movements don't damage the car.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can change how something moves or its shape. Forces from the engine's motion need to be controlled by strong structures."
+      }
     }
   ]
 }

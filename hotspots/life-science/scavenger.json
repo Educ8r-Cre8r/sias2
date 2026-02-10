@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "70%",
       "y": "25%",
-      "label": "Wrinkled Head",
-      "fact": "This bird's head has loose, wrinkled skin that helps it stay clean while eating messy food. The wrinkles can expand and contract, kind of like an accordion!"
+      "label": "Head and Beak",
+      "fact": "This bird has a special body part called a beak that helps it find and eat food. The beak is hard and pointed, which is perfect for picking up small things from the ground. Different birds have different shaped beaks depending on what they like to eat!",
+      "vocabulary": {
+        "term": "Beak",
+        "definition": "A hard, pointed mouth part that birds use to pick up, hold, and eat food."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "35%",
-      "label": "Powerful Wings",
-      "fact": "These large black wings help vultures soar high in the sky for hours without flapping. They ride warm air currents called thermals to search for food below."
+      "x": "45%",
+      "y": "60%",
+      "label": "Legs and Feet",
+      "fact": "Birds have long, thin legs and special feet that help them walk and stand on the ground. These legs are made just right for the way this bird moves and hunts for food in its habitat. Every animal's body parts help it survive in the place where it lives!",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives and finds everything it needs to survive, like food and shelter."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "70%",
-      "label": "Strong Gray Legs",
-      "fact": "Vultures have thick, powerful legs built for walking on the ground. Their feet are flat and not as sharp as eagles' talons because they don't need to catch live prey."
+      "x": "30%",
+      "y": "35%",
+      "label": "Wings and Feathers",
+      "fact": "This bird's large black wings are covered with feathers that help it fly through the air. The feathers are also waterproof, which keeps the bird dry and warm. All birds have feathers, and feathers are one special body part that only birds have!",
+      "vocabulary": {
+        "term": "Feathers",
+        "definition": "Special lightweight parts that cover a bird's body and help it fly, stay warm, and stay dry."
+      }
     },
     {
       "id": 4,
-      "x": "30%",
+      "x": "55%",
       "y": "50%",
-      "label": "All Black Feathers",
-      "fact": "The dark black feathers help vultures absorb heat from the sun, which gives them energy to fly. Dark colors also help them blend in while flying high overhead."
+      "label": "Ground Foraging",
+      "fact": "You can see this bird is looking for food on the ground in its grassland habitat. Birds need to eat every day to get energy and stay healthy, just like people do. The way an animal finds food is one way it is adapted to live in its environment.",
+      "vocabulary": {
+        "term": "Adapted",
+        "definition": "When an animal's body parts or behaviors help it survive and do well in its home environment."
+      }
     }
   ]
 }

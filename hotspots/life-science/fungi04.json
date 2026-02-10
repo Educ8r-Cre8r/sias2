@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "25%",
-      "y": "25%",
-      "label": "Gelatinous Fruiting Body",
-      "fact": "These jelly-like structures are called fruiting bodies, and they're how this fungus spreads its spores. The bright pink color helps attract insects and animals that help scatter the spores to new locations."
+      "y": "35%",
+      "label": "Pink Fruiting Bodies",
+      "fact": "These bright pink structures are a type of fungus called a slime mold that grows on decaying wood. Fungi like this are decomposers, which means they break down dead material and return nutrients back to the soil so plants can use them. This shows how organisms in an ecosystem depend on each other to survive.",
+      "vocabulary": {
+        "term": "Decomposer",
+        "definition": "A living thing, like fungi or bacteria, that breaks down dead plants and animals and returns nutrients to the soil."
+      }
     },
     {
       "id": 2,
-      "x": "70%",
-      "y": "55%",
-      "label": "Individual Spore Clusters",
-      "fact": "Each small sphere you see is packed with millions of microscopic spores. When these spores land in the right conditions, they can grow into new fungi!"
+      "x": "60%",
+      "y": "50%",
+      "label": "Decaying Wood Habitat",
+      "fact": "The dark, rotting wood you see is a habitat where many tiny organisms live and work. This dead wood provides food and shelter for fungi, insects, and other creatures that help recycle nutrients in the forest. Without decomposition, dead things would pile up and new plants couldn't get the nutrients they need to grow.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The special place where a plant or animal lives that has everything it needs to survive, like food, water, and shelter."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
-      "y": "70%",
-      "label": "Wood Decomposition",
-      "fact": "This fungus is breaking down dead wood and turning it into nutrients that help soil and new plants grow. Fungi are nature's recyclers!"
+      "x": "45%",
+      "y": "60%",
+      "label": "Spore Balls",
+      "fact": "The tiny round pink balls are spores, which are like special seeds that fungi use to make copies of themselves. When these spores spread through the air or water, they can land on other pieces of dead wood and grow into new fungi. This is how fungi reproduce and spread throughout the ecosystem.",
+      "vocabulary": {
+        "term": "Spore",
+        "definition": "A tiny, special cell that fungi and some plants use to reproduce and create new organisms without needing seeds."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "60%",
-      "label": "Wrinkled Surface Texture",
-      "fact": "The bumpy, wrinkled surface increases the area where spores can form and be released. This clever design helps the fungus spread more effectively."
+      "x": "70%",
+      "y": "25%",
+      "label": "Energy Flow in Decomposition",
+      "fact": "The energy from the dead wood is being used by this fungus to grow and create new spores. When small animals eat these fungi, energy passes to them, and when larger animals eat those small animals, the energy continues to move through the food chain. This shows how energy flows through all living things in nature.",
+      "vocabulary": {
+        "term": "Food Chain",
+        "definition": "The order in which living things eat each other, starting with plants and moving through animals that eat plants and animals that eat other animals."
+      }
     }
   ]
 }

@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
-      "label": "American Flag",
-      "fact": "The American flag has 13 stripes representing the original 13 colonies, and 50 stars representing all 50 states. Flags are made from special materials that can withstand wind, rain, and sunlight without fading quickly."
+      "y": "55%",
+      "label": "Clock Face",
+      "fact": "The clock on this building shows us how forces and motion work together! The hands of a clock move in a circular path because of the energy stored inside the clock mechanism. This is called **mechanical energy** — energy that comes from moving or moving parts, like gears and springs that make the clock hands turn at just the right speed.",
+      "vocabulary": {
+        "term": "Mechanical Energy",
+        "definition": "Energy that comes from something moving or from parts moving inside a machine, like the gears in a clock."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "75%",
-      "label": "Clock Tower",
-      "fact": "This clock tells time using mechanical gears and springs, similar to how clocks have worked for hundreds of years. The clock face is a circle divided into 12 sections, with numbers that help us read the exact time."
+      "y": "20%",
+      "label": "American Flag Waving",
+      "fact": "Watch how the flag waves and moves in the wind! The wind is a force that pushes on the flag, causing it to move and flutter. When air pushes on objects, it creates a force that can make things change direction or speed. This is called **air resistance** or **air force** — the pushing power of air on objects around us.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something start moving, stop moving, or change direction."
+      }
     },
     {
       "id": 3,
       "x": "25%",
-      "y": "50%",
-      "label": "Red Brick Building",
-      "fact": "Buildings use bricks as a strong, durable building material that can last for hundreds of years. Red bricks are made from clay that is heated in very hot kilns, making them hard and weather-resistant."
+      "y": "35%",
+      "label": "Tall Building Structure",
+      "fact": "These tall buildings are designed to stand strong against many forces, like wind and gravity! The materials used to build them, like brick and metal, have special **physical properties** that make them hard and sturdy. Engineers choose these materials because they resist breaking and can support the weight of the building pushing down due to gravity.",
+      "vocabulary": {
+        "term": "Physical Properties",
+        "definition": "Characteristics of materials you can observe or measure, like color, hardness, size, and weight, that help us choose the right materials for building things."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "45%",
-      "label": "Metal Architecture",
-      "fact": "Tall buildings use strong metals like steel in their frames to support their weight and resist wind. Metal is a great choice because it is lightweight yet very strong, allowing buildings to reach high into the sky."
+      "x": "70%",
+      "y": "40%",
+      "label": "Dark Metallic Building",
+      "fact": "This building's dark metal and glass surfaces reflect and absorb light and heat energy differently! The way materials interact with light and heat shows us how **energy transfers** through the environment. Some materials, like shiny metal, reflect energy away, while darker materials absorb more heat energy from the sun.",
+      "vocabulary": {
+        "term": "Energy Transfer",
+        "definition": "When energy moves from one place to another or changes from one form to another, like heat moving from the sun to a building."
+      }
     }
   ]
 }

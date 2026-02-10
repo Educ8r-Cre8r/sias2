@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Ship's Smokestacks",
-      "fact": "These tall pipes called funnels release smoke and gases from the ship's engines. The black smoke shows that this cargo ship uses fuel to power its massive engines and move through the water."
+      "label": "Ship's Cargo Holds",
+      "fact": "This large ship carries heavy cargo across the ocean, and its design helps distribute that weight evenly so it floats. The wide, flat bottom and tall sides are physical properties that help the ship stay balanced in the water. This is called **buoyancy** — it's the upward force that water pushes on objects to help them float.",
+      "vocabulary": {
+        "term": "Buoyancy",
+        "definition": "The upward pushing force that a liquid or gas puts on an object, which helps things float."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "65%",
-      "label": "Hull Design",
-      "fact": "The red and black painted hull is the ship's outer shell that protects it from water. The red color helps prevent rust and corrosion from the salty seawater."
+      "y": "55%",
+      "label": "Red and Black Hull",
+      "fact": "The ship's hull (the bottom and sides) is painted in different colors, and the red paint reflects light differently than the black paint. The color and shiny or dull surface are **physical properties** — they describe what something looks like and how it feels, but don't change what the material is made of. Scientists use physical properties like color, shape, and size to identify and describe matter.",
+      "vocabulary": {
+        "term": "Physical Properties",
+        "definition": "Characteristics you can observe about something, like its color, size, shape, or texture, without changing what it's made of."
+      }
     },
     {
       "id": 3,
-      "x": "45%",
-      "y": "50%",
-      "label": "Cargo Loading Cranes",
-      "fact": "The tall yellow cranes on deck are used to load and unload heavy cargo from the ship. These cranes can lift tons of cargo at a time and move it on and off the vessel."
+      "x": "50%",
+      "y": "28%",
+      "label": "Ship's Cranes and Booms",
+      "fact": "The tall cranes and booms on this ship use **simple machines** to lift and move heavy cargo on and off the vessel. These structures work like levers and pulleys — they use force and motion to help people move objects that would be too heavy to lift by hand. The design shows how we use engineering to solve problems and move matter more easily.",
+      "vocabulary": {
+        "term": "Simple Machines",
+        "definition": "Tools that make work easier by using forces like pushing, pulling, or lifting in a smart way."
+      }
     },
     {
       "id": 4,
-      "x": "25%",
-      "y": "45%",
-      "label": "Bridge and Radar",
-      "fact": "The tall structures on top house the bridge where the captain steers the ship and radar systems that help navigate. These help the crew safely guide the massive ship through the ocean."
+      "x": "50%",
+      "y": "48%",
+      "label": "Water Around Ship",
+      "fact": "The water surrounding this ship is matter in its **liquid state**, and it exerts forces on the ship from all directions. As the ship moves through the water, it experiences friction (a force that slows things down) between its hull and the water. The ship's engines must push hard to overcome this friction so the ship can move and maintain its motion across the ocean.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that happens when two surfaces rub together and causes things to slow down or stop moving."
+      }
     }
   ]
 }

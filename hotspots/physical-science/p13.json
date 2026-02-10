@@ -5,28 +5,44 @@
       "x": "50%",
       "y": "15%",
       "label": "Blue Balloon",
-      "fact": "Balloons float because they are filled with air or helium gas, which is lighter than the air around us. When you blow up a balloon, you're filling it with gas that takes up space and pushes outward on the balloon's walls."
+      "fact": "This blue balloon is filled with air, which is a gas that takes up space. When air is trapped inside the balloon, it pushes outward in all directions with a force called **pressure** — that's the push or force that air exerts on the walls of the balloon to keep it inflated and round.",
+      "vocabulary": {
+        "term": "Pressure",
+        "definition": "The force that something pushes with. In this case, air pushes on the inside of the balloon to make it stay round and full."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "60%",
+      "y": "65%",
       "label": "Colorful Confetti",
-      "fact": "Confetti comes in many bright colors made from different dyes and materials. When objects fall or scatter like this confetti, they follow the force of gravity pulling them downward toward Earth."
+      "fact": "The confetti pieces on the dark surface show different colors, shapes, and sizes — these are all physical properties of matter. When the balloon bursts, the force of the air rushing out pushes the confetti pieces outward, showing how **force** and **motion** work together to move objects.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop moving, or change direction. The rushing air from the balloon is a force that moves the confetti."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "35%",
+      "x": "35%",
+      "y": "25%",
       "label": "Water Droplets",
-      "fact": "The clear droplets hanging from the balloon show how water clings together in small beads. This happens because of a property called surface tension, which makes water form rounded shapes."
+      "fact": "The shiny drops hanging from the balloon's surface are water droplets. Water is a liquid, which is a state of matter that flows and takes the shape of whatever container holds it. These droplets show that matter comes in different forms: solids, liquids, and gases.",
+      "vocabulary": {
+        "term": "Matter",
+        "definition": "Anything that takes up space and has weight. The balloon, water drops, air inside, and confetti are all made of matter."
+      }
     },
     {
       "id": 4,
-      "x": "25%",
+      "x": "65%",
       "y": "50%",
-      "label": "Reflection & Light",
-      "fact": "You can see bright spots reflecting off the shiny balloon surface because light bounces off smooth, curved objects. The blue balloon's color comes from how it absorbs some colors of light and reflects the blue light back to our eyes."
+      "label": "Scattered Pieces",
+      "fact": "When the balloon pops, it releases energy and creates a sudden change — the confetti pieces scatter in different directions at different speeds. This shows how **energy** from the bursting balloon causes the confetti to move, and some pieces travel farther than others depending on how much force pushes them.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The ability to make things move or change. The energy from the popping balloon pushes the confetti pieces away from where the balloon was."
+      }
     }
   ]
 }

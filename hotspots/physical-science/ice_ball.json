@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
-      "label": "Ice Crystal Structure",
-      "fact": "This clear sphere is filled with ice crystals that form beautiful patterns as water freezes. Ice crystals arrange themselves in geometric shapes because water molecules naturally organize in a specific way when they get cold!"
+      "y": "25%",
+      "label": "Ice Formation",
+      "fact": "When water freezes, it changes from a liquid into a solid called ice. You can see how the water changed its state of matter when it got very cold! This is called **freezing** — that's when a liquid becomes a solid because the temperature drops below 32°F (0°C).",
+      "vocabulary": {
+        "term": "State of Matter",
+        "definition": "The form that a substance takes, like solid (ice), liquid (water), or gas (steam)."
+      }
     },
     {
       "id": 2,
       "x": "50%",
       "y": "55%",
-      "label": "Frozen Water Mass",
-      "fact": "When water freezes into ice, it expands and takes up more space than liquid water. This is why ice floats on water and why this sphere is so full and round!"
+      "label": "Blue Container",
+      "fact": "The blue tray is made of plastic, which is a solid material with its own shape. Solids have a fixed shape that doesn't change unless we use a force to bend or break them. The plastic material keeps its shape to hold the ice ball safely.",
+      "vocabulary": {
+        "term": "Solid",
+        "definition": "Matter that has a definite shape and size that doesn't change, like ice, plastic, or wood."
+      }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "75%",
-      "label": "Blue Collection Tray",
-      "fact": "The blue tray catches drips as the ice melts over time. Scientists use containers like this to observe and measure physical changes when matter transforms from solid ice back into liquid water."
+      "y": "40%",
+      "label": "Frost and Ice Crystals",
+      "fact": "The white, bumpy texture on the ice shows tiny ice crystals that formed as water froze. These crystals show how water molecules arrange themselves when they become solid. This process is called **crystallization** — that's when particles organize into a repeating pattern as a liquid becomes a solid.",
+      "vocabulary": {
+        "term": "Crystal",
+        "definition": "A solid material where tiny particles are arranged in an organized, repeating pattern."
+      }
     },
     {
       "id": 4,
-      "x": "70%",
-      "y": "20%",
-      "label": "Transparent Sphere",
-      "fact": "You can see through this clear plastic sphere because it's made of a transparent material. This allows scientists to observe all the ice crystal formations inside without opening it up!"
+      "x": "30%",
+      "y": "55%",
+      "label": "Water Droplets",
+      "fact": "The small water droplets on the blue tray show how water changes when it's near ice. As the ice melts, it becomes liquid water again, which can drip and pool on the surface. This change from solid back to liquid is called **melting** — that's the opposite of freezing!",
+      "vocabulary": {
+        "term": "Melting",
+        "definition": "When a solid changes into a liquid because it gets warmer."
+      }
     }
   ]
 }

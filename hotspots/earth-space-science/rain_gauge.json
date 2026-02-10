@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
-      "label": "Rain Gauge Tube",
-      "fact": "This clear tube collects rainwater to measure how much rain falls. Scientists use rain gauges like this one to track weather patterns and help predict future storms!"
+      "y": "50%",
+      "label": "Rain Gauge",
+      "fact": "This tool measures how much rain falls from the sky during storms or throughout the day. Scientists and weather watchers use rain gauges like this one to track **precipitation** — that's the water that falls from clouds as rain, snow, sleet, or hail. By recording measurements regularly, we can learn patterns about Earth's weather and climate!",
+      "vocabulary": {
+        "term": "Precipitation",
+        "definition": "Water that falls from clouds to Earth's surface in the form of rain, snow, sleet, or hail."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "70%",
-      "label": "Collection Basin",
-      "fact": "The white cup at the bottom catches and funnels rainwater into the measuring tube above. This design helps make accurate measurements by preventing water from splashing out."
+      "y": "25%",
+      "label": "Measurement Numbers",
+      "fact": "The red numbers and lines on this rain gauge help us measure exactly how much rain has fallen, usually in inches or centimeters. This **data** from many rain gauges helps meteorologists understand weather patterns and predict storms. Accurate measurements help keep communities safe by warning people about heavy rainfall!",
+      "vocabulary": {
+        "term": "Data",
+        "definition": "Information that scientists collect and measure to learn about the world around us."
+      }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "15%",
-      "label": "Measurement Scale",
-      "fact": "The red numbers show inches of rainfall, helping scientists measure precipitation precisely. Most rain gauges measure rainfall in increments to track amounts from light drizzles to heavy storms."
+      "y": "70%",
+      "label": "Collection Funnel",
+      "fact": "The white cup-shaped part at the bottom catches and collects falling water, which then fills the tube above. This design helps capture an accurate sample of rainfall in a small area so we can measure the **water cycle** — the continuous movement of water between Earth's surface and the atmosphere. Understanding rainfall helps us learn how water moves through our planet!",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous journey of water as it evaporates from Earth's surface, forms clouds, and falls as precipitation."
+      }
     },
     {
       "id": 4,
-      "x": "85%",
-      "y": "50%",
-      "label": "Wood Post Mount",
-      "fact": "The gauge is attached to a wooden post to keep it steady and level. A straight, stable position is important so rainfall measurements are accurate and not affected by tilting."
+      "x": "30%",
+      "y": "45%",
+      "label": "Wooden Post Mounting",
+      "fact": "Rain gauges are mounted on sturdy posts away from buildings and trees to get the most accurate rainfall readings. The placement of weather instruments is important because buildings and trees can block or redirect rain, giving **inaccurate** measurements. Scientists carefully choose where to place their tools to ensure they collect the best information about local weather patterns.",
+      "vocabulary": {
+        "term": "Weather",
+        "definition": "The day-to-day conditions of the atmosphere, including temperature, wind, clouds, and precipitation."
+      }
     }
   ]
 }

@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Icicle Formation",
-      "fact": "Icicles form when water drips and freezes layer by layer in cold temperatures. Each drop adds a thin layer of ice, making the icicle longer over time, like a natural sculpture!"
+      "label": "Icicles Hanging Down",
+      "fact": "These long, pointed ice formations are called icicles, and they form when water freezes as it drips down. This happens because water changes from a liquid to a solid when the temperature gets cold enough, which is a physical change in matter. You can see how gravity pulls the water downward before it freezes into this beautiful shape!",
+      "vocabulary": {
+        "term": "Freezing",
+        "definition": "When a liquid like water turns into a solid like ice because it gets very cold."
+      }
     },
     {
       "id": 2,
       "x": "35%",
-      "y": "50%",
-      "label": "Frozen Water Crystals",
-      "fact": "The clear, pointy shapes you see are ice crystals that formed as water froze. Water always freezes into beautiful geometric patterns, and no two icicles are exactly alike!"
+      "y": "45%",
+      "label": "Ice Crystal Formation",
+      "fact": "The bumpy, textured surface on these icicles shows how water molecules arrange themselves as ice forms. Each tiny bump is made of ice crystals that grow in a special pattern, which is a physical property of water. This pattern happens naturally every time water freezes!",
+      "vocabulary": {
+        "term": "Crystal",
+        "definition": "A solid material with a special, repeating pattern that forms when liquids freeze or cool down."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "60%",
-      "label": "Evergreen Trees",
-      "fact": "The green trees in the background stay green all winter long! These evergreens keep their needles year-round, which helps them survive the freezing temperatures of winter."
+      "x": "65%",
+      "y": "55%",
+      "label": "Water Dripping and Freezing",
+      "fact": "This icicle shows how water flows down due to the force of gravity, and then freezes layer by layer as more water drips and freezes on top. Each new layer of frozen water adds to the icicle's length, demonstrating how matter can change states and build up over time. This is a slow but steady process you can observe in winter!",
+      "vocabulary": {
+        "term": "Gravity",
+        "definition": "An invisible force that pulls objects downward toward Earth."
+      }
     },
     {
       "id": 4,
-      "x": "20%",
-      "y": "70%",
-      "label": "Icicle Hanging Cycle",
-      "fact": "Icicles hang from roofs or overhangs where water can drip down and freeze. During thaws, they can fall to the ground, which is why it's important to stay away from them!"
+      "x": "75%",
+      "y": "20%",
+      "label": "Transparent Ice Structure",
+      "fact": "You can see through these icicles to the green plants and brick building behind them, which shows that ice is a transparent solid. This is a physical property of frozen water—it lets light pass through it while still being hard and solid. Different materials have different properties that make them useful in different ways!",
+      "vocabulary": {
+        "term": "Transparent",
+        "definition": "When something is clear and you can see through it, like glass or ice."
+      }
     }
   ]
 }

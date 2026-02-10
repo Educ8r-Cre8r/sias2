@@ -5,28 +5,44 @@
       "x": "50%",
       "y": "45%",
       "label": "Coolant Reservoir",
-      "fact": "This white container holds coolant fluid that circulates through the engine to keep it from overheating. The yellow liquid inside absorbs heat from the engine and releases it through the radiator, kind of like how sweat cools your body!"
+      "fact": "This white container holds a liquid called coolant that helps keep the car's engine from getting too hot. The yellow liquid inside is a type of matter that can absorb heat energy from the hot engine and carry it away. This is an example of how different materials have different properties that make them useful for specific jobs.",
+      "vocabulary": {
+        "term": "Heat",
+        "definition": "The energy that makes things warm or hot, and that moves from hotter things to cooler things."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "25%",
-      "label": "Windshield Washer Fluid",
-      "fact": "The pink/purple glowing container on the left stores washer fluid that sprays on your windshield to clean it. This helps drivers see clearly and stay safe on the road, especially when the windshield gets dirty from rain or dust."
+      "x": "35%",
+      "y": "55%",
+      "label": "Hoses and Connections",
+      "fact": "These black hoses are made of flexible rubber that can bend without breaking, which is a physical property of the material. The hoses carry hot liquid from the engine to the radiator, then back again in a continuous cycle. This movement happens because of forces pushing the liquid through the tubes, just like how your heart pumps blood through your body.",
+      "vocabulary": {
+        "term": "Physical Property",
+        "definition": "A characteristic of matter that you can observe or measure without changing what the material is made of, like color, shape, or flexibility."
+      }
     },
     {
       "id": 3,
-      "x": "55%",
+      "x": "20%",
       "y": "25%",
-      "label": "Engine Oil Cap",
-      "fact": "This black cap with yellow writing protects the oil inside the engine. Oil is like the blood of a car—it lubricates moving parts so they don't wear out quickly and keeps the engine running smoothly."
+      "label": "Humidifier Mister",
+      "fact": "This device releases water vapor into the air, changing liquid water into a gas through evaporation. When water evaporates, energy is needed to break apart the liquid and turn it into an invisible gas. This is a great example of how matter can change from one state to another while still being the same substance.",
+      "vocabulary": {
+        "term": "Evaporation",
+        "definition": "When a liquid changes into a gas, usually because heat energy causes the liquid's particles to spread apart and float into the air."
+      }
     },
     {
       "id": 4,
-      "x": "45%",
+      "x": "75%",
       "y": "60%",
-      "label": "Radiator Hoses",
-      "fact": "These flexible black tubes carry hot coolant from the engine to the radiator where it cools down. The clamps tighten the hoses so no fluid leaks out, similar to how veins and arteries transport blood throughout your body!"
+      "label": "Engine Components",
+      "fact": "Under the hood are many metal parts that work together to convert chemical energy from fuel into motion and heat energy. Different metals are used because they have different properties—some are strong, some conduct heat well, and some don't rust easily. The arrangement and movement of these parts show how forces and energy work together to make the car move.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The ability to do work or make things move and change; it can come in forms like heat, light, and motion."
+      }
     }
   ]
 }

@@ -4,29 +4,45 @@
       "id": 1,
       "x": "25%",
       "y": "35%",
-      "label": "Red Gerbera Flowers",
-      "fact": "These bright red flowers are Gerberas, and their vivid color helps attract pollinators like bees and butterflies in nature. The petals are arranged in a circular pattern, which is called a radial pattern, and this helps guide insects to the flower's center."
+      "label": "Red Flowers",
+      "fact": "These beautiful red flowers show how plants use color to attract insects and animals that help them reproduce. The bright red color is a physical property of the petals that helps bees and other pollinators find the flowers. This is called **pigmentation** — that's the natural coloring in living things that comes from special substances in their cells.",
+      "vocabulary": {
+        "term": "Physical Property",
+        "definition": "A characteristic of something that you can observe or measure without changing what it is, like color, size, or shape."
+      }
     },
     {
       "id": 2,
-      "x": "22%",
-      "y": "50%",
-      "label": "Plant Stems and Roots",
-      "fact": "You can see the green stems in the clear vase with water. Plants absorb water through their roots and transport it up through the stems to the flowers and leaves using tiny tubes called xylem vessels."
+      "x": "28%",
+      "y": "28%",
+      "label": "Flower Stems",
+      "fact": "The green stems hold up the heavy flower heads against the force of gravity, which is a pulling force that brings objects down toward the ground. Plants have structures that help them support their own weight, just like your bones support your body! This is called **structure and function** — different parts of a plant do different jobs to help it survive.",
+      "vocabulary": {
+        "term": "Gravity",
+        "definition": "A force that pulls objects toward the Earth, making them fall down instead of floating up in the air."
+      }
     },
     {
       "id": 3,
-      "x": "75%",
-      "y": "20%",
-      "label": "Pendant Light Bulb",
-      "fact": "This light bulb provides artificial light similar to sunlight. Plants need light to make food through photosynthesis, converting light energy into chemical energy they can use to grow."
+      "x": "25%",
+      "y": "42%",
+      "label": "Clear Vase with Water",
+      "fact": "The water in the vase is a liquid that dissolves nutrients from the soil, which the flower stems absorb to keep the flowers alive and healthy. We can see through the clear vase because it's transparent — light passes right through it without being blocked. This is called **matter** — water is one of the three main states of matter that exists all around us.",
+      "vocabulary": {
+        "term": "Transparent",
+        "definition": "When something is clear and you can see right through it, like glass or clear plastic."
+      }
     },
     {
       "id": 4,
-      "x": "60%",
-      "y": "65%",
-      "label": "Transparent Vase",
-      "fact": "The clear glass vase allows us to see the water level and flower stems. Transparency is important because it lets light pass through while holding the water that keeps the cut flowers fresh and hydrated."
+      "x": "78%",
+      "y": "15%",
+      "label": "Hanging Light",
+      "fact": "The light bulb above converts electrical energy into light energy, which helps us see the flowers clearly in the room. Light travels in straight lines and bounces off objects, allowing our eyes to see the beautiful red color of the flowers. This process is called **light reflection** — when light bounces off surfaces so we can observe them.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The ability to make something happen or cause change, like electricity powering a light bulb to make it glow."
+      }
     }
   ]
 }

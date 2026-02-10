@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "45%",
-      "label": "Harvestman Arachnid",
-      "fact": "This photograph features an arachnid, specifically a harvestman (Opiliones), resting on the deeply textured bark of a tree."
+      "label": "Spider on Bark",
+      "fact": "This spider is a living organism that makes its home on tree bark where it hunts for insects to eat. Spiders are carnivores, which means they need to eat other animals to survive and get energy. This is called **adaptation** — the spider's ability to blend in with the bark helps it hide from predators and sneak up on its prey.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive in its habitat."
+      }
     },
     {
       "id": 2,
-      "x": "35%",
-      "y": "60%",
-      "label": "Eight Legs",
-      "fact": "Its eight exceptionally long, thin legs radiate outward, breaking up its silhouette against the irregular shadows and ridges of the tree surface."
+      "x": "25%",
+      "y": "55%",
+      "label": "Tree Bark Texture",
+      "fact": "Tree bark protects the living tree underneath, just like your skin protects your body! The rough, bumpy texture you see is the tree's outer covering that keeps it safe from insects, diseases, and weather. Many small organisms live in and on the bark, making it an important **habitat** for creatures like beetles, moss, and lichens.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a plant or animal lives and finds everything it needs to survive."
+      }
     },
     {
       "id": 3,
       "x": "70%",
       "y": "30%",
-      "label": "Lichen Growth",
-      "fact": "The specimen displays remarkable crypsis (camouflage), with its body coloration and leg banding mirroring the mottled greys, browns, and whites of the lichen-covered bark."
+      "label": "Lichen and Moss Growth",
+      "fact": "The greenish and whitish patches you see on the bark are lichens and moss, which are living organisms that grow on trees. These organisms don't hurt the tree — they just use the bark as a place to live. This is a great example of how different organisms can share the same **ecosystem** and depend on each other.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things and non-living things in an area that work together."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "50%",
-      "label": "Camouflaged Body",
-      "fact": "The body is positioned centrally, exhibiting a compact cephalothorax and abdomen that blend seamlessly into a dark crevice in the bark."
+      "x": "45%",
+      "y": "70%",
+      "label": "Tree as a Structure",
+      "fact": "Trees like this one provide food, shelter, and water for many different animals and plants in nature. The bark, leaves, and branches are all **body structures** that help the tree survive by protecting it, capturing sunlight for energy, and transporting water and nutrients throughout the tree.",
+      "vocabulary": {
+        "term": "Body Structures",
+        "definition": "The different parts of a living thing that help it do important jobs like eating, moving, or growing."
+      }
     }
   ]
 }

@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "68%",
-      "y": "52%",
-      "label": "Digital Display",
-      "fact": "This screen shows the exact temperature in degrees Celsius. Digital displays use electricity to light up tiny dots that form numbers we can read. This helps scientists and workers measure heat very precisely!"
+      "x": "60%",
+      "y": "50%",
+      "label": "Digital Temperature Display",
+      "fact": "This thermometer uses energy to create light and display numbers on a screen. The display shows that thermal energy (heat) from the sun is being measured and converted into a number we can read and understand.",
+      "vocabulary": {
+        "term": "Thermal energy",
+        "definition": "The heat energy that makes things warm or hot; it flows from hot objects to cold objects."
+      }
     },
     {
       "id": 2,
-      "x": "68%",
-      "y": "78%",
-      "label": "Temperature Unit Buttons",
-      "fact": "The \u00b0C/F button lets you switch between Celsius and Fahrenheit temperature scales. Water freezes at 0\u00b0C (32\u00b0F) and boils at 100\u00b0C (212\u00b0F). Different countries use different scales, so this tool can show both!"
+      "x": "60%",
+      "y": "20%",
+      "label": "Temperature Reading",
+      "fact": "The thermometer shows 113.5 degrees, which is very hot! This reading tells us how much thermal energy is in the brick surface. Different materials absorb different amounts of heat energy from the sun depending on their color and texture.",
+      "vocabulary": {
+        "term": "Temperature",
+        "definition": "A measurement of how hot or cold something is."
+      }
     },
     {
       "id": 3,
-      "x": "68%",
-      "y": "28%",
-      "label": "Infrared Sensor",
-      "fact": "This thermometer uses infrared light (heat rays you can't see) to measure temperature without touching objects. It's like having superpowers to see heat! That's why it's perfect for checking hot surfaces safely."
+      "x": "60%",
+      "y": "75%",
+      "label": "Measurement Tool",
+      "fact": "This infrared thermometer is a tool that detects invisible heat rays coming from objects. It helps us measure thermal energy without touching things, showing that energy can travel through space and be detected in different ways.",
+      "vocabulary": {
+        "term": "Infrared",
+        "definition": "A type of invisible energy, similar to light, that we feel as heat."
+      }
     },
     {
       "id": 4,
-      "x": "25%",
+      "x": "20%",
       "y": "50%",
-      "label": "Brick Surface",
-      "fact": "The thermometer is measuring this brick wall's temperature at 113.5\u00b0F. Bricks absorb heat from the sun and get very hot on sunny days. This shows how different materials heat up differently!"
+      "label": "Dark Brick Surface",
+      "fact": "The dark brick is very hot because dark colors absorb more thermal energy from sunlight than light colors do. This shows how the physical property of color affects how much heat energy an object can take in.",
+      "vocabulary": {
+        "term": "Absorb",
+        "definition": "To take in or soak up energy, like how a dark surface soaks up heat from the sun."
+      }
     }
   ]
 }

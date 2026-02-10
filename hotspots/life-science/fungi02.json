@@ -5,28 +5,44 @@
       "x": "45%",
       "y": "35%",
       "label": "Mushroom Caps",
-      "fact": "These umbrella-shaped caps help mushrooms spread their spores into the air. The spores are like tiny seeds that fall and grow into new mushrooms in other places."
+      "fact": "These pale, umbrella-shaped structures are the fruiting bodies of fungi, which are living organisms that grow in soil and decomposing wood. Fungi are decomposers, meaning they break down dead plants and animals to return nutrients back to the soil, helping new plants grow. This is called **decomposition** — the natural process where dead things break down into smaller pieces.",
+      "vocabulary": {
+        "term": "Decomposer",
+        "definition": "A living thing, like fungi or bacteria, that breaks down dead plants and animals so nutrients can go back into the soil."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "50%",
-      "label": "Mushroom Stems",
-      "fact": "The thin, tan-colored stems support the mushroom caps and help them reach up toward sunlight. These stems are much more delicate than plant stems because mushrooms don't need to be as strong."
+      "x": "50%",
+      "y": "55%",
+      "label": "Wood Chips Habitat",
+      "fact": "The decaying wood and mulch in this image is a habitat where many living things make their homes, including fungi, insects, and microorganisms. Different organisms live together and depend on each other in this ecosystem—some eat the wood, others eat the organisms eating the wood, creating a food chain. This environment shows us how **energy flows** through nature from one living thing to another.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a living thing makes its home and finds food, water, and shelter."
+      }
     },
     {
       "id": 3,
-      "x": "20%",
-      "y": "60%",
-      "label": "Wood Chips",
-      "fact": "Mushrooms grow on dead wood and decompose it, breaking it down into nutrients that return to the soil. This makes mushrooms nature's recyclers, helping dead material become food for new plants!"
+      "x": "65%",
+      "y": "25%",
+      "label": "Mushroom Stems",
+      "fact": "The thin, tan-colored stems (called stipes) hold up the mushroom caps and help them release tiny spores into the air. Spores are like seeds for fungi—they float on the wind and land in new places to grow more mushrooms. This is how fungi **reproduce**, or make new copies of themselves, to spread through ecosystems.",
+      "vocabulary": {
+        "term": "Spores",
+        "definition": "Tiny, lightweight cells that fungi release into the air to create new fungi in other places."
+      }
     },
     {
       "id": 4,
-      "x": "70%",
-      "y": "55%",
-      "label": "Young Mushrooms",
-      "fact": "These smaller mushrooms are just beginning to grow and are called 'button mushrooms' when they're this young. They will get bigger and eventually release spores to create more mushrooms."
+      "x": "20%",
+      "y": "50%",
+      "label": "Decomposing Wood",
+      "fact": "This crumbling, blackened wood is being broken down by fungi and bacteria, which is a crucial part of the nutrient cycle in nature. When dead wood decomposes, it releases important nutrients like nitrogen and carbon back into the soil where plants can use them to grow strong and healthy. Without decomposers, dead material would pile up and new life couldn't thrive, so they're essential members of every ecosystem.",
+      "vocabulary": {
+        "term": "Nutrient Cycle",
+        "definition": "The natural process where materials like nutrients move from the soil to plants, then to animals, and back to the soil again."
+      }
     }
   ]
 }

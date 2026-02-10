@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
+      "x": "68%",
       "y": "45%",
-      "label": "Transparent Wings",
-      "fact": "This cicada's wings are see-through and made of a thin membrane supported by tiny veins. The intricate pattern of veins helps make the wings strong while keeping them light, allowing the cicada to fly and make its loud buzzing sound."
+      "label": "Cicada Wings",
+      "fact": "This insect has two pairs of wings that help it fly and move around to find food and mates. Wings are a special body part that help insects survive and live in their environment. This is called **adaptation** — a special feature that helps an animal survive and do the things it needs to do.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live in its environment."
+      }
     },
     {
       "id": 2,
-      "x": "60%",
-      "y": "35%",
-      "label": "Large Compound Eyes",
-      "fact": "Cicadas have big eyes made up of thousands of tiny lenses working together. These powerful eyes help them spot movement and navigate through plants to find mates during their short adult lives."
+      "x": "65%",
+      "y": "60%",
+      "label": "Cicada Body Parts",
+      "fact": "Insects like this cicada have six legs, antennae, and compound eyes that help them survive. Different body parts have different jobs — the legs help it climb and grip branches, while the antennae help it smell and sense the world around it. This is called **structure** — when different parts of a body work together to help an organism live.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "The way a body is organized, with different parts that have different jobs."
+      }
     },
     {
       "id": 3,
       "x": "25%",
-      "y": "50%",
+      "y": "35%",
       "label": "Red Flowers",
-      "fact": "Cicadas are attracted to flowering plants like these red blossoms. They use their straw-like mouth parts to pierce plant stems and drink the nutrient-rich sap inside, similar to how you might drink juice through a straw."
+      "fact": "This cicada is visiting red flowers to drink the sweet juice called nectar from inside them. When insects like cicadas visit flowers, they help plants make seeds in a process called **pollination** — that's when pollen sticks to the insect's body and gets carried to the next flower. This shows how living things in an ecosystem depend on each other!",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen from one flower is carried to another flower, usually by insects, so plants can make seeds."
+      }
     },
     {
       "id": 4,
-      "x": "55%",
-      "y": "60%",
-      "label": "Brown Exoskeleton",
-      "fact": "The cicada's hard outer shell is called an exoskeleton and protects its soft body inside. Unlike human skin, this shell doesn't stretch or grow, so cicadas must shed it several times as they get bigger."
+      "x": "35%",
+      "y": "25%",
+      "label": "Plant Stem",
+      "fact": "The gray branch the cicada is standing on is part of a plant that provides food and shelter for many animals. Plants make their own food using sunlight, water, and air, and then animals eat the plants or drink their nectar. This is called a **food chain** — the path that energy takes as one living thing eats another in nature.",
+      "vocabulary": {
+        "term": "Food Chain",
+        "definition": "The order in which living things eat each other, starting with plants and moving to animals."
+      }
     }
   ]
 }

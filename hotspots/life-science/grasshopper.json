@@ -5,28 +5,44 @@
       "x": "55%",
       "y": "15%",
       "label": "Long Antennae",
-      "fact": "Grasshoppers use their long antennae to feel their surroundings and detect vibrations in the air. These antennae help them find food and sense danger from predators nearby."
+      "fact": "Grasshoppers use their two long antennae to sense their surroundings and find food and mates. These special feelers help the grasshopper know what's happening around it, even in the dark! This is called **sensory adaptation** — it means body parts that help an animal sense things like touch, smell, and vibrations.",
+      "vocabulary": {
+        "term": "Antennae",
+        "definition": "Long, thin feelers on an insect's head that help it sense its environment and find food."
+      }
     },
     {
       "id": 2,
-      "x": "35%",
+      "x": "45%",
       "y": "50%",
       "label": "Powerful Hind Legs",
-      "fact": "A grasshopper's back legs are incredibly strong and can launch it 20 times its own body length! These muscular legs are specially designed for jumping to escape danger."
+      "fact": "Grasshoppers have large, strong back legs that help them jump very far and very high to escape danger. These powerful legs are an example of how an animal's body structure helps it survive in its habitat. This ability to jump is called **locomotion** — the way an animal moves from place to place.",
+      "vocabulary": {
+        "term": "Locomotion",
+        "definition": "The way an animal moves its body to travel from one place to another, like hopping, flying, or swimming."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "65%",
-      "label": "Plant Seed Head",
-      "fact": "Grasshoppers are herbivores that eat plants, seeds, and grains. This seed head provides nutritious food for the grasshopper to munch on throughout the day."
+      "x": "65%",
+      "y": "55%",
+      "label": "Compound Eyes",
+      "fact": "A grasshopper's large, dark eyes are made up of thousands of tiny lenses that work together to see movement very well. This helps grasshoppers spot predators like birds and snakes before they get too close. These special eyes are an example of **structural adaptation** — a body part that helps an animal survive.",
+      "vocabulary": {
+        "term": "Structural Adaptation",
+        "definition": "A special body part or physical feature that helps an animal survive in its environment."
+      }
     },
     {
       "id": 4,
-      "x": "45%",
-      "y": "30%",
-      "label": "Large Compound Eyes",
-      "fact": "Grasshoppers have huge eyes that can see in many directions at once, helping them spot movement and predators. Their excellent vision helps them navigate through grass quickly."
+      "x": "50%",
+      "y": "65%",
+      "label": "Food Source (Seedpod)",
+      "fact": "This grasshopper is eating a seedpod from a plant, which shows how living things depend on each other in nature. The grasshopper gets food from the plant, and when the plant produces seeds, those seeds help new plants grow. This connection is called a **food chain** — the path that energy takes from plants to animals.",
+      "vocabulary": {
+        "term": "Food Chain",
+        "definition": "The path that shows how energy passes from plants to animals to other animals in nature."
+      }
     }
   ]
 }

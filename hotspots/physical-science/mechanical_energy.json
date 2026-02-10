@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "25%",
-      "y": "35%",
-      "label": "Ford Truck Engine",
-      "fact": "This Ford truck has a powerful engine that burns fuel to create energy that moves the heavy vehicle. Trucks need strong engines because they have to lift and carry very heavy loads, like the crane on top!"
+      "x": "55%",
+      "y": "25%",
+      "label": "Boom and Pulley System",
+      "fact": "This crane uses a long arm called a boom to lift heavy objects high into the air. The rope and pulley system helps make lifting easier by spreading out the weight, which is a type of simple machine. This demonstrates how forces can be applied to move objects that would be too heavy to lift by hand alone.",
+      "vocabulary": {
+        "term": "Pulley",
+        "definition": "A wheel with a rope around it that helps lift or move heavy objects with less effort."
+      }
     },
     {
       "id": 2,
-      "x": "70%",
-      "y": "15%",
-      "label": "Hydraulic Crane Boom",
-      "fact": "The long arm is called a boom and uses hydraulics—pressurized liquid—to lift and move heavy objects. Hydraulics work by pushing fluid through tubes to make the boom go up, down, and around with great power!"
+      "x": "25%",
+      "y": "55%",
+      "label": "Truck Engine and Power",
+      "fact": "The Ford truck's engine burns fuel to create energy that powers the vehicle and the crane on its back. This shows how energy can be transformed from one form to another—chemical energy in fuel becomes motion energy. The truck's strength comes from its powerful engine, which provides the force needed to move heavy loads.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The ability to make things move or change, like how fuel gives a truck the power to work."
+      }
     },
     {
       "id": 3,
-      "x": "80%",
-      "y": "50%",
-      "label": "Steel Cable and Pulley",
-      "fact": "The thick steel cable acts like a rope that holds the heavy ball and uses pulleys to change the direction of the pulling force. Pulleys make it easier to lift heavy things by spreading out the work!"
+      "x": "70%",
+      "y": "60%",
+      "label": "Load and Gravity",
+      "fact": "The large white sphere hanging from the crane is being pulled down by gravity, the invisible force that pulls everything toward Earth. The rope must be strong enough to hold the weight of the object while the crane lifts it upward. This is a perfect example of how forces work against each other—gravity pulls down while the crane pulls up.",
+      "vocabulary": {
+        "term": "Gravity",
+        "definition": "An invisible force that pulls objects downward toward the Earth."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "55%",
-      "label": "Large Truck Tires",
-      "fact": "Truck tires are much bigger and thicker than car tires because they need to support extremely heavy loads. The large surface area helps spread the weight so the truck can drive safely without sinking into soft ground!"
+      "x": "42%",
+      "y": "70%",
+      "label": "Wheels and Friction",
+      "fact": "The truck's wheels help it move across the ground by rolling, which creates less friction than sliding would. The tires grip the ground to prevent slipping, which is friction at work protecting the load. Different tire materials and road surfaces create different amounts of friction, which affects how easily the truck can move.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that slows down or stops objects from sliding or moving past each other."
+      }
     }
   ]
 }

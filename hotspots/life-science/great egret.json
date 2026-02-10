@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "35%",
-      "label": "Great Egret Bird",
-      "fact": "This white bird is called a Great Egret and uses its long, sharp beak to catch fish in water. Egrets are wading birds that hunt in shallow ponds and wetlands by standing very still and waiting for prey to swim nearby."
+      "label": "White Egret Bird",
+      "fact": "This beautiful white bird is called an egret, and it has special body parts that help it survive in its habitat. Its long, pointed beak is perfect for catching fish in water, and its long legs help it wade through shallow ponds and streams. Different animals have different body structures that help them get food and stay safe in their homes.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives and finds food, water, and shelter."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "25%",
-      "label": "Blue Agave Plant",
-      "fact": "The large, gray-blue spiky plant behind the egret is an agave, which stores water in its thick leaves to survive in dry climates. Agaves are succulents that can live for many years before producing a single tall flower stalk."
+      "x": "20%",
+      "y": "55%",
+      "label": "Green Frog Decoration",
+      "fact": "Frogs are amazing animals that live both on land and in water! Real frogs are important members of ecosystems because they eat insects and other small creatures, keeping the environment in balance. When a frog eats an insect, that's an example of one living thing depending on another for food.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things (plants and animals) in a place, plus the non-living things like water, soil, and rocks that they depend on."
+      }
     },
     {
       "id": 3,
-      "x": "20%",
-      "y": "50%",
-      "label": "Frog Sculpture",
-      "fact": "This green frog statue is part of the garden decoration and represents real frogs that live near water. Frogs are amphibians that start their lives in water as tadpoles and later develop legs to live on land."
+      "x": "60%",
+      "y": "30%",
+      "label": "Blue-Gray Agave Plant",
+      "fact": "This spiky blue-gray plant is called an agave, and it's a living organism that grows in dry areas. Plants like this one need sunlight, water, and nutrients from soil to grow and survive, just like all living things need food and water. The thick, waxy leaves help the agave plant store water so it can survive in hot, dry climates.",
+      "vocabulary": {
+        "term": "Organism",
+        "definition": "Any living thing, like a plant, animal, or insect."
+      }
     },
     {
       "id": 4,
-      "x": "60%",
+      "x": "75%",
       "y": "55%",
-      "label": "River Rocks & Logs",
-      "fact": "The rocks, pebbles, and logs create a natural water garden habitat that mimics a real stream or pond environment. These materials help filter water, provide shelter for insects and small animals, and support plant growth."
+      "label": "Green Leafy Plant",
+      "fact": "This tall green plant with long leaves is part of the garden ecosystem shown here. Plants are producers, which means they make their own food using sunlight through a process called photosynthesis. Animals in the ecosystem, like birds and insects, depend on plants for food and shelter, showing how living things are connected to each other.",
+      "vocabulary": {
+        "term": "Producer",
+        "definition": "A living thing, usually a plant, that makes its own food using sunlight and energy from the sun."
+      }
     }
   ]
 }

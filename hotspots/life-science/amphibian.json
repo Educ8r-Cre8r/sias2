@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "35%",
-      "y": "25%",
-      "label": "Adhesive Toe Pads",
-      "fact": "These special sticky toe pads help the frog climb! The tiny hairs on each toe pad create a grip that works even on wet surfaces."
+      "x": "25%",
+      "y": "35%",
+      "label": "Sticky Toe Pads",
+      "fact": "This tree frog has special sticky pads on its toes that help it climb smooth surfaces like leaves, branches, and walls! These toe pads are a special body structure that helps the frog survive in its rainforest home. This is called an **adaptation** — that's a special feature that helps an animal live in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps an animal or plant survive and live in its environment."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "55%",
-      "label": "Skin Texture",
-      "fact": "The frog exhibits a highly specialized skin pattern consisting of mottled grey, white, and dark charcoal blotches that mimic lichen or tree bark."
+      "x": "55%",
+      "y": "25%",
+      "label": "Large Bulging Eyes",
+      "fact": "Tree frogs have big, bulging eyes that help them see insects flying through the air, even in dim rainforest light! Good eyesight is an important body part that helps frogs hunt for food and stay safe from predators. This is an example of how different body structures help animals get what they need to survive.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "A part of an animal's body that has a specific job, like eyes for seeing or legs for moving."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "40%",
-      "label": "Large Bulging Eyes",
-      "fact": "A frog's huge eyes help it see in many directions at once to spot insects and danger! Frogs have excellent night vision, which helps them hunt when it's dark."
+      "x": "40%",
+      "y": "60%",
+      "label": "Strong Back Legs",
+      "fact": "Tree frogs have long, muscular back legs that let them jump very high and far to escape from danger or catch food! These powerful legs are perfectly designed for life in trees where frogs need to leap from branch to branch. The way an animal's body parts work together helps it survive in its home, called a **habitat**.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal or plant lives, including the plants, animals, and weather in that area."
+      }
     },
     {
       "id": 4,
-      "x": "72%",
-      "y": "70%",
-      "label": "Long Hind Legs",
-      "fact": "These powerful back legs allow frogs to jump up to 20 times their own body length! The strong muscles in the hind legs make frogs amazing jumpers and swimmers."
+      "x": "70%",
+      "y": "50%",
+      "label": "Warty, Bumpy Skin",
+      "fact": "This tree frog's bumpy skin texture helps it blend in with tree bark and leaves, making it hard for predators to spot it! This camouflage is an important **survival strategy** that protects the frog. Frogs also breathe and drink water through their skin, so having healthy skin is essential for their life processes.",
+      "vocabulary": {
+        "term": "Survival Strategy",
+        "definition": "A special way that an animal behaves or looks that helps it stay alive and safe in nature."
+      }
     }
   ]
 }

@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
+      "y": "45%",
       "label": "Yellow Daffodil Flower",
-      "fact": "This bright yellow daffodil is blooming even in the snow! Daffodils are early spring flowers that can survive cold temperatures because they store energy in their bulbs underground during winter."
+      "fact": "This bright yellow flower is blooming in spring, even though there is snow all around it! Plants are adapted to survive in many different weather conditions, including cold snaps with unexpected snow. This is called **adaptation** — that's when a plant or animal has special features that help it survive in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps a plant or animal survive and thrive in its environment."
+      }
     },
     {
       "id": 2,
       "x": "55%",
-      "y": "50%",
-      "label": "Snow on Leaves",
-      "fact": "The snow sticks to the plant's leaves and stems because water freezes when temperatures drop below 32°F (0°C). Plants have special waxy coatings on their leaves that help them survive freezing weather."
+      "y": "25%",
+      "label": "Snow and Ice Crystals",
+      "fact": "The snow covering the leaves and buds is made of frozen water that fell from clouds in the sky. When water freezes, it changes from a liquid to a solid and forms ice crystals in beautiful patterns. This process is called **freezing** — that's when water gets cold enough to turn into ice.",
+      "vocabulary": {
+        "term": "Freezing",
+        "definition": "When a liquid, like water, gets so cold that it turns into a solid, like ice."
+      }
     },
     {
       "id": 3,
       "x": "35%",
-      "y": "60%",
-      "label": "Green Buds",
-      "fact": "These reddish-brown buds are waiting to open into flowers when it gets warmer. Plants can sense changes in temperature and daylight, which tells them when it's time to bloom."
+      "y": "55%",
+      "label": "Green Plant Leaves",
+      "fact": "Even under the snow, these green leaves are still alive and ready to help the plant grow! Plants need sunlight, water, and air to survive and make food through their leaves. These leaves are covered with snow, which is a form of **precipitation** — that's water that falls from clouds to Earth as rain, snow, sleet, or hail.",
+      "vocabulary": {
+        "term": "Precipitation",
+        "definition": "Any form of water that falls from clouds to the ground, such as rain, snow, sleet, or hail."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "55%",
-      "label": "Frost Crystals",
-      "fact": "The sparkly white coating on the leaves is frost—tiny ice crystals that form when water vapor in the air freezes directly into ice without becoming liquid first. This process is called deposition!"
+      "x": "68%",
+      "y": "35%",
+      "label": "Buds Ready to Bloom",
+      "fact": "These reddish-brown buds on the branches contain baby flowers waiting to open when it gets warmer! Plants change with the seasons and respond to temperature and sunlight. This is called **seasonal change** — that's when plants and animals behave differently as the weather gets warmer or colder throughout the year.",
+      "vocabulary": {
+        "term": "Seasonal Change",
+        "definition": "The way plants and animals change their behavior and appearance as seasons change from winter to spring to summer to fall."
+      }
     }
   ]
 }

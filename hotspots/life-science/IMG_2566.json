@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
-      "y": "25%",
-      "label": "Wing Patterns",
-      "fact": "This butterfly's wings have beautiful yellow and black spots that help identify its species. These colorful patterns also help scare away predators by making the butterfly look bigger and more dangerous than it really is."
+      "x": "75%",
+      "y": "35%",
+      "label": "Butterfly Wings",
+      "fact": "A butterfly's wings are covered with tiny scales that create beautiful patterns and colors. These colorful wings help butterflies attract mates and sometimes warn predators to stay away. The wings are so delicate that if you touch them, the scales can rub off and hurt the butterfly.",
+      "vocabulary": {
+        "term": "scales",
+        "definition": "Tiny, flat pieces that cover a butterfly's wings and give them color and pattern, like shingles on a roof."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "45%",
-      "label": "Long Antennae",
-      "fact": "Butterflies use their antennae like we use our nose - to smell! These thin, curved structures help the butterfly find flowers with sweet nectar and locate other butterflies."
+      "x": "80%",
+      "y": "55%",
+      "label": "Butterfly Proboscis",
+      "fact": "Butterflies have a long, tube-shaped mouth called a proboscis that they use to drink nectar from flowers. When the butterfly isn't eating, this mouth part rolls up like a scroll. This is an example of a special body part that helps an organism get food and survive.",
+      "vocabulary": {
+        "term": "proboscis",
+        "definition": "A long, thin, tube-shaped mouth that butterflies use to drink sweet nectar from inside flowers."
+      }
     },
     {
       "id": 3,
-      "x": "45%",
-      "y": "55%",
-      "label": "Curled Proboscis",
-      "fact": "The butterfly's tongue is called a proboscis and works like a drinking straw. When not eating, it curls up like a garden hose, then unrolls to sip sweet nectar from deep inside flowers."
+      "x": "25%",
+      "y": "50%",
+      "label": "Pink Flower",
+      "fact": "This flower needs the butterfly to visit it so that pollen can be carried from one flower to another. When the butterfly drinks nectar, pollen sticks to its body and gets transported to the next flower. This helps plants make seeds and is called **pollination** — that's when pollen is carried from one flower to another so plants can make seeds.",
+      "vocabulary": {
+        "term": "pollination",
+        "definition": "When pollen from one flower is carried to another flower, helping plants make seeds."
+      }
     },
     {
       "id": 4,
-      "x": "25%",
-      "y": "50%",
-      "label": "Flower Center",
-      "fact": "The bright yellow center of this zinnia flower is packed with tiny flowers and sweet nectar. This sugary liquid gives butterflies the energy they need to fly and helps flowers make seeds when butterflies carry pollen between plants."
+      "x": "65%",
+      "y": "25%",
+      "label": "Butterfly Antennae",
+      "fact": "The two long, thin structures on top of the butterfly's head are called antennae, and they help the butterfly sense its environment. Butterflies use their antennae to smell flowers, find food, and locate other butterflies. These special sense organs are a key body structure that helps butterflies survive and interact with their habitat.",
+      "vocabulary": {
+        "term": "antennae",
+        "definition": "Long, thin feelers on an insect's head that help it sense smells and touch in the environment."
+      }
     }
   ]
 }

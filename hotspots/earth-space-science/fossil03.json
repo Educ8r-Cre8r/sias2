@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "55%",
-      "y": "45%",
+      "x": "50%",
+      "y": "35%",
       "label": "Fossil Imprint",
-      "fact": "This is a fossil of an ancient sea creature called a trilobite that lived hundreds of millions of years ago. The detailed pattern you see shows the segments of its hard outer shell preserved in stone."
+      "fact": "This rock contains a fossil, which is the preserved remains of an ancient animal from millions of years ago! Fossils help scientists learn about plants and animals that lived long before humans existed on Earth. This is called a **fossil** — that's the preserved trace or remains of a living thing that has been buried in rock for a very long time.",
+      "vocabulary": {
+        "term": "Fossil",
+        "definition": "The preserved remains or trace of an ancient plant or animal found in rocks."
+      }
     },
     {
       "id": 2,
       "x": "65%",
-      "y": "50%",
-      "label": "Fine Detail Lines",
-      "fact": "These tiny lines show the texture of the trilobite's exoskeleton, which is like armor that protected its body. Scientists use these details to identify different species of trilobites."
+      "y": "45%",
+      "label": "Rock Texture and Weathering",
+      "fact": "Rocks like this one change over time through weathering, which means wind, water, and weather break them down into smaller pieces. The bumpy texture you see shows how this rock has been worn down by nature over many years. This process is called **weathering** — that's when rocks and minerals break apart slowly because of wind, rain, ice, and sunlight.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down of rocks into smaller pieces by wind, water, temperature changes, and weather."
+      }
     },
     {
       "id": 3,
       "x": "35%",
-      "y": "55%",
-      "label": "Rock Matrix",
-      "fact": "The tan and gray rock surrounding the fossil is called the matrix. It formed from sediment on the ocean floor and hardened over millions of years, preserving the trilobite inside."
+      "y": "60%",
+      "label": "Sedimentary Rock",
+      "fact": "This fossil is preserved in sedimentary rock, which forms when layers of sand, mud, and tiny rock pieces get pressed together over millions of years. The fossils trapped inside tell us the story of Earth's history! This type of rock is called **sedimentary rock** — that's rock made from bits of older rocks and shells that were compressed together over time.",
+      "vocabulary": {
+        "term": "Sedimentary Rock",
+        "definition": "Rock formed when layers of sediment (sand, mud, and pebbles) get pressed and cemented together over a long time."
+      }
     },
     {
       "id": 4,
       "x": "50%",
-      "y": "25%",
-      "label": "Segmented Body",
-      "fact": "You can see the trilobite's body is divided into segments, which helped it bend and move. Trilobites were some of the first animals with external skeletons!"
+      "y": "60%",
+      "label": "Evidence of Life",
+      "fact": "The detailed pattern you see is evidence of an ancient sea creature that lived in Earth's oceans millions of years ago! By studying fossils like this one, scientists can understand how life has changed on Earth over billions of years. This helps us learn about Earth's **geological history** — that's the story of how Earth and all its living things have changed over an extremely long time.",
+      "vocabulary": {
+        "term": "Geological History",
+        "definition": "The complete story of how Earth and the rocks, fossils, and life on it have changed over billions of years."
+      }
     }
   ]
 }

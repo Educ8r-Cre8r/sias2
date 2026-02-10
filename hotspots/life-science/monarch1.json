@@ -2,24 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
-      "y": "35%",
+      "x": "48%",
+      "y": "45%",
       "label": "Green Chrysalis",
-      "fact": "This green chrysalis is the pupal stage of a butterfly or moth. Inside this protective shell, an amazing transformation called metamorphosis is happening! The caterpillar's body is completely reorganizing into a beautiful winged insect."
+      "fact": "This green chrysalis shows an insect in the middle stage of its life cycle, called the **pupa** stage. Inside this protective case, an amazing transformation is happening — the insect is changing from a caterpillar into a butterfly or moth! This complete change in body form is one of nature's most incredible life cycles.",
+      "vocabulary": {
+        "term": "Chrysalis",
+        "definition": "A hard protective case where a caterpillar transforms into a butterfly or moth."
+      }
     },
     {
       "id": 2,
-      "x": "20%",
+      "x": "25%",
       "y": "40%",
-      "label": "Shed Skin",
-      "fact": "This tan, papery structure is the old skin the caterpillar shed before forming its chrysalis. Caterpillars have to shed their skin several times as they grow because their skin doesn't stretch! This leftover skin is called an exoskeleton."
+      "label": "Empty Chrysalis",
+      "fact": "This empty chrysalis is a clue that the insect has already completed its life cycle! The butterfly or moth has grown wings inside and pushed through the chrysalis to escape. This empty shell shows us one of the four stages all insects go through: egg, larva, pupa, and adult.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The series of changes a living thing goes through from birth to becoming an adult and making babies."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "50%",
-      "label": "Brick Wall Surface",
-      "fact": "This butterfly chose a safe spot on a brick wall to create its chrysalis. Many insects select sheltered locations like walls, plants, or under eaves to protect themselves while they transform. Safety from predators is very important during this vulnerable stage!"
+      "x": "48%",
+      "y": "28%",
+      "label": "Yellow Spots",
+      "fact": "The tiny yellow spots on the green chrysalis might be special structures that help the developing insect breathe and get oxygen inside its protective case. These spots are one way we can observe the **structures** of living things and how they help insects survive during their transformation.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "A body part or special feature of a living thing that helps it survive and do what it needs to do."
+      }
+    },
+    {
+      "id": 4,
+      "x": "48%",
+      "y": "65%",
+      "label": "Habitat: Rock Surface",
+      "fact": "These chrysalises are attached to a rocky surface, which is part of their **habitat** — the place where they live and grow. Insects choose safe spots like rocks and walls to hang their chrysalises because they are protected from wind, rain, and predators while they transform into adults.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The natural home or environment where a living thing lives and finds food, water, and shelter."
+      }
     }
   ]
 }

@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "25%",
       "y": "35%",
-      "label": "Snow-Covered Evergreen",
-      "fact": "Evergreen trees like this one keep their needles all winter long, unlike trees that lose their leaves. The snow sticks to the needles because they're sticky and rough, creating a beautiful winter coat!"
+      "label": "Snow on Evergreen",
+      "fact": "The snow sticks to these evergreen tree branches because of the cold winter weather. Snow is frozen water that falls from clouds when it's very cold outside. This process is called **precipitation** — that's when water falls from the sky as rain, snow, or sleet.",
+      "vocabulary": {
+        "term": "Precipitation",
+        "definition": "Water that falls from clouds to Earth in the form of rain, snow, sleet, or hail."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
+      "x": "65%",
       "y": "55%",
-      "label": "Accumulated Snow Load",
-      "fact": "Heavy snow piles up on tree branches because snow is much lighter and fluffier than rain. Trees have evolved flexible branches that can bend down under the weight of snow without breaking!"
+      "label": "Frozen Ground",
+      "fact": "The snowy ground is frozen solid because the air temperature has dropped below freezing. When the ground freezes, water in the soil turns to ice. This is part of the water cycle, where water changes between liquid and solid forms depending on how hot or cold it is. This process is called **freezing** — that's when liquid water turns into solid ice.",
+      "vocabulary": {
+        "term": "Freezing",
+        "definition": "When a liquid, like water, gets so cold that it turns into a solid, like ice."
+      }
     },
     {
       "id": 3,
-      "x": "75%",
-      "y": "50%",
-      "label": "Winter Frost Formation",
-      "fact": "The white coating on the branches is frost or rime ice that forms when water vapor in cold air freezes directly onto the tree. This process is called deposition and happens without the water becoming liquid first!"
+      "x": "70%",
+      "y": "40%",
+      "label": "Evergreen Tree Survival",
+      "fact": "Evergreen trees like this one keep their leaves all winter long, even when it's freezing cold. Their special waxy leaves help protect them and keep water inside so they don't dry out in the winter. Many animals depend on evergreens for food and shelter during the cold months. This shows how plants and animals are **adapted** — that means they have special features that help them survive in their environment.",
+      "vocabulary": {
+        "term": "Adapted",
+        "definition": "Having special features or behaviors that help a living thing survive in its environment."
+      }
     },
     {
       "id": 4,
-      "x": "60%",
-      "y": "70%",
-      "label": "Bare Deciduous Trees",
-      "fact": "The brown trees in the background are deciduous trees that have lost all their leaves for winter. They do this to save energy and water when it's too cold for their roots to absorb water from frozen soil."
+      "x": "50%",
+      "y": "75%",
+      "label": "Winter Season",
+      "fact": "This winter landscape shows how Earth's position and tilt affect the temperature and weather we experience. Winter happens in your part of Earth when it's tilted away from the Sun, so the sunlight is weaker and days are shorter. This regular pattern of seasons repeats every year as Earth orbits around the Sun. The changing seasons affect how weather patterns work on our planet. This is called **seasonal change** — that's when weather and environmental conditions change in a regular pattern throughout the year.",
+      "vocabulary": {
+        "term": "Seasonal Change",
+        "definition": "The regular pattern of weather and environmental changes that happens throughout the year, like winter being cold and summer being hot."
+      }
     }
   ]
 }

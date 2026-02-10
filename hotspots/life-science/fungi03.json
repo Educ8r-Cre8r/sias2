@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "45%",
-      "y": "55%",
-      "label": "Fungal Gills",
-      "fact": "These thin, blade-like structures underneath the mushroom cap are called gills. They produce millions of tiny spores that help the fungus reproduce, similar to how plants use seeds."
+      "y": "50%",
+      "label": "Mushroom Caps",
+      "fact": "These mushrooms are fungi, which are living organisms that break down dead wood and help return nutrients to the soil. Unlike plants, fungi cannot make their own food, so they must get energy from other materials like the decaying tree. This process is called **decomposition** — that's when dead things break down into smaller pieces that help feed the soil and other living things.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "The process where dead plants and animals break down into smaller pieces that return nutrients to the soil."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "35%",
-      "label": "Mushroom Cap",
-      "fact": "The umbrella-shaped cap protects the delicate gills underneath from rain and damage. Its peachy-orange color helps scientists identify different mushroom species."
+      "y": "25%",
+      "label": "Gills Underneath",
+      "fact": "Look closely at the wavy lines underneath the mushroom cap — these are called gills! Gills help the mushroom spread tiny spores, which are like seeds that help make new mushrooms. The gills release millions of spores into the air so mushrooms can reproduce and grow in new places.",
+      "vocabulary": {
+        "term": "Spores",
+        "definition": "Tiny, light particles that fungi release to make new mushrooms, similar to how plants spread seeds."
+      }
     },
     {
       "id": 3,
-      "x": "55%",
-      "y": "70%",
-      "label": "Fungal Stem",
-      "fact": "This stalk, called a stipe, supports the mushroom cap and connects it to the fungal network underground called mycelium, which breaks down dead wood for nutrients."
+      "x": "30%",
+      "y": "55%",
+      "label": "Dead Wood Habitat",
+      "fact": "The dark, decaying wood is the perfect home for these mushrooms to live and grow. Many organisms, like fungi, insects, and bacteria, depend on dead wood for food and shelter. This dead wood is part of an ecosystem where different living things interact and help each other survive.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a living thing makes its home and finds food, water, and shelter."
+      }
     },
     {
       "id": 4,
-      "x": "30%",
-      "y": "20%",
-      "label": "Host Tree",
-      "fact": "Mushrooms like these grow on dead or dying trees and logs. They are nature's recyclers, breaking down dead wood and returning nutrients back to the soil for new plants to use."
+      "x": "15%",
+      "y": "35%",
+      "label": "Living Tree Branch",
+      "fact": "The green needles on the branch show this tree is still alive, while the fungi below help recycle the dead wood. The living tree and the decomposing wood both play important roles in the forest ecosystem — the tree makes food from sunlight, and fungi break down dead material to help new plants grow.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things and non-living things in an area that interact with each other, like a forest or pond."
+      }
     }
   ]
 }

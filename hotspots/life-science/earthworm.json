@@ -5,28 +5,44 @@
       "x": "50%",
       "y": "45%",
       "label": "Earthworm Body",
-      "fact": "Earthworms have long, tube-shaped bodies made up of ring-like segments called annuli. These segments help the worm stretch and compress as it moves through soil and tunnels underground."
+      "fact": "Earthworms are living organisms that have long, tube-shaped bodies made of many segments, or rings. Each segment helps the earthworm move and bend as it tunnels through soil. This is called **segmentation** — that's when an animal's body is divided into separate rings or sections that help it move and function.",
+      "vocabulary": {
+        "term": "Segmentation",
+        "definition": "When an animal's body is divided into separate rings or sections that help it move and do its job."
+      }
     },
     {
       "id": 2,
-      "x": "35%",
+      "x": "45%",
       "y": "50%",
-      "label": "Worm Skin",
-      "fact": "Earthworm skin is moist and slimy, which helps them breathe! Unlike humans, earthworms don't have lungs—they absorb oxygen directly through their skin, which is why they need to stay damp."
+      "label": "Earthworm Habitat",
+      "fact": "This earthworm is on grass and in soil, which is its natural habitat where it lives and finds food. Earthworms help break down dead plants and leaves, making the soil rich and healthy for new plants to grow. This is called **decomposition** — that's when dead things break down and turn into nutrients that help new life grow.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a living thing makes its home and finds food, water, and shelter."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "48%",
-      "label": "Worm Movement",
-      "fact": "Earthworms move by contracting and relaxing their muscle segments in waves. This motion pushes them forward through soil, creating tunnels that help water and air reach plant roots."
+      "x": "55%",
+      "y": "40%",
+      "label": "Earthworm Skin",
+      "fact": "Earthworms have moist skin that helps them breathe, because they don't have lungs like we do! Their skin must stay wet so oxygen can pass through it into their body. If an earthworm's skin dries out, it cannot survive.",
+      "vocabulary": {
+        "term": "Respiration",
+        "definition": "The way living things take in oxygen and use it to stay alive and have energy to move and grow."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "25%",
-      "label": "Grass Habitat",
-      "fact": "Earthworms live in soil under grass and plants. They are decomposers that break down dead leaves and organic matter, turning it into nutrient-rich soil that helps plants grow."
+      "x": "35%",
+      "y": "30%",
+      "label": "Grass & Ecosystem",
+      "fact": "The grass in this image is part of an ecosystem with the earthworm — they depend on each other! Earthworms loosen the soil so grass roots can grow deeper, and dead grass becomes food for earthworms. This is called a **food chain** — that's when living things depend on each other for food and survival.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A group of living things and their environment all working together, where they need each other to survive."
+      }
     }
   ]
 }

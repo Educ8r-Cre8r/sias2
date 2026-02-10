@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "35%",
-      "y": "30%",
-      "label": "Eggshell Fragment",
-      "fact": "This broken eggshell shows where a baby bird hatched and broke free! Eggshells are made of calcium, which makes them hard and protective for the growing baby inside."
+      "x": "45%",
+      "y": "35%",
+      "label": "Eggshell Breaking",
+      "fact": "These broken eggshells show that a baby bird or reptile has hatched! When animals are ready to be born, they break out of their eggs in a process called hatching. This is part of the **life cycle** — that's the series of changes that living things go through from birth to adulthood.",
+      "vocabulary": {
+        "term": "Life cycle",
+        "definition": "The series of changes a living thing goes through from when it is born until it grows up and can have babies of its own."
+      }
     },
     {
       "id": 2,
       "x": "55%",
-      "y": "45%",
-      "label": "Nestling or Chick",
-      "fact": "This appears to be a young bird that recently hatched. Baby birds are covered in soft down feathers and depend on their parents for food and warmth until they grow stronger."
+      "y": "50%",
+      "label": "Soil and Decomposition",
+      "fact": "The dark soil and brown wood pieces around the eggs are made from things that have broken down over time. Dead leaves, branches, and other plant materials decay in the soil, which is called **decomposition**. This process returns nutrients back to the soil so new plants can grow strong and healthy.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "When dead plants and animals break down into smaller pieces and mix with soil, providing food for new plants to grow."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
+      "x": "35%",
       "y": "65%",
-      "label": "Nest Materials",
-      "fact": "Birds build nests from grass, twigs, and plant material to create a safe home for their eggs. This natural mulch and debris help insulate and protect the nest from weather."
+      "label": "Habitat and Ecosystem",
+      "fact": "This is a perfect example of a **habitat** — the place where an animal lives and finds everything it needs to survive. The soil, plants, and broken-down materials create an ecosystem where different living things interact with each other and their environment.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a plant or animal lives that has everything it needs, like food, water, shelter, and the right temperature."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "50%",
-      "label": "Wood Chips",
-      "fact": "The wood chips in this area help birds by providing good drainage and preventing moisture from harming eggs. Many ground-nesting birds prefer areas with natural mulch for protection."
+      "x": "60%",
+      "y": "25%",
+      "label": "Green Plants Growing",
+      "fact": "The green plant stems and leaves growing near the eggs need sunlight, water, and nutrients from the soil to survive. Plants are **living things** that grow and change, just like the baby animal that hatched from these eggs. Both plants and animals need the right conditions in their habitat to grow healthy.",
+      "vocabulary": {
+        "term": "Living things",
+        "definition": "Plants and animals that are alive, can grow, need food and water, and can have babies to continue their species."
+      }
     }
   ]
 }

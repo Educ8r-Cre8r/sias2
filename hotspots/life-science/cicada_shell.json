@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "45%",
-      "label": "Insect Exoskeleton",
-      "fact": "Cicadas have a hard outer shell called an exoskeleton that protects their body like armor. As it grows, the insect must shed this shell and grow a new, bigger one!"
+      "label": "Insect on Tree Bark",
+      "fact": "This brown insect is perfectly camouflaged against the tree bark, which helps it hide from animals that might eat it. Many insects live on trees and use them as their habitat for shelter and food. This is called **camouflage** — that's when an animal's color or pattern helps it blend in with its surroundings so predators can't easily see it.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "When an animal's color, pattern, or shape helps it blend in with its environment to stay safe from predators."
+      }
     },
     {
       "id": 2,
-      "x": "30%",
+      "x": "35%",
       "y": "35%",
-      "label": "Lichen Growth",
-      "fact": "The green, crusty patches are lichens, which are living organisms made of fungi and algae working together. Lichens grow very slowly and can live for hundreds of years!"
+      "label": "Green Lichen",
+      "fact": "The green, leafy-looking plants covering the tree bark are called lichen, and they are actually two different organisms living together! Lichen show us how different living things can help each other survive in the same habitat. This partnership is called **symbiosis** — that's when two different living things live together and help each other.",
+      "vocabulary": {
+        "term": "Symbiosis",
+        "definition": "A special partnership where two different living things live together and both benefit from the relationship."
+      }
     },
     {
       "id": 3,
-      "x": "75%",
-      "y": "50%",
-      "label": "Tree Bark",
-      "fact": "The adult cicada emerges from the ground or tree bark, shedding its exoskeleton (exuvia) as it transforms. The gray and brown crumbly surface is tree bark, which protects the living wood inside."
+      "x": "50%",
+      "y": "20%",
+      "label": "Tree Bark Texture",
+      "fact": "The rough, cracked bark of this tree provides homes for many tiny creatures like insects, fungi, and lichen. Trees are an important part of ecosystems because they provide food and shelter for other living things. This is called a **habitat** — that's a place where plants and animals live and find everything they need to survive.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "A place where a plant or animal lives and can find food, water, and shelter."
+      }
     },
     {
       "id": 4,
-      "x": "55%",
-      "y": "65%",
-      "label": "Metamorphosis",
-      "fact": "This image illustrates the life cycle of a cicada and its relationship with its environment. Cicadas undergo incomplete metamorphosis, molting from nymphs to adults."
+      "x": "65%",
+      "y": "50%",
+      "label": "Lichen and Insect Community",
+      "fact": "This tiny space on the tree is home to many living things working together as a community! The lichen provides food and shelter, while the insect helps spread lichen spores to other trees. All the different plants and animals that live together and depend on each other create what scientists call an **ecosystem** — that's all the living things and nonliving things in an area that work together.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things (like plants and animals) and nonliving things (like soil and water) in an area that work together."
+      }
     }
   ]
 }

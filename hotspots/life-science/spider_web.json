@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "50%",
-      "label": "Spider Web Center",
-      "fact": "Spiders create webs from silk that they produce in their bodies. This silk is stronger than steel of the same thickness, making it one of nature's toughest materials!"
+      "label": "Spider Web Structure",
+      "fact": "Spiders spin webs using silk that comes from their bodies—this is an amazing example of how living things have special body parts that help them survive! The web's design is perfectly structured to catch insects for food, showing how an organism's body structure helps it meet its needs. This is called **adaptation** — that's when a living thing has special features that help it survive in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps a living thing survive and find food, water, or shelter."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "30%",
-      "label": "Radial Web Strands",
-      "fact": "The straight lines stretching from the center are called radial threads. Spiders use these like spokes on a wheel to support the entire web structure."
+      "x": "85%",
+      "y": "65%",
+      "label": "Plant Leaves and Stems",
+      "fact": "The green plant on the right side of the image is part of the spider's habitat and ecosystem! Plants and spiders live together in nature—the plant provides shelter and attracts insects that the spider hunts for food. This shows how different living things interact and depend on each other in their environment. This is called an **ecosystem** — that's a community of living things and their non-living surroundings all working together.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things (like plants and animals) in a place and how they interact with each other and their surroundings."
+      }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "70%",
-      "label": "Spiral Catching Threads",
-      "fact": "The curved lines you see form a spiral pattern that catches insects. These sticky threads trap prey, while the radial threads are not sticky so the spider can walk safely."
+      "y": "30%",
+      "label": "Dew Drops on Web",
+      "fact": "You can see tiny drops of water on the spider's web! These drops show us that the spider's web can trap not just food, but also water from the air—something that helps the spider survive. The spider's body needs water just like all living things do to stay healthy and alive. This is called **basic needs** — that's food, water, air, and shelter that every living thing must have to survive.",
+      "vocabulary": {
+        "term": "Basic Needs",
+        "definition": "Things that all living things need to survive, including food, water, air, and shelter."
+      }
     },
     {
       "id": 4,
-      "x": "85%",
+      "x": "20%",
       "y": "45%",
-      "label": "Dew Drops on Web",
-      "fact": "The tiny beads of water on the web are morning dew. They help us see the web's intricate design and also attract insects to the sticky threads."
+      "label": "Web Construction and Design",
+      "fact": "The perfectly organized pattern of the spider's web shows incredible engineering by the spider! This web structure helps the spider function as a hunter—it's designed to trap prey while the spider waits in the center. Different spiders build different web shapes, which is an example of how organisms have different structures and functions based on how they live. This is called **structure and function** — that's how the shape of something helps it do its job.",
+      "vocabulary": {
+        "term": "Structure and Function",
+        "definition": "How the shape or design of a body part helps a living thing do what it needs to do to survive."
+      }
     }
   ]
 }

@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Tree Canopy",
-      "fact": "This tree's wide, spreading canopy provides shade for the entire park! Trees produce oxygen through photosynthesis and help keep our air clean and fresh."
+      "label": "Tree Trunk and Bark",
+      "fact": "This tree has a thick, dark trunk that protects it and helps it stay strong and healthy! The rough bark you see is like the tree's skin — it keeps the tree safe from insects, disease, and bad weather. Trees need strong trunks to grow tall and support all their leaves and branches.",
+      "vocabulary": {
+        "term": "Bark",
+        "definition": "The hard outer covering of a tree trunk that protects the wood inside, just like your skin protects your body."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "65%",
-      "label": "Thick Trunk",
-      "fact": "This tree's massive trunk has grown over many years by adding rings of new wood each season. The darker, wrinkled bark protects the tree from insects and weather."
+      "x": "48%",
+      "y": "28%",
+      "label": "Leaves and Branches",
+      "fact": "The green leaves on this tree are like tiny food factories that help the tree grow! Plants use sunlight, water, and air to make food in their leaves through a process called photosynthesis. This is how trees get the energy they need to live and grow bigger.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The way plants use sunlight, water, and air to make their own food so they can grow and stay healthy."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "45%",
-      "label": "Root System",
-      "fact": "Beneath the soil, this tree has extensive roots that anchor it firmly to the ground. Roots absorb water and nutrients from the soil to help the tree grow tall and strong."
+      "x": "50%",
+      "y": "58%",
+      "label": "Root System Underground",
+      "fact": "Even though we can't see them in this picture, this huge tree has roots deep underground that anchor it to the soil! Roots absorb water and nutrients from the ground that help the tree survive and grow. The bigger and stronger the tree, the deeper and wider its root system usually is.",
+      "vocabulary": {
+        "term": "Roots",
+        "definition": "The parts of a plant that grow underground and soak up water and nutrients that the plant needs to live and grow."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
-      "y": "25%",
-      "label": "Green Leaves",
-      "fact": "The green color comes from chlorophyll, a special pigment that helps leaves capture sunlight. Through photosynthesis, leaves convert sunlight into energy that feeds the entire tree."
+      "x": "50%",
+      "y": "22%",
+      "label": "Tree as Habitat",
+      "fact": "This old tree is like an apartment building for many different animals and living things! Birds nest in the branches, insects live in the bark, and small animals might live in holes or under the roots. Trees are habitats that provide shelter, food, and water for lots of different organisms.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "A place where an animal or plant lives and finds everything it needs to survive, like food, water, and shelter."
+      }
     }
   ]
 }

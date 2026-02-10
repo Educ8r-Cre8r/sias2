@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "35%",
-      "y": "50%",
+      "x": "25%",
+      "y": "55%",
       "label": "Dry Ingredients Mixed",
-      "fact": "This bowl contains dry ingredients like flour and cinnamon that have been whisked together. Mixing dry ingredients separately helps distribute leavening agents and spices evenly throughout the batter for consistent flavor and texture."
+      "fact": "When you mix the brown flour and white sugar together, you're combining two different materials to make something new. This is called a **mixture** — that's when you put two or more things together, but each one stays the same kind of material. Even though they look blended, the sugar and flour are still separate tiny pieces.",
+      "vocabulary": {
+        "term": "Mixture",
+        "definition": "When two or more materials are put together but each one stays the same kind of material."
+      }
     },
     {
       "id": 2,
       "x": "70%",
-      "y": "55%",
-      "label": "Wet Ingredients Combined",
-      "fact": "The KitchenAid mixer is combining red wet ingredients like eggs, oil, or food coloring. Mixing wet and dry ingredients separately then combining them is a baking technique that creates better texture and helps cakes rise properly."
+      "y": "50%",
+      "label": "Red Liquid Ingredient",
+      "fact": "The red liquid in the KitchenAid mixer is a different state of matter than the dry ingredients. This liquid will mix with the dry ingredients to change their properties and create cake batter. When a liquid and solids combine, they create a new material with completely different properties from what you started with!",
+      "vocabulary": {
+        "term": "State of Matter",
+        "definition": "The form something takes — like solid (hard), liquid (flows), or gas (invisible air)."
+      }
     },
     {
       "id": 3,
-      "x": "15%",
-      "y": "25%",
-      "label": "Sugar Measurement",
-      "fact": "Sugar is a key ingredient in baking that does more than just add sweetness. It helps cakes stay moist, gives them structure, and creates a golden-brown color when baked through a chemical reaction called caramelization."
+      "x": "65%",
+      "y": "35%",
+      "label": "KitchenAid Mixer",
+      "fact": "The mixer uses a **force** called rotation to spin the beaters around and around very fast. This spinning force pushes and breaks apart the ingredients, mixing them together evenly. The motion of the beaters is a great example of how forces can change the way materials look and feel.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop, or change direction."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "20%",
-      "label": "Precision Baking Tools",
-      "fact": "Using a stand mixer and precise measurements is important in baking science. Unlike cooking, baking requires exact amounts of ingredients because chemical reactions depend on specific ratios to create the right texture and rise."
+      "x": "15%",
+      "y": "25%",
+      "label": "Sugar Bag",
+      "fact": "Sugar is a **solid** — a material that has its own shape and takes up a certain amount of space. When you pour it into a bowl, it stays as tiny grains, even though they spread out. Later, when you add the liquid and mix, the sugar will dissolve, meaning it will break apart into such tiny pieces that you can't see it anymore!",
+      "vocabulary": {
+        "term": "Solid",
+        "definition": "A material that has its own shape and doesn't change unless you do something to it."
+      }
     }
   ]
 }

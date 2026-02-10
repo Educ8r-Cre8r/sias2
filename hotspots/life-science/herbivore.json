@@ -5,28 +5,44 @@
       "x": "50%",
       "y": "45%",
       "label": "Animal Footprints",
-      "fact": "These are fresh footprints pressed into the soft mud! Animals leave tracks like these when they walk through wet soil or sand. Scientists called trackers use footprints to identify which animals visited an area and where they were going."
+      "fact": "These tracks in the mud show where an animal walked! By looking at footprints, scientists can figure out what animal was here, how big it was, and which direction it was going. This is called **evidence** — clues that help us learn about animals in their habitats.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives that has everything it needs, like food, water, shelter, and space."
+      }
     },
     {
       "id": 2,
       "x": "25%",
-      "y": "30%",
-      "label": "Green Plant Growth",
-      "fact": "The green plants growing around the tracks show how life returns quickly to disturbed soil. Plants need sunlight, water, and nutrients from the soil to grow and thrive in their habitat."
+      "y": "35%",
+      "label": "Soil and Decomposition",
+      "fact": "The dark brown soil here is made from dead plants and animals that have broken down over time. Decomposers like bacteria and fungi break down these materials and return nutrients to the soil, which helps new plants grow! This is called **decomposition** — when dead things break apart naturally.",
+      "vocabulary": {
+        "term": "Decomposer",
+        "definition": "A living thing, like bacteria or fungi, that breaks down dead plants and animals into soil."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "50%",
-      "label": "Pink Flowering Plants",
-      "fact": "These small pink flowers are blooming in the natural meadow habitat. Flowers attract insects like bees and butterflies that help pollinate plants so they can make seeds and new plants."
+      "x": "60%",
+      "y": "20%",
+      "label": "Pink Flowers",
+      "fact": "These pink flowers are plants that need sunlight, water, and nutrients from the soil to grow and survive. Flowers make seeds that can grow into new plants, and they attract insects and animals that help spread pollen. This is part of a **life cycle** — the stages living things go through from birth to growth to making babies.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The stages a living thing goes through: being born, growing, having babies, and eventually dying."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "20%",
-      "label": "Soil Composition",
-      "fact": "The reddish-brown soil visible in the footprints contains minerals, organic matter, and organisms that help plants grow. Healthy soil is home to billions of tiny creatures that break down dead plants and recycle nutrients."
+      "x": "35%",
+      "y": "60%",
+      "label": "Grass and Green Plants",
+      "fact": "All these green plants are living things that need water, sunlight, and nutrients to grow and stay healthy. Plants get energy from the sun through a process called **photosynthesis**, and animals depend on plants for food and shelter in this ecosystem.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The way plants use sunlight to make their own food and energy to grow."
+      }
     }
   ]
 }

@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "45%",
-      "y": "35%",
-      "label": "Long Bean Pod",
-      "fact": "This is a yard-long bean, also called an asparagus bean! These beans grow much longer than regular green beans and can reach up to 3 feet long. They're popular vegetables in Asian cooking and grow on climbing vines."
+      "y": "25%",
+      "label": "Green Bean Pod",
+      "fact": "This long green pod is a fruit that grows from the bean plant's flower! Inside the pod are seeds (the beans) that the plant made to grow new plants. Plants use energy from sunlight to make the food they need to grow these fruits and seeds. This process is called **photosynthesis** — that's when plants use sunlight, water, and air to make their own food.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The way plants use sunlight to turn water and air into food so they can grow."
+      }
     },
     {
       "id": 2,
-      "x": "60%",
-      "y": "45%",
-      "label": "Climbing Vine Structure",
-      "fact": "This plant uses curling tendrils to grab onto the wooden fence for support as it grows upward. This climbing ability helps the plant reach sunlight while saving space in gardens!"
+      "x": "50%",
+      "y": "50%",
+      "label": "Climbing Vines",
+      "fact": "These plants are climbing up the wooden fence to reach more sunlight! Plants have different structures that help them survive in their environment — these curly tendrils act like tiny hands that grab onto things as the plant grows. By climbing toward the sun, the plant can get the light energy it needs to make food and grow bigger.",
+      "vocabulary": {
+        "term": "Tendrils",
+        "definition": "Thin, curly parts of a plant that wrap around objects to help the plant climb."
+      }
     },
     {
       "id": 3,
       "x": "35%",
-      "y": "25%",
+      "y": "35%",
       "label": "Yellow Flowers",
-      "fact": "These yellow flowers will develop into the bean pods we see below! Flowers are important because they contain the plant's reproductive parts and must be pollinated before beans can grow."
+      "fact": "These bright yellow flowers are where the plant makes seeds! Flowers are important plant structures that attract insects like bees and butterflies. When these insects visit the flowers to drink nectar, they help spread pollen from flower to flower, which allows the plant to make new seeds and grow new plants.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen moves from one flower to another (usually by insects or wind) so the plant can make seeds."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "60%",
-      "label": "Wooden Fence Support",
-      "fact": "Gardeners use fences and trellises to support climbing plants like this bean vine. This helps the plant grow vertically, keeps beans off the ground, and makes harvesting easier!"
+      "x": "60%",
+      "y": "55%",
+      "label": "Plant Leaves",
+      "fact": "The green leaves you see are like little food factories for the plant! Leaves have a special green color from a substance called chlorophyll that helps capture sunlight. The plant uses the energy from sunlight along with water from the soil to make the sugars and energy it needs to grow strong stems, leaves, and fruits.",
+      "vocabulary": {
+        "term": "Chlorophyll",
+        "definition": "The green stuff in leaves that helps plants catch sunlight and turn it into food."
+      }
     }
   ]
 }

@@ -4,29 +4,45 @@
       "id": 1,
       "x": "65%",
       "y": "35%",
-      "label": "Bee's Eyes",
-      "fact": "Bees have large compound eyes made up of thousands of tiny lenses that help them see flowers and navigate through the sky. They can also see ultraviolet colors that humans cannot, which helps them find the best flowers for pollen!"
+      "label": "Bee's Body Parts",
+      "fact": "Bees have special body structures that help them survive and do important jobs. You can see this bee's fuzzy body, six legs, and long antennae that help it sense flowers and find food. These body parts show how animals are designed perfectly for the work they do in nature.",
+      "vocabulary": {
+        "term": "Body structures",
+        "definition": "The different parts of an animal's body that help it live, grow, and do activities like eating, moving, and sensing things around it."
+      }
     },
     {
       "id": 2,
-      "x": "70%",
-      "y": "55%",
-      "label": "Pollen Baskets",
-      "fact": "Bees have special pouches on their back legs called pollen baskets where they collect and carry pollen from flowers. A single bee can carry pollen weighing almost as much as itself!"
+      "x": "50%",
+      "y": "60%",
+      "label": "Bee on Plant",
+      "fact": "This bee is visiting a plant pod to collect pollen and nectar for food. When the bee moves from flower to flower, yellow pollen sticks to its fuzzy body and gets carried to other plants. This process, called **pollination**, helps plants make seeds and fruit that we eat!",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen is carried from one flower to another by bees, wind, or other animals, which helps plants make seeds."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
-      "y": "50%",
-      "label": "Fuzzy Body",
-      "fact": "A bee's body is covered in tiny hairs that act like velcro to catch pollen as it moves from flower to flower. This is how bees accidentally pollinate plants while collecting food for their hive."
+      "x": "25%",
+      "y": "55%",
+      "label": "Green Plant Pod",
+      "fact": "Plants like this one need sunlight, water, and air to grow and stay healthy. This pod will eventually develop into a seed case that contains baby plants inside. The bee helps this plant reproduce by carrying pollen, showing how living things depend on each other in nature.",
+      "vocabulary": {
+        "term": "Reproduce",
+        "definition": "When living things make new plants or animals like themselves, usually by making seeds or babies."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "60%",
-      "label": "Green Plant Pod",
-      "fact": "This appears to be a developing seed pod on a plant. Bees help create these pods by pollinating flowers, and the seeds inside will grow into new plants!"
+      "x": "65%",
+      "y": "20%",
+      "label": "Bee's Long Antennae",
+      "fact": "A bee's antennae are like special sensors that help it smell flowers, feel air movement, and communicate with other bees. These body parts are so sensitive that they can detect tiny amounts of pollen and nectar from far away. Antennae are an important adaptation that helps bees survive and find food.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and thrive in its environment."
+      }
     }
   ]
 }

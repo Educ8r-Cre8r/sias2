@@ -5,28 +5,44 @@
       "x": "50%",
       "y": "25%",
       "label": "Long Pointed Beak",
-      "fact": "Pelicans have long, curved beaks specially designed for catching fish in the water. The beak can hold up to 3 gallons of water in a pouch underneath, making it one of the largest beaks of any bird!"
+      "fact": "A pelican's beak is specially designed to help it catch fish in the water. The shape and size of an animal's body parts help it survive and find food in its habitat. This is called **adaptation** — a special body feature that helps a living thing survive in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal live and survive in its habitat."
+      }
     },
     {
       "id": 2,
       "x": "45%",
-      "y": "45%",
-      "label": "Waterproof Feathers",
-      "fact": "Pelican feathers are covered with a special oil that makes them waterproof. This helps them stay dry and warm even after diving into the ocean to catch fish."
+      "y": "60%",
+      "label": "Strong Wings and Feathers",
+      "fact": "Pelicans have large wings covered in waterproof feathers that help them fly and stay dry in the water. Different animals have different body structures that help them move and live in their own special ways. These feathers are a **structure** that helps this bird survive near the ocean.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "A body part that an animal has, like wings, fins, or legs, that helps it do something important."
+      }
     },
     {
       "id": 3,
       "x": "55%",
       "y": "70%",
-      "label": "Strong Feet",
-      "fact": "Pelicans have webbed feet that help them swim and balance on rocks or docks. Their feet act like little paddles to push them through the water efficiently."
+      "label": "Webbed Feet",
+      "fact": "Pelicans have webbed feet that help them swim and move through the water easily. Animals living in water habitats have special body parts that help them survive in that environment. This webbed foot is an **adaptation** that makes pelicans excellent swimmers.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal or plant lives, like an ocean, forest, or desert."
+      }
     },
     {
       "id": 4,
-      "x": "30%",
-      "y": "20%",
-      "label": "Eye and Head Markings",
-      "fact": "The white and black markings on a pelican's head help it look for fish in the water. Their excellent eyesight helps them spot fish from far away before diving down to catch them."
+      "x": "45%",
+      "y": "15%",
+      "label": "Black and White Coloring",
+      "fact": "This pelican's dark and light colored feathers help it blend in with its water and sky habitat, which keeps it safe from danger. Animals have different colors and patterns that help them hide or be noticed in nature. This coloring pattern is an **adaptation** called camouflage.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors or patterns on an animal's body that help it hide by blending in with its surroundings."
+      }
     }
   ]
 }

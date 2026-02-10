@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Structure and Function  ",
-      "fact": "The centipede's segmented body and numerous legs are specialized structures. The legs provide speed for hunting, while the antennae serve as primary sensory organs in dark environments."
+      "label": "Head and Eyes",
+      "fact": "Scorpions have simple eyes that help them sense light and movement in dark places where they live. Their eyes are part of their body structure that helps them survive as hunters. This is called **adaptation** — that's when an animal's body parts help it live in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live in its home."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "50%",
-      "label": "Segmented Body",
-      "fact": "This centipede represents a predator that has evolved specific physical structures to thrive in its niche. The segmentation allows for extreme flexibility, enabling the creature to navigate tight crevices in soil or wood."
+      "y": "55%",
+      "label": "Segmented Abdomen",
+      "fact": "The scorpion's body is divided into many ring-like sections called segments that help it move and bend. These segments are connected together like a train made of connected cars, allowing the scorpion to curl its tail up for hunting. A scorpion's body is made up of these **segments** — that's why we call it **segmentation**, which helps the animal be flexible.",
+      "vocabulary": {
+        "term": "Segmentation",
+        "definition": "When an animal's body is divided into many connected ring-like sections that help it move and bend."
+      }
     },
     {
       "id": 3,
       "x": "50%",
       "y": "75%",
-      "label": "Curved Tail with Stinger",
-      "fact": "It uses its antennae to sense vibrations and chemical signals from prey, then utilizes its modified front legs (forcipules) to deliver venom."
+      "label": "Tail with Stinger",
+      "fact": "The curved tail at the bottom is the scorpion's most important hunting tool—it has a venomous stinger to catch prey like insects and spiders. This tail helps the scorpion get food to eat, which is one of the basic **life functions** all animals need to survive. This is called a **behavioral adaptation** — that's when an animal uses a special body part to hunt or protect itself.",
+      "vocabulary": {
+        "term": "Life Functions",
+        "definition": "The basic things all living things need to do to stay alive, like eating food, growing, and moving."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "55%",
-      "label": "Ecosystem Roles",
-      "fact": "As a predator of insects and spiders, the centipede plays a crucial role in maintaining the balance of the local food web."
+      "x": "50%",
+      "y": "45%",
+      "label": "Eight Legs",
+      "fact": "Scorpions have eight legs that help them walk quickly across the ground and climb over rocks and wood. These legs are part of their **body structure**, which means the way their body is built helps them move and hunt in their habitat. All arachnids, like spiders and scorpions, have exactly eight legs, which is how we can tell them apart from insects that have six legs.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The way an animal's body is built with different parts that help it move, eat, and survive."
+      }
     }
   ]
 }

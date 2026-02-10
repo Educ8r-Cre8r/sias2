@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Bubble Formation",
-      "fact": "This bubble is filled with air trapped inside a thin layer of liquid. Bubbles are round because the surface of the liquid pulls equally in all directions, creating the most compact shape possible."
+      "label": "Bubble Surface",
+      "fact": "This bubble is made of soap and water, which are both types of matter. The thin film you see is so delicate that it can pop with just a tiny touch! This shows us how matter can change forms and how physical properties like thickness affect how fragile something is.",
+      "vocabulary": {
+        "term": "Matter",
+        "definition": "Anything that takes up space and has weight, like solids, liquids, and gases."
+      }
     },
     {
       "id": 2,
       "x": "45%",
       "y": "50%",
-      "label": "Surface Tension",
-      "fact": "The clear bubble skin you see is made possible by surface tension, which is like an invisible elastic layer on water. This tension allows the bubble to hold its shape without popping immediately."
+      "label": "Light Reflecting",
+      "fact": "You can see rainbow colors on the bubble because light is bouncing off the soap film in different ways. This is a physical property called reflection, and it happens when light bounces off a surface. The different colors show us how light bends and reflects differently!",
+      "vocabulary": {
+        "term": "Reflection",
+        "definition": "When light bounces off a surface, like a mirror or a bubble, instead of passing through it."
+      }
     },
     {
       "id": 3,
-      "x": "55%",
-      "y": "55%",
-      "label": "Light Refraction",
-      "fact": "You can see the red and black colors distorted through the bubble because light bends when it passes through curved surfaces. This bending of light is called refraction and helps create the rainbow-like shimmer on bubbles."
+      "x": "60%",
+      "y": "45%",
+      "label": "Curved Shape",
+      "fact": "Bubbles are always round because the water and soap stretch equally in all directions, creating the most balanced shape possible. This curved surface is a physical property of bubbles that helps them float and move through the air with ease.",
+      "vocabulary": {
+        "term": "Physical Property",
+        "definition": "A characteristic of matter that you can observe or measure without changing what the material is, like shape, color, or size."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "45%",
-      "label": "Thin Liquid Film",
-      "fact": "Bubbles are incredibly thin\u2014sometimes thinner than a human hair! Despite being so thin, the film of liquid can trap air inside and create a pocket that floats in the air."
+      "x": "30%",
+      "y": "60%",
+      "label": "Transparent Film",
+      "fact": "You can see through the bubble's thin soap film, which means it's transparent. This shows how different materials have different physical properties—some let light pass through them while others don't. The thinness of the soap film makes it see-through and very delicate.",
+      "vocabulary": {
+        "term": "Transparent",
+        "definition": "When something is clear enough that you can see right through it, like glass or the bubble film."
+      }
     }
   ]
 }

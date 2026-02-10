@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "35%",
-      "label": "Fossil Face",
-      "fact": "This is a trilobite fossil, an ancient creature that lived in the ocean over 500 million years ago. You can see its face with eyes and segments that protected its body like armor."
+      "label": "Fossil Shell",
+      "fact": "This is a fossil — the preserved remains of a creature that lived long, long ago! Fossils like this help scientists learn about Earth's history and what living things existed thousands of years ago. This is called a **fossil** — that's when the hard parts of plants or animals turn into rock over millions of years and get preserved in the ground.",
+      "vocabulary": {
+        "term": "Fossil",
+        "definition": "The preserved remains or traces of ancient living things that have turned into rock over millions of years."
+      }
     },
     {
       "id": 2,
-      "x": "52%",
-      "y": "55%",
-      "label": "Segmented Body",
-      "fact": "The lines and ridges on the trilobite show its body segments, which allowed it to curl up in a ball for protection. These segments were flexible, like your backbone!"
+      "x": "65%",
+      "y": "50%",
+      "label": "Rock Layers",
+      "fact": "You can see different colored rocks stacked together in this pile, just like layers of a sandwich! Rocks form in layers over time, and by studying these layers, scientists can tell the age of Earth and understand how our planet has changed. The study of rock layers is called **stratigraphy** — it helps us read Earth's history like a book.",
+      "vocabulary": {
+        "term": "Rock Layers",
+        "definition": "Stacked sheets of rock that form over time, with older rocks usually at the bottom and newer rocks at the top."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "45%",
-      "label": "Preserved Details",
-      "fact": "Even though this creature died millions of years ago, we can still see fine details like its legs and shell pattern in the rock. This helps scientists understand what ancient life looked like."
+      "x": "35%",
+      "y": "60%",
+      "label": "Weathering & Erosion",
+      "fact": "Notice how these rocks have rough, bumpy surfaces and some are worn smooth? This happens because of **weathering** — when wind, water, and weather break down rocks into smaller pieces over long periods of time. Earth is constantly changing as rocks wear away and get transported to new places!",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow process where rocks are broken down into smaller pieces by wind, water, ice, and weather."
+      }
     },
     {
       "id": 4,
-      "x": "25%",
-      "y": "50%",
-      "label": "Rock Matrix",
-      "fact": "The tan and brown rock surrounding the fossil is called sedimentary rock. It formed from mud and sand that buried the trilobite and hardened over millions of years."
+      "x": "75%",
+      "y": "25%",
+      "label": "Mineral Formation",
+      "fact": "These rocks are made up of tiny crystals called minerals that formed deep in the Earth over millions of years! **Minerals** are the building blocks of all rocks, and each type has its own special shape, color, and hardness. Learning about minerals helps us understand what Earth is made of underneath our feet.",
+      "vocabulary": {
+        "term": "Minerals",
+        "definition": "Natural, solid materials with a specific chemical makeup and crystal structure that make up rocks."
+      }
     }
   ]
 }

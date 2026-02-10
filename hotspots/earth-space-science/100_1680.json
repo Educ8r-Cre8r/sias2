@@ -5,28 +5,44 @@
       "x": "15%",
       "y": "25%",
       "label": "Snow-Covered Evergreen",
-      "fact": "Evergreen trees like this pine keep their needles all winter long, which helps them survive freezing temperatures. The snow piles up on the branches because the waxy coating on pine needles prevents the snow from sliding off easily."
+      "fact": "This evergreen tree is covered in snow, which shows how weather changes throughout the year. The snow sticks to the tree's branches because of the cold temperature during winter. This is called **precipitation** — that's when water falls from clouds as rain, snow, sleet, or hail.",
+      "vocabulary": {
+        "term": "Precipitation",
+        "definition": "Water that falls from clouds to Earth's surface in forms like rain, snow, sleet, or hail."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "50%",
+      "x": "65%",
+      "y": "55%",
       "label": "Frozen Lake",
-      "fact": "When water freezes solid enough, you can see it turning into ice! This frozen lake is safe to walk on because the ice is thick and strong. In winter, many animals actually live under the ice in the water below."
+      "fact": "The lake in the background is completely frozen solid because winter temperatures are so cold. Water changes from a liquid to a solid when it freezes, and this frozen water creates a different landscape than we see in other seasons. This is called **the water cycle** — the continuous movement of water between Earth's surface and the atmosphere.",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous movement of water from Earth's surface to the atmosphere and back again through evaporation, condensation, and precipitation."
+      }
     },
     {
       "id": 3,
-      "x": "60%",
-      "y": "30%",
+      "x": "50%",
+      "y": "60%",
       "label": "Bare Deciduous Trees",
-      "fact": "These trees lost their leaves in fall to conserve water during winter. The trees are dormant, or sleeping, and will wake up when spring arrives and temperatures warm up again."
+      "fact": "The trees without leaves show what happens in winter — many trees lose their leaves to survive the cold season. In the spring and summer, these trees will grow new leaves, and in fall they will lose them again. This repeating pattern is part of the **seasons**, which are caused by Earth's tilted axis and its path around the Sun.",
+      "vocabulary": {
+        "term": "Seasons",
+        "definition": "The four repeating periods of the year (spring, summer, fall, and winter) that have different weather patterns and affect how plants and animals behave."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "65%",
-      "label": "Snow Accumulation",
-      "fact": "Heavy snow has piled up on this old wagon, weighing it down with thick white layers. Snow is actually very light and fluffy at first, but as more snow falls on top, it gets compressed and becomes heavier and denser."
+      "x": "48%",
+      "y": "40%",
+      "label": "Snow on Ground",
+      "fact": "The thick snow covering the ground is a type of weather that brings water to Earth as frozen precipitation. When snow melts in spring, it becomes water that flows into lakes and rivers, which is important for plants and animals. The snow insulates the ground and protects organisms living beneath it during the cold winter months.",
+      "vocabulary": {
+        "term": "Weather",
+        "definition": "The condition of the atmosphere at a particular place and time, including temperature, precipitation, wind, and clouds."
+      }
     }
   ]
 }

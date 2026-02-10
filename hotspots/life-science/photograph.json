@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "85%",
-      "y": "50%",
-      "label": "Highway Through Forest",
-      "fact": "Roads cut through forests to help people travel. Engineers must carefully plan roads to minimize damage to ecosystems while connecting communities. This road shows how human infrastructure and nature share the same land."
+      "x": "25%",
+      "y": "45%",
+      "label": "Dense Forest",
+      "fact": "This thick forest is home to many living things like birds, deer, insects, and plants that all depend on each other to survive. This is called an **ecosystem** — a community of living organisms that interact with each other and their environment, like a forest neighborhood where every creature has an important job!",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things (plants and animals) in an area and how they interact with each other and their non-living environment like soil and water."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "25%",
-      "label": "Dense Forest Canopy",
-      "fact": "The thick green layer you see is the forest canopy made up of tree leaves and branches. This canopy provides homes for thousands of animals and helps clean our air by producing oxygen. Forests like this are vital for fighting climate change!"
+      "y": "65%",
+      "label": "Road Through Forest",
+      "fact": "This road cuts through the forest and can affect where animals can live and travel. When habitats are broken up by roads and buildings, some animals lose their homes or cannot find food and water as easily. This shows why it's important to protect wild spaces where organisms can thrive.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a plant or animal lives that has all the things it needs like food, water, shelter, and space."
+      }
     },
     {
       "id": 3,
       "x": "60%",
-      "y": "65%",
-      "label": "Agricultural Fields",
-      "fact": "The lighter green and yellow patches in the distance are farms and fields where crops grow. Farmers use this land to grow food for people while forests provide natural habitats. Both land types are important for human survival and nature."
+      "y": "30%",
+      "label": "Open Fields & Farmland",
+      "fact": "The open green fields beyond the forest show different habitats where different plants and animals live. Forests and fields are both important habitats, but they support different types of living things because they have different conditions like sunlight, moisture, and soil.",
+      "vocabulary": {
+        "term": "Food Chain",
+        "definition": "The path that energy takes as it moves from plants to animals to other animals, like grass → rabbit → hawk."
+      }
     },
     {
       "id": 4,
       "x": "15%",
-      "y": "30%",
-      "label": "Forest Edge/Boundary",
-      "fact": "Where the dark forest meets the lighter farmland is called an ecotone or edge. This transition zone is special because it has a mix of forest and field animals, creating unique biodiversity. Edge areas help different ecosystems interact."
+      "y": "25%",
+      "label": "Forest Canopy Layer",
+      "fact": "The leafy tops of these tall trees create a dense canopy that lets sunlight filter down to smaller plants below. Many animals like birds, squirrels, and insects live in different layers of the forest, from the ground up to the highest branches, making the forest a home for many different species.",
+      "vocabulary": {
+        "term": "Biodiversity",
+        "definition": "All the different kinds of living things in one place — the more kinds of plants and animals, the greater the biodiversity."
+      }
     }
   ]
 }

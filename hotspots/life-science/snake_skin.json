@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "35%",
-      "label": "Snake Body",
-      "fact": "This snake has scales that overlap like roof tiles to protect its body. Snakes use their long, flexible bodies to move through grass and hide from predators in their environment."
+      "label": "Garter Snake",
+      "fact": "This snake is a living organism that needs food, water, and shelter to survive. Snakes are carnivores, which means they eat meat like insects, frogs, and small rodents. This is called a **habitat** — the place where an animal lives and finds everything it needs to stay alive.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal or plant lives that has everything it needs to survive, like food, water, shelter, and the right temperature."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "28%",
-      "label": "Snake Head",
-      "fact": "A snake's head contains special sense organs that help it find food and navigate. Snakes can sense heat and smell using special pits and organs in their face."
+      "x": "60%",
+      "y": "50%",
+      "label": "Camouflage Coloring",
+      "fact": "The snake's gray and brown coloring helps it blend in with dead leaves and wood so predators cannot easily see it. This special adaptation is called **camouflage**, and it helps the snake hide and stay safe in its environment.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors or patterns on an animal's body that help it blend in with its surroundings so it can hide from predators or sneak up on prey."
+      }
     },
     {
       "id": 3,
       "x": "25%",
-      "y": "50%",
-      "label": "Dried Plant Matter",
-      "fact": "Snakes live in habitats with dead leaves and wood because these materials provide hiding spots and shelter. The camouflage from this brown environment helps snakes stay safe from larger animals."
+      "y": "60%",
+      "label": "Decomposing Wood",
+      "fact": "The dead wood and leaf litter are home to many living things like insects, bacteria, and worms that break down the dead material. This process is called **decomposition**, and it helps return nutrients back to the soil so new plants can grow.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "The natural process where dead plants and animals break down into smaller pieces and turn back into soil, feeding future plants."
+      }
     },
     {
       "id": 4,
       "x": "70%",
-      "y": "70%",
-      "label": "Natural Habitat",
-      "fact": "This snake's brown coloring is perfect for blending in with dead grass and wood, called camouflage. This adaptation helps snakes hunt for food and escape from danger in nature."
+      "y": "20%",
+      "label": "Growing Plant Seedling",
+      "fact": "This small green plant is growing in the leaf litter where the soil is rich with nutrients from decomposed material. Plants need sunlight, water, soil, and air to grow, which is called **photosynthesis** — the way plants make their own food using sunlight.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The process where plants use sunlight, water, and air to make their own food and energy to grow."
+      }
     }
   ]
 }

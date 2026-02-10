@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
-      "y": "25%",
-      "label": "Central Cavity",
-      "fact": "This hollow space inside the squash holds all the seeds! The cavity protects the seeds and stores nutrients that help them grow into new plants."
+      "x": "25%",
+      "y": "30%",
+      "label": "Seeds Inside",
+      "fact": "These yellow seeds inside the squash are how the plant makes new baby squash plants! Plants make seeds so they can grow and spread to new places. This is called **reproduction** — that's when living things make new versions of themselves.",
+      "vocabulary": {
+        "term": "Reproduction",
+        "definition": "When living things make babies or new versions of themselves so their kind continues to exist."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "50%",
-      "label": "Seeds and Fibers",
-      "fact": "The stringy fibers you see are called vascular tissue, which carries water and nutrients throughout the fruit. The seeds are surrounded by these fibers for protection and nutrition."
+      "x": "45%",
+      "y": "55%",
+      "label": "Flesh of Squash",
+      "fact": "The orange, soft part you see is the fruit of the squash plant, and it stores nutrients that help the seeds grow strong and healthy. This thick, fleshy part is called the **fruit** — it protects the seeds inside and gives them food to grow.",
+      "vocabulary": {
+        "term": "Fruit",
+        "definition": "The part of a plant that holds and protects the seeds, and often gives the seeds nutrients to help them grow."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "65%",
-      "label": "Flesh (Pulp)",
-      "fact": "This thick, yellowish part is full of starches and sugars that taste sweet and creamy when cooked. It's packed with vitamins that help keep us healthy!"
+      "x": "55%",
+      "y": "20%",
+      "label": "Green Skin",
+      "fact": "The hard, green outer skin protects the squash and all the seeds inside from getting hurt or dried out. Plants have different body structures that help them survive, and this tough skin is one of them! This outer layer is called the **skin** or **rind** — it's like nature's protective coating.",
+      "vocabulary": {
+        "term": "Rind",
+        "definition": "The tough, outer layer of skin on fruits and vegetables that protects what's inside."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "30%",
-      "label": "Green Skin",
-      "fact": "The hard outer skin protects the fruit inside from damage and pests. It's made of waxy cells that keep moisture from escaping and help the fruit stay fresh."
+      "x": "35%",
+      "y": "65%",
+      "label": "Empty Center Space",
+      "fact": "The large hollow space in the middle is where all the seeds are packed together before the squash is ripe. This **cavity** gives the seeds room to grow and develop before the squash is ready to be harvested or eaten by animals that might spread those seeds.",
+      "vocabulary": {
+        "term": "Cavity",
+        "definition": "A hollow space or hole inside something, like the empty space inside a squash that holds the seeds."
+      }
     }
   ]
 }

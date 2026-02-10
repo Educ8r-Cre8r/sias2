@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "28%",
-      "label": "Alligator",
-      "fact": "This reptile is sunbathing in shallow water to warm up its body! Crocodiles and alligators are cold-blooded, which means they rely on the sun's heat to stay active and digest their food."
+      "y": "25%",
+      "label": "Alligator or Crocodile",
+      "fact": "This large reptile lives in water and on land, making it perfectly adapted to its wetland habitat. Animals like this one need food, water, and shelter to survive, and this swampy environment provides all three! This is called a **habitat** — that's the place where an animal lives and finds everything it needs to stay alive.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The natural home or environment where an animal or plant lives and finds food, water, and shelter."
+      }
     },
     {
       "id": 2,
-      "x": "35%",
-      "y": "65%",
-      "label": "Marsh Vegetation",
-      "fact": "These small plants growing in shallow water are called marsh plants or wetland plants. They provide food and shelter for many animals like fish, insects, and birds that live in swamps and wetlands."
+      "x": "65%",
+      "y": "55%",
+      "label": "Marsh Plants",
+      "fact": "The tall plants growing in this wetland are adapted to live in wet, muddy soil. Plants like these are an important part of the ecosystem because they provide food and shelter for many animals, from insects to fish to birds. This shows how plants and animals depend on each other in nature, which is called an **ecosystem** — a community of living things that all interact with each other.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living organisms (plants and animals) and the non-living things (water, soil, sunlight) in an area that work together."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "55%",
-      "label": "Muddy Bottom",
-      "fact": "The murky green water and muddy bottom create a perfect habitat for wetland creatures. Many animals burrow in the mud or hide in the water to stay safe from predators."
+      "x": "30%",
+      "y": "65%",
+      "label": "Shallow Water & Mud",
+      "fact": "Wetlands are areas where water covers the soil or where the ground stays very wet most of the time. Many animals need wetlands to survive because they find food and lay their eggs in these special environments. The muddy ground and shallow water create a perfect home for frogs, fish, insects, and birds! This type of environment is called a **wetland** — a place where land and water meet.",
+      "vocabulary": {
+        "term": "Wetland",
+        "definition": "An area of land that is covered by water or is very wet for most of the year, like swamps or marshes."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "45%",
-      "label": "Shallow Water Ecosystem",
-      "fact": "Shallow wetlands like this one are called 'nurseries' because many fish and amphibians lay their eggs here. The plants and shallow water protect young animals until they are big enough to survive in deeper water."
+      "x": "75%",
+      "y": "70%",
+      "label": "Aquatic Life",
+      "fact": "In this wetland habitat, many different living things interact with each other in a food chain. The plants provide food for herbivores, which then become food for larger animals like the reptile we see here. This shows us that all living things are connected and depend on each other, which scientists call a **food chain** — the path that energy and food follow from plants to animals.",
+      "vocabulary": {
+        "term": "Food Chain",
+        "definition": "The order in which animals eat plants or other animals to get energy, starting with plants and moving through different animals."
+      }
     }
   ]
 }

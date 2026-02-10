@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Black Head and Face",
-      "fact": "This bird is a American Robin, and the males have dark gray-black heads that help them attract mates. The bright coloring is like nature's way of showing other robins that this bird is healthy and strong."
+      "label": "Bird's Head and Eyes",
+      "fact": "This bird has a dark head and bright yellow beak that help it survive in nature. Birds use their eyes to see food and spot danger, and their beaks are shaped just right for eating the kinds of food they like best. Different bird species have different beak shapes depending on what they eat!",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and find food in its home."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "45%",
-      "label": "Rust-Colored Breast",
-      "fact": "The robin's orange-red belly is one of its most famous features and helps us identify it easily. This bright color comes from the food robins eat, especially berries and insects throughout the year."
+      "y": "50%",
+      "label": "Bird's Colorful Feathers",
+      "fact": "The orange and blue feathers on this bird's body are not just pretty—they serve important jobs! The colors help birds attract mates, hide from predators, and stay warm. Each feather grows from the bird's skin and is carefully arranged to help the bird fly and stay protected.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors or patterns on an animal's body that help it blend in with its surroundings so it doesn't get eaten."
+      }
     },
     {
       "id": 3,
       "x": "50%",
       "y": "70%",
-      "label": "Thin, Pointed Beak",
-      "fact": "Robins have long, slender beaks perfect for catching worms and insects in the soil. Their beaks are also great for picking berries from trees, making them important helpers in spreading seeds around gardens and forests."
+      "label": "Bird's Feet and Legs",
+      "fact": "A bird's thin legs and small feet are built perfectly for perching on rocks and branches. Birds need strong legs to stand, balance, and grip onto surfaces as they hunt for food. Some birds have special toes that lock in place to help them hold on tight!",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "The way a body part is shaped and built to help an animal do what it needs to do to survive."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "65%",
-      "label": "Legs and Posture",
-      "fact": "Notice how the robin stands upright on its long, thin legs—this helps it spot predators and food from a good distance. Robins often hop along the ground looking for earthworms, which is why you see them in yards during spring."
+      "x": "35%",
+      "y": "55%",
+      "label": "Bird's Habitat - Rocky Ground",
+      "fact": "This bird lives in a rocky, rocky habitat with sparse plants and soil. The bird's colors help it blend in with this rocky environment, and the ground provides insects and seeds for food. Birds must live in places where they can find everything they need, like food, water, shelter, and space to move around.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The natural home or place where an animal lives, including the plants, rocks, water, and other animals around it."
+      }
     }
   ]
 }

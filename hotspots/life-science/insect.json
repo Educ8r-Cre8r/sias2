@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
-      "y": "25%",
+      "x": "68%",
+      "y": "28%",
       "label": "Assassin Bug",
-      "fact": "This reddish-brown insect is called an assassin bug, and it's actually a helpful predator! It hunts and eats other insects that might harm plants, making it a natural pest controller in gardens."
+      "fact": "This insect is visiting the flower to find food and help the plant at the same time! When the bug lands on flowers, pollen sticks to its body. As it moves from flower to flower, it carries the pollen, which helps plants make seeds and new plants grow. This is called **pollination** — that's when pollen is carried from one flower to another so plants can make seeds.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen is carried from one flower to another, usually by insects or wind, so that plants can make seeds and reproduce."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "55%",
-      "label": "Yellow Disk Florets",
-      "fact": "The bright yellow center of the daisy is made up of hundreds of tiny flowers packed tightly together! Each small yellow bump can produce its own seed, so one daisy flower is actually many flowers combined."
+      "y": "50%",
+      "label": "Yellow Center",
+      "fact": "The bright yellow center of the flower is called the disk, and it contains the pollen and special parts that make seeds. Insects like this bug are attracted to the yellow color because it's easy to see! The flower provides food for the insect, and in return, the insect helps the flower by spreading its pollen.",
+      "vocabulary": {
+        "term": "Pollen",
+        "definition": "A fine, powdery substance made by flowers that helps plants make seeds. Pollen is carried by insects or wind from flower to flower."
+      }
     },
     {
       "id": 3,
-      "x": "40%",
-      "y": "35%",
-      "label": "White Ray Petals",
-      "fact": "These white petals aren't really petals at all\u2014they're special flowers called ray florets! Their job is to make the daisy look pretty and attract insects like our assassin bug friend to visit."
+      "x": "50%",
+      "y": "65%",
+      "label": "White Petals",
+      "fact": "The white petals around the flower are like a colorful advertisement that says 'Come visit me!' Flowers need insects and other animals to visit them so they can reproduce and make new plants. Different flowers have different colors, shapes, and smells to attract the animals that will help them the most.",
+      "vocabulary": {
+        "term": "Reproduction",
+        "definition": "When living things make new copies of themselves. Plants reproduce by making seeds with help from insects and other animals."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "60%",
-      "label": "Pollination Partnership",
-      "fact": "When the assassin bug walks on the daisy, pollen dust sticks to its body. As it moves to other flowers, it spreads this pollen and helps plants make new seeds\u2014a perfect partnership!"
+      "x": "72%",
+      "y": "20%",
+      "label": "Bug's Long Legs",
+      "fact": "The bug's long, thin legs help it walk across delicate flowers without damaging them. As it crawls around looking for food, the pollen sticks to its legs and body. Then, when it visits the next flower, some of that pollen rubs off, helping that flower grow seeds. This is an example of **mutualism** — when two living things help each other.",
+      "vocabulary": {
+        "term": "Mutualism",
+        "definition": "When two different living things help each other. The bug gets food and the flower gets help making seeds."
+      }
     }
   ]
 }

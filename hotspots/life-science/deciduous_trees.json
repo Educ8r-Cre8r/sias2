@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "50%",
+      "x": "15%",
       "y": "25%",
-      "label": "Autumn Forest Colors",
-      "fact": "Trees change color in fall because they stop making green chlorophyll and we see beautiful yellows, oranges, and reds underneath. This happens because shorter days and cooler temperatures tell trees to prepare for winter by dropping their leaves."
+      "label": "Fall Trees",
+      "fact": "These trees are changing colors because it's fall, and they're preparing for winter by dropping their leaves. The different colors—red, orange, and yellow—happen because the trees stop making the green color called chlorophyll, and other colors show through. This is called **deciduous behavior** — that's when trees lose their leaves and rest during cold months to save energy.",
+      "vocabulary": {
+        "term": "Chlorophyll",
+        "definition": "The green substance in plants that helps them use sunlight to make food."
+      }
     },
     {
       "id": 2,
       "x": "50%",
       "y": "55%",
-      "label": "Wooden Boardwalk",
-      "fact": "Boardwalks are built over water to protect the ecosystem below by keeping people from walking on plants and disturbing animals. The mesh railings allow fish and other aquatic creatures to move freely while keeping visitors safe."
+      "label": "Lake Ecosystem",
+      "fact": "This lake is a home for many living things, like fish, frogs, plants, and tiny creatures called plankton. All these organisms depend on each other to survive—fish eat plants and smaller animals, and when they die, they return nutrients to the water. This connected group of living things is called an **ecosystem** — that's a place where all the plants, animals, and environment work together.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things and their non-living environment all working together."
+      }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "48%",
-      "label": "Lake or River Ecosystem",
-      "fact": "This body of water is home to many different plants and animals that depend on each other to survive. Fish, frogs, birds, and water plants all work together in an interconnected system called an ecosystem."
+      "y": "20%",
+      "label": "Tree Diversity",
+      "fact": "You can see many different types of trees around this lake, and each kind is adapted to live in this water environment. Some trees have deep roots to find water, while others can survive with wet soil around them. This variety of different organisms living together is called **biodiversity**, and it helps the ecosystem stay healthy and strong.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps a plant or animal survive in its environment."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
-      "y": "65%",
-      "label": "Fallen Leaves",
-      "fact": "The leaves falling on the boardwalk eventually decompose and return nutrients to the soil, helping new plants grow. This natural recycling process is part of the water cycle and keeps ecosystems healthy and balanced."
+      "x": "50%",
+      "y": "45%",
+      "label": "Water Habitat",
+      "fact": "The water in this lake provides a habitat—a home—for many creatures that need water to survive, like fish, turtles, and water plants. The trees along the shore also help protect these animals by giving them shade and shelter. Different plants and animals live in different parts of the water, from the deep bottom to the shallow edges, creating layers of **habitats** in one ecosystem.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The specific place where a plant or animal lives and finds everything it needs to survive."
+      }
     }
   ]
 }

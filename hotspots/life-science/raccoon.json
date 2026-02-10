@@ -4,29 +4,45 @@
       "id": 1,
       "x": "25%",
       "y": "35%",
-      "label": "Raccoon Face Mask",
-      "fact": "Raccoons have distinctive black markings across their eyes that look like a mask! These dark patches help reduce glare from the sun and water, making it easier for raccoons to see when they're hunting at night."
+      "label": "Raccoon's Face",
+      "fact": "Raccoons have special markings on their faces that look like a black mask. These dark patches around their eyes help them see better at night when they are most active. Raccoons are nocturnal animals, which means they sleep during the day and hunt for food at night.",
+      "vocabulary": {
+        "term": "Nocturnal",
+        "definition": "An animal that is active at night and sleeps during the day."
+      }
     },
     {
       "id": 2,
-      "x": "40%",
-      "y": "60%",
-      "label": "Tree Stump Habitat",
-      "fact": "Dead trees and stumps are important homes for many animals and insects. Raccoons often rest on logs and stumps near water while they search for food like frogs, crayfish, and insects to eat."
+      "x": "20%",
+      "y": "50%",
+      "label": "Raccoon's Paws",
+      "fact": "Raccoons have sensitive front paws that help them feel and explore their environment. They use their paws to catch food, climb trees, and open things in their search for meals. A raccoon's body structure is specially designed for living in forests near water.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The way an animal's body is built and shaped, which helps it survive in its environment."
+      }
     },
     {
       "id": 3,
-      "x": "75%",
-      "y": "45%",
-      "label": "Wetland Environment",
-      "fact": "Raccoons love living near water like ponds and marshes because they find lots of food there. They use their sensitive front paws to feel around in the mud and water to catch fish and other creatures."
+      "x": "50%",
+      "y": "55%",
+      "label": "Log Habitat",
+      "fact": "This raccoon is resting on a fallen log near water. Fallen logs are important habitats where many living things, including raccoons, shelter and find food. This log is also home to insects, fungi, and plants that all depend on each other in this ecosystem.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives that gives it everything it needs, like food, water, and shelter."
+      }
     },
     {
       "id": 4,
-      "x": "20%",
-      "y": "25%",
-      "label": "Rounded Ears",
-      "fact": "A raccoon's ears are small and rounded, which helps them hear well even when they're focusing on hunting in the water. Their excellent hearing helps them detect the sounds of prey moving nearby."
+      "x": "70%",
+      "y": "40%",
+      "label": "Water and Plants",
+      "fact": "Raccoons live near water because they need it to survive and to find food like frogs and fish. The plants and water around this log make up the raccoon's ecosystem. All the living things here—plants, animals, insects, and fungi—work together to keep the environment healthy.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things (animals and plants) and the nonliving things (like water and soil) that all interact together in one place."
+      }
     }
   ]
 }

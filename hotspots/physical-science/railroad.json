@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "25%",
-      "label": "Railroad Tracks",
-      "fact": "Railroad tracks are made of steel rails laid on wooden ties and gravel called ballast. The two parallel rails help guide heavy trains safely down the same path over and over again."
+      "y": "50%",
+      "label": "Metal Railroad Tracks",
+      "fact": "Railroad tracks are made of metal, which is a material that can conduct heat and electricity very well. The metal rails are designed to support the heavy weight of trains through their strong structure, and trains can move smoothly along the tracks because of the flat surface and low friction between the metal wheels and metal rails.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that slows things down when two surfaces rub together; metal on metal has low friction, so trains slide easily."
+      }
     },
     {
       "id": 2,
-      "x": "75%",
-      "y": "50%",
-      "label": "Forest Canopy",
-      "fact": "The thick green leaves above form a forest canopy that provides shade and habitat for many animals. Trees along railroad lines help prevent erosion and provide oxygen for all living things."
+      "x": "50%",
+      "y": "25%",
+      "label": "Tree Canopy Overhead",
+      "fact": "The trees form a natural tunnel over the tracks, and their green leaves are absorbing sunlight to make energy for the plant. This dense forest also shows how matter and energy flow through nature—the trees use light energy from the sun to grow, and they provide shade and shelter to the area below.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The power to make things move or change; plants get energy from sunlight to grow and stay alive."
+      }
     },
     {
       "id": 3,
-      "x": "15%",
-      "y": "60%",
-      "label": "Ballast Stones",
-      "fact": "The gray and white stones between the railroad ties are called ballast, which drains water away from the tracks. This prevents rust and keeps the tracks stable so trains can run safely."
+      "x": "50%",
+      "y": "65%",
+      "label": "Gravel and Ballast Bed",
+      "fact": "The rocks beneath the railroad tracks are called ballast, and they are an important part of the track's design. The gravel provides drainage so water doesn't pool under the tracks, and it also holds the wooden ties in place, keeping the tracks at the correct distance apart so trains can run safely and smoothly.",
+      "vocabulary": {
+        "term": "Ballast",
+        "definition": "Small rocks or gravel placed under railroad tracks to keep them stable and properly spaced."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "70%",
-      "label": "Wooden Ties",
-      "fact": "These wooden crosspieces, called railroad ties or sleepers, space the two rails the correct distance apart. They are treated with preservatives to resist rotting and can last many years outdoors."
+      "x": "20%",
+      "y": "35%",
+      "label": "Wooden Railroad Ties",
+      "fact": "The dark wooden pieces connecting the two metal rails are called ties or sleepers, and they transfer the heavy weight of passing trains down to the gravel below. Wood is chosen for this job because it has the physical property of being strong and rigid, which means it resists bending even under heavy loads.",
+      "vocabulary": {
+        "term": "Rigid",
+        "definition": "Stiff and hard to bend; rigid materials like wood keep their shape even when pushed or pressed."
+      }
     }
   ]
 }

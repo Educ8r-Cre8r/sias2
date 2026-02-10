@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "70%",
+      "x": "65%",
       "y": "25%",
-      "label": "Large Round Eye",
-      "fact": "Lizards have excellent vision and can see in color! Their large eyes help them spot insects to eat and watch for danger. Some lizards can even see ultraviolet light that humans cannot see."
+      "label": "Eye and Head",
+      "fact": "Lizards have excellent eyesight to help them survive in their environment! Their large, round eyes can see movement very well, which helps them spot insects to eat and watch out for danger. This is called **adaptation** — a special body part or behavior that helps an animal live in its habitat.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps an animal survive and live successfully in its environment."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "55%",
-      "label": "Adhesive Toe Pads",
-      "fact": "This lizard's feet have special pads with millions of tiny hairs that help it climb smooth surfaces like leaves! These adhesive pads work like natural sticky tape, allowing the lizard to grip almost anything without falling."
+      "x": "75%",
+      "y": "60%",
+      "label": "Legs and Feet",
+      "fact": "This lizard has strong legs with special toes that help it climb and grip plants and branches! Each toe has tiny claws that work like sticky pads, allowing the lizard to hold on and move around easily. These body structures help the lizard find food and escape from predators.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "A specific body part of a living thing that has a special job to help it survive."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "75%",
-      "label": "Patterned Tail",
-      "fact": "If a predator grabs this lizard's tail, it can actually break off and keep wiggling to distract the enemy! The lizard escapes safely and grows a new tail over time—this amazing ability is called autotomy."
+      "x": "40%",
+      "y": "55%",
+      "label": "Skin and Coloring",
+      "fact": "The lizard's brown and white coloring helps it hide in plants and trees — this is called **camouflage**! When the lizard blends in with its surroundings, predators have a harder time seeing it. The lizard's scaly skin also helps protect its body and keeps it from drying out.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors or patterns on an animal's body that help it blend in and hide from other animals."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "50%",
-      "label": "Color-Changing Skin",
-      "fact": "Many lizards can change colors to blend in with their surroundings—this is called camouflage! The white and brown coloring on this lizard helps it hide from predators by matching leaves and branches in its habitat."
+      "x": "55%",
+      "y": "75%",
+      "label": "Tail",
+      "fact": "A lizard's long tail helps it balance while climbing and moving quickly on plants! If a predator catches the lizard's tail, the tail can break off and keep moving to distract the predator while the lizard escapes. This amazing ability is called **regeneration** — the ability to grow a new tail over time.",
+      "vocabulary": {
+        "term": "Regeneration",
+        "definition": "The ability of a living thing to grow back a body part that has been lost or damaged."
+      }
     }
   ]
 }

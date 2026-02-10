@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "15%",
-      "label": "Plant Roots",
-      "fact": "These small green plants are growing in the soil with their roots spreading downward to find water and nutrients. Plant roots are like tiny straws that help the plant drink from the ground!"
+      "y": "25%",
+      "label": "Green Plants Growing",
+      "fact": "Plants are living things that grow in soil and need sunlight, water, and nutrients to survive. These green plants are using the soil as their home and getting everything they need from the earth to grow strong and healthy. This is called **photosynthesis** — that's when plants use sunlight to make their own food and energy to grow.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The process where plants use sunlight, water, and air to make food and energy so they can grow."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "50%",
+      "y": "55%",
       "label": "Soil Layers",
-      "fact": "You can see different colored layers in this soil cross-section. Each layer tells a story about how old the soil is and what materials it contains, like sand, clay, and organic matter."
+      "fact": "This picture shows different layers of soil, which is made up of tiny pieces of rock and rotting plants and animals mixed together. Soil is very important because it holds water and nutrients that plants need to grow, and it's home to many tiny living creatures. The darker soil at the bottom has more **organic matter** — that's dead plants and animals that break down and help soil stay healthy.",
+      "vocabulary": {
+        "term": "Organic Matter",
+        "definition": "Dead plants, animals, and other living things that break down in soil and make it rich with nutrients that plants need."
+      }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "75%",
-      "label": "Decomposing Matter",
-      "fact": "The darker layers at the bottom contain decomposed plants and organisms that have broken down over time. This creates rich nutrients that help new plants grow!"
+      "y": "70%",
+      "label": "Rock Layer",
+      "fact": "Under the soil, you can see a layer of reddish-brown rock, which is a natural material made from minerals that have been pressed together over a very long time. Rocks are very important to Earth because they make up the ground we walk on and break down into small pieces to help form soil. This process is called **weathering** — that's when rocks break down into smaller and smaller pieces over many years.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow process where rocks break down into smaller pieces because of wind, water, ice, and sunlight."
+      }
     },
     {
       "id": 4,
-      "x": "30%",
+      "x": "50%",
       "y": "35%",
-      "label": "Healthy Soil",
-      "fact": "The dark brown and black colors show this is fertile soil full of organic material. Fertile soil is like nature's kitchen where it mixes everything needed to feed growing plants."
+      "label": "Plant Root System",
+      "fact": "The light-colored threads you see are plant roots that grow down into the soil to find water and nutrients that the plant needs to survive and grow. Roots act like straws, pulling water and minerals from the soil up into the plant's stem and leaves. This is called **nutrient absorption** — that's when roots soak up important minerals and water that help plants stay healthy and strong.",
+      "vocabulary": {
+        "term": "Nutrient Absorption",
+        "definition": "The way plant roots take in water and minerals from the soil to use for growth and energy."
+      }
     }
   ]
 }

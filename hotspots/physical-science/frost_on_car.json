@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
+      "y": "50%",
       "label": "Frost Crystals",
-      "fact": "The sparkly ice crystals you see covering the hood of the car form when water vapor freezes directly into ice without becoming liquid water first. This process is called deposition and happens on cold winter mornings!"
+      "fact": "These sparkly ice crystals formed when water vapor in the air changed directly into ice without becoming liquid water first! This change of matter from one state to another is called a **phase change** — that's when water transforms between solid, liquid, and gas forms depending on how hot or cold it is.",
+      "vocabulary": {
+        "term": "Phase Change",
+        "definition": "When matter changes from one state (solid, liquid, or gas) to another state, usually because of temperature changes."
+      }
     },
     {
       "id": 2,
       "x": "75%",
       "y": "60%",
-      "label": "Rising Sun",
-      "fact": "The bright sun low on the horizon tells us this photo was taken at sunrise or sunset. The sun's light bounces off the ice crystals, making them sparkle like tiny diamonds!"
+      "label": "Sun's Energy",
+      "fact": "The bright sun in the distance is giving off energy as heat and light that travels all the way to Earth! This **thermal energy** from the sun warms the ground and air, and it caused the frost to melt and form in different patterns based on where the sunlight hits.",
+      "vocabulary": {
+        "term": "Thermal Energy",
+        "definition": "The heat energy that moves from hot things to cold things; it comes from the sun and warms our world."
+      }
     },
     {
       "id": 3,
-      "x": "20%",
-      "y": "50%",
-      "label": "Cold Surface",
-      "fact": "When moist air comes into contact with this very cold surface, the water molecules lose thermal energy rapidly and \"lock\" into a solid crystalline structure.  This is distinct from dew freezing; the sharp, feathery points indicate the ice grew directly from the air."
+      "x": "25%",
+      "y": "55%",
+      "label": "Frozen Grass Surface",
+      "fact": "The grass blades are coated with ice crystals that make them hard and brittle instead of soft and bendy. Water is a special **substance** because it can be solid ice, liquid water, or invisible water vapor, and each form has different properties and feels different!",
+      "vocabulary": {
+        "term": "Substance",
+        "definition": "A type of matter with specific properties, like water or ice — it's made of the same type of material throughout."
+      }
     },
     {
       "id": 4,
       "x": "85%",
       "y": "75%",
-      "label": "Building Structure",
-      "fact": "The house in the background shows how frost affects our human environment too. Ice can form on roofs and windows, making buildings look beautiful but also requiring clearing for safety."
+      "label": "Building in Background",
+      "fact": "Buildings and structures are made from solid materials that have physical properties — like being hard, strong, and able to hold their shape. The materials used to build homes need to be able to resist **forces** like wind and cold temperatures that push and pull on them.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can move something, change its shape, or make it stop moving; wind and gravity are examples of forces."
+      }
     }
   ]
 }

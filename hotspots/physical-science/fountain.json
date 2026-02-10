@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "45%",
-      "label": "Ice Formation",
-      "fact": "When water freezes, it expands and forms ice crystals that create beautiful icicles like these. The icicles grow longer as more water drips and freezes in cold temperatures, creating nature's own frozen sculptures!"
+      "y": "35%",
+      "label": "Frozen Water Ice",
+      "fact": "This fountain has frozen into ice because the water changed states from liquid to solid when temperatures dropped below freezing! Water is a special material that can exist as a liquid, solid, or gas depending on how hot or cold it gets. This process is called **freezing** — that's when a liquid cools down and turns into a solid.",
+      "vocabulary": {
+        "term": "Freezing",
+        "definition": "The process that happens when a liquid gets cold enough to turn into a solid, like water turning into ice."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "20%",
-      "label": "Water Fountain",
-      "fact": "Fountains circulate water through pumps that push it upward against gravity. The water then falls back down in a cycle, demonstrating how energy is used to move water and create beautiful displays in public spaces."
+      "y": "55%",
+      "label": "Water Flow and Gravity",
+      "fact": "The water in this fountain flows downward in beautiful icicles because of a force called gravity, which pulls everything toward the Earth! Even when water freezes into ice, gravity still pulls it down, creating these long, hanging formations. The shape of the ice shows us how gravity affects the **matter** — the physical stuff that makes up our world.",
+      "vocabulary": {
+        "term": "Gravity",
+        "definition": "An invisible force that pulls objects down toward the Earth, like when a ball falls to the ground."
+      }
     },
     {
       "id": 3,
-      "x": "15%",
-      "y": "70%",
-      "label": "Deciduous Trees",
-      "fact": "These trees are losing their leaves in fall, which is a survival strategy for cold weather. Trees slow down their growth and rest during winter to conserve energy and protect themselves from freezing temperatures."
+      "x": "50%",
+      "y": "20%",
+      "label": "Ice Crystal Formation",
+      "fact": "The bumpy, rough texture of this ice is made of tiny ice crystals that formed when water froze! Each crystal has its own special shape and structure, which are **physical properties** — characteristics we can see and feel without changing what the material is. These properties change when matter changes form, like when water becomes ice.",
+      "vocabulary": {
+        "term": "Physical Properties",
+        "definition": "Characteristics of a material that we can observe or measure, like color, texture, shape, or hardness."
+      }
     },
     {
       "id": 4,
-      "x": "85%",
-      "y": "60%",
-      "label": "Temperature Adaptation",
-      "fact": "Plants and outdoor structures must withstand freezing conditions. Ice buildup on the fountain shows how cold weather affects our environment and why cities sometimes drain fountains in winter to prevent damage from expanding ice."
+      "x": "50%",
+      "y": "75%",
+      "label": "Basin and Water Collection",
+      "fact": "The basin at the bottom of the fountain collects water, showing how different materials — water (liquid), the fountain stone (solid), and ice (frozen water) — can all exist together in one place! This demonstrates that **matter** can change its state but still remains the same material, just in a different form with different properties.",
+      "vocabulary": {
+        "term": "Matter",
+        "definition": "Anything that takes up space and has weight, like water, ice, rocks, or air — the physical 'stuff' that makes up everything around us."
+      }
     }
   ]
 }

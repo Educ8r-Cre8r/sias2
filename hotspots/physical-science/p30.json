@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Ocean Wave Crash",
-      "fact": "Waves are created by wind blowing across the ocean surface. When waves hit rocks or land, they break apart into white foam called sea spray. The more powerful the wave, the bigger the splash!"
+      "label": "Ocean Wave Energy",
+      "fact": "The big wave crashing against the rocks is full of energy from the ocean! This is called **kinetic energy** — that's the energy of motion. When waves hit rocks, they transfer that energy, which can move sand, break rocks apart over time, and change the shape of the beach.",
+      "vocabulary": {
+        "term": "Kinetic Energy",
+        "definition": "The energy that something has when it is moving or in motion."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "65%",
-      "label": "Dark Rocky Formations",
-      "fact": "These dark rocks are likely made of basalt, a type of volcanic rock. Rocks like these are constantly being worn down by waves, wind, and water through a process called erosion. Over thousands of years, rocks get smaller and smaller!"
+      "x": "35%",
+      "y": "60%",
+      "label": "Dark Rocks",
+      "fact": "These dark rocks are made of solid matter with specific **physical properties** like color, shape, and hardness. Over many years, waves crashing against these rocks with great force cause **weathering** — the rocks slowly break down into smaller pieces and sand grains that you see on the beach.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down of rocks into smaller pieces by wind, water, and ice."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "70%",
-      "label": "Sandy Beach Surface",
-      "fact": "Sand is made of tiny pieces of broken rocks and shells. The sand you see on beaches is created when waves crash on rocks repeatedly, grinding them into smaller and smaller particles over many years."
+      "x": "20%",
+      "y": "65%",
+      "label": "Sandy Beach",
+      "fact": "The sand on this beach is mostly tiny, broken pieces of rock! Through the **force** of waves pushing and pulling, sand gets moved along the shore in a process called **erosion**. The same forces that break rocks also shape and reshape beaches every single day.",
+      "vocabulary": {
+        "term": "Erosion",
+        "definition": "The wearing away and movement of rocks and soil by wind, water, or ice."
+      }
     },
     {
       "id": 4,
-      "x": "55%",
-      "y": "50%",
-      "label": "Wave Energy and Motion",
-      "fact": "The power of ocean waves comes from wind energy traveling across vast distances. This crashing water demonstrates kinetic energy\u2014the energy of movement\u2014which shapes our coastlines and creates the dramatic scenes we see at the beach!"
+      "x": "60%",
+      "y": "40%",
+      "label": "Wave Spray & Water",
+      "fact": "When waves crash on rocks, the impact creates water spray that flies through the air! This happens because the water is in **motion** — moving fast with a lot of **force**. The force of the moving water is so powerful that it can change the landscape and move heavy rocks over time.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop, or change direction."
+      }
     }
   ]
 }

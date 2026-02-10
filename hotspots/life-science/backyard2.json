@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "25%",
+      "x": "35%",
       "y": "55%",
-      "label": "Water Feature Pond",
-      "fact": "This small pond in the garden provides a habitat for aquatic plants and animals. Water features help gardens stay cool and attract beneficial insects like dragonflies that eat mosquitoes!"
+      "label": "Colorful Flowers",
+      "fact": "These beautiful flowers are living things that need sunlight, water, and soil to grow and stay healthy. Flowers make food from sunlight through their leaves, and they attract bees and butterflies that help them make seeds. This is called **pollination** — that's when pollen is carried from one flower to another so plants can make new seeds.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "The process where pollen moves from one flower to another, usually by insects or wind, helping plants make seeds."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
+      "x": "28%",
       "y": "35%",
-      "label": "Pollinator Flowers",
-      "fact": "The bright yellow and purple flowers in this garden attract bees, butterflies, and other pollinators. These insects help flowers make seeds by moving pollen from flower to flower as they drink nectar."
+      "label": "Garden Pond",
+      "fact": "This small pond is a **habitat** where many living things can survive, like fish, insects, and plants. Different organisms in the pond depend on each other for food and shelter — some animals eat the plants, and decomposers help break down dead material to return nutrients to the water. A pond is a tiny ecosystem with all the things needed to support life.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "A place where a plant or animal lives and finds everything it needs to survive, like food, water, and shelter."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "50%",
-      "label": "Ornamental Grasses",
-      "fact": "The tall, dark green grass-like plants add texture and movement to gardens. These plants need less water than flowers and provide shelter for small insects and birds."
+      "x": "15%",
+      "y": "60%",
+      "label": "Green Lawn",
+      "fact": "The grass is made up of many individual grass plants that all need water, sunlight, and nutrients from the soil to grow. When you see a whole lawn full of grass, you're looking at a **population** — that's a group of the same kind of living thing living in the same area. The grass, flowers, trees, and animals all together form a community that depends on each other.",
+      "vocabulary": {
+        "term": "Population",
+        "definition": "A group of the same kind of animal or plant living in the same area at the same time."
+      }
     },
     {
       "id": 4,
-      "x": "15%",
+      "x": "65%",
       "y": "25%",
-      "label": "Layered Garden Design",
-      "fact": "This garden uses plants of different heights\u2014tall plants in back, short flowers in front. This arrangement helps all plants get sunlight and creates a beautiful, healthy ecosystem."
+      "label": "Dark-colored Plants",
+      "fact": "These dark burgundy and green plants show how living things have different **traits**, or characteristics, that help them survive in their environment. Some plants have dark leaves that help them absorb more sunlight, while others are shaped differently to collect rainwater. Every plant's structure is specially designed to help it get what it needs to live and grow.",
+      "vocabulary": {
+        "term": "Trait",
+        "definition": "A characteristic or feature of a living thing, like the color of leaves, the shape of flowers, or the size of an animal."
+      }
     }
   ]
 }

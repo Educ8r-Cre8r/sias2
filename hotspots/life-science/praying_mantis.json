@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "25%",
-      "y": "20%",
-      "label": "Compound Eyes",
-      "fact": "Mantises have large compound eyes that can see in almost all directions at once! This helps them spot prey and predators from far away."
+      "y": "25%",
+      "label": "Praying Mantis Head",
+      "fact": "A praying mantis has large eyes that help it see insects moving very far away! These special eyes are perfect for hunting because this insect is a predator — that means it catches and eats other animals. This is called **predation**, which is when one animal hunts another animal for food.",
+      "vocabulary": {
+        "term": "Predator",
+        "definition": "An animal that hunts and eats other animals to survive."
+      }
     },
     {
       "id": 2,
-      "x": "20%",
-      "y": "45%",
-      "label": "Front Legs",
-      "fact": "A mantis uses its powerful front legs to catch and hold insects. These legs fold up like a praying position, which is why it's called a 'praying' mantis!"
+      "x": "35%",
+      "y": "55%",
+      "label": "Powerful Front Legs",
+      "fact": "A praying mantis has strong front legs that fold up like arms so it can grab insects super fast! These legs are specially adapted body parts that help this animal get the food it needs to grow and stay healthy. The mantis uses these legs to catch prey in less than a second!",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive in its environment."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "65%",
-      "label": "Spikes & Claws",
-      "fact": "The sharp spikes and claws on a mantis's front legs help it grip slippery insects. They work together like a deadly trap when the mantis strikes!"
+      "x": "75%",
+      "y": "50%",
+      "label": "Colorful Flowers",
+      "fact": "These bright pink and yellow flowers attract insects like bees and mantises to visit them! Insects come to flowers to drink nectar (a sweet liquid) and in return, they help the plant by spreading pollen. This partnership between plants and insects is important for making seeds and keeping ecosystems healthy.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen (powder from flowers) moves from one flower to another, helping plants make seeds."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
+      "x": "50%",
       "y": "35%",
-      "label": "Pink Flowers",
-      "fact": "Mantises often hide on flowers that match their green color to camouflage from prey. This makes them expert hunters that wait perfectly still for insects to visit!"
+      "label": "Green Body Color",
+      "fact": "The mantis has a green color that helps it hide among plants and flowers — this is called camouflage! By blending in with its surroundings, the mantis can sneak up on insects without being seen. This adaptation helps the mantis survive and find food in its habitat.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "When an animal's color or pattern helps it blend in with its surroundings so it's harder to see."
+      }
     }
   ]
 }

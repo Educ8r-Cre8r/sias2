@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
-      "label": "Fall Leaf Colors",
-      "fact": "Leaves change color in autumn because trees stop making green chlorophyll as temperatures drop. Hidden yellow and red pigments that were always in the leaves become visible when the green disappears!"
+      "y": "25%",
+      "label": "Fall Leaves Changing",
+      "fact": "These colorful leaves are falling because it's autumn, a season when temperatures get cooler and days become shorter. As trees prepare for winter, they stop making the green color in their leaves, revealing beautiful yellows, reds, and oranges underneath. This process is called **senescence** — that's when plants go dormant, or rest, before winter arrives.",
+      "vocabulary": {
+        "term": "Senescence",
+        "definition": "The process where plants slow down their growth and prepare for winter by dropping their leaves."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "60%",
+      "x": "15%",
+      "y": "50%",
       "label": "Decomposing Leaves",
-      "fact": "When leaves fall and decay on the ground, they break down and return nutrients to the soil. This natural recycling process helps feed the grass and plants growing below!"
+      "fact": "The brown leaves on the ground are breaking down and returning nutrients to the soil, which helps new plants grow in spring. This natural process is part of the cycle of life in nature, where dead plants become food for soil and tiny living things. This is called **decomposition** — an important part of how Earth recycles nutrients.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "The process where dead plants and animals break down and turn into nutrients that enrich the soil."
+      }
     },
     {
       "id": 3,
       "x": "75%",
-      "y": "50%",
-      "label": "Green Grass Below",
-      "fact": "Even in fall, grass continues to grow beneath the fallen leaves. The leaves act like a blanket, protecting the grass roots from freezing temperatures during winter."
+      "y": "60%",
+      "label": "Green Grass and Soil",
+      "fact": "Even though the leaves are falling, the grass is still green because it needs less sunlight than trees to survive during fall and winter. The soil underneath holds water and nutrients that help both the grass and trees stay alive and healthy. Soil is made up of tiny pieces of rock, dead plants, and living organisms that all work together to support life.",
+      "vocabulary": {
+        "term": "Soil",
+        "definition": "The top layer of Earth made of rock pieces, dead plants, water, and living things that help plants grow."
+      }
     },
     {
       "id": 4,
       "x": "50%",
       "y": "15%",
-      "label": "Seasonal Transition",
-      "fact": "This yard shows autumn's change from summer to winter. Scientists call this seasonal cycle important for nature because it helps plants rest and prepare for spring growth."
+      "label": "Seasonal Change",
+      "fact": "This yard shows how Earth goes through seasonal changes throughout the year, with fall being one of the four seasons. Each season brings different weather, temperatures, and changes to plants and animals, which helps them survive in their environment. Understanding these seasonal patterns helps us predict what will happen in nature and how organisms adapt their behaviors.",
+      "vocabulary": {
+        "term": "Season",
+        "definition": "A time of year that has its own weather patterns and affects how plants and animals behave."
+      }
     }
   ]
 }

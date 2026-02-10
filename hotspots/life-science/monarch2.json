@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "65%",
-      "y": "50%",
-      "label": "Monarch Wing Pattern",
-      "fact": "The bright orange and black colors on monarch butterfly wings warn predators that they are poisonous and taste bad. This warning coloring is called aposematism and helps protect the butterfly from being eaten."
+      "y": "45%",
+      "label": "Butterfly Wings",
+      "fact": "A butterfly's wings are covered with tiny scales that create beautiful patterns and colors. These colorful wings help butterflies attract mates and sometimes warn predators to stay away. The yellow and black pattern on this Monarch butterfly's wings tells other animals that it might taste bad!",
+      "vocabulary": {
+        "term": "scales",
+        "definition": "Tiny, flat pieces that cover a butterfly's wings and give them their patterns and colors."
+      }
     },
     {
       "id": 2,
-      "x": "70%",
-      "y": "35%",
-      "label": "Antennae",
-      "fact": "Butterflies use their long, thin antennae to smell flowers and find food from far away. The antennae have special sensory organs that help monarchs locate milkweed plants to lay their eggs on."
+      "x": "72%",
+      "y": "30%",
+      "label": "Butterfly Antennae",
+      "fact": "Butterflies use their long antennae to sense the world around them, like smelling flowers and finding other butterflies. These special feelers help butterflies locate food and find places to lay their eggs. Without antennae, butterflies wouldn't be able to survive in their habitat!",
+      "vocabulary": {
+        "term": "antennae",
+        "definition": "Long, thin feelers on an insect's head that help it sense smells, tastes, and touch."
+      }
     },
     {
       "id": 3,
-      "x": "25%",
-      "y": "45%",
-      "label": "Chrysalis Shell",
-      "fact": "This empty chrysalis shell is what remains after a monarch butterfly emerges. Inside the chrysalis, the caterpillar undergoes an amazing transformation called metamorphosis into a beautiful butterfly."
+      "x": "35%",
+      "y": "25%",
+      "label": "Chrysalis (Cocoon)",
+      "fact": "This empty chrysalis shows where a butterfly went through an amazing change called metamorphosis. Inside the chrysalis, a caterpillar's body completely transformed into a butterfly with wings, legs, and antennae. This is one of the most incredible life cycles in nature!",
+      "vocabulary": {
+        "term": "metamorphosis",
+        "definition": "A big change in an animal's body as it grows, like when a caterpillar becomes a butterfly."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
-      "y": "65%",
-      "label": "Wet Wings",
-      "fact": "When monarchs first emerge from their chrysalis, their wings are wet and crumpled. The butterfly must pump special fluid into its wings and let them dry completely before it can fly away."
+      "x": "55%",
+      "y": "60%",
+      "label": "Ground Habitat",
+      "fact": "Butterflies need safe places like gardens and plants to live, eat, and lay their eggs. This sandy ground is part of the butterfly's habitat where it can rest and find food sources like flowers and nectar. Different habitats support different types of butterflies and other living things.",
+      "vocabulary": {
+        "term": "habitat",
+        "definition": "The place where an animal or plant lives and finds food, water, and shelter."
+      }
     }
   ]
 }

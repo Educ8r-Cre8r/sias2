@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
+      "x": "50%",
       "y": "35%",
-      "label": "Urban Heat Island",
-      "fact": "The tall buildings in the distance create what scientists call an 'urban heat island,' where cities are warmer than nearby areas. This happens because buildings and roads absorb and trap heat from the sun differently than natural surfaces like beaches and forests."
+      "label": "Ocean Waves",
+      "fact": "The waves you see here are created by wind blowing across the ocean's surface, pushing the water into ripples and rolling waves. Waves help shape our coastlines and bring water from the deep ocean to the shore. This process is called **erosion** — that's when water and wind wear away rock and sand over time to change the shape of the land.",
+      "vocabulary": {
+        "term": "Erosion",
+        "definition": "The wearing away of rock and soil by wind, water, or ice over a long time."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "75%",
-      "label": "Ocean Waves & Erosion",
-      "fact": "The waves you see are created by wind pushing water across the ocean. These waves help shape beaches by moving sand and rocks, a process called coastal erosion that changes the shoreline over time."
+      "x": "70%",
+      "y": "25%",
+      "label": "Tall Buildings",
+      "fact": "These tall buildings show how people build structures near the ocean. However, buildings in coastal areas can be affected by weather like hurricanes and storms that bring strong winds and heavy rain. Understanding how weather patterns change helps us prepare for and protect our communities from dangerous storms.",
+      "vocabulary": {
+        "term": "Weather",
+        "definition": "The short-term conditions of the atmosphere, like wind, rain, temperature, and clouds on any given day."
+      }
     },
     {
       "id": 3,
-      "x": "15%",
+      "x": "20%",
       "y": "50%",
-      "label": "Seagulls & Food Web",
-      "fact": "The seagulls on the beach are part of the ocean's food web! They eat small fish and organisms left behind by waves, helping keep the beach clean while finding their own meals."
+      "label": "Sandy Beach",
+      "fact": "The sand on beaches is made of tiny pieces of rock and shells that have been broken down into grains over many years. Sand is an important part of coastal **landforms** — these are natural shapes of land like mountains, valleys, and beaches that are formed by water and weather. Beaches protect the land behind them from waves and storms.",
+      "vocabulary": {
+        "term": "Landform",
+        "definition": "A natural feature of Earth's surface, such as a mountain, valley, beach, or plain."
+      }
     },
     {
       "id": 4,
       "x": "50%",
-      "y": "50%",
-      "label": "Hazy Air Quality",
-      "fact": "The foggy, hazy appearance in this photo shows poor air quality, likely from pollution or dust in the atmosphere. Scientists study air quality to understand how pollution affects human health and the environment."
+      "y": "60%",
+      "label": "Ocean Water",
+      "fact": "The ocean is Earth's largest body of water and covers most of our planet! Oceans are salty and home to millions of living things. The water in oceans moves in waves, currents, and tides, which are all caused by the moon, sun, and wind working together.",
+      "vocabulary": {
+        "term": "Ocean",
+        "definition": "A very large body of salt water that covers most of Earth's surface."
+      }
     }
   ]
 }

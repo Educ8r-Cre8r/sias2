@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "35%",
-      "label": "Layered Rock Strata",
-      "fact": "These horizontal bands are called layers or strata, and each one was formed at different times in Earth's history. By studying these layers, scientists can learn about ancient environments and how rocks formed over millions of years."
+      "label": "Layered Rock Bands",
+      "fact": "See how this rock has many colorful bands or stripes? These layers formed over millions of years as sand and mud settled in ancient oceans and lakes. Each band tells us a story about Earth's history! This is called **stratification** — that's when layers of rock form one on top of another over long periods of time.",
+      "vocabulary": {
+        "term": "Stratification",
+        "definition": "The formation of layers of rock, soil, or sediment stacked on top of each other over time."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "50%",
-      "label": "Light and Dark Bands",
-      "fact": "The alternating light and dark colored bands show different types of sediment that settled in ancient seas or lakes. These color differences tell us about changes in water depth, temperature, or the materials being deposited."
+      "x": "50%",
+      "y": "55%",
+      "label": "Weathered Rock Surface",
+      "fact": "Notice how the top of this rock is rough and broken? Wind, water, and ice have worked on this rock for a very long time, breaking it into smaller and smaller pieces. This slow process is called **weathering**, and it's how big rocks become sand and soil that we see all around us.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down of rocks by wind, water, ice, and other natural forces."
+      }
     },
     {
       "id": 3,
       "x": "35%",
       "y": "70%",
-      "label": "Weathering and Erosion",
-      "fact": "The rough, crumbly surface of this rock shows how wind, water, and weather break down rocks over time. This process, called weathering, is how mountains become smaller and rocks turn into sand and soil."
+      "label": "Pebbles and Gravel",
+      "fact": "All these small pebbles and gravel around the big rock used to be part of larger rocks, just like this one! Over time, weathering broke them down into smaller pieces. These smaller rocks can be carried by water and wind to new places, and eventually they might become sand or soil. This process of moving rock pieces is called **erosion**.",
+      "vocabulary": {
+        "term": "Erosion",
+        "definition": "The process of rocks and soil being worn away and carried from one place to another by wind, water, or ice."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "25%",
-      "label": "Tilted Layers",
-      "fact": "Notice how the layers are slanted instead of perfectly flat. This happens when Earth's forces push and fold rocks, showing that our planet is always changing and moving very slowly beneath our feet."
+      "x": "48%",
+      "y": "20%",
+      "label": "Stripes and Color Changes",
+      "fact": "The different colored stripes in this rock show us that different materials were deposited at different times in Earth's history. The tan, brown, and white bands might represent different seasons, different water levels, or different sources of sediment. Scientists read these layers like a history book to understand what Earth was like long ago!",
+      "vocabulary": {
+        "term": "Sediment",
+        "definition": "Small pieces of rock, sand, and soil that are carried by water or wind and settle in layers."
+      }
     }
   ]
 }

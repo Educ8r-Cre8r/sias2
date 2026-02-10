@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Coral Snake Pattern",
-      "fact": "This snake has bright red, yellow, and black bands in a specific pattern. The saying 'red touches yellow, kill a fellow' helps identify coral snakes, which are venomous and live in warm places like Florida and the southern United States."
+      "label": "Snake's Scales",
+      "fact": "This snake has colorful red, black, and yellow scales covering its body. Scales are special skin that protects the snake and helps it move smoothly. The pattern of stripes and colors helps scientists identify what type of snake this is!",
+      "vocabulary": {
+        "term": "Scales",
+        "definition": "Hard, flat plates that cover a snake's body to protect it and keep it safe."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "50%",
-      "label": "Snake Scales",
-      "fact": "The snake's body is covered with overlapping scales made of keratin, the same material as your fingernails! These scales protect the snake and help it move smoothly across different surfaces."
+      "x": "65%",
+      "y": "55%",
+      "label": "Snake's Body Structure",
+      "fact": "Snakes have long, flexible bodies made of many small bones connected together like a chain. This body shape helps snakes squeeze into small spaces and move through different habitats like grass, trees, and soil. A snake uses its whole body to slither and explore!",
+      "vocabulary": {
+        "term": "Vertebrae",
+        "definition": "Small bones that stack together to make up a snake's spine and allow it to bend and move."
+      }
     },
     {
       "id": 3,
-      "x": "45%",
-      "y": "60%",
-      "label": "Forked Tongue",
-      "fact": "Snakes use their forked tongues to collect scent particles from the air and ground. These particles tell the snake about food, danger, and other snakes nearby, almost like having a super-sensitive nose!"
+      "x": "40%",
+      "y": "28%",
+      "label": "Snake's Eyes",
+      "fact": "This snake has dark eyes that help it see and hunt for food like small animals. Snakes use their eyes along with special sensors to find prey in their environment. Different types of snakes have eyes that are adapted to help them survive in their homes.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps an animal survive and do well in its home."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "30%",
-      "label": "Snake Eye",
-      "fact": "Snakes have eyes without eyelids, so they cannot blink! Instead, their eyes are covered with a clear scale called a spectacle that protects them while they hunt and explore."
+      "x": "45%",
+      "y": "70%",
+      "label": "Curled Position",
+      "fact": "This snake is curled in the handler's hand, showing how snakes can coil their bodies. Coiling helps snakes stay warm, feel safe, and prepare to move quickly if needed. This is a natural behavior that snakes use to rest and protect themselves in their habitat.",
+      "vocabulary": {
+        "term": "Behavior",
+        "definition": "The things an animal does, like moving, eating, or coiling up to stay safe."
+      }
     }
   ]
 }

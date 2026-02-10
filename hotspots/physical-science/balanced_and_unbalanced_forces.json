@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "25%",
+      "x": "50%",
       "y": "35%",
-      "label": "Excavator Bucket",
-      "fact": "This large bucket uses a hydraulic arm to scoop and lift heavy materials like dirt and rocks. The bucket's curved shape helps it grab and hold loads efficiently, making it perfect for digging and moving earth during construction."
+      "label": "Backhoe Bucket",
+      "fact": "The backhoe bucket is a simple machine that uses a lever to lift heavy loads of dirt and rocks. When the operator pulls the control, it creates a mechanical advantage that lets one person move something much heavier than they could lift by hand. This is called a **lever** — that's a simple machine made of a stiff bar that turns around a fixed point to help you lift or move things.",
+      "vocabulary": {
+        "term": "Lever",
+        "definition": "A stiff bar that pivots around a fixed point to help lift or move heavy objects with less effort."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
+      "x": "35%",
       "y": "50%",
-      "label": "Heavy Machinery Engine",
-      "fact": "This backhoe has a powerful diesel engine that provides the energy to operate all the moving parts. The engine powers the hydraulic system, which uses pressurized fluid to move the bucket and loader arms with great force."
+      "label": "Heavy Wheels",
+      "fact": "The backhoe has large, heavy wheels that help it move across the ground and distribute its weight so it doesn't sink into soft soil. The friction between the bumpy tire treads and the ground gives the backhoe grip to move forward, backward, and turn. This is called **friction** — that's a force that happens when two surfaces rub against each other and it slows things down or helps them grip.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that happens when two surfaces rub against each other; it can slow things down or help them grip better."
+      }
     },
     {
       "id": 3,
       "x": "75%",
-      "y": "45%",
-      "label": "Loader Bucket Teeth",
-      "fact": "The front loader bucket has metal teeth or prongs along its edge that help it grip loose materials like gravel and soil. These teeth prevent materials from sliding off while the bucket is being moved and lifted."
+      "y": "55%",
+      "label": "Digging Bucket Load",
+      "fact": "The full bucket on the right shows how much mass the backhoe can move and lift using force and energy. Heavy objects need more force to move them, and machines like backhoes use engines to create that force. This demonstrates how **force** works — that's a push or pull that can move an object or change how it's moving.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop moving, or change direction."
+      }
     },
     {
       "id": 4,
       "x": "50%",
       "y": "20%",
-      "label": "Overhead Gantry Crane",
-      "fact": "This fixed crane uses a pulley system and strong metal cables to lift extremely heavy objects from above. Construction sites use overhead cranes to safely move materials that are too heavy for other equipment to handle."
+      "label": "Construction King Crane",
+      "fact": "The overhead crane uses pulleys and mechanical advantage to lift extremely heavy materials high into the air safely. The crane converts the engine's energy into lifting power through a system of ropes and pulleys. This shows how **energy** can be transferred and changed — that's the power to do work, like lifting objects against gravity.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The power to do work; it can come from fuel, electricity, or movement and allows machines to lift, dig, or push things."
+      }
     }
   ]
 }

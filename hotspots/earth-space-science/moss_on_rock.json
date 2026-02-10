@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "50%",
       "y": "35%",
       "label": "Bright Green Moss",
-      "fact": "Moss is a tiny plant that grows in damp, shady places like rocks and logs. It doesn't have roots like bigger plants, but instead absorbs water directly through its leaves!"
+      "fact": "The bright green covering on this rock is moss, a tiny plant that grows in moist places! Moss helps break down rocks very slowly over many years, which is how rocks become soil. This is called **weathering** — that's when rocks are broken down by wind, water, plants, and weather into smaller pieces.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down of rocks into smaller pieces by weather, water, wind, and living things."
+      }
     },
     {
       "id": 2,
-      "x": "70%",
-      "y": "50%",
-      "label": "Weathered Rock",
-      "fact": "This rock has been slowly broken down by rain, wind, and freezing temperatures over many years. This process is called weathering and helps create soil for plants to grow."
+      "x": "35%",
+      "y": "65%",
+      "label": "Rock Layers",
+      "fact": "You can see different colored bands in this rock, which show that rocks are made of many layers! Different layers formed at different times and may have different minerals in them. The reddish-brown layer tells us this rock may have iron in it, which gives it its special color.",
+      "vocabulary": {
+        "term": "Layers",
+        "definition": "Stacked sheets of rock or soil, where each layer formed at a different time."
+      }
     },
     {
       "id": 3,
-      "x": "25%",
-      "y": "60%",
-      "label": "Lichen (Yellow-Green)",
-      "fact": "Lichen is actually two organisms living together - a fungus and an alga! The alga makes food from sunlight, while the fungus provides structure and holds water."
+      "x": "60%",
+      "y": "50%",
+      "label": "Lichen (Pale Coating)",
+      "fact": "The pale yellowish-green coating on the upper part of the rock is **lichen** — a partnership between a fungus and algae that live together! Lichens are living things that help weather rocks by releasing acids that slowly dissolve the rock's surface. They are very important organisms that show us if the air is clean.",
+      "vocabulary": {
+        "term": "Lichen",
+        "definition": "A living thing that is made of a fungus and algae living together; it often grows on rocks and trees."
+      }
     },
     {
       "id": 4,
-      "x": "55%",
-      "y": "70%",
-      "label": "Pink Stone Layers",
-      "fact": "The different colors in this rock tell us it's made of different minerals. Geologists read these layers like a history book to learn about Earth's past!"
+      "x": "50%",
+      "y": "20%",
+      "label": "Water and Moisture",
+      "fact": "Notice how the moss and lichen only grow on the wetter parts of this rock! Plants and organisms need water to survive and grow. The moisture from rain and damp air helps moss and lichen thrive on rocks in shady, wet places like forests.",
+      "vocabulary": {
+        "term": "Moisture",
+        "definition": "Water or wetness in the air or on surfaces; plants need moisture to grow."
+      }
     }
   ]
 }

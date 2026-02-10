@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
+      "y": "45%",
       "label": "Dragonfly Wings",
-      "fact": "Dragonfly wings are made of a thin, see-through material called chitin that forms a web of veins. These veins make the wings strong but light, allowing dragonflies to fly in any direction at speeds up to 30 miles per hour!"
+      "fact": "Dragonflies have four long, clear wings that help them fly super fast and hover in place like a helicopter! These wings are made of a thin material called a membrane that stretches across tiny veins, kind of like the frame of a kite. This body structure helps the dragonfly catch insects while flying.",
+      "vocabulary": {
+        "term": "Wings",
+        "definition": "Special body parts that help insects and birds move through the air by flapping or gliding."
+      }
     },
     {
       "id": 2,
-      "x": "48%",
-      "y": "50%",
-      "label": "Compound Eyes",
-      "fact": "Dragonflies have huge eyes made up of thousands of tiny lenses that work together. These amazing eyes can see in almost all directions at once, making them excellent hunters that can spot moving insects from far away."
+      "x": "45%",
+      "y": "52%",
+      "label": "Dragonfly Eyes",
+      "fact": "Dragonflies have huge eyes that can see in almost every direction at once, which helps them spot tiny flying insects to eat! Their eyes are adapted to help them hunt for food and survive in their environment. Good eyesight is an important body structure that helps this predator catch prey.",
+      "vocabulary": {
+        "term": "Predator",
+        "definition": "An animal that hunts and eats other animals for food."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "55%",
-      "label": "Long Abdomen",
-      "fact": "A dragonfly's long, tube-shaped belly is called an abdomen and contains important organs. The abdomen also helps the dragonfly balance and steer while flying, like the tail of an airplane!"
+      "x": "65%",
+      "y": "35%",
+      "label": "Plant Habitat",
+      "fact": "This dragonfly is sitting on green plant leaves near water, which is its perfect habitat! Dragonflies need water because they lay their eggs in ponds and streams, and their babies live in the water before they become adults. Plants and water are essential parts of where dragonflies live and grow.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal or plant lives and finds food, water, and shelter."
+      }
     },
     {
       "id": 4,
-      "x": "65%",
-      "y": "70%",
-      "label": "Clawed Feet",
-      "fact": "Dragonflies have six legs with tiny claws at the end that help them grip leaves and branches. They often rest on plants like this one while waiting to hunt for smaller insects."
+      "x": "50%",
+      "y": "58%",
+      "label": "Dragonfly Body",
+      "fact": "A dragonfly's long, thin body is perfectly designed to help it move quickly through the air when hunting! This insect's body structure includes a head, thorax (middle section), and abdomen (long tail part) that work together to make it an amazing flyer. All insects have bodies made up of three main parts like this.",
+      "vocabulary": {
+        "term": "Insect",
+        "definition": "A small animal with six legs, three body parts, and usually wings."
+      }
     }
   ]
 }

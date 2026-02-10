@@ -4,29 +4,45 @@
       "id": 1,
       "x": "25%",
       "y": "35%",
-      "label": "Camouflaged Snake",
-      "fact": "This photograph captures a copperhead snake (Agkistrodon contortrix) exhibiting high-level substrate matching.  Can you spot the head of the snake?"
+      "label": "Fallen Leaf",
+      "fact": "This leaf has fallen from a tree and is decomposing on the forest floor. When leaves and other dead plants break down, they return nutrients to the soil that help new plants grow. This process is called **decomposition** — that's when dead plants and animals break down into smaller pieces and return their nutrients back to the earth.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "The process where dead plants and animals break down and turn into soil, which helps new plants grow."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
+      "x": "45%",
       "y": "25%",
-      "label": "Peeling Bark",
-      "fact": "The bark is flaking off the log as it rots. Tree bark protects the wood underneath, but as it decays, it separates and creates hiding spots for beetles and other forest insects."
+      "label": "Decaying Log",
+      "fact": "This rotting log is a home for many tiny organisms and insects that eat dead wood. The log provides food and shelter for these creatures, which helps them survive in the forest. This dead wood is an important part of the forest **habitat** — a place where animals and plants live and find everything they need.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "A place where an animal or plant lives and finds food, water, and shelter."
+      }
     },
     {
       "id": 3,
-      "x": "40%",
+      "x": "55%",
       "y": "50%",
-      "label": "Fallen Leaves",
-      "fact": "The brown and tan leaves scattered around are part of the forest floor. These leaves break down over time to create rich soil that helps new plants grow in the forest."
+      "label": "Forest Floor Debris",
+      "fact": "All the leaves, twigs, and bark pieces on the forest floor create layers that protect soil and help seeds grow. Different plants and animals have **adaptations** that help them live on the forest floor, like insects with hard shells and plants with thick roots. This is called **camouflage** — many forest creatures have colors and patterns that match their environment so predators can't see them easily.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal or plant survive in its habitat."
+      }
     },
     {
       "id": 4,
       "x": "35%",
-      "y": "20%",
-      "label": "Decomposition Process",
-      "fact": "This is nature's recycling system! As wood and leaves decay, bacteria and fungi break them down into nutrients that get recycled back into the ecosystem to feed new plants and animals."
+      "y": "55%",
+      "label": "Ecosystem Chain",
+      "fact": "The forest floor is part of an **ecosystem** where all living and non-living things are connected. Dead plants feed decomposers like fungi and bacteria, insects eat the decomposing wood, and small animals eat those insects. This is called a **food chain** — energy moves from plants to animals in a connected sequence.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things (plants and animals) and non-living things (soil, water, air) in one area that work together."
+      }
     }
   ]
 }

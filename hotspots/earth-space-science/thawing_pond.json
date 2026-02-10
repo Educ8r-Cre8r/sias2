@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "35%",
+      "x": "50%",
       "y": "35%",
-      "label": "Bare Tree Branches",
-      "fact": "These trees have lost their leaves because it's winter or early spring! Trees drop their leaves to save energy and water during cold months. In a few weeks, new leaves will grow back when it gets warmer."
+      "label": "Lake or Pond Water",
+      "fact": "This body of water is an important part of Earth's water cycle! Water from lakes and ponds can evaporate into the air, turn into clouds, and fall back down as rain or snow. This process, called the water cycle, helps distribute water around our planet and is essential for all living things.",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous movement of water from Earth's surface into the atmosphere and back again through evaporation, condensation, and precipitation."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "50%",
-      "label": "Frozen or Cold Lake",
-      "fact": "This body of water is very cold and might be partially frozen. Lakes freeze from the top down because ice is less dense than liquid water, so it floats on the surface and keeps the water below from freezing solid."
+      "x": "20%",
+      "y": "45%",
+      "label": "Large Tree Trunk",
+      "fact": "Trees are living organisms that grow over many years, and their thick trunks show how old they are! You can count the rings inside a tree trunk to figure out its age—each ring represents one year of growth. Trees also help clean our air and prevent soil erosion on hillsides like this one.",
+      "vocabulary": {
+        "term": "Erosion",
+        "definition": "The slow wearing away of rocks and soil by water, wind, or ice, which can change the shape of the land over time."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "60%",
-      "label": "Brown Reed Plants",
-      "fact": "These dried plants are wetland vegetation that grows in shallow water and marshy areas. They provide homes for birds, insects, and small animals, and they help filter water to keep it clean."
+      "x": "75%",
+      "y": "55%",
+      "label": "Bare Soil and Slope",
+      "fact": "The bare, sloped ground near the water shows how gravity pulls things downhill! Weathering and erosion break down rocks into smaller pieces of soil and sediment, which can be transported by water and wind. Over time, these processes shape the landscape and create different landforms.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The breaking down of rocks and soil into smaller pieces by wind, water, ice, or the sun's heat."
+      }
     },
     {
       "id": 4,
-      "x": "25%",
-      "y": "20%",
-      "label": "Forest Canopy",
-      "fact": "The bare branches at the top create a canopy structure that protects the ground below. Even without leaves, the canopy helps regulate temperature and provides shelter for forest animals during winter."
+      "x": "60%",
+      "y": "70%",
+      "label": "Fence and Grassland",
+      "fact": "This fenced area is a habitat where different plants and animals live together! The grass, shrubs, and trees provide food and shelter for insects, birds, and other creatures. Each organism in this ecosystem has a role—some eat plants, some eat other animals, and some break down dead material to help plants grow.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "A place where a plant or animal lives and finds the food, water, and shelter it needs to survive."
+      }
     }
   ]
 }

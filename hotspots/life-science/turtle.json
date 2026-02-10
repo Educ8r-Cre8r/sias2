@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
-      "label": "Turtle Shell Pattern",
-      "fact": "A turtle's shell is covered with special plates called scutes that grow throughout its life. The ridges and rings on the scutes can help scientists figure out how old the turtle is, kind of like counting tree rings!"
+      "y": "45%",
+      "label": "Turtle's Shell",
+      "fact": "A turtle's shell is made of hard bone covered with scales that protect its soft body inside, kind of like a suit of armor! This shell is part of the turtle's body structure that helps it survive in its environment. The shell's hard texture and rounded shape are perfect adaptations that keep the turtle safe from predators.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and stay safe in its home."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "55%",
-      "label": "Turtle Head",
-      "fact": "Turtles have excellent eyesight and can see in color! Their eyes help them find food and navigate through their habitat, whether they live on land or in water."
+      "x": "65%",
+      "y": "50%",
+      "label": "Turtle's Head and Eyes",
+      "fact": "Turtles use their eyes to see their surroundings and find food and shelter in their habitat. A turtle's head has different body parts, like eyes, a mouth, and a nose, that all help it survive and get what it needs to live. Turtles are living organisms that need food, water, and a safe place to stay, just like all animals do.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives, like a forest, pond, or garden, that has everything the animal needs to survive."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "65%",
-      "label": "Scaly Legs",
-      "fact": "A turtle's legs are covered with tough, scaly skin that helps protect them. Land turtles have sturdy legs for walking, while water turtles have webbed feet for swimming!"
+      "x": "45%",
+      "y": "30%",
+      "label": "Surrounding Plants",
+      "fact": "This turtle lives in an ecosystem with plants all around it, showing how living things and their environment work together. Plants provide food and shelter for animals like turtles, and turtles help spread seeds by walking on plants. This is an example of how different living things depend on each other in nature.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things (like plants and animals) and the non-living things (like soil and water) in an area that all work together."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "50%",
-      "label": "Natural Habitat",
-      "fact": "This turtle is surrounded by plants and soil, which shows its natural forest home. Turtles are found on every continent except Antarctica and have adapted to many different environments."
+      "x": "55%",
+      "y": "65%",
+      "label": "Turtle's Legs and Claws",
+      "fact": "A turtle's strong legs and claws help it move across the ground and dig into soil to find food or make a home. These body structures are specially designed to help turtles survive in their environment where they live and search for meals. Turtles use their legs to travel through plants and explore their habitat to meet their basic needs.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The different parts of an animal's body, like legs, eyes, and shells, that help it do important things to stay alive."
+      }
     }
   ]
 }

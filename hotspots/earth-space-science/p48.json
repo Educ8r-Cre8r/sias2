@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "50%",
-      "label": "Chrysalis/Pupa",
-      "fact": "This green case is called a chrysalis, and it's where a caterpillar transforms into a butterfly! Inside, the caterpillar's body completely changes over several weeks in an amazing process called metamorphosis."
+      "y": "55%",
+      "label": "Chrysalis",
+      "fact": "This green case is called a **chrysalis** — it's a special shelter where a caterpillar goes through an amazing change called metamorphosis to become a butterfly! Inside, the caterpillar's body transforms completely over several weeks or months. This shows how living things go through different stages in their life cycle.",
+      "vocabulary": {
+        "term": "Metamorphosis",
+        "definition": "A big change that some animals go through as they grow, like when a caterpillar becomes a butterfly."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
+      "x": "15%",
       "y": "35%",
-      "label": "Cremaster (Attachment)",
-      "fact": "The tiny hook at the top is called a cremaster, and it's how the chrysalis hangs safely from branches or other objects. This strong attachment keeps the developing butterfly protected from falling!"
+      "label": "Rusty Metal Bar",
+      "fact": "This metal bar has turned reddish-brown because of **weathering** — when water, air, and time slowly break down and change materials in nature. Rocks and metals can change color and shape over time when exposed to rain, wind, and sunlight. This is an important process that helps shape our Earth!",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down and wearing away of rocks and materials by wind, rain, ice, and sun."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "55%",
-      "label": "Protective Shell",
-      "fact": "The hard green shell protects the butterfly growing inside from hungry predators and bad weather. The shell is so tough that it can protect the butterfly for weeks or even months!"
+      "x": "50%",
+      "y": "25%",
+      "label": "Chrysalis Attachment",
+      "fact": "The chrysalis is attached to the rusty metal bar using a tiny silk pad called a **cremaster**. This shows how living things interact with their environment and depend on the structures around them to survive. The caterpillar chose this safe spot to hang during its transformation!",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps an animal survive and thrive in its environment."
+      }
     },
     {
       "id": 4,
-      "x": "60%",
-      "y": "58%",
-      "label": "Black Spots",
-      "fact": "These small black markings on the chrysalis help scientists identify which type of butterfly is growing inside. Different butterfly species have different patterns and colors on their chrysalises!"
+      "x": "80%",
+      "y": "50%",
+      "label": "Growth and Change",
+      "fact": "This chrysalis shows how organisms grow and develop in different ways than humans do. While you grow bigger every day, caterpillars stay hidden in their chrysalis during their biggest growth period. Each living thing on Earth has its own special way of growing up and changing!",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "All the stages a living thing goes through from birth to becoming an adult and making babies."
+      }
     }
   ]
 }

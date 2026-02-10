@@ -4,29 +4,45 @@
       "id": 1,
       "x": "65%",
       "y": "35%",
-      "label": "Bee's Pollen Baskets",
-      "fact": "Honeybees have special pouches on their hind legs called pollen baskets where they collect and carry pollen from flowers. You can see the yellow pollen packed into these baskets on this bee's legs!"
+      "label": "Bee's Body Parts",
+      "fact": "Bees have special body parts that help them survive and do their jobs! They have large eyes to see flowers, fuzzy bodies to collect pollen, and six legs to hold onto flowers while they eat. All these features help bees get the food they need to live.",
+      "vocabulary": {
+        "term": "Body Parts",
+        "definition": "The different sections of an animal's body, like legs, wings, and eyes, that help it do important things like move, see, and eat."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "55%",
-      "label": "Flower Nectar Source",
-      "fact": "This purple flower produces sweet nectar that bees drink to get energy. As the bee collects nectar, pollen sticks to its fuzzy body and gets carried to the next flower, helping plants make seeds."
+      "x": "50%",
+      "y": "50%",
+      "label": "Pollen on Bee",
+      "fact": "See the yellow dusty powder on the bee's body? That's pollen! When the bee visits flowers to drink nectar, pollen sticks to its fuzzy fur. This is called **pollination** — when the bee flies to the next flower, it carries pollen that helps plants make seeds and fruits.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "The movement of pollen from one flower to another, usually by bees or other animals, so plants can make seeds."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "25%",
-      "label": "Bee's Compound Eyes",
-      "fact": "Bees have large eyes made up of thousands of tiny lenses that help them see flowers and find their way home. Their eyes can see ultraviolet patterns on flowers that humans cannot see!"
+      "x": "50%",
+      "y": "65%",
+      "label": "Purple Flower",
+      "fact": "This purple flower is the bee's habitat and food source! The flower provides nectar, a sweet liquid that bees drink for energy, and pollen for protein. Without bees visiting flowers, many plants couldn't make new seeds, so bees and flowers need each other to survive.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives and finds food, water, and shelter. For a bee, flowers are part of its habitat."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "30%",
-      "label": "Fuzzy Body Hair",
-      "fact": "A bee's entire body is covered in tiny hairs that act like velcro for pollen. This is why bees are such great pollinators—pollen clings to their fur as they move from flower to flower."
+      "x": "70%",
+      "y": "55%",
+      "label": "Bee's Wings",
+      "fact": "Bees have four delicate wings that help them fly from flower to flower to find food. These wings beat very fast—about 200 times per second! Fast wings help bees move quickly to visit many flowers in a day.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive in its environment. Wings are an adaptation that helps bees find food."
+      }
     }
   ]
 }

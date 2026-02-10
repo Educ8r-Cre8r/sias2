@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "50%",
-      "label": "Camouflaged Lizard",
-      "fact": "The lizard exhibits a high degree of camouflage; its skin texture and dark brown/grey mottled pattern mimic the shadows and organic debris, such as the dried leaves, found among the rocks."
+      "label": "Lizard on Rocks",
+      "fact": "This lizard lives in a rocky habitat where it can hide under stones and blend in with the colors around it. Animals like lizards need specific places to live where they can find food, water, and shelter to survive. This is called **camouflage** — when an animal's colors or patterns help it blend in with its environment so predators can't see it as easily.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a living thing makes its home and finds everything it needs to survive, like food, water, and shelter."
+      }
     },
     {
       "id": 2,
-      "x": "25%",
-      "y": "35%",
-      "label": "Weathered Pebbles",
-      "fact": "These smooth, rounded rocks have been shaped by water and waves for many years. The constant movement of water wears down sharp edges and makes them nice and smooth."
+      "x": "35%",
+      "y": "65%",
+      "label": "Rocky Ground Habitat",
+      "fact": "These rocks and pebbles create a home, or habitat, for many small creatures like insects, lizards, and worms. Different organisms live in different habitats because they are adapted to survive in those places. We call the community of all living and non-living things in an area together an **ecosystem**.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things (plants and animals) and non-living things (rocks, water, air) in an area that work together."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "60%",
-      "label": "Mixed Rock Sizes",
-      "fact": "You can see rocks of many different sizes in one place! Larger rocks stay closer to shore while smaller pebbles and sand get carried farther by waves and currents."
+      "x": "60%",
+      "y": "35%",
+      "label": "Decomposing Leaf",
+      "fact": "You can see a dried leaf among the rocks that is breaking down and returning to the soil. When plants and animals die, they decompose and become part of the earth again, providing nutrients for new plants to grow. This recycling process is an important part of how energy and materials move through an **ecosystem**.",
+      "vocabulary": {
+        "term": "Decompose",
+        "definition": "When dead plants and animals break down into smaller pieces and return nutrients to the soil."
+      }
     },
     {
       "id": 4,
-      "x": "55%",
-      "y": "25%",
-      "label": "Rock Color Variation",
-      "fact": "These rocks have different colors because they come from different types of stone and minerals. The browns, tans, and grays tell us about Earth's diverse geology!"
+      "x": "75%",
+      "y": "55%",
+      "label": "Varied Rock Sizes",
+      "fact": "The different sizes of rocks and pebbles create hiding spaces and protection for small animals that live in rocky areas. Animals are adapted, or specially suited, to live in their habitats — some prefer rocky areas while others prefer soft soil or sand. This shows how organisms have different **body structures** and behaviors that help them survive where they live.",
+      "vocabulary": {
+        "term": "Adapted",
+        "definition": "When an animal or plant has special features or behaviors that help it survive in its particular habitat."
+      }
     }
   ]
 }

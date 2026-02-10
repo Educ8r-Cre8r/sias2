@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "50%",
+      "x": "40%",
       "y": "25%",
-      "label": "LED Light Bulb",
-      "fact": "This tiny LED light is glowing brightly! LEDs use much less electricity than regular bulbs and stay cool to the touch, making them super efficient and safe."
+      "label": "Glowing Light Bulb",
+      "fact": "This tiny light bulb is glowing because electricity is flowing through it, which produces light energy! When energy changes from one form to another, like electricity becoming light, we call that energy transformation. This is called **energy transformation** — that's when one type of energy changes into a different type of energy.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The power to make things move, create light, produce heat, or cause change."
+      }
     },
     {
       "id": 2,
-      "x": "65%",
-      "y": "45%",
-      "label": "Red Wire",
-      "fact": "The red wire carries positive electrical current to the LED. Red wires are a standard color choice in electronics because they help scientists and engineers quickly identify the positive side of a circuit."
+      "x": "75%",
+      "y": "50%",
+      "label": "Wire and Circuit",
+      "fact": "The red wire and metal parts form a circuit that allows electricity to travel in a complete loop to power the light bulb. Without a complete path for electricity to flow, the bulb won't light up! This is called a **circuit** — that's a complete path that electricity travels around.",
+      "vocabulary": {
+        "term": "Circuit",
+        "definition": "A complete path that electricity travels around in a loop, allowing it to power devices like light bulbs."
+      }
     },
     {
       "id": 3,
-      "x": "55%",
-      "y": "55%",
-      "label": "Battery Unit",
-      "fact": "This battery provides the electrical energy needed to light up the LED. The +D marking shows this is a special-sized battery that stores chemical energy and converts it into electricity!"
+      "x": "50%",
+      "y": "70%",
+      "label": "Battery Container",
+      "fact": "The black container holds a battery that stores chemical energy and converts it into electrical energy to make the circuit work. Batteries are the power source that pushes electricity through wires to light up the bulb! This is called a **battery** — that's a container that stores chemical energy and turns it into electricity.",
+      "vocabulary": {
+        "term": "Battery",
+        "definition": "A device that stores chemical energy and converts it into electrical energy to power devices."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "35%",
-      "label": "Circuit Connection",
-      "fact": "When the tweezers complete the circuit by touching both ends, electricity flows from the battery through the red wire to light the LED. A complete circuit is needed for electricity to flow!"
+      "x": "30%",
+      "y": "30%",
+      "label": "Light and Heat Glow",
+      "fact": "The bright glow you see from the bulb shows that electrical energy is being converted into both light energy and heat energy at the same time. You can feel the bulb is warm because some of the electrical energy becomes thermal energy! This is called **thermal energy** — that's the energy that makes things feel hot or warm.",
+      "vocabulary": {
+        "term": "Thermal Energy",
+        "definition": "The energy that makes things feel hot or warm; it comes from moving particles in matter."
+      }
     }
   ]
 }

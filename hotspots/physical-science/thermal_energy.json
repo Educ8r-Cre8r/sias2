@@ -5,28 +5,44 @@
       "x": "50%",
       "y": "35%",
       "label": "Egg Yolk",
-      "fact": "The yellow yolk is the part of the egg that contains nutrients and energy for a growing baby chick. When you cook an egg, heat causes the proteins in the yolk to change and become solid!"
+      "fact": "The yellow yolk is made of matter that contains energy, which helps living things grow and stay healthy. When you cook an egg with heat, the yolk changes from liquid to solid—that's a physical change! This is called **matter** — everything around us, like the egg yolk, is made of matter and has physical properties we can observe.",
+      "vocabulary": {
+        "term": "Matter",
+        "definition": "Anything that takes up space and has weight, like solids, liquids, and gases."
+      }
     },
     {
       "id": 2,
       "x": "50%",
       "y": "55%",
-      "label": "Egg White",
-      "fact": "The clear, white part of the egg is called albumin and it's mostly water and protein. When heated, it changes from clear and runny to white and solid, which is why we see it turn white when cooking!"
+      "label": "Blue Flame Heat",
+      "fact": "The blue flame under the pan is a source of energy that transfers heat to cook the egg! Energy from the fire moves to the pan and then to the egg, causing it to change. This is called **thermal energy** — the heat that makes things warmer and can cause materials to change from one state to another.",
+      "vocabulary": {
+        "term": "Thermal Energy",
+        "definition": "Heat energy that moves from hot things to cold things and can change how materials look or behave."
+      }
     },
     {
       "id": 3,
-      "x": "25%",
+      "x": "50%",
       "y": "65%",
-      "label": "Heat Source",
-      "fact": "The blue flame below the pan is natural gas burning at high temperature. This heat energy transfers to the pan and egg, causing the proteins to denature and change state from liquid to solid."
+      "label": "Hot Pan Surface",
+      "fact": "The dark pan is a conductor of heat, meaning it allows thermal energy to flow through it easily from the flame to the egg! Materials like metal are good heat conductors because heat can travel through them quickly. This property makes pans perfect for cooking. This is called **conduction** — when heat moves through something by direct contact.",
+      "vocabulary": {
+        "term": "Conductor",
+        "definition": "A material that lets heat or electricity pass through it easily, like metal pans."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
+      "x": "50%",
       "y": "50%",
-      "label": "Cooking Process",
-      "fact": "This fried egg shows how heat transforms raw food into cooked food through a chemical change. The texture, color, and consistency all change because the heat energy rearranges the molecules in the egg!"
+      "label": "Egg White Texture",
+      "fact": "The white part of the egg changes from a clear, runny liquid into a white, solid substance when heat is applied—this is a physical change caused by energy! The egg white goes from one state of matter to another as the heat energy rearranges how the molecules are organized. This is called **states of matter** — the different forms things can be, like solid, liquid, and gas.",
+      "vocabulary": {
+        "term": "States of Matter",
+        "definition": "The different forms that materials can take: solid (hard), liquid (flows), or gas (floats in air)."
+      }
     }
   ]
 }

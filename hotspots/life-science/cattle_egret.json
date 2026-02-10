@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
+      "x": "75%",
       "y": "25%",
       "label": "Great Egret",
-      "fact": "This white bird is called a Great Egret and is a type of heron that hunts for fish in water. Egrets have long, thin legs that help them wade through shallow water without getting stuck in the mud."
+      "fact": "This white bird is called a Great Egret, and it is a living organism that needs food, water, and shelter to survive. Egrets hunt for fish and small animals in wetlands and open fields like this one. Their long legs help them wade through water to find their meals!",
+      "vocabulary": {
+        "term": "organism",
+        "definition": "Any living thing, like an animal, plant, or insect."
+      }
     },
     {
       "id": 2,
-      "x": "20%",
+      "x": "25%",
       "y": "55%",
-      "label": "Grazing Cow",
-      "fact": "Cows are herbivores that spend most of their day eating grass in pastures like this one. A single cow can eat up to 40 pounds of grass each day to get the energy and nutrients it needs!"
+      "label": "Cow",
+      "fact": "The cow is a herbivore, which means it eats only plants like grass to get the energy it needs to grow and stay healthy. Cows and egrets live in the same habitat but eat different foods, so they don't compete with each other. This is called having different **roles** in the ecosystem.",
+      "vocabulary": {
+        "term": "habitat",
+        "definition": "The place where an animal or plant lives and finds food, water, and shelter."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
+      "x": "60%",
       "y": "70%",
-      "label": "Pasture Grass",
-      "fact": "This green grass is food for farm animals like cows and sheep. Grass is a plant that grows from the ground and uses sunlight, water, and soil nutrients to grow strong and healthy."
+      "label": "Pasture (Grassland)",
+      "fact": "This open grassland is an important part of the ecosystem because it provides food and shelter for many living things. The grass produces energy from the sun through **photosynthesis**, and both the cow and the egret depend on this habitat to survive. Different organisms interact together in this environment.",
+      "vocabulary": {
+        "term": "ecosystem",
+        "definition": "All the living things (like plants and animals) and non-living things (like soil and water) in one area that work together."
+      }
     },
     {
       "id": 4,
-      "x": "85%",
-      "y": "15%",
-      "label": "Forest Habitat",
-      "fact": "The thick forest in the background is a habitat where many animals live, including birds, deer, and insects. Forests provide food, shelter, and protection for wildlife that cannot live in open farm areas."
+      "x": "80%",
+      "y": "40%",
+      "label": "Egret's Long Legs",
+      "fact": "The egret has long, thin legs that are a special **adaptation** that helps it catch fish in shallow water and muddy areas. These legs allow the bird to wade through water without getting stuck, making it a successful hunter in wetland habitats. Adaptations are body features that help animals survive in their environment.",
+      "vocabulary": {
+        "term": "adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and find food in its habitat."
+      }
     }
   ]
 }

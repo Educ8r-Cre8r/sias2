@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "15%",
-      "label": "Sunset Sky Colors",
-      "fact": "The orange and pink colors you see come from sunlight scattering through the atmosphere. The different cloud layers create beautiful color gradients as the sun gets lower on the horizon."
+      "label": "Sunrise and Sky Colors",
+      "fact": "The beautiful orange and pink colors you see at sunrise happen because sunlight travels through Earth's atmosphere at a special angle. When the sun is low on the horizon, its light passes through more air, and the blue colors scatter away while red and orange colors reach our eyes. This is called **scattering** — that's when light bounces off tiny particles in the air and spreads out in different directions.",
+      "vocabulary": {
+        "term": "Atmosphere",
+        "definition": "The layer of air that surrounds Earth and protects us from the sun's harmful rays."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "45%",
-      "label": "Road Perspective Lines",
-      "fact": "The yellow center lines seem to meet at a point far away—this is called perspective! Even though the road stays the same width, our eyes and brain make it look like it gets smaller in the distance."
+      "y": "75%",
+      "label": "Straight Road and Perspective",
+      "fact": "This road stretches far into the distance and shows us how Earth's surface appears to us from ground level. Even though Earth is actually a huge sphere, from where we stand, the land looks flat and goes on and on. This is called **perspective** — that's how things look smaller and smaller the farther away they are from us.",
+      "vocabulary": {
+        "term": "Horizon",
+        "definition": "The line where the sky seems to meet the land or water in the distance."
+      }
     },
     {
       "id": 3,
-      "x": "15%",
-      "y": "60%",
-      "label": "Flat Landscape Horizon",
-      "fact": "The completely flat land with no mountains shows this area has very little elevation change. Many plains and prairie regions look like this, making them perfect for farming and seeing far distances."
+      "x": "25%",
+      "y": "50%",
+      "label": "Flat Landform and Weather Patterns",
+      "fact": "The flat land on both sides of the road is called a plain, and it's the perfect place to watch weather patterns form in the sky. You can see clouds building up, which means weather is changing. Plains like this are often found in the middle of continents and have big, open skies where you can see weather systems developing from far away. This is called **terrain** — that's the shape and type of land in an area.",
+      "vocabulary": {
+        "term": "Plain",
+        "definition": "A large, flat area of land with few trees or hills."
+      }
     },
     {
       "id": 4,
       "x": "75%",
-      "y": "55%",
-      "label": "Tree Line Silhouette",
-      "fact": "The dark trees on the horizon are silhouetted because the bright sunset is behind them. This happens when an object is between you and a bright light source, blocking the light and creating a dark shadow."
+      "y": "45%",
+      "label": "Clouds and Weather Systems",
+      "fact": "The gray and white clouds covering most of the sky tell us that weather is changing and rain might be coming soon. Clouds form when water from Earth's surface rises into the atmosphere and cools down, creating billions of tiny water droplets. Different cloud shapes and colors can help us predict what kind of weather is coming next. This process is called the **water cycle** — that's how water moves from Earth's surface into the air and back again.",
+      "vocabulary": {
+        "term": "Water cycle",
+        "definition": "The continuous movement of water from Earth's surface up into the atmosphere and back down again."
+      }
     }
   ]
 }

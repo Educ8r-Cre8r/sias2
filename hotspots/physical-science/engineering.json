@@ -4,29 +4,45 @@
       "id": 1,
       "x": "45%",
       "y": "35%",
-      "label": "LEGO Figures",
-      "fact": "These LEGO figures are part of an engineering project where students build and program robots! The googly eyes make them look friendly, but they help teach us about how machines can be designed to look like living creatures."
+      "label": "LEGO Bird Figures",
+      "fact": "These bird figures are being pushed and pulled by forces to make them move! When you push or pull an object, you are applying a force that can change how it moves or where it goes. Engineers design toys like these LEGO birds to show us how forces work in real life.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that makes something move, stop, or change direction."
+      }
     },
     {
       "id": 2,
       "x": "30%",
-      "y": "55%",
-      "label": "Green Wheels",
-      "fact": "These bright green wheels are specially designed for movement and grip! Wheels are a simple machine that makes it easier for robots to move around by reducing friction with the ground."
+      "y": "60%",
+      "label": "Wheels and Axles",
+      "fact": "The green wheels on this red LEGO vehicle help it roll and move across the surface! Wheels are a simple machine that reduce friction and help objects move more easily. When wheels spin around their center point, called an axle, they turn the force from a motor into smooth rolling motion.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that slows things down when two surfaces rub against each other."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "50%",
-      "label": "Programming Blocks",
-      "fact": "These black blocks are used to program the robot's movements and actions! By connecting different blocks together, students can give the robot instructions on what to do, just like writing a recipe."
+      "x": "70%",
+      "y": "45%",
+      "label": "Electronic Control System",
+      "fact": "This LEGO robot setup uses energy from electricity to power the motor and make the machines move! Electrical energy is transferred through wires and converted into motion energy that makes the wheels and figures move. This shows how we can use different forms of energy to do work and create movement.",
+      "vocabulary": {
+        "term": "Energy",
+        "definition": "The ability to make something move, change, or do work."
+      }
     },
     {
       "id": 4,
       "x": "15%",
-      "y": "30%",
-      "label": "Mouse Controller",
-      "fact": "The computer mouse connects to a program that controls these robots! This shows how computers and physical machines work together in robotics and engineering."
+      "y": "35%",
+      "label": "Engineering Design Challenge",
+      "fact": "Students used LEGO bricks as materials to design and build these moving machines! Engineers follow steps to solve problems: they plan what they want to build, construct it using materials, test if it works, and improve their design. This LEGO project shows the engineering design process in action.",
+      "vocabulary": {
+        "term": "Engineering Design Process",
+        "definition": "A step-by-step way that engineers plan, build, test, and improve things to solve problems."
+      }
     }
   ]
 }

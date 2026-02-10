@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "35%",
-      "label": "Mud Cracks Pattern",
-      "fact": "When mud dries out, it shrinks and cracks into puzzle-like pieces. These cracks show us that this area experienced a drought where water disappeared. Scientists use mud crack patterns to understand past climates and weather conditions."
+      "y": "50%",
+      "label": "Cracked, Dry Soil",
+      "fact": "When soil dries out completely, it shrinks and cracks into pieces like a puzzle. This happens because water is very important for soil, and when there's no rain for a long time, the soil loses all its moisture and breaks apart. This is called **drought** — that's when an area doesn't get enough water for a long period of time.",
+      "vocabulary": {
+        "term": "Drought",
+        "definition": "A long period of time when there is very little rain and the ground becomes very dry."
+      }
     },
     {
       "id": 2,
       "x": "65%",
-      "y": "70%",
-      "label": "Drought-Resistant Plants",
-      "fact": "These small plants growing in the cracked mud are specially adapted to survive with very little water. Plants like these have deep roots and waxy leaves that help them stay alive during dry periods. They're nature's solution to living in harsh, arid environments."
+      "y": "75%",
+      "label": "Small Plants Growing",
+      "fact": "Even in this dry, cracked soil, small plants are trying to grow! Plants are living things that need water, sunlight, and nutrients from soil to survive. These hardy plants show us that life can adapt to tough conditions, which is an example of **adaptation** — that's when living things change to survive in their environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps a living thing survive in its environment."
+      }
     },
     {
       "id": 3,
-      "x": "25%",
-      "y": "50%",
-      "label": "Soil Layers Visible",
-      "fact": "You can see different colored soil layers in the deep cracks\u2014lighter tan on top and darker mud underneath. These layers tell us about different time periods and how the soil formed. Deeper, darker layers are usually older and have more organic material."
+      "x": "30%",
+      "y": "35%",
+      "label": "Gaps Between Soil Pieces",
+      "fact": "The dark spaces between the soil cracks show us how soil shrinks when it loses water. Healthy soil should have tiny spaces in it that hold water, air, and nutrients that plants need to grow. These gaps tell us this soil needs water badly to become healthy again!",
+      "vocabulary": {
+        "term": "Soil",
+        "definition": "The top layer of Earth made of tiny bits of rock, minerals, water, air, and dead plant and animal material that helps plants grow."
+      }
     },
     {
       "id": 4,
-      "x": "40%",
-      "y": "65%",
-      "label": "Extreme Desiccation",
-      "fact": "This severe cracking is called desiccation and happens when soil loses almost all its water. The deeper the cracks, the drier the conditions have been. This image shows an extreme drought that would make it very difficult for most plants and animals to survive."
+      "x": "45%",
+      "y": "20%",
+      "label": "Earth's Surface",
+      "fact": "This is the surface of Earth where land, weather, and living things all interact together. When there is no rain for a very long time, Earth's surface becomes dry and hard, and it can crack like this. Understanding how water changes Earth's surface helps us learn about the water cycle and how **weathering** breaks down rock.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down of rocks and soil by wind, water, ice, and other natural forces."
+      }
     }
   ]
 }

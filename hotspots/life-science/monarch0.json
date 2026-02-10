@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "60%",
-      "y": "45%",
+      "y": "35%",
       "label": "Monarch Caterpillar",
-      "fact": "This colorful caterpillar has bright yellow, black, and white stripes that warn predators it's poisonous. Monarch caterpillars only eat milkweed plants, which makes them toxic to animals that try to eat them."
+      "fact": "This striped caterpillar is a baby monarch butterfly! Caterpillars go through an amazing change called **metamorphosis**, where they transform into completely different-looking butterflies. This shows us how living things grow and change during their life cycle.",
+      "vocabulary": {
+        "term": "Metamorphosis",
+        "definition": "A big change that some animals go through where they look totally different as they grow up, like a caterpillar becoming a butterfly."
+      }
     },
     {
       "id": 2,
       "x": "25%",
-      "y": "35%",
-      "label": "Chrysalis Shell",
-      "fact": "This pale, leaf-shaped object is an empty chrysalis where a caterpillar transformed into a butterfly. Inside the chrysalis, the caterpillar's body completely reorganizes into a butterfly in about 10-14 days!"
+      "y": "45%",
+      "label": "Chrysalis (Pupa)",
+      "fact": "The pale, smooth object on the left is called a chrysalis, and it's where the caterpillar rests while it transforms into a butterfly. Inside the chrysalis, the caterpillar's body completely changes into a butterfly with wings, legs, and a new shape. This is nature's incredible way of helping animals adapt and survive!",
+      "vocabulary": {
+        "term": "Chrysalis",
+        "definition": "A protective shell or case where a caterpillar rests and changes into a butterfly inside."
+      }
     },
     {
       "id": 3,
       "x": "60%",
-      "y": "65%",
-      "label": "Tentacle-like Antennae",
-      "fact": "The two long, thin structures at the caterpillar's head are called tentacles or antennae. These help the caterpillar sense its environment and find the milkweed plants it needs to eat."
+      "y": "60%",
+      "label": "Segmented Body",
+      "fact": "You can see the caterpillar's body is made up of many ring-like sections stacked together! These sections are called **segments**, and they help the caterpillar bend and move easily as it crawls. All insects, including butterflies, have segmented bodies that work like building blocks.",
+      "vocabulary": {
+        "term": "Segments",
+        "definition": "The ring-shaped sections that make up an insect's body, kind of like boxes stacked on top of each other."
+      }
     },
     {
       "id": 4,
       "x": "55%",
-      "y": "25%",
-      "label": "Body Segments",
-      "fact": "The caterpillar's body is divided into rings or segments with bands of different colors. These segments contain muscles that help the caterpillar stretch, crawl, and move along plants."
+      "y": "15%",
+      "label": "Antennae",
+      "fact": "The two long, thin feelers at the top of the caterpillar's head are called **antennae**, and they help the caterpillar sense its environment and find food! These special body parts allow the caterpillar to smell and feel the plants around it so it can eat milkweed leaves to grow big and strong.",
+      "vocabulary": {
+        "term": "Antennae",
+        "definition": "Special feelers on an insect's head that help it smell, taste, and sense things around it."
+      }
     }
   ]
 }

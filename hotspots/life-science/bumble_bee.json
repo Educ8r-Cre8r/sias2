@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "50%",
-      "y": "25%",
-      "label": "Compound Eyes",
-      "fact": "Bees have huge compound eyes made of thousands of tiny lenses that work together. This helps them see flowers and navigate through the air super fast!"
+      "x": "55%",
+      "y": "35%",
+      "label": "Bee's Wings",
+      "fact": "Bumblebees have two pairs of wings that help them fly from flower to flower. These special wings can beat very fast, which helps the bee stay in the air and move quickly to find food. This is called **adaptation** — special body parts that help an animal survive in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal or plant survive and thrive in its home."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "50%",
-      "label": "Wings",
-      "fact": "A bee's wings beat about 200 times per second, which creates the buzzing sound we hear. These powerful wings help bees carry pollen back to their hive."
+      "x": "30%",
+      "y": "55%",
+      "label": "Fuzzy Body and Hairs",
+      "fact": "The fuzzy hairs all over a bumblebee's body help it collect pollen from flowers. As the bee moves around inside the flower, pollen sticks to these hairs, and then the bee carries the pollen to the next flower. This process is called **pollination** — and it helps plants make seeds and fruit!",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen from one flower is carried to another flower so plants can make seeds."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "65%",
-      "label": "Pollen Baskets",
-      "fact": "Bees have special pouches on their back legs called pollen baskets where they collect and carry pollen. This yellow dust helps flowers make seeds and new plants!"
+      "x": "60%",
+      "y": "70%",
+      "label": "Flower with Pollen",
+      "fact": "Bumblebees are important helpers in food webs and ecosystems because they pollinate flowers. When flowers are pollinated, they can grow fruits and vegetables that many animals and people eat. Without bees, we wouldn't have many of the yummy foods we enjoy, like apples and almonds!",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things (like plants and animals) and their non-living environment (like soil and air) all working together."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "75%",
-      "label": "Fuzzy Body",
-      "fact": "A bee's fuzzy hair is perfect for picking up pollen grains as it visits flowers. The hair on their body acts like nature's velcro for collecting pollen!"
+      "x": "40%",
+      "y": "20%",
+      "label": "Large Eyes",
+      "fact": "Bumblebees have large eyes that help them see colors and find flowers. Bees are especially good at seeing bright colors like pink, yellow, and purple — just like the flower in this picture! This helps them find food and complete their important job of pollinating plants.",
+      "vocabulary": {
+        "term": "Sensory Structure",
+        "definition": "A body part that helps an animal see, hear, smell, taste, or feel things in its environment."
+      }
     }
   ]
 }

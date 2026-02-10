@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "40%",
-      "y": "35%",
+      "x": "35%",
+      "y": "45%",
       "label": "Toad's Bumpy Skin",
-      "fact": "Toads have bumpy, warty skin that helps them blend in with dirt and soil. These bumps contain special glands that produce toxins to protect the toad from predators who might try to eat it."
+      "fact": "This toad has bumpy skin that helps it survive in dry environments. The bumps produce special liquids that keep the toad's skin moist and protect it from predators. This is an example of how animals have special body structures, called **adaptations**, that help them live in their habitat.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and thrive in its environment."
+      }
     },
     {
       "id": 2,
-      "x": "45%",
+      "x": "40%",
       "y": "50%",
-      "label": "Powerful Back Legs",
-      "fact": "Toads have strong, muscular back legs that help them hop and jump to escape danger. These legs are shorter and stouter than a frog's legs, which is why toads walk more than they hop."
+      "label": "Toad's Eyes",
+      "fact": "You can see this toad's large, golden eyes looking at you! Toads use their eyes to see insects and other food sources in their environment. Eyes are an important body structure that helps toads hunt for food and stay safe from danger.",
+      "vocabulary": {
+        "term": "Sense",
+        "definition": "A way that animals understand the world around them, like seeing with eyes, hearing with ears, or touching with skin."
+      }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "55%",
-      "label": "Camouflage in Soil",
-      "fact": "The toad's brownish-gray color matches the dirt and soil around it perfectly. This camouflage helps toads hide from predators and sneak up on insects they want to eat."
+      "x": "42%",
+      "y": "58%",
+      "label": "Toad's Front Legs",
+      "fact": "This toad uses its four strong legs to move around on the ground looking for food like insects and worms. Toads are **amphibians**, which means they can live both on land and in water during different parts of their life. Their legs help them crawl, hop, and survive in different habitats.",
+      "vocabulary": {
+        "term": "Amphibian",
+        "definition": "An animal that lives part of its life in water and part of its life on land, like frogs and toads."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "40%",
-      "label": "Toad's Large Eye",
-      "fact": "Toads have big, round eyes that help them see insects moving nearby. Their excellent vision helps them hunt for food like beetles, ants, and other small creatures."
+      "x": "32%",
+      "y": "52%",
+      "label": "Desert Habitat",
+      "fact": "This toad lives in a dry, rocky environment with dirt and decomposed wood. The toad is part of an ecosystem where it eats insects and may be eaten by larger animals like snakes or birds. This shows how all living things depend on each other in their habitat.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The home or environment where an animal or plant lives and finds food, water, and shelter."
+      }
     }
   ]
 }

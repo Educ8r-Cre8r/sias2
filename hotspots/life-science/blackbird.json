@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
-      "y": "25%",
-      "label": "Black Head",
-      "fact": "This bird's dark head helps it blend into shadows and dark spaces. The bright yellow eye stands out so other birds can see it from far away!"
+      "x": "25%",
+      "y": "35%",
+      "label": "Black Feathers",
+      "fact": "This bird's dark feathers help it survive in its environment by absorbing heat from the sun and blending in with shadows. The color of an animal's body is an example of an **adaptation** — that's a special feature that helps a living thing survive and thrive in its habitat.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive in its environment."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "35%",
-      "label": "Sharp Beak",
-      "fact": "Birds like this one have pointed beaks perfect for catching insects and small food in grass. The thin shape helps them poke into tight spaces to find meals."
+      "x": "50%",
+      "y": "25%",
+      "label": "Sharp, Pointed Beak",
+      "fact": "This bird's thin, pointed beak is perfectly shaped for picking up seeds and insects from the ground. Different animals have different body structures that help them find and eat the food they need, which is called **foraging**.",
+      "vocabulary": {
+        "term": "Foraging",
+        "definition": "When an animal searches for and collects food in nature."
+      }
     },
     {
       "id": 3,
-      "x": "65%",
+      "x": "70%",
       "y": "50%",
       "label": "Long Tail Feathers",
-      "fact": "Long tail feathers help birds balance and change direction quickly while flying. They also look impressive and help birds recognize each other!"
+      "fact": "The bird's long tail helps it balance when walking on the ground and helps it steer when flying through the air. Animals have different body parts that help them move in ways that keep them safe and help them find food in their **ecosystem**.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things and the environment they share together."
+      }
     },
     {
       "id": 4,
       "x": "35%",
       "y": "60%",
-      "label": "Grassland Habitat",
-      "fact": "This bird walks on the ground in grassy areas hunting for food. The green grass provides camouflage and plenty of insects to eat throughout the day."
+      "label": "Grass Habitat",
+      "fact": "This bird is walking on grass, which is where it hunts for insects and seeds to eat. Birds that live in grassy areas have special adaptations that help them find food and stay safe from predators in open spaces.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The home environment where an animal lives and finds food, water, and shelter."
+      }
     }
   ]
 }

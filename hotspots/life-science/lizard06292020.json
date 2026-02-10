@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
+      "x": "70%",
       "y": "25%",
-      "label": "Vertical Eye Pupil",
-      "fact": "This lizard has a vertical pupil in its eye that helps it see better in dim light and bright sunlight. The pupil can shrink to a tiny slit to protect the eye from too much light."
+      "label": "Eye and Vision",
+      "fact": "This lizard has large, bright eyes that help it see insects and other small animals it wants to eat. The yellow circle around its eye shows that this reptile is awake and alert, watching for food and danger in its environment. This is called **adaptation** — a special body part or behavior that helps an animal survive in its habitat.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live in its home."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "45%",
-      "label": "Textured Scales",
-      "fact": "Lizards are covered in tiny scales that protect their skin and help them blend in with their surroundings. These bumpy scales also help the lizard grip branches as it climbs."
+      "x": "50%",
+      "y": "55%",
+      "label": "Rough, Textured Skin",
+      "fact": "This lizard's bumpy, scaly skin helps it blend in with tree bark and branches where it lives. The rough texture also protects its body and helps it stay safe from predators that might try to catch it. This protective covering is called **camouflage** — colors and patterns that help an animal hide in its surroundings.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors, patterns, or textures that help an animal blend in and hide from predators or prey."
+      }
     },
     {
       "id": 3,
-      "x": "48%",
-      "y": "65%",
+      "x": "35%",
+      "y": "70%",
       "label": "Long Tail",
-      "fact": "A lizard's tail helps it balance while climbing and can even break off if a predator grabs it. The lizard can then grow a new tail, though it's never quite the same as the original."
+      "fact": "This lizard uses its long tail to balance while climbing branches and to help it move quickly through trees. If a predator grabs its tail, the lizard can actually drop it and escape! This ability helps the lizard survive in its tree environment. This survival trick is called **defense behavior** — an action an animal uses to protect itself from danger.",
+      "vocabulary": {
+        "term": "Defense Behavior",
+        "definition": "An action or movement an animal uses to protect itself from predators or other threats."
+      }
     },
     {
       "id": 4,
-      "x": "70%",
-      "y": "55%",
-      "label": "Strong Legs",
-      "fact": "This lizard's legs are built for gripping branches and climbing trees. The sharp claws on its feet act like hooks to help it hold onto rough bark and branches."
+      "x": "65%",
+      "y": "50%",
+      "label": "Clawed Feet",
+      "fact": "This lizard has special claws on its feet that help it grip tree bark and branches tightly as it climbs. These sharp claws are a perfect **body structure** for an animal that spends its life in trees hunting for food. The claws show how animals have different body parts that help them survive in their specific habitats.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The different body parts an animal has that help it survive and do important activities like eating, moving, or hiding."
+      }
     }
   ]
 }

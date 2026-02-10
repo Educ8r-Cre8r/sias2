@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "25%",
-      "y": "25%",
-      "label": "Alligator Head",
-      "fact": "This young alligator has a V-shaped snout that helps it catch fish and other prey in the water. Alligators are reptiles that have been around since the time of dinosaurs!"
+      "y": "30%",
+      "label": "Crocodile's Head & Eyes",
+      "fact": "Crocodiles have special body parts that help them survive in their environment, like eyes on top of their head so they can see above water while staying hidden. These features show how animals are adapted, or specially designed, to live in their habitat. This is called **adaptation** — that's when an animal has special body parts or behaviors that help it survive in its home.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live in its environment."
+      }
     },
     {
       "id": 2,
-      "x": "40%",
-      "y": "50%",
-      "label": "Textured Scales",
-      "fact": "The bumpy scales covering the alligator's skin are made of keratin, the same material as your fingernails. These tough scales protect the alligator from predators and help it stay waterproof."
+      "x": "60%",
+      "y": "70%",
+      "label": "Patterned Scales & Tail",
+      "fact": "Crocodiles have scales covering their body that are arranged in a special pattern, and their tail is long and powerful. These structures help the crocodile move through water and stay safe from other animals. The pattern and color of scales is an example of how different organisms have different **structures** that help them function and survive.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "A body part of an organism that has a specific job or purpose, like scales on a crocodile's body."
+      }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "65%",
-      "label": "Patterned Tail",
-      "fact": "The dark and light bands on the tail help the alligator blend into murky water where it hunts. The tail is powerful and helps the alligator swim fast through water."
+      "x": "45%",
+      "y": "50%",
+      "label": "Reptile Classification",
+      "fact": "This crocodile is a reptile, which is a group of cold-blooded animals with backbones and scaly skin. Crocodiles are one type of reptile, just like snakes, lizards, and turtles are other types. Scientists organize living things into different groups based on their shared characteristics, which helps us understand **diversity** in nature.",
+      "vocabulary": {
+        "term": "Diversity",
+        "definition": "The many different kinds of living things in the world, each with their own special features."
+      }
     },
     {
       "id": 4,
-      "x": "20%",
+      "x": "35%",
       "y": "65%",
-      "label": "Strong Claws",
-      "fact": "Alligators have sharp claws on their feet that help them dig burrows, climb on land, and grip their food. Even young alligators like this one have claws they'll keep their whole lives!"
+      "label": "Claws & Feet",
+      "fact": "Crocodiles have strong claws on their feet that help them grip and move through muddy riverbanks and water. These claws are one of the ways crocodiles are built perfectly for life in wet habitats like swamps and rivers. The ability to use body parts like claws shows how animals have special **functions** that keep them alive.",
+      "vocabulary": {
+        "term": "Function",
+        "definition": "The special job that a body part does to help an organism survive and grow."
+      }
     }
   ]
 }

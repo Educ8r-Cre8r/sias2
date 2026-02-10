@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "65%",
+      "x": "60%",
       "y": "55%",
-      "label": "Stacked Stone Cairn",
-      "fact": "This tower of stacked rocks is called a cairn, and it's built without any cement or glue! The weight and careful placement of each stone keeps it balanced, demonstrating how gravity and friction work together."
+      "label": "Stacked Rocks",
+      "fact": "These rocks have been stacked together to create a structure, but did you know that rocks come in different types and sizes? Rocks are hard, natural materials made of minerals, and they're constantly changing over long periods of time through weathering and erosion. By stacking rocks of different shapes and sizes together, we can learn how rocks fit together and how they've been used by people for thousands of years to build shelters and walls.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down of rocks into smaller pieces by wind, water, ice, and sunlight over a very long time."
+      }
     },
     {
       "id": 2,
       "x": "25%",
-      "y": "65%",
+      "y": "70%",
       "label": "Garden Plants",
-      "fact": "Plants with white leaves and green foliage in the foreground are caladiums and ornamental grasses. These plants are adapted to different light levels and moisture conditions, showing how organisms develop special features to survive."
+      "fact": "The plants growing in this garden need water, soil, and sunlight to grow and survive. Soil is a mixture of tiny pieces of rock, dead plants, and other materials that help plants get nutrients they need. These plants are part of Earth's living systems, and they help clean our air by taking in carbon dioxide and making oxygen for us to breathe!",
+      "vocabulary": {
+        "term": "Soil",
+        "definition": "The dark material on Earth's surface made of broken-down rocks, dead plants, and tiny living things that helps plants grow."
+      }
     },
     {
       "id": 3,
-      "x": "15%",
-      "y": "25%",
-      "label": "Climbing Vines",
-      "fact": "The green vines hanging from the roof are plants that grow upward by clinging to surfaces. This is an adaptation that helps plants reach sunlight more efficiently in nature."
+      "x": "35%",
+      "y": "20%",
+      "label": "Trees and Leaves",
+      "fact": "These green trees provide shade and help shape the weather and water cycle around this house. Trees take in water from the soil through their roots and release water into the air through their leaves in a process that helps form clouds and rain. The leaves also tell us about the seasons—as Earth orbits the sun, the seasons change and trees grow new leaves in spring and lose them in fall.",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous movement of water from Earth's surface into the air and back down again as rain, snow, or water in streams and oceans."
+      }
     },
     {
       "id": 4,
       "x": "50%",
-      "y": "20%",
-      "label": "Mulch Ground Cover",
-      "fact": "The brown material covering the ground is mulch made from decomposed wood and leaves. As it breaks down, it returns nutrients to the soil, helping new plants grow and completing the nutrient cycle."
+      "y": "35%",
+      "label": "Building Structure",
+      "fact": "This house is built with materials that protect people from weather patterns like rain, wind, and extreme temperatures. The roof, walls, and foundation help keep the inside safe and comfortable. Engineers design buildings by understanding how Earth's weather and natural forces work, so they can make structures that last a long time and keep people safe from storms and other natural events.",
+      "vocabulary": {
+        "term": "Landform",
+        "definition": "A natural feature of Earth's surface, like a hill, valley, or mountain, shaped by water, wind, and rocks over time."
+      }
     }
   ]
 }

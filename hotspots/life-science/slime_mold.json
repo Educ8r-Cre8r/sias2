@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "35%",
-      "y": "30%",
+      "y": "25%",
       "label": "Bright Yellow Color",
-      "fact": "This fungus is bright yellow because of special pigments in its cells. The vibrant color helps scientists identify different types of fungi in nature."
+      "fact": "This fungus is bright yellow, which helps it stand out in dark, shady places where it grows. The bright color is made by special chemicals inside the organism that help it survive and be noticed by other living things. This is called **pigmentation** — that's when an organism makes colored chemicals to give itself its special color.",
+      "vocabulary": {
+        "term": "Pigmentation",
+        "definition": "The natural color of a living thing, created by special chemicals in its body."
+      }
     },
     {
       "id": 2,
-      "x": "55%",
-      "y": "45%",
+      "x": "50%",
+      "y": "50%",
       "label": "Spongy Texture",
-      "fact": "This fungus has a bumpy, spongy texture that feels gelatinous or rubbery. This unusual structure helps the fungus absorb water and nutrients from decaying wood."
+      "fact": "This organism has a spongy, bumpy texture that helps it survive in its environment. The spongy parts help the fungus absorb water and nutrients from the dead leaves and wood around it. This special structure is part of its **body structure** — the way an organism's parts are arranged to help it live and grow.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The physical shape and parts of a living thing that help it survive and do what it needs to do."
+      }
     },
     {
       "id": 3,
-      "x": "20%",
+      "x": "25%",
       "y": "60%",
-      "label": "Decaying Wood Home",
-      "fact": "This fungus grows on dead wood and leaves on the forest floor. Fungi are nature's recyclers\u2014they break down dead plants and return nutrients to the soil."
+      "label": "Habitat: Dead Plant Matter",
+      "fact": "This yellow fungus lives on dead leaves and wood, which is its **habitat** — the special place where it makes its home. Fungi like this are decomposers, meaning they break down dead plants and return nutrients back to the soil so new plants can grow. This shows how all organisms in an ecosystem are connected and depend on each other!",
+      "vocabulary": {
+        "term": "Decomposer",
+        "definition": "A living thing that breaks down dead plants and animals, turning them into nutrients that help soil and new life grow."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "65%",
-      "label": "Fungal Growth Pattern",
-      "fact": "Notice how the fungus grows in different shapes and sizes! This is called the fruiting body, and it's how the fungus releases spores to create new fungus elsewhere."
+      "x": "65%",
+      "y": "35%",
+      "label": "Growth and Size",
+      "fact": "Fungi grow by spreading through dead material and creating new fruiting bodies like these bumpy shapes. Each organism starts small and grows bigger as it gets older and stronger. This is part of its **life cycle** — the stages that living things go through as they grow, reproduce, and eventually stop living.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The different stages a living thing goes through during its life, from being born or growing until it dies."
+      }
     }
   ]
 }

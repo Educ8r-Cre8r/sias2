@@ -2,31 +2,47 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "25%",
       "y": "35%",
       "label": "Colorful Pebbles",
-      "fact": "These colorful stones are made from different minerals and rocks that come from mountains and cliffs nearby. Over thousands of years, waves and weather break these rocks into smaller pieces, creating the beautiful pebbles you see on the beach!"
+      "fact": "These colorful rocks and pebbles are different types of matter with unique physical properties. Each pebble has its own color, size, and shape, which are physical properties that we can observe and measure. Scientists can identify different materials by looking at their physical properties, like whether they are smooth, rough, light, or heavy.",
+      "vocabulary": {
+        "term": "Physical Properties",
+        "definition": "Characteristics of matter that you can see, feel, or measure, like color, size, shape, and texture, without changing what the object is made of."
+      }
     },
     {
       "id": 2,
-      "x": "70%",
-      "y": "55%",
-      "label": "White Sand Grains",
-      "fact": "The white material between the pebbles is sand made mostly from tiny pieces of shell and quartz. Sand grains are so small that millions of them fit in a teaspoon, but each one is a miniature treasure from the ocean!"
+      "x": "55%",
+      "y": "50%",
+      "label": "Sand and Small Particles",
+      "fact": "The whitish sand between the pebbles shows how larger rocks can break down into smaller pieces through natural forces like waves, wind, and weathering. Over time, big rocks become pebbles, and pebbles become sand—this is a physical change in matter where the material breaks apart but stays the same substance.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down of rocks and other materials into smaller pieces by forces in nature, like water, wind, and temperature changes."
+      }
     },
     {
       "id": 3,
-      "x": "25%",
-      "y": "60%",
-      "label": "Brown and Red Rocks",
-      "fact": "The reddish and brownish pebbles contain iron and other minerals that give them their color. These rocks are evidence of volcanic activity and geological processes that shaped Earth millions of years ago!"
+      "x": "70%",
+      "y": "65%",
+      "label": "Mixed Materials",
+      "fact": "This beach material is a mixture of different types of rocks, minerals, and shells combined together. A mixture is when different materials are combined but keep their own properties—you can usually separate them back out because they don't chemically change into something new.",
+      "vocabulary": {
+        "term": "Mixture",
+        "definition": "When two or more different materials are combined together but each material keeps its own properties and you can separate them again."
+      }
     },
     {
       "id": 4,
-      "x": "50%",
-      "y": "70%",
-      "label": "Dark Stone",
-      "fact": "This dark pebble is likely basalt, a volcanic rock that forms when lava cools very quickly. It's much heavier and denser than the lighter colored rocks around it, making it one of the ocean's most durable treasures!"
+      "x": "40%",
+      "y": "25%",
+      "label": "Dark Pebble",
+      "fact": "This dark pebble may be made of a different mineral or rock type than the lighter colored ones around it. Different rocks and minerals come from different places in the Earth and have different compositions, which affects their color and other physical properties. Engineers and scientists study different materials to choose the best ones for building or designing things.",
+      "vocabulary": {
+        "term": "Mineral",
+        "definition": "A natural solid material found in the Earth that has a specific chemical makeup and organized crystal structure, and is one of the building blocks that make up rocks."
+      }
     }
   ]
 }

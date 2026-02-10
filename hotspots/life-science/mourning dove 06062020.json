@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "45%",
-      "y": "45%",
-      "label": "Meerkat",
-      "fact": "This is a meerkat, a small animal from Africa that lives in groups called mobs. Meerkats stand on their hind legs to watch for danger and keep their family safe from predators."
+      "y": "50%",
+      "label": "Meerkat Animal",
+      "fact": "This meerkat is a living organism that needs food, water, and shelter to survive, just like all animals do. Meerkats live together in groups called mobs and help each other stay safe and find food in their desert habitat. This is called **adaptation** — special traits that help animals survive in their environment, like the meerkat's ability to stand on its back legs to watch for danger.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and thrive in its home."
+      }
     },
     {
       "id": 2,
       "x": "40%",
       "y": "35%",
-      "label": "Feathery Green Plant",
-      "fact": "This delicate, feathery plant is likely asparagus fern or a similar herb. Its fine, needle-like leaves help it survive in dry conditions by reducing water loss."
+      "label": "Green Plants",
+      "fact": "These green plants are living organisms that make their own food using sunlight, water, and air through a process called photosynthesis. Plants are an important part of the ecosystem because they provide food and oxygen for animals like the meerkat to survive. Without plants, many animals would have no food or shelter.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The process plants use to turn sunlight, water, and air into food and oxygen."
+      }
     },
     {
       "id": 3,
       "x": "20%",
-      "y": "15%",
-      "label": "Terracotta Pot",
-      "fact": "Terracotta pots are made from baked clay and are popular in gardens because they allow air and water to pass through their walls. This helps keep plant roots healthy and prevents overwatering."
+      "y": "65%",
+      "label": "White Flowers",
+      "fact": "These white flowers are part of a plant's life cycle and help make seeds for new plants to grow. Flowers attract insects and animals that help with **pollination**, which is when pollen moves from one flower to another so the plant can make seeds. This is an important job that helps keep ecosystems healthy and balanced.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen is carried from one flower to another, usually by insects or animals, so plants can make seeds."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "50%",
-      "label": "White Flowering Plant",
-      "fact": "These small white flowers attract bees and other pollinators to the garden. Plants use flowers to make seeds, and pollinators help this process by moving pollen from flower to flower."
+      "x": "10%",
+      "y": "15%",
+      "label": "Garden Habitat",
+      "fact": "This garden is a small ecosystem where different living things interact with each other and their environment. The soil, rocks, plants, and animals all work together in this habitat to create a balanced community. When we observe nature like this, we can see how all organisms depend on each other to survive.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things and the non-living environment they live in, all working together."
+      }
     }
   ]
 }

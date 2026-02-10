@@ -3,30 +3,46 @@
     {
       "id": 1,
       "x": "50%",
-      "y": "25%",
-      "label": "Fluffy Tail",
-      "fact": "A squirrel's bushy tail helps it balance when jumping from tree to tree and keeps it warm in winter by wrapping around its body like a blanket. The tail also helps squirrels communicate with each other by twitching it in different ways!"
+      "y": "35%",
+      "label": "Orange Food",
+      "fact": "This squirrel is eating a piece of carrot, which is a plant that grows in soil under the ground! Animals like squirrels need to eat food to get energy and stay healthy. This is called **nutrition** — that's when living things eat food to help their bodies grow and work properly.",
+      "vocabulary": {
+        "term": "Nutrition",
+        "definition": "The food and materials that living things need to eat to grow, have energy, and stay healthy."
+      }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "35%",
-      "label": "Sharp Front Teeth",
-      "fact": "Squirrels have two large front teeth called incisors that never stop growing throughout their lives. They use these powerful teeth to crack open hard nuts and shells, and they stay sharp by constantly gnawing on things."
+      "x": "65%",
+      "y": "65%",
+      "label": "Soil and Plants",
+      "fact": "The squirrel is surrounded by rich brown soil and green plants growing from it. Plants need soil to grow roots that take in water and nutrients from the earth. Soil is made of tiny pieces of rock, dead plants, and animals that have broken down over time.",
+      "vocabulary": {
+        "term": "Soil",
+        "definition": "The top layer of earth made of broken rocks, dead plants and animals, and living things that plants grow in."
+      }
     },
     {
       "id": 3,
-      "x": "50%",
-      "y": "50%",
-      "label": "Orange Food Item",
-      "fact": "This squirrel is holding food, which it will either eat right away or bury in the ground to save for winter. Sometimes squirrels forget where they buried nuts, and those nuts grow into new trees!"
+      "x": "25%",
+      "y": "30%",
+      "label": "Flowering Plants",
+      "fact": "The colorful red and white flowers in the background are part of a garden ecosystem. Plants make flowers to create seeds that will grow into new plants. This is called **reproduction** — that's how living things make more of their own kind to continue the species.",
+      "vocabulary": {
+        "term": "Reproduction",
+        "definition": "How living things make babies or new copies of themselves so their kind can continue to exist."
+      }
     },
     {
       "id": 4,
-      "x": "75%",
-      "y": "55%",
-      "label": "Strong Hind Legs",
-      "fact": "A squirrel's back legs are very strong and muscular, allowing it to jump up to 20 times its own body length. These powerful legs help squirrels leap between branches and escape from predators."
+      "x": "50%",
+      "y": "50%",
+      "label": "Squirrel's Fur",
+      "fact": "The squirrel's thick, fluffy fur helps it survive in different weather and temperatures. Animals have different body coverings like fur, scales, or feathers that help them adapt to their environment. This is called **adaptation** — special features that help animals survive where they live.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "Special body parts or behaviors that help an animal survive and live in its environment."
+      }
     }
   ]
 }

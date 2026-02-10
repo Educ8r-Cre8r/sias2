@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Young Seedling Leaves",
-      "fact": "These bright green leaves are called cotyledons, which are the plant's first leaves! They help the tiny seedling capture sunlight and energy to grow into a bigger plant."
+      "label": "Green Seedling Leaves",
+      "fact": "These bright green leaves are the plant's food makers! Plants use sunlight, water, and air to make their own food through a special process. The green color comes from a substance called chlorophyll that helps the plant capture sunlight energy.",
+      "vocabulary": {
+        "term": "Chlorophyll",
+        "definition": "The green pigment in plants that captures sunlight and helps plants make their own food."
+      }
     },
     {
       "id": 2,
       "x": "50%",
       "y": "50%",
-      "label": "Sprouting Stem",
-      "fact": "This green stem is pushing up through the soil to reach sunlight. Plants grow stems upward toward light because they need light to make food and survive."
+      "label": "Plant Stem and Roots",
+      "fact": "The stem supports the plant and carries water and nutrients from the roots to the leaves. The roots (hidden in the soil and mulch below) absorb water and nutrients that the plant needs to grow strong and healthy.",
+      "vocabulary": {
+        "term": "Nutrients",
+        "definition": "Special substances in soil and water that plants need to grow and stay healthy."
+      }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "70%",
-      "label": "Wood Chip Mulch",
-      "fact": "The dark pieces around the seedling are wood chips that help protect the soil and keep it moist and warm. As they break down, they also add nutrients back to the soil for plants to use!"
+      "y": "65%",
+      "label": "Decomposing Wood Mulch",
+      "fact": "The dark, broken-down wood pieces around this seedling are part of a habitat that helps the plant grow. As the wood decays, it returns nutrients to the soil that help new plants, like this seedling, get the food they need. This is called **decomposition** — when dead things break down and become part of the soil.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "The process where dead plants and animals break down into smaller pieces and become nutrients in the soil."
+      }
     },
     {
       "id": 4,
-      "x": "30%",
-      "y": "60%",
-      "label": "Root System Below",
-      "fact": "Underground, this seedling has tiny roots growing downward to absorb water and nutrients from the soil. Roots are just as important as the leaves we can see above!"
+      "x": "50%",
+      "y": "35%",
+      "label": "Plant Growth Stage",
+      "fact": "This tiny plant is in the seedling stage of its life cycle, which means it just recently sprouted from a seed. As it grows, it will get taller, make more leaves, and eventually become a mature plant that can make its own seeds. All plants go through different stages as they grow and change.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The different stages a living thing goes through from birth to becoming an adult and making babies of its own."
+      }
     }
   ]
 }

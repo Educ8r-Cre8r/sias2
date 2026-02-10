@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "35%",
-      "label": "Spider Body",
-      "fact": "This spider has eight long legs that help it move quickly across the ground to hunt for food. Spiders are predators that catch insects, which helps control pest populations in nature."
+      "label": "Spider's Long Legs",
+      "fact": "Spiders have eight long legs that help them move quickly across the ground to hunt for food. These legs are special body parts that allow spiders to be excellent hunters in their habitat. This is called a **body structure** — that's the different parts of an animal's body that help it survive and do important jobs.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The different parts of an animal's body, like legs, eyes, and mouth, that help it live and survive."
+      }
     },
     {
       "id": 2,
       "x": "50%",
       "y": "50%",
-      "label": "Cephalothorax Region",
-      "fact": "The dark body section in the middle contains the spider's brain, eyes, and mouth. Unlike insects with three body parts, spiders have only two main body sections called the cephalothorax and abdomen."
+      "label": "Spider's Dark Body",
+      "fact": "This spider's dark color helps it blend in with the soil and rocks around it, making it harder for other animals to see it. This special coloring is called **camouflage** — that's when an animal's color or pattern matches its surroundings so predators can't spot it easily. Camouflage helps spiders survive by keeping them hidden from danger.",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "Colors or patterns on an animal's body that help it hide in its surroundings."
+      }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "65%",
-      "label": "Ground Habitat",
-      "fact": "This spider lives on dry, sandy soil where it can hide in small spaces and wait to ambush prey. Many ground-dwelling spiders are called \"ground spiders\" or hunting spiders because they actively chase their food instead of building webs."
+      "y": "55%",
+      "label": "Spider in Habitat",
+      "fact": "Spiders live in many different environments, including soil, rocks, and plants. This spider's home on the ground is called its **habitat** — that's the place where an animal lives and finds everything it needs like food and shelter. Different animals are adapted, or suited, to live in different habitats.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where an animal lives and where it can find food, water, and shelter."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
+      "x": "50%",
       "y": "45%",
-      "label": "Long Leg Span",
-      "fact": "A spider's long legs help it sense vibrations in the ground that tell it when prey is nearby. These sensitive legs are covered with tiny hairs that detect movement, helping the spider hunt even in complete darkness."
+      "label": "Predator Hunter",
+      "fact": "Spiders are predators, which means they hunt and eat other small animals like insects to survive. Spiders play an important role in their ecosystem by controlling the number of insects in an area. This shows how different living things depend on each other for food in a **food chain** — that's the path of eating that connects different living things together.",
+      "vocabulary": {
+        "term": "Predator",
+        "definition": "An animal that hunts and eats other animals for food."
+      }
     }
   ]
 }

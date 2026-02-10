@@ -4,29 +4,45 @@
       "id": 1,
       "x": "50%",
       "y": "25%",
-      "label": "Blue Ink Plume",
-      "fact": "This blue cloud-like formation is created when ink diffuses, or spreads out, through water. Diffusion happens when particles move from areas where there are lots of them to areas where there are fewer of them, creating beautiful swirling patterns!"
+      "label": "Blue Ink Cloud",
+      "fact": "When blue ink enters the clear water, it spreads out and mixes throughout the liquid. This process is called **diffusion** — that's when one substance slowly spreads and mixes evenly with another substance. Diffusion happens because tiny particles are always moving and bouncing around!",
+      "vocabulary": {
+        "term": "Diffusion",
+        "definition": "When particles of one substance spread out and mix evenly with another substance."
+      }
     },
     {
       "id": 2,
       "x": "50%",
-      "y": "60%",
+      "y": "65%",
       "label": "Clear Water Below",
-      "fact": "The bottom of the jar shows water that hasn't mixed with the ink yet. Over time, the blue ink will continue to spread throughout all the water through a process called diffusion, eventually turning the entire jar blue."
+      "fact": "The clear water at the bottom of the jar shows that water is a liquid, which is one of the three main states of matter. Liquids have no fixed shape — they take the shape of their container — but they do take up space and have mass. As the ink diffuses, the water's appearance changes even though it's still the same liquid!",
+      "vocabulary": {
+        "term": "Matter",
+        "definition": "Anything that takes up space and has weight; it can be a solid, liquid, or gas."
+      }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "10%",
-      "label": "Jar Opening",
-      "fact": "This closed jar traps the water and ink together, allowing us to observe diffusion safely. If the jar were open, air currents could disturb the experiment and make the ink spread unevenly."
+      "y": "50%",
+      "label": "Mixing Process",
+      "fact": "The swirling and spreading of the blue ink in the water demonstrates how particles move and change position. This movement happens naturally because the tiny particles that make up both the ink and water are always in motion, even when we can't see them moving. This is a physical change because the water is still water — it's just changing color as the ink mixes in!",
+      "vocabulary": {
+        "term": "Physical Change",
+        "definition": "A change in how something looks or feels without becoming a different substance."
+      }
     },
     {
       "id": 4,
-      "x": "35%",
-      "y": "35%",
-      "label": "Ink-Water Boundary",
-      "fact": "You can see where the dark blue ink meets the clear water - this is the diffusion boundary. Over time, this fuzzy line will disappear as the ink and water molecules mix together completely, demonstrating how particles move randomly."
+      "x": "50%",
+      "y": "15%",
+      "label": "Glass Jar Container",
+      "fact": "The glass jar holds the water and ink, showing us that containers hold liquids and keep them from spilling. Glass is a solid material with a fixed shape that doesn't change, while the water and ink inside are liquids that can flow and spread. The shape of the jar itself shows us the physical properties of solids — they keep their shape!",
+      "vocabulary": {
+        "term": "Solid",
+        "definition": "A type of matter that has a fixed shape and size that doesn't change unless you break it or melt it."
+      }
     }
   ]
 }
