@@ -1289,6 +1289,7 @@ a:hover {
 /* Modal Body */
 .modal-body {
   padding: var(--spacing-xl);
+  padding-bottom: calc(var(--spacing-xl) * 2); /* Extra bottom padding for scrolling */
   line-height: var(--line-height-relaxed);
   overflow-y: auto;
   flex: 1;
@@ -2061,6 +2062,7 @@ a:hover {
 
   .modal-body {
     padding: var(--spacing-md);
+    padding-bottom: calc(var(--spacing-md) * 2); /* Extra bottom padding for mobile scrolling */
   }
 
   .parallax-background {
