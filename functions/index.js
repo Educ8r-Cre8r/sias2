@@ -1,5 +1,6 @@
 /**
  * Science In A Snapshot - Automated Image Processing
+ * Updated: 2026-02-10 - Fixed YouTube videos in External Resources
  *
  * This Cloud Function automatically:
  * 1. Detects new images uploaded to Firebase Storage
@@ -723,8 +724,10 @@ Provide 3-4 ideas for connecting the science in this photo to other subjects lik
 List and briefly describe 2-3 STEM careers that relate to the science shown in this photo. Describe the job simply for a ${grade.name} student. For each career, also provide an estimated average annual salary in USD.
 
 ## 📚 External Resources
-Provide real, existing resources:
+Provide ONLY the following real, existing resources:
 - **Children's Books:** Title by Author (2-3 books)
+
+IMPORTANT: Do NOT include YouTube videos, websites, or any other external resources. Only provide children's books.
 
 ---
 
