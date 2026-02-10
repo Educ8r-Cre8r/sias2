@@ -71,9 +71,10 @@ service cloud.firestore {
         && request.auth.token.firebase.sign_in_provider != 'anonymous'
         && request.resource.data.userId == request.auth.uid;
 
-      // Users can only update/delete their own comments
+      // Users can update/delete their own comments; admin can delete any
       allow update, delete: if request.auth != null
-        && resource.data.userId == request.auth.uid;
+        && (resource.data.userId == request.auth.uid
+            || request.auth.token.email == 'mr.alexdjones@gmail.com');
     }
 
     // Test collection for connection testing
@@ -81,9 +82,11 @@ service cloud.firestore {
       allow read: if true;
     }
 
-    // Image processing queue - admin read access for dashboard monitoring
+    // Image processing queue - admin read/update access for dashboard monitoring
     match /imageQueue/{docId} {
       allow read: if request.auth != null
+        && request.auth.token.email == 'mr.alexdjones@gmail.com';
+      allow update: if request.auth != null
         && request.auth.token.email == 'mr.alexdjones@gmail.com';
     }
 

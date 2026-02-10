@@ -26,6 +26,9 @@ async function initDashboard() {
 
     // Start real-time queue monitor
     startQueueMonitor();
+
+    // Load engagement stats for overview
+    loadOverviewEngagement();
 }
 
 /**
@@ -45,6 +48,7 @@ function switchTab(tabName) {
     // Lazy-load data for tabs that query Firestore
     if (tabName === 'activity' && typeof loadActivityFeed === 'function') loadActivityFeed();
     if (tabName === 'analytics' && typeof loadAnalytics === 'function') loadAnalytics();
+    if (tabName === 'comments' && typeof loadComments === 'function') loadComments();
 }
 
 /**
@@ -173,9 +177,143 @@ function countAssociatedFiles(filesObj) {
     return filesObj.images.length + filesObj.content.length + filesObj.hotspots.length + filesObj.pdfs.length;
 }
 
+/**
+ * Load engagement stats for the Overview tab
+ */
+async function loadOverviewEngagement() {
+    try {
+        const [viewsSnap, ratingsSnap, commentsSnap] = await Promise.all([
+            db.collection('views').get(),
+            db.collection('ratings').get(),
+            db.collection('comments').orderBy('timestamp', 'desc').limit(5).get()
+        ]);
+
+        // Total views
+        let totalViews = 0;
+        viewsSnap.forEach(doc => { totalViews += (doc.data().count || 0); });
+        document.getElementById('stat-total-views').textContent = totalViews.toLocaleString();
+
+        // Total ratings + avg
+        let totalRatings = 0, totalStars = 0;
+        ratingsSnap.forEach(doc => {
+            const d = doc.data();
+            totalRatings += (d.totalRatings || 0);
+            totalStars += (d.averageRating || 0) * (d.totalRatings || 0);
+        });
+        document.getElementById('stat-total-ratings').textContent = totalRatings.toLocaleString();
+        const avgRating = totalRatings > 0 ? (totalStars / totalRatings) : 0;
+        document.getElementById('stat-avg-rating-overview').textContent = avgRating > 0 ? avgRating.toFixed(1) + '\u2605' : '--';
+
+        // Total comments
+        document.getElementById('stat-total-comments').textContent = commentsSnap.size.toString();
+
+        // Render recent comments
+        renderRecentComments(commentsSnap);
+
+        // "New this week" badge
+        const oneWeekAgo = new Date();
+        oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+        const newThisWeek = metadataManager.getImages().filter(img => {
+            if (!img.processedAt) return false;
+            return new Date(img.processedAt) >= oneWeekAgo;
+        }).length;
+
+        if (newThisWeek > 0 && !document.getElementById('new-this-week-badge')) {
+            const totalEl = document.getElementById('stat-total');
+            if (totalEl) {
+                const badge = document.createElement('span');
+                badge.id = 'new-this-week-badge';
+                badge.className = 'badge badge-success';
+                badge.style.cssText = 'font-size: 0.65rem; margin-left: 6px; vertical-align: super;';
+                badge.textContent = '+' + newThisWeek + ' this week';
+                totalEl.appendChild(badge);
+            }
+        }
+    } catch (error) {
+        console.error('Overview engagement error:', error);
+    }
+}
+
+/**
+ * Render recent comments preview in Overview
+ */
+function renderRecentComments(snapshot) {
+    const container = document.getElementById('recent-comments-list');
+    if (!container) return;
+
+    if (snapshot.empty) {
+        container.innerHTML = '<p class="text-muted">No comments yet.</p>';
+        return;
+    }
+
+    const images = metadataManager.getImages();
+    const imageMap = {};
+    images.forEach(img => { imageMap[String(img.id)] = img; });
+
+    let html = '';
+    snapshot.forEach(doc => {
+        const d = doc.data();
+        const img = imageMap[String(d.imageId)];
+        const title = img ? escapeHtml(img.title || img.filename) : 'Image #' + d.imageId;
+        const ts = d.timestamp?.toDate ? d.timestamp.toDate() : new Date(d.timestamp || 0);
+        const preview = (d.text || '').length > 60 ? d.text.substring(0, 60) + '...' : (d.text || '');
+        html += `
+            <div style="display: flex; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--border-light);">
+                <span style="font-size: 1.1rem;">💬</span>
+                <div style="flex: 1; min-width: 0;">
+                    <div style="font-size: 0.85rem;"><strong>${escapeHtml(d.displayName || 'User')}</strong> on ${title}</div>
+                    <div style="font-size: 0.8rem; color: var(--text-muted);">"${escapeHtml(preview)}" · ${timeAgo(ts.toISOString())}</div>
+                </div>
+            </div>
+        `;
+    });
+    container.innerHTML = html;
+}
+
+/**
+ * Render system health indicators in Overview
+ */
+function renderSystemHealth(queueItems) {
+    const container = document.getElementById('system-health-content');
+    if (!container) return;
+
+    const failed = queueItems.filter(i => i.status === 'failed').length;
+    const processing = queueItems.filter(i => i.status === 'processing').length;
+    const pending = queueItems.filter(i => i.status === 'pending').length;
+
+    const completed = queueItems.filter(i => i.status === 'completed' && i.completedAt);
+    let lastProcessed = 'None';
+    if (completed.length > 0) {
+        const sorted = completed.sort((a, b) => {
+            const tA = a.completedAt?.toDate ? a.completedAt.toDate() : new Date(0);
+            const tB = b.completedAt?.toDate ? b.completedAt.toDate() : new Date(0);
+            return tB - tA;
+        });
+        const ts = sorted[0].completedAt?.toDate ? sorted[0].completedAt.toDate() : null;
+        if (ts) lastProcessed = timeAgo(ts.toISOString());
+    }
+
+    const healthColor = failed > 0 ? 'var(--danger)' : processing > 0 ? 'var(--info)' : 'var(--success)';
+    const healthStatus = failed > 0 ? 'Attention Needed' : processing > 0 ? 'Processing' : 'All Clear';
+
+    container.innerHTML = `
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+            <div style="width: 12px; height: 12px; border-radius: 50%; background: ${healthColor};"></div>
+            <strong style="font-size: 1rem;">${healthStatus}</strong>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.85rem;">
+            <div>Pending: <strong>${pending}</strong></div>
+            <div>Processing: <strong>${processing}</strong></div>
+            <div style="${failed > 0 ? 'color: var(--danger); font-weight: 600;' : ''}">Failed: <strong>${failed}</strong></div>
+            <div>Last processed: <strong>${lastProcessed}</strong></div>
+        </div>
+    `;
+}
+
 // Expose globally
 window.initDashboard = initDashboard;
 window.switchTab = switchTab;
+window.renderSystemHealth = renderSystemHealth;
 window.showToast = showToast;
 window.formatDate = formatDate;
 window.timeAgo = timeAgo;

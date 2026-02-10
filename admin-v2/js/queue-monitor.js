@@ -24,6 +24,7 @@ function startQueueMonitor() {
                     renderQueueList(items);
                     renderRecentActivity(items.slice(0, 10));
                     updateQueueBadge(items);
+                    if (typeof renderSystemHealth === 'function') renderSystemHealth(items);
                 },
                 error => {
                     console.error('Queue monitor error:', error);
@@ -78,6 +79,7 @@ function renderQueueList(items) {
                     <div class="queue-item-detail">${escapeHtml(item.category || '')} ${detail ? '&middot; ' + detail : ''}</div>
                 </div>
                 <span class="badge badge-${status}">${status}</span>
+                ${status === 'failed' ? `<button class="btn btn-small btn-outline" onclick="retryQueueItem('${item.id}')" style="margin-left: 8px; font-size: 0.75rem;">Retry</button>` : ''}
             </div>
         `;
     }).join('');
@@ -171,6 +173,24 @@ async function clearCompletedQueue() {
     }
 }
 
+/**
+ * Retry a failed queue item by resetting status to pending
+ */
+async function retryQueueItem(docId) {
+    try {
+        await db.collection('imageQueue').doc(docId).update({
+            status: 'pending',
+            error: firebase.firestore.FieldValue.delete(),
+            retriedAt: firebase.firestore.FieldValue.serverTimestamp()
+        });
+        showToast('Queue item reset to pending', 'success');
+    } catch (error) {
+        console.error('Retry error:', error);
+        showToast('Retry failed: ' + error.message, 'error');
+    }
+}
+
 // Expose globally
 window.startQueueMonitor = startQueueMonitor;
 window.clearCompletedQueue = clearCompletedQueue;
+window.retryQueueItem = retryQueueItem;

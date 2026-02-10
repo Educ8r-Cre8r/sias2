@@ -59,6 +59,17 @@ const metadataManager = {
         if (!this.data) return;
         this.data.images = this.data.images.filter(img => img.id !== imageId);
         this.data.totalImages = this.data.images.length;
+    },
+
+    /**
+     * Update an image's fields in the local cache (optimistic update after edit)
+     */
+    updateImageLocally(imageId, updates) {
+        if (!this.data) return;
+        const img = this.data.images.find(i => i.id === imageId);
+        if (img) {
+            Object.assign(img, updates);
+        }
     }
 };
 

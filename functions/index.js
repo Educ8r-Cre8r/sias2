@@ -1461,3 +1461,169 @@ exports.adminReprocessImage = functions
       throw new functions.https.HttpsError('internal', 'Re-process failed: ' + error.message);
     }
   });
+
+/**
+ * Admin: Update image metadata (title, keywords) in gallery-metadata.json
+ * Commits and pushes changes to GitHub.
+ */
+exports.adminUpdateImageMetadata = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 300, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { imageId, title, keywords } = data;
+    if (!imageId && imageId !== 0) {
+      throw new functions.https.HttpsError('invalid-argument', 'imageId is required');
+    }
+    if (title !== undefined && typeof title !== 'string') {
+      throw new functions.https.HttpsError('invalid-argument', 'title must be a string');
+    }
+    if (keywords !== undefined && !Array.isArray(keywords)) {
+      throw new functions.https.HttpsError('invalid-argument', 'keywords must be an array');
+    }
+
+    console.log(`✏️  Admin updating metadata for image ID: ${imageId}`);
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-admin-update');
+
+    try {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+      const git = simpleGit();
+      await git.clone(repoUrl, repoDir);
+      const repoGit = simpleGit(repoDir);
+      await repoGit.addConfig('user.name', 'SIAS Admin');
+      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+
+      const image = metadata.images.find(img => img.id === imageId);
+      if (!image) {
+        throw new functions.https.HttpsError('not-found', `Image ${imageId} not found`);
+      }
+
+      const changes = [];
+      if (title !== undefined && title.trim()) {
+        image.title = title.trim();
+        changes.push(`title: "${image.title}"`);
+      }
+      if (keywords !== undefined) {
+        image.keywords = keywords.map(k => String(k).toLowerCase().trim()).filter(k => k.length > 0);
+        changes.push(`keywords: [${image.keywords.length} items]`);
+      }
+
+      if (changes.length === 0) {
+        throw new functions.https.HttpsError('invalid-argument', 'No changes provided');
+      }
+
+      metadata.lastUpdated = new Date().toISOString();
+      await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
+
+      await repoGit.add('gallery-metadata.json');
+      await repoGit.commit(`Update metadata for "${image.title}" (ID ${imageId})\n\nChanges: ${changes.join(', ')}\n\nUpdated via SIAS Admin Dashboard`);
+      await repoGit.push('origin', 'main');
+
+      console.log(`✅ Metadata updated and pushed for image ${imageId}`);
+
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      return { success: true, imageId, title: image.title, keywords: image.keywords };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('Update metadata error:', error);
+      if (error instanceof functions.https.HttpsError) throw error;
+      throw new functions.https.HttpsError('internal', 'Update failed: ' + error.message);
+    }
+  });
+
+/**
+ * Admin: Audit Firebase Storage for orphaned/missing files
+ * Compares actual Storage files against expected files from metadata.
+ */
+exports.adminAuditStorage = functions
+  .runWith({ memory: '512MB', timeoutSeconds: 120 })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const images = data.images;
+    if (!images || !Array.isArray(images)) {
+      throw new functions.https.HttpsError('invalid-argument', 'images array is required');
+    }
+
+    console.log(`🔍 Admin storage audit: checking ${images.length} images...`);
+
+    const bucket = admin.storage().bucket();
+    const grades = ['kindergarten', 'first-grade', 'second-grade', 'third-grade', 'fourth-grade', 'fifth-grade'];
+
+    // Build expected files set from metadata
+    const expectedFiles = new Set();
+    for (const image of images) {
+      const { filename, category } = image;
+      if (!filename || !category) continue;
+      const nameNoExt = filename.replace(/\.[^.]+$/, '');
+
+      expectedFiles.add(`images/${category}/${filename}`);
+      expectedFiles.add(`images/${category}/thumbs/${filename}`);
+      expectedFiles.add(`images/${category}/webp/${nameNoExt}.webp`);
+      expectedFiles.add(`images/${category}/placeholders/${filename}`);
+
+      expectedFiles.add(`content/${category}/${nameNoExt}.json`);
+      grades.forEach(g => expectedFiles.add(`content/${category}/${nameNoExt}-${g}.json`));
+      expectedFiles.add(`content/${category}/${nameNoExt}-edp.json`);
+
+      expectedFiles.add(`hotspots/${category}/${nameNoExt}.json`);
+
+      grades.forEach(g => expectedFiles.add(`pdfs/${category}/${nameNoExt}-${g}.pdf`));
+      expectedFiles.add(`pdfs/${category}/${nameNoExt}-edp.pdf`);
+    }
+
+    // List actual files in Storage
+    const prefixes = ['images/', 'content/', 'hotspots/', 'pdfs/'];
+    const actualFiles = new Map();
+
+    for (const prefix of prefixes) {
+      try {
+        const [files] = await bucket.getFiles({ prefix });
+        for (const file of files) {
+          if (file.name.endsWith('/')) continue;
+          if (file.name.startsWith('uploads/') || file.name.startsWith('processed/') ||
+              file.name.startsWith('failed/') || file.name.startsWith('duplicates/')) continue;
+          actualFiles.set(file.name, parseInt(file.metadata.size || 0));
+        }
+      } catch (e) {
+        console.error(`Error listing ${prefix}:`, e);
+      }
+    }
+
+    // Compare
+    const orphaned = [];
+    for (const [filePath, size] of actualFiles) {
+      if (!expectedFiles.has(filePath)) {
+        orphaned.push({ path: filePath, size });
+      }
+    }
+
+    const missing = [];
+    for (const expectedPath of expectedFiles) {
+      if (!actualFiles.has(expectedPath)) {
+        missing.push({ path: expectedPath });
+      }
+    }
+
+    console.log(`✅ Audit complete: ${orphaned.length} orphaned, ${missing.length} missing`);
+
+    return {
+      success: true,
+      totalExpected: expectedFiles.size,
+      totalActual: actualFiles.size,
+      orphaned,
+      missing,
+      orphanedCount: orphaned.length,
+      missingCount: missing.length,
+      orphanedSize: orphaned.reduce((sum, f) => sum + f.size, 0)
+    };
+  });

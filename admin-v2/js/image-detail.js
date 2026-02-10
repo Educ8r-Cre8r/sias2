@@ -3,6 +3,10 @@
  * Shows comprehensive details for a single image.
  */
 
+let editModeActive = false;
+let editImageId = null;
+let editKeywords = [];
+
 /**
  * Show the detail modal for an image
  */
@@ -50,7 +54,10 @@ function showDetailModal(imageId) {
             <div>
                 <img class="detail-image" src="../${image.imagePath}" alt="${escapeHtml(image.title)}"
                      onerror="this.src='../${image.thumbPath || image.imagePath}'">
-                <div class="mt-16" style="display: flex; gap: 8px;">
+                <div class="mt-16" style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <button class="btn btn-secondary btn-small" id="edit-meta-btn" onclick="enterEditMode(${image.id})">
+                        Edit Info
+                    </button>
                     <button class="btn btn-primary btn-small" onclick="reprocessImage(${image.id})">
                         Re-process
                     </button>
@@ -66,7 +73,7 @@ function showDetailModal(imageId) {
                         <span class="detail-field-label">ID</span>
                         <span class="detail-field-value">${image.id}</span>
                     </div>
-                    <div class="detail-field">
+                    <div class="detail-field" id="detail-title-field">
                         <span class="detail-field-label">Title</span>
                         <span class="detail-field-value">${escapeHtml(image.title || 'Untitled')}</span>
                     </div>
@@ -104,9 +111,9 @@ function showDetailModal(imageId) {
                     </div>
                 </div>
 
-                <div class="detail-section">
+                <div class="detail-section" id="detail-keywords-section">
                     <h3>Keywords</h3>
-                    <div class="detail-tags">${keywordsHtml}</div>
+                    <div class="detail-tags" id="detail-keywords-container">${keywordsHtml}</div>
                 </div>
 
                 <div class="detail-section">
@@ -141,13 +148,172 @@ function showDetailModal(imageId) {
 }
 
 /**
+ * Enter edit mode for title and keywords
+ */
+function enterEditMode(imageId) {
+    const image = metadataManager.getImageById(imageId);
+    if (!image) return;
+
+    editModeActive = true;
+    editImageId = imageId;
+    editKeywords = [...(image.keywords || [])];
+
+    // Replace Edit button with Save/Cancel
+    const editBtn = document.getElementById('edit-meta-btn');
+    if (editBtn) {
+        editBtn.outerHTML = `
+            <button class="btn btn-primary btn-small" id="save-meta-btn" onclick="saveImageMetadata()">
+                Save
+            </button>
+            <button class="btn btn-secondary btn-small" onclick="cancelEditMode()">
+                Cancel
+            </button>
+        `;
+    }
+
+    // Replace title with input
+    const titleField = document.getElementById('detail-title-field');
+    if (titleField) {
+        titleField.innerHTML = `
+            <span class="detail-field-label">Title</span>
+            <input type="text" id="edit-title-input" class="edit-input" value="${escapeHtml(image.title || '')}" placeholder="Enter title...">
+        `;
+    }
+
+    // Replace keywords with editable tags
+    renderEditableKeywords();
+}
+
+/**
+ * Render editable keyword tags with add/remove
+ */
+function renderEditableKeywords() {
+    const container = document.getElementById('detail-keywords-container');
+    if (!container) return;
+
+    const tagsHtml = editKeywords.map((k, i) =>
+        `<span class="detail-tag keyword-editable">${escapeHtml(k)}<button class="keyword-remove-btn" onclick="removeKeywordTag(${i})" title="Remove">&times;</button></span>`
+    ).join('');
+
+    container.innerHTML = `
+        ${tagsHtml}
+        <div class="keyword-add-row">
+            <input type="text" id="add-keyword-input" class="edit-input edit-input-small" placeholder="Add keyword..." onkeydown="if(event.key==='Enter'){event.preventDefault();addKeywordTag();}">
+            <button class="btn btn-small btn-outline" onclick="addKeywordTag()">+</button>
+        </div>
+    `;
+}
+
+/**
+ * Add a new keyword tag
+ */
+function addKeywordTag() {
+    const input = document.getElementById('add-keyword-input');
+    if (!input) return;
+    const val = input.value.trim();
+    if (!val) return;
+    if (editKeywords.includes(val)) {
+        showToast('Keyword already exists', 'info');
+        input.value = '';
+        return;
+    }
+    editKeywords.push(val);
+    input.value = '';
+    renderEditableKeywords();
+    // Re-focus the input
+    const newInput = document.getElementById('add-keyword-input');
+    if (newInput) newInput.focus();
+}
+
+/**
+ * Remove a keyword tag by index
+ */
+function removeKeywordTag(index) {
+    editKeywords.splice(index, 1);
+    renderEditableKeywords();
+}
+
+/**
+ * Cancel edit mode and restore display
+ */
+function cancelEditMode() {
+    editModeActive = false;
+    editKeywords = [];
+    // Re-render the whole modal to restore original display
+    if (editImageId !== null) {
+        showDetailModal(editImageId);
+    }
+    editImageId = null;
+}
+
+/**
+ * Save edited title and keywords via Cloud Function
+ */
+async function saveImageMetadata() {
+    const titleInput = document.getElementById('edit-title-input');
+    const newTitle = titleInput ? titleInput.value.trim() : '';
+
+    if (!newTitle) {
+        showToast('Title cannot be empty', 'warning');
+        return;
+    }
+
+    const saveBtn = document.getElementById('save-meta-btn');
+    if (saveBtn) {
+        saveBtn.disabled = true;
+        saveBtn.textContent = 'Saving...';
+    }
+
+    try {
+        const updateFn = firebase.functions().httpsCallable('adminUpdateImageMetadata');
+        await updateFn({
+            imageId: editImageId,
+            title: newTitle,
+            keywords: editKeywords
+        });
+
+        // Optimistic local update
+        metadataManager.updateImageLocally(editImageId, {
+            title: newTitle,
+            keywords: [...editKeywords]
+        });
+
+        showToast('Image metadata saved!', 'success');
+        editModeActive = false;
+
+        // Refresh the modal to show updated data
+        showDetailModal(editImageId);
+        editImageId = null;
+        editKeywords = [];
+
+        // Refresh the images grid
+        if (typeof renderImagesGrid === 'function') renderImagesGrid();
+    } catch (error) {
+        console.error('Save metadata error:', error);
+        showToast('Failed to save: ' + error.message, 'error');
+        if (saveBtn) {
+            saveBtn.disabled = false;
+            saveBtn.textContent = 'Save';
+        }
+    }
+}
+
+/**
  * Close the detail modal
  */
 function closeDetailModal() {
     const modal = document.getElementById('detail-modal');
     modal.classList.add('hidden');
+    editModeActive = false;
+    editImageId = null;
+    editKeywords = [];
 }
 
 // Expose globally
 window.showDetailModal = showDetailModal;
 window.closeDetailModal = closeDetailModal;
+window.enterEditMode = enterEditMode;
+window.cancelEditMode = cancelEditMode;
+window.saveImageMetadata = saveImageMetadata;
+window.addKeywordTag = addKeywordTag;
+window.removeKeywordTag = removeKeywordTag;

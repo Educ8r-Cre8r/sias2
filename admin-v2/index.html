@@ -63,6 +63,7 @@
                 <button class="tab-btn" data-tab="audit" onclick="switchTab('audit')">Content Audit</button>
                 <button class="tab-btn" data-tab="activity" onclick="switchTab('activity')">Activity</button>
                 <button class="tab-btn" data-tab="analytics" onclick="switchTab('analytics')">Analytics</button>
+                <button class="tab-btn" data-tab="comments" onclick="switchTab('comments')">Comments</button>
             </nav>
 
             <!-- ======== OVERVIEW TAB ======== -->
@@ -91,6 +92,45 @@
                     <div class="stat-card stat-avg">
                         <div class="stat-value" id="stat-avg-cost">--</div>
                         <div class="stat-label">Avg Cost/Image</div>
+                    </div>
+                </div>
+
+                <!-- Engagement Stats -->
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-total-views">--</div>
+                        <div class="stat-label">Total Views</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-total-ratings">--</div>
+                        <div class="stat-label">Total Ratings</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-avg-rating-overview">--</div>
+                        <div class="stat-label">Avg Rating</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="stat-total-comments">--</div>
+                        <div class="stat-label">Total Comments</div>
+                    </div>
+                </div>
+
+                <!-- System Health + Recent Comments -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <div class="card" style="margin-bottom: 0;">
+                        <h2>System Health</h2>
+                        <div id="system-health-content">
+                            <p class="text-muted">Loading...</p>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-bottom: 0;">
+                        <div class="card-header">
+                            <h2>Recent Comments</h2>
+                            <button class="btn btn-small btn-secondary" onclick="switchTab('comments')">View All</button>
+                        </div>
+                        <div id="recent-comments-list">
+                            <p class="text-muted">Loading...</p>
+                        </div>
                     </div>
                 </div>
 
@@ -215,6 +255,7 @@
                 <div id="bulk-bar" class="bulk-bar hidden">
                     <span id="bulk-count">0 selected</span>
                     <button class="btn btn-small btn-danger" onclick="bulkDelete()">Delete Selected</button>
+                    <button class="btn btn-small btn-primary" onclick="bulkReprocess()">Re-process Selected</button>
                     <button class="btn btn-small btn-secondary" onclick="clearSelection()">Clear Selection</button>
                 </div>
 
@@ -342,6 +383,18 @@
                         <p class="text-muted">Loading NGSS coverage data...</p>
                     </div>
                 </div>
+
+                <!-- Storage File Audit -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Storage File Audit</h2>
+                        <button class="btn btn-small btn-primary" id="run-orphan-scan-btn" onclick="runOrphanDetection()">Scan Storage</button>
+                    </div>
+                    <p class="text-muted" style="margin-bottom: 12px;">Compare expected files against actual Firebase Storage contents to find orphaned or missing files.</p>
+                    <div id="orphan-results-container">
+                        <p class="text-muted">Click "Scan Storage" to run the audit.</p>
+                    </div>
+                </div>
             </div>
 
             <!-- ======== ACTIVITY TAB ======== -->
@@ -419,8 +472,49 @@
                 </div>
             </div>
 
+            <!-- ======== COMMENTS TAB ======== -->
+            <div id="tab-comments" class="tab-content">
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <div class="stat-value" id="comments-total-count">--</div>
+                        <div class="stat-label">Total Comments</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="comments-unique-users">--</div>
+                        <div class="stat-label">Unique Users</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="comments-today-count">--</div>
+                        <div class="stat-label">Today</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2>All Comments</h2>
+                        <div style="display: flex; gap: 8px; align-items: center;">
+                            <input type="text" id="comment-search" placeholder="Search comments..."
+                                   oninput="filterComments()" style="padding: 6px 12px; border: 2px solid var(--border); border-radius: var(--radius-sm); font-size: 0.85rem; width: 200px;">
+                            <button class="btn btn-small btn-secondary" onclick="refreshComments()">Refresh</button>
+                        </div>
+                    </div>
+                    <div id="comments-list" class="comments-moderation-list">
+                        <p class="text-muted">Switch to this tab to load comments...</p>
+                    </div>
+                </div>
+            </div>
+
         </div><!-- .admin-container -->
     </div><!-- #dashboard -->
+
+    <!-- ============ DELETE COMMENT MODAL ============ -->
+    <div id="delete-comment-modal" class="modal hidden">
+        <div class="modal-backdrop" onclick="closeDeleteCommentModal()"></div>
+        <div class="modal-content">
+            <h2>Delete Comment</h2>
+            <div id="delete-comment-modal-body"></div>
+        </div>
+    </div>
 
     <!-- ============ IMAGE DETAIL MODAL ============ -->
     <div id="detail-modal" class="modal hidden">
@@ -462,6 +556,8 @@
     <script src="js/ngss-coverage.js"></script>
     <script src="js/activity-feed.js"></script>
     <script src="js/analytics.js"></script>
+    <script src="js/comment-moderation.js"></script>
+    <script src="js/orphan-detector.js"></script>
 
 </body>
 </html>
