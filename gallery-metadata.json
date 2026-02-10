@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-10T04:19:23.169Z",
-  "totalImages": 156,
+  "lastUpdated": "2026-02-10T18:47:44.386Z",
+  "totalImages": 157,
   "images": [
     {
       "id": 1,
@@ -7861,6 +7861,60 @@
           "5-LS1.C"
         ]
       }
+    },
+    {
+      "id": 157,
+      "filename": "nurse_log.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/nurse_log.jpg",
+      "thumbPath": "images/life-science/thumbs/nurse_log.jpg",
+      "webpPath": "images/life-science/webp/nurse_log.webp",
+      "placeholderPath": "images/life-science/placeholders/nurse_log.jpg",
+      "contentFile": "content/life-science/nurse_log.json",
+      "title": "Nurse Log",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS3.A",
+          "K-LS1-1",
+          "K-LS1.A"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1.A",
+          "1-LS1.B"
+        ],
+        "grade2": [
+          "2-LS2-1",
+          "2-LS2.A",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.C",
+          "5-LS2.B",
+          "5-LS2.D"
+        ],
+        "grade5": [
+          "5-LS1.C",
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      },
+      "keywords": [
+        "decomposition",
+        "dead wood",
+        "decay",
+        "fungi",
+        "nutrient cycling",
+        "ecosystem"
+      ]
     }
   ]
 }

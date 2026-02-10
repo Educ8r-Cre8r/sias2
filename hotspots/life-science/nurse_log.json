@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Tree Rings and Age",
+      "fact": "When a tree is cut down, you can count the rings inside to find out how old the tree was! Each ring shows one year of growth, and the width of the ring tells us if it was a good year for the tree with lots of water and sunshine. This is called **tree rings** — the circular bands you see inside a tree trunk that mark each year of growth.",
+      "vocabulary": {
+        "term": "Tree Rings",
+        "definition": "The circular bands inside a tree trunk that show how old the tree is and how well it grew each year."
+      }
+    },
+    {
+      "id": 2,
+      "x": "35%",
+      "y": "50%",
+      "label": "Decaying Wood and Decomposition",
+      "fact": "This fallen log is breaking down into smaller pieces through a process where tiny living things and natural weather break down the dead wood. This dead wood becomes nutrients that go back into the soil to help new plants grow! This process is called **decomposition** — when dead plants and animals break down into smaller pieces.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "The natural process where dead plants and animals break down into simpler materials that return to the soil."
+      }
+    },
+    {
+      "id": 3,
+      "x": "20%",
+      "y": "60%",
+      "label": "Habitat for Small Organisms",
+      "fact": "This hollow log is a home for many small animals like insects, worms, and beetles! Logs and dead wood are important parts of forest ecosystems because they provide shelter and food for living things. The organisms that live here also help break down the wood and return nutrients to the soil, which helps new plants grow.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "A place where an animal or plant naturally lives and finds food, water, and shelter."
+      }
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "45%",
+      "label": "Wood Structure and Plant Growth",
+      "fact": "The light-colored part you see when the tree is freshly cut is made of special plant cells that help the tree carry water and nutrients from the roots to the leaves. Trees grow by adding new cells every year, which is why the wood gets thicker and the tree gets taller! The wood's structure shows us that this tree was once a living organism with different body parts.",
+      "vocabulary": {
+        "term": "Cambium",
+        "definition": "The thin layer under the bark where a tree grows new wood each year."
+      }
+    }
+  ]
+}
