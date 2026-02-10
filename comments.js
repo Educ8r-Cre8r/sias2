@@ -106,6 +106,13 @@ async function submitComment(imageId, text) {
     const displayName = googleProvider?.displayName || user.displayName || user.email || 'User';
     const photoURL = googleProvider?.photoURL || user.photoURL || null;
 
+    console.log('💬 Comment Avatar Debug:', {
+      displayName,
+      photoURL,
+      hasGoogleProvider: !!googleProvider,
+      topLevelPhotoURL: user.photoURL
+    });
+
     // Write comment
     await db.collection('comments').doc(docId).set({
       userId: userId,
