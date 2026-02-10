@@ -416,6 +416,28 @@ a:hover {
   align-items: center;
   gap: var(--spacing-lg);
   margin-bottom: var(--spacing-xl);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-bg-white);
+  padding: var(--spacing-md) 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+}
+
+/* Enhanced styling when stuck to top */
+.gallery-header.is-stuck {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 0.75rem 0;
+}
+
+/* Slightly smaller logo when stuck */
+.gallery-header.is-stuck .gallery-logo {
+  width: 180px;
+  transition: width 0.3s ease;
 }
 
 .gallery-logo {
@@ -2154,10 +2176,19 @@ a:hover {
 
   .gallery-header {
     flex-direction: column;
+    padding: 0.5rem 0;
+  }
+
+  .gallery-header.is-stuck {
+    padding: 0.5rem 0;
   }
 
   .gallery-logo {
     width: 140px;
+  }
+
+  .gallery-header.is-stuck .gallery-logo {
+    width: 120px;
   }
 
   .category-filters {

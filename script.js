@@ -81,6 +81,7 @@ function initializeRandomHeroImage() {
 async function initializeApp() {
   updateCopyrightYear();
   setupEventListeners();
+  initializeStickyFilters();
   showSkeletonPlaceholders(12);
   await loadGalleryData();
   computeRecentImages();
@@ -160,6 +161,40 @@ function setupEventListeners() {
 
   // Back to Filters button visibility
   window.addEventListener('scroll', handleBackToFiltersButton);
+}
+
+/**
+ * Initialize sticky filter behavior with intersection observer
+ */
+function initializeStickyFilters() {
+  const galleryHeader = document.querySelector('.gallery-header');
+  if (!galleryHeader) return;
+
+  // Create an intersection observer to detect when header reaches top
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      // Toggle 'is-stuck' class when header is no longer intersecting
+      galleryHeader.classList.toggle('is-stuck', !entry.isIntersecting);
+    },
+    {
+      threshold: [1],
+      rootMargin: '-1px 0px 0px 0px'
+    }
+  );
+
+  // Create a sentinel element just above the gallery header
+  const sentinel = document.createElement('div');
+  sentinel.style.height = '1px';
+  sentinel.style.visibility = 'hidden';
+  sentinel.setAttribute('aria-hidden', 'true');
+
+  // Insert sentinel before the gallery header
+  galleryHeader.parentNode.insertBefore(sentinel, galleryHeader);
+
+  // Start observing the sentinel
+  observer.observe(sentinel);
+
+  console.log('[Sticky Filters] Initialized - filters will stick on scroll');
 }
 
 /**
