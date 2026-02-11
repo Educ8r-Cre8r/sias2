@@ -33,13 +33,214 @@ const db = admin.firestore();
 
 // Grade levels for content generation
 const GRADE_LEVELS = [
-  { key: 'kindergarten', name: 'Kindergarten' },
-  { key: 'first-grade', name: 'First Grade' },
-  { key: 'second-grade', name: 'Second Grade' },
-  { key: 'third-grade', name: 'Third Grade' },
-  { key: 'fourth-grade', name: 'Fourth Grade' },
-  { key: 'fifth-grade', name: 'Fifth Grade' }
+  { key: 'kindergarten', name: 'Kindergarten', ngssGrade: 'K' },
+  { key: 'first-grade', name: 'First Grade', ngssGrade: '1' },
+  { key: 'second-grade', name: 'Second Grade', ngssGrade: '2' },
+  { key: 'third-grade', name: 'Third Grade', ngssGrade: '3' },
+  { key: 'fourth-grade', name: 'Fourth Grade', ngssGrade: '4' },
+  { key: 'fifth-grade', name: 'Fifth Grade', ngssGrade: '5' }
 ];
+
+// Category -> NGSS domain code prefix mapping
+const CATEGORY_TO_NGSS_DOMAIN = {
+  'physical-science': 'PS',
+  'life-science': 'LS',
+  'earth-space-science': 'ESS'
+};
+
+// Complete K-5 NGSS Performance Expectations with official statements
+// Source: https://www.nextgenscience.org/search-standards (verified Feb 2026)
+const NGSS_PE_STANDARDS = {
+  // ── Physical Science (29 standards) ──
+  'K-PS2-1': 'Plan and conduct an investigation to compare the effects of different strengths or different directions of pushes and pulls on the motion of an object.',
+  'K-PS2-2': 'Analyze data to determine if a design solution works as intended to change the speed or direction of an object with a push or a pull.',
+  'K-PS3-1': 'Make observations to determine the effect of sunlight on Earth\'s surface.',
+  'K-PS3-2': 'Use tools and materials to design and build a structure that will reduce the warming effect of sunlight on an area.',
+  '1-PS4-1': 'Plan and conduct investigations to provide evidence that vibrating materials can make sound and that sound can make materials vibrate.',
+  '1-PS4-2': 'Make observations to construct an evidence-based account that objects in darkness can be seen only when illuminated.',
+  '1-PS4-3': 'Plan and conduct investigations to determine the effect of placing objects made with different materials in the path of a beam of light.',
+  '1-PS4-4': 'Use tools and materials to design and build a device that uses light or sound to solve the problem of communicating over a distance.',
+  '2-PS1-1': 'Plan and conduct an investigation to describe and classify different kinds of materials by their observable properties.',
+  '2-PS1-2': 'Analyze data obtained from testing different materials to determine which materials have the properties that are best suited for an intended purpose.',
+  '2-PS1-3': 'Make observations to construct an evidence-based account of how an object made of a small set of pieces can be disassembled and made into a new object.',
+  '2-PS1-4': 'Construct an argument with evidence that some changes caused by heating or cooling can be reversed and some cannot.',
+  '3-PS2-1': 'Plan and conduct an investigation to provide evidence of the effects of balanced and unbalanced forces on the motion of an object.',
+  '3-PS2-2': 'Make observations and/or measurements of an object\'s motion to provide evidence that a pattern can be used to predict future motion.',
+  '3-PS2-3': 'Ask questions to determine cause and effect relationships of electric or magnetic interactions between two objects not in contact with each other.',
+  '3-PS2-4': 'Define a simple design problem that can be solved by applying scientific ideas about magnets.',
+  '4-PS3-1': 'Use evidence to construct an explanation relating the speed of an object to the energy of that object.',
+  '4-PS3-2': 'Make observations to provide evidence that energy can be transferred from place to place by sound, light, heat, and electric currents.',
+  '4-PS3-3': 'Ask questions and predict outcomes about the changes in energy that occur when objects collide.',
+  '4-PS3-4': 'Apply scientific ideas to design, test, and refine a device that converts energy from one form to another.',
+  '4-PS4-1': 'Develop a model of waves to describe patterns in terms of amplitude and wavelength and that waves can cause objects to move.',
+  '4-PS4-2': 'Develop a model to describe that light reflecting from objects and entering the eye allows objects to be seen.',
+  '4-PS4-3': 'Generate and compare multiple solutions that use patterns to transfer information.',
+  '5-PS1-1': 'Develop a model to describe that matter is made of particles too small to be seen.',
+  '5-PS1-2': 'Measure and graph quantities to provide evidence that regardless of the type of change that occurs when heating, cooling, or mixing substances, the total weight of matter is conserved.',
+  '5-PS1-3': 'Make observations and measurements to identify materials based on their properties.',
+  '5-PS1-4': 'Conduct an investigation to determine whether the mixing of two or more substances results in new substances.',
+  '5-PS2-1': 'Support an argument that the gravitational force exerted by Earth on objects is directed down.',
+  '5-PS3-1': 'Use models to describe that energy in animals\' food (used for body repair, growth, motion, and to maintain body warmth) was once energy from the sun.',
+  // ── Life Science (19 standards) ──
+  'K-LS1-1': 'Use observations to describe patterns of what plants and animals (including humans) need to survive.',
+  '1-LS1-1': 'Use materials to design a solution to a human problem by mimicking how plants and/or animals use their external parts to help them survive, grow, and meet their needs.',
+  '1-LS1-2': 'Read texts and use media to determine patterns in behavior of parents and offspring that help offspring survive.',
+  '1-LS3-1': 'Make observations to construct an evidence-based account that young plants and animals are like, but not exactly like, their parents.',
+  '2-LS2-1': 'Plan and conduct an investigation to determine if plants need sunlight and water to grow.',
+  '2-LS2-2': 'Develop a simple model that mimics the function of an animal in dispersing seeds or pollinating plants.',
+  '2-LS4-1': 'Make observations of plants and animals to compare the diversity of life in different habitats.',
+  '3-LS1-1': 'Develop models to describe that organisms have unique and diverse life cycles but all have in common birth, growth, reproduction, and death.',
+  '3-LS2-1': 'Construct an argument that some animals form groups that help members survive.',
+  '3-LS3-1': 'Analyze and interpret data to provide evidence that plants and animals have traits inherited from parents and that variation of these traits exists in a group of similar organisms.',
+  '3-LS3-2': 'Use evidence to support the explanation that traits can be influenced by the environment.',
+  '3-LS4-1': 'Analyze and interpret data from fossils to provide evidence of the organisms and the environments in which they lived long ago.',
+  '3-LS4-2': 'Use evidence to construct an explanation for how the variations in characteristics among individuals of the same species may provide advantages in surviving, finding mates, and reproducing.',
+  '3-LS4-3': 'Construct an argument with evidence that in a particular habitat some organisms can survive well, some survive less well, and some cannot survive at all.',
+  '3-LS4-4': 'Make a claim about the merit of a solution to a problem caused when the environment changes and the types of plants and animals that live there may change.',
+  '4-LS1-1': 'Construct an argument that plants and animals have internal and external structures that function to support survival, growth, behavior, and reproduction.',
+  '4-LS1-2': 'Use a model to describe that animals receive different types of information through their senses, process the information in their brain, and respond to the information in different ways.',
+  '5-LS1-1': 'Support an argument that plants get the materials they need for growth chiefly from air and water.',
+  '5-LS2-1': 'Develop a model to describe the movement of matter among plants, animals, decomposers, and the environment.',
+  // ── Earth & Space Science (24 standards) ──
+  'K-ESS2-1': 'Use and share observations of local weather conditions to describe patterns over time.',
+  'K-ESS2-2': 'Construct an argument supported by evidence for how plants and animals (including humans) can change the environment to meet their needs.',
+  'K-ESS3-1': 'Use a model to represent the relationship between the needs of different plants and animals (including humans) and the places they live.',
+  'K-ESS3-2': 'Ask questions to obtain information about the purpose of weather forecasting to prepare for, and respond to, severe weather.',
+  'K-ESS3-3': 'Communicate solutions that will reduce the impact of humans on the land, water, air, and/or other living things in the local environment.',
+  '1-ESS1-1': 'Use observations of the sun, moon, and stars to describe patterns that can be predicted.',
+  '1-ESS1-2': 'Make observations at different times of year to relate the amount of daylight to the time of year.',
+  '2-ESS1-1': 'Use information from several sources to provide evidence that Earth events can occur quickly or slowly.',
+  '2-ESS2-1': 'Compare multiple solutions designed to slow or prevent wind or water from changing the shape of the land.',
+  '2-ESS2-2': 'Develop a model to represent the shapes and kinds of land and bodies of water in an area.',
+  '2-ESS2-3': 'Obtain information to identify where water is found on Earth and that it can be solid or liquid.',
+  '3-ESS2-1': 'Represent data in tables and graphical displays to describe typical weather conditions expected during a particular season.',
+  '3-ESS2-2': 'Obtain and combine information to describe climates in different regions of the world.',
+  '3-ESS3-1': 'Make a claim about the merit of a design solution that reduces the impacts of a weather-related hazard.',
+  '4-ESS1-1': 'Identify evidence from patterns in rock formations and fossils in rock layers to support an explanation for changes in a landscape over time.',
+  '4-ESS2-1': 'Make observations and/or measurements to provide evidence of the effects of weathering or the rate of erosion by water, ice, wind, or vegetation.',
+  '4-ESS2-2': 'Analyze and interpret data from maps to describe patterns of Earth\'s features.',
+  '4-ESS3-1': 'Obtain and combine information to describe that energy and fuels are derived from natural resources and their uses affect the environment.',
+  '4-ESS3-2': 'Generate and compare multiple solutions to reduce the impacts of natural Earth processes on humans.',
+  '5-ESS1-1': 'Support an argument that differences in the apparent brightness of the sun compared to other stars is due to their relative distances from Earth.',
+  '5-ESS1-2': 'Represent data in graphical displays to reveal patterns of daily changes in length and direction of shadows, day and night, and the seasonal appearance of some stars in the night sky.',
+  '5-ESS2-1': 'Develop a model using an example to describe ways the geosphere, biosphere, hydrosphere, and/or atmosphere interact.',
+  '5-ESS2-2': 'Describe and graph the amounts and percentages of water and fresh water in various reservoirs to provide evidence about the distribution of water on Earth.',
+  '5-ESS3-1': 'Obtain and combine information about ways individual communities use science ideas to protect the Earth\'s resources and environment.'
+};
+
+/**
+ * Get NGSS PE standards filtered by category domain and grade level
+ */
+function getFilteredNGSSStandards(category, ngssGrade) {
+  const domainPrefix = CATEGORY_TO_NGSS_DOMAIN[category];
+  if (!domainPrefix) return {};
+
+  const filtered = {};
+  for (const [code, statement] of Object.entries(NGSS_PE_STANDARDS)) {
+    // Extract domain letters from code (e.g., 'PS' from '3-PS2-1', 'ESS' from '2-ESS1-1')
+    const domainMatch = code.match(/-([A-Z]+)\d/);
+    if (!domainMatch) continue;
+    const codeDomain = domainMatch[1];
+
+    // Only include standards matching the category domain
+    if (codeDomain !== domainPrefix) continue;
+
+    // Check if grade level matches
+    const codeGrade = code.split('-')[0];
+    if (codeGrade === ngssGrade) {
+      filtered[code] = statement;
+    }
+  }
+
+  return filtered;
+}
+
+/**
+ * Build ngss-index.json from gallery-metadata.json and content files.
+ * This keeps the NGSS coverage map on the admin dashboard up-to-date
+ * automatically after each image is processed.
+ */
+async function buildNgssIndex(repoDir) {
+  const metadataContent = await fs.readFile(path.join(repoDir, 'gallery-metadata.json'), 'utf8');
+  const galleryData = JSON.parse(metadataContent);
+
+  const ngssIndex = {
+    performanceExpectations: {},
+    disciplinaryCoreIdeas: {},
+    crosscuttingConcepts: {},
+    allStandards: []
+  };
+
+  let processed = 0;
+
+  for (const image of galleryData.images) {
+    const baseFile = image.contentFile.replace('.json', '');
+    const gradeFile = path.join(repoDir, baseFile + '-third-grade.json');
+    const fallbackFile = path.join(repoDir, image.contentFile);
+
+    let content = null;
+    try {
+      try {
+        content = JSON.parse(await fs.readFile(gradeFile, 'utf8'));
+      } catch {
+        content = JSON.parse(await fs.readFile(fallbackFile, 'utf8'));
+      }
+    } catch {
+      continue;
+    }
+
+    if (!content || !content.content) continue;
+    const md = content.content;
+
+    // Extract Performance Expectations (e.g., 3-LS4-3, K-PS2-1, 5-ESS2-1)
+    const peRegex = /\b([K1-5]-[A-Z]{2,4}\d?-\d+)\b/g;
+    let peMatch;
+    const peSet = new Set();
+    while ((peMatch = peRegex.exec(md)) !== null) {
+      peSet.add(peMatch[1]);
+    }
+    peSet.forEach(pe => {
+      if (!ngssIndex.performanceExpectations[pe]) ngssIndex.performanceExpectations[pe] = [];
+      if (!ngssIndex.performanceExpectations[pe].includes(image.id)) {
+        ngssIndex.performanceExpectations[pe].push(image.id);
+      }
+    });
+
+    // Extract DCI codes (e.g., [[NGSS:DCI:3-LS4.C]])
+    const dciRegex = /\[\[NGSS:DCI:([^\]]+)\]\]/g;
+    let dciMatch;
+    while ((dciMatch = dciRegex.exec(md)) !== null) {
+      const code = dciMatch[1];
+      if (!ngssIndex.disciplinaryCoreIdeas[code]) ngssIndex.disciplinaryCoreIdeas[code] = [];
+      if (!ngssIndex.disciplinaryCoreIdeas[code].includes(image.id)) {
+        ngssIndex.disciplinaryCoreIdeas[code].push(image.id);
+      }
+    }
+
+    // Extract CCC names (e.g., [[NGSS:CCC:Patterns]])
+    const cccRegex = /\[\[NGSS:CCC:([^\]]+)\]\]/g;
+    let cccMatch;
+    while ((cccMatch = cccRegex.exec(md)) !== null) {
+      const name = cccMatch[1];
+      if (!ngssIndex.crosscuttingConcepts[name]) ngssIndex.crosscuttingConcepts[name] = [];
+      if (!ngssIndex.crosscuttingConcepts[name].includes(image.id)) {
+        ngssIndex.crosscuttingConcepts[name].push(image.id);
+      }
+    }
+
+    processed++;
+  }
+
+  // Build flat list for autocomplete/search
+  const allStds = new Set();
+  Object.keys(ngssIndex.performanceExpectations).forEach(k => allStds.add('PE: ' + k));
+  Object.keys(ngssIndex.disciplinaryCoreIdeas).forEach(k => allStds.add('DCI: ' + k));
+  Object.keys(ngssIndex.crosscuttingConcepts).forEach(k => allStds.add('CCC: ' + k));
+  ngssIndex.allStandards = [...allStds].sort();
+
+  await fs.writeFile(path.join(repoDir, 'ngss-index.json'), JSON.stringify(ngssIndex, null, 2));
+  console.log(`📊 Rebuilt ngss-index.json (${processed} images, ${Object.keys(ngssIndex.performanceExpectations).length} PEs, ${Object.keys(ngssIndex.disciplinaryCoreIdeas).length} DCIs, ${Object.keys(ngssIndex.crosscuttingConcepts).length} CCCs)`);
+}
 
 /**
  * Step 1: Add uploaded files to queue (FAST)
@@ -337,9 +538,9 @@ async function processImageFromQueue(queueItem) {
 
     // Extract NGSS standards from educational content
     console.log('🎓 Extracting NGSS standards...');
-    const ngssStandards = extractAllGradeLevelStandards(educationalContent);
+    const ngssStandards = extractAllGradeLevelStandards(educationalContent, category);
     const totalStandards = Object.values(ngssStandards).reduce((sum, arr) => sum + arr.length, 0);
-    console.log(`✅ Extracted ${totalStandards} NGSS standards across all grade levels`);
+    console.log(`✅ Extracted ${totalStandards} NGSS standards across all grade levels (${CATEGORY_TO_NGSS_DOMAIN[category] || '?'} domain)`);
 
     // Update metadata with content flag and NGSS standards
     const metadataUpdated = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
@@ -415,6 +616,9 @@ async function processImageFromQueue(queueItem) {
       await fs.writeFile(metadataPath, JSON.stringify(metadataFinal, null, 2));
       console.log(`✅ Added processing cost ($${totalCost.toFixed(4)}) and time (${processingTimeStr}) to metadata`);
     }
+
+    // Rebuild ngss-index.json for admin dashboard coverage map
+    await buildNgssIndex(repoDir);
 
     // Commit and push to GitHub
     console.log('📤 Committing to GitHub...');
@@ -514,9 +718,10 @@ function extractNGSSStandards(content) {
  * - Abbreviated: grade1, grade2, grade3, grade4, grade5
  * - Spelled-out: firstgrade, secondgrade, thirdgrade, fourthgrade, fifthgrade
  */
-function extractAllGradeLevelStandards(educational) {
+function extractAllGradeLevelStandards(educational, category) {
   const ngssStandards = {};
-  
+  const domainPrefix = category ? CATEGORY_TO_NGSS_DOMAIN[category] : null;
+
   // Map of output keys (abbreviated) to possible input keys (both conventions)
   const gradeMapping = {
     'kindergarten': ['kindergarten'],
@@ -531,7 +736,16 @@ function extractAllGradeLevelStandards(educational) {
     // Try each possible key until we find content
     for (const inputKey of possibleKeys) {
       if (educational[inputKey]) {
-        const standards = extractNGSSStandards(educational[inputKey]);
+        let standards = extractNGSSStandards(educational[inputKey]);
+        // Filter out cross-domain codes as safety net
+        if (domainPrefix && standards.length > 0) {
+          standards = standards.filter(code => {
+            const match = code.match(/-([A-Z]+)\d/);
+            if (!match) return true; // keep unrecognized formats
+            const codeDomain = match[1];
+            return codeDomain === domainPrefix || codeDomain === 'ETS';
+          });
+        }
         if (standards.length > 0) {
           ngssStandards[outputKey] = standards;
         }
@@ -777,16 +991,7 @@ async function generateContent(imagePath, filename, category, repoDir, anthropic
   const contentDir = path.join(repoDir, 'content', category);
   await fs.mkdir(contentDir, { recursive: true });
 
-  // Load NGSS standards index
-  let ngssIndex = null;
-  try {
-    const ngssPath = path.join(repoDir, 'ngss-index.json');
-    const ngssData = await fs.readFile(ngssPath, 'utf-8');
-    ngssIndex = JSON.parse(ngssData);
-    console.log('✅ Loaded NGSS index with', ngssIndex.allStandards?.length || 0, 'standards');
-  } catch (error) {
-    console.warn('⚠️ Could not load NGSS index:', error.message);
-  }
+  // NGSS standards are now embedded in NGSS_PE_STANDARDS constant (no file I/O needed)
 
   console.log(`📝 Generating content for ${GRADE_LEVELS.length} grade levels...`);
 
@@ -796,12 +1001,31 @@ async function generateContent(imagePath, filename, category, repoDir, anthropic
   for (const grade of GRADE_LEVELS) {
     console.log(`   📝 Generating ${grade.name} content...`);
 
+    // Get filtered NGSS standards for this grade level and category
+    const filteredStandards = getFilteredNGSSStandards(category, grade.ngssGrade);
+    const domainPrefix = CATEGORY_TO_NGSS_DOMAIN[category] || '';
+    const domainName = { 'PS': 'Physical Science', 'LS': 'Life Science', 'ESS': 'Earth and Space Science' }[domainPrefix] || category;
+    const standardsList = Object.entries(filteredStandards).map(([code, statement]) => `- ${code}: ${statement}`).join('\n');
+    const excludedDomains = domainPrefix === 'PS' ? 'no LS or ESS codes' : domainPrefix === 'LS' ? 'no PS or ESS codes' : 'no PS or LS codes';
+    const domainTopics = category === 'physical-science'
+      ? 'forces, motion, energy, matter, properties of materials, waves, light, sound, shadows, electricity, magnetism'
+      : category === 'life-science'
+        ? 'living organisms, life cycles, habitats, body structures, ecosystems, heredity, adaptation, survival'
+        : 'rocks, minerals, weather, water cycle, landforms, erosion, natural resources, space, Earth systems';
+
     const prompt = `You are an expert K-5 Science Instructional Coach and NGSS Curriculum Specialist.
 
 Your goal is to analyze the provided image to help a teacher create a rigorous, age-appropriate science lesson for a **${grade.name}** class.
 
 Category: ${category}
+NGSS Domain: ${domainName} (${domainPrefix} codes only)
 Image: ${filename}
+
+### CRITICAL CATEGORY CONSTRAINT
+This image is categorized as **${category}**. You MUST analyze this image THROUGH THE LENS of ${domainName.toLowerCase()} concepts.
+- Focus on: ${domainTopics}
+- Even if the image could relate to other science domains, you MUST focus on ${domainPrefix} concepts only.
+- You MUST ONLY use NGSS standards with ${domainPrefix} domain codes. Do NOT use codes from other domains (${excludedDomains}).
 
 ### GUIDELINES
 - **Tone:** Professional, encouraging, and scientifically accurate
@@ -813,13 +1037,13 @@ Image: ${filename}
 Generate ONLY the sections below. Use Level 2 Markdown headers (##) with emojis.
 
 ## 📸 Photo Description
-Describe the key scientific elements visible in 2-3 sentences at ${grade.name} reading level. Focus on observable features.
+Describe the key scientific elements visible in 2-3 sentences at ${grade.name} reading level. Focus on observable features relevant to ${domainName.toLowerCase()}.
 
 ## 🔬 Scientific Phenomena
-Identify the specific "Anchoring Phenomenon" this image represents. Explain WHY it is happening scientifically, in language appropriate for elementary teachers.
+Identify the specific "Anchoring Phenomenon" this image represents from a ${domainName.toLowerCase()} perspective. Explain WHY it is happening scientifically, in language appropriate for elementary teachers.
 
 ## 📚 Core Science Concepts
-Detail 2-4 fundamental science concepts illustrated by this photo. Use numbered or bulleted lists.
+Detail 2-4 fundamental ${domainName.toLowerCase()} concepts illustrated by this photo. Use numbered or bulleted lists.
 
 **CRITICAL:** Somewhere within this section, you MUST include:
 1. A short pedagogical tip wrapped in <pedagogical-tip>...</pedagogical-tip> tags
@@ -834,50 +1058,40 @@ Provide two distinct perspectives:
 List 1-3 common naive conceptions ${grade.name} students might have about this topic and provide the scientific clarification.
 
 ## 🎓 NGSS Connections
-- You MUST use specific formatting for clickable links
+
+### RULES FOR THIS SECTION:
+1. You MUST ONLY select standards from the VALIDATED LIST below. Do NOT invent or guess standard codes.
+2. You MUST ONLY use ${domainPrefix} domain codes (${excludedDomains}).
+3. You MUST copy the standard statement EXACTLY as written below. Do NOT paraphrase.
+4. Select ALL standards from the list below that are genuinely relevant to this image. Do not limit yourself to just 1-2.
+
+### VALIDATED ${grade.ngssGrade}-${domainPrefix} Performance Expectations:
+${standardsList || 'No standards available for this grade level and domain.'}
+
+### Format Requirements:
+- List each relevant PE code followed by its EXACT official statement
 - Wrap Disciplinary Core Ideas (DCI) in double brackets: [[NGSS:DCI:Code]]
-  Example: [[NGSS:DCI:3-LS4.D]]
+  Example: [[NGSS:DCI:${Object.keys(filteredStandards)[0] ? Object.keys(filteredStandards)[0].replace(/-\d+$/, '') + '.A' : grade.ngssGrade + '-' + domainPrefix + '1.A'}]]
 - Wrap Crosscutting Concepts (CCC) in double brackets: [[NGSS:CCC:Name]]
+  Valid CCCs: Patterns, Cause and Effect, Scale Proportion and Quantity, Systems and System Models, Energy and Matter, Structure and Function, Stability and Change
   Example: [[NGSS:CCC:Patterns]]
-- List the Performance Expectation (PE) code and text normally
-
-**IMPORTANT:** Select standards from the validated NGSS list below. Use ${grade.ngssGrade}-level standards when available.${ngssIndex ? `
-
-### Available NGSS Standards (from existing gallery):
-${ngssIndex.allStandards.filter(s =>
-  s.includes('PE: ' + grade.ngssGrade + '-') ||
-  s.includes('DCI: ' + grade.ngssGrade + '-') ||
-  s.startsWith('CCC:')
-).slice(0, 30).join(', ')}
-
-**Most frequently used standards in this gallery:**
-- Performance Expectations: 3-LS1-1 (${ngssIndex.performanceExpectations['3-LS1-1']?.length || 0} images), 3-LS4-3 (${ngssIndex.performanceExpectations['3-LS4-3']?.length || 0} images), 2-ESS1-1 (${ngssIndex.performanceExpectations['2-ESS1-1']?.length || 0} images)
-- Crosscutting Concepts: Patterns (${ngssIndex.crosscuttingConcepts['Patterns']?.length || 0} images), Cause and Effect (${ngssIndex.crosscuttingConcepts['Cause and Effect']?.length || 0} images), Structure and Function (${ngssIndex.crosscuttingConcepts['Structure and Function']?.length || 0} images)
-
-**Standards with low coverage (consider these if relevant):**
-${Object.entries(ngssIndex.performanceExpectations)
-  .filter(([code, images]) => images.length < 5 && code.startsWith(grade.ngssGrade + '-'))
-  .map(([code, images]) => code + ' (' + images.length + ' images)')
-  .slice(0, 5)
-  .join(', ') || 'All standards well-covered'}
-` : ''}
 
 ## 💬 Discussion Questions
 Provide 3-4 open-ended questions. Label EVERY question with its Bloom's Taxonomy level and Depth of Knowledge (DOK) level.
 Example: "Why did the ice melt? (Bloom's: Analyze | DOK: 2)"
 
 ## 📖 Vocabulary
-Provide a bulleted list of 3-6 tier 2 or tier 3 science words.
+Provide a bulleted list of 3-6 tier 2 or tier 3 science words related to ${domainName.toLowerCase()}.
 Format strictly as: * **Word:** Kid-friendly definition (1 sentence)
 
 ## 🌡️ Extension Activities
-Provide 2-3 hands-on extension activities appropriate for ${grade.name} students.
+Provide 2-3 hands-on extension activities appropriate for ${grade.name} students that reinforce ${domainName.toLowerCase()} concepts.
 
 ## 🔗 Cross-Curricular Ideas
 Provide 3-4 ideas for connecting the science in this photo to other subjects like Math, ELA, Social Studies, or Art for a ${grade.name} classroom.
 
 ## 🚀 STEM Career Connection
-List and briefly describe 2-3 STEM careers that relate to the science shown in this photo. Describe the job simply for a ${grade.name} student. For each career, also provide an estimated average annual salary in USD.
+List and briefly describe 2-3 STEM careers that relate to the ${domainName.toLowerCase()} shown in this photo. Describe the job simply for a ${grade.name} student. For each career, also provide an estimated average annual salary in USD.
 
 ## 📚 External Resources
 Provide ONLY the following real, existing resources:
@@ -891,6 +1105,7 @@ Remember:
 - Use Markdown formatting throughout
 - Include the special XML tags for pedagogical tips and UDL strategies
 - Use the [[NGSS:...]] format for standards
+- ONLY use ${domainPrefix} domain standards — this is ${domainName}
 - Keep language at ${grade.name} level where appropriate
 - Be scientifically accurate and engaging`;
 
@@ -975,7 +1190,7 @@ Remember:
   console.log(`✅ All content generated. Total cost: $${totalCost.toFixed(2)}`);
   
   // Extract NGSS standards from educational content for hotspot context
-  const hotspotNGSS = extractAllGradeLevelStandards(educationalContent);
+  const hotspotNGSS = extractAllGradeLevelStandards(educationalContent, category);
   const hotspotStandardsList = [...new Set(Object.values(hotspotNGSS).flat())];
 
   // Generate hotspots
@@ -1331,6 +1546,9 @@ exports.adminDeleteImage = functions
 
       await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
       console.log('✅ Updated gallery-metadata.json');
+
+      // Rebuild ngss-index.json so coverage map stays accurate
+      await buildNgssIndex(repoDir);
 
       // Commit and push
       await repoGit.add('-A');

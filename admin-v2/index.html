@@ -199,7 +199,7 @@
 
                         <!-- Dropzone -->
                         <div class="upload-step">
-                            <label class="upload-step-label">2. Select Image</label>
+                            <label class="upload-step-label">2. Select Images</label>
                             <div id="upload-dropzone" class="upload-dropzone"
                                  ondragover="handleDragOver(event)"
                                  ondragleave="handleDragLeave(event)"
@@ -207,21 +207,20 @@
                                  onclick="document.getElementById('upload-file-input').click()">
                                 <div class="dropzone-content">
                                     <div class="dropzone-icon">&#128247;</div>
-                                    <p class="dropzone-text">Drag & drop image here or click to select</p>
-                                    <p class="dropzone-hint">JPEG, PNG, WebP — Max 2 MB</p>
+                                    <p class="dropzone-text">Drag & drop images here or click to select</p>
+                                    <p class="dropzone-hint">JPEG, PNG, WebP — Max 2 MB each — Select multiple files</p>
                                 </div>
                             </div>
-                            <input type="file" id="upload-file-input" accept="image/jpeg,image/png,image/webp" style="display:none" onchange="handleFileSelect(event)">
+                            <input type="file" id="upload-file-input" accept="image/jpeg,image/png,image/webp" multiple style="display:none" onchange="handleFileSelect(event)">
                         </div>
 
-                        <!-- Preview (hidden until file selected) -->
-                        <div id="upload-preview" class="upload-preview hidden">
-                            <img id="upload-preview-img" class="upload-preview-img" src="" alt="Preview">
-                            <div class="upload-preview-info">
-                                <span id="upload-preview-name" class="upload-preview-name"></span>
-                                <span id="upload-preview-meta" class="upload-preview-meta"></span>
+                        <!-- File List (hidden until files selected) -->
+                        <div id="upload-file-list-container" class="upload-file-list-container hidden">
+                            <div class="upload-file-list-header">
+                                <span id="upload-file-count" class="upload-file-count"></span>
+                                <button class="btn btn-small btn-outline" onclick="clearUploadFiles()">Clear All</button>
                             </div>
-                            <button class="btn btn-small btn-outline" onclick="clearUploadFile()">Remove</button>
+                            <div id="upload-file-list" class="upload-file-list"></div>
                         </div>
 
                         <!-- Duplicate Warning (hidden) -->
@@ -237,20 +236,24 @@
                             Upload & Process
                         </button>
 
-                        <!-- Progress Bar (hidden) -->
-                        <div id="upload-progress" class="upload-progress hidden">
+                        <!-- Bulk Progress (hidden) -->
+                        <div id="upload-bulk-progress" class="upload-bulk-progress hidden">
+                            <div class="upload-bulk-progress-header">
+                                <span id="upload-bulk-status" class="upload-bulk-status">Uploading...</span>
+                                <span id="upload-bulk-counter" class="upload-bulk-counter">0 / 0</span>
+                            </div>
                             <div class="upload-progress-track">
                                 <div id="upload-progress-bar" class="upload-progress-bar" style="width: 0%"></div>
                             </div>
-                            <span id="upload-progress-text" class="upload-progress-text">0% uploading...</span>
+                            <span id="upload-progress-text" class="upload-progress-text"></span>
                         </div>
 
                         <!-- Success Message (hidden) -->
                         <div id="upload-success" class="upload-success hidden">
                             <div class="upload-success-icon">&#10003;</div>
-                            <p><strong>Uploaded!</strong> Processing will start within ~1 minute.</p>
+                            <p><strong id="upload-success-text">Uploaded!</strong> Processing will start within ~1 minute.</p>
                             <p class="upload-success-hint">Switch to the <a href="#" onclick="switchTab('queue'); return false;">Processing Queue</a> tab to monitor progress.</p>
-                            <button class="btn btn-small btn-secondary mt-8" onclick="resetUpload()">Upload Another</button>
+                            <button class="btn btn-small btn-secondary mt-8" onclick="resetUpload()">Upload More</button>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 /**
- * SIAS Admin Dashboard — Upload Manager
- * Handles image upload to Firebase Storage with drag-drop, validation,
+ * SIAS Admin Dashboard — Upload Manager (Bulk Upload Support)
+ * Handles multi-image upload to Firebase Storage with drag-drop, validation,
  * progress tracking, and duplicate detection.
  *
  * Upload path: uploads/{category}/{filename}
@@ -9,8 +9,8 @@
  */
 
 let uploadCategory = null;
-let uploadFile = null;
-let uploadTask = null;
+let uploadFiles = []; // Array of { file, valid, error, status, duplicate }
+let isUploading = false;
 
 const ALLOWED_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
 const MAX_FILE_SIZE = 2 * 1024 * 1024; // 2 MB (matches storage.rules)
@@ -34,10 +34,14 @@ function selectUploadCategory(category) {
         pill.classList.toggle('selected', pill.dataset.uploadCategory === category);
     });
 
-    // Update preview meta if file is already selected
-    updatePreviewMeta();
     updateUploadButton();
     clearUploadError();
+
+    // Re-check duplicates if files already selected
+    if (uploadFiles.length > 0) {
+        checkDuplicates();
+        renderFileList();
+    }
 }
 
 /**
@@ -70,9 +74,11 @@ function handleDrop(event) {
     const dropzone = document.getElementById('upload-dropzone');
     if (dropzone) dropzone.classList.remove('drag-over');
 
+    if (isUploading) return;
+
     const files = event.dataTransfer.files;
     if (files && files.length > 0) {
-        processSelectedFile(files[0]);
+        processSelectedFiles(files);
     }
 }
 
@@ -80,104 +86,168 @@ function handleDrop(event) {
  * Handle file input change
  */
 function handleFileSelect(event) {
+    if (isUploading) return;
+
     const files = event.target.files;
     if (files && files.length > 0) {
-        processSelectedFile(files[0]);
+        processSelectedFiles(files);
     }
 }
 
 /**
- * Process the selected file — validate and show preview
+ * Process selected files — validate each and build the list
  */
-function processSelectedFile(file) {
+function processSelectedFiles(fileList) {
     clearUploadError();
 
-    // Validate file type
-    if (!ALLOWED_TYPES.includes(file.type)) {
-        showUploadError('Invalid file type. Please select a JPEG, PNG, or WebP image.');
+    for (let i = 0; i < fileList.length; i++) {
+        const file = fileList[i];
+
+        // Check for duplicate filename in current selection
+        const alreadySelected = uploadFiles.some(f => f.file.name === file.name);
+        if (alreadySelected) continue;
+
+        const entry = { file, valid: true, error: null, status: 'pending', duplicate: false };
+
+        // Validate file type
+        if (!ALLOWED_TYPES.includes(file.type)) {
+            entry.valid = false;
+            entry.error = 'Invalid type';
+        }
+
+        // Validate file size
+        if (file.size > MAX_FILE_SIZE) {
+            entry.valid = false;
+            entry.error = `Too large (${(file.size / (1024 * 1024)).toFixed(1)} MB)`;
+        }
+
+        uploadFiles.push(entry);
+    }
+
+    // Check for duplicates in gallery
+    checkDuplicates();
+    renderFileList();
+    updateUploadButton();
+
+    // Reset file input so same files can be re-selected
+    const fileInput = document.getElementById('upload-file-input');
+    if (fileInput) fileInput.value = '';
+}
+
+/**
+ * Check all selected files against existing gallery for duplicates
+ */
+function checkDuplicates() {
+    const images = metadataManager.getImages();
+    let duplicateCount = 0;
+
+    for (const entry of uploadFiles) {
+        const match = images.find(img =>
+            img.filename && img.filename.toLowerCase() === entry.file.name.toLowerCase()
+        );
+        entry.duplicate = !!match;
+        if (match) duplicateCount++;
+    }
+
+    const warning = document.getElementById('upload-duplicate-warning');
+    const warningText = document.getElementById('upload-duplicate-text');
+    if (warning && warningText) {
+        if (duplicateCount > 0) {
+            warningText.textContent = `${duplicateCount} file${duplicateCount > 1 ? 's' : ''} already exist${duplicateCount === 1 ? 's' : ''} in the gallery. Duplicates will be moved to the duplicates folder and skipped.`;
+            warning.classList.remove('hidden');
+        } else {
+            warning.classList.add('hidden');
+        }
+    }
+}
+
+/**
+ * Render the file list UI
+ */
+function renderFileList() {
+    const container = document.getElementById('upload-file-list-container');
+    const listEl = document.getElementById('upload-file-list');
+    const countEl = document.getElementById('upload-file-count');
+
+    if (!container || !listEl) return;
+
+    if (uploadFiles.length === 0) {
+        container.classList.add('hidden');
         return;
     }
 
-    // Validate file size
-    if (file.size > MAX_FILE_SIZE) {
-        const sizeMB = (file.size / (1024 * 1024)).toFixed(1);
-        showUploadError(`File too large (${sizeMB} MB). Maximum size is 2 MB.`);
-        return;
+    container.classList.remove('hidden');
+
+    // Count valid files
+    const validFiles = uploadFiles.filter(f => f.valid);
+    const invalidFiles = uploadFiles.filter(f => !f.valid);
+    const totalSize = validFiles.reduce((sum, f) => sum + f.file.size, 0);
+    const totalMB = (totalSize / (1024 * 1024)).toFixed(1);
+
+    let countText = `${validFiles.length} valid file${validFiles.length !== 1 ? 's' : ''} (${totalMB} MB)`;
+    if (invalidFiles.length > 0) {
+        countText += ` · ${invalidFiles.length} invalid`;
     }
+    if (countEl) countEl.textContent = countText;
 
-    uploadFile = file;
+    // Render file rows
+    listEl.innerHTML = uploadFiles.map((entry, index) => {
+        const sizeMB = (entry.file.size / (1024 * 1024)).toFixed(2);
+        const statusIcon = entry.status === 'uploaded' ? '✅'
+            : entry.status === 'failed' ? '❌'
+            : entry.status === 'uploading' ? '⬆️'
+            : entry.valid ? '📷' : '⚠️';
 
-    // Show preview
-    const preview = document.getElementById('upload-preview');
-    const previewImg = document.getElementById('upload-preview-img');
-    const previewName = document.getElementById('upload-preview-name');
+        const statusText = entry.status === 'uploaded' ? 'Uploaded'
+            : entry.status === 'failed' ? 'Failed'
+            : entry.status === 'uploading' ? 'Uploading...'
+            : !entry.valid ? entry.error
+            : entry.duplicate ? 'Duplicate'
+            : 'Ready';
 
-    if (preview) {
-        // Create thumbnail preview
-        const reader = new FileReader();
-        reader.onload = function(e) {
-            if (previewImg) previewImg.src = e.target.result;
-        };
-        reader.readAsDataURL(file);
+        const statusClass = !entry.valid ? 'file-invalid'
+            : entry.duplicate ? 'file-duplicate'
+            : entry.status === 'uploaded' ? 'file-uploaded'
+            : entry.status === 'failed' ? 'file-failed'
+            : 'file-ready';
 
-        if (previewName) previewName.textContent = file.name;
-        updatePreviewMeta();
-        preview.classList.remove('hidden');
-    }
+        const removeBtn = !isUploading && entry.status === 'pending'
+            ? `<button class="btn-file-remove" onclick="removeFile(${index})" title="Remove">✕</button>`
+            : '';
 
-    // Check for duplicates
-    checkDuplicate(file.name);
+        return `<div class="upload-file-row ${statusClass}">
+            <span class="file-icon">${statusIcon}</span>
+            <span class="file-name" title="${entry.file.name}">${entry.file.name}</span>
+            <span class="file-size">${sizeMB} MB</span>
+            <span class="file-status">${statusText}</span>
+            ${removeBtn}
+        </div>`;
+    }).join('');
+}
 
+/**
+ * Remove a file from the list by index
+ */
+function removeFile(index) {
+    if (isUploading) return;
+    uploadFiles.splice(index, 1);
+    checkDuplicates();
+    renderFileList();
     updateUploadButton();
 }
 
 /**
- * Update the preview meta text (file size + category)
+ * Clear all selected files
  */
-function updatePreviewMeta() {
-    const previewMeta = document.getElementById('upload-preview-meta');
-    if (!previewMeta || !uploadFile) return;
+function clearUploadFiles() {
+    if (isUploading) return;
+    uploadFiles = [];
 
-    const sizeMB = (uploadFile.size / (1024 * 1024)).toFixed(2);
-    const categoryLabel = uploadCategory ? getCategoryName(uploadCategory) : 'No category selected';
-    previewMeta.textContent = `${sizeMB} MB — ${categoryLabel}`;
-}
-
-/**
- * Check if a file with this name already exists in the gallery
- */
-function checkDuplicate(filename) {
-    const warning = document.getElementById('upload-duplicate-warning');
-    const warningText = document.getElementById('upload-duplicate-text');
-    if (!warning || !warningText) return;
-
-    const images = metadataManager.getImages();
-    const match = images.find(img => {
-        return img.filename && img.filename.toLowerCase() === filename.toLowerCase();
-    });
-
-    if (match) {
-        const catName = getCategoryName(match.category);
-        warningText.textContent =
-            `An image named "${filename}" already exists in ${catName} (ID: ${match.id}). ` +
-            `Uploading will move the new file to the duplicates folder and skip processing.`;
-        warning.classList.remove('hidden');
-    } else {
-        warning.classList.add('hidden');
-    }
-}
-
-/**
- * Clear the selected file
- */
-function clearUploadFile() {
-    uploadFile = null;
-
-    const preview = document.getElementById('upload-preview');
+    const container = document.getElementById('upload-file-list-container');
     const fileInput = document.getElementById('upload-file-input');
     const duplicateWarning = document.getElementById('upload-duplicate-warning');
 
-    if (preview) preview.classList.add('hidden');
+    if (container) container.classList.add('hidden');
     if (fileInput) fileInput.value = '';
     if (duplicateWarning) duplicateWarning.classList.add('hidden');
 
@@ -186,12 +256,19 @@ function clearUploadFile() {
 }
 
 /**
- * Update upload button enabled/disabled state
+ * Update upload button enabled/disabled state and text
  */
 function updateUploadButton() {
     const btn = document.getElementById('upload-btn');
-    if (btn) {
-        btn.disabled = !(uploadCategory && uploadFile);
+    if (!btn) return;
+
+    const validCount = uploadFiles.filter(f => f.valid).length;
+    btn.disabled = !(uploadCategory && validCount > 0) || isUploading;
+
+    if (validCount > 0) {
+        btn.textContent = `Upload ${validCount} File${validCount !== 1 ? 's' : ''} & Process`;
+    } else {
+        btn.textContent = 'Upload & Process';
     }
 }
 
@@ -215,145 +292,149 @@ function clearUploadError() {
 }
 
 /**
- * Start the upload to Firebase Storage
+ * Start the bulk upload to Firebase Storage (sequential)
  */
 async function startUpload() {
-    // Final validation
     if (!uploadCategory) {
         showUploadError('Please select a category first.');
         return;
     }
-    if (!uploadFile) {
-        showUploadError('Please select an image file.');
+
+    const validFiles = uploadFiles.filter(f => f.valid);
+    if (validFiles.length === 0) {
+        showUploadError('No valid files to upload.');
         return;
     }
+
     if (!storage) {
         showUploadError('Firebase Storage not initialized. Please refresh the page.');
         return;
     }
 
     clearUploadError();
+    isUploading = true;
 
-    // Hide the button and preview, show progress
+    // Hide dropzone and button, show bulk progress
     const btn = document.getElementById('upload-btn');
-    const preview = document.getElementById('upload-preview');
-    const progressContainer = document.getElementById('upload-progress');
+    const dropzone = document.getElementById('upload-dropzone');
+    const bulkProgress = document.getElementById('upload-bulk-progress');
+    const bulkStatus = document.getElementById('upload-bulk-status');
+    const bulkCounter = document.getElementById('upload-bulk-counter');
     const progressBar = document.getElementById('upload-progress-bar');
     const progressText = document.getElementById('upload-progress-text');
     const duplicateWarning = document.getElementById('upload-duplicate-warning');
-    const dropzone = document.getElementById('upload-dropzone');
 
     if (btn) btn.classList.add('hidden');
-    if (duplicateWarning) duplicateWarning.classList.add('hidden');
     if (dropzone) dropzone.style.display = 'none';
-    if (progressContainer) progressContainer.classList.remove('hidden');
+    if (duplicateWarning) duplicateWarning.classList.add('hidden');
+    if (bulkProgress) bulkProgress.classList.remove('hidden');
 
-    // Sanitize filename: replace spaces with underscores to avoid Storage path issues
-    const sanitizedName = uploadFile.name.replace(/\s+/g, '_');
-    // Upload to Firebase Storage at uploads/{category}/{filename}
-    const storagePath = `uploads/${uploadCategory}/${sanitizedName}`;
-    const storageRef = storage.ref(storagePath);
+    let successCount = 0;
+    let failCount = 0;
+    const total = validFiles.length;
 
-    try {
-        uploadTask = storageRef.put(uploadFile);
+    // Upload files sequentially
+    for (let i = 0; i < validFiles.length; i++) {
+        const entry = validFiles[i];
+        const sanitizedName = entry.file.name.replace(/\s+/g, '_');
 
-        // Track progress
-        uploadTask.on('state_changed',
-            (snapshot) => {
-                const progress = Math.round((snapshot.bytesTransferred / snapshot.totalBytes) * 100);
-                if (progressBar) progressBar.style.width = progress + '%';
-                if (progressText) progressText.textContent = progress + '% uploading...';
-            },
-            (error) => {
-                // Upload failed
-                console.error('Upload error:', error);
-                resetUploadUI();
+        // Update UI
+        entry.status = 'uploading';
+        if (bulkStatus) bulkStatus.textContent = `Uploading "${sanitizedName}"...`;
+        if (bulkCounter) bulkCounter.textContent = `${i + 1} of ${total}`;
+        renderFileList();
 
-                if (error.code === 'storage/unauthorized') {
-                    showUploadError('Upload failed: Not authorized. Make sure you are signed in as admin.');
-                } else if (error.code === 'storage/canceled') {
-                    showUploadError('Upload cancelled.');
-                } else {
-                    showUploadError('Upload failed: ' + (error.message || 'Unknown error'));
-                }
-            },
-            () => {
-                // Upload successful
-                if (progressBar) progressBar.style.width = '100%';
-                if (progressText) progressText.textContent = '100% complete!';
+        try {
+            // Upload to Firebase Storage
+            const storagePath = `uploads/${uploadCategory}/${sanitizedName}`;
+            const storageRef = storage.ref(storagePath);
 
-                // Show success state after a brief delay
-                setTimeout(() => {
-                    if (progressContainer) progressContainer.classList.add('hidden');
-                    if (preview) preview.classList.add('hidden');
+            await new Promise((resolve, reject) => {
+                const uploadTask = storageRef.put(entry.file);
 
-                    const successEl = document.getElementById('upload-success');
-                    if (successEl) successEl.classList.remove('hidden');
+                uploadTask.on('state_changed',
+                    (snapshot) => {
+                        const fileProgress = Math.round((snapshot.bytesTransferred / snapshot.totalBytes) * 100);
+                        // Overall progress: completed files + current file progress
+                        const overallProgress = Math.round(((i + fileProgress / 100) / total) * 100);
+                        if (progressBar) progressBar.style.width = overallProgress + '%';
+                        if (progressText) progressText.textContent = `${sanitizedName}: ${fileProgress}%`;
+                    },
+                    (error) => reject(error),
+                    () => resolve()
+                );
+            });
 
-                    showToast(`"${sanitizedName}" uploaded to ${getCategoryName(uploadCategory)}!`, 'success', 5000);
-                }, 500);
-            }
-        );
-    } catch (error) {
-        console.error('Upload error:', error);
-        resetUploadUI();
-        showUploadError('Upload failed: ' + (error.message || 'Unknown error'));
+            entry.status = 'uploaded';
+            successCount++;
+
+        } catch (error) {
+            console.error(`Upload error for ${entry.file.name}:`, error);
+            entry.status = 'failed';
+            entry.error = error.message || 'Upload failed';
+            failCount++;
+        }
+
+        renderFileList();
     }
+
+    // All done
+    isUploading = false;
+    if (progressBar) progressBar.style.width = '100%';
+    if (bulkProgress) bulkProgress.classList.add('hidden');
+
+    // Show success
+    const successEl = document.getElementById('upload-success');
+    const successText = document.getElementById('upload-success-text');
+
+    if (successText) {
+        let msg = `${successCount} image${successCount !== 1 ? 's' : ''} uploaded!`;
+        if (failCount > 0) {
+            msg += ` (${failCount} failed)`;
+        }
+        successText.textContent = msg;
+    }
+    if (successEl) successEl.classList.remove('hidden');
+
+    const categoryName = getCategoryName(uploadCategory);
+    showToast(`${successCount} image${successCount !== 1 ? 's' : ''} uploaded to ${categoryName}!`, 'success', 5000);
 }
 
 /**
  * Reset the upload UI back to initial state (after success or to try again)
  */
 function resetUpload() {
-    uploadFile = null;
-    uploadTask = null;
+    uploadFiles = [];
+    isUploading = false;
 
     // Reset file input
     const fileInput = document.getElementById('upload-file-input');
     if (fileInput) fileInput.value = '';
 
-    // Hide success, preview, progress
+    // Hide everything
     const successEl = document.getElementById('upload-success');
-    const preview = document.getElementById('upload-preview');
-    const progressContainer = document.getElementById('upload-progress');
+    const fileListContainer = document.getElementById('upload-file-list-container');
+    const bulkProgress = document.getElementById('upload-bulk-progress');
     const duplicateWarning = document.getElementById('upload-duplicate-warning');
     const dropzone = document.getElementById('upload-dropzone');
     const btn = document.getElementById('upload-btn');
+    const progressBar = document.getElementById('upload-progress-bar');
 
     if (successEl) successEl.classList.add('hidden');
-    if (preview) preview.classList.add('hidden');
-    if (progressContainer) progressContainer.classList.add('hidden');
+    if (fileListContainer) fileListContainer.classList.add('hidden');
+    if (bulkProgress) bulkProgress.classList.add('hidden');
     if (duplicateWarning) duplicateWarning.classList.add('hidden');
     if (dropzone) dropzone.style.display = '';
     if (btn) {
         btn.classList.remove('hidden');
         btn.disabled = true;
+        btn.textContent = 'Upload & Process';
     }
-
-    // Reset progress bar
-    const progressBar = document.getElementById('upload-progress-bar');
     if (progressBar) progressBar.style.width = '0%';
 
     clearUploadError();
 
-    // Keep category selection (convenient for uploading multiple to same category)
-    updateUploadButton();
-}
-
-/**
- * Reset just the upload UI elements (for error recovery, keeps file + category)
- */
-function resetUploadUI() {
-    const btn = document.getElementById('upload-btn');
-    const progressContainer = document.getElementById('upload-progress');
-    const dropzone = document.getElementById('upload-dropzone');
-    const progressBar = document.getElementById('upload-progress-bar');
-
-    if (btn) btn.classList.remove('hidden');
-    if (progressContainer) progressContainer.classList.add('hidden');
-    if (dropzone) dropzone.style.display = '';
-    if (progressBar) progressBar.style.width = '0%';
-
+    // Keep category selection (convenient for uploading multiple batches to same category)
     updateUploadButton();
 }
 
@@ -364,6 +445,7 @@ window.handleDragOver = handleDragOver;
 window.handleDragLeave = handleDragLeave;
 window.handleDrop = handleDrop;
 window.handleFileSelect = handleFileSelect;
-window.clearUploadFile = clearUploadFile;
+window.clearUploadFiles = clearUploadFiles;
+window.removeFile = removeFile;
 window.startUpload = startUpload;
 window.resetUpload = resetUpload;
