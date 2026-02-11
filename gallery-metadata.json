@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-11T21:25:29.071Z",
-  "totalImages": 162,
+  "lastUpdated": "2026-02-11T22:55:01.950Z",
+  "totalImages": 161,
   "images": [
     {
       "id": 1,
@@ -8286,55 +8286,6 @@
       "processingCost": 0.1058,
       "processingTime": "3m 48s",
       "processedAt": "2026-02-11T16:13:50.853Z"
-    },
-    {
-      "id": 162,
-      "filename": "shadow.jpg",
-      "category": "physical-science",
-      "imagePath": "images/physical-science/shadow.jpg",
-      "thumbPath": "images/physical-science/thumbs/shadow.jpg",
-      "webpPath": "images/physical-science/webp/shadow.webp",
-      "placeholderPath": "images/physical-science/placeholders/shadow.jpg",
-      "contentFile": "content/physical-science/shadow.json",
-      "title": "Shadow",
-      "hasContent": true,
-      "ngssStandards": {
-        "kindergarten": [
-          "K-PS3-1"
-        ],
-        "grade1": [
-          "K-PS3.B",
-          "K-PS4-1"
-        ],
-        "grade2": [
-          "K-PS3-1",
-          "K-PS3.B"
-        ],
-        "grade3": [
-          "1-PS4-3",
-          "3-PS2-2"
-        ],
-        "grade4": [
-          "1-PS4-2",
-          "1-PS4.A"
-        ],
-        "grade5": [
-          "1-PS4-2",
-          "1-PS4.A",
-          "1-PS4.B"
-        ]
-      },
-      "keywords": [
-        "weathering",
-        "erosion",
-        "rock",
-        "moss",
-        "decomposition",
-        "earth materials"
-      ],
-      "processingCost": 0.098,
-      "processingTime": "3m 20s",
-      "processedAt": "2026-02-11T21:28:22.571Z"
     }
   ]
 }
