@@ -24,7 +24,7 @@
       title: 'Welcome to Science In A Snapshot!',
       icon: '\uD83D\uDC4B',
       description:
-        'A growing library of science photos with grade-level educational content for K\u20135 teachers, aligned to the Next Generation Science Standards. Sign in with Google to unlock favorites, ratings, comments and downloadable lesson guides.',
+        'A growing library of science photos with grade-level educational content for K\u20135 teachers, aligned to the Next Generation Science Standards. Sign in with Google to unlock favorites, ratings, comments, engineering challenges and downloadable lesson guides.',
       screenshot: null,
       screenshotAlt: 'The Science In A Snapshot homepage',
       centered: true,

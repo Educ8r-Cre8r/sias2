@@ -101,7 +101,37 @@ function auditImage(image) {
 }
 
 /**
- * Render the audit list
+ * Render a single audit item row
+ */
+function renderAuditItem(result) {
+    const { image, checks, presentCount, totalChecks, score, status } = result;
+
+    const checksHtml = checks.map(c => `
+        <li class="${c.present ? 'found' : 'missing'}">
+            ${escapeHtml(c.name)}
+        </li>
+    `).join('');
+
+    return `
+        <div class="audit-item" onclick="this.classList.toggle('expanded')">
+            <div class="audit-item-header">
+                <div class="audit-status-dot ${status}"></div>
+                <div class="audit-item-title">${escapeHtml(image.title || image.filename)}</div>
+                <span class="badge ${getCategoryBadgeClass(image.category)}">${getCategoryName(image.category)}</span>
+                <div class="audit-item-score">${presentCount}/${totalChecks} (${score}%)</div>
+                <div class="audit-item-toggle">&#9662;</div>
+            </div>
+            <div class="audit-item-details">
+                <ul class="audit-file-list">
+                    ${checksHtml}
+                </ul>
+            </div>
+        </div>
+    `;
+}
+
+/**
+ * Render the audit list — newest first, 12 visible, rest in accordion
  */
 function renderAuditList(results) {
     const container = document.getElementById('audit-list');
@@ -116,32 +146,32 @@ function renderAuditList(results) {
         return;
     }
 
-    container.innerHTML = filtered.map(result => {
-        const { image, checks, presentCount, totalChecks, score, status } = result;
+    // Sort newest first (highest id = most recently added)
+    const sorted = [...filtered].sort((a, b) => b.image.id - a.image.id);
 
-        const checksHtml = checks.map(c => `
-            <li class="${c.present ? 'found' : 'missing'}">
-                ${escapeHtml(c.name)}
-            </li>
-        `).join('');
+    const VISIBLE_COUNT = 12;
+    const visible = sorted.slice(0, VISIBLE_COUNT);
+    const remaining = sorted.slice(VISIBLE_COUNT);
 
-        return `
-            <div class="audit-item" onclick="this.classList.toggle('expanded')">
-                <div class="audit-item-header">
-                    <div class="audit-status-dot ${status}"></div>
-                    <div class="audit-item-title">${escapeHtml(image.title || image.filename)}</div>
-                    <span class="badge ${getCategoryBadgeClass(image.category)}">${getCategoryName(image.category)}</span>
-                    <div class="audit-item-score">${presentCount}/${totalChecks} (${score}%)</div>
-                    <div class="audit-item-toggle">&#9662;</div>
-                </div>
-                <div class="audit-item-details">
-                    <ul class="audit-file-list">
-                        ${checksHtml}
-                    </ul>
+    let html = visible.map(renderAuditItem).join('');
+
+    if (remaining.length > 0) {
+        const remainingHtml = remaining.map(renderAuditItem).join('');
+        html += `
+            <div class="ngss-accordion" style="margin-top: 12px;">
+                <button class="ngss-accordion-header" onclick="this.parentElement.classList.toggle('open')">
+                    <span class="ngss-accordion-arrow">&#9654;</span>
+                    <span class="ngss-accordion-title">Show All</span>
+                    <span class="ngss-accordion-badge">${remaining.length} more</span>
+                </button>
+                <div class="ngss-accordion-body">
+                    ${remainingHtml}
                 </div>
             </div>
         `;
-    }).join('');
+    }
+
+    container.innerHTML = html;
 }
 
 /**
