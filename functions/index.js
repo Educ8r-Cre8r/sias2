@@ -753,6 +753,17 @@ async function generateContent(imagePath, filename, category, repoDir, anthropic
   const contentDir = path.join(repoDir, 'content', category);
   await fs.mkdir(contentDir, { recursive: true });
 
+  // Load NGSS standards index
+  let ngssIndex = null;
+  try {
+    const ngssPath = path.join(repoDir, 'ngss-index.json');
+    const ngssData = await fs.readFile(ngssPath, 'utf-8');
+    ngssIndex = JSON.parse(ngssData);
+    console.log('✅ Loaded NGSS index with', ngssIndex.allStandards?.length || 0, 'standards');
+  } catch (error) {
+    console.warn('⚠️ Could not load NGSS index:', error.message);
+  }
+
   console.log(`📝 Generating content for ${GRADE_LEVELS.length} grade levels...`);
 
   // Store all grade-level content for the combined file
@@ -805,6 +816,27 @@ List 1-3 common naive conceptions ${grade.name} students might have about this t
 - Wrap Crosscutting Concepts (CCC) in double brackets: [[NGSS:CCC:Name]]
   Example: [[NGSS:CCC:Patterns]]
 - List the Performance Expectation (PE) code and text normally
+
+**IMPORTANT:** Select standards from the validated NGSS list below. Use ${grade.ngssGrade}-level standards when available.${ngssIndex ? `
+
+### Available NGSS Standards (from existing gallery):
+${ngssIndex.allStandards.filter(s =>
+  s.includes('PE: ' + grade.ngssGrade + '-') ||
+  s.includes('DCI: ' + grade.ngssGrade + '-') ||
+  s.startsWith('CCC:')
+).slice(0, 30).join(', ')}
+
+**Most frequently used standards in this gallery:**
+- Performance Expectations: 3-LS1-1 (${ngssIndex.performanceExpectations['3-LS1-1']?.length || 0} images), 3-LS4-3 (${ngssIndex.performanceExpectations['3-LS4-3']?.length || 0} images), 2-ESS1-1 (${ngssIndex.performanceExpectations['2-ESS1-1']?.length || 0} images)
+- Crosscutting Concepts: Patterns (${ngssIndex.crosscuttingConcepts['Patterns']?.length || 0} images), Cause and Effect (${ngssIndex.crosscuttingConcepts['Cause and Effect']?.length || 0} images), Structure and Function (${ngssIndex.crosscuttingConcepts['Structure and Function']?.length || 0} images)
+
+**Standards with low coverage (consider these if relevant):**
+${Object.entries(ngssIndex.performanceExpectations)
+  .filter(([code, images]) => images.length < 5 && code.startsWith(grade.ngssGrade + '-'))
+  .map(([code, images]) => code + ' (' + images.length + ' images)')
+  .slice(0, 5)
+  .join(', ') || 'All standards well-covered'}
+` : ''}
 
 ## 💬 Discussion Questions
 Provide 3-4 open-ended questions. Label EVERY question with its Bloom's Taxonomy level and Depth of Knowledge (DOK) level.

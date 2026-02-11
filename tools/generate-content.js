@@ -54,6 +54,15 @@ const GRADE_LEVELS = {
   'fifth-grade': { name: 'Fifth Grade', readingLevel: '5.0-6.0', ngssGrade: '5' }
 };
 
+// Load NGSS standards index
+function loadNGSSIndex() {
+  const ngssPath = path.join(__dirname, '..', 'ngss-index.json');
+  if (fs.existsSync(ngssPath)) {
+    return JSON.parse(fs.readFileSync(ngssPath, 'utf-8'));
+  }
+  return null;
+}
+
 // Generate educational content for a single image at a specific grade level
 async function generateContent(imageItem, gradeLevel) {
   try {
@@ -63,6 +72,7 @@ async function generateContent(imageItem, gradeLevel) {
 
     const categoryName = config.CATEGORIES[imageItem.category]?.name || imageItem.category;
     const grade = GRADE_LEVELS[gradeLevel];
+    const ngssIndex = loadNGSSIndex();
 
     const prompt = `You are an expert K-5 Science Instructional Coach and NGSS Curriculum Specialist.
 
@@ -108,6 +118,27 @@ List 1-3 common naive conceptions ${grade.name} students might have about this t
 - Wrap Crosscutting Concepts (CCC) in double brackets: [[NGSS:CCC:Name]]
   Example: [[NGSS:CCC:Patterns]]
 - List the Performance Expectation (PE) code and text normally
+
+**IMPORTANT:** Select standards from the validated NGSS list below. Use ${grade.ngssGrade}-level standards when available.${ngssIndex ? `
+
+### Available NGSS Standards (from existing gallery):
+${ngssIndex.allStandards.filter(s =>
+  s.includes(`PE: ${grade.ngssGrade}-`) ||
+  s.includes(`DCI: ${grade.ngssGrade}-`) ||
+  s.startsWith('CCC:')
+).slice(0, 30).join(', ')}
+
+**Most frequently used standards in this gallery:**
+- Performance Expectations: 3-LS1-1 (${ngssIndex.performanceExpectations['3-LS1-1']?.length || 0} images), 3-LS4-3 (${ngssIndex.performanceExpectations['3-LS4-3']?.length || 0} images), 2-ESS1-1 (${ngssIndex.performanceExpectations['2-ESS1-1']?.length || 0} images)
+- Crosscutting Concepts: Patterns (${ngssIndex.crosscuttingConcepts['Patterns']?.length || 0} images), Cause and Effect (${ngssIndex.crosscuttingConcepts['Cause and Effect']?.length || 0} images), Structure and Function (${ngssIndex.crosscuttingConcepts['Structure and Function']?.length || 0} images)
+
+**Standards with low coverage (consider these if relevant):**
+${Object.entries(ngssIndex.performanceExpectations)
+  .filter(([code, images]) => images.length < 5 && code.startsWith(grade.ngssGrade + '-'))
+  .map(([code, images]) => `${code} (${images.length} images)`)
+  .slice(0, 5)
+  .join(', ') || 'All standards well-covered'}
+` : ''}
 
 ## 💬 Discussion Questions
 Provide 3-4 open-ended questions. Label EVERY question with its Bloom's Taxonomy level and Depth of Knowledge (DOK) level.
