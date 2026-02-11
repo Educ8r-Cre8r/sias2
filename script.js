@@ -896,7 +896,7 @@ function clearNGSSSearch() {
 /**
  * Get recommended images based on shared NGSS standards for the selected grade level
  */
-async function getRecommendedImages(currentImage, maxCount = 3) {
+async function getRecommendedImages(currentImage, maxCount = 4) {
   const index = await loadNGSSIndex();
   if (!index) return [];
 
