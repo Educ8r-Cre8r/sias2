@@ -25,9 +25,10 @@
       icon: '\uD83D\uDC4B',
       description:
         'A growing library of science photos with grade-level educational content for K\u20135 teachers, aligned to the Next Generation Science Standards. Sign in with Google to unlock favorites, ratings, comments, engineering challenges and downloadable lesson guides.',
-      screenshot: null,
-      screenshotAlt: 'The Science In A Snapshot homepage',
+      screenshot: 'images/life-science/webp/IMG_2566.webp',
+      screenshotAlt: 'Beautiful butterfly on a pink flower - example of science photography in the gallery',
       centered: true,
+      slideUpImage: true,
     },
     {
       title: 'The Gallery',
@@ -214,9 +215,16 @@
     // Title
     html += '<h3 class="tutorial-slide-title">' + escapeHtml(slide.title) + '</h3>';
 
-    // Screenshot placeholder or real image
+    // Description
+    html += '<p class="tutorial-slide-description">' + escapeHtml(slide.description) + '</p>';
+
+    // Screenshot placeholder or real image (after description for slide 1)
     if (slide.screenshot) {
-      html += '<div class="tutorial-slide-screenshot has-image">';
+      var imageClass = 'tutorial-slide-screenshot has-image';
+      if (slide.slideUpImage) {
+        imageClass += ' slide-up-image';
+      }
+      html += '<div class="' + imageClass + '">';
       html += '<img src="' + escapeHtml(slide.screenshot) + '" alt="' + escapeHtml(slide.screenshotAlt || '') + '" loading="lazy">';
       html += '</div>';
     } else if (!slide.showDisclaimer && !slide.centered) {
@@ -229,9 +237,6 @@
       html += '<span>Screenshot coming soon</span>';
       html += '</div>';
     }
-
-    // Description
-    html += '<p class="tutorial-slide-description">' + escapeHtml(slide.description) + '</p>';
 
     // AI Disclaimer (Slide 10)
     if (slide.showDisclaimer) {

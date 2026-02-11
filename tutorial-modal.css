@@ -244,6 +244,24 @@
   border-radius: 0;
 }
 
+/* Slide-up animation for first slide image */
+.tutorial-slide-screenshot.slide-up-image {
+  animation: slideUpImage 0.8s ease-out 0.3s both;
+  border: none;
+  box-shadow: none;
+}
+
+@keyframes slideUpImage {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* ============================================
    AI Disclaimer Callout (Slide 10)
    ============================================ */
@@ -454,6 +472,10 @@
 
   .tutorial-nav-btn {
     transition: none;
+  }
+
+  .tutorial-slide-screenshot.slide-up-image {
+    animation: none;
   }
 }
 
