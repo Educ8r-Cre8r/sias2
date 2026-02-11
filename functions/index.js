@@ -1460,29 +1460,37 @@ exports.adminReprocessImage = functions
     console.log(`🔄 Admin re-processing image ID: ${imageId}`);
 
     try {
-      // Read gallery-metadata.json to find the image
-      const bucket = admin.storage().bucket();
-      const metaFile = bucket.file('gallery-metadata.json');
-      const [metaContent] = await metaFile.download();
-      const metadata = JSON.parse(metaContent.toString());
+      // Read gallery-metadata.json from Hosting (it's a static file, not in Storage)
+      const metaUrl = 'https://sias-8178a.web.app/gallery-metadata.json';
+      const metaResponse = await fetch(metaUrl);
+      if (!metaResponse.ok) {
+        throw new Error(`Failed to fetch gallery-metadata.json: ${metaResponse.status}`);
+      }
+      const metadata = await metaResponse.json();
 
       const image = metadata.images.find(img => img.id === imageId);
       if (!image) {
         throw new functions.https.HttpsError('not-found', `Image ${imageId} not found`);
       }
 
-      // Download the original image from its current hosting path
-      const sourceFile = bucket.file(image.imagePath);
-      const [exists] = await sourceFile.exists();
-      if (!exists) {
-        throw new functions.https.HttpsError('not-found', 'Source image file not found in storage');
+      // Download the original image from Hosting (images are served from Hosting, not Storage)
+      const imageUrl = `https://sias-8178a.web.app/${image.imagePath}`;
+      console.log(`📥 Downloading image from: ${imageUrl}`);
+      const imageResponse = await fetch(imageUrl);
+      if (!imageResponse.ok) {
+        throw new functions.https.HttpsError('not-found', `Source image not found at ${imageUrl}`);
       }
+      const imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
 
-      // Copy to uploads/{category}/{filename} to trigger queueImage
+      // Upload to uploads/{category}/{filename} in Storage to trigger queueImage
+      const bucket = admin.storage().bucket();
       const destPath = `uploads/${image.category}/${image.filename}`;
-      await sourceFile.copy(bucket.file(destPath));
+      const destFile = bucket.file(destPath);
+      await destFile.save(imageBuffer, {
+        metadata: { contentType: 'image/jpeg' }
+      });
 
-      console.log(`✅ Copied ${image.imagePath} → ${destPath}, queueImage will trigger`);
+      console.log(`✅ Uploaded ${image.imagePath} → Storage:${destPath}, queueImage will trigger`);
 
       return { success: true, message: `Image ${imageId} queued for re-processing` };
     } catch (error) {
