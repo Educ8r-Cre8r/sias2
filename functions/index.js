@@ -67,6 +67,9 @@ exports.queueImage = functions
       return null;
     }
 
+    // Check if this is a reprocess request (flagged via custom metadata)
+    const isReprocess = object.metadata?.reprocess === 'true';
+
     // Add to queue
     await db.collection('imageQueue').add({
       filePath,
@@ -75,7 +78,8 @@ exports.queueImage = functions
       bucketName: object.bucket,
       status: 'pending',
       createdAt: admin.firestore.FieldValue.serverTimestamp(),
-      attempts: 0
+      attempts: 0,
+      reprocess: isReprocess
     });
 
     console.log(`✅ Queued: ${filename}`);
@@ -233,42 +237,48 @@ async function processImageFromQueue(queueItem) {
     await repoGit.addConfig('user.name', 'SIAS Automation');
     await repoGit.addConfig('user.email', 'mr.alexdjones@gmail.com');
 
-    // Check for duplicates - see if this image already exists
+    const isReprocess = queueItem.reprocess === true;
     const targetImagePath = path.join(repoDir, 'images', category, filename);
-    const imageExists = await fs.access(targetImagePath).then(() => true).catch(() => false);
-
-    if (imageExists) {
-      console.warn(`⚠️  Duplicate detected: ${filename} already exists in ${category}`);
-      // Move to a "duplicates" folder in storage
-      await bucket.file(filePath).move(`duplicates/${category}/${filename}`);
-      console.log('📦 Moved to duplicates folder');
-      return null;
-    }
-
-    // Copy image to the repo's images directory
-    await fs.mkdir(path.join(repoDir, 'images', category), { recursive: true });
-    await fs.copyFile(tempFilePath, targetImagePath);
-    console.log(`📁 Copied image to: images/${category}/${filename}`);
-
-    // Generate optimized image variants (thumbnail, WebP, placeholder)
     const nameNoExt = path.parse(filename).name;
-    const thumbsDir = path.join(repoDir, 'images', category, 'thumbs');
-    const webpDir = path.join(repoDir, 'images', category, 'webp');
-    const placeholdersDir = path.join(repoDir, 'images', category, 'placeholders');
-    await fs.mkdir(thumbsDir, { recursive: true });
-    await fs.mkdir(webpDir, { recursive: true });
-    await fs.mkdir(placeholdersDir, { recursive: true });
 
-    try {
-      // Generate 600px thumbnail
-      await sharp(targetImagePath).resize({ height: 600 }).toFile(path.join(thumbsDir, filename));
-      // Generate WebP from thumbnail
-      await sharp(path.join(thumbsDir, filename)).webp({ quality: 80 }).toFile(path.join(webpDir, `${nameNoExt}.webp`));
-      // Generate 20px blur-up placeholder
-      await sharp(targetImagePath).resize({ width: 20 }).toFile(path.join(placeholdersDir, filename));
-      console.log(`🖼️  Generated optimized variants (thumb, webp, placeholder)`);
-    } catch (optimizeError) {
-      console.warn(`⚠️  Image optimization failed (non-blocking): ${optimizeError.message}`);
+    if (isReprocess) {
+      console.log(`🔄 Re-processing existing image: ${filename}`);
+    } else {
+      // Check for duplicates - see if this image already exists
+      const imageExists = await fs.access(targetImagePath).then(() => true).catch(() => false);
+
+      if (imageExists) {
+        console.warn(`⚠️  Duplicate detected: ${filename} already exists in ${category}`);
+        // Move to a "duplicates" folder in storage
+        await bucket.file(filePath).move(`duplicates/${category}/${filename}`);
+        console.log('📦 Moved to duplicates folder');
+        return null;
+      }
+
+      // Copy image to the repo's images directory
+      await fs.mkdir(path.join(repoDir, 'images', category), { recursive: true });
+      await fs.copyFile(tempFilePath, targetImagePath);
+      console.log(`📁 Copied image to: images/${category}/${filename}`);
+
+      // Generate optimized image variants (thumbnail, WebP, placeholder)
+      const thumbsDir = path.join(repoDir, 'images', category, 'thumbs');
+      const webpDir = path.join(repoDir, 'images', category, 'webp');
+      const placeholdersDir = path.join(repoDir, 'images', category, 'placeholders');
+      await fs.mkdir(thumbsDir, { recursive: true });
+      await fs.mkdir(webpDir, { recursive: true });
+      await fs.mkdir(placeholdersDir, { recursive: true });
+
+      try {
+        // Generate 600px thumbnail
+        await sharp(targetImagePath).resize({ height: 600 }).toFile(path.join(thumbsDir, filename));
+        // Generate WebP from thumbnail
+        await sharp(path.join(thumbsDir, filename)).webp({ quality: 80 }).toFile(path.join(webpDir, `${nameNoExt}.webp`));
+        // Generate 20px blur-up placeholder
+        await sharp(targetImagePath).resize({ width: 20 }).toFile(path.join(placeholdersDir, filename));
+        console.log(`🖼️  Generated optimized variants (thumb, webp, placeholder)`);
+      } catch (optimizeError) {
+        console.warn(`⚠️  Image optimization failed (non-blocking): ${optimizeError.message}`);
+      }
     }
 
     // Read gallery-metadata.json
@@ -276,31 +286,44 @@ async function processImageFromQueue(queueItem) {
     const metadataContent = await fs.readFile(metadataPath, 'utf8');
     const metadata = JSON.parse(metadataContent);
 
-    // Generate a title from the filename
-    const title = generateTitle(filename);
+    let nextId;
+    if (isReprocess) {
+      // Find existing image entry by filename and category
+      const existingImage = metadata.images.find(
+        img => img.filename === filename && img.category === category
+      );
+      if (!existingImage) {
+        throw new Error(`Re-process failed: ${filename} not found in gallery-metadata.json`);
+      }
+      nextId = existingImage.id;
+      console.log(`🔄 Re-processing image ID ${nextId}: "${existingImage.title}"`);
+    } else {
+      // Generate a title from the filename
+      const title = generateTitle(filename);
 
-    // Get the next ID
-    const nextId = metadata.images.length > 0
-      ? Math.max(...metadata.images.map(img => img.id)) + 1
-      : 1;
+      // Get the next ID
+      nextId = metadata.images.length > 0
+        ? Math.max(...metadata.images.map(img => img.id)) + 1
+        : 1;
 
-    // Add new image to metadata
-    const newImage = {
-      id: nextId,
-      filename: filename,
-      category: category,
-      imagePath: `images/${category}/${filename}`,
-      thumbPath: `images/${category}/thumbs/${filename}`,
-      webpPath: `images/${category}/webp/${nameNoExt}.webp`,
-      placeholderPath: `images/${category}/placeholders/${filename}`,
-      contentFile: `content/${category}/${path.parse(filename).name}.json`,
-      title: title,
-      hasContent: false
-    };
+      // Add new image to metadata
+      const newImage = {
+        id: nextId,
+        filename: filename,
+        category: category,
+        imagePath: `images/${category}/${filename}`,
+        thumbPath: `images/${category}/thumbs/${filename}`,
+        webpPath: `images/${category}/webp/${nameNoExt}.webp`,
+        placeholderPath: `images/${category}/placeholders/${filename}`,
+        contentFile: `content/${category}/${path.parse(filename).name}.json`,
+        title: title,
+        hasContent: false
+      };
 
-    metadata.images.push(newImage);
-    metadata.totalImages = metadata.images.length;
-    metadata.lastUpdated = new Date().toISOString();
+      metadata.images.push(newImage);
+      metadata.totalImages = metadata.images.length;
+      metadata.lastUpdated = new Date().toISOString();
+    }
 
     // Save updated metadata
     await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
@@ -396,7 +419,8 @@ async function processImageFromQueue(queueItem) {
     // Commit and push to GitHub
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
-    await repoGit.commit(`Add ${filename} with educational content, hotspots, keywords, NGSS standards, lesson PDFs, and EDP
+    const commitAction = isReprocess ? 'Re-process' : 'Add';
+    await repoGit.commit(`${commitAction} ${filename} with educational content, hotspots, keywords, NGSS standards, lesson PDFs, and EDP
 
 - Category: ${category}
 - Generated content for all grade levels (K-5)
@@ -1483,11 +1507,15 @@ exports.adminReprocessImage = functions
       const imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
 
       // Upload to uploads/{category}/{filename} in Storage to trigger queueImage
+      // Set reprocess metadata flag so processQueue skips the duplicate check
       const bucket = admin.storage().bucket();
       const destPath = `uploads/${image.category}/${image.filename}`;
       const destFile = bucket.file(destPath);
       await destFile.save(imageBuffer, {
-        metadata: { contentType: 'image/jpeg' }
+        metadata: {
+          contentType: 'image/jpeg',
+          metadata: { reprocess: 'true' }
+        }
       });
 
       console.log(`✅ Uploaded ${image.imagePath} → Storage:${destPath}, queueImage will trigger`);
