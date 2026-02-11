@@ -25,7 +25,7 @@ jobs:
         run: node tools/check-youtube-links.cjs --ci
 
       - name: Install Cloud Functions dependencies
-        run: cd functions && npm ci
+        run: cd functions && npm install
 
       - name: Deploy Cloud Functions
         uses: w9jds/firebase-action@master
