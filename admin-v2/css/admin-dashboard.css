@@ -2391,3 +2391,188 @@ body {
         display: none;
     }
 }
+
+/* ======== HOTSPOT EDITOR ======== */
+
+.hotspot-editor {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 2px solid var(--border);
+}
+
+.hotspot-editor-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.hotspot-editor-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.hotspot-editor-hint {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-bottom: 16px;
+}
+
+.hotspot-editor-workspace {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.hotspot-editor-image-wrapper {
+    position: relative;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    background: #f1f1f1;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.hotspot-editor-image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+.hotspot-editor-marker {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 3px solid var(--primary);
+    border-radius: 50%;
+    cursor: grab;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--primary);
+    font-size: 1rem;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.hotspot-editor-marker:hover {
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
+    border-color: var(--primary-dark);
+}
+
+.hotspot-editor-marker.selected {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary-dark);
+    box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.25), 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.hotspot-editor-marker.dragging {
+    cursor: grabbing;
+    opacity: 0.85;
+    box-shadow: 0 0 0 6px rgba(79, 70, 229, 0.3), 0 8px 24px rgba(0, 0, 0, 0.3);
+    z-index: 20;
+    transition: none;
+}
+
+.hotspot-editor-sidebar {
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 16px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.hotspot-detail-card h4 {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+.hotspot-detail-number {
+    width: 32px;
+    height: 32px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.hotspot-coord-fields {
+    display: flex;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+.hotspot-coord-field {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.hotspot-coord-field label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    min-width: 16px;
+}
+
+.hotspot-coord-field input[type="number"] {
+    width: 64px;
+    padding: 4px 8px;
+    border: 2px solid var(--border);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.hotspot-coord-field input[type="number"]:focus {
+    border-color: var(--primary);
+    outline: none;
+}
+
+.hotspot-coord-field span {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.hotspot-detail-fact,
+.hotspot-detail-vocab {
+    margin-top: 12px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.hotspot-detail-fact p,
+.hotspot-detail-vocab p {
+    margin-top: 4px;
+}
+
+.hotspot-editor-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-light);
+}
+
+@media (max-width: 768px) {
+    .hotspot-editor-workspace {
+        grid-template-columns: 1fr;
+    }
+    .hotspot-editor-marker {
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
+    }
+}

@@ -1881,3 +1881,97 @@ exports.adminGetDeployStatus = functions
       throw new functions.https.HttpsError('internal', 'Failed to fetch deploy status: ' + error.message);
     }
   });
+
+/**
+ * Admin: Update hotspot positions for a specific image.
+ * Saves updated hotspot JSON and commits to GitHub.
+ */
+exports.adminUpdateHotspots = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 300, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { imageId, hotspots } = data;
+
+    if (!imageId && imageId !== 0) {
+      throw new functions.https.HttpsError('invalid-argument', 'imageId is required');
+    }
+    if (!Array.isArray(hotspots) || hotspots.length === 0) {
+      throw new functions.https.HttpsError('invalid-argument', 'hotspots array is required');
+    }
+
+    // Validate hotspot structure
+    for (const h of hotspots) {
+      if (!h.id || !h.x || !h.y || !h.label) {
+        throw new functions.https.HttpsError('invalid-argument',
+          `Hotspot ${h.id || '?'} missing required fields (id, x, y, label)`);
+      }
+      const x = parseInt(h.x);
+      const y = parseInt(h.y);
+      if (isNaN(x) || isNaN(y) || x < 0 || x > 100 || y < 0 || y > 100) {
+        throw new functions.https.HttpsError('invalid-argument',
+          `Hotspot ${h.id} has coordinates out of range (0-100%)`);
+      }
+    }
+
+    console.log(`🎯 Admin updating hotspots for image ID: ${imageId}`);
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-admin-hotspots');
+
+    try {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+      const git = simpleGit();
+      await git.clone(repoUrl, repoDir);
+      const repoGit = simpleGit(repoDir);
+      await repoGit.addConfig('user.name', 'SIAS Admin');
+      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      // Find image in metadata
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+      const image = metadata.images.find(img => img.id === imageId);
+      if (!image) {
+        throw new functions.https.HttpsError('not-found', `Image ${imageId} not found`);
+      }
+
+      const nameNoExt = image.filename.replace(/\.[^/.]+$/, '');
+      const category = image.category;
+
+      // Build hotspot file path
+      const hotspotDir = path.join(repoDir, 'hotspots', category);
+      const hotspotFilePath = path.join(hotspotDir, `${nameNoExt}.json`);
+
+      // Ensure directory exists
+      await fs.mkdir(hotspotDir, { recursive: true });
+
+      // Write updated hotspot JSON
+      const hotspotData = { hotspots };
+      await fs.writeFile(hotspotFilePath, JSON.stringify(hotspotData, null, 2));
+      console.log(`✅ Updated hotspot file: hotspots/${category}/${nameNoExt}.json`);
+
+      // Commit and push only the hotspot file
+      await repoGit.add(`hotspots/${category}/${nameNoExt}.json`);
+      await repoGit.commit(
+        `Update hotspot positions for "${image.title}" (ID ${imageId})\n\n` +
+        `- Updated ${hotspots.length} hotspot positions\n` +
+        `- Category: ${category}\n\n` +
+        `Updated via SIAS Admin Dashboard`
+      );
+      await repoGit.push('origin', 'main');
+
+      console.log(`✅ Hotspots updated and pushed for image ${imageId}`);
+
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      return { success: true, imageId, hotspotCount: hotspots.length };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('Update hotspots error:', error);
+      if (error instanceof functions.https.HttpsError) throw error;
+      throw new functions.https.HttpsError('internal', 'Update failed: ' + error.message);
+    }
+  });
