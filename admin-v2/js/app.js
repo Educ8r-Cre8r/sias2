@@ -32,6 +32,9 @@ async function initDashboard() {
 
     // Start notification center
     if (typeof initNotifications === 'function') initNotifications();
+
+    // Start deploy status monitor
+    if (typeof initDeployStatus === 'function') initDeployStatus();
 }
 
 /**

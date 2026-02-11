@@ -45,6 +45,10 @@
                 </div>
                 <div class="header-actions">
                     <a href="../index.html" class="btn btn-secondary btn-small" target="_blank">View Gallery</a>
+                    <div class="deploy-status-wrapper">
+                        <div id="deploy-status-badge"></div>
+                        <div id="deploy-detail-panel" class="deploy-detail-panel hidden"></div>
+                    </div>
                     <div class="notification-bell-wrapper">
                         <button class="notification-bell-btn" onclick="toggleNotificationPanel()" title="Notifications">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -149,6 +153,7 @@
                         <div id="system-health-content">
                             <p class="text-muted">Loading...</p>
                         </div>
+                        <div id="deploy-overview-content" style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-light);"></div>
                     </div>
                     <div class="card" style="margin-bottom: 0;">
                         <div class="card-header">
@@ -593,6 +598,7 @@
     <script src="js/comment-moderation.js"></script>
     <script src="js/orphan-detector.js"></script>
     <script src="js/notifications.js"></script>
+    <script src="js/deploy-status.js"></script>
 
 </body>
 </html>

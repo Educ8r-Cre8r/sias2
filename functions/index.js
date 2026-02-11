@@ -1802,3 +1802,54 @@ exports.adminAuditStorage = functions
       orphanedSize: orphaned.reduce((sum, f) => sum + f.size, 0)
     };
   });
+
+/**
+ * Admin: Get GitHub Actions deploy status
+ * Proxies the GitHub API to keep the token server-side.
+ */
+exports.adminGetDeployStatus = functions
+  .runWith({ memory: '256MB', timeoutSeconds: 15, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const githubToken = process.env.GITHUB_TOKEN;
+    if (!githubToken) {
+      throw new functions.https.HttpsError('internal', 'GitHub token not configured');
+    }
+
+    try {
+      const response = await fetch(
+        'https://api.github.com/repos/Educ8r-Cre8r/sias2/actions/runs?per_page=5',
+        {
+          headers: {
+            'Authorization': `token ${githubToken}`,
+            'Accept': 'application/vnd.github+json',
+            'User-Agent': 'SIAS-Admin-Dashboard'
+          }
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error(`GitHub API error: ${response.status}`);
+      }
+
+      const json = await response.json();
+
+      const runs = (json.workflow_runs || []).map(run => ({
+        id: run.id,
+        runNumber: run.run_number,
+        name: run.name,
+        status: run.status,
+        conclusion: run.conclusion,
+        createdAt: run.created_at,
+        updatedAt: run.updated_at,
+        htmlUrl: run.html_url,
+        commitMessage: run.head_commit?.message || ''
+      }));
+
+      return { runs };
+    } catch (error) {
+      console.error('Deploy status error:', error);
+      throw new functions.https.HttpsError('internal', 'Failed to fetch deploy status: ' + error.message);
+    }
+  });

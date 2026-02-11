@@ -2227,3 +2227,167 @@ body {
     padding-top: 16px;
     border-top: 1px solid var(--border-light);
 }
+
+/* ===================================
+   Deploy Status Badge (Header)
+   =================================== */
+
+.deploy-status-wrapper {
+    position: relative;
+}
+
+.deploy-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    border: 1px solid var(--border);
+}
+
+.deploy-badge:hover {
+    box-shadow: var(--shadow);
+    transform: translateY(-1px);
+}
+
+.deploy-badge-icon {
+    font-size: 0.9rem;
+    line-height: 1;
+}
+
+.deploy-badge-active {
+    background: var(--info-light);
+    color: #1e40af;
+    border-color: var(--info);
+}
+
+.deploy-badge-queued {
+    background: var(--warning-light);
+    color: #92400e;
+    border-color: var(--warning);
+}
+
+.deploy-badge-success {
+    background: var(--success-light);
+    color: #065f46;
+    border-color: var(--success);
+}
+
+.deploy-badge-failed {
+    background: var(--danger-light);
+    color: #991b1b;
+    border-color: var(--danger);
+}
+
+.deploy-badge-cancelled {
+    background: var(--warning-light);
+    color: #92400e;
+    border-color: var(--warning);
+}
+
+.deploy-badge-neutral {
+    background: var(--border-light);
+    color: var(--text-secondary);
+}
+
+.deploy-pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Deploy Detail Dropdown */
+
+.deploy-detail-panel {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    width: 380px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border);
+    z-index: 500;
+    animation: fadeIn 0.2s ease;
+    overflow: hidden;
+}
+
+.deploy-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.deploy-detail-header h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.deploy-run-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 0.85rem;
+    transition: background 0.15s;
+}
+
+.deploy-run-item:last-child {
+    border-bottom: none;
+}
+
+.deploy-run-item:hover {
+    background: var(--bg-primary);
+}
+
+.deploy-run-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.deploy-run-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.deploy-run-commit {
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.deploy-run-meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+}
+
+.deploy-run-link a {
+    font-size: 0.75rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.deploy-run-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .deploy-detail-panel {
+        width: calc(100vw - 20px);
+        right: -40px;
+    }
+    .deploy-badge-label {
+        display: none;
+    }
+}
