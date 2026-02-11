@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "15%",
+      "label": "Insulation Material",
+      "fact": "The gray material between the wooden frames is insulation, which helps keep buildings warm in winter and cool in summer. Insulation works like a blanket for your house, trapping air to protect it from hot and cold outdoor temperatures. This helps us use less energy and keep our homes comfortable no matter what the weather is like outside.",
+      "vocabulary": {
+        "term": "Insulation",
+        "definition": "A material that slows down heat from moving in or out of a building, helping to keep the temperature inside steady."
+      }
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Window for Light",
+      "fact": "Windows let natural sunlight into buildings, which is energy from the sun that reaches Earth. The sun's energy is one of the most important natural resources we have because it provides light, warmth, and power for plants and animals. People can use windows to bring this free, natural energy into their homes and workplaces.",
+      "vocabulary": {
+        "term": "Natural Resources",
+        "definition": "Materials and energy that come from nature, like sunlight, water, soil, and wind, that people use to survive and build things."
+      }
+    },
+    {
+      "id": 3,
+      "x": "15%",
+      "y": "30%",
+      "label": "Wooden Frame Structure",
+      "fact": "The wooden beams and frame holding up this building come from trees, which are natural materials from Earth. Wood is a renewable resource because we can plant new trees to replace the ones we use for building. Buildings made from natural materials like wood help us live in harmony with our environment.",
+      "vocabulary": {
+        "term": "Renewable Resource",
+        "definition": "Something from nature that can be replaced or regrown, so we don't run out of it, like trees, water, and sunlight."
+      }
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "85%",
+      "label": "Foundation Ground Contact",
+      "fact": "This building sits on the ground, which is made of soil and rock—natural materials from Earth. The ground supports the weight of buildings and provides a stable base so structures don't sink or move. Understanding how Earth's materials work helps us build safer, stronger buildings.",
+      "vocabulary": {
+        "term": "Foundation",
+        "definition": "The solid base under a building, usually made of concrete or stone, that sits on the ground and holds up the entire structure."
+      }
+    }
+  ]
+}
