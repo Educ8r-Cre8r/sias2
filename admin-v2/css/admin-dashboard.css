@@ -908,6 +908,29 @@ body {
     border-radius: var(--radius-sm);
 }
 
+.button-help-text {
+    margin-top: 16px;
+    padding: 12px 14px;
+    background: var(--gray-50, #f9fafb);
+    border: 1px solid var(--gray-200, #e5e7eb);
+    border-radius: var(--radius-sm);
+    font-size: 0.82rem;
+    color: var(--gray-600, #4b5563);
+    line-height: 1.5;
+}
+
+.button-help-text p {
+    margin: 0 0 6px 0;
+}
+
+.button-help-text p:last-child {
+    margin-bottom: 0;
+}
+
+.button-help-text strong {
+    color: var(--gray-800, #1f2937);
+}
+
 .detail-section {
     margin-bottom: 16px;
 }

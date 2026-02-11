@@ -66,6 +66,12 @@ function showDetailModal(imageId) {
                     </button>
                     ${image.hasContent ? `<button class="btn btn-secondary btn-small" onclick="initContentEditor(${image.id})">Edit Content</button>` : ''}
                 </div>
+                <div class="button-help-text">
+                    <p><strong>Edit Info</strong> — Change the image title and keywords</p>
+                    <p><strong>Re-process</strong> — Regenerate all educational content, lesson guides, and hotspots using AI</p>
+                    <p><strong>Delete Image</strong> — Permanently remove this image and all associated files</p>
+                    ${image.hasContent ? `<p><strong>Edit Content</strong> — Edit educational content for any grade level and regenerate the lesson guide PDF</p>` : ''}
+                </div>
             </div>
             <div>
                 <div class="detail-section">
