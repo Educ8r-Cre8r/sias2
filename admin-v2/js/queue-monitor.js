@@ -80,7 +80,14 @@ function renderQueueList(items) {
                     <div class="queue-item-detail">${escapeHtml(item.category || '')} ${detail ? '&middot; ' + detail : ''}</div>
                 </div>
                 <span class="badge badge-${status}">${status}</span>
-                ${status === 'failed' ? `<button class="btn btn-small btn-outline" onclick="retryQueueItem('${item.id}')" style="margin-left: 8px; font-size: 0.75rem;">Retry</button>` : ''}
+                ${status === 'failed' ? `
+                    <button class="btn btn-small btn-outline" onclick="retryQueueItem('${item.id}')" style="margin-left: 8px; font-size: 0.75rem;">Retry</button>
+                    <button class="btn btn-small btn-danger" onclick="deleteQueueItem('${item.id}')" style="margin-left: 4px; font-size: 0.75rem;">Delete</button>
+                ` : ''}
+                ${status === 'processing' && isStuck(item) ? `
+                    <span class="badge badge-warning" style="margin-left: 8px;">Stuck?</span>
+                    <button class="btn btn-small btn-outline" onclick="retryQueueItem('${item.id}')" style="margin-left: 4px; font-size: 0.75rem;">Retry</button>
+                ` : ''}
             </div>
         `;
     }).join('');
@@ -191,7 +198,79 @@ async function retryQueueItem(docId) {
     }
 }
 
+/**
+ * Check if a processing item is stuck (>10 minutes)
+ */
+function isStuck(item) {
+    if (!item.startedAt) return false;
+    const started = item.startedAt.toDate ? item.startedAt.toDate() : new Date(item.startedAt);
+    return (Date.now() - started.getTime()) > 10 * 60 * 1000;
+}
+
+/**
+ * Delete a failed queue item and its uploaded file from Storage
+ */
+async function deleteQueueItem(docId) {
+    try {
+        const doc = await db.collection('imageQueue').doc(docId).get();
+        if (doc.exists) {
+            const data = doc.data();
+            // Clean up the uploaded file from Storage
+            if (data.filePath) {
+                try {
+                    await storage.ref(data.filePath).delete();
+                } catch (e) {
+                    // File may already be gone — that's fine
+                    console.log('Storage file already removed or not found:', data.filePath);
+                }
+            }
+            await db.collection('imageQueue').doc(docId).delete();
+        }
+        showToast('Queue item deleted', 'success');
+    } catch (error) {
+        console.error('Delete queue item error:', error);
+        showToast('Delete failed: ' + error.message, 'error');
+    }
+}
+
+/**
+ * Clear all failed items from the queue
+ */
+async function clearFailedQueue() {
+    try {
+        const snapshot = await db.collection('imageQueue')
+            .where('status', '==', 'failed')
+            .get();
+
+        if (snapshot.empty) {
+            showToast('No failed items to clear', 'info');
+            return;
+        }
+
+        const batch = db.batch();
+        const storageDeletes = [];
+
+        snapshot.docs.forEach(doc => {
+            const data = doc.data();
+            if (data.filePath) {
+                storageDeletes.push(
+                    storage.ref(data.filePath).delete().catch(() => {})
+                );
+            }
+            batch.delete(doc.ref);
+        });
+
+        await Promise.all([batch.commit(), ...storageDeletes]);
+        showToast(`Cleared ${snapshot.size} failed item${snapshot.size !== 1 ? 's' : ''}`, 'success');
+    } catch (error) {
+        console.error('Clear failed queue error:', error);
+        showToast('Failed to clear queue: ' + error.message, 'error');
+    }
+}
+
 // Expose globally
 window.startQueueMonitor = startQueueMonitor;
 window.clearCompletedQueue = clearCompletedQueue;
+window.clearFailedQueue = clearFailedQueue;
 window.retryQueueItem = retryQueueItem;
+window.deleteQueueItem = deleteQueueItem;

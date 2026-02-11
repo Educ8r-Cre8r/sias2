@@ -10,7 +10,7 @@ const state = {
   searchQuery: '',
   loadedContent: {}, // Cache for loaded educational content
   selectedGradeLevel: 'third-grade', // Default to third grade content
-  visibleCount: 24, // Number of images currently visible
+  visibleCount: 48, // Number of images currently visible
   filteredImages: [], // Current filtered image set
   ngssIndex: null, // NGSS standards index (loaded on demand)
   ngssFilter: null, // Active NGSS filter { type, code, imageIds }
@@ -18,7 +18,7 @@ const state = {
   featuredFilter: false // Featured Collection filter active
 };
 
-const IMAGES_PER_PAGE = 24;
+const IMAGES_PER_PAGE = 48;
 
 // Initialize on DOM load
 document.addEventListener('DOMContentLoaded', () => {

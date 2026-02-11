@@ -248,8 +248,10 @@ async function startUpload() {
     if (dropzone) dropzone.style.display = 'none';
     if (progressContainer) progressContainer.classList.remove('hidden');
 
+    // Sanitize filename: replace spaces with underscores to avoid Storage path issues
+    const sanitizedName = uploadFile.name.replace(/\s+/g, '_');
     // Upload to Firebase Storage at uploads/{category}/{filename}
-    const storagePath = `uploads/${uploadCategory}/${uploadFile.name}`;
+    const storagePath = `uploads/${uploadCategory}/${sanitizedName}`;
     const storageRef = storage.ref(storagePath);
 
     try {
@@ -288,7 +290,7 @@ async function startUpload() {
                     const successEl = document.getElementById('upload-success');
                     if (successEl) successEl.classList.remove('hidden');
 
-                    showToast(`"${uploadFile.name}" uploaded to ${getCategoryName(uploadCategory)}!`, 'success', 5000);
+                    showToast(`"${sanitizedName}" uploaded to ${getCategoryName(uploadCategory)}!`, 'success', 5000);
                 }, 500);
             }
         );
