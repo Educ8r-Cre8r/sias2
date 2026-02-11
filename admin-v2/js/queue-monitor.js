@@ -25,6 +25,7 @@ function startQueueMonitor() {
                     renderRecentActivity(items.slice(0, 10));
                     updateQueueBadge(items);
                     if (typeof renderSystemHealth === 'function') renderSystemHealth(items);
+                    if (typeof checkQueueNotifications === 'function') checkQueueNotifications(items);
                 },
                 error => {
                     console.error('Queue monitor error:', error);

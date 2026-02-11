@@ -29,6 +29,9 @@ async function initDashboard() {
 
     // Load engagement stats for overview
     loadOverviewEngagement();
+
+    // Start notification center
+    if (typeof initNotifications === 'function') initNotifications();
 }
 
 /**

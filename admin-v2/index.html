@@ -45,6 +45,27 @@
                 </div>
                 <div class="header-actions">
                     <a href="../index.html" class="btn btn-secondary btn-small" target="_blank">View Gallery</a>
+                    <div class="notification-bell-wrapper">
+                        <button class="notification-bell-btn" onclick="toggleNotificationPanel()" title="Notifications">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                                <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                            </svg>
+                            <span id="notification-badge" class="notification-badge hidden">0</span>
+                        </button>
+                        <div id="notification-panel" class="notification-panel hidden">
+                            <div class="notification-panel-header">
+                                <h3>Notifications</h3>
+                                <button class="btn btn-small btn-outline" onclick="dismissAllNotifications()">Clear All</button>
+                            </div>
+                            <div id="notification-list" class="notification-list">
+                                <div class="notification-empty">
+                                    <span style="font-size: 1.5rem;">🔔</span>
+                                    <p>No notifications</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="user-info">
                         <div id="user-avatar" class="user-avatar" title="">
                             <span id="user-initials" class="user-initials"></span>
@@ -91,7 +112,13 @@
                     </div>
                     <div class="stat-card stat-avg">
                         <div class="stat-value" id="stat-avg-cost">--</div>
-                        <div class="stat-label">Avg Cost/Image</div>
+                        <div class="stat-label">
+                            Avg Cost/Image
+                            <span class="info-tooltip-wrapper">
+                                <span class="info-icon" tabindex="0">ℹ</span>
+                                <span class="info-tooltip">Estimated Claude AI API cost per image. Includes: 6 grade-level content JSONs (K–5), hotspots, keywords, NGSS mapping, and EDP content (~8–9 API calls per image). Does not include Firebase, PDF generation, or image optimization costs.</span>
+                            </span>
+                        </div>
                     </div>
                 </div>
 
@@ -563,6 +590,7 @@
     <script src="js/analytics.js"></script>
     <script src="js/comment-moderation.js"></script>
     <script src="js/orphan-detector.js"></script>
+    <script src="js/notifications.js"></script>
 
 </body>
 </html>
