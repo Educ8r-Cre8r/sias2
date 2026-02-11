@@ -2,8 +2,8 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "70%",
-      "y": "25%",
+      "x": "87%",
+      "y": "40%",
       "label": "Head and Beak",
       "fact": "This bird has a special body part called a beak that helps it find and eat food. The beak is hard and pointed, which is perfect for picking up small things from the ground. Different birds have different shaped beaks depending on what they like to eat!",
       "vocabulary": {
@@ -24,8 +24,8 @@
     },
     {
       "id": 3,
-      "x": "30%",
-      "y": "35%",
+      "x": "26%",
+      "y": "29%",
       "label": "Wings and Feathers",
       "fact": "This bird's large black wings are covered with feathers that help it fly through the air. The feathers are also waterproof, which keeps the bird dry and warm. All birds have feathers, and feathers are one special body part that only birds have!",
       "vocabulary": {
@@ -35,8 +35,8 @@
     },
     {
       "id": 4,
-      "x": "55%",
-      "y": "50%",
+      "x": "67%",
+      "y": "45%",
       "label": "Ground Foraging",
       "fact": "You can see this bird is looking for food on the ground in its grassland habitat. Birds need to eat every day to get energy and stay healthy, just like people do. The way an animal finds food is one way it is adapted to live in its environment.",
       "vocabulary": {
