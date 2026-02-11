@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-11T22:55:01.950Z",
-  "totalImages": 161,
+  "lastUpdated": "2026-02-11T23:01:27.551Z",
+  "totalImages": 162,
   "images": [
     {
       "id": 1,
@@ -8286,6 +8286,57 @@
       "processingCost": 0.1058,
       "processingTime": "3m 48s",
       "processedAt": "2026-02-11T16:13:50.853Z"
+    },
+    {
+      "id": 162,
+      "filename": "rock.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/rock.jpg",
+      "thumbPath": "images/earth-space-science/thumbs/rock.jpg",
+      "webpPath": "images/earth-space-science/webp/rock.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/rock.jpg",
+      "contentFile": "content/earth-space-science/rock.json",
+      "title": "Rock",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "2-ESS1-1",
+          "K-ESS3.A"
+        ],
+        "grade1": [
+          "K-ESS3.A",
+          "K-LS1.C"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.C"
+        ],
+        "grade3": [
+          "3-ESS2-1",
+          "3-ESS2.D",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "3-ESS2-1",
+          "3-ESS2.A"
+        ],
+        "grade5": [
+          "5-ESS2-1",
+          "5-ESS2.A",
+          "5-ESS3.C"
+        ]
+      },
+      "keywords": [
+        "weathering",
+        "erosion",
+        "rock",
+        "moss",
+        "decomposition",
+        "earth materials"
+      ],
+      "processingCost": 0.1064,
+      "processingTime": "3m 37s",
+      "processedAt": "2026-02-11T23:04:40.824Z"
     }
   ]
 }

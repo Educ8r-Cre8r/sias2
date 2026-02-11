@@ -2,46 +2,46 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "50%",
       "y": "35%",
-      "label": "Layered Rock Bands",
-      "fact": "See how this rock has many colorful bands or stripes? These layers formed over millions of years as sand and mud settled in ancient oceans and lakes. Each band tells us a story about Earth's history! This is called **stratification** — that's when layers of rock form one on top of another over long periods of time.",
+      "label": "Weathered Rock",
+      "fact": "This rock has been broken down and changed by weathering over many years. Wind, rain, and temperature changes slowly crack and crumble rocks into smaller pieces. This is called **weathering** — that's when rocks are broken apart by water, ice, wind, and temperature changes without being moved to a new place.",
       "vocabulary": {
-        "term": "Stratification",
-        "definition": "The formation of layers of rock, soil, or sediment stacked on top of each other over time."
+        "term": "Weathering",
+        "definition": "The process where rocks and minerals are broken down and worn away by wind, water, ice, and temperature changes."
       }
     },
     {
       "id": 2,
-      "x": "50%",
+      "x": "65%",
       "y": "55%",
-      "label": "Weathered Rock Surface",
-      "fact": "Notice how the top of this rock is rough and broken? Wind, water, and ice have worked on this rock for a very long time, breaking it into smaller and smaller pieces. This slow process is called **weathering**, and it's how big rocks become sand and soil that we see all around us.",
+      "label": "Moss and Lichen Growth",
+      "fact": "The green and brown growth covering this rock shows how living things help break down rocks! Plants like moss and lichen can grow on rocks and help weather them into soil. This is called **biological weathering** — that's when living things help break rocks apart.",
       "vocabulary": {
-        "term": "Weathering",
-        "definition": "The slow breaking down of rocks by wind, water, ice, and other natural forces."
+        "term": "Biological Weathering",
+        "definition": "When plants, animals, and other living things help break down and wear away rocks."
       }
     },
     {
       "id": 3,
       "x": "35%",
       "y": "70%",
-      "label": "Pebbles and Gravel",
-      "fact": "All these small pebbles and gravel around the big rock used to be part of larger rocks, just like this one! Over time, weathering broke them down into smaller pieces. These smaller rocks can be carried by water and wind to new places, and eventually they might become sand or soil. This process of moving rock pieces is called **erosion**.",
+      "label": "Soil and Vegetation",
+      "fact": "Around the rock, you can see soil covered with grass and small plants. This soil was created over thousands of years as rocks like this one broke down into smaller and smaller pieces. Weathered rocks become the material that helps plants grow in soil. This is called **erosion and deposition** — that's when broken rock pieces are moved by water and wind to new locations where they help form soil.",
       "vocabulary": {
         "term": "Erosion",
-        "definition": "The process of rocks and soil being worn away and carried from one place to another by wind, water, or ice."
+        "definition": "The movement of weathered rock and soil from one place to another by water, wind, or ice."
       }
     },
     {
       "id": 4,
-      "x": "48%",
-      "y": "20%",
-      "label": "Stripes and Color Changes",
-      "fact": "The different colored stripes in this rock show us that different materials were deposited at different times in Earth's history. The tan, brown, and white bands might represent different seasons, different water levels, or different sources of sediment. Scientists read these layers like a history book to understand what Earth was like long ago!",
+      "x": "70%",
+      "y": "40%",
+      "label": "Rock Surface Pitting",
+      "fact": "The small holes and pits on the rock's surface show how water has slowly dissolved and carved away at the rock over time. Different types of rocks weather at different rates depending on what minerals they contain. Rocks that are softer or have more cracks tend to weather faster and break down into soil more quickly.",
       "vocabulary": {
-        "term": "Sediment",
-        "definition": "Small pieces of rock, sand, and soil that are carried by water or wind and settle in layers."
+        "term": "Mineral",
+        "definition": "A natural solid material made of elements from the Earth that combines to make rocks."
       }
     }
   ]
