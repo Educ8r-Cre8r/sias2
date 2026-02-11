@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Weathering and Erosion",
+      "fact": "This rock shows how weather changes objects over time! Rain, wind, and temperature changes break rocks into smaller pieces, a process called weathering. You can see dark patches where moisture and moss have grown on the rock, showing how forces in nature slowly change rocks and shapes.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow breaking down of rocks and other materials by wind, water, ice, and temperature changes."
+      }
+    },
+    {
+      "id": 2,
+      "x": "35%",
+      "y": "55%",
+      "label": "Rock Properties",
+      "fact": "This rock has different colors and textures you can observe, which are physical properties—the characteristics you can see and feel. The rough surface, the reddish and gray colors, and the hard material are all physical properties that help us describe what matter is like.",
+      "vocabulary": {
+        "term": "Physical Properties",
+        "definition": "Characteristics of an object that you can observe or measure, like color, size, shape, and texture, without changing what the object is made of."
+      }
+    },
+    {
+      "id": 3,
+      "x": "60%",
+      "y": "50%",
+      "label": "Gravity's Effect",
+      "fact": "This large, heavy rock stays in one place because of a force called gravity, which pulls objects toward Earth. Gravity is so strong that it keeps heavy rocks on the ground, and it's the same force that keeps you standing on the ground too!",
+      "vocabulary": {
+        "term": "Gravity",
+        "definition": "An invisible force that pulls objects toward Earth, keeping them from floating away."
+      }
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "25%",
+      "label": "Moss and Decomposition",
+      "fact": "The green moss growing on the rock is alive and helps break down the rock into smaller pieces over many years. Living things and non-living things interact—the moss uses energy from sunlight to grow, while the rock provides a place for the moss to live.",
+      "vocabulary": {
+        "term": "Decomposition",
+        "definition": "The process where living things break down dead plants and rocks into smaller pieces, returning nutrients to the soil."
+      }
+    }
+  ]
+}

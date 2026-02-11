@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-11T23:01:27.551Z",
-  "totalImages": 162,
+  "lastUpdated": "2026-02-11T23:05:25.606Z",
+  "totalImages": 163,
   "images": [
     {
       "id": 1,
@@ -8337,6 +8337,56 @@
       "processingCost": 0.1064,
       "processingTime": "3m 37s",
       "processedAt": "2026-02-11T23:04:40.824Z"
+    },
+    {
+      "id": 163,
+      "filename": "shadow.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/shadow.jpg",
+      "thumbPath": "images/physical-science/thumbs/shadow.jpg",
+      "webpPath": "images/physical-science/webp/shadow.webp",
+      "placeholderPath": "images/physical-science/placeholders/shadow.jpg",
+      "contentFile": "content/physical-science/shadow.json",
+      "title": "Shadow",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS3-1",
+          "K-PS3.B"
+        ],
+        "grade1": [
+          "2-PS1-1",
+          "2-PS1.A",
+          "K-PS3.B"
+        ],
+        "grade2": [
+          "K-PS3-1",
+          "K-PS3.A"
+        ],
+        "grade3": [
+          "3-PS2-1",
+          "3-PS2.A"
+        ],
+        "grade4": [
+          "1-PS4-2",
+          "1-PS4.A"
+        ],
+        "grade5": [
+          "1-PS4-2",
+          "1-PS4.A"
+        ]
+      },
+      "keywords": [
+        "weathering",
+        "erosion",
+        "rock formations",
+        "moss growth",
+        "earth materials",
+        "surface features"
+      ],
+      "processingCost": 0.0953,
+      "processingTime": "3m 10s",
+      "processedAt": "2026-02-11T23:08:11.797Z"
     }
   ]
 }
