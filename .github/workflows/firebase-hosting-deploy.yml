@@ -28,11 +28,11 @@ jobs:
         run: cd functions && npm install
 
       - name: Deploy Cloud Functions
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only functions --project sias-8178a
-        env:
-          GCP_SA_KEY: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SIAS_8178A }}'
+        run: |
+          echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SIAS_8178A }}' > /tmp/sa_key.json
+          export GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa_key.json
+          npx firebase-tools deploy --only functions --project sias-8178a --non-interactive
+          rm /tmp/sa_key.json
 
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
