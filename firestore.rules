@@ -64,7 +64,9 @@ service cloud.firestore {
     // Comments collection - require Google auth to write, approval to read
     match /comments/{commentId} {
       // Public can only read approved comments; admin can read all
+      // Supports both new status field and legacy approved field
       allow read: if resource.data.status == 'approved'
+        || resource.data.approved == true
         || (request.auth != null
             && request.auth.token.email == 'mr.alexdjones@gmail.com');
 
