@@ -29,9 +29,10 @@ jobs:
 
       - name: Deploy Cloud Functions
         run: |
+          npm install -g firebase-tools
           echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SIAS_8178A }}' > /tmp/sa_key.json
           export GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa_key.json
-          npx firebase-tools deploy --only functions --project sias-8178a --non-interactive
+          firebase deploy --only functions --project sias-8178a --non-interactive --force
           rm /tmp/sa_key.json
 
       - name: Deploy to Firebase Hosting
