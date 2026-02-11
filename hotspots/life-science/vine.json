@@ -3,45 +3,45 @@
     {
       "id": 1,
       "x": "45%",
-      "y": "25%",
-      "label": "Green Bean Pod",
-      "fact": "This long green pod is a fruit that grows from the bean plant's flower! Inside the pod are seeds (the beans) that the plant made to grow new plants. Plants use energy from sunlight to make the food they need to grow these fruits and seeds. This process is called **photosynthesis** — that's when plants use sunlight, water, and air to make their own food.",
+      "y": "35%",
+      "label": "Long Green Pod",
+      "fact": "This long green pod is a fruit that contains seeds inside! Plants make fruits to protect their seeds and help them spread to new places. This is called a **legume** — that's a type of fruit that grows as a long pod and splits open when it's ready.",
       "vocabulary": {
-        "term": "Photosynthesis",
-        "definition": "The way plants use sunlight to turn water and air into food so they can grow."
+        "term": "Fruit",
+        "definition": "The part of a plant that holds seeds and helps spread them to grow new plants."
       }
     },
     {
       "id": 2,
-      "x": "50%",
+      "x": "55%",
       "y": "50%",
       "label": "Climbing Vines",
-      "fact": "These plants are climbing up the wooden fence to reach more sunlight! Plants have different structures that help them survive in their environment — these curly tendrils act like tiny hands that grab onto things as the plant grows. By climbing toward the sun, the plant can get the light energy it needs to make food and grow bigger.",
+      "fact": "These vines are climbing up the wooden fence to reach sunlight, which they need to grow strong and healthy. Plants have different structures that help them survive in their environment, like these curly tendrils that help them climb and grip. This is called **adaptation** — that's a special feature that helps a plant or animal survive.",
       "vocabulary": {
         "term": "Tendrils",
-        "definition": "Thin, curly parts of a plant that wrap around objects to help the plant climb."
+        "definition": "Thin, curly parts of a climbing plant that wrap around things to help the plant climb up."
       }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "35%",
-      "label": "Yellow Flowers",
-      "fact": "These bright yellow flowers are where the plant makes seeds! Flowers are important plant structures that attract insects like bees and butterflies. When these insects visit the flowers to drink nectar, they help spread pollen from flower to flower, which allows the plant to make new seeds and grow new plants.",
+      "x": "70%",
+      "y": "25%",
+      "label": "Green Leaves",
+      "fact": "The green leaves use sunlight to make food for the plant through a process called photosynthesis. All plants need sunlight, water, and air to grow and stay healthy. The **chlorophyll** in these leaves is what makes them green and helps capture the sun's energy.",
       "vocabulary": {
-        "term": "Pollination",
-        "definition": "When pollen moves from one flower to another (usually by insects or wind) so the plant can make seeds."
+        "term": "Photosynthesis",
+        "definition": "The way plants use sunlight to turn water and air into food that helps them grow."
       }
     },
     {
       "id": 4,
-      "x": "60%",
-      "y": "55%",
-      "label": "Plant Leaves",
-      "fact": "The green leaves you see are like little food factories for the plant! Leaves have a special green color from a substance called chlorophyll that helps capture sunlight. The plant uses the energy from sunlight along with water from the soil to make the sugars and energy it needs to grow strong stems, leaves, and fruits.",
+      "x": "25%",
+      "y": "20%",
+      "label": "Yellow Flowers",
+      "fact": "These bright yellow flowers will attract bees and insects that help make new fruits and seeds! Flowers are an important part of a plant's life cycle because they help create the next generation of plants. This process is called **pollination** — that's when pollen moves from one flower to another so plants can make seeds.",
       "vocabulary": {
-        "term": "Chlorophyll",
-        "definition": "The green stuff in leaves that helps plants catch sunlight and turn it into food."
+        "term": "Pollination",
+        "definition": "When pollen from one flower travels to another flower so that new seeds can form."
       }
     }
   ]
