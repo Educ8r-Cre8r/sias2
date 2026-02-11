@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "45%",
+      "label": "Electrical Transformer",
+      "fact": "This large cylindrical container is a transformer that changes electrical energy into different forms so it can safely travel through power lines to homes and schools. Transformers use magnetism and coils of wire to transfer energy from one circuit to another, which is called **electromagnetic induction** — that's when moving magnets create electrical current in nearby wires.",
+      "vocabulary": {
+        "term": "Transformer",
+        "definition": "A device that changes the strength of electrical energy so it can be used safely in different ways."
+      }
+    },
+    {
+      "id": 2,
+      "x": "25%",
+      "y": "35%",
+      "label": "Power Lines and Cables",
+      "fact": "These cables carry electrical energy from power plants to your home, and they show how energy can travel long distances through materials. The wires are made of metal because metal is a **conductor** — a material that lets electricity flow easily through it. Gravity pulls down on these heavy cables, so engineers must design poles strong enough to hold them up against this pulling force.",
+      "vocabulary": {
+        "term": "Conductor",
+        "definition": "A material that allows electricity or heat to flow through it easily, like copper or aluminum."
+      }
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "15%",
+      "label": "Utility Pole Structure",
+      "fact": "This wooden pole is designed to support heavy equipment and cables using strong materials and a sturdy structure. The pole stays upright because it's made from wood, which has physical properties that make it both stiff and strong. Engineers must calculate the forces pushing down on the pole from gravity and wind to make sure it won't bend or break.",
+      "vocabulary": {
+        "term": "Force",
+        "definition": "A push or pull that can make something move, stop, or change direction, like gravity pulling the cables down."
+      }
+    },
+    {
+      "id": 4,
+      "x": "42%",
+      "y": "55%",
+      "label": "Electrical Insulators",
+      "fact": "These brown ceramic pieces sit on top of the pole and hold the power lines safely in place while stopping electricity from flowing into the wooden pole. This material is an **insulator** — a material that does NOT let electricity pass through it easily. By using insulators, we protect the pole and keep electrical energy safely inside the wires where it belongs.",
+      "vocabulary": {
+        "term": "Insulator",
+        "definition": "A material that does not let electricity or heat flow through it easily, like rubber, plastic, or ceramic."
+      }
+    }
+  ]
+}

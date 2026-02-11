@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-10T21:11:26.704Z",
-  "totalImages": 159,
+  "lastUpdated": "2026-02-11T01:38:31.393Z",
+  "totalImages": 160,
   "images": [
     {
       "id": 1,
@@ -8022,6 +8022,63 @@
       "processingCost": 0.1015,
       "processingTime": "3m 33s",
       "processedAt": "2026-02-10T21:14:34.958Z"
+    },
+    {
+      "id": 160,
+      "filename": "power_lines.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/power_lines.jpg",
+      "thumbPath": "images/physical-science/thumbs/power_lines.jpg",
+      "webpPath": "images/physical-science/webp/power_lines.webp",
+      "placeholderPath": "images/physical-science/placeholders/power_lines.jpg",
+      "contentFile": "content/physical-science/power_lines.json",
+      "title": "Power Lines",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS3.A",
+          "K-PS3.B"
+        ],
+        "grade1": [
+          "1-PS4-1",
+          "1-PS4.A",
+          "K-ETS1.A",
+          "K-PS2-1",
+          "K-PS2.A"
+        ],
+        "grade2": [
+          "2-PS1-1",
+          "2-PS1.A",
+          "K-PS3.B"
+        ],
+        "grade3": [
+          "3-PS2-3",
+          "3-PS2.B"
+        ],
+        "grade4": [
+          "4-PS3-1",
+          "4-PS3.A",
+          "4-PS3.B"
+        ],
+        "grade5": [
+          "5-ETS1.A",
+          "5-LS2-1",
+          "5-PS2-1",
+          "5-PS3.A"
+        ]
+      },
+      "keywords": [
+        "electricity",
+        "power lines",
+        "electrical transformer",
+        "circuits",
+        "energy distribution",
+        "conductors"
+      ],
+      "processingCost": 0.0948,
+      "processingTime": "3m 17s",
+      "processedAt": "2026-02-11T01:41:19.693Z"
     }
   ]
 }
