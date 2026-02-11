@@ -1,4 +1,4 @@
-name: Deploy to Firebase Hosting on Push
+name: Deploy to Firebase on Push
 
 on:
   push:
@@ -23,6 +23,16 @@ jobs:
 
       - name: Check YouTube links
         run: node tools/check-youtube-links.cjs --ci
+
+      - name: Install Cloud Functions dependencies
+        run: cd functions && npm ci
+
+      - name: Deploy Cloud Functions
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only functions --project sias-8178a
+        env:
+          GCP_SA_KEY: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SIAS_8178A }}'
 
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
