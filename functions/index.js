@@ -1573,6 +1573,141 @@ exports.adminUpdateImageMetadata = functions
   });
 
 /**
+ * Admin: Edit educational content for a specific image + grade level.
+ * Saves updated content JSON, regenerates the PDF, backs up original, commits to GitHub.
+ */
+exports.adminEditContent = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 540, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { imageId, gradeLevel, content } = data;
+
+    if (!imageId && imageId !== 0) {
+      throw new functions.https.HttpsError('invalid-argument', 'imageId is required');
+    }
+    if (!gradeLevel || typeof gradeLevel !== 'string') {
+      throw new functions.https.HttpsError('invalid-argument', 'gradeLevel is required');
+    }
+    if (!content || typeof content !== 'string' || content.trim().length < 50) {
+      throw new functions.https.HttpsError('invalid-argument', 'content is required and must be substantial');
+    }
+
+    const isEDP = gradeLevel === 'edp';
+    const validGrades = GRADE_LEVELS.map(g => g.key);
+    if (!isEDP && !validGrades.includes(gradeLevel)) {
+      throw new functions.https.HttpsError('invalid-argument', 'Invalid gradeLevel: ' + gradeLevel);
+    }
+
+    const gradeLabel = isEDP ? 'EDP' : GRADE_LEVELS.find(g => g.key === gradeLevel)?.name || gradeLevel;
+    console.log(`✏️  Admin editing ${gradeLabel} content for image ID: ${imageId}`);
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-admin-content-edit');
+
+    try {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+      const git = simpleGit();
+      await git.clone(repoUrl, repoDir);
+      const repoGit = simpleGit(repoDir);
+      await repoGit.addConfig('user.name', 'SIAS Admin');
+      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      // Find image in metadata
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+      const image = metadata.images.find(img => img.id === imageId);
+      if (!image) {
+        throw new functions.https.HttpsError('not-found', `Image ${imageId} not found`);
+      }
+
+      const nameNoExt = image.filename.replace(/\.[^/.]+$/, '');
+      const category = image.category;
+      const suffix = isEDP ? 'edp' : gradeLevel;
+
+      // Paths
+      const contentJsonPath = path.join(repoDir, 'content', category, `${nameNoExt}-${suffix}.json`);
+      const pdfPath = path.join(repoDir, 'pdfs', category, `${nameNoExt}-${suffix}.pdf`);
+
+      // Read existing content JSON
+      let existingJson;
+      try {
+        existingJson = JSON.parse(await fs.readFile(contentJsonPath, 'utf8'));
+      } catch (e) {
+        throw new functions.https.HttpsError('not-found', `Content file not found: ${nameNoExt}-${suffix}.json`);
+      }
+
+      // Backup original
+      const backupDir = path.join(repoDir, 'content-backups', category);
+      await fs.mkdir(backupDir, { recursive: true });
+      const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+      const backupPath = path.join(backupDir, `${nameNoExt}-${suffix}-${timestamp}.json`);
+      await fs.writeFile(backupPath, JSON.stringify(existingJson, null, 2));
+
+      // Update content JSON
+      existingJson.content = content;
+      existingJson.editedAt = new Date().toISOString();
+      await fs.writeFile(contentJsonPath, JSON.stringify(existingJson, null, 2));
+
+      // Regenerate PDF
+      let pdfWarning = false;
+      try {
+        const imagePath = path.join(repoDir, 'images', category, image.filename);
+        const logoPath = path.join(repoDir, 'sias_logo.png');
+
+        let pdfBuffer;
+        if (isEDP) {
+          const { generateEDPpdf } = require('./edp-pdf-generator');
+          pdfBuffer = await generateEDPpdf({
+            title: image.title,
+            category,
+            markdownContent: content,
+            imagePath,
+            logoPath
+          });
+        } else {
+          const { generatePDF } = require('./pdf-generator');
+          pdfBuffer = await generatePDF({
+            title: image.title,
+            category,
+            gradeLevel,
+            markdownContent: content,
+            imagePath,
+            logoPath
+          });
+        }
+
+        const pdfDir = path.join(repoDir, 'pdfs', category);
+        await fs.mkdir(pdfDir, { recursive: true });
+        await fs.writeFile(pdfPath, pdfBuffer);
+        console.log(`   ✅ ${gradeLabel} PDF regenerated`);
+      } catch (pdfErr) {
+        console.warn(`   ⚠️ PDF regeneration failed (content still saved): ${pdfErr.message}`);
+        pdfWarning = true;
+      }
+
+      // Commit and push
+      await repoGit.add('.');
+      await repoGit.commit(`Edit ${gradeLabel} content for "${image.title}" (ID ${imageId})\n\nEdited via SIAS Admin Dashboard`);
+      await repoGit.push('origin', 'main');
+
+      console.log(`✅ Content edited and pushed for image ${imageId} (${gradeLabel})`);
+
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      return { success: true, imageId, gradeLevel, pdfWarning };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('Edit content error:', error);
+      if (error instanceof functions.https.HttpsError) throw error;
+      throw new functions.https.HttpsError('internal', 'Edit failed: ' + error.message);
+    }
+  });
+
+/**
  * Admin: Audit Firebase Storage for orphaned/missing files
  * Compares actual Storage files against expected files from metadata.
  */

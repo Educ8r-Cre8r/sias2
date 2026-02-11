@@ -2121,3 +2121,86 @@ body {
         right: -60px;
     }
 }
+
+/* ======== CONTENT EDITOR ======== */
+
+.content-editor {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-light);
+}
+
+.content-editor-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.content-editor-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.content-editor-tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.content-section-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-section-field label {
+    display: block;
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+    color: var(--text-primary);
+}
+
+.content-section-field textarea {
+    width: 100%;
+    min-height: 70px;
+    resize: vertical;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', monospace;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    transition: border-color 0.15s;
+    box-sizing: border-box;
+}
+
+.content-section-field textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.content-section-field.nested {
+    margin-left: 20px;
+    padding-left: 14px;
+    border-left: 3px solid var(--warning);
+}
+
+.content-section-field.nested label {
+    color: var(--warning-dark, #b45309);
+    font-size: 0.8rem;
+}
+
+.content-editor-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-light);
+}

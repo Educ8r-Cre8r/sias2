@@ -64,6 +64,7 @@ function showDetailModal(imageId) {
                     <button class="btn btn-danger btn-small" onclick="closeDetailModal(); showDeleteModal(${image.id});">
                         Delete Image
                     </button>
+                    ${image.hasContent ? `<button class="btn btn-secondary btn-small" onclick="initContentEditor(${image.id})">Edit Content</button>` : ''}
                 </div>
             </div>
             <div>
@@ -142,6 +143,7 @@ function showDetailModal(imageId) {
                 </div>
             </div>
         </div>
+        <div id="content-editor-container" class="hidden"></div>
     `;
 
     modal.classList.remove('hidden');
