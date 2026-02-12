@@ -312,7 +312,7 @@ exports.queueImage = functions
  * Step 2: Process images from queue (one per minute)
  */
 exports.processQueue = functions.runWith({
-  memory: '1GB',
+  memory: '2GB',
   timeoutSeconds: 540,
   secrets: ['ANTHROPIC_API_KEY', 'GITHUB_TOKEN']
 }).pubsub.schedule('every 1 minutes').onRun(async () => {
