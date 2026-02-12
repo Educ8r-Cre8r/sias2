@@ -94,6 +94,12 @@ service cloud.firestore {
         && request.auth.token.email == 'mr.alexdjones@gmail.com';
     }
 
+    // Aggregated stats — public read, Cloud Functions write only
+    match /aggregations/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
     // Deny all other collections by default
     match /{document=**} {
       allow read, write: if false;

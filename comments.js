@@ -313,14 +313,12 @@ async function updateCardCommentCount(imageId) {
 }
 
 /**
- * Load comment counts for all visible gallery cards
+ * Load comment counts for all visible gallery cards.
+ * Now a no-op — comment counts are loaded via the aggregated stats document
+ * in ratings.js (loadAggregatedStats / applyAggregatedStats).
  */
 async function loadAllCommentCounts() {
-  if (!state || !state.galleryData || !state.galleryData.images) return;
-
-  for (const image of state.galleryData.images) {
-    updateCardCommentCount(image.id);
-  }
+  return;
 }
 
 /**

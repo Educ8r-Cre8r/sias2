@@ -524,14 +524,9 @@ function loadMoreImages() {
   // Update Load More button
   updateLoadMoreButton();
 
-  // Load ratings for new photos
+  // Apply stats to newly loaded cards (uses cached aggregation data)
   if (typeof loadAllStats === 'function') {
     loadAllStats();
-  }
-
-  // Load comment counts for gallery cards
-  if (typeof loadAllCommentCounts === 'function') {
-    loadAllCommentCounts();
   }
 }
 

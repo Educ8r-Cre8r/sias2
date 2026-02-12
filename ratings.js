@@ -7,6 +7,10 @@
 // Cache of user ratings loaded from Firestore
 let userRatingsCache = {};
 
+// Aggregated gallery stats cache (single Firestore read)
+let aggregatedStatsCache = null;
+let aggregatedStatsLoaded = false;
+
 /**
  * Record a view for a photo
  */
@@ -199,6 +203,9 @@ async function submitRating(photoId, stars) {
 
     // Update UI
     await updateRatingDisplay(photoId);
+
+    // Invalidate aggregated stats cache so next gallery render fetches fresh data
+    invalidateStatsCache();
 
   } catch (error) {
     console.error('❌ Error submitting rating:', error);
@@ -432,9 +439,79 @@ function formatViewsShort(count) {
 }
 
 /**
- * Load all ratings and views for gallery
+ * Load all stats from a single aggregation document (1 read instead of ~498).
+ * Falls back to legacy sequential loading if aggregation doc doesn't exist.
  */
-async function loadAllStats() {
+async function loadAggregatedStats() {
+  // Use cache if already loaded — 0 reads on subsequent calls
+  if (aggregatedStatsLoaded && aggregatedStatsCache) {
+    applyAggregatedStats();
+    return;
+  }
+
+  if (typeof window.waitForFirebase === 'function') {
+    await window.waitForFirebase();
+  }
+
+  if (typeof db === 'undefined' || !db) {
+    console.warn('Firebase not available — stats will not be loaded');
+    return;
+  }
+
+  try {
+    const doc = await db.collection('aggregations').doc('galleryStats').get();
+
+    if (doc.exists) {
+      aggregatedStatsCache = doc.data().stats || {};
+      aggregatedStatsLoaded = true;
+      applyAggregatedStats();
+    } else {
+      // Aggregation doc doesn't exist yet (pre-backfill) — use legacy approach
+      console.warn('Aggregation doc not found, falling back to legacy stats loading');
+      await legacyLoadAllStats();
+    }
+  } catch (error) {
+    console.error('Error loading aggregated stats:', error);
+    await legacyLoadAllStats();
+  }
+}
+
+/**
+ * Apply cached aggregated stats to all visible gallery cards.
+ */
+function applyAggregatedStats() {
+  if (!aggregatedStatsCache) return;
+
+  document.querySelectorAll('[data-photo-id]').forEach(card => {
+    const photoId = card.dataset.photoId;
+    const stats = aggregatedStatsCache[String(photoId)];
+
+    if (stats) {
+      const ratingEl = card.querySelector('.rating-value');
+      if (ratingEl) ratingEl.textContent = (stats.r || 0).toFixed(1);
+
+      const viewsEl = card.querySelector('.views-count');
+      if (viewsEl) viewsEl.textContent = formatViewsShort(stats.v || 0);
+
+      const commentEl = card.querySelector('.comment-count');
+      if (commentEl) commentEl.textContent = String(stats.c || 0);
+    }
+  });
+}
+
+/**
+ * Invalidate the aggregated stats cache.
+ * Called after a user submits a rating so the next render picks up changes.
+ */
+function invalidateStatsCache() {
+  aggregatedStatsLoaded = false;
+  aggregatedStatsCache = null;
+}
+
+/**
+ * Legacy stats loader — fallback if aggregation document doesn't exist yet.
+ */
+async function legacyLoadAllStats() {
   if (!state.galleryData || !state.galleryData.images) return;
 
   for (const image of state.galleryData.images) {
@@ -451,6 +528,9 @@ window.getRatings = getRatings;
 window.getViews = getViews;
 window.updateRatingDisplay = updateRatingDisplay;
 window.generateInteractiveStarsHTML = generateInteractiveStarsHTML;
-window.loadAllStats = loadAllStats;
+window.loadAllStats = loadAggregatedStats;
+window.loadAggregatedStats = loadAggregatedStats;
+window.invalidateStatsCache = invalidateStatsCache;
+window.applyAggregatedStats = applyAggregatedStats;
 
 console.log('Ratings system initialized');

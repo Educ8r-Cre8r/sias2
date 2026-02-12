@@ -1432,6 +1432,166 @@ exports.onCommentCreated = functions.firestore
   });
 
 // ============================================================
+// Stats Aggregation — Firestore Triggers
+// ============================================================
+
+/**
+ * Update aggregation document when a rating is created or updated.
+ * Trigger: ratings/{photoId} onWrite
+ */
+exports.onRatingWrite = functions.firestore
+  .document('ratings/{photoId}')
+  .onWrite(async (change, context) => {
+    const photoId = context.params.photoId;
+    const data = change.after.exists ? change.after.data() : null;
+
+    if (!data) return null;
+
+    const statsRef = db.collection('aggregations').doc('galleryStats');
+    await statsRef.set({
+      stats: {
+        [photoId]: {
+          r: data.averageRating || 0,
+          rc: data.totalRatings || 0
+        }
+      },
+      lastUpdated: admin.firestore.FieldValue.serverTimestamp()
+    }, { mergeFields: [`stats.${photoId}.r`, `stats.${photoId}.rc`, 'lastUpdated'] });
+
+    console.log(`📊 Aggregation updated — rating for photo ${photoId}`);
+    return null;
+  });
+
+/**
+ * Update aggregation document when a view count changes.
+ * Trigger: views/{photoId} onWrite
+ */
+exports.onViewWrite = functions.firestore
+  .document('views/{photoId}')
+  .onWrite(async (change, context) => {
+    const photoId = context.params.photoId;
+    const data = change.after.exists ? change.after.data() : null;
+
+    if (!data) return null;
+
+    const statsRef = db.collection('aggregations').doc('galleryStats');
+    await statsRef.set({
+      stats: {
+        [photoId]: {
+          v: data.count || 0
+        }
+      },
+      lastUpdated: admin.firestore.FieldValue.serverTimestamp()
+    }, { mergeFields: [`stats.${photoId}.v`, 'lastUpdated'] });
+
+    console.log(`📊 Aggregation updated — views for photo ${photoId}`);
+    return null;
+  });
+
+/**
+ * Update aggregation document when a comment is created, updated, or deleted.
+ * Counts only approved comments.
+ * Trigger: comments/{commentId} onWrite
+ */
+exports.onCommentWrite = functions.firestore
+  .document('comments/{commentId}')
+  .onWrite(async (change, context) => {
+    const afterData = change.after.exists ? change.after.data() : null;
+    const beforeData = change.before.exists ? change.before.data() : null;
+    const imageId = (afterData && afterData.imageId) || (beforeData && beforeData.imageId);
+
+    if (!imageId) {
+      console.warn('📊 Comment write trigger: no imageId found');
+      return null;
+    }
+
+    // Count only approved comments for this image
+    const approvedSnap = await db.collection('comments')
+      .where('imageId', '==', String(imageId))
+      .where('status', '==', 'approved')
+      .get();
+
+    const statsRef = db.collection('aggregations').doc('galleryStats');
+    await statsRef.set({
+      stats: {
+        [String(imageId)]: {
+          c: approvedSnap.size
+        }
+      },
+      lastUpdated: admin.firestore.FieldValue.serverTimestamp()
+    }, { mergeFields: [`stats.${String(imageId)}.c`, 'lastUpdated'] });
+
+    console.log(`📊 Aggregation updated — comments for image ${imageId}: ${approvedSnap.size} approved`);
+    return null;
+  });
+
+/**
+ * One-time backfill: build the aggregation document from all existing data.
+ * Admin-only callable.
+ */
+exports.adminBackfillStats = functions
+  .runWith({ memory: '512MB', timeoutSeconds: 120 })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    console.log('📊 Backfilling gallery stats aggregation...');
+
+    // Read all ratings
+    const ratingsSnap = await db.collection('ratings').get();
+    const ratingsMap = {};
+    ratingsSnap.forEach(doc => {
+      ratingsMap[doc.id] = doc.data();
+    });
+
+    // Read all views
+    const viewsSnap = await db.collection('views').get();
+    const viewsMap = {};
+    viewsSnap.forEach(doc => {
+      viewsMap[doc.id] = doc.data();
+    });
+
+    // Count approved comments per image
+    const commentsSnap = await db.collection('comments')
+      .where('status', '==', 'approved')
+      .get();
+    const commentCounts = {};
+    commentsSnap.forEach(doc => {
+      const imgId = doc.data().imageId;
+      if (imgId) {
+        commentCounts[String(imgId)] = (commentCounts[String(imgId)] || 0) + 1;
+      }
+    });
+
+    // Build aggregation
+    const allIds = new Set([
+      ...Object.keys(ratingsMap),
+      ...Object.keys(viewsMap),
+      ...Object.keys(commentCounts)
+    ]);
+
+    const stats = {};
+    allIds.forEach(id => {
+      const rating = ratingsMap[id] || {};
+      const view = viewsMap[id] || {};
+      stats[id] = {
+        r: rating.averageRating || 0,
+        rc: rating.totalRatings || 0,
+        v: view.count || 0,
+        c: commentCounts[id] || 0
+      };
+    });
+
+    await db.collection('aggregations').doc('galleryStats').set({
+      stats,
+      lastUpdated: admin.firestore.FieldValue.serverTimestamp(),
+      backfilledAt: admin.firestore.FieldValue.serverTimestamp()
+    });
+
+    console.log(`📊 Backfill complete: ${allIds.size} photos aggregated`);
+    return { success: true, count: allIds.size };
+  });
+
+// ============================================================
 // Admin Dashboard — Cloud Functions
 // ============================================================
 
@@ -1623,6 +1783,13 @@ Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
           firestoreDeleted += commentsSnap.size;
         }
       } catch (e) { console.log('  ⏭️  Error cleaning comments:', e.message); }
+
+      // Remove from stats aggregation
+      try {
+        await db.collection('aggregations').doc('galleryStats').update({
+          [`stats.${imageIdStr}`]: admin.firestore.FieldValue.delete()
+        });
+      } catch (e) { console.log('  ⏭️  Error cleaning aggregation:', e.message); }
 
       console.log(`🔥 Deleted ${firestoreDeleted} Firestore records`);
 
