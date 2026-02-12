@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initializeApp();
   initializeParticles();
   initializeModalScrollButtons();
+  initializeOfflineToast();
 });
 
 /**
@@ -2706,4 +2707,24 @@ function resetContactForm() {
   document.querySelector('.contact-intro').style.display = 'block';
   document.getElementById('contact-success').style.display = 'none';
   document.getElementById('contact-error').style.display = 'none';
+}
+
+// ── PWA Offline / Online Toast ──
+function initializeOfflineToast() {
+  const toast = document.getElementById('pwa-toast');
+  if (!toast) return;
+
+  let hideTimer = null;
+
+  function showToast(message, type) {
+    clearTimeout(hideTimer);
+    toast.textContent = message;
+    toast.className = 'pwa-toast ' + type + ' visible';
+    hideTimer = setTimeout(() => {
+      toast.classList.remove('visible');
+    }, 4000);
+  }
+
+  window.addEventListener('offline', () => showToast('You are offline', 'offline'));
+  window.addEventListener('online',  () => showToast('Back online!', 'online'));
 }
