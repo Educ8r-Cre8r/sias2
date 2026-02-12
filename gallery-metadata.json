@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-12T08:22:15.595Z",
-  "totalImages": 168,
+  "lastUpdated": "2026-02-12T09:28:27.758Z",
+  "totalImages": 169,
   "images": [
     {
       "id": 1,
@@ -8780,6 +8780,83 @@
       "processingCost": 0.1259,
       "processingTime": "4m 12s",
       "processedAt": "2026-02-12T08:11:14.782Z"
+    },
+    {
+      "id": 170,
+      "filename": "gulf_of_mexico_5-ESS2-1.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/gulf_of_mexico_5-ESS2-1.jpg",
+      "thumbPath": "images/earth-space-science/thumbs/gulf_of_mexico_5-ESS2-1.jpg",
+      "webpPath": "images/earth-space-science/webp/gulf_of_mexico_5-ESS2-1.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/gulf_of_mexico_5-ESS2-1.jpg",
+      "contentFile": "content/earth-space-science/gulf_of_mexico_5-ESS2-1.json",
+      "title": "Gulf Of Mexico 5 ESS2 1",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.A",
+          "K-ESS3-2",
+          "K-ESS3-3",
+          "K-ESS3.B",
+          "K-ESS3.C"
+        ],
+        "grade1": [
+          "1-ESS1-1",
+          "1-ESS1-2",
+          "1-ESS1.B",
+          "2-ESS2-1",
+          "3-ESS2-1",
+          "K-ESS2.A"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.A",
+          "2-ESS2-1",
+          "2-ESS2-2",
+          "2-ESS2-3",
+          "2-ESS2.A",
+          "2-ESS2.C"
+        ],
+        "grade3": [
+          "3-ESS2-1",
+          "3-ESS2-2",
+          "3-ESS2.A",
+          "3-ESS2.C",
+          "3-ESS2.D",
+          "3-ESS3-1",
+          "3-ESS3.B"
+        ],
+        "grade4": [
+          "4-ESS1-1",
+          "4-ESS1.A",
+          "4-ESS2-1",
+          "4-ESS2-2",
+          "4-ESS2.A",
+          "4-ESS2.B",
+          "4-ESS3-2",
+          "4-ESS3.B"
+        ],
+        "grade5": [
+          "5-ESS2-1",
+          "5-ESS2-2",
+          "5-ESS2.A",
+          "5-ESS2.C",
+          "5-ESS3-1",
+          "5-ESS3.C"
+        ]
+      },
+      "keywords": [
+        "erosion",
+        "coastal erosion",
+        "ocean waves",
+        "weathering",
+        "shoreline",
+        "land change"
+      ],
+      "processingCost": 0.1147,
+      "processingTime": "4m 0s",
+      "processedAt": "2026-02-12T09:32:02.841Z"
     }
   ]
 }

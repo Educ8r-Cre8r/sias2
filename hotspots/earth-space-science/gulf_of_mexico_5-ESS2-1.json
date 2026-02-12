@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "65%",
+      "label": "Ocean Waves",
+      "fact": "These waves are created by wind blowing across the ocean surface, pushing the water into rolling mounds. Waves are an important way that energy from the sun and wind moves through our oceans and shapes our coastlines over time. This is called **wave action** — that's when moving water hits the shore and can change the shape of beaches and rocks.",
+      "vocabulary": {
+        "term": "Wave",
+        "definition": "A moving ridge of water on the ocean surface caused by wind and energy moving through the water."
+      }
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "30%",
+      "label": "Coastal Cliff Hazard",
+      "fact": "The 'Drop Off' sign warns people about a dangerous cliff or steep drop-off near the ocean. Coastal areas like this are shaped by weathering and erosion, where waves and water slowly wear away rocks and soil. Understanding these natural hazards helps keep people safe near water. This process is called **erosion** — that's when wind, water, or ice slowly wears away rocks and soil.",
+      "vocabulary": {
+        "term": "Erosion",
+        "definition": "The gradual wearing away of rocks, soil, and land by wind, water, ice, or gravity over time."
+      }
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "50%",
+      "label": "Shoreline",
+      "fact": "Where the ocean meets the land is called the shoreline, and it's always changing! Waves crash against the beach and rocks, moving sand and pebbles around, and sometimes making the shore grow or shrink. The shoreline is a special place where water, land, and weather all work together to shape our Earth. This area experiences **weathering** — that's when rocks break down into smaller pieces from being exposed to sun, wind, water, and waves.",
+      "vocabulary": {
+        "term": "Shoreline",
+        "definition": "The edge where the ocean or sea meets the land."
+      }
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "15%",
+      "label": "Clear Sky",
+      "fact": "The bright blue sky above tells us about the weather at this coastal location. Weather patterns, including wind and storms, greatly affect ocean waves and water movement along the shore. By observing the sky and weather, scientists can predict how the ocean and coastal areas might change. This is called **weather observation** — that's when we watch and record what happens in the sky and air around us.",
+      "vocabulary": {
+        "term": "Weather",
+        "definition": "The day-to-day conditions of the atmosphere, including sun, clouds, wind, and rain."
+      }
+    }
+  ]
+}
