@@ -2,46 +2,46 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "45%",
+      "x": "50%",
       "y": "35%",
       "label": "Crab's Eye Stalks",
-      "fact": "This crab has long eye stalks that stick up so it can see above the sand while hiding its body. Animals have different body parts that help them survive in their environment, just like how this crab's eyes help it hunt for food and watch for danger on the beach. This special adaptation helps it live in the sandy habitat where it makes its home.",
+      "fact": "Crabs have special body parts called eye stalks that stick up so they can see in all directions while staying hidden in the sand. These eyes help the crab sense changes in light and darkness, which tells it about day and night cycles. This is called **sensory adaptation** — that's when an animal's body has special features that help it survive in its environment.",
       "vocabulary": {
-        "term": "Adaptation",
-        "definition": "A special body part or behavior that helps an animal survive in its environment."
+        "term": "Sensory Adaptation",
+        "definition": "A special body part or ability that helps an animal notice and respond to things in its environment, like light, sound, or movement."
       }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "50%",
+      "x": "40%",
+      "y": "60%",
       "label": "Sandy Beach Habitat",
-      "fact": "This crab lives in sand, which is made of tiny pieces of rock and shells broken down over many years by waves and wind. Sand is a type of sediment that covers beaches and ocean floors all around the world. Different animals like crabs, insects, and clams live in sandy habitats because the sand provides them with shelter and places to hide.",
+      "fact": "This crab lives on a sandy beach, which is a special type of **landform** made of tiny pieces of rock and shell. Beaches are shaped by water from the ocean and can change over time as waves and tides move the sand around. Many animals make their homes in sand because it provides shelter and protection.",
       "vocabulary": {
-        "term": "Sediment",
-        "definition": "Tiny pieces of rock, sand, and shells that are found on beaches and at the bottom of oceans and rivers."
+        "term": "Landform",
+        "definition": "A natural shape or feature of Earth's surface, like a beach, mountain, valley, or desert."
       }
     },
     {
       "id": 3,
-      "x": "35%",
-      "y": "45%",
-      "label": "Crab's Claws",
-      "fact": "Crabs use their strong claws to catch food, dig in the sand, and protect themselves from other animals. These claws are part of a crab's body structure that helps it get the energy it needs to survive. The crab's claws show how animals have special tools that help them find and catch the food they need.",
+      "x": "55%",
+      "y": "55%",
+      "label": "Crab's Walking Legs",
+      "fact": "Crabs have eight legs that help them walk sideways across the sand and dig burrows to hide from the sun. Moving across sandy areas requires special adaptations because sand is loose and can be hard to walk on. The crab's body shape and leg design help it survive in this coastal **ecosystem**.",
       "vocabulary": {
-        "term": "Structure",
-        "definition": "The way a body part is built or shaped, which helps an animal do something important like eating or moving."
+        "term": "Ecosystem",
+        "definition": "A community of living things and their non-living environment working together, like all the animals and plants that live on a beach."
       }
     },
     {
       "id": 4,
-      "x": "60%",
-      "y": "60%",
-      "label": "Crab's Legs",
-      "fact": "This crab's legs are specially designed for walking across sand and even swimming in shallow water when the tide comes in. The way crabs move helps them search for food and escape from predators that might try to eat them. Animals have different ways of moving that help them survive in their homes at the beach.",
+      "x": "25%",
+      "y": "50%",
+      "label": "Burrow Opening",
+      "fact": "You can see the crab's burrow, which is a hole dug into the sand where it hides during the hottest parts of the day. This burrow provides shelter and keeps the crab cooler and safer from predators and harsh weather conditions. The sand itself acts as a natural insulator, which means it helps keep heat in or out — just like the walls of a house!",
       "vocabulary": {
-        "term": "Predator",
-        "definition": "An animal that hunts and eats other animals for food."
+        "term": "Insulator",
+        "definition": "A material that keeps heat from moving in or out, helping something stay warm or cool."
       }
     }
   ]
