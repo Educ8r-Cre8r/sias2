@@ -15,42 +15,59 @@
       "placeholderPath": "images/life-science/placeholders/100_1681.jpeg",
       "keywords": [
         "plant growth",
-        "water propagation",
-        "root development",
         "hydroponics",
-        "plant reproduction",
-        "germination"
+        "water propagation",
+        "roots",
+        "stem cutting",
+        "plant reproduction"
       ],
       "ngssStandards": {
         "kindergarten": [
           "K-LS1-1",
-          "K-LS1.C"
+          "K-LS1.A"
         ],
         "grade1": [
-          "K-LS1-1",
-          "K-LS1.C"
+          "1-LS1-1",
+          "1-LS1-2",
+          "1-LS1.A",
+          "1-LS1.B",
+          "1-LS3-1",
+          "1-LS3.A"
         ],
         "grade2": [
           "2-LS2-1",
+          "2-LS2-2",
           "2-LS2.A",
-          "K-LS1.C"
+          "2-LS4-1",
+          "2-LS4.A",
+          "2-LS4.D"
         ],
         "grade3": [
           "3-LS1-1",
-          "3-LS1.B"
+          "3-LS1.A",
+          "3-LS1.B",
+          "3-LS2-1",
+          "3-LS2.C",
+          "3-LS3-2",
+          "3-LS3.A",
+          "3-LS4-3"
         ],
         "grade4": [
-          "5-LS1-1",
-          "5-LS1.C",
-          "K-ESS3.A"
+          "4-LS1-1",
+          "4-LS1-2",
+          "4-LS1.A",
+          "4-LS1.B"
         ],
         "grade5": [
           "5-LS1-1",
-          "5-LS1.C",
-          "K-LS1.C"
+          "5-LS1.A",
+          "5-LS2-1",
+          "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.115,
+      "processingTime": "6m 28s",
+      "processedAt": "2026-02-12T02:34:30.693Z"
     },
     {
       "id": 2,
