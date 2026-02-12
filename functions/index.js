@@ -156,7 +156,9 @@ function getFilteredNGSSStandards(category, ngssGrade) {
 }
 
 /**
- * Build ngss-index.json from gallery-metadata.json and content files.
+ * Build ngss-index.json from gallery-metadata.json.
+ * PE codes come from each image's ngssStandards field (all grade levels).
+ * DCI / CCC codes come from content-file markdown (special [[NGSS:...]] tags).
  * This keeps the NGSS coverage map on the admin dashboard up-to-date
  * automatically after each image is processed.
  */
@@ -171,9 +173,32 @@ async function buildNgssIndex(repoDir) {
     allStandards: []
   };
 
+  // Regex to distinguish PE codes (K-PS2-1) from DCI codes (K-PS2.A)
+  const pePattern = /^[K1-5]-[A-Z]{2,4}\d?-\d+$/;
+
   let processed = 0;
 
   for (const image of galleryData.images) {
+    // ── PEs: read from metadata ngssStandards (all grade levels) ──
+    if (image.ngssStandards && typeof image.ngssStandards === 'object') {
+      const peSet = new Set();
+      for (const gradeStandards of Object.values(image.ngssStandards)) {
+        if (!Array.isArray(gradeStandards)) continue;
+        for (const code of gradeStandards) {
+          if (pePattern.test(code)) {
+            peSet.add(code);
+          }
+        }
+      }
+      peSet.forEach(pe => {
+        if (!ngssIndex.performanceExpectations[pe]) ngssIndex.performanceExpectations[pe] = [];
+        if (!ngssIndex.performanceExpectations[pe].includes(image.id)) {
+          ngssIndex.performanceExpectations[pe].push(image.id);
+        }
+      });
+    }
+
+    // ── DCI & CCC: read from content-file markdown ──
     const baseFile = image.contentFile.replace('.json', '');
     const gradeFile = path.join(repoDir, baseFile + '-third-grade.json');
     const fallbackFile = path.join(repoDir, image.contentFile);
@@ -186,45 +211,32 @@ async function buildNgssIndex(repoDir) {
         content = JSON.parse(await fs.readFile(fallbackFile, 'utf8'));
       }
     } catch {
-      continue;
+      // No content file — PEs still counted from metadata above
     }
 
-    if (!content || !content.content) continue;
-    const md = content.content;
+    if (content && content.content) {
+      const md = content.content;
 
-    // Extract Performance Expectations (e.g., 3-LS4-3, K-PS2-1, 5-ESS2-1)
-    const peRegex = /\b([K1-5]-[A-Z]{2,4}\d?-\d+)\b/g;
-    let peMatch;
-    const peSet = new Set();
-    while ((peMatch = peRegex.exec(md)) !== null) {
-      peSet.add(peMatch[1]);
-    }
-    peSet.forEach(pe => {
-      if (!ngssIndex.performanceExpectations[pe]) ngssIndex.performanceExpectations[pe] = [];
-      if (!ngssIndex.performanceExpectations[pe].includes(image.id)) {
-        ngssIndex.performanceExpectations[pe].push(image.id);
+      // Extract DCI codes (e.g., [[NGSS:DCI:3-LS4.C]])
+      const dciRegex = /\[\[NGSS:DCI:([^\]]+)\]\]/g;
+      let dciMatch;
+      while ((dciMatch = dciRegex.exec(md)) !== null) {
+        const code = dciMatch[1];
+        if (!ngssIndex.disciplinaryCoreIdeas[code]) ngssIndex.disciplinaryCoreIdeas[code] = [];
+        if (!ngssIndex.disciplinaryCoreIdeas[code].includes(image.id)) {
+          ngssIndex.disciplinaryCoreIdeas[code].push(image.id);
+        }
       }
-    });
 
-    // Extract DCI codes (e.g., [[NGSS:DCI:3-LS4.C]])
-    const dciRegex = /\[\[NGSS:DCI:([^\]]+)\]\]/g;
-    let dciMatch;
-    while ((dciMatch = dciRegex.exec(md)) !== null) {
-      const code = dciMatch[1];
-      if (!ngssIndex.disciplinaryCoreIdeas[code]) ngssIndex.disciplinaryCoreIdeas[code] = [];
-      if (!ngssIndex.disciplinaryCoreIdeas[code].includes(image.id)) {
-        ngssIndex.disciplinaryCoreIdeas[code].push(image.id);
-      }
-    }
-
-    // Extract CCC names (e.g., [[NGSS:CCC:Patterns]])
-    const cccRegex = /\[\[NGSS:CCC:([^\]]+)\]\]/g;
-    let cccMatch;
-    while ((cccMatch = cccRegex.exec(md)) !== null) {
-      const name = cccMatch[1];
-      if (!ngssIndex.crosscuttingConcepts[name]) ngssIndex.crosscuttingConcepts[name] = [];
-      if (!ngssIndex.crosscuttingConcepts[name].includes(image.id)) {
-        ngssIndex.crosscuttingConcepts[name].push(image.id);
+      // Extract CCC names (e.g., [[NGSS:CCC:Patterns]])
+      const cccRegex = /\[\[NGSS:CCC:([^\]]+)\]\]/g;
+      let cccMatch;
+      while ((cccMatch = cccRegex.exec(md)) !== null) {
+        const name = cccMatch[1];
+        if (!ngssIndex.crosscuttingConcepts[name]) ngssIndex.crosscuttingConcepts[name] = [];
+        if (!ngssIndex.crosscuttingConcepts[name].includes(image.id)) {
+          ngssIndex.crosscuttingConcepts[name].push(image.id);
+        }
       }
     }
 
