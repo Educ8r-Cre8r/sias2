@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "55%",
+      "label": "Diesel Engine Power",
+      "fact": "This locomotive uses a diesel engine to create the force needed to move the heavy train down the tracks. The engine burns fuel to produce energy, which gets converted into motion that can pull or push things with great force. This is called **energy transformation** — that's when one type of energy, like fuel energy, changes into another type, like the movement energy that moves the train.",
+      "vocabulary": {
+        "term": "Energy Transformation",
+        "definition": "When energy changes from one form into another form, like when a diesel engine turns fuel into motion."
+      }
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "65%",
+      "label": "Red Sports Car",
+      "fact": "Even though this red car is much smaller and lighter than the locomotive, both objects follow the same laws of motion and force. The car's engine also transforms fuel into energy to move the car, but it takes much less force because the car has less mass than the heavy train. This shows how **mass** affects how much force is needed to move something.",
+      "vocabulary": {
+        "term": "Mass",
+        "definition": "The amount of matter or stuff that makes up an object; heavier objects have more mass."
+      }
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "25%",
+      "label": "Ultra Low Emissions Text",
+      "fact": "This locomotive is designed to produce 'ultra low emissions,' which means it releases very little pollution into the air when it runs. Scientists design engines like this to reduce harmful gases that can hurt our environment. This is an example of **engineering design** — creating solutions to make technology work better and cleaner for our world.",
+      "vocabulary": {
+        "term": "Emissions",
+        "definition": "Gases or smoke that come out of an engine when fuel is burned; some emissions can pollute the air."
+      }
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "50%",
+      "label": "Wheels and Rails",
+      "fact": "The train's wheels roll on steel rails, which creates much less **friction** than if the train tried to slide or if a car drove on dirt. Friction is a force that slows things down, so using smooth wheels and rails helps the heavy train move more easily with less energy wasted. This is smart design that reduces the amount of force needed to keep the train moving.",
+      "vocabulary": {
+        "term": "Friction",
+        "definition": "A force that happens when two things rub against each other and can slow down movement."
+      }
+    }
+  ]
+}

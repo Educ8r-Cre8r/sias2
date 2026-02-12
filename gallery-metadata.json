@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-12T01:10:27.969Z",
-  "totalImages": 165,
+  "lastUpdated": "2026-02-12T01:14:25.597Z",
+  "totalImages": 166,
   "images": [
     {
       "id": 1,
@@ -8531,6 +8531,70 @@
       "processingCost": 0.1161,
       "processingTime": "3m 44s",
       "processedAt": "2026-02-12T01:13:47.099Z"
+    },
+    {
+      "id": 167,
+      "filename": "forms_of_energy.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/forms_of_energy.jpg",
+      "thumbPath": "images/physical-science/thumbs/forms_of_energy.jpg",
+      "webpPath": "images/physical-science/webp/forms_of_energy.webp",
+      "placeholderPath": "images/physical-science/placeholders/forms_of_energy.jpg",
+      "contentFile": "content/physical-science/forms_of_energy.json",
+      "title": "Forms Of Energy",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS2-1",
+          "K-PS2-2",
+          "K-PS2.A",
+          "K-PS2.B",
+          "K-PS3-1",
+          "K-PS3-2",
+          "K-PS3.A",
+          "K-PS3.B"
+        ],
+        "grade1": [
+          "1-PS4-1",
+          "1-PS4-2"
+        ],
+        "grade2": [
+          "2-ETS1.B",
+          "2-PS1-1",
+          "2-PS1-2",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "3-PS2-1",
+          "3-PS2-2",
+          "3-PS2.A"
+        ],
+        "grade4": [
+          "4-PS3-1",
+          "4-PS3-2",
+          "4-PS3-3",
+          "4-PS3-4",
+          "4-PS3.A",
+          "4-PS3.B"
+        ],
+        "grade5": [
+          "5-PS2-1",
+          "5-PS2.A",
+          "5-PS3-1",
+          "5-PS3.D"
+        ]
+      },
+      "keywords": [
+        "energy",
+        "transportation",
+        "diesel engine",
+        "power",
+        "force and motion",
+        "vehicles"
+      ],
+      "processingCost": 0.1158,
+      "processingTime": "3m 50s",
+      "processedAt": "2026-02-12T01:17:52.234Z"
     }
   ]
 }
