@@ -3,7 +3,7 @@
  * Progressive Web App caching with per-resource strategies.
  */
 
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const SHELL_CACHE = `sias-shell-${CACHE_VERSION}`;
 const METADATA_CACHE = `sias-metadata-${CACHE_VERSION}`;
 const CONTENT_CACHE = `sias-content-${CACHE_VERSION}`;
