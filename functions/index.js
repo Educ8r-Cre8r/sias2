@@ -1633,6 +1633,19 @@ Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
 
       console.log(`✅ Admin delete complete for "${title}"`);
 
+      // Log deletion to imageQueue for the admin activity feed
+      await db.collection('imageQueue').add({
+        type: 'deletion',
+        filename,
+        category,
+        title: title || filename,
+        imageId,
+        status: 'deleted',
+        filesDeleted: deletedCount,
+        firestoreDeleted,
+        createdAt: admin.firestore.FieldValue.serverTimestamp(),
+      });
+
       return {
         success: true,
         imageId,

@@ -63,7 +63,9 @@ function renderQueueList(items) {
         const completedAt = item.completedAt ? formatTimestamp(item.completedAt) : '';
 
         let detail = '';
-        if (status === 'completed' && completedAt) {
+        if (item.type === 'deletion' || status === 'deleted') {
+            detail = 'Deleted ' + (createdAt || '') + ' (' + (item.filesDeleted || 0) + ' files)';
+        } else if (status === 'completed' && completedAt) {
             detail = 'Completed ' + completedAt;
         } else if (status === 'processing' && item.startedAt) {
             detail = 'Started ' + formatTimestamp(item.startedAt);
@@ -73,10 +75,14 @@ function renderQueueList(items) {
             detail = 'Queued ' + createdAt;
         }
 
+        const isDeletion = item.type === 'deletion' || status === 'deleted';
+        const isReprocess = item.reprocess === true;
+        const displayName = isDeletion ? (item.title || item.filename || 'Unknown') : (item.filename || item.filePath || 'Unknown');
+
         return `
             <div class="queue-item status-${status}">
                 <div class="queue-item-info">
-                    <div class="queue-item-filename">${escapeHtml(item.filename || item.filePath || 'Unknown')}</div>
+                    <div class="queue-item-filename">${escapeHtml(displayName)}${isReprocess ? ' <span class="badge badge-reprocess" style="font-size: 0.65rem; margin-left: 6px;">reprocess</span>' : ''}${isDeletion ? ' <span class="badge badge-deleted" style="font-size: 0.65rem; margin-left: 6px;">deleted</span>' : ''}</div>
                     <div class="queue-item-detail">${escapeHtml(item.category || '')} ${detail ? '&middot; ' + detail : ''}</div>
                 </div>
                 <span class="badge badge-${status}">${status}</span>
@@ -111,10 +117,34 @@ function renderRecentActivity(items) {
         const time = item.completedAt ? formatTimestamp(item.completedAt)
             : item.createdAt ? formatTimestamp(item.createdAt) : '';
 
+        // Derive activity type
+        let activityType, typeLabel;
+        if (item.type === 'deletion' || status === 'deleted') {
+            activityType = 'deleted';
+            typeLabel = 'deleted';
+        } else if (item.reprocess === true) {
+            activityType = 'reprocess';
+            typeLabel = 'reprocess';
+        } else {
+            activityType = 'upload';
+            typeLabel = 'upload';
+        }
+
+        // Build display text
+        let displayText;
+        if (activityType === 'deleted') {
+            displayText = `${escapeHtml(item.title || name)} &mdash; <strong>deleted</strong> (${item.filesDeleted || 0} files)`;
+        } else {
+            displayText = `${escapeHtml(name)} &mdash; <strong>${status}</strong>`;
+        }
+
+        const dotClass = activityType === 'deleted' ? 'deleted' : activityType === 'reprocess' ? 'reprocess' : status;
+
         return `
             <div class="activity-item">
-                <div class="activity-dot ${status}"></div>
-                <div class="activity-text">${escapeHtml(name)} &mdash; <strong>${status}</strong></div>
+                <div class="activity-dot ${dotClass}"></div>
+                <span class="badge badge-${activityType}" style="font-size: 0.7rem; margin-right: 4px;">${typeLabel}</span>
+                <div class="activity-text">${displayText}</div>
                 <div class="activity-time">${time}</div>
             </div>
         `;
