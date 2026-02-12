@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-12T01:06:27.391Z",
-  "totalImages": 164,
+  "lastUpdated": "2026-02-12T01:10:27.969Z",
+  "totalImages": 165,
   "images": [
     {
       "id": 1,
@@ -8467,6 +8467,70 @@
       "processingCost": 0.1118,
       "processingTime": "3m 34s",
       "processedAt": "2026-02-12T01:09:36.886Z"
+    },
+    {
+      "id": 166,
+      "filename": "bird_characteristics.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/bird_characteristics.jpg",
+      "thumbPath": "images/life-science/thumbs/bird_characteristics.jpg",
+      "webpPath": "images/life-science/webp/bird_characteristics.webp",
+      "placeholderPath": "images/life-science/placeholders/bird_characteristics.jpg",
+      "contentFile": "content/life-science/bird_characteristics.json",
+      "title": "Bird Characteristics",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1-2",
+          "1-LS1.A",
+          "1-LS3-1",
+          "1-LS3.A"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS2-1",
+          "3-LS2.C",
+          "3-LS3-1",
+          "3-LS3.A",
+          "3-LS4-2",
+          "3-LS4-3",
+          "3-LS4.B",
+          "3-LS4.C"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1-2",
+          "4-LS1.A",
+          "4-LS1.D"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      },
+      "keywords": [
+        "pigeon",
+        "bird anatomy",
+        "animal adaptation",
+        "feathers",
+        "bird legs",
+        "vertebrate"
+      ],
+      "processingCost": 0.1161,
+      "processingTime": "3m 44s",
+      "processedAt": "2026-02-12T01:13:47.099Z"
     }
   ]
 }

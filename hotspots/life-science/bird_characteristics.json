@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "20%",
+      "label": "Head and Eyes",
+      "fact": "Pigeons have eyes on the sides of their heads, which helps them see in many directions to watch for danger. This is called **binocular vision** — when an animal's eyes work together to see things clearly and judge how far away they are. Having good vision helps pigeons survive in their environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live in its environment."
+      }
+    },
+    {
+      "id": 2,
+      "x": "65%",
+      "y": "55%",
+      "label": "Wings and Feathers",
+      "fact": "A pigeon's wings are covered with feathers that help it fly through the air. Feathers are made of a special material that is both light and strong, which is perfect for flying. The different colors and patterns on a pigeon's feathers help scientists and people tell them apart.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The different parts of an animal's body that help it do important things like move, eat, and stay safe."
+      }
+    },
+    {
+      "id": 3,
+      "x": "45%",
+      "y": "75%",
+      "label": "Feet and Legs",
+      "fact": "Pigeons have special feet with rough bumps that help them grip branches and poles so they don't fall. Their bright red or pink feet and legs are important for balance and movement. These legs help pigeons perch safely on buildings, bridges, and trees in cities and nature.",
+      "vocabulary": {
+        "term": "Trait",
+        "definition": "A special characteristic or feature of an animal that makes it different from other animals, like the color of its feet or the shape of its beak."
+      }
+    },
+    {
+      "id": 4,
+      "x": "30%",
+      "y": "30%",
+      "label": "Beak and Mouth",
+      "fact": "A pigeon's small, pointed beak is perfect for picking up seeds and grains from the ground. Birds like pigeons use their beaks to eat, drink water, and even build nests. The shape and size of a bird's beak tells us what kinds of food it likes to eat.",
+      "vocabulary": {
+        "term": "Herbivore",
+        "definition": "An animal that eats only plants, seeds, and grains for food, like pigeons do."
+      }
+    }
+  ]
+}
