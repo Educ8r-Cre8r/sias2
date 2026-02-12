@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12T08:07:34.734Z",
+  "lastUpdated": "2026-02-12T08:22:15.595Z",
   "totalImages": 168,
   "images": [
     {
@@ -8721,7 +8721,7 @@
       "webpPath": "images/life-science/webp/pollinator_waystation_3-LS4-4.webp",
       "placeholderPath": "images/life-science/placeholders/pollinator_waystation_3-LS4-4.jpg",
       "contentFile": "content/life-science/pollinator_waystation_3-LS4-4.json",
-      "title": "Pollinator Waystation 3 LS4 4",
+      "title": "Pollinator Waystation",
       "hasContent": true,
       "ngssStandards": {
         "kindergarten": [
