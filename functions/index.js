@@ -470,7 +470,7 @@ async function processImageFromQueue(queueItem) {
 
     console.log('📦 Cloning GitHub repository...');
     const git = simpleGit();
-    await git.clone(repoUrl, repoDir);
+    await git.clone(repoUrl, repoDir, ['--depth', '1']);
     console.log('✅ Repository cloned');
 
     const repoGit = simpleGit(repoDir);
@@ -770,7 +770,7 @@ async function process5EFromQueue(queueItem) {
 
     console.log('📦 Cloning GitHub repository...');
     const git = simpleGit();
-    await git.clone(repoUrl, repoDir);
+    await git.clone(repoUrl, repoDir, ['--depth', '1']);
     console.log('✅ Repository cloned');
 
     const repoGit = simpleGit(repoDir);
@@ -2042,7 +2042,7 @@ exports.adminDeleteImage = functions
 
       console.log('📦 Cloning repository...');
       const git = simpleGit();
-      await git.clone(repoUrl, repoDir);
+      await git.clone(repoUrl, repoDir, ['--depth', '1']);
       const repoGit = simpleGit(repoDir);
       await repoGit.addConfig('user.name', 'SIAS Admin');
       await repoGit.addConfig('user.email', ADMIN_EMAIL);
@@ -2390,7 +2390,7 @@ exports.adminUpdateImageMetadata = functions
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
       const git = simpleGit();
-      await git.clone(repoUrl, repoDir);
+      await git.clone(repoUrl, repoDir, ['--depth', '1']);
       const repoGit = simpleGit(repoDir);
       await repoGit.addConfig('user.name', 'SIAS Admin');
       await repoGit.addConfig('user.email', ADMIN_EMAIL);
@@ -2485,7 +2485,7 @@ exports.adminEditContent = functions
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
       const git = simpleGit();
-      await git.clone(repoUrl, repoDir);
+      await git.clone(repoUrl, repoDir, ['--depth', '1']);
       const repoGit = simpleGit(repoDir);
       await repoGit.addConfig('user.name', 'SIAS Admin');
       await repoGit.addConfig('user.email', ADMIN_EMAIL);
@@ -2763,7 +2763,7 @@ exports.adminUpdateHotspots = functions
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
       const git = simpleGit();
-      await git.clone(repoUrl, repoDir);
+      await git.clone(repoUrl, repoDir, ['--depth', '1']);
       const repoGit = simpleGit(repoDir);
       await repoGit.addConfig('user.name', 'SIAS Admin');
       await repoGit.addConfig('user.email', ADMIN_EMAIL);
