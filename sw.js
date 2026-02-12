@@ -3,7 +3,7 @@
  * Progressive Web App caching with per-resource strategies.
  */
 
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const SHELL_CACHE = `sias-shell-${CACHE_VERSION}`;
 const METADATA_CACHE = `sias-metadata-${CACHE_VERSION}`;
 const CONTENT_CACHE = `sias-content-${CACHE_VERSION}`;
@@ -125,9 +125,10 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 6. Same-origin app shell resources → Cache First
+  // 6. Same-origin app shell resources (HTML, CSS, JS) → Network First
+  //    so deployments are picked up immediately while still working offline
   if (url.origin === self.location.origin) {
-    event.respondWith(cacheFirst(request, SHELL_CACHE));
+    event.respondWith(networkFirst(request, SHELL_CACHE));
     return;
   }
 
