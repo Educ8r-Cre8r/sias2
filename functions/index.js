@@ -661,12 +661,12 @@ Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
   } catch (error) {
     console.error('❌ Error processing image:', error);
 
-    // Try to move to failed folder
+    // Don't move file to failed/ here — let processQueue handle retries
+    // Moving here breaks retry logic since subsequent attempts can't find the file
     try {
-      await bucket.file(filePath).move(`failed/${new Date().toISOString()}_${path.basename(filePath)}`);
-      console.log('📦 Moved to failed folder for investigation');
+      console.log('⚠️ Processing failed, file remains in uploads/ for retry by processQueue');
     } catch (moveError) {
-      console.error('❌ Could not move failed file:', moveError);
+      console.error('❌ Error in failure handler:', moveError);
     }
 
     throw error;
@@ -1704,6 +1704,7 @@ exports.adminClearCompletedQueue = functions
  * This triggers the existing queueImage pipeline automatically.
  */
 exports.adminReprocessImage = functions
+  .runWith({ memory: '512MB', timeoutSeconds: 60 })
   .https.onCall(async (data, context) => {
     await verifyAdmin(context);
 
@@ -1735,7 +1736,17 @@ exports.adminReprocessImage = functions
       if (!imageResponse.ok) {
         throw new functions.https.HttpsError('not-found', `Source image not found at ${imageUrl}`);
       }
-      const imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
+      let imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
+
+      // Compress image if it exceeds 2MB to stay within processQueue's size limit
+      const maxSize = 2 * 1024 * 1024; // 2MB
+      if (imageBuffer.length > maxSize) {
+        console.log(`📐 Image is ${(imageBuffer.length / 1024 / 1024).toFixed(2)}MB, compressing...`);
+        imageBuffer = await sharp(imageBuffer)
+          .jpeg({ quality: 85 })
+          .toBuffer();
+        console.log(`✅ Compressed to ${(imageBuffer.length / 1024 / 1024).toFixed(2)}MB`);
+      }
 
       // Upload to uploads/{category}/{filename} in Storage to trigger queueImage
       // Set reprocess metadata flag so processQueue skips the duplicate check
@@ -1770,7 +1781,7 @@ exports.adminUpdateImageMetadata = functions
   .https.onCall(async (data, context) => {
     await verifyAdmin(context);
 
-    const { imageId, title, keywords } = data;
+    const { imageId, title, keywords, ngssStandards } = data;
     if (!imageId && imageId !== 0) {
       throw new functions.https.HttpsError('invalid-argument', 'imageId is required');
     }
@@ -1779,6 +1790,20 @@ exports.adminUpdateImageMetadata = functions
     }
     if (keywords !== undefined && !Array.isArray(keywords)) {
       throw new functions.https.HttpsError('invalid-argument', 'keywords must be an array');
+    }
+    if (ngssStandards !== undefined) {
+      if (typeof ngssStandards !== 'object' || Array.isArray(ngssStandards)) {
+        throw new functions.https.HttpsError('invalid-argument', 'ngssStandards must be an object');
+      }
+      const validGrades = ['kindergarten', 'grade1', 'grade2', 'grade3', 'grade4', 'grade5'];
+      for (const [grade, standards] of Object.entries(ngssStandards)) {
+        if (!validGrades.includes(grade)) {
+          throw new functions.https.HttpsError('invalid-argument', `Invalid grade level: ${grade}`);
+        }
+        if (!Array.isArray(standards)) {
+          throw new functions.https.HttpsError('invalid-argument', `Standards for ${grade} must be an array`);
+        }
+      }
     }
 
     console.log(`✏️  Admin updating metadata for image ID: ${imageId}`);
@@ -1814,6 +1839,15 @@ exports.adminUpdateImageMetadata = functions
         image.keywords = keywords.map(k => String(k).toLowerCase().trim()).filter(k => k.length > 0);
         changes.push(`keywords: [${image.keywords.length} items]`);
       }
+      if (ngssStandards !== undefined) {
+        image.ngssStandards = {};
+        const validGrades = ['kindergarten', 'grade1', 'grade2', 'grade3', 'grade4', 'grade5'];
+        for (const grade of validGrades) {
+          image.ngssStandards[grade] = (ngssStandards[grade] || []).filter(s => typeof s === 'string' && s.length > 0);
+        }
+        const totalStandards = Object.values(image.ngssStandards).flat().length;
+        changes.push(`ngssStandards: [${totalStandards} total]`);
+      }
 
       if (changes.length === 0) {
         throw new functions.https.HttpsError('invalid-argument', 'No changes provided');
@@ -1830,7 +1864,7 @@ exports.adminUpdateImageMetadata = functions
 
       try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
 
-      return { success: true, imageId, title: image.title, keywords: image.keywords };
+      return { success: true, imageId, title: image.title, keywords: image.keywords, ngssStandards: image.ngssStandards };
     } catch (error) {
       try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
       console.error('Update metadata error:', error);

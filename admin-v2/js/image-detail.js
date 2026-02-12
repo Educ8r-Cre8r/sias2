@@ -6,6 +6,16 @@
 let editModeActive = false;
 let editImageId = null;
 let editKeywords = [];
+let editNgssStandards = {};
+
+const NGSS_GRADE_LEVELS = [
+    { key: 'kindergarten', label: 'Kindergarten' },
+    { key: 'grade1', label: '1st Grade' },
+    { key: 'grade2', label: '2nd Grade' },
+    { key: 'grade3', label: '3rd Grade' },
+    { key: 'grade4', label: '4th Grade' },
+    { key: 'grade5', label: '5th Grade' }
+];
 
 /**
  * Show the detail modal for an image
@@ -29,15 +39,20 @@ function showDetailModal(imageId) {
         ? image.keywords.map(k => `<span class="detail-tag">${escapeHtml(k)}</span>`).join('')
         : '<span class="text-na">No keywords</span>';
 
-    // Build NGSS standards HTML
+    // Build NGSS standards HTML (per-grade breakdown)
     let ngssHtml = '<span class="text-na">No standards</span>';
     if (image.ngssStandards && typeof image.ngssStandards === 'object') {
-        const allStandards = new Set();
-        Object.values(image.ngssStandards).forEach(arr => {
-            if (Array.isArray(arr)) arr.forEach(s => allStandards.add(s));
-        });
-        if (allStandards.size > 0) {
-            ngssHtml = [...allStandards].map(s => `<span class="detail-tag">${escapeHtml(s)}</span>`).join('');
+        const hasAny = Object.values(image.ngssStandards).some(arr => Array.isArray(arr) && arr.length > 0);
+        if (hasAny) {
+            ngssHtml = NGSS_GRADE_LEVELS.map(grade => {
+                const standards = image.ngssStandards[grade.key] || [];
+                const chips = standards.map(s => `<span class="detail-tag">${escapeHtml(s)}</span>`).join('');
+                return `
+                    <details class="ngss-grade-details" ${standards.length > 0 ? 'open' : ''}>
+                        <summary class="ngss-grade-summary">${grade.label} (${standards.length})</summary>
+                        <div class="detail-tags ngss-grade-tags">${chips || '<span class="text-na">None</span>'}</div>
+                    </details>`;
+            }).join('');
         }
     }
 
@@ -68,7 +83,7 @@ function showDetailModal(imageId) {
                     <button class="btn btn-secondary btn-small" onclick="initHotspotEditor(${image.id})">Edit Hotspots</button>
                 </div>
                 <div class="button-help-text">
-                    <p><strong>Edit Info</strong> — Change the image title and keywords</p>
+                    <p><strong>Edit Info</strong> — Change the image title, keywords, and NGSS standards</p>
                     <p><strong>Re-process</strong> — Regenerate all educational content, lesson guides, and hotspots using AI</p>
                     <p><strong>Delete Image</strong> — Permanently remove this image and all associated files</p>
                     ${image.hasContent ? `<p><strong>Edit Content</strong> — Edit educational content for any grade level and regenerate the lesson guide PDF</p>` : ''}
@@ -125,9 +140,9 @@ function showDetailModal(imageId) {
                     <div class="detail-tags" id="detail-keywords-container">${keywordsHtml}</div>
                 </div>
 
-                <div class="detail-section">
+                <div class="detail-section" id="detail-ngss-section">
                     <h3>NGSS Standards</h3>
-                    <div class="detail-tags">${ngssHtml}</div>
+                    <div id="detail-ngss-container">${ngssHtml}</div>
                 </div>
 
                 <div class="detail-section">
@@ -169,6 +184,12 @@ function enterEditMode(imageId) {
     editImageId = imageId;
     editKeywords = [...(image.keywords || [])];
 
+    // Deep copy NGSS standards for editing
+    editNgssStandards = {};
+    NGSS_GRADE_LEVELS.forEach(grade => {
+        editNgssStandards[grade.key] = [...(image.ngssStandards?.[grade.key] || [])];
+    });
+
     // Replace Edit button with Save/Cancel
     const editBtn = document.getElementById('edit-meta-btn');
     if (editBtn) {
@@ -193,6 +214,9 @@ function enterEditMode(imageId) {
 
     // Replace keywords with editable tags
     renderEditableKeywords();
+
+    // Replace NGSS standards with editable tags
+    renderEditableNgss();
 }
 
 /**
@@ -245,11 +269,80 @@ function removeKeywordTag(index) {
 }
 
 /**
+ * Render editable NGSS standards with per-grade add/remove
+ */
+function renderEditableNgss() {
+    const container = document.getElementById('detail-ngss-container');
+    if (!container) return;
+
+    const gradesHtml = NGSS_GRADE_LEVELS.map(grade => {
+        const standards = editNgssStandards[grade.key] || [];
+        const chipsHtml = standards.map((s, i) =>
+            `<span class="detail-tag keyword-editable">${escapeHtml(s)}<button class="keyword-remove-btn" onclick="removeNgssStandard('${grade.key}', ${i})" title="Remove">&times;</button></span>`
+        ).join('');
+
+        return `
+            <details class="ngss-grade-details" open>
+                <summary class="ngss-grade-summary">${grade.label} (${standards.length})</summary>
+                <div class="detail-tags ngss-grade-tags">
+                    ${chipsHtml}
+                    <div class="keyword-add-row">
+                        <input type="text"
+                            id="add-ngss-input-${grade.key}"
+                            class="edit-input edit-input-small"
+                            placeholder="e.g. K-LS1-1"
+                            onkeydown="if(event.key==='Enter'){event.preventDefault();addNgssStandard('${grade.key}');}">
+                        <button class="btn btn-small btn-outline" onclick="addNgssStandard('${grade.key}')">+</button>
+                    </div>
+                </div>
+            </details>`;
+    }).join('');
+
+    container.innerHTML = gradesHtml;
+}
+
+/**
+ * Add an NGSS standard to a specific grade level
+ */
+function addNgssStandard(gradeKey) {
+    const input = document.getElementById('add-ngss-input-' + gradeKey);
+    if (!input) return;
+    const val = input.value.trim().toUpperCase();
+    if (!val) return;
+
+    if (!editNgssStandards[gradeKey]) {
+        editNgssStandards[gradeKey] = [];
+    }
+    if (editNgssStandards[gradeKey].includes(val)) {
+        showToast('Standard already exists for this grade', 'info');
+        input.value = '';
+        return;
+    }
+
+    editNgssStandards[gradeKey].push(val);
+    input.value = '';
+    renderEditableNgss();
+    const newInput = document.getElementById('add-ngss-input-' + gradeKey);
+    if (newInput) newInput.focus();
+}
+
+/**
+ * Remove an NGSS standard from a specific grade level
+ */
+function removeNgssStandard(gradeKey, index) {
+    if (editNgssStandards[gradeKey]) {
+        editNgssStandards[gradeKey].splice(index, 1);
+    }
+    renderEditableNgss();
+}
+
+/**
  * Cancel edit mode and restore display
  */
 function cancelEditMode() {
     editModeActive = false;
     editKeywords = [];
+    editNgssStandards = {};
     // Re-render the whole modal to restore original display
     if (editImageId !== null) {
         showDetailModal(editImageId);
@@ -280,13 +373,15 @@ async function saveImageMetadata() {
         await updateFn({
             imageId: editImageId,
             title: newTitle,
-            keywords: editKeywords
+            keywords: editKeywords,
+            ngssStandards: editNgssStandards
         });
 
         // Optimistic local update
         metadataManager.updateImageLocally(editImageId, {
             title: newTitle,
-            keywords: [...editKeywords]
+            keywords: [...editKeywords],
+            ngssStandards: JSON.parse(JSON.stringify(editNgssStandards))
         });
 
         showToast('Image metadata saved!', 'success');
@@ -296,6 +391,7 @@ async function saveImageMetadata() {
         showDetailModal(editImageId);
         editImageId = null;
         editKeywords = [];
+        editNgssStandards = {};
 
         // Refresh the images grid
         if (typeof renderImagesGrid === 'function') renderImagesGrid();
@@ -318,6 +414,7 @@ function closeDetailModal() {
     editModeActive = false;
     editImageId = null;
     editKeywords = [];
+    editNgssStandards = {};
 }
 
 // Expose globally
@@ -328,3 +425,5 @@ window.cancelEditMode = cancelEditMode;
 window.saveImageMetadata = saveImageMetadata;
 window.addKeywordTag = addKeywordTag;
 window.removeKeywordTag = removeKeywordTag;
+window.addNgssStandard = addNgssStandard;
+window.removeNgssStandard = removeNgssStandard;

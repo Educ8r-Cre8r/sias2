@@ -1850,6 +1850,35 @@ body {
 }
 
 /* ===================================
+   NGSS Standards Edit Mode
+   =================================== */
+
+.ngss-grade-details {
+    margin-bottom: 8px;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+}
+
+.ngss-grade-summary {
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    background: var(--bg-primary);
+    color: var(--text-secondary);
+    user-select: none;
+}
+
+.ngss-grade-summary:hover {
+    color: var(--primary);
+}
+
+.ngss-grade-tags {
+    padding: 8px 12px 10px;
+}
+
+/* ===================================
    System Health Indicator
    =================================== */
 
