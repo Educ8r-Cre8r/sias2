@@ -2076,11 +2076,15 @@ exports.adminDeleteImage = functions
         `content/${category}/${nameNoExt}.json`,
         ...grades.map(g => `content/${category}/${nameNoExt}-${g}.json`),
         `content/${category}/${nameNoExt}-edp.json`,
+        // 5E content files
+        ...grades.map(g => `content/${category}/${nameNoExt}-5e-${g}.json`),
         // Hotspots
         `hotspots/${category}/${nameNoExt}.json`,
         // PDFs
         ...grades.map(g => `pdfs/${category}/${nameNoExt}-${g}.pdf`),
         `pdfs/${category}/${nameNoExt}-edp.pdf`,
+        // 5E lesson PDFs
+        ...grades.map(g => `5e_lessons/${category}/${nameNoExt}-${g}.pdf`),
       ];
 
       // Delete each file (silently skip missing ones)
