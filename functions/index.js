@@ -324,7 +324,26 @@ exports.processQueue = functions.runWith({
     .get();
 
   if (!processingCheck.empty) {
-    console.log('⏸️  Another image is being processed, waiting...');
+    // Check for stale "processing" items (OOM crashes don't trigger catch blocks)
+    const staleDoc = processingCheck.docs[0];
+    const staleData = staleDoc.data();
+    const startedAt = staleData.startedAt ? staleData.startedAt.toDate() : null;
+    const minutesProcessing = startedAt ? (Date.now() - startedAt.getTime()) / 60000 : 999;
+
+    if (minutesProcessing > 10) {
+      // Item has been "processing" for over 10 minutes — likely crashed (OOM)
+      console.warn(`⚠️ Stale processing detected: ${staleData.filename} (${Math.round(minutesProcessing)}m). Resetting to pending.`);
+      const attempts = (staleData.attempts || 0) + 1;
+      if (attempts >= 3) {
+        await staleDoc.ref.update({ status: 'failed', error: 'Exceeded max attempts (likely OOM crash)', attempts });
+        console.error(`❌ ${staleData.filename} failed after ${attempts} attempts`);
+      } else {
+        await staleDoc.ref.update({ status: 'pending', attempts });
+        console.log(`🔄 Reset ${staleData.filename} to pending (attempt ${attempts})`);
+      }
+    } else {
+      console.log('⏸️  Another image is being processed, waiting...');
+    }
     return null;
   }
 
@@ -1590,6 +1609,9 @@ async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, fi
     } catch (pdfErr) {
       console.warn(`   ⚠️ ${grade.name} 5E PDF failed (non-blocking): ${pdfErr.message}`);
     }
+
+    // Release memory: null out large variables after each grade to reduce OOM risk
+    response = null;
 
     // Small delay between API calls to avoid rate limiting
     if (grade !== GRADE_LEVELS[GRADE_LEVELS.length - 1]) {
