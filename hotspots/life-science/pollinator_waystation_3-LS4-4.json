@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Pink and Magenta Flowers",
+      "fact": "These bright flowers are blooming together in the same garden, showing how different plant species can live in the same habitat and help each other grow. Flowers use their bright colors to attract insects like bees and butterflies, which help them make seeds. This is called **pollination** — that's when pollen is carried from one flower to another so plants can make seeds.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen moves from one flower to another, usually by insects or wind, so plants can make new seeds."
+      }
+    },
+    {
+      "id": 2,
+      "x": "60%",
+      "y": "25%",
+      "label": "Orange and Yellow Flowers",
+      "fact": "The orange and yellow flowers show how plants in nature come in many different colors, shapes, and sizes — this is called diversity. These different flower colors help attract different kinds of insects and pollinators, which is important for the health of the whole ecosystem. Each flower color is a special adaptation that helps plants survive and reproduce.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps a living thing survive and do well in its environment."
+      }
+    },
+    {
+      "id": 3,
+      "x": "40%",
+      "y": "60%",
+      "label": "Green Leaves and Stems",
+      "fact": "The green leaves and stems you see are the main parts of the flower plants that make food from sunlight, water, and air through a process called photosynthesis. Plants need their roots, stems, and leaves to grow strong and healthy so they can produce beautiful flowers. These plant structures work together as a system to keep the plant alive.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "The process where plants use sunlight, water, and air to make their own food and grow."
+      }
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "50%",
+      "label": "Flower Garden Ecosystem",
+      "fact": "This colorful flower garden is a small ecosystem where many living things depend on each other to survive. Plants provide food and shelter for insects, birds, and other animals, while those animals help pollinate the flowers and spread seeds to new places. When we protect natural spaces like gardens, we help all these living things thrive together.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things and their environment all working together and depending on each other."
+      }
+    }
+  ]
+}
