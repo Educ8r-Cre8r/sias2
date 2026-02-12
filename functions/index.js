@@ -768,14 +768,23 @@ async function process5EFromQueue(queueItem) {
       await fs.rm(repoDir, { recursive: true, force: true });
     } catch (e) {}
 
-    console.log('📦 Cloning GitHub repository...');
+    // Sparse checkout: only download files needed for 5E generation
+    // (avoids downloading ~500MB of images/PDFs we don't need)
+    console.log('📦 Cloning repository (sparse checkout)...');
     const git = simpleGit();
-    await git.clone(repoUrl, repoDir, ['--depth', '1']);
-    console.log('✅ Repository cloned');
-
+    await git.clone(repoUrl, repoDir, ['--depth', '1', '--filter=blob:none', '--sparse']);
     const repoGit = simpleGit(repoDir);
     await repoGit.addConfig('user.name', 'SIAS Automation');
     await repoGit.addConfig('user.email', 'mr.alexdjones@gmail.com');
+    // Set sparse checkout to only include needed paths
+    await repoGit.raw(['sparse-checkout', 'set', '--no-cone',
+      `images/${category}/${filename}`,
+      'sias_logo.png',
+      'gallery-metadata.json',
+      `content/${category}/`,
+      `5e_lessons/${category}/`
+    ]);
+    console.log('✅ Repository cloned (sparse)');
 
     const targetImagePath = path.join(repoDir, 'images', category, filename);
     const logoPath = path.join(repoDir, 'sias_logo.png');
