@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "65%",
+      "y": "35%",
+      "label": "Bee's Body",
+      "fact": "Bees have special body parts that help them do their jobs! Their fuzzy body helps collect pollen, and their long tongue helps them drink nectar from flowers. All these body structures work together to help the bee survive and get food.",
+      "vocabulary": {
+        "term": "Body structures",
+        "definition": "The different parts of an animal's body, like legs, wings, or eyes, that help it do things it needs to survive."
+      }
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Pollen on Bee",
+      "fact": "See the yellow powder on the bee? That's pollen! When bees visit flowers to drink sweet nectar, pollen sticks to their fuzzy bodies. As they fly to the next flower, the pollen rubs off and helps new flowers and fruits grow. This is called **pollination** — that's when pollen moves from one flower to another so plants can make seeds.",
+      "vocabulary": {
+        "term": "Pollination",
+        "definition": "When pollen is carried from one flower to another, helping plants make seeds and fruits."
+      }
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "55%",
+      "label": "Red Flower",
+      "fact": "Flowers need bees to help them make seeds and create new plants! The bright red color and sweet nectar attract bees to the flower. This is an example of how different living things depend on each other in nature. This is called an **ecosystem** — all the living things and how they help each other.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "A community of living things and how they interact with each other and their environment."
+      }
+    },
+    {
+      "id": 4,
+      "x": "70%",
+      "y": "25%",
+      "label": "Bee's Wings",
+      "fact": "A bee's wings help it move from flower to flower to find food and carry pollen. Bees can fly very fast and control their direction to land on flowers. Wings are one of the special adaptations that help bees survive and do their important job in nature. This is called an **adaptation** — a special feature that helps an animal live and survive.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and do what it needs to do."
+      }
+    }
+  ]
+}

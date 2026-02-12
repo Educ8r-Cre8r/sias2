@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-12T01:02:28.789Z",
-  "totalImages": 163,
+  "lastUpdated": "2026-02-12T01:06:27.391Z",
+  "totalImages": 164,
   "images": [
     {
       "id": 1,
@@ -8403,6 +8403,70 @@
       "processingCost": 0.1139,
       "processingTime": "3m 45s",
       "processedAt": "2026-02-12T01:05:48.612Z"
+    },
+    {
+      "id": 165,
+      "filename": "symbiotic_relationship.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/symbiotic_relationship.jpg",
+      "thumbPath": "images/life-science/thumbs/symbiotic_relationship.jpg",
+      "webpPath": "images/life-science/webp/symbiotic_relationship.webp",
+      "placeholderPath": "images/life-science/placeholders/symbiotic_relationship.jpg",
+      "contentFile": "content/life-science/symbiotic_relationship.json",
+      "title": "Symbiotic Relationship",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1-2",
+          "1-LS1.A",
+          "1-LS1.B",
+          "1-LS3-1",
+          "1-LS3.A"
+        ],
+        "grade2": [
+          "2-LS2-1",
+          "2-LS2-2",
+          "2-LS2.A",
+          "2-LS2.B",
+          "2-LS4-1",
+          "2-LS4.A",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS2-1",
+          "3-LS2.A",
+          "3-LS4-2",
+          "3-LS4-3",
+          "3-LS4.B"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1-2",
+          "4-LS1.A",
+          "4-LS1.B",
+          "4-LS1.D"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      },
+      "keywords": [
+        "pollination",
+        "bee",
+        "flower",
+        "pollen",
+        "plant reproduction",
+        "insect"
+      ],
+      "processingCost": 0.1118,
+      "processingTime": "3m 34s",
+      "processedAt": "2026-02-12T01:09:36.886Z"
     }
   ]
 }
