@@ -38,7 +38,9 @@ function initializeRandomHeroImage() {
     { webp: 'hero_images/webp/hero_img02.webp', jpg: 'hero_images/thumbs/hero_img02.jpg', original: 'hero_images/hero_img02.jpg' },
     { webp: 'hero_images/webp/hero_img03.webp', jpg: 'hero_images/thumbs/hero_img03.jpg', original: 'hero_images/hero_img03.jpg' },
     { webp: 'hero_images/webp/hero_img04.webp', jpg: 'hero_images/thumbs/hero_img04.jpg', original: 'hero_images/hero_img04.jpg' },
-    { webp: 'hero_images/webp/hero_img05.webp', jpg: 'hero_images/thumbs/hero_img05.jpg', original: 'hero_images/hero_img05.jpg' }
+    { webp: 'hero_images/webp/hero_img05.webp', jpg: 'hero_images/thumbs/hero_img05.jpg', original: 'hero_images/hero_img05.jpg' },
+    { webp: 'hero_images/webp/hero_img06.webp', jpg: 'hero_images/thumbs/hero_img06.jpg', original: 'hero_images/hero_img06.jpg' },
+    { webp: 'hero_images/webp/hero_img07.webp', jpg: 'hero_images/thumbs/hero_img07.jpg', original: 'hero_images/hero_img07.jpg' }
   ];
 
   // Get the last shown image from localStorage to avoid immediate repeats
