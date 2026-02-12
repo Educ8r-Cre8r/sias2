@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "15%",
+      "label": "Glowing Red Coils",
+      "fact": "These red-hot heating coils are producing thermal energy, which is heat! The coils glow red because they are so hot that they give off light energy too. When energy changes from one form to another, like electrical energy becoming heat and light, that's called **energy transformation** — when one type of energy changes into a different type.",
+      "vocabulary": {
+        "term": "Thermal Energy",
+        "definition": "The energy that makes something hot; heat is a form of energy that travels from hot things to cold things."
+      }
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Perforated Metal Grilles",
+      "fact": "The metal mesh panels have tiny holes that let heat escape while protecting you from the hot coils. This design shows how physical properties of materials matter—metal is chosen because it conducts heat well and doesn't burn easily. The holes create pathways for thermal energy to travel outward through **convection**, which is how heat moves through air.",
+      "vocabulary": {
+        "term": "Convection",
+        "definition": "The way heat travels through liquids and gases by moving in currents, like hot air rising and cool air sinking."
+      }
+    },
+    {
+      "id": 3,
+      "x": "50%",
+      "y": "75%",
+      "label": "Blue Flame Area",
+      "fact": "The blue glow near the bottom shows a different type of heat source—possibly a flame or gas heating element. This demonstrates that matter can change form when heated; gases burned here release energy. Different energy sources like electricity (the red coils) and fuel (the blue flame) can both produce thermal energy to warm a space.",
+      "vocabulary": {
+        "term": "Matter",
+        "definition": "Anything that takes up space and has weight; it can be solid, liquid, or gas, and it can change forms when heated or cooled."
+      }
+    },
+    {
+      "id": 4,
+      "x": "25%",
+      "y": "35%",
+      "label": "Heat Radiation Pattern",
+      "fact": "The bright orange areas show where the most thermal energy is radiating outward as invisible heat waves traveling through space. **Radiation** is how heat travels in straight lines from hot objects—you can feel it even when nothing is touching you! This is why you feel warm when you stand near a heater.",
+      "vocabulary": {
+        "term": "Radiation",
+        "definition": "The way heat travels outward in straight lines from a hot object through space, like warmth from the sun reaching Earth."
+      }
+    }
+  ]
+}

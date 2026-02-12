@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-12T09:37:38.718Z",
-  "totalImages": 169,
+  "lastUpdated": "2026-02-12T20:34:19.385Z",
+  "totalImages": 170,
   "images": [
     {
       "id": 1,
@@ -8857,6 +8857,67 @@
       "processingCost": 0.1147,
       "processingTime": "4m 0s",
       "processedAt": "2026-02-12T09:32:02.841Z"
+    },
+    {
+      "id": 171,
+      "filename": "propane_heater_4-PS3-2.jpg",
+      "category": "physical-science",
+      "imagePath": "images/physical-science/propane_heater_4-PS3-2.jpg",
+      "thumbPath": "images/physical-science/thumbs/propane_heater_4-PS3-2.jpg",
+      "webpPath": "images/physical-science/webp/propane_heater_4-PS3-2.webp",
+      "placeholderPath": "images/physical-science/placeholders/propane_heater_4-PS3-2.jpg",
+      "contentFile": "content/physical-science/propane_heater_4-PS3-2.json",
+      "title": "Propane Heater 4 PS3 2",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-PS3-1",
+          "K-PS3-2",
+          "K-PS3.A"
+        ],
+        "grade1": [
+          "1-PS4-2",
+          "1-PS4.B"
+        ],
+        "grade2": [
+          "2-PS1-4",
+          "2-PS1.A"
+        ],
+        "grade3": [
+          "3-PS2-3",
+          "3-PS2.B",
+          "4-PS3-1",
+          "4-PS3-2",
+          "4-PS3-3",
+          "4-PS3-4"
+        ],
+        "grade4": [
+          "4-PS3-2",
+          "4-PS3-4",
+          "4-PS3.A",
+          "4-PS3.B",
+          "4-PS4-2"
+        ],
+        "grade5": [
+          "5-PS1-2",
+          "5-PS1-3",
+          "5-PS1.A",
+          "5-PS3-1",
+          "5-PS3.A",
+          "5-PS3.D"
+        ]
+      },
+      "keywords": [
+        "heat energy",
+        "thermal radiation",
+        "infrared",
+        "light energy",
+        "energy transfer",
+        "heating element"
+      ],
+      "processingCost": 0.1158,
+      "processingTime": "3m 46s",
+      "processedAt": "2026-02-12T20:37:49.160Z"
     }
   ]
 }
