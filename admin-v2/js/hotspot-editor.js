@@ -82,9 +82,9 @@ function renderHotspotEditor() {
                     <p class="hotspot-editor-hint">Drag hotspot markers to reposition them. Click a marker to view its details and edit coordinates manually.</p>
                     <div class="hotspot-editor-workspace">
                         <div class="hotspot-editor-image-wrapper" id="hotspot-image-wrapper">
-                            <img id="hotspot-editor-img" src="../${image.imagePath}" alt="${escapeHtml(image.title)}"
+                            <img id="hotspot-editor-img" src="${resolveAssetUrl('../' + image.imagePath)}" alt="${escapeHtml(image.title)}"
                                  draggable="false"
-                                 onerror="this.src='../${image.thumbPath || image.imagePath}'">
+                                 onerror="this.src='${resolveAssetUrl('../' + (image.thumbPath || image.imagePath))}'">
                         </div>
                         <div class="hotspot-editor-sidebar" id="hotspot-editor-sidebar">
                             <p class="text-muted">Click a marker to view details.</p>

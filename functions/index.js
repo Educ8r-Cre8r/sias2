@@ -31,6 +31,58 @@ if (process.env.NODE_ENV !== 'production') {
 admin.initializeApp();
 const db = admin.firestore();
 
+// Storage bucket name for gallery assets (images, PDFs, 5E lessons)
+const GALLERY_BUCKET = 'sias-8178a.firebasestorage.app';
+
+/**
+ * Upload a local file to Firebase Storage with proper metadata.
+ * @param {string} localPath - Absolute path to the local file
+ * @param {string} storagePath - Destination path in Storage (e.g. 'images/life-science/bee.jpg')
+ * @param {string} contentType - MIME type (e.g. 'image/jpeg', 'application/pdf')
+ */
+async function uploadToGalleryStorage(localPath, storagePath, contentType) {
+  const bucket = admin.storage().bucket(GALLERY_BUCKET);
+  await bucket.upload(localPath, {
+    destination: storagePath,
+    metadata: {
+      contentType,
+      cacheControl: 'public, max-age=31536000',
+    },
+  });
+  console.log(`   ☁️  Uploaded to Storage: ${storagePath}`);
+}
+
+/**
+ * Upload a buffer to Firebase Storage with proper metadata.
+ * @param {Buffer} buffer - File content
+ * @param {string} storagePath - Destination path in Storage
+ * @param {string} contentType - MIME type
+ */
+async function uploadBufferToGalleryStorage(buffer, storagePath, contentType) {
+  const bucket = admin.storage().bucket(GALLERY_BUCKET);
+  await bucket.file(storagePath).save(buffer, {
+    metadata: {
+      contentType,
+      cacheControl: 'public, max-age=31536000',
+    },
+  });
+  console.log(`   ☁️  Uploaded to Storage: ${storagePath}`);
+}
+
+/**
+ * Delete a file from Firebase Storage (gallery bucket). Silently ignores missing files.
+ * @param {string} storagePath - Path in Storage to delete
+ */
+async function deleteFromGalleryStorage(storagePath) {
+  const bucket = admin.storage().bucket(GALLERY_BUCKET);
+  try {
+    await bucket.file(storagePath).delete();
+    console.log(`   🗑️  Deleted from Storage: ${storagePath}`);
+  } catch (e) {
+    console.log(`   ⏭️  Not in Storage (skip): ${storagePath}`);
+  }
+}
+
 // Grade levels for content generation
 const GRADE_LEVELS = [
   { key: 'kindergarten', name: 'Kindergarten', ngssGrade: 'K' },
@@ -484,8 +536,9 @@ async function processImageFromQueue(queueItem) {
     if (isReprocess) {
       console.log(`🔄 Re-processing existing image: ${filename}`);
     } else {
-      // Check for duplicates - see if this image already exists
-      const imageExists = await fs.access(targetImagePath).then(() => true).catch(() => false);
+      // Check for duplicates - see if this image already exists in metadata
+      const metadataCheck = JSON.parse(await fs.readFile(path.join(repoDir, 'gallery-metadata.json'), 'utf8'));
+      const imageExists = metadataCheck.images.some(img => img.filename === filename && img.category === category);
 
       if (imageExists) {
         console.warn(`⚠️  Duplicate detected: ${filename} already exists in ${category}`);
@@ -495,31 +548,40 @@ async function processImageFromQueue(queueItem) {
         return null;
       }
 
-      // Copy image to the repo's images directory
-      await fs.mkdir(path.join(repoDir, 'images', category), { recursive: true });
-      await fs.copyFile(tempFilePath, targetImagePath);
-      console.log(`📁 Copied image to: images/${category}/${filename}`);
+      // Upload original image to Storage
+      await uploadToGalleryStorage(tempFilePath, `images/${category}/${filename}`, 'image/jpeg');
 
-      // Generate optimized image variants (thumbnail, WebP, placeholder)
-      const thumbsDir = path.join(repoDir, 'images', category, 'thumbs');
-      const webpDir = path.join(repoDir, 'images', category, 'webp');
-      const placeholdersDir = path.join(repoDir, 'images', category, 'placeholders');
-      await fs.mkdir(thumbsDir, { recursive: true });
-      await fs.mkdir(webpDir, { recursive: true });
-      await fs.mkdir(placeholdersDir, { recursive: true });
+      // Generate optimized image variants in /tmp and upload to Storage
+      const tmpThumbPath = path.join(tempDir, `thumb-${filename}`);
+      const tmpWebpPath = path.join(tempDir, `webp-${nameNoExt}.webp`);
+      const tmpPlaceholderPath = path.join(tempDir, `placeholder-${filename}`);
 
       try {
         // Generate 600px thumbnail
-        await sharp(targetImagePath).resize({ height: 600 }).toFile(path.join(thumbsDir, filename));
+        await sharp(tempFilePath).resize({ height: 600 }).toFile(tmpThumbPath);
         // Generate WebP from thumbnail
-        await sharp(path.join(thumbsDir, filename)).webp({ quality: 80 }).toFile(path.join(webpDir, `${nameNoExt}.webp`));
+        await sharp(tmpThumbPath).webp({ quality: 80 }).toFile(tmpWebpPath);
         // Generate 20px blur-up placeholder
-        await sharp(targetImagePath).resize({ width: 20 }).toFile(path.join(placeholdersDir, filename));
+        await sharp(tempFilePath).resize({ width: 20 }).toFile(tmpPlaceholderPath);
         console.log(`🖼️  Generated optimized variants (thumb, webp, placeholder)`);
+
+        // Upload all variants to Storage
+        await uploadToGalleryStorage(tmpThumbPath, `images/${category}/thumbs/${filename}`, 'image/jpeg');
+        await uploadToGalleryStorage(tmpWebpPath, `images/${category}/webp/${nameNoExt}.webp`, 'image/webp');
+        await uploadToGalleryStorage(tmpPlaceholderPath, `images/${category}/placeholders/${filename}`, 'image/jpeg');
+
+        // Clean up temp variant files
+        await fs.rm(tmpThumbPath, { force: true });
+        await fs.rm(tmpWebpPath, { force: true });
+        await fs.rm(tmpPlaceholderPath, { force: true });
       } catch (optimizeError) {
         console.warn(`⚠️  Image optimization failed (non-blocking): ${optimizeError.message}`);
       }
     }
+
+    // Copy image to repo for PDF generation (PDFs embed the image)
+    await fs.mkdir(path.join(repoDir, 'images', category), { recursive: true });
+    await fs.copyFile(tempFilePath, targetImagePath);
 
     // Read gallery-metadata.json
     const metadataPath = path.join(repoDir, 'gallery-metadata.json');
@@ -616,9 +678,8 @@ async function processImageFromQueue(queueItem) {
           logoPath
         });
 
-        const pdfDir = path.join(repoDir, 'pdfs', category);
-        await fs.mkdir(pdfDir, { recursive: true });
-        await fs.writeFile(path.join(pdfDir, `${nameNoExt}-${grade.key}.pdf`), pdfBuffer);
+        // Upload PDF to Storage instead of writing to git repo
+        await uploadBufferToGalleryStorage(pdfBuffer, `pdfs/${category}/${nameNoExt}-${grade.key}.pdf`, 'application/pdf');
         pdfCount++;
         console.log(`   ✅ ${grade.name} PDF generated`);
       } catch (pdfErr) {
@@ -678,19 +739,26 @@ async function processImageFromQueue(queueItem) {
     // Rebuild ngss-index.json for admin dashboard coverage map
     await buildNgssIndex(repoDir);
 
-    // Commit and push to GitHub
+    // Remove temp image from repo before commit (was only needed for PDF generation)
+    // Binary files (images, PDFs) are now in Storage, not git
+    try { await fs.rm(targetImagePath, { force: true }); } catch (e) {}
+    // Remove image directory if empty (for new images)
+    try { await fs.rmdir(path.join(repoDir, 'images', category)); } catch (e) {}
+    try { await fs.rmdir(path.join(repoDir, 'images')); } catch (e) {}
+
+    // Commit and push to GitHub (JSON files only — binaries are in Storage)
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
     const commitAction = isReprocess ? 'Re-process' : 'Add';
-    await repoGit.commit(`${commitAction} ${filename} with educational content, hotspots, keywords, NGSS standards, lesson PDFs, and EDP
+    await repoGit.commit(`${commitAction} ${filename} with educational content, hotspots, keywords, NGSS standards
 
 - Category: ${category}
 - Generated content for all grade levels (K-5)
 - Generated interactive hotspots (3-4 per image)
 - Generated search keywords
 - Extracted ${totalStandards} NGSS standards for gallery badges
-- Generated ${pdfCount} lesson guide PDFs
-- Generated engineering design process challenge PDF
+- Uploaded ${pdfCount} lesson PDFs + EDP PDF to Storage
+- Uploaded image variants to Storage
 - 5E lesson plans queued for follow-up generation
 - Processing time: ${processingTimeStr}
 - Total cost: $${totalCost.toFixed(4)}
@@ -776,17 +844,16 @@ async function process5EFromQueue(queueItem) {
     const repoGit = simpleGit(repoDir);
     await repoGit.addConfig('user.name', 'SIAS Automation');
     await repoGit.addConfig('user.email', 'mr.alexdjones@gmail.com');
-    // Set sparse checkout to only include needed paths
+    // Set sparse checkout — only need JSON files + logo (binaries are in Storage)
     await repoGit.raw(['sparse-checkout', 'set', '--no-cone',
-      `images/${category}/${filename}`,
       'sias_logo.png',
       'gallery-metadata.json',
       `content/${category}/`,
-      `5e_lessons/${category}/`
     ]);
     console.log('✅ Repository cloned (sparse)');
 
-    const targetImagePath = path.join(repoDir, 'images', category, filename);
+    // Use the already-downloaded temp image for PDF generation (no need to clone from git)
+    const targetImagePath = tempFilePath;
     const logoPath = path.join(repoDir, 'sias_logo.png');
 
     // Generate 5E content and PDFs
@@ -809,8 +876,8 @@ async function process5EFromQueue(queueItem) {
     await repoGit.add('.');
     await repoGit.commit(`Add 5E lesson plans for ${filename}
 
-- Generated 5E lesson plan content for all grade levels (K-5)
-- Generated 5E lesson plan PDFs for all grade levels
+- Generated 5E lesson plan content JSONs for all grade levels (K-5)
+- Uploaded 5E lesson plan PDFs to Storage
 - Total 5E cost: $${fiveECost.toFixed(4)}
 
 Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
@@ -1499,10 +1566,9 @@ async function generateEDPContentAndPDF(anthropicKey, imageBase64, mediaType, fi
     logoPath
   });
 
-  const pdfDir = path.join(repoDir, 'pdfs', category);
-  await fs.mkdir(pdfDir, { recursive: true });
-  await fs.writeFile(path.join(pdfDir, `${nameNoExt}-edp.pdf`), pdfBuffer);
-  console.log(`   ✅ EDP PDF saved: ${nameNoExt}-edp.pdf`);
+  // Upload EDP PDF to Storage instead of writing to git repo
+  await uploadBufferToGalleryStorage(pdfBuffer, `pdfs/${category}/${nameNoExt}-edp.pdf`, 'application/pdf');
+  console.log(`   ✅ EDP PDF uploaded to Storage: ${nameNoExt}-edp.pdf`);
 
   return cost;
 }
@@ -1640,9 +1706,6 @@ async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, fi
   const contentDir = path.join(repoDir, 'content', category);
   await fs.mkdir(contentDir, { recursive: true });
 
-  const fiveEDir = path.join(repoDir, '5e_lessons', category);
-  await fs.mkdir(fiveEDir, { recursive: true });
-
   let totalCost = 0;
   let count = 0;
 
@@ -1729,9 +1792,10 @@ async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, fi
         logoPath
       });
 
-      await fs.writeFile(path.join(fiveEDir, `${nameNoExt}-${grade.key}.pdf`), pdfBuffer);
+      // Upload 5E PDF to Storage instead of writing to git repo
+      await uploadBufferToGalleryStorage(pdfBuffer, `5e_lessons/${category}/${nameNoExt}-${grade.key}.pdf`, 'application/pdf');
       count++;
-      console.log(`   ✅ ${grade.name} 5E content + PDF saved (cost: $${cost.toFixed(4)})`);
+      console.log(`   ✅ ${grade.name} 5E content saved + PDF uploaded (cost: $${cost.toFixed(4)})`);
     } catch (pdfErr) {
       console.warn(`   ⚠️ ${grade.name} 5E PDF failed (non-blocking): ${pdfErr.message}`);
     }
@@ -2112,7 +2176,33 @@ exports.adminDeleteImage = functions
         }
       }
 
-      console.log(`📊 Deleted ${deletedCount} files, skipped ${skippedCount}`);
+      console.log(`📊 Deleted ${deletedCount} git files, skipped ${skippedCount}`);
+
+      // Also delete binary files from Firebase Storage
+      console.log('☁️  Deleting binary files from Storage...');
+      const storageFilesToDelete = [
+        // Image variants
+        `images/${category}/${filename}`,
+        `images/${category}/thumbs/${filename}`,
+        `images/${category}/webp/${nameNoExt}.webp`,
+        `images/${category}/placeholders/${filename}`,
+        // PDFs
+        ...grades.map(g => `pdfs/${category}/${nameNoExt}-${g}.pdf`),
+        `pdfs/${category}/${nameNoExt}-edp.pdf`,
+        // 5E lesson PDFs
+        ...grades.map(g => `5e_lessons/${category}/${nameNoExt}-${g}.pdf`),
+        // Processed source image
+        `processed/${category}/${filename}`,
+      ];
+
+      let storageDeleted = 0;
+      for (const storagePath of storageFilesToDelete) {
+        try {
+          await deleteFromGalleryStorage(storagePath);
+          storageDeleted++;
+        } catch (e) { /* already logged by helper */ }
+      }
+      console.log(`☁️  Deleted ${storageDeleted} files from Storage`);
 
       // Remove the image entry from metadata
       metadata.images.splice(imageIndex, 1);
@@ -2311,14 +2401,16 @@ exports.adminReprocessImage = functions
         throw new functions.https.HttpsError('not-found', `Image ${imageId} not found`);
       }
 
-      // Download the original image from Hosting (images are served from Hosting, not Storage)
-      const imageUrl = `https://sias-8178a.web.app/${image.imagePath}`;
-      console.log(`📥 Downloading image from: ${imageUrl}`);
-      const imageResponse = await fetch(imageUrl);
-      if (!imageResponse.ok) {
-        throw new functions.https.HttpsError('not-found', `Source image not found at ${imageUrl}`);
+      // Download the original image from Storage
+      const galleryBucket = admin.storage().bucket(GALLERY_BUCKET);
+      console.log(`📥 Downloading image from Storage: ${image.imagePath}`);
+      let imageBuffer;
+      try {
+        const [buffer] = await galleryBucket.file(image.imagePath).download();
+        imageBuffer = buffer;
+      } catch (downloadErr) {
+        throw new functions.https.HttpsError('not-found', `Source image not found in Storage: ${image.imagePath}`);
       }
-      let imageBuffer = Buffer.from(await imageResponse.arrayBuffer());
 
       // Compress image if it exceeds 2MB to stay within processQueue's size limit
       const maxSize = 2 * 1024 * 1024; // 2MB
@@ -2535,11 +2627,15 @@ exports.adminEditContent = functions
       existingJson.editedAt = new Date().toISOString();
       await fs.writeFile(contentJsonPath, JSON.stringify(existingJson, null, 2));
 
-      // Regenerate PDF
+      // Regenerate PDF — download image from Storage for cover image
       let pdfWarning = false;
       try {
-        const imagePath = path.join(repoDir, 'images', category, image.filename);
+        const galleryBucket = admin.storage().bucket(GALLERY_BUCKET);
+        const tempImagePath = path.join(tempDir, `edit-${image.filename}`);
+        await galleryBucket.file(`images/${category}/${image.filename}`).download({ destination: tempImagePath });
+
         const logoPath = path.join(repoDir, 'sias_logo.png');
+        const storagePdfPath = `pdfs/${category}/${nameNoExt}-${suffix}.pdf`;
 
         let pdfBuffer;
         if (isEDP) {
@@ -2548,7 +2644,7 @@ exports.adminEditContent = functions
             title: image.title,
             category,
             markdownContent: content,
-            imagePath,
+            imagePath: tempImagePath,
             logoPath
           });
         } else {
@@ -2558,15 +2654,16 @@ exports.adminEditContent = functions
             category,
             gradeLevel,
             markdownContent: content,
-            imagePath,
+            imagePath: tempImagePath,
             logoPath
           });
         }
 
-        const pdfDir = path.join(repoDir, 'pdfs', category);
-        await fs.mkdir(pdfDir, { recursive: true });
-        await fs.writeFile(pdfPath, pdfBuffer);
-        console.log(`   ✅ ${gradeLabel} PDF regenerated`);
+        // Upload regenerated PDF to Storage instead of writing to git
+        await uploadBufferToGalleryStorage(pdfBuffer, storagePdfPath, 'application/pdf');
+        console.log(`   ✅ ${gradeLabel} PDF regenerated and uploaded to Storage`);
+
+        await fs.rm(tempImagePath, { force: true });
       } catch (pdfErr) {
         console.warn(`   ⚠️ PDF regeneration failed (content still saved): ${pdfErr.message}`);
         pdfWarning = true;

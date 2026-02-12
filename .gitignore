@@ -18,6 +18,7 @@ package-lock.json
 # Logs
 *.log
 firebase-service-account.json
+tools/serviceAccountKey.json
 
 # Temporary/utility scripts
 clean-queue.js

@@ -20,6 +20,22 @@ const state = {
 
 const IMAGES_PER_PAGE = 48;
 
+// Firebase Storage migration — flip to true after uploading files to Storage
+const STORAGE_BUCKET = 'sias-8178a.firebasestorage.app';
+const STORAGE_ENABLED = true;
+
+function resolveAssetUrl(relativePath) {
+  if (!relativePath) return '';
+  if (STORAGE_ENABLED && (
+    relativePath.startsWith('images/') ||
+    relativePath.startsWith('pdfs/') ||
+    relativePath.startsWith('5e_lessons/')
+  )) {
+    return `https://firebasestorage.googleapis.com/v0/b/${STORAGE_BUCKET}/o/${encodeURIComponent(relativePath)}?alt=media`;
+  }
+  return relativePath;
+}
+
 // Initialize on DOM load
 document.addEventListener('DOMContentLoaded', () => {
   initializeRandomHeroImage();
@@ -601,7 +617,7 @@ function createGalleryItem(image) {
   const standards = image.ngssStandards?.[gradeKey] || [];
 
   item.innerHTML = `
-    <div class="image-container" style="background-image: url('${image.placeholderPath || image.imagePath}'); background-size: cover; background-position: center;">
+    <div class="image-container" style="background-image: url('${resolveAssetUrl(image.placeholderPath || image.imagePath)}'); background-size: cover; background-position: center;">
       ${isRecent ? '<span class="new-badge">✨ New</span>' : ''}
       ${standards.length > 0 ? `
         <div class="ngss-badges-container">
@@ -609,15 +625,15 @@ function createGalleryItem(image) {
         </div>
       ` : ''}
       <picture>
-        ${image.webpPath ? `<source srcset="${image.webpPath}" type="image/webp">` : ''}
+        ${image.webpPath ? `<source srcset="${resolveAssetUrl(image.webpPath)}" type="image/webp">` : ''}
         <img
-          src="${image.thumbPath || image.imagePath}"
+          src="${resolveAssetUrl(image.thumbPath || image.imagePath)}"
           alt="${image.title}"
           width="400"
           height="280"
           loading="lazy"
           decoding="async"
-          onerror="this.src='${image.imagePath}'"
+          onerror="this.src='${resolveAssetUrl(image.imagePath)}'"
         />
       </picture>
     </div>
@@ -655,7 +671,7 @@ function createGalleryItem(image) {
   const imgElement = item.querySelector('.image-container img');
   imgElement.style.cursor = 'pointer';
   imgElement.onclick = () => {
-    openImageModal(image.imagePath, image.title, image);
+    openImageModal(resolveAssetUrl(image.imagePath), image.title, image);
   };
 
   return item;
@@ -942,7 +958,7 @@ async function renderRecommendations(currentImage) {
   }
 
   thumbsContainer.innerHTML = recommended.map(img => {
-    const thumbSrc = img.thumbPath || img.imagePath;
+    const thumbSrc = resolveAssetUrl(img.thumbPath || img.imagePath);
     const title = img.title || 'Untitled';
     return `
       <div class="modal-rec-item" onclick="openModal(${img.id})" role="button" tabindex="0" aria-label="View ${title}">
@@ -1061,7 +1077,7 @@ async function openModal(imageId) {
   }
 
   // Update modal header
-  document.querySelector('.modal-thumbnail').src = image.imagePath;
+  document.querySelector('.modal-thumbnail').src = resolveAssetUrl(image.imagePath);
   document.querySelector('.modal-thumbnail').alt = image.title;
   document.getElementById('modal-title').textContent = image.title;
 
@@ -1172,7 +1188,7 @@ async function openModal(imageId) {
       const baseFilename = image.filename.replace(/\.[^/.]+$/, ''); // strip extension
       const gradeKey = state.selectedGradeLevel; // read at click time for grade changes
       const pdfPath = `pdfs/${image.category}/${baseFilename}-${gradeKey}.pdf`;
-      window.open(pdfPath, '_blank');
+      window.open(resolveAssetUrl(pdfPath), '_blank');
     };
   }
 
@@ -1189,7 +1205,7 @@ async function openModal(imageId) {
       }
       const baseFilename = image.filename.replace(/\.[^/.]+$/, '');
       const edpPath = `pdfs/${image.category}/${baseFilename}-edp.pdf`;
-      window.open(edpPath, '_blank');
+      window.open(resolveAssetUrl(edpPath), '_blank');
     };
   }
 
@@ -1207,7 +1223,7 @@ async function openModal(imageId) {
       const baseFilename = image.filename.replace(/\.[^/.]+$/, '');
       const gradeKey = state.selectedGradeLevel;
       const fiveEPath = `5e_lessons/${image.category}/${baseFilename}-${gradeKey}.pdf`;
-      window.open(fiveEPath, '_blank');
+      window.open(resolveAssetUrl(fiveEPath), '_blank');
     };
   }
 

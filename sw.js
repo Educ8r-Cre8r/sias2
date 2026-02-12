@@ -3,7 +3,7 @@
  * Progressive Web App caching with per-resource strategies.
  */
 
-const CACHE_VERSION = 'v3';
+const CACHE_VERSION = 'v4';
 const SHELL_CACHE = `sias-shell-${CACHE_VERSION}`;
 const METADATA_CACHE = `sias-metadata-${CACHE_VERSION}`;
 const CONTENT_CACHE = `sias-content-${CACHE_VERSION}`;
@@ -92,6 +92,19 @@ self.addEventListener('fetch', (event) => {
   // Network-only: Firebase/Auth/API calls — don't interfere
   if (NETWORK_ONLY_PATTERNS.some(pattern => request.url.includes(pattern))) {
     return;
+  }
+
+  // 0. Firebase Storage assets → same cache strategy as local files
+  if (request.url.includes('firebasestorage.googleapis.com') && request.url.includes('sias-8178a')) {
+    if (request.url.includes(encodeURIComponent('images/'))) {
+      event.respondWith(cacheFirst(request, IMAGE_CACHE));
+      return;
+    }
+    if (request.url.includes(encodeURIComponent('pdfs/')) ||
+        request.url.includes(encodeURIComponent('5e_lessons/'))) {
+      event.respondWith(cacheFirst(request, PDF_CACHE));
+      return;
+    }
   }
 
   // 1. gallery-metadata.json and ngss-index.json → Network First

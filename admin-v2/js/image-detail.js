@@ -67,8 +67,8 @@ function showDetailModal(imageId) {
     body.innerHTML = `
         <div class="detail-grid">
             <div>
-                <img class="detail-image" src="../${image.imagePath}" alt="${escapeHtml(image.title)}"
-                     onerror="this.src='../${image.thumbPath || image.imagePath}'">
+                <img class="detail-image" src="${resolveAssetUrl('../' + image.imagePath)}" alt="${escapeHtml(image.title)}"
+                     onerror="this.src='${resolveAssetUrl('../' + (image.thumbPath || image.imagePath))}'">
                 <div class="mt-16" style="display: flex; gap: 8px; flex-wrap: wrap;">
                     <button class="btn btn-secondary btn-small" id="edit-meta-btn" onclick="enterEditMode(${image.id})">
                         Edit Info

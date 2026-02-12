@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
+    "firebase-admin": "^13.6.1",
     "sharp": "^0.33.5"
   },
-  "devDependencies": {},
   "author": "Alex Jones",
   "license": "MIT"
 }

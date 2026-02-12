@@ -23,7 +23,7 @@ function renderImagesGrid() {
 
     container.innerHTML = images.map(img => {
         const hasCost = img.processingCost !== undefined && img.processingCost !== null;
-        const thumbSrc = img.thumbPath ? '../' + img.thumbPath : '../' + img.imagePath;
+        const thumbSrc = resolveAssetUrl(img.thumbPath ? '../' + img.thumbPath : '../' + img.imagePath);
         const isSelected = selectedImageIds.has(img.id);
 
         return `

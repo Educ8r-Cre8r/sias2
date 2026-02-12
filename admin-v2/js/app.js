@@ -3,6 +3,24 @@
  * Tab switching, initialization, shared utilities.
  */
 
+// Firebase Storage migration — flip to true after uploading files to Storage
+const STORAGE_BUCKET = 'sias-8178a.firebasestorage.app';
+const STORAGE_ENABLED = true;
+
+function resolveAssetUrl(relativePath) {
+  if (!relativePath) return '';
+  // Strip leading ../ used by admin-v2 subdirectory
+  const cleaned = relativePath.replace(/^\.\.\//, '');
+  if (STORAGE_ENABLED && (
+    cleaned.startsWith('images/') ||
+    cleaned.startsWith('pdfs/') ||
+    cleaned.startsWith('5e_lessons/')
+  )) {
+    return `https://firebasestorage.googleapis.com/v0/b/${STORAGE_BUCKET}/o/${encodeURIComponent(cleaned)}?alt=media`;
+  }
+  return relativePath;
+}
+
 let dashboardInitialized = false;
 
 /**

@@ -28,7 +28,7 @@ function showDeleteModal(imageId) {
     const body = document.getElementById('delete-modal-body');
 
     // Determine thumbnail path
-    const thumbSrc = image.thumbPath ? '../' + image.thumbPath : '../' + image.imagePath;
+    const thumbSrc = resolveAssetUrl(image.thumbPath ? '../' + image.thumbPath : '../' + image.imagePath);
 
     body.innerHTML = `
         <div class="delete-preview">
