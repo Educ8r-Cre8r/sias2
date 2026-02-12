@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "50%",
+      "label": "Koi Fish in Pond",
+      "fact": "These colorful koi fish live in the pond and need water, food, and oxygen to survive. Fish are animals that have special body parts called gills that help them breathe underwater, just like you use lungs to breathe air. This pond is the koi's habitat — that's where they live and find everything they need to stay alive and healthy.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "A habitat is a place where an animal lives and can find food, water, shelter, and air to survive."
+      }
+    },
+    {
+      "id": 2,
+      "x": "70%",
+      "y": "25%",
+      "label": "Flowering Plants",
+      "fact": "The red and yellow flowers growing around the pond are living plants that need sunlight, water, and soil to grow. Plants make their own food using sunlight in a process called photosynthesis, and they also provide food and shelter for other living things like insects and animals. These colorful flowers attract pollinators that help the plants make seeds.",
+      "vocabulary": {
+        "term": "Photosynthesis",
+        "definition": "Photosynthesis is the way plants use sunlight, water, and air to make their own food and energy to grow."
+      }
+    },
+    {
+      "id": 3,
+      "x": "30%",
+      "y": "65%",
+      "label": "Turtle Decoration & Ecosystem",
+      "fact": "In a real pond ecosystem like this one, turtles and fish are part of a food chain where different living things depend on each other. Plants produce food from sunlight, small animals eat the plants, and larger animals like fish and turtles eat the smaller animals. This balanced system shows how all organisms in a habitat are connected and need each other to survive.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "An ecosystem is all the living things (like plants and animals) and non-living things (like water and rocks) in an area that work together."
+      }
+    },
+    {
+      "id": 4,
+      "x": "15%",
+      "y": "35%",
+      "label": "Gravel & Rocks",
+      "fact": "The rocks and gravel around the pond are non-living things that are important for the ecosystem. Rocks help filter water to keep it clean for the fish, and gravel provides a safe place for plants to grow roots and for small organisms to live. These materials show how both living and non-living things work together in nature.",
+      "vocabulary": {
+        "term": "Non-living things",
+        "definition": "Non-living things are objects in nature that are not alive, such as rocks, water, soil, and air."
+      }
+    }
+  ]
+}

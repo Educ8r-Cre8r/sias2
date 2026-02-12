@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-12T21:15:14.806Z",
-  "totalImages": 170,
+  "lastUpdated": "2026-02-12T23:15:47.789Z",
+  "totalImages": 171,
   "images": [
     {
       "id": 1,
@@ -8918,6 +8918,77 @@
       "processingCost": 0.2628,
       "processingTime": "3m 46s",
       "processedAt": "2026-02-12T20:37:49.160Z"
+    },
+    {
+      "id": 172,
+      "filename": "test_image.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/test_image.jpg",
+      "thumbPath": "images/life-science/thumbs/test_image.jpg",
+      "webpPath": "images/life-science/webp/test_image.webp",
+      "placeholderPath": "images/life-science/placeholders/test_image.jpg",
+      "contentFile": "content/life-science/test_image.json",
+      "title": "Test Image",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1-2",
+          "1-LS1.A",
+          "1-LS1.B",
+          "1-LS1.D",
+          "1-LS3-1"
+        ],
+        "grade2": [
+          "2-LS2-1",
+          "2-LS2-2",
+          "2-LS2.A",
+          "2-LS2.B",
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS2-1",
+          "3-LS2.A",
+          "3-LS3-2",
+          "3-LS3.B",
+          "3-LS4-3",
+          "3-LS4-4",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1-2",
+          "4-LS1.A",
+          "4-LS1.B",
+          "4-LS1.D"
+        ],
+        "grade5": [
+          "5-LS1-1",
+          "5-LS1.A",
+          "5-LS2-1",
+          "5-LS2.A",
+          "5-LS2.B"
+        ]
+      },
+      "keywords": [
+        "pond ecosystem",
+        "aquatic habitat",
+        "water plants",
+        "animal homes",
+        "garden ecosystem",
+        "biodiversity"
+      ],
+      "processingCost": 0.1159,
+      "processingTime": "4m 6s",
+      "processedAt": "2026-02-12T23:19:08.315Z"
     }
   ]
 }
