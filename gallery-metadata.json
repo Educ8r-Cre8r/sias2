@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-12T00:10:02.031Z",
-  "totalImages": 162,
+  "lastUpdated": "2026-02-12T01:02:28.789Z",
+  "totalImages": 163,
   "images": [
     {
       "id": 1,
@@ -8336,6 +8336,73 @@
       "processingCost": 0.0953,
       "processingTime": "3m 10s",
       "processedAt": "2026-02-11T23:08:11.797Z"
+    },
+    {
+      "id": 164,
+      "filename": "parent_and_offspring.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/parent_and_offspring.jpg",
+      "thumbPath": "images/life-science/thumbs/parent_and_offspring.jpg",
+      "webpPath": "images/life-science/webp/parent_and_offspring.webp",
+      "placeholderPath": "images/life-science/placeholders/parent_and_offspring.jpg",
+      "contentFile": "content/life-science/parent_and_offspring.json",
+      "title": "Parent And Offspring",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1-2",
+          "1-LS1.A",
+          "1-LS1.D",
+          "1-LS3-1",
+          "1-LS3.A"
+        ],
+        "grade2": [
+          "2-LS1.B",
+          "2-LS2.A",
+          "2-LS4-1",
+          "2-LS4.D"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.A",
+          "3-LS1.B",
+          "3-LS3-1",
+          "3-LS3.A",
+          "3-LS4-2",
+          "3-LS4-3",
+          "3-LS4.A"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1-2",
+          "4-LS1.A",
+          "4-LS1.D"
+        ],
+        "grade5": [
+          "1-LS1-2",
+          "3-LS1-1",
+          "3-LS3-1",
+          "5-LS2-1",
+          "5-LS2.A",
+          "K-LS1-1"
+        ]
+      },
+      "keywords": [
+        "bird behavior",
+        "animal communication",
+        "wings",
+        "feathers",
+        "life cycles",
+        "animal adaptation"
+      ],
+      "processingCost": 0.1139,
+      "processingTime": "3m 45s",
+      "processedAt": "2026-02-12T01:05:48.612Z"
     }
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "35%",
+      "y": "25%",
+      "label": "Bird Wings",
+      "fact": "Birds have special wings that help them fly through the air. Wings are made of lightweight feathers that work together to lift the bird up and help it move from place to place. This is called **adaptation** — that's when a living thing has a special body part that helps it survive and do what it needs to do.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps a living thing survive and live in its environment."
+      }
+    },
+    {
+      "id": 2,
+      "x": "32%",
+      "y": "45%",
+      "label": "Open Beak",
+      "fact": "This baby bird has its beak wide open because it's hungry and waiting for its parent to bring food. Baby birds need to eat many times a day to grow bigger and stronger. Birds have different types of beaks depending on what they eat — some beaks are pointed for catching insects, while others are flat for eating seeds.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The stages a living thing goes through from birth to adulthood, like when a baby bird grows into an adult bird."
+      }
+    },
+    {
+      "id": 3,
+      "x": "72%",
+      "y": "50%",
+      "label": "Adult Bird",
+      "fact": "This adult bird is smaller and quieter than the baby bird, and it looks different too! As birds grow up, they develop their full adult feathers and learn behaviors like finding food and caring for babies. The differences between baby and adult birds show how living things **change and grow** through their life cycle.",
+      "vocabulary": {
+        "term": "Life Stage",
+        "definition": "A period in a living thing's life, like being a baby, child, or adult."
+      }
+    },
+    {
+      "id": 4,
+      "x": "50%",
+      "y": "70%",
+      "label": "Wooden Fence",
+      "fact": "The fence is part of this bird's **habitat** — the place where the bird lives and finds food, water, and shelter. Different habitats have different characteristics, and birds choose places that have what they need to survive. This wooden fence might provide a safe perch where birds can rest and look for insects to eat.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The place where a living thing naturally lives and can find food, water, air, and shelter."
+      }
+    }
+  ]
+}
