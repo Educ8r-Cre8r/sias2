@@ -330,8 +330,8 @@ exports.processQueue = functions.runWith({
     const startedAt = staleData.startedAt ? staleData.startedAt.toDate() : null;
     const minutesProcessing = startedAt ? (Date.now() - startedAt.getTime()) / 60000 : 999;
 
-    if (minutesProcessing > 10) {
-      // Item has been "processing" for over 10 minutes — likely crashed (OOM)
+    if (minutesProcessing > 12) {
+      // Item has been "processing" for over 12 minutes — likely crashed (OOM/timeout)
       console.warn(`⚠️ Stale processing detected: ${staleData.filename} (${Math.round(minutesProcessing)}m). Resetting to pending.`);
       const attempts = (staleData.attempts || 0) + 1;
       if (attempts >= 3) {
@@ -361,7 +361,8 @@ exports.processQueue = functions.runWith({
   const doc = snapshot.docs[0];
   const item = doc.data();
 
-  console.log(`🚀 Processing: ${item.filename}`);
+  const taskType = item.type || 'image-processing';
+  console.log(`🚀 Processing: ${item.filename} (${taskType})`);
 
   await doc.ref.update({
     status: 'processing',
@@ -369,7 +370,11 @@ exports.processQueue = functions.runWith({
   });
 
   try {
-    await processImageFromQueue(item);
+    if (taskType === '5e-generation') {
+      await process5EFromQueue(item);
+    } else {
+      await processImageFromQueue(item);
+    }
 
     await doc.ref.update({
       status: 'completed',
@@ -377,7 +382,7 @@ exports.processQueue = functions.runWith({
     });
 
     setTimeout(() => doc.ref.delete(), 3600000);
-    console.log(`✅ Completed: ${item.filename}`);
+    console.log(`✅ Completed: ${item.filename} (${taskType})`);
 
   } catch (error) {
     console.error(`❌ Failed: ${error.message}`);
@@ -385,10 +390,13 @@ exports.processQueue = functions.runWith({
 
     if (attempts >= 3) {
       await doc.ref.update({ status: 'failed', error: error.message, attempts });
-      const bucket = admin.storage().bucket();
-      try {
-        await bucket.file(item.filePath).move(`failed/${Date.now()}_${item.filename}`);
-      } catch (e) {}
+      // Only move to failed/ for image-processing tasks (not 5E follow-ups)
+      if (taskType !== '5e-generation') {
+        const bucket = admin.storage().bucket();
+        try {
+          await bucket.file(item.filePath).move(`failed/${Date.now()}_${item.filename}`);
+        } catch (e) {}
+      }
     } else {
       await doc.ref.update({ status: 'pending', attempts });
     }
@@ -631,15 +639,23 @@ async function processImageFromQueue(queueItem) {
       console.warn(`⚠️ EDP generation failed (non-blocking): ${edpErr.message}`);
     }
 
-    // Generate 5E Lesson Plan content and PDFs for all grade levels
-    console.log('🟣 Generating 5E Lesson Plan content...');
+    // Queue 5E Lesson Plan generation as a separate follow-up task
+    // (5E adds ~5 min of API calls which exceeds the 540s function timeout if combined with the main pipeline)
+    console.log('🟣 Queueing 5E Lesson Plan generation as follow-up task...');
     try {
-      const fiveECost = await generate5EContentAndPDFs(
-        anthropicKey, imageBase64, mediaType, filename, category, repoDir, targetImagePath, logoPath, nameNoExt
-      );
-      totalCost += fiveECost;
-    } catch (fiveEErr) {
-      console.warn(`⚠️ 5E generation failed (non-blocking): ${fiveEErr.message}`);
+      await db.collection('imageQueue').add({
+        type: '5e-generation',
+        filename,
+        category,
+        filePath: `processed/${category}/${filename}`,
+        nameNoExt,
+        status: 'pending',
+        createdAt: admin.firestore.FieldValue.serverTimestamp(),
+        attempts: 0
+      });
+      console.log('✅ 5E generation queued for next processing cycle');
+    } catch (queueErr) {
+      console.warn(`⚠️ Failed to queue 5E generation: ${queueErr.message}`);
     }
 
     // Calculate processing duration
@@ -666,7 +682,7 @@ async function processImageFromQueue(queueItem) {
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
     const commitAction = isReprocess ? 'Re-process' : 'Add';
-    await repoGit.commit(`${commitAction} ${filename} with educational content, hotspots, keywords, NGSS standards, lesson PDFs, EDP, and 5E lessons
+    await repoGit.commit(`${commitAction} ${filename} with educational content, hotspots, keywords, NGSS standards, lesson PDFs, and EDP
 
 - Category: ${category}
 - Generated content for all grade levels (K-5)
@@ -675,7 +691,7 @@ async function processImageFromQueue(queueItem) {
 - Extracted ${totalStandards} NGSS standards for gallery badges
 - Generated ${pdfCount} lesson guide PDFs
 - Generated engineering design process challenge PDF
-- Generated 5E lesson plan content and PDFs for all grade levels
+- 5E lesson plans queued for follow-up generation
 - Processing time: ${processingTimeStr}
 - Total cost: $${totalCost.toFixed(4)}
 
@@ -711,6 +727,107 @@ Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
     } catch (moveError) {
       console.error('❌ Error in failure handler:', moveError);
     }
+
+    throw error;
+  }
+}
+
+/**
+ * Process a 5E lesson plan generation task from the queue.
+ * This is a follow-up task queued by processImageFromQueue to avoid timeout.
+ * Downloads the image from processed/, clones repo, generates 5E content + PDFs, pushes.
+ */
+async function process5EFromQueue(queueItem) {
+  const { filename, category, filePath, nameNoExt } = queueItem;
+  const bucket = admin.storage().bucket();
+  const anthropicKey = process.env.ANTHROPIC_API_KEY;
+
+  console.log(`🟣 5E Generation: ${filename}`);
+  console.log(`📂 Category: ${category}`);
+
+  const tempDir = os.tmpdir();
+  const tempFilePath = path.join(tempDir, filename);
+
+  try {
+    // Download image from processed/ folder
+    await bucket.file(filePath).download({ destination: tempFilePath });
+    console.log(`⬇️  Downloaded from: ${filePath}`);
+
+    // Read image as base64
+    const imageBuffer = await fs.readFile(tempFilePath);
+    const imageBase64 = imageBuffer.toString('base64');
+    const metadata = await sharp(tempFilePath).metadata();
+    const mediaType = `image/${metadata.format}`;
+
+    // Clone repo
+    const repoDir = path.join(tempDir, 'sias2-repo');
+    const githubToken = process.env.GITHUB_TOKEN;
+    const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+
+    try {
+      await fs.rm(repoDir, { recursive: true, force: true });
+    } catch (e) {}
+
+    console.log('📦 Cloning GitHub repository...');
+    const git = simpleGit();
+    await git.clone(repoUrl, repoDir);
+    console.log('✅ Repository cloned');
+
+    const repoGit = simpleGit(repoDir);
+    await repoGit.addConfig('user.name', 'SIAS Automation');
+    await repoGit.addConfig('user.email', 'mr.alexdjones@gmail.com');
+
+    const targetImagePath = path.join(repoDir, 'images', category, filename);
+    const logoPath = path.join(repoDir, 'sias_logo.png');
+
+    // Generate 5E content and PDFs
+    const fiveECost = await generate5EContentAndPDFs(
+      anthropicKey, imageBase64, mediaType, filename, category, repoDir, targetImagePath, logoPath, nameNoExt
+    );
+
+    // Update metadata with 5E cost added to existing processingCost
+    const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+    const metadataData = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+    const imageEntry = metadataData.images.find(img => img.filename === filename);
+    if (imageEntry) {
+      imageEntry.processingCost = parseFloat(((imageEntry.processingCost || 0) + fiveECost).toFixed(4));
+      await fs.writeFile(metadataPath, JSON.stringify(metadataData, null, 2));
+      console.log(`✅ Updated processing cost (+$${fiveECost.toFixed(4)}) in metadata`);
+    }
+
+    // Commit and push
+    console.log('📤 Committing 5E content to GitHub...');
+    await repoGit.add('.');
+    await repoGit.commit(`Add 5E lesson plans for ${filename}
+
+- Generated 5E lesson plan content for all grade levels (K-5)
+- Generated 5E lesson plan PDFs for all grade levels
+- Total 5E cost: $${fiveECost.toFixed(4)}
+
+Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
+
+    await repoGit.push('origin', 'main');
+    console.log('✅ 5E content pushed to GitHub');
+
+    // Clean up
+    await fs.rm(tempFilePath, { force: true });
+    await fs.rm(repoDir, { recursive: true, force: true });
+
+    console.log('🎉 ============================================');
+    console.log(`✅ 5E generation complete: ${filename}`);
+    console.log(`💰 5E cost: $${fiveECost.toFixed(4)}`);
+    console.log('🎉 ============================================');
+
+    return { success: true, filename, cost: fiveECost };
+
+  } catch (error) {
+    console.error('❌ Error in 5E generation:', error);
+
+    // Clean up temp files on error
+    try {
+      await fs.rm(tempFilePath, { force: true });
+      await fs.rm(path.join(tempDir, 'sias2-repo'), { recursive: true, force: true });
+    } catch (e) {}
 
     throw error;
   }
