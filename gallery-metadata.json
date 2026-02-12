@@ -6991,53 +6991,62 @@
       "title": "Wind Turbines",
       "hasContent": true,
       "keywords": [
+        "wind energy",
         "renewable energy",
         "wind turbines",
-        "wind power",
-        "clean energy",
-        "sustainable resources",
-        "energy generation"
+        "energy sources",
+        "sustainable power",
+        "wind farm"
       ],
       "ngssStandards": {
         "kindergarten": [
-          "K-ESS2.E",
-          "K-ETS1.A",
-          "K-PS3-1",
-          "K-PS3.A"
+          "K-ESS2-1",
+          "K-ESS2.A",
+          "K-ESS3-1",
+          "K-ESS3-3",
+          "K-ESS3.A",
+          "K-ESS3.C"
         ],
         "grade1": [
-          "K-ETS1.A",
-          "K-PS3-1",
-          "K-PS3.A"
+          "1-ESS1-1",
+          "1-ESS1-2",
+          "1-ESS1.A",
+          "1-ESS1.B"
         ],
         "grade2": [
-          "2-ESS1.C",
-          "2-PS1-1",
-          "2-PS3.A",
-          "K-ESS2.E"
+          "2-ESS1-1",
+          "2-ESS1.A",
+          "2-ESS2-1",
+          "2-ESS2-2",
+          "2-ESS2.A",
+          "2-ESS2.B"
         ],
         "grade3": [
+          "3-ESS2-1",
+          "3-ESS2-2",
           "3-ESS2.A",
-          "3-PS2-1",
-          "3-PS2.A"
+          "3-ESS2.D",
+          "3-ESS3-1",
+          "3-ESS3.B"
         ],
         "grade4": [
+          "4-ESS2-2",
           "4-ESS3-1",
+          "4-ESS3-2",
           "4-ESS3.A",
-          "4-PS3-1",
-          "4-PS3.A",
-          "4-PS3.B"
+          "4-ESS3.B"
         ],
         "grade5": [
+          "5-ESS2-1",
+          "5-ESS2.A",
           "5-ESS3-1",
           "5-ESS3.A",
-          "5-ESS3.B",
-          "5-PS3-1",
-          "5-PS3.A",
-          "5-PS3.B"
+          "5-ESS3.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.1164,
+      "processingTime": "5m 12s",
+      "processedAt": "2026-02-12T06:48:14.679Z"
     },
     {
       "id": 138,

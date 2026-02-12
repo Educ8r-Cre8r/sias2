@@ -5,43 +5,43 @@
       "x": "50%",
       "y": "35%",
       "label": "Wind Turbine",
-      "fact": "Wind turbines are giant machines that use moving air to create electricity for homes and schools. When the wind blows, it pushes the blades around, and this spinning motion generates clean energy without burning fuel or making pollution. This is called **renewable energy** — that's energy that comes from nature and doesn't run out, like wind, sun, and water.",
+      "fact": "These tall machines called wind turbines use the power of wind to create electricity for homes and schools! The wind pushes the blades around, and this spinning motion generates energy that we can use instead of burning coal or oil. This is called **renewable energy** — that's energy that comes from natural resources like wind, sun, and water that won't run out.",
       "vocabulary": {
         "term": "Renewable Energy",
-        "definition": "Energy that comes from nature and can be used again and again without running out, like wind and sunshine."
+        "definition": "Energy that comes from nature and can be replaced, like wind, sunlight, and flowing water."
       }
     },
     {
       "id": 2,
       "x": "15%",
       "y": "55%",
-      "label": "Farmland & Soil",
-      "fact": "The flat, organized rows of soil you see here show how farmers prepare land to grow food crops. Healthy soil contains nutrients that help plants grow strong, and farmers must take care of this land so it stays fertile for many years. The soil is a natural resource that we need to protect because **conservation** — that's taking care of nature and using resources wisely — keeps our Earth healthy.",
+      "label": "Farmland Soil",
+      "fact": "The brown soil you see here is very important for growing crops like corn and soybeans that feed people and animals. Good soil needs nutrients, water, and air to help plants grow strong and healthy. Farmers must take care of the land by rotating crops and protecting it from erosion, which is called **soil conservation** — that's when we protect dirt from being washed or blown away.",
       "vocabulary": {
-        "term": "Conservation",
-        "definition": "Taking good care of nature and using natural resources wisely so they last a long time."
+        "term": "Soil Conservation",
+        "definition": "The practice of protecting and taking care of soil so it stays healthy and fertile for growing plants."
       }
     },
     {
       "id": 3,
-      "x": "70%",
-      "y": "25%",
-      "label": "Clear Blue Sky",
-      "fact": "The clear, blue sky in this image shows ideal weather conditions for wind turbines to work well. When there is plenty of wind and clear skies, turbines can spin faster and produce more electricity for people to use. Scientists study **weather patterns** — that's how wind, temperature, and clouds change over time — to predict when wind farms will be most productive.",
+      "x": "60%",
+      "y": "20%",
+      "label": "Weather and Sky",
+      "fact": "The blue sky above shows clear weather conditions that are perfect for wind turbines to spin and generate electricity! Wind patterns and weather change throughout the year and seasons, and these changes affect how much energy we can get from wind. This is why scientists study **weather patterns** — that's how weather repeats in certain ways so we can predict what might happen next.",
       "vocabulary": {
         "term": "Weather Patterns",
-        "definition": "The way weather changes over time, like how wind blows harder on some days or how clouds move across the sky."
+        "definition": "The way weather tends to repeat or change in regular ways, like seasons or daily temperature changes."
       }
     },
     {
       "id": 4,
-      "x": "40%",
-      "y": "70%",
-      "label": "Power Lines",
-      "fact": "The electrical lines running across the landscape carry electricity from the wind turbines to homes, schools, and businesses far away. Energy from wind turbines is converted and sent through these wires as a form of **kinetic energy** — that's the energy of something that is moving, like spinning turbine blades — which people can then use to power lights and devices.",
+      "x": "75%",
+      "y": "45%",
+      "label": "Flat Landform",
+      "fact": "This flat landscape is perfect for wind turbines because wind can blow freely across open land without being blocked by mountains or buildings! Different landforms like plains, hills, and mountains affect how wind moves and where we can best use renewable energy. The shape of the land is called **topography** — that's the natural features and shape of Earth's surface in a certain place.",
       "vocabulary": {
-        "term": "Kinetic Energy",
-        "definition": "The energy that something has because it is moving, like a spinning wheel or blowing wind."
+        "term": "Topography",
+        "definition": "The natural shape and features of the land, including mountains, valleys, plains, and hills."
       }
     }
   ]
