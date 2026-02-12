@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Eye Stalks",
+      "fact": "This crab has two long stalks on top of its head with eyes at the tips! These special body parts help the crab see in many directions so it can spot food and watch for danger. This is called **adaptation** — a special feature that helps an animal survive in its environment.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and live in its home."
+      }
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "55%",
+      "label": "Claws and Legs",
+      "fact": "The crab uses its large claws to catch food, dig in the sand, and protect itself from predators. Its legs help it walk sideways across the sandy beach. These body structures work together to help the crab meet its basic needs like getting food and staying safe.",
+      "vocabulary": {
+        "term": "Body Structure",
+        "definition": "The different parts of an animal's body, like legs, claws, or eyes, that help it do important jobs."
+      }
+    },
+    {
+      "id": 3,
+      "x": "30%",
+      "y": "70%",
+      "label": "Sandy Habitat",
+      "fact": "This crab lives on the beach where sand is its home, or **habitat**. The sandy environment gives the crab a place to hide, dig burrows, and find food like small creatures in the sand. Different animals are specially adapted to live in different habitats!",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "The natural home or place where an animal or plant lives and finds food, water, and shelter."
+      }
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "45%",
+      "label": "Brown Coloring",
+      "fact": "The crab's brownish color helps it blend in with the sand, which is called **camouflage**. This clever adaptation helps the crab hide from bigger animals that want to eat it and also helps it sneak up on smaller creatures for food. The color is a trait passed down from its parents!",
+      "vocabulary": {
+        "term": "Camouflage",
+        "definition": "When an animal's color or pattern helps it blend in with its surroundings so it's hard to see."
+      }
+    }
+  ]
+}
