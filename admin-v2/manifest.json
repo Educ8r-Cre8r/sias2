@@ -1,0 +1,19 @@
+{
+  "name": "SIAS Admin Dashboard",
+  "short_name": "SIAS Admin",
+  "description": "Admin dashboard for Science In A Snapshot — manage images, content, and analytics.",
+  "start_url": "/admin-v2/",
+  "scope": "/admin-v2/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#1a1a2e",
+  "theme_color": "#6c5ce7",
+  "categories": ["education", "productivity"],
+  "lang": "en-US",
+  "icons": [
+    { "src": "/icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-maskable-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
