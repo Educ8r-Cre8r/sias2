@@ -126,12 +126,7 @@ async function submitRating(photoId, stars) {
 
   // Check if Firebase is available
   if (typeof db === 'undefined' || !db) {
-    const errorMsg = 'Ratings system is currently unavailable.\n\nPossible causes:\n' +
-      '1. Firestore security rules may be too restrictive\n' +
-      '2. Network connectivity issue\n' +
-      '3. Firebase not properly initialized\n\n' +
-      'Please check the browser console (F12) for detailed error information.';
-    alert(errorMsg);
+    showToast('Ratings system is currently unavailable', 'error');
 
     console.error('=== FIREBASE NOT AVAILABLE ===');
     console.error('db is undefined. Check firebase-config.js initialization.');
@@ -142,7 +137,7 @@ async function submitRating(photoId, stars) {
   // Get current user ID
   const userId = window.getCurrentUserId ? window.getCurrentUserId() : null;
   if (!userId) {
-    alert('You must be signed in to rate photos. Please refresh the page and try again.');
+    showToast('⚠️ Please sign in to rate photos', 'warning');
     console.error('No user ID available. User not authenticated.');
     return;
   }
@@ -155,7 +150,7 @@ async function submitRating(photoId, stars) {
     const existingRatingDoc = await db.collection('userRatings').doc(userRatingId).get();
 
     if (existingRatingDoc.exists) {
-      alert('You have already rated this photo!');
+      showToast('⭐ You already rated this photo', 'warning');
       console.log('User has already rated photo:', id);
       return;
     }
@@ -200,6 +195,7 @@ async function submitRating(photoId, stars) {
     userRatingsCache[userRatingId] = stars;
 
     console.log(`✅ Rating submitted for photo ${id}: ${stars} stars`);
+    showToast('⭐ Rating saved!', 'success');
 
     // Update UI
     await updateRatingDisplay(photoId);
@@ -212,9 +208,9 @@ async function submitRating(photoId, stars) {
 
     // Provide specific error feedback
     if (error.code === 'permission-denied') {
-      alert('You have already rated this photo!');
+      showToast('⭐ You already rated this photo', 'warning');
     } else {
-      alert('Failed to submit rating: ' + error.message);
+      showToast('❌ Failed to submit rating', 'error');
     }
   }
 }

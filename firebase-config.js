@@ -336,7 +336,7 @@ async function signInWithGoogle() {
 
       const result = await currentUser.linkWithPopup(provider);
       console.log('✅ Anonymous account linked to Google:', result.user.email);
-      alert(`Welcome! Your anonymous ratings have been saved to your Google account (${result.user.email}).`);
+      showToast(`🎉 Welcome! Ratings saved to ${result.user.email}`, 'success');
 
     } else {
       // Regular sign in
@@ -344,7 +344,7 @@ async function signInWithGoogle() {
 
       const result = await firebase.auth().signInWithPopup(provider);
       console.log('✅ Signed in with Google:', result.user.email);
-      alert(`Welcome back, ${result.user.displayName}!`);
+      showToast(`👋 Welcome back, ${result.user.displayName}!`, 'success');
     }
 
   } catch (error) {
@@ -355,13 +355,13 @@ async function signInWithGoogle() {
       console.log('User closed sign-in popup');
     } else if (error.code === 'auth/credential-already-in-use') {
       // This Google account is already linked to a different anonymous account
-      alert('This Google account is already in use. Signing you in...');
+      showToast('🔄 Account already in use — signing you in', 'info');
 
       // Sign in with the credential
       const credential = error.credential;
       await firebase.auth().signInWithCredential(credential);
     } else {
-      alert('Sign-in failed: ' + error.message);
+      showToast('❌ Sign-in failed', 'error');
     }
   }
 }
@@ -385,7 +385,7 @@ async function signOut() {
 
   } catch (error) {
     console.error('❌ Sign out error:', error);
-    alert('Sign out failed: ' + error.message);
+    showToast('❌ Sign out failed', 'error');
   }
 }
 

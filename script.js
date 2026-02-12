@@ -2704,6 +2704,31 @@ function resetContactForm() {
   document.getElementById('contact-error').style.display = 'none';
 }
 
+// ── App Toast Notification System ──
+let _toastTimer = null;
+
+/**
+ * Show a toast notification
+ * @param {string} message - Text to display
+ * @param {'success'|'error'|'warning'|'info'} type - Toast style
+ * @param {number} duration - Auto-dismiss in ms (default: 3000; errors 5000)
+ */
+function showToast(message, type = 'info', duration) {
+  const toast = document.getElementById('app-toast');
+  if (!toast) return;
+
+  clearTimeout(_toastTimer);
+  toast.textContent = message;
+  toast.className = 'app-toast ' + type + ' visible';
+
+  const ms = duration || (type === 'error' ? 5000 : 3000);
+  _toastTimer = setTimeout(() => {
+    toast.classList.remove('visible');
+  }, ms);
+}
+
+window.showToast = showToast;
+
 // ── PWA Offline / Online Toast ──
 function initializeOfflineToast() {
   const toast = document.getElementById('pwa-toast');
@@ -2711,7 +2736,7 @@ function initializeOfflineToast() {
 
   let hideTimer = null;
 
-  function showToast(message, type) {
+  function showPwaToast(message, type) {
     clearTimeout(hideTimer);
     toast.textContent = message;
     toast.className = 'pwa-toast ' + type + ' visible';
@@ -2720,6 +2745,6 @@ function initializeOfflineToast() {
     }, 4000);
   }
 
-  window.addEventListener('offline', () => showToast('You are offline', 'offline'));
-  window.addEventListener('online',  () => showToast('Back online!', 'online'));
+  window.addEventListener('offline', () => showPwaToast('You are offline', 'offline'));
+  window.addEventListener('online',  () => showPwaToast('Back online!', 'online'));
 }

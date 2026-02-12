@@ -364,7 +364,7 @@ function addPDFFooter(doc, pageWidth, pageHeight) {
 async function downloadLessonPDF(imageId) {
   // Guard: check jsPDF loaded
   if (!window.jspdf) {
-    alert('PDF library failed to load. Please check your internet connection and refresh the page.');
+    showToast('📄 PDF library failed to load — check your connection', 'error');
     return;
   }
 
@@ -377,7 +377,7 @@ async function downloadLessonPDF(imageId) {
   const cacheKey = `${image.id}-${state.selectedGradeLevel}`;
   const contentData = state.loadedContent[cacheKey];
   if (!contentData) {
-    alert('Content is still loading. Please wait a moment and try again.');
+    showToast('⏳ Content still loading — try again in a moment', 'info');
     return;
   }
 
@@ -393,7 +393,7 @@ async function downloadLessonPDF(imageId) {
     console.log('PDF generated successfully for:', image.title);
   } catch (err) {
     console.error('PDF generation failed:', err);
-    alert('PDF generation failed. Please try again.');
+    showToast('❌ PDF generation failed', 'error');
   } finally {
     // Restore button
     if (btn) {

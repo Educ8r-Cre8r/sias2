@@ -67,25 +67,25 @@ async function submitComment(imageId, text) {
   }
 
   if (typeof db === 'undefined' || !db) {
-    alert('Comments system is currently unavailable. Please try again later.');
+    showToast('💬 Comments unavailable right now', 'error');
     return false;
   }
 
   // Require Google authentication
   const userId = window.getCurrentUserId ? window.getCurrentUserId() : null;
   if (!userId || !currentUser || currentUser.isAnonymous) {
-    alert('Please sign in with Google to leave a comment.');
+    showToast('🔑 Sign in with Google to comment', 'warning');
     return false;
   }
 
   // Validate text
   const trimmed = text.trim();
   if (trimmed.length === 0) {
-    alert('Please enter a comment.');
+    showToast('✏️ Please enter a comment', 'warning');
     return false;
   }
   if (trimmed.length > 500) {
-    alert('Comments must be 500 characters or fewer.');
+    showToast('✏️ Comments must be 500 characters or fewer', 'warning');
     return false;
   }
 
@@ -96,7 +96,7 @@ async function submitComment(imageId, text) {
     // Check if user already commented
     const existing = await db.collection('comments').doc(docId).get();
     if (existing.exists) {
-      alert('You have already commented on this photo.');
+      showToast('💬 You already commented on this photo', 'warning');
       return false;
     }
 
@@ -140,9 +140,9 @@ async function submitComment(imageId, text) {
   } catch (error) {
     console.error('Error submitting comment:', error);
     if (error.code === 'permission-denied') {
-      alert('Permission denied. Please sign in with Google and try again.');
+      showToast('🔑 Permission denied — please sign in with Google', 'error');
     } else {
-      alert('Failed to submit comment. Please try again.');
+      showToast('❌ Failed to submit comment', 'error');
     }
     return false;
   }
@@ -172,7 +172,7 @@ async function deleteComment(imageId) {
     updateCardCommentCount(imageId);
   } catch (error) {
     console.error('Error deleting comment:', error);
-    alert('Failed to delete comment. Please try again.');
+    showToast('❌ Failed to delete comment', 'error');
   }
 }
 
