@@ -1096,7 +1096,7 @@ async function openModal(imageId) {
         📄 Download Lesson Guide
       </button>
       <button class="five-e-pdf-btn" aria-label="Download 5E lesson plan as PDF" title="Download 5E model lesson plan as PDF">
-        🟣 5E Lesson
+        ✏️ 5E Lesson
       </button>
       <button class="edp-pdf-btn" aria-label="Download engineering challenge as PDF" title="Download engineering design process challenge as PDF">
         🔧 Engineering Challenge
@@ -1106,6 +1106,12 @@ async function openModal(imageId) {
           <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
         </svg>
         <span class="favorite-label">Favorite</span>
+      </button>
+      <button id="modal-feedback-btn" class="modal-favorite-btn modal-feedback-btn" aria-label="Submit feedback about this photo" title="Submit feedback about this photo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <span>Feedback</span>
       </button>
       <div class="views-count">0 Views</div>
     `;
@@ -1126,6 +1132,30 @@ async function openModal(imageId) {
       favoriteBtn.setAttribute('aria-label', 'Add to My Collection');
       favoriteBtn.title = 'Add to My Collection';
     }
+  }
+
+  // Update feedback button to open contact modal with pre-filled photo info
+  const feedbackBtn = document.getElementById('modal-feedback-btn');
+  if (feedbackBtn) {
+    feedbackBtn.onclick = () => {
+      const topicSelect = document.getElementById('contact-topic');
+      const messageArea = document.getElementById('contact-message');
+      if (topicSelect) {
+        // Add "Photo Feedback" option if it doesn't exist
+        let feedbackOption = topicSelect.querySelector('option[value="Photo Feedback"]');
+        if (!feedbackOption) {
+          feedbackOption = document.createElement('option');
+          feedbackOption.value = 'Photo Feedback';
+          feedbackOption.textContent = 'Photo Feedback';
+          topicSelect.appendChild(feedbackOption);
+        }
+        topicSelect.value = 'Photo Feedback';
+      }
+      if (messageArea && !messageArea.value) {
+        messageArea.value = `Feedback about: ${image.title || image.filename}\n\n`;
+      }
+      openContactModal();
+    };
   }
 
   // Update download button to open pre-generated PDF

@@ -4715,6 +4715,19 @@ a:hover {
   }
 }
 
+/* Feedback button — inherits .modal-favorite-btn base, blue hover accent */
+.modal-feedback-btn:hover {
+  border-color: #2196F3;
+  color: #2196F3;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.modal-feedback-btn:hover svg {
+  stroke: #2196F3;
+  fill: rgba(33, 150, 243, 0.1);
+}
+
 /* ============================================
    Featured Collection System
    ============================================ */
