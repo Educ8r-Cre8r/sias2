@@ -612,6 +612,17 @@ async function processImageFromQueue(queueItem) {
       console.warn(`⚠️ EDP generation failed (non-blocking): ${edpErr.message}`);
     }
 
+    // Generate 5E Lesson Plan content and PDFs for all grade levels
+    console.log('🟣 Generating 5E Lesson Plan content...');
+    try {
+      const fiveECost = await generate5EContentAndPDFs(
+        anthropicKey, imageBase64, mediaType, filename, category, repoDir, targetImagePath, logoPath, nameNoExt
+      );
+      totalCost += fiveECost;
+    } catch (fiveEErr) {
+      console.warn(`⚠️ 5E generation failed (non-blocking): ${fiveEErr.message}`);
+    }
+
     // Calculate processing duration
     const processingDurationMs = Date.now() - processingStartTime;
     const processingMinutes = Math.floor(processingDurationMs / 60000);
@@ -636,7 +647,7 @@ async function processImageFromQueue(queueItem) {
     console.log('📤 Committing to GitHub...');
     await repoGit.add('.');
     const commitAction = isReprocess ? 'Re-process' : 'Add';
-    await repoGit.commit(`${commitAction} ${filename} with educational content, hotspots, keywords, NGSS standards, lesson PDFs, and EDP
+    await repoGit.commit(`${commitAction} ${filename} with educational content, hotspots, keywords, NGSS standards, lesson PDFs, EDP, and 5E lessons
 
 - Category: ${category}
 - Generated content for all grade levels (K-5)
@@ -645,6 +656,7 @@ async function processImageFromQueue(queueItem) {
 - Extracted ${totalStandards} NGSS standards for gallery badges
 - Generated ${pdfCount} lesson guide PDFs
 - Generated engineering design process challenge PDF
+- Generated 5E lesson plan content and PDFs for all grade levels
 - Processing time: ${processingTimeStr}
 - Total cost: $${totalCost.toFixed(4)}
 
@@ -1348,6 +1360,245 @@ async function generateEDPContentAndPDF(anthropicKey, imageBase64, mediaType, fi
   console.log(`   ✅ EDP PDF saved: ${nameNoExt}-edp.pdf`);
 
   return cost;
+}
+
+// ============================================================
+// 5E Lesson Plan Generation
+// ============================================================
+
+const FIVE_E_SYSTEM_PROMPT = `You are an expert K-5 Science Curriculum Developer specializing in the 5E Instructional Model (Engage, Explore, Explain, Elaborate, Evaluate). You create grade-appropriate, NGSS-aligned 5E lesson plans based on science photographs.
+
+## Core Principles
+1. Every lesson must be directly inspired by what is visible or inferable from the photograph.
+2. Activities must be age-appropriate, safe, and use classroom-available materials.
+3. All NGSS connections must use only standards from the specified grade level and science domain.
+4. The 5E phases must flow logically — each phase builds on the previous one.
+5. Language complexity must match the target grade level.
+6. Include concrete, actionable teacher directions — not vague suggestions.
+
+## Tone
+Professional yet approachable. Write as if advising a colleague teacher who needs a ready-to-use lesson plan.`;
+
+function build5EUserPrompt(category, filename, grade) {
+  const domainPrefix = CATEGORY_TO_NGSS_DOMAIN[category] || '';
+  const domainName = { 'PS': 'Physical Science', 'LS': 'Life Science', 'ESS': 'Earth and Space Science' }[domainPrefix] || category;
+  const domainTopics = category === 'physical-science'
+    ? 'forces, motion, energy, matter, properties of materials, waves, light, sound, shadows, electricity, magnetism'
+    : category === 'life-science'
+      ? 'living organisms, life cycles, habitats, body structures, ecosystems, heredity, adaptation, survival'
+      : 'rocks, minerals, weather, water cycle, landforms, erosion, natural resources, space, Earth systems';
+
+  const filteredStandards = getFilteredNGSSStandards(category, grade.ngssGrade);
+  const standardsList = Object.entries(filteredStandards)
+    .map(([code, statement]) => `- ${code}: ${statement}`)
+    .join('\n');
+
+  return `Analyze this science education photograph and generate a complete 5E Lesson Plan.
+
+Category: ${category}
+Photo: ${filename}
+Grade Level: ${grade.name}
+NGSS Domain: ${domainName} (${domainPrefix} codes only)
+
+### CRITICAL DOMAIN CONSTRAINT
+This image is categorized as **${category}**. You MUST create the lesson through the lens of ${domainName.toLowerCase()} concepts.
+- Focus on: ${domainTopics}
+- Only use NGSS standards with ${domainPrefix} domain codes for grade ${grade.ngssGrade}.
+
+### Available NGSS Performance Expectations for ${grade.name} (${domainPrefix} domain)
+${standardsList || 'No specific PE standards for this grade/domain combination. Use general science practices.'}
+
+Generate ALL of the following sections using ### headers. No exceptions.
+
+### Core Science Concepts from Image Analysis
+Identify 3-4 key ${domainName.toLowerCase()} concepts visible or inferable from this photograph that are appropriate for ${grade.name}. Use bullet points.
+
+### Lesson Title
+Create a short, engaging, creative lesson title appropriate for ${grade.name} students. Just the title — no extra text.
+
+### Lesson Overview
+Provide these details:
+- **Grade Level:** ${grade.name}
+- **Subject:** Science (${domainName})
+- **Time Allotment:** Estimate total time (e.g., "Two 45-minute sessions" or "60-90 minutes")
+- **NGSS Standards:** List 1-3 relevant NGSS PE codes from the list above
+
+### Learning Objectives
+Write 3-4 measurable learning objectives using age-appropriate language for ${grade.name}. Begin each with "Students will be able to..."
+
+### 5E Lesson Sequence
+
+#### 1. ENGAGE (10-15 minutes)
+- **Objective:** Capture student interest and activate prior knowledge using the photograph.
+- **Materials:** List specific materials needed.
+- **Activity:** Describe exactly how to use this photograph to hook students. Include:
+  - How to display/introduce the photograph
+  - 3-4 specific discussion questions to spark curiosity (calibrated to ${grade.name} level)
+  - A prediction or wonder prompt
+- **Transition:** One sentence bridging to the Explore phase.
+
+#### 2. EXPLORE (20-25 minutes)
+- **Objective:** Students investigate and discover concepts through hands-on activity.
+- **Materials:** List specific, classroom-available materials.
+- **Activity:** Design a hands-on investigation where students discover concepts independently. Include:
+  - Step-by-step student directions
+  - How the activity connects to what was observed in the photograph
+  - What students should record or document
+- **Teacher Role:** Describe how the teacher facilitates without giving answers.
+- **Expected Student Outcomes:** What students should discover or produce.
+
+#### 3. EXPLAIN (15-20 minutes)
+- **Objective:** Introduce formal vocabulary and concepts after exploration.
+- **Materials:** List materials for this phase.
+- **Activity:** Describe teacher-led instruction that includes:
+  - Group share-out from Explore phase
+  - Key vocabulary with ${grade.name}-friendly definitions (3-5 terms)
+  - Connections back to the photograph and Explore activity
+  - Check for understanding strategy
+- **Vocabulary:** List each term with a student-friendly definition.
+- **Expected Student Outcomes:** What students should understand after this phase.
+
+#### 4. ELABORATE (15-20 minutes)
+- **Objective:** Students apply and deepen their understanding.
+- **Materials:** List specific materials.
+- **Activity:** Design an extension activity that:
+  - Applies concepts to a new context or scenario
+  - Connects to real-world applications
+  - Is appropriately challenging for ${grade.name}
+- **Teacher Role:** Facilitation notes.
+- **Expected Student Outcomes:** Evidence of deeper understanding.
+
+#### 5. EVALUATE
+- **Objective:** Assess student understanding.
+- **Activity:** Describe assessment including:
+  - Formative assessment strategy used during the lesson
+  - Exit ticket or summative assessment (provide specific questions)
+  - Success criteria for student understanding
+- **Expected Student Outcomes:** How to determine if students met the learning objectives.
+
+### Differentiation
+- **Support:** 2-3 specific scaffolding strategies for struggling learners
+- **Challenge:** 2-3 specific extension ideas for advanced learners
+
+### Extension Activities
+List 2-3 additional activities teachers can use for early finishers, homework, or follow-up lessons.`;
+}
+
+/**
+ * Generate 5E Lesson Plan content and PDFs for all grade levels
+ * Called during the image processing pipeline after EDP is generated.
+ */
+async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, filename, category, repoDir, targetImagePath, logoPath, nameNoExt) {
+  const anthropic = new Anthropic({ apiKey: anthropicKey });
+  const { generate5EPDF } = require('./5e-pdf-generator');
+
+  const contentDir = path.join(repoDir, 'content', category);
+  await fs.mkdir(contentDir, { recursive: true });
+
+  const fiveEDir = path.join(repoDir, '5e_lessons', category);
+  await fs.mkdir(fiveEDir, { recursive: true });
+
+  let totalCost = 0;
+  let count = 0;
+
+  for (const grade of GRADE_LEVELS) {
+    console.log(`   🟣 Generating ${grade.name} 5E content...`);
+
+    const userPrompt = build5EUserPrompt(category, filename, grade);
+
+    // Retry with exponential backoff (3 attempts: 5s, 15s, 45s)
+    let response;
+    const RETRY_DELAYS = [5000, 15000, 45000];
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        response = await anthropic.messages.create({
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: 8192,
+          system: FIVE_E_SYSTEM_PROMPT,
+          messages: [{
+            role: 'user',
+            content: [
+              {
+                type: 'image',
+                source: {
+                  type: 'base64',
+                  media_type: mediaType,
+                  data: imageBase64
+                }
+              },
+              {
+                type: 'text',
+                text: userPrompt
+              }
+            ]
+          }]
+        });
+        break; // Success — exit retry loop
+      } catch (apiErr) {
+        if (attempt < 3) {
+          const delay = RETRY_DELAYS[attempt - 1];
+          console.warn(`   ⚠️ Retry ${attempt}/3 for ${grade.name} 5E after error: ${apiErr.message} (waiting ${delay / 1000}s)`);
+          await new Promise(resolve => setTimeout(resolve, delay));
+        } else {
+          throw apiErr; // Final attempt failed
+        }
+      }
+    }
+
+    const inputTokens = response.usage.input_tokens;
+    const outputTokens = response.usage.output_tokens;
+    const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+    totalCost += cost;
+
+    const markdownContent = response.content[0].text;
+    const title = nameNoExt.charAt(0).toUpperCase() + nameNoExt.slice(1).replace(/-/g, ' ');
+
+    // Save 5E content JSON
+    const fiveEData = {
+      title,
+      category,
+      imageFile: filename,
+      imagePath: `images/${category}/${filename}`,
+      gradeLevel: grade.name,
+      gradeLevelKey: grade.key,
+      content: markdownContent,
+      inputTokens,
+      outputTokens,
+      cost,
+      generatedAt: new Date().toISOString()
+    };
+
+    await fs.writeFile(
+      path.join(contentDir, `${nameNoExt}-5e-${grade.key}.json`),
+      JSON.stringify(fiveEData, null, 2)
+    );
+
+    // Generate 5E PDF
+    try {
+      const pdfBuffer = await generate5EPDF({
+        title,
+        category,
+        gradeLevel: grade.key,
+        markdownContent,
+        imagePath: targetImagePath,
+        logoPath
+      });
+
+      await fs.writeFile(path.join(fiveEDir, `${nameNoExt}-${grade.key}.pdf`), pdfBuffer);
+      count++;
+      console.log(`   ✅ ${grade.name} 5E content + PDF saved (cost: $${cost.toFixed(4)})`);
+    } catch (pdfErr) {
+      console.warn(`   ⚠️ ${grade.name} 5E PDF failed (non-blocking): ${pdfErr.message}`);
+    }
+
+    // Small delay between API calls to avoid rate limiting
+    if (grade !== GRADE_LEVELS[GRADE_LEVELS.length - 1]) {
+      await new Promise(resolve => setTimeout(resolve, 500));
+    }
+  }
+
+  console.log(`✅ Generated ${count} 5E Lesson Plan PDFs (total cost: $${totalCost.toFixed(4)})`);
+  return totalCost;
 }
 
 // ============================================================

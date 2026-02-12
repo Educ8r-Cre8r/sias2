@@ -1095,6 +1095,9 @@ async function openModal(imageId) {
       <button class="lesson-pdf-btn" aria-label="Download lesson guide as PDF" title="Download two-page teacher lesson guide as PDF">
         📄 Download Lesson Guide
       </button>
+      <button class="five-e-pdf-btn" aria-label="Download 5E lesson plan as PDF" title="Download 5E model lesson plan as PDF">
+        🟣 5E Lesson
+      </button>
       <button class="edp-pdf-btn" aria-label="Download engineering challenge as PDF" title="Download engineering design process challenge as PDF">
         🔧 Engineering Challenge
       </button>
@@ -1157,6 +1160,24 @@ async function openModal(imageId) {
       const baseFilename = image.filename.replace(/\.[^/.]+$/, '');
       const edpPath = `pdfs/${image.category}/${baseFilename}-edp.pdf`;
       window.open(edpPath, '_blank');
+    };
+  }
+
+  // Update 5E Lesson Plan download button
+  const fiveEBtn = statsContainer.querySelector('.five-e-pdf-btn');
+  if (fiveEBtn) {
+    fiveEBtn.onclick = () => {
+      // Require Google sign-in (not anonymous) to download 5E lesson plans
+      if (!currentUser || currentUser.isAnonymous) {
+        if (confirm('Sign in with Google to download 5E lesson plans. Sign in now?')) {
+          signInWithGoogle();
+        }
+        return;
+      }
+      const baseFilename = image.filename.replace(/\.[^/.]+$/, '');
+      const gradeKey = state.selectedGradeLevel;
+      const fiveEPath = `5e_lessons/${image.category}/${baseFilename}-${gradeKey}.pdf`;
+      window.open(fiveEPath, '_blank');
     };
   }
 

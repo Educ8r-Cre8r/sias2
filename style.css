@@ -2404,6 +2404,7 @@ a:hover {
   }
 
   .lesson-pdf-btn,
+  .five-e-pdf-btn,
   .edp-pdf-btn {
     font-size: 0.65rem;
     padding: 4px 10px;
@@ -2724,6 +2725,43 @@ a:hover {
   box-shadow: var(--shadow-sm);
 }
 
+.five-e-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #7B1FA2, #9C27B0);
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  animation: pdfBtnFadeIn 0.5s ease 0.35s backwards;
+}
+
+.five-e-pdf-btn:hover,
+.five-e-pdf-btn:focus-visible {
+  background: linear-gradient(135deg, #9C27B0, #7B1FA2);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.five-e-pdf-btn:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.five-e-pdf-btn:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
 /* Interactive Star Rating */
 .interactive-stars {
   margin: var(--spacing-md) 0;
@@ -2986,6 +3024,7 @@ a:hover {
   }
 
   .lesson-pdf-btn,
+  .five-e-pdf-btn,
   .edp-pdf-btn {
     font-size: 0.7rem;
     padding: 5px 12px;
