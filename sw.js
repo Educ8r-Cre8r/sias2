@@ -86,6 +86,9 @@ self.addEventListener('fetch', (event) => {
   // Skip non-GET requests (POST for contact form, Firestore writes, etc.)
   if (request.method !== 'GET') return;
 
+  // Skip admin-v2 — it has its own service worker and PWA scope
+  if (url.pathname.startsWith('/admin-v2')) return;
+
   // Network-only: Firebase/Auth/API calls — don't interfere
   if (NETWORK_ONLY_PATTERNS.some(pattern => request.url.includes(pattern))) {
     return;

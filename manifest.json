@@ -9,6 +9,7 @@
   "background_color": "#0a0a2e",
   "theme_color": "#667eea",
   "categories": ["education", "photo"],
+  "id": "/",
   "lang": "en-US",
   "icons": [
     {

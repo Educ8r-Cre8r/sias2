@@ -59,24 +59,6 @@
             "value": "max-age=86400"
           }
         ]
-      },
-      {
-        "source": "/admin-v2/sw.js",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache, no-store, must-revalidate"
-          }
-        ]
-      },
-      {
-        "source": "/admin-v2/manifest.json",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=86400"
-          }
-        ]
       }
     ]
   },
