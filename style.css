@@ -3598,15 +3598,15 @@ a:hover {
 }
 
 .hotspot-toggle-btn.hotspots-hidden {
-  background: rgba(102, 126, 234, 0.05);
-  border-color: #aab;
-  color: #888;
+  border-color: var(--color-border);
+  color: var(--color-text-light);
+  opacity: 0.5;
 }
 
 .hotspot-toggle-btn.hotspots-hidden:hover {
-  background: var(--color-interactive);
-  border-color: var(--color-interactive);
-  color: white;
+  border-color: #4CAF50;
+  color: #388E3C;
+  opacity: 1;
 }
 
 .hotspot-toggle-btn svg {
@@ -3634,59 +3634,52 @@ a:hover {
 .modal-action-btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 18px;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  font-size: 14px;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-bg-white);
+  color: var(--color-text-light);
+  font-size: var(--font-size-xs);
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
-  margin-right: 10px;
+  transition: all var(--transition-base);
+  white-space: nowrap;
+  margin-right: 0;
 }
 
 .modal-action-btn .btn-icon {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1;
 }
 
-/* Individual button colors */
-.hotspot-btn {
-  background: linear-gradient(135deg, #4CAF50 0%, #388E3C 100%);
-  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
-}
-
-.sentence-stems-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
-}
-
-.image-only-btn {
-  background: linear-gradient(135deg, #64b5f6 0%, #1976d2 100%);
-  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.3);
-}
-
-/* Hover effects */
+/* Individual button hover colors */
 .hotspot-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.5);
+  border-color: #4CAF50;
+  color: #388E3C;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 
 .sentence-stems-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  border-color: #667eea;
+  color: #667eea;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 
 .image-only-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.4);
+  border-color: #1976d2;
+  color: #1976d2;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
 }
 
-/* Active state */
+/* Active state for sentence stems */
 .sentence-stems-btn.active {
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
-  box-shadow: 0 4px 12px rgba(118, 75, 162, 0.5);
+  background-color: rgba(102, 126, 234, 0.1);
+  border-color: #667eea;
+  color: #667eea;
 }
 
 /* Sentence Stems Overlay */
@@ -3831,8 +3824,9 @@ a:hover {
   }
 
   .modal-action-btn {
-    padding: 8px 14px;
-    font-size: 13px;
+    padding: 6px 12px;
+    font-size: 0.75rem;
+    border-width: 1.5px;
   }
 }
 
