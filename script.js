@@ -2782,6 +2782,24 @@ function closeELModal() {
   }
 }
 
+function openHowToReadModal() {
+  const modal = document.getElementById('how-to-read-modal');
+  if (modal) {
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    modal.setAttribute('tabindex', '-1');
+    modal.focus();
+  }
+}
+
+function closeHowToReadModal() {
+  const modal = document.getElementById('how-to-read-modal');
+  if (modal) {
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+}
+
 async function handleContactSubmit(event) {
   event.preventDefault();
 

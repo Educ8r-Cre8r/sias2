@@ -521,6 +521,23 @@
         </div>
     </div>
 
+    <!-- How To Read A Photograph Modal -->
+    <div id="how-to-read-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="how-to-read-modal-title" style="display: none;">
+        <div class="modal-overlay" onclick="closeHowToReadModal()"></div>
+        <div class="cc-modal-content">
+            <div class="contact-modal-header">
+                <h2 id="how-to-read-modal-title">How To Read A Photograph</h2>
+                <button class="close-btn" onclick="closeHowToReadModal()" aria-label="Close How To Read A Photograph">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                </button>
+            </div>
+            <iframe src="how_to_read_a_photograph.pdf" class="cc-modal-iframe" title="How To Read A Photograph"></iframe>
+        </div>
+    </div>
+
     <!-- Creative Commons License Modal -->
     <div id="cc-license-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="cc-license-modal-title" style="display: none;">
         <div class="modal-overlay" onclick="closeCCModal()"></div>
@@ -645,7 +662,7 @@
                 <!-- Copyright Section (Right) -->
                 <div class="footer-copyright">
                     <p>Science In A Snapshot © <span id="footer-year">2026</span> Alex Jones, M.Ed.</p>
-                    <p class="footer-credits"><a href="javascript:void(0);" onclick="openELModal();" class="el-strategies-link">English Learner Strategies</a> | <a href="javascript:void(0);" onclick="openVisionaryModal();" class="visionary-link">The Visionary</a> | <a href="javascript:void(0);" onclick="openContactModal();" class="contact-link">Contact</a> | <a href="javascript:void(0);" onclick="openCopyrightModal();" class="copyright-link">Copyright & Terms</a> | <a href="javascript:void(0);" onclick="openTutorialModal();" class="replay-tour-link" aria-label="Learn how Science In A Snapshot works">How It Works</a></p>
+                    <p class="footer-credits"><a href="javascript:void(0);" onclick="openHowToReadModal();" class="how-to-read-link">How To Read A Photograph</a> | <a href="javascript:void(0);" onclick="openELModal();" class="el-strategies-link">English Learner Strategies</a> | <a href="javascript:void(0);" onclick="openVisionaryModal();" class="visionary-link">The Visionary</a> | <a href="javascript:void(0);" onclick="openContactModal();" class="contact-link">Contact</a> | <a href="javascript:void(0);" onclick="openCopyrightModal();" class="copyright-link">Copyright & Terms</a> | <a href="javascript:void(0);" onclick="openTutorialModal();" class="replay-tour-link" aria-label="Learn how Science In A Snapshot works">How It Works</a></p>
                     <div class="footer-signature-row">
                         <a href="https://x.com/sci_snap" target="_blank" rel="noopener noreferrer" aria-label="Follow Science In A Snapshot on X" class="footer-x-link">
                             <svg viewBox="0 0 24 24" width="24" height="24" class="footer-x-icon" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
