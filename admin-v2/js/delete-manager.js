@@ -159,7 +159,7 @@ async function bulkDelete() {
 
     const confirmed = confirm(
         `Are you sure you want to delete ${selected.length} image(s) and ALL their associated files?\n\n` +
-        `This will delete approximately ${selected.length * 20} files total.\n\n` +
+        `This will delete approximately ${selected.length * 32} files total.\n\n` +
         `This action cannot be undone.`
     );
 

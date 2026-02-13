@@ -101,6 +101,22 @@ function renderCategoryCostBars(images, totalCost) {
 /**
  * Render the processing details table
  */
+const COST_TABLE_VISIBLE_ROWS = 24;
+
+function renderCostTableRow(img) {
+    const hasCost = img.processingCost !== undefined && img.processingCost !== null;
+    return `
+        <tr>
+            <td>${img.id}</td>
+            <td>${escapeHtml(img.title || img.filename)}</td>
+            <td><span class="badge ${getCategoryBadgeClass(img.category)}">${getCategoryName(img.category)}</span></td>
+            <td>${hasCost ? '$' + img.processingCost.toFixed(4) : '<span class="text-na">\u2014</span>'}</td>
+            <td>${img.processingTime || '<span class="text-na">\u2014</span>'}</td>
+            <td>${img.processedAt ? formatDate(img.processedAt) : '<span class="text-na">\u2014</span>'}</td>
+        </tr>
+    `;
+}
+
 function renderCostTable(images) {
     const sorted = sortCostData(images);
     const tbody = document.getElementById('cost-table-body');
@@ -111,19 +127,37 @@ function renderCostTable(images) {
         return;
     }
 
-    tbody.innerHTML = sorted.map(img => {
-        const hasCost = img.processingCost !== undefined && img.processingCost !== null;
-        return `
-            <tr>
-                <td>${img.id}</td>
-                <td>${escapeHtml(img.title || img.filename)}</td>
-                <td><span class="badge ${getCategoryBadgeClass(img.category)}">${getCategoryName(img.category)}</span></td>
-                <td>${hasCost ? '$' + img.processingCost.toFixed(4) : '<span class="text-na">\u2014</span>'}</td>
-                <td>${img.processingTime || '<span class="text-na">\u2014</span>'}</td>
-                <td>${img.processedAt ? formatDate(img.processedAt) : '<span class="text-na">\u2014</span>'}</td>
-            </tr>
-        `;
-    }).join('');
+    const visible = sorted.slice(0, COST_TABLE_VISIBLE_ROWS);
+    const hidden = sorted.slice(COST_TABLE_VISIBLE_ROWS);
+
+    let html = visible.map(renderCostTableRow).join('');
+
+    if (hidden.length > 0) {
+        const isExpanded = tbody.dataset.expanded === 'true';
+        html += `<tr class="cost-table-toggle-row">
+            <td colspan="6" style="text-align:center; padding: 10px;">
+                <button class="btn btn-small btn-secondary" onclick="toggleCostTableRows(this)">
+                    ${isExpanded ? 'Hide' : 'Show'} ${hidden.length} older entries ${isExpanded ? '▲' : '▼'}
+                </button>
+            </td>
+        </tr>`;
+        html += hidden.map(img => `<tr class="cost-table-hidden" style="display:${isExpanded ? '' : 'none'};">${renderCostTableRow(img).replace(/^<tr>|<\/tr>$/g, '')}</tr>`).join('');
+    }
+
+    tbody.innerHTML = html;
+}
+
+function toggleCostTableRows(btn) {
+    const tbody = document.getElementById('cost-table-body');
+    const isExpanded = tbody.dataset.expanded === 'true';
+    const hiddenRows = tbody.querySelectorAll('.cost-table-hidden');
+    const newState = !isExpanded;
+
+    hiddenRows.forEach(row => row.style.display = newState ? '' : 'none');
+    tbody.dataset.expanded = newState;
+
+    const count = hiddenRows.length;
+    btn.textContent = (newState ? 'Hide' : 'Show') + ` ${count} older entries ` + (newState ? '▲' : '▼');
 }
 
 /**
@@ -222,3 +256,4 @@ window.renderCostAnalytics = renderCostAnalytics;
 window.sortCostTable = sortCostTable;
 window.exportCostCSV = exportCostCSV;
 window.escapeHtml = escapeHtml;
+window.toggleCostTableRows = toggleCostTableRows;

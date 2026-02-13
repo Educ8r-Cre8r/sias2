@@ -736,6 +736,18 @@ async function processImageFromQueue(queueItem) {
       console.log(`✅ Added processing cost ($${totalCost.toFixed(4)}) and time (${processingTimeStr}) to metadata`);
     }
 
+    // Write cost to Firestore for real-time admin dashboard access
+    // (metadata in git/Hosting has a deploy delay; Firestore is instant)
+    await db.collection('processingCosts').doc(filename).set({
+      cost: parseFloat(totalCost.toFixed(4)),
+      processingTime: processingTimeStr,
+      processedAt: admin.firestore.FieldValue.serverTimestamp(),
+      phase: 'image',
+      imageId: nextId,
+      category
+    });
+    console.log(`💾 Wrote processing cost to Firestore: $${totalCost.toFixed(4)}`)
+
     // Rebuild ngss-index.json for admin dashboard coverage map
     await buildNgssIndex(repoDir);
 
@@ -865,11 +877,20 @@ async function process5EFromQueue(queueItem) {
     const metadataPath = path.join(repoDir, 'gallery-metadata.json');
     const metadataData = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
     const imageEntry = metadataData.images.find(img => img.filename === filename);
+    const combinedCost = parseFloat(((imageEntry?.processingCost || 0) + fiveECost).toFixed(4));
     if (imageEntry) {
-      imageEntry.processingCost = parseFloat(((imageEntry.processingCost || 0) + fiveECost).toFixed(4));
+      imageEntry.processingCost = combinedCost;
       await fs.writeFile(metadataPath, JSON.stringify(metadataData, null, 2));
       console.log(`✅ Updated processing cost (+$${fiveECost.toFixed(4)}) in metadata`);
     }
+
+    // Update Firestore with combined total cost (instant for admin dashboard)
+    await db.collection('processingCosts').doc(filename).set({
+      cost: combinedCost,
+      phase: 'complete',
+      updatedAt: admin.firestore.FieldValue.serverTimestamp()
+    }, { merge: true });
+    console.log(`💾 Updated Firestore processing cost: $${combinedCost} (image + 5E)`);
 
     // Commit and push
     console.log('📤 Committing 5E content to GitHub...');
@@ -1071,7 +1092,7 @@ Be precise with coordinates - think about where a student would click to learn a
     const outputTokens = response.usage.output_tokens;
     const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
     const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
-    const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+    const cost = (inputTokens * 0.001 / 1000)
       + (cacheWriteTokens * 0.00125 / 1000)
       + (cacheReadTokens * 0.0001 / 1000)
       + (outputTokens * 0.005 / 1000);
@@ -1171,7 +1192,7 @@ Example output:
     const outputTokens = response.usage.output_tokens;
     const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
     const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
-    const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+    const cost = (inputTokens * 0.001 / 1000)
       + (cacheWriteTokens * 0.00125 / 1000)
       + (cacheReadTokens * 0.0001 / 1000)
       + (outputTokens * 0.005 / 1000);
@@ -1225,6 +1246,111 @@ Example output:
 /**
  * Generate educational content for all grade levels using Anthropic API
  */
+// Build expanded content system prompt (must exceed 4,096 tokens for Haiku 4.5 caching)
+function buildContentSystemPrompt() {
+  const standardsText = Object.entries(NGSS_PE_STANDARDS)
+    .map(([code, statement]) => `- ${code}: ${statement}`)
+    .join('\n');
+
+  return `You are an expert K-5 Science Instructional Coach and NGSS Curriculum Specialist.
+
+Your goal is to analyze the provided image to help a teacher create a rigorous, age-appropriate science lesson for elementary students.
+
+## Science Domains and Topics
+Each photograph is categorized into one of three NGSS science domains:
+- **physical-science (PS):** forces, motion, energy, matter, properties of materials, waves, light, sound, shadows, electricity, magnetism
+- **life-science (LS):** living organisms, life cycles, habitats, body structures, ecosystems, heredity, adaptation, survival
+- **earth-space-science (ESS):** rocks, minerals, weather, water cycle, landforms, erosion, natural resources, space, Earth systems
+
+You MUST analyze each image THROUGH THE LENS of the specified domain's concepts and ONLY use NGSS standards with the matching domain code prefix (PS, LS, or ESS) for the specified grade level.
+
+### GUIDELINES
+- **Tone:** Professional, encouraging, and scientifically accurate
+- **Audience:** The teacher (not the student)
+- **Format:** Strict Markdown. Start directly with the first section header
+- **Safety:** Ensure all suggested activities are safe for elementary students
+
+## Complete K-5 NGSS Performance Expectations Reference
+Below is the complete set of K-5 NGSS Performance Expectations. Each user prompt will specify which grade level and domain to use — select only the standards matching both the grade AND domain from this reference.
+
+${standardsText}
+
+## Required Output Format
+Generate ONLY the sections below. Use Level 2 Markdown headers (##) with emojis. No exceptions.
+
+## 📸 Photo Description
+Describe the key scientific elements visible in 2-3 sentences at the specified grade's reading level. Focus on observable features relevant to the specified domain.
+
+## 🔬 Scientific Phenomena
+Identify the specific "Anchoring Phenomenon" this image represents from the specified domain's perspective. Explain WHY it is happening scientifically, in language appropriate for elementary teachers.
+
+## 📚 Core Science Concepts
+Detail 2-4 fundamental concepts from the specified domain illustrated by this photo. Use numbered or bulleted lists.
+
+**CRITICAL:** Somewhere within this section, you MUST include:
+1. A short pedagogical tip wrapped in <pedagogical-tip>...</pedagogical-tip> tags
+2. A Universal Design for Learning (UDL) suggestion wrapped in <udl-suggestions>...</udl-suggestions> tags
+
+## 🔍 Zoom In / Zoom Out Concepts
+Provide two distinct perspectives:
+1. **Zoom In:** A microscopic or unseen process (e.g., cellular level, atomic)
+2. **Zoom Out:** The larger system connection (e.g., ecosystem, watershed, planetary)
+
+## 🤔 Potential Student Misconceptions
+List 1-3 common naive conceptions students at the specified grade might have about this topic and provide the scientific clarification.
+
+## 🎓 NGSS Connections
+
+### RULES FOR THIS SECTION:
+1. You MUST ONLY select standards from the VALIDATED LIST provided in the user prompt. Do NOT invent or guess standard codes.
+2. You MUST ONLY use the specified domain codes — no codes from other domains.
+3. You MUST copy the standard statement EXACTLY as written. Do NOT paraphrase.
+4. Select ALL standards from the provided list that are genuinely relevant to this image. Do not limit yourself to just 1-2.
+
+### Format Requirements:
+- List each relevant PE code followed by its EXACT official statement
+- Wrap Disciplinary Core Ideas (DCI) in double brackets: [[NGSS:DCI:Code]]
+- Wrap Crosscutting Concepts (CCC) in double brackets: [[NGSS:CCC:Name]]
+  Valid CCCs: Patterns, Cause and Effect, Scale Proportion and Quantity, Systems and System Models, Energy and Matter, Structure and Function, Stability and Change
+  Example: [[NGSS:CCC:Patterns]]
+
+## 💬 Discussion Questions
+Provide 3-4 open-ended questions. Label EVERY question with its Bloom's Taxonomy level and Depth of Knowledge (DOK) level.
+Example: "Why did the ice melt? (Bloom's: Analyze | DOK: 2)"
+
+## 📖 Vocabulary
+Provide a bulleted list of 3-6 tier 2 or tier 3 science words related to the specified domain.
+Format strictly as: * **Word:** Kid-friendly definition (1 sentence)
+
+## 🌡️ Extension Activities
+Provide 2-3 hands-on extension activities appropriate for the specified grade that reinforce the specified domain's concepts.
+
+## 🔗 Cross-Curricular Ideas
+Provide 3-4 ideas for connecting the science in this photo to other subjects like Math, ELA, Social Studies, or Art for the specified grade classroom.
+
+## 🚀 STEM Career Connection
+List and briefly describe 2-3 STEM careers that relate to the science shown in this photo. Describe the job simply for the specified grade level. For each career, also provide an estimated average annual salary in USD.
+
+## 📚 External Resources
+Provide ONLY the following real, existing resources:
+- **Children's Books:** Title by Author (2-3 books)
+
+IMPORTANT: Do NOT include YouTube videos, websites, or any other external resources. Only provide children's books.
+
+---
+
+Remember:
+- Use Markdown formatting throughout
+- Include the special XML tags for pedagogical tips and UDL strategies
+- Use the [[NGSS:...]] format for standards
+- ONLY use the specified domain standards
+- Keep language at the specified grade level where appropriate
+- Be scientifically accurate and engaging`;
+}
+
+// Pre-build the content system prompt once (stays identical across all API calls for caching)
+const CONTENT_SYSTEM_PROMPT = buildContentSystemPrompt();
+
 async function generateContent(imagePath, filename, category, repoDir, anthropicKey) {
   const anthropic = new Anthropic({ apiKey: anthropicKey });
   let totalCost = 0;
@@ -1257,112 +1383,30 @@ async function generateContent(imagePath, filename, category, repoDir, anthropic
     const domainName = { 'PS': 'Physical Science', 'LS': 'Life Science', 'ESS': 'Earth and Space Science' }[domainPrefix] || category;
     const standardsList = Object.entries(filteredStandards).map(([code, statement]) => `- ${code}: ${statement}`).join('\n');
     const excludedDomains = domainPrefix === 'PS' ? 'no LS or ESS codes' : domainPrefix === 'LS' ? 'no PS or ESS codes' : 'no PS or LS codes';
-    const domainTopics = category === 'physical-science'
-      ? 'forces, motion, energy, matter, properties of materials, waves, light, sound, shadows, electricity, magnetism'
-      : category === 'life-science'
-        ? 'living organisms, life cycles, habitats, body structures, ecosystems, heredity, adaptation, survival'
-        : 'rocks, minerals, weather, water cycle, landforms, erosion, natural resources, space, Earth systems';
 
-    const prompt = `You are an expert K-5 Science Instructional Coach and NGSS Curriculum Specialist.
-
-Your goal is to analyze the provided image to help a teacher create a rigorous, age-appropriate science lesson for a **${grade.name}** class.
+    const prompt = `Analyze this science education photograph and generate educational content.
 
 Category: ${category}
-NGSS Domain: ${domainName} (${domainPrefix} codes only)
+NGSS Domain: ${domainName} (${domainPrefix} codes only — ${excludedDomains})
 Image: ${filename}
-
-### CRITICAL CATEGORY CONSTRAINT
-This image is categorized as **${category}**. You MUST analyze this image THROUGH THE LENS of ${domainName.toLowerCase()} concepts.
-- Focus on: ${domainTopics}
-- Even if the image could relate to other science domains, you MUST focus on ${domainPrefix} concepts only.
-- You MUST ONLY use NGSS standards with ${domainPrefix} domain codes. Do NOT use codes from other domains (${excludedDomains}).
-
-### GUIDELINES
-- **Tone:** Professional, encouraging, and scientifically accurate
-- **Audience:** The teacher (not the student)
-- **Format:** Strict Markdown. Start directly with the first section header
-- **Safety:** Ensure all suggested activities are safe for elementary students
-
-### REQUIRED OUTPUT SECTIONS
-Generate ONLY the sections below. Use Level 2 Markdown headers (##) with emojis.
-
-## 📸 Photo Description
-Describe the key scientific elements visible in 2-3 sentences at ${grade.name} reading level. Focus on observable features relevant to ${domainName.toLowerCase()}.
-
-## 🔬 Scientific Phenomena
-Identify the specific "Anchoring Phenomenon" this image represents from a ${domainName.toLowerCase()} perspective. Explain WHY it is happening scientifically, in language appropriate for elementary teachers.
-
-## 📚 Core Science Concepts
-Detail 2-4 fundamental ${domainName.toLowerCase()} concepts illustrated by this photo. Use numbered or bulleted lists.
-
-**CRITICAL:** Somewhere within this section, you MUST include:
-1. A short pedagogical tip wrapped in <pedagogical-tip>...</pedagogical-tip> tags
-2. A Universal Design for Learning (UDL) suggestion wrapped in <udl-suggestions>...</udl-suggestions> tags
-
-## 🔍 Zoom In / Zoom Out Concepts
-Provide two distinct perspectives:
-1. **Zoom In:** A microscopic or unseen process (e.g., cellular level, atomic)
-2. **Zoom Out:** The larger system connection (e.g., ecosystem, watershed, planetary)
-
-## 🤔 Potential Student Misconceptions
-List 1-3 common naive conceptions ${grade.name} students might have about this topic and provide the scientific clarification.
-
-## 🎓 NGSS Connections
-
-### RULES FOR THIS SECTION:
-1. You MUST ONLY select standards from the VALIDATED LIST below. Do NOT invent or guess standard codes.
-2. You MUST ONLY use ${domainPrefix} domain codes (${excludedDomains}).
-3. You MUST copy the standard statement EXACTLY as written below. Do NOT paraphrase.
-4. Select ALL standards from the list below that are genuinely relevant to this image. Do not limit yourself to just 1-2.
+Grade Level: ${grade.name}
 
 ### VALIDATED ${grade.ngssGrade}-${domainPrefix} Performance Expectations:
 ${standardsList || 'No standards available for this grade level and domain.'}
 
-### Format Requirements:
-- List each relevant PE code followed by its EXACT official statement
-- Wrap Disciplinary Core Ideas (DCI) in double brackets: [[NGSS:DCI:Code]]
-  Example: [[NGSS:DCI:${Object.keys(filteredStandards)[0] ? Object.keys(filteredStandards)[0].replace(/-\d+$/, '') + '.A' : grade.ngssGrade + '-' + domainPrefix + '1.A'}]]
-- Wrap Crosscutting Concepts (CCC) in double brackets: [[NGSS:CCC:Name]]
-  Valid CCCs: Patterns, Cause and Effect, Scale Proportion and Quantity, Systems and System Models, Energy and Matter, Structure and Function, Stability and Change
-  Example: [[NGSS:CCC:Patterns]]
+DCI bracket example: [[NGSS:DCI:${Object.keys(filteredStandards)[0] ? Object.keys(filteredStandards)[0].replace(/-\d+$/, '') + '.A' : grade.ngssGrade + '-' + domainPrefix + '1.A'}]]
 
-## 💬 Discussion Questions
-Provide 3-4 open-ended questions. Label EVERY question with its Bloom's Taxonomy level and Depth of Knowledge (DOK) level.
-Example: "Why did the ice melt? (Bloom's: Analyze | DOK: 2)"
-
-## 📖 Vocabulary
-Provide a bulleted list of 3-6 tier 2 or tier 3 science words related to ${domainName.toLowerCase()}.
-Format strictly as: * **Word:** Kid-friendly definition (1 sentence)
-
-## 🌡️ Extension Activities
-Provide 2-3 hands-on extension activities appropriate for ${grade.name} students that reinforce ${domainName.toLowerCase()} concepts.
-
-## 🔗 Cross-Curricular Ideas
-Provide 3-4 ideas for connecting the science in this photo to other subjects like Math, ELA, Social Studies, or Art for a ${grade.name} classroom.
-
-## 🚀 STEM Career Connection
-List and briefly describe 2-3 STEM careers that relate to the ${domainName.toLowerCase()} shown in this photo. Describe the job simply for a ${grade.name} student. For each career, also provide an estimated average annual salary in USD.
-
-## 📚 External Resources
-Provide ONLY the following real, existing resources:
-- **Children's Books:** Title by Author (2-3 books)
-
-IMPORTANT: Do NOT include YouTube videos, websites, or any other external resources. Only provide children's books.
-
----
-
-Remember:
-- Use Markdown formatting throughout
-- Include the special XML tags for pedagogical tips and UDL strategies
-- Use the [[NGSS:...]] format for standards
-- ONLY use ${domainPrefix} domain standards — this is ${domainName}
-- Keep language at ${grade.name} level where appropriate
-- Be scientifically accurate and engaging`;
+Use ONLY the standards listed above. Follow the complete output format specified in the system instructions.`;
 
     try {
       const response = await anthropic.messages.create({
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 5000,
+        system: [{
+          type: 'text',
+          text: CONTENT_SYSTEM_PROMPT,
+          cache_control: { type: 'ephemeral' }
+        }],
         messages: [{
           role: 'user',
           content: [
@@ -1389,7 +1433,7 @@ Remember:
       const outputTokens = response.usage.output_tokens;
       const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
       const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
-      const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+      const cost = (inputTokens * 0.001 / 1000)
         + (cacheWriteTokens * 0.00125 / 1000)
         + (cacheReadTokens * 0.0001 / 1000)
         + (outputTokens * 0.005 / 1000);
@@ -1559,7 +1603,7 @@ async function generateEDPContentAndPDF(anthropicKey, imageBase64, mediaType, fi
   const outputTokens = response.usage.output_tokens;
   const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
   const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
-  const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+  const cost = (inputTokens * 0.001 / 1000)
     + (cacheWriteTokens * 0.00125 / 1000)
     + (cacheReadTokens * 0.0001 / 1000)
     + (outputTokens * 0.005 / 1000);
@@ -1610,7 +1654,13 @@ async function generateEDPContentAndPDF(anthropicKey, imageBase64, mediaType, fi
 // 5E Lesson Plan Generation
 // ============================================================
 
-const FIVE_E_SYSTEM_PROMPT = `You are an expert K-5 Science Curriculum Developer specializing in the 5E Instructional Model (Engage, Explore, Explain, Elaborate, Evaluate). You create grade-appropriate, NGSS-aligned 5E lesson plans based on science photographs.
+// Build expanded system prompt with NGSS standards + template (must exceed 4,096 tokens for Haiku 4.5 caching)
+function buildExpandedSystemPrompt() {
+  const standardsText = Object.entries(NGSS_PE_STANDARDS)
+    .map(([code, statement]) => `- ${code}: ${statement}`)
+    .join('\n');
+
+  return `You are an expert K-5 Science Curriculum Developer specializing in the 5E Instructional Model (Engage, Explore, Explain, Elaborate, Evaluate). You create grade-appropriate, NGSS-aligned 5E lesson plans based on science photographs.
 
 ## Core Principles
 1. Every lesson must be directly inspired by what is visible or inferable from the photograph.
@@ -1621,54 +1671,39 @@ const FIVE_E_SYSTEM_PROMPT = `You are an expert K-5 Science Curriculum Developer
 6. Include concrete, actionable teacher directions — not vague suggestions.
 
 ## Tone
-Professional yet approachable. Write as if advising a colleague teacher who needs a ready-to-use lesson plan.`;
+Professional yet approachable. Write as if advising a colleague teacher who needs a ready-to-use lesson plan.
 
-function build5EUserPrompt(category, filename, grade) {
-  const domainPrefix = CATEGORY_TO_NGSS_DOMAIN[category] || '';
-  const domainName = { 'PS': 'Physical Science', 'LS': 'Life Science', 'ESS': 'Earth and Space Science' }[domainPrefix] || category;
-  const domainTopics = category === 'physical-science'
-    ? 'forces, motion, energy, matter, properties of materials, waves, light, sound, shadows, electricity, magnetism'
-    : category === 'life-science'
-      ? 'living organisms, life cycles, habitats, body structures, ecosystems, heredity, adaptation, survival'
-      : 'rocks, minerals, weather, water cycle, landforms, erosion, natural resources, space, Earth systems';
+## Science Domains and Topics
+Each photograph is categorized into one of three NGSS science domains:
+- **physical-science (PS):** forces, motion, energy, matter, properties of materials, waves, light, sound, shadows, electricity, magnetism
+- **life-science (LS):** living organisms, life cycles, habitats, body structures, ecosystems, heredity, adaptation, survival
+- **earth-space-science (ESS):** rocks, minerals, weather, water cycle, landforms, erosion, natural resources, space, Earth systems
 
-  const filteredStandards = getFilteredNGSSStandards(category, grade.ngssGrade);
-  const standardsList = Object.entries(filteredStandards)
-    .map(([code, statement]) => `- ${code}: ${statement}`)
-    .join('\n');
+You MUST create each lesson through the lens of the specified domain's concepts and ONLY use NGSS standards with the matching domain code prefix (PS, LS, or ESS) for the specified grade level.
 
-  return `Analyze this science education photograph and generate a complete 5E Lesson Plan.
+## Complete K-5 NGSS Performance Expectations Reference
+Below is the complete set of K-5 NGSS Performance Expectations organized by standard code. Each user prompt will specify which grade level and domain to use — select only the standards matching both the grade AND domain from this reference.
 
-Category: ${category}
-Photo: ${filename}
-Grade Level: ${grade.name}
-NGSS Domain: ${domainName} (${domainPrefix} codes only)
+${standardsText}
 
-### CRITICAL DOMAIN CONSTRAINT
-This image is categorized as **${category}**. You MUST create the lesson through the lens of ${domainName.toLowerCase()} concepts.
-- Focus on: ${domainTopics}
-- Only use NGSS standards with ${domainPrefix} domain codes for grade ${grade.ngssGrade}.
-
-### Available NGSS Performance Expectations for ${grade.name} (${domainPrefix} domain)
-${standardsList || 'No specific PE standards for this grade/domain combination. Use general science practices.'}
-
-Generate ALL of the following sections using ### headers. No exceptions.
+## Required Output Format
+Generate ALL of the following sections using ### headers. No exceptions. Every section must be included in full.
 
 ### Core Science Concepts from Image Analysis
-Identify 3-4 key ${domainName.toLowerCase()} concepts visible or inferable from this photograph that are appropriate for ${grade.name}. Use bullet points.
+Identify 3-4 key concepts from the specified domain that are visible or inferable from the photograph and appropriate for the specified grade level. Use bullet points.
 
 ### Lesson Title
-Create a short, engaging, creative lesson title appropriate for ${grade.name} students. Just the title — no extra text.
+Create a short, engaging, creative lesson title appropriate for the specified grade level. Just the title — no extra text.
 
 ### Lesson Overview
 Provide these details:
-- **Grade Level:** ${grade.name}
-- **Subject:** Science (${domainName})
+- **Grade Level:** [specified grade]
+- **Subject:** Science ([specified domain])
 - **Time Allotment:** Estimate total time (e.g., "Two 45-minute sessions" or "60-90 minutes")
-- **NGSS Standards:** List 1-3 relevant NGSS PE codes from the list above
+- **NGSS Standards:** List 1-3 relevant NGSS PE codes from the filtered standards provided
 
 ### Learning Objectives
-Write 3-4 measurable learning objectives using age-appropriate language for ${grade.name}. Begin each with "Students will be able to..."
+Write 3-4 measurable learning objectives using age-appropriate language for the specified grade level. Begin each with "Students will be able to..."
 
 ### 5E Lesson Sequence
 
@@ -1677,7 +1712,7 @@ Write 3-4 measurable learning objectives using age-appropriate language for ${gr
 - **Materials:** List specific materials needed.
 - **Activity:** Describe exactly how to use this photograph to hook students. Include:
   - How to display/introduce the photograph
-  - 3-4 specific discussion questions to spark curiosity (calibrated to ${grade.name} level)
+  - 3-4 specific discussion questions to spark curiosity (calibrated to the specified grade level)
   - A prediction or wonder prompt
 - **Transition:** One sentence bridging to the Explore phase.
 
@@ -1696,7 +1731,7 @@ Write 3-4 measurable learning objectives using age-appropriate language for ${gr
 - **Materials:** List materials for this phase.
 - **Activity:** Describe teacher-led instruction that includes:
   - Group share-out from Explore phase
-  - Key vocabulary with ${grade.name}-friendly definitions (3-5 terms)
+  - Key vocabulary with grade-appropriate definitions (3-5 terms)
   - Connections back to the photograph and Explore activity
   - Check for understanding strategy
 - **Vocabulary:** List each term with a student-friendly definition.
@@ -1708,7 +1743,7 @@ Write 3-4 measurable learning objectives using age-appropriate language for ${gr
 - **Activity:** Design an extension activity that:
   - Applies concepts to a new context or scenario
   - Connects to real-world applications
-  - Is appropriately challenging for ${grade.name}
+  - Is appropriately challenging for the specified grade level
 - **Teacher Role:** Facilitation notes.
 - **Expected Student Outcomes:** Evidence of deeper understanding.
 
@@ -1726,6 +1761,31 @@ Write 3-4 measurable learning objectives using age-appropriate language for ${gr
 
 ### Extension Activities
 List 2-3 additional activities teachers can use for early finishers, homework, or follow-up lessons.`;
+}
+
+// Pre-build the system prompt once (stays identical across all API calls for caching)
+const FIVE_E_SYSTEM_PROMPT = buildExpandedSystemPrompt();
+
+function build5EUserPrompt(category, filename, grade) {
+  const domainPrefix = CATEGORY_TO_NGSS_DOMAIN[category] || '';
+  const domainName = { 'PS': 'Physical Science', 'LS': 'Life Science', 'ESS': 'Earth and Space Science' }[domainPrefix] || category;
+
+  const filteredStandards = getFilteredNGSSStandards(category, grade.ngssGrade);
+  const standardsList = Object.entries(filteredStandards)
+    .map(([code, statement]) => `- ${code}: ${statement}`)
+    .join('\n');
+
+  return `Analyze this science education photograph and generate a complete 5E Lesson Plan.
+
+Category: ${category}
+Photo: ${filename}
+Grade Level: ${grade.name}
+NGSS Domain: ${domainName} (${domainPrefix} codes only)
+
+### Applicable NGSS Performance Expectations for ${grade.name} (${domainPrefix} domain)
+${standardsList || 'No specific PE standards for this grade/domain combination. Use general science practices.'}
+
+Use ONLY the standards listed above. Follow the complete output format specified in the system instructions.`;
 }
 
 /**
@@ -1796,7 +1856,7 @@ async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, fi
     const outputTokens = response.usage.output_tokens;
     const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
     const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
-    const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+    const cost = (inputTokens * 0.001 / 1000)
       + (cacheWriteTokens * 0.00125 / 1000)
       + (cacheReadTokens * 0.0001 / 1000)
       + (outputTokens * 0.005 / 1000);
@@ -2223,7 +2283,41 @@ exports.adminDeleteImage = functions
 
       console.log(`📊 Deleted ${deletedCount} git files, skipped ${skippedCount}`);
 
-      // Also delete binary files from Firebase Storage
+      // Remove the image entry from metadata
+      metadata.images.splice(imageIndex, 1);
+      metadata.totalImages = metadata.images.length;
+      metadata.lastUpdated = new Date().toISOString();
+
+      await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
+      console.log('✅ Updated gallery-metadata.json');
+
+      // Rebuild ngss-index.json so coverage map stays accurate
+      await buildNgssIndex(repoDir);
+
+      // Commit and push (git first — if this fails, nothing else is modified)
+      await repoGit.add('-A');
+      await repoGit.commit(`Delete "${title}" (${filename}) and all associated files
+
+- Removed ${deletedCount} files from ${category}
+- Skipped ${skippedCount} missing files
+- Updated gallery-metadata.json (${metadata.totalImages} images remaining)
+
+Deleted via SIAS Admin Dashboard
+Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
+
+      // Push with retry — fetch + rebase on conflict (handles concurrent pushes)
+      try {
+        await repoGit.push('origin', 'main');
+      } catch (pushErr) {
+        console.log('⚠️  Push failed, attempting fetch + rebase retry...');
+        await repoGit.fetch(['--unshallow']);
+        await repoGit.fetch('origin', 'main');
+        await repoGit.rebase(['origin/main']);
+        await repoGit.push('origin', 'main');
+      }
+      console.log('✅ Changes pushed to GitHub');
+
+      // Delete binary files from Firebase Storage (after git push succeeds)
       console.log('☁️  Deleting binary files from Storage...');
       const storageFilesToDelete = [
         // Image variants
@@ -2248,31 +2342,6 @@ exports.adminDeleteImage = functions
         } catch (e) { /* already logged by helper */ }
       }
       console.log(`☁️  Deleted ${storageDeleted} files from Storage`);
-
-      // Remove the image entry from metadata
-      metadata.images.splice(imageIndex, 1);
-      metadata.totalImages = metadata.images.length;
-      metadata.lastUpdated = new Date().toISOString();
-
-      await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
-      console.log('✅ Updated gallery-metadata.json');
-
-      // Rebuild ngss-index.json so coverage map stays accurate
-      await buildNgssIndex(repoDir);
-
-      // Commit and push
-      await repoGit.add('-A');
-      await repoGit.commit(`Delete "${title}" (${filename}) and all associated files
-
-- Removed ${deletedCount} files from ${category}
-- Skipped ${skippedCount} missing files
-- Updated gallery-metadata.json (${metadata.totalImages} images remaining)
-
-Deleted via SIAS Admin Dashboard
-Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
-
-      await repoGit.push('origin', 'main');
-      console.log('✅ Changes pushed to GitHub');
 
       // Delete Firestore records associated with this image
       const imageIdStr = String(imageId);
@@ -2341,6 +2410,12 @@ Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
         });
       } catch (e) { console.log('  ⏭️  Error cleaning aggregation:', e.message); }
 
+      // Remove processing cost doc
+      try {
+        await db.collection('processingCosts').doc(filename).delete();
+        firestoreDeleted++;
+      } catch (e) { console.log('  ⏭️  Error cleaning processingCosts:', e.message); }
+
       console.log(`🔥 Deleted ${firestoreDeleted} Firestore records`);
 
       // Clean up temp directory
@@ -2358,7 +2433,7 @@ Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
         title: title || filename,
         imageId,
         status: 'deleted',
-        filesDeleted: deletedCount,
+        filesDeleted: deletedCount + storageDeleted,
         firestoreDeleted,
         createdAt: admin.firestore.FieldValue.serverTimestamp(),
       });
@@ -2369,7 +2444,7 @@ Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
         title,
         filename,
         category,
-        filesDeleted: deletedCount,
+        filesDeleted: deletedCount + storageDeleted,
         filesSkipped: skippedCount,
         firestoreDeleted,
       };
