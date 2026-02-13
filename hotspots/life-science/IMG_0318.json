@@ -4,44 +4,44 @@
       "id": 1,
       "x": "25%",
       "y": "35%",
-      "label": "Black Beak",
-      "fact": "This bird uses its beak to find and eat food from the ground, like insects and seeds. The beak is a special body part that helps the bird survive in its habitat. This is called **adaptation** — that's when a body part helps an animal live and find what it needs.",
+      "label": "Eye and Vision",
+      "fact": "This bird has a large, dark eye that helps it see its surroundings very well. Birds use their eyes to find food, spot danger, and move around their habitat safely. The eye is an important body part that helps this animal survive in nature.",
       "vocabulary": {
         "term": "Adaptation",
-        "definition": "A body part or behavior that helps an animal survive and live in its environment."
+        "definition": "A special body part or behavior that helps an animal survive and thrive in its environment."
       }
     },
     {
       "id": 2,
-      "x": "50%",
-      "y": "50%",
-      "label": "Feathers and Coloring",
-      "fact": "This bird's gray and brown feathers help it blend in with the ground and rocks around it. Having colors that match the environment helps the bird hide from predators and stay safe. This special matching is called **camouflage** — that's when an animal's colors help it blend into its surroundings.",
+      "x": "20%",
+      "y": "45%",
+      "label": "Beak and Mouth",
+      "fact": "This bird has a long, pointed black beak that is specially shaped for picking up small food from the ground. Different birds have different beak shapes based on what they eat and where they live. This is called **structure and function** — the beak's shape matches what the bird needs to do to survive.",
       "vocabulary": {
-        "term": "Camouflage",
-        "definition": "Colors or patterns on an animal's body that help it blend in with its environment to stay hidden."
+        "term": "Structure and Function",
+        "definition": "The way a body part is shaped helps it do its special job."
       }
     },
     {
       "id": 3,
-      "x": "65%",
-      "y": "45%",
-      "label": "Body Structure",
-      "fact": "Birds have hollow bones, wings, and feathers that help them survive in different environments. All birds share these important body parts that make them different from other animals. Scientists look at shared body structures to understand how different animals are related to each other.",
+      "x": "55%",
+      "y": "55%",
+      "label": "Feathers and Covering",
+      "fact": "Feathers cover this bird's entire body and help keep it warm and dry. Each feather is made of special parts that work together like tiny pieces of armor. Feathers are one of the traits that make birds different from other animals, and this bird inherited its feather pattern from its parents.",
       "vocabulary": {
-        "term": "Body Structure",
-        "definition": "The different parts that make up an animal's body, like bones, feathers, wings, and beaks."
+        "term": "Inherited Traits",
+        "definition": "Characteristics that an animal gets from its parents, like feather color or beak shape."
       }
     },
     {
       "id": 4,
-      "x": "40%",
-      "y": "20%",
-      "label": "Dark Eye",
-      "fact": "Birds have large eyes that help them see their surroundings very well, which is important for finding food and avoiding danger. Eyes are a special trait that all birds and many other animals have to interact with their world. Having good eyesight helps this bird survive in its ground habitat where it must spot small insects and predators.",
+      "x": "50%",
+      "y": "25%",
+      "label": "Habitat: Ground Nester",
+      "fact": "This bird is resting on rocky, dry ground with small plants around it, which is its natural habitat. Birds live in different habitats like forests, deserts, grasslands, and beaches, and each type of bird is specially adapted to survive in its own home. This bird's camouflaged coloring helps it blend in with the rocky ground to stay safe.",
       "vocabulary": {
-        "term": "Trait",
-        "definition": "A special characteristic or feature that an organism has, like eye color, feather type, or beak shape."
+        "term": "Habitat",
+        "definition": "The place where an animal lives that has everything it needs to survive, like food, water, and shelter."
       }
     }
   ]
