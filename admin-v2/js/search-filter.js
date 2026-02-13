@@ -77,7 +77,7 @@ function renderImagesGrid() {
                 <p style="margin-bottom: 8px; color: var(--text-muted); font-size: 0.85rem;">
                     Showing ${adminVisibleCount} of ${images.length} images
                 </p>
-                <button class="btn btn-outline" onclick="loadMoreAdminImages()">
+                <button class="btn btn-primary" onclick="loadMoreAdminImages()">
                     Load ${nextBatch} More
                 </button>
             </div>`;

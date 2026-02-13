@@ -528,14 +528,32 @@ function invalidateStatsCache() {
 
 /**
  * Legacy stats loader — fallback if aggregation document doesn't exist yet.
+ * Uses batch collection reads (2 reads total) instead of per-image reads.
  */
 async function legacyLoadAllStats() {
   if (!state.galleryData || !state.galleryData.images) return;
 
-  for (const image of state.galleryData.images) {
-    const ratings = await getRatings(image.id);
-    const views = await getViews(image.id);
-    updateGalleryCardStats(image.id, ratings, views);
+  try {
+    const [viewsSnap, ratingsSnap] = await Promise.all([
+      db.collection('views').get(),
+      db.collection('ratings').get()
+    ]);
+
+    const viewsMap = {};
+    viewsSnap.forEach(doc => { viewsMap[doc.id] = doc.data(); });
+
+    const ratingsMap = {};
+    ratingsSnap.forEach(doc => { ratingsMap[doc.id] = doc.data(); });
+
+    for (const image of state.galleryData.images) {
+      const id = String(image.id);
+      const ratings = ratingsMap[id] || { totalRatings: 0, totalStars: 0, averageRating: 0 };
+      const viewData = viewsMap[id] || {};
+      const views = viewData.count || 0;
+      updateGalleryCardStats(image.id, ratings, views);
+    }
+  } catch (error) {
+    console.error('Legacy stats batch load failed:', error);
   }
 }
 

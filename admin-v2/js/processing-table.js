@@ -5,6 +5,7 @@
 
 let costSortColumn = 'id';
 let costSortDirection = 'desc';
+let deferredCostRows = []; // stored for lazy accordion rendering
 
 /**
  * Render the Cost Analytics tab
@@ -132,13 +133,16 @@ function renderCostTable(images) {
     const visible = sorted.slice(0, COST_TABLE_VISIBLE_ROWS);
     const hidden = sorted.slice(COST_TABLE_VISIBLE_ROWS);
 
+    // Store hidden rows for deferred rendering on accordion expand
+    deferredCostRows = hidden;
+
     tbody.innerHTML = visible.map(renderCostTableRow).join('');
 
     if (overflow) {
         if (hidden.length > 0) {
             overflow.innerHTML = `
                 <div class="ngss-accordion" style="margin-top: 0; border-top: none; border-radius: 0 0 var(--radius-sm) var(--radius-sm);">
-                    <button class="ngss-accordion-header" onclick="this.parentElement.classList.toggle('open')">
+                    <button class="ngss-accordion-header" onclick="expandCostAccordion(this)">
                         <span class="ngss-accordion-arrow">&#9654;</span>
                         <span class="ngss-accordion-title">Show All</span>
                         <span class="ngss-accordion-badge">${hidden.length} more</span>
@@ -153,7 +157,7 @@ function renderCostTable(images) {
                                 <col style="width: 18%;">
                                 <col style="width: 20%;">
                             </colgroup>
-                            <tbody>${hidden.map(renderCostTableRow).join('')}</tbody>
+                            <tbody></tbody>
                         </table>
                     </div>
                 </div>`;
@@ -161,6 +165,21 @@ function renderCostTable(images) {
             overflow.innerHTML = '';
         }
     }
+}
+
+/**
+ * Expand cost accordion — renders deferred rows on first open
+ */
+function expandCostAccordion(btn) {
+    const accordion = btn.parentElement;
+    const tbody = accordion.querySelector('.ngss-accordion-body tbody');
+
+    // Render deferred rows on first expand
+    if (tbody && tbody.children.length === 0 && deferredCostRows.length > 0) {
+        tbody.innerHTML = deferredCostRows.map(renderCostTableRow).join('');
+    }
+
+    accordion.classList.toggle('open');
 }
 
 /**
@@ -259,3 +278,4 @@ window.renderCostAnalytics = renderCostAnalytics;
 window.sortCostTable = sortCostTable;
 window.exportCostCSV = exportCostCSV;
 window.escapeHtml = escapeHtml;
+window.expandCostAccordion = expandCostAccordion;

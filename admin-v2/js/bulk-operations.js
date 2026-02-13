@@ -153,30 +153,39 @@ function renderBulkProgress() {
 }
 
 /**
- * Execute the bulk operation — loops through images sequentially
+ * Execute the bulk operation — processes images in concurrent batches of 3
  */
+const BULK_BATCH_SIZE = 3;
+
 async function executeBulkOperation() {
     const isDelete = bulkOpState.type === 'delete';
     const fnName = isDelete ? 'adminDeleteImage' : 'adminReprocessImage';
+    const ids = bulkOpState.imageIds;
 
-    for (let i = 0; i < bulkOpState.imageIds.length; i++) {
+    for (let i = 0; i < ids.length; i += BULK_BATCH_SIZE) {
         if (bulkOpState.cancelled) break;
 
-        const imageId = bulkOpState.imageIds[i];
+        const batch = ids.slice(i, i + BULK_BATCH_SIZE);
+        const results = await Promise.allSettled(
+            batch.map(imageId => {
+                const fn = firebase.functions().httpsCallable(fnName);
+                return fn({ imageId });
+            })
+        );
 
-        try {
-            const fn = firebase.functions().httpsCallable(fnName);
-            await fn({ imageId });
-
-            if (isDelete) {
-                metadataManager.removeImageLocally(imageId);
+        // Process results for this batch
+        results.forEach((result, idx) => {
+            const imageId = batch[idx];
+            if (result.status === 'fulfilled') {
+                if (isDelete) {
+                    metadataManager.removeImageLocally(imageId);
+                }
+                bulkOpState.completed++;
+            } else {
+                console.error(`Bulk ${bulkOpState.type} failed for image ${imageId}:`, result.reason);
+                bulkOpState.failed++;
             }
-
-            bulkOpState.completed++;
-        } catch (error) {
-            console.error(`Bulk ${bulkOpState.type} failed for image ${imageId}:`, error);
-            bulkOpState.failed++;
-        }
+        });
 
         renderBulkProgress();
     }

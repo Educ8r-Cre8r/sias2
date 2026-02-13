@@ -3,30 +3,39 @@
 **Date:** 2025-02-13
 **Current state:** 171 images, 221 KB metadata, 710 MB .git
 **Target state:** 500+ images
+**Last updated:** 2026-02-13
 
 ---
 
 ## RED — Will break or become unusable at 500+ images
 
-### 1. Cloud Functions: Full git clone in 10 functions (no sparse checkout)
-Only `process5EFromQueue` uses sparse checkout. The other 10 functions that clone the repo (`processImageFromQueue`, `adminDeleteImage`, `adminEditContent`, `adminUpdateHotspots`, `adminSaveImageOrder`, `adminSaveFeaturedCollections`, `adminUpdateImageMetadata`, plus 3 version-history functions) download the **entire working tree** every time — even when they only need `gallery-metadata.json` and maybe one content file. At 500+ images with ~16 JSON files each, that's 8,000+ files cloned. The 3 version-history functions use `--depth 50`, which is even worse. Clone times will approach or exceed function timeouts.
+### 1. ✅ FIXED — Cloud Functions: Full git clone in 10 functions (no sparse checkout)
+Only `process5EFromQueue` used sparse checkout. The other 10 functions downloaded the **entire working tree** every time.
 
-**Files:** `functions/index.js` — lines 529, 2408, 2799, 2894, 3542, 3918, 4003, 3290, 3351, 3411
+**Fix:** Extracted `sparseClone()` helper with `--filter=blob:none --sparse` and converted all 11 functions. Each function now only downloads the specific files it needs (e.g., `adminSaveImageOrder` only gets `gallery-metadata.json`).
 
-### 2. Cloud Functions: Git push conflicts with no retry
-Most functions that push to git have **no conflict retry logic**. If an admin edits content while `process5EFromQueue` is pushing, the second push fails silently. Only `adminDeleteImage` has retry logic. As usage grows, these collisions become more frequent.
+**Files:** `functions/index.js` — `sparseClone()` helper + all clone sites
 
-**Files:** `functions/index.js` — all git push call sites except `adminDeleteImage` (lines 2494-2502)
+### 2. ✅ FIXED — Cloud Functions: Git push conflicts with no retry
+Most functions that push to git had **no conflict retry logic**. Only `adminDeleteImage` had retry logic.
 
-### 3. Admin: Images grid renders ALL images with no pagination
-`search-filter.js` builds the entire grid in one shot — 500+ DOM cards with thumbnails all loading simultaneously. The public-facing site has "Load More" pagination, but the admin dashboard doesn't.
+**Fix:** Extracted `pushWithRetry(repoGit, maxRetries = 2)` helper with fetch + rebase on conflict. Replaced all 9 bare `repoGit.push()` calls.
 
-**Files:** `admin-v2/js/search-filter.js` — lines 24-53
+**Files:** `functions/index.js` — `pushWithRetry()` helper + all push sites
 
-### 4. Admin: All tabs rendered eagerly on init
-`app.js` renders the images grid, cost table, content audit, AND overview all on page load, even though you only see one tab. That's 4 full passes over 500+ images building hidden DOM trees.
+### 3. ✅ FIXED — Admin: Images grid renders ALL images with no pagination
+`search-filter.js` built the entire grid in one shot — 500+ DOM cards with thumbnails all loading simultaneously.
 
-**Files:** `admin-v2/js/app.js` — lines 37-40
+**Fix:** Added `ADMIN_IMAGES_PER_PAGE = 48` with "Load More" button. Pagination resets on search, filter, or sort changes.
+
+**Files:** `admin-v2/js/search-filter.js` — `loadMoreAdminImages()` + pagination state
+
+### 4. ✅ FIXED — Admin: All tabs rendered eagerly on init
+`app.js` rendered the images grid, cost table, content audit, AND overview all on page load.
+
+**Fix:** Only Overview tab renders on load. Images, Costs, and Content Audit tabs lazy-render on first visit via `tabRendered` flags in `switchTab()`.
+
+**Files:** `admin-v2/js/app.js` — `tabRendered` object + lazy checks in `switchTab()`
 
 ### 5. Admin: Reorder modal with SortableJS
 SortableJS degrades noticeably above ~200-300 items. At 500+ draggable cards, the drag-and-drop will be laggy or unusable.
@@ -38,49 +47,65 @@ The featured collections picker loads ALL images as thumbnail cards in a modal. 
 
 **Files:** `admin-v2/js/collection-manager.js` — lines 117-146
 
-### 7. Admin: Bulk operations are purely sequential
+### 7. ✅ FIXED — Admin: Bulk operations are purely sequential
 Each bulk reprocess/delete calls a Cloud Function and waits for it to finish before moving to the next. At 30 seconds per image, 500 images = 4+ hours with the browser tab open.
 
-**Files:** `admin-v2/js/bulk-operations.js` — lines 158-196
+**Fix:** Replaced sequential for-loop with batched concurrent processing using `Promise.allSettled()`. Processes 3 operations concurrently (`BULK_BATCH_SIZE = 3`). Progress updates after each batch instead of each individual operation.
+
+**Files:** `admin-v2/js/bulk-operations.js` — `executeBulkOperation()`, `BULK_BATCH_SIZE`
 
 ---
 
 ## YELLOW — Will slow down noticeably
 
-### 8. Frontend: No search debounce
-The gallery search fires `renderGallery()` on every keystroke — typing "butterfly" triggers 9 full DOM wipe-and-rebuild cycles. The admin search has the same issue.
+### 8. ✅ FIXED — Frontend: No search debounce
+The gallery search fired `renderGallery()` on every keystroke — typing "butterfly" triggered 9 full DOM wipe-and-rebuild cycles. The admin search had the same issue.
 
-**Files:** `script.js` — lines 137, 750-767; `admin-v2/js/search-filter.js` — line 119
+**Fix:** Added `debounce()` utility to both `script.js` and `admin-v2/js/search-filter.js` with 250ms delay.
 
-### 9. Frontend: Full DOM wipe on every filter/search
+**Files:** `script.js`, `admin-v2/js/search-filter.js`
+
+### 9. ✅ FIXED — Frontend: Full DOM wipe on every filter/search
 `renderGallery()` does `innerHTML = ''` and rebuilds from scratch every time a filter changes. If a user has loaded 200+ cards via "Load More", they all get destroyed and rebuilt.
 
-**Files:** `script.js` — line 478, lines 419-521
+**Fix:** Replaced full innerHTML wipe with DOM reconciliation. Added `galleryItemCache` Map to cache created gallery items by image ID. On filter/search changes, removes non-matching cards, reuses cached cards, and only creates new nodes for images not already cached. Uses DocumentFragment for batch insertions.
 
-### 10. Frontend: Legacy stats fallback is a time bomb
+**Files:** `script.js` — `galleryItemCache`, `renderGallery()` reconciliation logic
+
+### 10. ✅ FIXED — Frontend: Legacy stats fallback is a time bomb
 `ratings.js` has a `legacyLoadAllStats()` path that fires individual Firestore reads for every image if the aggregation document is missing. At 500 images = 1,000 sequential Firestore reads. The site would hang for ~100 seconds.
 
-**Files:** `ratings.js` — lines 532-540
+**Fix:** Replaced sequential per-image reads with 2 batch collection reads using `Promise.all()` on `db.collection('views').get()` and `db.collection('ratings').get()`. Builds viewsMap/ratingsMap from snapshots, then loops through images.
 
-### 11. Service Worker: Unbounded PDF cache
-PDFs are cached with `cacheFirst` and no eviction. Each image has up to 8 PDFs at 200-400 KB each. Heavy teacher usage across hundreds of images could push the cache to 500 MB+, triggering browser-level cache eviction of your entire origin.
+**Files:** `ratings.js` — `legacyLoadAllStats()` batch read pattern
 
-**Files:** `sw.js` — line 11, lines 103-107, lines 152-168
+### 11. ✅ FIXED — Service Worker: Unbounded PDF cache
+PDFs were cached with `cacheFirst` and no eviction.
 
-### 12. Service Worker: Unbounded image cache
-Same problem — no max size or LRU eviction on the image cache. At 500+ images with 3 variants each, ~150 MB of cache.
+**Fix:** Added `CACHE_LIMITS` (PDF_CACHE: 150 entries) and `evictIfNeeded()` helper that trims oldest entries. Cache version bumped to v5.
 
-**Files:** `sw.js` — line 10, lines 98-107, lines 152-168
+**Files:** `sw.js` — `CACHE_LIMITS`, `evictIfNeeded()`
 
-### 13. Admin: Firestore collections read 3+ times per session
+### 12. ✅ FIXED — Service Worker: Unbounded image cache
+Same problem — no max size or LRU eviction on the image cache.
+
+**Fix:** Added IMAGE_CACHE limit of 300 entries, using the same `evictIfNeeded()` helper.
+
+**Files:** `sw.js` — `CACHE_LIMITS`, `evictIfNeeded()`
+
+### 13. ✅ FIXED — Admin: Firestore collections read 3+ times per session
 The `views` and `ratings` collections are read in full by `loadOverviewEngagement()`, `loadAnalytics()`, and the activity feed — same data, no shared cache.
 
-**Files:** `admin-v2/js/app.js` — lines 217-220; `admin-v2/js/analytics.js` — lines 20-22
+**Fix:** Added `firestoreCache` object and `getCachedCollection()` helper in `app.js` with 5-minute TTL. Both `loadOverviewEngagement()` and `loadAnalytics()` now use the shared cache, reducing 4 collection reads to 2 per session.
 
-### 14. Admin: Cost table and content audit accordion pre-render all hidden rows
+**Files:** `admin-v2/js/app.js` — `firestoreCache`, `getCachedCollection()`; `admin-v2/js/analytics.js`
+
+### 14. ✅ FIXED — Admin: Cost table and content audit accordion pre-render all hidden rows
 Even though only 24 rows are visible, all 476+ hidden rows are fully rendered in the DOM inside the accordion.
 
-**Files:** `admin-v2/js/processing-table.js` — lines 132-163; `admin-v2/js/content-audit.js` — lines 136-175
+**Fix:** Deferred accordion rendering — hidden data stored in module-level arrays (`deferredCostRows`, `deferredAuditItems`). Accordion body renders empty initially; rows render on first expand via `expandCostAccordion()` / `expandAuditAccordion()`.
+
+**Files:** `admin-v2/js/processing-table.js` — `deferredCostRows`, `expandCostAccordion()`; `admin-v2/js/content-audit.js` — `deferredAuditItems`, `expandAuditAccordion()`
 
 ---
 
@@ -110,13 +135,27 @@ Sequential file reads in Cloud Functions. At 500 images adds ~10-15 seconds but 
 
 ## Recommended Priority Order
 
-If fixing before growing significantly:
+### ✅ Round 1 — All 6 priority items implemented (2026-02-13)
 
-1. **Add sparse checkout to all Cloud Functions** — biggest bang for buck, prevents timeout failures
-2. **Add git push retry/rebase logic** to all functions that push — prevents silent data loss
-3. **Add pagination to admin images grid** — easy win, mirrors what the public site already has
-4. **Lazy-render tabs** — only build a tab's DOM when the user clicks on it
-5. **Add search debounce** (both public + admin) — trivial fix, big UX improvement
-6. **Add cache eviction to service worker** — cap image cache at ~200 entries, PDF cache at ~100
+1. ~~**Add sparse checkout to all Cloud Functions**~~ — ✅ `sparseClone()` helper, 11 functions converted
+2. ~~**Add git push retry/rebase logic**~~ — ✅ `pushWithRetry()` helper, 9 push sites converted
+3. ~~**Add pagination to admin images grid**~~ — ✅ 48 per page with "Load More"
+4. ~~**Lazy-render tabs**~~ — ✅ Only Overview renders on load
+5. ~~**Add search debounce**~~ — ✅ 250ms debounce on public + admin
+6. ~~**Add cache eviction to service worker**~~ — ✅ 300 image / 150 PDF entry limits
 
-Items 1-2 are critical infrastructure. Items 3-6 are straightforward UI fixes. None require major architectural changes — they're all incremental improvements to existing patterns.
+### ✅ Round 2 — 5 additional items implemented (2026-02-13)
+
+7. ~~**Fix legacy stats fallback**~~ — ✅ Batch collection reads instead of per-image sequential
+8. ~~**Concurrent bulk operations**~~ — ✅ `Promise.allSettled()` batches of 3
+9. ~~**Shared Firestore cache**~~ — ✅ `getCachedCollection()` with 5-min TTL
+10. ~~**Deferred accordion rendering**~~ — ✅ Lazy render on first accordion expand
+11. ~~**DOM reconciliation for gallery**~~ — ✅ `galleryItemCache` + reconcile instead of wipe
+
+### Remaining items (not yet addressed)
+
+The following issues from this audit are still open and should be revisited as the image count grows:
+
+- **#5 — SortableJS reorder modal** — may need virtualization at 300+ images
+- **#6 — Collection image picker** — renders all thumbnails in modal
+- **#15-18** — Green-tier items, fine until 1,000+ images

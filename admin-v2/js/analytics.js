@@ -18,8 +18,8 @@ async function loadAnalytics() {
 
         // Batch read all views and ratings
         const [viewsSnap, ratingsSnap] = await Promise.all([
-            db.collection('views').get(),
-            db.collection('ratings').get()
+            getCachedCollection('views'),
+            getCachedCollection('ratings')
         ]);
 
         const viewsMap = {};

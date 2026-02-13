@@ -4,6 +4,7 @@
  */
 
 let auditFilter = 'all';
+let deferredAuditItems = []; // stored for lazy accordion rendering
 
 /**
  * Render the content audit tab
@@ -153,25 +154,41 @@ function renderAuditList(results) {
     const visible = sorted.slice(0, VISIBLE_COUNT);
     const remaining = sorted.slice(VISIBLE_COUNT);
 
+    // Store remaining items for deferred rendering on accordion expand
+    deferredAuditItems = remaining;
+
     let html = visible.map(renderAuditItem).join('');
 
     if (remaining.length > 0) {
-        const remainingHtml = remaining.map(renderAuditItem).join('');
         html += `
             <div class="ngss-accordion" style="margin-top: 12px;">
-                <button class="ngss-accordion-header" onclick="this.parentElement.classList.toggle('open')">
+                <button class="ngss-accordion-header" onclick="expandAuditAccordion(this)">
                     <span class="ngss-accordion-arrow">&#9654;</span>
                     <span class="ngss-accordion-title">Show All</span>
                     <span class="ngss-accordion-badge">${remaining.length} more</span>
                 </button>
                 <div class="ngss-accordion-body">
-                    ${remainingHtml}
                 </div>
             </div>
         `;
     }
 
     container.innerHTML = html;
+}
+
+/**
+ * Expand audit accordion — renders deferred items on first open
+ */
+function expandAuditAccordion(btn) {
+    const accordion = btn.parentElement;
+    const body = accordion.querySelector('.ngss-accordion-body');
+
+    // Render deferred items on first expand
+    if (body && body.children.length === 0 && deferredAuditItems.length > 0) {
+        body.innerHTML = deferredAuditItems.map(renderAuditItem).join('');
+    }
+
+    accordion.classList.toggle('open');
 }
 
 /**
@@ -214,3 +231,4 @@ function exportAuditCSV() {
 window.renderContentAudit = renderContentAudit;
 window.filterAudit = filterAudit;
 window.exportAuditCSV = exportAuditCSV;
+window.expandAuditAccordion = expandAuditAccordion;

@@ -20,6 +20,9 @@ const state = {
 
 const IMAGES_PER_PAGE = 48;
 
+// Cache for created gallery DOM elements — avoids re-creating nodes on filter changes
+const galleryItemCache = new Map();
+
 // Utility: debounce function calls
 function debounce(fn, delay) {
   let timer;
@@ -483,9 +486,6 @@ function renderGallery() {
   // Store filtered images in state for Load More
   state.filteredImages = filteredImages;
 
-  // Clear grid
-  galleryGrid.innerHTML = '';
-
   // Remove existing Load More button
   const existingLoadMore = document.getElementById('load-more-container');
   if (existingLoadMore) {
@@ -493,6 +493,7 @@ function renderGallery() {
   }
 
   if (filteredImages.length === 0) {
+    galleryGrid.innerHTML = '';
     if (state.collectionFilter) {
       showEmptyState('Your collection is empty. Open a photo\'s lesson content and tap the heart to add it to your collection!');
     } else if (state.featuredFilter) {
@@ -508,11 +509,43 @@ function renderGallery() {
     emptyState.style.display = 'none';
   }
 
-  // Render only up to visibleCount images
+  // Render using cached DOM nodes — reconcile instead of full wipe
   const imagesToShow = filteredImages.slice(0, state.visibleCount);
+  const targetIds = new Set(imagesToShow.map(img => img.id));
+
+  // Remove cards that shouldn't be visible anymore
+  Array.from(galleryGrid.children).forEach(child => {
+    const childId = Number(child.dataset?.photoId);
+    if (!targetIds.has(childId)) {
+      child.remove();
+    }
+  });
+
+  // Build map of currently present cards
+  const presentIds = new Set();
+  Array.from(galleryGrid.children).forEach(child => {
+    presentIds.add(Number(child.dataset?.photoId));
+  });
+
+  // Use DocumentFragment for batch insertion of new cards
+  const fragment = document.createDocumentFragment();
   imagesToShow.forEach(image => {
-    const item = createGalleryItem(image);
-    galleryGrid.appendChild(item);
+    if (!presentIds.has(image.id)) {
+      // Check cache first, create only if not cached
+      let item = galleryItemCache.get(image.id);
+      if (!item) {
+        item = createGalleryItem(image);
+        galleryItemCache.set(image.id, item);
+      }
+      fragment.appendChild(item);
+    }
+  });
+  galleryGrid.appendChild(fragment);
+
+  // Reorder to match target order — appendChild moves existing nodes
+  imagesToShow.forEach(image => {
+    const node = galleryGrid.querySelector(`[data-photo-id="${image.id}"]`);
+    if (node) galleryGrid.appendChild(node);
   });
 
   // Show Load More button if there are more images

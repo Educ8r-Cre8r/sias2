@@ -7,6 +7,24 @@
 const STORAGE_BUCKET = 'sias-8178a.firebasestorage.app';
 const STORAGE_ENABLED = true;
 
+// Shared Firestore collection cache — avoids duplicate reads across tabs
+const firestoreCache = {};
+const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
+
+/**
+ * Get a Firestore collection snapshot with session caching.
+ * Returns cached data if within TTL, otherwise fetches and caches.
+ */
+async function getCachedCollection(collectionName) {
+    const cached = firestoreCache[collectionName];
+    if (cached && (Date.now() - cached.timestamp) < CACHE_TTL) {
+        return cached.snapshot;
+    }
+    const snapshot = await db.collection(collectionName).get();
+    firestoreCache[collectionName] = { snapshot, timestamp: Date.now() };
+    return snapshot;
+}
+
 function resolveAssetUrl(relativePath) {
   if (!relativePath) return '';
   // Strip leading ../ used by admin-v2 subdirectory
@@ -28,7 +46,7 @@ const tabRendered = {
     overview: false,
     images: false,
     costs: false,
-    'content-audit': false
+    audit: false
 };
 
 /**
@@ -84,8 +102,8 @@ function switchTab(tabName) {
         tabRendered.costs = true;
         renderCostAnalytics();
     }
-    if (tabName === 'content-audit' && !tabRendered['content-audit']) {
-        tabRendered['content-audit'] = true;
+    if (tabName === 'audit' && !tabRendered.audit) {
+        tabRendered.audit = true;
         renderContentAudit();
         if (typeof loadNgssCoverage === 'function') loadNgssCoverage();
     }
@@ -233,8 +251,8 @@ function countAssociatedFiles(filesObj) {
 async function loadOverviewEngagement() {
     try {
         const [viewsSnap, ratingsSnap, commentsSnap] = await Promise.all([
-            db.collection('views').get(),
-            db.collection('ratings').get(),
+            getCachedCollection('views'),
+            getCachedCollection('ratings'),
             db.collection('comments').orderBy('timestamp', 'desc').limit(5).get()
         ]);
 
@@ -417,3 +435,4 @@ window.getCategoryBadgeClass = getCategoryBadgeClass;
 window.getCategoryName = getCategoryName;
 window.computeAssociatedFiles = computeAssociatedFiles;
 window.countAssociatedFiles = countAssociatedFiles;
+window.getCachedCollection = getCachedCollection;
