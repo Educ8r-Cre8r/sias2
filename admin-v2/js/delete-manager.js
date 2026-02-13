@@ -22,7 +22,7 @@ function showDeleteModal(imageId) {
 
     const files = computeAssociatedFiles(image);
     const totalFiles = countAssociatedFiles(files);
-    const allFiles = [...files.images, ...files.content, ...files.hotspots, ...files.pdfs];
+    const allFiles = [...files.images, ...files.content, ...files.hotspots, ...files.pdfs, ...(files.fiveE || [])];
 
     const modal = document.getElementById('delete-modal');
     const body = document.getElementById('delete-modal-body');
@@ -60,6 +60,9 @@ function showDeleteModal(imageId) {
                 <br><br>
                 <strong>PDFs (${files.pdfs.length}):</strong><br>
                 ${files.pdfs.map(f => '  ' + f).join('<br>')}
+                <br><br>
+                <strong>5E Lessons (${files.fiveE ? files.fiveE.length : 0}):</strong><br>
+                ${files.fiveE ? files.fiveE.map(f => '  ' + f).join('<br>') : '  (none)'}
                 <br><br>
                 <strong>Also removed:</strong><br>
                   gallery-metadata.json entry<br>

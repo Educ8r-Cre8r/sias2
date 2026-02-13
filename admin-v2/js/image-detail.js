@@ -163,6 +163,10 @@ function showDetailModal(imageId) {
                         <summary style="cursor: pointer; font-size: 0.85rem;">PDFs (${files.pdfs.length})</summary>
                         <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.pdfs)}</ul>
                     </details>
+                    <details style="margin-bottom: 8px;">
+                        <summary style="cursor: pointer; font-size: 0.85rem;">5E Lessons (${files.fiveE ? files.fiveE.length : 0})</summary>
+                        <ul class="audit-file-list" style="margin-top: 4px;">${files.fiveE ? fileListHtml(files.fiveE) : ''}</ul>
+                    </details>
                 </div>
             </div>
         </div>

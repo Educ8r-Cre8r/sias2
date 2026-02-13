@@ -183,6 +183,7 @@ function computeAssociatedFiles(image) {
             `content/${category}/${nameNoExt}.json`,
             ...grades.map(g => `content/${category}/${nameNoExt}-${g}.json`),
             `content/${category}/${nameNoExt}-edp.json`,
+            ...grades.map(g => `content/${category}/${nameNoExt}-5e-${g}.json`),
         ],
         hotspots: [
             `hotspots/${category}/${nameNoExt}.json`,
@@ -190,6 +191,9 @@ function computeAssociatedFiles(image) {
         pdfs: [
             ...grades.map(g => `pdfs/${category}/${nameNoExt}-${g}.pdf`),
             `pdfs/${category}/${nameNoExt}-edp.pdf`,
+        ],
+        fiveE: [
+            ...grades.map(g => `5e_lessons/${category}/${nameNoExt}-${g}.pdf`),
         ]
     };
 }
@@ -198,7 +202,7 @@ function computeAssociatedFiles(image) {
  * Count total files from associated files object
  */
 function countAssociatedFiles(filesObj) {
-    return filesObj.images.length + filesObj.content.length + filesObj.hotspots.length + filesObj.pdfs.length;
+    return filesObj.images.length + filesObj.content.length + filesObj.hotspots.length + filesObj.pdfs.length + (filesObj.fiveE ? filesObj.fiveE.length : 0);
 }
 
 /**
