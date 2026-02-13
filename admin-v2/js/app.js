@@ -23,6 +23,14 @@ function resolveAssetUrl(relativePath) {
 
 let dashboardInitialized = false;
 
+// Lazy-render flags — tabs render on first visit only
+const tabRendered = {
+    overview: false,
+    images: false,
+    costs: false,
+    'content-audit': false
+};
+
 /**
  * Initialize the dashboard after auth succeeds
  */
@@ -33,14 +41,9 @@ async function initDashboard() {
     // Load metadata first — everything depends on it
     await metadataManager.load();
 
-    // Initialize all tabs
+    // Only render the default tab (Overview) — others render on first visit
     renderOverview();
-    renderImagesGrid();
-    renderCostAnalytics();
-    renderContentAudit();
-
-    // Load NGSS coverage (part of Content Audit tab)
-    if (typeof loadNgssCoverage === 'function') loadNgssCoverage();
+    tabRendered.overview = true;
 
     // Start real-time queue monitor
     startQueueMonitor();
@@ -71,6 +74,21 @@ function switchTab(tabName) {
     document.querySelectorAll('.tab-content').forEach(content => {
         content.classList.toggle('active', content.id === 'tab-' + tabName);
     });
+
+    // Lazy-render DOM-heavy tabs on first visit
+    if (tabName === 'images' && !tabRendered.images) {
+        tabRendered.images = true;
+        renderImagesGrid();
+    }
+    if (tabName === 'costs' && !tabRendered.costs) {
+        tabRendered.costs = true;
+        renderCostAnalytics();
+    }
+    if (tabName === 'content-audit' && !tabRendered['content-audit']) {
+        tabRendered['content-audit'] = true;
+        renderContentAudit();
+        if (typeof loadNgssCoverage === 'function') loadNgssCoverage();
+    }
 
     // Lazy-load data for tabs that query Firestore
     if (tabName === 'activity' && typeof loadActivityFeed === 'function') loadActivityFeed();

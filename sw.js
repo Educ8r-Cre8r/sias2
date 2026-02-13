@@ -3,7 +3,7 @@
  * Progressive Web App caching with per-resource strategies.
  */
 
-const CACHE_VERSION = 'v4';
+const CACHE_VERSION = 'v5';
 const SHELL_CACHE = `sias-shell-${CACHE_VERSION}`;
 const METADATA_CACHE = `sias-metadata-${CACHE_VERSION}`;
 const CONTENT_CACHE = `sias-content-${CACHE_VERSION}`;
@@ -12,6 +12,12 @@ const PDF_CACHE = `sias-pdfs-${CACHE_VERSION}`;
 const CDN_CACHE = `sias-cdn-${CACHE_VERSION}`;
 
 const ALL_CACHES = [SHELL_CACHE, METADATA_CACHE, CONTENT_CACHE, IMAGE_CACHE, PDF_CACHE, CDN_CACHE];
+
+// Max entries per cache — prevents unbounded storage growth
+const CACHE_LIMITS = {
+  [IMAGE_CACHE]: 300,  // ~75 full image sets (4 variants each)
+  [PDF_CACHE]: 150,    // ~150 PDFs
+};
 
 // App shell files to pre-cache on install
 const APP_SHELL = [
@@ -148,6 +154,22 @@ self.addEventListener('fetch', (event) => {
   // Default: let the browser handle normally
 });
 
+// ── Evict oldest entries if cache exceeds limit ──
+async function evictIfNeeded(cacheName) {
+  const maxEntries = CACHE_LIMITS[cacheName];
+  if (!maxEntries) return;
+
+  const cache = await caches.open(cacheName);
+  const keys = await cache.keys();
+
+  if (keys.length > maxEntries) {
+    const toEvict = keys.length - maxEntries;
+    for (let i = 0; i < toEvict; i++) {
+      await cache.delete(keys[i]);
+    }
+  }
+}
+
 // ── Cache First: try cache, fall back to network ──
 async function cacheFirst(request, cacheName) {
   const cached = await caches.match(request);
@@ -158,6 +180,7 @@ async function cacheFirst(request, cacheName) {
     if (response.ok) {
       const cache = await caches.open(cacheName);
       cache.put(request, response.clone());
+      evictIfNeeded(cacheName); // Fire-and-forget
     }
     return response;
   } catch (error) {

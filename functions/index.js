@@ -87,6 +87,67 @@ async function deleteFromGalleryStorage(storagePath) {
   }
 }
 
+/**
+ * Push to GitHub with retry — fetch + rebase on conflict (handles concurrent pushes).
+ * @param {object} repoGit - simple-git instance
+ * @param {number} maxRetries - number of retry attempts (default 2)
+ */
+async function pushWithRetry(repoGit, maxRetries = 2) {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      await repoGit.push('origin', 'main');
+      return; // success
+    } catch (pushErr) {
+      if (attempt < maxRetries) {
+        console.log(`⚠️  Push failed (attempt ${attempt + 1}/${maxRetries + 1}), retrying with fetch + rebase...`);
+        try { await repoGit.fetch(['--unshallow']); } catch (_) { /* already unshallowed */ }
+        await repoGit.fetch('origin', 'main');
+        await repoGit.rebase(['origin/main']);
+      } else {
+        throw pushErr; // exhausted retries
+      }
+    }
+  }
+}
+
+/**
+ * Clone a repo with sparse checkout — only materializes the files you need.
+ * Dramatically faster than a full clone when the repo has thousands of files.
+ *
+ * @param {string} repoUrl - Authenticated repo URL
+ * @param {string} repoDir - Local directory to clone into
+ * @param {string[]} sparsePaths - Paths to include (e.g. 'gallery-metadata.json', 'content/*\/')
+ * @param {object} options
+ * @param {number}  options.depth - Git depth (default 1; use 50 for version history)
+ * @param {string}  options.userName - Git user name (default 'SIAS Admin')
+ * @param {string}  options.userEmail - Git user email (default ADMIN_EMAIL constant)
+ * @returns {object} repoGit - configured simple-git instance for the cloned repo
+ */
+async function sparseClone(repoUrl, repoDir, sparsePaths, options = {}) {
+  const { depth = 1, userName = 'SIAS Admin', userEmail = 'mr.alexdjones@gmail.com' } = options;
+
+  // Clean up any leftover directory from a previous run
+  try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (_) {}
+
+  console.log(`📦 Cloning repository (sparse, depth ${depth})...`);
+  const git = simpleGit();
+  await git.clone(repoUrl, repoDir, [
+    `--depth`, `${depth}`,
+    '--filter=blob:none',
+    '--sparse',
+  ]);
+
+  const repoGit = simpleGit(repoDir);
+  await repoGit.addConfig('user.name', userName);
+  await repoGit.addConfig('user.email', userEmail);
+
+  // Set sparse-checkout paths
+  await repoGit.raw(['sparse-checkout', 'set', '--no-cone', ...sparsePaths]);
+  console.log('✅ Repository cloned (sparse)');
+
+  return repoGit;
+}
+
 // Grade levels for content generation
 const GRADE_LEVELS = [
   { key: 'kindergarten', name: 'Kindergarten', ngssGrade: 'K' },
@@ -511,27 +572,18 @@ async function processImageFromQueue(queueItem) {
     await bucket.file(filePath).download({ destination: tempFilePath });
     console.log(`⬇️  Downloaded to: ${tempFilePath}`);
 
-    // Clone the GitHub repo to temp directory
+    // Clone the GitHub repo to temp directory (sparse — only JSON + logo)
     const repoDir = path.join(tempDir, 'sias2-repo');
     const githubToken = process.env.GITHUB_TOKEN;
     const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
 
-    // Clean up any existing repo directory from previous runs
-    try {
-      await fs.rm(repoDir, { recursive: true, force: true });
-      console.log('🧹 Cleaned up existing repo directory');
-    } catch (cleanupError) {
-      // Directory doesn't exist, that's fine
-    }
-
-    console.log('📦 Cloning GitHub repository...');
-    const git = simpleGit();
-    await git.clone(repoUrl, repoDir, ['--depth', '1']);
-    console.log('✅ Repository cloned');
-
-    const repoGit = simpleGit(repoDir);
-    await repoGit.addConfig('user.name', 'SIAS Automation');
-    await repoGit.addConfig('user.email', 'mr.alexdjones@gmail.com');
+    const repoGit = await sparseClone(repoUrl, repoDir, [
+      'gallery-metadata.json',
+      'ngss-index.json',
+      'sias_logo.png',
+      'content/*/',
+      `hotspots/${category}/`,
+    ], { userName: 'SIAS Automation' });
 
     const isReprocess = queueItem.reprocess === true;
     const targetImagePath = path.join(repoDir, 'images', category, filename);
@@ -781,7 +833,7 @@ async function processImageFromQueue(queueItem) {
 
 Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
 
-    await repoGit.push('origin', 'main');
+    await pushWithRetry(repoGit);
     console.log('✅ Pushed to GitHub');
 
     // Move processed file to "processed" folder in storage
@@ -844,30 +896,16 @@ async function process5EFromQueue(queueItem) {
     const metadata = await sharp(tempFilePath).metadata();
     const mediaType = `image/${metadata.format}`;
 
-    // Clone repo
+    // Clone repo (sparse — only JSON + logo needed for 5E generation)
     const repoDir = path.join(tempDir, 'sias2-repo');
     const githubToken = process.env.GITHUB_TOKEN;
     const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
 
-    try {
-      await fs.rm(repoDir, { recursive: true, force: true });
-    } catch (e) {}
-
-    // Sparse checkout: only download files needed for 5E generation
-    // (avoids downloading ~500MB of images/PDFs we don't need)
-    console.log('📦 Cloning repository (sparse checkout)...');
-    const git = simpleGit();
-    await git.clone(repoUrl, repoDir, ['--depth', '1', '--filter=blob:none', '--sparse']);
-    const repoGit = simpleGit(repoDir);
-    await repoGit.addConfig('user.name', 'SIAS Automation');
-    await repoGit.addConfig('user.email', 'mr.alexdjones@gmail.com');
-    // Set sparse checkout — only need JSON files + logo (binaries are in Storage)
-    await repoGit.raw(['sparse-checkout', 'set', '--no-cone',
+    const repoGit = await sparseClone(repoUrl, repoDir, [
       'sias_logo.png',
       'gallery-metadata.json',
       `content/${category}/`,
-    ]);
-    console.log('✅ Repository cloned (sparse)');
+    ], { userName: 'SIAS Automation' });
 
     // Use the already-downloaded temp image for PDF generation (no need to clone from git)
     const targetImagePath = tempFilePath;
@@ -926,7 +964,7 @@ async function process5EFromQueue(queueItem) {
 
 Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
 
-    await repoGit.push('origin', 'main');
+    await pushWithRetry(repoGit);
     console.log('✅ 5E content pushed to GitHub');
 
     // Clean up
@@ -2394,22 +2432,16 @@ exports.adminDeleteImage = functions
     const repoDir = path.join(tempDir, 'sias2-admin-delete');
 
     try {
-      // Clean up any existing repo directory
-      try {
-        await fs.rm(repoDir, { recursive: true, force: true });
-      } catch (e) { /* doesn't exist */ }
-
-      // Clone the repo
+      // Clone the repo (sparse — only metadata + content JSONs needed)
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
 
-      console.log('📦 Cloning repository...');
-      const git = simpleGit();
-      await git.clone(repoUrl, repoDir, ['--depth', '1']);
-      const repoGit = simpleGit(repoDir);
-      await repoGit.addConfig('user.name', 'SIAS Admin');
-      await repoGit.addConfig('user.email', ADMIN_EMAIL);
-      console.log('✅ Repository cloned');
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'gallery-metadata.json',
+        'ngss-index.json',
+        'content/*/',
+        'hotspots/*/',
+      ], { userEmail: ADMIN_EMAIL });
 
       // Read gallery-metadata.json from the cloned repo
       const metadataPath = path.join(repoDir, 'gallery-metadata.json');
@@ -2490,16 +2522,7 @@ exports.adminDeleteImage = functions
 Deleted via SIAS Admin Dashboard
 Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
 
-      // Push with retry — fetch + rebase on conflict (handles concurrent pushes)
-      try {
-        await repoGit.push('origin', 'main');
-      } catch (pushErr) {
-        console.log('⚠️  Push failed, attempting fetch + rebase retry...');
-        await repoGit.fetch(['--unshallow']);
-        await repoGit.fetch('origin', 'main');
-        await repoGit.rebase(['origin/main']);
-        await repoGit.push('origin', 'main');
-      }
+      await pushWithRetry(repoGit);
       console.log('✅ Changes pushed to GitHub');
 
       // Delete binary files from Firebase Storage (after git push succeeds)
@@ -2791,15 +2814,12 @@ exports.adminUpdateImageMetadata = functions
     const repoDir = path.join(tempDir, 'sias2-admin-update');
 
     try {
-      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
-
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
-      const git = simpleGit();
-      await git.clone(repoUrl, repoDir, ['--depth', '1']);
-      const repoGit = simpleGit(repoDir);
-      await repoGit.addConfig('user.name', 'SIAS Admin');
-      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'gallery-metadata.json',
+      ], { userEmail: ADMIN_EMAIL });
 
       const metadataPath = path.join(repoDir, 'gallery-metadata.json');
       const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
@@ -2837,7 +2857,7 @@ exports.adminUpdateImageMetadata = functions
 
       await repoGit.add('gallery-metadata.json');
       await repoGit.commit(`Update metadata for "${image.title}" (ID ${imageId})\n\nChanges: ${changes.join(', ')}\n\nUpdated via SIAS Admin Dashboard`);
-      await repoGit.push('origin', 'main');
+      await pushWithRetry(repoGit);
 
       console.log(`✅ Metadata updated and pushed for image ${imageId}`);
 
@@ -2886,15 +2906,15 @@ exports.adminEditContent = functions
     const repoDir = path.join(tempDir, 'sias2-admin-content-edit');
 
     try {
-      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
-
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
-      const git = simpleGit();
-      await git.clone(repoUrl, repoDir, ['--depth', '1']);
-      const repoGit = simpleGit(repoDir);
-      await repoGit.addConfig('user.name', 'SIAS Admin');
-      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'gallery-metadata.json',
+        'sias_logo.png',
+        'content/*/',
+        'content-backups/*/',
+      ], { userEmail: ADMIN_EMAIL });
 
       // Find image in metadata
       const metadataPath = path.join(repoDir, 'gallery-metadata.json');
@@ -2977,7 +2997,7 @@ exports.adminEditContent = functions
       // Commit and push
       await repoGit.add('.');
       await repoGit.commit(`Edit ${gradeLabel} content for "${image.title}" (ID ${imageId})\n\nEdited via SIAS Admin Dashboard`);
-      await repoGit.push('origin', 'main');
+      await pushWithRetry(repoGit);
 
       console.log(`✅ Content edited and pushed for image ${imageId} (${gradeLabel})`);
 
@@ -3282,13 +3302,13 @@ exports.adminGetContentHistory = functions
     const repoDir = path.join(tempDir, 'sias2-version-history');
 
     try {
-      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
-
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
-      const git = simpleGit();
-      await git.clone(repoUrl, repoDir, ['--depth', '50']);
-      const repoGit = simpleGit(repoDir);
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'gallery-metadata.json',
+        'content/*/',
+      ], { depth: 50 });
 
       // Find image in metadata
       const metadataPath = path.join(repoDir, 'gallery-metadata.json');
@@ -3343,13 +3363,13 @@ exports.adminGetContentVersion = functions
     const repoDir = path.join(tempDir, 'sias2-version-read');
 
     try {
-      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
-
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
-      const git = simpleGit();
-      await git.clone(repoUrl, repoDir, ['--depth', '50']);
-      const repoGit = simpleGit(repoDir);
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'gallery-metadata.json',
+        'content/*/',
+      ], { depth: 50 });
 
       // Find image in metadata
       const metadataPath = path.join(repoDir, 'gallery-metadata.json');
@@ -3403,15 +3423,14 @@ exports.adminRestoreContentVersion = functions
     const repoDir = path.join(tempDir, 'sias2-version-restore');
 
     try {
-      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
-
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
-      const git = simpleGit();
-      await git.clone(repoUrl, repoDir, ['--depth', '50']);
-      const repoGit = simpleGit(repoDir);
-      await repoGit.addConfig('user.name', 'SIAS Admin');
-      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'gallery-metadata.json',
+        'sias_logo.png',
+        'content/*/',
+      ], { depth: 50, userEmail: ADMIN_EMAIL });
 
       // Find image in metadata
       const metadataPath = path.join(repoDir, 'gallery-metadata.json');
@@ -3485,7 +3504,7 @@ exports.adminRestoreContentVersion = functions
         `Restored from commit ${commitHash.slice(0, 7)}\n` +
         `Restored via SIAS Admin Dashboard`
       );
-      await repoGit.push('origin', 'main');
+      await pushWithRetry(repoGit);
 
       console.log(`✅ Content restored from ${commitHash.slice(0, 7)} for image ${imageId}`);
 
@@ -3534,15 +3553,13 @@ exports.adminUpdateHotspots = functions
     const repoDir = path.join(tempDir, 'sias2-admin-hotspots');
 
     try {
-      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
-
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
-      const git = simpleGit();
-      await git.clone(repoUrl, repoDir, ['--depth', '1']);
-      const repoGit = simpleGit(repoDir);
-      await repoGit.addConfig('user.name', 'SIAS Admin');
-      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'gallery-metadata.json',
+        'hotspots/*/',
+      ], { userEmail: ADMIN_EMAIL });
 
       // Find image in metadata
       const metadataPath = path.join(repoDir, 'gallery-metadata.json');
@@ -3575,7 +3592,7 @@ exports.adminUpdateHotspots = functions
         `- Category: ${category}\n\n` +
         `Updated via SIAS Admin Dashboard`
       );
-      await repoGit.push('origin', 'main');
+      await pushWithRetry(repoGit);
 
       console.log(`✅ Hotspots updated and pushed for image ${imageId}`);
 
@@ -3910,15 +3927,12 @@ exports.adminSaveImageOrder = functions
     const repoDir = path.join(tempDir, 'sias2-reorder');
 
     try {
-      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
-
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
-      const git = simpleGit();
-      await git.clone(repoUrl, repoDir, ['--depth', '1']);
-      const repoGit = simpleGit(repoDir);
-      await repoGit.addConfig('user.name', 'SIAS Admin');
-      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'gallery-metadata.json',
+      ], { userEmail: ADMIN_EMAIL });
 
       const metadataPath = path.join(repoDir, 'gallery-metadata.json');
       const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
@@ -3945,7 +3959,7 @@ exports.adminSaveImageOrder = functions
 
       await repoGit.add('gallery-metadata.json');
       await repoGit.commit('Update image display order\n\nUpdated via SIAS Admin Dashboard');
-      await repoGit.push('origin', 'main');
+      await pushWithRetry(repoGit);
 
       console.log(`✅ Image order saved (${imageOrder.length} images)`);
 
@@ -3995,15 +4009,12 @@ exports.adminSaveFeaturedCollections = functions
     const repoDir = path.join(tempDir, 'sias2-collections');
 
     try {
-      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
-
       const githubToken = process.env.GITHUB_TOKEN;
       const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
-      const git = simpleGit();
-      await git.clone(repoUrl, repoDir, ['--depth', '1']);
-      const repoGit = simpleGit(repoDir);
-      await repoGit.addConfig('user.name', 'SIAS Admin');
-      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'gallery-metadata.json',
+      ], { userEmail: ADMIN_EMAIL });
 
       const metadataPath = path.join(repoDir, 'gallery-metadata.json');
       const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
@@ -4024,7 +4035,7 @@ exports.adminSaveFeaturedCollections = functions
 
       await repoGit.add('gallery-metadata.json');
       await repoGit.commit('Update featured collections\n\nUpdated via SIAS Admin Dashboard');
-      await repoGit.push('origin', 'main');
+      await pushWithRetry(repoGit);
 
       console.log(`✅ Featured collections saved (${collections.length} collections)`);
 

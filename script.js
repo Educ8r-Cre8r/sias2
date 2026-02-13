@@ -20,6 +20,15 @@ const state = {
 
 const IMAGES_PER_PAGE = 48;
 
+// Utility: debounce function calls
+function debounce(fn, delay) {
+  let timer;
+  return function(...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn.apply(this, args), delay);
+  };
+}
+
 // Firebase Storage migration — flip to true after uploading files to Storage
 const STORAGE_BUCKET = 'sias-8178a.firebasestorage.app';
 const STORAGE_ENABLED = true;
@@ -134,7 +143,7 @@ function setupEventListeners() {
   // Search input
   const searchInput = document.getElementById('gallery-search');
   if (searchInput) {
-    searchInput.addEventListener('input', handleSearch);
+    searchInput.addEventListener('input', debounce(handleSearch, 250));
   }
 
   // Grade level selector

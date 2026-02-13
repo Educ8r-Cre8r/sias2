@@ -7,6 +7,20 @@ let currentCategory = 'all';
 let currentSort = 'id-desc';
 let selectedImageIds = new Set();
 
+const ADMIN_IMAGES_PER_PAGE = 48;
+let adminVisibleCount = ADMIN_IMAGES_PER_PAGE;
+
+// Utility: debounce function calls
+function debounce(fn, delay) {
+  let timer;
+  return function(...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn.apply(this, args), delay);
+  };
+}
+
+const debouncedRenderGrid = debounce(renderImagesGrid, 250);
+
 /**
  * Render the images grid
  */
@@ -21,7 +35,9 @@ function renderImagesGrid() {
         return;
     }
 
-    container.innerHTML = images.map(img => {
+    const visibleImages = images.slice(0, adminVisibleCount);
+
+    container.innerHTML = visibleImages.map(img => {
         const hasCost = img.processingCost !== undefined && img.processingCost !== null;
         const thumbSrc = resolveAssetUrl(img.thumbPath ? '../' + img.thumbPath : '../' + img.imagePath);
         const isSelected = selectedImageIds.has(img.id);
@@ -51,6 +67,21 @@ function renderImagesGrid() {
             </div>
         `;
     }).join('');
+
+    // Load More button if there are more images
+    if (images.length > adminVisibleCount) {
+        const remaining = images.length - adminVisibleCount;
+        const nextBatch = Math.min(ADMIN_IMAGES_PER_PAGE, remaining);
+        container.innerHTML += `
+            <div class="load-more-row" style="grid-column: 1/-1; text-align: center; padding: 20px;">
+                <p style="margin-bottom: 8px; color: var(--text-muted); font-size: 0.85rem;">
+                    Showing ${adminVisibleCount} of ${images.length} images
+                </p>
+                <button class="btn btn-outline" onclick="loadMoreAdminImages()">
+                    Load ${nextBatch} More
+                </button>
+            </div>`;
+    }
 }
 
 /**
@@ -114,10 +145,19 @@ function sortImageArray(images) {
 }
 
 /**
+ * Load more images in the admin grid
+ */
+function loadMoreAdminImages() {
+    adminVisibleCount += ADMIN_IMAGES_PER_PAGE;
+    renderImagesGrid();
+}
+
+/**
  * Filter images by search term (called on input)
  */
 function filterImages() {
-    renderImagesGrid();
+    adminVisibleCount = ADMIN_IMAGES_PER_PAGE;
+    debouncedRenderGrid();
 }
 
 /**
@@ -125,6 +165,7 @@ function filterImages() {
  */
 function filterByCategory(category) {
     currentCategory = category;
+    adminVisibleCount = ADMIN_IMAGES_PER_PAGE;
 
     // Update active pill
     document.querySelectorAll('#tab-images .pill').forEach(pill => {
@@ -140,6 +181,7 @@ function filterByCategory(category) {
 function sortImages() {
     const select = document.getElementById('sort-select');
     if (select) currentSort = select.value;
+    adminVisibleCount = ADMIN_IMAGES_PER_PAGE;
     renderImagesGrid();
 }
 
@@ -254,3 +296,4 @@ window.toggleSelectAll = toggleSelectAll;
 window.clearSelection = clearSelection;
 window.getSelectedImageIds = getSelectedImageIds;
 window.exportImagesCSV = exportImagesCSV;
+window.loadMoreAdminImages = loadMoreAdminImages;
