@@ -1109,7 +1109,7 @@ async function openModal(imageId) {
         <span class="rating-text">0.0 (0)</span>
       </div>
       <button class="lesson-pdf-btn" aria-label="Download lesson guide as PDF" title="Download two-page teacher lesson guide as PDF">
-        📄 Download Lesson Guide
+        📄 Lesson Guide
       </button>
       <button class="five-e-pdf-btn" aria-label="Download 5E lesson plan as PDF" title="Download 5E model lesson plan as PDF">
         ✏️ 5E Lesson
