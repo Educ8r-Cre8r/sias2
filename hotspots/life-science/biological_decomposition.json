@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Tree Hollow",
+      "fact": "This large hole in the tree trunk is called a cavity, and it's a perfect home for many animals! Birds, insects, and small mammals use tree cavities as **habitats** — safe places to live, rest, and raise their babies. Trees can still live even with cavities, showing how nature is full of surprises.",
+      "vocabulary": {
+        "term": "Habitat",
+        "definition": "A place where a living thing makes its home and finds food, water, and shelter."
+      }
+    },
+    {
+      "id": 2,
+      "x": "50%",
+      "y": "50%",
+      "label": "Tree Bark",
+      "fact": "The rough, textured bark you see protects the tree from damage, pests, and weather — like a suit of armor! The bark is part of the tree's **structure**, and different tree species have different bark patterns. This helps scientists identify what kind of tree it is and how it stays healthy.",
+      "vocabulary": {
+        "term": "Structure",
+        "definition": "The way something is built or organized; how its parts fit together to help it work."
+      }
+    },
+    {
+      "id": 3,
+      "x": "35%",
+      "y": "25%",
+      "label": "Bare Winter Branches",
+      "fact": "These bare branches show that this tree is deciduous, meaning it loses its leaves in winter as a way to survive cold weather. This is an **adaptation** — a special feature that helps living things stay alive in their environment. In spring, the tree will grow new leaves again.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps a living thing survive and thrive in its home."
+      }
+    },
+    {
+      "id": 4,
+      "x": "65%",
+      "y": "30%",
+      "label": "Multiple Tree Trunks",
+      "fact": "This old tree actually has several trunks growing from the same base, which means it has an interesting **life cycle**! Trees can grow multiple trunks if the main trunk was damaged long ago and the tree sprouted new growth. This shows how trees are tough and can repair themselves over many years.",
+      "vocabulary": {
+        "term": "Life Cycle",
+        "definition": "The different stages a living thing goes through from birth to death, like growing, reproducing, and aging."
+      }
+    }
+  ]
+}

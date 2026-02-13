@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-12T23:15:47.789Z",
-  "totalImages": 171,
+  "lastUpdated": "2026-02-13T02:50:09.110Z",
+  "totalImages": 172,
   "images": [
     {
       "id": 1,
@@ -8989,6 +8989,64 @@
       "processingCost": 0.2561,
       "processingTime": "4m 6s",
       "processedAt": "2026-02-12T23:19:08.315Z"
+    },
+    {
+      "id": 173,
+      "filename": "biological_decomposition.jpg",
+      "category": "life-science",
+      "imagePath": "images/life-science/biological_decomposition.jpg",
+      "thumbPath": "images/life-science/thumbs/biological_decomposition.jpg",
+      "webpPath": "images/life-science/webp/biological_decomposition.webp",
+      "placeholderPath": "images/life-science/placeholders/biological_decomposition.jpg",
+      "contentFile": "content/life-science/biological_decomposition.json",
+      "title": "Biological Decomposition",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-LS1-1",
+          "K-LS1.A"
+        ],
+        "grade1": [
+          "1-LS1-1",
+          "1-LS1-2",
+          "1-LS1.A",
+          "1-LS1.B",
+          "1-LS3-1"
+        ],
+        "grade2": [
+          "2-LS4-1",
+          "2-LS4.A"
+        ],
+        "grade3": [
+          "3-LS1-1",
+          "3-LS1.B",
+          "3-LS2-1",
+          "3-LS2.A",
+          "3-LS4-3",
+          "3-LS4-4",
+          "3-LS4.C",
+          "3-LS4.D"
+        ],
+        "grade4": [
+          "4-LS1-1",
+          "4-LS1.A"
+        ],
+        "grade5": [
+          "5-LS2-1",
+          "5-LS2.A"
+        ]
+      },
+      "keywords": [
+        "tree hollow",
+        "old tree",
+        "decay",
+        "wood decomposition",
+        "tree structure",
+        "habitat"
+      ],
+      "processingCost": 0.1104,
+      "processingTime": "3m 25s",
+      "processedAt": "2026-02-13T02:53:27.648Z"
     }
   ]
 }
