@@ -258,7 +258,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.115,
+      "processingCost": 0.2487,
       "processingTime": "6m 28s",
       "processedAt": "2026-02-12T02:34:30.693Z"
     },
@@ -317,7 +317,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.1164,
+      "processingCost": 0.2487,
       "processingTime": "5m 14s",
       "processedAt": "2026-02-12T05:44:16.550Z"
     },
@@ -383,7 +383,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2504,
+      "processingCost": 0.2487,
       "processingTime": "3m 41s",
       "processedAt": "2026-02-13T04:44:43.452Z"
     },
@@ -434,7 +434,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 5,
@@ -481,7 +481,7 @@
           "K-LS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 6,
@@ -531,7 +531,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 7,
@@ -582,7 +582,7 @@
           "5-PS3.D"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 8,
@@ -631,7 +631,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 9,
@@ -681,7 +681,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 10,
@@ -731,7 +731,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 11,
@@ -781,7 +781,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 12,
@@ -832,7 +832,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 13,
@@ -882,7 +882,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 14,
@@ -933,7 +933,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 15,
@@ -981,7 +981,7 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 16,
@@ -1031,7 +1031,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 17,
@@ -1079,7 +1079,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 18,
@@ -1129,7 +1129,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 19,
@@ -1179,7 +1179,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 20,
@@ -1229,7 +1229,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 21,
@@ -1279,7 +1279,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 22,
@@ -1328,7 +1328,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 23,
@@ -1377,7 +1377,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 24,
@@ -1429,7 +1429,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 25,
@@ -1479,7 +1479,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 26,
@@ -1525,7 +1525,7 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 27,
@@ -1576,7 +1576,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 28,
@@ -1627,7 +1627,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 29,
@@ -1674,7 +1674,7 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 30,
@@ -1724,7 +1724,7 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 31,
@@ -1774,7 +1774,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 32,
@@ -1824,7 +1824,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 33,
@@ -1875,7 +1875,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 34,
@@ -1924,7 +1924,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 35,
@@ -1972,7 +1972,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 36,
@@ -2022,7 +2022,7 @@
           "5-ESS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 37,
@@ -2071,7 +2071,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 38,
@@ -2120,7 +2120,7 @@
           "5-ESS2.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 39,
@@ -2169,7 +2169,7 @@
           "5-ESS2.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 40,
@@ -2239,7 +2239,7 @@
           "5-ESS3.B"
         ]
       },
-      "processingCost": 0.1168,
+      "processingCost": 0.2487,
       "processingTime": "4m 7s",
       "processedAt": "2026-02-12T06:16:09.915Z"
     },
@@ -2290,7 +2290,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 42,
@@ -2341,7 +2341,7 @@
           "5-ESS3.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 43,
@@ -2388,7 +2388,7 @@
           "5-ESS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 44,
@@ -2437,7 +2437,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 45,
@@ -2488,7 +2488,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 46,
@@ -2535,7 +2535,7 @@
           "5-ESS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 47,
@@ -2584,7 +2584,7 @@
           "5-ESS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 48,
@@ -2630,7 +2630,7 @@
           "5-ESS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 49,
@@ -2678,7 +2678,7 @@
           "5-ESS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 50,
@@ -2728,7 +2728,7 @@
           "5-ESS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 51,
@@ -2775,7 +2775,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 52,
@@ -2822,7 +2822,7 @@
           "5-ESS1-2"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 53,
@@ -2870,7 +2870,7 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 54,
@@ -2918,7 +2918,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 55,
@@ -2966,7 +2966,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 56,
@@ -3016,7 +3016,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 57,
@@ -3063,7 +3063,7 @@
           "5-PS1-3"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 58,
@@ -3110,7 +3110,7 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 59,
@@ -3157,7 +3157,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 60,
@@ -3207,7 +3207,7 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 61,
@@ -3255,7 +3255,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 62,
@@ -3302,7 +3302,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 63,
@@ -3353,7 +3353,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 64,
@@ -3401,7 +3401,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 65,
@@ -3449,7 +3449,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 66,
@@ -3498,7 +3498,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 67,
@@ -3547,7 +3547,7 @@
           "5-PS3.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 68,
@@ -3596,7 +3596,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 69,
@@ -3646,7 +3646,7 @@
           "5-PS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 70,
@@ -3691,7 +3691,7 @@
           "5-PS1-3"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 71,
@@ -3740,7 +3740,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 72,
@@ -3789,7 +3789,7 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 73,
@@ -3838,7 +3838,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 74,
@@ -3888,7 +3888,7 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 75,
@@ -3937,7 +3937,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 76,
@@ -3988,7 +3988,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 77,
@@ -4040,7 +4040,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 78,
@@ -4090,7 +4090,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 79,
@@ -4138,7 +4138,7 @@
           "5-ESS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 80,
@@ -4188,7 +4188,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 81,
@@ -4239,7 +4239,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 82,
@@ -4289,7 +4289,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 83,
@@ -4339,7 +4339,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 84,
@@ -4383,7 +4383,7 @@
           "5-PS1-3"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 85,
@@ -4434,7 +4434,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 86,
@@ -4482,7 +4482,7 @@
           "5-ESS3.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 87,
@@ -4532,7 +4532,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 88,
@@ -4581,7 +4581,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 89,
@@ -4633,7 +4633,7 @@
           "5-PS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 90,
@@ -4689,7 +4689,7 @@
           "5-LS4.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 91,
@@ -4746,7 +4746,7 @@
           "5-LS4.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 92,
@@ -4800,7 +4800,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 93,
@@ -4854,7 +4854,7 @@
           "5-ESS3.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 94,
@@ -4909,7 +4909,7 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 95,
@@ -4961,7 +4961,7 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 96,
@@ -5013,7 +5013,7 @@
           "5-ESS3.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 97,
@@ -5068,7 +5068,7 @@
           "5-LS1-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 98,
@@ -5124,7 +5124,7 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 99,
@@ -5180,7 +5180,7 @@
           "5-LS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 100,
@@ -5232,7 +5232,7 @@
           "5-ESS1.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 101,
@@ -5286,7 +5286,7 @@
           "5-LS4-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 102,
@@ -5339,7 +5339,7 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 103,
@@ -5392,7 +5392,7 @@
           "5-LS4.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 104,
@@ -5446,7 +5446,7 @@
           "5-LS1.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 105,
@@ -5503,7 +5503,7 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 106,
@@ -5562,7 +5562,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 107,
@@ -5618,7 +5618,7 @@
           "5-LS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 108,
@@ -5677,7 +5677,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 109,
@@ -5729,7 +5729,7 @@
           "5-LS3.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 110,
@@ -5782,7 +5782,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 111,
@@ -5834,7 +5834,7 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 112,
@@ -5888,7 +5888,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 113,
@@ -5939,7 +5939,7 @@
           "3-LS4-C"
         ]
       },
-      "processingCost": 0.1048,
+      "processingCost": 0.2487,
       "processingTime": "3m 30s",
       "processedAt": "2026-02-11T18:24:33.666Z"
     },
@@ -5996,7 +5996,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 115,
@@ -6053,7 +6053,7 @@
           "5-LS2.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 116,
@@ -6109,7 +6109,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 117,
@@ -6164,7 +6164,7 @@
           "5-LS4.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 118,
@@ -6215,7 +6215,7 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 119,
@@ -6267,7 +6267,7 @@
           "5-ESS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 120,
@@ -6324,7 +6324,7 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 121,
@@ -6381,7 +6381,7 @@
           "5-PS3.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 122,
@@ -6435,7 +6435,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 123,
@@ -6490,7 +6490,7 @@
           "5-LS3.D"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 124,
@@ -6545,7 +6545,7 @@
           "5-LS3.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 125,
@@ -6596,7 +6596,7 @@
           "5-ESS3.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 126,
@@ -6649,7 +6649,7 @@
           "5-LS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 127,
@@ -6704,7 +6704,7 @@
           "5-LS4.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 128,
@@ -6760,7 +6760,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 129,
@@ -6814,7 +6814,7 @@
           "5-PS3.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 130,
@@ -6869,7 +6869,7 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 131,
@@ -6919,7 +6919,7 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 132,
@@ -6974,7 +6974,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 133,
@@ -7025,7 +7025,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 134,
@@ -7077,7 +7077,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 135,
@@ -7132,7 +7132,7 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 136,
@@ -7185,7 +7185,7 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 137,
@@ -7252,7 +7252,7 @@
           "5-ESS3.C"
         ]
       },
-      "processingCost": 0.1164,
+      "processingCost": 0.2487,
       "processingTime": "5m 12s",
       "processedAt": "2026-02-12T06:48:14.679Z"
     },
@@ -7311,7 +7311,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 139,
@@ -7366,7 +7366,7 @@
           "5-LS4-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 140,
@@ -7421,7 +7421,7 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 141,
@@ -7472,7 +7472,7 @@
           "5-PS3.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 142,
@@ -7526,7 +7526,7 @@
           "5-PS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 143,
@@ -7581,7 +7581,7 @@
           "5-LS4-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 144,
@@ -7635,7 +7635,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 145,
@@ -7687,7 +7687,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 146,
@@ -7741,7 +7741,7 @@
           "K-PS3.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 147,
@@ -7793,7 +7793,7 @@
           "K-PS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 148,
@@ -7847,7 +7847,7 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 149,
@@ -7902,7 +7902,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 150,
@@ -7954,7 +7954,7 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 151,
@@ -8008,7 +8008,7 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 152,
@@ -8062,7 +8062,7 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 153,
@@ -8113,7 +8113,7 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 154,
@@ -8168,7 +8168,7 @@
           "5-ESS2.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 155,
@@ -8224,7 +8224,7 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 156,
@@ -8278,7 +8278,7 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 157,
@@ -8333,7 +8333,7 @@
         "nutrient cycling",
         "ecosystem"
       ],
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 158,
@@ -8385,7 +8385,7 @@
         "birds",
         "ecosystem"
       ],
-      "processingCost": 0.0948
+      "processingCost": 0.2487
     },
     {
       "id": 159,
@@ -8439,7 +8439,7 @@
         "sustainable technology",
         "electricity generation"
       ],
-      "processingCost": 0.1015,
+      "processingCost": 0.2487,
       "processingTime": "3m 33s",
       "processedAt": "2026-02-10T21:14:34.958Z"
     },
@@ -8496,7 +8496,7 @@
         "energy distribution",
         "conductors"
       ],
-      "processingCost": 0.0948,
+      "processingCost": 0.2487,
       "processingTime": "3m 17s",
       "processedAt": "2026-02-11T01:41:19.693Z"
     },
@@ -8546,7 +8546,7 @@
         "wood frame",
         "weatherization"
       ],
-      "processingCost": 0.1058,
+      "processingCost": 0.2487,
       "processingTime": "3m 48s",
       "processedAt": "2026-02-11T16:13:50.853Z"
     },
@@ -8596,7 +8596,7 @@
         "earth materials",
         "surface features"
       ],
-      "processingCost": 0.0953,
+      "processingCost": 0.2487,
       "processingTime": "3m 10s",
       "processedAt": "2026-02-11T23:08:11.797Z"
     },
@@ -8663,7 +8663,7 @@
         "life cycles",
         "animal adaptation"
       ],
-      "processingCost": 0.1139,
+      "processingCost": 0.2487,
       "processingTime": "3m 45s",
       "processedAt": "2026-02-12T01:05:48.612Z"
     },
@@ -8727,7 +8727,7 @@
         "plant reproduction",
         "insect"
       ],
-      "processingCost": 0.1118,
+      "processingCost": 0.2487,
       "processingTime": "3m 34s",
       "processedAt": "2026-02-12T01:09:36.886Z"
     },
@@ -8791,7 +8791,7 @@
         "bird legs",
         "vertebrate"
       ],
-      "processingCost": 0.1161,
+      "processingCost": 0.2487,
       "processingTime": "3m 44s",
       "processedAt": "2026-02-12T01:13:47.099Z"
     },
@@ -8855,7 +8855,7 @@
         "force and motion",
         "vehicles"
       ],
-      "processingCost": 0.1158,
+      "processingCost": 0.2487,
       "processingTime": "3m 50s",
       "processedAt": "2026-02-12T01:17:52.234Z"
     },
@@ -8916,7 +8916,7 @@
         "sand",
         "organism"
       ],
-      "processingCost": 0.1154,
+      "processingCost": 0.2487,
       "processingTime": "3m 47s",
       "processedAt": "2026-02-12T06:42:49.658Z"
     },
@@ -8985,7 +8985,7 @@
         "garden ecosystem",
         "flowering plants"
       ],
-      "processingCost": 0.1259,
+      "processingCost": 0.2487,
       "processingTime": "4m 12s",
       "processedAt": "2026-02-12T08:11:14.782Z"
     },
@@ -9062,7 +9062,7 @@
         "shoreline",
         "land change"
       ],
-      "processingCost": 0.1147,
+      "processingCost": 0.2487,
       "processingTime": "4m 0s",
       "processedAt": "2026-02-12T09:32:02.841Z"
     },

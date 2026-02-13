@@ -721,6 +721,11 @@ body {
     background: var(--primary-light);
 }
 
+/* Cost details table — fixed layout so accordion rows align with header */
+.cost-details-table {
+    table-layout: fixed;
+}
+
 .text-na {
     color: var(--text-muted);
     font-style: italic;

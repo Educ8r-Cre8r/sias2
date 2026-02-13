@@ -829,6 +829,7 @@ async function process5EFromQueue(queueItem) {
   console.log(`🟣 5E Generation: ${filename}`);
   console.log(`📂 Category: ${category}`);
 
+  const fiveEStartTime = Date.now();
   const tempDir = os.tmpdir();
   const tempFilePath = path.join(tempDir, filename);
 
@@ -877,20 +878,38 @@ async function process5EFromQueue(queueItem) {
       anthropicKey, imageBase64, mediaType, filename, category, repoDir, targetImagePath, logoPath, nameNoExt
     );
 
-    // Update metadata with 5E cost added to existing processingCost
+    // Calculate 5E processing time and combine with queue 1 time
+    const fiveEDurationMs = Date.now() - fiveEStartTime;
+    const fiveEMinutes = Math.floor(fiveEDurationMs / 60000);
+    const fiveESeconds = Math.round((fiveEDurationMs % 60000) / 1000);
+    const fiveETimeStr = `${fiveEMinutes}m ${fiveESeconds}s`;
+
+    // Update metadata with 5E cost and combined processing time
     const metadataPath = path.join(repoDir, 'gallery-metadata.json');
     const metadataData = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
     const imageEntry = metadataData.images.find(img => img.filename === filename);
     const combinedCost = parseFloat(((imageEntry?.processingCost || 0) + fiveECost).toFixed(4));
     if (imageEntry) {
       imageEntry.processingCost = combinedCost;
+
+      // Combine processing times: parse existing "Xm Ys" and add 5E duration
+      const existingMatch = (imageEntry.processingTime || '').match(/(\d+)m\s*(\d+)s/);
+      const existingMs = existingMatch
+        ? (parseInt(existingMatch[1]) * 60000 + parseInt(existingMatch[2]) * 1000)
+        : 0;
+      const totalMs = existingMs + fiveEDurationMs;
+      const totalMinutes = Math.floor(totalMs / 60000);
+      const totalSeconds = Math.round((totalMs % 60000) / 1000);
+      imageEntry.processingTime = `${totalMinutes}m ${totalSeconds}s`;
+
       await fs.writeFile(metadataPath, JSON.stringify(metadataData, null, 2));
-      console.log(`✅ Updated processing cost (+$${fiveECost.toFixed(4)}) in metadata`);
+      console.log(`✅ Updated processing cost (+$${fiveECost.toFixed(4)}) and time (+${fiveETimeStr}, total: ${imageEntry.processingTime}) in metadata`);
     }
 
     // Update Firestore with combined total cost (instant for admin dashboard)
     await db.collection('processingCosts').doc(filename).set({
       cost: combinedCost,
+      processingTime: imageEntry?.processingTime || fiveETimeStr,
       phase: 'complete',
       updatedAt: admin.firestore.FieldValue.serverTimestamp()
     }, { merge: true });

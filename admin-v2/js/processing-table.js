@@ -144,7 +144,15 @@ function renderCostTable(images) {
                         <span class="ngss-accordion-badge">${hidden.length} more</span>
                     </button>
                     <div class="ngss-accordion-body" style="padding: 0;">
-                        <table class="data-table" style="margin: 0;">
+                        <table class="data-table cost-details-table" style="margin: 0;">
+                            <colgroup>
+                                <col style="width: 6%;">
+                                <col style="width: 28%;">
+                                <col style="width: 16%;">
+                                <col style="width: 12%;">
+                                <col style="width: 18%;">
+                                <col style="width: 20%;">
+                            </colgroup>
                             <tbody>${hidden.map(renderCostTableRow).join('')}</tbody>
                         </table>
                     </div>
