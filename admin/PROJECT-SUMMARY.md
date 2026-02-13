@@ -282,7 +282,7 @@ await gitCommit.autoCommitAndPush({
   "categories": [
     "life-science",          // 🌱 Living organisms
     "earth-science",         // 🌍 Geology, weather, space
-    "physical-science"       // ⚗️ Matter, energy, forces
+    "physical-science"       // 🧪 Matter, energy, forces
   ]
 }
 ```

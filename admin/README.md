@@ -342,7 +342,7 @@ Living organisms, plants, animals, ecosystems
 ### Earth Science (🌍)
 Geology, weather, space, natural phenomena
 
-### Physical Science (⚗️)
+### Physical Science (🧪)
 Physics, chemistry, matter, energy
 
 ---

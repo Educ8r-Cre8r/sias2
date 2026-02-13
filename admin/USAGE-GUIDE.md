@@ -62,7 +62,7 @@ For each photo:
 - **Category**: Select from dropdown
   - 🌱 Life Science
   - 🌍 Earth Science
-  - ⚗️ Physical Science
+  - 🧪 Physical Science
 
 **Optional Fields:**
 - **Markdown File**: Educational content

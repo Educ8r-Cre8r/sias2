@@ -316,7 +316,7 @@ function createPhotoCard(photo) {
 
     const categoryLabel =
         photo.category === 'life-science' ? '🌱 Life Science' :
-        photo.category === 'earth-space-science' ? '🌍 Earth & Space' : '⚗️ Physical Science';
+        photo.category === 'earth-space-science' ? '🌍 Earth & Space' : '🧪 Physical Science';
 
     // Encode image path to handle spaces and special characters
     const encodedImagePath = encodeURIComponent(photo.imagePath).replace(/%2F/g, '/');

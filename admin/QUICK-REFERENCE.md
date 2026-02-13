@@ -85,7 +85,7 @@ node admin/tools/create-upload-metadata.js
 |------|----------|----------|
 | 🌱 | `life-science` | Plants, animals, ecosystems |
 | 🌍 | `earth-science` | Rocks, weather, space |
-| ⚗️ | `physical-science` | Matter, energy, forces |
+| 🧪 | `physical-science` | Matter, energy, forces |
 
 ---
 

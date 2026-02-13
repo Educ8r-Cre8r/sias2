@@ -40,7 +40,7 @@ async function listPhotos(format = 'table') {
     // Display by category
     Object.entries(byCategory).forEach(([category, photos]) => {
         const icon = category === 'life-science' ? '🌱' :
-                     category === 'earth-space-science' ? '🌍' : '⚗️';
+                     category === 'earth-space-science' ? '🌍' : '🧪';
 
         console.log(chalk.bold(`\n${icon} ${category.toUpperCase().replace(/-/g, ' ')} (${photos.length})`));
         console.log(chalk.gray('─'.repeat(60)));

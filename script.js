@@ -705,7 +705,7 @@ function getCategoryIcon(category) {
   const icons = {
     'life-science': '🌱',
     'earth-space-science': '🌍',
-    'physical-science': '⚗️'
+    'physical-science': '🧪'
   };
   return icons[category] || '📷';
 }

@@ -10,7 +10,7 @@
 **Science In A Snapshot** is a modern, accessible educational photo gallery website featuring 72+ science photographs organized into three categories:
 - 🌱 **Life Science** - Organisms, ecosystems, life processes
 - 🌍 **Earth & Space Science** - Geology, weather, astronomy, Earth systems
-- ⚗️ **Physical Science** - Forces, energy, matter, physical changes
+- 🧪 **Physical Science** - Forces, energy, matter, physical changes
 
 Each photograph includes AI-generated educational content designed for Third Grade teachers, featuring:
 - NGSS-aligned lesson materials

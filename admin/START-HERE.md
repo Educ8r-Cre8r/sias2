@@ -91,7 +91,7 @@ When uploading, choose one:
 
 - 🌱 **Life Science** - Plants, animals, living organisms
 - 🌍 **Earth Science** - Rocks, weather, space, geology
-- ⚗️ **Physical Science** - Matter, energy, forces, chemistry
+- 🧪 **Physical Science** - Matter, energy, forces, chemistry
 
 ---
 
