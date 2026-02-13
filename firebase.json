@@ -9,6 +9,23 @@
       "tools/**",
       "admin/**"
     ],
+    "redirects": [
+      {
+        "source": "/images/**",
+        "destination": "https://firebasestorage.googleapis.com/v0/b/sias-8178a.firebasestorage.app/o/images%2F:splat?alt=media",
+        "type": 302
+      },
+      {
+        "source": "/pdfs/**",
+        "destination": "https://firebasestorage.googleapis.com/v0/b/sias-8178a.firebasestorage.app/o/pdfs%2F:splat?alt=media",
+        "type": 302
+      },
+      {
+        "source": "/5e_lessons/**",
+        "destination": "https://firebasestorage.googleapis.com/v0/b/sias-8178a.firebasestorage.app/o/5e_lessons%2F:splat?alt=media",
+        "type": 302
+      }
+    ],
     "rewrites": [
       {
         "source": "/admin-v2",

@@ -30,6 +30,11 @@ functions/index-broken-*.js
 functions/index-queue-*.js
 functions/index-working-*.js
 
+# Binary assets now served from Firebase Storage
+images/
+pdfs/
+5e_lessons/
+
 # Firebase cache
 .firebase/
 youtube-link-report.json
