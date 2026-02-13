@@ -1055,7 +1055,8 @@ Be precise with coordinates - think about where a student would click to learn a
               type: 'base64',
               media_type: mediaType,
               data: imageBase64
-            }
+            },
+            cache_control: { type: 'ephemeral' }
           },
           {
             type: 'text',
@@ -1065,10 +1066,16 @@ Be precise with coordinates - think about where a student would click to learn a
       }]
     });
 
-    // Calculate cost (Haiku 4.5 pricing: $1/MTok input, $5/MTok output)
+    // Calculate cost with prompt caching support
     const inputTokens = response.usage.input_tokens;
     const outputTokens = response.usage.output_tokens;
-    const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+    const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
+    const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
+    const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+      + (cacheWriteTokens * 0.00125 / 1000)
+      + (cacheReadTokens * 0.0001 / 1000)
+      + (outputTokens * 0.005 / 1000);
+    if (cacheReadTokens > 0) console.log(`   💾 Cache hit: ${cacheReadTokens} tokens read from cache`);
 
     // Parse the response
     let responseText = response.content[0].text;
@@ -1148,7 +1155,8 @@ Example output:
               type: 'base64',
               media_type: mediaType,
               data: imageBase64
-            }
+            },
+            cache_control: { type: 'ephemeral' }
           },
           {
             type: 'text',
@@ -1158,10 +1166,16 @@ Example output:
       }]
     });
 
-    // Calculate cost (Haiku 4.5 pricing: $1/MTok input, $5/MTok output)
+    // Calculate cost with prompt caching support
     const inputTokens = response.usage.input_tokens;
     const outputTokens = response.usage.output_tokens;
-    const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+    const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
+    const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
+    const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+      + (cacheWriteTokens * 0.00125 / 1000)
+      + (cacheReadTokens * 0.0001 / 1000)
+      + (outputTokens * 0.005 / 1000);
+    if (cacheReadTokens > 0) console.log(`   💾 Cache hit: ${cacheReadTokens} tokens read from cache`);
 
     // Parse the response
     let responseText = response.content[0].text;
@@ -1358,7 +1372,8 @@ Remember:
                 type: 'base64',
                 media_type: mediaType,
                 data: imageBase64
-              }
+              },
+              cache_control: { type: 'ephemeral' }
             },
             {
               type: 'text',
@@ -1368,10 +1383,17 @@ Remember:
         }]
       });
 
-      // Calculate cost (Haiku 4.5 pricing: $1/MTok input, $5/MTok output)
+      // Calculate cost with prompt caching support
+      // Haiku 4.5: input $1/MTok, output $5/MTok, cache write $1.25/MTok, cache read $0.10/MTok
       const inputTokens = response.usage.input_tokens;
       const outputTokens = response.usage.output_tokens;
-      const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+      const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
+      const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
+      const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+        + (cacheWriteTokens * 0.00125 / 1000)
+        + (cacheReadTokens * 0.0001 / 1000)
+        + (outputTokens * 0.005 / 1000);
+      if (cacheReadTokens > 0) console.log(`   💾 Cache hit: ${cacheReadTokens} tokens read from cache`);
       totalCost += cost;
 
       // Get the markdown content directly
@@ -1507,7 +1529,11 @@ async function generateEDPContentAndPDF(anthropicKey, imageBase64, mediaType, fi
   const response = await anthropic.messages.create({
     model: 'claude-haiku-4-5-20251001',
     max_tokens: 2048,
-    system: EDP_SYSTEM_PROMPT,
+    system: [{
+      type: 'text',
+      text: EDP_SYSTEM_PROMPT,
+      cache_control: { type: 'ephemeral' }
+    }],
     messages: [{
       role: 'user',
       content: [
@@ -1517,7 +1543,8 @@ async function generateEDPContentAndPDF(anthropicKey, imageBase64, mediaType, fi
             type: 'base64',
             media_type: mediaType,
             data: imageBase64
-          }
+          },
+          cache_control: { type: 'ephemeral' }
         },
         {
           type: 'text',
@@ -1527,10 +1554,16 @@ async function generateEDPContentAndPDF(anthropicKey, imageBase64, mediaType, fi
     }]
   });
 
-  // Calculate cost (Haiku 4.5: $1/MTok input, $5/MTok output)
+  // Calculate cost with prompt caching support
   const inputTokens = response.usage.input_tokens;
   const outputTokens = response.usage.output_tokens;
-  const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+  const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
+  const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
+  const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+    + (cacheWriteTokens * 0.00125 / 1000)
+    + (cacheReadTokens * 0.0001 / 1000)
+    + (outputTokens * 0.005 / 1000);
+  if (cacheReadTokens > 0) console.log(`   💾 Cache hit: ${cacheReadTokens} tokens read from cache`);
 
   const markdownContent = response.content[0].text;
 
@@ -1722,7 +1755,11 @@ async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, fi
         response = await anthropic.messages.create({
           model: 'claude-haiku-4-5-20251001',
           max_tokens: 8192,
-          system: FIVE_E_SYSTEM_PROMPT,
+          system: [{
+            type: 'text',
+            text: FIVE_E_SYSTEM_PROMPT,
+            cache_control: { type: 'ephemeral' }
+          }],
           messages: [{
             role: 'user',
             content: [
@@ -1732,7 +1769,8 @@ async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, fi
                   type: 'base64',
                   media_type: mediaType,
                   data: imageBase64
-                }
+                },
+                cache_control: { type: 'ephemeral' }
               },
               {
                 type: 'text',
@@ -1753,9 +1791,16 @@ async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, fi
       }
     }
 
+    // Calculate cost with prompt caching support
     const inputTokens = response.usage.input_tokens;
     const outputTokens = response.usage.output_tokens;
-    const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+    const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
+    const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
+    const cost = ((inputTokens - cacheWriteTokens - cacheReadTokens) * 0.001 / 1000)
+      + (cacheWriteTokens * 0.00125 / 1000)
+      + (cacheReadTokens * 0.0001 / 1000)
+      + (outputTokens * 0.005 / 1000);
+    if (cacheReadTokens > 0) console.log(`   💾 Cache hit: ${cacheReadTokens} tokens read from cache`);
     totalCost += cost;
 
     const markdownContent = response.content[0].text;
