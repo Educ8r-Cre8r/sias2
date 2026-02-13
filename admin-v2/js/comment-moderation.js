@@ -1,14 +1,16 @@
 /**
  * SIAS Admin Dashboard — Comment Moderation
  * Lists all comments with admin approve/reject/delete capability.
+ * Includes trusted user management and flagged/rejected status filtering.
  */
 
 let commentsLoaded = false;
 let allComments = [];
-let commentFilter = 'all'; // 'all', 'pending', 'approved'
+let commentFilter = 'all'; // 'all', 'pending', 'approved', 'flagged', 'rejected'
+let trustedUserIds = new Set();
 
 /**
- * Load all comments from Firestore
+ * Load all comments from Firestore + trusted users list
  */
 async function loadComments() {
     if (commentsLoaded) return;
@@ -19,14 +21,23 @@ async function loadComments() {
     container.innerHTML = '<p class="text-muted">Loading comments...</p>';
 
     try {
-        const snapshot = await db.collection('comments')
-            .orderBy('timestamp', 'desc')
-            .limit(200)
-            .get();
+        // Load comments and trusted users in parallel
+        const [commentsSnap, trustedSnap] = await Promise.all([
+            db.collection('comments')
+                .orderBy('timestamp', 'desc')
+                .limit(200)
+                .get(),
+            db.collection('trustedUsers').get()
+        ]);
 
         allComments = [];
-        snapshot.forEach(doc => {
+        commentsSnap.forEach(doc => {
             allComments.push({ id: doc.id, ...doc.data() });
+        });
+
+        trustedUserIds = new Set();
+        trustedSnap.forEach(doc => {
+            trustedUserIds.add(doc.id);
         });
 
         updateCommentStats();
@@ -43,23 +54,24 @@ async function loadComments() {
 function updateCommentStats() {
     const uniqueUsers = new Set(allComments.map(c => c.userId)).size;
     const pendingCount = allComments.filter(c => c.status === 'pending' || (!c.status && !c.approved)).length;
-    const approvedCount = allComments.filter(c => c.status === 'approved' || c.approved === true).length;
+    const flaggedCount = allComments.filter(c => c.status === 'flagged').length;
 
     document.getElementById('comments-total-count').textContent = allComments.length;
     document.getElementById('comments-unique-users').textContent = uniqueUsers;
-    document.getElementById('comments-pending-count').textContent = pendingCount;
+    document.getElementById('comments-pending-count').textContent = pendingCount + flaggedCount;
 
-    // Update pending badge on tab button
+    // Update pending badge on tab button (include flagged in count)
     const tabBtn = document.querySelector('[data-tab="comments"]');
     if (tabBtn) {
         let badge = tabBtn.querySelector('.pending-badge');
-        if (pendingCount > 0) {
+        const actionNeeded = pendingCount + flaggedCount;
+        if (actionNeeded > 0) {
             if (!badge) {
                 badge = document.createElement('span');
                 badge.className = 'pending-badge';
                 tabBtn.appendChild(badge);
             }
-            badge.textContent = pendingCount;
+            badge.textContent = actionNeeded;
         } else if (badge) {
             badge.remove();
         }
@@ -92,6 +104,10 @@ function renderCommentsList(comments) {
         filtered = filtered.filter(c => c.status === 'pending' || (!c.status && !c.approved));
     } else if (commentFilter === 'approved') {
         filtered = filtered.filter(c => c.status === 'approved' || c.approved === true);
+    } else if (commentFilter === 'flagged') {
+        filtered = filtered.filter(c => c.status === 'flagged');
+    } else if (commentFilter === 'rejected') {
+        filtered = filtered.filter(c => c.status === 'rejected');
     }
 
     // Apply search
@@ -119,24 +135,67 @@ function renderCommentsList(comments) {
         const fullTime = ts.toLocaleString();
 
         const isPending = c.status === 'pending' || (!c.status && !c.approved);
-        const statusBadge = isPending
-            ? '<span class="badge badge-pending" style="font-size: 0.7rem; margin-left: 6px;">Pending</span>'
-            : '<span class="badge badge-success" style="font-size: 0.7rem; margin-left: 6px;">Approved</span>';
+        const isFlagged = c.status === 'flagged';
+        const isRejected = c.status === 'rejected';
+        const isApproved = c.status === 'approved' || c.approved === true;
+        const isTrusted = trustedUserIds.has(c.userId);
+
+        // Status badge
+        let statusBadge = '';
+        if (isRejected) {
+            statusBadge = '<span class="badge badge-danger" style="font-size: 0.7rem; margin-left: 6px;">Rejected</span>';
+        } else if (isFlagged) {
+            statusBadge = '<span class="badge badge-warning" style="font-size: 0.7rem; margin-left: 6px;">Flagged</span>';
+        } else if (isPending) {
+            statusBadge = '<span class="badge badge-pending" style="font-size: 0.7rem; margin-left: 6px;">Pending</span>';
+        } else {
+            statusBadge = '<span class="badge badge-success" style="font-size: 0.7rem; margin-left: 6px;">Approved</span>';
+        }
+
+        // Trusted user badge
+        const trustedBadge = isTrusted
+            ? '<span class="badge" style="font-size: 0.65rem; margin-left: 4px; background: #d1e7dd; color: #0f5132;">Trusted</span>'
+            : '';
+
+        // Flag/reject reason
+        let reasonNote = '';
+        if (isFlagged && c.flagReason) {
+            reasonNote = `<div style="font-size: 0.75rem; color: var(--warning); margin-top: 4px;">⚠️ ${escapeHtml(c.flagReason)}</div>`;
+        } else if (isRejected && c.rejectReason) {
+            reasonNote = `<div style="font-size: 0.75rem; color: var(--danger); margin-top: 4px;">🚫 ${escapeHtml(c.rejectReason)}</div>`;
+        } else if (isApproved && c.autoApproveReason) {
+            reasonNote = `<div style="font-size: 0.75rem; color: var(--success); margin-top: 4px;">✅ ${escapeHtml(c.autoApproveReason)}</div>`;
+        }
 
         const avatarHtml = c.photoURL
             ? `<img src="${c.photoURL}" alt="" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover; flex-shrink: 0;">`
             : `<div style="width: 36px; height: 36px; border-radius: 50%; background: var(--primary); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; font-size: 0.85rem;">${(c.displayName || '?')[0].toUpperCase()}</div>`;
 
-        const approveBtn = isPending
+        // Action buttons
+        const approveBtn = (isPending || isFlagged)
             ? `<button class="btn btn-small btn-primary" style="flex-shrink: 0; align-self: flex-start;" onclick="approveComment('${c.id}')">Approve</button>`
             : '';
 
+        const trustBtn = !isTrusted
+            ? `<button class="btn btn-small btn-outline" style="flex-shrink: 0; align-self: flex-start; font-size: 0.75rem;" onclick="trustUser('${escapeHtml(c.userId)}', '${escapeHtml(c.displayName || '')}')">Trust User</button>`
+            : '';
+
+        // Background styling for different statuses
+        let bgStyle = '';
+        if (isFlagged) {
+            bgStyle = 'background: #fff3cd; margin: 0 -16px; padding-left: 16px; padding-right: 16px; border-radius: var(--radius-sm);';
+        } else if (isRejected) {
+            bgStyle = 'background: #f8d7da; margin: 0 -16px; padding-left: 16px; padding-right: 16px; border-radius: var(--radius-sm);';
+        } else if (isPending) {
+            bgStyle = 'background: var(--warning-light); margin: 0 -16px; padding-left: 16px; padding-right: 16px; border-radius: var(--radius-sm);';
+        }
+
         return `
-            <div class="comment-mod-item" style="${isPending ? 'background: var(--warning-light); margin: 0 -16px; padding-left: 16px; padding-right: 16px; border-radius: var(--radius-sm);' : ''}">
+            <div class="comment-mod-item" style="${bgStyle}">
                 ${avatarHtml}
                 <div style="flex: 1; min-width: 0;">
                     <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;">
-                        <div><strong style="font-size: 0.9rem;">${escapeHtml(c.displayName || 'Anonymous')}</strong>${statusBadge}</div>
+                        <div><strong style="font-size: 0.9rem;">${escapeHtml(c.displayName || 'Anonymous')}</strong>${trustedBadge}${statusBadge}</div>
                         <span style="font-size: 0.75rem; color: var(--text-muted);" title="${fullTime}">${timeStr}</span>
                     </div>
                     <div style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 6px;">
@@ -145,9 +204,11 @@ function renderCommentsList(comments) {
                     <div style="font-size: 0.9rem; color: var(--text-primary); line-height: 1.5;">
                         ${escapeHtml(c.text || '')}
                     </div>
+                    ${reasonNote}
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 6px; flex-shrink: 0; align-self: flex-start;">
                     ${approveBtn}
+                    ${trustBtn}
                     <button class="btn btn-small btn-outline" style="color: var(--danger); border-color: var(--danger);"
                             onclick="showDeleteCommentModal('${c.id}')">
                         Delete
@@ -159,7 +220,7 @@ function renderCommentsList(comments) {
 }
 
 /**
- * Approve a pending comment
+ * Approve a pending or flagged comment
  */
 async function approveComment(commentId) {
     try {
@@ -180,6 +241,26 @@ async function approveComment(commentId) {
     } catch (error) {
         console.error('Approve comment error:', error);
         showToast('Failed to approve: ' + error.message, 'error');
+    }
+}
+
+/**
+ * Trust a user — future comments will be auto-approved
+ */
+async function trustUser(userId, displayName) {
+    try {
+        await db.collection('trustedUsers').doc(userId).set({
+            userId,
+            displayName: displayName || '',
+            trustedAt: firebase.firestore.FieldValue.serverTimestamp(),
+            addedBy: 'admin',
+        });
+        trustedUserIds.add(userId);
+        showToast(`${displayName || 'User'} is now trusted`, 'success');
+        renderCommentsList(allComments);
+    } catch (error) {
+        console.error('Trust user error:', error);
+        showToast('Failed to trust user: ' + error.message, 'error');
     }
 }
 
@@ -252,6 +333,7 @@ window.loadComments = loadComments;
 window.filterComments = filterComments;
 window.setCommentFilter = setCommentFilter;
 window.approveComment = approveComment;
+window.trustUser = trustUser;
 window.showDeleteCommentModal = showDeleteCommentModal;
 window.confirmDeleteComment = confirmDeleteComment;
 window.closeDeleteCommentModal = closeDeleteCommentModal;

@@ -261,7 +261,7 @@ function updateURL() {
 
   // Add featured filter if active
   if (state.featuredFilter) {
-    params.set('featured', 'pollination');
+    params.set('featured', 'true');
   }
 
   // Update URL without reloading the page
@@ -326,8 +326,8 @@ function loadFiltersFromURL() {
     }
   }
 
-  // Apply featured filter from URL
-  if (params.get('featured') === 'pollination') {
+  // Apply featured filter from URL (support both 'true' and legacy 'pollination')
+  if (params.get('featured') === 'true' || params.get('featured') === 'pollination') {
     state.featuredFilter = true;
     const featuredBtn = document.getElementById('featured-pollination-btn');
     if (featuredBtn) {
@@ -455,11 +455,20 @@ function renderGallery() {
     filteredImages = filteredImages.filter(img => isPhotoFavorited(img.id));
   }
 
-  // Apply Featured Collection filter (keyword-based)
+  // Apply Featured Collection filter (dynamic from metadata)
   if (state.featuredFilter) {
-    filteredImages = filteredImages.filter(img =>
-      Array.isArray(img.keywords) && img.keywords.some(kw => kw.toLowerCase() === 'pollination')
-    );
+    const activeCollection = (state.galleryData.featuredCollections || []).find(c => c.active);
+    if (activeCollection) {
+      const featuredIds = new Set(activeCollection.imageIds);
+      filteredImages = filteredImages.filter(img => featuredIds.has(img.id));
+    }
+  }
+
+  // Sort by imageOrder if available
+  if (state.galleryData.imageOrder && state.galleryData.imageOrder.length > 0) {
+    const orderMap = {};
+    state.galleryData.imageOrder.forEach((id, idx) => { orderMap[id] = idx; });
+    filteredImages.sort((a, b) => (orderMap[a.id] ?? 9999) - (orderMap[b.id] ?? 9999));
   }
 
   // Store filtered images in state for Load More
@@ -2105,18 +2114,36 @@ function clearFeaturedFilter() {
 }
 
 /**
- * Update the Featured Collection badge with matching photo count
+ * Update the Featured Collection button label, emoji, and badge count
+ * from the active collection in gallery-metadata.json.
  */
 function updateFeaturedBadge() {
+  const btn = document.getElementById('featured-pollination-btn');
   const badge = document.getElementById('featured-badge');
-  if (!badge || !state.galleryData || !state.galleryData.images) return;
+  if (!state.galleryData || !state.galleryData.images) return;
 
-  const count = state.galleryData.images.filter(img =>
-    Array.isArray(img.keywords) && img.keywords.some(kw => kw.toLowerCase() === 'pollination')
-  ).length;
+  const activeCollection = (state.galleryData.featuredCollections || []).find(c => c.active);
 
-  badge.textContent = count;
-  badge.style.display = count > 0 ? 'inline-flex' : 'none';
+  if (!activeCollection) {
+    // No active collection — hide the entire button
+    if (btn) btn.style.display = 'none';
+    return;
+  }
+
+  // Show button and update label + emoji
+  if (btn) {
+    btn.style.display = '';
+    const label = btn.querySelector('.featured-label');
+    const emoji = btn.querySelector('.featured-icon-emoji');
+    if (label) label.textContent = `Featured Collection - ${activeCollection.name}`;
+    if (emoji) emoji.textContent = activeCollection.emoji;
+  }
+
+  if (badge) {
+    const count = activeCollection.imageIds.length;
+    badge.textContent = count;
+    badge.style.display = count > 0 ? 'inline-flex' : 'none';
+  }
 }
 
 // Export functions for onclick handlers in HTML

@@ -148,52 +148,15 @@ function closeDeleteModal() {
 }
 
 /**
- * Bulk delete selected images
+ * Bulk delete selected images — delegates to bulk-operations.js
  */
-async function bulkDelete() {
+function bulkDelete() {
     const selected = getSelectedImageIds();
     if (selected.length === 0) {
         showToast('No images selected', 'warning');
         return;
     }
-
-    const confirmed = confirm(
-        `Are you sure you want to delete ${selected.length} image(s) and ALL their associated files?\n\n` +
-        `This will delete approximately ${selected.length * 32} files total.\n\n` +
-        `This action cannot be undone.`
-    );
-
-    if (!confirmed) return;
-
-    showToast(`Deleting ${selected.length} images... this will take a while`, 'info', 10000);
-
-    let successCount = 0;
-    let failCount = 0;
-
-    for (const imageId of selected) {
-        try {
-            const deleteFn = firebase.functions().httpsCallable('adminDeleteImage');
-            await deleteFn({ imageId: imageId });
-            metadataManager.removeImageLocally(imageId);
-            successCount++;
-        } catch (error) {
-            console.error(`Failed to delete image ${imageId}:`, error);
-            failCount++;
-        }
-    }
-
-    // Refresh all views
-    renderOverview();
-    renderImagesGrid();
-    renderCostAnalytics();
-    renderContentAudit();
-    clearSelection();
-
-    if (failCount === 0) {
-        showToast(`Successfully deleted ${successCount} images`, 'success');
-    } else {
-        showToast(`Deleted ${successCount}, failed ${failCount}`, 'warning');
-    }
+    showBulkConfirmModal('delete', selected);
 }
 
 // Expose globally

@@ -120,44 +120,39 @@ function renderCostTableRow(img) {
 function renderCostTable(images) {
     const sorted = sortCostData(images);
     const tbody = document.getElementById('cost-table-body');
+    const overflow = document.getElementById('cost-table-overflow');
     if (!tbody) return;
 
     if (sorted.length === 0) {
         tbody.innerHTML = '<tr><td colspan="6" class="text-muted">No images found</td></tr>';
+        if (overflow) overflow.innerHTML = '';
         return;
     }
 
     const visible = sorted.slice(0, COST_TABLE_VISIBLE_ROWS);
     const hidden = sorted.slice(COST_TABLE_VISIBLE_ROWS);
 
-    let html = visible.map(renderCostTableRow).join('');
+    tbody.innerHTML = visible.map(renderCostTableRow).join('');
 
-    if (hidden.length > 0) {
-        const isExpanded = tbody.dataset.expanded === 'true';
-        html += `<tr class="cost-table-toggle-row">
-            <td colspan="6" style="text-align:center; padding: 10px;">
-                <button class="btn btn-small btn-secondary" onclick="toggleCostTableRows(this)">
-                    ${isExpanded ? 'Hide' : 'Show'} ${hidden.length} older entries ${isExpanded ? '▲' : '▼'}
-                </button>
-            </td>
-        </tr>`;
-        html += hidden.map(img => `<tr class="cost-table-hidden" style="display:${isExpanded ? '' : 'none'};">${renderCostTableRow(img).replace(/^<tr>|<\/tr>$/g, '')}</tr>`).join('');
+    if (overflow) {
+        if (hidden.length > 0) {
+            overflow.innerHTML = `
+                <div class="ngss-accordion" style="margin-top: 0; border-top: none; border-radius: 0 0 var(--radius-sm) var(--radius-sm);">
+                    <button class="ngss-accordion-header" onclick="this.parentElement.classList.toggle('open')">
+                        <span class="ngss-accordion-arrow">&#9654;</span>
+                        <span class="ngss-accordion-title">Show All</span>
+                        <span class="ngss-accordion-badge">${hidden.length} more</span>
+                    </button>
+                    <div class="ngss-accordion-body" style="padding: 0;">
+                        <table class="data-table" style="margin: 0;">
+                            <tbody>${hidden.map(renderCostTableRow).join('')}</tbody>
+                        </table>
+                    </div>
+                </div>`;
+        } else {
+            overflow.innerHTML = '';
+        }
     }
-
-    tbody.innerHTML = html;
-}
-
-function toggleCostTableRows(btn) {
-    const tbody = document.getElementById('cost-table-body');
-    const isExpanded = tbody.dataset.expanded === 'true';
-    const hiddenRows = tbody.querySelectorAll('.cost-table-hidden');
-    const newState = !isExpanded;
-
-    hiddenRows.forEach(row => row.style.display = newState ? '' : 'none');
-    tbody.dataset.expanded = newState;
-
-    const count = hiddenRows.length;
-    btn.textContent = (newState ? 'Hide' : 'Show') + ` ${count} older entries ` + (newState ? '▲' : '▼');
 }
 
 /**
@@ -256,4 +251,3 @@ window.renderCostAnalytics = renderCostAnalytics;
 window.sortCostTable = sortCostTable;
 window.exportCostCSV = exportCostCSV;
 window.escapeHtml = escapeHtml;
-window.toggleCostTableRows = toggleCostTableRows;

@@ -53,6 +53,9 @@ async function initDashboard() {
 
     // Start deploy status monitor
     if (typeof initDeployStatus === 'function') initDeployStatus();
+
+    // Load health check status
+    if (typeof loadHealthStatus === 'function') loadHealthStatus();
 }
 
 /**
@@ -73,6 +76,7 @@ function switchTab(tabName) {
     if (tabName === 'activity' && typeof loadActivityFeed === 'function') loadActivityFeed();
     if (tabName === 'analytics' && typeof loadAnalytics === 'function') loadAnalytics();
     if (tabName === 'comments' && typeof loadComments === 'function') loadComments();
+    if (tabName === 'traffic' && typeof loadGA4Analytics === 'function') loadGA4Analytics();
 }
 
 /**
@@ -238,6 +242,9 @@ async function loadOverviewEngagement() {
         // Render recent comments
         renderRecentComments(commentsSnap);
 
+        // Load sparklines for views and ratings
+        loadOverviewSparklines();
+
         // "New this week" badge
         const oneWeekAgo = new Date();
         oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
@@ -260,6 +267,49 @@ async function loadOverviewEngagement() {
     } catch (error) {
         console.error('Overview engagement error:', error);
     }
+}
+
+/**
+ * Load last 7 days of dailyStats and render mini SVG sparklines
+ * in the overview stat cards for views and ratings.
+ */
+async function loadOverviewSparklines() {
+    try {
+        const fn = firebase.functions().httpsCallable('adminGetTimeSeries');
+        const result = await fn({ period: 'week' });
+        const stats = result.data.data || [];
+
+        if (stats.length < 2) return; // need at least 2 points
+
+        renderSparkline('sparkline-views', stats.map(s => s.totalViews || 0), '#3b82f6');
+        renderSparkline('sparkline-ratings', stats.map(s => s.newRatings || 0), '#f59e0b');
+    } catch (err) {
+        // Silently fail — sparklines are non-critical
+        console.warn('Sparklines not available:', err.message);
+    }
+}
+
+/**
+ * Render a mini SVG sparkline into a container element.
+ */
+function renderSparkline(containerId, values, color) {
+    const container = document.getElementById(containerId);
+    if (!container || values.length < 2) return;
+
+    const w = 80, h = 24, pad = 2;
+    const max = Math.max(...values, 1);
+    const min = Math.min(...values, 0);
+    const range = max - min || 1;
+
+    const points = values.map((v, i) => {
+        const x = pad + (i / (values.length - 1)) * (w - pad * 2);
+        const y = h - pad - ((v - min) / range) * (h - pad * 2);
+        return `${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(' ');
+
+    container.innerHTML = `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+        <polyline points="${points}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>`;
 }
 
 /**

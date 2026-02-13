@@ -1639,6 +1639,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
   border-bottom: 1px solid #f0e6b3;
   position: relative;
   min-height: 120px;

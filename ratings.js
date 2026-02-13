@@ -12,6 +12,19 @@ let aggregatedStatsCache = null;
 let aggregatedStatsLoaded = false;
 
 /**
+ * Get or create a session ID for view event tracking.
+ * Uses sessionStorage so it persists within one browser tab session.
+ */
+function getOrCreateSessionId() {
+  let sid = sessionStorage.getItem('sias_session_id');
+  if (!sid) {
+    sid = Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+    sessionStorage.setItem('sias_session_id', sid);
+  }
+  return sid;
+}
+
+/**
  * Record a view for a photo
  */
 async function recordPhotoView(photoId) {
@@ -51,6 +64,15 @@ async function recordPhotoView(photoId) {
     }
 
     console.log(`View recorded for photo: ${photoId}`);
+
+    // Fire-and-forget: write timestamped view event for time-series analytics
+    db.collection('viewEvents').add({
+      photoId: id,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+      userId: (window.getCurrentUserId ? window.getCurrentUserId() : null) || null,
+      sessionId: getOrCreateSessionId()
+    }).catch(err => console.warn('viewEvent write failed:', err));
+
   } catch (error) {
     console.error('Error recording view:', error);
   }

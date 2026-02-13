@@ -66,6 +66,9 @@ async function loadAnalytics() {
         const sortedByRating = [...withRatings].sort((a, b) => b.avgRating - a.avgRating || b.ratingCount - a.ratingCount);
         renderRankedTable('highest-rated-body', sortedByRating.slice(0, 10), 'rating');
 
+        // Load engagement trend chart
+        loadTimeSeries('week');
+
     } catch (error) {
         console.error('Analytics error:', error);
         showToast('Failed to load analytics: ' + error.message, 'error');
@@ -138,9 +141,106 @@ function renderRankedTable(tbodyId, items, mode) {
 
 function refreshAnalytics() {
     analyticsLoaded = false;
+    trendChartInstance = null;
     loadAnalytics();
+}
+
+// ========== Engagement Trends (Time-Series) ==========
+
+let trendChartInstance = null;
+
+async function loadTimeSeries(period = 'week') {
+    // Update active pill
+    document.querySelectorAll('#trend-period-pills .pill').forEach(p => {
+        p.classList.toggle('active', p.dataset.period === period);
+    });
+
+    const container = document.getElementById('trend-chart-container');
+    if (!container) return;
+
+    try {
+        const fn = firebase.functions().httpsCallable('adminGetTimeSeries');
+        const result = await fn({ period });
+        const stats = result.data.data || [];
+
+        if (stats.length === 0) {
+            container.innerHTML = '<p class="text-muted" style="text-align:center; padding: 40px 0;">No time-series data available yet. Data will appear after the daily aggregation runs.</p>';
+            return;
+        }
+
+        // Restore canvas if replaced by message
+        if (!document.getElementById('trend-chart')) {
+            container.innerHTML = '<canvas id="trend-chart"></canvas>';
+        }
+
+        const labels = stats.map(s => {
+            const d = new Date(s.date + 'T12:00:00');
+            return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        });
+        const viewsData = stats.map(s => s.totalViews || 0);
+        const ratingsData = stats.map(s => s.newRatings || 0);
+        const commentsData = stats.map(s => s.newComments || 0);
+
+        if (trendChartInstance) {
+            trendChartInstance.destroy();
+        }
+
+        const ctx = document.getElementById('trend-chart').getContext('2d');
+        trendChartInstance = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels,
+                datasets: [
+                    {
+                        label: 'Views',
+                        data: viewsData,
+                        borderColor: '#3b82f6',
+                        backgroundColor: 'rgba(59,130,246,0.1)',
+                        fill: true,
+                        tension: 0.3,
+                        pointRadius: 3,
+                    },
+                    {
+                        label: 'Ratings',
+                        data: ratingsData,
+                        borderColor: '#f59e0b',
+                        backgroundColor: 'rgba(245,158,11,0.1)',
+                        fill: false,
+                        tension: 0.3,
+                        pointRadius: 3,
+                    },
+                    {
+                        label: 'Comments',
+                        data: commentsData,
+                        borderColor: '#10b981',
+                        backgroundColor: 'rgba(16,185,129,0.1)',
+                        fill: false,
+                        tension: 0.3,
+                        pointRadius: 3,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { intersect: false, mode: 'index' },
+                plugins: {
+                    legend: { position: 'top', labels: { usePointStyle: true, boxWidth: 8 } },
+                    tooltip: { callbacks: { title: (items) => items[0]?.label || '' } }
+                },
+                scales: {
+                    x: { grid: { display: false } },
+                    y: { beginAtZero: true, ticks: { precision: 0 } }
+                }
+            }
+        });
+    } catch (error) {
+        console.error('Time-series load error:', error);
+        container.innerHTML = '<p class="text-muted" style="text-align:center; padding: 40px 0;">Failed to load trend data.</p>';
+    }
 }
 
 // Expose globally
 window.loadAnalytics = loadAnalytics;
 window.refreshAnalytics = refreshAnalytics;
+window.loadTimeSeries = loadTimeSeries;

@@ -267,7 +267,10 @@ function initContentEditor(imageId) {
         <div class="content-editor">
             <div class="content-editor-header">
                 <h3>Edit Educational Content</h3>
-                <button class="btn btn-small btn-outline" onclick="closeContentEditor()">Close Editor</button>
+                <div style="display: flex; gap: 8px;">
+                    <button class="btn btn-small btn-secondary" id="version-history-btn" onclick="showVersionHistory()" disabled>Version History</button>
+                    <button class="btn btn-small btn-outline" onclick="closeContentEditor()">Close Editor</button>
+                </div>
             </div>
             <div class="content-editor-tabs" id="content-grade-tabs">
                 ${CONTENT_GRADE_TABS.map(t => `
@@ -319,6 +322,10 @@ async function switchGradeTab(gradeKey) {
     const sectionDefs = isEDP ? EDP_SECTIONS : GRADE_SECTIONS;
 
     renderContentForm(formArea, sections, sectionDefs, isEDP);
+
+    // Enable version history button now that a grade is selected
+    const vhBtn = document.getElementById('version-history-btn');
+    if (vhBtn) vhBtn.disabled = false;
 }
 
 function renderContentForm(container, sections, sectionDefs, isEDP) {
@@ -489,6 +496,182 @@ function closeContentEditor() {
 }
 
 // ============================================================
+// Version History
+// ============================================================
+
+async function showVersionHistory() {
+    const { imageId, currentGrade, image } = contentEditorState;
+    if (!currentGrade || !image) {
+        showToast('Select a grade level first', 'warning');
+        return;
+    }
+
+    const modal = document.getElementById('version-history-modal');
+    const title = document.getElementById('version-history-title');
+    const body = document.getElementById('version-history-body');
+
+    const gradeLabel = currentGrade === 'edp' ? 'EDP'
+        : CONTENT_GRADE_TABS.find(t => t.key === currentGrade)?.label || currentGrade;
+
+    title.textContent = `Version History — ${escapeHtml(image.title || image.filename)} (${gradeLabel})`;
+    body.innerHTML = '<div style="text-align:center; padding: 40px;"><div class="spinner spinner-large" style="margin: 0 auto 12px;"></div><p class="text-muted">Loading version history...</p></div>';
+    modal.classList.remove('hidden');
+
+    try {
+        const fn = firebase.functions().httpsCallable('adminGetContentHistory');
+        const result = await fn({ imageId, gradeLevel: currentGrade });
+        const versions = result.data.versions || [];
+
+        if (versions.length === 0) {
+            body.innerHTML = '<p class="text-muted" style="text-align:center; padding: 40px;">No version history available for this file.</p><div style="text-align:right; margin-top: 16px;"><button class="btn btn-secondary" onclick="closeVersionHistoryModal()">Close</button></div>';
+            return;
+        }
+
+        const listHtml = versions.map((v, i) => {
+            const date = new Date(v.date);
+            const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' });
+            const isCurrent = i === 0;
+            return `
+                <div class="version-item">
+                    <div class="version-meta">
+                        <div class="version-date">${dateStr}${isCurrent ? ' <span class="badge badge-success" style="font-size:0.7rem;">Current</span>' : ''}</div>
+                        <div class="version-message">${escapeHtml(v.message)}</div>
+                    </div>
+                    <div class="version-hash">${v.hash.slice(0, 7)}</div>
+                    <div class="version-actions">
+                        <button class="btn btn-small btn-outline" onclick="previewVersion('${v.hash}', '${dateStr.replace(/'/g, "\\'")}')">Preview</button>
+                        ${!isCurrent ? `<button class="btn btn-small btn-secondary" onclick="confirmRestore('${v.hash}', '${dateStr.replace(/'/g, "\\'")}')">Restore</button>` : ''}
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        body.innerHTML = `
+            <div class="version-list">${listHtml}</div>
+            <div style="text-align:right; margin-top: 16px;">
+                <button class="btn btn-secondary" onclick="closeVersionHistoryModal()">Close</button>
+            </div>
+        `;
+    } catch (error) {
+        console.error('Version history error:', error);
+        body.innerHTML = `<p class="text-danger" style="text-align:center; padding: 40px;">Failed to load history: ${escapeHtml(error.message)}</p><div style="text-align:right; margin-top: 16px;"><button class="btn btn-secondary" onclick="closeVersionHistoryModal()">Close</button></div>`;
+    }
+}
+
+async function previewVersion(commitHash, dateLabel) {
+    const { imageId, currentGrade } = contentEditorState;
+    const body = document.getElementById('version-history-body');
+
+    // Show loading in the preview area
+    body.innerHTML += '<div id="version-preview-loading" style="text-align:center; padding: 20px;"><div class="spinner" style="margin: 0 auto 8px;"></div><p class="text-muted">Loading version...</p></div>';
+
+    try {
+        const fn = firebase.functions().httpsCallable('adminGetContentVersion');
+        const result = await fn({ imageId, gradeLevel: currentGrade, commitHash });
+        const oldContent = result.data.content || '';
+
+        // Get current content from the editor form (or original)
+        const isEDP = currentGrade === 'edp';
+        const currentContent = contentEditorState.originalContent[currentGrade] || '';
+
+        // Remove loading indicator
+        const loadingEl = document.getElementById('version-preview-loading');
+        if (loadingEl) loadingEl.remove();
+
+        // Add or replace preview pane
+        let previewPane = document.getElementById('version-preview-pane');
+        if (previewPane) previewPane.remove();
+
+        const paneHtml = `
+            <div id="version-preview-pane" class="version-preview-pane">
+                <div class="preview-col">
+                    <h4>Current Version</h4>
+                    ${escapeHtml(currentContent).substring(0, 3000)}${currentContent.length > 3000 ? '\n\n... (truncated)' : ''}
+                </div>
+                <div class="preview-col">
+                    <h4>Version from ${dateLabel} (${commitHash.slice(0, 7)})</h4>
+                    ${escapeHtml(oldContent).substring(0, 3000)}${oldContent.length > 3000 ? '\n\n... (truncated)' : ''}
+                </div>
+            </div>
+        `;
+
+        body.insertAdjacentHTML('beforeend', paneHtml);
+    } catch (error) {
+        console.error('Preview version error:', error);
+        const loadingEl = document.getElementById('version-preview-loading');
+        if (loadingEl) loadingEl.innerHTML = `<p class="text-danger">Failed to load version: ${escapeHtml(error.message)}</p>`;
+    }
+}
+
+function confirmRestore(commitHash, dateLabel) {
+    const { imageId, image } = contentEditorState;
+    const body = document.getElementById('version-history-body');
+
+    body.innerHTML = `
+        <div style="padding: 20px; text-align: center;">
+            <p style="font-size: 1.1rem; font-weight: 600; margin-bottom: 12px;">Restore this version?</p>
+            <p style="color: var(--text-secondary);">
+                This will restore the content from <strong>${dateLabel}</strong> (commit ${commitHash.slice(0, 7)})
+                for <strong>${escapeHtml(image?.title || 'this image')}</strong>.
+            </p>
+            <p style="color: var(--text-secondary); margin-top: 8px; font-size: 0.9rem;">
+                The PDF will be regenerated. A new commit will be created (the current version is not lost — it remains in history).
+            </p>
+            <div style="display: flex; gap: 12px; justify-content: center; margin-top: 20px;">
+                <button class="btn btn-secondary" onclick="showVersionHistory()">Cancel</button>
+                <button class="btn btn-primary" onclick="executeRestore('${commitHash}')">Restore Version</button>
+            </div>
+        </div>
+    `;
+}
+
+async function executeRestore(commitHash) {
+    const { imageId, currentGrade } = contentEditorState;
+    const body = document.getElementById('version-history-body');
+
+    body.innerHTML = `
+        <div style="text-align: center; padding: 40px;">
+            <div class="spinner spinner-large" style="margin: 0 auto 16px;"></div>
+            <p>Restoring content and regenerating PDF...</p>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 8px;">This may take 30-60 seconds.</p>
+        </div>
+    `;
+
+    try {
+        const fn = firebase.functions().httpsCallable('adminRestoreContentVersion');
+        const result = await fn({ imageId, gradeLevel: currentGrade, commitHash });
+
+        closeVersionHistoryModal();
+
+        if (result.data.pdfWarning) {
+            showToast('Content restored! Warning: PDF regeneration failed.', 'warning', 6000);
+        } else {
+            showToast('Content restored successfully!', 'success', 5000);
+        }
+
+        // Reload the current grade tab to show restored content
+        contentEditorState.hasUnsavedChanges = false;
+        switchGradeTab(currentGrade);
+    } catch (error) {
+        console.error('Restore error:', error);
+        body.innerHTML = `
+            <div style="text-align: center; padding: 40px;">
+                <p class="text-danger" style="font-size: 1.1rem; margin-bottom: 12px;">Restore Failed</p>
+                <p>${escapeHtml(error.message)}</p>
+                <div style="margin-top: 20px;">
+                    <button class="btn btn-secondary" onclick="showVersionHistory()">Back to History</button>
+                </div>
+            </div>
+        `;
+    }
+}
+
+function closeVersionHistoryModal() {
+    const modal = document.getElementById('version-history-modal');
+    if (modal) modal.classList.add('hidden');
+}
+
+// ============================================================
 // Expose globally
 // ============================================================
 
@@ -497,3 +680,8 @@ window.switchGradeTab = switchGradeTab;
 window.saveContentEdits = saveContentEdits;
 window.cancelContentEdit = cancelContentEdit;
 window.closeContentEditor = closeContentEditor;
+window.showVersionHistory = showVersionHistory;
+window.previewVersion = previewVersion;
+window.confirmRestore = confirmRestore;
+window.executeRestore = executeRestore;
+window.closeVersionHistoryModal = closeVersionHistoryModal;

@@ -8,6 +8,21 @@ let editImageId = null;
 let editKeywords = [];
 let editNgssStandards = {};
 
+// PDF Viewer state
+let pdfPreviewTab = 'lesson';
+let pdfPreviewGrade = 'kindergarten';
+let pdfPreviewImage = null;
+
+const PDF_GRADE_LEVELS = [
+    { key: 'kindergarten', label: 'K' },
+    { key: 'first-grade', label: '1st' },
+    { key: 'second-grade', label: '2nd' },
+    { key: 'third-grade', label: '3rd' },
+    { key: 'fourth-grade', label: '4th' },
+    { key: 'fifth-grade', label: '5th' },
+    { key: 'edp', label: 'EDP' }
+];
+
 const NGSS_GRADE_LEVELS = [
     { key: 'kindergarten', label: 'Kindergarten' },
     { key: 'grade1', label: '1st Grade' },
@@ -89,6 +104,40 @@ function showDetailModal(imageId) {
                     ${image.hasContent ? `<p><strong>Edit Content</strong> — Edit educational content for any grade level and regenerate the lesson guide PDF</p>` : ''}
                     <p><strong>Edit Hotspots</strong> — Drag hotspot markers to reposition them on the image</p>
                 </div>
+
+                <div class="detail-section">
+                    <h3>Associated Files (${totalFiles})</h3>
+                    <details style="margin-bottom: 8px;">
+                        <summary style="cursor: pointer; font-size: 0.85rem;">Images (${files.images.length})</summary>
+                        <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.images)}</ul>
+                    </details>
+                    <details style="margin-bottom: 8px;">
+                        <summary style="cursor: pointer; font-size: 0.85rem;">Content (${files.content.length})</summary>
+                        <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.content)}</ul>
+                    </details>
+                    <details style="margin-bottom: 8px;">
+                        <summary style="cursor: pointer; font-size: 0.85rem;">Hotspots (${files.hotspots.length})</summary>
+                        <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.hotspots)}</ul>
+                    </details>
+                    <details style="margin-bottom: 8px;">
+                        <summary style="cursor: pointer; font-size: 0.85rem;">PDFs (${files.pdfs.length})</summary>
+                        <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.pdfs)}</ul>
+                    </details>
+                    <details style="margin-bottom: 8px;">
+                        <summary style="cursor: pointer; font-size: 0.85rem;">5E Lessons (${files.fiveE ? files.fiveE.length : 0})</summary>
+                        <ul class="audit-file-list" style="margin-top: 4px;">${files.fiveE ? fileListHtml(files.fiveE) : ''}</ul>
+                    </details>
+                </div>
+
+                ${image.hasContent ? `
+                <div class="detail-section">
+                    <h3>Preview PDFs</h3>
+                    <div class="pdf-preview-tabs">
+                        <button class="pdf-tab" onclick="openPdfViewer(${image.id}, 'lesson')">Lesson PDFs</button>
+                        <button class="pdf-tab" onclick="openPdfViewer(${image.id}, '5e')">5E Lesson PDFs</button>
+                    </div>
+                </div>
+                ` : ''}
             </div>
             <div>
                 <div class="detail-section">
@@ -143,30 +192,6 @@ function showDetailModal(imageId) {
                 <div class="detail-section" id="detail-ngss-section">
                     <h3>NGSS Standards</h3>
                     <div id="detail-ngss-container">${ngssHtml}</div>
-                </div>
-
-                <div class="detail-section">
-                    <h3>Associated Files (${totalFiles})</h3>
-                    <details style="margin-bottom: 8px;">
-                        <summary style="cursor: pointer; font-size: 0.85rem;">Images (${files.images.length})</summary>
-                        <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.images)}</ul>
-                    </details>
-                    <details style="margin-bottom: 8px;">
-                        <summary style="cursor: pointer; font-size: 0.85rem;">Content (${files.content.length})</summary>
-                        <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.content)}</ul>
-                    </details>
-                    <details style="margin-bottom: 8px;">
-                        <summary style="cursor: pointer; font-size: 0.85rem;">Hotspots (${files.hotspots.length})</summary>
-                        <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.hotspots)}</ul>
-                    </details>
-                    <details style="margin-bottom: 8px;">
-                        <summary style="cursor: pointer; font-size: 0.85rem;">PDFs (${files.pdfs.length})</summary>
-                        <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.pdfs)}</ul>
-                    </details>
-                    <details style="margin-bottom: 8px;">
-                        <summary style="cursor: pointer; font-size: 0.85rem;">5E Lessons (${files.fiveE ? files.fiveE.length : 0})</summary>
-                        <ul class="audit-file-list" style="margin-top: 4px;">${files.fiveE ? fileListHtml(files.fiveE) : ''}</ul>
-                    </details>
                 </div>
             </div>
         </div>
@@ -409,6 +434,218 @@ async function saveImageMetadata() {
     }
 }
 
+// ===================================
+// PDF Viewer Functions (canvas-based via PDF.js)
+// ===================================
+
+let pdfDoc = null;
+let pdfCurrentPage = 1;
+let pdfTotalPages = 0;
+let pdfRendering = false;
+
+/**
+ * Get the Storage URL for a PDF
+ */
+function getPdfUrl(image, tab, grade) {
+    const nameNoExt = image.filename.replace(/\.[^.]+$/, '');
+    const category = image.category;
+    let path;
+    if (tab === '5e') {
+        path = `5e_lessons/${category}/${nameNoExt}-${grade}.pdf`;
+    } else {
+        path = `pdfs/${category}/${nameNoExt}-${grade}.pdf`;
+    }
+    return resolveAssetUrl(path);
+}
+
+/**
+ * Open the full-screen PDF viewer modal
+ */
+function openPdfViewer(imageId, tab) {
+    const image = metadataManager.getImageById(imageId);
+    if (!image) return;
+
+    pdfPreviewImage = image;
+    pdfPreviewTab = tab || 'lesson';
+    pdfPreviewGrade = 'kindergarten';
+
+    renderPdfViewerShell();
+    document.getElementById('pdf-viewer-modal').classList.remove('hidden');
+    loadPdf();
+}
+
+/**
+ * Close the PDF viewer modal
+ */
+function closePdfViewer() {
+    document.getElementById('pdf-viewer-modal').classList.add('hidden');
+    pdfDoc = null;
+    pdfCurrentPage = 1;
+    pdfTotalPages = 0;
+}
+
+/**
+ * Render the PDF viewer modal shell (header + canvas container)
+ */
+function renderPdfViewerShell() {
+    const body = document.getElementById('pdf-viewer-body');
+    if (!body || !pdfPreviewImage) return;
+
+    const url = getPdfUrl(pdfPreviewImage, pdfPreviewTab, pdfPreviewGrade);
+
+    const tabsHtml = `
+        <button class="pdf-tab ${pdfPreviewTab === 'lesson' ? 'active' : ''}" onclick="switchPdfTab('lesson')">Lesson PDFs</button>
+        <button class="pdf-tab ${pdfPreviewTab === '5e' ? 'active' : ''}" onclick="switchPdfTab('5e')">5E Lesson PDFs</button>
+    `;
+
+    const pillsHtml = PDF_GRADE_LEVELS.map(g => {
+        const isEdp = g.key === 'edp';
+        const hiddenClass = (isEdp && pdfPreviewTab === '5e') ? ' hidden' : '';
+        const activeClass = (g.key === pdfPreviewGrade) ? ' active' : '';
+        return `<button class="pdf-grade${activeClass}${hiddenClass}" data-grade="${g.key}" onclick="switchPdfGrade('${g.key}')">${g.label}</button>`;
+    }).join('');
+
+    body.innerHTML = `
+        <div class="pdf-viewer-header">
+            <div class="pdf-preview-tabs">${tabsHtml}</div>
+            <div class="pdf-grade-pills">${pillsHtml}</div>
+            <div class="pdf-page-nav">
+                <button class="btn btn-small btn-outline" onclick="pdfPrevPage()" id="pdf-prev-btn" disabled>&lsaquo; Prev</button>
+                <span id="pdf-page-info">Loading...</span>
+                <button class="btn btn-small btn-outline" onclick="pdfNextPage()" id="pdf-next-btn" disabled>Next &rsaquo;</button>
+            </div>
+            <a class="pdf-download-link" href="${url}" target="_blank">Download</a>
+        </div>
+        <div class="pdf-canvas-container" id="pdf-canvas-container">
+            <canvas id="pdf-canvas"></canvas>
+        </div>
+    `;
+}
+
+/**
+ * Load a PDF document and render the first page
+ */
+async function loadPdf() {
+    const url = getPdfUrl(pdfPreviewImage, pdfPreviewTab, pdfPreviewGrade);
+
+    // Show loading state
+    const pageInfo = document.getElementById('pdf-page-info');
+    if (pageInfo) pageInfo.textContent = 'Loading...';
+
+    try {
+        if (!window.pdfjsLib) {
+            // PDF.js not loaded yet — wait briefly
+            await new Promise(resolve => setTimeout(resolve, 500));
+        }
+        if (!window.pdfjsLib) {
+            throw new Error('PDF.js library not loaded');
+        }
+
+        pdfDoc = await window.pdfjsLib.getDocument(url).promise;
+        pdfTotalPages = pdfDoc.numPages;
+        pdfCurrentPage = 1;
+        updatePageControls();
+        renderPdfPage(pdfCurrentPage);
+    } catch (err) {
+        console.error('PDF load error:', err);
+        const container = document.getElementById('pdf-canvas-container');
+        if (container) {
+            container.innerHTML = `
+                <div style="padding: 60px; text-align: center; color: var(--text-secondary);">
+                    <p>Unable to load PDF.</p>
+                    <a href="${url}" target="_blank" class="btn btn-primary btn-small" style="margin-top: 12px;">Open in New Tab</a>
+                </div>
+            `;
+        }
+    }
+}
+
+/**
+ * Render a specific page of the loaded PDF to the canvas
+ */
+async function renderPdfPage(pageNum) {
+    if (!pdfDoc || pdfRendering) return;
+    pdfRendering = true;
+
+    try {
+        const page = await pdfDoc.getPage(pageNum);
+        const canvas = document.getElementById('pdf-canvas');
+        const container = document.getElementById('pdf-canvas-container');
+        if (!canvas || !container) return;
+
+        const ctx = canvas.getContext('2d');
+
+        // Scale to fit container width, with high-res for retina
+        const containerWidth = container.clientWidth - 40; // 20px padding each side
+        const viewport = page.getViewport({ scale: 1 });
+        const scale = containerWidth / viewport.width;
+        const scaledViewport = page.getViewport({ scale: scale * (window.devicePixelRatio || 1) });
+
+        canvas.width = scaledViewport.width;
+        canvas.height = scaledViewport.height;
+        canvas.style.width = (containerWidth) + 'px';
+        canvas.style.height = (viewport.height * scale) + 'px';
+
+        await page.render({ canvasContext: ctx, viewport: scaledViewport }).promise;
+    } catch (err) {
+        console.error('PDF render error:', err);
+    } finally {
+        pdfRendering = false;
+    }
+}
+
+/**
+ * Update page navigation controls
+ */
+function updatePageControls() {
+    const pageInfo = document.getElementById('pdf-page-info');
+    const prevBtn = document.getElementById('pdf-prev-btn');
+    const nextBtn = document.getElementById('pdf-next-btn');
+
+    if (pageInfo) pageInfo.textContent = `Page ${pdfCurrentPage} of ${pdfTotalPages}`;
+    if (prevBtn) prevBtn.disabled = pdfCurrentPage <= 1;
+    if (nextBtn) nextBtn.disabled = pdfCurrentPage >= pdfTotalPages;
+}
+
+function pdfPrevPage() {
+    if (pdfCurrentPage <= 1 || pdfRendering) return;
+    pdfCurrentPage--;
+    updatePageControls();
+    renderPdfPage(pdfCurrentPage);
+    const container = document.getElementById('pdf-canvas-container');
+    if (container) container.scrollTop = 0;
+}
+
+function pdfNextPage() {
+    if (pdfCurrentPage >= pdfTotalPages || pdfRendering) return;
+    pdfCurrentPage++;
+    updatePageControls();
+    renderPdfPage(pdfCurrentPage);
+    const container = document.getElementById('pdf-canvas-container');
+    if (container) container.scrollTop = 0;
+}
+
+/**
+ * Switch between Lesson and 5E tabs
+ */
+function switchPdfTab(tab) {
+    pdfPreviewTab = tab;
+    if (tab === '5e' && pdfPreviewGrade === 'edp') {
+        pdfPreviewGrade = 'kindergarten';
+    }
+    renderPdfViewerShell();
+    loadPdf();
+}
+
+/**
+ * Switch to a different grade level
+ */
+function switchPdfGrade(grade) {
+    pdfPreviewGrade = grade;
+    renderPdfViewerShell();
+    loadPdf();
+}
+
 /**
  * Close the detail modal
  */
@@ -431,3 +668,9 @@ window.addKeywordTag = addKeywordTag;
 window.removeKeywordTag = removeKeywordTag;
 window.addNgssStandard = addNgssStandard;
 window.removeNgssStandard = removeNgssStandard;
+window.openPdfViewer = openPdfViewer;
+window.closePdfViewer = closePdfViewer;
+window.switchPdfTab = switchPdfTab;
+window.switchPdfGrade = switchPdfGrade;
+window.pdfPrevPage = pdfPrevPage;
+window.pdfNextPage = pdfNextPage;

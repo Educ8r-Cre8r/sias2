@@ -18,6 +18,7 @@ const Anthropic = require('@anthropic-ai/sdk');
 const simpleGit = require('simple-git');
 const sharp = require('sharp');
 const nodemailer = require('nodemailer');
+const { BetaAnalyticsDataClient } = require('@google-analytics/data');
 const path = require('path');
 const fs = require('fs').promises;
 const os = require('os');
@@ -33,6 +34,9 @@ const db = admin.firestore();
 
 // Storage bucket name for gallery assets (images, PDFs, 5E lessons)
 const GALLERY_BUCKET = 'sias-8178a.firebasestorage.app';
+
+// GA4 property ID (numeric) for Analytics Data API
+const GA4_PROPERTY_ID = '522918764';
 
 /**
  * Upload a local file to Firebase Storage with proper metadata.
@@ -1926,6 +1930,121 @@ async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, fi
  * Send email notification when a new comment is created
  * Triggers on Firestore document creation in the 'comments' collection
  */
+// ============================================================
+// Comment Spam Detection & Auto-Moderation
+// ============================================================
+
+// Profanity word list — checked with word boundaries to avoid false positives
+const PROFANITY_LIST = [
+  'fuck', 'shit', 'ass', 'damn', 'bitch', 'bastard', 'crap', 'dick',
+  'piss', 'cock', 'cunt', 'whore', 'slut', 'nigger', 'nigga', 'faggot',
+  'retard', 'stfu', 'wtf', 'lmfao', 'bullshit', 'horseshit', 'jackass',
+  'dumbass', 'asshole', 'motherfucker', 'fucker', 'fucking', 'shitty',
+  'bitchy', 'goddamn', 'dammit',
+];
+
+// Build regex with word boundaries for each term
+const PROFANITY_REGEX = new RegExp(
+  '\\b(' + PROFANITY_LIST.join('|') + ')\\b', 'i'
+);
+
+// URL patterns to detect spam links
+const URL_REGEX = /https?:\/\/|www\.|bit\.ly|tinyurl\.com|goo\.gl|t\.co\//i;
+
+/**
+ * Evaluate a comment for spam, profanity, or trusted-user auto-approve.
+ * Returns { action: 'reject' | 'auto-approve' | 'flag' | 'pending', reason: string }
+ */
+async function evaluateComment(comment) {
+  const text = (comment.text || '').trim();
+
+  // 1. Profanity check — auto-reject
+  if (PROFANITY_REGEX.test(text)) {
+    return { action: 'reject', reason: 'Profanity detected' };
+  }
+
+  // 2. Server-side length validation
+  if (text.length === 0 || text.length > 500) {
+    return { action: 'reject', reason: `Invalid comment length: ${text.length}` };
+  }
+
+  // 3. Very short comment (<5 chars) — flag for review
+  if (text.length < 5) {
+    return { action: 'flag', reason: 'Very short comment' };
+  }
+
+  // 4. URL detection — flag for review
+  if (URL_REGEX.test(text)) {
+    return { action: 'flag', reason: 'Contains URL' };
+  }
+
+  // 5. All-caps detection (>80% uppercase, min 10 chars) — flag for review
+  if (text.length >= 10) {
+    const upperCount = (text.match(/[A-Z]/g) || []).length;
+    const letterCount = (text.match(/[A-Za-z]/g) || []).length;
+    if (letterCount > 0 && upperCount / letterCount > 0.8) {
+      return { action: 'flag', reason: 'Excessive caps' };
+    }
+  }
+
+  // 6. Repetitive text — check if same user submitted same text 3+ times
+  try {
+    const dupeSnap = await db.collection('comments')
+      .where('userId', '==', comment.userId)
+      .where('text', '==', text)
+      .limit(3)
+      .get();
+    if (dupeSnap.size >= 3) {
+      return { action: 'flag', reason: 'Repetitive comment text' };
+    }
+  } catch (e) {
+    console.warn('Duplicate check failed:', e.message);
+  }
+
+  // 7. Trusted user check — auto-approve
+  try {
+    const trustedDoc = await db.collection('trustedUsers').doc(comment.userId).get();
+    if (trustedDoc.exists) {
+      return { action: 'auto-approve', reason: 'Trusted user' };
+    }
+  } catch (e) {
+    console.warn('Trusted user check failed:', e.message);
+  }
+
+  // 8. Default — pending (existing behavior)
+  return { action: 'pending', reason: 'Standard moderation' };
+}
+
+/**
+ * Auto-promote user to trusted after 3+ approved comments
+ */
+async function checkAutoTrustPromotion(userId, displayName) {
+  try {
+    // Skip if already trusted
+    const existing = await db.collection('trustedUsers').doc(userId).get();
+    if (existing.exists) return;
+
+    const approvedSnap = await db.collection('comments')
+      .where('userId', '==', userId)
+      .where('status', '==', 'approved')
+      .limit(3)
+      .get();
+
+    if (approvedSnap.size >= 3) {
+      await db.collection('trustedUsers').doc(userId).set({
+        userId,
+        displayName: displayName || '',
+        trustedAt: admin.firestore.FieldValue.serverTimestamp(),
+        approvedCommentCount: approvedSnap.size,
+        addedBy: 'auto',
+      });
+      console.log(`✅ Auto-trusted user: ${userId} (${displayName})`);
+    }
+  } catch (e) {
+    console.warn('Auto-trust promotion failed:', e.message);
+  }
+}
+
 exports.onCommentCreated = functions.firestore
   .document('comments/{commentId}')
   .onCreate(async (snapshot, context) => {
@@ -1934,7 +2053,46 @@ exports.onCommentCreated = functions.firestore
 
     console.log(`💬 New comment detected: ${commentId}`);
 
-    // Get SMTP credentials from environment variables
+    // ── Evaluate comment for spam/profanity/trust ──
+    const evaluation = await evaluateComment(comment);
+    console.log(`   Evaluation: ${evaluation.action} — ${evaluation.reason}`);
+
+    if (evaluation.action === 'reject') {
+      // Auto-reject: update status, do NOT send email
+      await snapshot.ref.update({
+        status: 'rejected',
+        rejectReason: evaluation.reason,
+      });
+      console.log(`🚫 Comment auto-rejected: ${evaluation.reason}`);
+      return null;
+    }
+
+    if (evaluation.action === 'auto-approve') {
+      // Auto-approve trusted user
+      await snapshot.ref.update({
+        status: 'approved',
+        approvedAt: admin.firestore.FieldValue.serverTimestamp(),
+        autoApproveReason: evaluation.reason,
+      });
+      console.log(`✅ Comment auto-approved: ${evaluation.reason}`);
+      // Still send email notification (but not flagged)
+    }
+
+    if (evaluation.action === 'flag') {
+      // Flag for review
+      await snapshot.ref.update({
+        status: 'flagged',
+        flagReason: evaluation.reason,
+      });
+      console.log(`⚠️ Comment flagged: ${evaluation.reason}`);
+    }
+
+    // 'pending' action = no status update needed (already 'pending' from client)
+
+    // ── Check auto-trust promotion (runs in background for all non-rejected) ──
+    checkAutoTrustPromotion(comment.userId, comment.displayName);
+
+    // ── Send email notification ──
     const gmailUser = process.env.GMAIL_USER;
     const gmailPass = process.env.GMAIL_APP_PASSWORD;
 
@@ -1944,7 +2102,6 @@ exports.onCommentCreated = functions.firestore
       return null;
     }
 
-    // Create transporter
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -1953,7 +2110,6 @@ exports.onCommentCreated = functions.firestore
       },
     });
 
-    // Format timestamp
     let timeStr = 'just now';
     if (comment.timestamp && comment.timestamp.toDate) {
       timeStr = comment.timestamp.toDate().toLocaleString('en-US', {
@@ -1962,17 +2118,27 @@ exports.onCommentCreated = functions.firestore
       });
     }
 
-    // Build email
+    // Flag indicator in subject and body
+    const isFlagged = evaluation.action === 'flag';
+    const isAutoApproved = evaluation.action === 'auto-approve';
+    const subjectPrefix = isFlagged ? '⚠️ [FLAGGED] ' : isAutoApproved ? '✅ [AUTO-APPROVED] ' : '💬 ';
+    const statusNote = isFlagged
+      ? `<div style="background: #fff3cd; border: 1px solid #ffc107; padding: 10px; border-radius: 6px; margin-bottom: 16px; font-size: 13px;">⚠️ <strong>Flagged:</strong> ${evaluation.reason}</div>`
+      : isAutoApproved
+        ? `<div style="background: #d1e7dd; border: 1px solid #198754; padding: 10px; border-radius: 6px; margin-bottom: 16px; font-size: 13px;">✅ <strong>Auto-approved:</strong> ${evaluation.reason}</div>`
+        : '';
+
     const mailOptions = {
       from: `"SIAS Comments" <${gmailUser}>`,
       to: 'mr.alexdjones@gmail.com',
-      subject: `💬 New Comment on SIAS Photo #${comment.imageId}`,
+      subject: `${subjectPrefix}New Comment on SIAS Photo #${comment.imageId}`,
       html: `
         <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 12px 12px 0 0;">
-            <h2 style="color: white; margin: 0; font-size: 20px;">💬 New Comment on SIAS</h2>
+            <h2 style="color: white; margin: 0; font-size: 20px;">${subjectPrefix}New Comment on SIAS</h2>
           </div>
           <div style="background: #f8f9fa; padding: 24px; border: 1px solid #e9ecef; border-top: none; border-radius: 0 0 12px 12px;">
+            ${statusNote}
             <div style="background: white; padding: 16px; border-radius: 8px; border: 1px solid #e9ecef; margin-bottom: 16px;">
               <div style="display: flex; align-items: center; margin-bottom: 12px;">
                 ${comment.photoURL
@@ -2950,6 +3116,371 @@ exports.adminGetDeployStatus = functions
  * Admin: Update hotspot positions for a specific image.
  * Saves updated hotspot JSON and commits to GitHub.
  */
+// ========== TIME-SERIES ANALYTICS ==========
+
+/**
+ * Scheduled function: aggregate yesterday's viewEvents, ratings, and comments
+ * into a single dailyStats document. Runs every 24 hours.
+ */
+exports.aggregateTimeSeries = functions
+  .runWith({ memory: '512MB', timeoutSeconds: 120 })
+  .pubsub.schedule('every 24 hours')
+  .timeZone('America/New_York')
+  .onRun(async (context) => {
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+    yesterday.setHours(0, 0, 0, 0);
+
+    const endOfYesterday = new Date(yesterday);
+    endOfYesterday.setHours(23, 59, 59, 999);
+
+    const dateStr = yesterday.toISOString().slice(0, 10); // YYYY-MM-DD
+
+    console.log(`📊 Aggregating time-series data for ${dateStr}`);
+
+    try {
+      // Query viewEvents for yesterday
+      const viewEventsSnap = await admin.firestore()
+        .collection('viewEvents')
+        .where('timestamp', '>=', yesterday)
+        .where('timestamp', '<=', endOfYesterday)
+        .get();
+
+      let totalViews = 0;
+      const uniqueUsers = new Set();
+      const uniqueSessions = new Set();
+      const perImage = {};
+
+      viewEventsSnap.forEach(doc => {
+        const d = doc.data();
+        totalViews++;
+        if (d.userId) uniqueUsers.add(d.userId);
+        if (d.sessionId) uniqueSessions.add(d.sessionId);
+        const pid = d.photoId || 'unknown';
+        perImage[pid] = (perImage[pid] || 0) + 1;
+      });
+
+      // Count new ratings for yesterday
+      const ratingsSnap = await admin.firestore()
+        .collection('userRatings')
+        .where('timestamp', '>=', yesterday)
+        .where('timestamp', '<=', endOfYesterday)
+        .get();
+
+      // Count new comments for yesterday
+      const commentsSnap = await admin.firestore()
+        .collection('comments')
+        .where('timestamp', '>=', yesterday)
+        .where('timestamp', '<=', endOfYesterday)
+        .get();
+
+      // Write daily stats document
+      await admin.firestore().collection('dailyStats').doc(dateStr).set({
+        date: dateStr,
+        totalViews,
+        uniqueUsers: uniqueUsers.size,
+        uniqueSessions: uniqueSessions.size,
+        perImage,
+        newRatings: ratingsSnap.size,
+        newComments: commentsSnap.size,
+        aggregatedAt: admin.firestore.FieldValue.serverTimestamp()
+      });
+
+      console.log(`✅ dailyStats/${dateStr}: ${totalViews} views, ${uniqueUsers.size} users, ${ratingsSnap.size} ratings, ${commentsSnap.size} comments`);
+
+      // Cleanup: delete viewEvents older than 90 days
+      const cutoff = new Date();
+      cutoff.setDate(cutoff.getDate() - 90);
+      const oldEvents = await admin.firestore()
+        .collection('viewEvents')
+        .where('timestamp', '<', cutoff)
+        .limit(500)
+        .get();
+
+      if (!oldEvents.empty) {
+        const batch = admin.firestore().batch();
+        oldEvents.forEach(doc => batch.delete(doc.ref));
+        await batch.commit();
+        console.log(`🗑️ Cleaned up ${oldEvents.size} old viewEvents (>90 days)`);
+      }
+
+      return null;
+    } catch (error) {
+      console.error('aggregateTimeSeries error:', error);
+      return null;
+    }
+  });
+
+/**
+ * Callable function: return dailyStats for a requested period.
+ * Input: { period: 'week' | 'month' | '3months' }
+ */
+exports.adminGetTimeSeries = functions
+  .runWith({ memory: '256MB', timeoutSeconds: 30 })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const period = data.period || 'week';
+    const daysMap = { week: 7, month: 30, '3months': 90 };
+    const days = daysMap[period] || 7;
+
+    const start = new Date();
+    start.setDate(start.getDate() - days);
+    const startStr = start.toISOString().slice(0, 10);
+
+    const snap = await admin.firestore()
+      .collection('dailyStats')
+      .where('date', '>=', startStr)
+      .orderBy('date', 'asc')
+      .get();
+
+    const results = [];
+    snap.forEach(doc => results.push(doc.data()));
+
+    return { period, days, data: results };
+  });
+
+// ========== CONTENT VERSION HISTORY ==========
+
+/**
+ * Get git history for a specific content file.
+ * Returns up to 20 recent versions with commit hash, date, message, author.
+ */
+exports.adminGetContentHistory = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 120, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { imageId, gradeLevel } = data;
+    if (!imageId && imageId !== 0) {
+      throw new functions.https.HttpsError('invalid-argument', 'imageId is required');
+    }
+    if (!gradeLevel) {
+      throw new functions.https.HttpsError('invalid-argument', 'gradeLevel is required');
+    }
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-version-history');
+
+    try {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+      const git = simpleGit();
+      await git.clone(repoUrl, repoDir, ['--depth', '50']);
+      const repoGit = simpleGit(repoDir);
+
+      // Find image in metadata
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+      const image = metadata.images.find(img => img.id === imageId);
+      if (!image) {
+        throw new functions.https.HttpsError('not-found', `Image ${imageId} not found`);
+      }
+
+      const nameNoExt = image.filename.replace(/\.[^/.]+$/, '');
+      const suffix = gradeLevel === 'edp' ? 'edp' : gradeLevel;
+      const contentRelPath = `content/${image.category}/${nameNoExt}-${suffix}.json`;
+
+      // Get git log for this specific file
+      const logResult = await repoGit.log({ file: contentRelPath, maxCount: 20 });
+
+      const versions = (logResult.all || []).map(entry => ({
+        hash: entry.hash,
+        date: entry.date,
+        message: entry.message,
+        author: entry.author_name
+      }));
+
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      return { versions, filename: contentRelPath };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('getContentHistory error:', error);
+      if (error instanceof functions.https.HttpsError) throw error;
+      throw new functions.https.HttpsError('internal', 'Failed to get history: ' + error.message);
+    }
+  });
+
+/**
+ * Get the content of a specific version (commit) of a content file.
+ */
+exports.adminGetContentVersion = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 120, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { imageId, gradeLevel, commitHash } = data;
+    if (!imageId && imageId !== 0) {
+      throw new functions.https.HttpsError('invalid-argument', 'imageId is required');
+    }
+    if (!gradeLevel || !commitHash) {
+      throw new functions.https.HttpsError('invalid-argument', 'gradeLevel and commitHash are required');
+    }
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-version-read');
+
+    try {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+      const git = simpleGit();
+      await git.clone(repoUrl, repoDir, ['--depth', '50']);
+      const repoGit = simpleGit(repoDir);
+
+      // Find image in metadata
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+      const image = metadata.images.find(img => img.id === imageId);
+      if (!image) {
+        throw new functions.https.HttpsError('not-found', `Image ${imageId} not found`);
+      }
+
+      const nameNoExt = image.filename.replace(/\.[^/.]+$/, '');
+      const suffix = gradeLevel === 'edp' ? 'edp' : gradeLevel;
+      const contentRelPath = `content/${image.category}/${nameNoExt}-${suffix}.json`;
+
+      // Use git show to get file at specific commit
+      const fileContent = await repoGit.show([`${commitHash}:${contentRelPath}`]);
+      const parsed = JSON.parse(fileContent);
+
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      return { content: parsed.content || '', metadata: { editedAt: parsed.editedAt, gradeLevel: parsed.gradeLevel } };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('getContentVersion error:', error);
+      if (error instanceof functions.https.HttpsError) throw error;
+      throw new functions.https.HttpsError('internal', 'Failed to get version: ' + error.message);
+    }
+  });
+
+/**
+ * Restore a previous version of a content file. Writes the old content,
+ * regenerates the PDF, commits and pushes.
+ */
+exports.adminRestoreContentVersion = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 540, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { imageId, gradeLevel, commitHash } = data;
+    if (!imageId && imageId !== 0) {
+      throw new functions.https.HttpsError('invalid-argument', 'imageId is required');
+    }
+    if (!gradeLevel || !commitHash) {
+      throw new functions.https.HttpsError('invalid-argument', 'gradeLevel and commitHash are required');
+    }
+
+    const isEDP = gradeLevel === 'edp';
+    const gradeLabel = isEDP ? 'EDP' : (GRADE_LEVELS.find(g => g.key === gradeLevel)?.name || gradeLevel);
+    console.log(`🔄 Restoring ${gradeLabel} content from commit ${commitHash.slice(0, 7)} for image ${imageId}`);
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-version-restore');
+
+    try {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+      const git = simpleGit();
+      await git.clone(repoUrl, repoDir, ['--depth', '50']);
+      const repoGit = simpleGit(repoDir);
+      await repoGit.addConfig('user.name', 'SIAS Admin');
+      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      // Find image in metadata
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+      const image = metadata.images.find(img => img.id === imageId);
+      if (!image) {
+        throw new functions.https.HttpsError('not-found', `Image ${imageId} not found`);
+      }
+
+      const nameNoExt = image.filename.replace(/\.[^/.]+$/, '');
+      const category = image.category;
+      const suffix = isEDP ? 'edp' : gradeLevel;
+      const contentRelPath = `content/${category}/${nameNoExt}-${suffix}.json`;
+      const contentJsonPath = path.join(repoDir, contentRelPath);
+
+      // Read old version via git show
+      const oldFileContent = await repoGit.show([`${commitHash}:${contentRelPath}`]);
+      const oldParsed = JSON.parse(oldFileContent);
+      const restoredContent = oldParsed.content || '';
+
+      if (!restoredContent || restoredContent.trim().length < 50) {
+        throw new functions.https.HttpsError('invalid-argument', 'Restored version has insufficient content');
+      }
+
+      // Read current JSON and update content
+      const currentJson = JSON.parse(await fs.readFile(contentJsonPath, 'utf8'));
+      currentJson.content = restoredContent;
+      currentJson.editedAt = new Date().toISOString();
+      currentJson.restoredFrom = commitHash;
+      await fs.writeFile(contentJsonPath, JSON.stringify(currentJson, null, 2));
+
+      // Regenerate PDF
+      let pdfWarning = false;
+      try {
+        const galleryBucket = admin.storage().bucket(GALLERY_BUCKET);
+        const tempImagePath = path.join(tempDir, `restore-${image.filename}`);
+        await galleryBucket.file(`images/${category}/${image.filename}`).download({ destination: tempImagePath });
+
+        const logoPath = path.join(repoDir, 'sias_logo.png');
+        const storagePdfPath = `pdfs/${category}/${nameNoExt}-${suffix}.pdf`;
+
+        let pdfBuffer;
+        if (isEDP) {
+          const { generateEDPpdf } = require('./edp-pdf-generator');
+          pdfBuffer = await generateEDPpdf({
+            title: image.title, category,
+            markdownContent: restoredContent,
+            imagePath: tempImagePath, logoPath
+          });
+        } else {
+          const { generatePDF } = require('./pdf-generator');
+          pdfBuffer = await generatePDF({
+            title: image.title, category, gradeLevel,
+            markdownContent: restoredContent,
+            imagePath: tempImagePath, logoPath
+          });
+        }
+
+        await uploadBufferToGalleryStorage(pdfBuffer, storagePdfPath, 'application/pdf');
+        console.log(`   ✅ PDF regenerated for restored content`);
+        await fs.rm(tempImagePath, { force: true });
+      } catch (pdfErr) {
+        console.warn(`   ⚠️ PDF regeneration failed: ${pdfErr.message}`);
+        pdfWarning = true;
+      }
+
+      // Commit and push
+      await repoGit.add('.');
+      await repoGit.commit(
+        `Restore ${gradeLabel} content for "${image.title}" (ID ${imageId})\n\n` +
+        `Restored from commit ${commitHash.slice(0, 7)}\n` +
+        `Restored via SIAS Admin Dashboard`
+      );
+      await repoGit.push('origin', 'main');
+
+      console.log(`✅ Content restored from ${commitHash.slice(0, 7)} for image ${imageId}`);
+
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      return { success: true, restoredFrom: commitHash, pdfWarning };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('restoreContentVersion error:', error);
+      if (error instanceof functions.https.HttpsError) throw error;
+      throw new functions.https.HttpsError('internal', 'Restore failed: ' + error.message);
+    }
+  });
+
 exports.adminUpdateHotspots = functions
   .runWith({ memory: '1GB', timeoutSeconds: 300, secrets: ['GITHUB_TOKEN'] })
   .https.onCall(async (data, context) => {
@@ -3037,5 +3568,628 @@ exports.adminUpdateHotspots = functions
       console.error('Update hotspots error:', error);
       if (error instanceof functions.https.HttpsError) throw error;
       throw new functions.https.HttpsError('internal', 'Update failed: ' + error.message);
+    }
+  });
+
+// ========== HEALTH CHECKS ==========
+
+/**
+ * Core health check logic shared by scheduled and callable functions.
+ * Returns { checks, overallStatus, duration }.
+ */
+async function performHealthChecks() {
+  const startTime = Date.now();
+  const checks = [];
+  const bucket = admin.storage().bucket(GALLERY_BUCKET);
+  const grades = ['kindergarten', 'first-grade', 'second-grade', 'third-grade', 'fourth-grade', 'fifth-grade'];
+
+  // --- Check 1: Metadata Integrity ---
+  let metadata = null;
+  try {
+    const https = require('https');
+    const metadataJson = await new Promise((resolve, reject) => {
+      https.get('https://sias-8178a.web.app/gallery-metadata.json', (res) => {
+        let data = '';
+        res.on('data', chunk => data += chunk);
+        res.on('end', () => resolve(data));
+        res.on('error', reject);
+      }).on('error', reject);
+    });
+
+    metadata = JSON.parse(metadataJson);
+    const images = metadata.images || [];
+    const issues = [];
+
+    // Check required fields
+    const requiredFields = ['id', 'filename', 'category', 'title'];
+    for (const img of images) {
+      for (const field of requiredFields) {
+        if (!img[field] && img[field] !== 0) {
+          issues.push(`Image ID ${img.id || '?'}: missing "${field}"`);
+        }
+      }
+    }
+
+    // Check duplicate IDs
+    const idCounts = {};
+    for (const img of images) {
+      const id = String(img.id);
+      idCounts[id] = (idCounts[id] || 0) + 1;
+    }
+    for (const [id, count] of Object.entries(idCounts)) {
+      if (count > 1) issues.push(`Duplicate image ID: ${id} (appears ${count} times)`);
+    }
+
+    // Check valid categories
+    const validCats = ['life-science', 'earth-space-science', 'physical-science'];
+    for (const img of images) {
+      if (img.category && !validCats.includes(img.category)) {
+        issues.push(`Image ID ${img.id}: invalid category "${img.category}"`);
+      }
+    }
+
+    checks.push({
+      name: 'Metadata Integrity',
+      status: issues.length === 0 ? 'pass' : 'fail',
+      message: issues.length === 0
+        ? `All ${images.length} images have valid metadata`
+        : `${issues.length} issue(s) found`,
+      details: issues.slice(0, 20)
+    });
+  } catch (err) {
+    checks.push({
+      name: 'Metadata Integrity',
+      status: 'fail',
+      message: 'Failed to fetch or parse gallery-metadata.json: ' + err.message,
+      details: []
+    });
+  }
+
+  const images = metadata ? (metadata.images || []) : [];
+
+  // --- Check 2: Storage Spot-Check (10 random images) ---
+  try {
+    const sample = images.length <= 10
+      ? images
+      : images.sort(() => Math.random() - 0.5).slice(0, 10);
+
+    const missing = [];
+    for (const img of sample) {
+      const filePath = `images/${img.category}/${img.filename}`;
+      try {
+        const [exists] = await bucket.file(filePath).exists();
+        if (!exists) missing.push(filePath);
+      } catch (e) {
+        missing.push(filePath + ' (error: ' + e.message + ')');
+      }
+    }
+
+    checks.push({
+      name: 'Storage Spot-Check',
+      status: missing.length === 0 ? 'pass' : 'warn',
+      message: missing.length === 0
+        ? `All ${sample.length} sampled images found in Storage`
+        : `${missing.length}/${sample.length} sampled images missing from Storage`,
+      details: missing
+    });
+  } catch (err) {
+    checks.push({
+      name: 'Storage Spot-Check',
+      status: 'fail',
+      message: 'Storage check failed: ' + err.message,
+      details: []
+    });
+  }
+
+  // --- Check 3: Queue Health ---
+  try {
+    const queueSnap = await admin.firestore().collection('imageQueue').get();
+    const stuck = [];
+    const failed = [];
+    const now = Date.now();
+
+    queueSnap.forEach(doc => {
+      const d = doc.data();
+      if (d.status === 'processing') {
+        const startedAt = d.startedAt?.toDate ? d.startedAt.toDate().getTime() : 0;
+        const elapsed = startedAt ? Math.round((now - startedAt) / 60000) : 0;
+        if (elapsed > 15) {
+          stuck.push(`${d.filename || doc.id}: processing for ${elapsed}min`);
+        }
+      }
+      if (d.status === 'failed') {
+        failed.push(`${d.filename || doc.id}: ${(d.error || 'unknown error').substring(0, 80)}`);
+      }
+    });
+
+    const status = stuck.length > 0 ? 'fail' : failed.length > 0 ? 'warn' : 'pass';
+    const parts = [];
+    if (stuck.length > 0) parts.push(`${stuck.length} stuck`);
+    if (failed.length > 0) parts.push(`${failed.length} failed`);
+
+    checks.push({
+      name: 'Queue Health',
+      status,
+      message: parts.length === 0 ? 'No issues in processing queue' : parts.join(', '),
+      details: [...stuck, ...failed].slice(0, 20)
+    });
+  } catch (err) {
+    checks.push({
+      name: 'Queue Health',
+      status: 'fail',
+      message: 'Queue check failed: ' + err.message,
+      details: []
+    });
+  }
+
+  // --- Check 4: Firestore Consistency ---
+  try {
+    const [viewsSnap, ratingsSnap] = await Promise.all([
+      admin.firestore().collection('views').get(),
+      admin.firestore().collection('ratings').get()
+    ]);
+
+    const viewIds = new Set();
+    viewsSnap.forEach(doc => viewIds.add(doc.id));
+
+    const ratingIds = new Set();
+    ratingsSnap.forEach(doc => ratingIds.add(doc.id));
+
+    const missingViews = [];
+    const missingRatings = [];
+    for (const img of images) {
+      const id = String(img.id);
+      if (!viewIds.has(id)) missingViews.push(id);
+      if (!ratingIds.has(id)) missingRatings.push(id);
+    }
+
+    const total = missingViews.length + missingRatings.length;
+    checks.push({
+      name: 'Firestore Consistency',
+      status: total === 0 ? 'pass' : 'warn',
+      message: total === 0
+        ? `All ${images.length} images have views and ratings docs`
+        : `${missingViews.length} missing views, ${missingRatings.length} missing ratings docs`,
+      details: [
+        ...missingViews.slice(0, 10).map(id => `Missing views doc: ${id}`),
+        ...missingRatings.slice(0, 10).map(id => `Missing ratings doc: ${id}`)
+      ]
+    });
+  } catch (err) {
+    checks.push({
+      name: 'Firestore Consistency',
+      status: 'fail',
+      message: 'Firestore check failed: ' + err.message,
+      details: []
+    });
+  }
+
+  // --- Check 5: Content Completeness (spot-check 10 random base content JSONs on Hosting) ---
+  try {
+    const https = require('https');
+    const sample = images.length <= 10
+      ? images
+      : [...images].sort(() => Math.random() - 0.5).slice(0, 10);
+
+    const missing = [];
+    for (const img of sample) {
+      const nameNoExt = img.filename.replace(/\.[^.]+$/, '');
+      const url = `https://sias-8178a.web.app/content/${img.category}/${nameNoExt}.json`;
+      const status = await new Promise((resolve) => {
+        https.get(url, (res) => {
+          res.resume();
+          resolve(res.statusCode);
+        }).on('error', () => resolve(0));
+      });
+      if (status !== 200) {
+        missing.push(`content/${img.category}/${nameNoExt}.json (HTTP ${status})`);
+      }
+    }
+
+    checks.push({
+      name: 'Content Completeness',
+      status: missing.length === 0 ? 'pass' : 'warn',
+      message: missing.length === 0
+        ? `All ${sample.length} sampled content files accessible`
+        : `${missing.length}/${sample.length} sampled content files missing or inaccessible`,
+      details: missing
+    });
+  } catch (err) {
+    checks.push({
+      name: 'Content Completeness',
+      status: 'fail',
+      message: 'Content check failed: ' + err.message,
+      details: []
+    });
+  }
+
+  const duration = Date.now() - startTime;
+  const overallStatus = checks.some(c => c.status === 'fail') ? 'fail'
+    : checks.some(c => c.status === 'warn') ? 'warn' : 'pass';
+
+  return { checks, overallStatus, duration };
+}
+
+/**
+ * Scheduled health check: runs every 6 hours, writes results to Firestore.
+ */
+exports.runHealthChecks = functions
+  .runWith({ memory: '512MB', timeoutSeconds: 300 })
+  .pubsub.schedule('every 6 hours')
+  .timeZone('America/New_York')
+  .onRun(async () => {
+    console.log('🩺 Running scheduled health checks...');
+
+    const result = await performHealthChecks();
+
+    await admin.firestore().collection('healthChecks').add({
+      ...result,
+      timestamp: admin.firestore.FieldValue.serverTimestamp()
+    });
+
+    console.log(`✅ Health check complete: ${result.overallStatus} (${result.duration}ms)`);
+
+    // Cleanup: delete health checks older than 30 days
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 30);
+    const oldChecks = await admin.firestore()
+      .collection('healthChecks')
+      .where('timestamp', '<', cutoff)
+      .limit(100)
+      .get();
+
+    if (!oldChecks.empty) {
+      const batch = admin.firestore().batch();
+      oldChecks.forEach(doc => batch.delete(doc.ref));
+      await batch.commit();
+      console.log(`🗑️ Cleaned up ${oldChecks.size} old health check results`);
+    }
+
+    return null;
+  });
+
+/**
+ * Callable health check: admin can trigger on-demand from dashboard.
+ * Returns results directly AND writes to Firestore.
+ */
+exports.adminRunHealthCheck = functions
+  .runWith({ memory: '512MB', timeoutSeconds: 300 })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    console.log('🩺 Running on-demand health check...');
+
+    const result = await performHealthChecks();
+
+    await admin.firestore().collection('healthChecks').add({
+      ...result,
+      timestamp: admin.firestore.FieldValue.serverTimestamp()
+    });
+
+    return result;
+  });
+
+// ========== IMAGE REORDERING & FEATURED COLLECTIONS ==========
+
+/**
+ * Save a new display order for all gallery images.
+ * Input: { imageOrder: number[] } — array of all image IDs in desired order.
+ */
+exports.adminSaveImageOrder = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 120, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { imageOrder } = data;
+    if (!Array.isArray(imageOrder) || imageOrder.length === 0) {
+      throw new functions.https.HttpsError('invalid-argument', 'imageOrder array is required');
+    }
+
+    console.log(`🔀 Saving image order (${imageOrder.length} images)...`);
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-reorder');
+
+    try {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+      const git = simpleGit();
+      await git.clone(repoUrl, repoDir, ['--depth', '1']);
+      const repoGit = simpleGit(repoDir);
+      await repoGit.addConfig('user.name', 'SIAS Admin');
+      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+
+      // Validate: all IDs exist, no duplicates, correct count
+      const existingIds = new Set(metadata.images.map(img => img.id));
+      const orderIds = new Set(imageOrder);
+
+      if (orderIds.size !== imageOrder.length) {
+        throw new functions.https.HttpsError('invalid-argument', 'Duplicate IDs in imageOrder');
+      }
+      if (orderIds.size !== existingIds.size) {
+        throw new functions.https.HttpsError('invalid-argument',
+          `imageOrder has ${orderIds.size} IDs but metadata has ${existingIds.size} images`);
+      }
+      for (const id of imageOrder) {
+        if (!existingIds.has(id)) {
+          throw new functions.https.HttpsError('invalid-argument', `Image ID ${id} not found in metadata`);
+        }
+      }
+
+      metadata.imageOrder = imageOrder;
+      await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
+
+      await repoGit.add('gallery-metadata.json');
+      await repoGit.commit('Update image display order\n\nUpdated via SIAS Admin Dashboard');
+      await repoGit.push('origin', 'main');
+
+      console.log(`✅ Image order saved (${imageOrder.length} images)`);
+
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      return { success: true };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('Save image order error:', error);
+      if (error instanceof functions.https.HttpsError) throw error;
+      throw new functions.https.HttpsError('internal', 'Failed to save order: ' + error.message);
+    }
+  });
+
+/**
+ * Save featured collections configuration.
+ * Input: { collections: [{ id, name, emoji, imageIds, active }] }
+ */
+exports.adminSaveFeaturedCollections = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 120, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { collections } = data;
+    if (!Array.isArray(collections)) {
+      throw new functions.https.HttpsError('invalid-argument', 'collections array is required');
+    }
+
+    // Validate: at most one active, all imageIds exist
+    const activeCount = collections.filter(c => c.active).length;
+    if (activeCount > 1) {
+      throw new functions.https.HttpsError('invalid-argument', 'At most one collection can be active');
+    }
+
+    for (const c of collections) {
+      if (!c.id || !c.name || !c.emoji) {
+        throw new functions.https.HttpsError('invalid-argument', 'Each collection needs id, name, emoji');
+      }
+      if (!Array.isArray(c.imageIds)) {
+        throw new functions.https.HttpsError('invalid-argument', `Collection "${c.name}" needs imageIds array`);
+      }
+    }
+
+    console.log(`📚 Saving ${collections.length} featured collection(s)...`);
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-collections');
+
+    try {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+      const git = simpleGit();
+      await git.clone(repoUrl, repoDir, ['--depth', '1']);
+      const repoGit = simpleGit(repoDir);
+      await repoGit.addConfig('user.name', 'SIAS Admin');
+      await repoGit.addConfig('user.email', ADMIN_EMAIL);
+
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+
+      // Validate all imageIds exist
+      const existingIds = new Set(metadata.images.map(img => img.id));
+      for (const c of collections) {
+        for (const id of c.imageIds) {
+          if (!existingIds.has(id)) {
+            throw new functions.https.HttpsError('invalid-argument',
+              `Collection "${c.name}" references non-existent image ID ${id}`);
+          }
+        }
+      }
+
+      metadata.featuredCollections = collections;
+      await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
+
+      await repoGit.add('gallery-metadata.json');
+      await repoGit.commit('Update featured collections\n\nUpdated via SIAS Admin Dashboard');
+      await repoGit.push('origin', 'main');
+
+      console.log(`✅ Featured collections saved (${collections.length} collections)`);
+
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+
+      return { success: true };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('Save collections error:', error);
+      if (error instanceof functions.https.HttpsError) throw error;
+      throw new functions.https.HttpsError('internal', 'Failed to save collections: ' + error.message);
+    }
+  });
+
+// ============================================================
+// GA4 Analytics Data API — Report Helpers
+// ============================================================
+
+async function getGA4RealtimeReport(client, propertyId) {
+  const [response] = await client.runRealtimeReport({
+    property: `properties/${propertyId}`,
+    metrics: [{ name: 'activeUsers' }],
+  });
+  return { activeUsers: parseInt(response.rows?.[0]?.metricValues?.[0]?.value || '0') };
+}
+
+async function getGA4OverviewReport(client, propertyId, dateRange) {
+  const [response] = await client.runReport({
+    property: `properties/${propertyId}`,
+    dateRanges: [{ startDate: `${dateRange}daysAgo`, endDate: 'today' }],
+    metrics: [
+      { name: 'totalUsers' },
+      { name: 'newUsers' },
+      { name: 'sessions' },
+      { name: 'bounceRate' },
+      { name: 'averageSessionDuration' },
+      { name: 'screenPageViews' },
+    ],
+  });
+  const row = response.rows?.[0];
+  if (!row) return { totalUsers: 0, newUsers: 0, sessions: 0, bounceRate: 0, avgDuration: 0, pageViews: 0 };
+  const vals = row.metricValues.map(v => parseFloat(v.value) || 0);
+  return {
+    totalUsers: Math.round(vals[0]),
+    newUsers: Math.round(vals[1]),
+    sessions: Math.round(vals[2]),
+    bounceRate: Math.round(vals[3] * 100),
+    avgDuration: Math.round(vals[4]),
+    pageViews: Math.round(vals[5]),
+  };
+}
+
+async function getGA4SessionsReport(client, propertyId, dateRange) {
+  const [response] = await client.runReport({
+    property: `properties/${propertyId}`,
+    dateRanges: [{ startDate: `${dateRange}daysAgo`, endDate: 'today' }],
+    dimensions: [{ name: 'date' }],
+    metrics: [{ name: 'sessions' }, { name: 'totalUsers' }],
+    orderBys: [{ dimension: { dimensionName: 'date' } }],
+  });
+  return (response.rows || []).map(row => ({
+    date: row.dimensionValues[0].value,
+    sessions: parseInt(row.metricValues[0].value) || 0,
+    users: parseInt(row.metricValues[1].value) || 0,
+  }));
+}
+
+async function getGA4TopPagesReport(client, propertyId, dateRange) {
+  const [response] = await client.runReport({
+    property: `properties/${propertyId}`,
+    dateRanges: [{ startDate: `${dateRange}daysAgo`, endDate: 'today' }],
+    dimensions: [{ name: 'pagePath' }],
+    metrics: [{ name: 'screenPageViews' }, { name: 'averageSessionDuration' }],
+    orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }],
+    limit: 20,
+  });
+  return (response.rows || []).map(row => ({
+    page: row.dimensionValues[0].value,
+    views: parseInt(row.metricValues[0].value) || 0,
+    avgDuration: Math.round(parseFloat(row.metricValues[1].value) || 0),
+  }));
+}
+
+async function getGA4SourcesReport(client, propertyId, dateRange) {
+  const [response] = await client.runReport({
+    property: `properties/${propertyId}`,
+    dateRanges: [{ startDate: `${dateRange}daysAgo`, endDate: 'today' }],
+    dimensions: [{ name: 'sessionDefaultChannelGroup' }],
+    metrics: [{ name: 'sessions' }],
+    orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+    limit: 10,
+  });
+  return (response.rows || []).map(row => ({
+    source: row.dimensionValues[0].value,
+    sessions: parseInt(row.metricValues[0].value) || 0,
+  }));
+}
+
+async function getGA4DevicesReport(client, propertyId, dateRange) {
+  const [response] = await client.runReport({
+    property: `properties/${propertyId}`,
+    dateRanges: [{ startDate: `${dateRange}daysAgo`, endDate: 'today' }],
+    dimensions: [{ name: 'deviceCategory' }],
+    metrics: [{ name: 'sessions' }],
+  });
+  return (response.rows || []).map(row => ({
+    device: row.dimensionValues[0].value,
+    sessions: parseInt(row.metricValues[0].value) || 0,
+  }));
+}
+
+async function getGA4GeographyReport(client, propertyId, dateRange) {
+  const [response] = await client.runReport({
+    property: `properties/${propertyId}`,
+    dateRanges: [{ startDate: `${dateRange}daysAgo`, endDate: 'today' }],
+    dimensions: [{ name: 'country' }],
+    metrics: [{ name: 'sessions' }, { name: 'totalUsers' }],
+    orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+    limit: 10,
+  });
+  return (response.rows || []).map(row => ({
+    country: row.dimensionValues[0].value,
+    sessions: parseInt(row.metricValues[0].value) || 0,
+    users: parseInt(row.metricValues[1].value) || 0,
+  }));
+}
+
+// ============================================================
+// GA4 Analytics — Callable Cloud Function
+// ============================================================
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function ga4WithRetry(fn, maxRetries = 3) {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      const is429 = err.code === 14 || (err.message && err.message.includes('429'));
+      if (is429 && attempt < maxRetries) {
+        const delay = Math.pow(2, attempt) * 1000; // 1s, 2s, 4s
+        console.log(`GA4 429 — retrying in ${delay}ms (attempt ${attempt + 1}/${maxRetries})`);
+        await sleep(delay);
+        continue;
+      }
+      throw err;
+    }
+  }
+}
+
+/**
+ * Proxy GA4 Data API reports for the admin dashboard.
+ * Fetches all reports in a single call with retry + spacing to avoid rate limiting.
+ * Input: { dateRange: '7'|'30'|'90' }
+ * Returns: { realtime, overview, sessions, topPages, sources, devices, geography }
+ */
+exports.adminGetGA4Report = functions
+  .runWith({ memory: '256MB', timeoutSeconds: 60 })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const analyticsDataClient = new BetaAnalyticsDataClient();
+    const dateRange = data.dateRange || '30';
+    const pid = GA4_PROPERTY_ID;
+
+    try {
+      const realtime = await ga4WithRetry(() => getGA4RealtimeReport(analyticsDataClient, pid));
+      await sleep(200);
+      const overview = await ga4WithRetry(() => getGA4OverviewReport(analyticsDataClient, pid, dateRange));
+      await sleep(200);
+      const sessions = await ga4WithRetry(() => getGA4SessionsReport(analyticsDataClient, pid, dateRange));
+      await sleep(200);
+      const topPages = await ga4WithRetry(() => getGA4TopPagesReport(analyticsDataClient, pid, dateRange));
+      await sleep(200);
+      const sources = await ga4WithRetry(() => getGA4SourcesReport(analyticsDataClient, pid, dateRange));
+      await sleep(200);
+      const devices = await ga4WithRetry(() => getGA4DevicesReport(analyticsDataClient, pid, dateRange));
+      await sleep(200);
+      const geography = await ga4WithRetry(() => getGA4GeographyReport(analyticsDataClient, pid, dateRange));
+
+      return { realtime, overview, sessions, topPages, sources, devices, geography };
+    } catch (error) {
+      console.error('GA4 API error:', error);
+      if (error instanceof functions.https.HttpsError) throw error;
+      throw new functions.https.HttpsError('internal', 'GA4 report failed: ' + error.message);
     }
   });

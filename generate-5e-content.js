@@ -148,7 +148,14 @@ function getFilteredNGSSStandards(category, ngssGrade) {
 // 5E Lesson Plan Prompts
 // ============================================================
 
-const FIVE_E_SYSTEM_PROMPT = `You are an expert K-5 Science Curriculum Developer specializing in the 5E Instructional Model (Engage, Explore, Explain, Elaborate, Evaluate). You create grade-appropriate, NGSS-aligned 5E lesson plans based on science photographs.
+// Build expanded system prompt with NGSS standards + template (must exceed 4,096 tokens for Haiku 4.5 caching)
+function buildExpandedSystemPrompt() {
+  // Format all NGSS standards into a reference table
+  const standardsText = Object.entries(NGSS_PE_STANDARDS)
+    .map(([code, statement]) => `- ${code}: ${statement}`)
+    .join('\n');
+
+  return `You are an expert K-5 Science Curriculum Developer specializing in the 5E Instructional Model (Engage, Explore, Explain, Elaborate, Evaluate). You create grade-appropriate, NGSS-aligned 5E lesson plans based on science photographs.
 
 ## Core Principles
 1. Every lesson must be directly inspired by what is visible or inferable from the photograph.
@@ -159,54 +166,39 @@ const FIVE_E_SYSTEM_PROMPT = `You are an expert K-5 Science Curriculum Developer
 6. Include concrete, actionable teacher directions — not vague suggestions.
 
 ## Tone
-Professional yet approachable. Write as if advising a colleague teacher who needs a ready-to-use lesson plan.`;
+Professional yet approachable. Write as if advising a colleague teacher who needs a ready-to-use lesson plan.
 
-function build5EUserPrompt(category, filename, grade) {
-  const domainPrefix = CATEGORY_TO_NGSS_DOMAIN[category] || '';
-  const domainName = { 'PS': 'Physical Science', 'LS': 'Life Science', 'ESS': 'Earth and Space Science' }[domainPrefix] || category;
-  const domainTopics = category === 'physical-science'
-    ? 'forces, motion, energy, matter, properties of materials, waves, light, sound, shadows, electricity, magnetism'
-    : category === 'life-science'
-      ? 'living organisms, life cycles, habitats, body structures, ecosystems, heredity, adaptation, survival'
-      : 'rocks, minerals, weather, water cycle, landforms, erosion, natural resources, space, Earth systems';
+## Science Domains and Topics
+Each photograph is categorized into one of three NGSS science domains:
+- **physical-science (PS):** forces, motion, energy, matter, properties of materials, waves, light, sound, shadows, electricity, magnetism
+- **life-science (LS):** living organisms, life cycles, habitats, body structures, ecosystems, heredity, adaptation, survival
+- **earth-space-science (ESS):** rocks, minerals, weather, water cycle, landforms, erosion, natural resources, space, Earth systems
 
-  const filteredStandards = getFilteredNGSSStandards(category, grade.ngssGrade);
-  const standardsList = Object.entries(filteredStandards)
-    .map(([code, statement]) => `- ${code}: ${statement}`)
-    .join('\n');
+You MUST create each lesson through the lens of the specified domain's concepts and ONLY use NGSS standards with the matching domain code prefix (PS, LS, or ESS) for the specified grade level.
 
-  return `Analyze this science education photograph and generate a complete 5E Lesson Plan.
+## Complete K-5 NGSS Performance Expectations Reference
+Below is the complete set of K-5 NGSS Performance Expectations organized by standard code. Each user prompt will specify which grade level and domain to use — select only the standards matching both the grade AND domain from this reference.
 
-Category: ${category}
-Photo: ${filename}
-Grade Level: ${grade.name}
-NGSS Domain: ${domainName} (${domainPrefix} codes only)
+${standardsText}
 
-### CRITICAL DOMAIN CONSTRAINT
-This image is categorized as **${category}**. You MUST create the lesson through the lens of ${domainName.toLowerCase()} concepts.
-- Focus on: ${domainTopics}
-- Only use NGSS standards with ${domainPrefix} domain codes for grade ${grade.ngssGrade}.
-
-### Available NGSS Performance Expectations for ${grade.name} (${domainPrefix} domain)
-${standardsList || 'No specific PE standards for this grade/domain combination. Use general science practices.'}
-
-Generate ALL of the following sections using ### headers. No exceptions.
+## Required Output Format
+Generate ALL of the following sections using ### headers. No exceptions. Every section must be included in full.
 
 ### Core Science Concepts from Image Analysis
-Identify 3-4 key ${domainName.toLowerCase()} concepts visible or inferable from this photograph that are appropriate for ${grade.name}. Use bullet points.
+Identify 3-4 key concepts from the specified domain that are visible or inferable from the photograph and appropriate for the specified grade level. Use bullet points.
 
 ### Lesson Title
-Create a short, engaging, creative lesson title appropriate for ${grade.name} students. Just the title — no extra text.
+Create a short, engaging, creative lesson title appropriate for the specified grade level. Just the title — no extra text.
 
 ### Lesson Overview
 Provide these details:
-- **Grade Level:** ${grade.name}
-- **Subject:** Science (${domainName})
+- **Grade Level:** [specified grade]
+- **Subject:** Science ([specified domain])
 - **Time Allotment:** Estimate total time (e.g., "Two 45-minute sessions" or "60-90 minutes")
-- **NGSS Standards:** List 1-3 relevant NGSS PE codes from the list above
+- **NGSS Standards:** List 1-3 relevant NGSS PE codes from the filtered standards provided
 
 ### Learning Objectives
-Write 3-4 measurable learning objectives using age-appropriate language for ${grade.name}. Begin each with "Students will be able to..."
+Write 3-4 measurable learning objectives using age-appropriate language for the specified grade level. Begin each with "Students will be able to..."
 
 ### 5E Lesson Sequence
 
@@ -215,7 +207,7 @@ Write 3-4 measurable learning objectives using age-appropriate language for ${gr
 - **Materials:** List specific materials needed.
 - **Activity:** Describe exactly how to use this photograph to hook students. Include:
   - How to display/introduce the photograph
-  - 3-4 specific discussion questions to spark curiosity (calibrated to ${grade.name} level)
+  - 3-4 specific discussion questions to spark curiosity (calibrated to the specified grade level)
   - A prediction or wonder prompt
 - **Transition:** One sentence bridging to the Explore phase.
 
@@ -234,7 +226,7 @@ Write 3-4 measurable learning objectives using age-appropriate language for ${gr
 - **Materials:** List materials for this phase.
 - **Activity:** Describe teacher-led instruction that includes:
   - Group share-out from Explore phase
-  - Key vocabulary with ${grade.name}-friendly definitions (3-5 terms)
+  - Key vocabulary with grade-appropriate definitions (3-5 terms)
   - Connections back to the photograph and Explore activity
   - Check for understanding strategy
 - **Vocabulary:** List each term with a student-friendly definition.
@@ -246,7 +238,7 @@ Write 3-4 measurable learning objectives using age-appropriate language for ${gr
 - **Activity:** Design an extension activity that:
   - Applies concepts to a new context or scenario
   - Connects to real-world applications
-  - Is appropriately challenging for ${grade.name}
+  - Is appropriately challenging for the specified grade level
 - **Teacher Role:** Facilitation notes.
 - **Expected Student Outcomes:** Evidence of deeper understanding.
 
@@ -264,6 +256,31 @@ Write 3-4 measurable learning objectives using age-appropriate language for ${gr
 
 ### Extension Activities
 List 2-3 additional activities teachers can use for early finishers, homework, or follow-up lessons.`;
+}
+
+// Pre-build the system prompt once (stays identical across all API calls for caching)
+const FIVE_E_SYSTEM_PROMPT = buildExpandedSystemPrompt();
+
+function build5EUserPrompt(category, filename, grade) {
+  const domainPrefix = CATEGORY_TO_NGSS_DOMAIN[category] || '';
+  const domainName = { 'PS': 'Physical Science', 'LS': 'Life Science', 'ESS': 'Earth and Space Science' }[domainPrefix] || category;
+
+  const filteredStandards = getFilteredNGSSStandards(category, grade.ngssGrade);
+  const standardsList = Object.entries(filteredStandards)
+    .map(([code, statement]) => `- ${code}: ${statement}`)
+    .join('\n');
+
+  return `Analyze this science education photograph and generate a complete 5E Lesson Plan.
+
+Category: ${category}
+Photo: ${filename}
+Grade Level: ${grade.name}
+NGSS Domain: ${domainName} (${domainPrefix} codes only)
+
+### Applicable NGSS Performance Expectations for ${grade.name} (${domainPrefix} domain)
+${standardsList || 'No specific PE standards for this grade/domain combination. Use general science practices.'}
+
+Use ONLY the standards listed above. Follow the complete output format specified in the system instructions.`;
 }
 
 // ============================================================
@@ -302,8 +319,10 @@ async function fileExists(filePath) {
 // Content Generation
 // ============================================================
 
-async function generate5EContent(anthropic, imagePath, filename, category, grade) {
-  // Read image as base64
+/**
+ * Read image as base64 once per image (shared across all 6 grade-level calls)
+ */
+async function readImageAsBase64(imagePath, filename) {
   const imageBuffer = await fs.readFile(imagePath);
   const imageBase64 = imageBuffer.toString('base64');
 
@@ -323,6 +342,10 @@ async function generate5EContent(anthropic, imagePath, filename, category, grade
     else if (ext === '.gif') mediaType = 'image/gif';
   }
 
+  return { imageBase64, mediaType };
+}
+
+async function generate5EContent(anthropic, imageBase64, mediaType, filename, category, grade) {
   const userPrompt = build5EUserPrompt(category, filename, grade);
 
   // Retry with exponential backoff (3 attempts: 5s, 15s, 45s)
@@ -335,7 +358,11 @@ async function generate5EContent(anthropic, imagePath, filename, category, grade
       const response = await anthropic.messages.create({
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 8192,
-        system: FIVE_E_SYSTEM_PROMPT,
+        system: [{
+          type: 'text',
+          text: FIVE_E_SYSTEM_PROMPT,
+          cache_control: { type: 'ephemeral' }
+        }],
         messages: [{
           role: 'user',
           content: [
@@ -345,7 +372,8 @@ async function generate5EContent(anthropic, imagePath, filename, category, grade
                 type: 'base64',
                 media_type: mediaType,
                 data: imageBase64
-              }
+              },
+              cache_control: { type: 'ephemeral' }
             },
             {
               type: 'text',
@@ -355,15 +383,24 @@ async function generate5EContent(anthropic, imagePath, filename, category, grade
         }]
       });
 
-      // Calculate cost (Haiku 4.5: $1/MTok input, $5/MTok output)
+      // Calculate cost with prompt caching support
+      // Haiku 4.5: input $1/MTok, output $5/MTok, cache write $1.25/MTok, cache read $0.10/MTok
+      // Note: input_tokens = only tokens AFTER last cache breakpoint (already excludes cached tokens)
       const inputTokens = response.usage.input_tokens;
       const outputTokens = response.usage.output_tokens;
-      const cost = (inputTokens * 0.001 / 1000) + (outputTokens * 0.005 / 1000);
+      const cacheWriteTokens = response.usage.cache_creation_input_tokens || 0;
+      const cacheReadTokens = response.usage.cache_read_input_tokens || 0;
+      const cost = (inputTokens * 0.001 / 1000)
+        + (cacheWriteTokens * 0.00125 / 1000)
+        + (cacheReadTokens * 0.0001 / 1000)
+        + (outputTokens * 0.005 / 1000);
 
       return {
         content: response.content[0].text,
         inputTokens,
         outputTokens,
+        cacheWriteTokens,
+        cacheReadTokens,
         cost
       };
     } catch (err) {
@@ -453,6 +490,10 @@ Options:
     const image = images[i];
     const baseFilename = path.parse(image.filename).name;
 
+    // Read image once per photo (shared across all 6 grade-level calls for caching)
+    let imageBase64 = null;
+    let mediaType = null;
+
     for (const grade of GRADE_LEVELS) {
       callIndex++;
       const contentPath = path.join(__dirname, 'content', image.category, `${baseFilename}-5e-${grade.key}.json`);
@@ -473,17 +514,22 @@ Options:
       const itemStart = Date.now();
 
       try {
-        // Find the image file
+        // Find the image file and read once per photo
         const imagePath = path.join(__dirname, image.imagePath);
-        if (!await fileExists(imagePath)) {
-          console.error(`  [${callIndex}/${totalCalls}] SKIP: Image not found — ${image.imagePath}`);
-          failed++;
-          continue;
+        if (!imageBase64) {
+          if (!await fileExists(imagePath)) {
+            console.error(`  [${callIndex}/${totalCalls}] SKIP: Image not found — ${image.imagePath}`);
+            failed++;
+            continue;
+          }
+          const imageData = await readImageAsBase64(imagePath, image.filename);
+          imageBase64 = imageData.imageBase64;
+          mediaType = imageData.mediaType;
         }
 
         console.log(`  [${callIndex}/${totalCalls}] ${image.title} — ${grade.name}...`);
 
-        const result = await generate5EContent(anthropic, imagePath, image.filename, image.category, grade);
+        const result = await generate5EContent(anthropic, imageBase64, mediaType, image.filename, image.category, grade);
 
         // Save as JSON
         const fiveEData = {
@@ -512,7 +558,8 @@ Options:
         generated++;
 
         const elapsed = Date.now() - itemStart;
-        console.log(`    ✅ Done (${result.inputTokens} in / ${result.outputTokens} out, $${result.cost.toFixed(4)}, ${formatTime(elapsed)})`);
+        const cacheInfo = result.cacheReadTokens > 0 ? ` 💾${result.cacheReadTokens}` : '';
+        console.log(`    ✅ Done (${result.inputTokens} in / ${result.outputTokens} out, $${result.cost.toFixed(4)}, ${formatTime(elapsed)}${cacheInfo})`);
 
         // Rate limit delay
         await new Promise(resolve => setTimeout(resolve, 500));
@@ -522,6 +569,10 @@ Options:
         console.error(`  [${callIndex}/${totalCalls}] ❌ FAILED: ${image.title} ${grade.name} — ${err.message}`);
       }
     }
+
+    // Release image memory between photos
+    imageBase64 = null;
+    mediaType = null;
   }
 
   // Summary
