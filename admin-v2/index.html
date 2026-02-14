@@ -771,14 +771,14 @@
             <div class="modal-header">
                 <h2>Reorder Images</h2>
                 <div style="display: flex; align-items: center; gap: 12px;">
-                    <div class="reorder-filter-pills">
-                        <button class="pill active" onclick="filterReorderGrid('all')">All</button>
-                        <button class="pill" onclick="filterReorderGrid('life-science')">Life Science</button>
-                        <button class="pill" onclick="filterReorderGrid('earth-space-science')">Earth & Space</button>
-                        <button class="pill" onclick="filterReorderGrid('physical-science')">Physical Science</button>
+                    <div id="reorder-filter-pills" class="reorder-filter-pills">
+                        <button class="pill active" data-category="all" onclick="filterReorderGrid('all')">All</button>
+                        <button class="pill" data-category="life-science" onclick="filterReorderGrid('life-science')">Life Science</button>
+                        <button class="pill" data-category="earth-space-science" onclick="filterReorderGrid('earth-space-science')">Earth & Space</button>
+                        <button class="pill" data-category="physical-science" onclick="filterReorderGrid('physical-science')">Physical Science</button>
                     </div>
                     <button class="btn btn-small btn-secondary" onclick="resetToOriginalOrder()">Reset Order</button>
-                    <button class="btn btn-small btn-primary" id="save-order-btn" onclick="saveImageOrder()">Save Order</button>
+                    <button class="btn btn-small btn-primary" id="reorder-save-btn" onclick="saveImageOrder()">Save Order</button>
                     <button class="btn btn-small btn-secondary" onclick="closeReorderModal()">&times; Close</button>
                 </div>
             </div>

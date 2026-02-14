@@ -9,9 +9,16 @@ let reorderDirty = false;
 /**
  * Open the reorder modal with all images in current order.
  */
-function openReorderModal() {
+async function openReorderModal() {
     const modal = document.getElementById('reorder-modal');
     if (!modal) return;
+
+    // Ensure metadata is loaded before rendering
+    const data = metadataManager.getData();
+    if (!data || !data.images || data.images.length === 0) {
+        showToast('Loading metadata...', 'info');
+        await metadataManager.load();
+    }
 
     modal.style.display = 'flex';
     reorderDirty = false;
@@ -44,10 +51,17 @@ function closeReorderModal() {
  */
 function renderReorderGrid(categoryFilter) {
     const grid = document.getElementById('reorder-grid');
-    if (!grid) return;
+    if (!grid) {
+        console.warn('Reorder grid element not found');
+        return;
+    }
 
     const data = metadataManager.getData();
-    if (!data) return;
+    if (!data || !data.images) {
+        console.warn('Metadata not loaded for reorder grid');
+        showToast('Unable to load images. Please refresh.', 'error');
+        return;
+    }
 
     let images = [...data.images];
 
@@ -63,7 +77,7 @@ function renderReorderGrid(categoryFilter) {
         images = images.filter(img => img.category === categoryFilter);
     }
 
-    grid.innerHTML = images.map(img => {
+    const html = images.map(img => {
         const thumbUrl = resolveAssetUrl(`../images/${img.category}/thumbs/${img.filename}`);
         const catBadge = getCategoryBadgeClass(img.category);
         const title = escapeHtml(img.title || img.filename);
@@ -79,6 +93,9 @@ function renderReorderGrid(categoryFilter) {
             </div>
         `;
     }).join('');
+
+    grid.innerHTML = html;
+    console.log(`Rendered ${images.length} images in reorder grid (filter: ${categoryFilter})`);
 
     // Update filter pills active state
     document.querySelectorAll('#reorder-filter-pills .pill').forEach(p => {

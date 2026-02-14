@@ -111,6 +111,43 @@ async function pushWithRetry(repoGit, maxRetries = 2) {
 }
 
 /**
+ * Trigger GitHub Actions deploy workflow via repository_dispatch event.
+ * Called after Cloud Functions push commits to trigger automatic deployment.
+ */
+async function triggerGitHubDeploy() {
+  const githubToken = process.env.GITHUB_TOKEN;
+  if (!githubToken) {
+    console.warn('⚠️  GITHUB_TOKEN not available, skipping deploy trigger');
+    return;
+  }
+
+  try {
+    const fetch = (await import('node-fetch')).default;
+    const response = await fetch('https://api.github.com/repos/Educ8r-Cre8r/sias2/dispatches', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${githubToken}`,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json',
+        'X-GitHub-Api-Version': '2022-11-28'
+      },
+      body: JSON.stringify({
+        event_type: 'cloud-function-commit'
+      })
+    });
+
+    if (response.ok) {
+      console.log('✅ Triggered GitHub Actions deploy workflow');
+    } else {
+      const text = await response.text();
+      console.warn(`⚠️  Failed to trigger deploy: ${response.status} ${text}`);
+    }
+  } catch (error) {
+    console.warn(`⚠️  Deploy trigger error: ${error.message}`);
+  }
+}
+
+/**
  * Clone a repo with sparse checkout — only materializes the files you need.
  * Dramatically faster than a full clone when the repo has thousands of files.
  *
@@ -3001,6 +3038,9 @@ exports.adminEditContent = functions
 
       console.log(`✅ Content edited and pushed for image ${imageId} (${gradeLabel})`);
 
+      // Trigger GitHub Actions to deploy the changes
+      await triggerGitHubDeploy();
+
       try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
 
       return { success: true, imageId, gradeLevel, pdfWarning };
@@ -3963,6 +4003,9 @@ exports.adminSaveImageOrder = functions
 
       console.log(`✅ Image order saved (${imageOrder.length} images)`);
 
+      // Trigger GitHub Actions to deploy the changes
+      await triggerGitHubDeploy();
+
       try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
 
       return { success: true };
@@ -4038,6 +4081,9 @@ exports.adminSaveFeaturedCollections = functions
       await pushWithRetry(repoGit);
 
       console.log(`✅ Featured collections saved (${collections.length} collections)`);
+
+      // Trigger GitHub Actions to deploy the changes
+      await triggerGitHubDeploy();
 
       try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
 

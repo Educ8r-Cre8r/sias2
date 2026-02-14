@@ -63,26 +63,49 @@ function renderQueueList(items) {
         const completedAt = item.completedAt ? formatTimestamp(item.completedAt) : '';
 
         let detail = '';
-        if (item.type === 'deletion' || status === 'deleted') {
+        let processingTypeLabel = '';
+
+        // Determine processing type
+        const isDeletion = item.type === 'deletion' || status === 'deleted';
+        const is5EGeneration = item.type === '5e-generation';
+        const isReprocess = item.reprocess === true;
+
+        if (isDeletion) {
             detail = 'Deleted ' + (createdAt || '') + ' (' + (item.filesDeleted || 0) + ' files)';
-        } else if (status === 'completed' && completedAt) {
-            detail = 'Completed ' + completedAt;
-        } else if (status === 'processing' && item.startedAt) {
-            detail = 'Started ' + formatTimestamp(item.startedAt);
-        } else if (status === 'failed') {
-            detail = item.error ? 'Error: ' + item.error : 'Failed after ' + (item.attempts || 0) + ' attempts';
-        } else if (createdAt) {
-            detail = 'Queued ' + createdAt;
+            processingTypeLabel = '<span class="badge badge-deleted" style="font-size: 0.65rem; margin-left: 6px;">deleted</span>';
+        } else if (is5EGeneration) {
+            processingTypeLabel = '<span class="badge badge-info" style="font-size: 0.65rem; margin-left: 6px;">add 5E lesson plan</span>';
+            if (status === 'completed' && completedAt) {
+                detail = 'Completed ' + completedAt + ' · Generated 6 5E lesson JSONs + 6 PDFs (K-5)';
+            } else if (status === 'processing' && item.startedAt) {
+                detail = 'Started ' + formatTimestamp(item.startedAt) + ' · Generating 5E content...';
+            } else if (status === 'failed') {
+                detail = item.error ? 'Error: ' + item.error : 'Failed after ' + (item.attempts || 0) + ' attempts';
+            } else if (createdAt) {
+                detail = 'Queued ' + createdAt + ' · Will generate 6 5E lesson plans';
+            }
+        } else {
+            // Regular image processing
+            if (isReprocess) {
+                processingTypeLabel = '<span class="badge badge-reprocess" style="font-size: 0.65rem; margin-left: 6px;">reprocess</span>';
+            }
+            if (status === 'completed' && completedAt) {
+                detail = 'Completed ' + completedAt + ' · Generated 14 content JSONs, 7 PDFs, 4 image variants, 1 hotspot';
+            } else if (status === 'processing' && item.startedAt) {
+                detail = 'Started ' + formatTimestamp(item.startedAt) + ' · Processing image...';
+            } else if (status === 'failed') {
+                detail = item.error ? 'Error: ' + item.error : 'Failed after ' + (item.attempts || 0) + ' attempts';
+            } else if (createdAt) {
+                detail = 'Queued ' + createdAt + ' · Will generate content, PDFs, thumbnails';
+            }
         }
 
-        const isDeletion = item.type === 'deletion' || status === 'deleted';
-        const isReprocess = item.reprocess === true;
         const displayName = isDeletion ? (item.title || item.filename || 'Unknown') : (item.filename || item.filePath || 'Unknown');
 
         return `
             <div class="queue-item status-${status}">
                 <div class="queue-item-info">
-                    <div class="queue-item-filename">${escapeHtml(displayName)}${isReprocess ? ' <span class="badge badge-reprocess" style="font-size: 0.65rem; margin-left: 6px;">reprocess</span>' : ''}${isDeletion ? ' <span class="badge badge-deleted" style="font-size: 0.65rem; margin-left: 6px;">deleted</span>' : ''}</div>
+                    <div class="queue-item-filename">${escapeHtml(displayName)}${processingTypeLabel}</div>
                     <div class="queue-item-detail">${escapeHtml(item.category || '')} ${detail ? '&middot; ' + detail : ''}</div>
                 </div>
                 <span class="badge badge-${status}">${status}</span>
@@ -118,24 +141,39 @@ function renderRecentActivity(items) {
             : item.createdAt ? formatTimestamp(item.createdAt) : '';
 
         // Derive activity type
-        let activityType, typeLabel;
-        if (item.type === 'deletion' || status === 'deleted') {
+        let activityType, typeLabel, displayText;
+        const isDeletion = item.type === 'deletion' || status === 'deleted';
+        const is5EGeneration = item.type === '5e-generation';
+        const isReprocess = item.reprocess === true;
+
+        if (isDeletion) {
             activityType = 'deleted';
             typeLabel = 'deleted';
-        } else if (item.reprocess === true) {
+            displayText = `${escapeHtml(item.title || name)} &mdash; <strong>deleted</strong> (${item.filesDeleted || 0} files)`;
+        } else if (is5EGeneration) {
+            activityType = '5e';
+            typeLabel = '5E lesson';
+            if (status === 'completed') {
+                displayText = `${escapeHtml(name)} &mdash; <strong>completed</strong> 6 5E lessons (K-5)`;
+            } else {
+                displayText = `${escapeHtml(name)} &mdash; <strong>${status}</strong> 5E generation`;
+            }
+        } else if (isReprocess) {
             activityType = 'reprocess';
             typeLabel = 'reprocess';
+            if (status === 'completed') {
+                displayText = `${escapeHtml(name)} &mdash; <strong>reprocessed</strong> (14 JSONs + 7 PDFs + images)`;
+            } else {
+                displayText = `${escapeHtml(name)} &mdash; <strong>${status}</strong> reprocessing`;
+            }
         } else {
             activityType = 'upload';
             typeLabel = 'upload';
-        }
-
-        // Build display text
-        let displayText;
-        if (activityType === 'deleted') {
-            displayText = `${escapeHtml(item.title || name)} &mdash; <strong>deleted</strong> (${item.filesDeleted || 0} files)`;
-        } else {
-            displayText = `${escapeHtml(name)} &mdash; <strong>${status}</strong>`;
+            if (status === 'completed') {
+                displayText = `${escapeHtml(name)} &mdash; <strong>completed</strong> (14 JSONs + 7 PDFs + 4 images)`;
+            } else {
+                displayText = `${escapeHtml(name)} &mdash; <strong>${status}</strong>`;
+            }
         }
 
         const dotClass = activityType === 'deleted' ? 'deleted' : activityType === 'reprocess' ? 'reprocess' : status;

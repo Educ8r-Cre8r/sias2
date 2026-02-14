@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  repository_dispatch:
+    types: [cloud-function-commit]
+  workflow_dispatch:
 
 jobs:
   deploy:
