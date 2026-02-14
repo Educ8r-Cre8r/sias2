@@ -14,6 +14,7 @@ const state = {
   filteredImages: [], // Current filtered image set
   ngssIndex: null, // NGSS standards index (loaded on demand)
   ngssFilter: null, // Active NGSS filter { type, code, imageIds }
+  ngssHighlightIndex: -1, // Keyboard navigation index for NGSS suggestions
   collectionFilter: false, // My Collection filter active
   featuredFilter: false // Featured Collection filter active
 };
@@ -41,7 +42,8 @@ function resolveAssetUrl(relativePath) {
   if (STORAGE_ENABLED && (
     relativePath.startsWith('images/') ||
     relativePath.startsWith('pdfs/') ||
-    relativePath.startsWith('5e_lessons/')
+    relativePath.startsWith('5e_lessons/') ||
+    relativePath.startsWith('assets/')
   )) {
     return `https://firebasestorage.googleapis.com/v0/b/${STORAGE_BUCKET}/o/${encodeURIComponent(relativePath)}?alt=media`;
   }
@@ -171,6 +173,7 @@ function setupEventListeners() {
   const ngssInput = document.getElementById('ngss-search');
   if (ngssInput) {
     ngssInput.addEventListener('input', handleNGSSSearch);
+    ngssInput.addEventListener('keydown', handleNGSSKeyboard);
     // Close suggestions when clicking outside
     document.addEventListener('click', (e) => {
       const suggestionsEl = document.getElementById('ngss-suggestions');
@@ -861,20 +864,63 @@ async function handleNGSSSearch(event) {
     return;
   }
 
-  suggestionsEl.innerHTML = matches.map(std => {
+  suggestionsEl.innerHTML = matches.map((std, idx) => {
     // Parse the type and code
     const [type, ...codeParts] = std.split(': ');
     const code = codeParts.join(': ');
     const count = getImageCountForStandard(index, type, code);
+    const zeroClass = count === 0 ? ' zero-results' : '';
 
-    return `<div class="ngss-suggestion" onclick="selectNGSSStandard('${type}', '${code.replace(/'/g, "\\'")}')">
+    return `<div class="ngss-suggestion${zeroClass}" data-index="${idx}" onclick="selectNGSSStandard('${type}', '${code.replace(/'/g, "\\'")}')" role="option">
       <span class="ngss-suggestion-type ngss-type-${type.toLowerCase()}">${type}</span>
       <span class="ngss-suggestion-code">${code}</span>
       <span class="ngss-suggestion-count">${count} image${count !== 1 ? 's' : ''}</span>
     </div>`;
   }).join('');
 
+  // Reset keyboard highlight index
+  state.ngssHighlightIndex = -1;
   suggestionsEl.style.display = 'block';
+}
+
+/**
+ * Handle keyboard navigation in NGSS suggestions dropdown
+ */
+function handleNGSSKeyboard(event) {
+  const suggestionsEl = document.getElementById('ngss-suggestions');
+  if (!suggestionsEl || suggestionsEl.style.display === 'none') return;
+
+  const items = suggestionsEl.querySelectorAll('.ngss-suggestion');
+  if (items.length === 0) return;
+
+  if (event.key === 'ArrowDown') {
+    event.preventDefault();
+    state.ngssHighlightIndex = Math.min(state.ngssHighlightIndex + 1, items.length - 1);
+    updateNGSSHighlight(items);
+  } else if (event.key === 'ArrowUp') {
+    event.preventDefault();
+    state.ngssHighlightIndex = Math.max(state.ngssHighlightIndex - 1, 0);
+    updateNGSSHighlight(items);
+  } else if (event.key === 'Enter' && state.ngssHighlightIndex >= 0) {
+    event.preventDefault();
+    items[state.ngssHighlightIndex].click();
+  } else if (event.key === 'Escape') {
+    suggestionsEl.style.display = 'none';
+    state.ngssHighlightIndex = -1;
+  }
+}
+
+/**
+ * Update visual highlight on NGSS suggestion items
+ */
+function updateNGSSHighlight(items) {
+  items.forEach((item, i) => {
+    item.classList.toggle('highlighted', i === state.ngssHighlightIndex);
+  });
+  // Scroll highlighted item into view
+  if (state.ngssHighlightIndex >= 0 && items[state.ngssHighlightIndex]) {
+    items[state.ngssHighlightIndex].scrollIntoView({ block: 'nearest' });
+  }
 }
 
 /**
@@ -924,13 +970,13 @@ function selectNGSSStandard(type, code) {
   ngssInput.value = '';
   clearBtn.style.display = 'none';
 
-  // Show active filter pill
+  // Show active filter banner
   activeFilter.innerHTML = `
     <span class="ngss-filter-pill">
-      <span class="ngss-type-${type.toLowerCase()}">${type}</span>
+      <span class="ngss-suggestion-type ngss-type-${type.toLowerCase()}">${type}</span>
       <strong>${code}</strong>
-      <span class="ngss-filter-count">${imageIds.length} image${imageIds.length !== 1 ? 's' : ''}</span>
-      <button class="ngss-filter-remove" onclick="clearNGSSSearch()" aria-label="Remove NGSS filter">✕</button>
+      <span class="ngss-filter-count">Showing ${imageIds.length} image${imageIds.length !== 1 ? 's' : ''}</span>
+      <button class="ngss-filter-remove" onclick="clearNGSSSearch()" aria-label="Clear NGSS filter">✕</button>
     </span>
   `;
   activeFilter.style.display = 'flex';
@@ -1396,8 +1442,71 @@ function renderContent(contentData, modalBody) {
   // Extract discussion questions for the quick-access card
   const discussionCard = extractDiscussionCard(markdownContent);
 
-  // Update modal body with discussion card pinned at top
-  modalBody.innerHTML = discussionCard + html;
+  // Sentence stems callout (appears after main content, before ratings/comments)
+  const sentenceStemsHTML = `
+    <div class="sentence-stems-callout">
+      <div class="stems-header">
+        <h3>Scientific Thinking Sentence Stems</h3>
+        <p class="stems-subtitle">Research-backed prompts for K-5 science discussions</p>
+      </div>
+      <div class="stems-list">
+        <div class="stem-item">
+          <span class="stem-num">1</span>
+          <div class="stem-text">
+            <strong>"I notice ______, and I wonder ______."</strong>
+            <span class="stem-skill">Observation + Curiosity</span>
+          </div>
+        </div>
+        <div class="stem-item">
+          <span class="stem-num">2</span>
+          <div class="stem-text">
+            <strong>"This reminds me of ______ because ______."</strong>
+            <span class="stem-skill">Prior Knowledge</span>
+          </div>
+        </div>
+        <div class="stem-item">
+          <span class="stem-num">3</span>
+          <div class="stem-text">
+            <strong>"If I could ask this [plant/animal/object] one question, I'd ask ______."</strong>
+            <span class="stem-skill">Inquiry</span>
+          </div>
+        </div>
+        <div class="stem-item">
+          <span class="stem-num">4</span>
+          <div class="stem-text">
+            <strong>"One thing that might be changing here is ______."</strong>
+            <span class="stem-skill">Temporal Thinking</span>
+          </div>
+        </div>
+      </div>
+      <div class="stems-download-section">
+        <p class="stems-download-label">Sign in to download a customized classroom poster:</p>
+        <div class="stems-form">
+          <input type="text" id="stems-name-input" class="stems-name-input" placeholder="Teacher name (e.g., Mrs. Smith)" maxlength="50">
+          <select id="stems-grade-select" class="stems-grade-select">
+            <option value="">Select grade</option>
+            <option value="Kindergarten">Kindergarten</option>
+            <option value="1st Grade">1st Grade</option>
+            <option value="2nd Grade">2nd Grade</option>
+            <option value="3rd Grade">3rd Grade</option>
+            <option value="4th Grade">4th Grade</option>
+            <option value="5th Grade">5th Grade</option>
+            <option value="Lab">Lab</option>
+          </select>
+          <button class="stems-download-btn" onclick="downloadStemsPoster()">
+            <span class="stems-download-text">Download Poster</span>
+            <span class="stems-download-spinner" style="display:none;">
+              <svg class="spin-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-6.219-8.56"></path></svg>
+              Generating...
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  // Update modal body with discussion card pinned at top, content, then sentence stems
+  modalBody.innerHTML = discussionCard + html + sentenceStemsHTML;
 
   // Add animated class to trigger staggered animations
   modalBody.classList.remove('animated'); // Remove if exists
@@ -1517,13 +1626,99 @@ function renderCustomTags(html) {
  */
 function closeModal() {
   const modal = document.getElementById('educational-modal');
-  
+
   // Clean up hotspots
   cleanupHotspots();
-  
+
   modal.style.display = 'none';
   document.body.style.overflow = ''; // Restore scrolling
   releaseFocus();
+}
+
+/**
+ * Download personalized sentence stems poster PDF
+ */
+async function downloadStemsPoster() {
+  // Require Google sign-in to download
+  if (!currentUser || currentUser.isAnonymous) {
+    if (confirm('Sign in with Google to download the poster. Sign in now?')) {
+      signInWithGoogle();
+    }
+    return;
+  }
+
+  const nameInput = document.getElementById('stems-name-input');
+  const gradeSelect = document.getElementById('stems-grade-select');
+  const downloadBtn = document.querySelector('.stems-download-btn');
+  const downloadText = downloadBtn?.querySelector('.stems-download-text');
+  const downloadSpinner = downloadBtn?.querySelector('.stems-download-spinner');
+
+  const teacherName = nameInput?.value.trim() || '';
+  const gradeLevel = gradeSelect?.value || '';
+
+  // Show loading state
+  if (downloadText) downloadText.style.display = 'none';
+  if (downloadSpinner) downloadSpinner.style.display = 'inline-flex';
+  if (downloadBtn) downloadBtn.disabled = true;
+
+  try {
+    // Fetch the base poster PDF from Firebase Storage
+    const pdfUrl = resolveAssetUrl('assets/sentence-stems-poster.pdf');
+    const response = await fetch(pdfUrl);
+    if (!response.ok) throw new Error('Failed to fetch poster PDF');
+    const pdfBytes = await response.arrayBuffer();
+
+    // If teacher name or grade provided, stamp them onto the PDF using pdf-lib
+    let finalPdf;
+    if (teacherName || gradeLevel) {
+      const { PDFDocument, rgb, StandardFonts } = PDFLib;
+      const pdfDoc = await PDFDocument.load(pdfBytes);
+      const page = pdfDoc.getPages()[0];
+      const font = await pdfDoc.embedFont(StandardFonts.HelveticaBold);
+
+      // Build the teacher line: "Mrs. Smith — 3rd Grade"
+      const parts = [];
+      if (teacherName) parts.push(teacherName);
+      if (gradeLevel) parts.push(gradeLevel);
+      const teacherLine = parts.join(' — ');
+
+      // Position matches the PDFKit generator:
+      // textX = 124pt from left, y = 84pt from top in PDFKit (top-down)
+      // In pdf-lib (bottom-up): pageHeight - 84 - fontSize = 612 - 84 - 13 ≈ 515
+      const fontSize = 13;
+      const pageHeight = page.getHeight();
+      page.drawText(teacherLine, {
+        x: 124,
+        y: pageHeight - 84 - fontSize,
+        size: fontSize,
+        font: font,
+        color: rgb(162 / 255, 59 / 255, 114 / 255), // #A23B72 secondary color
+      });
+
+      finalPdf = await pdfDoc.save();
+    } else {
+      finalPdf = pdfBytes;
+    }
+
+    // Trigger download
+    const blob = new Blob([finalPdf], { type: 'application/pdf' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Sentence-Stems-Poster.pdf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  } catch (error) {
+    console.error('Error downloading poster:', error);
+    alert('Failed to download poster. Please try again.');
+  } finally {
+    // Restore button state
+    if (downloadText) downloadText.style.display = '';
+    if (downloadSpinner) downloadSpinner.style.display = 'none';
+    if (downloadBtn) downloadBtn.disabled = false;
+  }
 }
 
 /**

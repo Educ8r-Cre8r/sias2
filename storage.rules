@@ -6,6 +6,7 @@ service firebase.storage {
     match /images/{allPaths=**} { allow read; }
     match /pdfs/{allPaths=**} { allow read; }
     match /5e_lessons/{allPaths=**} { allow read; }
+    match /assets/{allPaths=**} { allow read; }
 
     // Allow uploads to the /uploads/ directory
     // Files must be images and under 2MB

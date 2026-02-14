@@ -4269,3 +4269,4 @@ exports.adminGetGA4Report = functions
       throw new functions.https.HttpsError('internal', 'GA4 report failed: ' + error.message);
     }
   });
+
