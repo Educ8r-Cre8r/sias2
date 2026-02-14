@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "50%",
+      "y": "35%",
+      "label": "Dragonfly's Body",
+      "fact": "This dragonfly has a long, colorful body that helps it move quickly through the air. Dragonflies are insects that need oxygen to breathe, just like you do! Their special body shape is called an **adaptation** — that's a feature that helps an animal survive in its home.",
+      "vocabulary": {
+        "term": "Adaptation",
+        "definition": "A special body part or behavior that helps an animal survive and thrive in its environment."
+      }
+    },
+    {
+      "id": 2,
+      "x": "48%",
+      "y": "28%",
+      "label": "Wings and Movement",
+      "fact": "Dragonflies have four powerful wings that can move in different directions, which lets them fly super fast and hover in place. These wings are part of the dragonfly's body structure that helps it hunt for food and escape from predators. This is called **locomotion** — the way animals move from place to place.",
+      "vocabulary": {
+        "term": "Locomotion",
+        "definition": "The way that living things move their bodies to travel from one place to another."
+      }
+    },
+    {
+      "id": 3,
+      "x": "55%",
+      "y": "50%",
+      "label": "Habitat: Plants and Water",
+      "fact": "Dragonflies live near water and plants because they need wet environments to survive and lay their eggs. This green plant habitat provides food, shelter, and a safe place for dragonflies to live. The dragonfly, plants, and water all work together in an **ecosystem** — a community of living and non-living things.",
+      "vocabulary": {
+        "term": "Ecosystem",
+        "definition": "All the living things (like plants and animals) and non-living things (like water and soil) in an area that depend on each other."
+      }
+    },
+    {
+      "id": 4,
+      "x": "52%",
+      "y": "42%",
+      "label": "Predator Hunter",
+      "fact": "Dragonflies are carnivores, meaning they eat meat — they hunt and catch smaller insects like mosquitoes while flying! This dragonfly is a **predator** because it hunts other animals for food, and it plays an important role in keeping the ecosystem balanced.",
+      "vocabulary": {
+        "term": "Predator",
+        "definition": "An animal that hunts and eats other animals for food."
+      }
+    }
+  ]
+}
