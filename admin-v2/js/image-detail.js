@@ -107,6 +107,7 @@ function showDetailModal(imageId) {
 
                 <div class="detail-section">
                     <h3>Associated Files (${totalFiles})</h3>
+                    <p style="font-size: 0.8rem; color: var(--danger); margin: 4px 0 10px;">The count reflects content-facing files only. Any associated Firestore ratings, views, and/or comments will also be deleted.</p>
                     <details style="margin-bottom: 8px;">
                         <summary style="cursor: pointer; font-size: 0.85rem;">Images (${files.images.length})</summary>
                         <ul class="audit-file-list" style="margin-top: 4px;">${fileListHtml(files.images)}</ul>
