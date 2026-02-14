@@ -16,7 +16,10 @@ const state = {
   ngssFilter: null, // Active NGSS filter { type, code, imageIds }
   ngssHighlightIndex: -1, // Keyboard navigation index for NGSS suggestions
   collectionFilter: false, // My Collection filter active
-  featuredFilter: false // Featured Collection filter active
+  featuredFilter: false, // Featured Collection filter active
+  newFilter: false, // "What's New" filter active
+  sortNewest: false, // "Newest First" sort active
+  currentModalImageId: null // Currently open modal image ID (for prev/next nav)
 };
 
 const IMAGES_PER_PAGE = 48;
@@ -118,6 +121,7 @@ async function initializeApp() {
   showSkeletonPlaceholders(12);
   await loadGalleryData();
   computeRecentImages();
+  updateNewBadgeCount();
   updateCategoryBadges();
   updateFeaturedBadge();
   loadFiltersFromURL(); // Apply filters from URL if present
@@ -140,7 +144,7 @@ function updateCopyrightYear() {
  */
 function setupEventListeners() {
   // Category filter buttons (exclude collection button — it has its own onclick)
-  const filterButtons = document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)');
+  const filterButtons = document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn):not(.new-filter-btn):not(.sort-newest-btn)');
   filterButtons.forEach(btn => {
     btn.addEventListener('click', handleCategoryFilter);
   });
@@ -296,7 +300,7 @@ function loadFiltersFromURL() {
     state.currentCategory = category;
 
     // Update UI to reflect the category (exclude collection button)
-    document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(btn => {
+    document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn):not(.new-filter-btn):not(.sort-newest-btn)').forEach(btn => {
       if (btn.dataset.category === category) {
         btn.classList.add('active');
         btn.setAttribute('aria-pressed', 'true');
@@ -307,15 +311,18 @@ function loadFiltersFromURL() {
     });
   }
 
-  // Apply grade level from URL
+  // Apply grade level from URL (takes priority) or localStorage (returning user preference)
   if (params.has('grade')) {
     const grade = params.get('grade');
     state.selectedGradeLevel = grade;
-
-    // Update dropdown to reflect the grade level
     const gradeLevelSelect = document.getElementById('grade-level-select');
-    if (gradeLevelSelect) {
-      gradeLevelSelect.value = grade;
+    if (gradeLevelSelect) gradeLevelSelect.value = grade;
+  } else {
+    const savedGrade = localStorage.getItem('selectedGradeLevel');
+    if (savedGrade) {
+      state.selectedGradeLevel = savedGrade;
+      const gradeLevelSelect = document.getElementById('grade-level-select');
+      if (gradeLevelSelect) gradeLevelSelect.value = savedGrade;
     }
   }
 
@@ -412,7 +419,7 @@ function updateCategoryBadges() {
     }
   });
 
-  document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(btn => {
+  document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn):not(.new-filter-btn):not(.sort-newest-btn)').forEach(btn => {
     const category = btn.dataset.category;
     const count = counts[category] || 0;
 
@@ -479,8 +486,15 @@ function renderGallery() {
     }
   }
 
-  // Sort by imageOrder if available
-  if (state.galleryData.imageOrder && state.galleryData.imageOrder.length > 0) {
+  // Apply "What's New" filter
+  if (state.newFilter) {
+    filteredImages = filteredImages.filter(img => recentImageIds.has(img.id));
+  }
+
+  // Sort: "Newest First" overrides default imageOrder sort
+  if (state.sortNewest) {
+    filteredImages.sort((a, b) => b.id - a.id);
+  } else if (state.galleryData.imageOrder && state.galleryData.imageOrder.length > 0) {
     const orderMap = {};
     state.galleryData.imageOrder.forEach((id, idx) => { orderMap[id] = idx; });
     filteredImages.sort((a, b) => (orderMap[a.id] ?? 9999) - (orderMap[b.id] ?? 9999));
@@ -690,6 +704,7 @@ function createGalleryItem(image) {
           onerror="this.src='${resolveAssetUrl(image.imagePath)}'"
         />
       </picture>
+      ${image.phenomenon ? `<div class="card-hover-overlay">${image.phenomenon}</div>` : ''}
     </div>
     <div class="item-info">
       <div class="item-text">
@@ -763,7 +778,7 @@ function handleCategoryFilter(event) {
   const category = button.dataset.category;
 
   // Update active state (exclude collection button)
-  document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(btn => {
+  document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn):not(.new-filter-btn):not(.sort-newest-btn)').forEach(btn => {
     btn.classList.remove('active');
     btn.setAttribute('aria-pressed', 'false');
   });
@@ -955,7 +970,7 @@ function selectNGSSStandard(type, code) {
   if (searchInput) searchInput.value = '';
 
   state.currentCategory = 'all';
-  document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(btn => {
+  document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn):not(.new-filter-btn):not(.sort-newest-btn)').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.category === 'all');
     btn.setAttribute('aria-pressed', btn.dataset.category === 'all' ? 'true' : 'false');
   });
@@ -1114,6 +1129,7 @@ function updateGalleryNGSSBadges() {
  */
 function handleGradeLevelChange(event) {
   state.selectedGradeLevel = event.target.value;
+  localStorage.setItem('selectedGradeLevel', state.selectedGradeLevel);
   updateURL(); // Update URL to reflect new grade level
 
   // Update NGSS badges for all gallery cards
@@ -1156,6 +1172,10 @@ async function openModal(imageId) {
     console.error('Image not found:', imageId);
     return;
   }
+
+  // Track current modal image for prev/next navigation
+  state.currentModalImageId = imageId;
+  updateModalNavButtons();
 
   // Record view (Firebase) - await so the count is updated before we read it
   if (typeof recordPhotoView === 'function') {
@@ -1630,9 +1650,88 @@ function closeModal() {
   // Clean up hotspots
   cleanupHotspots();
 
+  state.currentModalImageId = null;
   modal.style.display = 'none';
   document.body.style.overflow = ''; // Restore scrolling
   releaseFocus();
+}
+
+/**
+ * Navigate to previous/next image in the modal
+ * @param {number} direction - -1 for previous, 1 for next
+ */
+function navigateModal(direction) {
+  if (!state.currentModalImageId || state.filteredImages.length <= 1) return;
+
+  const currentIndex = state.filteredImages.findIndex(img => img.id === state.currentModalImageId);
+  if (currentIndex === -1) return;
+
+  // Wrap around at boundaries
+  let nextIndex = currentIndex + direction;
+  if (nextIndex < 0) nextIndex = state.filteredImages.length - 1;
+  if (nextIndex >= state.filteredImages.length) nextIndex = 0;
+
+  const nextImage = state.filteredImages[nextIndex];
+  if (nextImage) {
+    openModal(nextImage.id);
+  }
+}
+
+/**
+ * Update prev/next button visibility and disabled state
+ */
+function updateModalNavButtons() {
+  const prevBtn = document.getElementById('modal-prev-btn');
+  const nextBtn = document.getElementById('modal-next-btn');
+  if (!prevBtn || !nextBtn) return;
+
+  const hasMultiple = state.filteredImages.length > 1;
+  prevBtn.style.display = hasMultiple ? '' : 'none';
+  nextBtn.style.display = hasMultiple ? '' : 'none';
+
+  if (hasMultiple) {
+    const currentIndex = state.filteredImages.findIndex(img => img.id === state.currentModalImageId);
+    // Show position indicator in title
+    prevBtn.title = `Previous image (${currentIndex > 0 ? currentIndex : state.filteredImages.length} of ${state.filteredImages.length})`;
+    nextBtn.title = `Next image (${currentIndex < state.filteredImages.length - 1 ? currentIndex + 2 : 1} of ${state.filteredImages.length})`;
+  }
+}
+
+/**
+ * Copy image attribution text to clipboard
+ */
+function copyAttribution() {
+  // Check both modals — educational modal title or image viewer modal title
+  const title = document.getElementById('modal-title')?.textContent
+    || document.getElementById('image-modal-title')?.textContent
+    || 'Untitled';
+  const year = new Date().getFullYear();
+  const text = `"${title}" \u00A9 ${year} Alex Jones, M.Ed. Licensed under CC BY-NC-ND 4.0`;
+
+  // Find whichever copy button was clicked (educational or image viewer modal)
+  const btn = document.getElementById('copy-attribution-btn')
+    || document.getElementById('image-modal-copy-attribution-btn');
+
+  function showCopied() {
+    if (btn) {
+      const original = btn.innerHTML;
+      btn.innerHTML = '\u2705 Copied!';
+      setTimeout(() => { btn.innerHTML = original; }, 2000);
+    }
+  }
+
+  navigator.clipboard.writeText(text).then(showCopied).catch(() => {
+    // Fallback for older browsers or insecure contexts
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+    showCopied();
+  });
 }
 
 /**
@@ -1753,6 +1852,17 @@ function handleKeyboard(event) {
     if (visionaryModal && visionaryModal.classList.contains('active')) {
       closeVisionaryModal();
     }
+  }
+
+  // Arrow keys navigate between images in the educational modal
+  if ((event.key === 'ArrowLeft' || event.key === 'ArrowRight') &&
+      educationalModal && educationalModal.style.display === 'flex') {
+    // Don't navigate if user is typing in an input, select, or textarea
+    const activeTag = document.activeElement?.tagName?.toLowerCase();
+    if (activeTag === 'input' || activeTag === 'select' || activeTag === 'textarea') return;
+
+    event.preventDefault();
+    navigateModal(event.key === 'ArrowLeft' ? -1 : 1);
   }
 }
 
@@ -2303,7 +2413,7 @@ function toggleFeaturedFilter() {
     state.collectionFilter = false;
 
     // Reset category buttons
-    document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn)').forEach(b => {
+    document.querySelectorAll('.filter-btn:not(.collection-filter-btn):not(.featured-filter-btn):not(.new-filter-btn):not(.sort-newest-btn)').forEach(b => {
       b.classList.remove('active');
       b.setAttribute('aria-pressed', 'false');
     });
@@ -2348,6 +2458,58 @@ function clearFeaturedFilter() {
     btn.classList.remove('active');
     btn.setAttribute('aria-pressed', 'false');
   }
+}
+
+/**
+ * Update the "What's New" badge count after computing recent images
+ */
+function updateNewBadgeCount() {
+  const badge = document.getElementById('new-badge-count');
+  if (badge) {
+    badge.textContent = recentImageIds.size;
+  }
+}
+
+/**
+ * Toggle the "What's New" filter to show only recently added images
+ */
+function toggleNewFilter() {
+  const btn = document.getElementById('new-filter-btn');
+  if (!btn) return;
+
+  state.newFilter = !state.newFilter;
+  btn.classList.toggle('active', state.newFilter);
+  btn.setAttribute('aria-pressed', String(state.newFilter));
+
+  state.visibleCount = IMAGES_PER_PAGE;
+  renderGallery();
+}
+
+/**
+ * Clear the "What's New" filter (called when other filters reset)
+ */
+function clearNewFilter() {
+  state.newFilter = false;
+  const btn = document.getElementById('new-filter-btn');
+  if (btn) {
+    btn.classList.remove('active');
+    btn.setAttribute('aria-pressed', 'false');
+  }
+}
+
+/**
+ * Toggle "Newest First" sort order
+ */
+function toggleSortNewest() {
+  const btn = document.getElementById('sort-newest-btn');
+  if (!btn) return;
+
+  state.sortNewest = !state.sortNewest;
+  btn.classList.toggle('active', state.sortNewest);
+  btn.setAttribute('aria-pressed', String(state.sortNewest));
+
+  state.visibleCount = IMAGES_PER_PAGE;
+  renderGallery();
 }
 
 /**

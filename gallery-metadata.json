@@ -261,7 +261,8 @@
       },
       "processingCost": 0.2487,
       "processingTime": "6m 28s",
-      "processedAt": "2026-02-12T02:34:30.693Z"
+      "processedAt": "2026-02-12T02:34:30.693Z",
+      "phenomenon": "Plant growth and survival in a human-made habitat."
     },
     {
       "id": 2,
@@ -320,7 +321,8 @@
       },
       "processingCost": 0.2487,
       "processingTime": "5m 14s",
-      "processedAt": "2026-02-12T05:44:16.550Z"
+      "processedAt": "2026-02-12T05:44:16.550Z",
+      "phenomenon": "This image represents death and decomposition in nature—a critical part of the life cycle that all living things experience."
     },
     {
       "id": 3,
@@ -386,7 +388,8 @@
       },
       "processingCost": 0.2487,
       "processingTime": "3m 41s",
-      "processedAt": "2026-02-13T04:44:43.452Z"
+      "processedAt": "2026-02-13T04:44:43.452Z",
+      "phenomenon": "An early life stage of a bird and demonstrates how young animals need safe places to live and grow."
     },
     {
       "id": 4,
@@ -435,7 +438,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Animal communication through visual displays."
     },
     {
       "id": 5,
@@ -482,7 +486,8 @@
           "K-LS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Seed germination - the process where a seed begins to grow into a new plant."
     },
     {
       "id": 6,
@@ -532,7 +537,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The predator-prey relationship phenomenon, where one animal (the gecko) hunts and catches another animal (the dragonfly) for survival."
     },
     {
       "id": 7,
@@ -583,7 +589,8 @@
           "5-PS3.D"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Pollination through mutualistic relationships."
     },
     {
       "id": 8,
@@ -632,7 +639,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Insect adaptation for survival."
     },
     {
       "id": 9,
@@ -682,7 +690,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Plant germination and early growth in a natural environment."
     },
     {
       "id": 10,
@@ -732,7 +741,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A thriving garden ecosystem where different plants have specific needs that are being met in their environment."
     },
     {
       "id": 11,
@@ -782,7 +792,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Pollination - the process where bees transfer pollen from one flower to another while collecting nectar for food."
     },
     {
       "id": 12,
@@ -833,7 +844,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The Anchoring Phenomenon shown here is animal adaptation for survival in specific environments."
     },
     {
       "id": 13,
@@ -883,7 +895,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Cicada emergence and life cycle completion."
     },
     {
       "id": 14,
@@ -934,7 +947,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The anchoring phenomenon shown here is animal adaptation for herbivorous feeding."
     },
     {
       "id": 15,
@@ -982,7 +996,8 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The anchoring phenomenon shown here is animal camouflage - specifically how deer use their natural coloration to blend into their environment."
     },
     {
       "id": 16,
@@ -1032,7 +1047,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Camouflage - a survival adaptation where animals blend into their environment to avoid being seen by predators or prey."
     },
     {
       "id": 17,
@@ -1080,7 +1096,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Fungal reproduction and growth."
     },
     {
       "id": 18,
@@ -1130,7 +1147,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Decomposition in action."
     },
     {
       "id": 19,
@@ -1180,7 +1198,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Decomposition in action."
     },
     {
       "id": 20,
@@ -1230,7 +1249,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Decomposition by fungi."
     },
     {
       "id": 21,
@@ -1280,7 +1300,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The Anchoring Phenomenon shown here is herbivory - when animals eat plants for food."
     },
     {
       "id": 22,
@@ -1329,7 +1350,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The anchoring phenomenon shown here is habitat adaptation - how animals have special body parts that help them survive in their environment."
     },
     {
       "id": 23,
@@ -1378,7 +1400,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The anchoring phenomenon shown here is camouflage - the lizard's ability to blend into its environment."
     },
     {
       "id": 24,
@@ -1430,7 +1453,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The life cycle transformation of a monarch butterfly, specifically showing a caterpillar near an empty chrysalis."
     },
     {
       "id": 25,
@@ -1480,7 +1504,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The anchoring phenomenon shown here is metamorphosis - specifically the pupal stage of a butterfly's life cycle."
     },
     {
       "id": 26,
@@ -1526,7 +1551,8 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Metamorphosis - specifically a monarch butterfly emerging from its chrysalis (eclosion)."
     },
     {
       "id": 27,
@@ -1577,7 +1603,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Habitat selection and animal adaptation."
     },
     {
       "id": 28,
@@ -1628,7 +1655,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The larval stage of metamorphosis in a monarch butterfly's life cycle."
     },
     {
       "id": 29,
@@ -1675,7 +1703,8 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The anchoring phenomenon shown here is structural adaptation for survival."
     },
     {
       "id": 30,
@@ -1725,7 +1754,8 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The Anchoring Phenomenon this image represents is plant reproduction through seed formation."
     },
     {
       "id": 31,
@@ -1775,7 +1805,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The Anchoring Phenomenon this image represents is forest ecosystem structure and habitat connectivity."
     },
     {
       "id": 32,
@@ -1825,7 +1856,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Animal adaptation for survival."
     },
     {
       "id": 33,
@@ -1876,7 +1908,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The Anchoring Phenomenon shown here is adaptive feeding behavior in wading birds."
     },
     {
       "id": 34,
@@ -1925,7 +1958,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The germination process - the moment when a seed begins to grow into a new plant."
     },
     {
       "id": 35,
@@ -1973,7 +2007,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The Anchoring Phenomenon shown here is habitat adaptation and symbiotic relationships in aquatic ecosystems."
     },
     {
       "id": 36,
@@ -2023,7 +2058,8 @@
           "5-ESS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Snow accumulation and its interaction with different surfaces and objects."
     },
     {
       "id": 37,
@@ -2072,7 +2108,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Animal adaptation for survival in different environments."
     },
     {
       "id": 38,
@@ -2121,7 +2158,8 @@
           "5-ESS2.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Coastal fog formation."
     },
     {
       "id": 39,
@@ -2170,7 +2208,8 @@
           "5-ESS2.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Weathering and erosion in action."
     },
     {
       "id": 40,
@@ -2242,7 +2281,8 @@
       },
       "processingCost": 0.2487,
       "processingTime": "4m 7s",
-      "processedAt": "2026-02-12T06:16:09.915Z"
+      "processedAt": "2026-02-12T06:16:09.915Z",
+      "phenomenon": "Why do crabs live on sandy beaches?"
     },
     {
       "id": 41,
@@ -2291,7 +2331,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The interaction between sunlight and human-built structures creating patterns of light and shadow in urban environments."
     },
     {
       "id": 42,
@@ -2342,7 +2383,8 @@
           "5-ESS3.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The Anchoring Phenomenon this image represents is landform variation and human settlement patterns."
     },
     {
       "id": 43,
@@ -2389,7 +2431,8 @@
           "5-ESS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Cloud formation and weather patterns."
     },
     {
       "id": 44,
@@ -2438,7 +2481,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Biological weathering - the process where living organisms break down rocks over time."
     },
     {
       "id": 45,
@@ -2489,7 +2533,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Drought and soil desiccation."
     },
     {
       "id": 46,
@@ -2536,7 +2581,8 @@
           "5-ESS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Fossilization - the process by which living organisms become preserved in rock over millions of years."
     },
     {
       "id": 47,
@@ -2585,7 +2631,8 @@
           "5-ESS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Fossilization - the process by which living organisms are preserved in rock over millions of years."
     },
     {
       "id": 48,
@@ -2631,7 +2678,8 @@
           "5-ESS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Fossilization - the process by which ancient organisms become preserved in rock over millions of years."
     },
     {
       "id": 49,
@@ -2679,7 +2727,8 @@
           "5-ESS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Fossilization - the process by which ancient organisms become preserved in rock over millions of years."
     },
     {
       "id": 50,
@@ -2729,7 +2778,8 @@
           "5-ESS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Flooding and erosion as the anchoring phenomenon."
     },
     {
       "id": 51,
@@ -2776,7 +2826,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The chrysalis stage of metamorphosis - specifically the pupal stage where a caterpillar transforms into a butterfly."
     },
     {
       "id": 52,
@@ -2823,7 +2874,8 @@
           "5-ESS1-2"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": ""
     },
     {
       "id": 53,
@@ -2871,7 +2923,8 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The Anchoring Phenomenon this image represents is tree ring formation and growth patterns."
     },
     {
       "id": 54,
@@ -2919,7 +2972,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Electrical circuits and conductivity."
     },
     {
       "id": 55,
@@ -2967,7 +3021,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The freezing of moving water in a fountain during cold weather."
     },
     {
       "id": 56,
@@ -3017,7 +3072,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The structural stability and force distribution of curved arch structures."
     },
     {
       "id": 57,
@@ -3064,7 +3120,8 @@
           "5-PS1-3"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Sound production through vibration."
     },
     {
       "id": 58,
@@ -3111,7 +3168,8 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Static electricity as the anchoring phenomenon."
     },
     {
       "id": 59,
@@ -3158,7 +3216,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "States of matter in equilibrium."
     },
     {
       "id": 60,
@@ -3208,7 +3267,8 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The transformation of food through cooking and heating."
     },
     {
       "id": 61,
@@ -3256,7 +3316,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Reflection - when light bounces off a smooth, shiny surface like glass or a mirror."
     },
     {
       "id": 62,
@@ -3303,7 +3364,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Diffusion and mixing of liquids."
     },
     {
       "id": 63,
@@ -3354,7 +3416,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Composite material formation - specifically how concrete demonstrates that combining different materials creates something stronger than any single material alone."
     },
     {
       "id": 64,
@@ -3402,7 +3465,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Energy transformation - specifically how chemical energy stored in gasoline is converted into mechanical energy (motion) through combustion."
     },
     {
       "id": 65,
@@ -3450,7 +3514,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Light reflection - we can see the flowers appearing twice because light bounces off the mirror's smooth surface back to our eyes."
     },
     {
       "id": 66,
@@ -3499,7 +3564,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Buoyancy - how massive, heavy objects like cargo ships can float on water."
     },
     {
       "id": 67,
@@ -3548,7 +3614,8 @@
           "5-PS3.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Electromagnetic energy transfer - the conversion of electrical energy into mechanical motion."
     },
     {
       "id": 68,
@@ -3597,7 +3664,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Wave energy transfer and erosion."
     },
     {
       "id": 69,
@@ -3647,7 +3715,8 @@
           "5-PS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The American flag waving and moving in the wind."
     },
     {
       "id": 70,
@@ -3692,7 +3761,8 @@
           "5-PS1-3"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Soap bubble formation and light interference."
     },
     {
       "id": 71,
@@ -3741,7 +3811,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Ice formation and the water cycle in action."
     },
     {
       "id": 72,
@@ -3790,7 +3861,8 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Rusting - a chemical change that happens when iron or steel is exposed to oxygen and water over time."
     },
     {
       "id": 73,
@@ -3839,7 +3911,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The Anchoring Phenomenon this image represents is biological weathering and colonization of rock surfaces."
     },
     {
       "id": 74,
@@ -3889,7 +3962,8 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Seed dispersal and water collection on plant structures."
     },
     {
       "id": 75,
@@ -3938,7 +4012,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The anchoring phenomenon shown here is slime mold growth and feeding behavior."
     },
     {
       "id": 76,
@@ -3989,7 +4064,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Seasonal change in deciduous trees, specifically autumn leaf color change and leaf drop."
     },
     {
       "id": 77,
@@ -4041,7 +4117,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A grasshopper using its specialized body parts to interact with its environment for survival."
     },
     {
       "id": 78,
@@ -4091,7 +4168,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Cicada emergence and adult transformation."
     },
     {
       "id": 79,
@@ -4139,7 +4217,8 @@
           "5-ESS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Fog formation during dawn."
     },
     {
       "id": 80,
@@ -4189,7 +4268,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Ice melting and the freezing process that created the ice ball's unique appearance."
     },
     {
       "id": 81,
@@ -4240,7 +4320,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A stinkhorn mushroom emerging from decomposing organic matter."
     },
     {
       "id": 82,
@@ -4290,7 +4371,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Animal adaptation for survival in specific habitats."
     },
     {
       "id": 83,
@@ -4340,7 +4422,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Amphibian adaptation to terrestrial environments."
     },
     {
       "id": 84,
@@ -4384,7 +4467,8 @@
           "5-PS1-3"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Non-contact temperature measurement using infrared radiation."
     },
     {
       "id": 85,
@@ -4435,7 +4519,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Animal adaptation for survival."
     },
     {
       "id": 86,
@@ -4483,7 +4568,8 @@
           "5-ESS3.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Soil preparation for agriculture."
     },
     {
       "id": 87,
@@ -4533,7 +4619,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The anchoring phenomenon illustrated here is animal adaptation for survival."
     },
     {
       "id": 88,
@@ -4582,7 +4669,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "The anchoring phenomenon shown here is pollination - the process where insects visit flowers to collect nectar or pollen for food, and accidentally transfer pollen between flowers."
     },
     {
       "id": 89,
@@ -4634,7 +4722,8 @@
           "5-PS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A robot programmed to explore and collect information from its surroundings."
     },
     {
       "id": 90,
@@ -4690,7 +4779,8 @@
           "5-LS4.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does a snake shed its skin, and how does its skin help it survive?"
     },
     {
       "id": 91,
@@ -4747,7 +4837,8 @@
           "5-LS4.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "How do snails move and find food in their environment?"
     },
     {
       "id": 92,
@@ -4801,7 +4892,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A bee pollinating a flower through the transfer of pollen."
     },
     {
       "id": 93,
@@ -4855,7 +4947,8 @@
           "5-ESS3.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does soil look different in different layers?"
     },
     {
       "id": 94,
@@ -4910,7 +5003,8 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Deciduous trees losing their leaves and changing color in autumn."
     },
     {
       "id": 95,
@@ -4962,7 +5056,8 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A moving skateboard and skateboarder demonstrate kinetic energy—the energy of motion."
     },
     {
       "id": 96,
@@ -5014,7 +5109,8 @@
           "5-ESS3.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Snowfall (frozen precipitation)"
     },
     {
       "id": 97,
@@ -5069,7 +5165,8 @@
           "5-LS1-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do spiders live on the ground?"
     },
     {
       "id": 98,
@@ -5125,7 +5222,8 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A boom lift extending high into the air to help a worker reach tall locations."
     },
     {
       "id": 99,
@@ -5181,7 +5279,8 @@
           "5-LS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does water collect in low areas on Earth, and how do landforms like lakes change over time?"
     },
     {
       "id": 100,
@@ -5233,7 +5332,8 @@
           "5-ESS1.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does the sky change colors during sunrise, and why does the sun appear to move across the sky?"
     },
     {
       "id": 101,
@@ -5287,7 +5387,8 @@
           "5-LS4-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Animal Camouflage"
     },
     {
       "id": 102,
@@ -5340,7 +5441,8 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Seed germination—the process where a seed breaks open and begins to grow into a plant."
     },
     {
       "id": 103,
@@ -5393,7 +5495,8 @@
           "5-LS4.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Warning Coloration in Snakes"
     },
     {
       "id": 104,
@@ -5447,7 +5550,8 @@
           "5-LS1.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do flowers have colorful petals and sticky, dusty parts in the middle?"
     },
     {
       "id": 105,
@@ -5504,7 +5608,8 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do insects look so different when they are babies than when they are adults?"
     },
     {
       "id": 106,
@@ -5563,7 +5668,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do spiders sometimes crawl on people, and how do they move so carefully?"
     },
     {
       "id": 107,
@@ -5619,7 +5725,8 @@
           "5-LS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do reptiles like alligators have scales covering their entire bodies?"
     },
     {
       "id": 108,
@@ -5678,7 +5785,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A pond is a freshwater habitat where plants and animals depend on each other to survive."
     },
     {
       "id": 109,
@@ -5730,7 +5838,8 @@
           "5-LS3.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do baby birds look similar to their parents?"
     },
     {
       "id": 110,
@@ -5783,7 +5892,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do evergreen trees get covered with heavy snow while deciduous trees lose their leaves?"
     },
     {
       "id": 111,
@@ -5835,7 +5945,8 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A person jumping into the air and landing back on the ground."
     },
     {
       "id": 112,
@@ -5889,7 +6000,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "How do predators like alligators catch their food if other animals can see them coming?"
     },
     {
       "id": 113,
@@ -5942,7 +6054,8 @@
       },
       "processingCost": 0.2487,
       "processingTime": "3m 30s",
-      "processedAt": "2026-02-11T18:24:33.666Z"
+      "processedAt": "2026-02-11T18:24:33.666Z",
+      "phenomenon": "Why do some plants climb instead of grow straight up?"
     },
     {
       "id": 114,
@@ -5997,7 +6110,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A cicada shedding its exoskeleton during metamorphosis"
     },
     {
       "id": 115,
@@ -6054,7 +6168,8 @@
           "5-LS2.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Large-scale bird migration and flocking behavior"
     },
     {
       "id": 116,
@@ -6110,7 +6225,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A spider web structure with visible geometric patterns and morning dew."
     },
     {
       "id": 117,
@@ -6165,7 +6281,8 @@
           "5-LS4.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do some animals live on the ground?"
     },
     {
       "id": 118,
@@ -6216,7 +6333,8 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Electricity flowing through different pathways to light up devices or make them work."
     },
     {
       "id": 119,
@@ -6268,7 +6386,8 @@
           "5-ESS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Storm Formation and Severe Weather Development"
     },
     {
       "id": 120,
@@ -6325,7 +6444,8 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Complete Metamorphosis in Insects"
     },
     {
       "id": 121,
@@ -6382,7 +6502,8 @@
           "5-PS3.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Heat energy from the stove is causing the egg proteins to permanently change structure—a process called denaturation."
     },
     {
       "id": 122,
@@ -6436,7 +6557,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does a praying mantis hold its front legs up in the air?"
     },
     {
       "id": 123,
@@ -6491,7 +6613,8 @@
           "5-LS3.D"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does this robin have different colored feathers on different parts of its body?"
     },
     {
       "id": 124,
@@ -6546,7 +6669,8 @@
           "5-LS3.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do flowers in the same garden look different from each other?"
     },
     {
       "id": 125,
@@ -6597,7 +6721,8 @@
           "5-ESS3.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "How do scientists measure the amount of rain that falls?"
     },
     {
       "id": 126,
@@ -6650,7 +6775,8 @@
           "5-LS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "This image shows camouflage—an adaptation where an animal's color, pattern, or shape helps it blend into its environment."
     },
     {
       "id": 127,
@@ -6705,7 +6831,8 @@
           "5-LS4.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why is this lizard green, and how does its color help it survive?"
     },
     {
       "id": 128,
@@ -6761,7 +6888,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do frogs have special sticky toe pads and bumpy skin?"
     },
     {
       "id": 129,
@@ -6815,7 +6943,8 @@
           "5-PS3.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "How can we build things that move using simple materials?"
     },
     {
       "id": 130,
@@ -6870,7 +6999,8 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "A backhoe loader using mechanical advantage to lift and move heavy loads that would be impossible for humans to move alone."
     },
     {
       "id": 131,
@@ -6920,7 +7050,8 @@
           "5-PS1.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Early spring flowers blooming during a late-season snow event."
     },
     {
       "id": 132,
@@ -6975,7 +7106,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Pollination—the transfer of pollen between flowers by insects."
     },
     {
       "id": 133,
@@ -7026,7 +7158,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Animal tracks in mud reveal evidence of which animals live in an area and how they move."
     },
     {
       "id": 134,
@@ -7078,7 +7211,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Mushrooms appearing suddenly in mulch or wood chips"
     },
     {
       "id": 135,
@@ -7133,7 +7267,8 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Frost formation through direct deposition"
     },
     {
       "id": 136,
@@ -7186,7 +7321,8 @@
           "5-PS1.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "When you combine different materials together, you create a mixture."
     },
     {
       "id": 137,
@@ -7255,7 +7391,8 @@
       },
       "processingCost": 0.2487,
       "processingTime": "5m 12s",
-      "processedAt": "2026-02-12T06:48:14.679Z"
+      "processedAt": "2026-02-12T06:48:14.679Z",
+      "phenomenon": "Wind energy being captured and converted into usable power."
     },
     {
       "id": 138,
@@ -7312,7 +7449,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does a grasshopper have long back legs and antennae?"
     },
     {
       "id": 139,
@@ -7367,7 +7505,8 @@
           "5-LS4-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Animal Camouflage—Why does the katydid look like the plants it lives on?"
     },
     {
       "id": 140,
@@ -7422,7 +7561,8 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "How does a hummingbird stay floating in the air while it drinks from flowers?"
     },
     {
       "id": 141,
@@ -7473,7 +7613,8 @@
           "5-PS3.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Heat transfer and the role of liquids in managing temperature in machines."
     },
     {
       "id": 142,
@@ -7527,7 +7668,8 @@
           "5-PS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do railroad tracks have two parallel rails instead of one, and how do they stay in place?"
     },
     {
       "id": 143,
@@ -7582,7 +7724,8 @@
           "5-LS4-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do some plants have thorns?"
     },
     {
       "id": 144,
@@ -7636,7 +7779,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do plants make seeds inside fruits?"
     },
     {
       "id": 145,
@@ -7688,7 +7832,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "An egg transitioning from a protective shell into a growing organism."
     },
     {
       "id": 146,
@@ -7742,7 +7887,8 @@
           "K-PS3.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Light refraction and dispersion creating a rainbow."
     },
     {
       "id": 147,
@@ -7794,7 +7940,8 @@
           "K-PS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Water management and flow in community infrastructure."
     },
     {
       "id": 148,
@@ -7848,7 +7995,8 @@
           "5-LS2-1"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does this lizard have two different skin colors—brown on one side and white on the other?"
     },
     {
       "id": 149,
@@ -7903,7 +8051,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do some birds have bare heads and eat dead animals?"
     },
     {
       "id": 150,
@@ -7955,7 +8104,8 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do tires have bumpy patterns with grooves instead of smooth rubber?"
     },
     {
       "id": 151,
@@ -8009,7 +8159,8 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do earthworms come to the surface after rain?"
     },
     {
       "id": 152,
@@ -8063,7 +8214,8 @@
           "5-PS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does a train need special signals and crossings, and how can something so heavy move so smoothly on metal tracks?"
     },
     {
       "id": 153,
@@ -8114,7 +8266,8 @@
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why does a centipede have so many legs?"
     },
     {
       "id": 154,
@@ -8169,7 +8322,8 @@
           "5-ESS2.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Seasonal Phase Change of Water (Ice to Liquid)"
     },
     {
       "id": 155,
@@ -8225,7 +8379,8 @@
           "5-LS2.B"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "This image shows symbiosis in action—specifically, a mutualistic relationship between a cattle egret and livestock."
     },
     {
       "id": 156,
@@ -8279,7 +8434,8 @@
           "5-LS1.C"
         ]
       },
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Why do trees grow so large and live for such a long time?"
     },
     {
       "id": 157,
@@ -8334,7 +8490,8 @@
         "nutrient cycling",
         "ecosystem"
       ],
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Anchoring Phenomenon: Decomposition and Nutrient Cycling in Forest Ecosystems"
     },
     {
       "id": 158,
@@ -8386,7 +8543,8 @@
         "birds",
         "ecosystem"
       ],
-      "processingCost": 0.2487
+      "processingCost": 0.2487,
+      "phenomenon": "Birds use their special body parts to find and catch food in specific habitats."
     },
     {
       "id": 159,
@@ -8442,7 +8600,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "3m 33s",
-      "processedAt": "2026-02-10T21:14:34.958Z"
+      "processedAt": "2026-02-10T21:14:34.958Z",
+      "phenomenon": "Solar panels capture sunlight energy and convert it into usable electrical energy."
     },
     {
       "id": 160,
@@ -8499,7 +8658,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "3m 17s",
-      "processedAt": "2026-02-11T01:41:19.693Z"
+      "processedAt": "2026-02-11T01:41:19.693Z",
+      "phenomenon": "How does electricity travel from power plants to our homes?"
     },
     {
       "id": 161,
@@ -8549,7 +8709,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "3m 48s",
-      "processedAt": "2026-02-11T16:13:50.853Z"
+      "processedAt": "2026-02-11T16:13:50.853Z",
+      "phenomenon": "Using renewable resources (wood) to build shelter"
     },
     {
       "id": 163,
@@ -8599,7 +8760,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "3m 10s",
-      "processedAt": "2026-02-11T23:08:11.797Z"
+      "processedAt": "2026-02-11T23:08:11.797Z",
+      "phenomenon": "Why does the rock have a dark shadow?"
     },
     {
       "id": 164,
@@ -8666,7 +8828,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "3m 45s",
-      "processedAt": "2026-02-12T01:05:48.612Z"
+      "processedAt": "2026-02-12T01:05:48.612Z",
+      "phenomenon": "Parent bird feeding or caring for an offspring bird."
     },
     {
       "id": 165,
@@ -8730,7 +8893,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "3m 34s",
-      "processedAt": "2026-02-12T01:09:36.886Z"
+      "processedAt": "2026-02-12T01:09:36.886Z",
+      "phenomenon": "Pollination through a bee-flower relationship"
     },
     {
       "id": 166,
@@ -8794,7 +8958,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "3m 44s",
-      "processedAt": "2026-02-12T01:13:47.099Z"
+      "processedAt": "2026-02-12T01:13:47.099Z",
+      "phenomenon": "Why do birds have feathers, feet, and wings?"
     },
     {
       "id": 167,
@@ -8858,7 +9023,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "3m 50s",
-      "processedAt": "2026-02-12T01:17:52.234Z"
+      "processedAt": "2026-02-12T01:17:52.234Z",
+      "phenomenon": "How do big and small vehicles move using different amounts of energy?"
     },
     {
       "id": 168,
@@ -8919,7 +9085,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "3m 47s",
-      "processedAt": "2026-02-12T06:42:49.658Z"
+      "processedAt": "2026-02-12T06:42:49.658Z",
+      "phenomenon": "Why does a crab live on the beach and dig in the sand?"
     },
     {
       "id": 169,
@@ -8988,7 +9155,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "4m 12s",
-      "processedAt": "2026-02-12T08:11:14.782Z"
+      "processedAt": "2026-02-12T08:11:14.782Z",
+      "phenomenon": "A pollinator waystation is a garden purposefully planted with flowering plants that attract and support pollinators and other beneficial insects."
     },
     {
       "id": 170,
@@ -9065,7 +9233,8 @@
       ],
       "processingCost": 0.2487,
       "processingTime": "4m 0s",
-      "processedAt": "2026-02-12T09:32:02.841Z"
+      "processedAt": "2026-02-12T09:32:02.841Z",
+      "phenomenon": "Coastal erosion and the dynamic interaction between ocean waves and land."
     },
     {
       "id": 171,
@@ -9126,7 +9295,8 @@
       ],
       "processingCost": 0.2628,
       "processingTime": "3m 46s",
-      "processedAt": "2026-02-12T20:37:49.160Z"
+      "processedAt": "2026-02-12T20:37:49.160Z",
+      "phenomenon": "Energy transformation from chemical energy (propane gas) to thermal energy (heat) and light energy (the glowing red elements and blue flame)."
     },
     {
       "id": 173,
@@ -9184,7 +9354,8 @@
       ],
       "processingCost": 0.2387,
       "processingTime": "3m 25s",
-      "processedAt": "2026-02-13T02:53:27.648Z"
+      "processedAt": "2026-02-13T02:53:27.648Z",
+      "phenomenon": "Dead wood decomposition and cavity formation in living trees."
     }
   ]
 }

@@ -736,14 +736,21 @@ async function processImageFromQueue(queueItem) {
     const totalStandards = Object.values(ngssStandards).reduce((sum, arr) => sum + arr.length, 0);
     console.log(`✅ Extracted ${totalStandards} NGSS standards across all grade levels (${CATEGORY_TO_NGSS_DOMAIN[category] || '?'} domain)`);
 
-    // Update metadata with content flag and NGSS standards
+    // Extract anchoring phenomenon for gallery hover text
+    const phenomenon = extractPhenomenon(educationalContent);
+    if (phenomenon) {
+      console.log(`🔬 Extracted phenomenon: "${phenomenon.substring(0, 80)}${phenomenon.length > 80 ? '...' : ''}"`);
+    }
+
+    // Update metadata with content flag, NGSS standards, and phenomenon
     const metadataUpdated = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
     const imageEntry = metadataUpdated.images.find(img => img.id === nextId);
     if (imageEntry) {
       imageEntry.hasContent = true;
       imageEntry.ngssStandards = ngssStandards;
+      imageEntry.phenomenon = phenomenon;
       await fs.writeFile(metadataPath, JSON.stringify(metadataUpdated, null, 2));
-      console.log('✅ Marked hasContent as true and added NGSS standards to metadata');
+      console.log('✅ Marked hasContent as true, added NGSS standards and phenomenon to metadata');
     }
 
     // Generate search keywords
@@ -1073,6 +1080,66 @@ function extractNGSSStandards(content) {
  * - Abbreviated: grade1, grade2, grade3, grade4, grade5
  * - Spelled-out: firstgrade, secondgrade, thirdgrade, fourthgrade, fifthgrade
  */
+
+/**
+ * Extract the Anchoring Phenomenon text from educational content markdown.
+ * Tries grade3/thirdgrade first (default), then falls back to any available grade.
+ * @param {Object} educationalContent - Object with grade keys mapping to markdown strings
+ * @returns {string} The extracted phenomenon text, or empty string if not found
+ */
+function extractPhenomenon(educationalContent) {
+  if (!educationalContent || typeof educationalContent !== 'object') return '';
+
+  // Prefer third grade content (matches the base content file default)
+  const preferredKeys = ['thirdgrade', 'grade3', 'kindergarten', 'firstgrade', 'grade1'];
+  let markdown = '';
+  for (const key of preferredKeys) {
+    if (educationalContent[key]) {
+      markdown = educationalContent[key];
+      break;
+    }
+  }
+  // Fallback: use any available grade content
+  if (!markdown) {
+    const firstKey = Object.keys(educationalContent).find(k => educationalContent[k]);
+    if (firstKey) markdown = educationalContent[firstKey];
+  }
+  if (!markdown) return '';
+
+  // Pattern 1: **Anchoring Phenomenon:** <text>
+  const colonMatch = markdown.match(/\*\*Anchoring Phenomenon:\*\*\s*(.+)/);
+  if (colonMatch) {
+    return colonMatch[1]
+      .replace(/\*\*/g, '')
+      .replace(/\*/g, '')
+      .trim();
+  }
+
+  // Pattern 2: Extract first sentence from Scientific Phenomena section
+  const sectionMatch = markdown.match(/## .*Scientific Phenomena\n+([\s\S]*?)(?=\n## )/);
+  if (sectionMatch) {
+    const sectionText = sectionMatch[1].trim();
+    const firstSentence = sectionText.match(/^(.+?\.)\s/);
+    if (firstSentence) {
+      let text = firstSentence[1]
+        .replace(/\*\*/g, '')
+        .replace(/\*/g, '')
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+        .trim();
+      text = text
+        .replace(/^The [Aa]nchoring [Pp]henomenon (?:shown |here )?is\s*/i, '')
+        .replace(/^This image (?:demonstrates|represents|captures|shows) the [Aa]nchoring [Pp]henomenon of\s*/i, '')
+        .replace(/^This image (?:demonstrates|represents|captures|shows)\s*/i, '');
+      if (text.length > 0) {
+        text = text.charAt(0).toUpperCase() + text.slice(1);
+      }
+      return text;
+    }
+  }
+
+  return '';
+}
+
 function extractAllGradeLevelStandards(educational, category) {
   const ngssStandards = {};
   const domainPrefix = category ? CATEGORY_TO_NGSS_DOMAIN[category] : null;
