@@ -2,13 +2,13 @@
   "hotspots": [
     {
       "id": 1,
-      "x": "68%",
-      "y": "28%",
+      "x": "65%",
+      "y": "25%",
       "label": "Assassin Bug",
-      "fact": "This insect is visiting the flower to find food and help the plant at the same time! When the bug lands on flowers, pollen sticks to its body. As it moves from flower to flower, it carries the pollen, which helps plants make seeds and new plants grow. This is called **pollination** — that's when pollen is carried from one flower to another so plants can make seeds.",
+      "fact": "This insect is visiting the flower to find food and help the plant at the same time! When insects land on flowers to drink nectar, they pick up yellow powder called pollen on their bodies. As they move from flower to flower, they spread this pollen, which helps plants make seeds and grow new plants.",
       "vocabulary": {
         "term": "Pollination",
-        "definition": "When pollen is carried from one flower to another, usually by insects or wind, so that plants can make seeds and reproduce."
+        "definition": "When pollen is carried from one flower to another by insects or wind, helping plants make seeds."
       }
     },
     {
@@ -16,32 +16,32 @@
       "x": "50%",
       "y": "50%",
       "label": "Yellow Center",
-      "fact": "The bright yellow center of the flower is called the disk, and it contains the pollen and special parts that make seeds. Insects like this bug are attracted to the yellow color because it's easy to see! The flower provides food for the insect, and in return, the insect helps the flower by spreading its pollen.",
+      "fact": "The bright yellow center of this flower is called the stamen, and it produces the pollen that insects need to carry. Different plants have different colors and shapes to attract different insects and animals. This is a special adaptation that helps living things survive and work together in nature.",
       "vocabulary": {
-        "term": "Pollen",
-        "definition": "A fine, powdery substance made by flowers that helps plants make seeds. Pollen is carried by insects or wind from flower to flower."
+        "term": "Adaptation",
+        "definition": "A special feature or behavior that helps a living thing survive and do well in its environment."
       }
     },
     {
       "id": 3,
       "x": "50%",
-      "y": "65%",
+      "y": "70%",
       "label": "White Petals",
-      "fact": "The white petals around the flower are like a colorful advertisement that says 'Come visit me!' Flowers need insects and other animals to visit them so they can reproduce and make new plants. Different flowers have different colors, shapes, and smells to attract the animals that will help them the most.",
+      "fact": "The white petals you see are like a landing pad for insects! Flowers use bright colors and patterns to signal to insects: 'Come here for food!' The shape and color of petals help insects find the flower and know it has nectar and pollen to eat.",
       "vocabulary": {
-        "term": "Reproduction",
-        "definition": "When living things make new copies of themselves. Plants reproduce by making seeds with help from insects and other animals."
+        "term": "Nectar",
+        "definition": "A sweet liquid inside flowers that insects drink for energy, similar to how we drink juice."
       }
     },
     {
       "id": 4,
-      "x": "72%",
-      "y": "20%",
-      "label": "Bug's Long Legs",
-      "fact": "The bug's long, thin legs help it walk across delicate flowers without damaging them. As it crawls around looking for food, the pollen sticks to its legs and body. Then, when it visits the next flower, some of that pollen rubs off, helping that flower grow seeds. This is an example of **mutualism** — when two living things help each other.",
+      "x": "70%",
+      "y": "35%",
+      "label": "Insect Legs",
+      "fact": "The bug's long, thin legs help it grip the flower petals while it feeds. Insects have six legs, and their bodies are specially designed to move around different plants and flowers. These interactions between insects and plants are important because they help plants reproduce and create food for other animals.",
       "vocabulary": {
-        "term": "Mutualism",
-        "definition": "When two different living things help each other. The bug gets food and the flower gets help making seeds."
+        "term": "Ecosystem",
+        "definition": "A community of living things (like plants and insects) and non-living things (like soil and water) that all depend on each other."
       }
     }
   ]

@@ -4638,39 +4638,54 @@
         "insect",
         "flower",
         "plant reproduction",
-        "ecosystem",
-        "organism"
+        "organism interaction",
+        "life cycle"
       ],
       "ngssStandards": {
         "kindergarten": [
           "K-LS1-1",
-          "K-LS1.C"
+          "K-LS1.A"
         ],
         "grade1": [
           "1-LS1-1",
-          "1-LS1.A"
+          "1-LS1-2",
+          "1-LS1.A",
+          "1-LS1.B",
+          "1-LS3-1"
         ],
         "grade2": [
-          "1-LS1.A",
+          "2-LS2-1",
+          "2-LS2-2",
+          "2-LS2.A",
           "2-LS4-1",
-          "2-LS4.D"
+          "2-LS4.A"
         ],
         "grade3": [
-          "3-LS2-1",
+          "3-LS3-1",
+          "3-LS3-2",
+          "3-LS3.A",
+          "3-LS4-2",
           "3-LS4-3",
-          "3-LS4-B"
+          "3-LS4.B",
+          "3-LS4.C"
         ],
         "grade4": [
-          "5-LS2-1",
-          "5-LS2.A"
+          "4-LS1-1",
+          "4-LS1-2",
+          "4-LS1.A",
+          "4-LS1.D"
         ],
         "grade5": [
+          "5-LS1-1",
+          "5-LS1.A",
           "5-LS2-1",
           "5-LS2.A"
         ]
       },
-      "processingCost": 0.2787,
-      "phenomenon": "The anchoring phenomenon shown here is pollination - the process where insects visit flowers to collect nectar or pollen for food, and accidentally transfer pollen between flowers."
+      "processingCost": 0.1084,
+      "phenomenon": "A pollination interaction—a relationship between an animal and a plant that benefits both organisms.",
+      "processingTime": "3m 38s",
+      "processedAt": "2026-02-15T06:10:41.821Z"
     },
     {
       "id": 89,
