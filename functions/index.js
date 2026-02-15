@@ -3282,7 +3282,13 @@ exports.adminUpdateImageMetadata = functions
       metadata.lastUpdated = new Date().toISOString();
       await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
 
+      // Rebuild ngss-index.json so coverage map and search stay accurate
+      if (ngssStandards !== undefined) {
+        await buildNgssIndex(repoDir);
+      }
+
       await repoGit.add('gallery-metadata.json');
+      await repoGit.add('ngss-index.json');
       await repoGit.commit(`Update metadata for "${image.title}" (ID ${imageId})\n\nChanges: ${changes.join(', ')}\n\nUpdated via SIAS Admin Dashboard`);
       await pushWithRetry(repoGit);
 
