@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "25%",
+      "y": "35%",
+      "label": "Ice Crystals",
+      "fact": "These sparkly, frozen water droplets form when water freezes solid during cold weather. Ice crystals like these can stick together to make snow, sleet, or frost that covers the ground. This is called **crystallization** — that's when water changes from a liquid into solid ice with a special geometric pattern.",
+      "vocabulary": {
+        "term": "Crystallization",
+        "definition": "The process where a liquid turns into solid crystals with organized, repeating patterns."
+      }
+    },
+    {
+      "id": 2,
+      "x": "55%",
+      "y": "50%",
+      "label": "Sandy Soil",
+      "fact": "The brown ground beneath the ice is made of tiny particles of rock and soil that have been broken down over many years. Sand grains like these come from larger rocks that have been weathered and eroded by wind, water, and ice. This process is called **weathering** — that's when rocks slowly break apart into smaller pieces.",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The natural process where rocks and minerals slowly break down into smaller pieces due to wind, water, ice, or temperature changes."
+      }
+    },
+    {
+      "id": 3,
+      "x": "70%",
+      "y": "25%",
+      "label": "Frozen Surface",
+      "fact": "When temperatures drop below freezing (32°F or 0°C), water on Earth's surface freezes into ice and snow. This frozen layer affects how water moves through landscapes and changes what plants and animals can do during winter. This is called the **water cycle** — that's how water moves around Earth as it freezes, melts, and evaporates.",
+      "vocabulary": {
+        "term": "Water Cycle",
+        "definition": "The continuous movement of water on Earth as it evaporates into the air, condenses into clouds, falls as precipitation, and flows back to the ocean."
+      }
+    },
+    {
+      "id": 4,
+      "x": "45%",
+      "y": "65%",
+      "label": "Winter Weather Effects",
+      "fact": "Frost and ice forming on the ground shows how cold winter weather changes Earth's surface and affects soil conditions. These frozen layers can protect seeds underneath from extreme cold, but they also prevent water and nutrients from reaching plant roots. Understanding these **weather patterns** helps scientists predict how seasons change throughout the year.",
+      "vocabulary": {
+        "term": "Weather Patterns",
+        "definition": "The typical conditions of wind, temperature, and precipitation that happen during different seasons and locations on Earth."
+      }
+    }
+  ]
+}

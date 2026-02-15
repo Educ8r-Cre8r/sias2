@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-14T05:21:58.635Z",
-  "totalImages": 171,
+  "lastUpdated": "2026-02-15T05:28:10.222Z",
+  "totalImages": 172,
   "imageOrder": [
     1,
     2,
@@ -9356,6 +9356,74 @@
       "processingTime": "3m 25s",
       "processedAt": "2026-02-13T02:53:27.648Z",
       "phenomenon": "Dead wood decomposition and cavity formation in living trees."
+    },
+    {
+      "id": 174,
+      "filename": "precipitation_hail.jpg",
+      "category": "earth-space-science",
+      "imagePath": "images/earth-space-science/precipitation_hail.jpg",
+      "thumbPath": "images/earth-space-science/thumbs/precipitation_hail.jpg",
+      "webpPath": "images/earth-space-science/webp/precipitation_hail.webp",
+      "placeholderPath": "images/earth-space-science/placeholders/precipitation_hail.jpg",
+      "contentFile": "content/earth-space-science/precipitation_hail.json",
+      "title": "Precipitation Hail",
+      "hasContent": true,
+      "ngssStandards": {
+        "kindergarten": [
+          "K-ESS2-1",
+          "K-ESS2.A",
+          "K-ESS2.D",
+          "K-ESS3-2",
+          "K-ESS3-3"
+        ],
+        "grade1": [
+          "1-ESS1-1",
+          "1-ESS1-2",
+          "1-ESS1.A",
+          "1-ESS1.B"
+        ],
+        "grade2": [
+          "2-ESS1-1",
+          "2-ESS1.A",
+          "2-ESS2-3",
+          "2-ESS2.B"
+        ],
+        "grade3": [
+          "3-ESS2-1",
+          "3-ESS2-2",
+          "3-ESS2.A",
+          "3-ESS3-1",
+          "3-ESS3.B"
+        ],
+        "grade4": [
+          "4-ESS2-1",
+          "4-ESS2-2",
+          "4-ESS2.A",
+          "4-ESS2.B",
+          "4-ESS3-1",
+          "4-ESS3-2",
+          "4-ESS3.B"
+        ],
+        "grade5": [
+          "5-ESS2-1",
+          "5-ESS2-2",
+          "5-ESS2.A",
+          "5-ESS2.C",
+          "5-ESS3-1"
+        ]
+      },
+      "phenomenon": "This photograph captures hail formation and precipitation—a dramatic weather event where water freezes into ice pellets in the atmosphere before falling to Earth.",
+      "keywords": [
+        "ice crystals",
+        "frozen water",
+        "states of matter",
+        "winter",
+        "frost",
+        "weathering"
+      ],
+      "processingCost": 0.106,
+      "processingTime": "3m 34s",
+      "processedAt": "2026-02-15T05:31:37.351Z"
     }
   ]
 }
