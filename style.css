@@ -513,6 +513,7 @@ a:hover {
   font-size: 1.25rem;
 }
 
+
 /* Search Bar */
 .search-container {
   max-width: 800px;
@@ -4398,7 +4399,7 @@ a:hover {
   border: 1px solid #90CAF9;
   border-radius: var(--radius-lg);
   margin-bottom: var(--spacing-lg);
-  overflow: hidden;
+  overflow: visible;
   transition: all 0.3s ease;
 }
 
@@ -4439,6 +4440,16 @@ a:hover {
   color: white;
   font-size: 0.75rem;
   font-weight: 700;
+  animation: dqcPulse 2s ease-in-out infinite;
+}
+
+@keyframes dqcPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(46, 134, 171, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(46, 134, 171, 0);
+  }
 }
 
 .dqc-toggle {
@@ -4490,6 +4501,99 @@ a:hover {
   color: var(--color-text-light);
   margin-top: 2px;
   font-style: italic;
+}
+
+/* ---- Info Tip Tooltips for Bloom's / DOK ---- */
+.dq-info-tip {
+  position: relative;
+  cursor: default;
+  border-bottom: 1px dotted var(--color-text-light);
+}
+
+/* Tooltip bubble — positioned ABOVE to avoid clipping by modal-body overflow */
+.dq-info-tip[data-info-tooltip]::after {
+  content: attr(data-info-tooltip);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.95);
+  background-color: var(--color-text-dark);
+  color: white;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.45;
+  white-space: pre-line;
+  width: max-content;
+  max-width: 280px;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 100;
+  transition: opacity var(--transition-fast), transform var(--transition-fast);
+}
+
+/* Arrow pointing DOWN (tooltip is above) */
+.dq-info-tip[data-info-tooltip]::before {
+  content: '';
+  position: absolute;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-top-color: var(--color-text-dark);
+  pointer-events: none;
+  opacity: 0;
+  z-index: 100;
+  transition: opacity var(--transition-fast);
+}
+
+/* Show on hover + keyboard focus */
+.dq-info-tip[data-info-tooltip]:hover::after,
+.dq-info-tip[data-info-tooltip]:focus-visible::after {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
+.dq-info-tip[data-info-tooltip]:hover::before,
+.dq-info-tip[data-info-tooltip]:focus-visible::before {
+  opacity: 1;
+}
+
+/* Focus ring for keyboard navigation */
+.dq-info-tip:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+  border-radius: 2px;
+}
+
+/* DOK span (last tip) — left-align tooltip so it extends rightward */
+.dq-meta .dq-info-tip:last-child[data-info-tooltip]::after {
+  left: 0;
+  transform: translateX(0) scale(0.95);
+}
+.dq-meta .dq-info-tip:last-child[data-info-tooltip]:hover::after,
+.dq-meta .dq-info-tip:last-child[data-info-tooltip]:focus-visible::after {
+  transform: translateX(0) scale(1);
+}
+.dq-meta .dq-info-tip:last-child[data-info-tooltip]::before {
+  left: 12px;
+  transform: none;
+}
+
+/* Mobile: tap triggers focus which shows tooltip */
+@media (hover: none) {
+  .dq-info-tip[data-info-tooltip]:focus::after {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
+  .dq-info-tip[data-info-tooltip]:focus::before {
+    opacity: 1;
+  }
+  .dq-meta .dq-info-tip:last-child[data-info-tooltip]:focus::after {
+    transform: translateX(0) scale(1);
+  }
 }
 
 .dqc-actions {

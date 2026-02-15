@@ -24,6 +24,47 @@ const state = {
 
 const IMAGES_PER_PAGE = 48;
 
+// Bloom's Taxonomy verb definitions for tooltip display
+const BLOOMS_DEFINITIONS = {
+  // Level 1: Remember
+  'Remember':     { level: 1, def: 'Recall facts and basic concepts' },
+  'Recall':       { level: 1, def: 'Recall facts and basic concepts' },
+  'Knowledge':    { level: 1, def: 'Recall facts and basic concepts' },
+  'Identify':     { level: 1, def: 'Recognize and name key information' },
+  'Observe':      { level: 1, def: 'Notice and describe what you see' },
+  // Level 2: Understand
+  'Understand':   { level: 2, def: 'Explain ideas or concepts' },
+  'Comprehend':   { level: 2, def: 'Explain ideas or concepts' },
+  'Describe':     { level: 2, def: 'Tell about something in detail' },
+  'Explain':      { level: 2, def: 'Clarify meaning and reasoning' },
+  'Compare':      { level: 2, def: 'Find similarities and differences' },
+  'Contrast':     { level: 2, def: 'Identify differences between things' },
+  'Connect':      { level: 2, def: 'Link ideas to prior knowledge' },
+  // Level 3: Apply
+  'Apply':        { level: 3, def: 'Use information in new situations' },
+  'Application':  { level: 3, def: 'Use information in new situations' },
+  'Predict':      { level: 3, def: 'Anticipate outcomes using knowledge' },
+  'Infer':        { level: 3, def: 'Draw conclusions from evidence' },
+  // Level 4: Analyze
+  'Analyze':      { level: 4, def: 'Break information into parts to explore relationships' },
+  'Analysis':     { level: 4, def: 'Break information into parts to explore relationships' },
+  'Hypothesize':  { level: 4, def: 'Form a testable explanation' },
+  // Level 5: Evaluate
+  'Evaluate':     { level: 5, def: 'Justify a decision or judgment' },
+  'Reason':       { level: 5, def: 'Think logically to form conclusions' },
+  // Level 6: Create
+  'Create':       { level: 6, def: 'Produce new or original work' },
+  'Synthesize':   { level: 6, def: 'Combine ideas to form new understanding' },
+};
+
+// Webb's DOK level definitions for tooltip display
+const DOK_DEFINITIONS = {
+  1: { label: 'Recall & Reproduction', def: 'Recall facts, terms, or simple procedures' },
+  2: { label: 'Skill/Concept', def: 'Use concepts, classify, compare, or organize' },
+  3: { label: 'Strategic Thinking', def: 'Reason, plan, or use evidence to solve problems' },
+  4: { label: 'Extended Thinking', def: 'Investigate or synthesize across sources and disciplines' },
+};
+
 // Cache for created gallery DOM elements — avoids re-creating nodes on filter changes
 const galleryItemCache = new Map();
 
@@ -1566,6 +1607,36 @@ function renderContent(contentData, modalBody, image) {
 }
 
 /**
+ * Build tooltip text for a Bloom's verb string.
+ * Handles combos like "Analyze/Evaluate", "Compare & Contrast", "Remember/Apply"
+ */
+function buildBloomsTooltip(verbString) {
+  const verbs = verbString.split(/\s*[\/&]\s*/).map(v => v.trim()).filter(Boolean);
+  return verbs.map(verb => {
+    const entry = BLOOMS_DEFINITIONS[verb];
+    return entry ? `${verb} (L${entry.level}): ${entry.def}` : verb;
+  }).join('\n');
+}
+
+/**
+ * Build tooltip text for a DOK level string.
+ * Handles single values ("3") and ranges ("2-3", "2–3")
+ */
+function buildDOKTooltip(dokString) {
+  const normalized = dokString.replace(/\u2013/g, '-');
+  const levels = normalized.split('-').map(s => parseInt(s.trim(), 10)).filter(n => !isNaN(n));
+  return levels.map(level => {
+    const entry = DOK_DEFINITIONS[level];
+    return entry ? `DOK ${level} \u2014 ${entry.label}: ${entry.def}` : `DOK ${level}`;
+  }).join('\n');
+}
+
+/** Escape a string for safe use in an HTML attribute */
+function escapeAttr(str) {
+  return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+/**
  * Extract discussion questions from markdown content and build a quick-access card
  */
 function extractDiscussionCard(markdownContent) {
@@ -1585,13 +1656,26 @@ function extractDiscussionCard(markdownContent) {
     // Remove outer bold wrappers
     cleaned = cleaned.replace(/\*\*(.*?)\*\*/g, '$1');
     // Split at Bloom's/DOK annotation if present
-    const parts = cleaned.split(/\s*\(Bloom['']s:/);
+    const parts = cleaned.split(/\s*\(Bloom['\u2019']s:?\s*/);
     const questionText = parts[0].trim();
-    const metaText = parts[1] ? '(' + 'Bloom\'s:' + parts[1] : '';
+    let metaHtml = '';
+
+    if (parts[1]) {
+      // Parse: "Analyze/Evaluate | DOK: 3)" or "Compare & Contrast | DOK: 2-3)"
+      const metaRaw = parts[1].replace(/\)\s*$/, '');
+      const metaParts = metaRaw.split(/\s*\|\s*/);
+      const bloomsRaw = (metaParts[0] || '').trim();
+      const dokRaw = (metaParts[1] || '').replace(/^DOK:\s*/i, '').trim();
+
+      const bloomsTooltip = buildBloomsTooltip(bloomsRaw);
+      const dokTooltip = buildDOKTooltip(dokRaw);
+
+      metaHtml = `<span class="dq-meta">(<span class="dq-info-tip" tabindex="0" data-info-tooltip="${escapeAttr(bloomsTooltip)}">Bloom\u2019s: ${bloomsRaw}</span> | <span class="dq-info-tip" tabindex="0" data-info-tooltip="${escapeAttr(dokTooltip)}">DOK: ${dokRaw}</span>)</span>`;
+    }
 
     return `<li>
       <span class="dq-text">${questionText}</span>
-      ${metaText ? `<span class="dq-meta">${metaText}</span>` : ''}
+      ${metaHtml}
     </li>`;
   }).join('');
 
