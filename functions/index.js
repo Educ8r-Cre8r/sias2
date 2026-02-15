@@ -2095,7 +2095,7 @@ async function generateEDPContentAndPDF(anthropicKey, imageBase64, mediaType, fi
 
   // Save EDP content JSON
   const edpData = {
-    title: nameNoExt.charAt(0).toUpperCase() + nameNoExt.slice(1).replace(/-/g, ' '),
+    title: generateTitle(filename),
     category,
     imageFile: filename,
     imagePath: `images/${category}/${filename}`,
@@ -2346,7 +2346,7 @@ async function generate5EContentAndPDFs(anthropicKey, imageBase64, mediaType, fi
     totalCost += cost;
 
     const markdownContent = response.content[0].text;
-    const title = nameNoExt.charAt(0).toUpperCase() + nameNoExt.slice(1).replace(/-/g, ' ');
+    const title = generateTitle(filename);
 
     // Save 5E content JSON
     const fiveEData = {
