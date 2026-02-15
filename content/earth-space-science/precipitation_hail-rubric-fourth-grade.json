@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Hail",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think hail forms so high up in the clouds instead of falling as rain?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hail forms in cold, upper parts of clouds where temperatures are freezing, and describes how water droplets freeze into ice instead of staying liquid; may mention that hail needs strong updrafts or multiple freeze cycles to grow.",
+        "meets": "Student correctly identifies that hail forms because it is very cold high up in the clouds, and explains that cold temperatures cause water to freeze into ice.",
+        "approaching": "Student states that hail forms high in clouds and mentions cold temperatures or freezing, but the explanation is incomplete or unclear about why this prevents rain formation.",
+        "beginning": "Student provides a vague answer such as 'it's cold up there' or 'clouds freeze' with little connection to why this creates hail instead of rain."
+      }
+    },
+    {
+      "questionText": "If we could look inside a large hailstone, what do you predict we would see, and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts concentric layers of clear and frosted ice and explains that hail grows by accumulating frozen water droplets in layers as it cycles through different cloud regions; may reference the photo to note the rounded shape indicates multiple coating cycles.",
+        "meets": "Student predicts layers of ice inside a hailstone and explains that the hailstone grows by adding more ice as it falls through the cloud.",
+        "approaching": "Student predicts ice or layers inside a hailstone but provides incomplete reasoning about how or why layers form.",
+        "beginning": "Student predicts ice inside a hailstone but offers no explanation, or provides an inaccurate prediction unrelated to ice formation."
+      }
+    },
+    {
+      "questionText": "How does hail change the rocks and soil it lands on, and how is this similar to or different from other types of weathering?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that hail impacts can crack, chip, or wear away rocks and soil through mechanical weathering, and correctly compares this to similar weathering (wind, water, ice) while distinguishing it from chemical weathering; may reference the photo's surface to describe impact damage.",
+        "meets": "Student identifies that hail impact can break down or damage rocks and soil, and correctly identifies this as mechanical weathering similar to other physical breaking processes.",
+        "approaching": "Student recognizes that hail changes rocks or soil but provides incomplete comparison to other weathering types, or confuses weathering types.",
+        "beginning": "Student provides minimal description of hail damage or attempts comparison without clear connection to weathering processes."
+      }
+    },
+    {
+      "questionText": "What solutions might farmers or communities use to reduce damage from severe hailstorms?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple realistic solutions (hail nets, storm prediction systems, crop insurance, building protection) with reasoning about how each addresses hail damage; demonstrates understanding of hail's destructive impact shown in the photo.",
+        "meets": "Student suggests at least two reasonable solutions for reducing hail damage, such as protective coverings or early warning systems, with basic explanation of how they help.",
+        "approaching": "Student offers one or two solutions with limited explanation, or suggests solutions that are partially realistic but lack clear connection to hail damage prevention.",
+        "beginning": "Student provides vague or unrealistic solutions with little explanation, or shows minimal understanding of how solutions would reduce hail damage."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T05:37:51.406Z",
+  "cost": 0.005228
+}

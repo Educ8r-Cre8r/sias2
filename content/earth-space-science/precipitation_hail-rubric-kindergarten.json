@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Hail",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happened to the water in the sky to make all these hard ice balls?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that water froze or got very cold in the sky and formed ice balls, and may add that this happens high up in the clouds where it is very cold.",
+        "meets": "Student states that the water froze or got cold and turned into ice balls, showing understanding that water changed form.",
+        "approaching": "Student mentions that water or ice is involved in making hail but does not clearly explain freezing or how the ice balls formed.",
+        "beginning": "Student provides a vague response like 'it got cold' or 'water' with little connection to how the hail ice balls were made."
+      }
+    },
+    {
+      "questionText": "How is hail different from rain or snow? What do you observe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that hail is hard, round ice balls (pointing to photo details), while rain is liquid water and snow is soft flakes, and explains that hail is much harder or heavier than the other types.",
+        "meets": "Student correctly observes that hail is hard and round like balls, while rain is wet and snow is soft and fluffy, showing clear differences.",
+        "approaching": "Student identifies one or two differences between hail and rain/snow but descriptions lack detail or clarity (e.g., 'hail is hard' without comparing to others).",
+        "beginning": "Student attempts to compare but provides inaccurate or unclear observations, such as confusing hail with snow or rain."
+      }
+    },
+    {
+      "questionText": "If we had hail fall near our school, how might it affect the plants in the playground or the animals living nearby?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard hail could damage or hurt plants (breaking leaves/flowers) and could hurt small animals, showing thoughtful reasoning about the hard ice balls' impact shown in the photo.",
+        "meets": "Student identifies that hail could hurt or damage plants and animals because the ice balls are hard, demonstrating basic cause-and-effect understanding.",
+        "approaching": "Student recognizes that hail might affect living things but explanation is incomplete or shows uncertain reasoning about why or how damage occurs.",
+        "beginning": "Student provides minimal response with little connection between hail's hard nature and its effects on plants or animals."
+      }
+    },
+    {
+      "questionText": "Why do you think people listen to weather forecasters when hail storms might come? What should we do to stay safe?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hail can hurt people or damage things (referencing the hard ice balls), so forecasters warn us ahead of time, and suggests staying inside or away from windows as a safety measure.",
+        "meets": "Student states that people listen to warnings because hail can be dangerous or hurt you, and identifies one simple safety action like going inside or staying away from hail.",
+        "approaching": "Student shows some understanding that hail warnings are important but explanation of danger is vague, or safety suggestions are unclear or incomplete.",
+        "beginning": "Student provides minimal response about listening to forecasters or staying safe with little reasoning or connection to hail's properties."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T05:37:15.918Z",
+  "cost": 0.004971
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Hail",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think hail is made of ice instead of water like rain?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hail forms high in cold clouds where water freezes into ice, and may connect this to temperature or altitude; uses words like 'freeze,' 'cold,' and 'ice' accurately.",
+        "meets": "Student correctly states that hail is ice because it is very cold high up in the clouds, or that water freezes to make ice instead of staying liquid.",
+        "approaching": "Student identifies that hail is cold or frozen, but explanation is incomplete or vague about where or why the freezing happens.",
+        "beginning": "Student provides minimal response such as 'it's cold' or 'it freezes' without clear explanation of the connection to clouds or temperature."
+      }
+    },
+    {
+      "questionText": "If hail falls on a warm day, what do you predict will happen to it? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts hail will melt and explains that warm temperatures cause ice to turn into water; may mention that this happens faster on warmer days.",
+        "meets": "Student predicts that hail will melt or turn into water on a warm day, with a reasonable explanation that warmth melts ice.",
+        "approaching": "Student predicts melting but gives incomplete reasoning, such as 'it will melt because it's warm' without connecting temperature to the change of state.",
+        "beginning": "Student makes a prediction but provides little or incorrect reasoning; may not understand the connection between heat and melting."
+      }
+    },
+    {
+      "questionText": "How is hail different from snow? Where does each form?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences (hail is ice pellets/round, snow is crystals/fluffy) and explains that both form in clouds but hail needs stronger updrafts or warmer clouds; uses accurate descriptive language.",
+        "meets": "Student identifies at least one clear difference between hail and snow (such as shape, size, or hardness) and states both form in clouds, with basic location information.",
+        "approaching": "Student recognizes hail and snow are different, but description is vague or incomplete; may mention clouds but lacks detail about where each specifically forms.",
+        "beginning": "Student attempts to compare hail and snow but provides inaccurate or unclear information; shows limited understanding of formation locations."
+      }
+    },
+    {
+      "questionText": "Is hail a fast or slow Earth event? What evidence from the picture supports your answer?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies hail as a fast event and provides specific evidence from the photo, such as the sudden scatter of pellets, wet soil (showing recent impact), or varied sizes showing rapid formation; explains why hailstorms happen quickly.",
+        "meets": "Student correctly identifies hail as a fast event and cites at least one detail from the photo, such as the scattered pellets or wet ground, to support the answer.",
+        "approaching": "Student identifies hail as fast, but evidence reference is weak, vague, or only partially supported by details visible in the photo.",
+        "beginning": "Student may identify hail as fast or slow but provides little or no specific evidence from the photograph to support the choice."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T05:37:33.236Z",
+  "cost": 0.005033
+}

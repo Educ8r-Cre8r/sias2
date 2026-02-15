@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Hail",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think hail forms inside thunderstorm clouds instead of on the ground where it's colder at night?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hail forms high in cold clouds where water freezes, and identifies that thunderstorm clouds are much colder than ground at night; may add that strong updrafts keep hail suspended in the cloud.",
+        "meets": "Student states that hail forms in clouds because clouds are very cold or colder than the ground, and recognizes that freezing happens in the clouds rather than on the ground.",
+        "approaching": "Student indicates that clouds are cold and hail freezes there, but explanation is incomplete or shows partial understanding of why cloud temperature matters for hail formation.",
+        "beginning": "Student provides vague response such as 'hail freezes in clouds' with little or no explanation of temperature or why clouds are the location where hail forms."
+      }
+    },
+    {
+      "questionText": "If you lived in a place where hail is common in spring, how would that affect how people build houses or grow crops there?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific impacts: houses might need stronger roofs (like the damage hail can cause), crops need protection or different varieties, and considers how people's choices respond to frequent hail; uses evidence from hail's appearance or size.",
+        "meets": "Student describes at least two reasonable adaptations such as stronger roofs for houses or protective structures for crops to prevent damage from hail stones.",
+        "approaching": "Student mentions one adaptation or consequence (like 'houses need stronger roofs' or 'crops could be damaged') but lacks detail or connection to hail's destructive force.",
+        "beginning": "Student provides minimal response such as 'houses would be different' without explaining how hail affects building or farming decisions."
+      }
+    },
+    {
+      "questionText": "What data would you collect to predict when hail is most likely to happen in your area?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple relevant data types (season/month, time of day, temperature, storm type, cloud patterns) and explains how each piece connects to hail formation or prediction; demonstrates understanding of weather patterns.",
+        "meets": "Student lists at least two types of data to collect such as the month or season hail occurs, temperatures, or types of storms, with basic reasoning for why each matters.",
+        "approaching": "Student identifies one or two data types (like 'when it happens' or 'temperature') but provides limited or unclear explanation of why that data would help predict hail.",
+        "beginning": "Student suggests vague data such as 'weather information' without specifying what to measure or why it would predict hail."
+      }
+    },
+    {
+      "questionText": "How is hail different from sleet or snow, even though they're all frozen precipitation?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that hail forms in thunderstorm clouds with layers of ice (referencing the photo's varied sizes), while sleet forms from freezing rain and snow forms from water vapor; explains how formation differences create different appearances or sizes.",
+        "meets": "Student correctly states that hail, sleet, and snow form differently: hail in thunderstorms, sleet from freezing rain, and snow from water vapor in cold clouds.",
+        "approaching": "Student recognizes hail is different from sleet or snow and attempts to explain one formation difference, but explanation is incomplete or partially inaccurate.",
+        "beginning": "Student acknowledges the three types are different but provides little or no explanation of how their formation differs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T05:37:42.570Z",
+  "cost": 0.005371
+}

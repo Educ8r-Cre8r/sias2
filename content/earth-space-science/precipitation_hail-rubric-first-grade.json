@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Hail",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think hail only happens during certain times of year, like spring and summer, and not in winter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hail forms in thunderstorms that happen more often in warmer months, and connects this to warmer air rising higher into cold air at the top of clouds where ice can form.",
+        "meets": "Student identifies that hail happens when it is warmer and that thunderstorms are more common in spring and summer, showing understanding of seasonal weather patterns.",
+        "approaching": "Student mentions that spring and summer are warmer or that thunderstorms happen more then, but does not clearly connect temperature to hail formation.",
+        "beginning": "Student provides a vague response such as 'because it's cold in winter' or 'it just does' without explaining the connection between seasons and hail formation."
+      }
+    },
+    {
+      "questionText": "If you were a water droplet inside a thundercloud, describe your journey as you become part of a hailstone and fall to the ground.",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the complete journey: water droplet → lifted up in cloud → freezes in cold air → bumps into other frozen droplets → gets bigger → falls to ground, using sequencing words and showing understanding of ice layer buildup.",
+        "meets": "Student describes at least three stages of the journey (freezing, growing bigger, falling down) in a logical order that shows understanding of hailstone formation.",
+        "approaching": "Student describes the journey but skips steps, is unclear about the order of events, or confuses how the droplet becomes larger (freezing vs. collecting water).",
+        "beginning": "Student provides minimal or confused description, such as 'it gets cold and falls' without showing understanding of the freezing and growth process."
+      }
+    },
+    {
+      "questionText": "Look at the different sizes of hailstones in the photo. What do you think caused some to be bigger than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that larger hailstones stayed in the cloud longer or went up and down in the cloud more times, picking up more ice layers, connecting number of collisions to size.",
+        "meets": "Student correctly identifies that some hailstones collected more ice than others and grew bigger, or that bigger ones stayed in the cloud longer.",
+        "approaching": "Student recognizes that size difference exists and makes a partial explanation (like 'some got more ice') but does not explain why that happened.",
+        "beginning": "Student mentions that hailstones are different sizes but provides no explanation for why, or gives an inaccurate reason unrelated to ice collection."
+      }
+    },
+    {
+      "questionText": "How is hail different from rain, and why do you think that difference matters for the people and animals on Earth?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that hail is frozen/ice and rain is liquid water, then explains multiple impacts: hail can damage crops, hurt people/animals, break windows, or comes with dangerous storms.",
+        "meets": "Student clearly states that hail is ice/frozen and rain is water, and gives at least one reason why this matters (can hurt things, damage plants, comes with storms).",
+        "approaching": "Student identifies the physical difference (hail is hard/frozen, rain is wet) but provides only vague or incomplete reasoning about why it matters.",
+        "beginning": "Student mentions hail looks different from rain but provides little or no explanation of the physical difference or why it matters to people and animals."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T05:37:25.196Z",
+  "cost": 0.005356
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Hail",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "If hail forms from water that freezes high in the clouds, where does that water originally come from?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies water evaporates from Earth's surface (oceans, lakes, rivers, soil) and explains how this water vapor rises into the atmosphere to form clouds, demonstrating understanding of the complete water cycle origin.",
+        "meets": "Student correctly identifies that water comes from evaporation of bodies of water or Earth's surface and rises into clouds where hail forms.",
+        "approaching": "Student identifies that water comes from oceans, lakes, or rain, but explanation of how it reaches high clouds is incomplete or unclear.",
+        "beginning": "Student provides a vague response such as 'from water' or 'from clouds' with little explanation of the water cycle process."
+      }
+    },
+    {
+      "questionText": "Why do you think hail only forms in certain types of storms and not in all rainstorms?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hail requires strong updrafts in severe thunderstorms to suspend water droplets high enough for repeated freezing, and contrasts this with regular rainstorms that lack these conditions.",
+        "meets": "Student recognizes that hail forms in severe or strong storms and attempts to explain that these storms have special conditions (like strong winds or very cold air) that regular rainstorms lack.",
+        "approaching": "Student notes that hail forms in some storms but not others, with limited or partially accurate explanation of the conditions needed.",
+        "beginning": "Student makes a simple observation like 'some storms make hail' without explaining why or what conditions are required."
+      }
+    },
+    {
+      "questionText": "If you collected hailstones and compared them to regular ice cubes from a freezer, what differences might you notice? Why would they be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific observable differences (layered or banded appearance, irregular shape, different sizes) and explains that hail forms through repeated freezing cycles as it moves up and down in storm clouds, whereas ice cubes freeze once in a still freezer.",
+        "meets": "Student identifies at least two physical differences between hailstones and ice cubes (size, shape, clarity, layering) and provides a reasonable explanation linked to hail's formation in moving storm clouds.",
+        "approaching": "Student identifies some differences in appearance but explanation of why they differ is incomplete or only partially accurate.",
+        "beginning": "Student notices hailstones 'look different' or 'are harder' with minimal explanation of formation differences."
+      }
+    },
+    {
+      "questionText": "How might communities prepare for or respond to severe hail storms, and what role does understanding the water cycle play in that preparation?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple community responses (building codes, warning systems, crop insurance) and explains how understanding hail formation in the water cycle helps meteorologists predict severe storms, enabling better preparation and safety measures.",
+        "meets": "Student identifies reasonable preparedness actions (warnings, protective structures, alerts) and makes a connection between understanding storm formation and the ability to prepare or respond to hail events.",
+        "approaching": "Student suggests some community responses to hail storms but makes only a weak or unclear connection to how water cycle understanding supports preparation.",
+        "beginning": "Student provides a general response about staying safe during storms with little mention of community-wide preparation or water cycle understanding."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T05:37:59.793Z",
+  "cost": 0.005197
+}
