@@ -99,7 +99,7 @@ function showDetailModal(imageId) {
                 </div>
                 <div class="button-help-text">
                     <p><strong>Edit Info</strong> — Change the image title, keywords, and NGSS standards</p>
-                    <p><strong>Re-process</strong> — Regenerate all educational content, lesson guides, and hotspots using AI</p>
+                    <p><strong>Re-process</strong> — Regenerate all educational content, lesson guides, hotspots, exit tickets, and rubrics using AI</p>
                     <p><strong>Delete Image</strong> — Permanently remove this image and all associated files</p>
                     ${image.hasContent ? `<p><strong>Edit Content</strong> — Edit educational content for any grade level and regenerate the lesson guide PDF</p>` : ''}
                     <p><strong>Edit Hotspots</strong> — Drag hotspot markers to reposition them on the image</p>
