@@ -1,0 +1,53 @@
+{
+  "title": "System",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe that shows energy transformations are happening in this engine?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific energy transformations (e.g., chemical energy in fuel to heat to motion) and references observable engine parts (pistons, spark plugs, or fuel injectors) that show these changes are occurring.",
+        "meets": "Student describes at least two energy transformations happening in the engine and identifies one or two engine parts visible in the photo that are involved in the process.",
+        "approaching": "Student identifies that energy changes in the engine but describes only one transformation or provides vague descriptions of how parts contribute to energy changes.",
+        "beginning": "Student makes a general statement about the engine using energy but provides little or no specific evidence from the photograph or explanation of energy transformation."
+      }
+    },
+    {
+      "questionText": "How might engineers design an engine to be more efficient and use less fuel?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple realistic design improvements (smaller engine size, better insulation, lighter materials, improved fuel injection) with explanations of how each would reduce fuel consumption.",
+        "meets": "Student suggests at least two reasonable design improvements to increase efficiency and provides logical explanations for why each change would use less fuel.",
+        "approaching": "Student proposes one or two improvements but the explanations lack scientific reasoning or are only partially accurate regarding how they reduce fuel use.",
+        "beginning": "Student makes vague suggestions about making the engine 'better' or 'smaller' without clear connection to fuel efficiency or energy use."
+      }
+    },
+    {
+      "questionText": "What would happen if one part of the engine system stopped working properly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student selects a specific engine part visible in the photo, explains its function clearly, and describes a detailed chain of consequences if it failed (e.g., fuel injector failure → no combustion → engine won't start).",
+        "meets": "Student identifies a specific engine part, describes its basic function, and explains what would happen to the car's operation if that part broke.",
+        "approaching": "Student mentions an engine part and notes that failure would cause a problem, but the explanation of the part's function or consequences is incomplete or somewhat inaccurate.",
+        "beginning": "Student makes a general statement like 'the car won't work' without identifying a specific part or explaining why that part matters to engine function."
+      }
+    },
+    {
+      "questionText": "How do the different subsystems in this engine work together to make the car move?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies at least three subsystems (fuel, ignition, cooling, exhaust, or lubrication), describes what each does, and explains how they interact sequentially to produce motion (e.g., fuel system delivers fuel → ignition system ignites it → pistons move → wheels turn).",
+        "meets": "Student identifies at least two subsystems, describes their basic functions, and explains how they work together in a logical sequence to help the engine operate.",
+        "approaching": "Student identifies two subsystems and describes their functions but provides incomplete or unclear explanation of how they interact to produce motion.",
+        "beginning": "Student names one or two parts but provides minimal detail about their functions or little explanation of how subsystems work together as a whole."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:06:51.490Z",
+  "cost": 0.004964
+}

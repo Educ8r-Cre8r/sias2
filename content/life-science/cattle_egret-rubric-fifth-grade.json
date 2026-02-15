@@ -1,0 +1,53 @@
+{
+  "title": "Cattle Egret",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the egret stays near the cow instead of hunting for insects on its own?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cow's movement stirs up insects, making them easier for the egret to catch, and may identify this as a beneficial relationship where the egret gets food without extra effort.",
+        "meets": "Student identifies that the cow helps the egret find or catch insects, showing understanding that the egret benefits from staying near the cow.",
+        "approaching": "Student suggests the egret stays near the cow for food or insects but provides vague reasoning or incomplete explanation of how the cow helps.",
+        "beginning": "Student provides minimal response, such as 'the egret likes the cow' or 'they are friends,' without explaining the food connection."
+      }
+    },
+    {
+      "questionText": "What would happen to the egret if all the cows disappeared from this pasture?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the egret would need to leave, hunt differently, or struggle to find enough food; may connect this to the term 'symbiosis' or explain the dependency of the egret on the cow's presence.",
+        "meets": "Student predicts the egret would have difficulty finding food or would need to leave the pasture, showing understanding of the egret's reliance on the cow.",
+        "approaching": "Student recognizes the egret would be affected but provides unclear or partially accurate reasoning about why the loss of cows would matter.",
+        "beginning": "Student gives a vague or inaccurate response, such as 'the egret would be sad' without explaining the connection to food or survival."
+      }
+    },
+    {
+      "questionText": "Can you think of another pair of animals that might help each other the way egrets and cows do?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides an accurate example of a mutualistic relationship (e.g., bees and flowers, clownfish and sea anemones) and clearly explains how both animals benefit from the partnership.",
+        "meets": "Student provides a realistic animal pair and explains how at least one animal benefits or how they help each other in a general way.",
+        "approaching": "Student names two animals that interact but provides incomplete or unclear explanation of how they help each other.",
+        "beginning": "Student names two animals with little or no explanation of a helping relationship, or provides an inaccurate example."
+      }
+    },
+    {
+      "questionText": "How is the relationship between an egret and a cow different from the relationship between a hawk and a mouse?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies that egrets and cows both benefit (symbiosis/mutualism) while hawks and mice harm each other (predator-prey), and explains how the egret's relationship is cooperative while the hawk's is harmful.",
+        "meets": "Student correctly identifies that the egret-cow relationship is helpful to both animals while the hawk-mouse relationship involves hunting or one animal harming the other.",
+        "approaching": "Student recognizes a difference but explanation is unclear; may confuse the roles or provide incomplete reasoning about mutual benefit versus predation.",
+        "beginning": "Student provides minimal response or inaccurate comparison, such as stating both relationships are the same or offering vague descriptions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:31:46.441Z",
+  "cost": 0.004994
+}

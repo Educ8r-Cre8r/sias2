@@ -1,0 +1,53 @@
+{
+  "title": "Symbiotic Relationship",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the flower is such a bright red and yellow color?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors help attract bees or other animals to the flower, and connects this to helping the flower get pollen moved or seeds made.",
+        "meets": "Student states that the bright colors help attract bees or other animals to visit the flower.",
+        "approaching": "Student mentions that the bright colors are pretty or nice, but does not explain why bright colors might matter for the flower.",
+        "beginning": "Student provides a vague response about the colors, such as 'because it's red and yellow' or does not attempt to explain the purpose."
+      }
+    },
+    {
+      "questionText": "What would happen to the flower if there were no bees to visit it?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the flower would not make seeds or would not be able to make new flowers, and explains that bees help move pollen or pollen helps make seeds.",
+        "meets": "Student predicts the flower would have trouble making seeds or would not grow as well without bees visiting it.",
+        "approaching": "Student makes a prediction but with unclear reasoning, such as 'the flower would be sad' or 'something bad would happen' without connecting it to bees' role.",
+        "beginning": "Student makes a prediction unrelated to the bee's role, such as 'the flower would die' without any explanation of why."
+      }
+    },
+    {
+      "questionText": "How does the bee's fuzzy body help it?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the fuzzy body helps pollen stick to the bee so it can carry pollen from flower to flower, or that it helps collect more pollen or food.",
+        "meets": "Student explains that the fuzzy body helps the bee collect or pick up pollen from the flower.",
+        "approaching": "Student mentions the fuzzy body helps in some way but gives an incomplete explanation, such as 'it helps the bee' without explaining how.",
+        "beginning": "Student provides a minimal response such as 'it's fuzzy' or makes an unrelated comment about the bee's appearance."
+      }
+    },
+    {
+      "questionText": "Is the bee helping or hurting the flower? How do you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the bee is helping and explains with specific details, such as the bee moves pollen to help the flower make seeds, or both the bee and flower need each other.",
+        "meets": "Student correctly identifies that the bee is helping the flower and provides at least one reason, such as the bee carries pollen or brings something the flower needs.",
+        "approaching": "Student identifies that the bee is helping but gives a vague or incomplete reason, such as 'the bee helps because it visits the flower.'",
+        "beginning": "Student guesses whether the bee helps or hurts without clear reasoning, or provides an inaccurate response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:38:22.838Z",
+  "cost": 0.004625
+}

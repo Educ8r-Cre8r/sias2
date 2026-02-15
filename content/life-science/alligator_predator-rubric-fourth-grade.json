@@ -1,0 +1,53 @@
+{
+  "title": "Alligator Predator",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the alligator's color compared to the water and mud around it?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the alligator's dark green/brown color closely matches the water and mud, using specific color words and explaining how this similarity helps the alligator blend in with its surroundings.",
+        "meets": "Student accurately describes that the alligator's color is similar to the water and mud around it, noting that they are both dark colors.",
+        "approaching": "Student notices the alligator is dark and the water/mud are dark, but the connection between matching colors is unclear or only partially explained.",
+        "beginning": "Student provides a vague description of the alligator's color or water color with minimal detail or inaccurate observations."
+      }
+    },
+    {
+      "questionText": "Why might the alligator's dark color help it catch food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the alligator's dark color camouflage allows it to hide from prey animals, making it harder for fish or other animals to see it before it attacks, demonstrating understanding of predator-prey relationships.",
+        "meets": "Student explains that the dark color helps the alligator hide or blend in so animals don't see it coming, enabling it to catch food more easily.",
+        "approaching": "Student states the dark color helps the alligator hide or catch food but lacks clear reasoning about how camouflage specifically aids in hunting.",
+        "beginning": "Student gives a minimal or inaccurate explanation, such as 'the color helps it' without explaining the connection to hunting or food."
+      }
+    },
+    {
+      "questionText": "How would the alligator's hunting be different if it lived in bright, clear water instead of murky water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that in clear water, prey animals would be able to see the alligator more easily because it would not blend in, making hunting harder, and possibly describes how murky water is an adaptation advantage for alligators.",
+        "meets": "Student correctly explains that the alligator would be more visible to prey in clear water, making it harder to catch food because its camouflage would not work as well.",
+        "approaching": "Student recognizes that clear water would change the alligator's hunting ability but provides incomplete reasoning about why visibility matters or how camouflage is affected.",
+        "beginning": "Student provides a vague response such as 'it would be different' with little to no explanation of how clear water would affect hunting."
+      }
+    },
+    {
+      "questionText": "What other animals might live in this same wetland habitat, and how might the alligator affect them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple wetland animals (fish, turtles, birds, frogs) and explains specific ways the alligator affects them, such as hunting them for food or causing them to hide, demonstrating understanding of predator-prey relationships and habitat roles.",
+        "meets": "Student names at least two animals that live in wetlands and explains that the alligator hunts them or affects their behavior by making them nervous or causing them to avoid the alligator.",
+        "approaching": "Student identifies one or two wetland animals but provides limited explanation of how the alligator affects them, or offers only general statements about the alligator being a predator.",
+        "beginning": "Student names an animal or two but cannot explain how the alligator affects them, or provides inaccurate information about the wetland habitat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:55:49.846Z",
+  "cost": 0.005301
+}

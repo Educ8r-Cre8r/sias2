@@ -1,0 +1,53 @@
+{
+  "title": "Lake Landform",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the lake when it rains a lot?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that rain adds water to the lake, making it higher or fuller, and may describe how water flows into the lake from land or that heavy rain could cause flooding or overflow.",
+        "meets": "Student correctly identifies that rain adds water to the lake and makes it bigger or fuller.",
+        "approaching": "Student mentions rain and the lake but has unclear or incomplete connection; may say rain makes the lake 'wet' or 'big' without explaining water addition.",
+        "beginning": "Student provides minimal response such as 'the lake gets wet' or 'it rains' with little understanding of cause and effect."
+      }
+    },
+    {
+      "questionText": "Why do you think the trees around this lake have different colored leaves than trees in your yard might have right now?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the season is fall/autumn and explains that the trees are changing colors because of the season; may note that trees lose leaves in fall or that different seasons bring color changes.",
+        "meets": "Student correctly explains that the trees have different colors because it is fall or autumn, and trees change colors during this season.",
+        "approaching": "Student recognizes the leaves are different colors and may mention seasons or fall, but explanation is vague or incomplete.",
+        "beginning": "Student observes that the leaves are colored (red, orange, brown) but does not explain why or mention seasons."
+      }
+    },
+    {
+      "questionText": "How do you think the fallen tree branch got into the water, and what might happen to it over a long time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wind or storms knocked the branch down, then describes multiple changes over time such as rotting, breaking apart, sinking, or becoming home for animals; uses words like 'decompose' or 'decay.'",
+        "meets": "Student explains that the branch fell or was blown down, and describes what might happen to it such as rotting, breaking apart, or sinking into the water.",
+        "approaching": "Student offers a partial explanation of how the branch got there (wind, fell from tree) or what might happen to it, but reasoning is incomplete or unclear.",
+        "beginning": "Student makes a simple observation about the branch being in the water but provides minimal or inaccurate explanation of how or what happens to it."
+      }
+    },
+    {
+      "questionText": "If you were a fish living in this lake, what would you need to survive here?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple things fish need such as water, food (plants or smaller animals), oxygen, and shelter; may mention that the branch provides hiding places or that they need clean water.",
+        "meets": "Student identifies at least two things fish need to survive, such as water and food, or water and oxygen.",
+        "approaching": "Student identifies one thing a fish needs to survive, such as water or food, but explanation lacks detail or completeness.",
+        "beginning": "Student provides a vague or incomplete response such as 'water' or 'food' with minimal elaboration."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:45:06.684Z",
+  "cost": 0.004852
+}

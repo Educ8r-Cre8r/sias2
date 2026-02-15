@@ -1,0 +1,53 @@
+{
+  "title": "Cicada Shell",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the cicada had to leave its old shell behind instead of growing bigger while still wearing it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the exoskeleton is hard and cannot stretch, so the cicada must shed it to grow larger, and may provide additional details such as the shell being made of a rigid material or compare it to how other animals grow.",
+        "meets": "Student correctly identifies that the exoskeleton is hard and cannot grow with the cicada, so the cicada must leave it behind to get bigger.",
+        "approaching": "Student recognizes that the cicada outgrows the shell or that the shell is too small, but provides incomplete or unclear explanation of why the shell cannot stretch.",
+        "beginning": "Student provides a vague response such as 'the cicada just leaves it' or 'it gets too small' without explaining why the exoskeleton cannot grow with the cicada."
+      }
+    },
+    {
+      "questionText": "If we found 100 of these empty shells at the base of one tree in July, what might that tell us about what happened there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student infers that many cicadas emerged or molted at that location and connects this to cicada life cycles, population size, or seasonal timing; may mention that July is when cicadas are active or suggest the tree provides good habitat.",
+        "meets": "Student correctly concludes that many cicadas shed their shells at that tree in July, showing it was an active location for cicada molting or emergence.",
+        "approaching": "Student recognizes that the shells came from multiple cicadas or that something happened at the tree, but reasoning is incomplete or lacks connection to cicada behavior.",
+        "beginning": "Student makes a general observation such as 'a lot of cicadas were there' without explaining what the shells tell us about what actually occurred."
+      }
+    },
+    {
+      "questionText": "How is a cicada shedding its exoskeleton similar to you outgrowing your clothes? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies similarities (both involve outgrowing something, need space to grow bigger) and explains multiple differences, such as humans get new clothes while cicadas grow new skin, or humans choose to change clothes but cicadas must shed automatically.",
+        "meets": "Student identifies at least one similarity (outgrowing/needing larger size) and at least one difference (cicadas grow a new shell; humans wear separate clothes), showing understanding of both processes.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or provides limited explanation of how the two processes are related.",
+        "beginning": "Student makes a simple comparison without clear understanding, such as 'they both get bigger' or provides minimal details about either process."
+      }
+    },
+    {
+      "questionText": "Underground, cicada nymphs look very different from adults. Why might it be helpful for cicadas to look so different at each stage of their life?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that different body forms help cicadas meet different needs at each life stage (nymphs feed underground using different mouthparts, adults fly and reproduce above ground) and may discuss adaptation to different environments or food sources.",
+        "meets": "Student recognizes that different body shapes help cicadas survive at different stages, such as nymphs being suited for underground life and adults for flying or finding mates.",
+        "approaching": "Student mentions that cicadas change shape or that different stages have different needs, but lacks clear explanation of how appearance helps them survive or function.",
+        "beginning": "Student provides a minimal response such as 'they just look different' without connecting appearance to life stage needs or survival advantages."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:57:35.357Z",
+  "cost": 0.005495
+}

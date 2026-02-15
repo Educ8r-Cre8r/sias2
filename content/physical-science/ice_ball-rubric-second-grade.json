@@ -1,0 +1,53 @@
+{
+  "title": "Ice Ball",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice happening to the ice ball over time?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific changes with detail, such as the ice ball getting smaller, water forming in the tray, or the shape changing, and uses words like 'melting' or 'dripping' to explain the process.",
+        "meets": "Student identifies that the ice ball is changing and that water is forming, with a simple description of what is happening (e.g., 'The ice is turning into water' or 'Water is in the tray').",
+        "approaching": "Student notices that something is happening to the ice ball but gives vague or incomplete observations, such as 'It's getting smaller' without mentioning the water that forms.",
+        "beginning": "Student provides minimal observation or vague response like 'It's changing' with little detail about what is actually happening."
+      }
+    },
+    {
+      "questionText": "Why do you think the ice is changing into water?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heat or warmth causes the ice to melt into water, and may reference the environment (room temperature, sun) or prior knowledge about how ice melts when it gets warm.",
+        "meets": "Student gives a reasonable explanation that connects ice melting to heat or warmth, such as 'The ice melts because it's warm' or 'Heat turns ice into water.'",
+        "approaching": "Student attempts an explanation but is incomplete or partially inaccurate, such as 'The ice melts' without explaining why, or giving an unclear reason.",
+        "beginning": "Student provides little or no explanation, or responds with 'I don't know' or a response unrelated to heat or temperature."
+      }
+    },
+    {
+      "questionText": "What would happen if we put the melted water back in the freezer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the water would freeze back into ice and may explain that the cold freezer reverses the melting process, or mentions that ice and water are related states of matter.",
+        "meets": "Student correctly predicts that the water would turn back into ice when placed in the freezer, showing understanding that freezing reverses melting.",
+        "approaching": "Student makes a prediction but is uncertain or incomplete, such as 'It might freeze' or 'The ice comes back' without confidence or clear explanation.",
+        "beginning": "Student gives an incorrect prediction or response with no clear reasoning, such as 'Nothing happens' or an answer unrelated to freezing."
+      }
+    },
+    {
+      "questionText": "How is this ice ball similar to ice cubes in your drink at home?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities such as both being made of frozen water, both melting over time, both floating or sitting in liquid, and both being cold and hard when frozen.",
+        "meets": "Student identifies at least two similarities between the ice ball and ice cubes, such as 'Both are ice' and 'Both melt into water' or 'Both are cold and hard.'",
+        "approaching": "Student identifies one similarity or makes a comparison that is partially accurate, such as 'They are both cold' but lacks additional supporting details.",
+        "beginning": "Student struggles to find similarities or provides a response unrelated to the comparison, such as focusing only on differences or giving no clear answer."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:31:01.586Z",
+  "cost": 0.005063
+}

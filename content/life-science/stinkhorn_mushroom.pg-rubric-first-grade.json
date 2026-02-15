@@ -1,0 +1,53 @@
+{
+  "title": "Stinkhorn Mushroom",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where this mushroom is growing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the mushroom is growing on wood chips and explains that it needs this material to grow, using words like 'breaking down' or 'decaying.'",
+        "meets": "Student correctly identifies that the mushroom is growing on wood chips and notices it is on the ground or in wood.",
+        "approaching": "Student mentions wood or the ground but with limited detail, or confuses the wood chips with soil.",
+        "beginning": "Student makes a vague observation about location or does not accurately identify the growing material."
+      }
+    },
+    {
+      "questionText": "How do you think this mushroom is different from the plants in our classroom?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (mushrooms don't need sunlight, have no leaves, grow from decay) and explains that mushrooms are not plants but a different living thing.",
+        "meets": "Student identifies at least two differences such as no leaves, no green color, or grows in dark/wet places instead of needing sunlight.",
+        "approaching": "Student notices one difference (such as no leaves or different color) but reasoning is unclear or incomplete.",
+        "beginning": "Student makes a simple observation about appearance but does not explain how mushrooms differ from classroom plants."
+      }
+    },
+    {
+      "questionText": "What might happen to the wood chips if this mushroom wasn't there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the wood chips would break down more slowly or not at all, and describes the mushroom's role in decomposition using words like 'rot' or 'break apart.'",
+        "meets": "Student correctly explains that the wood chips would stay around longer or not break down as quickly without the mushroom.",
+        "approaching": "Student suggests the wood might stay the same or mentions decay, but the connection to the mushroom's role is unclear or incomplete.",
+        "beginning": "Student provides a vague response or suggests an inaccurate outcome like the wood disappearing or the mushroom causing harm."
+      }
+    },
+    {
+      "questionText": "Why do you think the mushroom has such bright colors?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests bright colors help the mushroom spread spores, attract animals to help spread it, or stand out so it can be seen despite growing on dark materials.",
+        "meets": "Student offers a reasonable hypothesis such as the colors help animals notice it, help it get light, or help it spread its seeds or spores.",
+        "approaching": "Student suggests colors serve a purpose (like helping growth or being noticed) but the reasoning is vague or not fully thought through.",
+        "beginning": "Student provides a minimal response like 'it just is' or 'I don't know' with no attempt at reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:31:42.646Z",
+  "cost": 0.004452
+}

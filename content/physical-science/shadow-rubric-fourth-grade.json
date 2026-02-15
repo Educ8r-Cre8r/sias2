@@ -1,0 +1,53 @@
+{
+  "title": "Shadow",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the shadow in this photo looks darker than the grass around it?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the shadow is darker because the rock blocks sunlight from reaching that area, and may add that light cannot pass through the solid rock to illuminate the grass beneath it.",
+        "meets": "Student correctly identifies that the rock blocks sunlight, making the shadow darker than the surrounding grass that receives direct light.",
+        "approaching": "Student recognizes that the shadow is dark and mentions the rock or lack of light, but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a vague response such as 'the shadow is dark' or 'because of the rock' without explaining the relationship between light blocking and darkness."
+      }
+    },
+    {
+      "questionText": "If you moved this rock to a different location on Earth where it's morning time, how would the shadow look different? Explain your thinking.",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the shadow would be longer in the morning and explains that the sun is lower in the sky at morning, creating longer shadows; may reference that the shadow's direction would also change.",
+        "meets": "Student predicts the shadow would be longer or positioned differently at morning time and provides a reasonable explanation connecting sun position to shadow length.",
+        "approaching": "Student predicts a change to the shadow but the explanation is incomplete, such as mentioning the sun moves without fully explaining why this affects shadow length.",
+        "beginning": "Student makes a prediction with little or no explanation, or suggests the shadow would stay the same without reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen to this shadow if a thick cloud covered the sun? Why would that happen?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts the shadow would disappear or become very faint and explains that clouds block direct sunlight, preventing a sharp shadow from forming; may mention diffused light.",
+        "meets": "Student predicts the shadow would disappear or become much lighter and explains that clouds block the sun's light.",
+        "approaching": "Student predicts a change to the shadow but provides an incomplete explanation, such as saying clouds block light without explaining how this affects the shadow.",
+        "beginning": "Student makes a prediction with minimal or unclear reasoning, such as 'the shadow would be gone' without explaining why."
+      }
+    },
+    {
+      "questionText": "How could we use shadows to tell what time of day it is? What evidence would we look for?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that shadows are shorter when the sun is high (noon) and longer in morning/evening, and identifies specific evidence to look for such as shadow length and direction relative to objects.",
+        "meets": "Student identifies that shadow length changes throughout the day and explains that we could observe whether shadows are long or short to determine the time of day.",
+        "approaching": "Student mentions that shadows change during the day but provides incomplete reasoning, such as noting only that shadows exist without clearly connecting length to time.",
+        "beginning": "Student provides a vague response such as 'shadows tell time' or 'shadows change' without explaining what evidence would be useful."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:37:13.604Z",
+  "cost": 0.004836
+}

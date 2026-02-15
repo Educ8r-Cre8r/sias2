@@ -1,0 +1,53 @@
+{
+  "title": "Biological Decomposition",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside the tree's hollow, even though we cannot see it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes decomposition or breakdown of wood by organisms (decomposers, insects, or fungi) and explains that this process happens inside the tree even when we cannot see it directly.",
+        "meets": "Student identifies that something is breaking down or rotting inside the tree, or mentions that decomposers/insects/fungi are working inside the hollow.",
+        "approaching": "Student recognizes that change is happening inside the tree but provides vague or partially accurate descriptions, such as 'stuff is breaking down' without specifying what or how.",
+        "beginning": "Student provides a minimal response with little detail, such as 'something is happening' or an inaccurate guess with no supporting reasoning."
+      }
+    },
+    {
+      "questionText": "Why might animals like owls or squirrels choose to live inside a hollow tree instead of somewhere else?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons (protection from weather and predators, safe nesting/den space, shelter) and demonstrates understanding that hollow trees provide specific survival advantages for these animals.",
+        "meets": "Student identifies at least two reasons why animals use hollow trees, such as shelter, protection, or a safe place to nest or live.",
+        "approaching": "Student recognizes that hollow trees are used by animals but provides only one reason or uses vague language like 'it's a safe place' without elaboration.",
+        "beginning": "Student provides a minimal or unclear response, such as 'animals like it there' or guesses without reasoning."
+      }
+    },
+    {
+      "questionText": "If we cut down all the old trees in a forest and replanted young trees, what would happen to the animals that need hollow trees to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that young trees do not yet have hollows, so animals would lose their homes and may move away, die, or disappear from the forest; may note that it takes many years for trees to develop hollows.",
+        "meets": "Student recognizes that removing old trees would harm or remove animals that depend on hollows, explaining that young trees cannot provide the same shelter.",
+        "approaching": "Student understands that the animals would be affected negatively but provides incomplete reasoning, such as 'they would have nowhere to live' without explaining why young trees don't work.",
+        "beginning": "Student provides a vague response like 'the animals would be sad' or shows minimal understanding of the connection between old trees and animal survival."
+      }
+    },
+    {
+      "questionText": "How is the decomposer's work inside the tree helpful to the forest, even though it seems like it's destroying the tree?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that decomposers break down dead wood into nutrients that return to the soil, which help new plants grow, or describes how the decomposition process benefits the forest ecosystem as a whole.",
+        "meets": "Student identifies that decomposers help the forest by breaking down the tree so it becomes part of the soil, or that this process helps other living things.",
+        "approaching": "Student recognizes that decomposition is helpful to the forest but provides incomplete or vague reasoning, such as 'it helps plants' without explaining how.",
+        "beginning": "Student struggles to see decomposition as helpful or provides minimal reasoning, such as 'it's good for the forest' without explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:44:20.731Z",
+  "cost": 0.005174
+}

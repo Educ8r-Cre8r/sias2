@@ -1,0 +1,53 @@
+{
+  "title": "Nurse Log",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this log over the next 5 or 10 years?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the log will continue breaking down into smaller pieces and eventually become soil or nutrients, and explains that decomposers will keep working on it, showing understanding of the complete decomposition process.",
+        "meets": "Student predicts the log will break down or rot more, becoming smaller or turning into soil, demonstrating basic understanding of decomposition over time.",
+        "approaching": "Student recognizes the log will change or break down but provides limited detail about the process or timeline of decomposition.",
+        "beginning": "Student makes a vague prediction about the log changing or disappearing, or provides an inaccurate description of what will happen to it."
+      }
+    },
+    {
+      "questionText": "Why do you think plants are growing on this dead log instead of in the bare soil next to it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the decomposing log provides nutrients, moisture, and a good growing surface for plants, and may mention that decomposers break down the wood to release nutrients for plant growth.",
+        "meets": "Student identifies that the log provides nutrients or a good place for plants to grow, showing understanding that dead wood benefits plant growth.",
+        "approaching": "Student suggests the log is good for plants but provides incomplete or partially accurate reasoning about why (such as mentioning only one benefit like moisture or nutrients).",
+        "beginning": "Student offers a vague response or inaccurate explanation about why plants grow on the log, showing minimal understanding of how decomposition helps plants."
+      }
+    },
+    {
+      "questionText": "If decomposers were not breaking down dead wood and leaves in the forest, what problem might happen to the forest over many years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that dead material would pile up, nutrients would not return to the soil, plants would not have enough nutrients to grow, and the forest ecosystem would become unhealthy or unable to support new plant growth.",
+        "meets": "Student identifies that dead material would pile up or that nutrients would not be recycled back into the soil for new plants to use.",
+        "approaching": "Student recognizes that decomposers are important or that something bad would happen without them, but provides unclear or incomplete reasoning about the specific problems.",
+        "beginning": "Student gives a minimal or vague response about what would happen, showing little understanding of decomposers' role in forest health."
+      }
+    },
+    {
+      "questionText": "How is a nurse log an example of nature recycling?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the dead log is broken down by decomposers and nutrients are returned to the soil, where new plants use those nutrients to grow, demonstrating a complete understanding of the recycling cycle.",
+        "meets": "Student describes that the dead log breaks down and provides nutrients for new plants to grow, showing solid understanding of how materials are reused in nature.",
+        "approaching": "Student identifies that the log is reused or that nutrients are returned to nature, but the explanation lacks clarity or complete detail about the recycling process.",
+        "beginning": "Student provides a minimal or unclear response about recycling or simply restates that plants grow on the log without explaining the recycling concept."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:33:18.963Z",
+  "cost": 0.004976
+}

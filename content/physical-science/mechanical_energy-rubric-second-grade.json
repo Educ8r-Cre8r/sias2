@@ -1,0 +1,53 @@
+{
+  "title": "Mechanical Energy",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we tried to lift this big silver ball with just our hands? Why can't we do it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the ball is too heavy for our bodies to lift and describes a specific reason, such as the ball weighs more than our muscles can push up or our arms aren't strong enough.",
+        "meets": "Student correctly identifies that the ball is too heavy to lift by hand and provides a basic explanation that it's too strong or heavy for a person.",
+        "approaching": "Student recognizes the ball is heavy but gives vague or incomplete reasoning, such as 'it's just too big' without explaining why that matters.",
+        "beginning": "Student provides a minimal response with little understanding, such as 'we can't lift it' without explanation or with inaccurate reasoning."
+      }
+    },
+    {
+      "questionText": "How do you think the machine helps the person lift something so heavy? What parts of the crane do the work?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the crane makes lifting easier by using the long arm and rope to help spread out the work, and identifies at least two specific parts (arm, rope, pulley, or motor) and describes what they do.",
+        "meets": "Student describes that the crane helps lift heavy things and identifies one or two parts (such as the arm or rope) that help with lifting, with basic explanation of how.",
+        "approaching": "Student recognizes the crane helps lift but gives incomplete or unclear descriptions of how it works or names only one vague part without explaining its purpose.",
+        "beginning": "Student provides a vague response such as 'the machine lifts it' with little or no description of specific parts or how they help."
+      }
+    },
+    {
+      "questionText": "Have you ever used a simple machine to make something easier? Can you describe what happened?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a specific personal experience using a simple machine (lever, pulley, incline, wheel, or ramp) and clearly explains how it made the task easier by providing specific details about what was done and the result.",
+        "meets": "Student shares a personal experience with a simple machine and explains how it made a task easier, such as using a seesaw or a ramp, with clear description.",
+        "approaching": "Student mentions a machine or tool but gives incomplete details about the experience or unclear explanation of how it helped make something easier.",
+        "beginning": "Student provides a vague or minimal response, such as naming a tool without describing an experience or how it helped."
+      }
+    },
+    {
+      "questionText": "If we made the crane's arm even longer, do you think it would be easier or harder to lift the ball? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the longer arm would make lifting easier and provides a scientifically accurate reason, such as explaining that a longer lever helps you move heavy things or the machine can help more.",
+        "meets": "Student makes a reasonable prediction that a longer arm would make lifting easier and gives a basic explanation related to how levers or machines work.",
+        "approaching": "Student makes a prediction but provides incomplete or partially unclear reasoning that shows partial understanding of how lever length affects lifting.",
+        "beginning": "Student makes a guess with little or no reasoning, or provides inaccurate reasoning about how the arm length affects the lifting ability."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:44:19.891Z",
+  "cost": 0.005111
+}

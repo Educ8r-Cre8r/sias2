@@ -1,0 +1,53 @@
+{
+  "title": "Thermal Energy",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe happening to the egg white as it cooks?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific changes to the egg white, such as it becoming solid, changing from clear to white, and forming a firm texture, using precise descriptive language.",
+        "meets": "Student accurately describes that the egg white changes from clear to white and becomes solid or firm as it cooks.",
+        "approaching": "Student identifies that the egg white changes, but description is vague or incomplete (e.g., 'it gets white' without mentioning other changes).",
+        "beginning": "Student provides minimal or unclear observation, such as 'the egg changed' with little detail about what actually happened."
+      }
+    },
+    {
+      "questionText": "Why do you think the egg white turns from clear to white when it cooks?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heat changes the proteins in the egg white, making them bond differently and become visible as a white solid, demonstrating understanding of how thermal energy affects matter.",
+        "meets": "Student explains that heat causes the egg white to change and turn white, with a reasonable attempt to describe what heat does to the egg.",
+        "approaching": "Student recognizes that heat causes the change but provides an incomplete or partially accurate explanation, such as 'heat makes it white' without explaining what heat does.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'the fire makes it white' without attempting to explain the cause-and-effect relationship."
+      }
+    },
+    {
+      "questionText": "If we let the cooked egg cool down on the counter, will it turn back into a raw egg? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that the egg will not return to raw form and explains that the change is permanent because the heat permanently changed the protein structure, demonstrating understanding of irreversible changes.",
+        "meets": "Student correctly predicts that the egg will not turn back to raw and provides a reasonable explanation, such as 'the heat changed it permanently' or 'it can't go back.'",
+        "approaching": "Student makes a reasonable prediction but provides incomplete reasoning, such as stating the egg won't change back but offering only vague explanations about cooling.",
+        "beginning": "Student makes an unclear prediction or provides an inaccurate response, such as suggesting the egg will return to raw or offering no clear reasoning."
+      }
+    },
+    {
+      "questionText": "How does the thermal energy from the flame get to the egg? Trace the path it takes.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the complete path of thermal energy (flame heats the skillet, skillet heats the egg) and identifies at least one method of heat transfer, such as conduction, showing understanding of how thermal energy moves.",
+        "meets": "Student identifies the main pathway of thermal energy from the flame to the skillet to the egg, demonstrating understanding that heat moves from one object to another.",
+        "approaching": "Student identifies parts of the heat path (e.g., 'the flame heats it' or 'the pan gets hot') but does not complete the full pathway or provide clear sequencing.",
+        "beginning": "Student provides a vague or incomplete response, such as 'the heat goes to the egg' without explaining the intermediate steps or how it travels."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:03:15.017Z",
+  "cost": 0.005075
+}

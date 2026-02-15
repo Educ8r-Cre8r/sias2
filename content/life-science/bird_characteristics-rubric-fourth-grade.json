@@ -1,0 +1,53 @@
+{
+  "title": "Bird Characteristics",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Look at the pigeon's bright red eye and the way its head can turn. How might these body parts help the pigeon survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the pigeon's large, bright eye helps it see predators and food from different angles, and describes how the moveable head allows the pigeon to look around without moving its whole body, giving specific survival advantages like detecting danger or spotting food sources.",
+        "meets": "Student identifies that the bright eye helps the pigeon see and the moveable head helps it look around, and explains how these features help the pigeon survive by noticing danger or finding food.",
+        "approaching": "Student mentions that the eye and head are used for seeing or looking, but provides incomplete reasoning about how these features help survival, or gives only one feature consideration.",
+        "beginning": "Student makes a simple observation about the eye or head but shows little understanding of how these body parts help the pigeon survive, or provides inaccurate information."
+      }
+    },
+    {
+      "questionText": "Why do you think pigeons have feathers instead of fur like a dog? What can feathers do that fur might not be able to do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that feathers provide waterproofing, insulation, and enable flight, while noting that fur cannot serve these functions as effectively; student may reference that feathers are lightweight or designed specifically for birds.",
+        "meets": "Student identifies at least two functions of feathers (such as waterproofing, keeping warm, or flight) and explains why feathers are better suited for birds than fur.",
+        "approaching": "Student identifies one function of feathers or makes a partial comparison between feathers and fur, but reasoning is incomplete or lacks specific detail about survival advantages.",
+        "beginning": "Student states that feathers and fur are different or provides only vague observations about feathers, with minimal explanation of why feathers are beneficial for pigeons."
+      }
+    },
+    {
+      "questionText": "If a pigeon lost all its feathers, what problems might it face? How would losing feathers affect its survival?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple serious consequences such as inability to fly, loss of insulation leading to temperature regulation problems, loss of waterproofing, and vulnerability to predators; student explains how each problem would threaten survival.",
+        "meets": "Student describes 2-3 problems the pigeon would face, such as being unable to fly, getting cold, or being visible to predators, and explains how these problems affect survival.",
+        "approaching": "Student identifies 1-2 problems the pigeon would experience, but explanation of survival impact is incomplete or lacks connection to the bird's needs.",
+        "beginning": "Student mentions feathers keep pigeons warm or provide one basic function, but shows minimal understanding of the serious survival consequences of losing all feathers."
+      }
+    },
+    {
+      "questionText": "How does the pigeon's body help it receive information from the environment, and how does it respond to what it senses?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the pigeon uses its bright eye to see (light reception), beak to taste or find food, and legs to feel surfaces, and describes appropriate responses such as flying away from danger, moving toward food, or adjusting position based on what it senses.",
+        "meets": "Student identifies at least two sensory body parts (such as eye, beak, or legs) and describes how the pigeon responds to sensory information (like moving, eating, or fleeing).",
+        "approaching": "Student names one or two sensory features and attempts to describe a response, but explanation lacks clarity or completeness about the sensory-response connection.",
+        "beginning": "Student mentions a body part or makes a basic observation about senses but provides little or vague explanation of how the pigeon responds to environmental information."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:39:34.701Z",
+  "cost": 0.005663
+}

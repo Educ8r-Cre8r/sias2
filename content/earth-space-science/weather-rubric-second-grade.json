@@ -1,0 +1,53 @@
+{
+  "title": "Weather",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe happening in the sky in this picture? What clues tell you a storm might be coming?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations (dark clouds, dim lighting, thick clouds blocking sun) and connects 2+ clues to storm prediction with clear reasoning (e.g., 'The sky is green and dark, which means rain is coming because dark clouds hold water').",
+        "meets": "Student describes what they see in the sky (dark/thick clouds, darkness at midday) and identifies at least one clue that a storm is coming (dark color or thick clouds).",
+        "approaching": "Student makes one clear observation about the sky (dark clouds or darkness) but provides limited or vague explanation of how this indicates a coming storm.",
+        "beginning": "Student makes a minimal observation (e.g., 'the sky looks bad') with little or no connection to storm warning signs."
+      }
+    },
+    {
+      "questionText": "Why do you think the clouds turned so dark and thick? Where did all that water come from?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dark clouds contain lots of water droplets that block sunlight and identifies where water comes from (evaporation from oceans, lakes, or ground) with specific details about the water cycle.",
+        "meets": "Student explains that dark clouds have a lot of water in them and mentions a water source (oceans, lakes, water from ground) or basic evaporation concept.",
+        "approaching": "Student identifies that clouds are made of water or that darkness comes from thickness, but explanation of water's origin is vague or incomplete.",
+        "beginning": "Student provides minimal explanation such as 'clouds are dark' or 'it rains' without connecting to water content or water cycle concepts."
+      }
+    },
+    {
+      "questionText": "If you were outside when this storm was approaching, what would you do to stay safe?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies 3+ specific safety actions (go indoors, away from windows, avoid tall objects, stay away from metal objects) with clear reasoning about storm dangers (lightning, wind, heavy rain).",
+        "meets": "Student identifies 2 appropriate safety actions (go inside, move away from danger) with basic reasoning about protecting themselves from the storm.",
+        "approaching": "Student identifies one safety action (go inside or find shelter) but reasoning is unclear or partially explained.",
+        "beginning": "Student provides vague response (e.g., 'be careful') with little evidence of understanding specific storm safety actions."
+      }
+    },
+    {
+      "questionText": "How is this storm cloud different from the white, fluffy clouds you see on a sunny day?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes 3+ differences with scientific reasoning (storm clouds are dark/thick because they contain more water; they block sunlight; they bring rain/lightning; fluffy clouds are light and thin).",
+        "meets": "Student identifies 2 clear differences between storm clouds and fair-weather clouds (color, thickness, darkness, or ability to block sunlight) using grade-appropriate vocabulary.",
+        "approaching": "Student identifies one difference (darker or thicker) but comparison is incomplete or lacks explanation of why they differ.",
+        "beginning": "Student makes a vague comparison (e.g., 'they look different') without specific observable details."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:01:19.613Z",
+  "cost": 0.005073
+}

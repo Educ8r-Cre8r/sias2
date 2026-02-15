@@ -1,0 +1,53 @@
+{
+  "title": "Snow Geese",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think all these geese are resting together on the ground instead of flying right now?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that geese rest to save energy for flying long distances and mentions that resting together as a group helps them stay safe or warm, showing understanding of multiple reasons for their behavior.",
+        "meets": "Student explains that geese need to rest to get energy for flying, or that they rest because they are tired from traveling.",
+        "approaching": "Student provides a simple reason like 'they are tired' or 'they need rest' but does not explain why resting is important for their survival or journey.",
+        "beginning": "Student gives a vague response such as 'they wanted to' or 'they are sleeping' with no connection to the geese's needs or long-distance travel."
+      }
+    },
+    {
+      "questionText": "What do you think the geese need to find when they fly to a new place?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple things geese need such as food and water, and explains why these things are important for survival (e.g., 'they need food to have energy' or 'water to drink').",
+        "meets": "Student correctly identifies at least one thing geese need when flying to a new place, such as food or water.",
+        "approaching": "Student identifies something geese might need but with limited detail or reasoning, such as naming food without explaining why it matters.",
+        "beginning": "Student provides a minimal response with little accuracy, such as 'a place to go' or does not identify basic survival needs."
+      }
+    },
+    {
+      "questionText": "How might the geese know when it's time to fly to a different place?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that geese respond to seasonal changes such as temperature getting colder, water freezing, or food becoming hard to find, showing understanding of how environment signals animals to migrate.",
+        "meets": "Student identifies that geese notice changes in their environment, such as weather getting colder or food running out, that tell them to move.",
+        "approaching": "Student mentions that something in nature changes (like weather or food) but provides vague reasoning about how geese notice it.",
+        "beginning": "Student provides an answer with minimal understanding, such as 'someone tells them' or 'they just know' without connecting to environmental clues."
+      }
+    },
+    {
+      "questionText": "If all the water in this field froze over like ice, how would the geese survive? What could they do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that geese would need to fly away to find liquid water or food elsewhere, and may describe how their wings help them travel long distances to survive.",
+        "meets": "Student correctly identifies that geese would need to fly to another place to find water or food in order to survive.",
+        "approaching": "Student recognizes that geese would need to leave the frozen field but provides incomplete reasoning about why or how they would survive.",
+        "beginning": "Student gives a response showing limited understanding, such as 'they would break the ice' or 'they would be sad,' without connecting to survival needs or migration."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:57:50.622Z",
+  "cost": 0.004925
+}

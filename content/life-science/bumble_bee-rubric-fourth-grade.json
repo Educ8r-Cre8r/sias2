@@ -1,0 +1,53 @@
+{
+  "title": "Bumble Bee",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the bee's body is so fuzzy? How does that help the flower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fuzzy body parts trap pollen, identifies that pollen transfers between flowers when the bee visits, and describes how this helps plants make seeds or reproduce.",
+        "meets": "Student identifies that the bee's fuzz helps it pick up pollen and that this pollen is carried to other flowers, supporting pollination.",
+        "approaching": "Student recognizes that pollen sticks to the bee's body or mentions that the bee helps flowers in some way, but explanation lacks clarity about the connection between fuzz and pollen transfer.",
+        "beginning": "Student provides a vague answer such as 'bees are fuzzy' or 'it helps flowers' without explaining the relationship between the fuzz and pollen or pollination."
+      }
+    },
+    {
+      "questionText": "What would happen to flowers if there were no bees to visit them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers need bees for pollination to make seeds, and describes a consequence such as fewer seeds, no new flowers growing, or loss of food sources for animals that depend on flowers.",
+        "meets": "Student explains that flowers would not be pollinated or would not make seeds without bees visiting them.",
+        "approaching": "Student recognizes that flowers need bees but provides an incomplete or partially accurate explanation, such as 'flowers would die' without explaining why.",
+        "beginning": "Student offers a minimal response such as 'flowers would be sad' or 'something bad would happen' without scientific reasoning about pollination or seeds."
+      }
+    },
+    {
+      "questionText": "How is the relationship between bees and flowers helpful to both of them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies that bees get nectar for food and flowers get pollinated for reproduction, uses the term 'mutually beneficial' or 'symbiotic,' and explains how each organism benefits from the other.",
+        "meets": "Student explains that bees receive nectar or food from flowers and that flowers receive pollen transfer or help making seeds from bees.",
+        "approaching": "Student identifies that bees and flowers help each other but provides incomplete reasoning, such as mentioning only one benefit or using unclear explanations.",
+        "beginning": "Student provides a general statement like 'they help each other' without explaining what each organism gains from the relationship."
+      }
+    },
+    {
+      "questionText": "Where else in nature do you see animals helping plants, or plants helping animals?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides two or more accurate examples with clear explanations of how each organism benefits, such as birds eating fruit and spreading seeds, or squirrels burying nuts that grow into trees.",
+        "meets": "Student provides one or two valid examples of animal-plant relationships with reasonable explanations of how they help each other.",
+        "approaching": "Student provides an example of an animal and plant interaction but with incomplete or unclear reasoning about how they help each other.",
+        "beginning": "Student names an animal and plant without explaining their relationship, or provides an inaccurate example."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:12:11.666Z",
+  "cost": 0.004829
+}

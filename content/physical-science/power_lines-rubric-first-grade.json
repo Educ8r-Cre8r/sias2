@@ -1,0 +1,53 @@
+{
+  "title": "Power Lines",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the electricity after it leaves these wires?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that electricity travels to homes and buildings where it powers lights, appliances, and other things we use, demonstrating understanding of electricity's path and purpose.",
+        "meets": "Student states that electricity goes to houses or buildings, showing basic understanding that the wires deliver electricity to places where people live or work.",
+        "approaching": "Student mentions that electricity goes somewhere or does something but provides vague or incomplete explanation, such as 'it goes away' or 'it helps stuff.'",
+        "beginning": "Student provides minimal response with little connection to electricity delivery, such as 'I don't know' or an off-topic answer."
+      }
+    },
+    {
+      "questionText": "Why do you think the wires need to be so high up on the poles instead of on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons, such as safety from people and animals, protection from weather or water, and/or to keep electricity from being interrupted, showing thoughtful analysis.",
+        "meets": "Student identifies at least one clear reason, such as 'so people don't touch them' or 'to keep them safe,' demonstrating solid understanding of safety concerns.",
+        "approaching": "Student recognizes that height matters but gives incomplete or partially inaccurate reasoning, such as 'so they don't break' without mentioning safety.",
+        "beginning": "Student provides vague or inaccurate response, such as 'because they just are' or an unrelated answer."
+      }
+    },
+    {
+      "questionText": "If you trace the wires from this pole, where do you think they go?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes a detailed path the wires travel, such as 'from pole to pole across town to houses and buildings,' showing understanding of how electricity is distributed through a network.",
+        "meets": "Student identifies a reasonable destination like 'to other poles,' 'to houses,' or 'to buildings,' demonstrating basic understanding of wire connections.",
+        "approaching": "Student mentions a possible location but with limited detail or some uncertainty, such as 'maybe to homes somewhere' or 'to more poles maybe.'",
+        "beginning": "Student provides minimal or unfocused response, such as 'I don't know' or an unrelated answer."
+      }
+    },
+    {
+      "questionText": "Why is the plastic covering on the wires important?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the plastic protects people from electric shock and/or protects the wires from weather and damage, demonstrating understanding of safety and wire protection.",
+        "meets": "Student identifies that the plastic covering keeps people safe from electricity or protects the wires, showing solid understanding of the covering's purpose.",
+        "approaching": "Student recognizes the covering is important but gives incomplete reasoning, such as 'it keeps it safe' without explaining safe from what, or mentions protection without clear connection to electricity.",
+        "beginning": "Student provides vague or inaccurate response, such as 'it's pretty' or shows minimal understanding of the covering's function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:35:16.618Z",
+  "cost": 0.004853
+}

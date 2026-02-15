@@ -1,0 +1,53 @@
+{
+  "title": "Agriculture",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How might tilling the soil help or harm the small animals that live underground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both benefits and harms to underground animals (e.g., mixing nutrients helps plants that feed animals; tilling can destroy homes or hurt creatures), and explains why these effects matter to soil ecosystems.",
+        "meets": "Student recognizes that tilling can help or harm underground animals, providing at least one specific example such as disturbing animal homes, changing soil structure, or affecting available food sources.",
+        "approaching": "Student mentions that tilling affects underground animals but reasoning is incomplete or vague; may state only that it helps or only that it harms without explaining how or why.",
+        "beginning": "Student provides a minimal response such as 'it hurts the animals' or 'it helps them' with little or no explanation of the connection between tilling and underground animal life."
+      }
+    },
+    {
+      "questionText": "What would happen to our food supply if farmers stopped preparing soil for planting?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts realistic consequences for food production (e.g., fewer crops grown, lower food quality, higher prices) and explains the chain of events, showing understanding that soil preparation helps plants grow well.",
+        "meets": "Student predicts that food supply would decrease or there would be fewer crops available, with a reasonable explanation that connects soil preparation to plant growth and food availability.",
+        "approaching": "Student recognizes there would be a problem with food supply but reasoning is incomplete; may state 'not enough food' without connecting it clearly to soil preparation or crop growth.",
+        "beginning": "Student makes a vague statement like 'there would be no food' or 'farmers need to prepare soil' without explaining the cause-and-effect relationship or predicting specific consequences."
+      }
+    },
+    {
+      "questionText": "How is the tractor similar to tools you use at home or school?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities between a tractor and familiar tools (e.g., both use wheels for movement, both dig/turn materials, both require fuel or power), and explains how these shared features help accomplish work.",
+        "meets": "Student identifies at least one clear similarity between a tractor and a familiar tool (e.g., wheels help it move, it digs like a shovel, it's powered by fuel) with a simple explanation of how it works.",
+        "approaching": "Student notices that a tractor is a tool and compares it to something familiar, but the comparison is unclear or has limited detail; reasoning about shared features may be incomplete.",
+        "beginning": "Student makes a vague connection like 'they both have wheels' or 'they both do work' without elaborating or providing specific examples of familiar tools."
+      }
+    },
+    {
+      "questionText": "Why do you think the farmer chose to till this field instead of leaving it as natural grassland?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student provides logical reasons for tilling (e.g., to grow specific food crops that feed people, to break up compacted soil for better plant growth, to remove weeds) and connects tilling to farming goals beyond just 'growing food.'",
+        "meets": "Student gives a reasonable explanation such as 'the farmer wants to grow crops' or 'tilling helps plants grow better,' showing understanding that tilling serves a farming purpose.",
+        "approaching": "Student recognizes the farmer had a reason to till but explanation is vague or partially formed; may say 'farmers need to do it' or 'to make it better' without clarifying the purpose.",
+        "beginning": "Student provides minimal reasoning like 'the farmer wanted to' or 'to grow food' with little or no detail about why this choice was made or what benefits tilling provides."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:35:52.839Z",
+  "cost": 0.005512
+}

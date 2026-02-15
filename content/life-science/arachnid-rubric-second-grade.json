@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the spider's legs in this picture? How are they different from your legs?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that spiders have eight long, thin legs and explains multiple differences from human legs (e.g., spiders have more legs, their legs are thinner, legs bend differently, spiders use legs for hunting).",
+        "meets": "Student notices the spider has eight legs and identifies at least one clear difference from human legs, such as the number of legs or their thin appearance.",
+        "approaching": "Student mentions that the spider has legs that look different from human legs but provides limited or unclear details about the differences.",
+        "beginning": "Student makes a simple observation about the spider's legs but does not clearly describe how they differ from human legs."
+      }
+    },
+    {
+      "questionText": "Why do you think spiders have eight legs instead of six like insects? What might those extra legs help them do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides thoughtful explanations for why extra legs might be helpful, such as moving faster, balancing better, climbing, or catching prey, and supports ideas with logical reasoning.",
+        "meets": "Student suggests reasonable purposes for the extra legs, such as helping the spider move, balance, or hunt for food.",
+        "approaching": "Student offers a possible purpose for extra legs but the explanation is vague or only partially thought through (e.g., 'extra legs help it move' without elaboration).",
+        "beginning": "Student attempts to answer but provides minimal reasoning or guesses without connecting extra legs to survival or function."
+      }
+    },
+    {
+      "questionText": "Look at the spider's color. How might its dark body help it survive on rocky ground like this?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the dark color provides camouflage by blending in with dark rocks and soil, and connects this to how it helps the spider hide from predators or sneak up on prey.",
+        "meets": "Student recognizes that the spider's dark color helps it blend in with its rocky surroundings, supporting survival or hunting.",
+        "approaching": "Student mentions that the dark color helps the spider hide or match its environment but provides incomplete or unclear reasoning.",
+        "beginning": "Student acknowledges the spider's dark color but does not explain how it helps the spider survive or function."
+      }
+    },
+    {
+      "questionText": "If you found a spider like this in your yard, what do you think it might be hunting for? Why would it stay close to the ground?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies realistic prey such as insects or bugs and explains multiple reasons for staying on the ground (e.g., prey lives there, easier to catch food, camouflage works better, hunting strategy).",
+        "meets": "Student suggests appropriate prey like insects or small bugs and provides at least one logical reason for staying close to the ground.",
+        "approaching": "Student guesses at possible prey or reasons for staying low but explanations lack clear connection to hunting or survival behavior.",
+        "beginning": "Student provides a minimal response about what the spider hunts or why it stays low, with little logical support."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:43:34.323Z",
+  "cost": 0.004868
+}

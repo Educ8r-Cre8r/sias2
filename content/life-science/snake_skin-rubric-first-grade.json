@@ -1,0 +1,53 @@
+{
+  "title": "Snake Skin",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the snake's skin is brown and tan instead of bright red or yellow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that brown and tan colors help the snake hide in its environment (camouflage) and provides specific examples from the photo, such as matching the corn stalks or wood chips.",
+        "meets": "Student correctly identifies that the snake's brown and tan colors help it blend in or hide in its surroundings.",
+        "approaching": "Student mentions that the colors help the snake in some way or notices the colors match the ground, but the explanation is unclear or incomplete.",
+        "beginning": "Student makes a guess about the colors but provides no reasoning, or gives an inaccurate answer like the snake chose its colors."
+      }
+    },
+    {
+      "questionText": "What would happen to a snake if it couldn't shed its old skin as it grew?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the snake would become too tight or uncomfortable as it grows, and may describe specific consequences like the snake being unable to move properly or getting hurt.",
+        "meets": "Student correctly explains that the old skin would become too small or tight for the growing snake.",
+        "approaching": "Student understands that something bad would happen to the snake because it grows, but the explanation lacks clarity about why shedding skin is necessary.",
+        "beginning": "Student provides a vague response such as 'it would be sad' or 'it wouldn't work,' with little scientific reasoning."
+      }
+    },
+    {
+      "questionText": "How is a snake's skin different from your skin? How is it the same?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (scales, shedding, texture) and similarities (both protect bodies, both cover the body), using specific observations from the photo.",
+        "meets": "Student identifies at least one accurate difference (such as scales or texture) and one similarity (such as protection or coverage).",
+        "approaching": "Student identifies either a difference or a similarity, but not both, or descriptions lack detail.",
+        "beginning": "Student gives a minimal response that shows little understanding of skin function or structure, such as 'snakes have skin and we have skin.'"
+      }
+    },
+    {
+      "questionText": "If you could have one body part from an animal to help you survive better, what would it be and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student chooses an animal body part and provides a detailed explanation of how it would help them survive, referencing specific survival needs like finding food, staying safe, or moving faster.",
+        "meets": "Student chooses an appropriate animal body part and explains how it would help them survive in a general way.",
+        "approaching": "Student names an animal body part but gives a weak or unclear explanation of how it would help them survive.",
+        "beginning": "Student names a body part with little or no explanation, or chooses something unrealistic like a dinosaur's tail without reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:37:48.317Z",
+  "cost": 0.004624
+}

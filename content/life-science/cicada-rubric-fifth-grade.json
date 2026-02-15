@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think spending 17 years underground helps cicadas survive as a species?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple survival advantages (e.g., avoiding predators, waiting for food availability, escaping harsh weather) and connects at least one advantage to how it helps the species continue over time.",
+        "meets": "Student identifies at least two ways living underground helps cicadas survive, such as protection from predators or access to food sources underground.",
+        "approaching": "Student mentions one survival benefit of living underground (e.g., hiding from predators or finding food) but explanation is incomplete or lacks clarity.",
+        "beginning": "Student provides a vague response (e.g., 'they stay safe') with little or no explanation of how this helps them survive."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in when and how cicadas emerge from the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple emergence patterns (e.g., timing related to season, soil temperature, or synchronization) and explains why one pattern might be important for survival or reproduction.",
+        "meets": "Student observes at least two patterns in cicada emergence, such as emerging in warm months, coming up in large groups, or appearing during autumn.",
+        "approaching": "Student notices one emergence pattern (e.g., 'they come out in fall' or 'lots come out together') with minimal explanation.",
+        "beginning": "Student makes a simple observation about cicada emergence with no clear pattern identified (e.g., 'they come out of the ground')."
+      }
+    },
+    {
+      "questionText": "If climate change causes soil to warm up earlier each year, how might this affect cicada populations?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts specific effects (e.g., earlier emergence disrupting food availability or mating timing) and explains cause-and-effect relationships showing how warmer soil could harm or help the population.",
+        "meets": "Student predicts that warmer soil would cause earlier emergence and describes at least one potential consequence, such as mismatch with food sources or predators.",
+        "approaching": "Student predicts earlier emergence from warmer soil but explanation of consequences is unclear or only partially developed.",
+        "beginning": "Student makes a simple prediction about warming (e.g., 'they would come out sooner') without explaining what effects this might have."
+      }
+    },
+    {
+      "questionText": "What evidence from the photo shows how this cicada is adapted to live in trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more adaptations from the photo (e.g., strong legs for gripping, clear wings for flying between branches, large eyes for spotting predators) and explains how each helps the cicada survive in trees.",
+        "meets": "Student identifies at least two adaptations visible in the photo (such as strong legs or wings) and explains how each one helps the cicada live or move in trees.",
+        "approaching": "Student describes one or two physical features from the photo (e.g., 'it has strong legs' or 'it has wings') with limited explanation of how they help in trees.",
+        "beginning": "Student mentions a body part from the photo with little or no connection to tree-living adaptations (e.g., 'it has legs')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:29:50.752Z",
+  "cost": 0.005031
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Lake Landform",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the trees in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about trees, such as colors (brown, orange, green), that leaves are changing, trees are near water, or variety of tree sizes and shapes.",
+        "meets": "Student notices and describes at least two features of the trees, such as their colors or that some leaves are falling/changing.",
+        "approaching": "Student mentions one detail about the trees, such as naming a color or that trees are present, with limited description.",
+        "beginning": "Student points to or names trees but provides no descriptive details, or response is unclear or off-topic."
+      }
+    },
+    {
+      "questionText": "Why do you think the big tree fell into the water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a logical, detailed explanation using reasoning, such as wind knocked it over, the ground was wet and roots couldn't hold it, or it was old and weak, with clear cause-and-effect thinking.",
+        "meets": "Student offers a reasonable explanation for why the tree fell, such as wind, storms, or the tree being old, showing basic cause-and-effect thinking.",
+        "approaching": "Student attempts an explanation but lacks detail or logical reasoning; may confuse what happened with how it happened.",
+        "beginning": "Student provides a vague response, guesses randomly, or says 'I don't know' without attempting an explanation."
+      }
+    },
+    {
+      "questionText": "How is the sandy shore different from the water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as texture (sandy vs. wet), color, what you can see through each (clear water vs. solid sand), or function (where animals walk vs. where they swim).",
+        "meets": "Student describes at least two clear differences between the shore and water, such as sand being dry/solid and water being wet/moving, or different colors.",
+        "approaching": "Student identifies one difference between shore and water but explanation lacks clarity or detail.",
+        "beginning": "Student names sand or water but does not provide a comparison, or response shows minimal understanding of the difference."
+      }
+    },
+    {
+      "questionText": "What do you think lives in or near this lake, and why would they want to live there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names specific animals (fish, ducks, turtles, bugs) and provides multiple reasons they live there, such as needing water to drink, food sources, shelter from trees, or places to nest or hide.",
+        "meets": "Student names at least one animal that lives in or near the lake and gives a reasonable reason, such as having water to live in, finding food, or having shelter nearby.",
+        "approaching": "Student names an animal but provides limited or unclear reasoning about why it would live there; may mention habitat needs vaguely.",
+        "beginning": "Student names an animal with no explanation, provides an animal not found near lakes, or shows minimal effort in responding."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:44:51.803Z",
+  "cost": 0.004644
+}

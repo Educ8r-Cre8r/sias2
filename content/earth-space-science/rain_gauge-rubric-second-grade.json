@@ -1,0 +1,53 @@
+{
+  "title": "Rain Gauge",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think someone would want to measure how much rain falls?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides multiple thoughtful reasons (e.g., to know if plants get enough water, to predict weather, to help farmers or gardeners) and explains why this information matters.",
+        "meets": "Student gives at least one clear, logical reason why measuring rainfall is useful (e.g., to see how much rain we get, to help plants grow, to know about weather).",
+        "approaching": "Student identifies that measuring rain is important but provides a vague or incomplete reason (e.g., 'to know about rain' or 'because we need to').",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of why measuring rainfall would be helpful (e.g., 'I don't know' or 'just because')."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the amount of water in the rain gauge if it rained for a whole week instead of just one day?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that more water would collect and explains the reasoning clearly (e.g., 'More rain falls each day, so a whole week would have much more rain added to the gauge than one day').",
+        "meets": "Student correctly predicts that more water would collect in the gauge over a longer time period (e.g., 'There would be more water' or 'It would be higher').",
+        "approaching": "Student makes a prediction but with incomplete reasoning or uncertainty (e.g., 'Maybe there would be more water' or 'It could get fuller but I'm not sure').",
+        "beginning": "Student's prediction is vague, incorrect, or shows minimal understanding (e.g., 'The gauge would break' or 'I don't know what would happen')."
+      }
+    },
+    {
+      "questionText": "How is a rain gauge like a measuring cup you use in the kitchen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities with clear explanations (e.g., 'Both have numbers on the side to show measurements, both collect liquid, both help us see exactly how much we have').",
+        "meets": "Student identifies at least one clear similarity between a rain gauge and a measuring cup (e.g., 'Both have numbers that show measurements' or 'Both collect water and show how much there is').",
+        "approaching": "Student recognizes they are similar but provides an unclear or incomplete comparison (e.g., 'They both measure' or 'They're both containers').",
+        "beginning": "Student's response shows minimal or no understanding of how they are similar (e.g., 'I don't know' or 'They are different')."
+      }
+    },
+    {
+      "questionText": "If we measure rainfall every day for a month, what could we learn from writing down all those numbers?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple things we could learn (e.g., 'We could see which days had the most rain, if some days were rainy and others dry, or if we're getting more or less rain than normal') and shows understanding of patterns or comparisons.",
+        "meets": "Student identifies at least one clear thing we could learn from recording daily measurements (e.g., 'We could see how much rain we got altogether' or 'We could find out which days had the most rain').",
+        "approaching": "Student recognizes we would learn something but provides a vague response (e.g., 'We'd know about the rain' or 'We'd see the numbers').",
+        "beginning": "Student's response shows minimal understanding of what the recorded data could tell us (e.g., 'We'd just have numbers' or 'I'm not sure')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:06:14.365Z",
+  "cost": 0.00562
+}

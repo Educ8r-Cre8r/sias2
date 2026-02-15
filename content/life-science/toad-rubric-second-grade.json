@@ -1,0 +1,53 @@
+{
+  "title": "Toad",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this toad's skin and why do you think it looks that way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple skin features (bumpy texture, wet appearance, dark color) and explains how each feature helps the toad survive, such as bumps helping it hide or wet skin helping it stay moist.",
+        "meets": "Student notices that the toad's skin is bumpy and wet-looking, and provides a reasonable explanation for why it looks this way (such as helping it hide or stay wet).",
+        "approaching": "Student identifies one skin feature (bumpy OR wet) but gives a vague or incomplete explanation of why the toad's skin looks that way.",
+        "beginning": "Student makes a simple observation about the skin (like 'it's bumpy' or 'it looks wet') with little to no explanation of why."
+      }
+    },
+    {
+      "questionText": "How do you think this toad's body parts help it survive in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes how multiple body parts (such as eyes, bumpy skin, thick body, or legs) each help the toad survive and explains specific survival purposes like seeing predators, hiding, or moving through plants.",
+        "meets": "Student identifies at least two body parts and explains how they help the toad survive, such as eyes for seeing or strong legs for jumping.",
+        "approaching": "Student names one or two body parts but provides incomplete or unclear explanations of how they help survival.",
+        "beginning": "Student names a body part with minimal or no explanation of its survival purpose."
+      }
+    },
+    {
+      "questionText": "What would happen if this toad lived in a very dry place like a desert?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that the toad would struggle or might not survive in a desert and explains how specific features (like wet skin that dries out or need for moisture) would make it difficult to live there.",
+        "meets": "Student predicts a reasonable consequence for a toad in a desert (such as the toad drying out or having trouble finding water) based on what toads need.",
+        "approaching": "Student makes a prediction about what might happen but the explanation is vague or only partially connected to the toad's needs or environment.",
+        "beginning": "Student makes a prediction with little reasoning or the answer shows limited understanding of why a desert would be different for a toad."
+      }
+    },
+    {
+      "questionText": "How is this toad similar to and different from other animals you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (such as having eyes, legs, or skin) and differences (such as bumpy skin, size, or where it lives) when comparing the toad to another specific animal, and explains what each comparison means.",
+        "meets": "Student identifies at least one similarity and one difference between the toad and another animal, such as 'both have eyes but toads have bumpy skin and frogs are smoother.'",
+        "approaching": "Student attempts a comparison but identifies only similarities OR only differences, or the comparison lacks clear details.",
+        "beginning": "Student names another animal but makes little or no clear comparison to the toad."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:33:23.121Z",
+  "cost": 0.004915
+}

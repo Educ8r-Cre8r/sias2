@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice that's the same between the real flowers and the flowers in the mirror?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple matching features with specific details (e.g., 'The red petals, green stems, and water are the same in both').",
+        "meets": "Student identifies at least two matching features accurately (e.g., 'The flowers look the same' or 'The color is the same').",
+        "approaching": "Student identifies one matching feature with limited detail (e.g., 'They're both red' or 'They look the same').",
+        "beginning": "Student makes a vague observation or incorrect comparison (e.g., 'They're flowers' or no clear attempt to identify similarities)."
+      }
+    },
+    {
+      "questionText": "Why do you think we can see the flowers in the mirror?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mirror reflects or bounces light to show the flowers, demonstrating understanding of how mirrors work.",
+        "meets": "Student provides a simple, accurate explanation (e.g., 'The mirror shows us the flowers' or 'It reflects them').",
+        "approaching": "Student attempts an explanation but lacks clarity (e.g., 'Because it's a mirror' or 'It shows things').",
+        "beginning": "Student cannot explain why or provides an inaccurate response (e.g., 'I don't know' or 'The flowers are in the mirror')."
+      }
+    },
+    {
+      "questionText": "What would happen if we used a different kind of surface instead of a mirror?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a specific outcome and explains reasoning (e.g., 'A paper wall wouldn't show the flowers because it doesn't reflect like a mirror does').",
+        "meets": "Student makes a reasonable prediction (e.g., 'We wouldn't see the flowers' or 'It would look different').",
+        "approaching": "Student makes a prediction but with unclear reasoning (e.g., 'It would be different' or 'We might not see them').",
+        "beginning": "Student cannot make a prediction or provides an illogical response (e.g., 'I don't know' or an unrelated answer)."
+      }
+    },
+    {
+      "questionText": "How are the flowers in the mirror different from the real flowers?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences with specific details (e.g., 'The mirror flowers are backwards, not real, and you can't touch them').",
+        "meets": "Student identifies at least one clear difference (e.g., 'The flowers in the mirror are backwards' or 'You can't touch them').",
+        "approaching": "Student attempts to identify a difference but with vague language (e.g., 'They look different' or 'The mirror one is not real').",
+        "beginning": "Student cannot identify a difference or provides an inaccurate response (e.g., 'They're the same' or no clear attempt)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:18:53.813Z",
+  "cost": 0.004764
+}

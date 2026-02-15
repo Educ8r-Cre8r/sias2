@@ -1,0 +1,53 @@
+{
+  "title": "States Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe happening to the water coming from the pipe?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple observations about the water with specific details, such as the water flowing out, spreading across the grass, and soaking into the ground using clear language.",
+        "meets": "Student accurately describes what is happening to the water, such as it is coming out of the pipe and spreading or flowing across the grass.",
+        "approaching": "Student identifies that water is coming from the pipe and mentions one aspect of what happens (flowing, spreading, or soaking), but description lacks detail or clarity.",
+        "beginning": "Student provides a vague response such as 'water is there' or 'water is wet' with minimal attempt to describe the water's movement or action."
+      }
+    },
+    {
+      "questionText": "Why do you think the water is spreading across the grass instead of staying in one spot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water spreads because it flows downward and outward due to gravity, and may add that the ground is sloped or that water moves naturally to find its path.",
+        "meets": "Student provides a reasonable explanation such as 'water flows' or 'gravity makes it spread' or 'it moves to find its own way,' showing basic understanding of water movement.",
+        "approaching": "Student attempts an explanation but reasoning is incomplete or partially unclear, such as 'water likes to spread' without explaining why or mentioning gravity.",
+        "beginning": "Student's explanation is vague, inaccurate, or unrelated to water movement, such as 'because it wants to' or 'I don't know.'"
+      }
+    },
+    {
+      "questionText": "How is the water in this picture different from the water in a cup you drink from?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences with specific details, such as the water is outside vs. inside, is dirty or unclean vs. clean, is spread out vs. contained, and may explain why these differences matter.",
+        "meets": "Student identifies at least two clear differences between the water in the picture and drinking water, such as location (outside vs. inside) or cleanliness (dirty vs. clean).",
+        "approaching": "Student identifies one difference between the two water sources but lacks detail or clarity in the explanation.",
+        "beginning": "Student provides a minimal or inaccurate response that does not clearly compare the water in the picture to drinking water."
+      }
+    },
+    {
+      "questionText": "What do you think will happen to all this water over time—where might it go?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a thoughtful prediction with specific details, such as the water will soak into the ground, evaporate into the air, or flow to other areas, and may explain why this would happen.",
+        "meets": "Student makes a reasonable prediction about where the water will go, such as into the ground, into the air, or to another location, using grade-appropriate language.",
+        "approaching": "Student makes a prediction but it shows incomplete understanding, such as mentioning one destination without clear reasoning or using vague language.",
+        "beginning": "Student's prediction is unclear, inaccurate, or shows minimal understanding of what happens to water over time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:24:38.119Z",
+  "cost": 0.004954
+}

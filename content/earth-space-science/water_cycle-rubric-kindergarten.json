@@ -1,0 +1,53 @@
+{
+  "title": "Water Cycle",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you see covering the flower?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies snow/white stuff on the flower and describes additional details like it being on the leaves, stem, or petals with clear, descriptive language.",
+        "meets": "Student correctly identifies snow or white covering on the flower with simple, accurate description.",
+        "approaching": "Student identifies something white on the flower but uses vague language or is uncertain (e.g., 'white stuff' without naming it).",
+        "beginning": "Student makes minimal attempt to identify what is on the flower or provides an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "Why do you think snow is on top of the flower instead of on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful explanation using words like 'fell,' 'landed,' or 'stuck' and considers that the flower's shape might catch snow, showing understanding of how snow accumulates on objects.",
+        "meets": "Student offers a reasonable explanation that snow fell on the flower or landed on it, showing basic understanding of how snow gets on objects.",
+        "approaching": "Student attempts an explanation but it is unclear or partially incorrect (e.g., 'the snow wanted to go there' without clear reasoning).",
+        "beginning": "Student provides a vague response or one that shows little understanding of how snow accumulates."
+      }
+    },
+    {
+      "questionText": "If we brought this flower inside where it's warm, what do you think would happen to the snow?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the snow would melt and describes what would happen next (e.g., turns to water, drips down) using words like 'melt' or 'disappear,' showing understanding of temperature's effect on snow.",
+        "meets": "Student correctly predicts the snow would melt or go away when brought inside to warmth.",
+        "approaching": "Student makes a prediction but it is uncertain or only partially correct (e.g., 'it might melt' with hesitation or incomplete thinking).",
+        "beginning": "Student provides an inaccurate or unclear prediction with little connection to the effect of warmth."
+      }
+    },
+    {
+      "questionText": "Can you think of other times you've seen water change—like ice melting or puddles disappearing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides two or more specific, accurate examples of water changing forms (e.g., ice cream melting, puddles after rain disappearing, snow melting in spring) and shows understanding that these are the same water in different states.",
+        "meets": "Student provides at least one specific, realistic example of water changing forms with clear description of what happened.",
+        "approaching": "Student provides an example but it is vague, partially inaccurate, or they struggle to fully explain the water changing (e.g., mentions puddles but unclear about disappearing).",
+        "beginning": "Student provides minimal response, an unclear example, or struggles to think of any time water changed."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:10:52.416Z",
+  "cost": 0.004724
+}

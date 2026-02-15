@@ -1,0 +1,53 @@
+{
+  "title": "Friction",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if the pantograph lost contact with the overhead wire?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the train would stop or lose power and explains that electricity from the wire powers the train, showing understanding of the connection between the pantograph, wire, and train movement.",
+        "meets": "Student predicts the train would stop or lose power, demonstrating understanding that the overhead wire provides electricity needed for the train to run.",
+        "approaching": "Student predicts something would go wrong with the train but provides incomplete reasoning about why the pantograph or wire is important.",
+        "beginning": "Student provides a vague prediction (like 'it would break') with little or no explanation of the pantograph's role in powering the train."
+      }
+    },
+    {
+      "questionText": "How is this train similar to and different from a toy electric train?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both use electricity to move) and differences (size, number of passengers, power source method, tracks), demonstrating detailed comparison of real and toy trains.",
+        "meets": "Student identifies at least one similarity and one difference between the real and toy trains, such as both using electricity but different in size or power delivery method.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or descriptions lack clarity about how the trains compare.",
+        "beginning": "Student provides minimal comparison with vague or mostly inaccurate statements about the trains' similarities or differences."
+      }
+    },
+    {
+      "questionText": "Why might cities choose electric trains instead of diesel trains?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student provides multiple logical reasons such as cleaner air (no pollution), quieter operation, or better for cities, showing understanding of why electric trains benefit urban environments.",
+        "meets": "Student provides at least one reasonable explanation, such as electric trains being cleaner or better for city living than diesel trains.",
+        "approaching": "Student attempts an explanation but provides incomplete reasoning or makes a statement that shows partial understanding of electric train benefits.",
+        "beginning": "Student provides a minimal or unclear response that does not clearly explain why cities might prefer electric trains over diesel trains."
+      }
+    },
+    {
+      "questionText": "What other vehicles use electricity to move?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student lists multiple electric vehicles (such as electric cars, trolleybuses, electric buses, or toy cars) demonstrating broad knowledge of electricity-powered transportation.",
+        "meets": "Student names at least two electric vehicles beyond the train, such as electric cars or electric buses.",
+        "approaching": "Student names one electric vehicle or mentions electric power in vehicles but with incomplete or unclear examples.",
+        "beginning": "Student attempts to name vehicles but provides vague or no clear examples of electric-powered transportation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:20:48.513Z",
+  "cost": 0.004374
+}

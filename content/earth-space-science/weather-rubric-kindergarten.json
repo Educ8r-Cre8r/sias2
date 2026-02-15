@@ -1,0 +1,53 @@
+{
+  "title": "Weather",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think is going to happen when that dark cloud reaches the town?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts rain or a storm will happen and explains why dark clouds bring rain (e.g., 'It will rain because dark clouds are full of water').",
+        "meets": "Student predicts rain or a storm will happen when the cloud reaches the town.",
+        "approaching": "Student makes a prediction about weather change but is vague or uncertain (e.g., 'Something will happen' or 'It will be different').",
+        "beginning": "Student provides a minimal or unclear response that does not address what might happen (e.g., 'I don't know' or an unrelated answer)."
+      }
+    },
+    {
+      "questionText": "Why do you think the cloud looks so dark and scary? What is inside it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cloud is dark because it holds lots of water or rain, and identifies what is inside (water droplets, rain) using simple scientific language.",
+        "meets": "Student correctly identifies that the cloud is dark and contains water or rain, with a basic explanation of why it looks dark.",
+        "approaching": "Student recognizes the cloud is dark and mentions water or rain, but the explanation is unclear or incomplete (e.g., 'It's dark because... um... water?').",
+        "beginning": "Student describes the cloud as dark or scary but does not explain why or what is inside, or provides an inaccurate response."
+      }
+    },
+    {
+      "questionText": "How is the weather in the sunny area different from the weather under the dark cloud right now?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences between the two areas: the sunny area is bright and warm while under the cloud it is dark and cooler; explains how the cloud blocks sunlight.",
+        "meets": "Student identifies at least two differences between the sunny and cloudy areas (e.g., bright vs. dark, warm vs. cool).",
+        "approaching": "Student identifies one difference between the two areas but reasoning is incomplete or vague.",
+        "beginning": "Student attempts to compare but provides minimal or unclear details; may only describe one area rather than compare both."
+      }
+    },
+    {
+      "questionText": "If you were outside right now, what would your body tell you about the weather changing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body sensations that show weather is changing, such as getting cooler, wind blowing, or seeing the sky darken, demonstrating awareness of how senses detect weather changes.",
+        "meets": "Student identifies at least two body sensations (e.g., cooler temperature, wind, darkness) that show the weather is changing.",
+        "approaching": "Student identifies one body sensation related to weather change, but explanation lacks detail or clarity.",
+        "beginning": "Student provides a minimal response or names a body part/sense without connecting it to observing weather change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:00:58.707Z",
+  "cost": 0.00465
+}

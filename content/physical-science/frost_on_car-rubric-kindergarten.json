@@ -1,0 +1,53 @@
+{
+  "title": "Frost On Car",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you see on the car in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies frost/ice crystals as shiny, sparkly, white, and describes it as covering the car like a blanket or layer, using descriptive words and showing close observation.",
+        "meets": "Student correctly identifies the white, shiny, frosty covering on the car and describes what it looks like with at least one descriptive word.",
+        "approaching": "Student identifies something white or shiny on the car but description is vague or partially accurate, such as calling it 'snow' or 'ice' without detail.",
+        "beginning": "Student gives a minimal or unclear response, such as 'something white' or 'it's cold,' showing limited observation of the image."
+      }
+    },
+    {
+      "questionText": "Why do you think the frost looks shiny and sparkly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the frost sparkles because it is made of ice crystals that catch and reflect light from the sun, demonstrating understanding of how light interacts with ice.",
+        "meets": "Student provides a reasonable explanation, such as 'it's shiny because it's icy' or 'the sun makes it sparkly,' showing basic cause-and-effect thinking.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially inaccurate, such as 'it's pretty' or 'water makes it shiny' without connecting to light or crystals.",
+        "beginning": "Student's response is vague or shows minimal understanding, such as 'I don't know' or 'because it's frost,' with no attempt at explanation."
+      }
+    },
+    {
+      "questionText": "Where do you think the frost came from before it landed on the car?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that frost comes from water in the air that freezes when it gets very cold at night, showing understanding of the water cycle and temperature's role in freezing.",
+        "meets": "Student identifies that frost comes from water or the air and that cold temperature caused it to freeze, demonstrating basic understanding of frost formation.",
+        "approaching": "Student provides a partial answer, such as 'from the sky' or 'from water,' but does not explain the freezing process or is unclear about the source.",
+        "beginning": "Student gives a minimal or inaccurate response, such as 'from outside' or 'from the snow,' showing limited understanding of where frost originates."
+      }
+    },
+    {
+      "questionText": "What do you think will happen to the frost when the sun comes up and makes it warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the frost will melt and become water or disappear, and explains that warmth from the sun causes ice to change into liquid, showing understanding of melting.",
+        "meets": "Student correctly predicts that the frost will melt or go away when it gets warmer, showing understanding of cause and effect.",
+        "approaching": "Student makes a prediction but with incomplete reasoning, such as 'it will disappear' without explaining why or 'it will change' without specifying how.",
+        "beginning": "Student provides a vague or incorrect prediction, such as 'it will get more shiny' or 'I'm not sure,' showing minimal understanding of how warmth affects ice."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:14:02.001Z",
+  "cost": 0.005088
+}

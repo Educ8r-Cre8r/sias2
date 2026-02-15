@@ -1,0 +1,53 @@
+{
+  "title": "Winter Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think snow sticks to the evergreen tree's branches better than it might stick to a smooth piece of glass?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the tree's rough, bumpy needles and branches provide more surface area and texture for snow crystals to grip, and may extend this by noting that glass is smooth and slippery, making comparison clear.",
+        "meets": "Student identifies that the tree's needles or rough branches help snow stick better, recognizing a difference between the rough tree surface and smooth glass.",
+        "approaching": "Student mentions that trees have needles or branches that help snow stick but provides limited explanation of how texture or surface area affects sticking.",
+        "beginning": "Student gives a vague response such as 'trees are bumpy' or 'glass is smooth' without explaining how these properties affect snow sticking."
+      }
+    },
+    {
+      "questionText": "What would happen to the snow on these trees if the temperature suddenly increased to 50°F? Use what you know about states of matter to explain your thinking.",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that snow would melt and uses accurate vocabulary about states of matter, explaining that solid snow changes to liquid water and may also mention evaporation or runoff.",
+        "meets": "Student predicts that snow would melt and identifies that snow is a solid that would turn into water, showing understanding of state change.",
+        "approaching": "Student predicts melting or change but provides incomplete or partially inaccurate explanation of states of matter involved.",
+        "beginning": "Student makes a prediction but provides little or no explanation of states of matter, or gives an inaccurate response."
+      }
+    },
+    {
+      "questionText": "How do you think evergreen trees are different from the bare trees you see in the background, and why might these differences help them survive winter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that evergreens keep their needles year-round while other trees lose leaves, and explains multiple survival advantages such as continued photosynthesis, protection from cold, or reduced water loss.",
+        "meets": "Student recognizes that evergreens have needles and keep them in winter while bare trees lose their leaves, and provides one reasonable explanation for how this helps survival.",
+        "approaching": "Student notes a difference between evergreens and bare trees but provides incomplete or unclear reasoning about winter survival benefits.",
+        "beginning": "Student mentions that the trees look different but provides minimal or no explanation of how these differences help trees survive winter."
+      }
+    },
+    {
+      "questionText": "If you could design a plant that thrives in snowy winters, what features would you give it and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple realistic features (such as thick needles, waxy coating, deep roots, flexible branches, or ability to photosynthesize in low light) and explains how each feature helps survive cold and snow conditions.",
+        "meets": "Student proposes at least two reasonable plant features suited to snowy winters and explains how each one provides a survival advantage.",
+        "approaching": "Student proposes one or two features but provides limited or incomplete reasoning about how they would help the plant survive winter.",
+        "beginning": "Student proposes vague features or features unrelated to winter survival, with little to no explanation of why they would be helpful."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:54:21.840Z",
+  "cost": 0.005064
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fairy Inkcaps",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Where do you think the \"mother\" fungus is hiding, and how does it create these mushrooms?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the main fungus (mycelium) lives in the wood chips and soil, describes how it breaks down wood to get energy, and explains that mushrooms are the fruiting bodies that grow from the mycelium to spread spores.",
+        "meets": "Student identifies that the fungus is in the wood chips or soil and explains that mushrooms grow from the fungus to help it reproduce or spread.",
+        "approaching": "Student recognizes that the fungus is somewhere in the wood chips or soil, but provides only a partial or unclear explanation of how mushrooms are created.",
+        "beginning": "Student makes a vague guess about where the fungus is located or provides minimal detail about how mushrooms form."
+      }
+    },
+    {
+      "questionText": "If mushrooms release spores into the air, how might fungi spread to different places in your neighborhood or town?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that spores are carried by wind or air currents to new locations, and describes how spores could land on wood, soil, or mulch to grow new fungi; may mention other dispersal methods like water or animals.",
+        "meets": "Student explains that spores travel through the air and can land in other places where they grow into new fungi.",
+        "approaching": "Student recognizes that spores help fungi spread but provides an incomplete or unclear explanation of how they travel or where they land.",
+        "beginning": "Student acknowledges that spores spread fungi but provides little detail or reasoning about the spreading process."
+      }
+    },
+    {
+      "questionText": "What might happen to dead leaves and fallen branches in a forest if there were no fungi to break them down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that dead leaves and branches would pile up, decompose very slowly or not at all, and describes how this would affect nutrient cycling, soil quality, or the forest ecosystem.",
+        "meets": "Student explains that dead leaves and branches would accumulate or stay on the forest floor for a long time without fungi to break them down.",
+        "approaching": "Student recognizes that fungi help break down dead material but provides an incomplete explanation of what would happen without them.",
+        "beginning": "Student provides a vague response or suggests something would happen but shows minimal understanding of fungi's decomposition role."
+      }
+    },
+    {
+      "questionText": "These mushrooms are growing in wood chips. What is the fungus actually \"eating,\" and how does that help the soil?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fungi break down the dead wood in the chips to get energy and nutrients, and describes how this process returns nutrients to the soil, making it richer for plants to use.",
+        "meets": "Student identifies that the fungus eats or breaks down the wood chips and explains that this process adds nutrients or organic matter back to the soil.",
+        "approaching": "Student recognizes that the fungus uses the wood chips as food but provides only a partial explanation of how this benefits the soil.",
+        "beginning": "Student makes a simple statement that the fungus eats wood but shows little understanding of the connection to soil health."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:13:54.323Z",
+  "cost": 0.00495
+}

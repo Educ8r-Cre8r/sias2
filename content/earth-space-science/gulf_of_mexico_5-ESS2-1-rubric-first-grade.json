@@ -1,0 +1,53 @@
+{
+  "title": "Gulf of Mexico",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think someone put a warning sign right here at the beach?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sign warns people about the drop-off caused by waves moving sand, and identifies a specific safety reason (like people could fall or get hurt).",
+        "meets": "Student states that the sign warns people about danger at the beach and mentions that waves or water moving sand created the drop-off.",
+        "approaching": "Student recognizes the sign is a warning but provides incomplete reasoning—may mention danger without connecting it to water/sand movement, or vice versa.",
+        "beginning": "Student gives a vague answer like 'it's a warning' or 'people shouldn't go there' with no explanation of why or what causes the danger."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the sand when the big waves hit it? Where does it go?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that waves move sand away from the beach into the ocean or down the drop-off, and may explain that this happens over and over, changing the beach shape.",
+        "meets": "Student correctly identifies that waves move sand away from the beach, and provides a reasonable location (into the water, out to sea, or down the slope).",
+        "approaching": "Student shows partial understanding—may say waves move sand but be unclear about direction, or describe movement without explaining the consequence.",
+        "beginning": "Student provides a minimal response like 'it moves' or 'it goes away' without details about how waves cause this or where the sand ends up."
+      }
+    },
+    {
+      "questionText": "How is the ocean like when you pour water on sand in a sandbox? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both pour water on sand and move it, and provides specific differences (ocean is much bigger, has waves, keeps moving, or happens faster/continuously).",
+        "meets": "Student identifies at least one similarity (both move sand with water) and one difference (ocean is bigger, waves are stronger, or water keeps moving).",
+        "approaching": "Student identifies either a similarity or a difference accurately, but not both, or provides incomplete comparisons.",
+        "beginning": "Student makes a comparison attempt but lacks accuracy or detail—may say 'they're the same' or 'they're different' without explaining why."
+      }
+    },
+    {
+      "questionText": "If water keeps moving sand away from the beach, what might happen to this place in the future? Why should that matter to people who live near the ocean?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the beach will get smaller or disappear, and explains why this matters to people (homes/buildings could be damaged, beach for swimming goes away, or loss of land).",
+        "meets": "Student predicts a change to the beach (becomes smaller, gets shorter, sand disappears) and gives a reason it matters (people can't use the beach, or something gets damaged).",
+        "approaching": "Student predicts a change or identifies that it matters to people, but reasoning is incomplete or unclear—may predict without explaining why it matters, or vice versa.",
+        "beginning": "Student provides minimal understanding—may say 'it will change' without prediction details, or states it matters without explaining why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:42:26.041Z",
+  "cost": 0.00504
+}

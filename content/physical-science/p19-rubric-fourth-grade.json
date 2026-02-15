@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we used hot water instead of cold water?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the dye would spread faster in hot water and explains that heat makes particles move more quickly, using appropriate vocabulary like 'particles' or 'molecules' with a clear cause-and-effect connection.",
+        "meets": "Student predicts the dye would spread faster in hot water and provides a reasonable explanation that heat causes faster mixing or movement.",
+        "approaching": "Student predicts the dye would spread faster in hot water but gives a vague or incomplete explanation of why this would happen.",
+        "beginning": "Student makes a prediction about hot water but shows minimal understanding, such as 'it would spread' without explanation or an inaccurate prediction."
+      }
+    },
+    {
+      "questionText": "How is this blue dye spreading similar to how smell travels across the room?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both involve particles moving and spreading through space, explaining that invisible particles (dye or scent) disperse from a source to fill an area, using scientific language appropriately.",
+        "meets": "Student recognizes that both the dye and smell spread throughout a space and notes that both involve movement of something invisible or particles mixing.",
+        "approaching": "Student notes that both dye and smell spread, but the explanation lacks clarity about how particles move or is only partially developed.",
+        "beginning": "Student attempts a comparison but shows minimal understanding, such as 'they both spread' with no explanation of the mechanism or process."
+      }
+    },
+    {
+      "questionText": "Why do you think the dye doesn't all sink to the bottom of the jar?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the dye particles are mixed and spread throughout the water by movement and diffusion, demonstrating understanding that particles distribute evenly rather than settling due to continuous motion.",
+        "meets": "Student recognizes that the dye mixes and spreads through the water rather than sinking, with a reasonable explanation about movement or mixing.",
+        "approaching": "Student identifies that the dye doesn't sink but gives an incomplete or unclear explanation about why, such as 'it floats' without elaboration.",
+        "beginning": "Student attempts an answer but shows minimal understanding, such as 'because it's dye' or 'water keeps it up' with no meaningful explanation."
+      }
+    },
+    {
+      "questionText": "What evidence do you see that particles are moving even though we can't see them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence, such as the changing color patterns, the spreading of the dye, the swirling shapes, or the gradual mixing, and explains that these visible changes prove invisible particles are moving.",
+        "meets": "Student identifies at least one clear piece of evidence, such as the dye spreading or colors changing, and connects this to particle movement.",
+        "approaching": "Student identifies a visible change in the photo, such as 'the dye spreads' or 'colors mix,' but makes a weak connection to particle movement.",
+        "beginning": "Student describes what they see in the photo but fails to connect observations to particle movement, or provides vague evidence with no explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:05:11.626Z",
+  "cost": 0.004905
+}

@@ -1,0 +1,53 @@
+{
+  "title": "King Snake",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this snake has bright red, yellow, and black stripes instead of colors that blend into trees and grass?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright stripes are a warning signal to predators and connects this to the idea that the snake uses color to communicate danger rather than hide, demonstrating understanding of warning coloration strategy.",
+        "meets": "Student identifies that the bright colors are different from camouflage and suggests the colors warn or scare predators away, showing basic understanding of warning coloration.",
+        "approaching": "Student recognizes the stripes are bright and different from typical snake colors but provides incomplete reasoning about why (e.g., \"it wants to be seen\" without explaining the purpose).",
+        "beginning": "Student describes the colors present but does not explain why the snake has them, or provides an inaccurate guess without connection to survival."
+      }
+    },
+    {
+      "questionText": "How might these bright colors help the snake survive, even if the snake isn't actually poisonous?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that bright colors make predators think the snake is dangerous/poisonous and avoid it without attacking, then connects this to the concept of mimicry or learned behavior (predators remember dangerous snakes look like this).",
+        "meets": "Student explains that the bright colors trick or fool predators into thinking the snake is poisonous, so predators leave it alone and don't eat it, showing understanding of warning coloration as a survival strategy.",
+        "approaching": "Student indicates the bright colors help the snake survive but with unclear reasoning (e.g., \"predators don't like bright colors\" without explaining the warning aspect).",
+        "beginning": "Student acknowledges the colors might help but provides vague or inaccurate explanations (e.g., \"it looks cool\" or \"it confuses predators\" without details)."
+      }
+    },
+    {
+      "questionText": "What would happen to snakes with dull, brown coloring if predators learned that the bright-colored snakes were dangerous to eat?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that dull-colored snakes would be eaten because predators wouldn't recognize them as dangerous, and extends this to explain why warning colors are important for survival of the whole population.",
+        "meets": "Student predicts that dull-colored snakes would be eaten or have a harder time surviving because predators wouldn't know they were dangerous, showing understanding of how warning colors protect snakes.",
+        "approaching": "Student makes a prediction about dull-colored snakes being in danger but with incomplete reasoning or unclear connection to predator learning.",
+        "beginning": "Student provides a vague prediction or guess without clear connection to the warning color strategy (e.g., \"they might get hurt\" without explanation)."
+      }
+    },
+    {
+      "questionText": "Can you think of other animals that use bright colors or patterns to warn predators? What do those colors tell predators?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names 2+ animals with warning colors (frogs, wasps, ladybugs, etc.) and explains what the colors communicate to predators (danger, poison, don't eat), demonstrating transfer of the concept to other species.",
+        "meets": "Student names at least one animal with bright warning colors and explains that the colors tell predators the animal is dangerous or poisonous, showing accurate application of the concept.",
+        "approaching": "Student names an animal with bright colors but provides incomplete explanation of what the colors mean to predators, or names an animal without clear warning coloration.",
+        "beginning": "Student names an animal but cannot explain the purpose of its colors, or provides an inaccurate example that doesn't use warning coloration."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:48:53.761Z",
+  "cost": 0.005528
+}

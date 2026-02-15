@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this spider's color matches the tree bark so well?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spider's brown and gray colors match the bark and lichen to help it hide from predators or sneak up on prey, and identifies this strategy as camouflage or blending in with the environment.",
+        "meets": "Student states that the spider's colors match the tree bark and explains this helps the spider hide or stay safe from predators.",
+        "approaching": "Student notes that the spider's colors are similar to the bark but provides incomplete reasoning about why this matters (e.g., \"it's the same color\" without explaining the advantage).",
+        "beginning": "Student makes a vague observation about the spider's color or the bark without explaining how the match-up is connected to survival or protection."
+      }
+    },
+    {
+      "questionText": "How would this spider's life be different if it were bright red instead of brown and gray?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a bright red spider would stand out against the bark, making it easier for predators to spot and catch it, and/or harder for the spider to sneak up on prey; connects this to reduced survival chances.",
+        "meets": "Student explains that a bright red spider would be easier to see against the brown and gray bark, making it more likely to be caught by predators or unable to hide.",
+        "approaching": "Student recognizes that a red spider would look different on the bark but provides incomplete explanation of the consequences (e.g., \"it would be visible\" without explaining what that means for the spider).",
+        "beginning": "Student makes a simple observation that red and brown are different colors without explaining how this affects the spider's ability to survive or hunt."
+      }
+    },
+    {
+      "questionText": "If many spiders of different colors lived in this forest, which ones would be more likely to survive and have babies? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that brown and gray spiders would survive longer because they blend in with the bark, then explains that these spiders would have more babies because more parents survive to reproduce; demonstrates understanding of natural selection.",
+        "meets": "Student correctly predicts that brown and gray spiders would be more likely to survive and have babies because their colors help them hide from predators on the bark.",
+        "approaching": "Student identifies brown and gray as better colors for survival but provides incomplete reasoning (e.g., states the answer without fully explaining why camouflage affects survival or reproduction).",
+        "beginning": "Student attempts to answer which colors would survive but provides minimal or inaccurate reasoning about why camouflage affects survival and reproduction."
+      }
+    },
+    {
+      "questionText": "Can you think of other animals that use camouflage to hide from predators or sneak up on prey?",
+      "bloomsLevel": "Remember/Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals with camouflage (e.g., stick insects, leaf-tailed geckos, deer, snowshoe hares) and briefly explains how their colors or patterns help them hide or hunt in their specific environments.",
+        "meets": "Student names at least one or two animals that use camouflage and explains in general terms how their appearance helps them hide or hunt.",
+        "approaching": "Student names one animal that could use camouflage but provides vague or incomplete explanation of how camouflage helps that animal.",
+        "beginning": "Student names an animal but does not explain how it uses camouflage, or provides an example that does not clearly involve hiding or hunting."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:07:36.688Z",
+  "cost": 0.005357
+}

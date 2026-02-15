@@ -1,0 +1,53 @@
+{
+  "title": "Plant Reproduction",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to this seed if an animal ate the fruit and carried it far away from the parent plant?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the seed would grow into a new plant in a new location and explains that this helps the species spread, using accurate vocabulary like 'dispersal' or 'germination.' Student may mention the animal's digestive system or soil conditions needed.",
+        "meets": "Student predicts the seed would grow into a new plant far from the parent plant and gives a reasonable explanation, such as the seed getting planted in new soil or the animal dropping it in a new place.",
+        "approaching": "Student predicts the seed could grow or be planted elsewhere but explanation is unclear or incomplete; may confuse what happens to the fruit versus the seed.",
+        "beginning": "Student provides a vague prediction or incorrect answer, such as the seed being digested and disappearing, with little or no explanation of the growth process."
+      }
+    },
+    {
+      "questionText": "Why might it be better for a plant to have its seeds scattered to different locations instead of all falling directly below the parent plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple advantages such as reducing competition for water, soil, and sunlight; decreasing disease spread; or increasing chances of survival. Response shows clear understanding of plant needs and ecosystem concepts.",
+        "meets": "Student identifies at least one clear advantage, such as seeds won't compete with the parent plant for resources or seeds have better chances of finding suitable growing conditions.",
+        "approaching": "Student recognizes scattering is better but explanation is incomplete or partially inaccurate; may mention competition or space but lack detail about resources or survival.",
+        "beginning": "Student acknowledges scattering might be beneficial but cannot explain why, or provides an inaccurate reason with minimal reasoning."
+      }
+    },
+    {
+      "questionText": "How is the structure of this squash fruit different from a seed, and why does a plant need both?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly describes structural differences (fruit is large and fleshy, seed is small and hard) and explains that the fruit protects seeds and provides nutrition for animals to disperse them, while seeds contain the plant embryo needed to grow a new plant.",
+        "meets": "Student identifies at least one structural difference and explains that the fruit protects seeds and/or helps disperse them, while seeds grow into new plants.",
+        "approaching": "Student describes some differences between fruit and seed but explanation of purpose is unclear or incomplete; may not connect structure to function.",
+        "beginning": "Student notes the fruit and seed look different but provides no explanation of function or why plants need both structures."
+      }
+    },
+    {
+      "questionText": "If you planted one of these seeds and gave it water, soil, and sunlight, what would grow? Explain your thinking.",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a squash plant will grow and explains the reasoning by naming the seed's parent plant, describing how seeds contain baby plants, or explaining that with proper conditions (water, soil, sunlight) seeds germinate and grow into plants like their parents.",
+        "meets": "Student predicts a squash plant (or similar plant) will grow and provides a reasonable explanation, such as seeds grow into plants or this seed came from a squash plant.",
+        "approaching": "Student predicts something will grow but reasoning is unclear or partially inaccurate; may confuse what grows or why seeds need water and soil.",
+        "beginning": "Student provides a vague or incorrect prediction about what would grow, with little or no explanation of how seeds develop into plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:22:22.744Z",
+  "cost": 0.005372
+}

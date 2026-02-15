@@ -1,0 +1,53 @@
+{
+  "title": "Ice Ball",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the patterns inside this ice ball, and how do you think they formed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific details about the crystal patterns (branching, symmetrical, radiating from center) and explains that water freezes from the center outward, with ice crystals forming in organized structures as the temperature drops.",
+        "meets": "Student identifies that the patterns look branched or tree-like and explains that freezing causes the patterns to form as water turns to ice.",
+        "approaching": "Student notices there are patterns inside the ice ball but provides only a partial explanation of how they formed, such as mentioning freezing without describing the pattern structure.",
+        "beginning": "Student makes a simple observation about the ice ball (e.g., 'it has lines') but provides little or no explanation of pattern formation."
+      }
+    },
+    {
+      "questionText": "If you made ice balls using different liquids like salt water or sugar water, how might the crystal patterns change and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that salt water or sugar water would freeze at different temperatures or more slowly, causing different crystal patterns to form, and explains that dissolved particles in the liquid affect how water molecules arrange into crystals.",
+        "meets": "Student predicts that the crystal patterns would look different with salt water or sugar water and provides a reasonable explanation that the added materials would change how the ice freezes.",
+        "approaching": "Student makes a prediction about pattern changes but offers limited or unclear reasoning about why different liquids would affect crystallization differently.",
+        "beginning": "Student makes a simple prediction or guess with little to no scientific reasoning about how different liquids affect ice crystal formation."
+      }
+    },
+    {
+      "questionText": "How is the formation of these ice crystals similar to other patterns you see in nature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple natural patterns with similar branching structures (such as tree branches, rivers, lightning, frost on windows, snowflakes) and explains that these patterns form when material spreads outward from a central point following the path of least resistance.",
+        "meets": "Student compares ice crystal patterns to at least one other natural pattern (such as tree branches or snowflakes) and notes that both have branching or repeating structures.",
+        "approaching": "Student identifies one natural pattern similar to the ice crystals but provides limited detail or connection between the two patterns.",
+        "beginning": "Student attempts to name a natural pattern but makes an unclear or inaccurate comparison to the ice crystal formation."
+      }
+    },
+    {
+      "questionText": "What evidence do you see that this ice ball is changing states of matter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence of melting, such as water visible in the tray, slightly fuzzy edges on the ice, or reduced size, and explains that the ice ball is changing from a solid to a liquid as it absorbs heat.",
+        "meets": "Student identifies that water or moisture is visible in the tray and explains that this shows the ice ball is melting from solid to liquid.",
+        "approaching": "Student notices that there is water present but provides unclear or incomplete explanation of the state change occurring.",
+        "beginning": "Student makes a minimal observation (such as 'there is water') with little connection to state changes or the melting process."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:31:26.224Z",
+  "cost": 0.00503
+}

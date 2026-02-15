@@ -1,0 +1,53 @@
+{
+  "title": "Snake Skin",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this snake's stripes help it hide in this pile of wood chips?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the stripes match the colors and lines of wood chips and grass, and identifies this as camouflage that helps the snake hide from predators or prey. Student may mention specific colors like brown or tan that blend in.",
+        "meets": "Student explains that the stripes help the snake hide by blending in with its surroundings or matching the wood chips and grass around it.",
+        "approaching": "Student identifies that the stripes help the snake hide but provides incomplete reasoning, such as stating the stripes match the environment without explaining why this helps hide the snake.",
+        "beginning": "Student provides a vague response such as 'the stripes help it hide' with little or no explanation of how or why the stripes work."
+      }
+    },
+    {
+      "questionText": "What would happen to a bright red snake living in this same habitat? Would it survive as well as the garter snake?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the red snake would not survive as well because the bright color would stand out against the brown and green environment, making it easier for predators to see or harder to sneak up on prey. Student demonstrates understanding of how camouflage affects survival.",
+        "meets": "Student correctly predicts the red snake would not survive as well because it would stand out or be easier to see in the brown and green habitat.",
+        "approaching": "Student recognizes the red color would be different from the environment but provides incomplete reasoning about how this affects survival.",
+        "beginning": "Student gives a minimal response such as 'it wouldn't hide' without explaining why color matters for survival."
+      }
+    },
+    {
+      "questionText": "How are a snake's scales similar to the shingles on a roof? How do they help the snake?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both scales and shingles overlap and layer, and explains that this design protects the snake by keeping water out and providing a tough barrier against damage. Student uses the specific word 'overlap' or 'layer.'",
+        "meets": "Student explains that scales and shingles are similar because they overlap or cover something, and states that scales protect the snake's body.",
+        "approaching": "Student recognizes that scales and shingles are similar in appearance or placement but provides limited explanation of how this design helps protect the snake.",
+        "beginning": "Student makes a basic observation such as 'they both cover things' without explaining the overlapping pattern or protection benefit."
+      }
+    },
+    {
+      "questionText": "If a garter snake lived in snow and ice instead of a grassy area, what color and pattern might help it survive there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the snake would need to be white or light-colored with little to no pattern to blend in with snow and ice. Student demonstrates understanding that camouflage must match the environment and explains why the current stripes would not work in snow.",
+        "meets": "Student predicts the snake would need to be white or light-colored to blend in with snow and ice instead of its current striped pattern.",
+        "approaching": "Student identifies that the color would need to change to something lighter or whiter but provides minimal reasoning about why or how this relates to camouflage.",
+        "beginning": "Student gives a vague response such as 'it would need to be different' with little specific description of color or pattern needed for survival in snow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:38:12.417Z",
+  "cost": 0.005271
+}

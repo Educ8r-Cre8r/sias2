@@ -1,0 +1,53 @@
+{
+  "title": "Frost On Car",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the frost in this picture? Describe what it looks like.",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific visual features of frost, such as sparkly appearance, crystalline or bumpy texture, white color, and how it covers the surface completely; uses descriptive language.",
+        "meets": "Student describes the frost with 2–3 accurate details, such as it being white, sparkly, or bumpy; provides a basic but clear description.",
+        "approaching": "Student describes frost with one accurate detail (e.g., 'it's white' or 'it's sparkly') but lacks additional descriptive information or details are vague.",
+        "beginning": "Student provides a minimal or unclear response, such as 'it looks cold' or 'it's ice,' with little to no specific description of its appearance."
+      }
+    },
+    {
+      "questionText": "Why do you think frost forms on cold mornings but not on warm mornings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that cold temperatures cause water to freeze into ice crystals, and identifies that warm mornings do not get cold enough for this freezing to happen; may mention that water in the air freezes.",
+        "meets": "Student correctly identifies that cold temperatures cause frost to form and that warm mornings are too warm for frost; explanation shows understanding of the temperature connection.",
+        "approaching": "Student recognizes that temperature affects frost formation but explanation is incomplete; may say 'it's cold' or 'it freezes' without fully connecting to why warm mornings prevent frost.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'because it's morning' or shows little understanding of the relationship between temperature and frost formation."
+      }
+    },
+    {
+      "questionText": "If you could touch this frost, what do you predict it would feel like, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts frost would feel cold and hard or icy, and explains the prediction by connecting it to the fact that frost is frozen water or ice crystals; reasoning shows understanding of ice properties.",
+        "meets": "Student predicts frost would feel cold and possibly hard, with a simple explanation that it is ice or frozen water.",
+        "approaching": "Student predicts frost would feel cold but provides limited or unclear reasoning; may mention ice without fully explaining the connection to the prediction.",
+        "beginning": "Student provides a prediction with little or no reasoning, or the prediction is disconnected from understanding that frost is frozen water."
+      }
+    },
+    {
+      "questionText": "Where else in your neighborhood might you find frost on a cold morning, and why would those places get frosty?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies 2+ specific locations (e.g., grass, car windshields, metal playground equipment, mailbox) and explains that these places get frosty because they are exposed to the cold air and lose heat quickly, or because moisture in the air freezes on them.",
+        "meets": "Student identifies at least one realistic location where frost would form and provides a reasonable explanation related to cold temperatures or exposed surfaces.",
+        "approaching": "Student identifies a plausible location but explanation for why it gets frosty is vague or incomplete; may mention cold without explaining surface exposure or moisture.",
+        "beginning": "Student identifies a location with little or no explanation, or identifies an unlikely location with minimal reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:14:28.551Z",
+  "cost": 0.005132
+}

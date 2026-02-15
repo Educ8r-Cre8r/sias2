@@ -1,0 +1,53 @@
+{
+  "title": "Slime Mold",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how this living thing looks different from plants and animals you know?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (such as yellow color, bumpy/spongy texture, grows on wood) and uses descriptive words to explain how it looks unlike plants or animals they know.",
+        "meets": "Student identifies at least two differences between the slime mold and familiar plants or animals, using some descriptive details about its appearance.",
+        "approaching": "Student notices one difference (color, texture, or where it grows) but description is vague or only partially accurate.",
+        "beginning": "Student makes a general statement about the organism looking different but provides no specific details or examples."
+      }
+    },
+    {
+      "questionText": "Why do you think this organism is bright yellow instead of green like most plants?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that slime molds are not plants and do not need green chlorophyll to make food, showing understanding that color relates to how organisms get energy.",
+        "meets": "Student provides a reasonable inference that the yellow color shows it is not a plant, or suggests the color helps it in some way.",
+        "approaching": "Student makes an attempt to explain the color difference but reasoning is unclear or partially incorrect (e.g., guesses about the color without connecting to plant characteristics).",
+        "beginning": "Student acknowledges the color is different but offers no explanation or gives an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "How might this spongy texture help the organism do its job in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spongy texture helps it absorb water or nutrients from dead leaves, or helps it spread and cover more area to break down material.",
+        "meets": "Student identifies that the spongy texture helps the organism get what it needs from dead material, or helps it spread on the forest floor.",
+        "approaching": "Student recognizes the texture might be helpful but explanation lacks detail or connection to decomposition or absorbing nutrients.",
+        "beginning": "Student describes the spongy texture but does not explain how it helps the organism function."
+      }
+    },
+    {
+      "questionText": "What would happen to the forest if decomposers like this weren't there to break down dead leaves?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead leaves and wood would pile up and not return nutrients to soil, affecting plant growth and the whole forest ecosystem.",
+        "meets": "Student identifies that dead leaves would not break down and would pile up, affecting the forest in some way.",
+        "approaching": "Student recognizes something bad would happen to the forest but explanation is incomplete or unclear about the role of decomposers.",
+        "beginning": "Student provides a minimal response or guesses without showing understanding of decomposers' role in breaking down dead material."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:27:01.306Z",
+  "cost": 0.0045
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Water Cycle",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think snow is still falling in spring when flowers are blooming?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that temperature can drop below freezing even in spring, causing precipitation to fall as snow instead of rain, and may reference weather patterns or seasonal transitions.",
+        "meets": "Student identifies that it can still be cold enough in spring for snow to fall, or that weather changes can bring cold temperatures when flowers are already growing.",
+        "approaching": "Student acknowledges that snow can fall in spring or mentions temperature, but explanation lacks clarity or contains incomplete reasoning about why this occurs.",
+        "beginning": "Student provides a vague answer such as 'it's still winter' or 'it's cold,' with little explanation of the connection between temperature and snow falling."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this daffodil flower when the temperature rises again? Explain your thinking.",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the snow will melt and the flower will continue to grow or bloom, and explains that warmer temperatures help plants grow or that the snow won't harm a hardy spring flower.",
+        "meets": "Student predicts the snow will melt or the flower will be okay, with a reasonable explanation about warmth or plant survival.",
+        "approaching": "Student makes a prediction about what happens to the snow or flower but provides incomplete or partially unclear reasoning.",
+        "beginning": "Student makes a prediction with minimal or no explanation, or predicts an unlikely outcome such as the flower dying."
+      }
+    },
+    {
+      "questionText": "How is the water that makes snow connected to the water in rain or the water you drink?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snow, rain, and drinking water are all part of the water cycle, describing how water evaporates, condenses, and falls as precipitation, then may be collected for drinking.",
+        "meets": "Student identifies that snow and rain are both forms of water from the same source, or that water moves between the ground, sky, and living things in different forms.",
+        "approaching": "Student recognizes a connection between snow, rain, and drinking water but explanation is incomplete or lacks details about how water moves or changes.",
+        "beginning": "Student provides a vague connection such as 'they're all water' with little explanation of how they are related."
+      }
+    },
+    {
+      "questionText": "If this happens every spring in this location, how might plants evolve or adapt over many years to survive late snow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple specific adaptations such as stronger stems, thicker petals, or blooming later in spring, and explains how these traits help plants survive repeated late snow events.",
+        "meets": "Student suggests a reasonable adaptation like blooming later, having tougher flowers, or thicker leaves, with a logical explanation of how it helps survival.",
+        "approaching": "Student identifies an adaptation or suggests plants might change but explanation is incomplete, overly general, or lacks clear connection to surviving snow.",
+        "beginning": "Student provides a minimal response such as 'plants would get used to it' or 'they would change,' with no specific adaptation or survival benefit explained."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:11:25.162Z",
+  "cost": 0.004886
+}

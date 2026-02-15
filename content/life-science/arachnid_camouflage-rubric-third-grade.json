@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this spider's color looks similar to the tree bark?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the spider's brown and gray colors match the bark to help it hide from predators, and uses the word \"camouflage\" or \"blend in\" to describe this protection strategy.",
+        "meets": "Student identifies that the spider's colors are similar to the bark and explains this helps the spider hide or stay safe from animals that might eat it.",
+        "approaching": "Student notices the spider's colors match the bark but gives a vague explanation about hiding, such as \"so predators don't see it\" without clear reasoning.",
+        "beginning": "Student makes a simple observation like \"the colors look the same\" but does not explain why this matters or how it helps the spider."
+      }
+    },
+    {
+      "questionText": "How would the spider's life be different if it were bright red instead of brown and gray?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a bright red spider would be easy to spot on brown bark, making it more likely to be eaten by predators, and may connect this to survival or how camouflage helps spiders stay alive.",
+        "meets": "Student explains that a bright red spider would stand out against the bark and would be easier for predators to see and catch.",
+        "approaching": "Student recognizes that bright red would make the spider more visible but gives incomplete reasoning, such as \"predators could find it\" without explaining why visibility matters.",
+        "beginning": "Student provides a minimal response like \"it would look different\" without explaining how the color change would affect the spider's safety or survival."
+      }
+    },
+    {
+      "questionText": "What other animals might use camouflage to hide from predators or sneak up on prey? How do you know?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more animals that use camouflage (such as deer, grasshoppers, snakes, or frogs) and explains how their colors or patterns match their environments, showing understanding that camouflage is a common animal strategy.",
+        "meets": "Student names one or two animals that use camouflage and explains how their appearance helps them hide or hunt in their environment.",
+        "approaching": "Student names one animal and attempts to explain how it uses camouflage, but the explanation is unclear or incomplete (such as \"a frog hides because of its color\" without explaining where or why).",
+        "beginning": "Student names an animal but provides little or no explanation of how it uses camouflage, or gives an inaccurate example."
+      }
+    },
+    {
+      "questionText": "If a spider with bright colors lived in a forest for many years, what might happen to its babies' colors? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that the bright-colored spider's babies would likely not survive or that only darker babies (if any were born) might survive, and explains this connects to how animals with helpful traits are more likely to stay alive and have babies.",
+        "meets": "Student predicts that the bright-colored spider's babies might have darker colors or that bright babies would not survive well, showing understanding that camouflage helps animals survive and have offspring.",
+        "approaching": "Student makes a prediction about the babies' colors but gives unclear reasoning, such as \"the babies might be brown\" without fully explaining why camouflage would affect which babies survive.",
+        "beginning": "Student makes a simple prediction without clear reasoning, such as \"the babies could be any color\" or \"they'd be bright like their parent\" without connecting to survival or camouflage."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:07:20.334Z",
+  "cost": 0.005384
+}

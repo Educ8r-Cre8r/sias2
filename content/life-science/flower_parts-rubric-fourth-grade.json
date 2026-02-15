@@ -1,0 +1,53 @@
+{
+  "title": "Flower Parts",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the colorful petals are for? Why would a flower need to be so bright and pretty?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that petals attract pollinators (bees, butterflies) and describes how bright colors help insects find the flower, demonstrating understanding of the relationship between flower appearance and pollination.",
+        "meets": "Student states that petals attract insects or help the flower get noticed, showing understanding that bright colors serve a purpose in nature.",
+        "approaching": "Student mentions that petals are colorful or pretty but gives limited explanation of their function, such as 'to look nice' or 'to get attention' without connecting to pollination.",
+        "beginning": "Student provides a vague response such as 'flowers are pretty' or 'the petals look nice' with little to no reasoning about their purpose."
+      }
+    },
+    {
+      "questionText": "If the yellow powdery stuff (pollen) on the stamens didn't get to the pistil, what might happen to the flower?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the flower would not make seeds or new flowers, and explains that pollen must reach the pistil for pollination and reproduction to occur.",
+        "meets": "Student predicts that the flower would not produce seeds or would not be able to make new flowers, showing understanding of pollen's role in reproduction.",
+        "approaching": "Student makes a prediction related to seeds or new growth but the explanation is incomplete or lacks clarity about the connection between pollen and reproduction.",
+        "beginning": "Student provides a prediction with little reasoning, such as 'the flower would die' or 'something bad would happen' without referencing pollen or seeds."
+      }
+    },
+    {
+      "questionText": "How do you think a bee helps this flower make new flowers?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bees carry pollen from the stamens to the pistil, and describes how this process (pollination) allows the flower to make seeds that grow into new flowers.",
+        "meets": "Student explains that bees move pollen from one part of the flower to another, or that bees help flowers reproduce by transferring pollen.",
+        "approaching": "Student mentions that bees help the flower or that bees carry pollen, but the explanation of how this leads to new flowers is unclear or incomplete.",
+        "beginning": "Student provides a minimal response such as 'bees help flowers' or 'bees carry pollen' without explaining the connection to making new flowers."
+      }
+    },
+    {
+      "questionText": "Compare this flower to another flower you know. How are their parts the same or different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific flower and describes at least two similarities and two differences in flower parts (such as petal color, number of stamens, pistil shape), using accurate scientific vocabulary.",
+        "meets": "Student identifies a specific flower and describes at least one similarity and one difference in flower parts, demonstrating observation skills and basic understanding of flower structure.",
+        "approaching": "Student identifies a flower and mentions a similarity or difference, but the description lacks detail or shows incomplete understanding of the flower parts being compared.",
+        "beginning": "Student mentions another flower but provides minimal or vague comparisons, such as 'it looks different' without specific details about flower parts."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:49:37.947Z",
+  "cost": 0.00508
+}

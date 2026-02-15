@@ -1,0 +1,53 @@
+{
+  "title": "Scavenger",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does this bird have that help it find food?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more specific body parts (beak, eyes, legs, feet) and explains how each one helps the bird find or eat food.",
+        "meets": "Student names two body parts that help the bird find food and provides a simple explanation for at least one.",
+        "approaching": "Student names one or two body parts but provides limited or unclear explanation of how they help find food.",
+        "beginning": "Student names one body part with no explanation, or gives a vague answer like 'its body.'"
+      }
+    },
+    {
+      "questionText": "Why do you think this bird has such long, thin legs? What could it use them for?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long legs help the bird walk through tall grass or reach food on the ground, and makes a connection to the bird's habitat or hunting behavior.",
+        "meets": "Student gives a reasonable explanation that long legs help the bird walk or reach things, showing understanding of how body parts match what the bird does.",
+        "approaching": "Student offers a partial idea about legs being long, but explanation is unclear or only partially correct.",
+        "beginning": "Student makes a guess with little reasoning, such as 'to run fast' with no connection to finding food."
+      }
+    },
+    {
+      "questionText": "How is this bird different from a robin or sparrow you might see in your yard?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more differences (size, leg length, head appearance, color) between this bird and common yard birds, showing careful observation.",
+        "meets": "Student identifies two clear differences between this bird and robins or sparrows, such as leg length or head appearance.",
+        "approaching": "Student identifies one difference accurately, or mentions two differences but one is unclear or inaccurate.",
+        "beginning": "Student attempts a comparison but provides vague or mostly inaccurate information about either bird."
+      }
+    },
+    {
+      "questionText": "If this bird didn't have a bare head and neck, how might that change the way it eats?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that feathers on the head and neck might get dirty, tangled, or in the way while the bird searches in grass and mud, and connects this to why bare skin is useful.",
+        "meets": "Student gives a reasonable explanation that feathers would get in the way or get messy while the bird eats from the ground.",
+        "approaching": "Student understands that feathers would cause some problem, but explanation lacks detail or clarity.",
+        "beginning": "Student provides a minimal response like 'it would be different' with little or no explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:26:07.379Z",
+  "cost": 0.004389
+}

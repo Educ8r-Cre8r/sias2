@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the colors if we made the bubble bigger or smaller?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that bubble size affects color appearance and explains that changing the thickness of the bubble wall changes how light bends, causing different colors to appear or disappear.",
+        "meets": "Student predicts that the colors would change if the bubble got bigger or smaller and provides a reasonable explanation connected to the bubble's size or thickness.",
+        "approaching": "Student makes a prediction about color change but offers only a vague or partially correct explanation, such as 'the colors would be different' without clear reasoning.",
+        "beginning": "Student provides a prediction with minimal explanation or states an answer without connecting it to how bubbles work (e.g., 'the colors would disappear' with no reasoning)."
+      }
+    },
+    {
+      "questionText": "Why do you see different colors in different parts of the same bubble?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that light bounces and bends off different thicknesses in the bubble wall, and that the thickness varies from top to bottom, causing different wavelengths of light to reflect and create different colors.",
+        "meets": "Student explains that different parts of the bubble have different thicknesses, and this causes different colors to appear in those areas.",
+        "approaching": "Student recognizes that the bubble thickness varies or that light creates the colors but doesn't clearly connect why different thicknesses produce different colors.",
+        "beginning": "Student offers a minimal explanation such as 'the bubble is different colors' or gives an answer unrelated to light or bubble thickness."
+      }
+    },
+    {
+      "questionText": "How is a soap bubble similar to a rainbow, and how is it different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both show rainbow colors through light bending and explains that rainbows use water droplets in air while bubbles use a thin film, and notes differences in shape, location, or how long they last.",
+        "meets": "Student identifies one similarity (both show rainbow colors) and one difference (such as different causes, shapes, or settings).",
+        "approaching": "Student provides either a similarity or a difference, but not both, or provides both with incomplete or unclear explanations.",
+        "beginning": "Student makes a vague comparison (e.g., 'they both have colors') with little or no accurate detail about rainbows or bubbles."
+      }
+    },
+    {
+      "questionText": "What other objects have you seen that show rainbow colors like this bubble?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple objects (such as oil slicks, CDs, prisms, or holograms) and explains why at least one shows rainbow colors using accurate science vocabulary.",
+        "meets": "Student identifies two or more objects that display rainbow colors, such as rainbows, oil on water, or CDs.",
+        "approaching": "Student names one object that shows rainbow colors or names multiple objects but with some inaccuracy or lack of detail.",
+        "beginning": "Student provides a vague or uncertain response (e.g., 'I think I saw rainbows') or names an object that does not typically display rainbow colors."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:23:17.824Z",
+  "cost": 0.004851
+}

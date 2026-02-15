@@ -1,0 +1,53 @@
+{
+  "title": "System",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if one part of the engine stopped working?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the engine needs all its parts working together and describes a specific consequence (e.g., 'if the spark plugs stopped working, the fuel wouldn't ignite and the car wouldn't start').",
+        "meets": "Student recognizes that one broken part would affect the engine and provides a reasonable consequence, such as the car not running or running poorly.",
+        "approaching": "Student identifies that a broken part would cause a problem but provides vague or partially incomplete reasoning (e.g., 'the car would break' or 'it wouldn't work right').",
+        "beginning": "Student provides a minimal response with little connection to how engine parts work together (e.g., 'it would be bad' or 'the car would stop')."
+      }
+    },
+    {
+      "questionText": "How is a car engine similar to other machines you use every day?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities, such as how different machines have connected parts that work together to do a job, and provides specific examples (e.g., 'a blender has a motor like a car engine, and both need electricity or fuel to run').",
+        "meets": "Student recognizes that car engines and other machines share at least one characteristic, such as having multiple parts that work together or needing energy to function.",
+        "approaching": "Student makes a comparison but with incomplete reasoning (e.g., 'they both have parts' without explaining what those parts do or why they're similar).",
+        "beginning": "Student provides a vague or off-topic response that shows minimal understanding of how machines work (e.g., 'they're both machines' or 'they both have motors')."
+      }
+    },
+    {
+      "questionText": "If you could design a better engine, what would you want it to do differently?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a thoughtful improvement with a clear reason connected to real-world concerns (e.g., 'make it quieter so it doesn't pollute the air' or 'use less fuel so cars can go farther without refueling').",
+        "meets": "Student suggests a reasonable improvement to how an engine works or performs (e.g., 'make it faster,' 'make it cleaner,' or 'make it easier to fix').",
+        "approaching": "Student offers an idea for improvement but with unclear reasoning or limited connection to how engines function (e.g., 'make it better' or 'make it cooler').",
+        "beginning": "Student provides a minimal or unclear response without a viable design idea (e.g., 'I don't know' or 'make it work')."
+      }
+    },
+    {
+      "questionText": "Where do you think the energy goes when a car is not moving but the engine is running?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that energy is released as heat and sound, and may mention specific examples such as heat from the engine block or exhaust, or the sound of the engine idling.",
+        "meets": "Student recognizes that energy is converted into at least one form, such as heat or sound, when the engine runs without moving the car.",
+        "approaching": "Student provides a partial answer mentioning energy changes but with incomplete or unclear reasoning (e.g., 'it goes somewhere' or 'it makes heat and stuff').",
+        "beginning": "Student's response shows minimal understanding of energy transfer (e.g., 'it just sits there' or provides an answer unrelated to energy)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:06:43.261Z",
+  "cost": 0.005367
+}

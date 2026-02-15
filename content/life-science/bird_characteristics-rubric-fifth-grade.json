@@ -1,0 +1,53 @@
+{
+  "title": "Bird Characteristics",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Look at the pigeon's feet and beak. How do you think these body parts help it find and eat food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific functions of both feet and beak with detailed explanations (e.g., feet for gripping/perching while eating, beak for pecking seeds) and connects these to how pigeons locate food in urban environments.",
+        "meets": "Student accurately describes how the pigeon's feet and beak help with finding or eating food, with clear connections between body parts and their functions.",
+        "approaching": "Student mentions how feet or beak helps with food, but explanations lack detail or may confuse the function of one body part; reasoning is incomplete.",
+        "beginning": "Student provides a vague or partially inaccurate response about feet or beak (e.g., 'the beak is for eating' without explaining how) with minimal evidence of understanding adaptations."
+      }
+    },
+    {
+      "questionText": "If a pigeon lived in a snowy, arctic environment instead of a city, what adaptations might change, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific adaptations (feathers for insulation, beak/feet modifications for different food sources, color changes for camouflage) with clear explanations of why each change would help the pigeon survive in arctic conditions.",
+        "meets": "Student identifies at least two realistic adaptations (such as thicker feathers or different food-finding methods) with reasonable explanations of how these changes would help in a snowy environment.",
+        "approaching": "Student identifies one or two adaptations but reasoning is incomplete; may mention adaptation without explaining why it would be beneficial, or suggestions may be partially unrealistic.",
+        "beginning": "Student provides vague, inaccurate, or minimal responses about adaptations (e.g., 'it would be white' without explanation) with little connection to survival in arctic conditions."
+      }
+    },
+    {
+      "questionText": "The pigeon's wings let it fly away from predators. What would happen to the pigeon population if all the hawks disappeared? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the pigeon population would likely increase with detailed reasoning about reduced predation pressure, food competition, or other ecological factors; demonstrates understanding of predator-prey relationships.",
+        "meets": "Student correctly predicts an increase in pigeon population and provides a clear explanation that predators (hawks) normally limit population size through predation.",
+        "approaching": "Student makes a prediction about population change but explanation lacks clarity or misses the direct connection between predator removal and population growth; reasoning is partially developed.",
+        "beginning": "Student provides a vague prediction or minimal explanation (e.g., 'more pigeons' without reasoning); does not clearly connect hawk removal to population changes."
+      }
+    },
+    {
+      "questionText": "Why do you think pigeons are found in almost every city in the world, but some other bird species are only found in one place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student provides multiple interconnected reasons (adaptability to varied environments, abundant food sources in cities, ability to live near humans, compatibility with urban structures) and explains why other species lack these advantages.",
+        "meets": "Student identifies 2-3 specific reasons pigeons thrive in cities (food availability, shelter, adaptability) and acknowledges that other species may have more specific habitat needs.",
+        "approaching": "Student identifies one or two reasons pigeons are successful in cities but reasoning is incomplete; may lack explanation of why other species are limited to specific places.",
+        "beginning": "Student provides a vague or overly simple response (e.g., 'pigeons like cities') without clear reasoning or comparison to other bird species' limitations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:39:43.896Z",
+  "cost": 0.005565
+}

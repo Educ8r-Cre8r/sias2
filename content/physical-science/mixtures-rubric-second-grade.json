@@ -1,0 +1,53 @@
+{
+  "title": "Mixtures",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What ingredients do you see in this picture, and how are they different from each other?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more ingredients (flour, spices, red ingredient, water/liquid) and describes differences using multiple sensory properties (color, texture, wetness) with specific details.",
+        "meets": "Student identifies at least two ingredients and describes clear differences between them, such as color (brown vs. red) or texture (dry vs. wet/liquid).",
+        "approaching": "Student identifies one or two ingredients and attempts to describe a difference, but the description may be incomplete or lack specific details.",
+        "beginning": "Student identifies at least one ingredient or mentions a difference but provides minimal detail or shows confusion about what makes ingredients different."
+      }
+    },
+    {
+      "questionText": "What do you think will happen to the color and texture when these two ingredients get mixed together?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts how both color and texture will change with specific reasoning, such as 'the colors will blend and make an orange/pink color because the ingredients mix together, and it will become smoother.'",
+        "meets": "Student predicts reasonable changes to either color or texture based on mixing two different ingredients, with a simple explanation.",
+        "approaching": "Student makes a prediction about what will happen but with limited reasoning or addresses only color or texture without clear connection to mixing.",
+        "beginning": "Student makes a vague prediction or statement about mixing without describing what will happen to color or texture specifically."
+      }
+    },
+    {
+      "questionText": "If we mixed flour and water together, could we separate them back into flour and water again? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that flour and water cannot be easily separated and provides a scientifically sound reason, such as 'the flour dissolves/breaks apart in the water so they blend together completely.'",
+        "meets": "Student correctly answers no and provides a reasonable explanation that flour and water change when mixed, though the explanation may not use precise science vocabulary.",
+        "approaching": "Student answers the question but provides an incomplete or partially correct explanation for why separation would or would not be possible.",
+        "beginning": "Student provides a yes or no answer with little to no explanation, or offers an explanation that shows misunderstanding of how mixtures work."
+      }
+    },
+    {
+      "questionText": "What other mixtures have you seen at home or school? What made you notice they were mixtures?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes two or more real-world mixtures from home or school (examples: trail mix, juice, salad, cereal and milk) and explains what made them notice by describing how different ingredients are combined together.",
+        "meets": "Student describes at least one real-world mixture and identifies a reasonable reason for noticing it was a mixture, such as seeing different ingredients together or observing how things combine.",
+        "approaching": "Student names a mixture from home or school but provides limited explanation for how they recognized it as a mixture, or the connection is unclear.",
+        "beginning": "Student names something from home or school but does not clearly explain that it is a mixture or what made them notice it."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:15:08.362Z",
+  "cost": 0.004883
+}

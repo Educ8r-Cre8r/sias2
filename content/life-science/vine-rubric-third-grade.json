@@ -1,0 +1,53 @@
+{
+  "title": "Vine",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if this vine didn't have tendrils? How might the plant look different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without tendrils, the vine would fall down or lay flat on the ground, and identifies multiple specific consequences such as leaves receiving less sunlight, the plant taking up more ground space, or the plant being unable to climb. Uses the word \"tendrils\" accurately.",
+        "meets": "Student correctly explains that the vine would fall down or not be able to climb without tendrils, and describes at least one consequence like the plant looking flat or spreading on the ground.",
+        "approaching": "Student recognizes that tendrils help the vine climb or stay up, but the explanation of what would happen without them is vague or incomplete; may mention the plant would look different without fully explaining how.",
+        "beginning": "Student provides a minimal or unclear response, such as \"the vine would be different\" without explanation, or shows confusion about the role of tendrils."
+      }
+    },
+    {
+      "questionText": "Why might a plant benefit from climbing up a fence instead of staying flat on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific benefits such as the plant getting more sunlight, leaves not being shaded by other plants, being able to reach more light, or taking up less ground space. Explanation shows clear understanding of how climbing helps the plant grow better.",
+        "meets": "Student identifies at least one clear benefit of climbing, such as reaching more sunlight or getting light that ground-level plants would miss.",
+        "approaching": "Student recognizes that climbing is beneficial but gives a vague or incomplete reason, such as \"it's higher up\" without explaining the advantage.",
+        "beginning": "Student provides a minimal response with little reasoning, such as \"plants like to climb\" or a response that shows unclear thinking about the benefit."
+      }
+    },
+    {
+      "questionText": "Can you think of other plants or animals that have special body parts that help them climb or grip things? What are those parts?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more examples (plants or animals) with accurate, specific body parts that help with climbing or gripping, such as cat claws, monkey tails, ivy roots, or tree bark texture. Explanations show understanding of how each part helps.",
+        "meets": "Student identifies at least one plant or animal with an accurate special body part used for climbing or gripping, such as squirrel claws or ivy hooks.",
+        "approaching": "Student identifies a plant or animal but the body part is vague or partially accurate, such as mentioning \"legs\" for a climbing animal without specificity, or the connection to climbing/gripping is unclear.",
+        "beginning": "Student provides a minimal or inaccurate response, such as naming a plant or animal without identifying a special body part, or describing an unrelated feature."
+      }
+    },
+    {
+      "questionText": "If a vine is growing on a fence in the shade for most of the day, but there's sunlight on the other side of the fence, predict what the vine might do as it grows.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the vine will grow toward the sunny side of the fence and explains that plants need sunlight to grow well. May reference photosynthesis, plant growth, or how plants move toward light; prediction is logical and based on plant behavior.",
+        "meets": "Student predicts the vine will grow toward the sunlight or sunny side and explains that plants need or seek sunlight to grow.",
+        "approaching": "Student makes a prediction about the vine growing toward light, but the explanation is incomplete or unclear; may not fully explain why the plant would move toward sunlight.",
+        "beginning": "Student makes a vague or unclear prediction, such as \"the vine will grow\" without directional or logical reasoning about the sunlight."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:56:30.276Z",
+  "cost": 0.005655
+}

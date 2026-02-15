@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors on the bubble?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific colors (pink, blue, yellow) and describes how they appear on the bubble (shiny, bright, changing, mixed together).",
+        "meets": "Student names at least two colors seen on the bubble and notes that the colors look pretty or bright.",
+        "approaching": "Student identifies one or two colors on the bubble with minimal description, such as just naming the color.",
+        "beginning": "Student makes a vague attempt to describe the bubble's appearance but does not accurately identify colors or provides only unclear observations."
+      }
+    },
+    {
+      "questionText": "Why do you think the bubble is round instead of square?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the round shape helps the bubble float or stay in the air, and/or that the soapy water naturally forms a round shape that works best for bubbles.",
+        "meets": "Student gives a reasonable explanation such as 'round bubbles float better' or 'that's how bubbles are made,' showing basic understanding of bubble shape.",
+        "approaching": "Student attempts to explain the shape with an incomplete or partially accurate reason, such as 'it looks round' without explaining why.",
+        "beginning": "Student provides little or no explanation, or makes an inaccurate statement unrelated to how bubbles form or function."
+      }
+    },
+    {
+      "questionText": "What might happen to the colors if we made the bubble bigger or smaller?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts how size changes might affect colors (colors spread out or get closer together, look different, might disappear) and explains their thinking with reasonable reasoning about how the thin bubble material works.",
+        "meets": "Student makes a logical prediction about what would happen to the colors if the bubble size changed, such as 'the colors would spread out' or 'they would still be there but look different.'",
+        "approaching": "Student makes a prediction about the colors changing but provides minimal or unclear reasoning for why the change would occur.",
+        "beginning": "Student provides a vague response or a prediction with no logical connection to how bubble size might affect its appearance."
+      }
+    },
+    {
+      "questionText": "How could we test different bubble recipes to see which works best?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a clear testing plan with multiple steps, such as making different bubble mixtures, using the same bubble tool for each, and observing which bubbles last longest or are biggest, showing understanding of fair testing.",
+        "meets": "Student suggests testing different bubble recipes and describes at least two steps in the process, such as mixing different recipes and blowing bubbles to see which works better.",
+        "approaching": "Student identifies that different recipes could be tested but provides incomplete or vague instructions, such as 'try different recipes and see what happens' without clear steps.",
+        "beginning": "Student makes a minimal attempt to suggest a test but provides unclear, incomplete, or illogical procedures for comparing bubble recipes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:22:53.850Z",
+  "cost": 0.004647
+}

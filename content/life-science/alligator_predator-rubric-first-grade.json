@@ -1,0 +1,53 @@
+{
+  "title": "Alligator Predator",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "How does the alligator's color help it survive in the water?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the alligator's dark green and brown color matches the water and plants, making it hard for animals to see it, and uses the word 'camouflage' or 'hiding' to describe this strategy.",
+        "meets": "Student identifies that the alligator's color helps it hide or blend in with the water and plants so it is hard to see.",
+        "approaching": "Student mentions the alligator's color or that it helps hide, but explanation is incomplete or vague about how the color actually helps.",
+        "beginning": "Student provides a minimal response about the alligator's color with little or no connection to survival or hiding."
+      }
+    },
+    {
+      "questionText": "Why do you think the alligator keeps its eyes and back above the water instead of going all the way under?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that keeping eyes above water helps the alligator see and hunt while staying mostly hidden, and may mention it can also breathe or stay alert for danger.",
+        "meets": "Student identifies that keeping eyes above the water helps the alligator see its food or prey, or helps it stay hidden while watching.",
+        "approaching": "Student gives a partial reason, such as 'to see' or 'to breathe,' but does not fully explain the advantage or hunting connection.",
+        "beginning": "Student offers a vague or incorrect reason, such as 'it just does' or 'to get air,' with minimal reasoning."
+      }
+    },
+    {
+      "questionText": "What might happen to the alligator if its skin were bright pink instead of dark green and brown?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright pink would make the alligator easy to see in the water, animals could spot it more easily, and it would have trouble hunting or hiding from danger.",
+        "meets": "Student identifies that bright pink color would make the alligator easy to see and harder to hide or catch food.",
+        "approaching": "Student mentions that bright pink would be visible or 'bad,' but reasoning is unclear or incomplete.",
+        "beginning": "Student makes a minimal attempt with little connection between color change and survival outcomes."
+      }
+    },
+    {
+      "questionText": "How is the alligator's way of hunting different from how a human catches food?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that the alligator hides and waits quietly to catch animals in the water, while humans use tools, cook food, or go to stores; may note differences in body parts used (teeth vs. hands).",
+        "meets": "Student identifies at least two differences, such as the alligator hiding to catch fish or animals, while humans shop, cook, or use different methods to get food.",
+        "approaching": "Student notices one difference between alligator and human hunting/eating, but explanation lacks detail or is partially unclear.",
+        "beginning": "Student makes a minimal comparison with little detail or accuracy about how either hunts or gets food."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:55:23.300Z",
+  "cost": 0.00479
+}

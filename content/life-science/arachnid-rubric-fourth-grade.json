@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this spider's color, and why might that help it survive on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the spider's dark brown color and explains how it helps the spider hide from predators or prey through camouflage, using specific details about matching the soil environment.",
+        "meets": "Student accurately describes the spider's dark color and explains that it helps the spider blend in with the ground or hide, demonstrating understanding of camouflage.",
+        "approaching": "Student notices the spider is dark colored and mentions it might help with hiding or blending in, but explanation lacks detail or clarity about how this helps survival.",
+        "beginning": "Student identifies that the spider is dark or brown, but provides little or no explanation of why this color matters for survival."
+      }
+    },
+    {
+      "questionText": "If this spider's color was bright red instead of dark brown, how might its life be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright red would make the spider more visible to both predators and prey, predicts specific consequences (e.g., easier to spot, harder to hunt), and may reference how bright colors can warn predators.",
+        "meets": "Student explains that a bright red color would make the spider easier to see and that this would negatively affect its ability to survive, such as being spotted by predators or prey.",
+        "approaching": "Student states that bright red would be different or noticeable, but explanation of consequences is incomplete or only mentions one aspect of survival.",
+        "beginning": "Student acknowledges a change would occur but provides vague or minimal reasoning about how bright red would affect the spider's survival."
+      }
+    },
+    {
+      "questionText": "What insects do you think this spider might eat, and where would it find them?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names specific insects likely found in ground habitats (e.g., beetles, ants, grasshoppers) and explains where to find them (in soil, under rocks, on plants near ground), showing knowledge of food webs and habitat.",
+        "meets": "Student names one or more insects spiders eat and identifies a reasonable location to find them, such as on the ground, in soil, or near plants.",
+        "approaching": "Student names an insect or suggests a location, but response may lack specificity or show incomplete understanding of where ground-dwelling insects live.",
+        "beginning": "Student provides a vague answer about insects or location with minimal detail or effort."
+      }
+    },
+    {
+      "questionText": "Design a different ground habitat where a spider like this one could live. What would it need to survive there?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a detailed alternate habitat (e.g., rocky desert, forest floor, sandy area) and identifies multiple survival needs such as shelter, prey availability, moisture, and appropriate ground cover, showing understanding of habitat requirements.",
+        "meets": "Student describes a reasonable alternate ground habitat and identifies at least two things the spider would need to survive, such as shelter, food, or soil.",
+        "approaching": "Student describes a habitat or mentions survival needs, but description lacks detail or identifies only one survival requirement.",
+        "beginning": "Student attempts to design a habitat or mention a need, but response is vague, unclear, or shows minimal understanding of spider habitat requirements."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:43:49.400Z",
+  "cost": 0.005008
+}

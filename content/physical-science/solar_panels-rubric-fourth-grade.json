@@ -1,0 +1,53 @@
+{
+  "title": "Solar Panels",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the electricity made by solar panels gets into your house to power your lights and appliances?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that electricity travels through wires from the solar panels to a box (meter/panel) on the house and then through wires inside the walls to outlets and appliances, demonstrating understanding of a complete circuit pathway.",
+        "meets": "Student accurately describes that electricity from the solar panels travels through wires into the house to power lights and appliances, showing basic understanding of the connection.",
+        "approaching": "Student mentions that wires carry electricity from solar panels into the house but provides incomplete or partially unclear explanation of the pathway.",
+        "beginning": "Student provides a vague response such as 'it goes into the house' with little to no mention of how electricity travels or minimal accuracy."
+      }
+    },
+    {
+      "questionText": "Why might a city want to install solar panels on many of its buildings, as shown in this photo?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reasons such as reducing pollution, using a renewable energy source, saving money on electricity costs, and providing clean power for the community, demonstrating thoughtful analysis.",
+        "meets": "Student provides at least two valid reasons, such as solar panels provide clean energy or help save money on electricity, showing solid understanding of benefits.",
+        "approaching": "Student identifies one benefit of solar panels (such as 'makes electricity' or 'helps the environment') but reasoning is incomplete or lacks specificity.",
+        "beginning": "Student provides a minimal or vague response such as 'it's good' without explaining specific reasons or benefits."
+      }
+    },
+    {
+      "questionText": "If we covered the solar panel with a thick blanket so no sunlight could reach it, what do you predict would happen to the electricity it produces, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the solar panel would produce little to no electricity and explains that solar panels need sunlight to generate electricity, demonstrating understanding of the cause-and-effect relationship.",
+        "meets": "Student correctly predicts that less or no electricity would be made and provides a reasonable explanation that sunlight is needed for the panel to work.",
+        "approaching": "Student makes a prediction about reduced electricity production but explanation of why is incomplete, vague, or partially inaccurate.",
+        "beginning": "Student makes an inaccurate prediction or provides no clear explanation of the relationship between sunlight and electricity production."
+      }
+    },
+    {
+      "questionText": "Compare using solar panels to make electricity with burning coal to make electricity. What are the advantages and disadvantages of each?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple advantages and disadvantages for both (e.g., solar: no pollution/weather dependent; coal: reliable/pollutes), making a thoughtful comparison that shows understanding of both energy sources.",
+        "meets": "Student identifies at least one advantage and one disadvantage for each energy source, demonstrating understanding of the trade-offs between solar and coal power.",
+        "approaching": "Student identifies some advantages or disadvantages but comparison is uneven, incomplete, or shows partial understanding of the differences between the two energy sources.",
+        "beginning": "Student provides minimal or vague responses about advantages/disadvantages with little accurate comparison between solar and coal energy."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:34:53.269Z",
+  "cost": 0.005008
+}

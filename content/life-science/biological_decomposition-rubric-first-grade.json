@@ -1,0 +1,53 @@
+{
+  "title": "Biological Decomposition",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this tree has a big hole in the middle of it? What could have caused this hole?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple plausible causes (decay, rot, animals, weather, disease) and explains how they work together over time to create the hole.",
+        "meets": "Student identifies at least one cause of the hole (rot, animals, or weather damage) and provides a simple explanation of how it happened.",
+        "approaching": "Student identifies a possible cause but explanation is vague or incomplete; may confuse cause with what is currently in the hole.",
+        "beginning": "Student makes a guess about the hole but provides minimal explanation or suggests an unlikely cause with little reasoning."
+      }
+    },
+    {
+      "questionText": "Is this tree alive or dead? How do you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies the tree as alive and provides multiple observations (branches with leaves, still growing, bark visible) to support their answer.",
+        "meets": "Student correctly identifies the tree as alive and gives at least one clear observation (has branches, has leaves, still growing) as evidence.",
+        "approaching": "Student identifies the tree as alive but provides weak or unclear evidence; may note only one feature without fully explaining why it shows the tree is alive.",
+        "beginning": "Student's answer is unclear or incorrect; provides little or no observable evidence to support their claim about whether the tree is alive or dead."
+      }
+    },
+    {
+      "questionText": "What tiny living things might be living inside that dark hole, and what are they doing there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names specific organisms (bugs, insects, fungi) and explains what they do in the hole (eat the dead wood, break it down, find shelter).",
+        "meets": "Student names at least one type of small living thing (bugs, worms, or similar) and explains a simple purpose (eating, living, hiding).",
+        "approaching": "Student suggests small living things might be there but description is vague; may name something without explaining what it does.",
+        "beginning": "Student's response is unclear or vague about what lives there; provides little or no explanation of what these creatures do."
+      }
+    },
+    {
+      "questionText": "If we come back to look at this tree in 10 years, what do you think will be different? What will stay the same?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes (hole gets bigger, more decay) and what stays the same (roots, general shape, still alive), showing understanding of slow decomposition.",
+        "meets": "Student makes reasonable predictions about change (hole may grow) or what stays the same (tree location, trunk), with simple explanation.",
+        "approaching": "Student makes a prediction about the future but lacks detail or clarity; reasoning is incomplete or shows partial understanding of decay.",
+        "beginning": "Student's prediction is unclear, unrealistic, or unsupported; shows minimal understanding of how trees change over time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:44:05.395Z",
+  "cost": 0.004663
+}

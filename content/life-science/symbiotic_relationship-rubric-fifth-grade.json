@@ -1,0 +1,53 @@
+{
+  "title": "Symbiotic Relationship",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the bee's body is fuzzy instead of smooth?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the fuzzy body helps pollen stick to the bee and identifies this as beneficial for both the bee (gets pollen for food) and the flower (pollen gets transported to other flowers for reproduction).",
+        "meets": "Student correctly explains that the fuzzy body helps pollen stick to the bee, showing understanding of the connection between fuzz and pollen collection.",
+        "approaching": "Student mentions that fuzz helps with pollen but lacks clear explanation of how or why this matters to the bee or flower.",
+        "beginning": "Student provides a vague response such as 'bees are fuzzy' or 'it helps them' without explaining the connection to pollen."
+      }
+    },
+    {
+      "questionText": "If all the bees disappeared from an area, what might happen to the flowers and the animals that eat the seeds from those flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student traces a complete chain of consequences: explains that without bees, flowers won't be pollinated, so fewer seeds will form, resulting in fewer flowers and less food for seed-eating animals, demonstrating understanding of interdependence.",
+        "meets": "Student identifies at least two connected effects, such as flowers won't make seeds and animals won't have food, showing understanding of cause and effect in an ecosystem.",
+        "approaching": "Student identifies one or two effects but with incomplete reasoning, such as mentioning flowers would disappear without explaining why or only stating animals would starve without connecting to seed loss.",
+        "beginning": "Student provides a minimal response like 'flowers would die' without explaining the connection to pollination or effects on other organisms."
+      }
+    },
+    {
+      "questionText": "How do you think the flower 'knows' to attract bees with bright colors and sweet nectar?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers developed these traits over time through natural selection because plants with attractive features got more pollinated and survived better, connecting adaptation to survival advantage.",
+        "meets": "Student recognizes that flowers use bright colors and nectar to attract bees and explains this helps with pollination, showing understanding of the flower's 'strategy' without full evolutionary explanation.",
+        "approaching": "Student identifies that flowers have bright colors and nectar that attract bees but gives incomplete reasoning, such as only describing what happens without explaining why it benefits the flower.",
+        "beginning": "Student provides a vague response like 'flowers are pretty' or 'bees like sweet things' without connecting to pollination or plant benefit."
+      }
+    },
+    {
+      "questionText": "Is this relationship between bees and flowers fair to both organisms, or does one benefit more than the other? Explain your thinking.",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that both organisms benefit (bees get food, flowers get pollinated/reproduction) and recognizes this is called mutualism, concluding the relationship is fair or mutually beneficial with clear reasoning.",
+        "meets": "Student identifies that both the bee and flower benefit from the relationship and provides clear examples of what each organism gains (food and pollination).",
+        "approaching": "Student recognizes both organisms benefit but provides incomplete or unclear explanations of what each organism gains or how the benefits compare.",
+        "beginning": "Student identifies only one organism's benefit or provides a vague response like 'the bee gets food' without considering the flower's perspective."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:38:53.252Z",
+  "cost": 0.005185
+}

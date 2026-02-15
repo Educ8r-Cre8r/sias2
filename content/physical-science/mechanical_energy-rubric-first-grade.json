@@ -1,0 +1,53 @@
+{
+  "title": "Mechanical Energy",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if someone tried to lift that big white ball with just their hands?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the ball would be too heavy and explains that the person would not be strong enough or would drop it, showing understanding that machines help with heavy tasks.",
+        "meets": "Student predicts the ball would be too heavy to lift or that the person could not pick it up.",
+        "approaching": "Student gives a simple answer like 'it's heavy' or 'they can't lift it' but provides limited reasoning.",
+        "beginning": "Student gives a vague response such as 'it would be hard' or does not clearly connect the answer to weight or strength."
+      }
+    },
+    {
+      "questionText": "How is the machine helping the person lift the heavy ball?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the crane and explains that the machine makes lifting easier by making the person stronger or using a rope/cable to pull the ball up, showing clear understanding of how simple machines help.",
+        "meets": "Student identifies that the crane or machine lifts the ball and explains that it helps the person lift something they could not lift alone.",
+        "approaching": "Student identifies the crane or mentions that it helps lift the ball but provides incomplete or unclear reasoning about how it works.",
+        "beginning": "Student provides a minimal response like 'the machine lifts it' or 'it helps' without explaining how or why it helps."
+      }
+    },
+    {
+      "questionText": "Where else have you seen machines that help people lift or move heavy things?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple real-world examples such as elevators, forklifts, or escalators and describes what each machine helps lift or move.",
+        "meets": "Student identifies at least one appropriate real-world example of a machine that helps lift or move things, such as a crane, elevator, or forklift.",
+        "approaching": "Student names a machine or tool but the connection to lifting or moving heavy things is unclear or only partially correct.",
+        "beginning": "Student provides a vague or incorrect example, or mentions a machine without clear connection to the lifting concept."
+      }
+    },
+    {
+      "questionText": "Why do you think the truck is so big and strong? What job does it have?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the truck is big and strong to hold the heavy crane and be able to lift very heavy objects, demonstrating understanding of how size relates to function.",
+        "meets": "Student explains that the truck needs to be big and strong to support the crane or to lift heavy things.",
+        "approaching": "Student recognizes that the truck is big and strong but gives incomplete reasoning, such as 'it's big' without connecting to its job or the crane.",
+        "beginning": "Student makes a minimal or vague statement like 'it's big' or 'it lifts things' without clear connection between size and function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:44:11.578Z",
+  "cost": 0.004614
+}

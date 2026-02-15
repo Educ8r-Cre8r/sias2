@@ -1,0 +1,53 @@
+{
+  "title": "Rain Gauge",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What happens to the water when it rains into the gauge?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that rainwater collects and fills up the tube, and describes how the water level rises as more rain falls, showing understanding of accumulation.",
+        "meets": "Student correctly states that water collects in the gauge and the amount builds up or increases when it rains.",
+        "approaching": "Student identifies that water goes into the gauge but provides incomplete details about what happens, such as mentioning only that it fills up without describing the rising water level.",
+        "beginning": "Student gives a vague response such as 'it gets wet' or 'water goes in' with minimal description of what happens to the water."
+      }
+    },
+    {
+      "questionText": "Why do you think scientists use a rain gauge instead of just looking out the window?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a rain gauge gives an exact or specific measurement of rain, and contrasts this with looking out a window which only tells you if it's raining or how hard, demonstrating understanding of measurement precision.",
+        "meets": "Student provides a reasonable explanation such as 'it measures how much rain' or 'you can see the exact amount,' showing awareness that gauges give specific information.",
+        "approaching": "Student recognizes that a rain gauge is useful but provides incomplete reasoning, such as 'it helps measure rain' without explaining what 'looking out the window' cannot do.",
+        "beginning": "Student offers a response with minimal reasoning, such as 'because they just do' or 'it's there,' showing little understanding of the purpose of measurement tools."
+      }
+    },
+    {
+      "questionText": "If we measure rain every day for a week, what pattern might we discover?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific patterns such as 'some days have more rain than others,' 'certain days might have no rain,' or 'we could see which day had the most,' demonstrating understanding of data collection and comparison.",
+        "meets": "Student suggests a reasonable pattern such as 'we might find out how much it rains' or 'we could see if some days are wetter,' showing basic understanding of pattern recognition from repeated measurements.",
+        "approaching": "Student identifies that measurements could reveal something but provides vague reasoning, such as 'we would find out about rain' without describing what kind of pattern or comparison.",
+        "beginning": "Student provides minimal or unclear response, such as 'we would see rain' or 'it would show something,' with little evidence of understanding patterns in data."
+      }
+    },
+    {
+      "questionText": "Where else in our classroom or school could we place a rain gauge, and how might the measurements be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple locations (such as under a tree, by a building, or in an open field) and explains how placement affects measurement, such as 'under a tree would catch less rain' or 'by the building might be blocked,' showing understanding of variables.",
+        "meets": "Student suggests a reasonable alternative location and explains a basic difference in measurements, such as 'near the building might get less rain' or 'in a sunny spot might be different.'",
+        "approaching": "Student names a possible location but provides incomplete explanation of how measurements might differ, such as mentioning a location without explaining why it would affect rainfall collection.",
+        "beginning": "Student suggests a location with little to no explanation of measurement differences, or provides an unclear response that shows minimal understanding of how placement affects rain gauge readings."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:06:02.971Z",
+  "cost": 0.005277
+}

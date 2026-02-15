@@ -1,0 +1,53 @@
+{
+  "title": "Dawn",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this fog when the sun gets higher in the sky?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts fog will disappear or evaporate and explains that heat from the sun causes water to turn into an invisible gas, demonstrating understanding of evaporation as a process.",
+        "meets": "Student predicts fog will disappear or go away when the sun gets higher and gives a reasonable explanation involving warmth or heat from the sun.",
+        "approaching": "Student predicts the fog will change or go away but provides only a vague explanation (e.g., 'the sun will make it go away') without describing how heat is involved.",
+        "beginning": "Student makes a prediction but it is inaccurate or unclear, or provides no explanation for why the change would occur."
+      }
+    },
+    {
+      "questionText": "How is this fog similar to and different from the clouds you see high in the sky?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both fog and clouds are made of water droplets/moisture and explains that the key difference is location—fog forms near the ground while clouds form high in the sky—showing understanding of how height affects where water appears.",
+        "meets": "Student identifies at least one similarity (both are white/wet/made of water) and one difference (location, height, or how they form), using grade-appropriate descriptive language.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or provides unclear comparisons that show partial understanding of what fog and clouds are.",
+        "beginning": "Student attempts to compare but provides mostly inaccurate or irrelevant information with little evidence of understanding fog and clouds as similar weather features."
+      }
+    },
+    {
+      "questionText": "Why do you think the fog is staying close to the ground instead of floating up high?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fog stays near the ground because cool air is denser and heavier, causing water droplets to remain low; may also mention that the ground is cooler, helping keep moisture near the surface.",
+        "meets": "Student explains that fog stays near the ground because it is heavy, cool, or because the ground is cooler, showing understanding that temperature and location of cooling affects where fog forms.",
+        "approaching": "Student provides a partial explanation mentioning either weight, temperature, or ground cooling but does not clearly connect these ideas to why fog stays low.",
+        "beginning": "Student attempts an explanation but it is vague, inaccurate, or shows little understanding of why fog remains near the ground."
+      }
+    },
+    {
+      "questionText": "What weather conditions do you think were needed for this fog to form?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions such as cool/cold temperatures, moisture in the air, and a clear or calm night, explaining how these conditions work together to form fog near the ground.",
+        "meets": "Student identifies at least two weather conditions needed for fog formation (e.g., cool temperature and moisture, or cool night and calm conditions) with reasonable explanations.",
+        "approaching": "Student identifies one weather condition (such as coolness or moisture) but explanation is incomplete or lacks connection to fog formation.",
+        "beginning": "Student mentions a weather condition but provides little or no explanation, or suggests conditions that would not support fog formation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:30:30.006Z",
+  "cost": 0.005013
+}

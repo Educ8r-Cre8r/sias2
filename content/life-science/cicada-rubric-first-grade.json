@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how this cicada looks different from other bugs you've seen?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific physical differences (such as large eyes, clear wings, thick body, or wing patterns) and compares them accurately to other insects they know.",
+        "meets": "Student identifies at least two physical features that make the cicada different from other bugs, such as its size, eyes, or wings.",
+        "approaching": "Student notices one clear difference between the cicada and other bugs, but the observation may lack detail or clarity.",
+        "beginning": "Student makes a vague observation or names a feature without explaining how it differs from other bugs."
+      }
+    },
+    {
+      "questionText": "Why do you think cicadas have such big eyes?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes a logical reason connected to cicada behavior or survival, such as seeing in darkness, finding other cicadas, or spotting danger, and explains the connection clearly.",
+        "meets": "Student gives a reasonable explanation for why big eyes would help cicadas, such as helping them see better or find food.",
+        "approaching": "Student attempts an explanation but it may be partially accurate or lack clear reasoning about how eyes help the cicada.",
+        "beginning": "Student responds but the explanation is unclear, illogical, or shows minimal understanding of how eyes help an animal."
+      }
+    },
+    {
+      "questionText": "How might baby cicadas be different from this adult cicada?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences between baby and adult cicadas, such as size, wings, or color, and may reference their different life stages or habitats.",
+        "meets": "Student identifies at least two ways that baby cicadas would look or be different from adults, such as being smaller or having no wings.",
+        "approaching": "Student names one difference between baby and adult cicadas, but the explanation may be vague or incomplete.",
+        "beginning": "Student provides a minimal response or suggests a difference that is unclear or inaccurate."
+      }
+    },
+    {
+      "questionText": "What would happen if all the cicadas came out at different times instead of together?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences of staggered emergence, such as difficulty finding mates, reduced survival, or changes in predator behavior, showing understanding of how group behavior helps cicadas.",
+        "meets": "Student identifies a logical consequence, such as cicadas having trouble finding partners or facing more danger from predators.",
+        "approaching": "Student suggests a possible consequence but the reasoning may be incomplete or somewhat unclear.",
+        "beginning": "Student gives a minimal or unclear response that shows little understanding of why timing together might matter."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:29:19.557Z",
+  "cost": 0.004312
+}

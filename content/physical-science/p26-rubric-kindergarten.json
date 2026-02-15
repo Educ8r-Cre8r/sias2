@@ -1,0 +1,53 @@
+{
+  "title": "Buoyancy",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we put different objects in water?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts outcomes for multiple objects (some sink, some float) and explains why using simple reasoning about weight or material type.",
+        "meets": "Student predicts that different objects would behave differently in water, such as some floating and some sinking.",
+        "approaching": "Student makes a prediction about objects in water but provides limited detail or mentions only one outcome (all sink or all float).",
+        "beginning": "Student provides a vague prediction or repeats the question without demonstrating understanding of how objects interact with water."
+      }
+    },
+    {
+      "questionText": "How is this big ship able to float when a small rock sinks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the ship's shape, large size, or material helps it float while rocks sink, and may mention that boats are made to hold them up on water.",
+        "meets": "Student recognizes that the ship floats because of how it is made or its shape, while rocks sink because they are heavy or solid.",
+        "approaching": "Student attempts to compare the ship and rock but provides incomplete reasoning, such as mentioning only size or only one object's characteristics.",
+        "beginning": "Student makes a simple observation about ships and rocks without explaining the difference in how they interact with water."
+      }
+    },
+    {
+      "questionText": "What materials do you see on this ship?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple materials seen on the ship (such as metal or wood for the body, paint for color) and describes where they are located.",
+        "meets": "Student identifies at least two materials visible on the ship, such as metal and paint, or describes the ship as being made of hard material.",
+        "approaching": "Student identifies one material or mentions colors without connecting them to actual materials that make up the ship.",
+        "beginning": "Student provides a vague response about the ship's appearance without naming specific materials."
+      }
+    },
+    {
+      "questionText": "Why might people build ships to float on water?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple purposes for ships, such as traveling across water, carrying people or things, or exploring, showing connected thinking about water transportation.",
+        "meets": "Student identifies a clear reason people build ships, such as to travel on water or to move from one place to another.",
+        "approaching": "Student provides a simple reason for ships but with limited explanation, such as 'to go places' without specifying water travel.",
+        "beginning": "Student offers a minimal or unclear response about why ships are built without connecting it to water or transportation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:19:39.992Z",
+  "cost": 0.004224
+}

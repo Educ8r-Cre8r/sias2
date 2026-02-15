@@ -1,0 +1,53 @@
+{
+  "title": "System",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the gasoline after it goes into the engine?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that gasoline burns or is used to create power/energy that makes the car move, and may mention that this process happens inside the engine to create motion.",
+        "meets": "Student describes that gasoline is used or burned in the engine to make the car work or move.",
+        "approaching": "Student identifies that gasoline goes into the engine and something happens to it, but the explanation is vague or incomplete (e.g., 'it makes the car go').",
+        "beginning": "Student provides a minimal response with little connection to how the engine uses gasoline (e.g., 'it goes in the engine')."
+      }
+    },
+    {
+      "questionText": "How is a car engine similar to other machines you use every day?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple valid comparisons between car engines and everyday machines, explaining that both have parts working together to do a job or produce movement/power.",
+        "meets": "Student makes at least one accurate comparison between a car engine and an everyday machine (e.g., both have moving parts, both need fuel or energy, both do work).",
+        "approaching": "Student attempts a comparison but the connection is unclear or partially accurate; may mention parts working together without explaining why.",
+        "beginning": "Student provides a response that shows little understanding of how machines work together, or makes an inaccurate comparison."
+      }
+    },
+    {
+      "questionText": "Why do you think car engines need so many different parts working together?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different parts have different jobs and must work together to complete the whole process of turning fuel into power and motion; may reference specific parts from the image.",
+        "meets": "Student describes that different parts do different things and need to work together to make the engine run or the car move.",
+        "approaching": "Student recognizes that parts work together but gives a vague explanation of why each part is needed (e.g., 'they all help' without explaining how).",
+        "beginning": "Student provides a minimal or unclear response about why parts work together, with little evidence of understanding the connection between parts and function."
+      }
+    },
+    {
+      "questionText": "What would happen if we put water instead of gasoline in the engine?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts that the engine would not work properly and explains that water cannot burn or create the energy/power that gasoline does, so the car would not move.",
+        "meets": "Student predicts that the engine would not work or the car would not run because water is not the right fuel for the engine.",
+        "approaching": "Student recognizes that using water would be a problem but the reasoning is unclear or incomplete (e.g., 'water doesn't work' without explaining why).",
+        "beginning": "Student provides a vague response with minimal reasoning about what would happen if water replaced gasoline."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:06:34.882Z",
+  "cost": 0.004645
+}

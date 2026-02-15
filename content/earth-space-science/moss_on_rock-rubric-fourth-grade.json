@@ -1,0 +1,53 @@
+{
+  "title": "Moss on Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that the rock has changed over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes (weathering, color variations, moss growth, surface texture) and explains how at least two of these changes show the rock is breaking down or being worn away over time.",
+        "meets": "Student identifies at least two observable changes in the rock (such as different colored layers, rough texture, or moss coverage) and recognizes that these show the rock has changed.",
+        "approaching": "Student identifies one visible change in the rock's appearance (color, texture, or moss) but provides limited explanation of how this shows change over time.",
+        "beginning": "Student makes a general observation about the rock or moss but does not clearly identify specific evidence of change or explain why it indicates change over time."
+      }
+    },
+    {
+      "questionText": "How might this rock look different in 100 years if the moss continues to grow on it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes (rock breaking apart, more weathering, increased moss coverage, deeper grooves) and explains how the continued growth of moss and weathering would cause these changes over a long time period.",
+        "meets": "Student predicts that the rock will have more moss coverage or be more broken down and provides a reasonable explanation linked to moss growth or weathering.",
+        "approaching": "Student makes a prediction about how the rock or moss might change but the explanation is incomplete or only partially connected to the effects of moss growth over time.",
+        "beginning": "Student makes a vague prediction (e.g., 'it will look different') without specific details or clear reasoning about the cause of changes."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the moss if this rock was moved to a desert environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the moss would die or shrivel and explains that deserts lack the moisture moss needs to survive, referencing that moss requires damp conditions to grow and stay alive.",
+        "meets": "Student predicts the moss would die or disappear and correctly identifies that the desert environment is too dry for moss to survive.",
+        "approaching": "Student predicts a change to the moss but the explanation about desert conditions is incomplete or partially inaccurate (e.g., mentions heat but not dryness).",
+        "beginning": "Student makes a prediction about the moss but provides no clear reasoning or assumes the moss would survive despite identifying desert as dry."
+      }
+    },
+    {
+      "questionText": "Why do you think moss can grow on rocks but grass cannot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moss has different needs or structures than grass (such as shallow root-like structures, no need for soil, ability to absorb moisture directly) and connects this to why moss can survive on bare rock while grass requires soil.",
+        "meets": "Student correctly identifies that moss doesn't need soil to grow while grass does, and explains this is why moss can grow on rocks.",
+        "approaching": "Student recognizes a difference between moss and grass (such as roots or soil needs) but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student acknowledges moss and grass are different but provides minimal or inaccurate information about why moss can grow on rock while grass cannot."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:25:39.467Z",
+  "cost": 0.004962
+}

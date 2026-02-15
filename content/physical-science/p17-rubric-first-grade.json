@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we shined a flashlight on this glass building?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that light would reflect off the glass and bounce back, using words like 'shine,' 'bounce,' or 'reflect,' and may mention the light would be bright or create a reflection.",
+        "meets": "Student predicts that light would bounce off the glass or that we would see the light shine on it, showing understanding that glass responds to light.",
+        "approaching": "Student makes a simple prediction about the flashlight and glass (like 'it would be bright' or 'we could see better') but lacks clear connection to how light interacts with glass.",
+        "beginning": "Student gives a vague or unclear response about the flashlight (like 'it would work' or 'something would happen') with little evidence of thinking about light and glass."
+      }
+    },
+    {
+      "questionText": "How is this glass building similar to a mirror in your bathroom?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities, such as both are shiny/smooth, both show reflections of other things, and both are made of glass, using clear descriptive language.",
+        "meets": "Student identifies at least one clear similarity, such as 'both show reflections' or 'both are shiny and smooth,' with accurate reasoning.",
+        "approaching": "Student notices that both reflect or are shiny but provides limited detail or reasoning about why they are similar.",
+        "beginning": "Student makes a weak or unclear comparison (like 'they are both things') with little evidence of understanding how mirrors and glass buildings work alike."
+      }
+    },
+    {
+      "questionText": "Why can we see the other building in the glass but not see inside the glass building?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the glass reflects the outside building like a mirror and that the reflection is brighter or blocks our view of the inside, demonstrating understanding of how reflection works.",
+        "meets": "Student explains that the glass shows a reflection of the other building instead of the inside, or that the glass acts like a mirror and bounces the image back.",
+        "approaching": "Student recognizes that reflection is involved or that the glass shows the outside building but provides incomplete explanation of why we cannot see inside.",
+        "beginning": "Student offers a vague explanation (like 'the glass is shiny' or 'it shows things') without connecting reflection to blocking our view of the interior."
+      }
+    },
+    {
+      "questionText": "What other things around school create reflections like this building?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple school objects that reflect (such as windows, mirrors, water, metal doorknobs, or shiny tables) and explains what they reflect or how they are similar to the glass building.",
+        "meets": "Student identifies at least two objects around school that create reflections, such as classroom windows, mirrors, or water puddles, showing they understand where reflections happen.",
+        "approaching": "Student names one or two reflective objects but may struggle to explain why they create reflections or if examples are unclear.",
+        "beginning": "Student names one object that might reflect or gives an unclear example with little evidence of understanding what makes something reflective."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:03:57.923Z",
+  "cost": 0.004895
+}

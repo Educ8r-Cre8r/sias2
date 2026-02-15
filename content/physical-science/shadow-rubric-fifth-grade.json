@@ -1,0 +1,53 @@
+{
+  "title": "Shadow",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why does the shadow have the same shape as the rock?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that light travels in straight lines and cannot pass through the rock, so the shadow forms an outline matching the rock's shape; may include how the light source (sun) creates the shadow outline.",
+        "meets": "Student correctly states that the shadow has the same shape because the rock blocks light, and light cannot go through the rock.",
+        "approaching": "Student recognizes that the rock blocks light or that shadows are made by objects, but explanation is incomplete or partially unclear.",
+        "beginning": "Student provides a vague response such as 'the shadow looks like the rock' without explaining why or how light and blocking are involved."
+      }
+    },
+    {
+      "questionText": "If we observed this rock's shadow at different times of the day, how do you think it would change and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the shadow's length, direction, and position would change throughout the day because the sun moves across the sky; may explain that shadows are longest in morning/evening and shortest at noon.",
+        "meets": "Student predicts that the shadow would change in size or position and correctly connects this to the sun's movement across the sky during the day.",
+        "approaching": "Student predicts the shadow would change but provides incomplete reasoning about why (e.g., mentions sun movement but not how it affects shadow length or direction).",
+        "beginning": "Student makes a prediction with little or no explanation, or suggests the shadow would stay the same without justification."
+      }
+    },
+    {
+      "questionText": "What would happen to the shadow if we covered the rock with a clear plastic bag instead of leaving it exposed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the shadow would remain essentially the same because clear plastic is transparent and allows light to pass through, so it would not block the light.",
+        "meets": "Student correctly states that the shadow would look the same or similar because the clear plastic lets light through and does not block the light like the rock does.",
+        "approaching": "Student recognizes that clear plastic is see-through or that the shadow might stay the same, but reasoning about light passing through is unclear or incomplete.",
+        "beginning": "Student provides a vague or inaccurate response, such as suggesting the shadow would disappear or become larger without clear reasoning."
+      }
+    },
+    {
+      "questionText": "Can you think of a way humans use shadows to help us in daily life?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a specific, scientifically sound example of shadow use (e.g., sundials tell time, shadows help us find direction using the sun, shade from shadows keeps us cool) and explains how shadows are involved.",
+        "meets": "Student identifies a practical example of shadow use in daily life (e.g., shade, telling time, finding direction) with a basic explanation of how shadows help.",
+        "approaching": "Student mentions a general use of shadows but explanation lacks detail or clarity about how shadows specifically help (e.g., 'shadows are useful' without example).",
+        "beginning": "Student provides a vague response or example not clearly connected to shadow use, or states they cannot think of an example."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:37:21.614Z",
+  "cost": 0.004896
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Praying Mantis",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the praying mantis is green instead of red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green color helps the mantis blend in with plants and flowers (camouflage), making it harder for prey to see it, and connects this to the mantis's hunting strategy of staying still.",
+        "meets": "Student correctly identifies that the green color helps the mantis hide or blend in with plants, showing understanding of camouflage as a survival adaptation.",
+        "approaching": "Student mentions that green color helps the mantis hide or that it matches plants, but the explanation is incomplete or lacks clear connection to survival or hunting.",
+        "beginning": "Student provides a vague answer such as 'it likes green' or 'green is pretty' with little or no reference to hiding, blending in, or survival."
+      }
+    },
+    {
+      "questionText": "What might happen to the bee in this picture if it gets too close to the mantis?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the mantis will catch or eat the bee using its front legs, demonstrating understanding of the mantis as a predator and the bee as prey, and may reference the mantis's hunting method.",
+        "meets": "Student correctly predicts that the mantis will catch the bee or that the bee might be eaten, showing understanding of predator-prey relationships.",
+        "approaching": "Student recognizes danger or harm to the bee but gives an unclear or partially correct prediction about what the mantis would do.",
+        "beginning": "Student provides a minimal response such as 'something bad' or 'they'll fight' with unclear reasoning or no understanding of the predator-prey relationship."
+      }
+    },
+    {
+      "questionText": "The mantis hunts by staying still and waiting. Can you think of other animals that hunt in a different way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals that hunt differently (such as chasing, pouncing, or using speed) and briefly explains how their hunting method differs from the mantis's waiting strategy.",
+        "meets": "Student names at least one animal that hunts differently and provides a basic explanation of how that animal hunts (such as 'a dog runs to catch things' or 'a bird dives down for fish').",
+        "approaching": "Student names one or more animals but provides vague or incomplete explanation of how they hunt differently, or explanation shows partial understanding.",
+        "beginning": "Student names an animal but provides no explanation of its hunting method, or response is unclear or off-topic."
+      }
+    },
+    {
+      "questionText": "If all the flowers near the mantis died, how might that change where the mantis could hide?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without flowers, the mantis would lose its camouflage and would need to find a new hiding place among other green plants or leaves, connecting the loss of flowers to reduced safety and hunting success.",
+        "meets": "Student correctly identifies that the mantis would have fewer places to hide or would need to move elsewhere because the green flowers helped it blend in.",
+        "approaching": "Student recognizes that losing flowers would affect the mantis's hiding ability but explanation is incomplete or unclear about why or where it might go.",
+        "beginning": "Student provides a vague response such as 'it would be harder' with minimal explanation or connection to camouflage or habitat needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:04:01.091Z",
+  "cost": 0.005162
+}

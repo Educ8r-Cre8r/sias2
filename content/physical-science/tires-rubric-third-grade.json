@@ -1,0 +1,53 @@
+{
+  "title": "Tires",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to a car if its tires were completely smooth instead of bumpy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that smooth tires would slip or slide on the road and identifies that this happens because there would be no grip or traction, possibly mentioning that cars need friction to stop safely.",
+        "meets": "Student correctly states that smooth tires would slip or slide and explains this is because the bumpy tread helps the car grip the road.",
+        "approaching": "Student identifies that smooth tires would cause a problem (slipping, sliding, or not stopping) but provides vague or incomplete reasoning about why tread is important.",
+        "beginning": "Student gives a minimal response such as 'it would be bad' or 'the car would slip' without explaining the connection to grip or traction."
+      }
+    },
+    {
+      "questionText": "Why do you think the tire tread has channels or grooves running through it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that grooves help water drain away from the tire and also provide grip or traction, and may mention that this helps the car stop safely or prevents skidding.",
+        "meets": "Student correctly identifies that the grooves help the tire grip the road or help water drain away from the tire surface.",
+        "approaching": "Student suggests that grooves are helpful but gives an incomplete explanation, such as mentioning grip or drainage without fully explaining how it works.",
+        "beginning": "Student provides a vague response like 'it helps the tire' or 'so it doesn't slip' without explaining what the grooves actually do."
+      }
+    },
+    {
+      "questionText": "How is the tread on a tire similar to the pattern on your shoe soles?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both tire tread and shoe soles have bumpy patterns or grooves that create friction, and explains that both patterns help grip surfaces so the car or person doesn't slip.",
+        "meets": "Student correctly states that both tires and shoe soles have bumpy or grooved patterns that help them grip surfaces and prevent slipping.",
+        "approaching": "Student recognizes a similarity between tires and shoe soles (such as both having patterns or both preventing slipping) but doesn't fully explain the purpose of the similarity.",
+        "beginning": "Student makes a vague comparison such as 'they're both bumpy' or 'they both have grooves' without connecting this to grip or friction."
+      }
+    },
+    {
+      "questionText": "If you rub your hand across sandpaper versus a smooth plastic table, which creates more friction? How is this like a tire?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that sandpaper creates more friction and explains that rough surfaces create more friction than smooth surfaces, then connects this to how tire tread's bumpy texture creates friction with the road to help the car grip.",
+        "meets": "Student correctly states that sandpaper creates more friction and explains that tires use their bumpy tread to create friction with the road, similar to how sandpaper is rough.",
+        "approaching": "Student identifies sandpaper as creating more friction but provides incomplete reasoning about why roughness matters, or makes a weak connection between friction and tire tread.",
+        "beginning": "Student correctly identifies sandpaper as creating more friction but provides little or no explanation of how this relates to how tires work."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:27:11.441Z",
+  "cost": 0.005113
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Animal Behavior",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What color is the lizard, and why do you think it is that color?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies the lizard as green and explains that the color helps it hide or blend in with leaves and branches, using words like 'camouflage' or 'blend in.'",
+        "meets": "Student correctly identifies the lizard as green and gives a simple reason that the color helps it hide or stay safe in nature.",
+        "approaching": "Student identifies the lizard as green but provides an unclear or incomplete reason for its color, or the reason does not relate to hiding or survival.",
+        "beginning": "Student names the color green with little or no explanation, or provides an inaccurate color identification."
+      }
+    },
+    {
+      "questionText": "If this lizard lived on a brown tree instead of a green tree, what might happen to it? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the lizard would be easier to see or caught by predators on a brown tree, and explains that its green color would not match the brown bark, making camouflage ineffective.",
+        "meets": "Student predicts the lizard would be harder to hide on a brown tree and explains that its green color would stand out or not match the surroundings.",
+        "approaching": "Student makes a prediction about the lizard on a brown tree but gives a vague or partially accurate explanation of why the color mismatch matters.",
+        "beginning": "Student makes a prediction with minimal reasoning, or the response shows confusion about how color helps animals hide."
+      }
+    },
+    {
+      "questionText": "Look at the lizard's skin carefully. What do you notice about how it looks different from human skin?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as bumpy or scaly texture, the presence of a visible pattern or color, and notes that human skin is smooth, using descriptive words accurately.",
+        "meets": "Student notices the lizard's skin is bumpy, scaly, or textured and correctly states that human skin looks or feels different (smoother).",
+        "approaching": "Student notices the skin looks different but description is vague, incomplete, or uses imprecise language to explain the differences.",
+        "beginning": "Student makes a general observation about the lizard's skin with little detail or accuracy in comparing it to human skin."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal that is green or brown? How does its color help it stay safe?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names a specific green or brown animal and clearly explains how its color provides camouflage or helps it hide from predators or prey in its environment.",
+        "meets": "Student names a specific green or brown animal and explains that its color helps it hide or stay safe in a simple, clear way.",
+        "approaching": "Student names an animal but the color choice is incorrect or the safety explanation is unclear or incomplete.",
+        "beginning": "Student struggles to name an appropriate animal or provides minimal explanation of how color helps keep it safe."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:07:50.148Z",
+  "cost": 0.00474
+}

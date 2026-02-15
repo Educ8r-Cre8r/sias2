@@ -1,0 +1,53 @@
+{
+  "title": "Insect Characteristics",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does this grasshopper have that help it survive in its environment, and why do you think it needs each one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three body parts (such as strong back legs, antennae, eyes, or mouthparts) and explains how each one helps the grasshopper survive, using specific details like jumping to escape predators or sensing food with antennae.",
+        "meets": "Student identifies at least two body parts and explains a survival function for each one with reasonable accuracy, such as legs for jumping or eyes for seeing.",
+        "approaching": "Student identifies one or two body parts and provides a basic explanation for how they help the grasshopper survive, but reasoning may be incomplete or lack specific details.",
+        "beginning": "Student names a body part or two but provides little or vague explanation of how they help the grasshopper survive, or explanations are inaccurate."
+      }
+    },
+    {
+      "questionText": "How would a grasshopper's life be different if it didn't have strong back legs for jumping?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences of missing strong back legs, such as inability to escape predators quickly, difficulty reaching food on plants, or reduced ability to find mates, showing understanding of how this adaptation affects survival.",
+        "meets": "Student describes at least two realistic consequences of lacking strong back legs, such as being caught by predators more easily or having trouble moving around to find food.",
+        "approaching": "Student describes one consequence of lacking strong back legs, but the explanation may be incomplete or lack connection to actual grasshopper survival needs.",
+        "beginning": "Student provides a minimal or vague response about what would happen without strong back legs, with little evidence of understanding how this body part helps the grasshopper survive."
+      }
+    },
+    {
+      "questionText": "Why do you think this grasshopper is green instead of red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green coloring helps the grasshopper blend in with green plants (camouflage) to hide from predators and describes how this adaptation helps it survive in a grassy environment.",
+        "meets": "Student identifies that the grasshopper's green color helps it hide or blend in with plants, showing understanding of camouflage as a survival adaptation.",
+        "approaching": "Student recognizes that the green color relates to the grasshopper's environment or hiding, but the explanation is unclear or incomplete.",
+        "beginning": "Student makes a simple observation about the color being green or mentions plants, but shows little understanding of how this coloring helps the grasshopper survive."
+      }
+    },
+    {
+      "questionText": "If grasshoppers lived in a rocky desert instead of a grassy field, what body changes might help them survive better over many generations?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple body adaptations for desert survival, such as darker or dusty-colored body to match rocks, smaller size to conserve water, or different shaped legs for rocky terrain, and explains how each change would improve survival.",
+        "meets": "Student suggests at least two reasonable body changes suited to a desert environment, such as different coloring or body features, with explanations of how they would help grasshoppers survive.",
+        "approaching": "Student suggests one body change for desert survival with a partial explanation, but reasoning may be incomplete or the adaptation may not be clearly suited to a rocky desert habitat.",
+        "beginning": "Student offers a vague or minimally explained body change, with little connection to actual survival needs in a rocky desert environment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:17:02.711Z",
+  "cost": 0.005316
+}

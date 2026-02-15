@@ -1,0 +1,53 @@
+{
+  "title": "American Robin",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the robin has a bright orange-red breast?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright coloring helps robins attract mates or stand out, and may reference that the color warns predators or helps identify the bird, showing understanding of how appearance serves a purpose in nature.",
+        "meets": "Student explains that the bright orange-red color helps the robin in one way, such as attracting a mate, being noticed, or identifying other robins, with a reasonable explanation.",
+        "approaching": "Student recognizes that the bright color might help the robin in some way (such as being noticed or looking pretty) but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal response like \"it looks nice\" or \"I don't know\" with little attempt to explain why the color might be useful to the robin."
+      }
+    },
+    {
+      "questionText": "How is the robin's beak different from a duck's beak, and why might that be?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student accurately describes that robin beaks are thin and pointed while duck beaks are flat and wide, and explains that the different shapes help each bird eat different foods (worms/insects for robins, plants/water for ducks).",
+        "meets": "Student identifies at least one clear difference between the beaks (such as shape or size) and explains that the different beak shapes help the birds eat different types of food.",
+        "approaching": "Student notices the beaks look different and makes a simple connection to food or eating, but description or explanation is incomplete or partially unclear.",
+        "beginning": "Student observes that the beaks are different but provides no explanation for why, or offers an inaccurate comparison."
+      }
+    },
+    {
+      "questionText": "If a robin lived in a snowy area all year, how might its feathers be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that feathers would likely be thicker, fluffier, or whiter/lighter in color to provide more warmth or camouflage in snow, demonstrating understanding of how animals adapt to cold environments.",
+        "meets": "Student predicts a reasonable change to the robin's feathers (such as being thicker for warmth or lighter colored for camouflage) with a logical explanation connected to snow or cold.",
+        "approaching": "Student suggests a possible feather change but explanation is unclear or only partially connected to survival in snow; may show uncertainty about the connection.",
+        "beginning": "Student makes a guess about feather changes with little or no reasoning, or indicates misunderstanding of how feathers relate to survival in cold climates."
+      }
+    },
+    {
+      "questionText": "What do you observe about the robin's body position? Why might it stand this way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student observes that the robin stands upright on one leg and explains this position helps with balance, allows the bird to rest, keeps it alert for danger, or helps it move quickly if needed.",
+        "meets": "Student accurately describes the robin's upright posture on one leg and provides one reasonable explanation, such as it helps the bird balance, rest, or watch for predators.",
+        "approaching": "Student notices the robin's upright position or one-leg stance but provides only a vague or partially developed explanation for why it stands this way.",
+        "beginning": "Student describes the position in very general terms without detail, or offers no explanation for the bird's stance."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:04:38.554Z",
+  "cost": 0.005195
+}

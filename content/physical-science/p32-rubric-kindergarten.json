@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the bubble's shape?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the bubble as round or circular and adds another observation, such as it being big, floating, or smooth.",
+        "meets": "Student accurately identifies that the bubble is round or describes its shape as a ball or sphere.",
+        "approaching": "Student mentions the bubble's shape but uses vague language (like \"it's big\" or \"it's pretty\") without clearly identifying it as round.",
+        "beginning": "Student makes a minimal observation about the bubble that does not clearly address its shape, or provides an inaccurate description."
+      }
+    },
+    {
+      "questionText": "Why do you think the bubble has so many colors?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the colors come from light bouncing off or shining on the bubble, and may mention that bubbles are made of soap and water.",
+        "meets": "Student gives a simple reason, such as \"the light makes colors\" or \"the soap makes colors,\" showing basic understanding.",
+        "approaching": "Student acknowledges the colors exist but gives a vague or partially correct reason, such as \"it's colorful\" or \"someone painted it.\"",
+        "beginning": "Student makes a response that shows little understanding, such as naming colors without explaining why they appear, or giving an unrelated answer."
+      }
+    },
+    {
+      "questionText": "What might happen if we tried to make bubbles with just water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that bubbles would not form or would pop right away, and explains that soap is needed to make bubbles strong enough to float.",
+        "meets": "Student predicts that the water alone would not make bubbles or that bubbles would not work without soap.",
+        "approaching": "Student attempts a prediction but is uncertain or only partially correct, such as \"it might make bubbles but they'd be different.\"",
+        "beginning": "Student provides a vague, unclear, or off-topic response that does not address what would happen to bubbles made with only water."
+      }
+    },
+    {
+      "questionText": "How could we make our bubbles last longer?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple practical ways to make bubbles last longer, such as using more soap, avoiding touching them, keeping them away from sharp things, or blowing gently.",
+        "meets": "Student suggests one or two reasonable ways to make bubbles last longer, such as being careful not to pop them or using a bubble solution.",
+        "approaching": "Student offers an idea that is somewhat relevant but lacks detail or clarity, such as \"be nice to them\" or \"don't break it.\"",
+        "beginning": "Student's response is vague, incorrect, or unrelated to bubble care, such as \"make it bigger\" without addressing how to prevent popping."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:22:45.695Z",
+  "cost": 0.004475
+}

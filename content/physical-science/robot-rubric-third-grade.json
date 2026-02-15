@@ -1,0 +1,53 @@
+{
+  "title": "Robot",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What does this robot's \"eye\" do, and why might scientists want a robot with a camera?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student clearly explains that the camera captures images or video, and provides multiple specific reasons why scientists use robot cameras (e.g., observing insects without disturbing them, exploring places humans cannot reach safely, recording data over time).",
+        "meets": "Student accurately describes that the camera takes pictures or sees things, and explains at least one practical reason scientists might use a robot with a camera.",
+        "approaching": "Student identifies that the robot has a camera or can \"see,\" but provides limited or vague explanation of why scientists would use it.",
+        "beginning": "Student makes a minimal attempt to describe the camera's function or gives an inaccurate response with little scientific reasoning."
+      }
+    },
+    {
+      "questionText": "How is this robot similar to how you explore your classroom or playground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways the robot explores similarly to humans (moves around, looks at things with a camera/eyes, can go to different places) and extends thinking by noting differences or advantages of each method.",
+        "meets": "Student identifies at least two specific ways the robot explores like humans do (e.g., it moves from place to place, it uses eyes/camera to look at things).",
+        "approaching": "Student identifies one similarity between the robot's exploration and human exploration, but explanation may be incomplete or lack specific details.",
+        "beginning": "Student provides a vague or inaccurate response that shows minimal understanding of how robots and humans explore their environments."
+      }
+    },
+    {
+      "questionText": "If we wanted this robot to find something in the garden (like a specific plant or bug), what would we need to teach it first?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple things the robot would need to learn, such as what the target looks like, how to navigate the garden, how to move around obstacles, and how to recognize when it has found the object.",
+        "meets": "Student identifies at least two things the robot would need to learn, such as what the object looks like or how to move around the garden without getting stuck.",
+        "approaching": "Student identifies one thing the robot would need to learn (such as what to look for), but reasoning may lack detail or completeness.",
+        "beginning": "Student provides a minimal or vague response that shows little understanding of programming or training a robot for a specific task."
+      }
+    },
+    {
+      "questionText": "Why do you think scientists might use a robot instead of going outside to explore themselves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple thoughtful reasons with specific examples (e.g., robots can go into dangerous places, small spaces, or areas harmful to humans; robots can work longer without getting tired; robots can observe without disturbing living things).",
+        "meets": "Student gives at least two reasonable reasons why a robot might be useful for scientists (e.g., it can go places that might be unsafe or uncomfortable for humans, it can gather information in a small area).",
+        "approaching": "Student identifies one valid reason for using a robot, but explanation lacks detail or scientific thinking.",
+        "beginning": "Student attempts an answer but provides minimal, unclear, or inaccurate reasoning about robot exploration advantages."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:37:16.321Z",
+  "cost": 0.004996
+}

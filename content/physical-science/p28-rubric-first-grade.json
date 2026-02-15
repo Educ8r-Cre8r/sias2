@@ -1,0 +1,53 @@
+{
+  "title": "Friction",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think makes this train move forward?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies electricity or power from the wires as the energy source and explains that this energy helps the train move forward along the tracks.",
+        "meets": "Student identifies electricity or the wires above as what makes the train move, showing understanding of an external power source.",
+        "approaching": "Student mentions the wires or electricity but with incomplete understanding, or suggests the train moves but cannot clearly explain why.",
+        "beginning": "Student provides a vague answer like \"it goes\" or mentions only the tracks, with little connection to what actually powers the train."
+      }
+    },
+    {
+      "questionText": "How is this train different from a car or bus?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as: trains run on tracks, use overhead wires for electricity, are larger, hold many more people, and move on a fixed path.",
+        "meets": "Student identifies at least two clear differences, such as trains use tracks and electricity from wires, while cars/buses do not need tracks.",
+        "approaching": "Student notices one difference (like tracks or size) but explanations lack detail or confuse how cars and buses are powered compared to trains.",
+        "beginning": "Student makes a general comparison (\"trains are big\") without explaining structural or functional differences related to how they move."
+      }
+    },
+    {
+      "questionText": "What would happen if the electricity stopped working?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the train would stop moving and explains that without electricity (the power source), the train cannot run, demonstrating understanding of energy dependence.",
+        "meets": "Student correctly predicts the train would stop and notes that electricity is needed to make it work.",
+        "approaching": "Student suggests the train might stop but reasoning is unclear or incomplete, such as mentioning electricity without fully connecting it to movement.",
+        "beginning": "Student gives an unclear answer or makes an illogical prediction without referencing electricity's role in powering the train."
+      }
+    },
+    {
+      "questionText": "Why do you think people choose to ride trains instead of driving cars?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides thoughtful reasons such as: trains carry many people at once, don't need individual drivers, follow set routes, or move a lot of people efficiently.",
+        "meets": "Student offers one or two logical reasons, such as trains hold more people or move lots of passengers without needing a driver for each person.",
+        "approaching": "Student attempts an answer but reasoning is vague or partially accurate, such as \"trains are better\" without clear explanation.",
+        "beginning": "Student provides minimal or inaccurate reasoning that does not clearly connect to advantages of trains over cars."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:20:34.717Z",
+  "cost": 0.004334
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Renewable Resource",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we cut down all the trees and didn't plant new ones?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple consequences (e.g., no more wood for buildings, animals lose homes, air quality changes) and explains why trees are important resources that we need to replace.",
+        "meets": "Student describes at least two reasonable consequences, such as running out of wood or animals losing their homes, showing understanding that trees are a resource we need.",
+        "approaching": "Student identifies one consequence of cutting down trees but may lack detail or show incomplete reasoning about why this matters.",
+        "beginning": "Student provides a vague or minimal response (e.g., 'it would be bad') with little explanation of what would actually happen."
+      }
+    },
+    {
+      "questionText": "Why do you think the builders put this gray insulation material inside the walls?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that insulation keeps buildings warm or cool and may mention it helps save energy, showing understanding of how materials protect the inside of buildings.",
+        "meets": "Student states that insulation helps keep the building warm or comfortable inside, demonstrating basic understanding of its purpose.",
+        "approaching": "Student recognizes the material is in the walls but provides an incomplete or partially accurate explanation of what it does.",
+        "beginning": "Student makes a guess with little or no reasoning, or incorrectly identifies the material's purpose."
+      }
+    },
+    {
+      "questionText": "Can you find something made of wood in our classroom? What would be different if it were made of a different material?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a wood object and explains multiple ways a different material would change it (e.g., durability, weight, appearance, how it feels), showing detailed comparison thinking.",
+        "meets": "Student identifies a wood object and describes at least one clear difference if it were made of a different material (e.g., plastic would break differently, metal would be heavier).",
+        "approaching": "Student identifies a wood object but provides only vague or one-word descriptions of how a different material would be different.",
+        "beginning": "Student struggles to identify a wood object or gives minimal response with no meaningful comparison to other materials."
+      }
+    },
+    {
+      "questionText": "How is a tree like a factory that makes wood for buildings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that trees grow and produce wood naturally over time, similar to how factories produce materials, and may note that we harvest and use that wood for building.",
+        "meets": "Student explains that trees make or grow wood that can be used for building, making a clear connection between tree growth and the material used in construction.",
+        "approaching": "Student makes a partial connection between trees and wood but may lack clarity about the growth process or how wood becomes a building material.",
+        "beginning": "Student shows confusion about the comparison or provides a response that doesn't meaningfully connect trees to wood production."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:36:11.627Z",
+  "cost": 0.004604
+}

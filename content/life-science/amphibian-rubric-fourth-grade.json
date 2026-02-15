@@ -1,0 +1,53 @@
+{
+  "title": "Amphibian",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does this tree frog have that help it climb trees? Why do you think evolution gave it these special toes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies sticky toe pads and explains how they work (grip/adhesion), describes at least one other climbing adaptation (long legs, claws, or body shape), and provides a logical explanation of why evolution favored these traits for survival in trees.",
+        "meets": "Student identifies sticky toe pads as the main climbing feature and explains they help the frog grip or stick to branches; may mention that evolution gave these traits to help the frog survive in its tree habitat.",
+        "approaching": "Student identifies sticky toe pads or mentions climbing ability, but explanation is incomplete or unclear; reasoning about why these traits evolved is vague or partially incorrect.",
+        "beginning": "Student provides minimal response such as \"it has sticky toes\" with little to no explanation of how they work or why they matter for survival."
+      }
+    },
+    {
+      "questionText": "If a frog lived in a dry desert instead of a wet forest, how might its body be different? What would it need to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body adaptations for desert life (thicker/waxy skin to retain water, burrowing features, or different coloring) and explains how each adaptation helps survival; describes at least two survival needs (water access, shelter from heat).",
+        "meets": "Student describes at least one realistic body change (such as thicker or drier skin) and identifies one or two survival needs like finding water or avoiding heat; explanations are reasonable and show understanding of desert conditions.",
+        "approaching": "Student attempts to describe body changes or survival needs but reasoning is incomplete; may confuse desert and forest adaptations or provide partially accurate information.",
+        "beginning": "Student provides minimal or vague response with little detail about how a desert frog's body might differ or what it would need to survive."
+      }
+    },
+    {
+      "questionText": "How do you think the frog's gray color helps it survive? Where else in nature do you see animals that match their surroundings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gray coloring provides camouflage by blending with tree bark or wood to hide from predators, and provides at least two specific examples of other animals with camouflage (such as brown deer in forests, green insects on leaves, or white rabbits in snow).",
+        "meets": "Student explains that the frog's gray color helps it hide or blend in with its surroundings, and identifies at least one other animal that uses camouflage to match its environment.",
+        "approaching": "Student recognizes that the frog's color helps it survive but explanation is vague; may mention camouflage or blending but with incomplete understanding; provides unclear or minimal examples of other camouflaged animals.",
+        "beginning": "Student provides minimal response such as \"it helps it hide\" with little explanation of how or why, and provides no clear examples of other camouflaged animals."
+      }
+    },
+    {
+      "questionText": "A frog starts as a tiny tadpole in water and becomes an adult frog on land. Why do you think amphibians need both water and land to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that tadpoles must live in water to develop and breathe through gills, and adult frogs need water to keep skin moist and for breeding; identifies why both habitats are essential for the complete life cycle and survival of the species.",
+        "meets": "Student explains that frogs use water for at least one life stage (tadpole development or breeding) and land for living as an adult; demonstrates understanding that amphibians depend on both environments.",
+        "approaching": "Student recognizes that frogs use both water and land but explanation lacks detail or clarity; may confuse why each habitat is needed or provide incomplete reasoning about the life cycle.",
+        "beginning": "Student provides vague response such as \"frogs need both water and land\" with little or no explanation of why each environment is important."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:09:02.346Z",
+  "cost": 0.005935
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Weather",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe about the clouds in this photo, and what do those observations tell you about the weather that might be coming?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple cloud observations (dark color, thick/towering appearance, dense coverage) and makes specific predictions about incoming severe weather (thunderstorm, heavy rain, strong winds) with scientific reasoning about cloud characteristics.",
+        "meets": "Student describes cloud observations (dark, thick, heavy) and predicts that bad or severe weather is coming, with a basic explanation connecting cloud appearance to weather.",
+        "approaching": "Student identifies that clouds look dark or thick and mentions that bad weather might come, but observations lack detail or weather predictions are vague.",
+        "beginning": "Student makes a general comment about clouds or weather but provides little to no connection between cloud observations and weather predictions."
+      }
+    },
+    {
+      "questionText": "Why do you think the clouds are so dark and thick in this image? What is happening to the water in the air?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that clouds are dark because they contain large amounts of water droplets that block sunlight, and describes the water cycle process (evaporation, condensation) happening in the clouds with accurate scientific terminology.",
+        "meets": "Student explains that darkness is caused by many water droplets in the clouds and mentions that water is condensing or gathering in the air to form the clouds.",
+        "approaching": "Student provides a partial explanation about water droplets or clouds forming, but reasoning is incomplete or unclear about why this causes darkness.",
+        "beginning": "Student offers a vague response about clouds or water without explaining the connection between water droplets, cloud density, and darkness."
+      }
+    },
+    {
+      "questionText": "If you were living in this town, what actions would you take to prepare for this approaching storm, and why would those actions help keep you safe?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student lists multiple specific safety actions (seek shelter indoors, stay away from windows, bring in outdoor items, avoid power lines) with clear explanations of how each action reduces risk from storm hazards (lightning, wind, flooding, falling objects).",
+        "meets": "Student identifies 2-3 appropriate safety actions (go inside, stay away from windows, secure items) with reasonable explanations of how they provide protection.",
+        "approaching": "Student suggests some relevant safety actions but explanations are incomplete or lack clear connection to storm hazards.",
+        "beginning": "Student mentions general weather preparation with minimal detail or unclear reasoning about how actions prevent storm-related injuries or damage."
+      }
+    },
+    {
+      "questionText": "How do you think this storm formed? What conditions in the atmosphere had to exist for these clouds to develop?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple atmospheric conditions required for storm formation (warm air, moisture/water vapor, rising air currents, atmospheric instability) and explains how these conditions interact to produce the visible storm clouds.",
+        "meets": "Student identifies key atmospheric conditions (warm air, moisture, air rising/updrafts) and explains that these conditions together caused the storm clouds to form.",
+        "approaching": "Student mentions one or two atmospheric conditions (heat, water, or rising air) but explanation of how they combine to form storms is incomplete.",
+        "beginning": "Student provides minimal or vague information about what causes storms, with little reference to specific atmospheric conditions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:01:44.598Z",
+  "cost": 0.00508
+}

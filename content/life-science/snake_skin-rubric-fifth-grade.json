@@ -1,0 +1,53 @@
+{
+  "title": "Snake Skin",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this snake's coloring is similar to the dried corn and wood chips around it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the snake's brown and tan coloring matches its environment to hide from predators and prey, using the term 'camouflage' and providing specific examples of how matching colors helps the snake survive.",
+        "meets": "Student correctly identifies that the snake's coloring helps it blend in with its surroundings and explains this helps the snake hide or stay safe in its habitat.",
+        "approaching": "Student recognizes that the snake's colors are similar to the dried corn and wood chips but provides a vague or incomplete explanation of why this similarity is helpful.",
+        "beginning": "Student makes a simple observation that the colors match but does not explain the purpose or benefit of this matching coloration."
+      }
+    },
+    {
+      "questionText": "If this snake lived in a green forest with leaves and grass instead of dried stalks, how might its coloring be different, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the snake would be green or darker and explains that animals change or evolve coloring to match their environment for camouflage, connecting this to survival advantages in different habitats.",
+        "meets": "Student predicts the snake's coloring would be green or have more green tones and explains that matching a green environment would help it hide and survive better.",
+        "approaching": "Student predicts the snake might be green but provides a weak or partially incomplete explanation of how or why this color change would help the snake.",
+        "beginning": "Student makes a prediction about color change but does not explain the connection to camouflage or survival in the new environment."
+      }
+    },
+    {
+      "questionText": "How would a snake's life be different if it had bright red and blue stripes instead of brown and tan coloring?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that bright colors would make the snake easy for predators and prey to see, resulting in increased danger from predators and difficulty hunting; may mention this would negatively impact survival.",
+        "meets": "Student identifies that bright red and blue stripes would make the snake stand out and visible, leading to difficulty hiding or staying safe in its habitat.",
+        "approaching": "Student recognizes that bright colors would make the snake more visible but provides limited explanation of the negative consequences this would have.",
+        "beginning": "Student states that bright colors would look different but does not explain how this would affect the snake's ability to survive or interact with other animals."
+      }
+    },
+    {
+      "questionText": "What other animals or plants do you know that use camouflage to survive? How does their camouflage work?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more animals or plants with camouflage and explains how each type of camouflage works (e.g., color matching, pattern blending, shape mimicking) and connects to survival benefits.",
+        "meets": "Student names at least one other animal or plant that uses camouflage and provides a clear explanation of how that camouflage helps it hide or survive.",
+        "approaching": "Student names an animal or plant with camouflage but provides a vague or incomplete explanation of how the camouflage works.",
+        "beginning": "Student names an animal or plant but does not explain how camouflage works or provides inaccurate information about camouflage."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:38:19.907Z",
+  "cost": 0.00517
+}

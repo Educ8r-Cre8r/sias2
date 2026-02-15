@@ -1,0 +1,53 @@
+{
+  "title": "Reptile Molting",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about this lizard's skin? What does it look like?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific features of the lizard's skin using descriptive words (scaly, smooth, tan, brown, spotted) and explains how these features help the lizard or relate to its function.",
+        "meets": "Student accurately describes 2-3 observable features of the lizard's skin, such as color, texture (scaly or smooth), or patterns without inferring purpose.",
+        "approaching": "Student describes 1-2 features of the lizard's skin with basic accuracy, though descriptions may lack detail or precision.",
+        "beginning": "Student makes a vague observation about the lizard's skin (e.g., 'It looks bumpy' or 'It has colors') with minimal descriptive detail."
+      }
+    },
+    {
+      "questionText": "Why do you think a lizard needs to get a new, bigger skin as it grows? What happens to your clothes when you grow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that skin doesn't stretch and must be shed to allow the growing lizard to have more room, and makes an accurate comparison to outgrowing clothes, showing understanding of growth constraints.",
+        "meets": "Student provides a reasonable explanation that the lizard needs more room as it grows and makes a basic connection to outgrowing clothes.",
+        "approaching": "Student shows partial understanding by mentioning growth or size change but provides incomplete reasoning about why skin needs to be replaced or makes an unclear comparison to clothes.",
+        "beginning": "Student provides a minimal or vague response about growth with little connection between the lizard's skin-shedding and outgrowing clothes."
+      }
+    },
+    {
+      "questionText": "If this lizard sheds its old skin, what do you think happens to the old skin? Where does it go?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts realistic outcomes for the shed skin (decomposition, being eaten by other animals, becoming part of the ecosystem) and explains why this happens in nature.",
+        "meets": "Student makes a reasonable prediction about what happens to shed skin, such as falling to the ground, breaking down, or becoming food for other animals.",
+        "approaching": "Student makes a prediction about the shed skin's location or fate but reasoning is incomplete or partially unclear.",
+        "beginning": "Student provides a vague guess about the shed skin (e.g., 'It goes away') with no explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that might need to change their skin or outer covering to grow bigger?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names 3+ animals that shed or change their outer covering (snakes, crabs, insects, fish, turtles) and identifies the specific outer covering that changes for each.",
+        "meets": "Student names 2 animals that shed or change their outer covering and correctly identifies what changes (e.g., 'Snakes shed their skin' or 'Crabs change their shells').",
+        "approaching": "Student names 1-2 animals but may be uncertain whether they actually shed or change coverings, or provides limited detail.",
+        "beginning": "Student names an animal but provides no explanation of how its covering changes, or response is inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:25:11.869Z",
+  "cost": 0.005064
+}

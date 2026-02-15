@@ -1,0 +1,53 @@
+{
+  "title": "Lake Landform",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the tree fell into the lake, and what might happen to it over many years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a plausible reason for the tree falling (such as strong winds, erosion of roots, or age) and describes multiple specific changes the tree will undergo over time, such as decomposition, becoming waterlogged, breaking apart, or providing habitat for organisms.",
+        "meets": "Student provides one reasonable explanation for why the tree fell and describes at least two changes that might happen to the tree over time, such as rotting, sinking, or breaking into smaller pieces.",
+        "approaching": "Student offers a possible reason for the tree falling or describes what might happen to it over time, but reasoning is incomplete or lacks specific details about the decomposition or breakdown process.",
+        "beginning": "Student makes a vague guess about why the tree fell or offers minimal ideas about what might happen to it, showing limited understanding of decay or water's effects on wood."
+      }
+    },
+    {
+      "questionText": "How do you think this lake might look different in winter, spring, and summer compared to what we see here in fall?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific seasonal changes for at least three seasons, such as ice formation in winter, leafless trees and water temperature changes, green foliage and warmer water in summer, and new growth and mud or plant life in spring.",
+        "meets": "Student describes how the lake and surrounding area would look different in at least two other seasons with details like ice, snow, different tree colors, or water conditions.",
+        "approaching": "Student identifies changes in appearance for one or two seasons but descriptions lack specific details, such as simply stating 'trees will be different' without mentioning green or bare branches.",
+        "beginning": "Student provides minimal or vague ideas about seasonal changes, such as 'it will be cold' or 'trees will change,' with little connection to how the lake itself would appear different."
+      }
+    },
+    {
+      "questionText": "What clues in the photo tell us that erosion is happening at this shoreline?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific clues such as the exposed tree roots, the sandy beach showing soil loss, the fallen tree as evidence of bank collapse or weakening, and explains how water movement or wave action causes these features.",
+        "meets": "Student points out at least two clear signs of erosion, such as the sandy beach, exposed roots, or the fallen tree, and makes a reasonable connection to how erosion occurs.",
+        "approaching": "Student identifies one or two erosion clues from the photo but provides limited explanation of how erosion caused them or what erosion means.",
+        "beginning": "Student names one feature from the photo with minimal explanation, or describes erosion in vague terms without connecting it to specific details visible in the image."
+      }
+    },
+    {
+      "questionText": "If we visited this same spot 100 years from now, how might the shoreline and the fallen tree have changed?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts substantial long-term changes such as the tree being completely decomposed or absent, the shoreline shifting due to ongoing erosion or deposition, new vegetation growing, and explains how slow geological processes reshape landforms over decades or centuries.",
+        "meets": "Student predicts realistic changes such as the tree being mostly or completely gone, the shoreline position being different, or new growth in the area, showing understanding that landscapes change over long time periods.",
+        "approaching": "Student predicts one or two changes to the tree or shoreline over 100 years but lacks clear reasoning or shows incomplete understanding of how long-term erosion and decomposition work.",
+        "beginning": "Student makes a simple guess about future changes with little scientific reasoning or provides predictions that show minimal understanding of geologic timescales and landscape change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:45:24.822Z",
+  "cost": 0.005604
+}

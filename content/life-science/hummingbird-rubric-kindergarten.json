@@ -1,0 +1,53 @@
+{
+  "title": "Hummingbird",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the hummingbird is doing with its long beak?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the hummingbird is drinking nectar or sweet juice from flowers and explains that the long beak helps it reach inside the flower.",
+        "meets": "Student correctly identifies that the hummingbird is drinking or eating from the flower using its long beak.",
+        "approaching": "Student recognizes the beak is touching the flower but provides unclear or partially accurate description of what the hummingbird is doing.",
+        "beginning": "Student makes a simple observation about the beak or flower but does not accurately describe the hummingbird's action."
+      }
+    },
+    {
+      "questionText": "Why do you think the hummingbird's wings need to move so fast?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fast wing movement helps the hummingbird hover in place while feeding and may mention this is different from other birds.",
+        "meets": "Student explains that the fast wings help the hummingbird stay in the air or hover near the flower.",
+        "approaching": "Student recognizes the wings move fast and attempts to connect this to staying in the air, but explanation lacks clarity.",
+        "beginning": "Student notices the wings move fast but provides no clear reason or offers an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "How do the hummingbird and the flower help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hummingbird gets food (nectar) from the flower while pollen sticks to the bird and helps make new flowers grow.",
+        "meets": "Student identifies that the hummingbird gets food from the flower and the flower benefits from the hummingbird in some way.",
+        "approaching": "Student recognizes that both the hummingbird and flower benefit from each other but provides incomplete or unclear explanation of how.",
+        "beginning": "Student attempts to describe a connection between the hummingbird and flower but explanation is minimal or unclear."
+      }
+    },
+    {
+      "questionText": "If a hummingbird couldn't hover in the air, how would its life be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hummingbird couldn't drink from flowers while staying in place and would need to find another way to eat or land on the flower.",
+        "meets": "Student identifies that the hummingbird would have difficulty feeding or would need to land on the flower instead of hovering.",
+        "approaching": "Student recognizes that hovering is important for the hummingbird but provides vague or incomplete explanation of how life would change.",
+        "beginning": "Student attempts to imagine a change but offers minimal detail or unclear reasoning about how the hummingbird's life would be different."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:18:16.730Z",
+  "cost": 0.004468
+}

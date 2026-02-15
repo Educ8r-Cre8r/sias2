@@ -1,0 +1,53 @@
+{
+  "title": "Scales",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think an alligator's scales are bumpy and tough instead of smooth and soft like human skin?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bumpy, tough scales protect the alligator from injury, predators, and its environment, and connects this to the alligator's habitat or hunting behavior with specific reasoning.",
+        "meets": "Student identifies that scales protect the alligator and explains that their bumpy, tough texture provides protection or defense.",
+        "approaching": "Student mentions that scales are protective or tough but provides limited explanation of why this trait is important for survival.",
+        "beginning": "Student makes a simple observation about scales being bumpy or tough but does not explain why this would be beneficial."
+      }
+    },
+    {
+      "questionText": "If you were designing a suit of armor to protect a soldier, what could you learn from looking at how reptile scales are arranged?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes how overlapping scales provide layered protection and flexibility, explains how this design could improve armor functionality (movement, durability, or coverage), and uses specific observations from the image.",
+        "meets": "Student observes that scales overlap or are arranged in a pattern and explains how this arrangement could make armor stronger or better at protecting.",
+        "approaching": "Student identifies that scales are arranged or overlap but provides only a vague connection to how this might improve armor design.",
+        "beginning": "Student acknowledges that scales could be studied for armor design but offers minimal or unclear explanation of how the arrangement matters."
+      }
+    },
+    {
+      "questionText": "How might a reptile's scales help it survive in a dry desert compared to a reptile living in a wet swamp?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that tough scales help reduce water loss in dry environments and provides additional details about desert or swamp survival, demonstrating understanding of adaptation to different habitats.",
+        "meets": "Student recognizes that scales help prevent water loss in dry environments and acknowledges differences between desert and swamp habitats.",
+        "approaching": "Student mentions that scales might help in dry areas but provides incomplete reasoning about how they prevent water loss or minimal comparison between habitats.",
+        "beginning": "Student makes a simple statement about scales in dry places but does not explain the purpose or shows minimal understanding of habitat differences."
+      }
+    },
+    {
+      "questionText": "What would happen to an alligator if its scales fell off and didn't grow back?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences such as loss of protection, inability to retain water, vulnerability to infection or predators, and injury, showing comprehensive understanding of scale functions.",
+        "meets": "Student identifies at least two serious consequences of losing scales, such as lack of protection or difficulty surviving in its environment.",
+        "approaching": "Student recognizes that losing scales would be harmful but provides only one consequence or limited explanation of why scales are essential.",
+        "beginning": "Student acknowledges that losing scales would be bad for the alligator but offers vague or minimal reasoning about the consequences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:52:02.518Z",
+  "cost": 0.004713
+}

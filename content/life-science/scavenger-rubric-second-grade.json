@@ -1,0 +1,53 @@
+{
+  "title": "Scavenger",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think vultures eat, and why do you think they look for dead animals instead of hunting live ones?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that vultures eat dead animals and provides two or more logical reasons (e.g., easier to catch, safer, don't have to chase, dead animals don't fight back) with clear explanations.",
+        "meets": "Student correctly identifies that vultures eat dead animals and provides one clear reason why they look for dead animals instead of hunting live ones.",
+        "approaching": "Student identifies that vultures eat meat or dead animals but provides only vague or partially accurate reasoning about why they prefer dead animals.",
+        "beginning": "Student provides a response with minimal accuracy, such as only saying vultures eat food or showing unclear understanding of the difference between hunting live and dead animals."
+      }
+    },
+    {
+      "questionText": "How do a vulture's strong eyes and sharp beak help it survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how strong eyes help vultures find dead animals from high in the sky AND how sharp beaks help them eat or break apart their food, showing clear understanding of how both features work together for survival.",
+        "meets": "Student explains how strong eyes help find food OR how sharp beaks help eat food, with accurate details about how these features aid survival.",
+        "approaching": "Student identifies that strong eyes and sharp beak help vultures, but explanations lack specific details or show incomplete understanding of how these features are used.",
+        "beginning": "Student provides vague responses like 'strong eyes help them see' or 'sharp beak helps them eat' with little to no explanation of survival benefits."
+      }
+    },
+    {
+      "questionText": "Why might an ecosystem have problems if there were no vultures?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that dead animals would pile up or not be cleaned up, and identifies consequences like spreading disease, making the environment unhealthy, or affecting other animals in the ecosystem.",
+        "meets": "Student explains that without vultures, dead animals would build up or not be removed, and identifies at least one problem this could cause (such as disease or messy environment).",
+        "approaching": "Student recognizes that vultures remove dead animals and mentions that this is important, but reasoning about ecosystem problems is incomplete or unclear.",
+        "beginning": "Student provides a minimal response suggesting only that dead animals would stay there, with little to no understanding of ecosystem consequences."
+      }
+    },
+    {
+      "questionText": "If vultures disappeared from a forest, what do you predict would happen to the dead animals there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that dead animals would pile up, rot, or decay slowly, and explains a logical consequence such as bad smells, disease spreading, or attracting pests or other animals.",
+        "meets": "Student predicts that dead animals would remain in the forest or pile up and provides a basic explanation of what might result from this situation.",
+        "approaching": "Student makes a prediction about dead animals but with incomplete or partially unclear reasoning about consequences.",
+        "beginning": "Student makes a vague prediction such as 'the animals would stay there' with little or no explanation of what might happen as a result."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:26:15.133Z",
+  "cost": 0.00491
+}

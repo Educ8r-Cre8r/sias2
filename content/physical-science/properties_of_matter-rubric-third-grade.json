@@ -1,0 +1,53 @@
+{
+  "title": "Properties Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the coolant in a car engine needs to be a liquid instead of a solid or a gas?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that liquids can flow through hoses to reach hot parts of the engine and carry heat away, demonstrating understanding that liquids move easily while solids cannot bend through tubes and gases would escape.",
+        "meets": "Student identifies that the coolant needs to be a liquid because it can flow through the engine or move heat, showing basic understanding of liquid properties.",
+        "approaching": "Student mentions that liquids flow or move, but reasoning is incomplete or lacks connection to how this helps cool the engine.",
+        "beginning": "Student provides a minimal response such as 'it has to be liquid' or gives an inaccurate explanation with little evidence of understanding properties of matter."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the engine if the cooling system stopped working and the liquid couldn't flow anymore?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the engine would overheat and become damaged because the coolant would not be able to carry heat away from the hot parts, demonstrating understanding of the cooling system's function.",
+        "meets": "Student states the engine would get too hot or overheat, showing understanding that the coolant removes heat from the engine.",
+        "approaching": "Student mentions the engine getting hot but provides incomplete reasoning about why the coolant's flow is necessary for cooling.",
+        "beginning": "Student gives a vague response like 'it would break' or 'it would stop' without explaining the connection to heat or cooling."
+      }
+    },
+    {
+      "questionText": "How is the coolant in a car similar to the blood in your body?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both coolant and blood are liquids that flow through tubes or vessels to carry something important (heat or oxygen) throughout a system to keep it healthy and working properly.",
+        "meets": "Student recognizes that both coolant and blood are liquids that flow through tubes and carry something important throughout the engine or body.",
+        "approaching": "Student notes that both are liquids that flow, but makes incomplete or unclear connections to their similar purposes in systems.",
+        "beginning": "Student provides a minimal response such as 'they both flow' or makes an inaccurate comparison without clear reasoning."
+      }
+    },
+    {
+      "questionText": "Can you think of other machines or things in nature that use liquids to move heat from one place to another?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides two or more accurate examples (such as refrigerators, heating systems, water in nature moving heat, or ocean currents) and briefly explains how the liquid carries heat in at least one example.",
+        "meets": "Student provides one or two reasonable examples of machines or natural systems that use liquids to move heat, showing understanding of the concept's broader application.",
+        "approaching": "Student provides one example that may be partially accurate or unclear, demonstrating emerging understanding of heat movement by liquids.",
+        "beginning": "Student provides a vague or inaccurate example, or states 'I don't know,' showing minimal engagement with the concept."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:19:36.911Z",
+  "cost": 0.004894
+}

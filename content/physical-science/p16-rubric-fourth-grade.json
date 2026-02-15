@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe that tells you energy was used to change this food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes caused by heat energy (color change to golden-brown, crispy texture, different appearance from fresh vegetables) and explains that heat energy caused these changes to occur.",
+        "meets": "Student identifies at least two observable changes (such as color change or texture change) and connects these changes to energy being used.",
+        "approaching": "Student identifies one observable change (such as color or crispiness) but provides limited explanation of how energy caused the change.",
+        "beginning": "Student makes a vague observation about the food looking different but does not clearly connect the change to energy being used."
+      }
+    },
+    {
+      "questionText": "How do you think the texture and taste of this food would be different if it was heated in an oven instead of oil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that oven heating would result in different texture (less crispy or crunchier) and taste (less oily or different flavor) and explains that oil transfers heat differently than hot air, causing different changes to the food.",
+        "meets": "Student predicts reasonable differences in texture or taste when using an oven instead of oil and provides a logical explanation for the difference.",
+        "approaching": "Student predicts that texture or taste would be different but provides incomplete or partially accurate reasoning about why the difference would occur.",
+        "beginning": "Student makes a prediction about texture or taste but provides no clear explanation, or the prediction does not make sense."
+      }
+    },
+    {
+      "questionText": "What would happen to the water inside vegetables if you heated them the same way as this fried food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water inside vegetables would turn to steam and escape, causing the vegetables to shrink or become dehydrated, and connects this to the heat energy from the oil.",
+        "meets": "Student correctly identifies that water would be removed from the vegetables through heating and results in the vegetables becoming smaller or drier.",
+        "approaching": "Student recognizes that heat affects water in vegetables but provides unclear or partially incomplete description of what happens to the water or the vegetables.",
+        "beginning": "Student provides a minimal or vague response that does not clearly explain what would happen to water in the vegetables."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of the food look more golden-brown than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different parts receive different amounts of heat or contact with oil for different amounts of time, and these differences in heat exposure cause variation in browning and color change.",
+        "meets": "Student identifies that uneven heat exposure or different contact times with hot oil cause some parts to brown more than others.",
+        "approaching": "Student recognizes that some parts are darker but provides incomplete explanation for why the browning is uneven.",
+        "beginning": "Student observes that colors are different but provides little or no explanation for the cause of the color variation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:03:30.850Z",
+  "cost": 0.004685
+}

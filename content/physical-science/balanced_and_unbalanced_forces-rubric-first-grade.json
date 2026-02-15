@@ -1,0 +1,53 @@
+{
+  "title": "Balanced And Unbalanced Forces",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you see the backhoe doing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student accurately describes multiple actions the backhoe is performing (scooping, lifting, moving dirt) and identifies specific parts like the bucket or arm.",
+        "meets": "Student accurately describes what the backhoe is doing, such as picking up or moving dirt with its bucket.",
+        "approaching": "Student describes the backhoe's action with some accuracy but may be vague (e.g., 'it's moving something' or 'it's digging') or miss key details.",
+        "beginning": "Student provides a minimal or unclear response that shows limited observation (e.g., 'it's big' or repeats the question without answering)."
+      }
+    },
+    {
+      "questionText": "Why do you think we need a big machine like this instead of people just picking up the dirt with their hands?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that machines help because the dirt/rocks are too heavy for people to lift safely and efficiently, and may mention that machines can do the work faster or with less effort.",
+        "meets": "Student provides a reasonable explanation that the dirt or rocks are too heavy for people to pick up by hand, or that the machine makes the work easier.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially unclear (e.g., 'it's stronger' without explaining why strength matters, or 'people can't do it').",
+        "beginning": "Student's response shows minimal understanding, such as 'because it's big' or an answer that does not address why machines are needed."
+      }
+    },
+    {
+      "questionText": "If the backhoe's arm stopped moving up and stayed still, what would happen to the dirt?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the dirt would fall or drop down and explains that without the arm lifting it, gravity pulls the dirt down, or that the machine would no longer be moving it.",
+        "meets": "Student correctly predicts that the dirt would fall or drop down if the arm stopped moving up.",
+        "approaching": "Student makes a prediction related to the dirt's movement but the explanation is vague or incomplete (e.g., 'it would fall' without explaining why).",
+        "beginning": "Student provides an unclear or inaccurate prediction (e.g., 'the dirt would stay the same' or a response that does not address what would happen to the dirt)."
+      }
+    },
+    {
+      "questionText": "What other heavy things do you see in your neighborhood that need machines or people working together to move?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple heavy objects from their neighborhood (e.g., cars, boxes, furniture, logs) and explains why each needs machines or help to move, showing clear connections to weight and effort.",
+        "meets": "Student identifies at least one heavy object from their neighborhood and explains that it needs a machine or people working together to move it.",
+        "approaching": "Student identifies an object but provides limited explanation of why it needs help to move, or identifies something that is not clearly relevant to the question.",
+        "beginning": "Student provides a vague response, an irrelevant example, or minimal effort to identify heavy objects that need help to move."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:10:13.439Z",
+  "cost": 0.004968
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fall Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think trees drop their leaves in fall instead of keeping them all year long?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that trees drop leaves to prepare for winter and survive cold weather, providing a logical reason such as conserving water or energy when it's harder to get nutrients from frozen ground.",
+        "meets": "Student states that trees drop leaves to get ready for winter or that it helps the tree survive the cold season.",
+        "approaching": "Student provides a partial explanation, such as mentioning that trees drop leaves in fall but with limited reasoning about why or survival.",
+        "beginning": "Student gives a vague response or incorrect reason, such as leaves fall because they get tired or just because it happens."
+      }
+    },
+    {
+      "questionText": "What do you observe about the different colors of leaves in this picture? Where do you think those colors were hiding during the summer?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple leaf colors (red, yellow, orange, brown) and explains that these colors were hidden underneath the green chlorophyll during summer, describing how the green fades to reveal other pigments.",
+        "meets": "Student describes the variety of leaf colors seen and correctly explains that other colors were under the green during summer.",
+        "approaching": "Student names some leaf colors but provides incomplete explanation about where the colors came from or why they appear in fall.",
+        "beginning": "Student lists one or two colors but cannot explain why leaves change color or where the colors came from."
+      }
+    },
+    {
+      "questionText": "If a tree didn't drop its leaves before winter, what problems might happen to the tree when it gets very cold?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple problems, such as snow/ice weighing down branches and breaking them, water freezing in the leaves, or the tree losing too much water through frozen leaves, showing understanding of winter hazards.",
+        "meets": "Student identifies at least one realistic problem, such as heavy snow breaking branches or the tree being damaged by ice and cold.",
+        "approaching": "Student suggests a possible problem but with limited detail or reasoning, such as the tree might get hurt but unclear about how or why.",
+        "beginning": "Student provides a vague or incorrect response, such as the tree would be sad or doesn't explain a specific problem."
+      }
+    },
+    {
+      "questionText": "How would this yard look different in spring or summer compared to how it looks in this fall picture?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple seasonal differences, such as trees being full of green leaves, grass being more visible, no leaf pile on ground, brighter colors, and warmer appearance, showing comprehensive seasonal understanding.",
+        "meets": "Student identifies at least two clear differences, such as trees having green leaves and the ground having fewer leaves visible.",
+        "approaching": "Student mentions one or two differences but with limited detail, such as it would be greener or warmer without fully explaining what changes.",
+        "beginning": "Student provides a vague response or one unclear difference, such as it would look nice or different without specific seasonal observations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:41:16.895Z",
+  "cost": 0.00475
+}

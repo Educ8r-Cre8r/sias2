@@ -1,0 +1,53 @@
+{
+  "title": "Centipede",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the centipede's body?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (legs, segments, head, tail) and describes how they are arranged, using words like 'long,' 'rings,' or 'sections stacked together.'",
+        "meets": "Student accurately names at least two body parts (legs, segments, or head) and describes the body as long or having many parts.",
+        "approaching": "Student names one body part or uses general descriptions like 'it has lots of legs' or 'it's brown' with minimal detail.",
+        "beginning": "Student provides a vague response like 'it's different' or 'it has stuff on it' with little accuracy or detail."
+      }
+    },
+    {
+      "questionText": "Why do you think a centipede needs so many legs instead of just two or four like we have?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that many legs help the centipede move faster or better, and connects this to the centipede's long body or how it needs to move differently than humans.",
+        "meets": "Student gives a logical reason, such as 'many legs help it move' or 'it helps the centipede go fast,' showing basic cause-and-effect thinking.",
+        "approaching": "Student attempts a reason but it is incomplete or only partially logical, such as 'it just needs them' or 'because it's long' without explaining how legs help.",
+        "beginning": "Student provides no clear reason or an inaccurate response, such as 'I don't know' or unrelated answers like 'to be pretty.'"
+      }
+    },
+    {
+      "questionText": "Where do you think a centipede likes to live, and why might all those legs help it there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a realistic habitat (under rocks, in soil, in dark places) and explains how many legs would help it there (move through tight spaces, climb, dig, move quickly through that environment).",
+        "meets": "Student suggests a reasonable habitat and connects the legs to how they help, such as 'under leaves because legs help it crawl' or 'in dirt because many legs help it move around.'",
+        "approaching": "Student names a possible place but makes a weak or unclear connection between the habitat and the legs' purpose.",
+        "beginning": "Student names a place with no explanation, or gives an unrealistic answer like 'in the sky,' showing little thinking about the centipede's needs."
+      }
+    },
+    {
+      "questionText": "If you had to move like a centipede, how would your body move differently?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple movement differences with specific details, such as moving close to the ground, wiggling or rippling the body, or moving legs in a wave pattern instead of walking upright.",
+        "meets": "Student describes at least one clear way their movement would be different, such as 'I would move lower to the ground' or 'my body would wiggle' or 'my legs would move together.'",
+        "approaching": "Student attempts to describe a difference but explanation is vague or incomplete, such as 'I would be different' or 'use more legs' without clear detail.",
+        "beginning": "Student provides minimal response, such as 'I don't know' or an unclear answer that shows little understanding of how centipede movement differs from human movement."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:29:22.466Z",
+  "cost": 0.005215
+}

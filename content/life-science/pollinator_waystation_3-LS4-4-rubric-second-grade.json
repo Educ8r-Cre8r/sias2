@@ -1,0 +1,53 @@
+{
+  "title": "Pollinator Waystation",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think there are so many different types of flowers in this garden instead of just one kind?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different flowers attract different insects and that variety ensures insects have food choices; may mention that different flowers bloom at different times or that some insects prefer certain flowers.",
+        "meets": "Student identifies that different flowers attract different kinds of insects or that different insects like different flowers for food.",
+        "approaching": "Student recognizes that the garden has many flowers or that different insects visit, but makes limited connection between flower variety and insect needs.",
+        "beginning": "Student provides a vague answer such as 'it looks nice' or 'because they are different' with minimal reasoning about insects or food."
+      }
+    },
+    {
+      "questionText": "What would happen to the insects if all these flowers disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that insects would lose their food source and may not survive, move away, or starve; may discuss how this would affect other animals that eat insects.",
+        "meets": "Student correctly states that insects would not have food or flowers to visit, and explains this would be bad for the insects.",
+        "approaching": "Student mentions that insects need flowers or food but provides incomplete reasoning about the consequence (e.g., 'insects would be sad' without explaining why).",
+        "beginning": "Student gives a minimal response such as 'insects would be gone' or 'that would be bad' with no explanation of the connection to food or survival."
+      }
+    },
+    {
+      "questionText": "How do flowers 'ask' insects to visit them? What signs do insects look for?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple signs flowers use (bright colors, shapes, nectar, smell) and explains that insects look for these signals to find food; may mention specific colors visible in the photo.",
+        "meets": "Student identifies at least two signs that flowers use to attract insects, such as bright colors or sweet smell, and connects these to insect behavior.",
+        "approaching": "Student mentions one sign flowers use (like color) or one thing insects look for, but explanation is incomplete or unclear.",
+        "beginning": "Student provides a vague or incorrect answer, such as 'flowers talk to insects' or lists a sign without explaining how it helps insects find food."
+      }
+    },
+    {
+      "questionText": "If you were a bee looking for food, why would this garden be a good place to visit?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the garden has many flowers close together so bees can find lots of food in one place; may mention bright colors, blooming at the same time, or that bees don't have to travel far between flowers.",
+        "meets": "Student identifies that there are many flowers to visit for food or that the flowers are close together, making it easy for bees to find food.",
+        "approaching": "Student recognizes that bees need flowers for food and that this garden has flowers, but reasoning about why it's a good place is limited or unclear.",
+        "beginning": "Student gives a minimal response such as 'because there are flowers' or 'because bees like flowers' with little explanation of the garden's advantages."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:41:45.884Z",
+  "cost": 0.004915
+}

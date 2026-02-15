@@ -1,0 +1,53 @@
+{
+  "title": "Stinkhorn Mushroom",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that this organism is adapted for a specific purpose?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific adaptations (bright color, unusual shape, smell) and explains how each one helps the mushroom accomplish a purpose, such as attracting insects to spread spores.",
+        "meets": "Student identifies at least two visible features of the mushroom and explains that these help it attract insects or spread spores.",
+        "approaching": "Student notices one or two unusual features (color, shape, or smell mentioned) but explanation of purpose is vague or incomplete.",
+        "beginning": "Student describes what the mushroom looks like but provides little or no explanation of how its features help it survive or reproduce."
+      }
+    },
+    {
+      "questionText": "How might removing all the decomposers from a forest affect the other living things there?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that decomposers break down dead material into nutrients, then describes a chain reaction showing how removing them would harm multiple organisms (plants unable to get nutrients, herbivores losing food, predators losing prey).",
+        "meets": "Student correctly explains that decomposers break down dead things and identifies at least one negative effect on other forest organisms, such as plants not getting nutrients or food becoming scarce.",
+        "approaching": "Student shows that decomposers are important and mentions one effect of their removal, but the explanation lacks detail or shows incomplete understanding of the connection.",
+        "beginning": "Student provides a vague response about decomposers or gives an inaccurate explanation of their role in the forest ecosystem."
+      }
+    },
+    {
+      "questionText": "What other examples can you think of where organisms use smells to communicate or attract other living things?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides three or more accurate examples from different contexts (such as bees finding flowers, dogs marking territory, and skunks warning predators) and briefly explains the purpose of each smell.",
+        "meets": "Student provides two accurate examples of organisms using smell to communicate or attract others, with a simple explanation of why.",
+        "approaching": "Student provides one accurate example, or provides multiple examples with unclear or partially incorrect reasoning.",
+        "beginning": "Student provides an unclear example, gives an inaccurate response, or demonstrates uncertainty about how organisms use smell."
+      }
+    },
+    {
+      "questionText": "If you were designing an organism to spread its offspring without being able to move, what features would you give it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes at least three realistic features that work together as a system (such as bright colors and smell to attract animals, sticky or light seeds, or structures for wind dispersal) with clear explanations of how each helps spread offspring.",
+        "meets": "Student describes two or more features that would help an organism spread its offspring and explains how each feature accomplishes this goal.",
+        "approaching": "Student identifies one or two features for dispersal, but the explanation of how they work may be incomplete or partially unclear.",
+        "beginning": "Student provides a vague response or suggests features without clear explanation of how they help spread offspring to new locations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:32:05.818Z",
+  "cost": 0.004797
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Orb Weaver",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What special body parts does the spider have that help it walk on the person's hand?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple special body parts (such as eight jointed legs, claws, or sticky foot pads) and explains how each one helps the spider grip and walk on smooth surfaces like skin.",
+        "meets": "Student correctly identifies at least two special body parts the spider uses for walking (such as legs and claws or feet) and explains that they help the spider hold on or move.",
+        "approaching": "Student identifies one or two body parts the spider uses for walking but provides limited or incomplete explanation of how they help the spider move.",
+        "beginning": "Student provides vague or minimal response about spider body parts, such as naming only 'legs' without connecting to how they help the spider walk."
+      }
+    },
+    {
+      "questionText": "Why do you think spiders have eight legs instead of just four like many other animals?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides thoughtful reasoning about advantages of eight legs, such as better balance, more climbing ability, faster movement, or having spare legs if one is lost, with clear connections to spider survival.",
+        "meets": "Student gives a reasonable explanation for why eight legs might be better than four, such as helping the spider move faster, climb better, or stay balanced.",
+        "approaching": "Student attempts to explain a benefit of having eight legs but reasoning is incomplete or partially unclear, such as 'more legs help it' without full explanation.",
+        "beginning": "Student provides minimal response, such as 'spiders just have eight legs' or 'because they need more legs,' without explaining any advantage."
+      }
+    },
+    {
+      "questionText": "How might a spider's ability to climb smooth surfaces help it survive in nature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student connects climbing ability to multiple survival benefits, such as escaping predators, reaching food sources (insects in webs), finding shelter, or accessing new habitats, with specific examples.",
+        "meets": "Student explains how climbing smooth surfaces helps the spider survive by providing at least one benefit, such as escaping danger, hunting for food, or finding a safe place to live.",
+        "approaching": "Student recognizes that climbing helps the spider survive but explanation is vague or incomplete, such as 'it can climb to get away' without full details.",
+        "beginning": "Student provides minimal or unclear connection between climbing ability and survival, such as 'spiders can climb' without explaining the benefit."
+      }
+    },
+    {
+      "questionText": "If you were a tiny spider, what would you find to eat in your classroom or house? How would you hunt for it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies realistic spider prey in a classroom or house (insects like flies, gnats, or ants) and describes a detailed, scientifically plausible hunting method using spider abilities like building webs, hiding and waiting, or using speed.",
+        "meets": "Student identifies an appropriate food source a spider might find indoors (such as an insect) and describes a reasonable hunting strategy that reflects how spiders hunt in nature.",
+        "approaching": "Student suggests a possible food source and hunting method but lacks detail or shows partial understanding, such as 'I would catch flies with my legs' without explanation of the hunting process.",
+        "beginning": "Student provides a vague or unrealistic response, such as naming a non-insect food or describing a hunting method that doesn't match how real spiders hunt."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:51:02.295Z",
+  "cost": 0.00521
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Shadow",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "If you stand in front of a bright lamp, where does your shadow appear?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the shadow appears behind them and explains that it forms on the opposite side of where the light comes from, showing understanding of how light and shadows work together.",
+        "meets": "Student correctly states that the shadow appears behind them or on the opposite side of the lamp.",
+        "approaching": "Student identifies that a shadow forms but gives an incomplete or partially correct location (e.g., mentions 'on the ground' without clarifying the direction).",
+        "beginning": "Student provides a vague response or incorrect location (e.g., 'in front of me' or 'under me') with no clear understanding of shadow placement."
+      }
+    },
+    {
+      "questionText": "Why do you think the shadow of this rock is darker on one side than the other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the shape and texture of the rock cause uneven shadows, or recognizes that different parts of the rock are at different distances from the light source, showing deeper thinking about how objects block light.",
+        "meets": "Student provides a reasonable explanation such as the rock's shape, the angle of the sunlight, or that the sun shines on different parts of the rock differently.",
+        "approaching": "Student recognizes that the shadow is darker on one side but gives a partial or incomplete reason (e.g., 'because the sun' without full explanation).",
+        "beginning": "Student makes a vague statement about the shadow being different or provides an inaccurate explanation unrelated to light and shadow."
+      }
+    },
+    {
+      "questionText": "If the sun moved to a different place in the sky, what would happen to this rock's shadow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the shadow would move to a different location and describes that it might get longer or shorter depending on whether the sun is lower or higher in the sky.",
+        "meets": "Student correctly states that the shadow would move or change position as the sun moves across the sky.",
+        "approaching": "Student recognizes that something would change about the shadow but is unclear about exactly how or where the change would occur.",
+        "beginning": "Student provides a minimal or incorrect response, such as 'the shadow would disappear' or shows no understanding of the relationship between sun position and shadow."
+      }
+    },
+    {
+      "questionText": "What would happen if this rock was made of clear glass instead of solid stone? Would it still have a shadow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that clear glass would allow light to pass through it, resulting in a very faint or no shadow, and may mention that light bends through glass or that the object's material matters for shadow formation.",
+        "meets": "Student correctly predicts that a clear glass rock would have a very small or no shadow because light can pass through it.",
+        "approaching": "Student attempts to explain the difference between clear and solid materials but is unclear or only partially correct (e.g., 'it might have a smaller shadow' without explaining why).",
+        "beginning": "Student provides an inaccurate response or states the glass would have the same shadow, showing misunderstanding of how materials affect light and shadow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:36:58.330Z",
+  "cost": 0.004945
+}

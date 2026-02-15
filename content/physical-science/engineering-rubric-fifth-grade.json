@@ -1,0 +1,53 @@
+{
+  "title": "Engineering",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think causes the wheels to spin when we turn on the motor?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that electrical energy powers the motor, which converts that energy into motion that turns the wheels, and may describe the role of magnets or electromagnets in creating the spinning motion.",
+        "meets": "Student identifies that the motor causes the wheels to spin and explains that electricity or power from the motor makes the wheels turn.",
+        "approaching": "Student states that the motor makes the wheels spin but provides limited or incomplete explanation of how the motor creates motion.",
+        "beginning": "Student gives a vague response such as 'the motor makes it spin' with little to no explanation of the connection between the motor and wheel movement."
+      }
+    },
+    {
+      "questionText": "If you added a heavier load to one of these structures, how do you predict the motor's speed would change, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the motor would slow down and provides a scientific explanation involving force, energy requirements, or the motor working harder against increased resistance or weight.",
+        "meets": "Student predicts the motor would slow down and explains that the motor has to work harder or use more energy to move the heavier load.",
+        "approaching": "Student makes a prediction about the motor's speed but provides an incomplete or partially accurate explanation of why the change would occur.",
+        "beginning": "Student makes a prediction but provides no explanation, or gives an inaccurate prediction without reasoning."
+      }
+    },
+    {
+      "questionText": "How would changing the size of the gears affect how fast or slow the structure moves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how different gear sizes affect speed and direction of movement, using terminology such as 'gear ratio' or describing that larger gears move slower but with more force, while smaller gears move faster.",
+        "meets": "Student explains that changing gear size affects the structure's speed and provides a basic explanation, such as 'larger gears make it slower' or 'smaller gears make it faster.'",
+        "approaching": "Student recognizes that gear size affects movement but provides an unclear or partially correct explanation of the relationship between gear size and speed.",
+        "beginning": "Student provides a minimal response that mentions gears and movement but shows little understanding of how gear size influences speed."
+      }
+    },
+    {
+      "questionText": "How is the energy from the electrical outlet different from the energy you see in the spinning wheels?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that electrical energy is converted into mechanical or kinetic energy and describes specific differences, such as electricity flowing through wires versus wheels moving in a visible way.",
+        "meets": "Student identifies that electrical energy powers the motor and becomes motion energy, explaining that the energy changes form from electricity to movement.",
+        "approaching": "Student recognizes there is a difference between the two types of energy but provides an incomplete or vague description of the conversion or differences.",
+        "beginning": "Student attempts a response but shows minimal understanding of energy conversion or provides an inaccurate comparison between electrical and kinetic energy."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:09:57.790Z",
+  "cost": 0.004748
+}

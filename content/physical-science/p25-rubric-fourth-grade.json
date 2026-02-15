@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we put these flowers in different liquids like soda or salt water instead of plain water?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific outcomes for multiple liquids (e.g., salt water would draw water out of stems, soda might clog the stem tubes) and explains the reasoning using ideas about how plants absorb water.",
+        "meets": "Student predicts that the flowers would not do as well with soda or salt water compared to plain water and provides a reasonable explanation about water absorption.",
+        "approaching": "Student predicts a change would occur but provides limited or partially accurate reasoning, or only addresses one liquid type.",
+        "beginning": "Student makes a vague prediction or guesses without explanation, or suggests the flowers would be fine with any liquid."
+      }
+    },
+    {
+      "questionText": "How is the way these cut flowers get water similar to and different from how flowers in a garden get water?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (stems absorb water in both cases) and differences (cut flowers receive water from a vase while garden flowers get water from soil/roots, cut flowers depend on human care), using accurate plant vocabulary.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between cut flowers and garden flowers, with accurate descriptions.",
+        "approaching": "Student attempts comparison but identifies only similarities OR only differences, or descriptions lack clarity and detail.",
+        "beginning": "Student provides minimal comparison or confuses how the two types of flowers obtain water."
+      }
+    },
+    {
+      "questionText": "Why do you think florists cut flower stems under running water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that cutting under water prevents air bubbles from entering the stem and blocking water absorption, demonstrating understanding that flowers need uninterrupted water uptake to stay fresh.",
+        "meets": "Student explains that cutting under water helps keep the flower fresh by preventing air from getting into the cut stem.",
+        "approaching": "Student recognizes that water is involved in keeping cut flowers fresh but provides an incomplete or partially unclear explanation of the cutting process.",
+        "beginning": "Student offers a guess with little or no accurate explanation about why water is used during cutting."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that shows these flowers are still carrying out life processes?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple life processes visible in the photo (petals are open/colorful indicating energy use, stems are green and firm showing growth/structure, flowers are upright indicating water absorption and turgor) and explains what each shows about living processes.",
+        "meets": "Student identifies 2-3 observable signs that the flowers are alive and functioning, such as bright color, firm stems, or water being taken in.",
+        "approaching": "Student identifies one observable sign that flowers are alive but provides limited explanation or reasoning.",
+        "beginning": "Student states the flowers are alive or green but provides minimal observational evidence from the photo."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:19:24.178Z",
+  "cost": 0.004636
+}

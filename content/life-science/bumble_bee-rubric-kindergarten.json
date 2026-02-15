@@ -1,0 +1,53 @@
+{
+  "title": "Bumble Bee",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the bee is doing on the flower?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bee is getting food (nectar or pollen) and may mention the bee is also getting pollen on its body, showing connection between the bee's actions and purpose.",
+        "meets": "Student correctly identifies that the bee is eating, getting food, or collecting something from the flower using simple language.",
+        "approaching": "Student makes an attempt to describe the bee's action but uses vague language (\"the bee is on the flower\") or identifies only a partial action without clear purpose.",
+        "beginning": "Student provides a response that is unclear, off-topic, or shows minimal attempt to explain what the bee is doing."
+      }
+    },
+    {
+      "questionText": "Why does the bee visit flowers? What does the bee need from the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bees visit flowers to get food (nectar or pollen) and identifies that bees need this food to survive or feed their family, using age-appropriate scientific vocabulary.",
+        "meets": "Student correctly states that the bee gets food or something to eat from the flower and explains that the bee needs it.",
+        "approaching": "Student identifies that the bee gets something from the flower but gives incomplete or partially accurate reasoning about why the bee needs it.",
+        "beginning": "Student provides a vague answer like \"the bee likes flowers\" without explaining what the bee needs or takes from the flower."
+      }
+    },
+    {
+      "questionText": "How does the flower help the bee, and how does the bee help the flower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the flower gives the bee food (nectar/pollen) AND that the bee helps the flower by carrying pollen to other flowers or helping make new flowers grow, showing understanding of a beneficial relationship.",
+        "meets": "Student describes how the flower helps the bee (provides food) AND identifies that the bee helps the flower in some way, such as moving pollen or helping it grow.",
+        "approaching": "Student identifies one way each organism helps the other but explanations lack detail or show partial understanding of the relationship.",
+        "beginning": "Student provides minimal or unclear responses that do not effectively explain how the flower and bee help each other."
+      }
+    },
+    {
+      "questionText": "What would happen if there were no bees to visit the flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers would not grow or make seeds, plants would not reproduce, or describes effects on animals that need plants, demonstrating understanding of consequences in a food chain or ecosystem.",
+        "meets": "Student identifies a logical consequence such as flowers not growing, not making seeds, or becoming sad/dying without explaining the full chain of effects.",
+        "approaching": "Student provides a response that shows some understanding of a problem but lacks clarity or accuracy (e.g., \"flowers would be bad\" without explaining why).",
+        "beginning": "Student provides a vague or inaccurate response that does not clearly address consequences of missing bees."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:11:41.975Z",
+  "cost": 0.004702
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Dawn",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this fog as the sun gets higher in the sky?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that fog will disappear or evaporate as the sun rises and explains that heat from the sun causes water to turn into invisible water vapor that floats into the air.",
+        "meets": "Student predicts that fog will go away or disappear as the sun gets higher and provides a simple explanation involving heat or the sun.",
+        "approaching": "Student predicts that fog will change or go away but provides incomplete or unclear reasoning about why the sun causes this change.",
+        "beginning": "Student makes a prediction about fog but provides no explanation, or suggests an inaccurate outcome like the fog getting thicker."
+      }
+    },
+    {
+      "questionText": "How is the fog in this picture similar to what happens when you breathe on a cold window?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both create water droplets from water vapor, noting that warm breath and fog are both made of tiny water droplets that form visible mist on cold surfaces.",
+        "meets": "Student identifies that both the fog and breath on a window create a misty or cloudy appearance and involve water or moisture.",
+        "approaching": "Student recognizes a similarity between fog and breath on a window but the connection is vague or partially unclear, such as mentioning only that they both look foggy.",
+        "beginning": "Student attempts a comparison but provides inaccurate information or no clear connection between the two phenomena."
+      }
+    },
+    {
+      "questionText": "Why do you think the fog is staying close to the ground instead of floating up high like clouds?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fog forms near the ground when cool air meets water vapor and that fog is heavier or denser than air, or that it needs time to warm up and rise.",
+        "meets": "Student provides a reasonable explanation such as fog forming near the ground, being colder than clouds, or needing heat to rise higher.",
+        "approaching": "Student attempts to explain why fog stays low but reasoning is incomplete, such as only saying fog is heavy without explaining why or mentioning temperature without full explanation.",
+        "beginning": "Student provides minimal explanation or suggests an inaccurate reason, such as fog being stuck or having no connection to temperature or air movement."
+      }
+    },
+    {
+      "questionText": "What evidence can you see in the picture that tells you this is early morning?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence such as the sun being low on the horizon, pink and orange colors in the sky, presence of fog, and shadows being long or in certain directions.",
+        "meets": "Student identifies at least two pieces of evidence such as the sun being low, the colored sky, or the presence of fog in the early morning.",
+        "approaching": "Student identifies one piece of evidence like the sun position or the colored sky, but reasoning is vague or incomplete.",
+        "beginning": "Student attempts to identify evidence but provides only vague descriptions or minimal connection to early morning conditions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:30:21.785Z",
+  "cost": 0.004727
+}

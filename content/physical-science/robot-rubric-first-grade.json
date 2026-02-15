@@ -1,0 +1,53 @@
+{
+  "title": "Robot",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What parts of this robot help it move?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies wheels as the moving parts and explains how wheels help the robot move across the ground with specific details (e.g., \"wheels roll\" or \"wheels spin to move it forward\").",
+        "meets": "Student correctly identifies wheels as the parts that help the robot move.",
+        "approaching": "Student identifies wheels but provides vague or incomplete explanation of how they help the robot move, or mentions only one wheel.",
+        "beginning": "Student provides a minimal response that may be inaccurate or shows little understanding of which parts help the robot move (e.g., \"it moves\" without identifying parts)."
+      }
+    },
+    {
+      "questionText": "Why do you think engineers put wheels on this robot instead of legs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful reason (e.g., wheels roll smoothly, wheels are easier to make, wheels work better on rocks/gardens) and connects this to how wheels function differently than legs.",
+        "meets": "Student gives a logical reason for using wheels instead of legs (e.g., \"wheels roll better,\" \"wheels are easier,\" \"wheels help it go fast\").",
+        "approaching": "Student attempts to explain a reason but it is unclear, incomplete, or only partially logical (e.g., \"wheels are cool\" or \"because it needs to move\").",
+        "beginning": "Student provides a response that is vague, inaccurate, or shows minimal reasoning (e.g., \"I don't know\" or \"because it's a robot\")."
+      }
+    },
+    {
+      "questionText": "If you could design a robot to help in your classroom, what would you want it to do? What parts would it need?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a realistic classroom task the robot could do and identifies multiple appropriate parts needed (e.g., \"pass out papers, so it needs wheels to move and arms to carry things\"), showing understanding of how parts relate to function.",
+        "meets": "Student describes what the robot would do in the classroom and identifies at least two parts it would need to complete the task.",
+        "approaching": "Student describes a classroom task and identifies at least one part, but the connection between the task and parts is unclear or incomplete.",
+        "beginning": "Student provides a minimal, vague, or unrealistic response with little connection between the task and the parts described (e.g., \"help\" without explaining how, or listing parts unrelated to the task)."
+      }
+    },
+    {
+      "questionText": "How is this robot similar to and different from a toy car?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least one similarity and one difference with specific details (e.g., \"Both have wheels to move, but the robot has a head and the car doesn't\" or \"They both roll, but the robot is bigger/rounder\").",
+        "meets": "Student identifies at least one similarity and one difference between the robot and a toy car.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or provides unclear comparisons that only partially connect to both objects.",
+        "beginning": "Student provides a minimal or vague response with little evidence of comparing the two objects (e.g., \"they're different\" without explanation)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:37:00.730Z",
+  "cost": 0.005041
+}

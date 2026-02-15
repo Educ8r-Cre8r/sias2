@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think caused these nails to change color and texture?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies rusting as caused by water and air reacting with metal, and explains that exposure to weather over time created the brown and orange colors and rough texture.",
+        "meets": "Student correctly identifies that water, air, or weather caused the nails to change color and become rusty, with reference to the brown or orange appearance.",
+        "approaching": "Student recognizes that something in the environment changed the nails' appearance but provides vague explanations such as \"being outside\" or \"getting old\" without clearly connecting to water or air.",
+        "beginning": "Student makes a minimal attempt with inaccurate or unclear reasoning, such as suggesting the nails were painted or that rust is just dirt."
+      }
+    },
+    {
+      "questionText": "How could we prevent new nails from rusting like these old ones?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple prevention strategies (e.g., keeping nails dry, coating with paint or oil, storing inside, using stainless steel) and explains why each method would protect the metal from water and air.",
+        "meets": "Student proposes at least one reasonable prevention method, such as keeping nails dry or storing them inside, with a simple explanation of how it helps.",
+        "approaching": "Student suggests a prevention idea but with incomplete reasoning, such as \"keep them clean\" or \"don't leave them outside\" without explaining why this stops rusting.",
+        "beginning": "Student provides vague or impractical suggestions with little connection to preventing rust, such as \"paint them\" or \"don't use them.\""
+      }
+    },
+    {
+      "questionText": "What other examples of rusting have you seen in your neighborhood or at home?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific examples of rust in their community (e.g., bike chains, car bumpers, fence hinges, playground equipment, tools) and describes where they observed them.",
+        "meets": "Student provides at least one clear, specific example of rust they have observed, such as a rusty bike or a rusty fence.",
+        "approaching": "Student attempts to identify an example but is vague or uncertain, such as \"something metal got rusty\" without clear details of what it was or where.",
+        "beginning": "Student provides minimal or unclear response, such as \"I saw rust\" or \"rusty stuff\" without identifying what object or location."
+      }
+    },
+    {
+      "questionText": "If we found these same nails in a desert versus near the ocean, which ones do you think would be more rusty and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that ocean nails would rust more and explains that salt water and moisture speed up rusting, while deserts have less water needed for rust to form.",
+        "meets": "Student correctly predicts that nails near the ocean would be more rusty and identifies either salt water or extra moisture as the reason.",
+        "approaching": "Student makes a reasonable prediction but with incomplete reasoning, such as \"ocean nails rust more because the ocean is wet\" without fully explaining why moisture causes more rusting.",
+        "beginning": "Student makes an incorrect prediction or provides no clear reasoning, such as guessing the desert nails would rust more or stating \"I don't know why.\""
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:24:44.023Z",
+  "cost": 0.005032
+}

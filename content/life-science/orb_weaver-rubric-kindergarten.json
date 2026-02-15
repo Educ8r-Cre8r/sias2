@@ -1,0 +1,53 @@
+{
+  "title": "Orb Weaver",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the spider's legs? Why might a spider need so many legs?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes specific details about the spider's legs (long, thin, striped, eight legs) and explains multiple reasons they are helpful, such as climbing, balancing, catching food, or moving quickly.",
+        "meets": "Student notices that the spider has many legs and provides one reasonable explanation for why spiders need lots of legs, such as for walking or climbing.",
+        "approaching": "Student identifies that the spider has legs and makes a simple observation, but the explanation for why it needs many legs is vague or incomplete.",
+        "beginning": "Student points to the legs but provides no clear observation about them or no attempt to explain their purpose."
+      }
+    },
+    {
+      "questionText": "Where do you think this spider lives, and what might it eat?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a realistic habitat (web, tree, corner, outside, garden) and correctly names multiple prey items (insects, flies, bugs, mosquitoes), showing understanding of spiders as hunters.",
+        "meets": "Student suggests a reasonable place where spiders live and names at least one realistic food source that spiders eat.",
+        "approaching": "Student makes a guess about where spiders live or what they eat, but the answer is partially inaccurate or unclear.",
+        "beginning": "Student provides a response that shows little connection to spider habitats or diet, or gives no answer."
+      }
+    },
+    {
+      "questionText": "How do you think the spider feels when it crawls on a person's hand? Is it scared, curious, or looking for something?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student chooses one or more feelings (scared, curious, searching) and provides specific reasons based on spider behavior, such as 'the spider might be looking for food' or 'it's not running away, so it might be curious.'",
+        "meets": "Student chooses a reasonable feeling for the spider and gives a simple, logical reason for their choice.",
+        "approaching": "Student suggests a feeling but provides an unclear or minimally developed reason, or the feeling seems disconnected from typical spider behavior.",
+        "beginning": "Student names a feeling with little or no reasoning, or the response does not address the spider's possible emotions."
+      }
+    },
+    {
+      "questionText": "What is one helpful thing spiders do in our world?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that spiders eat bugs or insects (like flies or mosquitoes) and describes how this helps people, such as 'spiders eat bugs so there are fewer bugs bothering us.'",
+        "meets": "Student identifies one helpful thing spiders do, such as catching bugs, eating insects, or keeping pests away, with a brief explanation.",
+        "approaching": "Student mentions something spiders do that is somewhat helpful but the explanation is incomplete or vague.",
+        "beginning": "Student provides a response that is unclear, incorrect, or shows little understanding of how spiders help people."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:50:39.438Z",
+  "cost": 0.004726
+}

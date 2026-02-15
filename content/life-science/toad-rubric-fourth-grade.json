@@ -1,0 +1,53 @@
+{
+  "title": "Toad",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the toad's bumpy skin helps it survive in this leafy environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bumpy skin helps the toad blend in with leaves and rough ground for camouflage, AND identifies an additional survival benefit such as moisture retention or protection from predators.",
+        "meets": "Student correctly identifies that the bumpy skin helps the toad hide or blend in with its surroundings among the leaves and plants.",
+        "approaching": "Student recognizes that bumpy skin is connected to survival but provides vague or partially accurate reasoning (e.g., 'it helps it hide' without explaining how).",
+        "beginning": "Student provides a minimal response with little connection to camouflage or survival (e.g., 'the bumps help it' without further explanation)."
+      }
+    },
+    {
+      "questionText": "What might happen to this toad if all the nearby water sources dried up?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the toad would lose moisture through its skin and could die or be forced to migrate, AND identifies why water is essential (toads absorb water through their skin or need it for reproduction).",
+        "meets": "Student correctly predicts that the toad would dry out, become sick, or have to move to find water, showing understanding that toads need water to survive.",
+        "approaching": "Student recognizes that water is important for the toad but provides incomplete reasoning (e.g., 'it needs water to live' without explaining what would happen without it).",
+        "beginning": "Student provides a vague or minimally accurate response (e.g., 'the toad would die' with no explanation of why)."
+      }
+    },
+    {
+      "questionText": "Why do you think the toad's eyes are positioned on top of its head rather than on the sides?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that top-positioned eyes help the toad see predators, prey, or its surroundings while mostly hidden in leaves or water, AND connects this to the toad's specific environment shown in the photo.",
+        "meets": "Student correctly identifies that eyes on top help the toad see better while staying hidden in leaves, grass, or when partially in water.",
+        "approaching": "Student recognizes that eye position is helpful for survival but provides incomplete reasoning (e.g., 'it can see better' without explaining the advantage in this environment).",
+        "beginning": "Student makes a minimal attempt to explain eye position with little accuracy (e.g., 'so it can see' without further detail)."
+      }
+    },
+    {
+      "questionText": "What evidence can you find in the image that shows this toad is well-adapted to its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific adaptations with evidence from the photo (bumpy/textured skin for camouflage, moist skin for survival, eye position, body color matching surroundings) and explains how each helps the toad survive in a leafy, wet habitat.",
+        "meets": "Student identifies at least two adaptations from the image (such as bumpy skin matching leaves, moist skin, or eye placement) and explains how they help the toad survive in its environment.",
+        "approaching": "Student identifies one or two adaptations but with incomplete explanations (e.g., mentions bumpy skin and color but doesn't clearly connect to survival benefits).",
+        "beginning": "Student provides minimal evidence of adaptations or vague descriptions with little connection to survival (e.g., 'the toad is brown' with no explanation of why this matters)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:33:38.748Z",
+  "cost": 0.0054
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Centipede",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the centipede's many legs help it move through soil and find food?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that many legs help the centipede move quickly through soil and tight spaces, and connects this to how legs also help it search for and catch food in the ground.",
+        "meets": "Student explains that the centipede's many legs help it move through soil and/or find food, showing understanding of the connection between body structure and function.",
+        "approaching": "Student mentions that centipedes have many legs and that this helps them move or find food, but the explanation lacks detail or clear connection between the two ideas.",
+        "beginning": "Student provides a vague response such as 'it helps it move' or 'it finds food' without explaining how the legs specifically assist with these activities."
+      }
+    },
+    {
+      "questionText": "Why do you think a centipede needs to live in dark, wet places under logs instead of on the sunny ground?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that centipedes need dark, wet environments because they would dry out in the sun, and/or that darkness and damp soil provide protection and help them find food like insects and worms.",
+        "meets": "Student provides at least one reason why centipedes prefer dark, wet places, such as staying moist or staying safe from predators or the sun.",
+        "approaching": "Student recognizes that centipedes live in dark, wet places but gives only a partial explanation, such as mentioning moisture or darkness without explaining why this matters.",
+        "beginning": "Student provides a minimal or unclear response, such as 'they like wet places' without any explanation of why."
+      }
+    },
+    {
+      "questionText": "What would happen to a centipede if it lost one of its legs? Would it still be able to move and find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the centipede would still move and find food despite losing one leg, and explains that because it has so many legs, losing one would not completely stop its movement or ability to survive.",
+        "meets": "Student predicts whether the centipede could still move and find food with one missing leg, with a reasonable explanation based on the number of legs it has.",
+        "approaching": "Student attempts to answer whether the centipede could survive with a missing leg but the reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student provides a simple 'yes' or 'no' answer with little to no explanation about how the missing leg would affect the centipede."
+      }
+    },
+    {
+      "questionText": "How is a centipede's body different from a caterpillar's body, even though they both have many segments?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific differences such as centipedes having hard segments with legs on each segment, antennae, and poison claws, while caterpillars have soft bodies with fewer legs and will transform into butterflies.",
+        "meets": "Student identifies at least two clear differences between centipede and caterpillar bodies, such as leg placement, body texture, or overall body structure.",
+        "approaching": "Student identifies one difference between the two creatures, or mentions differences but with limited detail or clarity.",
+        "beginning": "Student attempts a comparison but provides vague or inaccurate information, such as just noting they both have many segments without explaining differences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:29:40.820Z",
+  "cost": 0.005174
+}

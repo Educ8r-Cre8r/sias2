@@ -1,0 +1,53 @@
+{
+  "title": "Symbiotic Relationship",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the bee's body is so fuzzy compared to other insects? How does this help both the bee and the flower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fuzz traps pollen grains and identifies specific benefits for both organisms: the bee gets food (nectar/pollen) and the flower gets help spreading pollen for reproduction. Uses terms like \"pollen,\" \"reproduction,\" or \"pollination\" accurately.",
+        "meets": "Student identifies that fuzz helps collect pollen and explains that this benefits the bee (gets food) and the flower (pollen moves between flowers). Reasoning is clear but may lack scientific vocabulary.",
+        "approaching": "Student recognizes that the fuzzy body relates to pollen collection and mentions benefit to either the bee or the flower, but explanation is incomplete or partially unclear.",
+        "beginning": "Student makes a simple observation about the bee being fuzzy or mentions pollen, but does not explain how this helps both the bee and flower, or response is vague."
+      }
+    },
+    {
+      "questionText": "What would happen to the flowers in a garden if there were no bees to visit them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts flowers would not reproduce or make seeds, and explains this would mean fewer flowers grow next year. Response shows understanding of the connection between pollination, reproduction, and population growth.",
+        "meets": "Student predicts flowers would not get pollen spread between them or would not make seeds/reproduce. Explanation demonstrates understanding of the bee's role in pollination.",
+        "approaching": "Student predicts something negative would happen to flowers (e.g., \"they'd die\" or \"nothing would happen\") but reasoning is incomplete or partially inaccurate.",
+        "beginning": "Student provides a vague prediction or minimal response with little explanation of why bees are important to flowers."
+      }
+    },
+    {
+      "questionText": "How is the relationship between a bee and a flower different from a predator eating prey?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bee-flower relationship helps both organisms (mutualism/symbiosis), while predator-prey harms the prey. Uses accurate vocabulary and distinguishes between the two types of relationships.",
+        "meets": "Student identifies that bees and flowers help each other, while a predator hurts or eats its prey. Explanation shows clear understanding of the difference between cooperation and hunting.",
+        "approaching": "Student recognizes some difference between the relationships (e.g., the flower gives food to the bee vs. predator kills prey) but explanation lacks clarity or completeness.",
+        "beginning": "Student attempts to compare the relationships but provides minimal or unclear reasoning about how they differ."
+      }
+    },
+    {
+      "questionText": "If you were a bee, how would you know which flowers have the best nectar and pollen to eat? What information would your senses give you?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple senses (sight of bright colors, smell of scent, possibly taste) and explains how each sense helps the bee find flowers. References specific details from the photo like the bright red color.",
+        "meets": "Student identifies at least two senses bees use, such as seeing bright colors or smelling flowers, and explains how these help locate flowers with food.",
+        "approaching": "Student mentions one or two senses (like color or smell) but explanation of how the senses help the bee is incomplete or unclear.",
+        "beginning": "Student names one sense or provides a vague response about how bees find flowers without clear reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:38:45.038Z",
+  "cost": 0.005331
+}

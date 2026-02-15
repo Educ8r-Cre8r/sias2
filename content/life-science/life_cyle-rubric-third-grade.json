@@ -1,0 +1,53 @@
+{
+  "title": "Life Cyle",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think was inside this eggshell before it hatched?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that a baby bird (or specific bird type) and yolk were inside, and explains that the yolk provided food for the growing chick.",
+        "meets": "Student correctly identifies that a baby bird and/or yolk were inside the eggshell before hatching.",
+        "approaching": "Student identifies that something was growing inside, but provides limited or partially accurate details about what was inside.",
+        "beginning": "Student provides a vague response (e.g., 'something alive') or makes an inaccurate guess with little connection to bird development."
+      }
+    },
+    {
+      "questionText": "Why do you think the eggshell breaks open at this stage instead of staying closed forever?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the baby bird needs to come out to get air, find food, and move around, and recognizes that the chick outgrows the shell.",
+        "meets": "Student provides a reasonable explanation such as the baby bird needs to get out to breathe, eat, or live in the world outside.",
+        "approaching": "Student recognizes that the shell breaks so the baby can get out, but provides incomplete reasoning about why the baby needs to leave.",
+        "beginning": "Student offers a minimal response (e.g., 'the bird wants out') with little explanation of purpose or need."
+      }
+    },
+    {
+      "questionText": "How is the eggshell helping new life even after the baby animal has hatched and left?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the eggshell breaks down into the soil to provide nutrients for plants, creating a connection between the shell and plant growth shown in the photo.",
+        "meets": "Student identifies that the shell decomposes or breaks down and returns nutrients to the soil to help plants grow.",
+        "approaching": "Student recognizes that the shell is still useful after hatching (e.g., animals use it, it stays on the ground) but lacks clear explanation of how it helps new life.",
+        "beginning": "Student provides a vague or incorrect response (e.g., 'it's just there') with minimal connection to decomposition or ecosystem support."
+      }
+    },
+    {
+      "questionText": "What other animals lay eggs, and how might their babies' habitats be different from this bird's habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two different egg-laying animals (e.g., reptiles, fish, insects) and explains specific habitat differences such as water vs. land, temperature needs, or food sources.",
+        "meets": "Student names at least one other egg-laying animal and identifies one or two differences between its habitat and a bird's habitat.",
+        "approaching": "Student names one egg-laying animal but provides limited or vague habitat comparisons, or names multiple animals with minimal detail about habitats.",
+        "beginning": "Student names an egg-laying animal but provides no clear habitat comparison, or response is inaccurate or unclear."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:23:04.883Z",
+  "cost": 0.004779
+}

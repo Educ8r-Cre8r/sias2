@@ -1,0 +1,53 @@
+{
+  "title": "Vine",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this vine is trying to do by wrapping around the fence?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the vine wraps around the fence to climb up and reach sunlight or grow taller, using words like 'climb,' 'reach,' or 'grow up,' and may mention the curly tendrils help it do this.",
+        "meets": "Student identifies that the vine is climbing or wrapping around the fence to grow upward, showing basic understanding of the vine's climbing behavior.",
+        "approaching": "Student recognizes the vine is doing something with the fence, such as 'going around it' or 'holding on,' but the explanation is unclear or incomplete.",
+        "beginning": "Student makes a minimal attempt, such as naming what they see ('the vine') or giving a vague response that does not address climbing or growth."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful for a plant to climb instead of growing straight up?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that climbing helps the plant reach sunlight better, use space more efficiently, or get support from a structure, demonstrating understanding of plant needs.",
+        "meets": "Student gives a simple reason such as 'it can get more sunlight' or 'it gets help from the fence,' showing basic understanding of why climbing is helpful.",
+        "approaching": "Student attempts to explain a benefit but the reasoning is incomplete or somewhat unclear, such as 'it helps the plant grow' without explaining how.",
+        "beginning": "Student provides a minimal or unclear response, such as 'plants like to climb' or 'because it's fun,' without explaining a real benefit."
+      }
+    },
+    {
+      "questionText": "If we removed the fence, how might this plant grow differently? What would happen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple changes, such as 'the vine would spread on the ground' or 'it couldn't climb as high to get sunlight,' and explains why the fence helped the plant grow upward.",
+        "meets": "Student predicts that the plant would grow differently without the fence, such as 'it would fall down' or 'it would grow on the ground,' showing understanding of the fence's support role.",
+        "approaching": "Student makes a prediction about how the plant would change but the reasoning is vague or incomplete, such as 'it would be different' without clear explanation.",
+        "beginning": "Student provides a minimal or unclear prediction that shows little connection between the fence and how the plant grows."
+      }
+    },
+    {
+      "questionText": "What other things in nature or our classroom could a vine wrap around? Why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple examples from nature or classroom (such as a tree, stick, rope, or pole) and explains that vines wrap around things for support or to climb and reach sunlight.",
+        "meets": "Student identifies at least one or two things a vine could wrap around, such as a tree, pole, or stick, and gives a simple reason related to climbing or support.",
+        "approaching": "Student names something a vine could wrap around but gives little or no explanation, or the examples are unclear.",
+        "beginning": "Student provides a minimal response with vague or incorrect examples, or does not attempt to explain why a vine would wrap around objects."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:56:06.552Z",
+  "cost": 0.005046
+}

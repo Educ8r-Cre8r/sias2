@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think makes the waves move toward the rocks?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the ocean pushes or moves the water toward the rocks and explains a simple cause like wind, water movement, or the ocean's natural motion.",
+        "meets": "Student states that the ocean or water moves the waves toward the rocks with a basic explanation of movement.",
+        "approaching": "Student mentions waves or water moving but provides incomplete or vague reasoning about what causes the movement.",
+        "beginning": "Student provides a minimal response such as 'the waves move' or 'it just does' with little or no explanation."
+      }
+    },
+    {
+      "questionText": "How do you think these rocks might look different after many years of waves hitting them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple specific changes such as rocks becoming smoother, smaller, more rounded, or worn down, and connects this to repeated wave action over time.",
+        "meets": "Student identifies at least one realistic change to the rocks, such as them becoming smoother or smaller, with a reasonable connection to waves hitting them.",
+        "approaching": "Student suggests the rocks might change but with limited detail or unclear reasoning about how waves would cause the change.",
+        "beginning": "Student provides a vague response like 'they will look different' with little or no description of how they might change."
+      }
+    },
+    {
+      "questionText": "What sounds do you think you would hear if you were standing near these crashing waves?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple realistic sounds such as crashing, roaring, splashing, or rumbling with sensory detail about loudness or intensity.",
+        "meets": "Student identifies appropriate wave sounds such as crashing, splashing, or roaring as sounds they would hear nearby.",
+        "approaching": "Student mentions sounds related to waves or water but with limited detail or some unclear descriptions.",
+        "beginning": "Student provides a minimal response such as 'loud sounds' or names one sound without explanation."
+      }
+    },
+    {
+      "questionText": "Where does the splashing water go after it hits the rocks?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple destinations for water such as splashing into the air, running back into the ocean, soaking into rocks, or forming foam, showing understanding of water movement.",
+        "meets": "Student describes where the water goes using reasonable explanations such as going back into the ocean, splashing up into the air, or dripping down.",
+        "approaching": "Student identifies one location where water goes but with incomplete or unclear reasoning about the water's path.",
+        "beginning": "Student provides a vague response such as 'it goes away' or 'somewhere' with minimal description."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:21:17.826Z",
+  "cost": 0.004323
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Germination",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening to the seed in this picture, and why do you think the seed coat is cracking open?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies germination by name and explains that the seed coat cracks to allow the plant to grow out and that water triggered the seed to start growing.",
+        "meets": "Student recognizes the seed is sprouting or growing and states that the seed coat is cracking open so the plant can come out.",
+        "approaching": "Student recognizes something is growing from the seed but provides incomplete explanation; may mention the seed coat opening but not clearly connect it to plant growth.",
+        "beginning": "Student provides vague response such as 'the seed is breaking' with little or no explanation of why the seed coat is cracking."
+      }
+    },
+    {
+      "questionText": "What do you predict this plant will look like in two weeks? What does it need to keep growing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant will be taller with more leaves and roots, and identifies at least three specific resources needed (water, sunlight, soil nutrients) with brief explanations of why each is important.",
+        "meets": "Student predicts the plant will grow bigger/taller with more leaves, and identifies at least two resources it needs (such as water and sunlight) to keep growing.",
+        "approaching": "Student makes a prediction about future growth but it is vague or partially inaccurate; identifies only one resource needed or provides incomplete reasoning about needs.",
+        "beginning": "Student's prediction is unclear or minimal; identifies few or no specific resources, or reasons are absent or inaccurate."
+      }
+    },
+    {
+      "questionText": "Why do you think seeds have hard outer coats that need to crack open? What problem do they solve?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that seed coats protect seeds from damage and pests, keep seeds dry until conditions are right, and allow seeds to survive harsh conditions; demonstrates understanding of how the coat solves multiple survival problems.",
+        "meets": "Student explains that the seed coat protects the seed from damage or harm, and recognizes it keeps the seed safe until it is ready to grow.",
+        "approaching": "Student identifies protection as a function of the seed coat but explanation lacks detail; may not clearly explain what the coat protects against or why protection matters.",
+        "beginning": "Student provides minimal response such as 'it keeps the seed safe' with little or no explanation of specific problems the coat solves."
+      }
+    },
+    {
+      "questionText": "If we kept a seed completely dry in a sealed bag, would it germinate? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts the seed would not germinate and explains that seeds need water to germinate; may also reference that seeds need to be in right conditions and that being sealed prevents water from reaching the seed.",
+        "meets": "Student correctly predicts the seed would not germinate and identifies that water is needed for seeds to sprout and grow.",
+        "approaching": "Student makes a prediction but reasoning is incomplete; may mention water is needed but does not fully connect it to why the seed in a dry bag would not germinate.",
+        "beginning": "Student's prediction is unclear or incorrect; explanation is missing, vague, or shows minimal understanding of seed germination requirements."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:47:48.003Z",
+  "cost": 0.005053
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Winter Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice on the branches of these trees?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies snow on the branches and uses descriptive words like fluffy, white, thick, or sparkly to describe what they see in detail.",
+        "meets": "Student correctly identifies snow on the branches and may add one simple descriptive word.",
+        "approaching": "Student identifies snow on the branches but with minimal description or uses only vague observations like \"something white.\"",
+        "beginning": "Student makes a minimal attempt to describe what is on the branches with little accuracy or provides an unrelated response."
+      }
+    },
+    {
+      "questionText": "Why do you think snow stays on evergreen trees better than it would on a tree with no leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that evergreen trees have needles or leaves all year that catch and hold snow, while trees without leaves have no branches to hold the snow, showing clear cause-and-effect thinking.",
+        "meets": "Student explains that evergreen trees have leaves or needles that help catch the snow, or recognizes that trees without leaves cannot hold snow as well.",
+        "approaching": "Student attempts an explanation but is incomplete or partially inaccurate, such as mentioning leaves exist but not explaining why that helps catch snow.",
+        "beginning": "Student provides a vague or inaccurate response with little connection to the presence or absence of leaves."
+      }
+    },
+    {
+      "questionText": "How is snow different from rain?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences between snow and rain, such as snow is frozen/cold and white while rain is liquid and clear, or that snow is soft and fluffy while rain falls fast.",
+        "meets": "Student identifies at least one clear difference between snow and rain, such as snow is cold and frozen or snow is white while rain is clear.",
+        "approaching": "Student identifies a difference but uses unclear or partially accurate language, such as \"snow is colder\" without explaining what that means.",
+        "beginning": "Student provides a minimal or vague response that shows little understanding of how snow and rain differ."
+      }
+    },
+    {
+      "questionText": "What happens to snow when the weather gets warmer?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that snow melts into water when it gets warmer and may describe what happens next, such as the water soaking into the ground or running away.",
+        "meets": "Student correctly states that snow melts or turns into water when the weather gets warmer.",
+        "approaching": "Student recognizes that snow changes when it gets warm but uses unclear language, such as \"it goes away\" without explaining melting.",
+        "beginning": "Student provides a minimal or inaccurate response with little understanding of what happens to snow in warmer weather."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:53:41.495Z",
+  "cost": 0.004414
+}

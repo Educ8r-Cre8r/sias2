@@ -1,0 +1,53 @@
+{
+  "title": "Science Of Trains",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the train needs special metal wheels and metal tracks instead of rubber tires like a car?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that metal wheels and tracks reduce friction and allow very heavy trains to roll smoothly, and may add that metal is stronger than rubber for supporting heavy loads.",
+        "meets": "Student identifies that metal wheels and metal tracks help the train move more easily or that metal is strong and sturdy for the heavy train.",
+        "approaching": "Student mentions that metal is involved or that it helps the train move, but reasoning is unclear or incomplete.",
+        "beginning": "Student makes a vague statement like 'metal is better' or 'trains just need metal' with little to no explanation."
+      }
+    },
+    {
+      "questionText": "If you were standing at this railroad crossing, why would you need to wait even after the train's engine passes by?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the train is very long with many cars behind the engine, and that it takes a long time for all of them to pass, demonstrating understanding of train length and motion.",
+        "meets": "Student correctly states that there are many more train cars behind the engine that still need to pass through the crossing.",
+        "approaching": "Student recognizes that more of the train is coming but provides incomplete reasoning about why waiting is necessary.",
+        "beginning": "Student gives a minimal response like 'there's more train' without explanation of why this matters for safety."
+      }
+    },
+    {
+      "questionText": "What would happen if someone tried to push this entire train by hand? What would make it easier to move?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the train is too heavy to push by hand, and identifies that metal wheels on metal tracks reduce friction, making it easier to move than it would be on the ground.",
+        "meets": "Student correctly states the train is too heavy to push and mentions either that the wheels and tracks help it roll or that something would need to push it (like an engine).",
+        "approaching": "Student says the train is too heavy but provides vague or partially correct ideas about what would help it move.",
+        "beginning": "Student makes a simple statement like 'it's too heavy' with minimal explanation of solutions or reasons."
+      }
+    },
+    {
+      "questionText": "How is the way a train moves on rails similar to or different from the way a toy car moves on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both have wheels, both roll forward) and differences (train is guided by rails/stays on one path, car can turn anywhere; train is much heavier), showing clear understanding of both vehicles.",
+        "meets": "Student identifies at least one similarity and one difference between train movement and toy car movement with accurate details.",
+        "approaching": "Student mentions a similarity or difference but explanation lacks detail or clarity, or shows only partial understanding of how each moves.",
+        "beginning": "Student makes a vague comparison like 'they both move' or 'trains are bigger' without meaningful explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:28:55.493Z",
+  "cost": 0.004737
+}

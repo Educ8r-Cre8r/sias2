@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think we see an orange and red sunrise instead of a white or blue sunrise?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sunlight travels through more atmosphere at sunrise, causing blue light to scatter away and leaving orange and red light visible; may reference that this same process causes different colors at different times of day.",
+        "meets": "Student explains that light travels through more air/atmosphere when the sun is low, causing the colors to change to orange and red.",
+        "approaching": "Student identifies that the sun being low on the horizon causes the orange and red colors, but does not explain how or why the light changes.",
+        "beginning": "Student makes a general observation about the sunrise colors but provides no scientific explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "If you traveled west on an airplane very, very fast, could you 'chase' the sunrise and make it stay in the sky longer? Why or why not?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly explains that you could delay the sunrise by flying west fast enough to match or exceed Earth's rotation speed; demonstrates understanding that Earth rotates from west to east and that the sunrise appears to move across the sky due to this rotation, not the sun's movement.",
+        "meets": "Student correctly states that you could chase the sunrise by flying west, and explains that Earth's rotation causes the sunrise to move, though explanation of the mechanics may lack complete clarity.",
+        "approaching": "Student suggests you might be able to chase the sunrise but provides incomplete or partially accurate reasoning about how Earth's rotation or airplane speed would affect this.",
+        "beginning": "Student provides a yes or no answer with little to no explanation, or explains the concept inaccurately (e.g., suggests the sun is actually moving)."
+      }
+    },
+    {
+      "questionText": "What evidence from this photo tells you that Earth is rotating rather than the sun moving toward Earth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence such as the sun appearing to rise in the east while the landscape remains mostly dark (consistent with Earth rotating toward the sun), the horizon line being straight rather than curved, or references the predictable pattern of sunrise/sunset; demonstrates understanding that if the sun were moving, we would observe different phenomena.",
+        "meets": "Student identifies at least one clear piece of evidence that supports Earth's rotation, such as observing that only the eastern sky is brightening while the western landscape stays dark, indicating Earth is turning to face the sun.",
+        "approaching": "Student attempts to identify evidence but reasoning is incomplete or somewhat unclear; may confuse some details about how rotation and sun movement would appear differently.",
+        "beginning": "Student provides minimal or no specific evidence from the photo; may restate the question without supporting observations or explanation."
+      }
+    },
+    {
+      "questionText": "Predict what the sky would look like 30 minutes after this photo was taken, and explain your thinking.",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the sun will be higher in the sky, the orange and red colors will fade, the sky will become brighter blue, and the landscape will be more fully lit; explains that Earth's continued rotation brings the sun higher above the horizon and more direct sunlight reaches the landscape.",
+        "meets": "Student predicts the sun will be higher and the sky brighter, with colors becoming less orange/red; provides a reasonable explanation that Earth's rotation moves the landscape toward the sun.",
+        "approaching": "Student makes a prediction about the sun being higher or the sky being brighter, but explanation is vague or incomplete; may show partial understanding of Earth's rotation causing the change.",
+        "beginning": "Student makes a prediction with little or no explanation, or prediction is unclear or inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:46:20.413Z",
+  "cost": 0.005447
+}

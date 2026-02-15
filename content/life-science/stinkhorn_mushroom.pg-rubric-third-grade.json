@@ -1,0 +1,53 @@
+{
+  "title": "Stinkhorn Mushroom",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to all the dead leaves and fallen trees in a forest if there were no mushrooms or other decomposers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead materials would pile up and not break down, and connects this to how decomposers like mushrooms help nutrients return to soil for plants to use.",
+        "meets": "Student explains that dead leaves and trees would pile up and not break down, showing understanding that mushrooms help things decompose.",
+        "approaching": "Student mentions that things would pile up or not break down, but reasoning is incomplete or lacks clear connection to the role of mushrooms.",
+        "beginning": "Student provides a vague response such as \"the forest would be messy\" or makes an inaccurate statement about decomposition."
+      }
+    },
+    {
+      "questionText": "How might this orange mushroom be similar to and different from the plants in your garden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both are living things that grow, but explains that mushrooms don't make their own food like plants do with sunlight, and may mention mushrooms break down dead material instead.",
+        "meets": "Student identifies at least one similarity (both living and grow) and one clear difference (mushrooms don't have leaves/roots like plants, or get food differently).",
+        "approaching": "Student identifies either a similarity or a difference, but not both clearly, or explanations lack accuracy.",
+        "beginning": "Student makes a vague comparison or provides mostly inaccurate information about mushrooms or garden plants."
+      }
+    },
+    {
+      "questionText": "Why do you think this mushroom grew in the wood chips instead of on the concrete sidewalk?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms need dead organic material (wood) to break down and feed on, and that concrete doesn't provide food or the right conditions for growth.",
+        "meets": "Student explains that the mushroom needs wood or dead material to grow on, showing understanding that mushrooms grow on certain materials.",
+        "approaching": "Student suggests the mushroom grows where it can or mentions wood/dirt but reasoning is incomplete or partially unclear.",
+        "beginning": "Student provides a minimal response such as \"it just grew there\" or makes an inaccurate statement about why mushrooms choose growing locations."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that tells us this mushroom is a living thing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple signs of life such as growth (it grew from the ground), the wet/slimy texture (shows it's active), and that it's using the wood chips as food.",
+        "meets": "Student identifies at least two observable signs that the mushroom is alive, such as it grew/is growing, has a wet or slimy appearance, or came from a living process.",
+        "approaching": "Student identifies one observable sign that suggests the mushroom is alive, but explanation is brief or partially unclear.",
+        "beginning": "Student provides a vague response such as \"it looks alive\" without describing specific observable evidence."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:31:57.704Z",
+  "cost": 0.004767
+}

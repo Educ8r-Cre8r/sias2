@@ -1,0 +1,53 @@
+{
+  "title": "Turtle",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the turtle's shell and how might it help the turtle?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the shell as hard and round with patterns, and explains two or more ways it helps the turtle (protects from danger, keeps it safe, holds its body).",
+        "meets": "Student describes the shell as hard or notices it is round/has patterns, and explains one way it helps protect the turtle.",
+        "approaching": "Student notices the shell exists and is hard, but provides incomplete or unclear explanation of how it helps the turtle.",
+        "beginning": "Student makes a simple observation about the shell but does not explain how it helps the turtle, or response is unclear."
+      }
+    },
+    {
+      "questionText": "Where do you think this turtle lives and what does it need to survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific habitat (ground, garden, or outdoor place) and names two or more things the turtle needs (water, food, sun, plants, a safe place).",
+        "meets": "Student identifies a reasonable habitat and names at least one thing the turtle needs to survive, such as water or food.",
+        "approaching": "Student suggests a habitat or names something the turtle needs, but reasoning is unclear or partially incorrect.",
+        "beginning": "Student makes a vague guess about where turtles live or what they need, with little clear reasoning."
+      }
+    },
+    {
+      "questionText": "How is this turtle the same or different from other animals you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes two or more accurate comparisons using specific details (e.g., 'Turtles have shells but dogs don't; both have legs and heads'; 'Turtles move slowly but birds fly fast').",
+        "meets": "Student makes one clear comparison between the turtle and another animal, noting either a similarity or a difference with accurate details.",
+        "approaching": "Student attempts a comparison but it is vague, partially incorrect, or unclear (e.g., 'It's different because it's a turtle').",
+        "beginning": "Student names another animal or says turtles are different, but provides no meaningful comparison or explanation."
+      }
+    },
+    {
+      "questionText": "What would happen if the turtle didn't have a shell?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the turtle would not be protected from danger or predators, and describes at least one consequence (could get hurt, would not be safe).",
+        "meets": "Student explains that without a shell, the turtle would not be protected or could get hurt, showing understanding of the shell's protective purpose.",
+        "approaching": "Student gives a response related to protection or harm, but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal or vague response about what would happen, with little connection to the shell's protective function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:34:42.186Z",
+  "cost": 0.004486
+}

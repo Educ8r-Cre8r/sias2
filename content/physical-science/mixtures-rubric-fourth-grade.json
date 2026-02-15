@@ -1,0 +1,53 @@
+{
+  "title": "Mixtures",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "If you mixed flour and cinnamon together, could you separate them again? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that flour and cinnamon could be separated because they are both solids with different properties, and explains a specific separation method (such as using a sieve or looking at particle size differences) with clear reasoning about why the method would work.",
+        "meets": "Student correctly states that flour and cinnamon could be separated because they are different materials, and provides a reasonable explanation or method for separating them.",
+        "approaching": "Student attempts to answer whether separation is possible but provides incomplete reasoning; may identify that the materials are different but struggles to explain how or why separation would work.",
+        "beginning": "Student provides a simple yes or no answer with little to no explanation, or suggests separation is not possible without justification."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if you mixed flour with water instead of just stirring dry flour and cinnamon?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that flour and water would form a new substance (dough or paste) that is difficult to separate, explains that a chemical or physical change occurs, and connects this to why this mixture is different from dry flour and cinnamon.",
+        "meets": "Student predicts that flour and water would combine to form a dough or thick paste, recognizing that this mixture behaves differently than dry ingredients.",
+        "approaching": "Student recognizes that mixing flour with water creates a different result than dry mixing but provides vague descriptions or incomplete reasoning about what happens or why.",
+        "beginning": "Student provides a minimal response such as 'it would get wet' or 'it would mix' without explaining how the mixture changes or why it differs from dry ingredients."
+      }
+    },
+    {
+      "questionText": "Why do you think cooks use a whisk or mixer instead of just pouring ingredients together?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that whisks and mixers blend ingredients more thoroughly and evenly than pouring, and connects this to achieving consistent texture or preventing lumps in recipes, demonstrating understanding of mixing as a process.",
+        "meets": "Student correctly explains that a whisk or mixer helps blend ingredients together more completely or evenly than simply pouring them together.",
+        "approaching": "Student recognizes that whisks or mixers help with combining ingredients but provides unclear or partially correct reasoning about how or why they work better.",
+        "beginning": "Student provides a vague answer such as 'it mixes better' without explaining what 'better' means or why the tool makes a difference."
+      }
+    },
+    {
+      "questionText": "Can you think of a mixture you eat or use every day? What materials are mixed together in it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies a specific everyday mixture and accurately names at least three individual materials that make up that mixture, demonstrating clear understanding of what makes something a mixture.",
+        "meets": "Student identifies a specific everyday mixture and accurately names at least two materials that combine to make it.",
+        "approaching": "Student identifies a mixture but names only one material, or provides unclear descriptions of the materials involved in the mixture.",
+        "beginning": "Student provides a vague response or names a single item without identifying it as a mixture of multiple materials."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:15:24.616Z",
+  "cost": 0.005021
+}

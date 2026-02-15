@@ -1,0 +1,53 @@
+{
+  "title": "Orb Weaver",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the spider's legs, and how might these legs help it survive in nature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific leg characteristics (long, thin, spread wide, hairy) and explains multiple survival functions with scientific reasoning, such as sensing vibrations in webs, quick movement to catch prey, or balance on uneven surfaces.",
+        "meets": "Student identifies 2-3 observable leg features and explains how at least one feature helps the spider survive, such as long legs for speed or sensing prey.",
+        "approaching": "Student notices the legs are long or thin but provides incomplete explanation of survival benefit, or describes one feature without clear connection to survival.",
+        "beginning": "Student makes vague observations about legs (e.g., 'they are there') with little or no explanation of survival purpose."
+      }
+    },
+    {
+      "questionText": "If a spider eats insects and birds eat spiders, how would losing all the spiders in a garden affect the insects and birds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student traces the complete food chain/web, explaining that losing spiders would cause insect populations to increase (less predation) and bird populations to decrease (less food), and may note broader ecosystem impacts like crop damage from excess insects.",
+        "meets": "Student correctly identifies that insects would increase without spider predators and birds would decrease from lack of food, showing understanding of predator-prey relationships.",
+        "approaching": "Student identifies one effect correctly (either insects increase OR birds decrease) but reasoning is incomplete or shows partial understanding of the food chain.",
+        "beginning": "Student provides a response that shows minimal understanding of food chains, such as 'spiders eat bugs' without connecting to chain effects on bird populations."
+      }
+    },
+    {
+      "questionText": "Why do you think spiders are found in almost every part of the world, even in deserts and rainforests?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple adaptive reasons for spider success, such as ability to eat many types of insects, small size requiring minimal resources, web-building efficiency, or flexible habitat requirements, demonstrating understanding of adaptation.",
+        "meets": "Student provides 1-2 reasonable explanations for spider adaptability, such as they eat insects (plentiful in many habitats) or they can live in different environments.",
+        "approaching": "Student attempts an explanation but it is partially accurate or incomplete, such as 'spiders are good hunters' without explaining why this helps them survive globally.",
+        "beginning": "Student provides minimal or vague response, such as 'spiders are everywhere' without explaining any survival advantages."
+      }
+    },
+    {
+      "questionText": "How is a spider's body similar to and different from an insect's body?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific similarities (exoskeleton, multiple legs) and differences (spiders have 8 legs/insects have 6; spiders have 2 body parts/insects have 3; different eye arrangements), demonstrating clear understanding of arachnid vs. insect classification.",
+        "meets": "Student correctly identifies at least one similarity and one difference between spider and insect bodies with accurate details.",
+        "approaching": "Student identifies a similarity or difference but with incomplete or partially accurate information, such as mentioning legs without specifying the correct numbers.",
+        "beginning": "Student provides a response with minimal accurate comparisons or mainly vague descriptions like 'they both have bodies' without specific details."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:51:17.631Z",
+  "cost": 0.005208
+}

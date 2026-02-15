@@ -1,0 +1,53 @@
+{
+  "title": "Winter Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the evergreen tree's branches are bending down so much while the bare trees in the background are standing straight?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snow accumulates on evergreen branches because they have needles year-round that trap and hold snow, while bare trees have no branches to catch snow; may also note that the weight of accumulated snow causes bending.",
+        "meets": "Student identifies that the evergreen tree's branches are bending because of snow weight and recognizes that the bare trees have fewer or no branches to collect snow.",
+        "approaching": "Student notes that the evergreen tree has more snow on it or mentions the weight of snow, but explanation is incomplete or lacks connection to why bare trees don't bend as much.",
+        "beginning": "Student provides a vague response such as 'the evergreen has more snow' or 'it's heavier' without explaining why the evergreen collects more snow than bare trees."
+      }
+    },
+    {
+      "questionText": "Compare how this evergreen tree looks in winter to how you think it looks in summer. What is the same, and what is different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the tree keeps its needles/leaves in both seasons (same), but in winter the branches bend down from snow weight while in summer branches stand upright; may note the tree appears darker or fuller in summer without snow covering.",
+        "meets": "Student correctly states that the evergreen has needles in both winter and summer (same), and recognizes that snow weight causes branches to bend in winter but not in summer (different).",
+        "approaching": "Student identifies one similarity (the tree keeps its needles) or one difference (snow in winter), but doesn't provide a complete comparison with both same and different elements.",
+        "beginning": "Student makes a vague comparison or states only general observations like 'it looks different' without explaining specific similarities or differences between seasons."
+      }
+    },
+    {
+      "questionText": "If the temperature rose and the snow began to melt, what do you predict would happen to the tree branches first?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that branches would straighten up first as snow melts and weight decreases; explains that removing the snow weight allows the flexible branches to spring back to their original position.",
+        "meets": "Student predicts that the branches would straighten or go back up as the snow melts and becomes lighter.",
+        "approaching": "Student predicts something will happen to the branches when snow melts, but the prediction is unclear or only partially correct (e.g., 'the branches will move' without specifying direction or reason).",
+        "beginning": "Student makes a vague or incorrect prediction, such as 'the tree will melt' or provides no clear prediction about what would happen to the branches."
+      }
+    },
+    {
+      "questionText": "Why do you think it's important for evergreen trees to be flexible and able to bend under the weight of snow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that flexibility prevents branches from breaking under heavy snow weight, allowing the tree to survive winter and continue growing in spring; may mention that broken branches would harm the tree's health or ability to produce food.",
+        "meets": "Student recognizes that bending prevents branches from breaking and that this helps the tree survive the winter season.",
+        "approaching": "Student identifies that flexibility is helpful and mentions breaking branches or surviving winter, but reasoning is incomplete or not clearly connected.",
+        "beginning": "Student provides a minimal response such as 'so it doesn't break' without explaining why avoiding broken branches matters for the tree's survival or health."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:54:13.823Z",
+  "cost": 0.005376
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What body parts does this spider have, and how do they help it live?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (legs, body, eyes) and explains how at least two parts help the spider survive, such as legs for walking/catching food or body for holding organs.",
+        "meets": "Student identifies at least two body parts (such as legs and body) and explains how one part helps the spider live or move.",
+        "approaching": "Student names one or two body parts but provides vague or incomplete explanation of how they help the spider, or explains only that the part exists.",
+        "beginning": "Student names a body part with no explanation, or provides an inaccurate response about spider body parts."
+      }
+    },
+    {
+      "questionText": "Why do you think the spider has eight legs instead of four or two?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eight legs help the spider move faster, balance, or catch prey better than fewer legs would, showing understanding that more legs provide an advantage.",
+        "meets": "Student gives a reasonable explanation that eight legs help the spider move or walk, or help it do something important for survival.",
+        "approaching": "Student attempts an explanation but it is unclear, incomplete, or only partially connected to how legs help spiders function.",
+        "beginning": "Student gives no explanation, says 'I don't know,' or provides an answer unrelated to spider survival or movement."
+      }
+    },
+    {
+      "questionText": "Where do spiders like this one live, and what do they need to find there?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names a specific habitat (garden, field, soil, under rocks) and identifies at least two things spiders need there, such as food, water, or places to hide.",
+        "meets": "Student names a place where spiders live (such as outside, in gardens, or on the ground) and identifies one thing spiders need there, like food or shelter.",
+        "approaching": "Student names a place where spiders might live or identifies one need, but the answer is vague or partially correct.",
+        "beginning": "Student provides minimal information, an inaccurate habitat, or no clear answer about where spiders live or what they need."
+      }
+    },
+    {
+      "questionText": "How is a spider different from an insect or a butterfly you've seen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences, such as spiders having eight legs while insects have six, or spiders not having wings while butterflies do.",
+        "meets": "Student identifies one or two clear differences between spiders and insects, such as the number of legs or the presence/absence of wings.",
+        "approaching": "Student attempts to describe a difference but is unclear, partially inaccurate, or identifies only a minor feature.",
+        "beginning": "Student provides no clear difference, an inaccurate comparison, or states they don't know how spiders and insects are different."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:43:20.402Z",
+  "cost": 0.004623
+}

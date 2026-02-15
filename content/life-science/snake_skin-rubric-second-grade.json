@@ -1,0 +1,53 @@
+{
+  "title": "Snake Skin",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this snake's colors are brown and tan instead of bright red and yellow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that brown and tan colors help the snake hide from predators or prey by blending in with leaves and soil, using the term 'camouflage' or 'blend in' with specific examples from the photo.",
+        "meets": "Student recognizes that the snake's brown and tan colors help it hide or blend in with its surroundings like leaves and dirt.",
+        "approaching": "Student mentions that the colors help the snake hide or that they match the environment, but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as 'the snake is brown' or offers an inaccurate explanation without connecting colors to survival."
+      }
+    },
+    {
+      "questionText": "What does this snake need to survive in its habitat, and how do its scales help it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple survival needs (food, water, shelter, warmth) and explains that scales protect the snake's body, help it move smoothly, and keep moisture in its skin.",
+        "meets": "Student identifies at least two survival needs (such as food and water) and explains that scales protect the snake's skin or help it move.",
+        "approaching": "Student identifies one or two survival needs or describes scales but cannot explain the connection between scales and survival.",
+        "beginning": "Student mentions a survival need or describes scales without clear explanation, or provides vague/inaccurate information."
+      }
+    },
+    {
+      "questionText": "If this snake lived in the snow instead of near leaves, how might its appearance be different to help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the snake would be white or light-colored to blend in with snow and explains that this change would help it hide from predators or sneak up on prey, showing understanding of how camouflage changes with habitat.",
+        "meets": "Student predicts the snake would be white or light-colored to blend in with the snowy environment.",
+        "approaching": "Student suggests a color change but reasoning is unclear, or predicts an unlikely appearance change with weak connection to snow camouflage.",
+        "beginning": "Student gives a minimal or inaccurate response, such as guessing a color without explanation or misunderstanding how animals adapt to new environments."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that have special colors or patterns to hide in their environment?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more animals with camouflage and describes how their colors or patterns match their specific habitats (e.g., spots on a leopard match tall grass).",
+        "meets": "Student names two or more animals that have colors or patterns that help them hide, such as deer, frogs, or caterpillars.",
+        "approaching": "Student names one animal with camouflage but provides incomplete description, or names animals without clearly explaining how they use camouflage.",
+        "beginning": "Student names an animal but cannot explain camouflage, or provides a vague/inaccurate example."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:37:55.736Z",
+  "cost": 0.004884
+}

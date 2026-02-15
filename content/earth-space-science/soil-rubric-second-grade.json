@@ -1,0 +1,53 @@
+{
+  "title": "Soil",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors of the different soil layers?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies and describes multiple soil layer colors with specific color words (dark brown, reddish-brown, tan, light brown) and notes that colors change as you go deeper into the soil.",
+        "meets": "Student identifies at least two different soil layer colors and recognizes that the soil layers are different colors from each other.",
+        "approaching": "Student names one or two soil colors but descriptions are vague (like 'brown' or 'dark') or only mentions that soil has different colors without clear details.",
+        "beginning": "Student makes minimal observations about soil colors or provides inaccurate descriptions with little detail about the different layers."
+      }
+    },
+    {
+      "questionText": "Why do you think the top layer of soil is darker than the layers below it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the top layer is darker because it contains more decomposed plants and dead materials (humus/organic matter), and may mention that this happens because plants and leaves fall and break down in the top layer.",
+        "meets": "Student provides a reasonable explanation that the top layer is darker because it has more dead plants, leaves, or broken-down material mixed into it.",
+        "approaching": "Student attempts to explain the color difference but reasoning is incomplete or partially unclear; may mention plants or decay but lacks full connection to why this makes soil darker.",
+        "beginning": "Student provides a vague answer or incorrect explanation with little evidence of understanding what causes the color difference between soil layers."
+      }
+    },
+    {
+      "questionText": "How do you think the plants at the top of the soil help make the soil below it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that plants add nutrients to soil when they die and break down, and may also mention that plant roots can break up soil or that plants provide organic matter that becomes part of the soil.",
+        "meets": "Student identifies that plants help make soil by dying and breaking down into the soil, or by adding material to the soil that helps other things grow.",
+        "approaching": "Student recognizes that plants are connected to soil improvement but explanation is unclear or incomplete; may mention plants dying or roots but without clear reasoning about how this helps the soil.",
+        "beginning": "Student provides a minimal or inaccurate response with little connection between plants and soil formation or improvement."
+      }
+    },
+    {
+      "questionText": "If we looked at soil from your school playground, would it have the same layers as this soil? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that playground soil would have similar layers but may differ in thickness or appearance based on location, amount of plant material, or how much the soil has been disturbed or used.",
+        "meets": "Student correctly predicts that playground soil would likely have similar layers and provides a reasonable explanation such as 'all soil is made of layers' or 'it also has plants and dirt mixed together.'",
+        "approaching": "Student makes a prediction about whether layers would be the same but reasoning is incomplete or partially unclear; may acknowledge that soil is layered but not fully explain similarities or differences.",
+        "beginning": "Student makes a simple yes/no prediction with little to no explanation, or provides an inaccurate response about how playground soil would compare."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:40:20.006Z",
+  "cost": 0.005012
+}

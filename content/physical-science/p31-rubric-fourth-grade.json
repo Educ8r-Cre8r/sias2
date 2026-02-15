@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What type of energy do you think makes the clock hands move, and how does that energy get transferred to the hands?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific energy source (mechanical, electrical, or gravitational) and explains with specific details how that energy transfers through the clock mechanism to move the hands (e.g., 'weights pull down and turn gears that move the hands').",
+        "meets": "Student identifies a reasonable energy source and explains in general terms how the energy causes the hands to move, showing understanding of energy transfer.",
+        "approaching": "Student names an energy source but provides limited or incomplete explanation of how it transfers to move the hands, or explanation lacks clarity about the connection.",
+        "beginning": "Student provides a vague answer about energy with little or no explanation of transfer, or identifies an unrealistic energy source."
+      }
+    },
+    {
+      "questionText": "If you could look inside this clock, what simple machines might you find working together?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple simple machines (gears, pulleys, levers, screws, or wheels) and explains specifically how at least two work together to help the clock function (e.g., 'gears turn the wheels that move the hands').",
+        "meets": "Student identifies at least two simple machines that might be in a clock and describes how they help the clock work, showing understanding of how simple machines function together.",
+        "approaching": "Student names one or two simple machines but provides limited explanation of their purpose, or reasoning about how they work together is unclear.",
+        "beginning": "Student names a simple machine with minimal or no explanation, or shows confusion about what simple machines are found in clocks."
+      }
+    },
+    {
+      "questionText": "How might this clock's energy source be different from the clock in your classroom?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a thoughtful comparison identifying that building clocks often use mechanical energy (weights or springs) while classroom clocks typically use electrical energy, and explains a specific advantage of each source.",
+        "meets": "Student identifies that the two clocks likely use different energy sources and provides a reasonable explanation of at least one difference (e.g., one uses electricity, one uses weights).",
+        "approaching": "Student recognizes the clocks might be different but provides vague reasoning, or identifies a difference without clear explanation of why it matters.",
+        "beginning": "Student provides minimal response or struggles to identify any real difference between the two clocks' energy sources."
+      }
+    },
+    {
+      "questionText": "What would happen to the clock's function if one of its gears broke, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a broken gear would stop or disrupt the clock's function and provides specific reasoning about how gears work together to transfer energy and motion (e.g., 'gears connect to move the hands, so a broken gear breaks the chain of movement').",
+        "meets": "Student predicts the clock would stop or malfunction and explains that gears work together to make the clock run, so breaking one would affect the whole system.",
+        "approaching": "Student predicts the clock would not work but reasoning is incomplete, vague, or shows partial understanding of how gears function.",
+        "beginning": "Student provides a simple 'it would break' response with little or no explanation of why a broken gear matters to the clock's operation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:22:29.635Z",
+  "cost": 0.00508
+}

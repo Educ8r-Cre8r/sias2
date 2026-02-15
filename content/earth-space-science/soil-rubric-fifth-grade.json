@@ -1,0 +1,53 @@
+{
+  "title": "Soil",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the different layers of soil look different colors and textures?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple factors causing layer differences (such as amount of organic matter, age of soil, mineral composition, weathering) and explains how these factors work together to create distinct layers with different colors and textures.",
+        "meets": "Student explains that different layers have different amounts of organic matter or minerals, and connects this to why colors and textures vary between layers.",
+        "approaching": "Student recognizes that layers look different but provides only one reason (such as \"more dead stuff on top\" or \"different rocks\") without fully explaining the connection to color or texture differences.",
+        "beginning": "Student observes that layers are different but offers vague or inaccurate explanations, such as \"they just are\" or \"dirt is different colors\" without connecting to soil composition."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the nutrients in dead leaves and animals, and how might that affect plant growth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead organic matter decomposes and breaks down into nutrients that are absorbed by soil and plant roots, and describes specifically how this benefits plant growth (such as providing energy, minerals, or helping plants grow taller or healthier).",
+        "meets": "Student correctly explains that dead leaves and animals break down and turn into nutrients that help plants grow, with a reasonable description of the benefit to plants.",
+        "approaching": "Student shows partial understanding by mentioning that dead things break down or that nutrients help plants, but does not clearly connect both ideas or explain the process.",
+        "beginning": "Student provides a minimal response such as \"dead things go away\" or \"plants need nutrients\" without connecting decomposition to plant growth."
+      }
+    },
+    {
+      "questionText": "If we removed all the organic matter (dead plants and animals) from soil, what problems might plants face?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific problems plants would face (such as lack of nutrients, poor soil structure, reduced water retention, loss of habitat for helpful organisms) and explains why each problem would harm plant growth.",
+        "meets": "Student identifies at least two problems plants would face without organic matter (such as missing nutrients or weak soil structure) and explains how these would negatively affect plants.",
+        "approaching": "Student identifies one problem plants would face without organic matter but provides incomplete reasoning about how it would harm plants.",
+        "beginning": "Student recognizes that removing organic matter would be bad for plants but cannot explain specific problems or reasons why."
+      }
+    },
+    {
+      "questionText": "How do you think the soil at the top of this cross-section became so much darker than the soil deeper down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the top soil is darker because dead leaves and animals accumulate there and decompose over time, creating organic matter that darkens the soil, and may reference the process of soil formation or weathering.",
+        "meets": "Student correctly explains that more dead plant and animal matter at the top causes the darker color, and connects this to decomposition or organic matter breakdown.",
+        "approaching": "Student recognizes that the top layer is darker due to more dead material or organic matter but does not fully explain the decomposition process or why this accumulates at the surface.",
+        "beginning": "Student observes that the top soil is darker but provides vague reasoning such as \"it's older\" or \"it has more stuff\" without connecting to organic matter or decomposition."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:40:44.451Z",
+  "cost": 0.00522
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if these waves hit sand instead of rocks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that sand would absorb or move with the wave energy differently than rocks, explaining that sand is softer and looser, and may describe how the sand could be pushed away, eroded, or create a different splash pattern than the rocks do.",
+        "meets": "Student predicts a reasonable difference between waves hitting sand versus rocks, such as sand moving or the splash being different, showing understanding that material properties affect how waves interact with the shore.",
+        "approaching": "Student makes a prediction about sand being affected by waves but with limited detail; may say sand would move or be different without clear explanation of why or how it differs from rocks.",
+        "beginning": "Student provides a minimal or vague response such as 'it would be different' or 'the sand would get wet' without demonstrating understanding of how material properties affect wave interaction."
+      }
+    },
+    {
+      "questionText": "Where do you think the energy in these waves originally came from?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies wind as the source of wave energy and explains the connection between wind pushing on water to create waves, demonstrating understanding of energy transfer from air to water.",
+        "meets": "Student correctly identifies wind or the sun as the source of wave energy, showing understanding that an external force or energy source creates ocean waves.",
+        "approaching": "Student mentions wind or an external source but with incomplete explanation; may state the source without explaining how it creates or transfers energy to the waves.",
+        "beginning": "Student provides a vague or inaccurate response such as 'the ocean' or 'water' without identifying an actual energy source or demonstrating understanding of wave formation."
+      }
+    },
+    {
+      "questionText": "How might the size of the splash change if the waves were moving faster or slower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that faster waves would create larger splashes and slower waves would create smaller splashes, explaining that wave speed affects the amount of energy and force when the water hits the rocks.",
+        "meets": "Student correctly predicts that faster waves create larger splashes and slower waves create smaller splashes, demonstrating understanding of the relationship between wave speed and energy.",
+        "approaching": "Student makes a prediction about splash size changing with wave speed but with limited or unclear reasoning; may state the relationship without explaining why speed affects splash size.",
+        "beginning": "Student provides a minimal response such as 'it would be bigger' or 'it would be different' without connecting wave speed to splash size or energy."
+      }
+    },
+    {
+      "questionText": "What evidence can you see in the photo that shows energy is being transferred?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of visual evidence such as the white foam and spray, the height of the splash, the movement of water, and describes how these observations show energy moving from the waves to the rocks and air.",
+        "meets": "Student identifies specific visible evidence such as the splash, spray, or foam, and explains that these observations show energy is being transferred from the waves to the rocks or into the air.",
+        "approaching": "Student identifies one observable feature like the splash or spray but provides limited explanation of how it shows energy transfer, or describes the effect without clearly connecting it to energy movement.",
+        "beginning": "Student names something visible in the photo such as 'waves' or 'water' but does not explain how it demonstrates energy transfer or shows only surface-level observation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:21:42.818Z",
+  "cost": 0.005174
+}

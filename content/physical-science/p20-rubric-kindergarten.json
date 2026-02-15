@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What different colors and sizes of rocks can you see in this concrete?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least 3 different rock colors (such as brown, red, yellow, black) and uses size words like big, small, or tiny to describe at least 2 rocks with specific examples.",
+        "meets": "Student identifies 2 different rock colors and uses at least one size word (big or small) to describe the rocks in the concrete.",
+        "approaching": "Student names 1 rock color or uses a size word, but may be vague or provide limited examples from the concrete.",
+        "beginning": "Student makes a minimal attempt to describe colors or sizes but provides little detail or mostly inaccurate observations."
+      }
+    },
+    {
+      "questionText": "How do you think the rocks got stuck in the concrete and why don't they fall out?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that concrete is wet or soft when rocks are mixed in, then hardens and holds the rocks tight, preventing them from falling out due to the hardened material surrounding them.",
+        "meets": "Student provides a basic explanation that concrete hardens or dries and keeps the rocks stuck inside, showing understanding of the hardening process.",
+        "approaching": "Student offers a partial explanation such as concrete is sticky or hard, but the reasoning about why rocks stay in place is incomplete or unclear.",
+        "beginning": "Student gives a minimal response like rocks are glued or stuck, with little evidence of understanding how concrete traps the rocks."
+      }
+    },
+    {
+      "questionText": "What would happen if we made concrete with only big rocks or only tiny rocks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that mixing only big rocks would leave gaps or holes and only tiny rocks would be too crumbly or weak, and explains why a mix of sizes makes stronger concrete.",
+        "meets": "Student predicts that using only one size of rock would result in a problem, such as gaps, weakness, or poor structure, showing cause-and-effect thinking.",
+        "approaching": "Student makes a prediction about only big or only tiny rocks but provides unclear or incomplete reasoning about what would go wrong.",
+        "beginning": "Student offers a vague prediction or restates the question without explaining what the concrete would be like or why it would be different."
+      }
+    },
+    {
+      "questionText": "Where else have you seen concrete being used, and why do you think people choose to use it there?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names 2 or more places concrete is used (such as sidewalks, driveways, playgrounds) and explains 2 reasons people use it, such as it is hard, strong, safe, or lasts a long time.",
+        "meets": "Student identifies 1-2 places where concrete is used and gives at least one reason why people choose it, such as it is strong or durable.",
+        "approaching": "Student names a place where concrete is used but provides vague or unclear reasoning about why people choose it there.",
+        "beginning": "Student provides a minimal response with little evidence of knowing where concrete is used or why it is chosen for different purposes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:05:27.209Z",
+  "cost": 0.004836
+}

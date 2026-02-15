@@ -1,0 +1,53 @@
+{
+  "title": "Wind Turbines",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the wind helps the turbine blades spin, and where does that spinning motion go?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wind pushes the blades to make them spin and clearly describes that the spinning motion transfers into electricity or energy that gets sent through wires/power lines to homes and buildings.",
+        "meets": "Student explains that wind makes the blades spin and identifies that the spinning motion becomes electricity or energy that is used by people.",
+        "approaching": "Student states that wind makes the blades spin but has incomplete or vague understanding of where the spinning motion goes (may mention electricity but with limited detail).",
+        "beginning": "Student provides a minimal response such as 'wind makes it spin' or 'it makes energy' with little explanation of the connection between spinning and electricity."
+      }
+    },
+    {
+      "questionText": "Why do you think people built these wind turbines in this flat, open field instead of in a forest or a city with lots of tall buildings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reasons: open fields have more wind, fewer obstacles block the wind, tall buildings or trees would slow down or block wind flow, and explains how wind needs space to reach the blades.",
+        "meets": "Student identifies at least two reasons such as: open fields have more wind, or there are fewer obstacles like trees and buildings that would block the wind.",
+        "approaching": "Student identifies one reason (such as 'more wind' or 'no trees in the way') but lacks detailed explanation of how this helps the turbines work.",
+        "beginning": "Student provides a vague response like 'it's a good place' or 'there's more wind' without explaining why location matters for wind turbines."
+      }
+    },
+    {
+      "questionText": "If the sun stopped shining on Earth, what would happen to the wind and the wind turbines?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the sun creates wind by heating the atmosphere and Earth, and correctly reasons that without the sun's heat, there would be little or no wind, so the turbines would stop spinning and create no electricity.",
+        "meets": "Student recognizes that the sun affects wind and predicts that without the sun, the wind would stop or decrease, causing the turbines to stop working.",
+        "approaching": "Student makes a connection between the sun and wind or wind turbines but the explanation is incomplete or shows partial understanding of how the sun creates wind.",
+        "beginning": "Student provides a minimal response that shows little understanding of the relationship between the sun, wind, and wind turbines (e.g., 'it would be dark' without connecting to wind)."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the electricity made by wind turbines? Where does it go after it's created?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that electricity travels through power lines to homes, schools, and buildings where people use it for lights, appliances, and other devices.",
+        "meets": "Student identifies that electricity from the turbines travels through power lines and goes to homes or buildings where people use it.",
+        "approaching": "Student recognizes that electricity goes somewhere useful (homes, buildings, or people) but provides vague details about how it gets there or what it powers.",
+        "beginning": "Student provides a minimal response such as 'it goes to houses' or 'people use it' with little detail or explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:16:05.108Z",
+  "cost": 0.005183
+}

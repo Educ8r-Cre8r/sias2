@@ -1,0 +1,53 @@
+{
+  "title": "Force And Motion",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What made the student's body go up into the air?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the student's legs pushed hard against the ground and that this pushing force made their body go up; may mention that muscles in the legs created the push.",
+        "meets": "Student identifies that the student's legs pushed or jumped, causing their body to go up into the air.",
+        "approaching": "Student mentions legs or pushing but explanation is unclear or incomplete; may say 'they jumped' without explaining what made them go up.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'they went up' or 'the cone made them jump,' with little explanation."
+      }
+    },
+    {
+      "questionText": "Why did the student come back down to the ground? Could they stay in the air forever?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that gravity pulls everything down and that the student cannot stay in the air forever because gravity always pulls things back to Earth; may mention that nothing can stay up without something pushing it.",
+        "meets": "Student explains that gravity or something pulling down made the student come back to the ground, and correctly states that the student cannot stay in the air forever.",
+        "approaching": "Student identifies that the student came down but explanation is incomplete; may mention gravity or 'falling' without fully explaining why they cannot stay up forever.",
+        "beginning": "Student provides minimal or unclear reasoning, such as 'they came down' without explaining why, or gives an inaccurate answer about staying in the air."
+      }
+    },
+    {
+      "questionText": "If the student pushed even harder with their legs, what might happen to their jump? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a harder push would make the student jump higher or farther, and explains that more force from the legs creates more upward motion; may use the word 'force' or 'stronger.'",
+        "meets": "Student predicts that pushing harder would make the jump higher or longer, with a reasonable explanation connected to using more force or effort.",
+        "approaching": "Student makes a prediction about the jump changing but reasoning is vague or partially correct; may say 'it would be better' or 'higher' without explaining why.",
+        "beginning": "Student's response is unclear or inaccurate; may not make a clear prediction or offers reasoning that shows minimal understanding of how force affects motion."
+      }
+    },
+    {
+      "questionText": "How is jumping over a cone different from jumping without an obstacle? What forces are involved in each?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that jumping over a cone requires jumping higher and describes the leg force needed in both situations; may note that both require pushing force from the ground, but jumping over a cone needs more force or higher jumping.",
+        "meets": "Student identifies at least one key difference (jumping higher over the cone) and mentions that legs push in both cases; explanation shows understanding that force is involved in both jumps.",
+        "approaching": "Student recognizes that the jumps are different but explanation lacks detail; may mention the cone or height but does not clearly explain the forces or reasoning.",
+        "beginning": "Student provides a vague comparison or mostly inaccurate response; shows minimal understanding of how the obstacle changes the jump or how forces are involved."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:54:45.355Z",
+  "cost": 0.005017
+}

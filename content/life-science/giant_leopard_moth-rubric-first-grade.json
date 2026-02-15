@@ -1,0 +1,53 @@
+{
+  "title": "Giant Leopard Moth",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will hatch from these tiny eggs?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies that baby moths (caterpillars or larvae) will hatch and explains that they will eventually become moths like the one in the photo.",
+        "meets": "Student correctly identifies that baby moths or caterpillars will hatch from the eggs.",
+        "approaching": "Student makes a reasonable guess about what will hatch but may confuse the organism or be vague (e.g., 'bugs' or 'little insects').",
+        "beginning": "Student provides a minimal or inaccurate response, such as naming a different animal or showing no clear connection to the moth in the photo."
+      }
+    },
+    {
+      "questionText": "Why do you think the mother moth laid so many eggs all together in one place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that laying many eggs increases the chance that some will survive, and may mention that grouping them together keeps them safe or helps the mother protect them.",
+        "meets": "Student provides a reasonable explanation, such as 'so more babies will be born' or 'to keep them safe together.'",
+        "approaching": "Student attempts an explanation but it is incomplete or partially unclear, such as 'because she wanted to' or 'so they have friends.'",
+        "beginning": "Student provides a vague or incorrect response with little reasoning, such as 'I don't know' or an answer unrelated to survival or protection."
+      }
+    },
+    {
+      "questionText": "How is laying eggs similar to or different from how your own mother gave birth to you?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both a similarity (both are ways to have babies) and a difference (eggs vs. live birth, or different numbers of babies), using clear, age-appropriate language.",
+        "meets": "Student identifies either a clear similarity or a clear difference between egg-laying and live birth, with a simple explanation.",
+        "approaching": "Student recognizes that there is a difference or similarity but the explanation is vague or only partially accurate.",
+        "beginning": "Student provides a minimal response that shows little understanding of either reproduction method, or declines to answer."
+      }
+    },
+    {
+      "questionText": "If you could follow one of these eggs and watch it grow, what changes do you predict you would see?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific changes, such as the egg getting bigger, a caterpillar hatching, the caterpillar eating and growing, and eventually becoming a moth.",
+        "meets": "Student predicts at least two reasonable changes, such as the egg hatching into a caterpillar and the caterpillar growing larger.",
+        "approaching": "Student predicts one change or makes predictions that are partially reasonable but lack clear detail or sequence.",
+        "beginning": "Student provides a vague prediction or one that shows minimal understanding of how insects grow and change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:01:59.596Z",
+  "cost": 0.004633
+}

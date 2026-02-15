@@ -1,0 +1,53 @@
+{
+  "title": "Hummingbird",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why does a hummingbird need to visit so many flowers every day?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that hummingbirds need lots of nectar because they have very fast metabolisms and must eat frequently to fuel their rapid heartbeat and wing beats; may mention they visit hundreds of flowers daily.",
+        "meets": "Student states that hummingbirds need to visit many flowers because they need lots of energy/food from the nectar to survive.",
+        "approaching": "Student recognizes that hummingbirds visit flowers for food/nectar but provides incomplete reasoning about why they need so much.",
+        "beginning": "Student gives a vague response such as 'they like flowers' or 'they need to eat' with little connection to hummingbird needs."
+      }
+    },
+    {
+      "questionText": "How does the hummingbird's long, thin beak help it survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the long beak allows the hummingbird to reach deep into flowers to get nectar that other animals cannot access, giving it an advantage for survival and reducing competition.",
+        "meets": "Student correctly describes that the long beak helps the hummingbird reach nectar deep inside flowers.",
+        "approaching": "Student recognizes the beak is used to get food from flowers but lacks detail about how its shape/length specifically helps.",
+        "beginning": "Student makes a general statement like 'it helps them eat' or 'it gets food' without explaining the connection to flower structure."
+      }
+    },
+    {
+      "questionText": "What might happen to flowers if there were no hummingbirds to visit them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers would not be pollinated, seeds would not develop, and populations might decline; recognizes this as an example of a symbiotic or interdependent relationship between hummingbirds and flowers.",
+        "meets": "Student explains that without hummingbirds, flowers would not be pollinated and might not produce seeds or reproduce as successfully.",
+        "approaching": "Student identifies that hummingbirds help flowers but provides incomplete explanation of what specifically would change (e.g., mentions pollination but not consequences).",
+        "beginning": "Student gives a basic response such as 'flowers would be sad' or 'nothing would happen' with little scientific reasoning."
+      }
+    },
+    {
+      "questionText": "How is the hummingbird's hovering ability different from how other birds fly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hummingbirds hover by moving wings in a figure-8 pattern at very high speeds, allowing them to stay in one spot and even fly backward; contrasts this with other birds that need forward motion to stay airborne.",
+        "meets": "Student describes that hummingbirds can hover (stay in one place) while most other birds must keep moving forward to fly; mentions their fast wing beats.",
+        "approaching": "Student recognizes that hummingbirds hover or have fast wings but provides limited comparison to other bird flight or unclear explanation.",
+        "beginning": "Student makes a simple observation like 'hummingbirds are fast' or 'they stay still' without meaningful comparison to other birds."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:18:54.437Z",
+  "cost": 0.004986
+}

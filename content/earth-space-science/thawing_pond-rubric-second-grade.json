@@ -1,0 +1,53 @@
+{
+  "title": "Thawing Pond",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening to the ice in this pond, and what made it start to happen?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that ice is melting and correctly identifies that warmer temperatures or warmer weather caused the change, using specific vocabulary like 'thaw' or 'melt.'",
+        "meets": "Student states that ice is melting and mentions that it is getting warmer or that spring is coming as the cause.",
+        "approaching": "Student identifies that the ice is melting but provides incomplete or vague reasoning about what caused it, such as 'it's warm' without elaboration.",
+        "beginning": "Student makes a minimal attempt, such as saying 'ice is melting' but provides no clear explanation of the cause."
+      }
+    },
+    {
+      "questionText": "Where does the water go after all the ice melts from the pond?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the water's path with multiple steps, such as explaining it flows into streams, seeps into the ground, or evaporates into the air, showing understanding of the water cycle.",
+        "meets": "Student identifies at least one correct destination for the water, such as it flows away, soaks into the ground, or becomes a stream.",
+        "approaching": "Student provides a partially accurate response, such as mentioning water goes somewhere but with limited detail or some confusion about the process.",
+        "beginning": "Student provides a vague or minimally accurate response, such as 'it goes away' without explanation or an inaccurate statement."
+      }
+    },
+    {
+      "questionText": "Why do you think the trees in this picture still don't have leaves even though the ice is melting?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that trees need time to respond to warmer temperatures and connect this to spring arriving at different times for different organisms, or note that the ground/air may still be too cold.",
+        "meets": "Student correctly explains that trees leaf out later in spring or that it is still too cold for leaves to grow yet, showing understanding of plant timing.",
+        "approaching": "Student recognizes that trees are waiting for something but gives incomplete reasoning, such as 'trees aren't ready yet' without explaining why.",
+        "beginning": "Student attempts an answer but provides vague or inaccurate reasoning, such as 'the ice keeps the leaves off' or similar confused explanations."
+      }
+    },
+    {
+      "questionText": "If we could travel back in time two months, what do you think this pond would have looked like? What changed it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a pond that was completely frozen and explains that the change was caused by time passing and warming temperatures as winter turns to spring, connecting seasons and cause-and-effect.",
+        "meets": "Student predicts the pond would have been mostly or completely frozen two months ago and identifies warming weather or the change of seasons as the cause.",
+        "approaching": "Student provides a partially correct prediction (such as 'more ice') or mentions a cause but with incomplete reasoning or missing details.",
+        "beginning": "Student makes a minimal attempt with vague predictions or inaccurate reasoning about what the pond would have looked like or what caused the change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:30:29.852Z",
+  "cost": 0.004939
+}

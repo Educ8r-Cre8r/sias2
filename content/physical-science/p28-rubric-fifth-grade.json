@@ -1,0 +1,53 @@
+{
+  "title": "Friction",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How does the energy travel from the power lines to make the train wheels turn?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that electricity flows through the overhead wire to the train, then through a motor that converts electrical energy into mechanical energy to turn the wheels, using accurate scientific vocabulary.",
+        "meets": "Student describes that electricity from the power lines goes to the train and makes the wheels turn, demonstrating understanding of the basic energy transfer process.",
+        "approaching": "Student identifies that the power lines provide energy to the train and mentions wheels turning, but explanation of how energy travels is incomplete or unclear.",
+        "beginning": "Student provides a vague response such as 'the power lines make the train go' with little detail about energy transfer or how the wheels move."
+      }
+    },
+    {
+      "questionText": "What advantages might electric trains have over trains that burn fossil fuels for our environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific environmental advantages (produces no exhaust/pollution, reduces greenhouse gases, uses renewable energy sources) and explains how each benefits air quality or climate.",
+        "meets": "Student identifies at least two environmental advantages of electric trains, such as no air pollution or fewer emissions compared to fossil fuels.",
+        "approaching": "Student mentions one environmental advantage (like cleaner or less pollution) but reasoning is incomplete or partially accurate.",
+        "beginning": "Student attempts to compare but provides vague or inaccurate environmental claims, such as 'it's better for the Earth' without specific explanation."
+      }
+    },
+    {
+      "questionText": "If you could design an electric vehicle, what energy source would you use and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a specific renewable or alternative energy source (solar, wind, hydroelectric, battery) and provides thoughtful reasoning about availability, safety, environmental impact, and practical benefits.",
+        "meets": "Student selects an appropriate energy source and provides reasonable justification based on environmental or practical advantages.",
+        "approaching": "Student names an energy source but reasoning is limited; explanation may lack depth or contain minor inaccuracies about how it would work.",
+        "beginning": "Student suggests an energy source with minimal or unclear reasoning, or provides an impractical suggestion with little explanation."
+      }
+    },
+    {
+      "questionText": "What would happen if the connection between the train and the overhead wire was broken?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the train would lose its electrical power supply and stop moving because the circuit would be broken, and may discuss safety implications or what needs to happen to resume operation.",
+        "meets": "Student correctly predicts that the train would stop because electricity could not reach it, demonstrating understanding of electrical circuits.",
+        "approaching": "Student indicates the train would stop but explanation of why (loss of electricity/power) is incomplete or somewhat unclear.",
+        "beginning": "Student predicts the train would stop but provides no explanation, or gives an inaccurate reason for why it would stop."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:21:03.339Z",
+  "cost": 0.004595
+}

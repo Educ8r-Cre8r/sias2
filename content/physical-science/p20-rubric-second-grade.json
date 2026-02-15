@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What different materials can you identify in this concrete, and how are they different from each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three different materials (rocks, sand, cement) and describes specific differences using size, color, and how they feel or look (e.g., 'big brown rocks are hard and bumpy, tiny sand grains are smooth and small').",
+        "meets": "Student identifies at least two materials in concrete and names one clear difference between them, such as size or color (e.g., 'big rocks and small rocks are different sizes').",
+        "approaching": "Student identifies one or two materials but provides vague or incomplete descriptions of differences (e.g., 'there are rocks and they look different' without explaining how).",
+        "beginning": "Student names only one material or provides an unclear response with minimal attempt to describe differences (e.g., 'rocks' with no additional details)."
+      }
+    },
+    {
+      "questionText": "Why do you think people mix rocks of different sizes together when making concrete?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different-sized rocks fill in gaps and make concrete stronger, using words like 'fit together' or 'fill spaces,' and may mention that this makes concrete more solid or stable.",
+        "meets": "Student provides a reasonable explanation such as 'different sizes fit together better' or 'it makes concrete stronger,' showing understanding of the purpose.",
+        "approaching": "Student offers a partial explanation like 'to make it stronger' or 'because rocks are different' but lacks detail about how or why this works.",
+        "beginning": "Student gives a minimal or unclear response such as 'I don't know' or 'because they wanted to' without scientific reasoning."
+      }
+    },
+    {
+      "questionText": "How is concrete similar to and different from a mixture like trail mix?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both have different materials mixed together, both have different sizes and colors) and multiple differences (concrete is hard and permanent, trail mix is loose and edible), using specific examples.",
+        "meets": "Student identifies at least one similarity and one difference between concrete and trail mix (e.g., 'both have different things mixed in, but concrete is hard and trail mix is not').",
+        "approaching": "Student identifies either a similarity or a difference, but not both, or provides unclear explanations (e.g., 'they're both mixtures' with no other details).",
+        "beginning": "Student provides a minimal response or confused answer that shows little understanding of the comparison (e.g., 'they're the same' or 'I don't know')."
+      }
+    },
+    {
+      "questionText": "What would happen if someone tried to make concrete using only big rocks or only tiny sand?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that concrete would be weaker or not work well and explains why (e.g., 'big rocks only would have holes between them' or 'tiny sand alone wouldn't be strong enough to hold together'), showing understanding of how materials fit together.",
+        "meets": "Student makes a reasonable prediction such as 'concrete wouldn't be as strong' or 'it wouldn't work as well' and provides a simple explanation.",
+        "approaching": "Student makes a prediction but provides vague or incomplete reasoning (e.g., 'it would break' without explaining why).",
+        "beginning": "Student provides a minimal response or unclear prediction with little to no explanation (e.g., 'it would be bad' or 'I don't know why')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:05:42.264Z",
+  "cost": 0.005331
+}

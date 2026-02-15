@@ -1,0 +1,53 @@
+{
+  "title": "Life Cyle",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What is happening to the eggshells in this picture? What do you notice?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific observations about the eggshells (breaking, cracking, getting smaller, turning into pieces) and notices how they look in the soil and near plants.",
+        "meets": "Student identifies that eggshells are breaking or cracking into smaller pieces and describes at least one detail about what they see.",
+        "approaching": "Student notices that eggshells are breaking or changing, but description is vague or incomplete (e.g., 'they're breaking' with no other details).",
+        "beginning": "Student makes a minimal attempt to describe the eggshells but response is unclear, inaccurate, or shows little connection to the image."
+      }
+    },
+    {
+      "questionText": "Why do you think eggshells are breaking into smaller and smaller pieces in the soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple reasonable reasons why shells break down (time passing, soil moisture, being buried, natural decay) and connects these to how things change in nature.",
+        "meets": "Student provides at least one logical explanation for why shells break apart (e.g., 'the soil breaks them,' 'they get wet,' 'time breaks them') with simple reasoning.",
+        "approaching": "Student offers a partial or somewhat unclear reason for the breaking (e.g., 'they just break' or 'because soil'), but reasoning is incomplete or unclear.",
+        "beginning": "Student provides a vague, inaccurate, or unclear response with minimal attempt to explain the cause of the shell breakdown."
+      }
+    },
+    {
+      "questionText": "If we bury eggshells in our classroom garden, what do you predict will happen in 4 weeks?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a specific prediction that shells will break down further and connects this to helping plants grow, showing understanding that decomposition happens over time.",
+        "meets": "Student predicts that shells will break into smaller pieces or disappear over 4 weeks with reasonable justification based on what they see in the photo.",
+        "approaching": "Student makes a prediction about the shells but it is vague, partially unclear, or shows limited connection to the image (e.g., 'they'll be smaller').",
+        "beginning": "Student provides a minimal or unclear prediction with little evidence of understanding how materials change in soil over time."
+      }
+    },
+    {
+      "questionText": "How do you think broken eggshells help plants grow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that broken shells add nutrients or material to soil that helps plants, or describes how the pieces mix into the soil to feed plants, using simple scientific thinking.",
+        "meets": "Student identifies that broken eggshells help plants (by going into soil, giving food to plants, or helping plants be strong) with basic logical reasoning.",
+        "approaching": "Student suggests shells help plants but explanation is vague, incomplete, or only partially connected to how decomposition supports growth (e.g., 'shells help' with no explanation).",
+        "beginning": "Student provides a minimal or unclear response showing little understanding of the connection between broken eggshells and plant growth."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:22:39.391Z",
+  "cost": 0.004952
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Earthworm",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe about the earthworm's body, and how might its shape help it move through soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the long, tube-shaped body and segmented rings, then explains in detail how these features allow the earthworm to squeeze through soil spaces and move by contracting muscles in different sections.",
+        "meets": "Student describes the earthworm's long, thin shape and segments, and explains that this shape helps it push through soil or move in tunnels.",
+        "approaching": "Student notices the earthworm is long and thin or mentions segments, but provides only a basic or incomplete explanation of how the shape helps movement.",
+        "beginning": "Student makes a simple observation about the earthworm's appearance but does not explain how its body shape relates to movement through soil."
+      }
+    },
+    {
+      "questionText": "Why do you think earthworms need moist soil? What might happen if the soil dried out completely?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that earthworms need moisture because they breathe through their skin, and predicts multiple realistic consequences of dry soil such as inability to breathe, difficulty moving, or death due to dehydration.",
+        "meets": "Student states that earthworms need water to survive or to breathe through their skin, and predicts that the earthworm would die or be harmed if soil dried out completely.",
+        "approaching": "Student recognizes that moisture is important for earthworms but provides limited reasoning; prediction about dry soil is vague or partially accurate.",
+        "beginning": "Student provides a minimal response such as 'worms need water' without explanation or prediction about dried soil."
+      }
+    },
+    {
+      "questionText": "How do earthworms help plants and gardens grow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that earthworms break down dead material into nutrients, create tunnels that loosen soil and improve drainage, and make nutrients available for plant roots to absorb.",
+        "meets": "Student identifies at least two ways earthworms help gardens, such as breaking down dead material, making soil looser, or helping plants get nutrients.",
+        "approaching": "Student mentions one way earthworms help gardens (such as mixing soil or adding nutrients) but explanation is incomplete or partially accurate.",
+        "beginning": "Student provides a vague response such as 'earthworms help plants' without specific explanation of how they help."
+      }
+    },
+    {
+      "questionText": "If an earthworm's habitat became flooded with water for weeks, predict what problems the earthworm might face.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts multiple realistic problems such as inability to breathe (soil lacks oxygen), being unable to find food, loss of habitat, or drowning, and explains reasoning based on earthworm biology or needs.",
+        "meets": "Student predicts at least two problems the earthworm would face during flooding, such as difficulty breathing, escaping, or finding food, with reasonable explanations.",
+        "approaching": "Student makes one prediction about flooding's effects (such as 'the earthworm might die') but explanation lacks detail or shows incomplete reasoning.",
+        "beginning": "Student makes a vague prediction about the earthworm being harmed by flooding without explaining what specific problems would occur."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:28:12.843Z",
+  "cost": 0.004987
+}

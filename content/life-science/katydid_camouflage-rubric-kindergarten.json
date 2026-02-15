@@ -1,0 +1,53 @@
+{
+  "title": "Katydid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why is it hard to see the katydid in the grass?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the katydid is green like the grass and plants around it, making it blend in so it is camouflaged and hard to spot. Student may use the word \"camouflage\" or \"blend in\" correctly.",
+        "meets": "Student identifies that the katydid's color is the same as or similar to the grass, which makes it hard to see. Response shows understanding of color matching.",
+        "approaching": "Student mentions the katydid is green or that it matches the grass, but explanation is incomplete or somewhat unclear about why this makes it hard to see.",
+        "beginning": "Student provides a vague response such as \"it's hiding\" or \"it's green\" without explaining the connection between the katydid's color and the grass."
+      }
+    },
+    {
+      "questionText": "How does the katydid's green color help it stay safe?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the green color helps the katydid stay safe by hiding it from animals that might eat it, and identifies that predators cannot see it easily because it matches the plants. Student demonstrates understanding of predator-prey relationships.",
+        "meets": "Student explains that the green color helps the katydid hide from animals that want to eat it, or that it helps keep it safe by making it hard to see.",
+        "approaching": "Student recognizes that the green color helps the katydid stay safe but provides limited explanation of how or why it works that way.",
+        "beginning": "Student provides minimal response such as \"it helps it hide\" or \"it keeps it safe\" without explaining the connection to color or predators."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if this katydid lived on a brown tree instead of green grass?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the katydid would be easy to see on the brown tree because its green color would not match, and explains that this would make it less safe from predators. Student demonstrates understanding that camouflage works through color matching.",
+        "meets": "Student predicts that the katydid would be easier to see on a brown tree because green and brown are different colors, or that it would not be hidden as well.",
+        "approaching": "Student makes a prediction about what would happen but provides limited reasoning, such as \"it would be seen\" without explaining why the color difference matters.",
+        "beginning": "Student makes a guess or provides an unclear prediction with little or no explanation of the role of color matching in camouflage."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that blend in with where they live?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names one or more animals that camouflage and explains how each one blends in with its environment (e.g., brown rabbits in fields, white polar bears in snow, spotted deer in forests). Response shows clear understanding of camouflage in multiple animals.",
+        "meets": "Student names one or two animals that blend in with their environment and provides a brief explanation of how they match their surroundings.",
+        "approaching": "Student names an animal that might blend in, but explanation of how it camouflages is vague or incomplete.",
+        "beginning": "Student names an animal but provides no clear connection to camouflage or blending in, or response is unclear or inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:17:19.000Z",
+  "cost": 0.005218
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to the reflection if we made the table surface rough with sandpaper?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the reflection would disappear or become blurry/fuzzy and explains that smooth surfaces are needed to make clear reflections, using accurate descriptive language.",
+        "meets": "Student predicts the reflection would disappear or become less clear and provides a basic explanation that rough surfaces don't reflect well.",
+        "approaching": "Student predicts some change to the reflection but explanation is vague or only partially correct (e.g., 'it would change' without explaining how or why).",
+        "beginning": "Student makes an incorrect prediction or provides no explanation; response shows minimal understanding that surface texture affects reflections."
+      }
+    },
+    {
+      "questionText": "Why can you see the flowers clearly in the table but not in the wall behind them?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that the shiny/smooth table surface acts like a mirror and reflects the flowers, while the rough/non-shiny wall does not, using appropriate descriptive vocabulary.",
+        "meets": "Student explains that the table is smooth/shiny and reflects the flowers, while the wall is rough/not shiny and does not create a reflection.",
+        "approaching": "Student identifies that the table and wall are different but explanation of why reflections appear is incomplete or unclear (e.g., mentions smoothness but not reflection).",
+        "beginning": "Student provides minimal or inaccurate response; may notice surfaces look different but shows little understanding of how this creates or prevents reflections."
+      }
+    },
+    {
+      "questionText": "How is the reflection the same as the real flowers? How is it different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (color, shape, size) and differences (reflection is not real, appears below/in table, is reversed or less bright), demonstrating careful observation.",
+        "meets": "Student identifies at least one similarity and one difference; both are accurate (e.g., same color and shape but it's not real; or looks the same but it's in the table).",
+        "approaching": "Student identifies either similarities OR differences but not both clearly; some statements may be vague or partially inaccurate.",
+        "beginning": "Student attempts comparison but response is mostly inaccurate, vague, or demonstrates minimal understanding of what makes a reflection similar to and different from the real object."
+      }
+    },
+    {
+      "questionText": "What other places in our classroom or school show reflections like this table?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific reflective surfaces in classroom/school (e.g., windows, mirrors, shiny desks, water fountains) and explains why they reflect using descriptive vocabulary about surface smoothness.",
+        "meets": "Student identifies two specific reflective surfaces in the classroom or school (e.g., mirrors, windows) that could show reflections similar to the table.",
+        "approaching": "Student identifies one reflective surface or identifies surfaces that are not accurate examples; explanation may be unclear or missing.",
+        "beginning": "Student provides vague or inaccurate examples; response shows minimal understanding of where reflections occur in the school environment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:19:09.000Z",
+  "cost": 0.004891
+}

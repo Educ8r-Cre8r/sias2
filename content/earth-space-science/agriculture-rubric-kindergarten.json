@@ -1,0 +1,53 @@
+{
+  "title": "Agriculture",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if farmers didn't prepare the soil before planting seeds?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a specific negative outcome (seeds won't grow, plants will be sick, seeds will stay in hard ground) and explains why preparation helps using simple cause-and-effect reasoning.",
+        "meets": "Student predicts that seeds won't grow or plants will have a problem if soil isn't prepared, showing basic understanding of soil's importance.",
+        "approaching": "Student gives a response that suggests soil matters for growing but reasoning is unclear or only partially explains what would go wrong.",
+        "beginning": "Student provides a vague answer, guesses randomly, or says 'I don't know' with no attempt to connect soil to plant growth."
+      }
+    },
+    {
+      "questionText": "How is the tractor helping the farmer get the soil ready for plants?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple ways the tractor helps (breaks up hard dirt, moves soil around, makes it soft and fluffy) and explains why this helps seeds or roots.",
+        "meets": "Student accurately explains that the tractor moves or breaks up the soil to make it ready for planting, showing clear understanding of the tractor's role.",
+        "approaching": "Student identifies that the tractor is doing something to the soil but explanation is incomplete or somewhat unclear about how this helps plants.",
+        "beginning": "Student makes a simple observation about the tractor (it's big, it has wheels) but doesn't explain how it prepares soil or shows minimal understanding of its purpose."
+      }
+    },
+    {
+      "questionText": "What do plants need from soil to grow big and strong?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple things soil provides (food/nutrients, water, a place for roots to grow) and shows understanding that these help plants become big and strong.",
+        "meets": "Student identifies at least two things plants need from soil (like food, water, or a place to grow roots) that support plant growth.",
+        "approaching": "Student names one thing plants need from soil but may lack detail or include one inaccurate idea along with accurate information.",
+        "beginning": "Student gives a vague or mostly inaccurate answer, such as 'plants need dirt' without explaining what soil provides, or gives unrelated responses."
+      }
+    },
+    {
+      "questionText": "If you were a tiny seed in this soil, what would you want the farmer to do to help you grow?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides creative yet scientifically reasonable requests (soft soil to push through, water, warmth, nutrients) and explains why each would help the seed grow.",
+        "meets": "Student requests 2-3 specific things the farmer could do (prepare soft soil, add water, give sunlight) that would genuinely help a seed grow.",
+        "approaching": "Student makes a request that shows some understanding of seed needs (like water or soft soil) but explanation is limited or includes one less relevant idea.",
+        "beginning": "Student gives an unclear or overly imaginative answer that doesn't connect to actual plant growth needs, or shows minimal understanding of what seeds require."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:35:27.684Z",
+  "cost": 0.004834
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Moss on Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where the moss is growing on these rocks?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific locations where moss grows (e.g., on top, sides, in cracks) and describes what the moss looks like using descriptive words like soft, fuzzy, or green.",
+        "meets": "Student identifies where moss is growing on the rocks (e.g., on top or on the sides) and describes the moss using basic details.",
+        "approaching": "Student notices that moss is on the rocks but provides vague location details or limited description of the moss's appearance.",
+        "beginning": "Student makes a simple observation about moss or rocks but does not clearly identify where the moss is located or what it looks like."
+      }
+    },
+    {
+      "questionText": "Why do you think moss can grow on rocks when other plants need soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a reasonable explanation that moss might get water from rain or air and doesn't need soil like other plants do, showing understanding that plants have different needs.",
+        "meets": "Student gives a simple explanation such as moss getting water from somewhere other than soil, or that moss doesn't need soil to grow.",
+        "approaching": "Student attempts to explain the difference but provides incomplete or partially inaccurate reasoning (e.g., moss is different but unclear why).",
+        "beginning": "Student provides a minimal response with little or no explanation of why moss can grow on rocks without soil."
+      }
+    },
+    {
+      "questionText": "What might happen to these rocks if moss keeps growing on them for many, many years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that rocks could break down, crumble, or change into soil over time due to moss growth, showing understanding of weathering and long-term change.",
+        "meets": "Student predicts a reasonable change to the rocks, such as them becoming smaller, breaking apart, or being covered more by moss.",
+        "approaching": "Student makes a prediction about change but it lacks clear reasoning or is only partially accurate (e.g., rocks will change but doesn't explain how).",
+        "beginning": "Student provides a vague prediction or response that shows minimal understanding of how moss might affect rocks over time."
+      }
+    },
+    {
+      "questionText": "How is moss the same as other plants you know, and how is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (e.g., green color, living) and differences (e.g., no roots or soil needed, fuzzy texture, grows on rocks) showing detailed comparison between moss and common plants.",
+        "meets": "Student identifies at least one similarity and one difference between moss and other plants they know (e.g., same: green; different: grows on rocks).",
+        "approaching": "Student attempts to compare moss to other plants but provides limited or partially accurate comparisons (e.g., mentions one characteristic but doesn't clearly explain if it's same or different).",
+        "beginning": "Student provides a minimal response with little or no clear comparison between moss and other plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:25:15.357Z",
+  "cost": 0.004707
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Insect Characteristics",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the grasshopper's color? Why might it be green like the leaf?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the grasshopper is green, explains that green color helps it hide on leaves so animals don't see it, and uses the word 'camouflage' or describes how this keeps the grasshopper safe.",
+        "meets": "Student notices the grasshopper is green and makes a simple connection that being green like the leaf helps it hide or blend in.",
+        "approaching": "Student identifies that the grasshopper is green or that it matches the leaf, but doesn't explain why this is helpful or makes an unclear connection.",
+        "beginning": "Student gives a vague response about color, such as 'it's green' with no explanation, or shows confusion about what they're observing."
+      }
+    },
+    {
+      "questionText": "What parts of the grasshopper's body help it survive? Can you show me with your own body?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (long back legs for jumping, antennae for sensing, strong mouth for eating) and demonstrates how each one works by moving their own body in a way that shows understanding.",
+        "meets": "Student names at least two grasshopper body parts that help it survive and demonstrates one or two of them using their own body movements.",
+        "approaching": "Student identifies one body part (such as legs) and either explains its purpose or attempts to demonstrate it, but not both clearly.",
+        "beginning": "Student names a body part with little or no explanation of its purpose, or demonstrates movement but cannot identify what body part they're showing."
+      }
+    },
+    {
+      "questionText": "What do you think the grasshopper eats, and why is it sitting on this plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that grasshoppers eat plants or leaves, makes a clear connection that the grasshopper is sitting on the plant because that is its food, and may mention that it needs to eat to survive and grow.",
+        "meets": "Student suggests the grasshopper eats plants or leaves and connects this to why it's sitting on the leaf, showing a basic understanding of feeding behavior.",
+        "approaching": "Student makes a reasonable guess about what the grasshopper eats OR explains why it's on the plant, but doesn't connect the two ideas together.",
+        "beginning": "Student provides a vague answer such as 'it eats stuff' or 'it likes plants' with no clear connection between food and location."
+      }
+    },
+    {
+      "questionText": "How would the grasshopper's life be different if it were red instead of green?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a red grasshopper would be easier to see on green leaves, making it harder to hide from predators, and may add that animals might eat it more easily or that it wouldn't survive as well.",
+        "meets": "Student recognizes that red would stand out on a green leaf and explains that this would make it easier for predators or other animals to find and eat the grasshopper.",
+        "approaching": "Student acknowledges that red looks different from green or that it wouldn't blend in as well, but the explanation of consequences is unclear or incomplete.",
+        "beginning": "Student says 'it would look different' or gives a response unrelated to survival, such as 'red is pretty,' with no understanding of how color affects survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:16:31.605Z",
+  "cost": 0.005186
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Snow",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe falling from the sky in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies snow and describes specific observable details such as white snowflakes, how they fall, or where they land on the building and ground.",
+        "meets": "Student correctly identifies snow falling from the sky with at least one simple descriptive detail.",
+        "approaching": "Student identifies snow but provides only vague descriptions or limited observations about what is falling.",
+        "beginning": "Student attempts to answer but provides minimal response, such as naming only 'snow' with no detail, or gives an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "Why do you think the water from the sky is frozen into snow instead of falling as rain?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that it is cold or freezing outside, and connects this to water freezing into ice/snow, demonstrating understanding that temperature affects the state of water.",
+        "meets": "Student correctly states that it is very cold outside, which causes the water to freeze into snow instead of rain.",
+        "approaching": "Student mentions cold weather but offers incomplete reasoning about how cold causes freezing or the connection between temperature and water's form.",
+        "beginning": "Student provides a minimal response such as 'it's cold' with no explanation, or offers an inaccurate reason for why snow forms."
+      }
+    },
+    {
+      "questionText": "Where do you think the snow goes after it lands on the ground? Where does the water go?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple ways snow can go away, such as melting when it gets warmer, soaking into the ground, or evaporating, showing understanding of water's movement and phase changes.",
+        "meets": "Student identifies one or two ways snow disappears, such as melting into water or soaking into the ground when it warms up.",
+        "approaching": "Student mentions what happens to snow but with incomplete or partially accurate ideas about where the water goes or how the process works.",
+        "beginning": "Student provides minimal response such as 'it melts' or 'it goes away' with little explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "How is snow different from rain? What would happen if it was warmer outside?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly describes that snow is frozen and rain is liquid water, explains that warmer temperatures would cause snow to become rain or melt, and may mention this relates to the temperature of the air.",
+        "meets": "Student identifies that snow is cold/frozen and rain is wet/liquid, and correctly predicts that warmer weather would cause snow to melt or turn to rain.",
+        "approaching": "Student attempts to compare snow and rain but lacks clarity in describing the differences, or makes a prediction about warmth but with incomplete reasoning.",
+        "beginning": "Student provides vague or minimal comparisons between snow and rain, or gives an inaccurate prediction about what warmth would do."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:42:33.947Z",
+  "cost": 0.004648
+}

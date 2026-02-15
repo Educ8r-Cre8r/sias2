@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why is it hard to see the spider on the tree bark?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the spider's brown and tan colors match the tree bark's colors, making it blend in, and may add that the bumpy texture also helps hide it.",
+        "meets": "Student states that the spider's color is the same as or similar to the bark, which makes it hard to see.",
+        "approaching": "Student mentions that the spider blends in or is hard to see but provides limited explanation of why the color matters.",
+        "beginning": "Student gives a vague response such as 'it's hiding' or 'the color' without explaining the connection between the spider's appearance and the bark."
+      }
+    },
+    {
+      "questionText": "How does the spider's color help it stay safe from animals that want to eat it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that because the spider blends in with the bark, predators cannot easily find or see it, so they cannot catch it to eat.",
+        "meets": "Student states that the spider's brown color helps it hide so animals that eat spiders cannot see it.",
+        "approaching": "Student mentions that the color helps the spider hide or stay safe but does not clearly explain how hiding keeps it away from predators.",
+        "beginning": "Student provides a brief or unclear response such as 'it keeps it safe' without explaining the role of camouflage or predators."
+      }
+    },
+    {
+      "questionText": "If this spider moved to a different tree with bright green moss, would its brown color still help it hide? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly states that the brown color would NOT help hide the spider on green moss because the colors are different and do not match, and may explain that the spider would stand out.",
+        "meets": "Student correctly answers that the brown color would not work on green moss because brown and green are different colors.",
+        "approaching": "Student attempts to compare the colors but shows incomplete reasoning, such as saying the color 'might not help' or providing unclear explanation.",
+        "beginning": "Student gives an unclear answer or guesses without attempting to compare the spider's color to green moss."
+      }
+    },
+    {
+      "questionText": "Where else in nature might you find animals that blend in with their surroundings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple specific examples with details, such as 'a green grasshopper on leaves' or 'a white rabbit in snow,' showing understanding that camouflage occurs across different habitats.",
+        "meets": "Student gives one or two reasonable examples of animals that blend in, such as a frog in grass or a bird on a branch.",
+        "approaching": "Student provides an example but with limited detail or clarity, such as naming an animal without explaining where it blends in.",
+        "beginning": "Student offers a vague or unclear response, such as 'in the woods' or names an animal without explaining how it blends in."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:07:04.260Z",
+  "cost": 0.0047
+}

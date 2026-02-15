@@ -1,0 +1,53 @@
+{
+  "title": "Mechanical Energy",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we tried to lift that big silver ball with just our hands?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts we couldn't lift it and provides a specific reason (e.g., 'It's too heavy,' 'We're not strong enough,' 'It would hurt our backs') with confidence and clear thinking.",
+        "meets": "Student correctly predicts we couldn't lift the ball and gives a simple reason related to weight or strength.",
+        "approaching": "Student indicates it would be hard or we might not be able to lift it, but reasoning is unclear or incomplete.",
+        "beginning": "Student makes a vague comment about the ball or lifting with minimal reasoning about why it would be difficult."
+      }
+    },
+    {
+      "questionText": "Why does the machine have such a long arm instead of a short one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the long arm reaches higher, lifts heavier things, or helps the machine move things far away, showing understanding that the arm's length makes the work easier or possible.",
+        "meets": "Student identifies that the long arm helps reach high places or lift the ball, showing basic understanding of how the arm's length is useful.",
+        "approaching": "Student mentions the arm is long or reaches high, but doesn't clearly explain why a long arm is better than a short one.",
+        "beginning": "Student makes a simple observation about the arm being long without explaining its purpose or function."
+      }
+    },
+    {
+      "questionText": "Where does the crane get the energy (power) to lift the heavy ball?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies the truck's engine as the power source and may add that the engine helps move the crane or gives it strength to lift.",
+        "meets": "Student correctly identifies the truck, engine, or gas/fuel as where the crane gets its power.",
+        "approaching": "Student mentions the truck or that something inside it provides power, but is unclear or incomplete in their explanation.",
+        "beginning": "Student gives a vague response like 'the machine' or 'something' provides power without identifying the truck or engine."
+      }
+    },
+    {
+      "questionText": "How is this crane similar to something you use at home or school to make work easier?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a thoughtful comparison to a specific tool (e.g., seesaw, ramp, pulley on a flagpole, door handle) and explains how both use a long part or lever to make lifting or moving easier.",
+        "meets": "Student compares the crane to a familiar tool or object (e.g., a seesaw, slide, or ramp) and identifies that both help make work easier.",
+        "approaching": "Student names a familiar object but the connection to how it makes work easier is unclear or partially explained.",
+        "beginning": "Student names a familiar object or tool with little or no explanation of how it relates to the crane's function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:44:04.551Z",
+  "cost": 0.004638
+}

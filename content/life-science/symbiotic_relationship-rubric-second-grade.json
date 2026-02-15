@@ -1,0 +1,53 @@
+{
+  "title": "Symbiotic Relationship",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the bee goes to the flower? What does the bee need?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bee needs food (pollen or nectar) and explains why the flower is a good source, demonstrating clear understanding of the bee's basic needs.",
+        "meets": "Student correctly states that the bee goes to the flower to get food, showing basic understanding of why bees visit flowers.",
+        "approaching": "Student mentions food or that bees need something from flowers but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a vague answer such as 'the bee likes flowers' without explaining what the bee actually needs from the flower."
+      }
+    },
+    {
+      "questionText": "How does the flower help the bee, and how does the bee help the flower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that the flower provides food (pollen or nectar) for the bee AND that the bee helps by moving pollen from flower to flower, showing understanding of the two-way relationship.",
+        "meets": "Student identifies that the flower gives food to the bee and that the bee helps spread pollen, demonstrating solid understanding of this symbiotic relationship.",
+        "approaching": "Student identifies one way they help each other (either flower gives food OR bee spreads pollen) but not both, or explanations lack clear detail.",
+        "beginning": "Student attempts to answer but provides incomplete or mostly inaccurate information about how the bee and flower help each other."
+      }
+    },
+    {
+      "questionText": "What would happen to flowers if there were no bees or other insects to visit them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that flowers would not make seeds or new flowers because pollen wouldn't be spread, showing understanding of the consequence when the symbiotic relationship is broken.",
+        "meets": "Student predicts that flowers would have a problem or not grow/make seeds, understanding that bees are important to flowers.",
+        "approaching": "Student recognizes that something bad would happen to flowers but the explanation is vague or partially inaccurate.",
+        "beginning": "Student attempts an answer but shows minimal understanding of the connection between bees visiting flowers and flower reproduction or survival."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal and plant that might help each other like the bee and flower do?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a realistic example (such as butterfly and flower, hummingbird and flower, or squirrel and tree) AND explains how each one helps the other, demonstrating transfer of understanding.",
+        "meets": "Student provides a realistic example of an animal and plant that help each other and explains the basic relationship between them.",
+        "approaching": "Student provides an example of an animal and plant together but the explanation of how they help each other is unclear, incomplete, or partially inaccurate.",
+        "beginning": "Student names an animal and plant pair but provides no explanation or the pairing seems unrelated to a helpful relationship."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:38:29.635Z",
+  "cost": 0.004679
+}

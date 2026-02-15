@@ -1,0 +1,53 @@
+{
+  "title": "Ice Ball",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice happening to the ice ball?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations about the ice ball, such as cracks, lines, water puddles, and the melting process, using clear descriptive language.",
+        "meets": "Student describes what is happening to the ice ball, such as it is melting or turning into water, with at least one detail about the ice or puddles.",
+        "approaching": "Student makes a simple observation about the ice ball (such as 'it's melting' or 'there's water'), but provides limited or vague details.",
+        "beginning": "Student provides a minimal response with little detail, such as 'it's wet' or 'water,' or does not accurately describe what is happening."
+      }
+    },
+    {
+      "questionText": "Why do you think the ice is changing into water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heat or warmth causes ice to melt into water, using the word 'melt' correctly and connecting it to temperature change in age-appropriate language.",
+        "meets": "Student provides a reasonable explanation that heat, warmth, or being left out causes the ice to turn into water.",
+        "approaching": "Student attempts to explain why the ice is changing but gives an incomplete or partially accurate reason, such as 'it's getting wet' or 'time is passing.'",
+        "beginning": "Student provides a vague or inaccurate explanation with little connection to heat or temperature, such as 'it just does' or an off-topic response."
+      }
+    },
+    {
+      "questionText": "What would happen if we put this ice ball in the freezer instead?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the ice would stay frozen or become harder/stay the same, and explains that the freezer is cold, showing understanding that cold temperatures preserve ice.",
+        "meets": "Student predicts that the ice would stay frozen or not melt if put in the freezer, with a simple reference to the freezer being cold.",
+        "approaching": "Student makes a prediction about the ice in the freezer, but the reasoning is unclear or only partially correct, such as 'it would get cold' without connecting to the ice staying frozen.",
+        "beginning": "Student makes a prediction without clear reasoning, or provides an inaccurate prediction such as 'it would melt faster' or 'nothing would happen.'"
+      }
+    },
+    {
+      "questionText": "How is this melting ice ball like snow melting outside in spring?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both ice and snow melt into water when it becomes warmer in spring, making a clear connection between the two melting processes and explaining the role of temperature.",
+        "meets": "Student explains that both the ice ball and snow turn into water or melt when it gets warmer, showing understanding of the similar process.",
+        "approaching": "Student recognizes that the ice ball and snow are alike in some way related to melting or water, but the explanation is incomplete or lacks clear connection to temperature or seasons.",
+        "beginning": "Student provides a vague comparison such as 'they're both cold' or 'they're both white,' with little connection to the melting process."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:30:53.600Z",
+  "cost": 0.004922
+}

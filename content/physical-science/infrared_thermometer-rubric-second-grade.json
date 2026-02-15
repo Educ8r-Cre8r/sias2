@@ -1,0 +1,53 @@
+{
+  "title": "Infrared Thermometer",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we measured the temperature of the same bricks at nighttime?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the bricks would be cooler or colder at night and explains that the sun heats things during the day, so without sunlight the bricks would lose heat and become cooler.",
+        "meets": "Student predicts the bricks would be cooler or colder at night with a simple reason like \"no sun\" or \"the sun makes things hot.\"",
+        "approaching": "Student predicts the temperature would change but the explanation is unclear or incomplete, such as only saying \"it will be different\" without explaining why.",
+        "beginning": "Student's prediction is vague, incorrect, or shows minimal understanding, such as saying the temperature would stay the same or stating an unrelated answer."
+      }
+    },
+    {
+      "questionText": "How is this tool different from a regular thermometer that goes in your mouth?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that this tool measures temperature without touching the object and explains that it can measure hot things from far away, while mouth thermometers must touch skin and measure body temperature.",
+        "meets": "Student correctly states at least two differences, such as \"this one doesn't touch things\" and \"it measures anything, not just your body.\"",
+        "approaching": "Student identifies one difference between the tools but struggles to fully explain it, or descriptions are partially accurate.",
+        "beginning": "Student's response shows minimal understanding of the differences, such as only noticing the tools look different or providing an inaccurate comparison."
+      }
+    },
+    {
+      "questionText": "Why might the bricks be hotter than the air around them on this sunny day?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sun's heat warms the bricks directly and the bricks soak up or absorb the sun's energy, making them hotter than the air around them.",
+        "meets": "Student explains that the sun makes the bricks hot and that the bricks absorb or hold heat from the sunlight.",
+        "approaching": "Student recognizes the sun makes the bricks hot but the explanation is incomplete or unclear about how the bricks get warmer than the air.",
+        "beginning": "Student provides a minimal or inaccurate explanation, such as only stating \"the sun is hot\" without connecting it to why the bricks are hotter than the air."
+      }
+    },
+    {
+      "questionText": "What other objects around our school might be really hot on a sunny day like this?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three objects that would get hot in the sun (such as playground equipment, metal slides, benches, or blacktop) and explains that these objects absorb the sun's heat like the bricks do.",
+        "meets": "Student identifies at least two objects that would get hot in the sun with reasonable explanations, such as \"the metal slide because the sun heats it up.\"",
+        "approaching": "Student identifies one or two objects but explanations are vague or incomplete, such as just listing objects without explaining why they would be hot.",
+        "beginning": "Student names objects that don't make sense in a sunny day context, or provides minimal effort with very vague responses."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:34:11.017Z",
+  "cost": 0.004962
+}

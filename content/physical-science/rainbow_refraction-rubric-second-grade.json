@@ -1,0 +1,53 @@
+{
+  "title": "Rainbow Refraction",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside those water droplets that makes the different colors appear?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sunlight bends (refracts) inside water droplets and separates into different colors, using accurate scientific vocabulary and showing understanding that white light is made of many colors.",
+        "meets": "Student describes that light bends or changes inside the water droplets and that this causes colors to separate or appear.",
+        "approaching": "Student recognizes that something happens inside the water droplets to make colors, but explanation is vague or partially incomplete (e.g., 'the water makes colors' without describing bending or separation).",
+        "beginning": "Student provides minimal response with little accuracy, such as 'the water is colorful' or 'magic happens,' showing minimal understanding of the light interaction."
+      }
+    },
+    {
+      "questionText": "Why do you think you can only see a rainbow when the sun is behind you and the rain is in front of you?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that light must travel from the sun through the water droplets to reach your eyes, and that you need to be positioned between the sun and rain for this to happen, demonstrating understanding of light direction and position.",
+        "meets": "Student describes that the sun needs to be behind you and rain in front of you, and provides a reasonable explanation such as 'the light needs to go through the rain to reach your eyes.'",
+        "approaching": "Student states that the sun must be behind and rain in front, but reasoning is unclear or incomplete; may lack explanation of why this positioning matters.",
+        "beginning": "Student provides vague or inaccurate response such as 'you just have to stand that way' without reasoning about light or positioning."
+      }
+    },
+    {
+      "questionText": "If rainbows are made of separated colors from sunlight, what color do you think appears on the outside edge of the rainbow, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies red as the outside color and explains that colors separate or spread out when light bends, with red bending the least or appearing on the outside, demonstrating understanding of color order in rainbows.",
+        "meets": "Student correctly identifies red as the outside edge color and provides a basic explanation such as 'red is on the outside because the colors spread out' or 'it bends differently.'",
+        "approaching": "Student identifies red as the outside color but offers unclear or incomplete reasoning; may describe color separation without fully connecting it to why red is outside.",
+        "beginning": "Student guesses a color without reasoning, provides an incorrect color, or shows minimal understanding of how colors separate in a rainbow."
+      }
+    },
+    {
+      "questionText": "Have you ever seen a rainbow? Can you describe where the sun and rain were when you saw it?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes a specific personal rainbow experience with accurate details about the sun's position (behind them) and rain's position (in front), including additional context like time of day or weather conditions.",
+        "meets": "Student describes seeing a rainbow and correctly identifies that the sun was behind them and rain was in front of them, with mostly accurate spatial relationships.",
+        "approaching": "Student describes seeing a rainbow but provides incomplete or partially inaccurate description of sun and rain positions; may correctly identify one but not both positions clearly.",
+        "beginning": "Student provides minimal response such as 'yes, I saw a rainbow' without clear description of sun and rain positions, or indicates no personal experience with minimal explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:23:50.699Z",
+  "cost": 0.005289
+}

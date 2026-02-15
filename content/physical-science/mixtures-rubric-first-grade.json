@@ -1,0 +1,53 @@
+{
+  "title": "Mixtures",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What happened when we mixed the dry ingredients together?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes what happened to the dry ingredients with specific sensory details (e.g., \"they moved around,\" \"they got pushed together,\" \"they made a swirl\") and explains why mixing occurred (e.g., \"the whisk pushed them\").",
+        "meets": "Student describes what happened to the dry ingredients with at least one sensory detail (e.g., \"they mixed together\" or \"they got stirred up\").",
+        "approaching": "Student mentions that the ingredients mixed or changed but provides vague or minimal description (e.g., \"they mixed\" with no detail).",
+        "beginning": "Student provides an unclear or inaccurate response with little evidence of observing or understanding the mixing process."
+      }
+    },
+    {
+      "questionText": "How did the mixture look and feel different after we added the liquid?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes in appearance and/or texture (e.g., \"it turned red and wet,\" \"it became smooth and sticky\") and explains what caused the change (e.g., \"the liquid made it wet\").",
+        "meets": "Student identifies at least two ways the mixture changed, such as color and texture, with accurate descriptions (e.g., \"it got red\" and \"it became wet\").",
+        "approaching": "Student identifies one way the mixture changed (appearance or texture) but the description is vague or only partially accurate.",
+        "beginning": "Student provides a minimal response that does not clearly describe how the mixture changed or provides inaccurate information."
+      }
+    },
+    {
+      "questionText": "If we poured this mixture into a clear cup and left it sitting, what do you think might happen over time?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a reasonable prediction about settling or separation (e.g., \"the dry stuff might sink to the bottom\" or \"the red liquid and brown stuff might separate\") and provides a logical reason based on observations (e.g., \"because heavy things sink\").",
+        "meets": "Student makes a reasonable prediction about what might happen over time (e.g., \"it might settle\" or \"the parts might separate\") without providing a detailed reason.",
+        "approaching": "Student makes a prediction but it shows limited understanding (e.g., the prediction is vague like \"it will change\" or weakly connected to mixture behavior).",
+        "beginning": "Student provides a prediction that is unreasonable, unclear, or shows minimal attempt to think about what happens to mixtures over time."
+      }
+    },
+    {
+      "questionText": "How could we separate this mixture back into its parts?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests a realistic separation method (e.g., \"pour out the liquid\" or \"scoop out the dry stuff\" or \"use a strainer\") and explains how it would work to separate the parts.",
+        "meets": "Student suggests a realistic separation method (e.g., \"pour it\" or \"scoop the dry parts\" or \"use a strainer\") that could actually work.",
+        "approaching": "Student suggests a method but it is unclear, partially correct, or only partially realistic (e.g., \"mix it again\" or an incomplete explanation).",
+        "beginning": "Student provides a method that is unrealistic, does not address separation, or shows minimal understanding of how to separate mixed materials."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:15:00.300Z",
+  "cost": 0.005205
+}

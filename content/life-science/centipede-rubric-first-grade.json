@@ -1,0 +1,53 @@
+{
+  "title": "Centipede",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think a centipede needs so many legs instead of just four like a dog?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that many legs help the centipede move faster or more smoothly, and makes a connection to how the long body needs support (e.g., 'all those legs help push its long body forward' or 'more legs make it move quicker to catch bugs').",
+        "meets": "Student provides a reasonable explanation such as 'many legs help it move' or 'it needs more legs because its body is longer,' showing basic understanding of the relationship between body structure and legs.",
+        "approaching": "Student recognizes that centipedes have many legs and attempts an explanation, but reasoning is incomplete or partially incorrect (e.g., 'it just has a lot of legs' or 'legs are for walking').",
+        "beginning": "Student provides a minimal or vague response with little connection to the centipede's body structure (e.g., 'I don't know' or 'it just does')."
+      }
+    },
+    {
+      "questionText": "What do you observe about how a centipede's body is organized?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple organizational features with accurate details, such as 'it has a long, flat body with lots of segments, legs on both sides, and a head with antennae at the front.'",
+        "meets": "Student accurately describes two or more features of the centipede's body organization, such as 'it has a long body with many legs on the sides' or 'legs go down both sides of its body.'",
+        "approaching": "Student observes one or two basic features but description may lack detail or include minor inaccuracies (e.g., 'it's long and has legs' or 'legs are on it').",
+        "beginning": "Student provides a vague or incomplete observation with little specific detail about body organization (e.g., 'it looks different' or 'it's an animal')."
+      }
+    },
+    {
+      "questionText": "If a centipede lost three of its legs, do you think it could still move? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts yes, the centipede could still move, and explains with reasoning such as 'it has so many legs that losing three wouldn't stop it' or 'it still has enough legs left to push itself forward,' showing understanding that multiple legs provide backup support.",
+        "meets": "Student makes a reasonable prediction (yes or no) with a simple, logical explanation (e.g., 'yes, because it has lots of other legs' or 'it could still move because legs help it go').",
+        "approaching": "Student makes a prediction but explanation is unclear, partially incorrect, or incomplete (e.g., 'maybe it could move' or 'legs help it move').",
+        "beginning": "Student provides minimal reasoning or an answer without clear connection to the centipede's leg structure (e.g., 'I don't know' or 'yes/no' without explanation)."
+      }
+    },
+    {
+      "questionText": "Where might you find a centipede in your backyard, and why would it want to live there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific habitat location (e.g., 'under rocks or logs') and provides multiple reasons it would live there, such as 'it stays dark and damp, bugs live there to eat, and it's safe from predators.'",
+        "meets": "Student identifies a reasonable backyard location for a centipede and provides one logical reason (e.g., 'under the soil because it's dark' or 'under a log to find food').",
+        "approaching": "Student suggests a backyard location or reason but may lack clarity or accuracy in either the location or explanation (e.g., 'in the grass' or 'because it wants to').",
+        "beginning": "Student provides minimal or vague information without clear connection to centipede habitat needs (e.g., 'in the yard' or 'I don't know why')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:29:32.861Z",
+  "cost": 0.006012
+}

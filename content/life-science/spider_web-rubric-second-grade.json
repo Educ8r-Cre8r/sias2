@@ -1,0 +1,53 @@
+{
+  "title": "Spider Web",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the spider made its web between these two plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spider chose this location because the plants provide strong support for the web and that insects flying between plants would get caught; may mention that the web needs sturdy anchor points.",
+        "meets": "Student identifies that the plants hold up the web or that the spider needs something to attach the web to; shows understanding that the location helps the spider catch food.",
+        "approaching": "Student mentions plants or support but gives incomplete reasoning; may say the web is attached to plants without explaining why this location is useful for the spider.",
+        "beginning": "Student provides vague answer such as 'the spider likes it there' or simply states that the web is on plants without showing understanding of purpose or function."
+      }
+    },
+    {
+      "questionText": "What would happen to the web if the rain didn't come?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without water droplets, the web would be harder to see or invisible; may connect this to how water helps us observe the web's structure and describe what we would lose visually.",
+        "meets": "Student states that the web would not be visible or would be hard to see without the water droplets; shows understanding that the water makes the web visible.",
+        "approaching": "Student mentions the web might be invisible or that droplets help us see it, but explanation lacks clarity or is partially incomplete.",
+        "beginning": "Student provides minimal response such as 'the web would be wet' or 'nothing would happen' without demonstrating understanding of visibility."
+      }
+    },
+    {
+      "questionText": "How is a spider web like a fishing net?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes clear comparison by explaining that both catch moving creatures (insects or fish) in a web or net pattern; may note that both use strands/rope and require sturdy support structures.",
+        "meets": "Student identifies that both catch things or that both have a net-like pattern with strands; shows basic understanding of the similarity in function.",
+        "approaching": "Student makes a partial comparison, such as mentioning that both catch things or both have holes/openings, but reasoning is incomplete or unclear.",
+        "beginning": "Student's response shows minimal understanding, such as 'they both have holes' or a vague statement without clear reasoning about catching function."
+      }
+    },
+    {
+      "questionText": "What do you think the spider uses to hold the silk and build the web?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spider uses its legs to spin, hold, and connect the silk strands; may reference the spider's body parts or describe the spinning/building process with specific details.",
+        "meets": "Student identifies that the spider uses its legs or body to make and hold the web; demonstrates understanding that the spider itself builds the web with its own body.",
+        "approaching": "Student mentions legs or the spider's body but gives incomplete explanation; may be uncertain about the specific body part or process used.",
+        "beginning": "Student provides vague response such as 'the spider makes it' or 'its body' without explaining how the spider uses specific body parts to build the web."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:58:47.155Z",
+  "cost": 0.004858
+}

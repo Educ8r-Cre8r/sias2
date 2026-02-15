@@ -1,0 +1,53 @@
+{
+  "title": "Snake Skin",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How do you think a snake's scales help it move through leaves and grass?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that scales help the snake move by providing grip or traction, and identifies specific details like scales overlapping or being smooth, making movement through plants easier or faster.",
+        "meets": "Student explains that scales help the snake move through leaves and grass, with a basic description of how they work (e.g., 'they help it slide' or 'they protect it while moving').",
+        "approaching": "Student recognizes that scales help the snake move but provides incomplete or vague reasoning (e.g., 'scales are on snakes' or 'they help it go').",
+        "beginning": "Student provides a minimal response with little connection between scales and movement (e.g., 'snakes have scales' or no explanation given)."
+      }
+    },
+    {
+      "questionText": "Why might a snake with brown and gray coloring survive better in a forest than a bright red snake?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that brown and gray coloring blends in with the forest environment (camouflage), and connects this to survival by noting the snake can hide from predators or sneak up on prey better.",
+        "meets": "Student explains that brown and gray coloring helps the snake blend in with trees, leaves, or the ground, making it harder to see, which helps it survive.",
+        "approaching": "Student recognizes that color helps the snake hide or survive, but reasoning is incomplete (e.g., 'brown is better' without explaining why or how).",
+        "beginning": "Student provides a vague response with minimal understanding of camouflage or survival (e.g., 'red snakes are bad' or 'colors are different')."
+      }
+    },
+    {
+      "questionText": "If a snake sheds its skin many times in its life, what does that tell us about how much the snake grows?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that the snake must grow significantly if it sheds many times, and explains that shedding happens because the old skin becomes too tight as the snake gets bigger inside.",
+        "meets": "Student explains that shedding its skin many times means the snake grows a lot, or that the snake gets bigger and needs new skin.",
+        "approaching": "Student recognizes a connection between shedding and growth but provides limited explanation (e.g., 'it grows because it sheds' without clear reasoning).",
+        "beginning": "Student provides a minimal or unclear response with little evidence of understanding the relationship between shedding and growth (e.g., 'snakes shed' without connecting to growth)."
+      }
+    },
+    {
+      "questionText": "Compare how snakes grow and shed their skin to how humans grow. What is different? What is the same?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (snakes shed skin, humans don't) and similarities (both grow bigger over time), and provides details showing understanding of both organisms (e.g., 'snakes shed because their skin doesn't stretch, but humans' skin stretches').",
+        "meets": "Student identifies at least one clear difference (snakes shed skin; humans don't) and one similarity (both grow), with reasonable explanations.",
+        "approaching": "Student identifies a difference or similarity but lacks detail or clarity (e.g., 'snakes are different' or 'they both grow' without additional explanation).",
+        "beginning": "Student provides a minimal or vague response with little evidence of comparing the two organisms (e.g., 'snakes and humans are different' with no specific details)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:38:04.181Z",
+  "cost": 0.005446
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Snail",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the snail's shell is used for?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple functions of the shell (protection, home, carrying its house) and explains why protection matters for a soft-bodied animal.",
+        "meets": "Student correctly identifies that the shell protects the snail or provides shelter, with a clear explanation of how it helps the snail.",
+        "approaching": "Student identifies the shell's purpose but with limited detail; explanation may be incomplete or somewhat unclear (e.g., 'it protects it' without elaborating).",
+        "beginning": "Student provides a minimal or vague response about the shell's use, such as 'it's on the snail' or shows little understanding of its function."
+      }
+    },
+    {
+      "questionText": "Why do you think snails like to live in wet, damp places like gardens and near moss?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snails need moisture because their bodies are soft and slimy, and connects this to how the snail's body would dry out without water; may mention moss provides food.",
+        "meets": "Student correctly explains that snails need wet places because they are slimy or soft, and water helps them survive or move.",
+        "approaching": "Student recognizes that snails need wet places but explanation is incomplete (e.g., 'because it's wet' without connecting to the snail's body needs).",
+        "beginning": "Student provides a vague or inaccurate response, such as 'snails like water' without explaining why this matters for snails."
+      }
+    },
+    {
+      "questionText": "If a snail loses its shell, what do you think would happen to it? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the snail would die or be harmed and provides multiple reasons: loss of protection from predators, lack of shelter, and/or inability to survive without its shell.",
+        "meets": "Student predicts harm or death to the snail and explains it would lose protection from danger or its home.",
+        "approaching": "Student makes a prediction about the snail but reasoning is incomplete or partially accurate (e.g., 'it would die' without clear explanation of why).",
+        "beginning": "Student provides a minimal response with little reasoning, or shows uncertainty about the consequences for a snail without a shell."
+      }
+    },
+    {
+      "questionText": "How is a snail's shell like a house? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (shelter, protection, home) and differences (shell is part of snail's body, grows with snail, snail can't leave it), showing nuanced comparison.",
+        "meets": "Student identifies at least one clear similarity (provides shelter or protection) and one difference (attached to snail's body or snail is always inside), using grade-appropriate reasoning.",
+        "approaching": "Student identifies a similarity or difference but not both, or explanations lack clarity and detail (e.g., 'it's like a house because snails live in it').",
+        "beginning": "Student provides a minimal or vague response, such as 'it's like a house' without meaningful explanation or comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:38:44.003Z",
+  "cost": 0.004963
+}

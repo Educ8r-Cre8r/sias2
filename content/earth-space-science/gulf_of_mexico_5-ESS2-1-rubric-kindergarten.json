@@ -1,0 +1,53 @@
+{
+  "title": "Gulf of Mexico",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the waves are doing to the sand and rocks on the beach?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways waves affect the beach, such as moving sand, breaking rocks into smaller pieces, or washing things away, using specific observations from the photo.",
+        "meets": "Student correctly describes that waves move sand or change the beach in one or two clear ways, demonstrating basic understanding of wave action.",
+        "approaching": "Student mentions that waves do something to the beach but provides vague or incomplete descriptions, such as saying waves 'move things' without explaining how.",
+        "beginning": "Student gives a minimal response or makes an attempt that shows little understanding, such as simply saying 'waves go on the beach' without describing any change."
+      }
+    },
+    {
+      "questionText": "Why do you think someone put a warning sign here at the beach? What might be dangerous?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sign warns about the steep drop-off and describes specific dangers, such as people falling into deep water or getting hurt, showing thoughtful reasoning about safety.",
+        "meets": "Student correctly identifies that the sign warns of danger at the beach and names at least one hazard, such as the steep drop or deep water.",
+        "approaching": "Student recognizes that the sign is a warning but provides an incomplete or vague explanation of the danger, such as 'something bad could happen.'",
+        "beginning": "Student gives a minimal response that shows little connection between the sign and its purpose, such as 'the sign is there' without explaining why."
+      }
+    },
+    {
+      "questionText": "If you visited this beach every year, what might change? How would the beach look different next year?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple changes that could happen to the beach over time, such as sand moving, rocks being worn away, or the shoreline shifting, and explains that water causes these changes.",
+        "meets": "Student identifies at least one way the beach might look different in a year, such as more or less sand, or rocks becoming smaller, showing understanding that beaches change.",
+        "approaching": "Student recognizes that beaches can change but provides a vague or incomplete description, such as 'it will be different' without explaining how.",
+        "beginning": "Student gives a minimal response showing little understanding of beach changes, such as 'it will look the same' or no clear connection to water's effects."
+      }
+    },
+    {
+      "questionText": "How is water powerful? What are some ways water changes the land?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains water's power with specific examples from the beach, such as waves carving away land, moving sand, or wearing down rocks, and connects these to the photo.",
+        "meets": "Student describes at least two ways water changes the land, such as moving sand or breaking rocks, demonstrating understanding of water's power.",
+        "approaching": "Student mentions that water is powerful and changes the land but provides only one example or incomplete descriptions of how the changes happen.",
+        "beginning": "Student gives a minimal response such as 'water is strong' or 'water changes things' without explaining specific ways or showing limited understanding."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:42:17.561Z",
+  "cost": 0.004883
+}

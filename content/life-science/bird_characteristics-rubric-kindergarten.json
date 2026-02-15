@@ -1,0 +1,53 @@
+{
+  "title": "Bird Characteristics",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What body parts do you see on this pigeon, and what do you think each part helps the bird do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies 4+ bird body parts (feathers, wings, feet, beak, tail, legs, eyes) with accurate explanations of what each part does (wings help fly, feet help stand/grip, beak helps eat).",
+        "meets": "Student identifies 3 bird body parts with mostly accurate explanations of their functions, such as wings for flying or feet for standing.",
+        "approaching": "Student identifies 2 bird body parts with partial or unclear explanations of what they do, or names more parts but with limited functional descriptions.",
+        "beginning": "Student names 1 body part or provides vague responses with little connection to what the part helps the bird do."
+      }
+    },
+    {
+      "questionText": "Why do you think this pigeon has feathers instead of fur like a puppy?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that feathers help birds fly and keep them warm/dry, and shows understanding that different animals have different body coverings for different reasons.",
+        "meets": "Student provides a reasonable explanation that feathers help the pigeon fly or keep it warm, showing basic understanding that birds and dogs have different coverings.",
+        "approaching": "Student attempts an explanation but may confuse features or give incomplete reasoning (e.g., 'feathers are different' without explaining why or how they help).",
+        "beginning": "Student provides a minimal or unclear response that does not explain the difference between feathers and fur."
+      }
+    },
+    {
+      "questionText": "What does this pigeon need to eat, drink, and where might it sleep at night?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies appropriate food (seeds, breadcrumbs), water, and shelter locations (trees, ledges, nests), showing understanding of multiple basic needs for survival.",
+        "meets": "Student identifies 2 of the 3 categories (food, water, or shelter) with reasonable, age-appropriate responses.",
+        "approaching": "Student attempts to answer but provides incomplete or partially accurate responses, such as naming one need or giving vague shelter examples.",
+        "beginning": "Student provides minimal response with little detail or accuracy about what pigeons need to survive."
+      }
+    },
+    {
+      "questionText": "If you could give this pigeon a superpower to help it survive, what would it be and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests a creative, logical superpower (e.g., faster flying to escape predators, better night vision) with clear explanation of how it would help the pigeon survive.",
+        "meets": "Student suggests a reasonable superpower (e.g., flying faster, seeing better, finding food easier) and provides a basic explanation of why it would help.",
+        "approaching": "Student suggests a superpower but the explanation is unclear or weakly connected to survival, or the idea is vague.",
+        "beginning": "Student provides a superpower idea with no explanation, or an answer unrelated to helping the pigeon survive."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:39:00.659Z",
+  "cost": 0.004807
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Biological Decomposition",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside this hole in the tree?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the wood inside is breaking down or rotting and names what helps it happen (bugs, tiny living things, rain), using observation details from the photo.",
+        "meets": "Student identifies that something is breaking down or rotting inside the hole and attempts a simple explanation of why.",
+        "approaching": "Student notices the hole exists and makes a vague attempt to explain what might be happening inside, with limited accuracy.",
+        "beginning": "Student observes the hole but provides minimal or unclear ideas about what is happening inside it."
+      }
+    },
+    {
+      "questionText": "Why do you think this tree still has leaves and branches growing, even with such a big hole?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the tree gets water and food from roots and other healthy parts of the trunk, demonstrating understanding that one damaged part doesn't stop the whole tree from living.",
+        "meets": "Student recognizes that the tree can still grow because other parts are healthy or working, showing basic understanding of how trees survive damage.",
+        "approaching": "Student suggests the tree is still alive but gives an incomplete or partially inaccurate reason, such as focusing on only one part of the tree.",
+        "beginning": "Student notices the tree has leaves and branches but cannot explain why the tree survives with the hole present."
+      }
+    },
+    {
+      "questionText": "If you were a small animal like a bird or squirrel, why might you want to live in a tree cavity like this one?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple benefits of a tree cavity home, such as shelter from weather, protection from predators, and a safe place for babies, with specific details.",
+        "meets": "Student names at least two reasons why a small animal would want to live in the cavity, such as protection or shelter.",
+        "approaching": "Student identifies one benefit of living in a tree cavity but the explanation is vague or incomplete.",
+        "beginning": "Student shows minimal understanding of why animals use tree cavities, providing only very general or unclear reasons."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if nothing broke down dead wood in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead wood and fallen trees would pile up and describes consequences such as crowding the forest, blocking sunlight, or preventing new plants from growing.",
+        "meets": "Student predicts that dead wood would build up or accumulate in the forest, showing understanding of decomposition's role in the ecosystem.",
+        "approaching": "Student recognizes something negative would happen but gives an incomplete or unclear explanation of the consequences.",
+        "beginning": "Student provides a minimal or vague response with little evidence of understanding decomposition's importance in forests."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:43:58.010Z",
+  "cost": 0.004468
+}

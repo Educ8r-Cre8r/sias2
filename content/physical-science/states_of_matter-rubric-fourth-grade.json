@@ -1,0 +1,53 @@
+{
+  "title": "States Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the water on the ground and in the canal over the next few hours or days?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that water will evaporate into water vapor and disappear, and explains that heat from the sun causes this change of state; may also mention that some water will soak into the ground or flow downstream.",
+        "meets": "Student predicts that the water will disappear or dry up over time, demonstrating understanding that water can change from a liquid state.",
+        "approaching": "Student predicts the water will go away but provides vague or incomplete reasoning, such as 'it will dry up' without explaining the process or change of state involved.",
+        "beginning": "Student provides minimal response with little evidence of understanding, such as 'the water will be gone' with no explanation or incorrect ideas about what happens to water."
+      }
+    },
+    {
+      "questionText": "Why do you think communities need fire hydrants and water pipes underground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fire hydrants provide quick access to water for firefighting emergencies and that underground pipes protect water from contamination and freezing while efficiently distributing water throughout the community.",
+        "meets": "Student identifies that fire hydrants are used for fighting fires and that pipes underground deliver water to homes and buildings in the community.",
+        "approaching": "Student mentions fire hydrants or water pipes but provides incomplete reasoning, such as 'they have water for fires' without explaining the purpose of underground placement or broader community benefits.",
+        "beginning": "Student provides a minimal or vague response, such as 'they need water' with little understanding of why hydrants and underground pipes are necessary infrastructure."
+      }
+    },
+    {
+      "questionText": "How is the water in this hydrant different from ice cubes or water vapor?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student accurately describes that hydrant water is a liquid with a definite volume but takes the shape of its container, while ice is solid with a definite shape and volume, and water vapor is a gas with no definite shape or volume; may reference how temperature affects state changes.",
+        "meets": "Student identifies that hydrant water is a liquid and correctly describes how it differs from the solid state (ice) and gas state (water vapor) using appropriate vocabulary.",
+        "approaching": "Student recognizes the different states of matter but provides incomplete or partially inaccurate descriptions of the properties of liquid, solid, and gas states.",
+        "beginning": "Student attempts to compare states of matter but demonstrates minimal understanding with vague or mostly inaccurate descriptions of the different states."
+      }
+    },
+    {
+      "questionText": "If we collected all the water from this hydrant in a closed container where it couldn't escape, what changes might occur to the water over time, and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that water will evaporate and form water vapor at the top of the container, and explains that heat energy causes liquid water to change to a gas; may note that vapor could condense back to liquid if it cools, demonstrating understanding of reversible state changes.",
+        "meets": "Student predicts that water will evaporate or change into water vapor over time and explains that this happens because of heat or energy.",
+        "approaching": "Student predicts a change will occur but provides incomplete reasoning, such as 'the water will change' or 'some will disappear' without clearly explaining evaporation or the role of heat energy.",
+        "beginning": "Student provides a minimal response with little understanding, such as 'something will happen' or an inaccurate prediction about what occurs to water in a closed container."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:24:54.867Z",
+  "cost": 0.005403
+}

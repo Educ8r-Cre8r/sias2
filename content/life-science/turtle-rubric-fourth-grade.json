@@ -1,0 +1,53 @@
+{
+  "title": "Turtle",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How does the turtle's shell help it survive in its environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains multiple ways the shell protects the turtle (defense from predators, protection from weather, storing water) with specific details about how each function helps survival.",
+        "meets": "Student identifies that the shell protects the turtle from predators or harm and explains this helps it survive in a clear, complete way.",
+        "approaching": "Student states the shell is protective but provides limited explanation of how this helps the turtle survive or uses vague language like 'keeps it safe.'",
+        "beginning": "Student mentions the shell or protection with minimal explanation, or provides an inaccurate description of the shell's purpose."
+      }
+    },
+    {
+      "questionText": "What other animals have protective structures, and how are they similar to or different from a turtle's shell?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple animals with protective structures (e.g., armadillo, hedgehog, snail, porcupine) and compares/contrasts them to the turtle's shell using specific details about materials, flexibility, or how they work differently.",
+        "meets": "Student identifies at least two other animals with protective structures and describes how they are similar to or different from a turtle's shell with accurate details.",
+        "approaching": "Student names one or two other animals with protective structures but provides limited or incomplete comparisons to the turtle's shell.",
+        "beginning": "Student names an animal or mentions a protective structure with little to no meaningful comparison to the turtle's shell."
+      }
+    },
+    {
+      "questionText": "If you could design a protective structure for yourself, what would it look like and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a detailed protective structure with thoughtful explanations of multiple features that address specific survival needs (protection from elements, predators, impacts) and shows understanding of how design connects to function.",
+        "meets": "Student describes a protective structure with a clear design and explains at least two reasons why the features would help protect them.",
+        "approaching": "Student describes a protective structure but provides limited or mostly descriptive details without clear explanation of how it would actually protect them.",
+        "beginning": "Student proposes a basic idea with little detail or explanation of how it would provide protection."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe in this photo that tells us about this turtle's life?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple observable details (shell patterns, growth rings, habitat with plants/roots, shell condition) and explains what each detail reveals about the turtle's age, health, or habitat with scientific reasoning.",
+        "meets": "Student identifies at least three observable details from the photo and explains what they tell us about the turtle's life, such as age, habitat, or health.",
+        "approaching": "Student identifies some observable details but provides limited or incomplete explanations of what they reveal about the turtle's life.",
+        "beginning": "Student describes what is visible in the photo with minimal connection to what it tells us about how the turtle lives."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:35:09.879Z",
+  "cost": 0.004709
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Life Cyle",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think was inside this eggshell before it broke open?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies a baby animal (bird, reptile, or chick) was inside the egg and describes what it needed to survive, such as food or protection.",
+        "meets": "Student correctly identifies that a baby animal (such as a chick, bird, or baby reptile) was inside the eggshell.",
+        "approaching": "Student attempts to identify what was inside but provides a vague answer (e.g., 'something small' or 'an animal') without naming the specific type.",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of what develops inside an egg (e.g., 'stuff' or no meaningful attempt)."
+      }
+    },
+    {
+      "questionText": "How do you think the baby animal got out of the egg? What clues from the picture help you?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the baby animal broke or cracked the shell to get out and identifies specific clues from the picture, such as the broken pieces, cracks, or a hole in the eggshell.",
+        "meets": "Student explains that the baby animal broke the eggshell to escape and identifies at least one visual clue from the picture, such as the shell being broken apart.",
+        "approaching": "Student suggests the shell broke open but provides limited or unclear connection to picture details; may mention the broken pieces but not explain how the animal used them.",
+        "beginning": "Student provides a vague or inaccurate explanation of how the animal exited with little or no reference to visual evidence in the photograph."
+      }
+    },
+    {
+      "questionText": "If we found these empty shells in your yard or a park, what could we learn about what animals live there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student recognizes that eggshells tell us what type of animal lives in that area and provides additional reasoning, such as understanding that finding shells means eggs hatch there or that the animal is present in that environment.",
+        "meets": "Student explains that finding eggshells tells us what kind of animal or bird lives in that area.",
+        "approaching": "Student makes a partial connection, such as 'we could find out about animals' but does not clearly explain what the shells specifically reveal about which animals are present.",
+        "beginning": "Student provides a minimal or unclear response that does not show understanding of what eggshells indicate about animal habitats (e.g., 'we'd learn something' with no elaboration)."
+      }
+    },
+    {
+      "questionText": "What might happen to this baby animal during the next stage of its life after hatching?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple realistic next stages, such as growing bigger, getting feathers or scales, eating food, or being cared for by a parent; shows understanding of life cycles.",
+        "meets": "Student predicts at least one realistic next stage in the animal's life, such as growing larger, eating food, or being cared for by parents.",
+        "approaching": "Student attempts a prediction but it is vague or partially realistic (e.g., 'it will get bigger' without additional details) or shows incomplete understanding of growth after hatching.",
+        "beginning": "Student provides a minimal, unclear, or unrealistic prediction that shows little understanding of what happens to animals after they hatch."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:22:48.602Z",
+  "cost": 0.005156
+}

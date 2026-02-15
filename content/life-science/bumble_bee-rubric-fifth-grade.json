@@ -1,0 +1,53 @@
+{
+  "title": "Bumble Bee",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the bee is doing on the flower, and why does the flower need the bee?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student accurately identifies that the bee is collecting nectar and/or pollen, and explains that the flower needs the bee to move pollen between flowers so seeds can form, using precise vocabulary like pollination or fertilization.",
+        "meets": "Student correctly states the bee is collecting food (nectar or pollen) and explains that the flower needs the bee to help make seeds or help pollen move.",
+        "approaching": "Student identifies that the bee is getting food from the flower OR that the flower needs the bee, but does not clearly connect both ideas or provides incomplete reasoning about the relationship.",
+        "beginning": "Student provides a vague response such as 'the bee is on the flower' or 'the flower needs the bee' with little or no explanation of what the bee is doing or why."
+      }
+    },
+    {
+      "questionText": "Why do you think flowers are bright colors and smell sweet? How does this help both the flower and the bee?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors and sweet smells attract bees to the flower, and clearly describes how this benefits the flower (gets pollinated/makes seeds) and the bee (gets food like nectar), showing understanding of mutualistic relationships.",
+        "meets": "Student identifies that colors and smells attract bees to flowers, and explains that this helps the flower with pollination and helps the bee find food.",
+        "approaching": "Student recognizes that colors and smells attract bees OR that this helps both organisms, but explanation is incomplete or reasoning lacks clarity about the benefit to each organism.",
+        "beginning": "Student states that flowers are bright or smell sweet with minimal explanation, or provides inaccurate reasoning about why these traits exist."
+      }
+    },
+    {
+      "questionText": "If bumblebees could not visit flowers, what would happen to the plant's ability to make seeds? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without bees, pollen would not be moved between flowers, so pollination would not happen, and plants would be unable to make seeds or would make very few seeds, demonstrating understanding of cause-and-effect in pollination.",
+        "meets": "Student correctly predicts that plants would not be able to make seeds or would have difficulty making seeds because bees would not pollinate them.",
+        "approaching": "Student recognizes that the loss of bees would negatively affect seed production but provides incomplete or unclear explanation of why this occurs.",
+        "beginning": "Student predicts an outcome (seeds would or would not form) with little or no explanation, or provides inaccurate reasoning about the relationship between bees and seed production."
+      }
+    },
+    {
+      "questionText": "Look at the bee's fuzzy body and legs in the photo. How is the bee's body specially designed (adapted) to be a good pollinator?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that the bee's fuzzy body and hairy legs trap and hold pollen grains as it moves between flowers, and explains how this adaptation makes the bee an effective pollinator by transferring pollen, using the term adaptation accurately.",
+        "meets": "Student identifies that the bee's fuzz or hairs help it collect pollen and carry pollen from one flower to another, showing understanding of how this feature aids pollination.",
+        "approaching": "Student recognizes that the bee's fuzzy body or hairs are related to pollen collection OR to being a good pollinator, but does not fully explain the connection between the adaptation and its function.",
+        "beginning": "Student notices the bee is fuzzy or has hairs with minimal or vague explanation of how this helps it pollinate flowers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:12:19.883Z",
+  "cost": 0.005548
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "How many legs does this spider have, and why do you think it needs so many legs?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies eight legs and explains multiple reasons why spiders need many legs, such as moving quickly, balancing, or catching food.",
+        "meets": "Student correctly identifies eight legs and provides one reasonable explanation for why spiders need many legs, such as helping them move or climb.",
+        "approaching": "Student attempts to count the legs with some accuracy or offers a partial reason for why spiders have many legs, but reasoning is incomplete.",
+        "beginning": "Student makes a count attempt or mentions legs are needed but shows minimal understanding of the number or purpose."
+      }
+    },
+    {
+      "questionText": "How is a spider different from an insect? What do you notice about their legs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that spiders have eight legs while insects have six, and connects this to spiders being arachnids, not insects; may note other differences like body shape.",
+        "meets": "Student correctly states that spiders have eight legs and insects have six legs, showing clear understanding of a key difference.",
+        "approaching": "Student notices spiders and insects have different numbers of legs or attempts to compare them, but the count or explanation is partially incorrect.",
+        "beginning": "Student attempts a comparison between spiders and insects but provides mostly vague or inaccurate information about their legs."
+      }
+    },
+    {
+      "questionText": "If a spider lives on sandy soil like the one in the picture, how do its long legs help it survive there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long legs keep the spider up off hot or shifting sand, help it move quickly across sand, or allow it to search for food more effectively.",
+        "meets": "Student provides one logical explanation, such as long legs help the spider move through sand or stay above the ground.",
+        "approaching": "Student recognizes that long legs are helpful for survival on sand but explanation is vague or only partially developed.",
+        "beginning": "Student attempts to answer but provides minimal or unclear connection between long legs and survival on sandy soil."
+      }
+    },
+    {
+      "questionText": "Where have you seen a spider, and what was it doing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes a specific location where they saw a spider and explains what the spider was doing with details about spider behavior, such as building a web, hunting, or walking.",
+        "meets": "Student names a location where they saw a spider and describes a simple action the spider was performing.",
+        "approaching": "Student mentions seeing a spider in a general location but provides minimal detail about what the spider was doing.",
+        "beginning": "Student provides a vague response or mentions a spider but lacks detail about where or what it was doing."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:43:27.034Z",
+  "cost": 0.004428
+}

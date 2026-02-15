@@ -1,0 +1,53 @@
+{
+  "title": "Fall Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why do you think the leaves are different colors now than in summer?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that leaves change color in fall because it gets colder or there is less sunlight, and may add that leaves were green in summer but turn red, yellow, or orange in fall.",
+        "meets": "Student identifies that leaves change colors in fall and may mention it gets colder or the season is different from summer.",
+        "approaching": "Student notices that leaves are different colors but offers vague or incomplete reasoning, such as 'the leaves just change' or 'it's fall now.'",
+        "beginning": "Student provides minimal response with little connection to seasonal change, such as 'they are pretty' or does not attempt to explain color changes."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the leaves after they fall on the ground?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that fallen leaves break down, go back into the soil, or help plants grow, showing understanding of decomposition or nutrient cycling.",
+        "meets": "Student explains that leaves stay on the ground, get stepped on, or eventually disappear over time.",
+        "approaching": "Student offers a simple idea about fallen leaves, such as 'they sit there' or 'they get messy,' with limited reasoning.",
+        "beginning": "Student provides vague or off-topic response, such as 'I don't know' or makes an unrelated statement about leaves."
+      }
+    },
+    {
+      "questionText": "If it's fall now and leaves are falling, what season comes next, and what will happen then?",
+      "bloomsLevel": "Recall and Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies winter as the next season and predicts it will be cold, snowy, or icy, with accurate details like 'trees will be bare' or 'we might see snow.'",
+        "meets": "Student correctly names winter as the next season and describes it as cold or mentions snow or ice.",
+        "approaching": "Student names the next season but provides vague or partially accurate details about winter, such as 'it will be cold' with no other observations.",
+        "beginning": "Student is unable to name the next season or provides inaccurate information with little attempt at prediction."
+      }
+    },
+    {
+      "questionText": "How is a tree in fall different from a tree in spring? What do you observe?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences, such as 'In spring trees have green leaves and new growth, but in fall leaves are colorful and falling' or compares temperature and activities.",
+        "meets": "Student describes at least two clear differences between fall and spring trees, such as leaf color, leaves falling, or amount of leaves.",
+        "approaching": "Student identifies one or two differences but descriptions are basic or incomplete, such as 'fall trees have different colors' without elaboration.",
+        "beginning": "Student provides minimal or vague comparison with little specific detail, such as 'they are different' without observable examples."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:40:52.235Z",
+  "cost": 0.004714
+}

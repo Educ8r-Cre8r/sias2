@@ -1,0 +1,53 @@
+{
+  "title": "Bumble Bee",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the bee's body is fuzzy instead of smooth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fuzz helps pollen stick to the bee's body and connects this to pollination, demonstrating understanding of the relationship between bee structure and plant reproduction.",
+        "meets": "Student explains that the fuzzy body helps pollen stick to the bee or that fuzz helps the bee in some way related to flowers.",
+        "approaching": "Student identifies that fuzz is related to pollen or flowers but provides incomplete or partially accurate reasoning.",
+        "beginning": "Student makes a guess about fuzz (like warmth or protection) with no connection to pollen or flowers, or provides a vague response."
+      }
+    },
+    {
+      "questionText": "What would happen to flowers if there were no bumble bees to visit them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers would not make seeds or produce new flowers, and may extend thinking to discuss impacts on food chains or other consequences of losing flowers.",
+        "meets": "Student explains that flowers would not make seeds, make fruit, or reproduce without bees visiting them.",
+        "approaching": "Student recognizes something negative would happen to flowers but reasoning is unclear or partially accurate (e.g., flowers would die, but doesn't mention seeds or reproduction).",
+        "beginning": "Student provides a vague response like 'flowers would be sad' or makes an inaccurate guess with little scientific reasoning."
+      }
+    },
+    {
+      "questionText": "How does the flower help the bee, and how does the bee help the flower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that flowers provide nectar/food for the bee AND that bees spread pollen to help flowers make seeds, showing understanding of mutualism.",
+        "meets": "Student identifies that flowers give the bee food (nectar) and that the bee helps spread pollen or helps the flower make seeds.",
+        "approaching": "Student identifies one way the flower helps the bee OR one way the bee helps the flower, but not both, or explanations lack clarity.",
+        "beginning": "Student provides minimal details or mostly inaccurate information about the bee-flower relationship."
+      }
+    },
+    {
+      "questionText": "Can you think of other animals that might help flowers make seeds the same way bees do?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple appropriate pollinators (butterflies, hummingbirds, moths, beetles) and explains that these animals visit flowers for food and spread pollen, showing transfer of understanding.",
+        "meets": "Student names at least one appropriate pollinator and may briefly explain how they help spread pollen similar to bees.",
+        "approaching": "Student names an animal that might visit flowers but reasoning is unclear, or names an inappropriate animal without supporting explanation.",
+        "beginning": "Student names an animal unrelated to pollination, provides only a guess, or cannot think of another animal."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:12:03.099Z",
+  "cost": 0.004588
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Vine",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if this vine didn't have curly tendrils?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without tendrils the vine would fall down or spread on the ground, and connects this to the tendril's job of helping the plant hold on and climb higher to get sunlight.",
+        "meets": "Student correctly states that the vine would fall down or not be able to climb without tendrils, showing understanding of the tendril's holding function.",
+        "approaching": "Student identifies that tendrils help the plant climb or stay up, but the explanation is incomplete or unclear about what would happen without them.",
+        "beginning": "Student provides a minimal or vague response, such as 'it would fall' without explanation, or shows confusion about the role of tendrils."
+      }
+    },
+    {
+      "questionText": "Why do you think this plant is growing up the fence instead of spreading on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that climbing up gets the plant more sunlight and space, and notes that tendrils make climbing possible—showing understanding of both plant need and structural adaptation.",
+        "meets": "Student provides a reasonable explanation, such as the plant gets more sunlight by climbing, or the tendrils help it grow upward.",
+        "approaching": "Student recognizes climbing happens or mentions tendrils or sunlight, but reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student offers a vague answer like 'it likes the fence' or shows minimal understanding of why climbing would benefit the plant."
+      }
+    },
+    {
+      "questionText": "How are tendrils like tools? What job do they do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies tendrils as tools that grip or hold onto the fence (like a hand or rope), and explains that their job is to help the plant climb and stay attached.",
+        "meets": "Student correctly identifies that tendrils grip or wrap around the fence and help the plant climb, making a clear tool comparison.",
+        "approaching": "Student makes a tool comparison or identifies that tendrils help the plant hold on, but explanation lacks clarity or completeness.",
+        "beginning": "Student attempts to compare tendrils to tools but the explanation is vague or inaccurate, or shows limited understanding of their function."
+      }
+    },
+    {
+      "questionText": "If you were a tiny ant living on this vine, what would the tendrils and leaves give you?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that leaves provide food or shade, tendrils provide a path to climb, and may mention the pod as a food source—showing multi-faceted understanding of how plant parts support life.",
+        "meets": "Student correctly identifies that leaves provide food or shelter, and/or tendrils provide a way to climb and move around the vine.",
+        "approaching": "Student identifies one benefit (food, shelter, or a climbing path) but explanation is incomplete or only partially accurate.",
+        "beginning": "Student provides a minimal or unclear response, such as naming a plant part without explaining its benefit to an ant."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:56:20.518Z",
+  "cost": 0.004773
+}

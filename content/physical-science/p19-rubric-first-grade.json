@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the blue color after we wait longer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the blue color will spread throughout all the water and eventually become evenly mixed, using words like \"spread,\" \"mix,\" or \"disappear into the water\" to show understanding of mixing.",
+        "meets": "Student predicts the blue color will spread or mix with the water, showing understanding that the color will change or move around.",
+        "approaching": "Student makes a prediction about the blue color but the explanation is unclear or partially accurate, such as saying it will just \"go away\" without describing mixing.",
+        "beginning": "Student gives a vague response, repeats the question, or makes a prediction with no connection to how colors mix in water."
+      }
+    },
+    {
+      "questionText": "How is this mixing like when you add sugar to water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both blue color and sugar spread throughout the water and become mixed in, using comparative language like \"both spread,\" \"both mix,\" or \"you can't see them separately anymore.\"",
+        "meets": "Student recognizes a similarity between mixing blue color and mixing sugar, such as both things spreading out or mixing into the water.",
+        "approaching": "Student attempts to make a connection but the explanation is unclear or only partially correct, such as mentioning one item mixes but not clearly comparing the two.",
+        "beginning": "Student shows minimal understanding, providing a vague answer or stating only that both involve water without explaining the similarity."
+      }
+    },
+    {
+      "questionText": "What would happen if we used hot water instead of cold water?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the blue color would mix faster in hot water and explains that heat makes things mix more quickly, demonstrating understanding that temperature affects mixing speed.",
+        "meets": "Student predicts the blue color would mix faster or spread quicker in hot water, showing awareness that heat affects the mixing process.",
+        "approaching": "Student makes a prediction about using hot water but the reasoning is unclear or incomplete, such as saying it would be \"different\" without explaining how.",
+        "beginning": "Student gives a vague response or guesses without reasoning, such as saying \"it would be blue\" or showing no understanding of how temperature affects mixing."
+      }
+    },
+    {
+      "questionText": "Can you describe what you see happening step by step?",
+      "bloomsLevel": "Describe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the process in clear sequential steps, such as: \"First the blue comes out, then it makes shapes like clouds, and then it spreads everywhere,\" using words like \"first,\" \"then,\" or \"next.\"",
+        "meets": "Student describes 2-3 steps of what happens when blue mixes with water in a basic sequence, such as noticing the blue spreading or the water changing color.",
+        "approaching": "Student describes what they see but the sequence is unclear or incomplete, such as mentioning the blue and water mixing but without clear order or missing steps.",
+        "beginning": "Student provides a minimal or vague description, such as only saying \"it's blue\" or \"it mixes\" without explaining the process."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:04:47.316Z",
+  "cost": 0.004822
+}

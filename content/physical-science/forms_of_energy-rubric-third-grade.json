@@ -1,0 +1,53 @@
+{
+  "title": "Forms Of Energy",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why does the train engine need to be so much bigger and more powerful than the car's engine?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that trains are heavier and carry more cargo/passengers, requiring more force and power to move; may mention that bigger engines produce more energy to overcome the train's greater mass.",
+        "meets": "Student states that the train is heavier or larger than the car and therefore needs a bigger, more powerful engine to move it.",
+        "approaching": "Student recognizes that the train is bigger or needs more power but provides incomplete or unclear reasoning about why size and power are connected.",
+        "beginning": "Student provides a vague response such as 'because it's big' or 'it needs to be' with little explanation of the relationship between engine size and the train's weight."
+      }
+    },
+    {
+      "questionText": "If both vehicles have engines producing force, why would the car move faster than the train?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the car is lighter so the same amount of force accelerates it faster; may discuss how less mass means greater acceleration or how the car's weight-to-power ratio gives it an advantage.",
+        "meets": "Student correctly identifies that the car is lighter and lighter vehicles move faster with the same amount of force.",
+        "approaching": "Student recognizes the car moves faster but incompletely explains the reason, such as mentioning speed without connecting it to mass or force.",
+        "beginning": "Student gives a minimal response like 'the car is faster' or 'cars go faster than trains' without explaining the role of weight or force."
+      }
+    },
+    {
+      "questionText": "What would happen to the train if its engine suddenly stopped working while it was moving?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the train would slow down and eventually stop due to friction; may reference inertia or explain that without an engine producing force, friction and other opposing forces would bring the train to rest.",
+        "meets": "Student predicts the train would slow down and stop because the engine is no longer producing force to move it.",
+        "approaching": "Student predicts the train would stop but gives an incomplete explanation, such as stating it would stop without mentioning friction or opposing forces.",
+        "beginning": "Student provides a vague prediction such as 'it would stop' or 'something bad would happen' with no explanation of the forces involved."
+      }
+    },
+    {
+      "questionText": "How is the force that moves the car similar to and different from the force that moves the train?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both use engine force to move forward (similarity) but explains that the train's engine produces greater force and is designed to pull heavy loads while the car's force is optimized for lighter weight and speed (differences).",
+        "meets": "Student identifies at least one similarity (both use engine force) and one difference (different amounts of force or different purposes).",
+        "approaching": "Student attempts to compare but provides only partial information, such as noting both have engines without addressing the differences in force or power.",
+        "beginning": "Student gives a minimal response like 'they both have engines' or 'they're different' without explaining similarities and differences in the forces themselves."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:40:15.828Z",
+  "cost": 0.004937
+}

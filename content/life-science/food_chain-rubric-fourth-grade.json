@@ -1,0 +1,53 @@
+{
+  "title": "Food Chain",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this lizard's color is similar to the soil and rocks around it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the lizard's coloring is camouflage that helps it hide from predators and blend with its environment, using specific details from the photo (grayish-brown color matching soil/rocks) and demonstrates understanding that this adaptation helps the lizard survive.",
+        "meets": "Student explains that the lizard's color helps it blend in or hide in its sandy, rocky habitat, with reference to how the colors are similar.",
+        "approaching": "Student notes that the lizard and habitat are similar colors but provides limited or incomplete explanation of why this matters (e.g., 'it matches because they are both brown').",
+        "beginning": "Student makes a simple observation about color similarity with minimal reasoning, or provides an inaccurate explanation (e.g., 'the lizard turned brown because it sat there')."
+      }
+    },
+    {
+      "questionText": "What might happen to a bright green lizard if it lived in this sandy, brown habitat instead of a green forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a bright green lizard would stand out and be easily seen by predators in this habitat, making it more likely to be caught or eaten, and explains how this shows that camouflage is important for survival in specific environments.",
+        "meets": "Student predicts that a bright green lizard would be easier to see in the brown habitat and could be hunted more easily by predators.",
+        "approaching": "Student makes a partial prediction (e.g., 'it would be seen' or 'predators would find it') but does not fully explain the consequences or the role of camouflage.",
+        "beginning": "Student provides a vague or incomplete response with minimal connection to camouflage or predator safety (e.g., 'it might not survive' without explanation)."
+      }
+    },
+    {
+      "questionText": "What animals do you think might hunt this lizard, and how could camouflage help keep it safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies realistic predators (e.g., birds, snakes, larger lizards) and explains in detail how the lizard's brown, bumpy camouflage makes it difficult for predators to spot it, connecting the adaptation to survival.",
+        "meets": "Student identifies at least one reasonable predator and explains that camouflage helps the lizard hide or be harder to see.",
+        "approaching": "Student identifies a predator but provides minimal explanation of how camouflage helps, or vice versa (e.g., explains camouflage without naming a predator).",
+        "beginning": "Student provides a vague response with little accuracy (e.g., 'something eats it' or 'it hides' without connecting these ideas)."
+      }
+    },
+    {
+      "questionText": "If you were designing a new lizard for this habitat, what colors and textures would you give it and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes colors and textures that match the sandy, rocky habitat (browns, tans, grays; bumpy or rough textures) with a thorough explanation of how these features would provide camouflage and help the lizard survive in this specific environment.",
+        "meets": "Student proposes reasonable colors and textures (matching the brown/sandy habitat) and explains that these would help the lizard blend in or hide from predators.",
+        "approaching": "Student proposes colors or textures but with incomplete reasoning, or suggests features that partially match the habitat (e.g., mentions brown but not texture, or vague explanation).",
+        "beginning": "Student provides minimal design details or reasoning that shows little connection to the habitat's characteristics or camouflage function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:59:52.378Z",
+  "cost": 0.005639
+}

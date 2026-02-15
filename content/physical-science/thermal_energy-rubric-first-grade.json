@@ -1,0 +1,53 @@
+{
+  "title": "Thermal Energy",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you see happening to the egg white? Why do you think it changed?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student accurately describes that the egg white turned from clear to solid white and explains that heat from the pan made it change, using the word 'heat' or 'hot' to show understanding of cause and effect.",
+        "meets": "Student correctly identifies that the egg white changed color (from clear to white) and mentions that heat or the hot pan caused the change.",
+        "approaching": "Student notices the egg white looks different but gives an incomplete explanation, such as only describing the color change without connecting it to heat, or mentioning heat without clear details.",
+        "beginning": "Student makes a minimal attempt by pointing to the egg or saying it 'changed,' but provides no clear description of what happened or why."
+      }
+    },
+    {
+      "questionText": "Where is the heat coming from, and how does it reach the egg?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the flames as the heat source and explains that heat travels from the flames to the pan to the egg, showing understanding of heat transfer through objects.",
+        "meets": "Student correctly identifies the flames or fire as where the heat comes from and mentions the pan as part of how the heat reaches the egg.",
+        "approaching": "Student identifies the flames as the heat source but gives a vague or incomplete explanation of how heat reaches the egg, such as mentioning only the pan or flames without connecting them.",
+        "beginning": "Student points to the flames or pan but cannot explain where the heat comes from or how it reaches the egg."
+      }
+    },
+    {
+      "questionText": "If we kept cooking the egg longer, what do you think would happen to the yellow yolk? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the yolk would become solid or hard and explains that continued heat would cook the yolk just like it cooked the white, showing understanding that heat continues to change food over time.",
+        "meets": "Student predicts the yolk would change (become solid, hard, or white) and provides a simple reason, such as 'heat would cook it' or 'it would get hot.'",
+        "approaching": "Student makes a prediction about the yolk changing but provides incomplete or unclear reasoning, such as 'it would be different' without explaining why heat causes the change.",
+        "beginning": "Student makes a minimal attempt at predicting what would happen but provides little or no explanation for their prediction."
+      }
+    },
+    {
+      "questionText": "Can we change the egg back to how it was before cooking? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly answers 'no' and explains that cooking permanently changes the egg because heat changed what it is made of, demonstrating understanding that some changes cannot be undone.",
+        "meets": "Student answers 'no' and gives a simple reason, such as 'the heat changed it' or 'we cannot undo cooking' without claiming cooling would reverse the change.",
+        "approaching": "Student answers 'no' but gives unclear or incomplete reasoning, or shows some confusion about whether heating/cooling could reverse the change.",
+        "beginning": "Student provides a minimal answer such as 'no' or 'yes' with little to no explanation of why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:02:49.747Z",
+  "cost": 0.004973
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Snail",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think a snail's shell is spiral-shaped instead of round or square?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spiral shape provides structural strength and protection while allowing the snail to fit inside efficiently; may note that spirals are found in nature because they are strong and compact designs.",
+        "meets": "Student identifies that the spiral shell helps protect the snail's body and allows it to fit inside or tuck away when threatened.",
+        "approaching": "Student recognizes the shell provides protection but gives vague or incomplete reasoning about why spiral shape is beneficial compared to other shapes.",
+        "beginning": "Student provides a minimal response such as 'it looks like that' or 'to protect it' with little explanation of the spiral shape's advantage."
+      }
+    },
+    {
+      "questionText": "What would happen to a snail if it lived in a dry desert instead of a moist garden? How might its body or behavior need to change to survive?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that snails need moisture to survive and would dry out; describes multiple adaptations such as staying in shell longer, becoming less active, seeking shade, or producing protective mucus—connecting these changes to the snail's dependence on water.",
+        "meets": "Student identifies that dry conditions would be harmful to a snail and suggests one or two reasonable adaptations like hiding in the shell more often or staying in shaded areas.",
+        "approaching": "Student recognizes snails need moisture and might mention drying out, but provides unclear or only partially accurate ideas about how the snail's body or behavior would change.",
+        "beginning": "Student gives a vague response such as 'it would die' with little explanation of why moisture matters or what changes might help the snail survive."
+      }
+    },
+    {
+      "questionText": "If you were designing a robot snail to explore a damp cave, what features from a real snail would you include, and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple snail features (muscular foot for movement, eye stalks for sensing, spiral shell for protection, mucus production) and explains how each feature would help the robot function in a damp cave environment.",
+        "meets": "Student describes two or more snail features and provides reasonable explanations for why they would be useful for a cave-exploring robot.",
+        "approaching": "Student mentions one or two snail features but gives incomplete or unclear reasoning for why these features would help the robot explore a cave.",
+        "beginning": "Student names a snail feature with minimal or no explanation of its purpose, or provides a response that shows limited understanding of how snail adaptations could transfer to robot design."
+      }
+    },
+    {
+      "questionText": "Compare how a snail protects itself to how a turtle, crab, or porcupine protects itself. What is similar and different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies similarities (all have hard protective coverings/shells) and differences (snail retracts inside shell vs. turtle/crab use shells as armor; porcupine uses spines) and explains how each protection method works for that animal's lifestyle.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between the snail's protection and another animal's protection method.",
+        "approaching": "Student attempts a comparison but provides only partial similarities or differences, or explanations lack clarity about how each protection method functions.",
+        "beginning": "Student provides a vague or mostly inaccurate comparison with little evidence of understanding how these animals protect themselves."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:39:10.742Z",
+  "cost": 0.005313
+}

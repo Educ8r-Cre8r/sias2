@@ -1,0 +1,53 @@
+{
+  "title": "Thermal Energy",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe happening to the egg white as it cooks, and why do you think those changes are occurring?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the egg white changing from clear/transparent to opaque/solid white and explains that heat causes the proteins in the egg to change form permanently through a process called denaturation.",
+        "meets": "Student accurately describes the egg white turning from clear to white and explains that heat from the pan is causing the change to happen.",
+        "approaching": "Student identifies that the egg white is changing color or becoming solid but provides incomplete or partially inaccurate reasoning about why the change is occurring.",
+        "beginning": "Student makes a minimal observation about the egg white or provides vague reasoning with little connection to heat or thermal energy."
+      }
+    },
+    {
+      "questionText": "If we removed the egg from the hot pan right now, would it go back to looking like a raw egg? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly states the egg would not return to raw state and explains that the proteins have been permanently changed by heat, making the change irreversible even if cooled.",
+        "meets": "Student correctly answers that the egg would not go back to raw and provides a reasonable explanation involving the effect of heat on the egg.",
+        "approaching": "Student gives the correct answer but provides incomplete or somewhat unclear reasoning about why the changes cannot be reversed.",
+        "beginning": "Student provides an incorrect answer or minimal explanation that shows confusion about the permanence of cooking changes."
+      }
+    },
+    {
+      "questionText": "Where is the thermal energy coming from in this picture, and how does it travel to reach the egg?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the gas flame as the source of thermal energy and explains that heat travels upward through conduction (pan to egg) and radiation from the flame, using accurate vocabulary.",
+        "meets": "Student correctly identifies the flame as the heat source and explains that the heat travels through the pan to cook the egg.",
+        "approaching": "Student identifies the flame as the heat source but provides vague or incomplete explanation of how the heat reaches the egg.",
+        "beginning": "Student makes a minimal attempt to identify the heat source or provides unclear explanation of heat transfer."
+      }
+    },
+    {
+      "questionText": "How is cooking an egg similar to or different from melting an ice cube? What does this tell us about thermal energy?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both similarities (thermal energy causes both changes) and differences (melting is reversible, cooking is permanent; ice changes state while egg proteins permanently change), and concludes that thermal energy can cause both reversible and irreversible changes.",
+        "meets": "Student identifies at least one similarity and one difference between cooking and melting, and makes a reasonable conclusion about thermal energy's effects.",
+        "approaching": "Student identifies either a similarity or difference but reasoning is incomplete or one comparison is inaccurate; conclusion about thermal energy is weak.",
+        "beginning": "Student makes minimal comparison or provides vague, inaccurate responses with little understanding of thermal energy's role in both processes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:03:22.244Z",
+  "cost": 0.004807
+}

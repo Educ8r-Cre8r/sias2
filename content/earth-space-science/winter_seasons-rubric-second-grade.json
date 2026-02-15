@@ -1,0 +1,53 @@
+{
+  "title": "Winter Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the snow sticks to the branches instead of just falling straight to the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snow sticks because branches provide a surface for it to land on and hold, and may add that cold temperatures help snow stay frozen on the branches.",
+        "meets": "Student recognizes that the branches catch or hold the snow, preventing it from falling directly to the ground.",
+        "approaching": "Student provides a partial explanation, such as mentioning the branches or snow sticking, but reasoning is incomplete or unclear.",
+        "beginning": "Student offers a vague response (e.g., 'it just does') or makes an inaccurate statement about why snow sticks to branches."
+      }
+    },
+    {
+      "questionText": "What would happen to this plant if the snow got heavier and heavier?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that heavy snow would bend or break the branches, and explains that the weight of snow is the reason, showing understanding of cause and effect.",
+        "meets": "Student predicts that the branches would bend, break, or the plant could be damaged due to the weight of extra snow.",
+        "approaching": "Student makes a prediction about what could happen but provides limited reasoning or unclear connection to snow weight.",
+        "beginning": "Student provides a vague or inaccurate prediction with little or no explanation."
+      }
+    },
+    {
+      "questionText": "Look at the bare trees in the background compared to the snowy evergreen trees in front. Why might the evergreen trees have more snow on them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that evergreen trees have leaves or needles year-round that provide surfaces to catch snow, while bare trees have lost their leaves and have fewer places for snow to stick.",
+        "meets": "Student recognizes that evergreen trees have leaves or branches that catch snow, while bare trees do not have as much to hold snow.",
+        "approaching": "Student notices a difference between the two types of trees but provides incomplete or partially accurate reasoning about why snow accumulates differently.",
+        "beginning": "Student makes a minimal observation or provides an inaccurate explanation for the difference in snow accumulation."
+      }
+    },
+    {
+      "questionText": "How is this snow different from the water you drink or the rain you see in other seasons?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that snow is frozen water and describes multiple differences, such as being solid/cold instead of liquid, or falling differently than rain.",
+        "meets": "Student explains that snow is frozen water and is solid, while drinking water and rain are liquids.",
+        "approaching": "Student recognizes that snow is different (cold, frozen, or solid) but provides limited details or unclear comparisons to liquid water.",
+        "beginning": "Student provides a vague response or focuses only on appearance without connecting to the solid/liquid difference."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:53:56.146Z",
+  "cost": 0.004557
+}

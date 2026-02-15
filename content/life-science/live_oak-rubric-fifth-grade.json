@@ -1,0 +1,53 @@
+{
+  "title": "Live Oak",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "If this oak tree has lived for over 200 years, what do you think helped it survive for so long?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple survival factors (deep root system, access to water, protection from disease/damage, adaptation to local climate) with specific explanations of how each factor contributed to the tree's longevity.",
+        "meets": "Student identifies at least two survival factors (such as water availability, strong roots, or healthy leaves) and explains how they helped the tree survive over time.",
+        "approaching": "Student identifies one or two survival factors but provides limited or incomplete explanations of how they contributed to the tree's long life.",
+        "beginning": "Student provides a vague or general response (e.g., 'it got water' or 'it was strong') with little connection to survival or longevity."
+      }
+    },
+    {
+      "questionText": "How would you prove how old this tree is without cutting it down?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a non-destructive method (tree-ring counting using a core sample tool, historical records, growth rate calculations) with accurate scientific reasoning about how the method reveals age.",
+        "meets": "Student describes a reasonable non-destructive method (such as using a tool to count rings or checking historical records) and explains how it would show the tree's age.",
+        "approaching": "Student mentions a non-destructive method but provides vague or partially incomplete explanation of how it would determine age.",
+        "beginning": "Student suggests only destructive methods (cutting down) or provides an unclear response with minimal scientific reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen to this tree if the park suddenly had no rain for an entire year?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific consequences (wilting leaves, root stress, possible death or dormancy) and explains the cause-and-effect relationship between water loss and tree health, mentioning that old trees may have deeper roots as an advantage.",
+        "meets": "Student predicts reasonable consequences (leaves would dry out, tree could get sick, or it might not survive) and connects these effects to lack of water.",
+        "approaching": "Student predicts one consequence (such as 'the tree would die') but provides limited explanation of how lack of rain causes that outcome.",
+        "beginning": "Student provides a vague prediction (e.g., 'it would be bad') with little or no connection to water's role in plant survival."
+      }
+    },
+    {
+      "questionText": "How do you think this ancient tree is different from a young tree that was planted just five years ago, and why are those differences important?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (size, bark texture, branch spread, root depth, stability) and explains why each difference matters for survival, strength, ecosystem role, or continued growth.",
+        "meets": "Student identifies at least two observable differences (such as size and bark texture) and explains why these differences make the old tree stronger, more stable, or better able to survive.",
+        "approaching": "Student identifies one or two differences but provides incomplete reasoning about why the differences are important.",
+        "beginning": "Student describes a difference in general terms (e.g., 'it's bigger') without explaining why the difference matters to the tree's survival or function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:32:34.019Z",
+  "cost": 0.005046
+}

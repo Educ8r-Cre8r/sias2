@@ -1,0 +1,53 @@
+{
+  "title": "Inherited Traits",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "How are the baby birds like their mother?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific ways babies resemble their mother (beak shape, feather color, eye color, body size) using descriptive language.",
+        "meets": "Student identifies two specific ways the babies look like their mother, such as beak shape or feather color.",
+        "approaching": "Student identifies one similarity between the babies and mother, though the description may be general (like 'they look the same').",
+        "beginning": "Student provides a vague response or only names the animals without describing actual similarities."
+      }
+    },
+    {
+      "questionText": "Why do you think the babies look like their mom? What gave them those features?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that babies inherited traits from their mother and uses the word 'inherited' or 'parents' to show understanding that traits come from grown-ups.",
+        "meets": "Student explains that the mother gave the babies their features or that babies came from the mother, showing basic understanding of inheritance.",
+        "approaching": "Student suggests the babies look like mom but explanation is unclear or incomplete (e.g., 'the mom made them look like that').",
+        "beginning": "Student states babies look like mom without offering any explanation for why this happens."
+      }
+    },
+    {
+      "questionText": "If the baby birds grow up, do you think their own babies will look like them? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts yes and explains that traits continue to be passed from parents to babies, making a connection to the pattern shown in the photo.",
+        "meets": "Student predicts yes and gives a simple reason, such as 'because babies get traits from their parents' or 'because that's how it works.'",
+        "approaching": "Student makes a prediction (yes or no) but the reasoning is incomplete or unclear.",
+        "beginning": "Student gives a prediction with no reasoning, or response shows confusion about inheritance."
+      }
+    },
+    {
+      "questionText": "What would happen if a baby bird didn't have a curved beak like its parent? How might that change its life?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how the curved beak helps the bird find or eat food, and describes specific challenges a different beak shape would cause.",
+        "meets": "Student identifies that the beak shape is important and describes at least one way it would be harder for the bird to survive or function.",
+        "approaching": "Student recognizes the beak is important but explanation of consequences is vague or partially correct.",
+        "beginning": "Student provides minimal response or shows little understanding of how beak shape connects to survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:53:03.278Z",
+  "cost": 0.004352
+}

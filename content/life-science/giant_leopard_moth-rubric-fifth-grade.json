@@ -1,0 +1,53 @@
+{
+  "title": "Giant Leopard Moth",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens after these eggs hatch? How might the tiny creatures that come out look different from the adult moth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eggs hatch into caterpillars with detailed descriptions of differences (body shape, appearance, size, movement) and accurately uses terminology like 'larva' or 'metamorphosis' to describe the life cycle stages.",
+        "meets": "Student correctly identifies that eggs hatch into caterpillars and describes at least two clear differences from the adult moth (such as shape, size, or lack of wings).",
+        "approaching": "Student recognizes that something different comes out of the eggs and mentions one difference from the adult moth, but explanation lacks clarity or contains minor inaccuracies.",
+        "beginning": "Student makes a vague statement about hatching or provides an unclear or mostly inaccurate description of what emerges from the eggs."
+      }
+    },
+    {
+      "questionText": "Why might the mother moth have laid her eggs in clusters on this wooden surface instead of on a single leaf?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student provides multiple logical reasons for cluster egg-laying (such as protection, stability, survival advantage, or resource conservation) and explains how wood might offer benefits compared to leaves with specific details.",
+        "meets": "Student identifies at least two reasonable advantages of laying eggs in clusters on a wooden surface, such as protection from predators or providing a sturdy place for caterpillars.",
+        "approaching": "Student suggests one possible reason for cluster egg-laying or mentions that wood might be a good place, but reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal or vague response that does not clearly explain clustering or surface choice, or response contains significant misconceptions."
+      }
+    },
+    {
+      "questionText": "Compare the adult moth's spotted wings to the pale, round eggs. What inherited traits do you think baby moths will have, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly explains that inherited traits are passed from parents to offspring and predicts specific traits the baby moths will inherit (such as spotted wing patterns) with accurate reasoning about how traits pass through generations.",
+        "meets": "Student identifies at least one inherited trait the baby moths will likely have and explains that traits come from parents, though explanation may be general.",
+        "approaching": "Student mentions that baby moths might look similar to the adult moth but reasoning about inheritance is vague or incomplete, or contains minor errors.",
+        "beginning": "Student provides a minimal or inaccurate response about inherited traits, or does not explain the connection between parent and offspring characteristics."
+      }
+    },
+    {
+      "questionText": "If all the eggs in these clusters hatched at the same time, what challenges might the baby caterpillars face, and how could they solve them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple realistic challenges (such as competition for food, overcrowding, or predation) and explains specific adaptive or behavioral solutions, demonstrating understanding of survival strategies.",
+        "meets": "Student identifies at least two challenges the caterpillars might face (such as finding enough food or avoiding predators) and suggests reasonable ways they could survive.",
+        "approaching": "Student identifies one challenge or mentions spreading out/finding food, but reasoning about solutions is incomplete or lacks detail.",
+        "beginning": "Student provides a vague or minimal response with little evidence of understanding challenges or solutions for survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:02:34.673Z",
+  "cost": 0.005159
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Inherited Traits",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What traits does the baby bird share with its parent?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific shared traits (beak shape, eye features, body structure) and uses correct bird anatomy vocabulary to describe them.",
+        "meets": "Student identifies two shared traits between the baby bird and parent bird, such as beak shape or eye features.",
+        "approaching": "Student identifies one shared trait between the baby bird and parent bird, but the description may lack detail or clarity.",
+        "beginning": "Student attempts to identify a shared trait but provides vague descriptions (e.g., 'they look the same') without specifying which body parts."
+      }
+    },
+    {
+      "questionText": "Why do you think baby birds look similar to their parents instead of looking like a completely different bird?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that inherited traits pass from parents to babies and connects this to how babies receive traits through their parents' genes; may mention that this helps babies survive.",
+        "meets": "Student explains that babies get traits from their parents or that parents pass traits to their babies, showing understanding of inheritance.",
+        "approaching": "Student recognizes that parents and babies are related or connected but gives an incomplete explanation of how traits are passed down.",
+        "beginning": "Student provides a minimal response that doesn't clearly explain the connection between parent and baby traits (e.g., 'because they are family')."
+      }
+    },
+    {
+      "questionText": "If this parent bird had a different beak shape, what might happen to its babies?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that babies would likely have the different beak shape and explains how this inherited trait would be passed down, or connects it to how the bird uses its beak for survival.",
+        "meets": "Student predicts that the babies would probably have a different beak shape like their parent, showing understanding that offspring inherit parent traits.",
+        "approaching": "Student predicts a change in the babies' beak shape but the reasoning is unclear or incomplete.",
+        "beginning": "Student provides a vague or unclear response that doesn't logically connect the parent's beak shape to what babies might look like."
+      }
+    },
+    {
+      "questionText": "How are these chicks the same as their parent, and how are they different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (beak shape, eyes, body structure) and multiple differences (fluffy feathers, darker color, smaller size), explaining that some traits are inherited while others develop as babies grow.",
+        "meets": "Student identifies at least one similarity and one difference between chicks and parent, such as shared beak shape but different color or size.",
+        "approaching": "Student identifies either similarities or differences but not both, or provides limited details about the specific traits being compared.",
+        "beginning": "Student attempts to compare but provides vague statements (e.g., 'they look kind of the same and kind of different') without naming specific traits."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:53:18.417Z",
+  "cost": 0.004628
+}

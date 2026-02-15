@@ -1,0 +1,53 @@
+{
+  "title": "Wind Turbines",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think wind turbines are built in flat, open areas like fields instead of forests or cities?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that wind turbines need unobstructed wind flow and identifies multiple factors (tall height allows better wind access, trees/buildings block wind, open areas have fewer obstacles), demonstrating understanding of how wind patterns affect turbine placement.",
+        "meets": "Student correctly identifies that open areas have better wind access or fewer obstacles blocking the wind, showing basic understanding of why location matters for turbine function.",
+        "approaching": "Student recognizes that wind turbines need wind or mentions open/flat areas are important, but reasoning is vague or partially incomplete (e.g., 'there's more wind' without explaining why).",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'because they need space' without connecting to wind flow or function."
+      }
+    },
+    {
+      "questionText": "If you were building a wind farm in your state, how would you decide where to place the turbines, and what information would you need to gather first?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a systematic approach using multiple relevant factors (wind patterns/speed data, terrain, distance from homes, existing infrastructure, wildlife impacts) and explains why each piece of information matters for wind farm success.",
+        "meets": "Student identifies at least two appropriate decision-making factors (such as wind conditions, flat terrain, or avoiding populated areas) and explains how these factors would influence turbine placement.",
+        "approaching": "Student mentions one or two factors related to placement (such as 'need wind' or 'flat land') but provides limited explanation of how this information would guide decision-making.",
+        "beginning": "Student offers a vague or overly simplistic response (such as 'put them where there's wind') with minimal consideration of planning or data collection."
+      }
+    },
+    {
+      "questionText": "How are wind turbines similar to and different from other ways humans generate electricity?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares wind turbines to multiple energy sources (solar, coal, hydroelectric, natural gas) using specific criteria (moving parts, fuel sources, renewable vs. nonrenewable, environmental impact), demonstrating deep understanding of diverse electricity generation methods.",
+        "meets": "Student accurately identifies similarities and differences between wind turbines and at least one other energy source (such as both convert energy to electricity, or wind is renewable while coal is not).",
+        "approaching": "Student identifies either similarities or differences but not both clearly, or makes comparisons that are partially accurate (e.g., mentions other energy sources but with incomplete reasoning).",
+        "beginning": "Student attempts a comparison but provides minimal detail or inaccuracy (e.g., 'they both make electricity' without elaboration)."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to a community's energy needs if wind turbines were the only source of electricity on a calm, windless day?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the community would face an energy shortage or blackout and discusses solutions such as energy storage, backup power sources, or the need for multiple energy sources, showing understanding of renewable energy limitations.",
+        "meets": "Student correctly predicts that little to no electricity would be generated on a windless day and acknowledges this would be a problem for the community's energy supply.",
+        "approaching": "Student recognizes a connection between wind and electricity production or identifies that a windless day would cause issues, but explanation lacks clarity or completeness.",
+        "beginning": "Student provides a minimal or unclear response, such as 'there would be no power' without reasoning about why this would be problematic."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:16:23.146Z",
+  "cost": 0.00547
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Friction",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think makes this train move forward?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the wire above powers the train and explains that electricity or power comes through the wire to make it move, showing understanding of the energy source.",
+        "meets": "Student correctly identifies that the wire above or electricity makes the train move, demonstrating basic understanding of the power source.",
+        "approaching": "Student mentions the wire or something above the train but explanation is vague or partially incorrect about how it creates movement.",
+        "beginning": "Student provides a minimal response such as 'it just moves' or 'the wheels' without connecting to the wire or power source shown in the photo."
+      }
+    },
+    {
+      "questionText": "How is this train different from a car or bus?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as the train runs on tracks, has a wire above for power, is much longer, and carries many more people, showing thorough observation.",
+        "meets": "Student identifies at least two clear differences between trains and cars/buses, such as running on tracks and being longer or having more wheels.",
+        "approaching": "Student identifies one difference between trains and other vehicles but explanation lacks detail or clarity.",
+        "beginning": "Student attempts to compare but provides minimal or unclear differences, such as 'it's bigger' without elaboration."
+      }
+    },
+    {
+      "questionText": "What would happen if the wire above the train broke?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the train would stop moving because it needs electricity from the wire to work, and explains that without power the train cannot run.",
+        "meets": "Student predicts the train would stop or not work, recognizing the wire provides necessary power for movement.",
+        "approaching": "Student predicts something would go wrong with the train but reasoning is unclear or partially incomplete about why the wire is important.",
+        "beginning": "Student makes a prediction but it shows little understanding of the wire's purpose, such as 'it would fall' or 'it would be broken.'"
+      }
+    },
+    {
+      "questionText": "Why do you think trains have so many wheels?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that many wheels help the train stay balanced, move smoothly on the tracks, and carry the heavy train safely.",
+        "meets": "Student provides a reasonable explanation such as wheels help the train move or stay on the tracks, or help it carry heavy loads.",
+        "approaching": "Student recognizes wheels are important but explanation is vague, such as 'to help it move' without further detail.",
+        "beginning": "Student provides minimal response such as 'because it's big' or 'I don't know' with little attempt to explain the purpose of wheels."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:20:27.159Z",
+  "cost": 0.004322
+}

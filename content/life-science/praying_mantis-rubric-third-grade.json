@@ -1,0 +1,53 @@
+{
+  "title": "Praying Mantis",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if a praying mantis couldn't turn its head? How would that change its hunting?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mantis couldn't see insects coming from the sides or behind, and describes how this would make it harder to catch food because it could only hunt in front of it. Student may mention that the mantis needs to turn its head to be a good hunter.",
+        "meets": "Student identifies that the mantis wouldn't be able to see as well or would miss insects, and connects this to difficulty hunting or catching food.",
+        "approaching": "Student recognizes that not turning its head would affect hunting or that the mantis uses its head to find insects, but the explanation lacks clear connection between the two ideas.",
+        "beginning": "Student provides a vague answer such as 'it wouldn't be good at hunting' or 'it couldn't see' without explaining the connection between head movement and catching insects."
+      }
+    },
+    {
+      "questionText": "Why is the green color of the praying mantis helpful for catching insects?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green color helps the mantis blend in with plants and flowers, making it hard for insects to see it coming, which helps it sneak up and catch them. Student may use words like 'camouflage' or 'hide.'",
+        "meets": "Student explains that the green color helps the mantis hide or blend in with plants, and connects this to catching insects more easily.",
+        "approaching": "Student identifies that green color helps hide the mantis or that it matches plants, but doesn't clearly explain how this helps with catching insects.",
+        "beginning": "Student provides a minimal response such as 'green is a good color' or 'it helps it hide' without explaining the hunting connection."
+      }
+    },
+    {
+      "questionText": "If there were no praying mantises in a garden, what might happen to the number of flies and other insects?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the number of flies and insects would increase because there would be nothing eating them or controlling their population. Student may mention that mantises eat insects and keep the number down.",
+        "meets": "Student states that more flies and insects would be around because the mantis wouldn't be there to eat them or catch them.",
+        "approaching": "Student recognizes that insects might increase or that mantises affect insect numbers, but the reasoning is unclear or incomplete.",
+        "beginning": "Student provides a vague response such as 'there would be more bugs' or 'insects would be okay' without explaining why."
+      }
+    },
+    {
+      "questionText": "How is a praying mantis similar to other hunters you know about, like a lion or an owl?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities such as: the mantis, lion, and owl all hunt and eat other animals, they all have good eyesight to find prey, and they all have special body parts (claws, talons, spiky arms) to catch food.",
+        "meets": "Student identifies two or more similarities between the mantis and other hunters, such as they all catch and eat other animals, or they all have good vision or special hunting tools.",
+        "approaching": "Student identifies one similarity between the mantis and other hunters, such as they all hunt, but explanation is limited or lacks detail.",
+        "beginning": "Student makes a vague connection such as 'they are all hunters' without providing specific examples or details about how they are similar."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:03:53.109Z",
+  "cost": 0.005281
+}

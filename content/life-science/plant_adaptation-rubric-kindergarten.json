@@ -1,0 +1,53 @@
+{
+  "title": "Plant Adaptation",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think those pointy sticks do for the plant?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the pointy sticks protect the plant by keeping animals away or preventing them from eating it, using clear reasoning.",
+        "meets": "Student identifies that the pointy sticks help protect the plant or keep animals from eating it.",
+        "approaching": "Student recognizes the pointy sticks are for protection but gives incomplete or vague explanation.",
+        "beginning": "Student makes a minimal attempt, such as saying the sticks are pointy or sharp, without explaining their protective purpose."
+      }
+    },
+    {
+      "questionText": "Why might an animal not want to eat a plant with sharp thorns?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that sharp thorns could hurt or poke an animal, connecting this to why animals would avoid eating the plant.",
+        "meets": "Student states that the thorns are sharp or could hurt an animal, so the animal would not want to eat the plant.",
+        "approaching": "Student acknowledges the thorns are sharp and an animal might not like them, but reasoning is incomplete.",
+        "beginning": "Student gives a minimal response, such as saying the thorns are sharp, without explaining the connection to an animal avoiding the plant."
+      }
+    },
+    {
+      "questionText": "What other things in nature have sharp points to keep them safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple examples from nature with sharp points (such as porcupine quills, cactus spines, hedgehogs, or pinecones) and explains how each uses sharp points for protection.",
+        "meets": "Student identifies at least one other natural example with sharp points and makes a connection to protection or safety.",
+        "approaching": "Student names one natural thing with sharp points but makes a weak or incomplete connection to protection.",
+        "beginning": "Student attempts to name something sharp in nature but provides little or no explanation of its protective purpose."
+      }
+    },
+    {
+      "questionText": "How is this plant different from a smooth plant like grass?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly compares the spiky plant to grass by noting the sharp thorns versus smooth leaves, and explains how this difference helps protect the spiky plant.",
+        "meets": "Student identifies that the spiky plant has sharp points while grass is smooth, and recognizes this is a difference between the two plants.",
+        "approaching": "Student notes some differences between the spiky plant and grass (such as sharp versus smooth) but reasoning is incomplete or unclear.",
+        "beginning": "Student makes a minimal observation about one plant being pointy or the other being smooth, without clear comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:21:05.434Z",
+  "cost": 0.004274
+}

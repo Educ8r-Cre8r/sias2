@@ -1,0 +1,53 @@
+{
+  "title": "States Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you see in this picture? Where is the water?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple objects (hydrant, cone, grass, sidewalk) and accurately locates the water in the background or canal with specific details about its appearance.",
+        "meets": "Student names at least two objects in the picture and correctly identifies where the water is located.",
+        "approaching": "Student names one or two objects but has difficulty locating the water, or identifies water but misses other key objects.",
+        "beginning": "Student points to or names only one item, or cannot clearly identify where the water is in the picture."
+      }
+    },
+    {
+      "questionText": "How is the water different from the cone and the hydrant? How do we know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (water is wet/liquid, cone and hydrant are hard/solid) and explains how we can tell by observing properties like shape, texture, or how they look different.",
+        "meets": "Student describes at least one clear difference between water and the solid objects (water is wet, cone is hard) and gives a simple reason we can tell.",
+        "approaching": "Student notices water is different from the objects but describes only one difference vaguely, or struggles to explain how we can observe the difference.",
+        "beginning": "Student makes a vague statement like 'they're different' but cannot describe specific properties or explain how to tell them apart."
+      }
+    },
+    {
+      "questionText": "If we poured water into a cup, what would happen? Why is water different from this cone?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts water would fill the cup's shape and explains that water is a liquid that moves and takes the shape of containers, while the cone stays the same hard shape.",
+        "meets": "Student predicts water would go into the cup and explains that water is different because it's wet or liquid, while the cone is hard or solid.",
+        "approaching": "Student predicts water goes in the cup but gives unclear reasons for the difference, or describes only one material property.",
+        "beginning": "Student makes a simple prediction about the water but cannot explain why water behaves differently from the cone."
+      }
+    },
+    {
+      "questionText": "Where else have you seen water like this? Can you describe what it looks like?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names a specific place with water (ocean, pool, lake, rain) and describes multiple details about how it looks (blue, wet, moving, calm, splashing).",
+        "meets": "Student names one or two places where they have seen water and describes how it looked with at least one descriptive word.",
+        "approaching": "Student names a place with water but describes it vaguely, or gives good descriptions without clearly naming a specific location.",
+        "beginning": "Student names a location or gives a description but struggles to connect them or provide relevant details about water."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:24:30.139Z",
+  "cost": 0.004578
+}

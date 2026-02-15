@@ -1,0 +1,53 @@
+{
+  "title": "Germination",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside the seed before the green shoot appears?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple internal processes occurring during germination, such as the embryo waking up, roots developing underground, the seed using stored food energy, and water being absorbed; uses precise vocabulary like 'germination' or 'embryo.'",
+        "meets": "Student accurately describes 2-3 key internal processes, such as the seed absorbing water, the plant beginning to grow, or the seed using stored energy to start growth.",
+        "approaching": "Student identifies that something is growing or changing inside the seed but provides vague or incomplete descriptions of the process (e.g., 'the plant is growing' without explaining how or why).",
+        "beginning": "Student provides minimal or inaccurate response, such as 'something is happening' or 'the seed is breaking' without meaningful details about germination."
+      }
+    },
+    {
+      "questionText": "Why do you think the root grows down into the soil while the shoot grows up toward the light?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots grow down due to gravity and to find water/nutrients in soil, while shoots grow up to reach light for photosynthesis; makes a clear connection between each structure's direction and its survival function.",
+        "meets": "Student correctly identifies that roots grow down to find water or nutrients and shoots grow up to find light, with reasonable explanations for why each direction matters for the plant.",
+        "approaching": "Student identifies that roots and shoots grow in opposite directions and mentions light or water/soil, but the explanation is incomplete or partially unclear (e.g., mentions light but not why it's important).",
+        "beginning": "Student provides a vague response such as 'roots go down and shoots go up' without explaining why or with inaccurate reasoning (e.g., 'roots like dirt')."
+      }
+    },
+    {
+      "questionText": "If a seed had water and warmth but no oxygen (sealed in a plastic bag), would it germinate? Use evidence to explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly predicts the seed would NOT germinate, explaining that seeds need oxygen for respiration to produce energy for growth; references the image or germination process as supporting evidence and discusses why sealed conditions prevent this.",
+        "meets": "Student correctly predicts that the seed would not germinate because seeds need oxygen, providing a clear explanation of why oxygen is necessary (e.g., for the seed to use energy to grow).",
+        "approaching": "Student identifies that oxygen is needed for germination but the explanation is incomplete or the prediction is unclear; may state oxygen's importance without fully connecting it to why germination would fail.",
+        "beginning": "Student makes a prediction with little or no scientific reasoning, or incorrectly states that the seed would germinate despite lacking oxygen; provides no evidence or inaccurate explanations."
+      }
+    },
+    {
+      "questionText": "How is a germinating seed similar to a newborn animal, and how is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple valid similarities (e.g., both need water/food to grow, both develop from a parent structure, both depend on their environment) and differences (e.g., animals need oxygen/movement from birth; plants make their own food over time); demonstrates sophisticated thinking about life processes.",
+        "meets": "Student accurately identifies at least one similarity and one difference between a germinating seed and a newborn animal, such as both needing resources to grow but differing in how they obtain nutrients.",
+        "approaching": "Student attempts to compare but provides only partial or unclear responses; may identify one similarity or difference accurately but miss the other, or make incomplete comparisons.",
+        "beginning": "Student provides vague comparisons or inaccurate statements (e.g., 'they both live' without meaningful detail) or fails to identify both similarities and differences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:48:07.033Z",
+  "cost": 0.005703
+}

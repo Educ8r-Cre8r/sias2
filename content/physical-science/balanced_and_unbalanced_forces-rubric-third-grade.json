@@ -1,0 +1,53 @@
+{
+  "title": "Balanced And Unbalanced Forces",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What forces do you see acting on the bucket of dirt?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple forces with specific details, such as the upward pulling force from the machine, the downward pull of gravity on the dirt, and the force of the bucket pushing against the dirt.",
+        "meets": "Student correctly identifies at least two forces acting on the bucket, such as the machine lifting it up and gravity pulling it down.",
+        "approaching": "Student identifies one force acting on the bucket with some accuracy, such as mentioning the machine or gravity, but explanation lacks clarity.",
+        "beginning": "Student provides a vague or mostly inaccurate response, such as naming only the machine without explaining the forces involved."
+      }
+    },
+    {
+      "questionText": "Why do you think the backhoe machine is needed to move the bucket instead of workers just picking it up with their hands?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bucket is too heavy for workers to lift by describing how much force would be needed and how the machine's strong arm provides a greater force than human muscles can produce.",
+        "meets": "Student correctly explains that the bucket is too heavy for workers to lift and that the machine provides extra strength or force to move it.",
+        "approaching": "Student recognizes that the bucket is heavy or that the machine is strong, but explanation is incomplete or somewhat unclear about why this matters.",
+        "beginning": "Student provides a minimal response such as 'the machine is big' or 'it helps' without explaining the relationship between weight and force."
+      }
+    },
+    {
+      "questionText": "If the backhoe operator wanted to hold the bucket completely still in the air, what would need to happen to the forces?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the upward force from the machine would need to equal the downward force of gravity so the forces are balanced, and that equal and opposite forces result in no movement.",
+        "meets": "Student describes that the upward and downward forces would need to be equal or balanced to keep the bucket still.",
+        "approaching": "Student mentions that forces need to be balanced or that the machine needs to hold steady, but explanation lacks clear connection to the concept of equal forces.",
+        "beginning": "Student provides a vague response such as 'the machine stays the same' or 'it doesn't move' without explaining what needs to happen to the forces."
+      }
+    },
+    {
+      "questionText": "How might the backhoe be different if it had to move even heavier loads of dirt?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple specific features that would need to be stronger or larger, such as a thicker arm, a more powerful engine, or a bigger bucket, and explains how these changes would increase the force available to lift heavier loads.",
+        "meets": "Student identifies at least one or two ways the backhoe would need to be different or stronger, such as having a bigger bucket or stronger arm, to lift heavier dirt.",
+        "approaching": "Student suggests the machine would need to be bigger or stronger in a general way, but reasoning about how this relates to moving heavier loads is unclear or incomplete.",
+        "beginning": "Student provides a minimal or vague response such as 'it would be bigger' without explaining why or how this would help move heavier loads."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:10:29.564Z",
+  "cost": 0.005033
+}

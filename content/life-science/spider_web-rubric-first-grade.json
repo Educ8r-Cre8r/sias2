@@ -1,0 +1,53 @@
+{
+  "title": "Spider Web",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the web in this picture? What makes it easy to see?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about the web (delicate, lines, pattern) and clearly explains that water droplets make it sparkly and visible against the background.",
+        "meets": "Student notices the web is made of thin lines and identifies that water droplets help make it easy to see.",
+        "approaching": "Student identifies either the web's structure or the water droplets, but does not clearly connect how the droplets help visibility.",
+        "beginning": "Student makes a simple observation about the web or water droplets with minimal detail or reasoning."
+      }
+    },
+    {
+      "questionText": "Why do you think a spider builds a web? What does it help the spider do?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that spiders build webs to catch insects for food, and describes how the sticky web traps prey using grade-appropriate vocabulary like 'trap' or 'catch.'",
+        "meets": "Student correctly identifies that the web helps the spider catch insects or get food.",
+        "approaching": "Student mentions the web is used for catching something, but explanation is vague or partially incorrect.",
+        "beginning": "Student provides a simple guess about the web's purpose with little evidence of understanding spiders' need for food."
+      }
+    },
+    {
+      "questionText": "If this web didn't have water droplets on it, do you think we could still see it? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the web would be harder to see and explains that water droplets reflect light or make the web sparkly, using clear reasoning about how droplets help visibility.",
+        "meets": "Student predicts the web would be harder to see and gives a reasonable explanation that water droplets help make it visible.",
+        "approaching": "Student makes a prediction but provides incomplete or unclear reasoning about why the droplets matter for visibility.",
+        "beginning": "Student makes a prediction with little or no explanation of how water droplets affect visibility."
+      }
+    },
+    {
+      "questionText": "Where else in nature do you think spider webs might be hiding that we can't see?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple specific locations (tree branches, bushes, corners of buildings) and explains that webs are hard to see without water droplets or in dark places.",
+        "meets": "Student suggests at least one realistic location where spider webs might be found and notes they could be hard to see.",
+        "approaching": "Student suggests a possible location but reasoning about visibility is unclear or underdeveloped.",
+        "beginning": "Student provides a vague or unrealistic location with minimal explanation of why webs might be hidden."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:58:39.080Z",
+  "cost": 0.004411
+}

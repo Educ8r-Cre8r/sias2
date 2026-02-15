@@ -1,0 +1,53 @@
+{
+  "title": "Thermal Energy",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice happening to the egg as the pan gets hotter?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes (egg white gets firm and white, yolk stays soft, egg spreads out, or color changes) and uses descriptive words like 'hard,' 'solid,' or 'cooked.'",
+        "meets": "Student describes at least one clear change to the egg, such as the white part getting hard or the egg looking different than before.",
+        "approaching": "Student notices something is changing about the egg but describes it vaguely (e.g., 'it looks different') or focuses on only one minor detail.",
+        "beginning": "Student gives a minimal response, makes a guess without observation, or says 'I don't know' without attempting to describe what they see."
+      }
+    },
+    {
+      "questionText": "Why do you think the egg white turned from runny to hard?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that heat from the pan/stove caused the change and may add that hot things can make other things different or hard.",
+        "meets": "Student provides a simple, accurate reason such as 'the heat made it hard' or 'the hot pan made it change.'",
+        "approaching": "Student attempts an explanation but is unclear or partially incorrect (e.g., 'it got cooked' without mentioning heat, or vague reasoning).",
+        "beginning": "Student provides no clear explanation, guesses randomly, or cannot articulate why the change happened."
+      }
+    },
+    {
+      "questionText": "What other foods have you seen change when grown-ups cook them? How did they change?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more foods and describes how each changed (e.g., 'toast gets brown and hard,' 'popcorn gets big and fluffy,' 'pasta gets soft').",
+        "meets": "Student names one or two foods and describes how at least one of them changed during cooking with simple language.",
+        "approaching": "Student names a food but gives unclear or incomplete description of the change, or names a food without describing the change.",
+        "beginning": "Student cannot name any foods, provides an unrelated response, or gives minimal effort."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if we waited even longer to cook the egg? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a logical outcome (yolk gets hard, egg gets darker/brown, or becomes very firm) and gives a heat-related reason (e.g., 'more heat would make the yolk hard too').",
+        "meets": "Student makes a reasonable prediction about what would happen if cooking continued longer, with a simple explanation related to heat or cooking.",
+        "approaching": "Student makes a prediction but the reasoning is unclear, incomplete, or only partially heat-related.",
+        "beginning": "Student makes a random guess with no reasoning, or cannot provide a prediction."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:02:42.540Z",
+  "cost": 0.004667
+}

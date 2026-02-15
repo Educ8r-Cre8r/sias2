@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions do you think are necessary for icicles to form?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple necessary conditions (freezing temperature, water source, and time) with clear explanations of how each contributes to icicle formation.",
+        "meets": "Student identifies at least two necessary conditions (such as freezing temperature and water or melting and refreezing) with reasonable explanations.",
+        "approaching": "Student identifies one necessary condition (freezing temperature or water) but explanation is incomplete or lacks detail about how it helps form icicles.",
+        "beginning": "Student provides a vague response mentioning cold or ice, but does not explain specific conditions needed for icicles to form."
+      }
+    },
+    {
+      "questionText": "How might the size and shape of icicles change if the temperature stayed below freezing for many days?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that icicles would grow larger and longer over time, explaining that continuous freezing allows water to keep adding to the icicle, and may note that shape depends on water flow patterns.",
+        "meets": "Student predicts icicles would get bigger or longer if freezing continued for many days, with a reasonable explanation about accumulated water or ice.",
+        "approaching": "Student makes a prediction about change (larger or longer) but the explanation is unclear or only partially connects freezing time to icicle growth.",
+        "beginning": "Student provides a minimal response about icicles changing but offers no clear prediction or explanation connecting time and freezing to size/shape changes."
+      }
+    },
+    {
+      "questionText": "What would happen to these icicles if the outside temperature rose to 40°F for several hours?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts icicles would melt completely or significantly, explaining that 40°F is above freezing and provides enough warmth and time to melt ice; may reference the melting point of ice.",
+        "meets": "Student predicts icicles would melt or drip, with a basic explanation that warmer temperature causes ice to melt.",
+        "approaching": "Student predicts the icicles would change (melt or get smaller) but provides only a vague connection between temperature increase and melting.",
+        "beginning": "Student provides a minimal or unclear response about what happens to icicles when temperature rises, with little evidence of understanding melting."
+      }
+    },
+    {
+      "questionText": "Why do you think some icicles in the photo are thicker than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water flow varies across the roof edge (different amounts of water, melting/dripping from different spots), causing some icicles to receive more water and freeze thicker than others.",
+        "meets": "Student explains that different amounts of water or different freezing amounts create thicker and thinner icicles, with a basic connection to how much water froze.",
+        "approaching": "Student suggests icicles are different sizes but the explanation is incomplete, vague, or only partially connects water amount/flow to thickness.",
+        "beginning": "Student acknowledges thickness differences but provides no meaningful explanation or suggests unrelated reasons (such as randomness without cause)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:24:04.815Z",
+  "cost": 0.004918
+}

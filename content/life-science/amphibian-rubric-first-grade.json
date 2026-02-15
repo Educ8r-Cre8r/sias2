@@ -1,0 +1,53 @@
+{
+  "title": "Amphibian",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts do you see on this frog that help it survive?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (such as sticky toe pads, strong legs, large eyes, or bumpy skin) and explains how each one helps the frog survive or move.",
+        "meets": "Student identifies two body parts of the frog and describes how at least one helps the frog survive or function.",
+        "approaching": "Student identifies one or two body parts but provides limited or unclear explanation of how they help the frog.",
+        "beginning": "Student names a body part but does not explain how it helps the frog, or provides only vague observations."
+      }
+    },
+    {
+      "questionText": "Why do you think the frog's skin is bumpy instead of smooth like a human's skin?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a reasonable hypothesis about bumpy skin (such as protection, gripping surfaces, or absorbing water) and connects it to where frogs live or what they do.",
+        "meets": "Student offers a plausible reason for bumpy skin that relates to the frog's needs or environment, showing basic cause-and-effect thinking.",
+        "approaching": "Student attempts to explain the bumpy skin but reasoning is unclear or only partially connected to frog survival or habitat.",
+        "beginning": "Student makes a guess about bumpy skin with little or no logical connection to how frogs live or function."
+      }
+    },
+    {
+      "questionText": "Where do you think this frog lives, and why would it need both water and land?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a realistic habitat (such as swamps, ponds, or forests near water) and explains two reasons why frogs need both water and land (such as laying eggs in water, breathing or eating on land).",
+        "meets": "Student suggests an appropriate habitat and provides one or two reasons why frogs need both water and land.",
+        "approaching": "Student identifies water or land as part of frog habitat but gives incomplete reasoning about why both environments are needed.",
+        "beginning": "Student mentions water or land but does not clearly explain why frogs need both environments."
+      }
+    },
+    {
+      "questionText": "If a frog's sticky toe pads didn't work, what problems might the frog have?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more specific problems, such as difficulty climbing, falling from trees, inability to catch food, or danger from predators, showing understanding of how toe pads help frogs survive.",
+        "meets": "Student describes one or two realistic problems the frog would face without sticky toe pads, such as slipping or difficulty gripping surfaces.",
+        "approaching": "Student recognizes the frog would have difficulty but explanation lacks detail or clarity about how toe pads are used.",
+        "beginning": "Student states the frog would have problems but provides no specific examples or vague explanations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:08:37.947Z",
+  "cost": 0.004634
+}

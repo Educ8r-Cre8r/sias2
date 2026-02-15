@@ -1,0 +1,53 @@
+{
+  "title": "Weather",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening in the sky right now in this picture, and why do you think the clouds look so dark?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that a storm is forming and explains that dark clouds are heavy with water droplets or moisture, showing understanding of cloud composition and weather development.",
+        "meets": "Student recognizes that dark clouds mean bad weather or rain is coming and provides a reasonable explanation that the clouds are dark because they contain lots of water.",
+        "approaching": "Student identifies that dark clouds are present and suggests they might bring rain, but explanation is vague or only partially accurate.",
+        "beginning": "Student makes a simple observation about dark clouds but provides no explanation, or explanation shows minimal understanding of weather patterns."
+      }
+    },
+    {
+      "questionText": "How do you think the weather in the background (over the water) will change the weather in the foreground (where the road is) in the next hour?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the storm will move toward the foreground and describes specific weather changes (rain, wind, darker sky) with reasoning about how weather systems move across locations.",
+        "meets": "Student predicts that the dark clouds will move to the road area and will bring rain or storms in the near future.",
+        "approaching": "Student predicts some weather change is coming but reasoning is incomplete or unclear about direction of storm movement or timing.",
+        "beginning": "Student makes a prediction with little detail or reasoning, or predicts that no weather change will occur."
+      }
+    },
+    {
+      "questionText": "What evidence in this photo tells us that a storm is coming? What would you do to prepare if you saw a sky like this?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple storm signs (dark clouds, cloud position/movement, contrast between sunny and dark areas) and lists several practical safety preparations (go inside, secure objects, avoid outdoor activity).",
+        "meets": "Student identifies dark clouds as the main evidence of an approaching storm and suggests at least one reasonable preparation action like going indoors or warning others.",
+        "approaching": "Student identifies dark clouds but provides limited evidence, or mentions preparation but it is vague or only partially appropriate.",
+        "beginning": "Student provides minimal evidence of understanding storm warning signs or suggests inappropriate or no preparation steps."
+      }
+    },
+    {
+      "questionText": "Why do you think dark clouds bring rain, while light, puffy clouds might not? Where does the water in clouds come from?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dark clouds contain more water droplets that form rain, and identifies that water in clouds comes from evaporation of water from oceans, lakes, or land, showing understanding of the water cycle.",
+        "meets": "Student explains that dark clouds are heavier with water and will produce rain, and identifies at least one source of water for clouds (evaporation from water bodies or ground).",
+        "approaching": "Student attempts to explain the difference between cloud types or water sources but reasoning is incomplete, partially inaccurate, or only addresses one part of the question.",
+        "beginning": "Student provides minimal or unclear explanation, or shows little understanding of cloud formation or water cycle processes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:01:27.364Z",
+  "cost": 0.004897
+}

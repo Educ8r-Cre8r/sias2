@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to the reflection if the glass surface was rough instead of smooth?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a rough surface would scatter light in many directions, causing the reflection to become blurry or disappear entirely, and explains that smooth surfaces are needed for clear reflections because light rays bounce off at the same angle.",
+        "meets": "Student predicts that a rough surface would make the reflection blurry or less clear, and provides a reasonable explanation that the uneven surface would change how light bounces off it.",
+        "approaching": "Student predicts the reflection would change or become less clear, but explanation is vague or incomplete; may mention roughness without explaining the connection to how light reflects.",
+        "beginning": "Student makes a prediction or observation about roughness and reflections but with minimal detail; explanation is missing or inaccurate."
+      }
+    },
+    {
+      "questionText": "How might architects use reflective building materials to solve problems in hot climates?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple solutions, such as reflecting sunlight away to reduce heat absorption and keep buildings cooler, and explains how this reduces energy costs for air conditioning; may mention specific materials or real-world examples.",
+        "meets": "Student explains that reflective materials can bounce sunlight away from the building, which helps keep it cooler and uses less energy for cooling; response shows understanding of cause and effect.",
+        "approaching": "Student mentions that reflective materials help with heat or cooling, but explanation lacks detail or clarity about how reflection reduces temperature; may have partial understanding of the connection.",
+        "beginning": "Student provides a general statement about reflective materials and hot climates but with little explanation or with inaccurate reasoning."
+      }
+    },
+    {
+      "questionText": "Why can you see reflections better in this building's windows during the day than at night?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that during the day there is more natural light available to reflect off the glass surface, and at night the reflected building's windows appear darker because there is less light; may note that interior building lights at night can create different reflections.",
+        "meets": "Student explains that there is more light during the day, which makes reflections clearer, and less light at night makes reflections harder to see; reasoning is logical and grade-appropriate.",
+        "approaching": "Student recognizes that light level affects reflections but explanation is incomplete; may say reflections are better during the day without fully explaining why the amount of light matters.",
+        "beginning": "Student offers a response with minimal explanation; may make a general observation without connecting it to how light enables reflections."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how the reflected building appears compared to the real building?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple patterns, such as the reflected building appearing reversed horizontally, the windows and grid structure lining up in a similar arrangement, or the reflection being slightly transparent/layered with the actual building; uses precise descriptive language.",
+        "meets": "Student identifies 1-2 patterns, such as the reflected building looking like a mirror image or noticing that the windows appear in similar grid arrangements; descriptions are clear and accurate.",
+        "approaching": "Student notices that the reflected and real buildings look similar or mentions some visual similarity, but pattern identification is vague or limited; may describe appearance without identifying clear patterns.",
+        "beginning": "Student makes a general observation about the two buildings but does not clearly identify or describe specific patterns."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:04:31.028Z",
+  "cost": 0.005188
+}

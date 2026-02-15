@@ -1,0 +1,53 @@
+{
+  "title": "Renewable Resource",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think builders chose wood instead of plastic or metal for this building's frame?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple properties of wood (strength, availability, renewable nature, workability) and explains how at least two of these properties make it suitable for building frames compared to plastic or metal.",
+        "meets": "Student identifies at least two reasons why wood is chosen for building frames, such as its strength, availability, or that it is renewable.",
+        "approaching": "Student identifies one reason why wood might be used for building frames, but the explanation is incomplete or shows partial understanding of material properties.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'wood is good' without explaining why, or confuses properties of wood with other materials."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the space between the wooden beams after insulation is added? How might that help people who live in this building?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that insulation fills the spaces and explains how it traps air to slow heat transfer, then connects this to specific benefits like keeping the building warmer in winter or cooler in summer, helping people stay comfortable and save energy.",
+        "meets": "Student explains that insulation fills the spaces between beams and identifies that it helps keep the building warm or helps with comfort inside.",
+        "approaching": "Student recognizes that insulation fills spaces or helps with temperature, but the explanation lacks clarity about how insulation works or why it matters to people in the building.",
+        "beginning": "Student provides a minimal or unclear response, such as 'insulation fills the space' without explaining what it does or how it helps people."
+      }
+    },
+    {
+      "questionText": "If it takes 30 years for a tree to grow big enough to harvest for wood, how many trees need to be planted today to replace the ones used in buildings 30 years from now?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that at least as many trees as are harvested need to be planted today, and may extend thinking by discussing why planting more trees might be necessary or the concept of sustainable harvesting to ensure future wood availability.",
+        "meets": "Student demonstrates understanding that the number of trees planted today should equal or match the number of trees harvested to replace the wood used, showing grasp of renewable resource management.",
+        "approaching": "Student recognizes a connection between planting trees and having wood in the future, but the response is unclear about quantities or timing of replacement.",
+        "beginning": "Student provides a vague response or fails to connect the 30-year growth time to the need for replanting, such as 'lots of trees' without reasoning."
+      }
+    },
+    {
+      "questionText": "Compare a wooden building to a plastic toy. Which is a renewable resource? Why is that important?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies wood as renewable, explains that trees can be replanted and grow again while plastic cannot, and connects this to why renewability matters (resources don't run out, better for the environment, sustainable).",
+        "meets": "Student correctly identifies wood as the renewable resource and explains that trees can grow back, contrasting this with plastic which cannot be naturally regrown.",
+        "approaching": "Student identifies wood as renewable or plastic as non-renewable, but provides limited explanation of why trees regrow or why this difference is important.",
+        "beginning": "Student may confuse which resource is renewable, or provides a response that shows minimal understanding of the difference between renewable and non-renewable resources."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:36:28.566Z",
+  "cost": 0.005311
+}

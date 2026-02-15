@@ -1,0 +1,53 @@
+{
+  "title": "Sound",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens inside the trumpet when someone blows into it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that air moves through the trumpet and causes the metal to vibrate, making sound waves that travel out; uses term \"vibrate\" or \"vibration\" accurately.",
+        "meets": "Student describes that air goes through the trumpet and makes it produce sound; shows basic understanding that air and the instrument work together.",
+        "approaching": "Student mentions that air goes into the trumpet or that sound comes out, but doesn't clearly connect the two ideas or explain the connection between blowing and sound.",
+        "beginning": "Student gives a vague response like \"it makes noise\" or \"something happens\" with little detail about what occurs inside the trumpet."
+      }
+    },
+    {
+      "questionText": "How could we test if different materials make different sounds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a specific fair test procedure (same amount of force, different materials, listen carefully to compare); identifies the variable being tested (material) and what stays the same.",
+        "meets": "Student explains that you could use different materials and listen to hear if the sounds are different; shows understanding that materials could be tested by comparing sounds.",
+        "approaching": "Student suggests using different materials or mentions listening to sounds, but the testing procedure is unclear or incomplete; doesn't fully explain how to compare fairly.",
+        "beginning": "Student mentions materials or sounds separately but doesn't connect them into a testable idea or gives unclear suggestions for how to test."
+      }
+    },
+    {
+      "questionText": "Why can you hear the band from across the room?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sound travels through the air as waves from the instruments to reach your ears, and that loud instruments make strong sound waves that travel far.",
+        "meets": "Student describes that sound travels through the air from the band to your ears; shows understanding that sound moves from the source to the listener.",
+        "approaching": "Student mentions that sound comes from the instruments or travels through the air, but reasoning is incomplete or somewhat unclear about the path sound takes.",
+        "beginning": "Student gives a simple answer like \"we can just hear it\" or \"the band is loud\" with little explanation of how sound travels."
+      }
+    },
+    {
+      "questionText": "What would happen to the sound if we played the instruments in a smaller room?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the sound would be louder and explains that in a smaller space, sound waves bounce off the walls more or have less distance to travel, making it seem louder.",
+        "meets": "Student predicts that the sound would be louder in a smaller room and provides a reasonable explanation, such as the sound being closer or bouncing around more.",
+        "approaching": "Student makes a prediction that the sound might change but the explanation is unclear or only partially developed; may not explain why the change would occur.",
+        "beginning": "Student makes a vague prediction or guesses without explanation, or says \"it would be the same\" with no reasoning given."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:00:51.657Z",
+  "cost": 0.004662
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Scavenger",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this bird is doing on the ground?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bird is looking for food and explains that it eats dead animals, using the word 'vulture' or 'scavenger' to describe what the bird does.",
+        "meets": "Student correctly states that the bird is looking for food or eating something on the ground.",
+        "approaching": "Student recognizes the bird is doing something on the ground but provides vague or partially correct reasoning (e.g., 'looking for stuff' or 'eating').",
+        "beginning": "Student makes a minimal attempt but provides inaccurate or unclear information about what the bird is doing (e.g., 'flying' or 'playing')."
+      }
+    },
+    {
+      "questionText": "How is this bird's way of finding food different from how a robin finds worms?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that vultures eat dead animals while robins hunt live worms, and describes how the birds search differently (e.g., vultures look on the ground for already-dead food, robins dig or hop to find moving worms).",
+        "meets": "Student identifies that vultures and robins eat different things and explains the basic difference (vultures eat dead animals, robins eat worms).",
+        "approaching": "Student notes that the birds eat different food but provides incomplete or unclear explanation of how they find their food differently.",
+        "beginning": "Student makes a minimal attempt to compare the birds but provides inaccurate or very vague information about their feeding methods."
+      }
+    },
+    {
+      "questionText": "Why do you think it's important for this bird to find dead animals instead of hurting live animals?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eating dead animals helps the bird and is safe for other animals, and may connect this to helping keep nature clean or not causing harm to living creatures.",
+        "meets": "Student provides a reasonable explanation that it is safer or better for the bird to eat dead animals rather than hunt live ones.",
+        "approaching": "Student recognizes that eating dead animals is different from hurting live animals but provides incomplete reasoning about why this matters.",
+        "beginning": "Student attempts to answer but provides minimal or unclear thinking about the importance of the bird's feeding behavior."
+      }
+    },
+    {
+      "questionText": "If this bird didn't clean up dead animals, what might happen in nature?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead animals would pile up, rot, or cause problems, and connects this to how vultures help keep nature healthy and clean for other animals.",
+        "meets": "Student provides a logical consequence that dead animals would accumulate or that nature would become dirty or unhealthy without the bird's help.",
+        "approaching": "Student recognizes something negative would happen but gives incomplete or unclear reasoning about consequences.",
+        "beginning": "Student makes a minimal attempt but provides vague or inaccurate predictions about what would happen without scavenging birds."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:26:00.462Z",
+  "cost": 0.004701
+}

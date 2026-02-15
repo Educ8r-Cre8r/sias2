@@ -1,0 +1,53 @@
+{
+  "title": "Forms Of Energy",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the train engine is so much bigger and heavier than the sports car? What do you think it needs to do that the car might not need to do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the train is bigger and heavier because it needs to carry heavy loads and pull multiple cars, demonstrating understanding of how size relates to function and load capacity.",
+        "meets": "Student recognizes that the train is bigger because it needs to be stronger or carry more things, showing basic understanding of the relationship between size and purpose.",
+        "approaching": "Student acknowledges the size difference and makes a simple statement about why (e.g., 'trains are just bigger' or 'it pulls things'), but reasoning is incomplete or unclear.",
+        "beginning": "Student makes a vague observation about size without connecting it to function, or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "Both the train and the car move, but they move in different ways. How are their movements different, and why might they be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific movement differences (e.g., train moves on tracks in straight lines while car moves on roads with turns) and explains why these differences exist based on their design or purpose.",
+        "meets": "Student identifies at least one clear difference in how the vehicles move (tracks vs. roads, or straight vs. turning) and offers a reasonable explanation.",
+        "approaching": "Student notices the vehicles move differently but describes the difference vaguely or provides incomplete reasoning about why.",
+        "beginning": "Student makes a minimal observation about movement or provides inaccurate information about how the vehicles move."
+      }
+    },
+    {
+      "questionText": "The train says 'Ultra Low Emissions Diesel Genset Switcher' on the side. What do you think 'diesel' means, and where do you think the energy comes from to make this train move?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies diesel as a type of fuel or energy source and explains that it burns or is used to create energy to move the train, showing understanding of energy conversion.",
+        "meets": "Student identifies diesel as fuel or something that makes the train go, and recognizes it is the source of energy for movement.",
+        "approaching": "Student makes a partial attempt to identify diesel as fuel or energy source, but explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal or inaccurate guess about what diesel is or where the train's energy comes from."
+      }
+    },
+    {
+      "questionText": "If we wanted to make the sports car move the same way a train moves, what would we need to change about the car?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple specific changes needed, such as adding tracks/wheels, making it heavier/stronger, changing its shape, or using different fuel, demonstrating deep understanding of how design affects movement.",
+        "meets": "Student identifies at least one specific change needed (e.g., giving it tracks, making it bigger, or putting it on rails) with reasonable justification.",
+        "approaching": "Student suggests a change but with vague reasoning, or identifies changes that are partially relevant but incomplete.",
+        "beginning": "Student offers a minimal or unclear suggestion, or states changes would be needed without explaining what or why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:40:07.784Z",
+  "cost": 0.005084
+}

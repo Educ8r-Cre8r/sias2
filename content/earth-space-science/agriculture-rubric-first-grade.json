@@ -1,0 +1,53 @@
+{
+  "title": "Agriculture",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we planted seeds without preparing the soil first?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that seeds would not grow well and explains two or more specific reasons, such as seeds needing loose soil, water not getting through hard soil, or roots not being able to grow down.",
+        "meets": "Student predicts that seeds would not grow well and provides one clear reason, such as the soil being too hard or the seed not being able to grow.",
+        "approaching": "Student predicts seeds would not grow but gives a vague or partially correct reason, such as 'the seed wouldn't like it' or 'something would be wrong.'",
+        "beginning": "Student makes a prediction but it is unclear or inaccurate, such as saying seeds would grow better without preparing soil, or provides no reasoning."
+      }
+    },
+    {
+      "questionText": "How is this tractor helping plants that haven't been planted yet?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the tractor is preparing the soil by breaking it up, loosening it, or turning it over, and connects this to how it helps seeds or plant roots in the future.",
+        "meets": "Student explains that the tractor is preparing or loosening the soil to get it ready for planting seeds.",
+        "approaching": "Student identifies that the tractor is working the soil but the explanation is incomplete, such as 'it moves the dirt around' without explaining why this helps.",
+        "beginning": "Student provides a vague response such as 'it helps plants' or 'it works in the field' with no clear explanation of soil preparation."
+      }
+    },
+    {
+      "questionText": "What tools could you use in a small garden to do the same job as this big tractor?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more appropriate hand tools (such as shovel, spade, rake, hoe, or garden fork) and explains how each one would loosen or turn the soil like the tractor does.",
+        "meets": "Student identifies one or two appropriate hand tools and explains how they would help prepare the soil in a garden.",
+        "approaching": "Student names one tool that could work in a garden but gives little or unclear explanation of how it helps prepare soil.",
+        "beginning": "Student names a tool that is not appropriate for soil preparation, or gives a response that does not connect to the tractor's job."
+      }
+    },
+    {
+      "questionText": "Why do you think the farmer chose to work on this field when the weather looks sunny and clear?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers two or more reasons, such as the tractor works better or easier in dry conditions, wet soil would be muddy and harder to work with, or the farmer needs good weather to see what they are doing.",
+        "meets": "Student infers one clear reason, such as it is easier to work with dry soil, the farmer can see better in sunlight, or the tractor won't get stuck in mud.",
+        "approaching": "Student makes an inference but it is vague or only partially connected to the weather, such as 'sunny weather is good for work' without explaining the soil or farming connection.",
+        "beginning": "Student's response does not clearly connect the weather to the farming task, or provides guessing with no logical reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:35:35.679Z",
+  "cost": 0.005005
+}

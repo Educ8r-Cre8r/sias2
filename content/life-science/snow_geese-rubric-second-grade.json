@@ -1,0 +1,53 @@
+{
+  "title": "Snow Geese",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the geese are stopping in this farm field?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reasons geese stop (to rest, find food, gather energy) and explains how the farm field provides these resources using specific details from the photo or prior knowledge.",
+        "meets": "Student identifies at least one logical reason geese stop in the field (to rest or find food) with a simple explanation of why that location is helpful.",
+        "approaching": "Student suggests a reason geese stop but the explanation is vague or only partially connected to the farm field's resources.",
+        "beginning": "Student makes a guess about why geese stop but provides little or no reasoning."
+      }
+    },
+    {
+      "questionText": "What might happen to the geese if the temperature dropped very low and they had no food to eat?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts realistic consequences (geese would struggle to survive, move to warmer places, or become weak) and explains how cold and hunger affect an animal's body or survival needs.",
+        "meets": "Student predicts a reasonable outcome (geese would get very cold, be hungry, or leave) based on understanding that animals need warmth and food to survive.",
+        "approaching": "Student predicts something might happen but the connection between temperature/food and survival is unclear or incomplete.",
+        "beginning": "Student provides a minimal prediction with little connection to how temperature or food affects living things."
+      }
+    },
+    {
+      "questionText": "How is the geese's journey similar to when you travel from one place to another? How is it different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both travel to new places, need supplies, take time) and differences (geese travel by flying far distances on instinct, people use vehicles/plan trips) with clear explanations.",
+        "meets": "Student identifies at least one similarity and one difference between geese migration and human travel with reasonable supporting details.",
+        "approaching": "Student attempts to compare but mentions mostly similarities or differences, or explanations lack clear detail.",
+        "beginning": "Student makes a simple comparison or difference but provides minimal explanation."
+      }
+    },
+    {
+      "questionText": "Where do you think these geese came from, and where do you think they're going?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers reasonable locations using clues from the photo (they came from colder places/north, going to warm places/south) and explains this relates to seasonal migration and weather patterns.",
+        "meets": "Student suggests logical starting and ending locations (from a cold place, going to a warmer place) based on understanding that geese move with seasons.",
+        "approaching": "Student guesses locations but reasoning is unclear or shows incomplete understanding of why geese travel seasonally.",
+        "beginning": "Student names locations with little or no connection to seasonal migration or geography."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:58:00.471Z",
+  "cost": 0.004533
+}

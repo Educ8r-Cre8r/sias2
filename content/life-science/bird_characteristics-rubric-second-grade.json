@@ -1,0 +1,53 @@
+{
+  "title": "Bird Characteristics",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does this pigeon have that help it survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies four or more body parts (wings, feet, beak, eyes) and explains how each helps the pigeon survive with specific details (wings for flying, feet for perching, beak for eating).",
+        "meets": "Student identifies three body parts and explains how at least two of them help the pigeon survive (e.g., wings help it fly, beak helps it eat).",
+        "approaching": "Student identifies two body parts and makes a simple connection to survival, but reasoning may be incomplete or vague (e.g., mentions wings and feet but only explains one).",
+        "beginning": "Student names one body part or provides a response with minimal connection to survival (e.g., \"it has wings\" with no explanation of how this helps)."
+      }
+    },
+    {
+      "questionText": "Why do you think pigeons have strong feet and a small beak?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that strong feet help pigeons hold onto perches or branches and that a small beak is suited for eating seeds or small food pieces, showing understanding of how body parts match their purposes.",
+        "meets": "Student provides a reasonable explanation for strong feet (holding on, standing) and small beak (eating small foods), showing basic cause-and-effect thinking.",
+        "approaching": "Student attempts to explain the purpose of one or both features but reasoning is incomplete or partially inaccurate (e.g., strong feet help it run, but no clear explanation of the beak's purpose).",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of how these features help the pigeon (e.g., \"because it needs them\" with no reasoning)."
+      }
+    },
+    {
+      "questionText": "How is this pigeon the same as other birds you've seen, and how is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (wings, beak, feet, eyes) and differences (size, colors, beak shape compared to other birds like robins or ducks) with specific details about other bird types.",
+        "meets": "Student identifies at least two similarities and one difference between pigeons and other birds using observable features (e.g., all have wings and beaks; pigeons are bigger/smaller than others).",
+        "approaching": "Student identifies one similarity and one difference but may lack detail or clarity, or comparison is unclear (e.g., \"they have feathers like robins but are gray\").",
+        "beginning": "Student provides a vague response with minimal comparison to other birds (e.g., \"pigeons are like other birds\" with little or no specific details)."
+      }
+    },
+    {
+      "questionText": "Where do you think this pigeon finds food and water to stay alive, and what does it need to live?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific places pigeons find food and water (ground, parks, buildings, bird feeders) and lists multiple needs for survival (food, water, shelter, air) with logical reasoning.",
+        "meets": "Student identifies reasonable places for finding food and water (ground, city areas) and lists two or more basic needs (food, water, shelter) for survival.",
+        "approaching": "Student provides partial answers about where pigeons find food/water or what they need, but reasoning may be incomplete or one aspect is missing (e.g., mentions food sources but not water, or lists needs without explaining where to find resources).",
+        "beginning": "Student provides a minimal response with little detail about where pigeons get food/water or what they need to live (e.g., \"they find food somewhere\" with no further explanation)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:39:17.270Z",
+  "cost": 0.005512
+}

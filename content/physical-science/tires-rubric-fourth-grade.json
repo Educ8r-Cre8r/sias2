@@ -1,0 +1,53 @@
+{
+  "title": "Tires",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if a tire had no tread at all—just a smooth, flat surface?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the tire would slip or lose grip and explains that tread grooves help water escape and increase friction with the road, using accurate scientific reasoning.",
+        "meets": "Student predicts the tire would slip or not grip the road well, and identifies that tread helps tires hold onto the road.",
+        "approaching": "Student makes a prediction about the tire not working properly but provides limited or unclear explanation of why tread matters.",
+        "beginning": "Student provides a minimal response with vague ideas about the tire (e.g., 'it would be bad') with little or no scientific reasoning."
+      }
+    },
+    {
+      "questionText": "Why might tire tread be especially important on rainy days or icy roads?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that tread grooves push water or snow away from the tire and increase friction, preventing hydroplaning or slipping, demonstrating understanding of multiple safety factors.",
+        "meets": "Student explains that tread helps remove water or prevents slipping on wet/icy surfaces, showing clear understanding of tread's safety function.",
+        "approaching": "Student identifies that tread is important on wet or icy roads but provides incomplete or partially unclear explanations of how it helps.",
+        "beginning": "Student states tread is important on rainy/icy days with little explanation or vague reasoning (e.g., 'it helps you drive')."
+      }
+    },
+    {
+      "questionText": "How is the tread pattern on a tire similar to the tread pattern on the bottom of your shoes?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both have grooves for grip, both prevent slipping, both are textured patterns) and explains that both improve traction on surfaces.",
+        "meets": "Student identifies that both tire and shoe treads have grooves or patterns that help with grip or prevent slipping.",
+        "approaching": "Student recognizes that tires and shoes both have patterns or textures but provides limited detail about their similar purpose.",
+        "beginning": "Student makes a vague comparison or states they are similar without clear reasoning about function or design."
+      }
+    },
+    {
+      "questionText": "If you were designing a tire for a race car that only drives on dry roads versus a tire for a truck that drives in snow, how might you make them different?",
+      "bloomsLevel": "Design",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs both tires thoughtfully, explaining that race car tires could have shallower tread for better dry road contact and speed, while snow tires would have deeper grooves to remove snow and improve grip, showing understanding of tread depth trade-offs.",
+        "meets": "Student suggests reasonable differences between the two tires, such as the snow truck tire having deeper or more aggressive tread for snow removal and the race car tire being smoother for dry roads.",
+        "approaching": "Student recognizes that the tires should be different and mentions some tread differences, but explanations lack clarity or are incomplete about why the changes matter.",
+        "beginning": "Student acknowledges the tires could be different but provides minimal or unclear design ideas without solid reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:27:19.781Z",
+  "cost": 0.004952
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Dawn",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the fog when the sun gets higher in the sky?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the fog will disappear or evaporate and explains that heat from the sun causes water droplets to turn into invisible water vapor, using accurate scientific reasoning.",
+        "meets": "Student predicts the fog will go away or disappear when the sun gets higher and provides a simple explanation about the sun's heat or warmth.",
+        "approaching": "Student predicts the fog will change or disappear but gives an incomplete or unclear explanation about why this will happen.",
+        "beginning": "Student makes a vague prediction about the fog or provides no explanation for what will happen as the sun rises."
+      }
+    },
+    {
+      "questionText": "How is fog similar to and different from clouds?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both fog and clouds are made of water droplets in the air and explains that the main difference is location—fog forms near the ground while clouds form high in the sky.",
+        "meets": "Student describes accurate similarities (both are water/white) and differences (fog is low, clouds are high) between fog and clouds.",
+        "approaching": "Student identifies one similarity or one difference between fog and clouds but does not provide a complete comparison.",
+        "beginning": "Student makes a vague statement about fog or clouds with little or no accurate comparison between the two."
+      }
+    },
+    {
+      "questionText": "Why do you think the fog is thicker over the green plants than over the bare ground?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that plants release water vapor through their leaves (or explains plants need water) and this extra moisture helps create thicker fog, demonstrating understanding of water in nature.",
+        "meets": "Student suggests that plants release water or plants have moisture that adds to the fog, making it thicker in those areas.",
+        "approaching": "Student mentions plants or water in connection with the thicker fog but does not clearly explain the relationship between them.",
+        "beginning": "Student provides a vague or inaccurate response that shows minimal understanding of why fog might be thicker over plants."
+      }
+    },
+    {
+      "questionText": "What other times have you seen water droplets form in the air or on surfaces?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides multiple specific examples (dew on grass, condensation on windows, rain, breath on mirrors) and explains that water droplets form when water vapor cools down.",
+        "meets": "Student provides at least two clear examples of water droplets forming in nature or everyday life, such as dew, condensation, or steam.",
+        "approaching": "Student provides one example of water droplets forming but may lack specific details or clarity about when or where they observed it.",
+        "beginning": "Student provides a vague example or no clear example of seeing water droplets form in the air or on surfaces."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:30:14.230Z",
+  "cost": 0.004526
+}

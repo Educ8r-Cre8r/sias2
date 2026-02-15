@@ -1,0 +1,53 @@
+{
+  "title": "Sound",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we made the trumpet longer like a tuba?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a longer trumpet would make a lower sound and explains that longer instruments create lower pitches; may reference how the tuba in the photo sounds lower than the trumpet.",
+        "meets": "Student predicts that a longer trumpet would make a different sound, typically identifying that it would be lower or deeper without detailed explanation.",
+        "approaching": "Student makes a prediction about the sound changing but is vague about the direction or type of change (e.g., 'it would sound different' without specifying lower or higher).",
+        "beginning": "Student provides a minimal or unclear prediction that shows little connection to how instrument length affects sound (e.g., 'it would be weird' or no answer)."
+      }
+    },
+    {
+      "questionText": "How could we test whether different materials make different sounds?",
+      "bloomsLevel": "Design",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a clear procedure with multiple steps (e.g., 'make tubes from metal, plastic, and wood, blow into each one the same way, and listen to the sounds') and explains why keeping other variables the same matters.",
+        "meets": "Student describes a reasonable test plan that involves making or using instruments from different materials and listening to compare the sounds.",
+        "approaching": "Student suggests testing different materials but lacks detail in the procedure or doesn't clearly explain how they would compare the sounds fairly.",
+        "beginning": "Student attempts to describe a test but the procedure is unclear, incomplete, or doesn't logically show how different materials affect sound."
+      }
+    },
+    {
+      "questionText": "Why do you think the musicians need to blow air into their instruments to make sound?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that blowing air makes the instrument vibrate, and vibrations create sound; may note that air inside the instrument column vibrates or that without air, no sound is made.",
+        "meets": "Student explains that air is needed to make the instrument vibrate or that the air makes the sound happen inside the instrument.",
+        "approaching": "Student recognizes that air is important for making sound but gives an incomplete explanation (e.g., 'air makes it work' without mentioning vibration or movement).",
+        "beginning": "Student provides a vague or minimal response that shows little understanding of how air produces sound (e.g., 'you just have to' or 'to make noise')."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice about the size of instruments and the sounds they make?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a clear pattern (larger instruments like the tuba make lower sounds; smaller instruments like the flute make higher sounds) and explains why size might affect pitch.",
+        "meets": "Student identifies a pattern between instrument size and sound type (e.g., 'bigger instruments sound lower' or 'smaller instruments sound higher') with accurate observations.",
+        "approaching": "Student notices that different instruments sound different but makes an incomplete connection to size (e.g., mentions both size and sound but doesn't clearly link them).",
+        "beginning": "Student provides a vague observation with little or no clear pattern identified between instrument size and the sounds they produce."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:00:59.753Z",
+  "cost": 0.004922
+}

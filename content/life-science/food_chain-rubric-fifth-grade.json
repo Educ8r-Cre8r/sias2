@@ -1,0 +1,53 @@
+{
+  "title": "Food Chain",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this animal's dark coloring helps it survive in this soil and leaf habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dark coloring provides camouflage by matching the dark soil and leaf litter, making the animal harder for predators to see and easier to hunt prey; may reference the specific colors visible in the photo.",
+        "meets": "Student correctly identifies that the dark coloring helps the animal hide or blend in with its surroundings in the soil and leaf habitat.",
+        "approaching": "Student recognizes that the animal's dark color relates to its habitat but explanation is incomplete or vague (e.g., 'it helps it hide' without connecting to the dark soil/leaves).",
+        "beginning": "Student provides minimal or inaccurate response, such as 'dark color is good' or 'it helps it survive' without explaining how or why."
+      }
+    },
+    {
+      "questionText": "What other animals might live in this same soil habitat, and what might they eat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two realistic soil/leaf-litter animals (e.g., worms, beetles, millipedes, spiders) and describes what each eats, showing understanding of food chains (plants, decomposing matter, or other organisms).",
+        "meets": "Student identifies at least one appropriate soil habitat animal and explains what it eats with reasonable accuracy.",
+        "approaching": "Student names a soil habitat animal but provides incomplete or partially inaccurate information about what it eats, or identifies only one animal with limited detail.",
+        "beginning": "Student provides vague or inaccurate animals/foods (e.g., names animals unlikely to live in soil, or 'it eats stuff'), showing minimal understanding of soil ecosystem."
+      }
+    },
+    {
+      "questionText": "If this animal suddenly moved to a bright, sandy desert, would its dark coloring still be a helpful adaptation? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student clearly states that dark coloring would NOT help (or would be harmful) in a bright desert because it would stand out against light sand, making the animal visible to predators; may explain that light coloring would be better adaptation for that habitat.",
+        "meets": "Student correctly identifies that dark coloring would not be helpful in a desert habitat and provides a reasonable explanation connecting color to the bright sand environment.",
+        "approaching": "Student indicates that the adaptation would change in a new habitat but explanation lacks clarity or contains minor inaccuracies about how dark coloring affects survival in bright environments.",
+        "beginning": "Student gives unclear or incorrect response (e.g., 'it would still help' without explanation, or fails to compare the two habitats)."
+      }
+    },
+    {
+      "questionText": "How do you think the decomposing leaves and soil around this animal are connected to its survival?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple connections: decomposing material provides food/habitat for smaller animals that the reptile eats, soil provides shelter and moisture, and the leaf litter offers camouflage; demonstrates understanding of ecosystem relationships.",
+        "meets": "Student identifies at least two ways decomposing leaves/soil support the animal's survival (e.g., provides food sources, shelter, or camouflage).",
+        "approaching": "Student recognizes that decomposing leaves/soil are important but explanation is incomplete or mentions only one connection without clear reasoning.",
+        "beginning": "Student provides vague or minimal response (e.g., 'they help it' or 'it needs them') with little explanation of how or why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:00:00.666Z",
+  "cost": 0.005394
+}

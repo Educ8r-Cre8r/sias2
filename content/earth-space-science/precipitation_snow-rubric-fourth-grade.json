@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Snow",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to all this snow when spring arrives and the weather gets warmer?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the complete melting process, explaining that snow turns into water that flows into the ground, streams, or soaks into soil, and may connect this to the water cycle or plant growth.",
+        "meets": "Student accurately explains that snow melts into water when it gets warmer and describes where some of that water goes (ground, streams, or evaporation).",
+        "approaching": "Student identifies that snow melts when warmer but provides limited detail about what happens to the water afterward, or includes one partially accurate outcome.",
+        "beginning": "Student provides a vague response like 'it melts' or 'it goes away' with little explanation of the water's destination or the melting process."
+      }
+    },
+    {
+      "questionText": "Why do you think snow falls in winter but rain falls in other seasons? What's different about the air?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that winter air is cold enough to freeze water droplets into ice crystals that form snow, while warmer air in other seasons keeps water as liquid that falls as rain, demonstrating understanding of temperature's role in precipitation type.",
+        "meets": "Student identifies that the air is colder in winter (causing snow) and warmer in other seasons (causing rain), showing understanding that temperature affects whether precipitation falls as snow or rain.",
+        "approaching": "Student recognizes that temperature differences between seasons affect precipitation type but explains the connection incompletely or with minor inaccuracies.",
+        "beginning": "Student mentions that winter is cold and other seasons are warm but does not clearly connect this to why snow versus rain falls, or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "If you traced one snowflake from the moment it forms in a cloud until it melts in spring, what journey would it take?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student traces a complete water cycle pathway: water evaporates, condenses into a cloud, freezes into a snowflake, falls to Earth, lands on ground/plant/building, and melts into water that soaks into soil or flows away, showing understanding of the full cycle.",
+        "meets": "Student describes most of the snowflake's journey, including formation in a cloud, falling as precipitation, and melting in spring, with generally accurate sequencing of events.",
+        "approaching": "Student describes 2-3 steps of the snowflake's journey but may skip steps, misorder events, or provide incomplete detail about formation or melting.",
+        "beginning": "Student describes only 1-2 vague stages (like 'forms in a cloud' and 'falls down') without clear sequencing or understanding of the complete journey."
+      }
+    },
+    {
+      "questionText": "How might this snowy weather affect the plants and animals shown in the picture over the next few months?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific effects: snow insulates ground protecting plant roots, animals may hibernate or change behavior, plants stop growing in cold, ivy and trees are dormant, and explains how these adaptations help organisms survive winter.",
+        "meets": "Student describes 2-3 realistic effects of snow on plants and animals, such as plants resting/stopping growth, animals finding shelter, or snow providing insulation or water.",
+        "approaching": "Student identifies one or two effects of snow on organisms but with limited detail or reasoning, or includes one partially inaccurate statement.",
+        "beginning": "Student provides a vague response like 'animals will be cold' or 'plants will die' without explaining how snow actually affects survival or behavior over time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:43:03.107Z",
+  "cost": 0.005489
+}

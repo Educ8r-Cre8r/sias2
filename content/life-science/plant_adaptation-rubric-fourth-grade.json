@@ -1,0 +1,53 @@
+{
+  "title": "Plant Adaptation",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this plant grew thorns instead of smooth bark like some other trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that thorns are an adaptation that helps protect the plant from being eaten by animals, and connects this to the plant's specific environment or survival needs.",
+        "meets": "Student identifies that thorns protect the plant from animals or serve as a defense mechanism.",
+        "approaching": "Student mentions that thorns are protective but provides limited explanation of how or why the plant needs protection.",
+        "beginning": "Student makes a vague statement about thorns (e.g., 'to be pointy' or 'because it grows that way') with little connection to plant protection or survival."
+      }
+    },
+    {
+      "questionText": "What problems might thorns solve for this plant? What animals might the thorns protect it from?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple problems thorns solve (e.g., preventing animals from eating leaves or bark) and names specific animals (such as deer, insects, or herbivores) with reasoning about why those animals would be a threat.",
+        "meets": "Student identifies at least one problem thorns solve and names one or two animals the thorns might protect the plant from.",
+        "approaching": "Student identifies that thorns are protective or names one animal, but reasoning is incomplete or shows partial understanding of the relationship between thorns and animal protection.",
+        "beginning": "Student provides minimal or inaccurate information about what problems thorns solve or cannot name any animals that might eat plants."
+      }
+    },
+    {
+      "questionText": "If a plant didn't have thorns, what might happen to it in a forest where many animals eat plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the plant would be more likely to be eaten, damaged, or killed by herbivores, and connects this to how having thorns increases the plant's chances of survival.",
+        "meets": "Student predicts that the plant would be eaten or damaged more easily by animals without thorns.",
+        "approaching": "Student suggests something negative might happen to the plant but reasoning is unclear or only partially explains the consequence of lacking thorns.",
+        "beginning": "Student provides a vague prediction (e.g., 'the plant would die') or makes an inaccurate statement with minimal reasoning."
+      }
+    },
+    {
+      "questionText": "How is the thorn helping this plant survive similar to how your skin helps you survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both thorns and skin serve as protective barriers that keep harmful things out (like germs, injuries, or animals), and recognizes both as adaptations that help organisms survive.",
+        "meets": "Student identifies that both thorns and skin protect or defend against harm or damage.",
+        "approaching": "Student recognizes a connection between thorns and skin as protective features but the explanation is incomplete or partially accurate.",
+        "beginning": "Student attempts to make a comparison but the connection is unclear, inaccurate, or shows minimal understanding of how either thorns or skin function as protection."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:21:33.902Z",
+  "cost": 0.004744
+}

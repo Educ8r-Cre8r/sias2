@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the cicada's body parts and how might each part help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (wings, legs, eyes, body) with specific details about how each helps survival, such as wings for flying away from danger, strong legs for holding onto bark, or eyes for seeing predators.",
+        "meets": "Student identifies two body parts and explains how each helps the cicada survive with reasonable connections, such as legs for climbing or wings for moving.",
+        "approaching": "Student identifies one or two body parts but explanations are vague or only partially connected to survival, such as naming legs or wings without clear survival purposes.",
+        "beginning": "Student names a body part or makes a simple observation about the cicada's appearance with little connection to how it helps the insect survive."
+      }
+    },
+    {
+      "questionText": "How do you think a cicada's life underground as a nymph compares to its life above ground as an adult?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares underground and above-ground life with multiple details, such as nymphs eating roots underground versus adults eating sap from trees, or nymphs not having full wings versus adults having functional wings for flying.",
+        "meets": "Student identifies at least two clear differences between nymph and adult cicada life, such as location changes or different activities, with adequate explanations.",
+        "approaching": "Student recognizes that nymphs and adults live differently but provides incomplete or partially accurate comparisons with limited details.",
+        "beginning": "Student attempts a comparison but is vague or mostly inaccurate about how nymphs and adults differ in their lives."
+      }
+    },
+    {
+      "questionText": "Why might it be important for cicadas to have strong claws and the ability to hold tightly to tree bark?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that strong claws help cicadas stay safely on trees while feeding or resting, avoid falling, or escape predators, with clear reasoning about survival advantages.",
+        "meets": "Student provides a reasonable explanation that strong claws help cicadas stay on trees for feeding, safety, or staying in place.",
+        "approaching": "Student recognizes that holding on is important but gives an incomplete explanation, such as just saying cicadas need to \"stay on trees\" without explaining why.",
+        "beginning": "Student provides a minimal or vague response that shows little understanding of why strong claws matter for cicada survival."
+      }
+    },
+    {
+      "questionText": "What patterns do you see in how insects like cicadas grow and change throughout their lives?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple patterns of cicada growth and change, such as going from small underground nymphs to larger adults, developing wings, or changing where they live, using growth or life cycle vocabulary appropriately.",
+        "meets": "Student identifies at least two observable patterns in cicada changes, such as body size increasing, wings developing, or location changes from underground to trees.",
+        "approaching": "Student notices some changes in cicadas but descriptions lack detail or connection to growth patterns, such as only mentioning they get bigger.",
+        "beginning": "Student provides minimal observations about cicada changes with unclear connections to how the insect grows or develops throughout its life."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:29:35.307Z",
+  "cost": 0.004982
+}

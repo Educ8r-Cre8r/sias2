@@ -1,0 +1,53 @@
+{
+  "title": "Plant Reproduction",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What job do you think the thick, hard skin of this squash has?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple protective functions of the squash skin (protects seeds, keeps fruit fresh, protects from damage or animals) and explains how these protect the seeds inside.",
+        "meets": "Student correctly identifies that the skin protects the seeds or fruit inside and provides a reasonable explanation for why this protection matters.",
+        "approaching": "Student recognizes that the skin has a protective purpose but provides incomplete or vague reasoning about what it protects or why.",
+        "beginning": "Student makes a minimal attempt, such as \"it keeps it safe\" or \"it's hard,\" without clear explanation of the protective function."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful for seeds to be inside a fruit instead of just laying on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons seeds benefit from being in fruit, such as protection from animals, weather, or damage, and explains how the fruit helps seeds survive and spread.",
+        "meets": "Student identifies at least one clear reason why seeds inside fruit are protected better (such as protection from animals, water damage, or being stepped on) with accurate reasoning.",
+        "approaching": "Student recognizes that fruit provides some kind of protection but explanation is incomplete, unclear, or partially inaccurate.",
+        "beginning": "Student provides minimal response such as \"it's safer\" without explaining what dangers seeds are protected from."
+      }
+    },
+    {
+      "questionText": "How are seeds like babies? How are they different from animal babies?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (seeds grow, need care/conditions to develop) and differences (seeds don't need parents, don't move on their own, grow into plants not animals) using specific examples.",
+        "meets": "Student correctly identifies at least one similarity and one difference between seeds and animal babies with clear, accurate explanations.",
+        "approaching": "Student attempts to compare seeds and animal babies but explanations are incomplete, partially inaccurate, or missing details.",
+        "beginning": "Student provides a minimal or vague response that shows limited understanding of either seeds or animal babies."
+      }
+    },
+    {
+      "questionText": "If you planted one of these seeds, what do you predict would happen, and why?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the seed will grow into a squash plant and provides multiple logical reasons (needs soil, water, and sunlight to grow; seeds contain baby plants; this is how plants reproduce).",
+        "meets": "Student correctly predicts the seed will grow into a new squash plant and gives at least one logical reason such as providing water, soil, or sunlight.",
+        "approaching": "Student predicts growth will occur but reasoning is incomplete or only mentions one basic requirement without full explanation.",
+        "beginning": "Student makes a minimal prediction such as \"it will grow\" without explaining why or what conditions are needed."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:22:13.519Z",
+  "cost": 0.004634
+}

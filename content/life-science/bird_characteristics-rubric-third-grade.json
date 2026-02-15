@@ -1,0 +1,53 @@
+{
+  "title": "Bird Characteristics",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does this pigeon have, and how do you think each part helps it survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least four body parts (wings, beak, feet, feathers) and explains how each helps the pigeon survive with specific details (e.g., wings for flying to escape danger, beak for picking up seeds, feet for perching and walking).",
+        "meets": "Student identifies at least three body parts and explains how they help the pigeon survive with reasonable connections (e.g., wings help it fly, beak helps it eat, feathers keep it warm).",
+        "approaching": "Student identifies two or three body parts but explanations are incomplete or only partially accurate (e.g., identifies wings and feet but gives vague reasons like 'wings are for flying').",
+        "beginning": "Student identifies one body part with minimal explanation, or provides inaccurate information about how body parts help the pigeon survive."
+      }
+    },
+    {
+      "questionText": "If you found two pigeons that looked slightly different (one darker, one lighter), why might they look different even though they're both pigeons?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that individuals in the same species can have variation in appearance and provides thoughtful reasons such as different families, age differences, or genetics, demonstrating understanding that variation is normal.",
+        "meets": "Student recognizes that pigeons can look different from each other and provides a reasonable explanation like 'different families' or 'different colors are natural' without deeper analysis.",
+        "approaching": "Student acknowledges the pigeons look different but gives unclear or partially accurate explanations (e.g., 'they are different because one looks darker').",
+        "beginning": "Student provides minimal response or suggests the birds are different species, showing limited understanding that variation exists within the same type of animal."
+      }
+    },
+    {
+      "questionText": "Do you think a pigeon would survive well living in a rainforest? Why or why not?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a clear prediction (yes or no) and supports it with multiple relevant factors about rainforest conditions (humidity, food availability, dense vegetation, predators) and how pigeon characteristics might help or hinder survival.",
+        "meets": "Student makes a prediction with at least two supporting reasons connected to either rainforest conditions or pigeon characteristics (e.g., 'Yes, because pigeons can fly and rainforests have trees' or 'No, because it's too wet').",
+        "approaching": "Student makes a prediction but gives only one reason, or reasons lack clear connection to rainforest survival (e.g., 'No, because rainforests are different').",
+        "beginning": "Student makes a prediction with no supporting reasoning, or provides inaccurate information about rainforests or pigeon abilities."
+      }
+    },
+    {
+      "questionText": "How do you think a baby pigeon (called a squab) is different from this adult pigeon, and what changes does it go through as it grows?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences between baby and adult pigeons (size, feathers, dependence on parents) and explains specific changes that occur during growth (developing flight feathers, becoming independent, growing larger).",
+        "meets": "Student identifies at least two differences between baby and adult pigeons (smaller size, fewer feathers) and describes reasonable changes as the baby grows, such as getting bigger or developing feathers.",
+        "approaching": "Student identifies one difference between baby and adult pigeons or mentions growth changes but explanations lack detail or clarity (e.g., 'babies are smaller' with no other information).",
+        "beginning": "Student provides vague or inaccurate information about baby pigeons, or does not explain how they change as they grow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:39:25.753Z",
+  "cost": 0.005629
+}

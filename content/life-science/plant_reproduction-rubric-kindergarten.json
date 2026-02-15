@@ -1,0 +1,53 @@
+{
+  "title": "Plant Reproduction",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think is inside these seeds?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that a tiny plant or baby plant is inside the seed and explains that seeds need soil and water to grow into big plants.",
+        "meets": "Student correctly identifies that something that will grow or a small plant is inside the seed.",
+        "approaching": "Student provides a response about what is inside the seed but with limited accuracy (e.g., \"stuff\" or \"food\") or vague language.",
+        "beginning": "Student gives a minimal or inaccurate response with little attempt to explain what is inside the seed."
+      }
+    },
+    {
+      "questionText": "Why do you think the squash has so many seeds instead of just one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that many seeds help make sure some will grow into new plants, or that more seeds mean more chances for new squash plants to grow.",
+        "meets": "Student gives a reasonable explanation such as \"so more plants can grow\" or \"to make sure some grow.\"",
+        "approaching": "Student acknowledges that having many seeds is important but gives unclear or incomplete reasoning about plant growth.",
+        "beginning": "Student responds with minimal reasoning or an inaccurate explanation about why seeds are numerous."
+      }
+    },
+    {
+      "questionText": "If we planted one of these seeds in soil and watered it, what would happen over time?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a sequence of growth stages: seed sprouts, a stem grows, leaves appear, and eventually a squash plant grows with flowers and squash.",
+        "meets": "Student correctly describes that the seed would grow into a plant or squash plant over time.",
+        "approaching": "Student mentions that the seed will grow but provides limited or unclear details about the growth process.",
+        "beginning": "Student provides a vague response or minimal understanding of plant growth from seeds."
+      }
+    },
+    {
+      "questionText": "How is a seed like a tiny baby?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes multiple connections such as: seeds need food/nutrients to grow, seeds need water and care like babies need milk, and both grow bigger over time into adults/mature plants.",
+        "meets": "Student makes at least one clear comparison, such as seeds and babies both need food and water to grow, or both start small and grow bigger.",
+        "approaching": "Student recognizes a similarity between seeds and babies but with limited detail or unclear explanation.",
+        "beginning": "Student provides a minimal or unclear response showing little understanding of the comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:21:50.486Z",
+  "cost": 0.004173
+}

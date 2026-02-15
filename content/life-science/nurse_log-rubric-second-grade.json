@@ -1,0 +1,53 @@
+{
+  "title": "Nurse Log",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside this hollow part of the log?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies decomposition/rotting and names specific decomposers (bugs, worms, fungi) that break down the wood, showing clear understanding of the breakdown process.",
+        "meets": "Student correctly identifies that the wood is breaking down or rotting, and mentions that living things like bugs or fungi are involved in this process.",
+        "approaching": "Student recognizes that something is happening to the log (it's breaking down or getting old) but provides vague descriptions or mentions only one type of organism without clear connection to decomposition.",
+        "beginning": "Student provides a response that shows minimal understanding, such as 'the log is empty' or 'something is in there,' without explaining decomposition or what organisms are doing."
+      }
+    },
+    {
+      "questionText": "Why might bugs and plants want to live on or near a dead log?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bugs find food (decaying wood) and homes in the log, while plants get nutrients from the decomposing material, demonstrating understanding of how organisms use the log for survival.",
+        "meets": "Student identifies that bugs and plants use the log for either food/nutrients or shelter/home, showing basic understanding of organism needs.",
+        "approaching": "Student mentions that bugs or plants live on the log but provides incomplete reasoning (e.g., 'bugs like it there' without explaining why) or focuses on only one organism type.",
+        "beginning": "Student gives a vague response like 'they just do' or 'because it's there,' showing little understanding of why organisms are attracted to the log."
+      }
+    },
+    {
+      "questionText": "If we removed this log from the forest, how might it change the forest ecosystem around it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple effects, such as bugs and plants losing their home, fewer nutrients returned to soil, or other forest animals losing a food source, showing understanding of interconnected forest relationships.",
+        "meets": "Student identifies at least one way the forest would change, such as organisms losing shelter, fewer nutrients in the soil, or fewer animals having food to eat.",
+        "approaching": "Student recognizes that removing the log would cause a change but provides limited detail or only mentions one organism being affected without fuller ecosystem thinking.",
+        "beginning": "Student provides a minimal response like 'the forest would be different' without explaining any specific changes or effects on living things."
+      }
+    },
+    {
+      "questionText": "How is a decomposer like a cook in a kitchen? What are they 'cooking' and who are they feeding?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposers break down dead material (like a cook prepares food), turning it into nutrients that other organisms (plants, soil) can use, showing clear understanding of the comparison and nutrient cycling.",
+        "meets": "Student makes the comparison that decomposers break down the log into smaller pieces (like cooking breaks food down) and identifies that nutrients are made available to plants or the soil.",
+        "approaching": "Student attempts the comparison but provides incomplete understanding, such as explaining what decomposers do without clearly connecting it to cooking, or naming what is 'cooked' but not who benefits.",
+        "beginning": "Student provides a vague response like 'they both break things down' without explaining what is being broken down or how other organisms benefit from this process."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:33:00.357Z",
+  "cost": 0.005161
+}

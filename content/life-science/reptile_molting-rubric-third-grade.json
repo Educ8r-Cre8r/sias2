@@ -1,0 +1,53 @@
+{
+  "title": "Reptile Molting",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How does the lizard's coloring help it stay safe?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the lizard's brown and white coloring helps it blend in or hide from animals that might eat it, using the term camouflage or describing how the colors match plants and surroundings.",
+        "meets": "Student identifies that the lizard's coloring helps it hide or stay safe, and mentions that the colors blend in with its environment like plants or leaves.",
+        "approaching": "Student recognizes the lizard's coloring is related to safety or hiding, but explanation is vague or only partially connects colors to the environment.",
+        "beginning": "Student provides a minimal response such as 'it helps it hide' with little detail, or confuses coloring with other body parts like claws or tail."
+      }
+    },
+    {
+      "questionText": "Why do you think a lizard needs to shed its skin as it grows, but you don't have to shed your skin?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that lizard skin doesn't stretch like human skin does, so lizards must shed to grow bigger, and identifies that human skin grows and stretches with our bodies without needing to be shed.",
+        "meets": "Student correctly identifies that lizards shed because their skin doesn't grow with them, while human skin stretches and grows, allowing growth without shedding.",
+        "approaching": "Student shows understanding that lizards and humans grow differently, but explanation is incomplete or partially inaccurate about how skin functions in each.",
+        "beginning": "Student attempts to answer but provides vague or mostly inaccurate reasoning, such as confusing why animals shed or giving unrelated reasons."
+      }
+    },
+    {
+      "questionText": "If this lizard lived on a bright green plant all the time, how might its coloring be different over many generations?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the lizard would become brighter or more green over many generations to match the green plant, and explains this happens because lizards with greener coloring stay safer and have more babies.",
+        "meets": "Student predicts the lizard's coloring would become more green or brighter to match the plant environment, recognizing that better camouflage helps survival over time.",
+        "approaching": "Student makes a prediction about coloring changing but explanation is unclear or only partially connects the change to survival or camouflage benefits.",
+        "beginning": "Student provides minimal or inaccurate prediction about how coloring might change, with little connection to adaptation or survival."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that change how they look as they grow, and how is that similar to or different from how the lizard changes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals that change appearance while growing (such as butterflies, frogs, or snakes) and explains specific similarities and differences with the lizard's shedding, such as comparing metamorphosis to molting.",
+        "meets": "Student names at least one animal that changes appearance and identifies one clear similarity or difference with how the lizard changes.",
+        "approaching": "Student names an animal that changes appearance but provides limited or unclear comparison to the lizard, or comparison lacks specific details.",
+        "beginning": "Student struggles to name an appropriate animal or provide meaningful comparison, or response shows minimal understanding of how animals change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:25:35.744Z",
+  "cost": 0.005144
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Scavenger",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this bird's head compared to other birds you know?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific features of the bird's head (bare skin, wrinkles, no feathers, color) and makes accurate comparisons to other birds they know, showing clear observational detail.",
+        "meets": "Student describes at least two noticeable features of the bird's head (such as bare skin or lack of feathers) and makes a simple comparison to other birds.",
+        "approaching": "Student notices the head looks different and may mention one feature (like bare or featherless) but provides limited or vague comparisons to other birds.",
+        "beginning": "Student makes a general comment about the head but provides little specific detail or comparison to other birds."
+      }
+    },
+    {
+      "questionText": "Why might a bare head be helpful for a bird that eats dead animals?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a bare head keeps feathers clean and prevents disease or bacteria from dead animals, demonstrating understanding of how physical adaptations serve a function for scavengers.",
+        "meets": "Student recognizes that a bare head helps keep the bird clean when eating dead animals or prevents feathers from getting dirty.",
+        "approaching": "Student makes a connection between the bare head and eating dead animals but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal or inaccurate response that shows little understanding of how the bare head relates to the bird's scavenging behavior."
+      }
+    },
+    {
+      "questionText": "How does this bird's role in nature help other living things and the environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that scavengers remove dead animals, preventing disease spread and keeping the environment clean, and may mention how this helps the ecosystem or makes nutrients available.",
+        "meets": "Student identifies that the bird eats dead animals and explains how this helps keep the area clean or healthy, showing understanding of its environmental role.",
+        "approaching": "Student recognizes the bird eats dead animals and mentions some benefit (like cleaning up) but with limited detail or clarity.",
+        "beginning": "Student provides a vague response that hints at the bird's role but lacks clear explanation of its benefit to the environment."
+      }
+    },
+    {
+      "questionText": "If all the scavenger birds disappeared from an area, what problems might happen?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple realistic consequences such as disease spread, unpleasant odors, environmental imbalance, or harm to other animals, showing deep understanding of ecosystem interdependence.",
+        "meets": "Student predicts at least one logical consequence, such as dead animals piling up, the area becoming unhealthy, or disease spreading.",
+        "approaching": "Student attempts to predict a consequence related to dead animals not being removed, but explanation lacks detail or clarity.",
+        "beginning": "Student provides a minimal or unclear prediction with little connection to the scavenger bird's role in the ecosystem."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:26:22.648Z",
+  "cost": 0.004665
+}

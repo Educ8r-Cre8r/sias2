@@ -1,0 +1,53 @@
+{
+  "title": "Food Chain",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the lizard's skin is brown and bumpy instead of bright red and smooth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that brown bumpy skin helps the lizard hide or blend in with dirt and leaves, and may use words like camouflage or protection from predators.",
+        "meets": "Student identifies that the brown bumpy skin helps the lizard match or blend in with the ground, dirt, or leaves around it.",
+        "approaching": "Student mentions that the skin color or bumpy texture is related to the lizard's environment but lacks clear connection to hiding or blending in.",
+        "beginning": "Student offers a vague observation about the skin (like \"it looks like dirt\") without explaining why this might be helpful to the lizard."
+      }
+    },
+    {
+      "questionText": "What do you see in this habitat that the lizard might eat or use?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple items the lizard could eat (insects, bugs, worms) or use (shelter under bark or leaves, spots to hide) with specific details about where these are found in the photo.",
+        "meets": "Student names at least two things the lizard might eat or use, such as insects, bugs, leaves, or wood for shelter, with simple explanations.",
+        "approaching": "Student identifies one item the lizard might eat or use but provides limited detail or reasoning about how the lizard would use it.",
+        "beginning": "Student points to something in the photo but cannot clearly explain if or why the lizard would eat or use it."
+      }
+    },
+    {
+      "questionText": "If someone took away all the dirt, leaves, and mulch, what might happen to the lizard?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences, such as the lizard losing its home, food sources, and protection from predators, and losing its camouflage because it would be visible without the brown background.",
+        "meets": "Student identifies that the lizard would lose its home or shelter, or would lose food, or would become easier for predators to see.",
+        "approaching": "Student recognizes something bad would happen to the lizard but gives an incomplete reason, such as mentioning loss of shelter without explaining why that matters.",
+        "beginning": "Student gives a vague answer like \"it would be sad\" without connecting the removal to the lizard's survival needs or habitat."
+      }
+    },
+    {
+      "questionText": "What other animals do you think might live in soil and mulch like this lizard does?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals that live in or around soil and mulch (worms, beetles, ants, spiders, snakes, salamanders) and explains why these animals would live there, such as finding food or shelter.",
+        "meets": "Student names at least two animals that could live in soil or mulch, such as worms, beetles, ants, or other small creatures.",
+        "approaching": "Student names one animal that might live in soil or mulch, but may include less realistic examples or lacks explanation for why they would live there.",
+        "beginning": "Student names an animal but it is unrealistic for a soil habitat (like a giraffe or fish) or gives no reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:59:35.077Z",
+  "cost": 0.004984
+}

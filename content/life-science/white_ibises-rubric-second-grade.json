@@ -1,0 +1,53 @@
+{
+  "title": "White Ibises",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the ibis has such a long, curved beak instead of a short, straight beak like a robin?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the curved beak helps the ibis reach into mud and water to find food, and makes a connection to how different animals have different beak shapes for different foods they eat.",
+        "meets": "Student explains that the long, curved beak helps the ibis find food in the mud or water, showing understanding of how the beak's shape matches its habitat.",
+        "approaching": "Student identifies that the beak is different from a robin's beak or mentions it helps the ibis find food, but lacks clear explanation of why the curved shape is useful.",
+        "beginning": "Student makes a simple observation about the beak being long or curved, or gives an answer that doesn't connect the beak shape to the ibis's life or food."
+      }
+    },
+    {
+      "questionText": "What do you notice about the ground where the ibises are standing? How does that help us understand why their beaks are shaped this way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the muddy or wet ground and clearly explains that the curved beak is designed to probe into mud to find hidden food, showing understanding of how habitat features match animal body parts.",
+        "meets": "Student observes the muddy or wet ground and connects it to the ibis's curved beak being useful for finding food in that environment.",
+        "approaching": "Student notices the ground is muddy or wet and mentions the beak helps with food, but the connection between ground type and beak shape is unclear or incomplete.",
+        "beginning": "Student describes the ground but makes little or no connection to the beak, or provides an inaccurate explanation of the relationship."
+      }
+    },
+    {
+      "questionText": "If an ibis couldn't find any food in the water, what do you think would happen to it? What does this tell us about why habitats are important?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the ibis would struggle to survive and explains that habitats provide the food and resources animals need to live, showing understanding that animals depend on their environments.",
+        "meets": "Student predicts the ibis would have trouble surviving and identifies that habitats are important because they provide food for animals.",
+        "approaching": "Student makes a prediction about what would happen to the ibis but provides minimal explanation about habitat importance, or the connection is unclear.",
+        "beginning": "Student makes a prediction but it is vague, inaccurate, or shows little understanding of why habitats matter for animal survival."
+      }
+    },
+    {
+      "questionText": "How are the ibises' long legs helpful when they live in water? What other animals might have body parts that help them live in water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long legs help the ibis wade in shallow water and stay above the water, then names multiple water animals and describes their helpful body parts (fins, webbed feet, etc.).",
+        "meets": "Student explains that long legs let the ibis walk in water and stay dry, and names at least one other water animal with a helpful body part.",
+        "approaching": "Student identifies that long legs are helpful in water but explanation lacks detail, or only names an animal without describing its helpful body part.",
+        "beginning": "Student makes a simple observation about the legs or water, but shows minimal understanding of how body parts help animals live in their habitats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:33:50.684Z",
+  "cost": 0.005255
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Frog",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages does the frog's green color give it in this environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that green color helps the frog hide from predators and prey through camouflage, and explains how blending with green leaves makes it harder to be seen in the forest environment.",
+        "meets": "Student explains that the frog's green color helps it hide or blend in with the leaves and plants around it.",
+        "approaching": "Student recognizes that the frog's green color relates to hiding or blending in, but explanation is unclear or incomplete.",
+        "beginning": "Student mentions green color or hiding but provides little detail or shows minimal understanding of how the color helps the frog survive."
+      }
+    },
+    {
+      "questionText": "How might this frog's survival change if it lived in a desert instead of a forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the frog's green color would make it visible in a desert with sandy and brown colors, making it easier for predators to spot; additionally discusses how the frog would struggle with lack of water or moisture needed for its wet skin.",
+        "meets": "Student identifies that green color would not blend in well with desert colors, making the frog more visible to predators, or mentions that the desert environment would be difficult for the frog.",
+        "approaching": "Student recognizes that the desert is different from the forest and that this would affect the frog, but reasoning is unclear or only partially developed.",
+        "beginning": "Student provides a vague response about the desert being different without clear explanation of how it would affect the frog's survival or camouflage."
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that use camouflage, and how does their camouflage match their habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals with camouflage and clearly explains how each animal's coloring matches specific features of its habitat (e.g., brown deer in forests, white polar bears in snow, striped zebras in grasslands).",
+        "meets": "Student names one or two animals that use camouflage and describes how their coloring helps them blend into their habitat.",
+        "approaching": "Student names one animal with camouflage but provides limited or incomplete explanation of how it matches its environment.",
+        "beginning": "Student names an animal but provides vague or minimal connection between its appearance and its habitat."
+      }
+    },
+    {
+      "questionText": "If you were designing a robot frog for this environment, what features would you give it and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple features (such as green color, smooth wet texture, large eyes, jumping ability) and provides scientific reasoning for why each feature would help the robot frog survive or function in the forest environment.",
+        "meets": "Student describes at least two features the robot frog should have and explains why each feature would be important for survival or functioning in a forest with leaves and plants.",
+        "approaching": "Student describes one or two features but provides limited or unclear reasoning for why they would be helpful in the forest environment.",
+        "beginning": "Student suggests a feature but provides minimal or no explanation for how it would help the robot frog in this environment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:32:50.529Z",
+  "cost": 0.004957
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Ornamental Grass",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How might the shape and structure of these seed parts help the plant survive in different environments?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple structural features (feathery hairs, light weight, fluffy design) and explains how each adaptation helps survival in different environments, such as how the shape allows dispersal to new habitats or reduces water loss.",
+        "meets": "Student identifies at least two structural features of the seeds and explains how they help the plant survive, such as feathery hairs helping with wind dispersal or reaching new growing areas.",
+        "approaching": "Student describes some features of the seed structure (such as feathery or fluffy appearance) but provides incomplete or partially accurate explanations of how these features help survival.",
+        "beginning": "Student makes vague observations about the seeds looking fluffy or feathery but does not connect these features to survival or environmental adaptation."
+      }
+    },
+    {
+      "questionText": "What would happen to this grass population if there was no wind for an entire growing season?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that seeds would not disperse widely, explains the consequence (population would stay localized, face competition, or struggle to grow in new areas), and may reference how this would affect the species' survival over time.",
+        "meets": "Student predicts that without wind, seeds would not spread as far, and recognizes this would negatively impact the grass population by limiting where new plants could grow.",
+        "approaching": "Student acknowledges that wind helps seeds move and recognizes something negative would happen to the population, but the explanation lacks clarity or accuracy about consequences.",
+        "beginning": "Student provides a vague response such as 'seeds wouldn't move' or 'the plant would die' without connecting wind's role to seed dispersal or population survival."
+      }
+    },
+    {
+      "questionText": "Why do you think dew forms more easily on these feathery grasses than on smooth leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the many fine hairs provide more surface area for water droplets to collect and stick to, and may discuss how water droplets cling to thin surfaces or how the texture traps moisture.",
+        "meets": "Student correctly identifies that the feathery, hairy structure provides more surface area for dew to collect on compared to smooth leaves.",
+        "approaching": "Student recognizes that the feathery structure is involved in dew collection but provides an incomplete or partially accurate explanation, such as mentioning the texture without fully explaining surface area.",
+        "beginning": "Student makes a general observation that dew appears on the grass but does not explain why the feathery structure makes dew collection easier."
+      }
+    },
+    {
+      "questionText": "What other plants or animals have you observed that use similar strategies to move from place to place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple examples (such as dandelion seeds, milkweed, tumbleweed, or animals like birds and insects) and explains the similarity in their dispersal strategy, such as using light structures to travel by wind or water.",
+        "meets": "Student provides at least two examples of plants or animals with similar dispersal strategies and explains the basic similarity, such as 'dandelions have fluffy seeds like this grass that blow in the wind.'",
+        "approaching": "Student provides one or two examples but the explanation of the similarity is vague or incomplete, such as mentioning a similar plant without clearly connecting the strategy.",
+        "beginning": "Student names a plant or animal but does not explain how their strategy is similar to the feathery grass seeds, or provides an inaccurate comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:26:45.253Z",
+  "cost": 0.005359
+}

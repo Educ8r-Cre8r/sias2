@@ -1,0 +1,53 @@
+{
+  "title": "Rain Gauge",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think scientists use a rain gauge instead of just saying \"it rained a lot\"?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that a rain gauge provides exact, measurable amounts of rainfall and discusses how precise measurements help scientists compare rainfall between different places or times.",
+        "meets": "Student identifies that a rain gauge gives exact numbers or measurements instead of just describing rain as \"a lot,\" showing understanding of the need for accuracy.",
+        "approaching": "Student recognizes that a rain gauge measures rain or gives numbers, but explanation is vague or incomplete about why measurements matter.",
+        "beginning": "Student provides a minimal response that may confuse measurement with observation, or simply states that a rain gauge \"measures rain\" without explanation."
+      }
+    },
+    {
+      "questionText": "If one location receives 3 inches of rain and another receives 1 inch, how might plants and animals be affected differently in each place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific effects (e.g., more water for plant growth, wetter habitats, more drinking water for animals) and explains how the 3-inch location would support different plant and animal populations than the 1-inch location.",
+        "meets": "Student describes reasonable differences such as plants having more water to grow, or animals having access to more water, showing basic understanding of how rainfall affects living things.",
+        "approaching": "Student mentions that more rain affects plants or animals but provides only one general effect or incomplete reasoning about the differences between the two locations.",
+        "beginning": "Student attempts to compare the two locations but provides vague or inaccurate statements about how rain affects living things."
+      }
+    },
+    {
+      "questionText": "Design your own way to measure rainfall if you didn't have a rain gauge. What problems might you run into?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a detailed, functional alternative (e.g., a container with marked measurements) and identifies multiple specific problems such as inaccuracy, wind blowing water away, or difficulty reading measurements clearly.",
+        "meets": "Student proposes a reasonable alternative method for collecting and measuring rain and identifies at least one realistic problem with their design.",
+        "approaching": "Student suggests a basic idea for measuring rain but provides only vague details about the design or mentions a problem without clear explanation of why it would occur.",
+        "beginning": "Student offers a minimal or unclear design idea with little to no discussion of practical problems that could arise."
+      }
+    },
+    {
+      "questionText": "What patterns do you think we might see if we measured rainfall every day for one year?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific seasonal patterns (e.g., more rain in certain months, dry seasons, rainy seasons) and explains how weather changes throughout the year, showing connection to climate concepts.",
+        "meets": "Student identifies that rainfall amounts would change throughout the year and suggests general patterns such as some days being rainy and others dry, or certain times having more rain.",
+        "approaching": "Student recognizes that rainfall would vary over time but provides limited or generic observations about patterns without clear explanation.",
+        "beginning": "Student provides minimal response such as \"sometimes it rains more\" without demonstrating understanding of yearly patterns or seasonal changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:06:37.846Z",
+  "cost": 0.004916
+}

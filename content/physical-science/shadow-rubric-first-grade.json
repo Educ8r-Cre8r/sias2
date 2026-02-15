@@ -1,0 +1,53 @@
+{
+  "title": "Shadow",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to this shadow if we came back at a different time of day?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the shadow would move or change size and explains that the sun moves across the sky during the day, showing clear understanding of how sunlight position affects shadows.",
+        "meets": "Student predicts that the shadow would move or change in some way, demonstrating basic understanding that shadows are affected by the sun's position.",
+        "approaching": "Student recognizes that something would be different about the shadow but provides vague or incomplete reasoning about why the change would happen.",
+        "beginning": "Student makes a simple statement about the shadow changing or staying the same with little or no explanation of the reason."
+      }
+    },
+    {
+      "questionText": "Why do you think the moss and lichen are growing more on the shaded side of the rock than on the sunny side?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moss and lichen need shade or moisture and the sunny side is too hot or dry, making a connection between light, heat, and where plants can grow.",
+        "meets": "Student states that moss and lichen prefer shade or that the shaded side is better for their growth, showing understanding of plant preferences.",
+        "approaching": "Student recognizes that shade and sun are involved but provides incomplete reasoning about why this affects where the moss grows.",
+        "beginning": "Student gives a vague response such as \"they like it there\" with no reference to light, heat, or shade as factors."
+      }
+    },
+    {
+      "questionText": "If we moved this rock to a different spot, what would happen to the shadow?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the shadow would be in a different place or direction and explains that the sun's angle or position relative to the rock would change, showing understanding of how location affects shadow placement.",
+        "meets": "Student predicts that the shadow would move or change location, demonstrating understanding that a rock's position affects where its shadow appears.",
+        "approaching": "Student acknowledges that something would change about the shadow but provides unclear or partially correct reasoning about the cause.",
+        "beginning": "Student states the shadow would change or move with minimal or no explanation of why location matters."
+      }
+    },
+    {
+      "questionText": "How is your shadow different from this rock's shadow? How is it the same?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (such as shape, movement ability, caused by the sun) and similarities (both created by blocking sunlight, both disappear in darkness), showing detailed understanding of shadows.",
+        "meets": "Student identifies at least one difference and one similarity between their shadow and the rock's shadow, such as different shapes or that both are made by the sun.",
+        "approaching": "Student notices that the shadows are similar or different but provides only one comparison or vague descriptions without clear details.",
+        "beginning": "Student attempts a comparison but provides minimal detail or makes inaccurate statements about how shadows work."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:36:50.922Z",
+  "cost": 0.004667
+}

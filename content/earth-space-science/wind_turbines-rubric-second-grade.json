@@ -1,0 +1,53 @@
+{
+  "title": "Wind Turbines",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think wind turbines are built in open fields instead of in forests or near buildings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that open fields have more wind because there are no trees or buildings to block it, and provides an additional observation such as how wind moves faster in open spaces or how forests/buildings create obstacles.",
+        "meets": "Student correctly identifies that wind turbines need open spaces to catch more wind, and explains that trees or buildings would block the wind.",
+        "approaching": "Student recognizes that open fields are better for turbines but provides incomplete reasoning, such as mentioning wind or space without clearly connecting why this location matters.",
+        "beginning": "Student provides a minimal response with little connection to how location affects wind, such as 'because they are in fields' or 'wind needs space' without clear explanation."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the turbine blades on a very calm, still day when there is no wind?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the blades would stop spinning or spin very slowly, and explains that wind energy is needed to make them move, showing understanding that blades require wind to function.",
+        "meets": "Student correctly predicts that the blades would not spin or would spin less, and recognizes the connection to lack of wind.",
+        "approaching": "Student makes a prediction about the blades stopping or slowing but provides incomplete reasoning about why wind is necessary.",
+        "beginning": "Student makes a vague prediction such as 'the blades would stop' with little to no explanation about the role of wind."
+      }
+    },
+    {
+      "questionText": "How is wind energy different from the energy in a battery or a fossil fuel like coal?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that wind energy comes from moving air in nature and does not run out quickly, while batteries and coal are stored energy that gets used up, demonstrating understanding of renewable versus limited resources.",
+        "meets": "Student explains that wind energy comes from the wind outdoors while batteries and coal are things stored inside machines, showing a basic distinction between the two energy sources.",
+        "approaching": "Student attempts to compare the energy sources but reasoning is incomplete, such as mentioning that wind is different but not explaining why or how.",
+        "beginning": "Student provides a minimal or unclear response, such as 'they are different' without meaningful comparison or explanation."
+      }
+    },
+    {
+      "questionText": "What evidence from the picture shows us that wind is strong and powerful enough to move heavy turbine blades?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the large size of the turbine blades and explains that because wind can spin such big, heavy blades, it must be very strong and powerful, connecting visual evidence to the concept of wind strength.",
+        "meets": "Student points out that the turbine blades are big and heavy and recognizes that wind must be strong to move them, showing connection between observable size and wind power.",
+        "approaching": "Student notices that the blades are large or mentions that wind moves them but does not fully explain how this shows wind's strength.",
+        "beginning": "Student provides a vague observation such as 'the blades are big' or 'wind moves them' without explaining what this demonstrates about wind's power."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:15:55.837Z",
+  "cost": 0.005009
+}

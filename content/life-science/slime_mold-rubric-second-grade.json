@@ -1,0 +1,53 @@
+{
+  "title": "Slime Mold",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how this organism is different from plants and animals you know?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (e.g., yellow color, bumpy texture, spongy appearance, blob-like shape) and explains how these features make it different from familiar plants and animals.",
+        "meets": "Student accurately describes at least two observable differences between the slime mold and familiar plants or animals (e.g., color, texture, or shape).",
+        "approaching": "Student notices one difference between the slime mold and plants or animals, but the observation is vague or partially accurate.",
+        "beginning": "Student makes a simple observation about the organism but does not clearly explain how it differs from plants or animals, or the response is unclear."
+      }
+    },
+    {
+      "questionText": "Why do you think this slime mold chose to grow on dead leaves and wood instead of living plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a logical explanation connecting the slime mold's location to decomposition or nutrient sources, and may mention that it breaks down dead things or doesn't harm living plants.",
+        "meets": "Student gives a reasonable explanation for why the slime mold grows on dead material (e.g., 'It eats dead leaves' or 'It doesn't hurt dead things').",
+        "approaching": "Student attempts an explanation but shows incomplete reasoning, such as guessing the slime mold 'likes' dead leaves without explaining why.",
+        "beginning": "Student provides a response that is vague, guesses randomly, or shows little understanding of why the organism grows where it does."
+      }
+    },
+    {
+      "questionText": "How might this yellow organism help other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the slime mold breaks down dead material into nutrients that help soil and plants, and may mention that it feeds other forest creatures or recycles materials.",
+        "meets": "Student provides a reasonable explanation of how the slime mold helps the forest (e.g., 'It breaks down dead leaves so they can help new plants grow').",
+        "approaching": "Student attempts to explain the organism's helpful role but shows incomplete understanding, such as 'It helps by growing' without explaining how.",
+        "beginning": "Student provides a vague response, shows confusion about the organism's role, or does not connect it to helping other living things."
+      }
+    },
+    {
+      "questionText": "What questions would you ask a scientist to learn more about this unusual living thing?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student asks two or more thoughtful, specific questions that show curiosity about the slime mold's life processes, behavior, or role in nature (e.g., 'How does it move?' or 'How long does it stay yellow?').",
+        "meets": "Student asks one or two clear, reasonable questions about the slime mold that would help learn more about it.",
+        "approaching": "Student asks a question about the slime mold, but it is general or shows only partial engagement with the organism.",
+        "beginning": "Student asks a vague question, repeats the discussion prompt, or does not demonstrate genuine curiosity about the organism."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:27:08.997Z",
+  "cost": 0.004929
+}

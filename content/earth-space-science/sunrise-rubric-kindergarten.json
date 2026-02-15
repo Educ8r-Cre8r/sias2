@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What colors do you see in the sunrise?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies four or more specific colors from the sunrise (orange, red, pink, blue, yellow) and may describe where each color appears in the sky.",
+        "meets": "Student identifies three colors visible in the sunrise image with basic accuracy.",
+        "approaching": "Student identifies one or two colors from the sunrise, though descriptions may be vague or partially inaccurate.",
+        "beginning": "Student attempts to name colors but provides minimal or inaccurate responses, such as naming only one color or colors not present in the image."
+      }
+    },
+    {
+      "questionText": "Why do you think the sky is a different color at sunrise than it is in the middle of the day?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sun's position in the sky affects how light travels through the air, using simple language like 'the sun is low' or 'light goes through more air,' and may mention that this makes different colors appear.",
+        "meets": "Student provides a reasonable explanation that the sun is in a different position at sunrise, causing the sky to look different, or that light hits the sky differently.",
+        "approaching": "Student offers a partial explanation, such as 'the sun is lower' or 'it's not as bright,' but lacks a complete connection between sun position and sky color.",
+        "beginning": "Student provides a minimal or unclear response, such as 'because it is' or 'the colors change,' without logical reasoning."
+      }
+    },
+    {
+      "questionText": "What do you think will happen to the sky colors as the sun gets higher in the sky?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the sky will become lighter or more blue and explains that as the sun rises higher, the sky changes from orange/red to blue, showing understanding of the pattern.",
+        "meets": "Student makes a reasonable prediction that the sky colors will change or become lighter as the sun rises higher.",
+        "approaching": "Student makes a prediction but it may be vague or only partially correct, such as 'the sky will change' without describing what it will change to.",
+        "beginning": "Student provides a minimal prediction with little connection to the sunrise phenomenon, such as 'it will get bright' with no description of color changes."
+      }
+    },
+    {
+      "questionText": "Do you think the sun rises at the same time every single day, or does it change?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a thoughtful response acknowledging that sunrise times change and may offer a simple reason, such as 'it changes because of the seasons' or 'different times at different times of year.'",
+        "meets": "Student correctly identifies that sunrise times change from day to day or recognizes that the time varies at different times of year.",
+        "approaching": "Student acknowledges sunrise times might change but provides unclear or partially accurate reasoning, or states a belief without explanation.",
+        "beginning": "Student provides a minimal response such as 'yes' or 'no' with no reasoning, or makes an inaccurate statement about sunrise consistency."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:45:40.958Z",
+  "cost": 0.004793
+}

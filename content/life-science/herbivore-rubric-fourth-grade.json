@@ -1,0 +1,53 @@
+{
+  "title": "Herbivore",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What clues does this track give us about the animal that made it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific clues (split-hoof shape, depth of tracks, size) and explains what each clue reveals about the animal (likely a hoofed herbivore, reasonably heavy, type of movement pattern).",
+        "meets": "Student identifies at least two clear clues from the track (such as the split-hoof shape or depth) and explains what one clue tells us about the animal.",
+        "approaching": "Student identifies one clue from the track (hoof shape or depth) but provides limited or vague explanation of what it reveals about the animal.",
+        "beginning": "Student makes a simple observation about the track (\"it's a footprint\" or \"an animal made it\") with little detail or explanation of what the clue means."
+      }
+    },
+    {
+      "questionText": "Why might a herbivore like a deer walk through a grassy area like this one? What is it looking for?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the deer is searching for food and identifies specific plants visible in the photo (grass, clover) that herbivores eat, demonstrating understanding of herbivore diet and foraging behavior.",
+        "meets": "Student correctly explains that the deer is looking for food and names at least one type of plant or vegetation that herbivores eat.",
+        "approaching": "Student states that the deer is looking for food but provides vague or incomplete details about what kind of food or why this area would have it.",
+        "beginning": "Student provides a minimal response such as \"to find food\" without explanation or mentions an incorrect reason (like hunting for meat)."
+      }
+    },
+    {
+      "questionText": "How would the tracks of a heavy animal be different from the tracks of a lighter animal in the same soil?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heavier animals would make deeper, more compressed tracks and may describe additional differences (wider spread, more sunken appearance) showing understanding of how weight affects soil impression.",
+        "meets": "Student correctly identifies that a heavier animal would make deeper or more pressed-down tracks than a lighter animal in the same soil.",
+        "approaching": "Student recognizes that weight affects tracks but provides incomplete reasoning (e.g., \"heavier animals make bigger tracks\" without clarifying depth or pressure).",
+        "beginning": "Student gives a vague response (\"they would be different\") or suggests an inaccurate relationship between animal weight and track appearance."
+      }
+    },
+    {
+      "questionText": "If you found these tracks in your yard, what would you do to learn more about the animal that made them?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple logical investigation strategies (measure/sketch tracks, look for more tracks, research hoof prints, observe the area over time, check for scat or other signs) showing thorough thinking about animal tracking methods.",
+        "meets": "Student describes at least two reasonable strategies to learn more about the animal (such as measuring the tracks, looking for more footprints, or researching what animals live in the area).",
+        "approaching": "Student suggests one investigation strategy but lacks detail, or suggests strategies that are somewhat unclear or only partially relevant (e.g., \"look around\" without specifics).",
+        "beginning": "Student provides a vague or unhelpful response (\"ask someone\" or \"look it up\") without describing actual observation or investigation methods."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:13:00.133Z",
+  "cost": 0.005225
+}

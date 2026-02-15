@@ -1,0 +1,53 @@
+{
+  "title": "Ornamental Grass",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to these seeds on a windy day versus a calm day?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that wind would carry seeds farther away and explains that the fluffy, feathery shape helps seeds float and spread to new locations, while calm days would result in seeds falling closer to the plant.",
+        "meets": "Student predicts that wind would move the seeds farther than on a calm day and identifies that the feathery parts help the seeds travel.",
+        "approaching": "Student predicts that wind affects seed movement but provides limited explanation; may mention seeds moving but not clearly describe the difference between windy and calm conditions.",
+        "beginning": "Student provides a minimal response such as 'wind moves them' or 'they stay still' with little or no reasoning about how the seed shape affects movement."
+      }
+    },
+    {
+      "questionText": "How might the shape of these seed heads help the plant survive in different environments?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the fluffy, feathery shape allows seeds to spread to different locations where plants can find water and sunlight, helping the species survive by not competing with the parent plant; may mention adaptation.",
+        "meets": "Student identifies that the feathery shape helps seeds travel to new places and grow in different environments, or explains that spreading seeds far away helps the plant survive.",
+        "approaching": "Student recognizes the feathery shape is special but provides incomplete reasoning; may say it helps seeds spread without explaining how this helps survival.",
+        "beginning": "Student makes a vague statement about the shape being 'fluffy' or 'soft' with little connection to survival or environmental adaptation."
+      }
+    },
+    {
+      "questionText": "Why do you think water droplets formed on the grass but not on other surfaces nearby?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that the feathery, fluffy texture traps and holds water droplets better than smooth surfaces, or explains that the fine hairs catch and cling to water because of the surface texture.",
+        "meets": "Student identifies that the fuzzy or feathery parts of the grass trap water droplets, or states that the texture makes water stick to the grass.",
+        "approaching": "Student recognizes that the grass's texture is different but provides unclear reasoning; may mention wetness or stickiness without fully explaining why droplets collect there.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'the grass is wet' or 'water likes grass,' with no explanation of how texture affects water collection."
+      }
+    },
+    {
+      "questionText": "What other plants have you seen that have special ways to spread their seeds?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names 2 or more plants with seed-spreading adaptations (such as dandelions, maple seeds, milkweed, or burrs) and describes how each plant spreads its seeds (wind, float, stick to fur).",
+        "meets": "Student names 1-2 plants with seed-spreading methods and provides accurate descriptions of how the seeds are dispersed.",
+        "approaching": "Student names 1 plant with a seed-spreading method but the description is vague or partially inaccurate.",
+        "beginning": "Student names a plant but provides no description of how it spreads seeds, or provides an inaccurate or unclear response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:26:28.354Z",
+  "cost": 0.005109
+}

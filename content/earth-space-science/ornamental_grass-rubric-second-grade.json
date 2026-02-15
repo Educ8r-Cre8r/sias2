@@ -1,0 +1,53 @@
+{
+  "title": "Ornamental Grass",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to these water droplets if the sun came out?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the droplets would evaporate or turn into water vapor and explains that the sun's heat causes water to disappear or rise into the air, using accurate weather vocabulary.",
+        "meets": "Student correctly predicts the droplets would dry up, disappear, or evaporate due to the sun's warmth, with a simple but accurate explanation.",
+        "approaching": "Student predicts something would happen to the droplets due to the sun but the explanation is unclear or partially incorrect (e.g., 'they would go away' without mentioning heat or drying).",
+        "beginning": "Student makes a vague prediction or guess about the droplets with little or no explanation of how the sun would affect them."
+      }
+    },
+    {
+      "questionText": "Why do you think the water droplets are different sizes on different parts of the grass?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple factors such as air movement, how water collects in different plant structures, or how droplets merge together, and explains how these affect droplet size in scientific terms.",
+        "meets": "Student provides a reasonable explanation such as water collecting differently in fluffy seed heads versus thin leaves, or droplets combining to form larger ones.",
+        "approaching": "Student attempts to explain differences in droplet size but reasoning is incomplete or partially incorrect (e.g., mentions the sun or wind but doesn't fully explain the connection).",
+        "beginning": "Student observes that droplets are different sizes but offers no meaningful explanation or suggests an unrelated reason."
+      }
+    },
+    {
+      "questionText": "How might these fluffy seed heads help the grass plant make baby grass plants?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the fluffy structures help seeds travel by wind (dispersal) and describes how this helps plant more baby grass in different places, using appropriate vocabulary.",
+        "meets": "Student identifies that the fluffy seed heads help spread seeds through the wind or help seeds travel to new places where they can grow.",
+        "approaching": "Student recognizes the seed heads are connected to making baby plants but gives an unclear or incomplete explanation of how the fluffy structure helps (e.g., 'they're soft and help' without explaining wind or movement).",
+        "beginning": "Student acknowledges seed heads exist or mentions seeds/babies but provides no clear explanation of the fluffy structure's purpose."
+      }
+    },
+    {
+      "questionText": "Where do you think the water in the air originally came from?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces water back to multiple sources such as oceans, lakes, or rivers and explains that water evaporates from these sources into the air, describing part of the water cycle accurately.",
+        "meets": "Student correctly identifies water came from a source like rain, lakes, oceans, or rivers, or mentions that water rises into the air from these places.",
+        "approaching": "Student names a water source but doesn't clearly explain how it got into the air, or provides a partially correct explanation with some confusion about the water cycle.",
+        "beginning": "Student gives a vague answer about water sources or provides an inaccurate explanation with little connection to weather and the water cycle."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:26:19.734Z",
+  "cost": 0.004967
+}

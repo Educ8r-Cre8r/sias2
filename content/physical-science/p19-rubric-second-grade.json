@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the blue color over time?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts that the blue will spread throughout the entire jar and mix completely with the water, explaining that the color will keep moving and eventually become evenly distributed or the water will turn light blue.",
+        "meets": "Student predicts that the blue will spread out and mix with the water, making the water blue all over.",
+        "approaching": "Student predicts that the blue will spread or mix, but the explanation is vague or incomplete (e.g., 'it will spread' without describing the final result).",
+        "beginning": "Student provides a minimal or unclear prediction, such as 'it will move' or 'it will change,' with no explanation of what will happen to the color."
+      }
+    },
+    {
+      "questionText": "How is this similar to when you add sugar to water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both blue liquid and sugar spread out and mix throughout the water, and explains that in both cases, the substance dissolves or blends in to make the whole mixture even (e.g., 'sugar spreads around like the blue does, and you can't see the grains anymore').",
+        "meets": "Student explains that both the blue liquid and sugar spread out and mix evenly throughout the water.",
+        "approaching": "Student makes a connection between the two situations but the explanation is incomplete, such as 'they both mix' without explaining how they mix or what happens to them.",
+        "beginning": "Student provides a vague or unclear connection, such as 'they're the same' or 'both are in water,' with little to no explanation of the similarity."
+      }
+    },
+    {
+      "questionText": "Why do you think the blue spreads out instead of staying in one spot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the blue spreads because the water molecules are moving around and pushing the blue liquid throughout the jar, or uses the word 'mix' to describe how the liquids combine, with specific reference to motion or movement.",
+        "meets": "Student explains that the blue spreads because the water moves it around or the two liquids mix together.",
+        "approaching": "Student provides a partial explanation such as 'the water makes it spread' or 'it spreads everywhere,' but lacks clarity about the cause of the spreading.",
+        "beginning": "Student provides a minimal or inaccurate explanation, such as 'it just spreads' or 'I don't know,' with no evidence of understanding the cause."
+      }
+    },
+    {
+      "questionText": "What would happen if we used hot water instead of cold water?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the blue would spread faster or more quickly in hot water than in cold water, and explains that heat makes things move faster or that warm water helps things mix quicker.",
+        "meets": "Student predicts that the blue would spread faster in hot water, or would mix more quickly than in cold water.",
+        "approaching": "Student predicts a change would occur but the description is unclear (e.g., 'it would be different' or 'it would spread more'), without clearly stating it would happen faster.",
+        "beginning": "Student makes a vague prediction such as 'it would change' or 'it would be different,' with no explanation connecting temperature to the rate of spreading."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:04:54.998Z",
+  "cost": 0.005078
+}

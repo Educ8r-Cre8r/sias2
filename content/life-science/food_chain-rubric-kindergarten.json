@@ -1,0 +1,53 @@
+{
+  "title": "Food Chain",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why do you think this lizard is bumpy and brown instead of bright pink?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the lizard's brown, bumpy color matches its rocky, sandy home and helps it hide from predators; may mention the word 'camouflage' or 'blend in' with specific examples from the photo.",
+        "meets": "Student correctly identifies that the lizard's color and bumpy texture match the rocks and soil in the photo, helping it stay hidden or safe.",
+        "approaching": "Student notes that the lizard's color is brown or matches the ground, but explanation is incomplete or vague about why this matters.",
+        "beginning": "Student makes a simple color observation (like 'it's brown') but does not explain why the color or bumpy texture might be important."
+      }
+    },
+    {
+      "questionText": "If we moved this lizard to live on green grass, do you think it would be easier or harder for other animals to find it? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts it would be easier to find the lizard on grass and explains that the brown color stands out against green, making the lizard more visible; may mention predators or other animals spotting it.",
+        "meets": "Student correctly predicts it would be easier to find and provides a reasonable explanation that the brown lizard would stand out or look different on green grass.",
+        "approaching": "Student makes a prediction (easier or harder) but the reasoning is unclear or only partially correct about color contrast.",
+        "beginning": "Student gives a one-word answer or prediction without any explanation of why the lizard's color would matter on grass."
+      }
+    },
+    {
+      "questionText": "What do you think this lizard needs to live in this rocky place?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs such as food (insects, bugs), water, shelter (rocks, holes), and warmth from the sun; responses show understanding of lizard survival in desert habitats.",
+        "meets": "Student names at least two things the lizard needs to live, such as food and shelter or food and water, with simple explanations.",
+        "approaching": "Student mentions one or two lizard needs (food, water, or shelter) but explanations are vague or incomplete.",
+        "beginning": "Student gives a general answer like 'food' or 'rocks' with little or no explanation of how these help the lizard survive."
+      }
+    },
+    {
+      "questionText": "How does the lizard's color help it find food and stay safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that brown color helps the lizard hide from predators (staying safe) and may also help it sneak up on insects for food; uses details about camouflage or blending in.",
+        "meets": "Student accurately explains that the lizard's color helps it stay safe by hiding, or helps it catch food by blending in with the ground.",
+        "approaching": "Student attempts to connect color to either safety or finding food but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student recognizes the lizard has brown color but does not explain how it helps with food or safety."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:59:20.451Z",
+  "cost": 0.004903
+}

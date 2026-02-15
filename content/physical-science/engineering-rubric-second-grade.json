@@ -1,0 +1,53 @@
+{
+  "title": "Engineering",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What happened when you spun the wheel?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific observations about wheel movement, such as the wheel spinning, the axle turning, and other parts of the machine moving as a result.",
+        "meets": "Student accurately describes what happened when the wheel was spun, such as the wheel turning or the machine moving.",
+        "approaching": "Student mentions that something moved or changed, but the description is vague or only partially accurate about what the wheel did.",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of what occurred when the wheel spun."
+      }
+    },
+    {
+      "questionText": "Why do you think the wheels helped your machine move?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wheels are round and roll smoothly, allowing the machine to move forward or backward, and may mention that the axle connects the wheels.",
+        "meets": "Student provides a reasonable explanation that wheels roll or help the machine move across the surface.",
+        "approaching": "Student mentions wheels or rolling but the explanation is incomplete or shows partial understanding of how wheels function.",
+        "beginning": "Student's response is vague or inaccurate, showing minimal understanding of the relationship between wheels and movement."
+      }
+    },
+    {
+      "questionText": "If you wanted your machine to move faster, what could you change or build differently?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple specific changes such as making wheels bigger, spinning the wheel harder, or reducing friction, with some explanation of why each change would help.",
+        "meets": "Student suggests at least one reasonable change, such as making wheels larger or spinning faster, with a basic explanation.",
+        "approaching": "Student suggests a change but the explanation is unclear or only partially logical about how it would increase speed.",
+        "beginning": "Student provides a vague or unrealistic suggestion with little or no reasoning about how it would affect the machine's speed."
+      }
+    },
+    {
+      "questionText": "How is your machine like real machines you see every day (like a toy car or a shopping cart)?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities between their machine and real machines, such as both having wheels, axles, or moving parts, and explains how these parts serve the same purpose.",
+        "meets": "Student identifies at least one clear similarity, such as both having wheels that help them move, between their machine and a real machine.",
+        "approaching": "Student mentions a similarity but the explanation is incomplete or the connection between the two machines is not fully explained.",
+        "beginning": "Student provides a vague or unclear response showing minimal understanding of how their machine compares to real machines."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:09:33.671Z",
+  "cost": 0.004266
+}

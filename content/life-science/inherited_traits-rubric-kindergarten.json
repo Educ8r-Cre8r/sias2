@@ -1,0 +1,53 @@
+{
+  "title": "Inherited Traits",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "How are the baby birds similar to the grown-up bird?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific similarities between baby and parent birds (such as beak color, markings, or feather patterns) and explains why these similarities matter for helping us recognize family.",
+        "meets": "Student identifies two specific similarities between the baby birds and parent bird, such as matching colors, markings, or beak features.",
+        "approaching": "Student identifies one similarity between the baby and parent birds, or mentions they look alike without specifying what features match.",
+        "beginning": "Student makes a vague observation about the birds or does not identify any clear similarities between the parent and babies."
+      }
+    },
+    {
+      "questionText": "Why do you think the baby birds look like their parent? Where do you think they got those features?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that babies get their features from their parent and uses the word 'inherited' or describes that traits come from moms and dads; may mention this happens with other animals too.",
+        "meets": "Student explains that the baby birds got their features from their parent or that parents pass down how they look to their babies.",
+        "approaching": "Student states that babies look like parents or mentions they got features from their parent, but explanation is unclear or incomplete.",
+        "beginning": "Student gives a minimal response such as 'because they are family' without explaining how features are passed down."
+      }
+    },
+    {
+      "questionText": "If you look at your family, what do you look like? What features did you get from your mom or dad?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific inherited features they share with a family member (such as hair color, eye color, nose shape, or skin tone) and explains the connection clearly.",
+        "meets": "Student identifies two specific features they share with their mom or dad, such as hair color, eye color, or other physical traits.",
+        "approaching": "Student identifies one feature they share with a family member, or mentions looking like family without naming specific traits.",
+        "beginning": "Student provides a vague response about their family or does not identify any specific shared features."
+      }
+    },
+    {
+      "questionText": "Do you think all baby birds look exactly like their parents, or might they be a little bit different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student recognizes that baby birds are mostly like their parents but might have small differences; explains that even though families look alike, each animal can have its own special features.",
+        "meets": "Student identifies that baby birds look like their parents but acknowledges they might be a little bit different, or that not all babies look exactly the same.",
+        "approaching": "Student gives a simple answer suggesting babies might look a little different, but does not fully explain the idea or gives limited reasoning.",
+        "beginning": "Student provides minimal response such as 'yes' or 'no' without explanation, or is unclear about whether similarities or differences exist."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:52:56.670Z",
+  "cost": 0.00466
+}

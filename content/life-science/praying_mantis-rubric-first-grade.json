@@ -1,0 +1,53 @@
+{
+  "title": "Praying Mantis",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What special body parts does the praying mantis have that help it catch food?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple special body parts (strong front legs, large eyes, spiky legs) and explains how each one helps the mantis catch food with specific details (e.g., 'big front legs grab food' and 'big eyes see bugs moving').",
+        "meets": "Student identifies at least two special body parts (front legs and eyes) and explains that they help the mantis catch food.",
+        "approaching": "Student identifies one special body part like the front legs or eyes but gives only a vague explanation of how it helps catch food.",
+        "beginning": "Student names a body part but provides no clear connection to catching food, or gives a response that is unclear or mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "Why do you think the praying mantis is green? How does that help it survive?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green color helps the mantis hide on plants (camouflage) and connects this to survival by explaining it helps the mantis sneak up on prey or hide from predators without using those exact terms.",
+        "meets": "Student explains that the green color helps the mantis blend in with plants and makes it easier to catch food or stay safe.",
+        "approaching": "Student suggests the green color helps the mantis hide or blend in but does not clearly explain how this helps it survive or catch food.",
+        "beginning": "Student provides a response about the color being green but shows little understanding of how it relates to survival or catching food."
+      }
+    },
+    {
+      "questionText": "How is a praying mantis different from other insects like ants or bees?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple clear differences (e.g., large front legs for hunting, large eyes, size, or that it hunts other insects while ants and bees do not) and may note that ants work together while the mantis hunts alone.",
+        "meets": "Student identifies at least two clear differences between the praying mantis and ants or bees, such as size, shape, or that it hunts other insects.",
+        "approaching": "Student identifies one difference between the praying mantis and other insects but the explanation is unclear or partially inaccurate.",
+        "beginning": "Student attempts to compare but the response is vague, inaccurate, or does not clearly show understanding of how the insects are different."
+      }
+    },
+    {
+      "questionText": "If a praying mantis didn't have those big strong front legs, how might its life be different?",
+      "bloomsLevel": "Hypothesize",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mantis could not catch or hold its food and connects this to survival, suggesting it might go hungry or not survive, showing understanding of cause and effect.",
+        "meets": "Student explains that without strong front legs, the mantis would have trouble catching food or holding onto insects.",
+        "approaching": "Student recognizes that the front legs are important for catching food but the explanation of how life would change is incomplete or unclear.",
+        "beginning": "Student attempts to answer but shows little understanding of the connection between the front legs and catching food or surviving."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:03:37.905Z",
+  "cost": 0.00497
+}

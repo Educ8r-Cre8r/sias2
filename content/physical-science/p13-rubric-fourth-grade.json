@@ -1,0 +1,53 @@
+{
+  "title": "Static Electricity",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we touched the balloon with our finger?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the water droplets would fall or the balloon would pop, and explains that touching the charged balloon would remove the static electricity charge that holds the droplets in place.",
+        "meets": "Student predicts that water droplets would fall off the balloon or that something would happen to the balloon when touched, showing understanding that contact affects the charged balloon.",
+        "approaching": "Student makes a prediction about touching the balloon but provides limited or unclear reasoning, such as 'the water would fall' without explaining why.",
+        "beginning": "Student provides a vague prediction or no clear prediction, such as 'something would happen' or an answer unrelated to the water droplets or balloon's charge."
+      }
+    },
+    {
+      "questionText": "How might the size of the water droplets change if we waited longer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts droplets would grow larger as water combines together, or predicts they would become smaller or disappear through evaporation, and explains the process using appropriate vocabulary like 'merge' or 'evaporate.'",
+        "meets": "Student predicts the droplets would change in size and provides a reasonable explanation, such as droplets combining or water disappearing over time.",
+        "approaching": "Student predicts a change in droplet size but offers minimal or unclear explanation for why the change would occur.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'they would stay the same' or an answer that does not address droplet size."
+      }
+    },
+    {
+      "questionText": "What other materials besides water might stick to a charged balloon?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple materials (such as confetti, dust, small paper pieces, or hair) that could stick to the charged balloon and explains that light, small objects are attracted to static electricity.",
+        "meets": "Student identifies at least one appropriate material besides water that would stick to a charged balloon, such as confetti or paper, showing understanding of what static electricity can attract.",
+        "approaching": "Student suggests a material that might stick to the balloon but provides unclear or incomplete reasoning about why it would stick.",
+        "beginning": "Student names a material that is unlikely to stick to a charged balloon (such as a heavy rock) or provides no reasoning for their answer."
+      }
+    },
+    {
+      "questionText": "Why do you think some droplets are larger than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that smaller droplets may have merged or combined together to form larger ones, or that water is distributed unevenly on the balloon's surface due to the charge.",
+        "meets": "Student provides a reasonable explanation, such as droplets combining together or water being unequal on different parts of the balloon.",
+        "approaching": "Student attempts an explanation but it is vague or incomplete, such as 'some got more water' without explaining how or why.",
+        "beginning": "Student provides an inaccurate or unrelated explanation, such as 'the balloon is tilted' or no clear answer."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:01:55.772Z",
+  "cost": 0.004809
+}

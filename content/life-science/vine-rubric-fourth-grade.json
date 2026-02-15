@@ -1,0 +1,53 @@
+{
+  "title": "Vine",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to this vine if we removed the fence? Where might it try to grow instead?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the vine needs support to grow upward and predicts multiple specific alternative structures it could climb (trees, poles, walls) with reasoning about why vines seek upward growth toward sunlight.",
+        "meets": "Student correctly identifies that the vine would fall or need a new support structure and suggests at least one reasonable alternative place it could grow, such as the ground or another object.",
+        "approaching": "Student recognizes the vine needs support but provides vague or incomplete predictions about where it might grow, or suggests alternatives without clear explanation.",
+        "beginning": "Student provides minimal response with little understanding, such as 'it would die' or vague ideas about where it might grow without connecting to the vine's support needs."
+      }
+    },
+    {
+      "questionText": "Why might a climbing vine be a better survival strategy than growing as a low bush close to the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple advantages of climbing, such as accessing more sunlight, avoiding shade competition, reaching pollinators, or being less accessible to ground-level herbivores, with specific scientific reasoning.",
+        "meets": "Student identifies at least one clear advantage of climbing vines, such as getting more sunlight or growing taller than other plants, with reasonable explanation.",
+        "approaching": "Student recognizes that climbing provides some benefit but gives incomplete or partially inaccurate reasoning, such as vague references to 'more light' without connecting it to plant survival.",
+        "beginning": "Student provides minimal or unclear response, such as 'it's better because it's higher' without demonstrating understanding of survival advantages."
+      }
+    },
+    {
+      "questionText": "Can you think of other structures around your home or school where plants might climb? What would a plant gain by growing up those structures?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific structures (trellises, lamp posts, brick walls, trees) and explains how climbing each one helps the plant access sunlight, find support, or spread to new areas.",
+        "meets": "Student names at least two realistic structures around homes or schools and explains a clear benefit (such as sunlight access or structural support) the plant would gain.",
+        "approaching": "Student identifies one or two structures but provides vague or incomplete explanation of the benefits, or benefits that don't clearly connect to plant survival.",
+        "beginning": "Student provides minimal response with little connection to real-world structures, such as listing only one vague location or no explanation of benefits."
+      }
+    },
+    {
+      "questionText": "If this vine produces seeds inside those green pods, how do you think those seeds might travel to other places to grow into new plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple realistic seed dispersal methods specific to the pod structure (wind carrying light seeds, animals eating pods and dropping seeds, water carrying seeds) with reasoning about how each method works.",
+        "meets": "Student identifies at least one correct seed dispersal method (such as wind, animals, or water) and provides a reasonable explanation of how seeds travel from the pod.",
+        "approaching": "Student suggests a dispersal method but explanation is incomplete, inaccurate, or shows partial understanding of the process.",
+        "beginning": "Student provides a vague or incorrect response about seed travel, such as 'they just grow' or 'animals eat them' without explaining how this helps seeds disperse."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:56:38.944Z",
+  "cost": 0.005223
+}

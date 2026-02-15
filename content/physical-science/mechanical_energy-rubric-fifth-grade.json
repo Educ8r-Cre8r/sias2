@@ -1,0 +1,53 @@
+{
+  "title": "Mechanical Energy",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why can't a person lift this heavy tank by themselves, but the crane can?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the crane uses a machine to provide mechanical advantage and/or reduce the effort force needed, and identifies that the crane's engine provides the power source that a person's muscles cannot supply.",
+        "meets": "Student identifies that the crane is a machine that makes lifting easier or that it is stronger/more powerful than a person, showing basic understanding of how machines help lift heavy objects.",
+        "approaching": "Student recognizes that the crane is stronger or different from a person, but provides vague or incomplete reasoning about why the crane can lift the tank.",
+        "beginning": "Student makes a simple observation that the crane can lift the tank but the person cannot, with little to no explanation of why this difference exists."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the boom if the crane tried to lift something even heavier than the tank?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the boom could bend, break, or fail under too much weight, explaining that materials have limits and that excessive force causes stress on structures; may reference weight limits or material strength.",
+        "meets": "Student predicts a realistic consequence such as bending, breaking, or the crane becoming unstable when lifting something heavier, showing understanding that machines have weight limits.",
+        "approaching": "Student predicts something might happen to the boom but the explanation is unclear or partially inaccurate, such as suggesting it would just lift slower without addressing structural consequences.",
+        "beginning": "Student provides a minimal or vague prediction with little reasoning, such as saying 'it would break' without explaining why or how."
+      }
+    },
+    {
+      "questionText": "How does the truck's engine help lift the tank if the engine isn't directly touching the tank?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the engine provides power/energy that is transferred through the crane's system (hydraulics, pulleys, gears, or mechanical parts) to lift the tank, demonstrating understanding of energy transfer in machines.",
+        "meets": "Student explains that the engine's power is used by the crane or boom to lift the tank, showing understanding that machines transfer power from one part to another.",
+        "approaching": "Student recognizes that the engine is involved in lifting but provides an incomplete or partially unclear explanation of how the power gets transferred to the tank.",
+        "beginning": "Student provides minimal explanation, such as 'the engine makes it work' without describing how power or force is transferred through the machine."
+      }
+    },
+    {
+      "questionText": "If we wanted to design a crane that could lift even heavier loads, what parts might we need to change and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific parts to modify (boom structure, engine power, cables/chains, hydraulic system) with clear reasoning that each change would either increase strength, power, or stability to handle heavier loads.",
+        "meets": "Student identifies at least one or two parts to change (such as making the boom stronger or the engine more powerful) with reasonable explanation of how each change would help lift heavier objects.",
+        "approaching": "Student identifies parts that could be changed but provides unclear or incomplete reasoning about why these changes would enable lifting heavier loads.",
+        "beginning": "Student suggests changing something about the crane but offers vague or minimal explanation of how the change would help lift heavier loads."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:44:43.756Z",
+  "cost": 0.005153
+}

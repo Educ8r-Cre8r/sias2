@@ -1,0 +1,53 @@
+{
+  "title": "Parent And Offspring",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the baby bird is trying to tell the parent bird by opening its mouth so wide?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the baby bird is asking for food or signaling hunger, and adds a detail about why this behavior helps the baby bird survive (e.g., 'The parent knows it needs to eat to grow strong').",
+        "meets": "Student correctly identifies that the baby bird is asking for food or is hungry, showing understanding of parent-offspring communication.",
+        "approaching": "Student recognizes the open mouth as a sign of hunger or wanting food, but explanation lacks clarity or is incomplete.",
+        "beginning": "Student mentions the open mouth but provides vague or inaccurate reasoning about why the baby bird opens its mouth (e.g., 'It's sleeping' or 'It's yawning')."
+      }
+    },
+    {
+      "questionText": "How is the baby bird the same as the grown-up bird, and how is it different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (e.g., same type of bird, same feathers, same beak) and differences (e.g., smaller size, less developed feathers, different behaviors), showing detailed observation.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between the baby and adult bird (e.g., 'Both have feathers, but the baby is smaller').",
+        "approaching": "Student attempts to compare but provides only a similarity OR a difference, or gives vague descriptions like 'They look different' without specific details.",
+        "beginning": "Student provides minimal or inaccurate comparisons, such as noticing only colors or failing to recognize they are the same type of bird."
+      }
+    },
+    {
+      "questionText": "Why do you think the parent bird needs to bring food to the baby bird instead of the baby bird finding food on its own?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the baby bird is too young, small, or not developed enough to find or catch food, and may add that the parent protects or cares for young birds.",
+        "meets": "Student gives a logical reason such as 'The baby is too little' or 'The baby doesn't know how to find food yet,' showing understanding of young animals' needs.",
+        "approaching": "Student attempts an explanation but reasoning is unclear or partially incomplete, such as 'The baby needs food' without explaining why the parent must provide it.",
+        "beginning": "Student provides a minimal or inaccurate response that does not address why the parent, specifically, must bring the food."
+      }
+    },
+    {
+      "questionText": "What would happen to the baby bird if the parent bird did not feed it or take care of it?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the baby bird would become weak, get sick, or not survive, and explains that babies need care and food to grow and stay healthy.",
+        "meets": "Student predicts a realistic consequence such as 'The baby bird would get hungry' or 'The baby bird would not grow,' showing understanding that young animals depend on parents.",
+        "approaching": "Student attempts a prediction but the consequence is vague or only partially connected to survival or health (e.g., 'Something bad would happen').",
+        "beginning": "Student gives a minimal, unclear, or inaccurate prediction that does not logically connect to the lack of parental care."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:37:36.898Z",
+  "cost": 0.00519
+}

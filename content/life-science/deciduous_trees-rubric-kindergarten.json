@@ -1,0 +1,53 @@
+{
+  "title": "Deciduous Trees",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the trees in this picture that looks different from summer trees?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific color changes (yellow, orange, red) and notes that leaves have fallen off, demonstrating careful observation of several details.",
+        "meets": "Student notices that the leaves are different colors (not green) or that some leaves are missing from the trees.",
+        "approaching": "Student makes a vague observation about the trees looking different but cannot specify what changed (colors or missing leaves).",
+        "beginning": "Student gives a response that is unclear, off-topic, or simply repeats the question without describing any observable change."
+      }
+    },
+    {
+      "questionText": "Why do you think trees change colors in the fall?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful explanation connecting fall colors to seasonal changes or plant preparation (e.g., trees getting ready for winter, less sunlight, colder weather).",
+        "meets": "Student offers a reasonable explanation for color change, such as the weather getting colder or it being fall/autumn season.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially accurate, such as saying trees change colors but not explaining why.",
+        "beginning": "Student provides little or no explanation, offers an inaccurate reason, or says 'I don't know.'"
+      }
+    },
+    {
+      "questionText": "What patterns do you see when you look at trees during different seasons?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a clear seasonal pattern, such as green leaves in summer, colorful leaves in fall, and bare branches in winter, showing understanding of predictable changes.",
+        "meets": "Student describes one clear pattern related to seasons, such as leaves changing colors or leaves falling off trees at certain times of year.",
+        "approaching": "Student notices that trees look different in different seasons but struggles to clearly describe a repeating pattern or sequence.",
+        "beginning": "Student's response is vague or does not explain any recognizable seasonal pattern in trees."
+      }
+    },
+    {
+      "questionText": "How do you think animals might use these fallen leaves?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple realistic examples of how animals use fallen leaves, such as for shelter, warmth, building nests, or food, showing rich thinking about animal habitats.",
+        "meets": "Student gives one or two reasonable examples of how animals could use fallen leaves, such as making a home or staying warm.",
+        "approaching": "Student attempts to explain animal use of leaves but the explanation is unclear, incomplete, or only partially realistic.",
+        "beginning": "Student provides minimal response, an unrealistic idea, or does not address how animals would use the leaves."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:27:39.449Z",
+  "cost": 0.004323
+}

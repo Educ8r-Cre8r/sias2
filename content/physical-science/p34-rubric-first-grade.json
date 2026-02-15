@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make these ice sticks?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that water froze into ice, describing how cold temperature turned liquid water into solid ice, and may mention melting and refreezing.",
+        "meets": "Student correctly identifies that cold or freezing made the ice, showing understanding that water becomes ice when it gets cold.",
+        "approaching": "Student mentions cold or freezing but with incomplete explanation, such as saying \"it got cold\" without connecting it to water turning into ice.",
+        "beginning": "Student provides vague response like \"ice happened\" or \"it froze\" with no clear understanding of the water-to-ice process."
+      }
+    },
+    {
+      "questionText": "Why do you think the icicles are pointing down instead of up?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gravity pulls the ice down and/or that water drips down before freezing, demonstrating understanding of both gravity and the freezing process.",
+        "meets": "Student correctly identifies that gravity pulls the icicles down or that water drips downward, showing basic understanding of why they point down.",
+        "approaching": "Student mentions gravity or water falling but with incomplete reasoning, such as saying \"it falls\" without explaining why this creates a downward point.",
+        "beginning": "Student provides minimal response such as \"because\" or repeats the question without explaining the reason icicles point down."
+      }
+    },
+    {
+      "questionText": "What would happen to these icicles on a very warm day?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the icicles would melt into water, explaining that warmth causes ice to change into liquid, and may describe the dripping or pooling of water.",
+        "meets": "Student correctly predicts the icicles would melt and become water, showing understanding that heat changes ice back into liquid form.",
+        "approaching": "Student predicts melting will occur but with vague language, such as \"they would go away\" or \"they would break\" without clearly stating they become water.",
+        "beginning": "Student makes an unclear or inaccurate prediction, such as \"they would get bigger\" or provides no prediction at all."
+      }
+    },
+    {
+      "questionText": "Where else have you seen ice change into water?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides two or more accurate, specific examples of ice melting (e.g., ice cubes in a drink, ice cream melting, snow melting) with clear descriptions.",
+        "meets": "Student provides one or two accurate examples of ice turning into water with basic descriptions of when or where they observed it.",
+        "approaching": "Student provides an example related to ice or cold but with unclear connection to ice melting, such as mentioning freezers or snow without describing melting.",
+        "beginning": "Student provides minimal response or an inaccurate example with no clear connection to ice changing into water."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:23:40.513Z",
+  "cost": 0.004555
+}

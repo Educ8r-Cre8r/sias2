@@ -1,0 +1,53 @@
+{
+  "title": "Life Cyle",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside the eggshell?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that a plant is growing from a seed and explains that the seed needs soil and water to sprout, using observation details from the photo.",
+        "meets": "Student correctly states that a plant is growing or sprouting inside the eggshell and mentions at least one thing the plant needs (soil, water, or sunlight).",
+        "approaching": "Student recognizes that something is growing in the eggshell but provides vague or partially accurate information about what is happening or what the plant needs.",
+        "beginning": "Student gives a minimal response such as 'a plant is in there' or 'it's growing' with little additional detail or reasoning."
+      }
+    },
+    {
+      "questionText": "Why do you think someone used an eggshell instead of a plastic cup for planting?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons (such as eggshells are natural, they break down in soil, they provide nutrients, or they are biodegradable) and explains how these benefits help the plant or environment.",
+        "meets": "Student gives at least one logical reason, such as eggshells are natural, they can break down in the soil, or they are reusing materials instead of plastic.",
+        "approaching": "Student attempts an explanation but it is unclear or only partially connects to the eggshell's properties, such as 'it looks nice' or 'plants like it' without elaboration.",
+        "beginning": "Student provides a vague answer like 'because it's better' or 'I don't know' with no meaningful reasoning."
+      }
+    },
+    {
+      "questionText": "If we took away the soil from under this seedling, what would happen to the plant, and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would die or stop growing and explains that soil provides nutrients, water, and support for roots, using complete sentences.",
+        "meets": "Student correctly predicts the plant would die or get sick and identifies that soil provides at least one thing the plant needs, such as food, water, or support.",
+        "approaching": "Student makes a prediction about the plant being harmed but gives incomplete or partially accurate reasoning about why soil is important.",
+        "beginning": "Student provides a minimal prediction like 'the plant would fall' or 'it would die' without explaining why soil is necessary."
+      }
+    },
+    {
+      "questionText": "What do you observe that is the same about both seedlings, and what is different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both have green leaves, both are in eggshells, both have roots or sprouted) and at least one difference (size, number of leaves, or growth stage), with specific details from the photo.",
+        "meets": "Student identifies at least one similarity and one difference between the seedlings, such as both have green leaves but different sizes, or both sprouted but look different.",
+        "approaching": "Student attempts to compare the seedlings but observations are vague or partially accurate, such as noting they are similar without clear details or missing either a similarity or difference.",
+        "beginning": "Student makes a minimal comparison like 'they look the same' or 'they're different' without providing specific observable details."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:22:57.239Z",
+  "cost": 0.005044
+}

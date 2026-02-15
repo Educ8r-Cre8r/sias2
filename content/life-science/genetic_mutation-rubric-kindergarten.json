@@ -1,0 +1,53 @@
+{
+  "title": "Genetic Mutation",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What colors do you see in this flower? Why do you think flowers might have bright colors?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple colors (pink, yellow) and explains that bright colors help attract insects or bugs to the flower for a specific purpose like getting food or spreading seeds.",
+        "meets": "Student identifies at least two colors in the flower and gives a reasonable explanation that bright colors help attract bugs or insects to the flower.",
+        "approaching": "Student names one or two colors but provides only a vague or incomplete explanation about why flowers have bright colors, such as 'because they look pretty' or 'bugs like them' without further detail.",
+        "beginning": "Student names one color or gives minimal response; explanation is missing, unclear, or shows little understanding of color's purpose."
+      }
+    },
+    {
+      "questionText": "How is this pink flower the same as other flowers you've seen, and how is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (petals, center, bright colors) and differences (specific colors, petal shape, size of center) with clear comparisons to flowers they know.",
+        "meets": "Student describes at least one similarity and one difference between this flower and other flowers, using observable features like petals, colors, or center parts.",
+        "approaching": "Student identifies either similarities or differences but not both, or descriptions lack clear details about specific flower parts.",
+        "beginning": "Student gives vague or unclear responses; little attempt to compare this flower to others or comparisons are inaccurate."
+      }
+    },
+    {
+      "questionText": "If this flower didn't have its yellow center, what do you think might happen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a logical consequence (bugs wouldn't find it, insects couldn't get food) and explains the reasoning, showing understanding that the center helps attract pollinators.",
+        "meets": "Student makes a reasonable prediction that something would be different or that bugs/insects might not visit, with a simple explanation.",
+        "approaching": "Student makes a prediction but with limited or partially accurate reasoning; may show incomplete understanding of the flower center's purpose.",
+        "beginning": "Student's prediction is vague, illogical, or missing; shows minimal understanding of flower parts and their function."
+      }
+    },
+    {
+      "questionText": "What do you think visits this flower, and why would they come?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names specific visitors (bees, butterflies, bugs) and explains multiple reasons they come, such as for food, nectar, or pollen, showing clear understanding of pollinator behavior.",
+        "meets": "Student names at least one visitor (bee, butterfly, or bug) and gives a reasonable explanation that they come for food or because of the flower's colors.",
+        "approaching": "Student names a visitor but provides minimal or unclear reasoning about why it comes; explanation may be incomplete or vague.",
+        "beginning": "Student's response is very limited, naming no visitor or providing no explanation; shows minimal understanding of what visits flowers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:05:03.838Z",
+  "cost": 0.004715
+}

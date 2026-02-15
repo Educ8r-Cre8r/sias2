@@ -1,0 +1,53 @@
+{
+  "title": "Germination",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think is happening to this seed?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the seed is growing or sprouting and explains that a baby plant is coming out, using words like 'growing,' 'sprouting,' or 'waking up.'",
+        "meets": "Student says the seed is growing or sprouting into a plant, showing they understand a seed changes into a plant.",
+        "approaching": "Student recognizes something is happening to the seed but uses vague language like 'it's changing' or 'something is coming out' without naming the process as growing.",
+        "beginning": "Student points to the sprout but cannot explain what is happening, or provides an unrelated response."
+      }
+    },
+    {
+      "questionText": "Why do you think the sprout is growing upward instead of sideways?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the plant grows toward light or up to find sunlight, or that plants need light to grow, showing understanding of how plants respond to their environment.",
+        "meets": "Student gives a simple reason like 'it grows toward the sun' or 'plants grow up to get light,' demonstrating basic understanding of plant growth direction.",
+        "approaching": "Student suggests the sprout grows upward but gives an incomplete or partially correct reason, such as 'it just grows up' or 'plants go up.'",
+        "beginning": "Student does not provide a reason, guesses randomly, or says something unrelated to how or why plants grow."
+      }
+    },
+    {
+      "questionText": "What do you think the seed needs to keep growing bigger and stronger?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple things seeds need to grow, such as water, sunlight, soil, and air, showing comprehensive understanding of plant needs.",
+        "meets": "Student names at least two things seeds need to grow, such as water and sunlight or soil and water, showing solid understanding of basic plant requirements.",
+        "approaching": "Student mentions one thing seeds need, like water or sun, but may be uncertain or incomplete in their explanation.",
+        "beginning": "Student provides a vague answer like 'food' or 'help' without identifying specific things plants need, or does not attempt to answer."
+      }
+    },
+    {
+      "questionText": "If we planted a seed in a dark closet with no water, what would happen? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the seed would not grow well or would die, and explains that plants need both water and light (or sun) to grow, showing understanding of multiple plant needs.",
+        "meets": "Student predicts the seed would not grow or would die, and gives a reason such as 'it needs water' or 'it needs light,' showing they understand the cause and effect.",
+        "approaching": "Student makes a prediction that the seed would not grow but gives an incomplete or unclear reason, or identifies only one need without fully explaining why it matters.",
+        "beginning": "Student does not make a prediction, gives an incorrect answer, or provides a reason that does not connect to plant growth needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:47:24.600Z",
+  "cost": 0.004776
+}

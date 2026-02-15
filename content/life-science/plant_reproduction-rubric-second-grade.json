@@ -1,0 +1,53 @@
+{
+  "title": "Plant Reproduction",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the seeds are inside the fruit instead of on the outside?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the fruit protects seeds from damage, animals, or weather, and may add that the fruit helps seeds spread or provides food for the growing plant.",
+        "meets": "Student identifies that the fruit protects the seeds or keeps them safe from harm.",
+        "approaching": "Student recognizes that the fruit and seeds are connected or mentions protection, but explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague response such as 'they just are' or 'the fruit keeps them' without explaining why protection matters."
+      }
+    },
+    {
+      "questionText": "What do you think happens to a seed if you plant it in water, soil, and sunshine? What will grow?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a seed needs soil and water to grow into a squash plant, explaining that soil provides food and water helps the seed start growing, and sunshine helps it grow bigger.",
+        "meets": "Student predicts that the seed will grow into a squash plant and identifies that it needs water, soil, and sunshine.",
+        "approaching": "Student predicts something will grow from the seed but may be unclear about which conditions are needed or what will grow.",
+        "beginning": "Student makes a prediction but provides minimal details or suggests incorrect outcomes (e.g., a flower or tree will grow)."
+      }
+    },
+    {
+      "questionText": "If a bird eats this squash and flies to a different place, how might that help new squash plants grow far away?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bird eats the squash and the seeds travel in the bird's body, then are dropped in a new place where they can grow into new plants, showing understanding of seed dispersal.",
+        "meets": "Student explains that seeds travel with the bird to a new place and can grow there into new squash plants.",
+        "approaching": "Student recognizes that a bird helps seeds move to a new place but has unclear reasoning about how the seeds travel or grow.",
+        "beginning": "Student provides a vague response like 'the bird helps them grow' or 'it takes them far away' without explaining the connection to new plant growth."
+      }
+    },
+    {
+      "questionText": "How is making seeds different from how you grow bigger each year?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that seeds create new plants in a new place while growing bigger means the same person gets taller, or identifies that seeds are for making new plants while growing is making the same living thing larger.",
+        "meets": "Student identifies at least one clear difference, such as seeds make new plants while growing makes you taller, or seeds can travel while you stay in one place.",
+        "approaching": "Student recognizes that seeds and growing are different but explanation lacks clarity or confuses the two processes.",
+        "beginning": "Student provides minimal information or states they are different without explaining how or why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:22:05.754Z",
+  "cost": 0.004674
+}

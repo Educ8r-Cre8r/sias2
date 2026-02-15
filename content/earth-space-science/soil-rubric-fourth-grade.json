@@ -1,0 +1,53 @@
+{
+  "title": "Soil",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the different colors and textures in each soil layer?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies and describes specific colors (dark, light, reddish-brown) and textures (crumbly, compact, grainy) for at least three different layers, using detailed descriptive language.",
+        "meets": "Student accurately describes colors and textures of at least two soil layers, noting that layers look different from each other.",
+        "approaching": "Student identifies that soil layers have different colors or textures but provides limited or vague descriptions of what those differences are.",
+        "beginning": "Student makes a general observation about soil layers but provides minimal detail about colors or textures, or descriptions lack accuracy."
+      }
+    },
+    {
+      "questionText": "Why do you think the top layer of soil is darker and has more plant material than the layers below it?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposing plant and animal matter (organic material) makes topsoil dark and rich, and connects this to why plants grow better in topsoil or how nutrients are created.",
+        "meets": "Student correctly explains that dead plants and animals in the top layer make it darker and provide material, showing understanding of organic matter in soil.",
+        "approaching": "Student suggests that plants or dead things are in the top layer and makes a connection to why it looks different, but explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal or vague explanation, such as 'plants are there' or 'it's darker,' without clear reasoning about cause and effect."
+      }
+    },
+    {
+      "questionText": "How might the soil be different in 100 years from now, and what do you think would cause those changes?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes (more organic matter, deeper layers forming, different colors) and explains multiple causes such as decomposition, weathering, plant growth, or erosion.",
+        "meets": "Student makes a reasonable prediction about how soil will change and identifies at least one cause, such as more dead plants breaking down or rocks breaking into smaller pieces.",
+        "approaching": "Student makes a prediction about soil change but provides weak or incomplete reasoning about what causes the change.",
+        "beginning": "Student makes a vague prediction or suggests changes without explaining any cause, or response shows minimal understanding of soil development."
+      }
+    },
+    {
+      "questionText": "If we removed all the organic matter (dead plants and animals) from soil, what problems might plants have growing in that soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple problems such as lack of nutrients, poor water retention, reduced looseness/crumbliness for root growth, and explains how each affects plant health.",
+        "meets": "Student identifies at least two problems plants would face, such as missing nutrients or the soil being too hard, with reasonable explanations.",
+        "approaching": "Student identifies one problem plants might face but provides limited explanation, or suggestions are partially accurate.",
+        "beginning": "Student provides a vague or minimal response about soil problems, with little connection to the role of organic matter in plant growth."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:40:36.248Z",
+  "cost": 0.004807
+}

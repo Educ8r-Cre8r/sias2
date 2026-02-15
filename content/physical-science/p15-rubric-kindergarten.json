@@ -1,0 +1,53 @@
+{
+  "title": "Ice",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about where the ice is in the water?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student accurately describes that ice floats on top of the water and may include additional details such as the ice being partially above and partially below the water surface, or noticing the white/cloudy appearance.",
+        "meets": "Student correctly identifies that the ice is on top of or floating in the water with simple, clear language.",
+        "approaching": "Student makes a general observation about ice and water location but may be unclear or only partially accurate, such as saying ice is 'in the water' without specifying it floats on top.",
+        "beginning": "Student gives a vague response like 'the ice is there' or does not accurately identify where the ice is positioned in the glass."
+      }
+    },
+    {
+      "questionText": "Why do you think the ice stays on top instead of going to the bottom?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that ice is lighter than water or that it floats because it pushes the water down, using simple but scientifically accurate reasoning appropriate for kindergarten.",
+        "meets": "Student provides a reasonable explanation such as 'ice floats' or 'it's not heavy enough to sink,' showing basic understanding of why ice stays on top.",
+        "approaching": "Student attempts an explanation but uses imprecise language or reasoning, such as 'ice likes to stay up' or 'water pushes it,' with partial understanding evident.",
+        "beginning": "Student provides no clear explanation, gives an inaccurate reason, or simply restates the observation without any reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen if we left this glass sitting out for a long time?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the ice would melt and become water, and may add that the glass would have only water left or that it would get smaller, showing understanding of ice melting as a state change.",
+        "meets": "Student correctly predicts that the ice would melt or turn into water with a simple, accurate explanation.",
+        "approaching": "Student recognizes something would change but may describe it vaguely, such as 'the ice would go away' without clearly stating it becomes water.",
+        "beginning": "Student gives no prediction, is unclear about what would happen, or provides an inaccurate response unrelated to melting."
+      }
+    },
+    {
+      "questionText": "How is the ice the same as the water? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both are made of water (same) and describes multiple differences such as ice being hard/solid while water is liquid, ice being cold, or ice being white/cloudy while water is clear.",
+        "meets": "Student identifies at least one similarity (both are water) and at least one clear difference (ice is hard/solid and water is liquid, or ice is cold), using grade-appropriate language.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or describes differences without connecting them to ice and water being the same substance.",
+        "beginning": "Student provides minimal or unclear comparisons, or responses that do not accurately reflect the relationship between ice and water."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:02:10.650Z",
+  "cost": 0.004865
+}

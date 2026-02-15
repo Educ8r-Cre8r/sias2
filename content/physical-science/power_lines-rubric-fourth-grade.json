@@ -1,0 +1,53 @@
+{
+  "title": "Power Lines",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if one of the power lines broke? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific consequences (loss of power, safety hazards) and explains multiple reasons using circuit concepts, such as broken connections preventing electricity flow or danger from exposed wires.",
+        "meets": "Student predicts that power would be lost or there could be danger, and provides a basic explanation involving electricity not reaching homes or risk of injury.",
+        "approaching": "Student makes a prediction about power being lost or danger occurring, but explanation is vague or incomplete (e.g., 'bad things happen' without clear reasoning).",
+        "beginning": "Student provides minimal response with little or no prediction, or response shows confusion about electricity concepts (e.g., incorrect or irrelevant explanation)."
+      }
+    },
+    {
+      "questionText": "How is electricity like water flowing through a pipe? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate comparisons (both flow through connected pathways) and differences (water is visible/physical vs. electricity is invisible, water needs gravity vs. electricity needs power source), using grade-appropriate scientific language.",
+        "meets": "Student identifies at least one clear similarity (both flow through pipes/wires) and one difference (water is visible, electricity is not visible), with reasonable explanations.",
+        "approaching": "Student identifies a similarity or difference but reasoning is incomplete or partially inaccurate; may only address one aspect of the comparison.",
+        "beginning": "Student attempts comparison but provides vague statements or significant misconceptions about how electricity or water moves."
+      }
+    },
+    {
+      "questionText": "Why do you think the utility company needs the metal box (transformer) on the pole instead of sending electricity directly to our homes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the transformer changes the strength (voltage) of electricity to make it safe for homes, and may reference that strong electricity can be dangerous or damage appliances.",
+        "meets": "Student recognizes the transformer makes electricity safer or weaker for homes, with a reasonable explanation of why this is necessary.",
+        "approaching": "Student indicates the transformer has an important purpose related to safety or strength of electricity, but explanation lacks clarity or completeness.",
+        "beginning": "Student provides minimal or inaccurate response, such as 'it's for safety' without explanation, or demonstrates confusion about the transformer's function."
+      }
+    },
+    {
+      "questionText": "Can you design a system that safely brings electricity to every house in a neighborhood? What parts would you need?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a logical system including multiple necessary components (power source, wires, transformer, connection to homes) with explanations of how each part contributes to safe electricity delivery; may include safety features like insulators.",
+        "meets": "Student designs a basic system with at least three key components (such as power source, wires, and transformer) and explains how they work together to deliver electricity.",
+        "approaching": "Student identifies some system components but design lacks organization or completeness; explanations of how parts work together are unclear or partially developed.",
+        "beginning": "Student attempts to design a system but identifies very few components or shows confusion about how electricity is distributed; explanations are minimal or inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:35:40.792Z",
+  "cost": 0.004978
+}

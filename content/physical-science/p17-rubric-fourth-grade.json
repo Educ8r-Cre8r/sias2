@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to the reflection if the glass windows were scratched or dirty?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that scratches or dirt would make the reflection blurry, dimmer, or distorted, and explains that smooth surfaces are needed for clear reflections because light bounces off at the same angle.",
+        "meets": "Student predicts that scratches or dirt would make the reflection less clear or harder to see, with a basic explanation that the smooth surface helps create reflections.",
+        "approaching": "Student predicts that the reflection would be affected but gives incomplete reasoning, such as only stating it would be \"worse\" or \"messier\" without explaining why.",
+        "beginning": "Student makes a prediction but provides no explanation, or suggests an inaccurate outcome like the reflection disappearing completely."
+      }
+    },
+    {
+      "questionText": "How is this building reflection similar to and different from your reflection in a bathroom mirror?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both are reflections in smooth surfaces, both show reversed images) and multiple differences (mirror is flat and smaller, building reflection may be curved or partial, mirror is designed for reflections while glass building is not), using specific examples from the photo.",
+        "meets": "Student identifies at least one similarity and one difference between the building reflection and a bathroom mirror with reasonable explanations.",
+        "approaching": "Student attempts a comparison but identifies only similarities or only differences, or explanations lack clarity about why the differences exist.",
+        "beginning": "Student makes a vague comparison with minimal detail, such as \"they're both reflections\" without elaborating."
+      }
+    },
+    {
+      "questionText": "Why can you see the reflection better on sunny days than on cloudy days?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright sunlight provides more light energy to bounce off the glass surface, making the reflection clearer and brighter, while cloudy days have less direct light which weakens the reflection.",
+        "meets": "Student explains that sunny days have more light or brighter light, and this brightness helps you see the reflection better.",
+        "approaching": "Student recognizes that light or the sun affects the reflection but gives an incomplete explanation, such as only stating \"the sun makes it better\" without explaining how light affects reflections.",
+        "beginning": "Student provides a minimal or inaccurate response, such as \"sunny days are brighter\" without connecting it to why reflections are clearer."
+      }
+    },
+    {
+      "questionText": "If you were designing a building, how might you use reflection to help or prevent certain effects?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes specific practical uses of reflection (such as using reflective surfaces to redirect light to reduce heating costs, or designing to prevent glare that bothers people) and explains the science reasoning behind their design choice.",
+        "meets": "Student suggests a reasonable way to use or prevent reflections in building design, such as using reflective glass to keep buildings cool or matte surfaces to prevent glare, with basic explanation.",
+        "approaching": "Student suggests an idea related to reflection and building design but lacks clear explanation of the intended effect or benefit.",
+        "beginning": "Student provides a vague response or a design idea that shows minimal understanding of how reflection affects buildings and people."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:04:22.447Z",
+  "cost": 0.004945
+}

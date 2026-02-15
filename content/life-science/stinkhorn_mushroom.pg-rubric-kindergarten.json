@@ -1,0 +1,53 @@
+{
+  "title": "Stinkhorn Mushroom",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about where this mushroom is growing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about the mushroom's location (e.g., growing from wood chips, on the ground, in a dark/shady place) and explains why that location makes sense for mushroom growth.",
+        "meets": "Student accurately describes where the mushroom is growing (e.g., on the ground, in wood chips, on soil) with at least one or two observable details.",
+        "approaching": "Student notices the mushroom is growing somewhere on the ground or mentions wood/dirt, but description is vague or partially accurate.",
+        "beginning": "Student provides a minimal response like \"on the ground\" or points to the location without describing what the mushroom is actually growing in or on."
+      }
+    },
+    {
+      "questionText": "How do you think this mushroom is different from the plants in our classroom?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (e.g., mushrooms don't have leaves or flowers, grow from wood instead of soil, are orange/brown colored, grow quickly) and explains that mushrooms are a different kind of living thing than plants.",
+        "meets": "Student identifies at least two clear differences between the mushroom and classroom plants, such as no leaves, different color, different shape, or different growing place.",
+        "approaching": "Student notices one difference between the mushroom and classroom plants (e.g., the color or shape is different) but explanation lacks detail or clarity.",
+        "beginning": "Student makes a vague comparison or states a difference that is unclear, inaccurate, or too general (e.g., \"it looks weird\")."
+      }
+    },
+    {
+      "questionText": "Why do you think mushrooms might be important for other living things?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms help break down dead wood or help other animals/insects, and connects this to the mushroom growing in wood chips as evidence of its important role in nature.",
+        "meets": "Student offers a reasonable idea about mushroom importance, such as providing food for animals, helping things grow, or breaking down dead things in nature.",
+        "approaching": "Student suggests mushrooms might be important but reasoning is incomplete or somewhat unclear (e.g., \"animals might eat it\" without elaboration).",
+        "beginning": "Student provides a minimal or unclear response (e.g., \"it's important\" or \"bugs like it\") with little reasoning or explanation."
+      }
+    },
+    {
+      "questionText": "What questions do you have about how mushrooms grow?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student asks thoughtful, specific questions about mushroom growth (e.g., How does it get so tall? Where do mushrooms come from? Why do they grow in wood?) that show genuine curiosity and connection to observations.",
+        "meets": "Student asks a clear, genuine question about mushroom growth, such as \"How do mushrooms grow?\" or \"Do mushrooms need water?\" that shows curiosity.",
+        "approaching": "Student asks a question about mushrooms, but it is vague, off-topic, or shows minimal connection to growth (e.g., \"Why is it orange?\").",
+        "beginning": "Student provides a minimal response like \"I don't know\" or asks an unclear question with little evidence of curiosity about mushroom growth."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:31:34.793Z",
+  "cost": 0.005063
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Kinetic Energy",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What made the skateboard start moving?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the skateboarder pushed with their feet/legs to make the skateboard move, and may add that this pushing force is what starts motion.",
+        "meets": "Student correctly states that the skateboarder pushed or did something to make the skateboard move.",
+        "approaching": "Student mentions the skateboarder or movement but does not clearly explain what action caused the skateboard to start moving.",
+        "beginning": "Student provides a vague response like \"it just moved\" or does not identify the skateboarder's action as the cause."
+      }
+    },
+    {
+      "questionText": "Why do you think the skateboarder comes back down to the ground after jumping?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gravity pulls the skateboarder down and may add that everything that goes up must come back down, or that gravity works on all objects.",
+        "meets": "Student correctly identifies that gravity or something pulling down makes the skateboarder come back to the ground.",
+        "approaching": "Student mentions that the skateboarder comes down but gives an incomplete or partially accurate explanation (e.g., \"they fall\" without mentioning a force).",
+        "beginning": "Student provides a minimal response like \"they come down\" or gives an inaccurate explanation without connecting to a force."
+      }
+    },
+    {
+      "questionText": "If the skate park had sand instead of concrete on the ground, what would happen to the skateboard? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the skateboard would slow down or stop and explains that sand creates more friction or resistance than concrete, making it harder to move.",
+        "meets": "Student correctly predicts the skateboard would slow down or not move as well and gives a reason related to the difference between sand and concrete.",
+        "approaching": "Student makes a prediction about the skateboard slowing down or stopping but gives a weak or unclear explanation.",
+        "beginning": "Student makes a prediction with little or no explanation, or predicts an outcome without clear reasoning about sand versus concrete."
+      }
+    },
+    {
+      "questionText": "How could we make the skateboard go faster or slower? What would we need to do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple ways to change speed, such as pushing harder to go faster or using friction/surfaces to go slower, and identifies the force or concept involved.",
+        "meets": "Student identifies at least one accurate way to make the skateboard go faster or slower, such as pushing harder or finding a rougher surface.",
+        "approaching": "Student suggests a way to change speed but the explanation lacks clarity or is only partially accurate.",
+        "beginning": "Student provides a minimal or vague response that does not clearly explain how to change the skateboard's speed."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:41:55.037Z",
+  "cost": 0.004505
+}

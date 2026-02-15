@@ -1,0 +1,53 @@
+{
+  "title": "Properties Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the engine if the coolant stopped flowing?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the engine would overheat and explains that without coolant flow, heat cannot be removed from the engine, potentially causing damage or the engine to stop working. Student may mention that the coolant carries heat away as its main job.",
+        "meets": "Student predicts the engine would get too hot or overheat and provides a simple explanation that the coolant normally keeps the engine cool by removing heat.",
+        "approaching": "Student predicts the engine would overheat but provides only vague reasoning, such as 'the coolant keeps it cool' without explaining how or why heat removal is important.",
+        "beginning": "Student's prediction is unclear, incorrect, or lacks any explanation of the relationship between coolant flow and engine temperature."
+      }
+    },
+    {
+      "questionText": "Why is the coolant liquid instead of a gas or a solid?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a liquid is the best state of matter for coolant because it can flow easily through hoses to absorb and transport heat, and it can change temperature without becoming a gas or solid under normal engine conditions. Student may reference specific properties like density or heat absorption.",
+        "meets": "Student explains that liquid coolant flows easily through the hoses and can absorb heat from the engine without turning into a gas or solid.",
+        "approaching": "Student identifies that liquids flow and can absorb heat but provides incomplete reasoning about why gas or solid forms would not work as well.",
+        "beginning": "Student provides a minimal or incorrect answer, such as 'because that's how it is' or confuses properties of different states of matter."
+      }
+    },
+    {
+      "questionText": "How is the car's cooling system similar to how your body keeps cool when you exercise?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both systems use liquid (coolant/sweat) that absorbs heat and is transported away from the heat source (engine/muscles) to cool the system down. Student may explain that in both cases, heat is carried away and released, keeping temperature regulated.",
+        "meets": "Student makes a clear comparison that both the car and body use a liquid to carry heat away from a hot area to cool things down.",
+        "approaching": "Student identifies a similarity between the two systems but the explanation is incomplete or somewhat unclear, such as mentioning both get hot but not fully explaining the cooling process.",
+        "beginning": "Student's response shows little understanding of either system or makes an inaccurate comparison with minimal explanation."
+      }
+    },
+    {
+      "questionText": "If we heated the coolant in a sealed container with no escape route, what would happen to the pressure inside?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that pressure would increase and explains that heating causes the liquid to expand or that the coolant molecules move faster, and since the container is sealed with no room for escape, pressure must build up inside.",
+        "meets": "Student predicts that pressure would increase inside the sealed container and provides a basic explanation that heating causes expansion or increased movement of particles in an enclosed space.",
+        "approaching": "Student predicts pressure would increase but provides only partial reasoning, such as 'it gets hotter so pressure goes up' without explaining why being sealed matters.",
+        "beginning": "Student's prediction is unclear, incorrect, or lacks any scientific reasoning about the relationship between heat, pressure, and sealed containers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:19:54.066Z",
+  "cost": 0.005169
+}

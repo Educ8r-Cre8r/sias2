@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice happening to the blue color in the water?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific observations about the blue color, such as how it spreads, swirls, or changes the water's appearance, using words like 'mixing,' 'spreading,' or 'moving.'",
+        "meets": "Student accurately describes what is happening to the blue color, such as it is spreading, mixing, or moving through the water.",
+        "approaching": "Student notices the blue color is doing something to the water but uses vague language like 'it's changing' or 'it's going somewhere' without clear description.",
+        "beginning": "Student makes a minimal attempt, such as naming the color blue or saying 'something happened,' with little detail about what is occurring."
+      }
+    },
+    {
+      "questionText": "How do you think the water would look different if we used red color instead of blue?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the water would be red and explains the prediction by connecting it to how the blue color behaved, such as 'the red would spread like the blue did' or 'it would mix the same way.'",
+        "meets": "Student predicts the water would look red or a different color and provides a simple reason, such as 'because we would use red instead of blue.'",
+        "approaching": "Student makes a prediction that the water would change color but offers little or unclear reasoning for why this would happen.",
+        "beginning": "Student gives a minimal response, such as saying 'it would be red' or 'it would be different,' with no reasoning provided."
+      }
+    },
+    {
+      "questionText": "Why do you think the blue color spreads out instead of staying in one spot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful explanation that the blue is mixing with the water or moving around, and may reference water movement or how colors blend, showing understanding of why the blue doesn't stay in one place.",
+        "meets": "Student offers a simple explanation such as 'the water moves it' or 'the blue mixes with the water' to explain why the color spreads.",
+        "approaching": "Student attempts an explanation but it is incomplete or unclear, such as 'it just spreads' or 'because it does,' with limited reasoning.",
+        "beginning": "Student provides a minimal or vague response such as 'I don't know' or repeats the question without offering an explanation."
+      }
+    },
+    {
+      "questionText": "What other times have you seen different things mix together like this?",
+      "bloomsLevel": "Connect",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides two or more relevant examples of things mixing together in everyday life, such as paint mixing, juice mixing with water, or milk in cereal, and explains how the mixing is similar to what happened with the blue color.",
+        "meets": "Student provides at least one clear, relevant example of things mixing together from personal experience, such as making juice, mixing paint, or adding food coloring to water.",
+        "approaching": "Student provides an example but it is unclear whether it involves mixing, or the connection to the activity is weak, such as mentioning a vague situation without detail.",
+        "beginning": "Student struggles to provide an example or gives a response that does not clearly relate to mixing, such as naming an object rather than a mixing experience."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:04:39.265Z",
+  "cost": 0.00501
+}

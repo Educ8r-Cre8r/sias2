@@ -1,0 +1,53 @@
+{
+  "title": "Properties Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the coolant is yellow instead of clear like water?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a scientifically sound reason (such as dye for identification or visibility) and explains an additional benefit, such as helping mechanics see leaks or identifying the coolant type.",
+        "meets": "Student identifies a reasonable purpose for the yellow color, such as making it easier to see or identify the coolant in the engine system.",
+        "approaching": "Student recognizes that the color serves a purpose but provides vague or partially accurate reasoning about what that purpose might be.",
+        "beginning": "Student makes a guess about the color with little or no scientific reasoning, or states only that it is colored without explaining why."
+      }
+    },
+    {
+      "questionText": "What would happen to the engine if the coolant container was empty and there was no liquid to carry the heat away?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the engine would overheat and describes multiple consequences, such as engine damage, broken parts, or the importance of liquid's heat-transfer properties compared to air.",
+        "meets": "Student correctly explains that the engine would overheat and identifies at least one consequence, such as the engine stopping working or getting damaged.",
+        "approaching": "Student recognizes that heat buildup would occur but provides incomplete or partially accurate reasoning about what would happen to the engine.",
+        "beginning": "Student provides a minimal response such as 'it would be hot' without explaining consequences or the role of coolant in removing heat."
+      }
+    },
+    {
+      "questionText": "How is the coolant's job similar to the job your blood does in your body?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities, such as both being liquids that move through a system, both carrying heat or energy, and both helping keep an organism/system healthy and functioning properly.",
+        "meets": "Student identifies at least one clear similarity between coolant and blood, such as both being liquids that travel through systems to carry heat or keep things working properly.",
+        "approaching": "Student recognizes a connection between coolant and blood but the explanation is vague or only partially accurate (e.g., 'they both move around').",
+        "beginning": "Student makes a weak or inaccurate comparison, or states they are similar without providing any meaningful explanation of how."
+      }
+    },
+    {
+      "questionText": "If we used a solid metal rod instead of liquid coolant to cool the engine, what problems might we face?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple problems, such as liquids being better at moving through tight spaces, solids not reaching all engine parts, or explaining that liquid can flow and absorb heat more effectively than a solid rod.",
+        "meets": "Student identifies at least two reasonable problems, such as the metal rod not being able to reach all parts of the engine or that a liquid moves better than a solid.",
+        "approaching": "Student identifies one problem or recognizes that a solid would not work as well as liquid but with incomplete or unclear reasoning.",
+        "beginning": "Student provides a minimal response acknowledging a problem exists but with little explanation of why a solid rod would be ineffective."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:19:45.067Z",
+  "cost": 0.00487
+}

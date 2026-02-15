@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the flag if there was no wind?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the flag would hang down or droop without wind and connects this to understanding that wind pushes or moves things; may mention the flag would look different or stay in one spot.",
+        "meets": "Student correctly states the flag would hang down, droop, or stop moving without wind, showing understanding that wind causes the flag's movement.",
+        "approaching": "Student provides a response about the flag changing but explanation is unclear or partially correct; may say the flag would stop but doesn't explain why or how it would look.",
+        "beginning": "Student gives a minimal response with little clarity, such as 'the flag would be different' without explaining how or why, or response shows misunderstanding of wind's role."
+      }
+    },
+    {
+      "questionText": "How are the flag's movement and the clock hands' movement different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences: flag moves in wavy/fluttering patterns while clock hands move in a circular or steady way; flag movement depends on wind while clock hands move regardless of weather; may note one is fast and one is slow.",
+        "meets": "Student identifies at least two clear differences between flag and clock hand movement, such as the flag waves/flutters while hands move in circles, or the flag depends on wind while the clock doesn't.",
+        "approaching": "Student identifies one difference between the movements but explanation lacks detail or clarity; may confuse which object exhibits which type of movement.",
+        "beginning": "Student attempts comparison but response is vague or mostly inaccurate; shows minimal understanding of how the two types of movement differ."
+      }
+    },
+    {
+      "questionText": "What other things have you seen move because of wind?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student lists three or more examples of wind-moved objects with accurate descriptions (leaves falling, kites flying, trees swaying, hair blowing, curtains moving); demonstrates clear understanding that wind causes movement in many things.",
+        "meets": "Student provides two to three accurate examples of things that move in the wind, such as leaves, trees, or kites, showing solid understanding of wind's effect on objects.",
+        "approaching": "Student provides one or two examples of wind-moved objects, but may lack detail or include one unclear/questionable example; shows partial understanding.",
+        "beginning": "Student provides minimal or vague examples; may struggle to identify things that move due to wind or gives responses that don't clearly relate to wind movement."
+      }
+    },
+    {
+      "questionText": "Why do you think the clock hands keep moving even when the wind stops?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains the clock has its own power source (battery, spring, or electricity) that makes it work independently of wind; may explain that the clock is designed to keep time no matter the weather or conditions.",
+        "meets": "Student recognizes that the clock keeps moving because it has something inside that makes it work (such as a battery, power source, or mechanism) separate from wind.",
+        "approaching": "Student shows partial understanding that the clock works differently than the flag; explanation may be incomplete or vague, such as 'the clock has something inside' without explaining what or why.",
+        "beginning": "Student provides minimal explanation or shows confusion; may not recognize that the clock and flag have different power sources, or response is unclear and shows little understanding."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:22:13.930Z",
+  "cost": 0.005096
+}

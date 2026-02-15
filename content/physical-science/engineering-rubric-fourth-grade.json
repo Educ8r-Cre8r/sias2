@@ -1,0 +1,53 @@
+{
+  "title": "Engineering",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we removed the wheels from the robot? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the robot would not move or roll, and explains that wheels help machines move by rolling smoothly across surfaces, demonstrating understanding of how wheels function as simple machines.",
+        "meets": "Student predicts the robot would not move and provides a basic reason, such as 'wheels help it go' or 'it needs wheels to roll.'",
+        "approaching": "Student predicts the robot would not work or move, but provides only a vague or incomplete reason for why wheels are important.",
+        "beginning": "Student makes a prediction about removing wheels but provides no clear reasoning, or suggests an inaccurate consequence unrelated to movement."
+      }
+    },
+    {
+      "questionText": "How is this robot similar to other machines you see in your classroom or home? What do they all have in common?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific machines (e.g., toy cars, fans, vacuums) and explains multiple shared features such as wheels, motors, moving parts, or power sources, demonstrating how different machines use similar components.",
+        "meets": "Student names at least one other machine and identifies one or two shared features, such as wheels or moving parts.",
+        "approaching": "Student names a machine but identifies only one vague similarity, such as 'they both move' without explaining how or why.",
+        "beginning": "Student names a machine but provides no clear comparison, or describes a similarity that is not related to how machines work."
+      }
+    },
+    {
+      "questionText": "If your robot isn't moving as fast as you want it to, what are three different things you could change or try to make it faster?",
+      "bloomsLevel": "Generate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests three specific, reasonable modifications with explanations (e.g., 'use bigger wheels because larger wheels cover more distance,' 'make the motor stronger,' 'reduce weight so it takes less energy to move'), showing understanding of cause-and-effect relationships in simple machines.",
+        "meets": "Student suggests three different changes that could affect speed, such as changing wheels, adjusting the program, or adding power, though explanations may be brief.",
+        "approaching": "Student suggests two or three changes, but at least one is vague or less feasible (e.g., 'make it lighter' without explanation), and reasoning is incomplete.",
+        "beginning": "Student suggests one change or several unclear ideas with little reasoning about how they would increase speed."
+      }
+    },
+    {
+      "questionText": "How do you think the engineer who designed this robot used testing to make it work better?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that engineers test robots, identify problems, make changes, and test again (iterative process), and provides a specific example of how testing could improve a feature like movement, balance, or speed.",
+        "meets": "Student explains that engineers test the robot to see if it works and make changes to fix problems or improve it.",
+        "approaching": "Student recognizes that testing is used to improve the robot but provides only a general statement without clear explanation of the testing process.",
+        "beginning": "Student mentions testing but provides minimal or unclear reasoning about how testing helps engineers design better robots."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:09:50.264Z",
+  "cost": 0.004953
+}

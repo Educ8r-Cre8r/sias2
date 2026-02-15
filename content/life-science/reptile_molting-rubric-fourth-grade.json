@@ -1,0 +1,53 @@
+{
+  "title": "Reptile Molting",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think a lizard's skin needs to shed instead of just stretching bigger like a balloon?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that lizard skin cannot stretch like a balloon because it is made of a hard, protective material that doesn't grow, and connects this to why molting is necessary for the lizard to get bigger.",
+        "meets": "Student correctly states that lizard skin cannot stretch like a balloon and explains that the lizard needs to shed its old skin so it can grow larger.",
+        "approaching": "Student recognizes that lizards shed their skin and mentions growth, but the explanation is incomplete or lacks clarity about why stretching is not possible.",
+        "beginning": "Student provides a vague response such as \"lizards just shed\" or \"they need to\" without explaining the connection to growth or skin limitations."
+      }
+    },
+    {
+      "questionText": "What might happen to a lizard if it could NOT molt and shed its old skin?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple consequences such as the lizard being unable to grow, becoming uncomfortable or injured, losing the ability to move properly, or developing infections, and explains the cause-and-effect relationship.",
+        "meets": "Student predicts one or two reasonable consequences such as the lizard cannot grow, becomes stuck in its skin, or has difficulty moving, with basic explanation.",
+        "approaching": "Student attempts to predict a consequence but the explanation is unclear or only partially accurate; may show confusion about the molting process.",
+        "beginning": "Student gives a minimal or vague prediction such as \"it would be bad\" with little or no explanation of what would actually happen."
+      }
+    },
+    {
+      "questionText": "How do you think the lizard's pale belly color helps it survive in nature, compared to its darker, speckled back?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the pale belly is camouflage from predators below (like birds), while the dark speckled back blends with branches or ground, demonstrating understanding of how different colors serve different survival purposes.",
+        "meets": "Student correctly identifies that the pale belly and dark back help the lizard hide from predators, explaining that different colors blend in with different environments.",
+        "approaching": "Student mentions that the colors help the lizard hide or blend in, but the explanation lacks specificity about which predators or environments, or shows incomplete understanding.",
+        "beginning": "Student provides a basic response such as \"the colors help it hide\" or \"dark is better\" without explaining how the different colors work together for survival."
+      }
+    },
+    {
+      "questionText": "If you were designing a new reptile, how would you solve the problem of growing bigger without being able to stretch your skin?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a creative, scientifically reasonable solution (such as molting like real reptiles, having flexible joints, using segments that expand, or another mechanism) and explains how it would allow growth while still providing protection.",
+        "meets": "Student proposes a solution related to how real reptiles solve this problem (such as shedding skin or having loose skin) and provides a logical explanation for how it works.",
+        "approaching": "Student offers a solution that shows some understanding but may be incomplete, impractical, or lack clear explanation of how growth would occur.",
+        "beginning": "Student attempts to answer but provides a vague solution such as \"make it flexible\" or \"let it grow\" without explaining the mechanism or how it relates to the skin problem."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:25:44.472Z",
+  "cost": 0.005258
+}

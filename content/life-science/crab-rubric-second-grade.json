@@ -1,0 +1,53 @@
+{
+  "title": "Crab",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the crab's color is brown and tan instead of bright red or blue?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that brown and tan colors help the crab hide or blend in with the sand, and may add that this protects it from predators or helps it catch food.",
+        "meets": "Student correctly identifies that the crab's brown and tan colors match the sand or help it blend in with its surroundings.",
+        "approaching": "Student mentions that the colors help the crab hide or blend in, but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as 'it matches the sand' or 'for camouflage' with little elaboration or reasoning."
+      }
+    },
+    {
+      "questionText": "If you were a crab living on this beach, which body part would be most helpful to you and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific body part (claws, legs, or eyestalks) and provides a detailed explanation of how it helps the crab survive (e.g., claws for catching food or defending, legs for moving, eyestalks for seeing).",
+        "meets": "Student identifies a specific body part and gives a reasonable explanation of its function (e.g., 'claws help catch food' or 'legs help it walk').",
+        "approaching": "Student names a body part but explanation of its usefulness is unclear or only partially correct.",
+        "beginning": "Student names a body part with little or no explanation of why it would be helpful."
+      }
+    },
+    {
+      "questionText": "What other animals do you think live on this sandy beach with the crab? What would they look like?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names 2+ realistic beach animals and describes specific features that help them survive on a beach (e.g., 'seagulls have wings to fly and find food, shells are hard to protect from waves').",
+        "meets": "Student names at least 1-2 realistic beach animals and describes what they look like with some accuracy (e.g., 'starfish are bumpy' or 'seagulls are gray and white').",
+        "approaching": "Student names a beach animal but description is vague, or names an animal that doesn't typically live on beaches.",
+        "beginning": "Student provides a minimal response with little detail about animals or their appearance."
+      }
+    },
+    {
+      "questionText": "How is a crab's body different from a bird's body? Why do you think they are so different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (e.g., crabs have claws and legs, birds have wings and feathers) and explains how these differences help each animal do different activities (crabs walk/live on sand; birds fly).",
+        "meets": "Student identifies at least 2 physical differences between crabs and birds (e.g., claws vs. wings, hard shell vs. feathers) and gives a simple explanation for why they are different.",
+        "approaching": "Student identifies 1-2 differences between crabs and birds but explanation is unclear or missing.",
+        "beginning": "Student mentions a difference or similarity but provides minimal detail or reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:40:55.685Z",
+  "cost": 0.005009
+}

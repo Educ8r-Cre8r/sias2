@@ -1,0 +1,53 @@
+{
+  "title": "Ornamental Grass",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to these fluffy seeds when the wind blows?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts seeds will blow away or float through the air and explains that the fluffy, light parts help them travel far from the plant.",
+        "meets": "Student predicts seeds will blow away or move with the wind when it blows hard.",
+        "approaching": "Student mentions wind or seeds moving but reasoning is unclear or incomplete (e.g., 'the wind will move them').",
+        "beginning": "Student gives a vague response about wind or seeds with little or no prediction (e.g., 'the wind' or 'they will move')."
+      }
+    },
+    {
+      "questionText": "How are these grass seeds different from seeds you eat, like sunflower seeds?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (e.g., grass seeds are fluffy/feathery while sunflower seeds are hard; grass seeds are tiny while sunflower seeds are big) and explains that the fluffy parts help grass seeds fly.",
+        "meets": "Student identifies at least two clear differences between grass seeds and sunflower seeds, such as size, texture, or fluffiness.",
+        "approaching": "Student notices one difference between the seeds (e.g., 'grass seeds are fluffy' or 'sunflower seeds are bigger') but lacks detail or comparison.",
+        "beginning": "Student mentions seeds or plants but does not make a clear comparison or gives inaccurate information."
+      }
+    },
+    {
+      "questionText": "Why do you think plants need their seeds to travel away from them?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that seeds need space to grow or that traveling away helps them find water, soil, and sunlight without competing with the parent plant.",
+        "meets": "Student gives a reasonable explanation, such as 'seeds need room to grow' or 'they need to go to new places to grow.'",
+        "approaching": "Student attempts to explain but reasoning is vague or partially correct (e.g., 'so they can grow' without explaining why distance matters).",
+        "beginning": "Student provides minimal or unclear reasoning (e.g., 'because they do' or no explanation)."
+      }
+    },
+    {
+      "questionText": "What other things in nature are designed to fly or float through the air?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple examples (e.g., dandelion seeds, helicopters/maple seeds, birds, butterflies) and explains what helps them fly or float (wings, fluffy parts, feathers).",
+        "meets": "Student names at least two things in nature that fly or float through the air (e.g., birds, butterflies, other seed types).",
+        "approaching": "Student names one thing that flies or floats but with limited detail, or names things with uncertain connection to air travel.",
+        "beginning": "Student struggles to name examples or provides irrelevant answers (e.g., naming animals that don't fly)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:26:03.640Z",
+  "cost": 0.004726
+}

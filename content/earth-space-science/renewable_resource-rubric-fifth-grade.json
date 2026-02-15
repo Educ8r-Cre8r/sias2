@@ -1,0 +1,53 @@
+{
+  "title": "Renewable Resource",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the builders chose to use wood for this structure instead of other materials like plastic or metal?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple practical reasons wood was chosen (strength, availability, cost, insulation properties) and explains how at least two of these properties benefit building construction specifically.",
+        "meets": "Student identifies at least two reasonable reasons wood was chosen, such as strength, cost, or availability, with brief explanations of why these matter for building.",
+        "approaching": "Student identifies one reason wood might be chosen (such as strength or cost) but explanation is vague or incomplete; may confuse properties of wood with other materials.",
+        "beginning": "Student provides a minimal response such as 'wood is strong' or 'it's cheaper' without explanation, or response shows misunderstanding of material properties."
+      }
+    },
+    {
+      "questionText": "If we planted a tree today, would it be big enough to harvest for building when you are an adult? Why or why not?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly concludes 'no' and explains that trees require many years (15-30+) to grow large enough for lumber, using accurate reasoning about tree growth rates and acknowledging that adult timelines differ from tree growth timelines.",
+        "meets": "Student correctly concludes 'no' and provides a reasonable explanation that trees need many years to grow large enough for building materials, showing understanding of tree growth time requirements.",
+        "approaching": "Student concludes 'no' but explanation is unclear or oversimplified; may mention that trees grow slowly without sufficient detail about building material size requirements.",
+        "beginning": "Student provides little reasoning, gives an unclear yes/no answer, or shows misunderstanding such as thinking trees grow very quickly or don't need to reach a certain size."
+      }
+    },
+    {
+      "questionText": "How might cutting down all the trees in a forest change the animals, soil, and air in that area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains impacts on all three systems (animals lose habitat and food sources; soil erodes without tree roots; air quality changes due to fewer trees absorbing carbon dioxide), showing understanding of interconnected forest ecosystems.",
+        "meets": "Student describes how removing all trees would negatively impact at least two of the three areas (animals, soil, or air) with reasonable, grade-appropriate explanations.",
+        "approaching": "Student attempts to explain impacts but addresses only one area, or explanations are partially accurate with some misconceptions about how forests affect animals, soil, or air.",
+        "beginning": "Student provides minimal or vague response such as 'animals would go away' without explanation, or shows limited understanding of forest ecosystem functions."
+      }
+    },
+    {
+      "questionText": "Compare using wood (a renewable resource) to using coal for fuel. What are the differences in how quickly each can be replaced?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that wood can be replaced by planting new trees in years to decades, while coal takes millions of years to form, and describes why this makes wood renewable and coal nonrenewable with specific timeframe reasoning.",
+        "meets": "Student accurately compares replacement rates, explaining that wood regrows relatively quickly through planting trees while coal takes an extremely long time to form naturally.",
+        "approaching": "Student attempts comparison but timeframes are vague or imprecise; may recognize the difference in replacement speed without explaining why or providing appropriate timescales.",
+        "beginning": "Student provides minimal comparison, such as 'wood grows back faster' without explanation, or shows confusion about which resource is renewable."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:36:37.336Z",
+  "cost": 0.005322
+}

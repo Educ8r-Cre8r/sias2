@@ -1,0 +1,53 @@
+{
+  "title": "Hummingbird",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe about the hummingbird's wings in this photo, and what does that tell us about how fast they must be moving?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the wings as blurry or appearing as a blur, and explains that this blur occurs because the wings move very rapidly—faster than the eye or camera can capture clearly. Student may connect this to the hummingbird's ability to hover.",
+        "meets": "Student observes that the wings appear blurry and correctly concludes that the wings must be moving very fast. The explanation shows understanding that fast movement creates the blurred appearance.",
+        "approaching": "Student notices the wings look blurry or mentions they are moving fast, but the connection between the blurred appearance and wing speed is unclear or incomplete. Explanation may be vague.",
+        "beginning": "Student makes a minimal observation about the wings (such as 'they are moving') with little or no explanation about why they appear blurry or what this reveals about speed."
+      }
+    },
+    {
+      "questionText": "Why do you think hummingbirds are attracted to pink and red flowers instead of blue or yellow flowers? What evidence can we look for?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes that hummingbirds may have vision adapted to see red and pink colors, or that these colors signal flowers with more nectar. Student suggests specific observable evidence such as watching which flowers hummingbirds visit most, comparing nectar amounts in different colored flowers, or observing hummingbird behavior over time.",
+        "meets": "Student suggests a reasonable explanation (such as hummingbirds seeing red/pink better, or these flowers having more nectar) and identifies at least one way to look for evidence, such as observing which flowers hummingbirds visit.",
+        "approaching": "Student provides a guess about color preference but with limited reasoning. Evidence suggestion may be vague or incomplete, such as 'we could watch them' without specifics.",
+        "beginning": "Student states a preference for certain colors with minimal or no explanation of why, and provides little to no suggestion for how to find evidence."
+      }
+    },
+    {
+      "questionText": "If a hummingbird needs to eat nectar from flowers to survive, what would happen to hummingbirds in a place where there were no flowers? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hummingbirds would struggle to find food and could starve, die, or move to another location. Student demonstrates understanding of food dependence and may reference migration, adaptability, or the role of flowers in ecosystems.",
+        "meets": "Student correctly concludes that hummingbirds would have trouble surviving without flowers because they need nectar to eat. The explanation shows clear understanding of the relationship between hummingbirds and flowers.",
+        "approaching": "Student recognizes that no flowers would be a problem for hummingbirds but the explanation is somewhat unclear or incomplete (e.g., 'they wouldn't have food' without elaborating on consequences).",
+        "beginning": "Student provides a vague response such as 'hummingbirds would die' with little reasoning or explanation of why flowers are necessary."
+      }
+    },
+    {
+      "questionText": "How is the hummingbird's beak shaped differently from a robin's beak, and why does this difference matter for what each bird eats?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student accurately describes the hummingbird's beak as long, thin, and needle-like, compared to a robin's shorter, thicker, pointed beak. Student clearly explains that the hummingbird's beak is designed to reach deep into flowers for nectar, while a robin's beak is suited for picking up worms, seeds, or insects from the ground or trees.",
+        "meets": "Student identifies key differences in beak shape (long/thin vs. short/thick) and explains that each beak type helps the bird eat different foods. The connection between beak shape and feeding is clear and accurate.",
+        "approaching": "Student describes some differences in beak shape but the explanation of why these differences matter for eating is incomplete or unclear. May mention one bird's food but not both.",
+        "beginning": "Student notices the beaks look different but provides minimal or inaccurate description of the differences, with little explanation of how beak shape relates to diet."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:19:04.546Z",
+  "cost": 0.006287
+}

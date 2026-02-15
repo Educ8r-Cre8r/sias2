@@ -1,0 +1,53 @@
+{
+  "title": "Agriculture",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How might this farming practice affect the tiny organisms living in the soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple effects on soil organisms (such as disturbing habitats, mixing air into soil, or affecting food sources) and explains why these changes matter to soil health and plant growth.",
+        "meets": "Student describes at least one way that tilling affects soil organisms (such as moving them around or changing their living space) with a reasonable explanation of the consequence.",
+        "approaching": "Student mentions that tilling changes something about soil organisms but provides limited or incomplete explanation of how or why this matters.",
+        "beginning": "Student provides a vague response about soil organisms or tilling with little connection between the two, or repeats the question without adding understanding."
+      }
+    },
+    {
+      "questionText": "What would happen to our food supply if farmers didn't prepare soil this way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a chain of effects: unprepared soil leads to specific problems (poor seed contact, less water absorption, fewer nutrients available) which would reduce crop growth and food production.",
+        "meets": "Student predicts that food supply would decrease or crops would not grow well without soil preparation, with a basic explanation of why.",
+        "approaching": "Student recognizes that soil preparation is important for growing food but provides an incomplete or unclear explanation of the connection.",
+        "beginning": "Student responds that there would be a problem but cannot explain what would happen to crops or food supply."
+      }
+    },
+    {
+      "questionText": "How could farmers balance the need to grow food with protecting soil health?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple specific practices (such as rotating crops, using less tilling, adding compost, or planting cover crops) and explains how each one helps both grow food and protect soil.",
+        "meets": "Student proposes at least one reasonable farming practice that could reduce soil damage while still producing crops, with a brief explanation of how it helps.",
+        "approaching": "Student suggests a farming idea that might help but provides limited explanation of how it balances both food production and soil protection.",
+        "beginning": "Student acknowledges the need to balance both concerns but cannot suggest realistic farming practices or explain how they would work."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how humans change natural environments to meet their needs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a clear pattern (such as humans moving, breaking, or removing natural materials to create space for resources) and connects this farming example to other examples of environmental change.",
+        "meets": "Student describes a pattern about how humans modify or change natural environments to grow food or meet needs, using specific details from the photo.",
+        "approaching": "Student notices that humans change the environment in this farming example but struggles to identify a broader pattern or explain why humans do this.",
+        "beginning": "Student mentions that farming changes the environment but provides minimal description of the pattern or reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:36:00.893Z",
+  "cost": 0.004557
+}

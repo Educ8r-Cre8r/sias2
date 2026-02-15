@@ -1,0 +1,53 @@
+{
+  "title": "Ice",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice happening to the ice in the water?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific changes to the ice, such as it getting smaller, melting, or becoming bumpy/cloudy, and explains that water from melting ice is mixing with the bowl water.",
+        "meets": "Student accurately describes that the ice is melting or getting smaller and notices at least one observable change like shape or appearance of the ice.",
+        "approaching": "Student mentions that the ice is changing or melting but provides limited detail or describes only one vague observation about the ice.",
+        "beginning": "Student provides a minimal response such as \"the ice is there\" or makes an inaccurate statement about what is happening to the ice."
+      }
+    },
+    {
+      "questionText": "Why do you think fog appears above the water but not above regular ice?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the water is warmer than the ice, which causes the ice to melt and create water vapor, and connects this to why fog (condensed water vapor) forms above warm water but not cold ice.",
+        "meets": "Student correctly identifies that the water is warmer than ice and explains that this warmth causes melting or water vapor, which creates the fog.",
+        "approaching": "Student recognizes that temperature or warmth is involved and attempts to connect it to fog formation, but the explanation is incomplete or partially unclear.",
+        "beginning": "Student gives a guess or minimal explanation with little connection between temperature, melting, and fog formation."
+      }
+    },
+    {
+      "questionText": "How is this different from what happens when you leave ice cubes in a cup?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that ice cubes in a cup sit on top and melt into liquid water without fog, while these ice cubes are floating in water and creating fog, and explains the difference is due to the warmer water surrounding the ice.",
+        "meets": "Student correctly notes that ice in a cup melts without fog, and these ice cubes are floating in water that creates fog, showing understanding of the different conditions.",
+        "approaching": "Student attempts to compare the two situations but only mentions one difference clearly or provides an incomplete explanation of why they are different.",
+        "beginning": "Student makes a vague comparison or states they are different without providing specific details or reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen if we put this bowl in a warmer or colder place?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that warmth would cause ice to melt faster and more fog to appear, while cold would slow melting and reduce fog, and explains that temperature affects how fast ice melts.",
+        "meets": "Student makes reasonable predictions for both scenarios: warmer place causes faster melting (and more fog), colder place slows melting (and less fog).",
+        "approaching": "Student makes a prediction for one scenario (warm or cold) that is partially reasonable but may lack detail or clarity about the effect on melting or fog.",
+        "beginning": "Student makes a prediction that is vague, illogical, or shows minimal understanding of how temperature affects ice melting."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:02:25.974Z",
+  "cost": 0.004827
+}

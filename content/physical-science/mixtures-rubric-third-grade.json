@@ -1,0 +1,53 @@
+{
+  "title": "Mixtures",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the flour and cinnamon in the bowl? Can you still see both materials, or did they disappear?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that both materials are still present in the mixture, describes specific visual differences between them (color, texture), and explains that mixing does not make materials disappear.",
+        "meets": "Student recognizes that both flour and cinnamon are still in the bowl and can describe at least one way to tell them apart (such as different colors).",
+        "approaching": "Student acknowledges that materials are in the bowl but provides vague descriptions or shows uncertainty about whether both materials are still visible.",
+        "beginning": "Student provides minimal observation or incorrectly states that one or both materials disappeared."
+      }
+    },
+    {
+      "questionText": "If we mixed the flour and cinnamon together, then tried to separate them again, do you think we could easily pull them apart? Why or why not?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts separation would be difficult and provides a scientific reason explaining that the small particles are mixed throughout or that they look similar in size, showing understanding of mixture properties.",
+        "meets": "Student makes a reasonable prediction (difficult or possible) and provides a basic reason related to how mixed the materials are or their similar appearance.",
+        "approaching": "Student makes a prediction but gives an unclear or incomplete reason for their answer.",
+        "beginning": "Student makes a prediction with no reasoning or provides inaccurate information about separating mixtures."
+      }
+    },
+    {
+      "questionText": "What other mixtures have you seen adults make in your kitchen at home? What materials did they combine?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes two or more kitchen mixtures with specific materials combined and explains what the mixture is used for (e.g., mixing flour, eggs, and sugar to make cookies).",
+        "meets": "Student identifies at least one kitchen mixture and names the materials that were combined together.",
+        "approaching": "Student names a kitchen activity or mixture but provides incomplete or vague information about the materials involved.",
+        "beginning": "Student attempts to answer but provides minimal or unclear examples of kitchen mixtures."
+      }
+    },
+    {
+      "questionText": "Compare mixing flour and cinnamon to mixing red food coloring into water. How are these mixtures alike and different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both combine materials, both create mixtures where materials keep properties) and explains key differences (food coloring dissolves/spreads while flour and cinnamon stay separate; one makes color disappear throughout while the other keeps visible particles).",
+        "meets": "Student describes at least one similarity and one difference between the mixtures, showing understanding that they combine materials in different ways.",
+        "approaching": "Student attempts a comparison but descriptions are unclear, incomplete, or include one partially accurate similarity or difference.",
+        "beginning": "Student provides minimal comparison or lists materials without describing similarities or differences between the mixtures."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:15:16.569Z",
+  "cost": 0.004663
+}

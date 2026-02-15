@@ -1,0 +1,53 @@
+{
+  "title": "Herbivore",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What can scientists learn about an animal just by looking at its footprints?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific things scientists can learn (size, number of legs, weight, how it walks) and explains how footprints show these clues with clear reasoning.",
+        "meets": "Student identifies at least two things scientists can learn from footprints, such as the animal's size or that it has four legs, with basic explanations.",
+        "approaching": "Student identifies one or two things scientists can learn from footprints but explanations are vague or incomplete (e.g., 'you can see how big it is' without detail).",
+        "beginning": "Student provides minimal response with little connection to the footprints shown or offers only a guess without supporting details."
+      }
+    },
+    {
+      "questionText": "Why might an animal's tracks be deeper in one spot than another?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons for varying track depth, such as the animal's weight distribution while moving, different ground softness, or the animal stopping or speeding up, with clear cause-and-effect reasoning.",
+        "meets": "Student explains at least one logical reason for deeper tracks, such as the ground being softer in that spot or the animal being heavier there, with adequate support.",
+        "approaching": "Student offers a partial explanation for deeper tracks but reasoning is incomplete or partially inaccurate (e.g., 'the animal jumped' without full explanation of how this affects depth).",
+        "beginning": "Student provides a minimal or unclear response, such as 'it just is' or guesses without reasoning about the connection between the ground or animal's movement."
+      }
+    },
+    {
+      "questionText": "How could you figure out which animal made these tracks if you couldn't see it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a detailed investigation strategy using multiple clues (track size, shape, number of toes, distance between prints, nearby evidence) and explains how these clues help identify the animal.",
+        "meets": "Student describes a reasonable investigation method using track features like size or shape and explains how comparing these features to known animals could help identify it.",
+        "approaching": "Student suggests a basic strategy, such as comparing prints to pictures or measuring them, but the method is incomplete or lacks clear explanation of how it leads to identification.",
+        "beginning": "Student offers a vague response, such as 'look at the size' or 'guess,' with little detail about how to actually use clues to figure out which animal made the tracks."
+      }
+    },
+    {
+      "questionText": "Where in our neighborhood or school do you think we could find animal tracks, and why?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple realistic locations (muddy areas, sandy spots, near water, under trees) with specific explanations of why animals would go there and why tracks would be visible in those places.",
+        "meets": "Student identifies at least two locations where animal tracks might be found and provides logical reasons, such as near water because animals drink there, or in mud because tracks show better.",
+        "approaching": "Student identifies one or two possible locations but explanations for why tracks would be there are incomplete or only partially reasoned.",
+        "beginning": "Student provides a vague or single location with little to no explanation of why animals would visit or why tracks would be visible there."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:12:51.602Z",
+  "cost": 0.005067
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Infrared Thermometer",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we pointed this tool at an ice cube versus a warm cookie?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the tool would show different numbers for the ice cube and cookie, and explains that one would be colder and one would be hotter using simple comparisons (e.g., 'The cookie would be warmer because it just came out of the oven').",
+        "meets": "Student predicts that the tool would show different numbers or readings for the ice cube and the cookie, recognizing that they have different temperatures.",
+        "approaching": "Student attempts to predict a difference between the two items but is vague or partially incorrect (e.g., 'They would be different' without specifying hot/cold).",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of temperature differences (e.g., 'I don't know' or an off-topic answer)."
+      }
+    },
+    {
+      "questionText": "How can we tell if something is hot or cold without touching it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that this tool measures temperature and shows numbers on a screen, and connects this to the idea that we can use tools to know how hot or cold something is without the danger of touching it.",
+        "meets": "Student explains that the tool can tell us if something is hot or cold by showing numbers or a reading on the screen without touching it.",
+        "approaching": "Student identifies that the tool can measure temperature but gives an incomplete or unclear explanation of how it works (e.g., 'It tells you' without explaining the numbers or screen).",
+        "beginning": "Student gives a vague response or describes an unrelated way to tell temperature (e.g., 'You look at it' or 'You feel it')."
+      }
+    },
+    {
+      "questionText": "What are some hot and cold things you know about in your house?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names at least three hot and cold things from home with specific details (e.g., 'A hot oven, hot water in the sink, cold ice in the freezer, and cold juice in the refrigerator').",
+        "meets": "Student names at least two hot things and two cold things from home (e.g., 'The stove is hot and the refrigerator is cold').",
+        "approaching": "Student names some hot or cold things but the list is limited or partially accurate (e.g., naming only one or two items, or items that are unclear).",
+        "beginning": "Student names one item or gives a very vague response with little evidence of understanding (e.g., 'Um... hot stuff' without examples)."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful to measure temperature without touching something?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains at least two reasons why touching might be unsafe (e.g., 'We could get burned,' 'It could hurt us') and connects this to the safety benefit of using the tool instead.",
+        "meets": "Student gives one clear reason why it's safer or better to use the tool instead of touching (e.g., 'So we don't get burned' or 'Because it might be too hot to touch').",
+        "approaching": "Student recognizes that using the tool is better than touching but gives an incomplete or unclear explanation (e.g., 'It's safer' without explaining why).",
+        "beginning": "Student provides a minimal or inaccurate response with little connection to safety (e.g., 'Because' or an off-topic answer)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:33:55.776Z",
+  "cost": 0.005342
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Water Cycle",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this daffodil flower hasn't been damaged by the snow, even though it's so delicate?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that daffodils have strong stems and petals that can bend without breaking, and may mention that snow is light and fluffy, providing specific examples of how the flower's structure protects it.",
+        "meets": "Student identifies that the flower is strong enough to hold the snow or that the snow doesn't hurt it, with a reasonable explanation about the flower's physical properties.",
+        "approaching": "Student recognizes that the flower isn't damaged but provides only vague reasoning, such as 'it's tough' or 'the snow is not too heavy,' without clear explanation.",
+        "beginning": "Student provides minimal response with little understanding, such as 'it just doesn't break' or 'I don't know,' showing little attempt to explain the reason."
+      }
+    },
+    {
+      "questionText": "What do you think will happen to this flower if the temperature gets warmer and the snow melts?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the snow will melt and the flower will continue to grow or bloom, and may explain that melting snow provides water for the plant or that warmer temperatures help the flower open and grow.",
+        "meets": "Student predicts that the snow will melt and the flower will be fine or will grow, showing basic understanding of how warmth affects snow and plants.",
+        "approaching": "Student makes a prediction about the flower or snow but lacks detail or clarity, such as 'it will get bigger' without connecting it to melting snow or temperature.",
+        "beginning": "Student's prediction is vague or shows minimal understanding, such as 'something will happen' or provides an inaccurate response about what happens when snow melts."
+      }
+    },
+    {
+      "questionText": "How is this flower different from flowers you might see in the summer, and why might those differences help it survive in spring?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple spring daffodil adaptations (early blooming, closed buds, sturdy stems, bright color to attract pollinators) and explains how each helps survival in cold weather or early-season conditions.",
+        "meets": "Student describes at least two differences between spring and summer flowers (such as sturdier stems, earlier blooming, or closed buds) and explains how one or two differences help the flower survive spring conditions.",
+        "approaching": "Student identifies one or two differences between spring and summer flowers but provides incomplete or unclear reasoning about how the differences help survival.",
+        "beginning": "Student mentions a difference but lacks clear explanation, or provides inaccurate information about why spring flowers are different from summer flowers."
+      }
+    },
+    {
+      "questionText": "Where do you think the snow came from, and how is it connected to water we drink and use every day?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snow comes from clouds formed by water evaporating from water sources, and describes how melted snow becomes water that fills lakes, rivers, or streams that provide drinking water.",
+        "meets": "Student correctly identifies that snow comes from clouds and connects it to the water cycle, explaining that snow is frozen water similar to drinking water.",
+        "approaching": "Student states that snow comes from clouds but provides incomplete connection to the water cycle or drinking water, such as 'snow comes from clouds' without explaining the full connection.",
+        "beginning": "Student provides a vague answer about where snow comes from or makes little to no connection to drinking water, showing minimal understanding of the water cycle."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:11:16.747Z",
+  "cost": 0.005353
+}

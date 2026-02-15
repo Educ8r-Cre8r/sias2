@@ -1,0 +1,53 @@
+{
+  "title": "System",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we removed one important part from the engine?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific engine part and explains with detail how removing it would stop the car from working or running properly, showing understanding that all parts work together.",
+        "meets": "Student identifies that removing a part would stop the engine or car from working, with a simple explanation of cause and effect.",
+        "approaching": "Student states that something bad would happen if a part was removed but provides vague or incomplete reasoning about why.",
+        "beginning": "Student gives a minimal response such as 'it would break' with little or no explanation of how engine parts work together."
+      }
+    },
+    {
+      "questionText": "How is a car engine similar to your body when you run and play?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes multiple specific comparisons (e.g., engine uses fuel like body uses food; both need energy to work; both have many parts working together) showing deep understanding of how systems use energy.",
+        "meets": "Student identifies at least two accurate similarities between how an engine and body use energy or how their parts work together.",
+        "approaching": "Student identifies one similarity between an engine and body, such as both need fuel or both make things move, but explanation lacks detail.",
+        "beginning": "Student attempts a comparison but it is vague, inaccurate, or shows minimal understanding of how engines or bodies work."
+      }
+    },
+    {
+      "questionText": "What other machines do you know that need energy to work?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student lists three or more machines that need energy and identifies the type of energy source for at least two (e.g., toy car needs batteries, fan needs electricity).",
+        "meets": "Student names two or more different machines that need energy to work, such as a toy, fan, or bicycle.",
+        "approaching": "Student names one machine that needs energy, or names machines but shows uncertainty about whether they actually require energy.",
+        "beginning": "Student provides a vague or inaccurate response, such as naming something that doesn't use energy or failing to name any specific examples."
+      }
+    },
+    {
+      "questionText": "If you could design a new way to power cars, what would you use and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a creative, realistic energy source (sun, wind, water, electricity) and provides two or more reasons why it would work well, showing scientific thinking.",
+        "meets": "Student proposes a reasonable alternative energy source and gives at least one logical reason why it could power a car.",
+        "approaching": "Student suggests an energy source but provides incomplete or unclear reasoning about how it would work or why it was chosen.",
+        "beginning": "Student provides a vague idea with little to no explanation, or suggests something unrealistic without any reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:06:19.445Z",
+  "cost": 0.004458
+}

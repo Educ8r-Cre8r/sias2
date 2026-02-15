@@ -1,0 +1,53 @@
+{
+  "title": "Owl",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the owl's feathers that helps it hide?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific feather features (brown color, white patterns, or spots) and explains how each one helps the owl blend in with its surroundings like tree bark or rocks.",
+        "meets": "Student describes the owl's feather colors (brown and white) or patterns and correctly explains that these colors help the owl hide or blend in.",
+        "approaching": "Student notices the owl has colored feathers or patterns but provides incomplete explanation of how they help with hiding (e.g., says 'the colors help' without explaining why).",
+        "beginning": "Student makes a minimal observation about feathers (e.g., 'it has feathers') with little or no connection to hiding or camouflage."
+      }
+    },
+    {
+      "questionText": "How do you think the owl's feathers help keep it safe from other animals?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the feather colors and patterns make the owl hard to see, so other animals cannot find it to hurt it, and may mention sitting still adds to safety.",
+        "meets": "Student explains that the feathers' colors or patterns help hide the owl so other animals cannot see it, keeping it safe.",
+        "approaching": "Student connects feathers to safety but reasoning is unclear or incomplete (e.g., 'the feathers keep it safe' without explaining the hiding connection).",
+        "beginning": "Student provides a vague response with minimal connection between feathers and safety (e.g., 'feathers are strong' or 'they keep it warm')."
+      }
+    },
+    {
+      "questionText": "If you were an owl, where would you choose to sit during the day and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student chooses a location (tree, branch, rock, tree bark) and provides detailed reasoning that connects the owl's feather colors/patterns to that specific environment for hiding.",
+        "meets": "Student chooses an appropriate location (tree, branch, rock) and explains that the owl would hide there or match the colors there.",
+        "approaching": "Student identifies a location but gives incomplete or unclear reasoning about why (e.g., 'in a tree because it lives there' without connecting to camouflage).",
+        "beginning": "Student suggests a location with little or no reasoning, or reasoning that doesn't connect to hiding or camouflage."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that have colors or patterns that help them hide?",
+      "bloomsLevel": "Recall/Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names 2 or more animals with camouflage and explains how each animal's colors or patterns help it hide in a specific environment.",
+        "meets": "Student names at least 1 other animal with camouflage colors or patterns and makes a basic connection between the colors/patterns and hiding.",
+        "approaching": "Student names an animal but provides incomplete or unclear explanation of its camouflage (e.g., 'deer are brown' without explaining why this helps).",
+        "beginning": "Student names an animal with no explanation of camouflage, or provides an inaccurate example."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:36:22.798Z",
+  "cost": 0.004907
+}

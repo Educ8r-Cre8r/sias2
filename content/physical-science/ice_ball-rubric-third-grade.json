@@ -1,0 +1,53 @@
+{
+  "title": "Ice Ball",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think caused the ice ball to have a cloudy center and clear edges?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the ice froze from the outside inward, trapping air bubbles in the center, and uses the term 'freeze' or 'air' to describe why the middle looks cloudy compared to the clear edges.",
+        "meets": "Student identifies that the center is cloudy because it froze differently than the edges, or suggests that something got trapped inside causing the cloudiness.",
+        "approaching": "Student notices the difference between the cloudy center and clear edges but provides an incomplete explanation, such as stating it froze differently without explaining why or what causes cloudiness.",
+        "beginning": "Student makes a minimal attempt with vague language like 'it just looks cloudy' or 'the middle is different' without explaining any reason or process."
+      }
+    },
+    {
+      "questionText": "How could we speed up or slow down the melting process?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple methods to speed up melting (add heat, use warm water, increase temperature) and slow it down (use cold water, put in freezer, move to cooler place), explaining that temperature affects how fast ice melts.",
+        "meets": "Student suggests at least two reasonable ways to change melting speed, such as using warm or cold water, or moving the ice to a warmer or cooler place.",
+        "approaching": "Student suggests one method to change melting speed, such as making it warmer or colder, but the explanation is incomplete or unclear.",
+        "beginning": "Student makes a vague suggestion like 'make it hotter' or 'use cold' without explaining how this would speed up or slow down melting."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice about how the ice is melting?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific melting patterns, such as the outside melting faster than the inside, water collecting in the tray, or the shape changing, and explains that heat affects how ice melts.",
+        "meets": "Student identifies at least two observable patterns, such as water dripping into the tray, the ice getting smaller, or the edges melting faster than the center.",
+        "approaching": "Student notices one pattern of melting, such as water forming or the ice shrinking, but does not describe it clearly or notice additional patterns.",
+        "beginning": "Student provides a vague observation like 'it's melting' or 'there's water' without describing specific patterns of how the melting occurs."
+      }
+    },
+    {
+      "questionText": "If we put this melted water back in the freezer, what do you predict will happen and why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the water will freeze back into ice and explains that cold temperatures turn liquid water into solid ice, using the term 'freeze' or describing the state change accurately.",
+        "meets": "Student predicts that the water will freeze and become ice again, with a basic explanation that the freezer makes it cold or turns it back into ice.",
+        "approaching": "Student predicts freezing will occur but provides little explanation, such as 'it will get hard' or 'it will freeze' without explaining why or connecting it to temperature.",
+        "beginning": "Student makes a prediction with minimal reasoning, such as 'it will turn into ice' without any explanation of the freezing process or role of temperature."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:31:10.055Z",
+  "cost": 0.005184
+}

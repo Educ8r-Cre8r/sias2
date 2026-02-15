@@ -1,0 +1,53 @@
+{
+  "title": "Alligator Predator",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the alligator's body looks compared to the water around it? Why might this be helpful when hunting?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the alligator's dark, bumpy appearance blends with murky water and vegetation, uses the term \"camouflage\" or \"adaptation,\" and explains how this hiding helps the alligator surprise prey by remaining unseen.",
+        "meets": "Student describes that the alligator's color and bumpy skin match the water/plants, and explains that this helps it hide or sneak up on prey without being noticed.",
+        "approaching": "Student notices the alligator is dark-colored or bumpy, and gives a partial explanation such as \"it hides\" or \"it blends in\" but lacks clear connection to hunting success.",
+        "beginning": "Student makes a basic observation about the alligator's appearance (e.g., \"it's dark\" or \"it's bumpy\") with little or no explanation of why this matters for hunting."
+      }
+    },
+    {
+      "questionText": "If an alligator didn't have bumpy skin and dark coloring, how might its hunting be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a smooth, light-colored alligator would be easily visible to prey, making it harder to sneak close, and may explain that prey would escape before the alligator could catch them, showing understanding of cause-and-effect.",
+        "meets": "Student explains that without dark, bumpy skin, the alligator would be easier to see, and prey would notice it, making hunting more difficult or less successful.",
+        "approaching": "Student recognizes that the alligator's appearance helps hunting and states that without it, hunting would be harder, but the explanation is incomplete or vague.",
+        "beginning": "Student provides a minimal response such as \"it wouldn't hunt well\" or \"it would be different\" without explaining why or how."
+      }
+    },
+    {
+      "questionText": "What animals do you think are the alligator's prey in this wetland habitat, and what would happen to the ecosystem if all the alligators disappeared?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies realistic prey (fish, frogs, turtles, small birds), explains the alligator's role as a predator in the food chain, and predicts that prey populations would increase and the ecosystem balance would be disrupted if alligators disappeared.",
+        "meets": "Student names 2-3 appropriate prey animals and explains that removing alligators would allow prey to increase or would cause ecosystem changes such as more food for other animals or overpopulation.",
+        "approaching": "Student suggests some plausible prey animals but provides incomplete reasoning about ecosystem effects, such as mentioning only that prey would increase without explaining other consequences.",
+        "beginning": "Student names one possible prey animal or gives a vague response about ecosystem effects with little evidence of understanding predator-prey relationships or food chains."
+      }
+    },
+    {
+      "questionText": "How is the alligator's hunting strategy different from how a cheetah hunts on land?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly contrasts the alligator's ambush/stealth hunting (hiding and waiting in water) with the cheetah's chase hunting (running fast on land), and uses details such as camouflage, speed, habitat, or prey type to support the comparison.",
+        "meets": "Student identifies that alligators hide and sneak while cheetahs run fast to catch prey, showing a basic understanding of two different hunting strategies.",
+        "approaching": "Student mentions differences between the two hunters (e.g., one uses water, one uses speed) but the comparison is unclear or incomplete.",
+        "beginning": "Student gives a simple statement such as \"they hunt differently\" or names only one hunting method without making a meaningful comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:55:58.867Z",
+  "cost": 0.005698
+}

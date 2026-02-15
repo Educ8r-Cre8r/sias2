@@ -1,0 +1,53 @@
+{
+  "title": "Kinetic Energy",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What is making the skateboard move forward through the air in this picture?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the skateboarder pushed the skateboard to give it kinetic energy and explains that this push transfers force to make the skateboard move forward through the air.",
+        "meets": "Student correctly states that the skateboarder pushed the skateboard, causing it to move forward through the air.",
+        "approaching": "Student mentions pushing or movement but provides incomplete reasoning, such as saying 'the skateboard moves' without clearly connecting it to the skateboarder's action.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'it just moves' or 'because they jumped,' showing minimal understanding of what causes the motion."
+      }
+    },
+    {
+      "questionText": "Why do you think the skateboarder and skateboard separate from each other during this trick? What forces are acting on each one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the skateboarder and skateboard separate because they move at different speeds or accelerations, and identifies that gravity pulls both downward while the push force from the ground acts differently on each object.",
+        "meets": "Student provides a reasonable explanation that the skateboarder and skateboard move differently and names at least one force (such as gravity or push) acting on them during the trick.",
+        "approaching": "Student recognizes that separation occurs and mentions one force (such as gravity), but the explanation lacks clarity or connects only partially to why they separate.",
+        "beginning": "Student provides a minimal or unclear response, such as 'they come apart' without explaining why or what forces are involved."
+      }
+    },
+    {
+      "questionText": "If the skateboarder pushed harder on the skateboard, how would that change the height of the jump and the distance the skateboard travels?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a harder push would increase both the height of the jump and the distance the skateboard travels, and explains that more force creates more kinetic energy and greater upward and forward motion.",
+        "meets": "Student correctly predicts that a harder push would increase the height and/or distance traveled, with a simple explanation connecting the harder push to increased motion.",
+        "approaching": "Student makes a prediction about increased height or distance but the reasoning is incomplete or partially unclear, such as 'it would go higher' without explaining why.",
+        "beginning": "Student makes an inaccurate prediction or provides minimal reasoning, such as 'I don't know' or 'it would go slower.'"
+      }
+    },
+    {
+      "questionText": "What would happen if the skateboarder tried this trick on a sandy beach instead of concrete? How would that change the kinetic energy and motion?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that sand would create friction and resistance, reducing the force available for the push, which would decrease kinetic energy and result in a lower jump and shorter distance traveled compared to concrete.",
+        "meets": "Student recognizes that sand would make the trick harder or reduce performance and mentions either friction, resistance, or a decrease in kinetic energy or motion.",
+        "approaching": "Student identifies that sand is different from concrete and would affect the trick but provides limited reasoning, such as 'sand is softer' without connecting this to kinetic energy or motion changes.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'it would be fun' or shows no understanding of how surface type affects motion."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:42:11.471Z",
+  "cost": 0.00529
+}

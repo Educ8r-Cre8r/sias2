@@ -1,0 +1,53 @@
+{
+  "title": "Symbiotic Relationship",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the bee is doing at the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bee is getting food (nectar) from the flower and may explain it uses the food for energy or to feed its family.",
+        "meets": "Student correctly states the bee is eating, getting food, or drinking from the flower.",
+        "approaching": "Student recognizes the bee is doing something with the flower but gives a vague response like 'visiting' or 'playing' without mentioning food or eating.",
+        "beginning": "Student provides a response that shows minimal connection to the bee's actual behavior, such as 'the bee is flying' without reference to the flower's role."
+      }
+    },
+    {
+      "questionText": "Why do you think the bee has yellow dust all over it? What might happen when it visits the next flower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the yellow dust is pollen from the flower, identifies that pollen will rub off on the next flower, and recognizes this helps the flower make seeds or grow new flowers.",
+        "meets": "Student identifies the yellow dust as pollen and predicts the pollen will go to the next flower when the bee visits.",
+        "approaching": "Student recognizes the yellow dust comes from the flower, but explanation of what happens at the next flower is unclear or incomplete (e.g., 'it gets on another flower' without explaining why this matters).",
+        "beginning": "Student notices the yellow dust but cannot explain why the bee has it or what happens next, or gives a response unrelated to pollination."
+      }
+    },
+    {
+      "questionText": "How do the bee and flower help each other? Can you name one thing each one gets from the other?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bee gets food (nectar) from the flower and the flower gets help making seeds through pollen, showing understanding of both benefits in the relationship.",
+        "meets": "Student identifies one or both ways they help each other, such as 'bee gets food' and 'flower gets pollen' or 'flower makes seeds.'",
+        "approaching": "Student recognizes they help each other but can only clearly name one benefit, or description lacks clarity (e.g., 'they help because the bee visits').",
+        "beginning": "Student's response shows minimal understanding of the helping relationship, such as 'they like each other' or provides information unrelated to the symbiotic relationship."
+      }
+    },
+    {
+      "questionText": "If there were no bees visiting flowers, what do you think would happen to the flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts flowers would not make seeds or grow new flowers, and may explain that without pollen spread by bees, flowers cannot make more plants.",
+        "meets": "Student predicts that flowers would have a problem or would not be able to make seeds if bees didn't visit.",
+        "approaching": "Student attempts to predict a consequence but the reasoning is vague or partially incorrect (e.g., 'flowers would be sad' or 'bees need to visit').",
+        "beginning": "Student provides a response showing minimal logical reasoning about the consequences, such as a simple 'flowers would die' without explanation or an off-topic answer."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:38:16.399Z",
+  "cost": 0.005001
+}

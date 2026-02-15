@@ -1,0 +1,53 @@
+{
+  "title": "Forms Of Energy",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "If we doubled the mass (weight) of the sports car without changing its engine, how would that affect how fast it could accelerate? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts the car would accelerate more slowly and explains this using the relationship between force, mass, and acceleration (F=ma), noting that the same engine force acting on greater mass results in less acceleration.",
+        "meets": "Student correctly predicts the car would accelerate more slowly and provides a reasonable explanation that the same engine power must move more weight, making it harder to speed up.",
+        "approaching": "Student predicts the car would accelerate more slowly but gives an incomplete or partially inaccurate explanation of why, such as mentioning weight matters but not clearly connecting it to how engines work.",
+        "beginning": "Student makes a prediction about acceleration but provides no clear explanation, or suggests the car would accelerate faster/the same without supporting reasoning."
+      }
+    },
+    {
+      "questionText": "Both the locomotive and the car burn fuel to move. What do you think happens to the energy in the fuel if the engine is not working—where does that energy go?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that chemical energy remains stored in the fuel until combustion occurs, and identifies that unused fuel retains its energy; may note that some energy is always lost as heat even in working engines.",
+        "meets": "Student correctly states that the energy stays in the fuel and is not released or used until the engine burns the fuel, showing understanding that fuel must be burned to release its energy.",
+        "approaching": "Student recognizes the fuel has energy but gives a vague or partially incomplete explanation of where it goes, such as saying it \"stays there\" without explaining the role of combustion.",
+        "beginning": "Student provides a minimal response that shows confusion about energy in fuel, such as suggesting energy disappears or is used without the engine running."
+      }
+    },
+    {
+      "questionText": "The locomotive says 'Ultra Low Emissions' on its side. What do you think that means, and why might engineers design engines to have low emissions?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that emissions are gases/pollutants released from burning fuel, describes why low emissions are better (reduces air pollution, protects the environment/health), and shows understanding that engineers deliberately improve engines for this purpose.",
+        "meets": "Student correctly explains that emissions are pollutants or gases from the engine and provides a reasonable reason why engineers would want to reduce them, such as protecting the environment or people's health.",
+        "approaching": "Student shows partial understanding that emissions relate to pollution or exhaust from engines but gives an incomplete explanation of what they are or why reducing them matters.",
+        "beginning": "Student provides a vague or inaccurate definition of emissions or gives little reasoning for why engineers would design low-emission engines."
+      }
+    },
+    {
+      "questionText": "Describe what has to happen inside the engine for the wheels to start turning. What forms of energy are involved?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the sequence: fuel is burned (chemical energy), creating heat/combustion that moves pistons or parts, which transfers energy through the drivetrain to turn the wheels; identifies the conversion from chemical to thermal to mechanical energy.",
+        "meets": "Student explains that fuel must be burned to create power that moves parts inside the engine, which then causes the wheels to turn; identifies at least two forms of energy (chemical, heat, and/or mechanical).",
+        "approaching": "Student describes some steps in the process (burning fuel, movement, wheels turning) but lacks clear connection between steps or only partially identifies the energy forms involved.",
+        "beginning": "Student provides a minimal or unclear description of engine function with little mention of how fuel or energy causes wheel movement."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:40:34.179Z",
+  "cost": 0.005546
+}

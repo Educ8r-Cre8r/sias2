@@ -1,0 +1,53 @@
+{
+  "title": "Snow Geese",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the geese are doing in this farm field?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple activities (resting AND eating) and explains why geese need to do these things during their journey.",
+        "meets": "Student correctly identifies that geese are resting and/or eating in the field.",
+        "approaching": "Student identifies one activity (resting or eating) but lacks clear explanation or shows some confusion about the purpose.",
+        "beginning": "Student provides a vague response (e.g., 'they're there') or guesses without connecting to bird behavior."
+      }
+    },
+    {
+      "questionText": "Why do you think so many geese fly together instead of flying alone?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons geese stay together (safety, help each other, follow the group, find food) and explains how at least one reason helps the geese survive.",
+        "meets": "Student provides at least one logical reason geese fly together, such as safety, not getting lost, or staying with friends.",
+        "approaching": "Student attempts to explain why geese fly together but reasoning is incomplete or partially unclear (e.g., 'so they don't get lonely' without connecting to survival).",
+        "beginning": "Student provides minimal response with little reasoning (e.g., 'because there's a lot of them' or 'I don't know')."
+      }
+    },
+    {
+      "questionText": "If it starts getting very cold where the geese live, what do you think happens next?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that geese fly to a warmer place and describes why they need to leave (can't survive the cold, need to find food and water).",
+        "meets": "Student correctly identifies that geese fly away or move to a warmer place when it gets very cold.",
+        "approaching": "Student mentions geese moving or leaving but is unclear about the reason or destination (e.g., 'they go somewhere else').",
+        "beginning": "Student's response shows little understanding of geese behavior in cold (e.g., 'they freeze' or no clear answer)."
+      }
+    },
+    {
+      "questionText": "How is a geese migration journey similar to or different from when your family takes a long trip?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (stopping to rest and eat, traveling together as a group, having a destination) and/or differences (geese follow instinct/nature, families use cars/planes; geese travel every year).",
+        "meets": "Student identifies at least one clear similarity (traveling together, stopping to rest/eat) or one clear difference with brief explanation.",
+        "approaching": "Student makes a comparison but it is vague or only partially accurate (e.g., 'they both go places' without specific details).",
+        "beginning": "Student struggles to make a comparison or provides responses that show minimal understanding of either geese travel or family trips."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:57:43.282Z",
+  "cost": 0.004668
+}

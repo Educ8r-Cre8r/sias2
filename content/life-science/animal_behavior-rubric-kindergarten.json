@@ -1,0 +1,53 @@
+{
+  "title": "Animal Behavior",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What color is this lizard, and why do you think it is that color?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies the lizard as green and explains that the color helps it hide or blend in with leaves and plants using simple but clear reasoning.",
+        "meets": "Student correctly identifies the lizard as green and provides a basic reason, such as 'it helps it hide' or 'it matches the leaves.'",
+        "approaching": "Student identifies the lizard's color as green but offers an incomplete or unclear reason for why it is that color.",
+        "beginning": "Student identifies the color or attempts to explain why, but provides minimal or inaccurate information about the lizard's coloring."
+      }
+    },
+    {
+      "questionText": "If this lizard lived on brown bark instead of green leaves, what might happen to it? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the green lizard would be easier to see on brown bark and explains that predators could spot it more easily because it would not match or blend in with its surroundings.",
+        "meets": "Student predicts that the lizard would be easier to spot on brown bark and provides a simple explanation about it not matching the brown color.",
+        "approaching": "Student makes a prediction about what might happen but provides incomplete or unclear reasoning about how the color mismatch would affect the lizard.",
+        "beginning": "Student attempts a prediction or explanation but shows minimal understanding of how camouflage or color matching works."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal that uses color to hide from other animals?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names a specific animal and explains clearly how that animal's color helps it hide, showing understanding that multiple animals use camouflage.",
+        "meets": "Student names a specific animal and provides a basic explanation of how its color helps it hide or blend in.",
+        "approaching": "Student names an animal but provides vague or incomplete reasoning about how its color helps it hide.",
+        "beginning": "Student attempts to name an animal or mention color-hiding but provides minimal detail or accuracy."
+      }
+    },
+    {
+      "questionText": "What body parts can you see the lizard using? What do you think each part helps it do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (legs, tail, eye, snout) and explains what each part helps the lizard do, such as legs for walking, tail for balance, and eyes for seeing.",
+        "meets": "Student identifies at least two body parts and explains simply what each one helps the lizard do.",
+        "approaching": "Student identifies some body parts but provides incomplete or unclear explanations of their purposes.",
+        "beginning": "Student identifies one or fewer body parts or provides minimal, vague information about what they help the lizard do."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:07:42.820Z",
+  "cost": 0.004509
+}

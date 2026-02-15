@@ -1,0 +1,53 @@
+{
+  "title": "Solar Panels",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the sunlight when it hits the solar panels? Where does it go?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that sunlight hits the panels and is changed into electricity or energy, and describes where that energy goes (into the building or home to power things).",
+        "meets": "Student states that the panels catch or use the sunlight and it becomes energy or electricity.",
+        "approaching": "Student recognizes that something happens to the sunlight when it hits the panels but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as 'it goes away' or 'it does something' with little understanding of the process."
+      }
+    },
+    {
+      "questionText": "Why do you think the panels are dark blue instead of white or red? What color might catch the most sunlight?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student recognizes that dark colors absorb or catch more sunlight than light colors, and explains that dark blue or black panels are better at catching sunlight to make electricity.",
+        "meets": "Student correctly identifies that dark colors catch more sunlight than light colors like white or red.",
+        "approaching": "Student makes a reasonable guess about dark versus light colors but reasoning is incomplete or partially accurate.",
+        "beginning": "Student gives a response unrelated to light absorption, such as 'because it looks nice' or provides no clear reasoning."
+      }
+    },
+    {
+      "questionText": "Compare a sunny day and a rainy day. When would the solar panels make more electricity? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly states solar panels work better on sunny days and explains that more sunlight reaches the panels when it is sunny, so more electricity is made.",
+        "meets": "Student correctly identifies that sunny days produce more electricity than rainy days and provides a simple reason about sunlight.",
+        "approaching": "Student correctly chooses sunny days but explanation for why is unclear, incomplete, or shows partial understanding of sunlight's role.",
+        "beginning": "Student makes a guess without clear reasoning, or incorrectly identifies when panels work better."
+      }
+    },
+    {
+      "questionText": "What things in your home use electricity? Could solar panels help power them?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student lists multiple household items that use electricity (lights, refrigerator, TV, etc.) and explains that solar panels could provide the electricity to power these things.",
+        "meets": "Student names at least two household items that use electricity and acknowledges that solar panels could help power them.",
+        "approaching": "Student names at least one item that uses electricity but is uncertain or vague about whether solar panels could power it.",
+        "beginning": "Student provides a vague response with no clear household examples, or shows minimal understanding of electricity use at home."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:34:29.885Z",
+  "cost": 0.004444
+}

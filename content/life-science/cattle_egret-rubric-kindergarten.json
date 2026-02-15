@@ -1,0 +1,53 @@
+{
+  "title": "Cattle Egret",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the bird is eating from near the cow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bird eats bugs or insects and explains that these pests bother the cow, showing understanding of why the bird eats near the cow.",
+        "meets": "Student correctly identifies that the bird eats bugs, insects, or small creatures found on or near the cow.",
+        "approaching": "Student makes an attempt to identify food the bird might eat but is vague or partially incorrect (e.g., 'the bird eats something' or 'it eats from the grass').",
+        "beginning": "Student provides a minimal response with little accuracy, such as naming food the bird would not actually eat or stating 'I don't know.'"
+      }
+    },
+    {
+      "questionText": "How does the bird help the cow, and how does the cow help the bird?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bird removes bugs that bother or hurt the cow while the cow provides food for the bird, and uses the word 'helper' or describes this as a fair trade between two animals.",
+        "meets": "Student identifies at least one way each animal helps the other, such as the bird eating bugs near the cow and the cow providing the bird with food or a place to perch.",
+        "approaching": "Student identifies one way the animals help each other but struggles to explain both directions, or gives incomplete explanations (e.g., 'the bird helps' but cannot say how the cow helps back).",
+        "beginning": "Student provides a vague or mostly inaccurate response, such as 'they are friends' without explaining how they actually help each other."
+      }
+    },
+    {
+      "questionText": "What would happen if the egret was not there to help the cow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bugs would bother the cow more, making it uncomfortable or sick, and may add that the cow's health would suffer without the bird's help.",
+        "meets": "Student predicts a reasonable consequence, such as 'the cow would have more bugs on it' or 'bugs would hurt the cow' or 'the cow would be bothered more.'",
+        "approaching": "Student attempts to predict a consequence but reasoning is unclear or only partially connected to the bird's role (e.g., 'the cow would be sad' without explaining why).",
+        "beginning": "Student provides a response with little logical connection to the bird's helper role, such as naming an unrelated consequence or saying 'nothing would happen.'"
+      }
+    },
+    {
+      "questionText": "Can you think of another animal in your neighborhood that helps another animal?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names a specific animal pair with a helping relationship and clearly explains how one helps the other (e.g., 'A bird helps a tree by spreading seeds' or 'A bee helps a flower by bringing pollen').",
+        "meets": "Student identifies a reasonable animal pair and explains a basic way one animal helps another, though the explanation may lack some detail.",
+        "approaching": "Student names two animals or suggests a relationship but the explanation is vague or partially unclear about how they actually help each other.",
+        "beginning": "Student names an animal or animal pair with little or no explanation of a helping relationship, or describes animals that do not actually help each other."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:31:02.734Z",
+  "cost": 0.005074
+}

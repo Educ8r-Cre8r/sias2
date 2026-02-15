@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this spider has eight legs instead of six like insects do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eight legs may help spiders move faster, balance better, or climb more effectively than six-legged insects, and connects this to spiders being arachnids (a different group than insects).",
+        "meets": "Student identifies that eight legs is different from insects and provides a reasonable explanation such as helping with movement, climbing, or stability.",
+        "approaching": "Student notes that spiders have eight legs and insects have six, but offers only a vague reason such as 'it helps them' without specific details about how.",
+        "beginning": "Student states that spiders have eight legs but provides no clear explanation or suggests inaccurate reasons for the difference."
+      }
+    },
+    {
+      "questionText": "How might this spider's dark color help it survive in this sandy, rocky habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dark coloring provides camouflage by blending with dark soil and rocks, and connects this to survival advantages such as hiding from predators or sneaking up on prey.",
+        "meets": "Student identifies that the dark color helps the spider hide or blend in with its sandy, rocky surroundings for protection or hunting.",
+        "approaching": "Student mentions that dark color helps the spider hide but provides limited explanation of how it blends with the habitat or why this matters.",
+        "beginning": "Student gives a minimal response such as 'it helps it hide' with no explanation of how the color matches the environment."
+      }
+    },
+    {
+      "questionText": "If a spider lost one of its legs, how might that change its ability to hunt or escape danger?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that losing a leg would make the spider slower, less balanced, or less able to move quickly to catch prey or flee from predators, and may note that spiders can regrow legs.",
+        "meets": "Student identifies that a missing leg would make it harder for the spider to move, hunt, or escape from danger.",
+        "approaching": "Student recognizes that a lost leg would be a problem but provides unclear or incomplete reasoning about how it affects movement or survival.",
+        "beginning": "Student provides a minimal response such as 'it would be bad' without explaining how movement or survival would be affected."
+      }
+    },
+    {
+      "questionText": "What do you think the spider's legs feel when it walks across the ground, and how might those sensations help it find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the legs sense vibrations, texture, or movement from the ground and prey, and describes how these sensations help the spider detect and locate food sources.",
+        "meets": "Student identifies that spider legs can feel things like vibrations or movement and recognizes that this helps the spider sense or find food.",
+        "approaching": "Student mentions that legs feel sensations or help find food but provides limited connection between the sensing and the hunting process.",
+        "beginning": "Student provides a vague response such as 'the legs feel things' without explaining how sensing helps the spider find food."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:43:56.609Z",
+  "cost": 0.004816
+}

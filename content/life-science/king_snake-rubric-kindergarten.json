@@ -1,0 +1,53 @@
+{
+  "title": "King Snake",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What colors do you see on this snake?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more colors (red, black, yellow) and describes how they are arranged in stripes or patterns on the snake.",
+        "meets": "Student identifies two or three colors on the snake (red, black, yellow) accurately.",
+        "approaching": "Student identifies one or two colors on the snake, though the answer may be incomplete or partially inaccurate.",
+        "beginning": "Student names a color or attempts to describe the snake but provides vague, incorrect, or minimal responses (e.g., 'pretty' without naming colors)."
+      }
+    },
+    {
+      "questionText": "Why do you think this snake has such bright, colorful stripes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful explanation that the bright colors might warn other animals or help the snake hide, and may mention that bright colors can mean 'stay away' or have another safety purpose.",
+        "meets": "Student offers a reasonable idea about why the snake has bright colors, such as to warn animals, scare them away, or help it hide in its environment.",
+        "approaching": "Student makes an attempt to explain the colors but the reasoning is unclear, partially formed, or shows limited understanding of how colors might help an animal.",
+        "beginning": "Student provides a vague response ('because it looks pretty') or shows minimal understanding of how the snake's colors might serve a purpose."
+      }
+    },
+    {
+      "questionText": "How might the snake's bright colors help it stay safe in the wild?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors warn predators the snake might be dangerous or poisonous, or help the snake hide in colorful plants and flowers, demonstrating understanding of warning coloration or camouflage.",
+        "meets": "Student describes one way the colors help, such as warning other animals to stay away or helping the snake blend into its surroundings.",
+        "approaching": "Student identifies that colors help the snake stay safe but cannot clearly explain the mechanism; reasoning is incomplete or somewhat confused.",
+        "beginning": "Student acknowledges the colors are related to safety but provides no clear explanation or only a very vague response."
+      }
+    },
+    {
+      "questionText": "If you were a big animal that eats snakes, what would the bright colors tell you?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student demonstrates understanding that bright colors send a warning message like 'don't eat me' or 'I might be dangerous,' and may explain that predators learn to recognize these colors as a warning signal.",
+        "meets": "Student explains that the bright colors would tell a predator to stay away or warn that the snake might be dangerous or not good to eat.",
+        "approaching": "Student recognizes the colors send some kind of message but cannot clearly articulate what that message means to a predator.",
+        "beginning": "Student provides a minimal or unclear response, such as 'the colors are pretty' or 'it looks big,' showing little understanding of warning signals."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:48:17.006Z",
+  "cost": 0.004707
+}

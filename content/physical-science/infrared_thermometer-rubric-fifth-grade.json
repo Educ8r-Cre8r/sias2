@@ -1,0 +1,53 @@
+{
+  "title": "Infrared Thermometer",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why might an infrared thermometer give you a different reading than a regular thermometer when measuring the same object?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that infrared thermometers measure heat energy radiating from a surface while regular thermometers measure temperature through direct contact, and notes that surface temperature may differ from internal temperature or that different materials radiate heat differently.",
+        "meets": "Student explains that infrared thermometers measure heat coming off an object without touching it, while regular thermometers need to touch the object to measure its temperature.",
+        "approaching": "Student identifies that the two thermometers work differently or that one touches the object and one doesn't, but explanation of why readings differ is unclear or incomplete.",
+        "beginning": "Student provides a vague response such as 'they're different kinds of thermometers' or 'one is infrared' with little explanation of how they measure temperature differently."
+      }
+    },
+    {
+      "questionText": "What are some advantages of measuring temperature without touching an object?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple advantages such as safety (measuring hot objects without burns), speed, not disturbing the object being measured, and ability to measure moving objects or hard-to-reach surfaces.",
+        "meets": "Student identifies at least two clear advantages such as safety from heat, speed of measurement, or not having to touch hot or delicate objects.",
+        "approaching": "Student identifies one advantage clearly or mentions multiple advantages with vague explanations such as 'it's safer' without specifying why or how.",
+        "beginning": "Student provides a minimal response such as 'it's easier' or 'it's better' without explaining specific advantages."
+      }
+    },
+    {
+      "questionText": "How do you think firefighters or doctors might use infrared thermometers in their work?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides specific, realistic scenarios for both professions, such as firefighters checking hot surfaces or finding hotspots in fires, and doctors checking for fever or detecting inflammation without contact.",
+        "meets": "Student describes at least one plausible use for firefighters or doctors, such as checking if something is dangerously hot or measuring a patient's temperature quickly.",
+        "approaching": "Student attempts to connect infrared thermometers to firefighter or doctor work but explanation is vague, partially inaccurate, or shows incomplete understanding of how the tool would be useful.",
+        "beginning": "Student provides a response that shows little connection to actual firefighter or doctor work, or is mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "If all objects give off infrared energy, why can't we see it with our eyes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that infrared energy is invisible because our eyes can only see visible light, and provides additional detail such as infrared wavelengths being different from visible light wavelengths or that special devices are needed to detect infrared.",
+        "meets": "Student explains that infrared energy is a type of energy our eyes cannot detect or see, and that this is different from visible light that we can see.",
+        "approaching": "Student recognizes that infrared is invisible but explanation is incomplete, such as saying 'our eyes don't work that way' without explaining why or what visible light is.",
+        "beginning": "Student provides a vague or inaccurate response such as 'infrared is invisible' without attempting to explain why our eyes cannot see it."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:34:35.408Z",
+  "cost": 0.005162
+}

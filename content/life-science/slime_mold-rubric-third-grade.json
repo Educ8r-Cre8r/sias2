@@ -1,0 +1,53 @@
+{
+  "title": "Slime Mold",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you find in this photo that shows this organism is alive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple signs of life (growing, spreading, moving across the surface, or consuming dead material) and explains why each sign proves the organism is alive.",
+        "meets": "Student identifies at least two signs of life, such as growing or spreading across the dead leaves and wood, showing understanding that movement or change indicates a living thing.",
+        "approaching": "Student identifies one sign of life, such as growing or spreading, but explanation is vague or incomplete.",
+        "beginning": "Student makes a general statement that the organism is alive but provides little or no specific evidence from the photo."
+      }
+    },
+    {
+      "questionText": "How might this yellow organism help other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that slime mold breaks down dead leaves and wood into nutrients that help soil and plants grow, showing understanding of decomposition and nutrient cycling in an ecosystem.",
+        "meets": "Student explains that the organism breaks down dead material or returns nutrients to the forest, recognizing its role as a decomposer.",
+        "approaching": "Student suggests the organism helps by breaking down dead things or mentions nutrients, but reasoning is incomplete or unclear.",
+        "beginning": "Student provides a minimal or vague response, such as 'it helps' without explaining how or why."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to this slime mold if all the dead leaves were removed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the slime mold would die or disappear because it needs dead leaves for food, and explains that it depends on dead material to survive.",
+        "meets": "Student predicts the slime mold would die, disappear, or struggle, recognizing that dead leaves are important for its survival.",
+        "approaching": "Student predicts a change (like the slime mold dying) but provides unclear or incomplete reasoning about why.",
+        "beginning": "Student makes a prediction with little or no explanation of the connection between dead leaves and the organism's survival."
+      }
+    },
+    {
+      "questionText": "Why do you think this organism is bright yellow instead of green like most plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that slime mold is not a plant (it's a decomposer), so it doesn't need chlorophyll or green color, and may note that yellow helps it stand out or serves another purpose.",
+        "meets": "Student recognizes that slime mold is not a plant or that it doesn't make its own food like plants do, explaining why it lacks green color.",
+        "approaching": "Student suggests the color is different because it's not a plant, but explanation lacks clarity or completeness.",
+        "beginning": "Student offers a guess about the color with little understanding that this organism is fundamentally different from plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:27:15.968Z",
+  "cost": 0.004544
+}

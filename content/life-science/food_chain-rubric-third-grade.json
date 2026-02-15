@@ -1,0 +1,53 @@
+{
+  "title": "Food Chain",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How does the lizard's color help it survive on the ground?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the lizard's brown/gray color matches the soil and leaves, making it hard for predators to see it, and uses the term 'camouflage' or 'blending in' to describe this survival strategy.",
+        "meets": "Student identifies that the lizard's color matches the ground and soil, helping it hide from animals that might eat it.",
+        "approaching": "Student recognizes that the lizard's color is brown or similar to the ground, but explanation of how this helps survival is incomplete or unclear.",
+        "beginning": "Student makes a simple observation about the lizard's color but does not connect it to survival or hiding."
+      }
+    },
+    {
+      "questionText": "Why do you think this lizard lives in soil and dirt instead of in trees or water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons such as: the ground habitat provides food sources (insects, worms), shelter, camouflage that works in soil, and temperature regulation, showing understanding of habitat adaptations.",
+        "meets": "Student gives at least one reasonable reason, such as finding food in soil, having shelter in dirt, or being camouflaged on the ground.",
+        "approaching": "Student attempts to explain why the lizard lives on the ground but reasoning is partial or somewhat unclear (e.g., 'because it likes dirt' without explanation).",
+        "beginning": "Student provides a minimal response or states only obvious observations like 'it's a ground lizard' without explaining why that habitat suits it."
+      }
+    },
+    {
+      "questionText": "If this lizard were bright blue instead of brown, what might happen to it? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a bright blue lizard would be easily spotted by predators and caught more often, explaining that the color would stand out against brown soil and leaves, making camouflage ineffective.",
+        "meets": "Student predicts that the bright blue color would make the lizard easier to see and more likely to be caught by predators or animals that hunt it.",
+        "approaching": "Student recognizes that bright blue would be different or more visible, but explanation of consequences is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as 'it would look different' without explaining what might happen or why."
+      }
+    },
+    {
+      "questionText": "What other animals might live in this same habitat, and what would they eat or need to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple realistic soil/ground habitat animals (e.g., beetles, earthworms, ants, shrews) and explains food chains or needs (e.g., worms eat decomposing material, beetles are eaten by the lizard).",
+        "meets": "Student names at least two appropriate ground habitat animals and identifies what at least one of them eats or needs to survive in that environment.",
+        "approaching": "Student names one or two animals that could live in soil habitat but provides incomplete information about their food or needs.",
+        "beginning": "Student names an animal but it may not be appropriate for this habitat, or provides minimal information about what it would eat or need."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:59:43.007Z",
+  "cost": 0.004974
+}

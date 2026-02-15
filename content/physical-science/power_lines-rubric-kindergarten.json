@@ -1,0 +1,53 @@
+{
+  "title": "Power Lines",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why do you think the wires are on tall poles instead of on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that tall poles keep wires safe from people and objects, and identifies that height prevents interference with daily activities like walking or playing.",
+        "meets": "Student states that tall poles keep wires away from people or that they are up high so people cannot touch them.",
+        "approaching": "Student recognizes the wires are high up but provides unclear or incomplete reasoning about why this matters.",
+        "beginning": "Student makes a simple observation (\"the wires are on poles\") or gives an answer unrelated to safety or accessibility."
+      }
+    },
+    {
+      "questionText": "Where do you think the electricity comes from before it reaches this pole?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the path of electricity from a distant source (power plant, generator, or other poles), demonstrating understanding that electricity travels through a network of wires.",
+        "meets": "Student identifies a reasonable source of electricity such as a power plant, another pole, or a far-away place where electricity is made.",
+        "approaching": "Student mentions electricity comes from somewhere distant but provides vague or partially accurate details about the source.",
+        "beginning": "Student gives an unclear answer, names an incorrect source, or shows minimal understanding of where electricity originates."
+      }
+    },
+    {
+      "questionText": "What would happen to our homes and school if these wires didn't work?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without working wires, we would lose electricity and describes multiple specific impacts on homes and school (lights off, no heat, appliances don't work, refrigerators don't cool food).",
+        "meets": "Student states that homes and school would lose electricity or lights, showing understanding of how wires deliver power we need.",
+        "approaching": "Student recognizes something bad would happen but provides unclear or only partially correct details about the loss of electricity.",
+        "beginning": "Student gives a vague answer, an incorrect response, or shows minimal understanding of the wires' importance."
+      }
+    },
+    {
+      "questionText": "Why is it dangerous to touch the wires on this pole?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the wires carry electricity that can hurt or injure a person, and may add that electricity is invisible but very powerful and dangerous.",
+        "meets": "Student states that the wires have electricity in them that can hurt you if you touch them.",
+        "approaching": "Student recognizes the wires are dangerous but provides unclear or incomplete explanation about why electricity is harmful.",
+        "beginning": "Student says the wires are dangerous or \"bad to touch\" without explaining why, or gives an inaccurate reason."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:35:08.497Z",
+  "cost": 0.004368
+}

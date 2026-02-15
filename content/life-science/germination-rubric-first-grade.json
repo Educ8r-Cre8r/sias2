@@ -1,0 +1,53 @@
+{
+  "title": "Germination",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening to this seed? Why do you think it is growing upward?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the seed is sprouting or germinating and explains that the plant grows upward to reach sunlight or because plants naturally grow toward the sky/light.",
+        "meets": "Student recognizes that the seed is growing into a plant and provides a simple reason, such as \"it's growing\" or \"plants grow up.\"",
+        "approaching": "Student identifies that something is growing but gives vague or partially incorrect reasons, such as \"the seed is getting bigger\" without explaining the upward direction.",
+        "beginning": "Student provides a minimal response or inaccurate description, such as \"the seed is breaking\" without demonstrating understanding of growth or direction."
+      }
+    },
+    {
+      "questionText": "What does a seed need to grow into a plant like this one? Where could we find these things?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three things seeds need (soil, water, sunlight, air) and accurately describes where to find them (water from rain/sink, sunlight from sun, soil in garden/ground).",
+        "meets": "Student identifies at least two things seeds need (such as water and sunlight) and names places where they can be found (water from a watering can, sunlight outside).",
+        "approaching": "Student names one or two things seeds need but provides limited or vague locations, such as \"water\" and \"outside\" without specific details.",
+        "beginning": "Student provides a vague or incomplete answer, such as naming only one need or describing only one location with minimal explanation."
+      }
+    },
+    {
+      "questionText": "If we planted a seed in a dark closet with no water, what do you predict would happen? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the seed would not grow well or would die and explains that seeds need both water and light to grow, showing understanding of multiple conditions.",
+        "meets": "Student predicts the seed would not grow and identifies either water or light as a reason why, showing understanding of at least one requirement.",
+        "approaching": "Student makes a prediction but gives an incomplete or unclear reason, such as \"it won't grow because it's dark\" without mentioning water.",
+        "beginning": "Student makes a prediction with little or no explanation, or provides a response that shows minimal understanding of seed growth requirements."
+      }
+    },
+    {
+      "questionText": "How is this baby plant different from the seed it came from? What parts do you see?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (seed is small/hard, plant has a green stem/leaves) and names specific plant parts visible (stem, leaves, roots) using accurate vocabulary.",
+        "meets": "Student describes at least two differences between the seed and plant and identifies at least one plant part, such as \"it has a green stem now\" or \"I see leaves.\"",
+        "approaching": "Student identifies one difference or one plant part but lacks detail or accuracy, such as \"it's bigger\" or pointing to parts without naming them.",
+        "beginning": "Student provides a vague or minimal response, such as \"it's different\" without describing how or what parts are visible."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:47:32.605Z",
+  "cost": 0.004977
+}

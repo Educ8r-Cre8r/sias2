@@ -1,0 +1,53 @@
+{
+  "title": "Slime Mold",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the color and shape of this living thing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific color details (bright yellow, golden) and describes the shape using multiple descriptive words (bumpy, spongy, foam-like, lumpy) with confidence and enthusiasm.",
+        "meets": "Student accurately describes the color as yellow and identifies at least two shape characteristics (spongy, bumpy, soft, foamy) using simple descriptive words.",
+        "approaching": "Student names the color yellow and provides one general shape description (bumpy OR spongy OR soft), but may lack detail or precision.",
+        "beginning": "Student makes a minimal observation about color or shape (says yellow or bumpy) with little elaboration or attempts to describe it in vague terms."
+      }
+    },
+    {
+      "questionText": "Why do you think the slime mold is growing on dead leaves instead of living ones?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that slime mold breaks down or eats dead things, and makes a logical connection to why living leaves would not be a good food source (because they are healthy/not broken down).",
+        "meets": "Student recognizes that dead leaves are what the slime mold eats or uses for food, showing basic understanding of decomposition at a kindergarten level.",
+        "approaching": "Student attempts to explain with partial reasoning, such as 'it likes dead leaves' or 'the dead leaves are softer,' but reasoning may be incomplete or lack clear cause-and-effect.",
+        "beginning": "Student provides a response that shows minimal understanding, such as a guess or vague answer (it just likes it there) with no clear reasoning about food or decomposition."
+      }
+    },
+    {
+      "questionText": "How is this slime mold similar to and different from plants and animals you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least one similarity and one difference with specific details, such as 'like plants it grows, like animals it can move slowly' or 'different because it's yellow and spongy, not green.'",
+        "meets": "Student identifies at least one similarity OR one difference between slime mold and familiar plants or animals (e.g., 'it moves like animals' or 'it's not green like plants').",
+        "approaching": "Student attempts a comparison but is unclear or partially accurate, such as stating one feature without explaining the comparison, or mixing ideas together.",
+        "beginning": "Student provides minimal or unclear response, such as 'it's different' without explanation, or states unrelated observations."
+      }
+    },
+    {
+      "questionText": "What would happen to the forest if there were no slime molds or other decomposers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead leaves and wood would pile up or not break down, and connects this to a forest-level consequence such as 'no new soil for plants' or 'the forest would get messy/crowded with dead stuff.'",
+        "meets": "Student recognizes that without decomposers, dead leaves and wood would pile up or not be broken down, showing basic understanding of the decomposer's role.",
+        "approaching": "Student shows partial understanding by stating something would go wrong or change in the forest, but explanation lacks clear reasoning about decomposition or dead materials.",
+        "beginning": "Student provides a minimal response such as 'the forest would be bad' or 'things wouldn't work,' with little to no explanation or understanding of the decomposer's role."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:26:54.182Z",
+  "cost": 0.005263
+}

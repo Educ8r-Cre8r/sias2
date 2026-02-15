@@ -1,0 +1,53 @@
+{
+  "title": "White Ibises",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the ibis has such a long, curved beak instead of a short straight beak?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the curved beak helps the ibis probe deep into mud to find hidden food and describes how the beak's shape is specially adapted for its hunting method in shallow water.",
+        "meets": "Student correctly identifies that the long, curved beak helps the ibis find or catch food in mud and water.",
+        "approaching": "Student recognizes that the beak helps with feeding but provides limited detail or reasoning about how it works in the ibis's habitat.",
+        "beginning": "Student makes a general statement about the beak (such as \"it's for eating\") with little connection to the ibis's environment or hunting behavior."
+      }
+    },
+    {
+      "questionText": "If an ibis lost its long legs in an accident and could no longer wade in water, how might its life change? What else would it need to do differently to find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple ways the ibis's life would change (e.g., cannot reach deep water for food, would need to hunt on dry land or eat different prey) and explains how both the legs and beak work together for the ibis's survival.",
+        "meets": "Student explains that without long legs, the ibis could not wade in water and would need to find food in a different way or location on land.",
+        "approaching": "Student identifies that long legs are needed for wading but provides incomplete reasoning about how the ibis would adapt or find food differently.",
+        "beginning": "Student states that the ibis would have trouble finding food without explaining why legs are important for wading or what the ibis could do instead."
+      }
+    },
+    {
+      "questionText": "Look at the photo. What do you observe about how these ibises are hunting together? Why might birds hunt in groups instead of alone?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific observations from the photo (e.g., birds spread out across the area, searching in the same water) and explains multiple benefits of group hunting such as finding more food, watching for danger, or sharing successful feeding locations.",
+        "meets": "Student observes that the ibises are hunting in the same area and provides at least one reasonable benefit of hunting together, such as finding more food or safety.",
+        "approaching": "Student notices the birds are together but provides limited observation details or vague reasoning about why group hunting might help.",
+        "beginning": "Student states that the birds are hunting together but offers no clear explanation of the benefits or makes inaccurate statements about group behavior."
+      }
+    },
+    {
+      "questionText": "If wetlands disappeared and there was no more shallow muddy water, what would happen to ibises? Where else could they live?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that ibises would lose their food source and habitat, and suggests alternative environments (such as marshes, estuaries, or other shallow water areas) while reasoning about what features those places would need to support ibises.",
+        "meets": "Student describes that ibises would struggle to survive without wetlands and suggests at least one alternative habitat with shallow water where they could live.",
+        "approaching": "Student recognizes that wetlands are important for ibises but provides limited detail about consequences or suggests only vague alternative locations.",
+        "beginning": "Student states that ibises need wetlands but provides little explanation of why or offers unrealistic alternative habitats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:34:07.406Z",
+  "cost": 0.005238
+}

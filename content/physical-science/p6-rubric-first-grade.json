@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice is different about these nails compared to new nails?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (color change to brown/orange, texture appears rough or bumpy, nails look old or worn) and uses descriptive words to explain what they see.",
+        "meets": "Student correctly identifies that the nails are brown or orange and rusty, showing they notice the color difference from new shiny nails.",
+        "approaching": "Student notices the nails look different but provides vague descriptions (e.g., 'they look bad') without specific details about color or rust.",
+        "beginning": "Student gives minimal response with little to no accurate observation (e.g., 'they are different' with no details)."
+      }
+    },
+    {
+      "questionText": "Why do you think some nails are more rusty than others?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests a logical reason based on observations, such as exposure to moisture, water, or rain, or that some nails have been outside longer and connect this to how rust forms.",
+        "meets": "Student offers a reasonable explanation for different amounts of rust, such as some nails got more water or have been there longer.",
+        "approaching": "Student attempts an explanation but it lacks clear reasoning (e.g., 'some got more rusty' without explaining why).",
+        "beginning": "Student provides no explanation or an inaccurate one unrelated to rust formation (e.g., 'because they are different nails')."
+      }
+    },
+    {
+      "questionText": "What might happen if we put a new nail outside in the rain for a long time?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the nail would become rusty and brown/orange like the old nails, explaining that water and rain cause metal to rust over time.",
+        "meets": "Student correctly predicts the nail would get rusty or turn brown/orange from being in the rain.",
+        "approaching": "Student makes a prediction related to rust or change but with incomplete reasoning (e.g., 'it would get rusty' without connecting it to the rain or water).",
+        "beginning": "Student makes an inaccurate or irrelevant prediction (e.g., 'it would disappear' or 'nothing would happen')."
+      }
+    },
+    {
+      "questionText": "How could we protect metal from getting rusty?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple protection methods (keeping metal dry, painting it, coating it, keeping it inside) and explains why at least one method would work by preventing water contact.",
+        "meets": "Student suggests a reasonable way to protect metal from rust, such as keeping it dry, painting it, or coating it with something.",
+        "approaching": "Student offers an idea to protect metal but with unclear reasoning or incomplete explanation (e.g., 'put it inside' without saying why that helps).",
+        "beginning": "Student provides no idea or an irrelevant suggestion that doesn't address rust prevention (e.g., 'throw it away')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:24:28.446Z",
+  "cost": 0.004736
+}

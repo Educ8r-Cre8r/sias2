@@ -1,0 +1,53 @@
+{
+  "title": "Crab",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the crab has eyestalks that stick UP out of its body instead of eyes in the front of its head like we do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eyestalks help the crab see above the sand and spot danger or food while staying hidden in its burrow, and connects this to how the crab's body is adapted to its beach environment.",
+        "meets": "Student identifies that eyestalks let the crab see above the sand or help it watch for danger, demonstrating understanding of how this body part is useful for survival.",
+        "approaching": "Student states that eyestalks help the crab see or notice that they stick up differently from human eyes, but explanation is incomplete or lacks connection to survival.",
+        "beginning": "Student provides a vague response such as 'they just do' or 'to see better' without explaining why this placement matters for a crab on the beach."
+      }
+    },
+    {
+      "questionText": "If a crab lost one of its legs, how would that change what it can do to survive on the beach?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple impacts such as difficulty walking on sand, slower movement to escape predators or find food, or challenges digging/maintaining its burrow, showing understanding of how legs support survival.",
+        "meets": "Student identifies that losing a leg would make it harder for the crab to move, walk on sand, or escape danger, demonstrating understanding of the leg's importance.",
+        "approaching": "Student mentions that the crab would have trouble moving or walking, but reasoning is incomplete or doesn't clearly connect to beach survival.",
+        "beginning": "Student gives a minimal response like 'it would be sad' or 'it couldn't walk' without explaining how this affects survival on the beach."
+      }
+    },
+    {
+      "questionText": "What would happen to a crab if it lived in a forest instead of on a sandy beach? Would its body parts still help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that specific body parts like flat legs, eyestalks, or burrowing ability would NOT work well in a forest, and describes what adaptations a forest animal would need instead, showing understanding of how organisms match their environments.",
+        "meets": "Student recognizes that some crab body parts would not be as helpful in a forest (such as legs suited for sand or need for burrows) and explains that the crab would struggle to survive.",
+        "approaching": "Student states the crab would have trouble living in a forest or that its body is made for beaches, but doesn't clearly explain which body parts wouldn't work or why.",
+        "beginning": "Student provides a vague answer such as 'it wouldn't survive' or 'forests are different' without connecting body parts to the new environment."
+      }
+    },
+    {
+      "questionText": "How is a crab's burrow like a house? What does it protect the crab from?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a burrow is a shelter like a house because it provides protection from multiple threats such as predators, harsh sun, extreme temperatures, or waves, and describes how this helps the crab survive.",
+        "meets": "Student identifies that a burrow is a shelter or home where the crab is safe, and names at least one thing it protects the crab from such as predators or weather.",
+        "approaching": "Student recognizes that a burrow is like a house because it's a shelter or safe place, but provides limited detail about what it protects the crab from.",
+        "beginning": "Student makes a basic connection like 'it's where the crab lives' without explaining protection or comparing it to a house's purpose."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:41:13.804Z",
+  "cost": 0.005528
+}

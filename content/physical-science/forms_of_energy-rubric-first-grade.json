@@ -1,0 +1,53 @@
+{
+  "title": "Forms Of Energy",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the train is bigger and heavier than the car?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reasons (e.g., train carries more people/cargo, needs stronger engine, has more wheels for support) and uses details from the photo to support thinking.",
+        "meets": "Student provides a reasonable explanation such as the train needs to be bigger to carry more things or more people, with basic connection to what they observe.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially accurate (e.g., \"it's just bigger\" or gives one reason without detail).",
+        "beginning": "Student gives a vague response with little connection to the image or no clear reasoning (e.g., \"because it is\" or \"I don't know\")."
+      }
+    },
+    {
+      "questionText": "What do you think is happening inside the engine to make the wheels turn?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a process (e.g., fuel burning creates power, energy pushes parts that spin the wheels) and uses age-appropriate scientific language like \"fuel,\" \"energy,\" or \"power.\"",
+        "meets": "Student explains that something inside the engine works to make the wheels move, showing basic understanding that energy is involved in making movement happen.",
+        "approaching": "Student shows partial understanding with vague descriptions (e.g., \"something makes it work\" or \"it gets the wheels moving\") but lacks detail about the energy or fuel involved.",
+        "beginning": "Student provides minimal or inaccurate response with little evidence of understanding how engines create movement (e.g., \"the engine is there\" or \"wheels just turn\")."
+      }
+    },
+    {
+      "questionText": "If we took away the engine from the car, would it still move? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly states the car would not move and explains that the engine provides the energy or power needed to make wheels turn, possibly mentioning what would happen if pushed.",
+        "meets": "Student correctly answers that the car would not move and provides a basic explanation that the engine is needed to make it go.",
+        "approaching": "Student answers correctly but reasoning is unclear or incomplete (e.g., \"no, because... um...\" or gives an unclear reason).",
+        "beginning": "Student gives an incorrect answer or provides no reasoning; does not demonstrate understanding that engines provide power for movement."
+      }
+    },
+    {
+      "questionText": "How is the train like your body when you run? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both move, both need energy/food, both have parts that work together) and differences (train is metal/machine, body is living, different sizes) showing thoughtful comparison.",
+        "meets": "Student identifies at least one clear similarity and one difference between a train and a running body (e.g., both move; train uses fuel, body uses food).",
+        "approaching": "Student attempts comparison but reasoning is limited or only partially accurate (e.g., identifies one similarity but no clear difference, or vice versa).",
+        "beginning": "Student provides minimal response with unclear or no connections between train movement and body movement (e.g., \"they both move\" with no further explanation)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:39:59.615Z",
+  "cost": 0.004987
+}

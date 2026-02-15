@@ -1,0 +1,53 @@
+{
+  "title": "Frost On Car",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think frost appears on this car but not inside a warm car parked next to it?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that frost forms when surfaces are cold enough to freeze water vapor, and identifies that a warm car's interior prevents this by keeping surfaces above freezing temperature; may mention insulation or heat transfer.",
+        "meets": "Student explains that the cold car surface allows frost to form while the warm car interior keeps surfaces too warm for frost to form.",
+        "approaching": "Student recognizes that temperature difference matters and mentions that one car is cold and one is warm, but does not fully explain how this prevents or allows frost formation.",
+        "beginning": "Student provides a vague response such as 'the outside is colder' or 'frost just forms outside' without connecting temperature to frost formation."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the frost if the sun came out and warmed the air? Where would the water go?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the frost would melt or sublimate, and explains that the water would become water vapor and enter the air, showing understanding of phase changes (solid to liquid or directly to gas).",
+        "meets": "Student predicts that frost would disappear or melt when the sun warms the air, and identifies that it would turn into water or water vapor that goes into the air.",
+        "approaching": "Student predicts that frost would disappear when warmed but provides incomplete or unclear explanation of where the water goes or what form it takes.",
+        "beginning": "Student makes a simple prediction like 'the frost would go away' without explaining the process or where the water ends up."
+      }
+    },
+    {
+      "questionText": "Compare frost forming to snow forming. How are they similar? How are they different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies that both frost and snow are frozen water that form in cold conditions, and explains key differences: frost forms directly on surfaces from water vapor while snow forms in clouds from water droplets; frost is a thin coating while snow falls as precipitation.",
+        "meets": "Student identifies at least one similarity (both are ice/frozen water) and one difference (frost forms on surfaces, snow falls from clouds, or frost needs a cold surface while snow needs cold clouds).",
+        "approaching": "Student attempts to compare but provides only partial information, such as recognizing both are frozen or cold-related, but missing clear explanation of how they form differently.",
+        "beginning": "Student provides minimal comparison, such as 'they're both cold' or 'they're both white,' without explaining formation processes."
+      }
+    },
+    {
+      "questionText": "If frost only forms on clear, calm nights, what might be different about cloudy nights that prevents frost from forming as easily?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student infers that clouds trap heat and prevent surfaces from cooling enough to freeze water vapor, and may mention that clouds act as insulation; explains why clear nights allow more heat to escape into space.",
+        "meets": "Student infers that clouds keep the ground warmer by trapping heat, which prevents surfaces from getting cold enough for frost to form.",
+        "approaching": "Student recognizes that clouds affect temperature but provides incomplete reasoning, such as 'clouds make it warmer' without explaining how this prevents frost formation.",
+        "beginning": "Student provides a vague response like 'clouds block frost' or 'it's different at night' without connecting clouds to temperature or frost formation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:14:45.513Z",
+  "cost": 0.00524
+}

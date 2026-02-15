@@ -1,0 +1,53 @@
+{
+  "title": "Spider Web",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the spider makes its web in the shape of a circle?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the circular shape helps catch insects from many directions and provides a strong structure, using specific details about how the design works (e.g., spokes for strength, spiral traps insects).",
+        "meets": "Student identifies that the circular shape helps the spider catch insects or mentions that it is a strong design, with basic reasoning about how the shape serves a purpose.",
+        "approaching": "Student recognizes the web is circular and attempts to explain why, but reasoning is incomplete or partially inaccurate (e.g., 'it looks nice' or vague mention of catching food).",
+        "beginning": "Student provides minimal response such as 'spiders like circles' or 'it just does' with little or no explanation of the web's purpose."
+      }
+    },
+    {
+      "questionText": "What would happen to a spider web if there were no water droplets on it? How might that affect what the spider can do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without water droplets the web would be invisible or harder to see, and connects this to how the spider might have difficulty knowing when insects are caught or locating the web to tend it.",
+        "meets": "Student states that the web would be harder to see without water droplets and identifies at least one way this could affect the spider's ability to catch or find insects.",
+        "approaching": "Student recognizes that water droplets make the web visible but offers incomplete thinking about consequences (e.g., mentions visibility but not how it affects the spider's hunting or maintenance).",
+        "beginning": "Student provides a vague response like 'the web would be different' or 'it wouldn't work' with minimal explanation of cause and effect."
+      }
+    },
+    {
+      "questionText": "How is a spider web similar to a fishing net that people use? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both trap prey in a web/net pattern, both require positioning in the right location) and differences (spider web is sticky while fishing nets are not, spiders catch flying insects while fishing nets catch swimming fish), showing clear comparison.",
+        "meets": "Student identifies at least one clear similarity (both catch moving creatures) and one clear difference (spider web is sticky or catches different animals), demonstrating basic comparison.",
+        "approaching": "Student attempts comparison but reasoning is incomplete, such as mentioning only similarities without differences, or identifying differences that are unclear.",
+        "beginning": "Student provides minimal response such as 'they both catch things' with little evidence of thoughtful comparison between the two."
+      }
+    },
+    {
+      "questionText": "If you were a tiny insect, what would be dangerous about flying into a spider web?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple dangers such as the sticky silk trapping the insect's wings, the spider arriving to capture prey, or inability to escape, demonstrating understanding of the web as a hunting tool.",
+        "meets": "Student identifies at least one specific danger, such as the stickiness trapping the insect or the spider catching them, with clear reasoning.",
+        "approaching": "Student recognizes something dangerous about the web but explanation lacks specificity (e.g., 'the spider would get you' without explaining how or why the web is dangerous).",
+        "beginning": "Student provides vague response such as 'it would be bad' or 'the spider lives there' with minimal explanation of actual danger."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:59:03.316Z",
+  "cost": 0.005271
+}

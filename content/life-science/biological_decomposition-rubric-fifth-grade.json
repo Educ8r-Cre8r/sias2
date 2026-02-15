@@ -1,0 +1,53 @@
+{
+  "title": "Biological Decomposition",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside the hollow part of this tree, and why is the tree still alive even with such a big hole?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposers are breaking down dead wood inside the hollow and identifies that the tree survives because the living outer layers (cambium and bark) transport water and nutrients, demonstrating understanding of tree structure and function.",
+        "meets": "Student correctly identifies that decomposers are breaking down the wood and explains that the tree is still alive because the outer part of the tree is healthy and still living.",
+        "approaching": "Student recognizes that something is breaking down the wood inside the tree and attempts to explain why the tree is alive, but the explanation is incomplete or partially inaccurate (e.g., mentions outer layers but doesn't clearly connect to function).",
+        "beginning": "Student provides a vague response such as 'decomposers are eating it' or 'the tree is still alive' without connecting these ideas or showing understanding of how the tree survives with a hollow center."
+      }
+    },
+    {
+      "questionText": "If decomposers break down dead wood, what do you think happens to the nutrients from that dead wood? Where do they go?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the nutrient cycle by explaining that decomposers break down wood into nutrients that go into the soil, where plants can absorb them through roots, and may mention that some nutrients return to the air, demonstrating understanding of nutrient cycling.",
+        "meets": "Student explains that nutrients from dead wood are released into the soil where plants can use them, showing a basic understanding of nutrient cycling.",
+        "approaching": "Student identifies that nutrients go somewhere (soil or back to nature) but the explanation lacks detail about how plants use these nutrients or the cycling process.",
+        "beginning": "Student provides a minimal response such as 'the nutrients go away' or 'decomposers eat them' without explaining where nutrients end up or how they are reused."
+      }
+    },
+    {
+      "questionText": "How does the decomposition of this tree help other plants and animals in the forest ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple ecosystem benefits: nutrients return to soil to feed other plants, cavity provides habitat for animals, and decomposition is part of the nutrient cycle that keeps the forest healthy, showing systems thinking.",
+        "meets": "Student identifies two benefits of decomposition, such as nutrients being returned to the soil for other plants or the hollow creating a home for animals.",
+        "approaching": "Student identifies one benefit of decomposition (such as helping plants or creating animal habitat) but the explanation lacks depth or clarity.",
+        "beginning": "Student provides a vague response such as 'it helps the forest' without explaining specific ways decomposition benefits other organisms."
+      }
+    },
+    {
+      "questionText": "Compare this hollow tree with a healthy tree. How are decomposers different from the disease or damage we usually think about?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that decomposers are beneficial because they recycle nutrients and the tree can still live, while disease or damage harms trees and doesn't return nutrients; student demonstrates understanding that decomposition is a natural, necessary process unlike harmful damage.",
+        "meets": "Student identifies that decomposers break down dead material and return nutrients while disease or damage kills trees, recognizing that decomposition serves a useful purpose in nature.",
+        "approaching": "Student notes differences between decomposition and disease/damage (such as decomposition being natural or helpful) but the comparison is incomplete or doesn't clearly explain the benefits of decomposition.",
+        "beginning": "Student attempts a comparison but shows confused understanding, such as treating decomposers and disease as similar, or providing vague responses without clear distinctions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:44:38.994Z",
+  "cost": 0.005507
+}

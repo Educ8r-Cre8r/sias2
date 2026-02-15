@@ -1,0 +1,53 @@
+{
+  "title": "Live Oak",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this tree needs to stay alive and keep growing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more needs (water, sunlight, soil/nutrients, air) with brief explanations of why each is important for the tree's survival and growth.",
+        "meets": "Student identifies two to three basic needs for the tree (such as water, sunlight, and soil) with simple, accurate explanations.",
+        "approaching": "Student identifies one to two needs for the tree but explanations are vague or incomplete; may confuse what plants need with what animals need.",
+        "beginning": "Student provides a minimal response with only one need mentioned or gives inaccurate information about what trees require to survive."
+      }
+    },
+    {
+      "questionText": "Why do you think the branches of this tree spread out so wide instead of growing straight up like a telephone pole?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wide branches help the tree reach more sunlight and may connect this to the tree being very old and large, demonstrating understanding of how branch shape relates to survival and growth.",
+        "meets": "Student provides a reasonable explanation that wide branches help the tree get more sunlight or reach more space for leaves to grow.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially inaccurate; may mention sunlight or space but without clear reasoning.",
+        "beginning": "Student gives a minimal or unclear response; may simply describe what they see without explaining why the tree's branches grow this way."
+      }
+    },
+    {
+      "questionText": "If we could see inside the trunk, what do you think we would find? What would those things do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both the wood and hollow or ring structures inside, explaining that these parts help the tree stay strong and move water and nutrients throughout the tree.",
+        "meets": "Student identifies what is inside the trunk (wood and/or growing parts) and explains at least one function, such as holding the tree up or moving water.",
+        "approaching": "Student identifies something inside the trunk but explanation of its function is vague, incomplete, or partially inaccurate.",
+        "beginning": "Student provides minimal details about what is inside; response shows little understanding of how the inside of a tree works."
+      }
+    },
+    {
+      "questionText": "How might this tree be helpful to the animals and people in this park?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways the tree helps (provides shade, food/shelter for animals, beauty, clean air) with specific examples of how different animals or people benefit.",
+        "meets": "Student identifies two to three ways the tree is helpful to animals or people, such as providing shade, shelter, or food.",
+        "approaching": "Student identifies one way the tree is helpful but reasoning is basic; may mention one benefit for either animals or people but not both.",
+        "beginning": "Student provides a minimal response with vague or limited ideas about how the tree is helpful in the park."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:32:09.365Z",
+  "cost": 0.004657
+}

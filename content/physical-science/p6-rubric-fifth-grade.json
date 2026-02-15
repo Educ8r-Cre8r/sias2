@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that tells you these nails have undergone a chemical change rather than just getting dirty?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence (color change to orange/brown, texture changes, formation of new material) and explains that a chemical change creates a completely new substance that cannot be easily removed, unlike dirt.",
+        "meets": "Student identifies that the nails have changed color (rust formation) and explains that this color change shows a chemical change occurred because the metal has transformed into rust.",
+        "approaching": "Student recognizes the nails look different or have rust, but provides incomplete reasoning about why this proves a chemical change rather than dirt.",
+        "beginning": "Student describes the nails as rusty or dirty but does not explain the difference between a chemical change and just getting dirty."
+      }
+    },
+    {
+      "questionText": "Why do you think some nails in the photo show more rust than others, even though they're all in the same location?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that differences in rust levels could be due to multiple factors such as how long each nail was exposed, differences in moisture contact, nail composition, or protective coatings, and identifies which factors would cause more rust.",
+        "meets": "Student provides at least one reasonable explanation for different rust levels, such as exposure time, moisture contact, or the age of the nails.",
+        "approaching": "Student suggests that conditions might be different for some nails but lacks clear reasoning or provides only vague explanations about why rust varies.",
+        "beginning": "Student acknowledges that some nails are rustier but provides no explanation or only comments on what they observe without attempting to explain the cause."
+      }
+    },
+    {
+      "questionText": "How might the environment where these nails were stored have affected the rusting process?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific environmental factors (moisture/humidity, oxygen, temperature, salt water) and explains how each factor speeds up or slows down rust formation through chemical reactions.",
+        "meets": "Student identifies at least two environmental factors like moisture and oxygen, and explains how these conditions increase rusting of metal.",
+        "approaching": "Student mentions that environment matters and identifies one factor (like wetness or air) but provides incomplete explanation of how it affects rusting.",
+        "beginning": "Student states that environment affects the nails but provides vague or minimal reasoning about specific environmental factors."
+      }
+    },
+    {
+      "questionText": "What could have been done to prevent or slow down the rusting of these metal objects?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple prevention methods (keeping dry, coating with paint/oil, removing oxygen, storing away from moisture) and explains why each method would interrupt the chemical reaction needed for rust to form.",
+        "meets": "Student suggests at least two reasonable prevention methods such as keeping nails dry, painting them, or storing them in a protected place, with basic explanation of how each helps.",
+        "approaching": "Student identifies one or two methods to prevent rust but explanation is incomplete or lacks clear connection to how rusting happens.",
+        "beginning": "Student attempts to suggest a prevention method but reasoning is unclear or the method is vague."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:25:00.034Z",
+  "cost": 0.004859
+}

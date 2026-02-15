@@ -1,0 +1,53 @@
+{
+  "title": "Reptile Molting",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the lizard needs to shed its old skin?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the lizard sheds to grow bigger and mentions that old skin becomes too tight or doesn't stretch anymore as the lizard gets larger.",
+        "meets": "Student states that the lizard sheds its skin so it can grow or that the old skin gets too small for the lizard.",
+        "approaching": "Student identifies that the lizard sheds its skin but gives an incomplete reason, such as 'to get new skin' without explaining why this is necessary.",
+        "beginning": "Student provides a vague response like 'the lizard sheds' or 'because it needs to' without explaining the connection to growth."
+      }
+    },
+    {
+      "questionText": "How is a lizard's skin different from your skin? What happens when you grow—do you shed your skin like a lizard?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that lizard skin is scaly and sheds in large pieces, while human skin is smooth and we don't shed visibly like lizards; student may mention we shed tiny dead skin cells instead.",
+        "meets": "Student correctly states that lizard skin is scaly or different from human skin, and explains that humans do not shed their skin the way lizards do.",
+        "approaching": "Student recognizes that lizard and human skin are different but provides incomplete comparisons, or states we don't shed without fully explaining how lizard shedding works.",
+        "beginning": "Student makes a simple observation like 'lizard skin looks different' or 'we don't shed' without meaningful comparison or explanation."
+      }
+    },
+    {
+      "questionText": "The lizard in the picture is brown and white. Why might those colors be helpful to a lizard living on green plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that brown and white colors help the lizard blend in with tree branches, bark, and shadows on leaves, making it hard for predators or prey to see it (camouflage).",
+        "meets": "Student states that the brown and white colors help the lizard blend in with plants or branches so it is harder to see.",
+        "approaching": "Student recognizes that the colors help the lizard but provides a vague explanation, such as 'the colors help it hide' without describing what the lizard is hiding from or blending with.",
+        "beginning": "Student mentions the colors or hiding but does not explain how the brown and white colors specifically relate to the green plant environment."
+      }
+    },
+    {
+      "questionText": "If a lizard keeps shedding old skin and growing new skin, how big could a lizard get? What might stop it from growing forever?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that lizards can only grow to a certain size based on their species, and identifies realistic limiting factors such as available food, space, energy, or predators that prevent unlimited growth.",
+        "meets": "Student recognizes that lizards cannot grow forever and identifies at least one reasonable limiting factor, such as not having enough food or space to grow larger.",
+        "approaching": "Student states that lizards cannot grow forever but provides a limiting factor that is vague or partially developed, such as 'they get too big' without explaining what limits their size.",
+        "beginning": "Student attempts to answer but provides minimal reasoning, such as 'lizards stop growing' or 'they get really big' without identifying what stops growth."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:25:27.471Z",
+  "cost": 0.005233
+}

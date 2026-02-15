@@ -1,0 +1,53 @@
+{
+  "title": "Thawing Pond",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to all the water from a thawing pond in spring? Where does it go?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple pathways for water (evaporation, runoff to streams/groundwater, absorption by plants) and explains why different amounts might follow each path based on season and landscape.",
+        "meets": "Student correctly describes at least two destinations for thawing water, such as flowing into streams, soaking into the ground, or evaporating into the air.",
+        "approaching": "Student identifies one destination for thawing water (such as it flows away or evaporates) but with limited explanation or unclear reasoning.",
+        "beginning": "Student provides a vague response such as 'the water goes away' with little to no specific information about where or how."
+      }
+    },
+    {
+      "questionText": "Why might it be important for farmers or communities to know when ponds and rivers will thaw in spring?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple interconnected reasons (flooding risks, water availability for crops/drinking, timing for planting) and considers consequences if timing is unpredictable.",
+        "meets": "Student provides at least two valid reasons, such as preventing flooding, knowing when water is available for farming, or planning spring activities.",
+        "approaching": "Student identifies one practical reason (such as flooding or water for crops) but explanation is incomplete or somewhat unclear.",
+        "beginning": "Student attempts an answer but provides minimal reasoning, such as 'it's important because water' without specific application."
+      }
+    },
+    {
+      "questionText": "If we moved this exact pond to a location near the equator where it's always warm, what would happen to the ice? Why would the outcome be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that ice would melt quickly or not form at all due to warmer temperatures, and connects this to how temperature affects the freezing/melting point of water and the pond's water cycle.",
+        "meets": "Student correctly predicts the ice would melt (or not freeze) and identifies temperature as the key reason for the difference.",
+        "approaching": "Student predicts the ice would melt but provides incomplete reasoning about temperature, or confuses some aspects of how heat affects ice.",
+        "beginning": "Student makes a prediction with minimal or unclear reasoning, such as 'it would be different because it's hot' without explanation of what happens to the ice."
+      }
+    },
+    {
+      "questionText": "How do you think the animals living in this pond know when to wake up from winter? What clues might they use?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple environmental cues (temperature increase, ice melting, longer daylight, food availability) and explains how each signal triggers animal behavior or awakening.",
+        "meets": "Student describes at least two sensible cues such as warmer temperatures, melting ice, or increasing daylight that animals might detect.",
+        "approaching": "Student identifies one environmental cue (such as 'it gets warmer') but reasoning is vague or explanation is incomplete.",
+        "beginning": "Student provides a minimal response such as 'animals just know' with little evidence of understanding seasonal cues."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:30:54.436Z",
+  "cost": 0.004944
+}

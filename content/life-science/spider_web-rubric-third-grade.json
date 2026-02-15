@@ -1,0 +1,53 @@
+{
+  "title": "Spider Web",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the spider uses its web for, and why do you think the web is made in a circular shape?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the web traps insects for food and provides two or more specific reasons why circular shape is effective (catches prey from all directions, strong design, uses less silk, easier to repair).",
+        "meets": "Student identifies that the web is used to catch food and explains that the circular shape helps trap insects or makes it stronger.",
+        "approaching": "Student states the web catches insects or mentions the circular shape is important, but reasoning is incomplete or only partially explained.",
+        "beginning": "Student provides a vague answer about the web's purpose or mentions the circular shape without clear explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "If you could change one thing about the spider web's design, what would it be and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a specific, realistic design change with clear scientific reasoning about how it would improve the web's function (e.g., larger holes to catch bigger insects, thicker strands for durability, different shape for better catch rate).",
+        "meets": "Student suggests a reasonable design change and explains why it would help the spider catch food or improve the web's structure.",
+        "approaching": "Student suggests a change but the explanation lacks clarity or the proposed change has limited scientific basis.",
+        "beginning": "Student offers a vague or impractical change with little or no explanation of the reasoning."
+      }
+    },
+    {
+      "questionText": "How is a spider web similar to and different from a bird's nest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both built by animals, both made from materials in nature, both serve a purpose) and differences (web traps food vs. nest holds eggs/babies, web is sticky strands vs. nest is woven twigs/feathers, web is temporary vs. nest is sturdier).",
+        "meets": "Student identifies at least one similarity and one difference between a spider web and bird's nest with accurate explanations.",
+        "approaching": "Student attempts to compare both structures but only identifies one similarity or difference, or explanations are partially accurate.",
+        "beginning": "Student provides a minimal response that confuses the structures or lacks clear comparison between them."
+      }
+    },
+    {
+      "questionText": "What do you observe about the dew on the web, and what might the water tell us about when this photo was taken?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that dew covers the web making it visible, and correctly concludes the photo was taken in early morning or when it was cool/wet, explaining that dew forms overnight or after rain.",
+        "meets": "Student notes the water droplets on the web and reasonably infers the photo was taken in early morning or after it was wet, with basic explanation.",
+        "approaching": "Student observes the dew on the web but makes only a vague connection to time of day or weather, without clear reasoning.",
+        "beginning": "Student simply states water is on the web with little or no inference about when the photo was taken."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:58:55.126Z",
+  "cost": 0.004841
+}

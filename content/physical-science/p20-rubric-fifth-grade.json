@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What properties would make some rocks better than others for making concrete?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple rock properties that affect concrete quality (such as hardness, size, shape, and density) and explains how each property specifically strengthens or weakens the concrete mixture.",
+        "meets": "Student identifies at least two rock properties (such as hardness or size) that make rocks better for concrete and provides a reasonable explanation of why those properties matter.",
+        "approaching": "Student identifies one rock property that affects concrete quality, but the explanation is incomplete or only partially accurate about how it helps.",
+        "beginning": "Student makes a general statement about rocks in concrete but does not identify specific properties or provides inaccurate information about how rocks contribute to concrete."
+      }
+    },
+    {
+      "questionText": "How do you think these rocks became so smooth and rounded?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that rocks are worn smooth through weathering and erosion caused by water, wind, or friction over time, and may reference specific processes like tumbling in rivers or waves.",
+        "meets": "Student explains that rocks become smooth through movement or friction from water, wind, or being rubbed together over a long period of time.",
+        "approaching": "Student mentions that rocks become smooth through some kind of movement or natural process, but the explanation lacks detail or is only partially accurate.",
+        "beginning": "Student provides a vague response about rocks becoming smooth or suggests an inaccurate reason (such as paint or intentional shaping)."
+      }
+    },
+    {
+      "questionText": "What would happen if we made concrete using only large rocks or only sand?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that using only large rocks or only sand would create weak concrete, describes specific problems (such as gaps between rocks or too much empty space), and recognizes why a mixture of sizes is needed for strength.",
+        "meets": "Student explains that concrete would be weaker with only one size of material and provides a reasonable explanation such as gaps forming or lack of proper binding.",
+        "approaching": "Student recognizes that using only one type of material would create a problem with concrete, but the explanation is vague or incompletely reasoned.",
+        "beginning": "Student provides a minimal response that concrete would be different or bad, without explaining why or how."
+      }
+    },
+    {
+      "questionText": "Why might engineers choose different combinations of materials for sidewalks versus building foundations?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that different structures need different strengths and identifies specific material combinations suited to each purpose, such as lighter/less durable materials for sidewalks versus stronger mixtures for foundations that bear heavy loads.",
+        "meets": "Student explains that sidewalks and building foundations have different needs and describes how engineers might adjust material combinations (such as more or fewer large rocks) based on how much weight each must support.",
+        "approaching": "Student recognizes that sidewalks and foundations are different and suggests engineers might use different materials, but the reasoning is incomplete or not clearly connected to structural needs.",
+        "beginning": "Student acknowledges that different materials might be used for different structures but provides little or no explanation for why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:06:05.129Z",
+  "cost": 0.004805
+}

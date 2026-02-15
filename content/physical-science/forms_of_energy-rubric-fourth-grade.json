@@ -1,0 +1,53 @@
+{
+  "title": "Forms Of Energy",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "If both vehicles started from a complete stop and we wanted them to reach the same speed, which would need more energy from its engine, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies the locomotive needs more energy and provides a detailed explanation using concepts like mass/weight and force, such as: \"The locomotive is much heavier, so it needs more energy to move the same speed because it has more mass to push.\"",
+        "meets": "Student correctly identifies the locomotive needs more energy and provides a reasonable explanation that references its larger size or weight, such as: \"The big train is heavier, so it needs more energy to go as fast as the car.\"",
+        "approaching": "Student identifies the locomotive as needing more energy but provides incomplete reasoning, such as: \"The train needs more energy because it's bigger\" without explaining the connection between size/weight and energy needed.",
+        "beginning": "Student's response is vague or inaccurate, such as: \"The train needs more energy\" or \"I don't know\" with little or no attempt to explain the relationship between the vehicles' sizes and energy requirements."
+      }
+    },
+    {
+      "questionText": "The locomotive is labeled \"Ultra Low Emissions.\" What do you think \"emissions\" means, and why might we want vehicles to have low emissions?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that emissions are gases/pollution from engines and connects low emissions to environmental benefits, such as: \"Emissions are the gases that come out of engines. Low emissions help keep our air clean so plants and animals stay healthy.\"",
+        "meets": "Student provides a reasonable definition of emissions and a basic reason for wanting low emissions, such as: \"Emissions are the bad stuff that comes out of the engine, and low emissions are better for the Earth/air.\"",
+        "approaching": "Student demonstrates partial understanding with vague language or incomplete reasoning, such as: \"Emissions are something from the engine\" or \"Low emissions are good\" without clear explanation of what they are or why they matter.",
+        "beginning": "Student provides minimal response with little accuracy, such as: \"I don't know what emissions are\" or an incorrect definition with no explanation of why low emissions would be beneficial."
+      }
+    },
+    {
+      "questionText": "Imagine the sports car was trying to push the locomotive. Do you think it could move it? What does this tell us about force and energy?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts the car cannot move the locomotive and explains using force/energy concepts, such as: \"No, the car's force wouldn't be strong enough. The locomotive is too massive, so you need a much bigger force to move it.\"",
+        "meets": "Student correctly predicts the car cannot move the locomotive and provides a reasonable explanation related to force or size, such as: \"No, the car is too small and weak to push the heavy train.\"",
+        "approaching": "Student makes the correct prediction but reasoning is incomplete or unclear, such as: \"No, it couldn't\" or \"The car isn't strong enough\" without connecting to concepts of force or mass.",
+        "beginning": "Student's response shows minimal understanding with inaccurate prediction or vague reasoning, such as: \"Yes, maybe it could\" or \"I don't know\" with little attempt to explain the relationship between force and movement."
+      }
+    },
+    {
+      "questionText": "Where does the energy come from to make these vehicles move? Can you trace the energy back to its original source?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies diesel/fuel as the immediate energy source and traces it back to an original source, such as: \"The locomotive uses diesel fuel, which came from oil deep in the Earth. The sports car uses gasoline from oil. Both came from ancient plants and animals.\"",
+        "meets": "Student identifies fuel (diesel or gasoline) as the energy source and may trace it to oil, such as: \"The vehicles use fuel from the engine. The fuel comes from oil in the ground.\"",
+        "approaching": "Student identifies fuel as the energy source but cannot trace it further, such as: \"They use fuel to move\" or \"The engine has fuel\" without mentioning where fuel comes from.",
+        "beginning": "Student provides vague or incomplete response, such as: \"The engine makes it move\" or \"I don't know\" with little attempt to identify specific energy sources or trace them back."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:40:24.900Z",
+  "cost": 0.006275
+}

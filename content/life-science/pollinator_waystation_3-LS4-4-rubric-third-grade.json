@@ -1,0 +1,53 @@
+{
+  "title": "Pollinator Waystation",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the gardener planted so many different kinds of flowers together instead of just one type?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different flowers bloom at different times and attract different pollinators, showing understanding that variety supports more insects and provides food throughout seasons.",
+        "meets": "Student identifies that different flowers attract different pollinators or provide food for more insects, demonstrating basic understanding of flower variety benefits.",
+        "approaching": "Student recognizes that multiple flowers are better than one type but provides incomplete reasoning, such as \"more flowers feed more bees\" without explaining variety's role.",
+        "beginning": "Student makes a simple observation like \"it looks pretty\" or \"there are lots of flowers\" with little connection to pollinator needs."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the bees and butterflies if all the flowers in this garden disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bees and butterflies would lose their food source and may move away or die, and connects this to impact on pollination and plant reproduction.",
+        "meets": "Student identifies that bees and butterflies need flowers for food and would leave or die without them, showing understanding of the dependency.",
+        "approaching": "Student states that bees and butterflies would be affected but provides vague reasoning, such as \"they wouldn't be happy\" without explaining the food or survival connection.",
+        "beginning": "Student gives a minimal response like \"they would be sad\" or \"they would go away\" with no explanation of why."
+      }
+    },
+    {
+      "questionText": "How are the bees and flowers helping each other? Can you explain both ways?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student clearly explains that flowers provide food (nectar/pollen) for bees AND bees help flowers by moving pollen between flowers for reproduction, demonstrating mutual benefit understanding.",
+        "meets": "Student identifies both ways the relationship helps: flowers feed bees and bees help flowers reproduce or spread pollen, showing reciprocal understanding.",
+        "approaching": "Student explains one direction of the relationship well (bees get food or bees spread pollen) but struggles to clearly articulate how the other organism benefits.",
+        "beginning": "Student makes a simple statement like \"bees and flowers help each other\" or describes only one organism's benefit without explaining the exchange."
+      }
+    },
+    {
+      "questionText": "If you could design your own pollinator waystation, what flowers would you choose and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student selects multiple flowers with specific reasons like different bloom times, attracting different pollinators, or providing nectar/pollen, demonstrating thoughtful design based on pollinator needs.",
+        "meets": "Student chooses flowers and provides reasonable explanations, such as \"butterflies like bright colors\" or \"bees need flowers for food,\" showing understanding of pollinator preferences.",
+        "approaching": "Student names flowers they would choose but gives limited reasoning, such as \"because they're pretty\" or \"bees like them\" without deeper explanation.",
+        "beginning": "Student names one or two flowers with minimal or no explanation of why those choices would help pollinators."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:41:53.451Z",
+  "cost": 0.004891
+}

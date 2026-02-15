@@ -1,0 +1,53 @@
+{
+  "title": "Dawn",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors in the sky?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple sky colors (pink, orange, yellow) and describes where they appear in the sky, showing detailed observation of the dawn scene.",
+        "meets": "Student correctly names at least two colors in the sky (such as pink and orange) and shows they observed the sunrise.",
+        "approaching": "Student names one color in the sky or describes the sky as 'pretty' or 'bright' but provides limited color details.",
+        "beginning": "Student gives a vague response like 'it's colorful' or names an incorrect color not visible in a dawn sky."
+      }
+    },
+    {
+      "questionText": "Why do you think the fog is close to the ground instead of up high?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fog is heavy or that water stays low, and may connect this to fog forming near water or cooler areas close to the ground.",
+        "meets": "Student provides a reasonable explanation such as 'fog is heavy' or 'it sinks down' or 'it stays near the ground because it's wet air.'",
+        "approaching": "Student attempts an explanation but it is partially unclear, such as 'the fog likes the ground' or gives an incomplete answer.",
+        "beginning": "Student responds with 'I don't know' or provides an unrelated answer with no attempt to explain fog placement."
+      }
+    },
+    {
+      "questionText": "How might this foggy morning affect the animals and plants in this area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple effects, such as animals having difficulty seeing, plants getting water from fog, or animals staying hidden, showing thoughtful reasoning.",
+        "meets": "Student identifies at least one reasonable effect on animals or plants, such as 'animals can't see well' or 'the fog gives water to plants.'",
+        "approaching": "Student mentions an effect but with limited detail or clarity, such as 'the animals are affected' or 'plants like fog' without full explanation.",
+        "beginning": "Student provides minimal response like 'it changes things' or cannot identify any effects of fog on living things."
+      }
+    },
+    {
+      "questionText": "What would you predict will happen to the fog as the sun gets higher in the sky?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the fog will disappear or evaporate, and explains that heat or warmth from the sun causes this change.",
+        "meets": "Student predicts the fog will go away or disappear as the sun rises, showing understanding of how sun affects fog.",
+        "approaching": "Student makes a prediction about fog changing but without clear connection to the sun's warmth or height, such as 'the fog will move.'",
+        "beginning": "Student cannot make a prediction or predicts something unrelated to sunrise, such as 'the fog will get bigger.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:29:58.775Z",
+  "cost": 0.004539
+}

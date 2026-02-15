@@ -1,0 +1,53 @@
+{
+  "title": "Giant Leopard Moth",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the mother moth laid so many eggs instead of just one or two?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that laying many eggs increases the chance that some babies will survive because predators might eat some eggs or caterpillars, or some may not find food or get sick.",
+        "meets": "Student recognizes that laying many eggs helps ensure some babies survive, mentioning either predators eating some or some eggs/caterpillars not surviving.",
+        "approaching": "Student provides a partial reason such as \"so more can live\" or \"so some will survive,\" but lacks detail about why some might not survive.",
+        "beginning": "Student gives a vague response like \"to have more babies\" or \"because she wanted to\" with no explanation about survival."
+      }
+    },
+    {
+      "questionText": "If a baby caterpillar ate only bark and no leaves, what might happen to it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the caterpillar would become weak, sick, or die because it needs leaves for proper nutrition and energy to grow and survive.",
+        "meets": "Student correctly predicts the caterpillar would not grow well or might die/get sick because caterpillars need leaves to eat.",
+        "approaching": "Student recognizes something bad would happen to the caterpillar but gives an incomplete reason, such as \"it would get hungry\" without explaining why bark is not enough.",
+        "beginning": "Student provides a minimal response like \"it would die\" or \"it would be sick\" with no explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "How does the moth's spotted pattern help it stay safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spots help the moth blend in with tree bark or wood (camouflage), making it hard for predators to see it, or mentions that the bright spots might warn predators the moth is poisonous.",
+        "meets": "Student identifies that the spots help the moth hide or blend in with its surroundings like bark, making it harder for predators to see.",
+        "approaching": "Student recognizes the spots provide some protection but gives unclear reasoning, such as \"the spots keep it safe\" or \"predators don't like spots\" without explaining how.",
+        "beginning": "Student provides a vague response like \"it helps hide\" or \"it keeps it safe\" with no explanation of how the spots specifically help."
+      }
+    },
+    {
+      "questionText": "What do you think the caterpillar does first when it hatches from the egg?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the caterpillar eats the egg or nearby leaves first because it needs energy and food to grow, showing understanding that newly hatched animals need immediate nutrition.",
+        "meets": "Student correctly predicts the caterpillar eats (either the egg or nearby leaves) because it is hungry or needs to grow.",
+        "approaching": "Student recognizes the caterpillar needs to eat but is unsure what it eats first, or mentions eating without clear reasoning about why.",
+        "beginning": "Student provides a minimal response like \"it eats\" or \"it crawls\" with no connection to the caterpillar's need for food or growth."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:02:07.012Z",
+  "cost": 0.004973
+}

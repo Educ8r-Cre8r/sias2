@@ -1,0 +1,53 @@
+{
+  "title": "Balanced And Unbalanced Forces",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What force is the backhoe using to lift the bucket full of dirt?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies hydraulic force and explains that hydraulic fluid is pumped through tubes to push and lift the bucket, demonstrating understanding of how the machine works.",
+        "meets": "Student correctly identifies that the backhoe uses hydraulic force or hydraulic power to lift the bucket.",
+        "approaching": "Student mentions hydraulic or a pushing/lifting force but may be unclear or incomplete in explaining what hydraulic means.",
+        "beginning": "Student provides a vague response such as 'engine power' or 'machine power' without mentioning hydraulic force or shows minimal understanding."
+      }
+    },
+    {
+      "questionText": "Why do you think the backhoe's arm is shaped like a long stick instead of being short and thick? How does the shape help it lift heavy objects?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the long arm works like a lever to multiply force, making it easier to lift heavy loads, and may reference distance or mechanical advantage concepts.",
+        "meets": "Student explains that the long arm helps the backhoe lift heavier objects or reach farther, showing understanding of how arm length affects lifting capability.",
+        "approaching": "Student recognizes that the long arm helps with lifting but provides incomplete or unclear reasoning, such as 'it's longer so it can lift more' without explaining how.",
+        "beginning": "Student provides minimal explanation such as 'it's strong' or 'it's long' without connecting arm shape to lifting ability."
+      }
+    },
+    {
+      "questionText": "If a person tried to lift the same bucket of dirt that the backhoe lifted, what would happen? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a person could not lift the bucket because the weight of the dirt creates a downward force (gravity) that is stronger than the force a person can produce with their muscles, or notes the backhoe provides more force.",
+        "meets": "Student correctly predicts the person would not be able to lift the bucket and provides a reasonable explanation related to weight or strength difference.",
+        "approaching": "Student predicts the person cannot lift the bucket but gives incomplete reasoning, such as 'it's too heavy' without explaining why or how forces are involved.",
+        "beginning": "Student makes a prediction but provides little to no explanation, or the explanation is vague such as 'because it's hard.'"
+      }
+    },
+    {
+      "questionText": "If the backhoe's engine broke and couldn't pump hydraulic fluid anymore, what would happen to the bucket? Explain using what you know about gravity and forces.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bucket would fall because gravity (a downward force) would pull it down, and without hydraulic force pushing up, gravity would be the only major force acting on it, or mentions balanced/unbalanced forces.",
+        "meets": "Student correctly predicts the bucket would fall and explains that gravity would pull it down because the hydraulic force would no longer be supporting it.",
+        "approaching": "Student predicts the bucket would fall but provides incomplete explanation; may mention gravity or that the engine is broken but doesn't fully connect how forces cause the motion.",
+        "beginning": "Student predicts the bucket would fall with minimal or unclear reasoning, such as 'it would just drop' without mentioning gravity or forces."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:10:37.897Z",
+  "cost": 0.005138
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this spider is looking for on the ground, and why does it need to find it?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the spider is hunting for food (insects or small animals) and explains that spiders need food to survive, grow, and have energy to move and hunt.",
+        "meets": "Student states that the spider is looking for food or insects and gives a simple reason like \"to eat\" or \"to stay alive.\"",
+        "approaching": "Student mentions that the spider is looking for something to eat but provides incomplete or unclear reasoning about why it needs food.",
+        "beginning": "Student gives a vague answer such as \"it's looking for bugs\" with little to no explanation of why the spider needs to find food."
+      }
+    },
+    {
+      "questionText": "How is a spider different from an insect, and what body part helps you tell the difference?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that spiders have eight legs while insects have six legs, and explains that spiders are arachnids (not insects) using the leg count as evidence.",
+        "meets": "Student correctly states that spiders have eight legs and insects have six legs, identifying this as the main difference between the two groups.",
+        "approaching": "Student mentions that spiders and insects have different numbers of legs but may be unclear or slightly inaccurate about the exact count (e.g., \"spiders have more legs\").",
+        "beginning": "Student attempts to identify a difference but provides minimal or inaccurate information about body parts or leg count."
+      }
+    },
+    {
+      "questionText": "If all the insects disappeared from this rocky soil habitat, what would happen to the spider?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spider would have no food to eat and would starve, move to a new habitat, or die, showing understanding of food chains and habitat dependence.",
+        "meets": "Student states that the spider would have nothing to eat or would go hungry, indicating understanding that spiders depend on insects for food.",
+        "approaching": "Student recognizes that insects disappearing would affect the spider but gives incomplete reasoning (e.g., \"the spider would be sad\" or \"it wouldn't have bugs\").",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of the spider's dependence on insects for survival."
+      }
+    },
+    {
+      "questionText": "Why do you think this spider's dark brown color might be helpful for surviving in this sandy, rocky place?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the dark brown color helps the spider blend in (camouflage) with the rocky, sandy soil, making it harder for predators to see it or allowing it to sneak up on prey.",
+        "meets": "Student states that the dark brown color helps the spider hide or blend in with the ground or rocks in its habitat.",
+        "approaching": "Student mentions that the color helps the spider in some way (e.g., \"it blends in\") but lacks clear connection to survival or habitat, or provides incomplete reasoning.",
+        "beginning": "Student offers a vague answer about the color (e.g., \"it looks like the ground\") with little explanation or understanding of camouflage or survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:43:41.754Z",
+  "cost": 0.005012
+}

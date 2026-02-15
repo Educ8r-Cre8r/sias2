@@ -1,0 +1,53 @@
+{
+  "title": "Bumble Bee",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you see the bee doing in the flower?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student accurately describes the bee drinking nectar/juice from the flower and mentions seeing pollen on the bee's body, using specific observations from the photo.",
+        "meets": "Student accurately describes what the bee is doing, such as drinking from the flower or using its tongue, with basic observations.",
+        "approaching": "Student describes what the bee is doing but with limited detail or one inaccurate element, such as only mentioning the bee is on the flower without describing the action.",
+        "beginning": "Student provides a vague response such as 'the bee is there' or makes an inaccurate statement about what the bee is doing."
+      }
+    },
+    {
+      "questionText": "Why do you think the bee keeps visiting different flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bee needs to collect food (nectar or pollen) and may extend thinking to how this helps bees or the flower garden.",
+        "meets": "Student provides a reasonable explanation that the bee is getting food or collecting something from the flowers.",
+        "approaching": "Student gives a partial answer such as 'the bee likes flowers' or 'to get pollen' but lacks clear reasoning about why this is important.",
+        "beginning": "Student's response is unclear or shows little understanding, such as 'because it wants to' with no connection to the bee's needs."
+      }
+    },
+    {
+      "questionText": "What job does the fuzzy yellow stuff (pollen) do for the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that pollen helps make new flowers or seeds grow, demonstrating understanding of pollen's role in plant reproduction.",
+        "meets": "Student identifies that pollen is important for the flower or that it helps flowers make seeds or grow.",
+        "approaching": "Student recognizes that pollen has a purpose but provides vague reasoning, such as 'it helps the flower' without explaining how.",
+        "beginning": "Student provides an inaccurate or unclear response, such as 'pollen makes the bee yellow' or 'it's just on the bee.'"
+      }
+    },
+    {
+      "questionText": "If there were no bees, what might happen to the flowers in a garden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without bees, flowers would not get pollinated and therefore would not make seeds or new flowers, showing a clear cause-and-effect understanding.",
+        "meets": "Student provides a reasonable prediction that flowers would not grow, make seeds, or that something bad would happen to the garden because bees are needed.",
+        "approaching": "Student makes a prediction about what might happen but with incomplete reasoning, such as 'the flowers would die' without explaining why bees are important.",
+        "beginning": "Student's response is vague or inaccurate, such as 'the flowers would still be there' or 'nothing would happen,' showing little understanding of the relationship."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:11:49.045Z",
+  "cost": 0.004652
+}

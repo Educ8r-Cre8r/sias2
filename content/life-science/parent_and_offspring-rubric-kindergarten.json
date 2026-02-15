@@ -1,0 +1,53 @@
+{
+  "title": "Parent And Offspring",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why do you think the baby bird's mouth is wide open?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the baby bird's mouth is open to eat or get food from the parent, and adds an observation about why this is important (like feeding or staying healthy).",
+        "meets": "Student explains that the baby bird's mouth is open because it is hungry or wants to eat food from the parent.",
+        "approaching": "Student states the baby bird's mouth is open but gives a partial or unclear reason, such as \"it's hungry\" without connecting it to eating.",
+        "beginning": "Student provides a vague response or incorrect reason, such as \"it's sleeping\" or \"it's playing,\" showing minimal understanding of the bird's behavior."
+      }
+    },
+    {
+      "questionText": "What does the baby bird need from its parent to survive and grow big and strong?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the baby bird needs food from its parent and explains why food is important, such as to get energy, grow bigger, or stay healthy.",
+        "meets": "Student correctly identifies that the baby bird needs food from its parent to survive and grow.",
+        "approaching": "Student identifies that the baby bird needs something from the parent but is unclear or only partially correct (e.g., mentions food but doesn't explain survival or growth).",
+        "beginning": "Student gives a vague or inaccurate response, such as \"it needs help\" or \"it needs toys,\" showing little understanding of what a baby bird needs."
+      }
+    },
+    {
+      "questionText": "How is the way a parent bird takes care of its baby similar to how your family takes care of you?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities, such as parents giving food, keeping babies safe, and helping them grow, using specific examples from their own family (e.g., \"my mom feeds me breakfast\").",
+        "meets": "Student identifies at least one clear similarity between parent bird care and family care, such as parents giving food or helping the baby grow.",
+        "approaching": "Student identifies a similarity but with limited detail or clarity, such as \"they both help\" or \"they give food\" without much explanation.",
+        "beginning": "Student provides a vague response or does not identify a clear similarity, such as \"they're the same\" or an unrelated statement."
+      }
+    },
+    {
+      "questionText": "What would happen to a baby bird if no parent bird brought it food?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the baby bird would get hungry, become weak, and could die without food, demonstrating understanding of why parental care is necessary for survival.",
+        "meets": "Student explains that the baby bird would get hungry or would not have food to eat, showing understanding that food from parents is needed.",
+        "approaching": "Student provides a partial response, such as \"the baby bird would be sad\" or \"it would not grow,\" but lacks clear connection to survival or hunger.",
+        "beginning": "Student gives a vague or inaccurate response, such as \"it would fly away\" or an unrelated answer, showing minimal understanding of the baby bird's dependence on parents."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:37:28.714Z",
+  "cost": 0.004876
+}

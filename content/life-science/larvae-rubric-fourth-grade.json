@@ -1,0 +1,53 @@
+{
+  "title": "Larvae",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this larva needs to do right now to grow into an adult insect?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific needs (eating/feeding, molting, finding shelter) and explains why each is necessary for growth using accurate life cycle vocabulary.",
+        "meets": "Student identifies at least two things the larva needs to do to grow, such as eating food or molting, with basic explanations.",
+        "approaching": "Student identifies one thing the larva needs to do (usually eating) but provides limited explanation or reasoning.",
+        "beginning": "Student provides a vague response (like \"grow\" or \"change\") with little or no connection to larval development."
+      }
+    },
+    {
+      "questionText": "How is this larva's body different from an adult butterfly or beetle? Why do you think those differences exist?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple specific differences (body shape, lack of wings, soft body, size) and explains how each difference relates to the larva's role in its environment or its stage of development.",
+        "meets": "Student identifies at least two clear physical differences (such as no wings or different body shape) and provides reasonable explanations for why these differences exist.",
+        "approaching": "Student identifies one or two differences but explanations are incomplete or lack connection to the larva's needs or life stage.",
+        "beginning": "Student notices a difference but provides no explanation, or response is too vague to demonstrate understanding."
+      }
+    },
+    {
+      "questionText": "If this larva stayed in the soil for one month, predict what changes might happen to its body. What evidence would tell you metamorphosis is occurring?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific body changes (growth, molting, formation of pupa/cocoon) and identifies multiple observable signs of metamorphosis (shedding skin, change in appearance, protective case formation).",
+        "meets": "Student predicts reasonable changes to the larva's body and identifies at least one observable sign of metamorphosis (like a change in size, appearance, or formation of a protective structure).",
+        "approaching": "Student makes a prediction about changes but signs of metamorphosis are vague or only partially correct; reasoning is unclear.",
+        "beginning": "Student provides a minimal prediction with little connection to metamorphosis, or response shows misunderstanding of the process."
+      }
+    },
+    {
+      "questionText": "Compare the life cycle of this insect larva to a human baby. What stages do both go through, and what is different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies shared stages (growth, development, dependency on environment) and clearly explains key differences (metamorphosis vs. gradual growth, number of life stages, body structure changes) using specific details.",
+        "meets": "Student identifies at least one shared stage and at least one difference between insect and human development with accurate, grade-appropriate explanations.",
+        "approaching": "Student identifies similarities or differences but explanations lack clarity or completeness; some information may be partially inaccurate.",
+        "beginning": "Student provides a minimal comparison with little accuracy or relevance to both life cycles."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:50:23.424Z",
+  "cost": 0.004892
+}

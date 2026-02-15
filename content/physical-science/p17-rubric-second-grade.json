@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the building looks in the glass?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific details about the reflected building (e.g., it looks upside down, backwards, smaller, or like a picture) and explains that glass acts like a mirror to show the building.",
+        "meets": "Student identifies that the building appears in the glass and describes at least one accurate detail about how it looks (e.g., it's reflected, it looks like a picture, it appears in the window).",
+        "approaching": "Student notices something in the glass but description is vague or partially accurate (e.g., 'I see a building' or 'it looks different' without clear details).",
+        "beginning": "Student provides minimal response with little or no accurate observation (e.g., 'there's glass' or response shows no understanding of the reflection)."
+      }
+    },
+    {
+      "questionText": "Why do you think some windows show reflections while others don't?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that smooth, clean glass reflects light and shows reflections better, while rough or dirty surfaces don't reflect as well, using appropriate reasoning about how light bounces off surfaces.",
+        "meets": "Student provides a reasonable explanation such as smooth glass reflects better, some windows are cleaner, or the angle of light matters, showing basic understanding of reflection.",
+        "approaching": "Student attempts an explanation but reasoning is incomplete or partially accurate (e.g., 'some windows are shinier' without explaining why, or confused about the cause).",
+        "beginning": "Student's response shows minimal understanding or reasoning (e.g., 'I don't know' or an inaccurate guess with no logical connection)."
+      }
+    },
+    {
+      "questionText": "How is this glass window similar to a mirror in your bathroom?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (e.g., both are smooth and shiny, both reflect light, both show your reflection, both have a reflective coating or surface) and explains why glass and mirrors work the same way.",
+        "meets": "Student identifies at least two valid similarities between glass windows and mirrors (e.g., both are smooth, both show reflections, both are shiny).",
+        "approaching": "Student identifies one similarity or similarities that are partially accurate but missing detail (e.g., 'they're both shiny' without explaining what that means for reflections).",
+        "beginning": "Student's response shows minimal comparison or understanding (e.g., 'they look the same' or confuses the comparison entirely)."
+      }
+    },
+    {
+      "questionText": "What would happen if the glass was rough instead of smooth?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that rough glass would scatter light and create a blurry or no reflection, and explains that smooth surfaces are needed for clear reflections while rough surfaces break up the light.",
+        "meets": "Student predicts an accurate outcome such as the reflection would be blurry, broken up, not work, or disappear, with basic reasoning about rough versus smooth surfaces.",
+        "approaching": "Student makes a prediction but explanation is vague or partially incomplete (e.g., 'it wouldn't work' without explaining why, or correct answer but weak reasoning).",
+        "beginning": "Student provides minimal prediction or shows little understanding (e.g., 'I don't know' or an inaccurate prediction without logical reasoning)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:04:06.552Z",
+  "cost": 0.005138
+}

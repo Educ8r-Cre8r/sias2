@@ -1,0 +1,53 @@
+{
+  "title": "American Robin",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does the robin use to find food on the ground?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (eyes, beak, legs) and explains how each part helps find food, such as using eyes to see and beak to pick up food.",
+        "meets": "Student correctly identifies at least two body parts the robin uses to find food, such as the beak and eyes, with simple explanations of their purpose.",
+        "approaching": "Student identifies one body part the robin uses to find food but explanation is vague or only partially explains how it helps.",
+        "beginning": "Student names a body part but shows unclear understanding of how it helps find food, or provides minimal response."
+      }
+    },
+    {
+      "questionText": "Why do you think the robin is standing on the rock instead of on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple logical reasons with details, such as getting a better view to spot food, staying safe from predators, or staying dry, and explains the benefit of each.",
+        "meets": "Student provides at least one reasonable explanation for why the robin stands on the rock, such as seeing food better or staying safe.",
+        "approaching": "Student attempts an explanation but reasoning is incomplete or partially unclear; may include one valid idea with limited detail.",
+        "beginning": "Student provides a vague response or one that shows limited thinking about why the robin might choose the rock."
+      }
+    },
+    {
+      "questionText": "How do the robin's legs and beak help it survive in this habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how both legs and beak work together for survival, describing legs for movement/standing and beak for eating, with specific examples from the habitat.",
+        "meets": "Student accurately describes how the robin's legs and beak each help it survive, such as legs for walking and beak for catching or eating food.",
+        "approaching": "Student describes the function of legs or beak but explanation is incomplete or only partially connects to survival in the habitat.",
+        "beginning": "Student provides a minimal or vague response that shows limited understanding of how these body parts help the robin survive."
+      }
+    },
+    {
+      "questionText": "If a robin didn't have a sharp beak, how might its life be different?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple realistic consequences with clear reasoning, such as difficulty catching or eating certain foods, needing to find softer foods, or struggling to survive.",
+        "meets": "Student provides at least one logical consequence of not having a sharp beak, such as difficulty eating worms or seeds, with reasonable explanation.",
+        "approaching": "Student attempts to describe a consequence but reasoning is unclear or only partially developed; may show some understanding with limited detail.",
+        "beginning": "Student provides a vague or minimally developed response showing limited thinking about how a dull beak would affect the robin."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:04:22.830Z",
+  "cost": 0.00454
+}

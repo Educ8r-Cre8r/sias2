@@ -1,0 +1,53 @@
+{
+  "title": "Cicada Shell",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the cicada had to leave its old skin behind? What would happen if it tried to stay in the same shell?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cicada outgrows its shell and needs to shed it to get bigger, then describes multiple consequences of staying in the same shell (e.g., cannot move, cannot eat, gets stuck, dies).",
+        "meets": "Student explains that the cicada gets bigger and needs a new, larger skin, and identifies at least one consequence of not shedding (e.g., cannot grow or would get stuck).",
+        "approaching": "Student states the cicada outgrows its skin or mentions shedding, but explanation is incomplete or lacks clear reasoning about why the cicada must leave.",
+        "beginning": "Student provides a minimal or unclear response, such as 'the cicada just leaves' or 'it's old,' without explaining growth or consequences."
+      }
+    },
+    {
+      "questionText": "Compare the cicada's life cycle to your own growth. How are they the same? How are they different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both grow and get bigger, both change over time) and differences (cicada sheds skin/humans don't, cicada has stages/humans grow gradually), using accurate life cycle vocabulary.",
+        "meets": "Student identifies at least one similarity (both grow bigger) and one difference (cicada sheds its skin, humans don't), with clear explanations.",
+        "approaching": "Student attempts a comparison but may confuse details or identify only a similarity or difference, with incomplete explanations.",
+        "beginning": "Student provides vague or inaccurate statements about growth without making meaningful comparisons between the two life cycles."
+      }
+    },
+    {
+      "questionText": "What do you think happens to this empty shell after the cicada leaves? Where does it go?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes what happens to the shell (breaks down, becomes part of nature, feeds other animals) and explains where it might go, mentioning processes like decomposition or being eaten by insects or animals.",
+        "meets": "Student predicts the shell will break down or be eaten, and identifies a reasonable location or destination (e.g., falls to ground, gets taken apart by bugs).",
+        "approaching": "Student makes a prediction about the shell's fate but with limited detail or reasoning, such as 'it falls down' without explaining what happens next.",
+        "beginning": "Student provides a minimal or unclear response, such as 'it disappears' or 'I don't know,' with little evidence of thinking about decomposition or natural processes."
+      }
+    },
+    {
+      "questionText": "If you found ten of these shells on different trees during the summer, what could you infer about how many cicadas live in that area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student infers there are at least 10 cicadas (or more), and provides sound reasoning (each shell means one cicada shed, and there could be cicadas without shells nearby); recognizes that one cicada sheds only once per summer.",
+        "meets": "Student infers there are at least 10 cicadas in the area and correctly connects 10 shells to 10 cicadas that have shed their skins.",
+        "approaching": "Student attempts to count and make an inference but may be confused about the connection between shells and cicadas, or gives an unclear reasoning explanation.",
+        "beginning": "Student provides a minimal response such as 'a lot of cicadas' or 'ten cicadas' without clear reasoning or understanding of what the shells represent."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:57:17.799Z",
+  "cost": 0.005414
+}

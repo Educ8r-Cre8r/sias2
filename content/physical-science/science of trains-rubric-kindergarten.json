@@ -1,0 +1,53 @@
+{
+  "title": "Science Of Trains",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think makes the train stop when it sees the red light?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the train driver sees the red light and uses brakes to stop the train, showing understanding that a person controls the train and brakes create stopping power.",
+        "meets": "Student states that the red light tells the train to stop or that the brakes make it stop, demonstrating basic understanding of the traffic signal or braking function.",
+        "approaching": "Student mentions the red light or brakes but with incomplete or unclear reasoning about how they work together to stop the train.",
+        "beginning": "Student gives a vague answer like 'the light stops it' with no explanation of brakes or the train driver's role."
+      }
+    },
+    {
+      "questionText": "Why can't a train turn left or right like a car can?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the train wheels fit on the metal tracks, which guide the train in one direction only, and may add that the tracks determine where the train can go.",
+        "meets": "Student states that the train runs on tracks that keep it going straight, or that the wheels are on the rails, showing understanding that tracks limit direction.",
+        "approaching": "Student mentions tracks or wheels but doesn't clearly explain how they prevent the train from turning in different directions.",
+        "beginning": "Student says 'the train can't turn' or 'it's stuck' without explaining the role of tracks or wheels."
+      }
+    },
+    {
+      "questionText": "How do the wheels help the train move along the tracks?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes that wheels roll on the metal tracks to make the train move forward, and may explain that smooth metal wheels and tracks help them roll easily.",
+        "meets": "Student explains that wheels roll on the tracks to move the train, demonstrating understanding of basic wheel function and the track connection.",
+        "approaching": "Student mentions wheels or rolling but incompletely explains how wheels and tracks work together to move the train.",
+        "beginning": "Student says 'wheels make it go' or 'they roll' with no connection to the tracks."
+      }
+    },
+    {
+      "questionText": "What would happen if the train tracks were not smooth and metal?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the train would have trouble moving or wouldn't move smoothly, explaining that rough surfaces or non-metal material would cause friction or make wheels not roll as well.",
+        "meets": "Student predicts the train would move more slowly or have difficulty moving, showing understanding that smooth metal tracks help the train roll better.",
+        "approaching": "Student suggests something would go wrong but doesn't clearly explain how surface smoothness or material affects movement.",
+        "beginning": "Student says 'it wouldn't work' or 'it would stop' without reasoning about roughness or material properties."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:28:30.764Z",
+  "cost": 0.004495
+}

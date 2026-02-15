@@ -1,0 +1,53 @@
+{
+  "title": "Deciduous Trees",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that these trees are preparing for winter, and how might this help them survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence (leaf color change, leaf loss, bare branches) and explains how each adaptation helps trees survive winter by reducing water loss, protecting buds, or conserving energy.",
+        "meets": "Student identifies at least two signs of winter preparation (such as changing colors or falling leaves) and explains how these help the tree survive the cold season.",
+        "approaching": "Student identifies one or two signs of winter preparation but provides incomplete or partially accurate explanation of how these changes help trees survive.",
+        "beginning": "Student identifies that trees are changing but provides vague or minimal explanation of winter preparation or survival benefits."
+      }
+    },
+    {
+      "questionText": "How do you think the fallen leaves will affect other living things in this ecosystem over the next few months?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple effects on different organisms (decomposers breaking down leaves, nutrients returning to soil, insects and animals using leaf piles for shelter) and explains how these create a chain of ecosystem interactions.",
+        "meets": "Student identifies at least two ways fallen leaves affect living things, such as providing food/habitat for organisms or returning nutrients to soil.",
+        "approaching": "Student mentions fallen leaves affecting some organisms but reasoning is incomplete or only partially accurate regarding ecosystem processes.",
+        "beginning": "Student provides a vague response about leaves affecting living things with minimal detail or unclear reasoning."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how different trees are changing colors, and what might cause these differences?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific color patterns observed (some trees yellow, others red/orange, some bare) and explains multiple factors that might cause differences, such as tree species, sunlight exposure, temperature, or moisture availability.",
+        "meets": "Student identifies observable patterns in tree colors and suggests at least one reasonable factor (such as tree type or amount of sunlight) that might explain the differences.",
+        "approaching": "Student notices some variation in tree colors but provides limited or partially accurate explanation for why different trees change at different rates.",
+        "beginning": "Student makes general observations about color changes but provides little evidence of understanding what causes differences between trees."
+      }
+    },
+    {
+      "questionText": "If you returned to this same spot in winter and then again in spring, what changes would you predict and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts specific seasonal changes for both winter and spring (bare branches and snow in winter; new leaf buds and growth in spring) and provides scientifically accurate reasoning based on deciduous tree biology and seasonal cycles.",
+        "meets": "Student predicts reasonable changes for winter (mostly bare trees) and spring (new leaves returning) with adequate explanation of why these changes occur due to seasons.",
+        "approaching": "Student makes some predictions about seasonal changes but explanations are incomplete, partially inaccurate, or lack clear connection to seasonal patterns.",
+        "beginning": "Student provides vague or minimal predictions about future changes with little scientific reasoning or understanding of seasonal cycles."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:28:21.870Z",
+  "cost": 0.004794
+}

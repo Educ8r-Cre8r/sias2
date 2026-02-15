@@ -1,0 +1,53 @@
+{
+  "title": "Larvae",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this baby insect needs to live and grow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least three things a larva needs (food, water, shelter, warmth) with specific details, such as naming soil or plants as food sources.",
+        "meets": "Student identifies two or more basic needs of the larva, such as food and water, with simple explanations.",
+        "approaching": "Student identifies one basic need of the larva (such as food or water) but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal or unclear response, such as naming only one need with no explanation or an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "Why do you think this creature is soft and white instead of hard and colored like a butterfly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the larva is soft and light-colored because it is young and still growing, and connects this to how it will change into a butterfly with a hard shell and bright colors.",
+        "meets": "Student explains that the larva is soft and white because it is a baby insect that will change as it grows, or notes it is different from a butterfly.",
+        "approaching": "Student makes an observation about the larva being soft and white but struggles to explain why, or provides an incomplete reason.",
+        "beginning": "Student provides a vague response or misunderstanding, such as describing the color or texture without attempting to explain the reason."
+      }
+    },
+    {
+      "questionText": "If you could watch this larva for one month, what changes do you think you might see?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple changes such as growing bigger, changing color, developing a shell or cocoon, and eating more food, showing understanding of insect growth.",
+        "meets": "Student predicts at least two changes the larva will go through, such as growing larger or changing appearance.",
+        "approaching": "Student predicts one change, such as the larva getting bigger, but reasoning may be limited or vague.",
+        "beginning": "Student provides a minimal prediction or repeats information from the photo without explaining expected changes."
+      }
+    },
+    {
+      "questionText": "Where would you find a larva, and why would it live in that place?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies a specific habitat (soil, plants, leaves, rotting wood) and explains with details why larvae live there, such as finding food, staying hidden, or keeping safe.",
+        "meets": "Student identifies where larvae live (soil, garden, near plants) and gives a simple reason, such as finding food or shelter.",
+        "approaching": "Student identifies a general location (outside or in nature) but struggles to explain why larvae live there, or reason is incomplete.",
+        "beginning": "Student provides a vague location or gives a reason that shows minimal understanding of larva habitats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:49:53.859Z",
+  "cost": 0.004572
+}

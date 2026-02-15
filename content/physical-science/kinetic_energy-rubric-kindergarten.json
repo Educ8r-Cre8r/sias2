@@ -1,0 +1,53 @@
+{
+  "title": "Kinetic Energy",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you see the skateboarder doing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple actions with specific details: the skateboarder is jumping high in the air, the skateboard is below them, and they are moving fast at the skate park.",
+        "meets": "Student accurately identifies that the skateboarder is jumping in the air and the skateboard is involved in the movement.",
+        "approaching": "Student identifies one main action (jumping or moving) but lacks detail about the skateboard or location.",
+        "beginning": "Student provides a vague response such as 'playing' or 'moving' with minimal connection to skateboarding or jumping."
+      }
+    },
+    {
+      "questionText": "Why do you think the skateboarder is flying up in the air? What made them jump so high?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the skateboarder built up speed and pushed hard on the skateboard to jump, connecting movement and force to the high jump.",
+        "meets": "Student identifies that the skateboarder jumped or pushed off to get in the air, showing basic understanding of cause and effect.",
+        "approaching": "Student recognizes jumping happened but provides incomplete reasoning; may mention 'pushing' or 'speed' without clear connection between them.",
+        "beginning": "Student gives a vague answer like 'they jumped' or 'they wanted to' without explaining what caused the movement."
+      }
+    },
+    {
+      "questionText": "How is the skateboarder moving differently than someone walking slowly? What is different about their speed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly compares fast versus slow movement, noting the skateboarder is moving much faster than walking and explaining that fast movement can make you jump higher.",
+        "meets": "Student identifies that the skateboarder is moving faster than walking and describes the difference in speed accurately.",
+        "approaching": "Student recognizes that the skateboarder is moving faster but uses vague language or struggles to clearly compare the two movements.",
+        "beginning": "Student makes a simple observation like 'the skateboarder is fast' without explaining how it differs from walking."
+      }
+    },
+    {
+      "questionText": "If the skateboarder went slower, do you think they would jump as high? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts they would not jump as high and explains that slower speed means less power and force to push off the skateboard.",
+        "meets": "Student predicts they would not jump as high and provides a simple reason connected to speed or force.",
+        "approaching": "Student makes a prediction but reasoning is unclear or only partially connected to the relationship between speed and jumping height.",
+        "beginning": "Student makes a guess with little or no explanation of why speed affects how high someone can jump."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:41:40.144Z",
+  "cost": 0.004497
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Power Lines",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the transformer is mounted high up on the pole instead of on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons (safety from people/animals, keeping it away from water/flooding, easier to maintain) with clear reasoning about how height protects the transformer and the community.",
+        "meets": "Student identifies one practical reason, such as keeping it away from people and animals for safety, or preventing water damage.",
+        "approaching": "Student gives a partial answer that mentions height is important but lacks clear reasoning about why height matters for safety or protection.",
+        "beginning": "Student provides a vague response like \"because it's better up high\" without explanation, or expresses uncertainty about the purpose."
+      }
+    },
+    {
+      "questionText": "What would happen to homes if the transformer on this pole broke and stopped working?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that homes would lose electricity and describes multiple consequences (no lights, appliances won't work, refrigerators stop cooling, no heating/cooling), demonstrating understanding of how transformers deliver power.",
+        "meets": "Student correctly states that homes would lose electricity and provides one or two specific examples of how this affects daily life.",
+        "approaching": "Student recognizes that a broken transformer would cause problems with electricity but provides vague or incomplete descriptions of the effects on homes.",
+        "beginning": "Student gives a minimal response like \"homes wouldn't work\" or makes inaccurate statements about what would happen."
+      }
+    },
+    {
+      "questionText": "How do you think electricity gets to the transformer in the first place?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the path of electricity from power plants through the thick wires shown in the photo, explaining that electricity travels through wires from the power source down the pole to the transformer.",
+        "meets": "Student correctly explains that electricity comes through the wires attached to the transformer, demonstrating understanding that wires carry electricity from somewhere else.",
+        "approaching": "Student mentions that wires bring electricity to the transformer but provides incomplete reasoning about the source or path of the electricity.",
+        "beginning": "Student gives a vague answer like \"through the wires\" or \"from power\" without explanation of how electricity travels to reach the transformer."
+      }
+    },
+    {
+      "questionText": "The wires coming into the transformer are thicker than the wires leaving it. Why might that be?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that thicker wires carry high-voltage electricity from the power lines that needs stronger, thicker wires, while thinner wires carry safer, lower-voltage electricity to homes—demonstrating understanding of how transformers change voltage.",
+        "meets": "Student recognizes that the different wire thicknesses are related to different amounts or types of electricity, showing basic understanding that the transformer changes the electricity before it goes to homes.",
+        "approaching": "Student mentions that the wires are different sizes for a reason related to electricity but lacks clear explanation of why the difference matters.",
+        "beginning": "Student states the wires are different sizes but provides no explanation, or suggests an inaccurate reason unrelated to electrical needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:35:32.350Z",
+  "cost": 0.004803
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Earthworm",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the earthworm needs to stay alive and healthy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least three needs (soil, water, food/organic matter, air) with accurate explanations of why each is important for the earthworm's survival.",
+        "meets": "Student identifies two to three basic needs of earthworms (such as soil, water, and food) with brief explanations of why they are necessary.",
+        "approaching": "Student identifies one or two needs of earthworms but explanations are vague or partially accurate (e.g., mentions food or water but not both).",
+        "beginning": "Student provides a minimal response naming only one need or gives vague answers like 'it needs to be alive' without explaining what earthworms actually need."
+      }
+    },
+    {
+      "questionText": "Why might an earthworm come up to the surface after it rains? What problem is it trying to solve?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heavy rain floods the soil, preventing the earthworm from breathing through its skin, and describes how coming to the surface solves this problem by providing access to air.",
+        "meets": "Student correctly explains that rain floods the soil and the earthworm comes up to avoid drowning or to find air/breathe.",
+        "approaching": "Student mentions that rain causes the earthworm to come up but gives an incomplete or partially accurate reason (e.g., 'it comes up because of water' without explaining why water is a problem).",
+        "beginning": "Student gives a minimal or inaccurate response, such as 'earthworms like water' or 'it just comes up' without connecting rain to a problem."
+      }
+    },
+    {
+      "questionText": "How do you think the earthworm's long, bendy body helps it survive in the soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the long, bendy body allows the earthworm to squeeze through tight spaces in soil and uses the segmented structure to move, with reference to how this helps it find food and escape predators.",
+        "meets": "Student correctly explains that the earthworm's long, bendy body helps it move through and dig into soil, or squeeze into spaces.",
+        "approaching": "Student recognizes that the bendy body is helpful for movement in soil but gives a vague or incomplete explanation (e.g., 'it helps it move' without explaining how or why that matters).",
+        "beginning": "Student provides a minimal response like 'it is bendy' or 'it helps it' without explaining the connection between body shape and survival in soil."
+      }
+    },
+    {
+      "questionText": "If we removed all the earthworms from a garden, what might happen to the soil and plants over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that earthworms break down dead material into nutrients, loosen soil for water and air, and that without them soil would become compacted, nutrients would decrease, and plants would not grow as well.",
+        "meets": "Student describes two effects such as soil becoming harder, fewer nutrients, or plants not growing well because earthworms are missing.",
+        "approaching": "Student identifies that removing earthworms would negatively affect the garden but gives only one effect or a partially accurate explanation (e.g., 'plants would die' without explaining why).",
+        "beginning": "Student gives a vague or minimally accurate response such as 'the garden would be bad' or 'plants need earthworms' without explaining what earthworms do or how their absence causes problems."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:28:04.882Z",
+  "cost": 0.005349
+}

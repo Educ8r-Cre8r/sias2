@@ -1,0 +1,53 @@
+{
+  "title": "Tires",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What would happen if a tire had NO bumps and was completely smooth? Why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that a smooth tire would slip or slide on the road and identifies that the bumps (tread) help the tire grip or hold onto the road surface.",
+        "meets": "Student states that a smooth tire would slip or slide, and mentions that bumps help tires grip the road.",
+        "approaching": "Student identifies that a smooth tire would slip or mentions that bumps are important, but does not clearly explain the connection between bumps and gripping.",
+        "beginning": "Student provides a vague response such as \"it would be bad\" or \"it wouldn't work\" without explaining why bumps matter."
+      }
+    },
+    {
+      "questionText": "Where else do you see bumpy patterns that help things NOT slip? Can you find an example in our classroom?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple examples of bumpy, textured surfaces in the classroom (such as shoe soles, carpet, mat, playground equipment) and explains how each one prevents slipping.",
+        "meets": "Student identifies at least one example of a bumpy pattern in the classroom (such as a shoe sole or mat) and explains that it helps prevent slipping.",
+        "approaching": "Student identifies one example of a bumpy pattern but provides a weak explanation of how it prevents slipping, or identifies an example without clear explanation.",
+        "beginning": "Student names an object but does not connect it to bumpy patterns or slipping, or provides an unclear/irrelevant example."
+      }
+    },
+    {
+      "questionText": "Why might a tire get \"bald\" (lose its bumps) after a car drives for many miles?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bumps wear down or rub off over time from the car driving and friction with the road, and may note that this happens slowly with distance.",
+        "meets": "Student explains that the bumps wear away or get rubbed off because the tire rubs on the road as the car drives.",
+        "approaching": "Student mentions that bumps wear away or that driving causes wear, but the explanation is incomplete or vague.",
+        "beginning": "Student provides a minimal response such as \"they just go away\" or \"from driving\" without explaining how or why the bumps wear down."
+      }
+    },
+    {
+      "questionText": "How is the bumpy tread on a tire similar to the bumpy bottom of your shoes or sneakers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both tire tread and shoe bottoms have bumpy patterns and explains that both patterns help grip surfaces and prevent slipping during movement.",
+        "meets": "Student identifies that both tire tread and shoe bottoms have bumpy patterns and states that both help with gripping or not slipping.",
+        "approaching": "Student notices that both have bumps but provides a weak or incomplete explanation of why they are similar, or only partially explains the function.",
+        "beginning": "Student acknowledges both have bumpy patterns but does not explain the similarity in function or provides an unclear comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:26:54.630Z",
+  "cost": 0.004802
+}

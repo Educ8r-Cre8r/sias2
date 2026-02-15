@@ -1,0 +1,53 @@
+{
+  "title": "Nurse Log",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think new plants and mushrooms often grow on fallen logs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposers break down the log, returning nutrients to the soil, which new plants use; may also mention that logs provide a moist habitat or elevated growing surface for seeds and fungi.",
+        "meets": "Student identifies that the decaying log provides nutrients and/or moisture that help new plants and mushrooms grow, showing understanding of basic decomposition.",
+        "approaching": "Student recognizes that something about the log helps plants grow but provides incomplete reasoning; may mention nutrients OR moisture but not explain the connection clearly.",
+        "beginning": "Student offers a vague answer such as 'plants like logs' or 'they grow there' without explaining why or connecting to decomposition or nutrients."
+      }
+    },
+    {
+      "questionText": "How would a forest change if decomposers like fungi and bacteria didn't exist?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that dead wood and leaves would pile up, nutrients would not return to soil, plants couldn't grow well, and the forest ecosystem would collapse; demonstrates understanding of decomposers' critical role in nutrient cycling.",
+        "meets": "Student correctly identifies at least two consequences, such as dead material accumulating and plants not having enough nutrients to grow, showing solid understanding of decomposer importance.",
+        "approaching": "Student recognizes that forests would be negatively affected and mentions one consequence (such as dead material piling up OR lack of nutrients) but reasoning is incomplete or unclear.",
+        "beginning": "Student provides a minimal response such as 'the forest would be bad' without explaining specific changes or the role of decomposers."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the nutrients that were in this tree's wood—where do they go?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the complete nutrient cycle: decomposers break down the wood, nutrients return to the soil, and plants absorb them through roots; may mention specific nutrients like nitrogen or carbon.",
+        "meets": "Student explains that nutrients from the dead wood are returned to the soil where plants can use them, demonstrating understanding of basic nutrient cycling.",
+        "approaching": "Student recognizes that nutrients don't disappear but provides incomplete explanation; may say nutrients 'go into the soil' without explaining how they get there or how plants use them.",
+        "beginning": "Student offers a vague response such as 'nutrients go away' or 'into the ground' without explaining the decomposition process or plant uptake."
+      }
+    },
+    {
+      "questionText": "Compare a fallen log to a compost pile. How are they similar? How are they different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both decompose organic material, both support fungi/organisms, both create nutrient-rich material) and differences (compost piles are human-made/managed, logs decompose slowly in nature, different environments); shows nuanced understanding.",
+        "meets": "Student identifies at least one similarity and one difference with accurate reasoning; for example, both break down dead material but compost piles are purposefully created by humans while logs decompose naturally.",
+        "approaching": "Student identifies a similarity OR a difference but not both clearly, or provides incomplete reasoning; may note they're both 'decaying' but struggle to identify meaningful differences.",
+        "beginning": "Student provides a vague comparison such as 'they're both dead stuff' without clear similarities or differences, or attempts comparison but reasoning is inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:33:27.554Z",
+  "cost": 0.005254
+}

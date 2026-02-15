@@ -1,0 +1,53 @@
+{
+  "title": "Renewable Resource",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Where does the wood in this building come from?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that wood comes from trees and describes what happens to trees (they are cut down) to make wood for building materials.",
+        "meets": "Student correctly identifies that wood comes from trees or that trees are used to make wood.",
+        "approaching": "Student mentions trees or wood but makes only a vague connection between the two (e.g., 'from trees' with no elaboration).",
+        "beginning": "Student provides a response that is unclear or inaccurate, such as naming an incorrect source or showing confusion about where wood originates."
+      }
+    },
+    {
+      "questionText": "Why do you think people use wood to build houses instead of something else?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons with specific details, such as wood is strong, it is available from trees, it keeps us warm, or it is easier to work with than other materials.",
+        "meets": "Student gives one or two reasonable reasons why wood is good for building, such as it is strong, it comes from nature, or it helps protect us.",
+        "approaching": "Student attempts to explain a reason but it is incomplete or only partially accurate (e.g., 'because it's hard' without explaining why that matters for a house).",
+        "beginning": "Student gives a response with little reasoning, such as 'because people like it' or fails to provide a clear explanation."
+      }
+    },
+    {
+      "questionText": "If we cut down all the trees, what would happen to us? What could we do differently?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple consequences of cutting down all trees (no wood for buildings, trees help us breathe/give oxygen, animals lose homes) and suggests specific alternatives (use other materials, plant new trees, reuse wood).",
+        "meets": "Student explains at least one consequence of cutting down all trees and suggests one alternative way to get materials or protect trees.",
+        "approaching": "Student identifies a consequence or an alternative solution but reasoning is incomplete, or the connection between the problem and solution is unclear.",
+        "beginning": "Student provides a minimal response with little understanding, such as naming only one simple consequence with no explanation or alternative solution."
+      }
+    },
+    {
+      "questionText": "What other things in your home are made of wood? How are they the same as or different from this building?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple wooden items from home (tables, chairs, doors, toys) and explains specific similarities and differences (both hold things up/are strong, but a table is smaller, or a toy doesn't keep weather out like a building does).",
+        "meets": "Student names at least two wooden items from home and identifies one similarity or difference between those items and the building shown.",
+        "approaching": "Student names one or two wooden items from home but similarities or differences are unclear, vague, or only partially correct.",
+        "beginning": "Student names a wooden item but provides little or no comparison to the building, or the response shows minimal understanding of how the items relate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:35:57.683Z",
+  "cost": 0.004765
+}

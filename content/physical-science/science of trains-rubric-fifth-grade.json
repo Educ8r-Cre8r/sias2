@@ -1,0 +1,53 @@
+{
+  "title": "Science Of Trains",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why does a train need such a long distance to stop at a railroad crossing compared to a car?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that trains have much greater mass than cars, and uses the concept of inertia to describe why greater force and distance are needed to stop a heavier object. Student may mention friction or braking force.",
+        "meets": "Student accurately states that trains are heavier than cars and need more distance to stop because of their weight. Explanation is clear and shows understanding of mass and stopping distance relationship.",
+        "approaching": "Student recognizes that trains are heavier and need longer stopping distances, but explanation lacks detail or shows incomplete understanding of why mass affects stopping ability.",
+        "beginning": "Student provides a vague response such as 'trains are big' or 'they go fast' without connecting mass and stopping distance, or response shows minimal understanding of the concept."
+      }
+    },
+    {
+      "questionText": "What forces are acting on the train in this picture, and which direction are they pushing or pulling?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple forces (gravity pulling down, normal force pushing up from tracks, friction or braking force opposing motion) and explains their directions with accurate directional language. Student may mention the train is stationary and forces are balanced.",
+        "meets": "Student identifies at least two forces acting on the train (such as gravity and friction, or weight and normal force) and correctly describes the direction each force acts. Explanation shows solid understanding of force directions.",
+        "approaching": "Student identifies one or two forces but may be unclear about directions, or identifies forces with incomplete accuracy. Some confusion about force pairs or their effects.",
+        "beginning": "Student names a force but provides unclear or incorrect directions, or gives minimal response that shows little understanding of multiple forces acting on the train."
+      }
+    },
+    {
+      "questionText": "If we added more and more cargo to the train cars, how would that change the stopping distance? Why do you think that would happen?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that stopping distance would increase and provides a scientific explanation using concepts of mass and inertia. Student may explain that greater mass requires more force or time to overcome motion.",
+        "meets": "Student correctly predicts that stopping distance would increase with added cargo and gives a reasonable explanation connecting the additional mass to stopping ability.",
+        "approaching": "Student predicts stopping distance would increase but explanation is incomplete, unclear, or shows partial understanding of the relationship between mass and stopping distance.",
+        "beginning": "Student makes an unclear prediction or provides a prediction without reasoning, or reasoning does not connect to the concept of mass and motion."
+      }
+    },
+    {
+      "questionText": "Design a safer railroad crossing system. What changes would you make, and what scientific principles would they be based on?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a detailed crossing system with multiple safety features that are grounded in specific scientific principles (friction, stopping distance, visibility, reaction time). Explanation clearly connects each design choice to the underlying science.",
+        "meets": "Student proposes a reasonable safer crossing design with at least two features based on sound scientific principles related to trains, stopping, or safety. Connection between design and science is clear.",
+        "approaching": "Student suggests a safer design with one or two features, but scientific reasoning is partially developed or somewhat unclear. Design shows some understanding of railroad safety challenges.",
+        "beginning": "Student attempts a design suggestion but with minimal scientific reasoning, vague features, or unclear connection to scientific principles that would improve crossing safety."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:29:13.678Z",
+  "cost": 0.005224
+}

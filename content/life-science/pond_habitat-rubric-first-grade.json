@@ -1,0 +1,53 @@
+{
+  "title": "Pond Habitat",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you see living in or near the water in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple living things in and around the pond with specific details (e.g., water lilies with flowers, trees, bushes with pink flowers, rocks, and describes where they are located).",
+        "meets": "Student identifies at least three living things from the pond or its surroundings (such as water lilies, flowers, trees, or bushes).",
+        "approaching": "Student identifies one or two living things from the pond or surroundings, but descriptions may be vague or incomplete.",
+        "beginning": "Student makes a minimal attempt to identify living things but provides very limited or unclear responses (e.g., 'plants' or 'water')."
+      }
+    },
+    {
+      "questionText": "Why do you think the water lily leaves are so big and flat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that big, flat leaves help the water lily float on water and get sunlight, and may connect this to how the shape helps the plant survive in its pond home.",
+        "meets": "Student provides a reasonable explanation that big, flat leaves help the water lily float on the water or help it get sunlight.",
+        "approaching": "Student offers a partial explanation, such as the leaves are big to help the plant, but the reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student responds with minimal reasoning, such as 'so they are big' or makes an unclear guess without supporting explanation."
+      }
+    },
+    {
+      "questionText": "If the pond dried up, what would happen to all the plants and animals that live there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that plants and animals need water to live, so they would die or have to move away, and shows understanding that the pond is a habitat these living things depend on.",
+        "meets": "Student explains that the plants and animals would die or go away because they need water to live.",
+        "approaching": "Student recognizes that something bad would happen to the living things, but the explanation is incomplete (e.g., 'they would die' without mentioning water as the reason).",
+        "beginning": "Student provides a vague response or shows minimal understanding of how living things depend on water and habitats."
+      }
+    },
+    {
+      "questionText": "How is a pond different from the place where you live?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences between a pond habitat and their own habitat, such as a pond has water/fish/water plants while a home has land, houses, or different plants and animals.",
+        "meets": "Student identifies at least two clear differences, such as a pond has water and different animals than their neighborhood, or a pond has water plants instead of trees.",
+        "approaching": "Student identifies one difference between a pond and their home, but the comparison may lack clarity or detail.",
+        "beginning": "Student attempts to compare but provides vague, unclear, or minimal responses with little understanding of habitat differences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:52:17.768Z",
+  "cost": 0.004666
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fall Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors of the leaves on the ground?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple leaf colors (red, yellow, orange, brown) with specific observations about how the colors look or where they are on the ground.",
+        "meets": "Student identifies at least two different leaf colors (such as red, yellow, or orange) that are visible on the ground.",
+        "approaching": "Student names one leaf color or uses vague color descriptions but shows some attempt to observe the leaves in the picture.",
+        "beginning": "Student makes a response about leaves or colors but is unclear, inaccurate, or provides minimal detail about what is visible."
+      }
+    },
+    {
+      "questionText": "Why do you think trees drop their leaves when it gets cold?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a logical explanation that trees drop leaves to save water or energy during cold winter months, showing understanding of seasonal survival.",
+        "meets": "Student gives a simple, reasonable explanation such as 'trees drop leaves because it is cold' or 'it helps the tree get ready for winter.'",
+        "approaching": "Student attempts an explanation but it is incomplete or partially accurate, such as mentioning cold weather but not connecting it to why trees would benefit.",
+        "beginning": "Student provides a vague answer or shows minimal understanding of the connection between cold weather and leaf dropping."
+      }
+    },
+    {
+      "questionText": "If you were a tree, how would dropping your leaves help you survive the winter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple ways dropping leaves helps survival, such as saving water, protecting branches from heavy snow, or saving energy when food is hard to find.",
+        "meets": "Student explains one clear way dropping leaves helps, such as 'it keeps the tree from losing too much water' or 'it protects the tree during cold weather.'",
+        "approaching": "Student makes an attempt to explain but the reasoning is unclear or only partially connected to winter survival, such as a general statement without specific benefit.",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of how leaf-dropping relates to surviving winter."
+      }
+    },
+    {
+      "questionText": "Compare the leaves in this picture to leaves you see in spring. What is different? Why do you think that happens?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences between fall and spring leaves (color, presence/absence, growth), and explains that weather changes cause trees to grow new leaves in spring.",
+        "meets": "Student identifies at least one clear difference between fall and spring leaves (such as fall leaves are colorful and on the ground, spring leaves are green and on trees) and gives a basic reason.",
+        "approaching": "Student notices some differences or mentions spring and fall but the comparison is incomplete or the explanation is vague.",
+        "beginning": "Student attempts to compare but provides minimal detail or shows unclear understanding of seasonal leaf changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:40:59.711Z",
+  "cost": 0.004574
+}

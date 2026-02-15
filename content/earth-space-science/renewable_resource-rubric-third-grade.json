@@ -1,0 +1,53 @@
+{
+  "title": "Renewable Resource",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Where do you think the wood used to build this structure came from originally?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that wood comes from trees and describes a complete process from forest to lumber (trees are cut down, transported, and processed into building materials).",
+        "meets": "Student correctly identifies that wood comes from trees and explains that trees are cut down to make lumber for buildings.",
+        "approaching": "Student identifies that wood comes from trees but provides limited detail about how it becomes building material.",
+        "beginning": "Student makes a vague reference to trees or nature, or provides an inaccurate explanation of wood's origin."
+      }
+    },
+    {
+      "questionText": "Why is wood called a 'renewable' resource, and what has to happen for it to stay renewable?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wood is renewable because new trees can grow to replace cut trees, and identifies specific actions needed (planting new trees, giving forests time to grow) to maintain this cycle.",
+        "meets": "Student explains that wood is renewable because trees can grow back, and mentions that new trees need to be planted or forests need time to regrow.",
+        "approaching": "Student recognizes that wood is renewable and attempts to explain regrowth, but explanation is incomplete or shows partial understanding of the renewal process.",
+        "beginning": "Student provides a minimal or unclear explanation of why wood is renewable, or confuses it with non-renewable resources."
+      }
+    },
+    {
+      "questionText": "If a forest is cut down to build houses, what could people do to make sure there will be wood available in the future?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes multiple solutions such as planting new trees, protecting some forests from being cut, replanting quickly after harvesting, or managing forests carefully, and explains why these actions help preserve wood for the future.",
+        "meets": "Student suggests at least two reasonable solutions, such as replanting trees or protecting forests from over-cutting, to ensure future wood availability.",
+        "approaching": "Student suggests one solution (such as planting trees) but explanation lacks detail or shows incomplete understanding of how it helps.",
+        "beginning": "Student provides a vague, unclear, or inaccurate suggestion about maintaining wood resources."
+      }
+    },
+    {
+      "questionText": "How might cutting down forests affect the animals and plants that live in those forests?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that cutting forests removes homes and food sources for multiple animals and plants, and describes specific consequences such as animals having nowhere to live, plants losing space to grow, or entire ecosystems being disrupted.",
+        "meets": "Student explains that cutting forests harms the animals and plants living there by removing their homes or food sources.",
+        "approaching": "Student recognizes that cutting forests negatively affects wildlife but provides limited or vague explanation of how or why.",
+        "beginning": "Student acknowledges that forests are important for animals and plants but provides minimal or unclear explanation of the effects of cutting forests."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:36:19.708Z",
+  "cost": 0.004646
+}

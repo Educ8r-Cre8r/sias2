@@ -1,0 +1,53 @@
+{
+  "title": "Ice",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we put the dry ice in hot water instead of room temperature water?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the dry ice would sublimate faster/more vigorously in hot water, explains that heat speeds up the process, and may mention increased fog production or faster disappearance of the dry ice.",
+        "meets": "Student predicts the dry ice would sublimate faster in hot water and provides a basic explanation that heat causes faster changes or more fog.",
+        "approaching": "Student predicts something would happen differently with hot water but provides unclear or partially incorrect reasoning about temperature's role in sublimation.",
+        "beginning": "Student makes a prediction with little or no explanation, or suggests an outcome unrelated to temperature or sublimation (e.g., 'the water would freeze')."
+      }
+    },
+    {
+      "questionText": "Why does the white fog flow downward instead of floating upward like smoke?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that carbon dioxide gas is denser than air, causing it to sink, and may compare this to other dense gases or note that the fog is actually a visible mist of water droplets that condenses as the cold gas cools the surrounding air.",
+        "meets": "Student explains that the gas is heavier than air or denser than air, causing it to flow downward rather than rise.",
+        "approaching": "Student recognizes the fog moves downward but provides incomplete or unclear reasoning about density or weight of gases.",
+        "beginning": "Student observes that fog goes down but offers no explanation, or provides an inaccurate reason (e.g., 'it's wet' or 'gravity pulls it down')."
+      }
+    },
+    {
+      "questionText": "How is what's happening to the dry ice different from what happens when regular ice melts?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that dry ice changes directly from solid to gas (sublimation) without becoming a liquid, while regular ice melts into liquid water first, and may explain that sublimation requires no liquid phase.",
+        "meets": "Student correctly identifies that dry ice skips the liquid phase and becomes a gas, while regular ice becomes liquid water when it melts.",
+        "approaching": "Student recognizes a difference between the two processes but describes it incompletely or with partial inaccuracy (e.g., mentions one but not both processes clearly).",
+        "beginning": "Student attempts a comparison but provides vague or mostly inaccurate information about either dry ice or regular ice melting."
+      }
+    },
+    {
+      "questionText": "What other examples of sublimation have you observed in nature or everyday life?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides two or more accurate, grade-appropriate examples of sublimation (e.g., wet clothes drying on a line, snow disappearing without melting, mothballs shrinking) and explains how each represents a solid changing directly to a gas.",
+        "meets": "Student provides one or two valid examples of sublimation and makes a connection to the solid-to-gas change, demonstrating understanding of the concept in real-world contexts.",
+        "approaching": "Student provides an example but explanation is unclear, or provides an example that represents evaporation rather than sublimation, showing partial understanding.",
+        "beginning": "Student provides no example, an inaccurate example, or an example with no connection to sublimation or phase change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:02:51.203Z",
+  "cost": 0.005148
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the building in the glass?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about the reflected building, such as its shape, windows, or size, and uses descriptive words like tall, big, or shiny.",
+        "meets": "Student notices that there is a building showing in the glass and describes at least one clear feature, such as the building's windows or that it looks like another building.",
+        "approaching": "Student identifies that something is showing in the glass but provides vague or incomplete description, such as 'there's a building' without explaining what it looks like.",
+        "beginning": "Student gives a minimal response like 'a building' or 'glass' with little to no descriptive detail or shows confusion about what is being reflected."
+      }
+    },
+    {
+      "questionText": "Why do you think we can see one building reflected in another building's windows?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that glass is shiny or acts like a mirror and reflects what is in front of it, making a picture of the other building appear in the windows.",
+        "meets": "Student provides a basic reason such as 'the glass is shiny' or 'it looks like a mirror' that connects glass to being able to see reflections.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially inaccurate, such as 'glass shows things' without explaining why glass has this property.",
+        "beginning": "Student provides little or no explanation, responds with 'I don't know,' or gives an unrelated answer."
+      }
+    },
+    {
+      "questionText": "What other things have you seen your reflection in besides mirrors?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more reflective objects or surfaces with accurate examples, such as windows, puddles, shiny metal, or water, showing broad understanding of reflective materials.",
+        "meets": "Student names two reflective objects or surfaces accurately, such as water and windows, or a puddle and a spoon.",
+        "approaching": "Student names one reflective object or surface with some accuracy, but may be uncertain or provide limited detail.",
+        "beginning": "Student gives a vague answer, an inaccurate example, or shows minimal understanding of what makes something reflective."
+      }
+    },
+    {
+      "questionText": "How might the reflection change if it was nighttime instead of daytime?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the reflection would be darker, harder to see, or dimmer at night because there is less light, demonstrating understanding of how light affects reflections.",
+        "meets": "Student predicts a reasonable change such as 'it would be darker' or 'we wouldn't see it as well' that shows understanding that nighttime has less light.",
+        "approaching": "Student makes a prediction but it is vague or partially unclear, such as 'it would be different' without explaining how or why.",
+        "beginning": "Student provides minimal prediction, an unrelated answer, or states 'I don't know' without attempting to think through the question."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:03:48.338Z",
+  "cost": 0.004733
+}

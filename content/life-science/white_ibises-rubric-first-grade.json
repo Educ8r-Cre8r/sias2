@@ -1,0 +1,53 @@
+{
+  "title": "White Ibises",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the ibis has a long, curved beak instead of a short, straight one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the curved beak helps the ibis reach into mud or water to find food, and may add that the shape is different from other bird beaks for a special purpose.",
+        "meets": "Student identifies that the long, curved beak helps the ibis find or get food from the mud or water.",
+        "approaching": "Student mentions that the beak is long or curved, or that it helps the ibis get food, but reasoning is unclear or incomplete.",
+        "beginning": "Student makes a simple observation about the beak (\"it's long\" or \"it's red\") with little connection to its purpose or function."
+      }
+    },
+    {
+      "questionText": "What do you think the ibis is doing by poking its beak into the mud? Where is its food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the ibis is searching for or catching food by poking its beak into the mud, and correctly identifies that the food (insects, worms, or small animals) is hiding or living in the mud.",
+        "meets": "Student states that the ibis is looking for food in the mud, and identifies that the food is in or under the mud.",
+        "approaching": "Student recognizes that the ibis is getting food from the mud, but may be vague about what the bird is doing or where exactly the food is located.",
+        "beginning": "Student gives a simple response like \"the bird is in the mud\" or \"it's eating\" without explaining what the beak action accomplishes."
+      }
+    },
+    {
+      "questionText": "If there were no shallow water or mud in this habitat, could ibises still live here? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that ibises could not live there because they need shallow water and mud to find their food with their special beaks, showing understanding of the connection between habitat features and survival.",
+        "meets": "Student states that ibises could not live there because they need the water or mud to get food.",
+        "approaching": "Student attempts to connect the habitat to the bird's survival but reasoning is incomplete (e.g., \"they need water\" without explaining why).",
+        "beginning": "Student gives a yes/no answer with no explanation, or provides an unclear reason unrelated to feeding or the beak's purpose."
+      }
+    },
+    {
+      "questionText": "How is the ibis's beak like a tool you use at home? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares the curved beak to a specific tool (spoon, fork, tongs, or shovel) and explains at least one similarity (curves to scoop or pick things up) and one difference (tool is made of metal/plastic, beak is living; tool has a handle).",
+        "meets": "Student identifies a reasonable tool comparison and explains one way the beak is similar and one way it is different.",
+        "approaching": "Student names a tool and mentions a similarity or difference, but comparison is unclear or only partially developed.",
+        "beginning": "Student names a tool with little explanation, or provides a comparison that does not logically connect to the beak's shape or function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:33:43.054Z",
+  "cost": 0.005053
+}

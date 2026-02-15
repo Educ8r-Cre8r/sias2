@@ -1,0 +1,53 @@
+{
+  "title": "Alligator Predator",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the alligator's skin is dark green and bumpy instead of bright red or smooth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dark green color and bumpy texture help the alligator blend in with the swamp environment and identifies this as camouflage; may add that this helps the alligator hide from prey or predators.",
+        "meets": "Student correctly identifies that the alligator's dark green, bumpy skin helps it hide or blend in with its swampy surroundings.",
+        "approaching": "Student recognizes that the alligator's appearance relates to its environment but explanation is incomplete; may mention color or texture but not both, or state camouflage without clear reasoning.",
+        "beginning": "Student provides a response that shows minimal understanding, such as 'it just looks like that' or makes an inaccurate statement about the skin's purpose."
+      }
+    },
+    {
+      "questionText": "If an alligator lived in a white, snowy place instead of a green swamp, what might happen to it? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the alligator would be easily seen because its dark green skin would stand out against white snow, making it difficult to catch food or hide from danger; clearly connects camouflage to survival.",
+        "meets": "Student predicts the alligator would be easier to see in a snowy environment and explains this is because its dark color doesn't match the white background.",
+        "approaching": "Student makes a prediction about the alligator in snow but reasoning is partial; may say it would be 'hard to see' or 'easy to see' without clear explanation of why.",
+        "beginning": "Student provides a response that shows little understanding, such as a vague answer or one unrelated to camouflage or visibility."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that hide by blending into their environment? How is their hiding strategy similar to or different from the alligator's?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies at least two animals that use camouflage and explains both similarities (all use color/pattern to blend in) and differences (e.g., some change color, some use stripes vs. solid colors, some hide on land vs. water).",
+        "meets": "Student names at least one other camouflaged animal and explains one way it is similar to or different from the alligator's camouflage strategy.",
+        "approaching": "Student names an animal that uses camouflage but comparison to the alligator is vague or incomplete; may identify similarity or difference but not both clearly.",
+        "beginning": "Student names an animal but provides little or no explanation of how its camouflage strategy compares to the alligator's, or names an animal that does not use camouflage."
+      }
+    },
+    {
+      "questionText": "Can you design a camouflaged animal that would survive in our classroom or schoolyard? What colors and patterns would it need?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a detailed camouflaged animal with specific colors and patterns that clearly match classroom or schoolyard features; explains why these features would help the animal hide and survive in that environment.",
+        "meets": "Student designs a camouflaged animal with appropriate colors and/or patterns for the classroom or schoolyard and explains that these features help it blend in with its environment.",
+        "approaching": "Student designs an animal with some attempt at camouflage for the chosen environment, but colors/patterns have limited connection to the setting, or explanation of how it survives is unclear.",
+        "beginning": "Student attempts to design an animal but camouflage is not connected to the classroom or schoolyard environment, or response lacks specific details about colors and patterns."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:55:41.600Z",
+  "cost": 0.005626
+}

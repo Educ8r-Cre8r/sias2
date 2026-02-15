@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the different rocks in the concrete?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about rocks (such as different colors like brown, red, and yellow, different sizes, or how they are arranged) with clear descriptive language.",
+        "meets": "Student notices that there are rocks of different colors or sizes in the concrete and describes at least one characteristic clearly.",
+        "approaching": "Student identifies that there are rocks in the concrete but describes only one simple detail with vague or incomplete language.",
+        "beginning": "Student makes a minimal attempt, such as saying \"there are rocks\" or \"they are different,\" without specific details or descriptions."
+      }
+    },
+    {
+      "questionText": "How do you think all these rocks got stuck together so tightly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that cement or a sticky material holds the rocks together and describes how this material fills spaces between rocks to lock them in place.",
+        "meets": "Student correctly identifies that something sticky or glue-like (cement) holds the rocks together and keeps them from moving.",
+        "approaching": "Student recognizes that the rocks are held together by something, but explanation is unclear or only partially accurate (e.g., \"something holds them\" without naming cement).",
+        "beginning": "Student provides minimal explanation such as \"they just stuck\" or \"something made them stick\" without describing what that something is."
+      }
+    },
+    {
+      "questionText": "What would happen if we tried to build a sidewalk with just rocks and no cement?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the sidewalk would fall apart, crumble, or rocks would roll away, and explains that cement is needed to hold rocks together so they don't move or separate.",
+        "meets": "Student correctly predicts that rocks would not stay together without cement and explains that they would move, fall, or scatter.",
+        "approaching": "Student makes a reasonable prediction that something would go wrong but gives incomplete reasoning, such as \"it wouldn't work\" without explaining why.",
+        "beginning": "Student makes a prediction with minimal detail or reasoning, such as \"it would break\" without explanation."
+      }
+    },
+    {
+      "questionText": "Where else have you seen concrete like this in your neighborhood?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple concrete structures from their neighborhood (such as sidewalks, driveways, playgrounds, and building foundations) with specific details about location or appearance.",
+        "meets": "Student names at least two places where they have seen concrete, such as a sidewalk and a driveway, or shows clear understanding that concrete is used in many neighborhood locations.",
+        "approaching": "Student identifies one location where concrete is used but provides limited detail or description.",
+        "beginning": "Student makes a minimal attempt to identify a concrete location but gives vague responses or shows uncertainty about what concrete looks like."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:05:34.263Z",
+  "cost": 0.004494
+}

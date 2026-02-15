@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors on the bubble, and how are they similar to other things you've seen?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple colors on the bubble (purple, blue, yellow) and makes connections to at least two other things with similar rainbow colors (rainbows, oil puddles, prisms), showing thoughtful comparisons.",
+        "meets": "Student names at least two colors on the bubble and connects them to one other thing they have seen with similar colors.",
+        "approaching": "Student names one or two colors on the bubble but makes only a vague connection or describes something without clear color similarities.",
+        "beginning": "Student identifies the bubble has colors but cannot name specific colors or make meaningful connections to other things."
+      }
+    },
+    {
+      "questionText": "Why do you think the bubble is round instead of square or triangle-shaped?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the round shape helps the bubble hold air or float better, and may mention that round shapes are stronger or that the bubble stretches evenly in all directions.",
+        "meets": "Student provides a reasonable explanation that the round shape helps the bubble work (holds air, floats, or doesn't break easily) without scientific inaccuracy.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially unclear, such as saying round is 'better' without explaining why.",
+        "beginning": "Student offers a minimal response that does not explain the advantage of the round shape, or gives an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "What might happen to the colors if we looked at the bubble from a different side?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the colors might change or look different and explains that light reflects off the bubble differently depending on where you stand, or that the colors move around the bubble.",
+        "meets": "Student predicts the colors would look different from another side and offers a simple reason such as 'the light hits it differently' or 'we see different colors.'",
+        "approaching": "Student predicts a change in colors but the explanation is vague or incomplete, such as just saying 'it would be different' without any reasoning.",
+        "beginning": "Student gives a minimal prediction or states the colors would stay the same without considering the viewing angle."
+      }
+    },
+    {
+      "questionText": "How could we test which bubble solution recipe makes the strongest bubbles?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a clear test plan with multiple specific steps, such as making different solutions, blowing bubbles with each one, and comparing how long they last or how much they stretch without popping.",
+        "meets": "Student describes a reasonable test that involves making different bubble solutions and comparing them in at least one way (size, how long they last, or whether they pop).",
+        "approaching": "Student suggests comparing different solutions but the testing plan is incomplete or unclear, such as mentioning only making solutions without describing how to compare them.",
+        "beginning": "Student provides a vague idea about testing without a clear procedure or way to measure which solution makes stronger bubbles."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:23:01.809Z",
+  "cost": 0.004762
+}

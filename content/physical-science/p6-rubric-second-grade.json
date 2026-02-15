@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice is the same and different about these metal pieces?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (all are metal, all are rusty) and differences (various shapes, different amounts of rust, different sizes) with specific examples from the photo.",
+        "meets": "Student correctly identifies at least one similarity and one difference between the metal pieces, such as shape or amount of rust.",
+        "approaching": "Student notices some similarities or differences but reasoning is unclear or only partially correct; may focus on only one characteristic.",
+        "beginning": "Student makes vague observations or statements that are difficult to connect to the photo; shows minimal understanding of comparison."
+      }
+    },
+    {
+      "questionText": "Why do you think some nails look more rusty than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that time outside, water exposure, or air contact causes different amounts of rust; may mention that newer nails have less rust or that protected areas rust less.",
+        "meets": "Student provides a reasonable explanation that some nails have been outside longer or exposed to weather longer, causing more rust.",
+        "approaching": "Student suggests a connection to time or weather but the explanation is incomplete or lacks clear reasoning about why rust builds up differently.",
+        "beginning": "Student makes a guess with little scientific reasoning, such as 'some are older' without explaining how that causes rust."
+      }
+    },
+    {
+      "questionText": "What would happen if we left a shiny new nail outside for a whole year?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the nail would become rusty and brown/orange like the ones in the photo; explains that rain, air, and time would cause this change.",
+        "meets": "Student predicts the nail would rust or turn brown/orange similar to the nails shown in the picture.",
+        "approaching": "Student predicts some change to the nail but the prediction is vague or only partially matches the photo evidence.",
+        "beginning": "Student makes a prediction with little connection to the photo or the rusting process shown."
+      }
+    },
+    {
+      "questionText": "How could we protect metal objects from rusting?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple protection methods such as coating with paint, keeping dry, storing indoors, using oil, or keeping away from water; shows understanding that rust needs air and water.",
+        "meets": "Student suggests one reasonable method to prevent rust, such as painting, keeping it dry, or storing it inside.",
+        "approaching": "Student suggests an idea related to protection but the explanation shows incomplete understanding or the method is unclear.",
+        "beginning": "Student provides a vague or unrelated response with minimal connection to preventing rust."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:24:35.681Z",
+  "cost": 0.004299
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Praying Mantis",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the praying mantis uses its big front legs for?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the front legs are used to catch food and explains how (grabbing, holding, or catching prey), demonstrating understanding of the mantis's hunting behavior.",
+        "meets": "Student correctly states that the front legs are used to catch or grab food, showing basic understanding of the mantis's purpose for these body parts.",
+        "approaching": "Student mentions the front legs but provides an incomplete explanation, such as saying they are for moving or touching without connecting to catching food.",
+        "beginning": "Student provides a vague response (e.g., 'for walking') or describes the legs without connecting them to the mantis's function."
+      }
+    },
+    {
+      "questionText": "Why is the praying mantis's green color helpful when it sits on plants?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green color helps the mantis hide or blend in with plants, and connects this to hunting (such as helping it sneak up on food or stay safe from predators).",
+        "meets": "Student correctly explains that the green color helps the mantis blend in with or hide among the plants where it lives.",
+        "approaching": "Student recognizes that green color is related to plants but explanation is incomplete or unclear (e.g., 'it matches the green' without explaining why this matters).",
+        "beginning": "Student mentions color or plants but does not explain the connection or provides an inaccurate response."
+      }
+    },
+    {
+      "questionText": "If a praying mantis couldn't turn its head, how would that change the way it hunts for food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the mantis would have trouble seeing its prey and would need to move its whole body instead of just its head, connecting this to how hunting would become harder or slower.",
+        "meets": "Student identifies that without turning its head, the mantis would have difficulty seeing or finding food, showing understanding of how head movement helps with hunting.",
+        "approaching": "Student recognizes that head turning is important but explanation is vague or incomplete (e.g., 'it couldn't hunt' without explaining why or how).",
+        "beginning": "Student provides a minimal response that does not clearly connect head movement to the hunting process."
+      }
+    },
+    {
+      "questionText": "Where would be a good place to find a praying mantis, and why?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies plants, gardens, or flowers as good habitats and explains multiple reasons such as food availability, camouflage, or shelter.",
+        "meets": "Student identifies a specific location like plants, gardens, or flowers and provides a reason such as finding food or hiding among leaves.",
+        "approaching": "Student names a habitat (such as plants) but the explanation is weak or incomplete (e.g., 'they live there' without further reasoning).",
+        "beginning": "Student provides a vague location or reason with little connection to the mantis's needs or characteristics."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:03:45.189Z",
+  "cost": 0.004761
+}

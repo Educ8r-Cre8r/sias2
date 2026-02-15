@@ -1,0 +1,53 @@
+{
+  "title": "Katydid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the katydid is green instead of red or blue?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that green color helps the katydid blend in with green plants and grass to hide from predators, using the term 'camouflage' or 'blend in' and referencing the specific environment shown in the photo.",
+        "meets": "Student explains that the green color helps the katydid hide or blend in with green plants around it.",
+        "approaching": "Student recognizes that the katydid's green color is related to its surroundings or that it helps the katydid in some way, but explanation is vague or incomplete.",
+        "beginning": "Student makes a simple observation about the katydid being green or mentions hiding, but provides little or no explanation of why this color matters."
+      }
+    },
+    {
+      "questionText": "If a katydid lived on brown tree bark instead of green grass, what might happen to katydids with green wings over many years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that green-winged katydids would be easier for predators to see on brown bark and would be caught more often, leading to fewer green katydids surviving and reproducing over time; may mention that brown-colored katydids would have a better chance of surviving.",
+        "meets": "Student predicts that green katydids would be easier to spot on brown bark and would likely not survive as well, or that they would be caught by predators more often.",
+        "approaching": "Student recognizes that green would stand out on brown bark or mentions that this would be a problem for the katydid, but does not clearly explain the survival consequence.",
+        "beginning": "Student provides a minimal response such as 'they would be visible' or 'they would die,' with little reasoning about why this would happen."
+      }
+    },
+    {
+      "questionText": "What predators do you think hunt katydids, and how does camouflage help the katydid survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two realistic predators (such as birds, spiders, or lizards) and clearly explains that camouflage helps katydids hide from these predators, making them harder to find and catch so they can survive and escape danger.",
+        "meets": "Student names at least one realistic predator and explains that camouflage helps the katydid hide or makes it harder for predators to see it.",
+        "approaching": "Student names a predator or explains that camouflage helps hiding, but the connection between the two ideas is weak or incomplete.",
+        "beginning": "Student names a predator or mentions camouflage but provides little explanation of how they relate to katydid survival."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal that uses camouflage to hide? How is its hiding method similar to or different from the katydid's?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a realistic camouflaged animal and provides a detailed comparison, explaining both similarities (such as matching environment color) and differences (such as using pattern instead of solid color, or hiding in a different type of environment).",
+        "meets": "Student identifies a realistic camouflaged animal and makes at least one accurate comparison to the katydid's camouflage method, noting either a similarity or a difference.",
+        "approaching": "Student identifies a camouflaged animal and attempts a comparison, but the explanation is unclear or partially inaccurate.",
+        "beginning": "Student names an animal but provides little or no meaningful comparison to the katydid's camouflage strategy."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:18:03.822Z",
+  "cost": 0.005446
+}

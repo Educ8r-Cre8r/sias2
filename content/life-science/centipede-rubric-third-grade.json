@@ -1,0 +1,53 @@
+{
+  "title": "Centipede",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How many legs do you think a centipede needs to move quickly through soil and leaves?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student recognizes that centipedes have many legs (15 or more pairs) and explains that having many legs helps them move quickly by pushing off the ground in different directions or working together to grip surfaces.",
+        "meets": "Student states that centipedes have many legs and notes that having multiple legs helps them move fast through soil and leaves.",
+        "approaching": "Student mentions that centipedes have lots of legs or that legs help them move, but provides limited connection between leg number and speed of movement.",
+        "beginning": "Student provides a vague answer about legs (such as \"a lot\" or \"many\") with little to no explanation of why leg number matters for movement."
+      }
+    },
+    {
+      "questionText": "Why might having a long, flat body with many legs help a centipede hunt insects better than an animal with four legs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple advantages: a long, flat body allows the centipede to fit into tight spaces where insects hide, many legs provide better grip and stability in soil/leaves, and many legs enable faster movement to catch prey before they escape.",
+        "meets": "Student identifies at least two advantages, such as the flat body fitting into small spaces and many legs helping the centipede move faster or have better balance than a four-legged animal.",
+        "approaching": "Student identifies one advantage (such as fitting into spaces or moving faster) but lacks clear reasoning or only partially compares to a four-legged animal.",
+        "beginning": "Student gives a minimal or unclear response, such as \"it has more legs\" or \"it's faster,\" without explanation of how body shape or leg number helps with hunting."
+      }
+    },
+    {
+      "questionText": "If a centipede lost one of its legs, how do you think it would still be able to move and hunt?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that because centipedes have many legs, losing one leg would have minimal impact; the remaining legs could still push and grip the ground, allowing the centipede to move and hunt, though perhaps slightly slower or less balanced.",
+        "meets": "Student recognizes that the centipede has enough other legs to continue moving and hunting despite losing one leg, showing understanding that multiple legs provide backup.",
+        "approaching": "Student suggests the centipede could still move but provides unclear or incomplete reasoning, such as \"it has lots of legs\" without explaining how the remaining legs compensate.",
+        "beginning": "Student provides a minimal response such as \"it could still move\" with no explanation, or suggests the centipede cannot hunt without that one leg."
+      }
+    },
+    {
+      "questionText": "What other animals do centipedes look similar to, and how are they different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two animals centipedes resemble (such as millipedes, worms, or snakes) and provides specific differences in body structure (number of legs per segment, body shape, segmentation) or behavior (hunting vs. decomposing).",
+        "meets": "Student names one or two similar animals and describes at least one key difference, such as centipedes having fewer legs per segment than millipedes or centipedes being hunters while worms are not.",
+        "approaching": "Student identifies a similar animal but provides only a vague or incomplete difference, such as \"centipedes are longer\" or \"they're different colors,\" without addressing body structure.",
+        "beginning": "Student names a similar animal but provides no clear difference, or gives an unclear comparison with minimal detail."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:29:49.921Z",
+  "cost": 0.005425
+}

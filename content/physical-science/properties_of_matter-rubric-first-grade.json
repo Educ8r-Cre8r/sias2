@@ -1,0 +1,53 @@
+{
+  "title": "Properties Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "If we took the lid off this container, what do you think would happen to the yellow liquid?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the liquid would spill or pour out and explains that liquids flow and need containers to stay in place, using appropriate vocabulary like 'spill' or 'pour.'",
+        "meets": "Student predicts the liquid would spill or pour out and gives a simple reason related to liquids moving or needing a container.",
+        "approaching": "Student predicts something might happen to the liquid but the explanation is unclear or incomplete; may show hesitation about what liquids do.",
+        "beginning": "Student makes a prediction with little or no explanation, or predicts something unrelated to how liquids behave without a lid."
+      }
+    },
+    {
+      "questionText": "Why do you think the car needs a container to hold this yellow liquid instead of just leaving it loose in the engine?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the container keeps the liquid from spilling, leaking, or getting lost, and may connect this to how the liquid helps the engine work or stay clean.",
+        "meets": "Student explains that the container holds the liquid so it does not spill or leak out of the engine.",
+        "approaching": "Student gives a partial reason such as 'to keep it in' but does not clearly explain why keeping it in is important.",
+        "beginning": "Student provides a vague answer like 'because it does' or makes an attempt with an unclear or inaccurate reason."
+      }
+    },
+    {
+      "questionText": "Is the yellow liquid in this picture a solid or a liquid? How can you tell?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies it as a liquid and gives two or more observable properties, such as it takes the shape of the container, it can pour, or it flows.",
+        "meets": "Student correctly identifies it as a liquid and gives at least one observable property that shows how they can tell it is a liquid.",
+        "approaching": "Student correctly identifies it as a liquid but gives a vague or incomplete reason, such as 'it looks wet' without detail.",
+        "beginning": "Student is unsure of the answer or identifies it incorrectly, with little to no explanation of physical properties."
+      }
+    },
+    {
+      "questionText": "What other liquids have you seen in containers at home or school?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more liquids (such as water, milk, juice, soap) and shows they understand these are liquids by describing where they are stored or used.",
+        "meets": "Student names two or more liquids they have seen in containers at home or school.",
+        "approaching": "Student names one liquid they have seen in a container but may struggle to think of other examples.",
+        "beginning": "Student names a substance but it may not be a liquid, or gives an unclear/incomplete response with little to no accurate examples."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:19:20.376Z",
+  "cost": 0.004632
+}

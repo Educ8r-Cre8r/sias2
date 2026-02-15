@@ -1,0 +1,53 @@
+{
+  "title": "Pollination",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the bee is doing on the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bee is drinking nectar/sweet juice from the flower and explains that the bee is getting food, demonstrating understanding of the bee's purpose for visiting.",
+        "meets": "Student correctly states that the bee is eating, drinking, or getting food from the flower without additional details.",
+        "approaching": "Student recognizes the bee is doing something with the flower but provides vague or partially accurate descriptions like 'the bee is on the flower' or 'it's getting something.'",
+        "beginning": "Student provides minimal response or guesses incorrectly about the bee's activity, such as 'the bee is flying' or 'the bee is playing.'"
+      }
+    },
+    {
+      "questionText": "Why do you think the bee's body is covered in yellow powder? What might happen when the bee flies to another flower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the yellow powder (pollen) sticks to the bee while it collects food and predicts the powder will move to the next flower, connecting this to how flowers make new flowers grow.",
+        "meets": "Student accurately describes that the powder comes from the flower and sticks to the bee, and predicts the powder will go to another flower when the bee flies away.",
+        "approaching": "Student identifies that the yellow powder comes from the flower and may stick to the bee, but makes unclear or incomplete predictions about what happens at the next flower.",
+        "beginning": "Student notices the yellow powder but provides vague or inaccurate explanations about why it's there or what happens when the bee moves to another flower."
+      }
+    },
+    {
+      "questionText": "How do the bee and the flower help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the flower gives the bee food (nectar) and the bee helps the flower by moving pollen to make new flowers, showing clear understanding of mutual benefit.",
+        "meets": "Student identifies that the bee gets food from the flower and the bee helps the flower by carrying powder/pollen to other flowers.",
+        "approaching": "Student recognizes that both the bee and flower benefit but provides incomplete or unclear explanations of how each one helps the other.",
+        "beginning": "Student attempts to explain the relationship but provides vague or mostly inaccurate statements about how they help each other."
+      }
+    },
+    {
+      "questionText": "What would happen to flowers if there were no bees to visit them?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that new flowers would not grow because pollen wouldn't move between flowers, and explains that flowers need bees to make seeds or baby flowers.",
+        "meets": "Student correctly predicts that flowers would not grow or would have a problem without bees, with a basic explanation of why.",
+        "approaching": "Student makes a prediction about what would happen to flowers without bees but with incomplete or partially unclear reasoning.",
+        "beginning": "Student attempts to answer but provides vague, minimal, or inaccurate predictions about the effect of missing bees on flowers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:39:17.977Z",
+  "cost": 0.004781
+}

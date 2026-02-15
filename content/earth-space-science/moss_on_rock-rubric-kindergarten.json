@@ -1,0 +1,53 @@
+{
+  "title": "Moss on Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the moss is growing on the rock?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations about the moss, such as its color (green), texture (soft/fuzzy), or how it covers parts of the rock, using descriptive words.",
+        "meets": "Student identifies at least two accurate observations about the moss, such as its color or that it is soft/fuzzy, or that it covers the rock.",
+        "approaching": "Student makes one accurate observation about the moss, such as noticing it is green or that it is on the rock, but descriptions lack detail.",
+        "beginning": "Student attempts to respond but provides only vague descriptions like \"it's there\" or uses words that don't match what is visible in the photo."
+      }
+    },
+    {
+      "questionText": "How do you think the moss is able to live on the hard rock?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student offers a thoughtful explanation connecting moss survival to specific features, such as moss being small/able to fit in cracks, getting water from rain, or not needing soil like other plants.",
+        "meets": "Student provides a reasonable explanation for how moss survives on rock, such as mentioning it doesn't need soil or that it gets water, showing basic understanding of moss needs.",
+        "approaching": "Student offers a partial explanation with some accurate thinking, such as mentioning water or that moss is different from other plants, but reasoning is incomplete or unclear.",
+        "beginning": "Student makes a guess or provides an explanation that shows minimal understanding, such as \"the rock helps it grow\" without elaboration."
+      }
+    },
+    {
+      "questionText": "What might happen to this rock after many, many years with moss growing on it?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the rock will break down, crumble, or change over time, and explains why by connecting it to the moss growing or being soft, showing understanding of weathering processes.",
+        "meets": "Student makes a reasonable prediction that the rock will change or break apart over time because of the moss, showing basic cause-and-effect thinking.",
+        "approaching": "Student makes a prediction about the rock changing, but the connection to moss is vague or the reasoning is unclear; may say \"it will get smaller\" without full explanation.",
+        "beginning": "Student makes a vague prediction or one unrelated to the moss growing, such as \"the rock will be different\" with little reasoning provided."
+      }
+    },
+    {
+      "questionText": "Where else have you seen moss growing in nature?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple real locations where moss grows, such as trees, fallen logs, damp shaded areas, or other rocks, showing observation of the natural world.",
+        "meets": "Student identifies at least one realistic place where moss grows, such as on trees, logs, or other outdoor locations, demonstrating personal observation or knowledge.",
+        "approaching": "Student identifies a location that could have moss but provides minimal detail, or the answer is somewhat unclear (e.g., \"outside\" or \"in the woods\" without specifics).",
+        "beginning": "Student provides a response that is vague, made-up, or unrelated to realistic moss habitats, such as \"on cars\" or \"in my house.\""
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:25:07.968Z",
+  "cost": 0.004942
+}

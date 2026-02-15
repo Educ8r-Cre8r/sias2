@@ -1,0 +1,53 @@
+{
+  "title": "Fall Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What changes do you see happening to the leaves in this picture, and why do you think that's happening?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple leaf color changes (red, yellow, orange, brown) and explains that leaves change color in fall because trees stop making green food/chlorophyll as it gets colder and days get shorter.",
+        "meets": "Student describes that leaves have changed colors (such as turning red, yellow, or orange) and provides a basic explanation that this happens in fall or when it gets colder.",
+        "approaching": "Student notices that leaves are different colors but provides only a vague reason (\"they just change\" or \"it's fall\") without explaining why the color change occurs.",
+        "beginning": "Student makes a minimal observation about leaves being colorful or on the ground with little to no explanation of why the changes are happening."
+      }
+    },
+    {
+      "questionText": "If you collected these leaves and kept them in a warm, sunny place, do you think they would change back to green? Why or why not?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the leaves would not turn green again and explains that once leaves fall from the tree and the season changes, the leaf's life cycle is complete and warmth alone cannot reverse natural seasonal changes.",
+        "meets": "Student predicts the leaves would not turn green again and provides a reasonable explanation such as \"the leaf is already dead\" or \"it's no longer connected to the tree.\"",
+        "approaching": "Student makes a prediction (yes or no) but provides an incomplete or partially accurate reason, such as \"maybe heat could help\" without recognizing the leaf is no longer part of a living tree.",
+        "beginning": "Student makes a prediction with no explanation or provides an explanation that shows little understanding of how leaves function or seasonal cycles."
+      }
+    },
+    {
+      "questionText": "Where do you think all these leaves came from, and what do you think happens to them after they fall on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains leaves came from trees in the yard and describes what happens after they fall, such as decomposition, becoming soil, being raked up, or providing nutrients back to the ground.",
+        "meets": "Student correctly identifies that leaves came from trees and mentions one thing that happens to fallen leaves, such as they break down, get raked up, or help plants grow.",
+        "approaching": "Student identifies leaves come from trees but provides only vague ideas about what happens afterward (\"they go away\" or \"they stay there\") without clear explanation.",
+        "beginning": "Student provides a minimal or unclear answer about where leaves come from or makes little attempt to explain what happens to them."
+      }
+    },
+    {
+      "questionText": "How is fall different from summer? What would you expect to see in this same yard during summer?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences between fall and summer (leaf color, temperature, amount of leaves on trees) and predicts summer features such as green leaves on trees, greener grass, or more people playing outside.",
+        "meets": "Student identifies at least two differences between fall and summer and makes reasonable predictions about what the summer yard would look like, such as green leaves on trees or full, leafy branches.",
+        "approaching": "Student identifies one or two differences between seasons but predictions about summer are vague or partially accurate, such as \"it would be hotter\" without describing what the yard would look like.",
+        "beginning": "Student provides minimal or unclear comparisons between seasons and makes little attempt to predict summer yard features."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:41:08.429Z",
+  "cost": 0.005295
+}

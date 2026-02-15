@@ -1,0 +1,53 @@
+{
+  "title": "Flower Parts",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the yellow, dusty powder (pollen) on the stamen is used for?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that pollen is used to make seeds and describes how pollen from one flower needs to reach another flower to create new plants, showing understanding of pollination's purpose.",
+        "meets": "Student correctly identifies that pollen helps make seeds or is needed to grow new flowers, demonstrating basic understanding of pollen's reproductive function.",
+        "approaching": "Student mentions pollen is important for flowers or plants but provides vague or incomplete reasoning about its specific purpose.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'it makes the flower pretty' or does not explain the function of pollen."
+      }
+    },
+    {
+      "questionText": "Why do you think flowers are so colorful and pretty instead of being plain green like leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that colorful flowers attract insects and animals to help spread pollen, and connects this to the flower's need to make seeds, showing understanding of the relationship between flower appearance and pollination.",
+        "meets": "Student correctly identifies that bright colors attract insects or animals to the flower, demonstrating understanding that color serves a purpose beyond decoration.",
+        "approaching": "Student suggests that colors attract insects or animals but provides incomplete reasoning or lacks clarity about why this is important for the plant.",
+        "beginning": "Student provides a response focused only on appearance (e.g., 'because they look nice') without connecting color to function or pollination."
+      }
+    },
+    {
+      "questionText": "If there were no bees or butterflies to visit flowers, what might happen to the plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without bees or butterflies, pollen would not be spread between flowers, so the plants could not make seeds and new plants would not grow, showing clear understanding of pollinator importance.",
+        "meets": "Student correctly predicts that plants would not make seeds or new plants would not grow without bees and butterflies visiting flowers.",
+        "approaching": "Student recognizes that something negative would happen to plants without pollinators but provides incomplete or unclear reasoning about the connection to seeds or reproduction.",
+        "beginning": "Student provides a vague response such as 'plants would die' or 'something bad would happen' without explaining why or how bees and butterflies help plants."
+      }
+    },
+    {
+      "questionText": "How do you think the pollen gets from one flower to another flower that might be far away?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple ways pollen travels, such as on the bodies of insects, by wind, or by other animals, and explains how these methods help distant flowers receive pollen.",
+        "meets": "Student correctly identifies at least one way pollen travels between flowers, such as on bees, butterflies, or by wind, demonstrating understanding of pollen dispersal.",
+        "approaching": "Student suggests a method of pollen movement (insects or wind) but provides limited detail or unclear explanation of how the process works.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'it just moves' or 'magic,' without describing a realistic method of pollen transfer."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:49:30.565Z",
+  "cost": 0.00496
+}

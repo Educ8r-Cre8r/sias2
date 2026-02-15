@@ -1,0 +1,53 @@
+{
+  "title": "Gulf of Mexico",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the beach and the underwater drop-off in 10 years if waves keep hitting the shore the same way?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that waves will erode the beach, moving sand away and possibly making the drop-off steeper or deeper, and explains that this happens because waves have energy that breaks down and carries away sediment over time.",
+        "meets": "Student predicts that the beach will get smaller or the drop-off will change, and provides a basic explanation that waves are causing the erosion.",
+        "approaching": "Student makes a prediction about change but provides incomplete reasoning, such as stating the beach will erode without explaining how waves cause this, or mentioning only one aspect of the change.",
+        "beginning": "Student makes a vague prediction (\"it will change\") with little to no explanation, or provides an inaccurate statement about wave effects on the beach."
+      }
+    },
+    {
+      "questionText": "Why do you think the warning sign is there? What danger does the drop-off create for swimmers?",
+      "bloomsLevel": "Comprehend",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sign warns swimmers about the sudden deep water and describes multiple specific dangers, such as swimmers stepping off into deep water unexpectedly, difficulty swimming back to shore, or getting caught in strong currents near the drop-off.",
+        "meets": "Student identifies that the sign warns about deep water and explains that swimmers could step off into deep water and have difficulty, or describes one clear danger to swimmers.",
+        "approaching": "Student recognizes the sign is a warning but provides an incomplete or partially accurate explanation of the danger, such as mentioning the drop-off exists without fully explaining why it's dangerous for swimmers.",
+        "beginning": "Student provides a minimal response such as \"it warns people\" or \"so you don't get hurt\" without explaining what the specific danger of the drop-off is."
+      }
+    },
+    {
+      "questionText": "How might a big storm change the rate of erosion at this beach? Why would that happen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a big storm would increase erosion rate due to larger, more powerful waves and stronger currents that carry away more sand and sediment, and may mention that heavier rainfall or wind also contributes to faster beach erosion.",
+        "meets": "Student correctly identifies that a storm would increase erosion rate and provides a reasonable explanation such as bigger waves or stronger water movement.",
+        "approaching": "Student recognizes that a storm would change erosion but provides incomplete reasoning, such as stating storms cause faster erosion without explaining why, or mentioning only that waves are bigger.",
+        "beginning": "Student gives a vague response such as \"storms change things\" or provides an inaccurate explanation of how storms affect erosion rate."
+      }
+    },
+    {
+      "questionText": "If you wanted to stop the beach from eroding, what ideas do you have? What problems might your solution create?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a realistic erosion-prevention solution (such as a seawall, groins, or adding sand) and identifies at least two potential problems, such as cost, environmental impacts, or unintended effects on nearby beaches.",
+        "meets": "Student suggests a reasonable erosion-control idea and identifies at least one potential problem or drawback to the solution.",
+        "approaching": "Student proposes an idea to reduce erosion but either describes it vaguely, identifies only minor problems, or the solution lacks clear connection to preventing erosion.",
+        "beginning": "Student offers a minimal or unclear idea with little explanation, or fails to consider any problems that might result from the proposed solution."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:42:51.288Z",
+  "cost": 0.005431
+}

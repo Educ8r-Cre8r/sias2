@@ -1,0 +1,53 @@
+{
+  "title": "Amphibian",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "If a tree frog lost its sticky toe pads, how would its life change?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific consequences (e.g., inability to climb trees, loss of hunting ability, increased predation risk) and explains how losing this adaptation would affect the frog's survival and habitat use.",
+        "meets": "Student explains that the frog would have difficulty climbing and surviving in trees, with at least one clear consequence of losing this important adaptation.",
+        "approaching": "Student recognizes that sticky toe pads help the frog climb but provides only vague or incomplete explanation of how losing them would affect the frog's life.",
+        "beginning": "Student provides a minimal response acknowledging toe pads are important but offers little to no explanation of the consequences of losing them."
+      }
+    },
+    {
+      "questionText": "Why do you think tree frogs are gray or brown instead of bright red like some other frogs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains camouflage as a survival adaptation and discusses how gray/brown coloring helps tree frogs blend with bark and branches to hide from predators or sneak up on prey.",
+        "meets": "Student correctly identifies that the frog's coloring helps it hide or blend in with its tree environment (camouflage), supporting survival.",
+        "approaching": "Student mentions that the frog's color helps it hide or that it blends with trees but lacks clear connection to survival or camouflage concepts.",
+        "beginning": "Student provides a vague response about color or briefly states frogs are different colors without explaining the advantage of gray/brown coloring."
+      }
+    },
+    {
+      "questionText": "How is a tree frog's adaptation different from a swimming frog's adaptations, and why might each need different body features?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies specific adaptations for each frog type (e.g., sticky toe pads vs. webbed feet) and explains how each adaptation suits its environment and lifestyle, demonstrating understanding of structure-function relationships.",
+        "meets": "Student correctly describes at least two different adaptations (tree frog's toe pads for climbing; swimming frog's webbed feet for water) and explains why each is suited to its environment.",
+        "approaching": "Student identifies some differences between tree and swimming frogs but provides incomplete or partially accurate explanations of why the adaptations are different.",
+        "beginning": "Student mentions that frogs have different features but provides minimal or vague reasoning about why the adaptations differ between environments."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal that has a sticky or gripping adaptation? How is it similar to the frog's toe pads?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a relevant animal (e.g., gecko, tree-climbing mammal, insect) and provides specific details about how both the animal's adaptation and frog's toe pads function similarly to help grip or climb surfaces.",
+        "meets": "Student identifies an appropriate animal with a gripping or sticky adaptation and makes a reasonable comparison to the frog's toe pads.",
+        "approaching": "Student names an animal with a gripping adaptation but provides only basic or unclear comparison to the frog's toe pads.",
+        "beginning": "Student provides a vague or off-topic animal example with little connection to sticky or gripping adaptations, or minimal explanation of similarities."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:09:10.261Z",
+  "cost": 0.00515
+}

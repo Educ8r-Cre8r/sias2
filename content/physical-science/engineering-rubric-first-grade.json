@@ -1,0 +1,53 @@
+{
+  "title": "Engineering",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What happens when you stack the blocks in a tall, thin tower versus a short, wide tower? Which feels more steady?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that a short, wide tower is more steady because it has a wider base, and accurately describes what happens when a tall, thin tower tips over or wobbles. Student uses words like \"balance\" or \"base\" to support their explanation.",
+        "meets": "Student correctly identifies that the short, wide tower is more steady and provides a reasonable explanation involving the width or base of the tower.",
+        "approaching": "Student identifies that one tower is more steady than the other but provides an incomplete or partially unclear explanation of why the difference exists.",
+        "beginning": "Student provides a response about the towers but shows minimal understanding of stability, such as only describing appearance without explaining steadiness or balance."
+      }
+    },
+    {
+      "questionText": "Why do you think the wheels help the vehicle move? What would happen if we used blocks instead of wheels?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wheels roll or spin to help the vehicle move smoothly, and clearly predicts that blocks would not roll and the vehicle would not move as easily or at all. Student may mention that wheels are round or that blocks are square/have edges.",
+        "meets": "Student explains that wheels help the vehicle move and predicts that blocks would make it harder to move, with a basic explanation of the difference.",
+        "approaching": "Student recognizes that wheels and blocks are different and that this affects movement, but the explanation is unclear or incomplete.",
+        "beginning": "Student provides a minimal response that shows little understanding of how wheels function differently from blocks, or does not attempt to explain the comparison."
+      }
+    },
+    {
+      "questionText": "If you wanted to build a bridge that goes across the table, what would you need to think about before you start building?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple important planning considerations, such as how long the bridge needs to be, whether it needs to be strong enough to hold weight, how tall it needs to be, or what materials to use. Student demonstrates thoughtful pre-building planning.",
+        "meets": "Student identifies at least two important considerations for building a bridge, such as length and strength, or how it will connect across the table.",
+        "approaching": "Student identifies one consideration for building a bridge, or provides ideas that are partially relevant but incomplete (such as mentioning materials but not function).",
+        "beginning": "Student provides a vague or minimal response, such as naming one simple material without explaining its purpose, or shows little evidence of planning before building."
+      }
+    },
+    {
+      "questionText": "Can you tell me the story of how you built your structure? What did you try first? What changed?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a clear sequence of building steps with specific details about what was tried first, what problem occurred, and what changed to fix it. Student explains why the changes were made.",
+        "meets": "Student describes the building process in order and mentions at least one thing that was tried first and at least one change that was made during building.",
+        "approaching": "Student describes some of the building process but the sequence is unclear, or mentions trying something but does not clearly explain what changed or why.",
+        "beginning": "Student provides minimal details about the building process, such as naming only one or two blocks used, without explaining sequence or changes made."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:09:26.263Z",
+  "cost": 0.005109
+}

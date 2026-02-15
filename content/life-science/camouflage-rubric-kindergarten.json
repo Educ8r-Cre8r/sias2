@@ -1,0 +1,53 @@
+{
+  "title": "Camouflage",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why is it hard to see the snake in this picture?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the snake's brown and tan colors match the wood, bark, and leaves around it, and uses the word 'blend' or 'match' to describe how this makes the snake hard to spot.",
+        "meets": "Student identifies that the snake's color is similar to the wood and leaves, making it difficult to see in the picture.",
+        "approaching": "Student notices the snake is hard to see or mentions the snake's color, but doesn't clearly connect the color to the background.",
+        "beginning": "Student gives a vague response like 'it's hard to see' or 'it's brown' without explaining the connection between the snake and its surroundings."
+      }
+    },
+    {
+      "questionText": "How does the snake's color help it stay safe?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that because the snake blends in with its surroundings, other animals have trouble seeing it, so predators cannot find it as easily to hurt it.",
+        "meets": "Student explains that the snake's brown color helps it hide so other animals cannot see it and eat it.",
+        "approaching": "Student says the color helps the snake hide or stay safe, but the explanation is unclear or incomplete.",
+        "beginning": "Student provides a minimal response like 'it helps it' or 'so animals don't see it' without clear explanation of the connection to safety."
+      }
+    },
+    {
+      "questionText": "If we moved this snake to a snowy place, would its brown color still help it hide? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly states the brown color would not help in snow and explains that the snake would stand out because brown doesn't match white snow, making the snake easy to see and unsafe.",
+        "meets": "Student correctly answers that the brown color would not help it hide in snow and gives a simple reason like 'brown doesn't match white' or 'you can see it in the snow.'",
+        "approaching": "Student attempts to answer the question but the reasoning is incomplete or partially correct, such as saying it wouldn't work but not explaining why clearly.",
+        "beginning": "Student gives an unclear or incorrect answer, such as 'yes it would hide' or provides no clear reasoning about color matching."
+      }
+    },
+    {
+      "questionText": "Can you think of other animals that hide using their colors? What colors are they?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals that use camouflage and describes the color(s) of each animal, explaining how at least one color helps it blend into its habitat.",
+        "meets": "Student names at least one animal that hides with color and correctly identifies its color(s).",
+        "approaching": "Student names an animal but is unsure about its color, or gives an animal that doesn't clearly use color camouflage as an example.",
+        "beginning": "Student provides a vague response, names an animal without describing its color, or struggles to think of relevant examples."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:46:37.155Z",
+  "cost": 0.004774
+}

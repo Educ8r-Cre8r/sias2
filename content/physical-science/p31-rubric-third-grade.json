@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that tells you wind is present in this picture?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence (e.g., flag is waving/rippling, flag is not hanging straight down, flag fabric appears to be moving) and explains how each shows wind is present.",
+        "meets": "Student identifies at least one clear piece of evidence that wind is present, such as the flag waving or the flag not hanging straight, with a brief explanation.",
+        "approaching": "Student notices the flag is moving or not straight but provides limited explanation of why this shows wind is present, or gives vague observations.",
+        "beginning": "Student makes a simple observation about the flag but does not clearly connect it to wind, or provides minimal detail about what they see."
+      }
+    },
+    {
+      "questionText": "How might the flag look different on a day with no wind?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple specific differences (e.g., flag would hang straight down, no ripples or waves in the fabric, flag would be limp, fabric would be smooth) and explains why wind causes the current appearance.",
+        "meets": "Student describes at least two ways the flag would look different without wind, such as hanging straight down or having no waves, with reasonable explanations.",
+        "approaching": "Student describes one difference the flag might have without wind but explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal response or description that does not clearly show understanding of how wind affects the flag's appearance."
+      }
+    },
+    {
+      "questionText": "What other objects around our school might move the same way this flag moves?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names three or more school objects that would move in wind (e.g., leaves on trees, curtains in open windows, hair, clothing, playground equipment) and explains that wind makes all of them move or wave.",
+        "meets": "Student names at least two school-related objects that would move with wind in a similar way to the flag, showing understanding that wind moves other things too.",
+        "approaching": "Student names one or two objects that might move with wind but explanation is vague or the connection to wind movement is not clearly explained.",
+        "beginning": "Student provides minimal examples or shows uncertainty about what objects move with wind; response lacks clear connection to the flag's movement."
+      }
+    },
+    {
+      "questionText": "If you wanted to test how strong the wind is, what materials could you use and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple appropriate materials (e.g., wind sock, feather, lightweight fabric strips, paper, ribbon) and explains why each would work to show wind strength (e.g., stronger wind makes it move more, lighter materials respond better to weak wind).",
+        "meets": "Student suggests at least one practical material and explains why it would help measure wind strength, showing understanding that objects move more with stronger wind.",
+        "approaching": "Student suggests a material that could be used but explanation for why it would work is incomplete or somewhat unclear.",
+        "beginning": "Student suggests a material but cannot explain why it would help test wind strength, or suggests an impractical material with minimal reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:22:21.845Z",
+  "cost": 0.004854
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Flower Parts",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Looking at the stamen in this close-up, what do you think the orange powder (pollen) is supposed to do?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that pollen is needed to make seeds and explains that it must travel to another flower's pistil (female part) to fertilize it, demonstrating understanding of pollination as a reproductive process.",
+        "meets": "Student correctly states that pollen helps make seeds or travels to other flowers to create new plants, showing basic understanding of pollen's reproductive role.",
+        "approaching": "Student recognizes that pollen is important for flowers or plants but provides incomplete reasoning, such as stating pollen helps flowers without explaining reproduction or seed formation.",
+        "beginning": "Student provides a vague response such as 'pollen makes flowers' or makes an inaccurate statement with little connection to reproduction or plant growth."
+      }
+    },
+    {
+      "questionText": "Why do you think flowers evolved to be so colorful and fragrant when they could just rely on the wind to spread pollen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that bright colors and scent attract insects like bees and butterflies, which are more reliable pollinators than wind, and may discuss how this is more efficient or beneficial than random wind pollination.",
+        "meets": "Student identifies that colors and scent attract insects that help spread pollen, demonstrating understanding of pollinator attraction as an advantage over wind pollination alone.",
+        "approaching": "Student mentions that colors or scent attract animals or insects but may not clearly explain how this helps with pollen spreading or pollination compared to wind.",
+        "beginning": "Student provides a minimal response such as 'flowers are pretty' or 'they smell nice' without connecting these traits to pollination or insect attraction."
+      }
+    },
+    {
+      "questionText": "If all the bees and butterflies disappeared from your area, what would happen to flowers and the plants that depend on them?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that many flowers would not be pollinated, resulting in fewer seeds and new plants, and may discuss impacts on food sources, ecosystems, or explain which plants might survive through wind or self-pollination.",
+        "meets": "Student predicts that flowers would have trouble making seeds or that fewer plants would grow, showing understanding of pollinator dependence and basic ecosystem consequences.",
+        "approaching": "Student recognizes that the disappearance would negatively affect flowers or plants but provides vague reasoning or incomplete connection to pollination and seed production.",
+        "beginning": "Student provides a minimal or unclear response such as 'flowers would die' without explaining why or the role pollinators play."
+      }
+    },
+    {
+      "questionText": "How is the way flowers reproduce similar to or different from the way animals reproduce?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that both require male and female parts to create offspring and may note that flowers need pollinators to combine pollen and ovules while animals can move to find mates, or discuss other relevant similarities and differences in detail.",
+        "meets": "Student identifies at least one similarity (both have male/female parts or both create new organisms) and one difference (flowers need pollinators or don't move to find mates), demonstrating solid comparative thinking.",
+        "approaching": "Student mentions some similarities or differences but reasoning is incomplete or partially inaccurate, such as describing only one aspect without clear comparison.",
+        "beginning": "Student provides vague statements such as 'they're different' or 'they both make babies' without specific details about reproductive structures or processes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:49:46.753Z",
+  "cost": 0.005314
+}

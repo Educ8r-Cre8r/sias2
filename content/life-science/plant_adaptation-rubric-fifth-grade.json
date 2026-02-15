@@ -1,0 +1,53 @@
+{
+  "title": "Plant Adaptation",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think a plant would \"spend energy\" growing thorns instead of using that energy to grow more leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that thorns are a defense adaptation that protects the plant from being eaten, and recognizes that protecting existing leaves/plant is more important for survival than growing extra leaves that could be lost to herbivores.",
+        "meets": "Student identifies that thorns protect the plant from animals eating it and explains this is a worthwhile trade-off, though reasoning may be general.",
+        "approaching": "Student recognizes thorns are for protection but provides incomplete reasoning about why protection is important or why a plant would choose this strategy over growing more leaves.",
+        "beginning": "Student makes a vague statement about thorns being for defense or mentions eating/animals, but provides minimal explanation of the survival benefit."
+      }
+    },
+    {
+      "questionText": "If an animal kept getting hurt by thorns and stopped eating from that plant, how might this help the plant survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the plant's tissues, leaves, and branches are protected from damage, allowing the plant to conserve energy, grow, and reproduce successfully without losing parts to herbivores.",
+        "meets": "Student describes that the plant is protected from being eaten and can survive and grow because its leaves or branches are not damaged.",
+        "approaching": "Student identifies that the plant benefits from not being eaten but explanation is vague or incomplete about how this helps the plant's survival or growth.",
+        "beginning": "Student provides a minimal response such as \"the plant won't get hurt\" or \"the animal stops eating it\" without connecting this to plant survival."
+      }
+    },
+    {
+      "questionText": "What other animals or situations might these thorns protect the plant from besides being eaten?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple protective functions such as protection from climbing animals, weather damage (like wind breaking branches), accidental injury from movement through dense forest, or protection of young growth; responses show sophisticated understanding of environmental threats.",
+        "meets": "Student identifies at least one additional protective function beyond herbivory, such as animals scratching/climbing the plant, or prevention of branch breakage.",
+        "approaching": "Student attempts to identify an additional protective function but reasoning is unclear or the explanation is only partially accurate.",
+        "beginning": "Student repeats that thorns protect from eating or provides a response unrelated to plant protection or adaptation."
+      }
+    },
+    {
+      "questionText": "How is a thorn similar to a porcupine's quills, and how does this show that different animals use similar strategies to stay safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies that both thorns and quills are sharp, pointed structures that discourage predators/threats through pain or injury, and explains that this demonstrates convergent adaptation—different organisms solving the same survival problem (defense) using similar physical strategies.",
+        "meets": "Student identifies that both thorns and quills are sharp defensive structures that hurt animals trying to attack, showing that plants and animals can use similar methods for protection.",
+        "approaching": "Student recognizes that thorns and quills are both sharp and used for protection, but makes limited connection between the two or doesn't clearly explain that this represents a shared survival strategy.",
+        "beginning": "Student states thorns and quills are similar because they are both sharp or pointy, with little explanation of defensive function or strategy comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:21:43.430Z",
+  "cost": 0.005144
+}

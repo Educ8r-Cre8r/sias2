@@ -1,0 +1,53 @@
+{
+  "title": "Nurse Log",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens inside this old log?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple processes occurring inside the log (decomposition, breaking down, tiny creatures living there, becoming crumbly/soft) using specific observations from the photo.",
+        "meets": "Student explains that the log is breaking down or decaying and mentions at least one thing that happens inside it, such as creatures living in it or wood becoming soft.",
+        "approaching": "Student recognizes something is happening to the log but provides vague or partially accurate description (e.g., 'it's getting bad' or 'bugs are in it') with limited detail.",
+        "beginning": "Student provides minimal response with little connection to decomposition or change (e.g., 'stuff happens' or 'nothing') or shows uncertainty about what occurs inside the log."
+      }
+    },
+    {
+      "questionText": "Why might a baby plant like to grow on this dead log instead of on the hard ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the soft, crumbly log is easier for roots to grow through than hard ground and may mention the log provides nutrients or moisture for the baby plant.",
+        "meets": "Student identifies that the rotting log is softer or easier for a plant to grow in compared to hard ground, showing understanding of texture and plant needs.",
+        "approaching": "Student recognizes the log is different from ground but reasoning is incomplete; may say the log is 'softer' or 'easier' without clear explanation of why this helps plants grow.",
+        "beginning": "Student provides a response with minimal understanding, such as 'plants like logs' or 'the ground is hard' without connecting the two ideas."
+      }
+    },
+    {
+      "questionText": "If we came back to look at this log in two years, what changes do you think we might see?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple realistic changes (log becomes more crumbly, more plants grow on it, more holes appear, log disappears into the ground) based on the decomposition process shown in the photo.",
+        "meets": "Student makes a reasonable prediction of at least one change, such as the log becoming smaller, more broken down, or having more plants growing on it.",
+        "approaching": "Student makes a prediction but it is vague or partially connected to decomposition (e.g., 'it will change' or 'more stuff will happen') without specific details.",
+        "beginning": "Student's prediction shows minimal understanding of change over time; response may be unclear, irrelevant, or show uncertainty (e.g., 'I don't know' or unrelated answer)."
+      }
+    },
+    {
+      "questionText": "How is this dead log like a helper or nurse for baby plants? What does the nurse log give to the baby plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the log helps babies plants by providing a soft place to grow, nutrients, or moisture and uses the 'nurse' analogy to show the log cares for or supports young plants.",
+        "meets": "Student identifies at least one way the log helps baby plants (soft soil, food/nutrients, or a good home) and connects this to why it is called a 'nurse log.'",
+        "approaching": "Student recognizes the log helps plants in some way but explanation is incomplete; may mention a helping function without fully connecting it to the nurse metaphor.",
+        "beginning": "Student attempts to answer but provides vague or minimal reasoning (e.g., 'it helps them' or 'nurses are good') without clear understanding of the relationship."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:32:50.973Z",
+  "cost": 0.005345
+}

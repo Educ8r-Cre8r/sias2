@@ -1,0 +1,53 @@
+{
+  "title": "Rain Gauge",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How would we know how much rain fell during a storm if we didn't have a rain gauge?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple alternative methods (comparing water levels in containers, observing puddle depths, measuring water collected in buckets) and explains why each method would be less accurate or reliable than a rain gauge.",
+        "meets": "Student describes at least two reasonable alternative methods for measuring rainfall, such as using a bucket or observing puddles, and acknowledges these methods would work but be less precise.",
+        "approaching": "Student suggests one alternative method (like using a bucket or puddle) but provides incomplete explanation of how it would work or why it might be less reliable.",
+        "beginning": "Student provides a vague response such as 'we could look outside' or 'we could watch it rain' without describing a measurable method for determining rainfall amount."
+      }
+    },
+    {
+      "questionText": "Why do you think scientists measure rainfall in the same spot every day instead of just measuring it once?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that daily measurements reveal patterns over time, allow scientists to track weather changes, and understand long-term climate trends; student recognizes that one measurement cannot show rainfall variation or predict future conditions.",
+        "meets": "Student explains that measuring every day helps scientists track how much rain falls over time and notice patterns or changes in rainfall amounts.",
+        "approaching": "Student recognizes that measuring multiple times is better than once but provides incomplete reasoning, such as 'it gives more information' without explaining why tracking patterns matters.",
+        "beginning": "Student provides a minimal response such as 'scientists like to measure' or restates the question without explaining the scientific purpose of daily measurements."
+      }
+    },
+    {
+      "questionText": "If it rained 2 inches last week and 1 inch this week, what could we predict about next week's rainfall, and why might our prediction be wrong?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student makes a reasonable prediction (rainfall is decreasing or will be less than 1 inch) based on the trend, and identifies multiple factors that could make the prediction wrong, such as weather patterns, seasons, or climate variability affecting rainfall unpredictably.",
+        "meets": "Student makes a prediction based on the downward trend (less than 1 inch expected) and identifies at least one reason why the prediction might be incorrect, such as unexpected weather changes.",
+        "approaching": "Student makes a prediction but provides weak reasoning about the trend, or identifies only that 'weather is unpredictable' without explaining specific factors that could change rainfall patterns.",
+        "beginning": "Student makes a prediction with little or no connection to the data shown, or claims predictions cannot be made without attempting to explain why."
+      }
+    },
+    {
+      "questionText": "How does the amount of rain we collect in our gauge help us understand the water cycle?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student connects rainfall measurements to multiple water cycle stages (precipitation, collection, evaporation) and explains how observing rainfall amounts helps track water movement through the environment and its role in Earth's systems.",
+        "meets": "Student explains that the rain gauge measures precipitation and describes how this connects to the water cycle, such as water falling from clouds and collecting on Earth's surface.",
+        "approaching": "Student mentions the water cycle and rain gauge but makes incomplete connections, such as naming water cycle steps without explaining how rainfall measurements relate to them.",
+        "beginning": "Student provides a vague response such as 'rain is part of the water cycle' without explaining how measuring it helps scientists understand the water cycle."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:06:47.111Z",
+  "cost": 0.005305
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about this bug's body parts?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (such as wings, eyes, legs, body) with specific descriptive words like \"clear wings\" or \"big eyes.\"",
+        "meets": "Student identifies two body parts of the cicada accurately, such as wings and eyes or legs and body.",
+        "approaching": "Student identifies one body part of the cicada, or mentions multiple parts but with unclear or partially inaccurate descriptions.",
+        "beginning": "Student makes a vague observation (\"it has stuff\") or identifies body parts of other bugs instead of the cicada."
+      }
+    },
+    {
+      "questionText": "How do you think this cicada uses its wings?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wings help the cicada fly or move, and adds a reason why flying might be important (like getting food, escaping danger, or finding others).",
+        "meets": "Student correctly explains that the cicada uses its wings to fly or move from place to place.",
+        "approaching": "Student mentions wings and flight or movement, but the explanation is unclear or incomplete (like \"wings go fast\" without explaining the purpose).",
+        "beginning": "Student makes a guess unrelated to flying or movement, or simply repeats that the bug has wings without explaining use."
+      }
+    },
+    {
+      "questionText": "Why might the cicada choose to sit on this tree branch?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides two or more reasons, such as resting in the sun, finding food on the tree, or staying safe from predators on a high branch.",
+        "meets": "Student gives one logical reason, such as the tree provides food, the branch is a safe place to rest, or the bug likes to be in the sun.",
+        "approaching": "Student attempts to answer but gives a reason that is vague (\"bugs like trees\") or only partially connected to the cicada's needs.",
+        "beginning": "Student provides no clear reason or suggests an unrealistic answer (like \"the bug is sleeping\" without connecting it to the tree branch)."
+      }
+    },
+    {
+      "questionText": "What would happen if there were no trees for cicadas to live on?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that cicadas would have no place to rest or find food, and extends thinking to a consequence like \"the cicadas might die\" or \"they would have to find a different home.\"",
+        "meets": "Student recognizes that cicadas need trees for at least one purpose, such as having a place to sit, finding food, or staying safe.",
+        "approaching": "Student acknowledges that cicadas and trees are connected, but the explanation is incomplete or unclear about what would happen to the cicadas.",
+        "beginning": "Student provides a vague response (\"bad things would happen\") or does not make a clear connection between trees and cicada survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:29:12.636Z",
+  "cost": 0.004581
+}

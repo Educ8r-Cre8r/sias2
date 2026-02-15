@@ -1,0 +1,53 @@
+{
+  "title": "Sound",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the sound if we filled the room with water instead of air?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that sound would travel differently in water, explains that water is denser than air, and may mention that sound would travel faster or that it would sound muffled or different to our ears.",
+        "meets": "Student predicts that sound would change or be different in water and provides a reasonable explanation such as water being thicker/denser than air or sound being harder to hear.",
+        "approaching": "Student predicts a change to the sound but explanation is vague or incomplete (e.g., 'it would sound weird' without explaining why, or mentioning density without clear connection to sound).",
+        "beginning": "Student makes a prediction with minimal or inaccurate reasoning (e.g., 'it would be louder' or no explanation of why sound would change)."
+      }
+    },
+    {
+      "questionText": "How are the sounds from the trumpet and trombone different, and what might cause those differences?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific sound differences (e.g., trumpet is higher/brighter, trombone is lower/fuller) and explains that different instrument shapes, sizes, or how they vibrate cause different pitches or tones.",
+        "meets": "Student identifies that the instruments sound different and explains this is due to the instruments being different sizes or shapes, which affects the sound produced.",
+        "approaching": "Student notices the sounds are different but provides incomplete reasoning (e.g., 'they're different instruments' without explaining how the physical differences affect sound, or mentions size but not how it matters).",
+        "beginning": "Student states the sounds are different with little or no explanation of what causes the differences."
+      }
+    },
+    {
+      "questionText": "If you were designing a new musical instrument, how would you make it produce very high sounds?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a specific design with features that produce high sounds (e.g., shorter tube, smaller size, tighter strings) and explains the relationship between the physical feature and pitch using scientific reasoning about vibrations or air movement.",
+        "meets": "Student describes a reasonable instrument design with at least one feature that would produce high sounds (e.g., make it smaller, use shorter tubes, use thinner materials) with basic explanation.",
+        "approaching": "Student proposes a design idea but explanation of how it produces high sounds is vague or partially correct (e.g., 'make it small' without explaining why, or mentioning vibrations without connecting to pitch).",
+        "beginning": "Student provides a vague design idea with little connection to sound production or pitch (e.g., 'make it shiny' or 'make it bigger')."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that shows energy is being transferred when someone plays an instrument?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple observable signs of energy transfer (e.g., air moving from mouth, metal vibrating, sound traveling, musician's body moving) and explains how each shows energy is being used or transferred.",
+        "meets": "Student identifies at least two observable signs of energy transfer from the photo (e.g., musician blowing air, sound being produced, instrument moving/vibrating) that demonstrate energy is involved.",
+        "approaching": "Student identifies one observable sign of energy transfer (e.g., 'they're blowing air' or 'we hear sound') with limited explanation of how this shows energy transfer.",
+        "beginning": "Student provides vague observations with minimal connection to energy transfer (e.g., 'the instruments are shiny' or 'they're playing music')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:01:08.814Z",
+  "cost": 0.00546
+}

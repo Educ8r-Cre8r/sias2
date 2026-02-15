@@ -1,0 +1,53 @@
+{
+  "title": "Buoyancy",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this heavy steel ship floats while a small steel nail would sink?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the ship's large shape spreads its weight over a bigger area, making it less dense than water, and may reference the hollow interior or compare how the same material behaves differently based on design.",
+        "meets": "Student correctly identifies that the ship's size or shape helps it float, and may mention that the ship is hollow inside or that spreading weight helps it stay up.",
+        "approaching": "Student recognizes that the ship is bigger than a nail or mentions size as a factor, but reasoning about why size matters for floating is unclear or incomplete.",
+        "beginning": "Student makes a simple observation like \"the ship is bigger\" or \"it's made to float\" without explaining the connection between shape, size, and floating."
+      }
+    },
+    {
+      "questionText": "What would happen to the ship if it took on too much water in its compartments?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the ship would sink and explains that water added to the compartments increases the ship's weight and density, making it heavier than the water it displaces.",
+        "meets": "Student correctly predicts the ship would sink and provides a simple explanation that more water makes it heavier or too heavy to float.",
+        "approaching": "Student predicts the ship would sink but the explanation is vague, such as \"it would go down\" without clear reasoning about weight or water displacement.",
+        "beginning": "Student's prediction is unclear, incorrect, or unsupported by any explanation of cause and effect."
+      }
+    },
+    {
+      "questionText": "How might engineers test different ship designs before building full-size vessels?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes using scale models or computer simulations and explains that testing smaller versions helps engineers find problems safely and save money before building the real ship.",
+        "meets": "Student suggests testing with models or smaller versions and recognizes this helps engineers check if designs work before building full-size ships.",
+        "approaching": "Student mentions testing or using models but does not clearly explain why this method is useful or how it connects to ship design.",
+        "beginning": "Student provides a minimal or vague response such as \"they test it\" without describing a method or explaining its purpose."
+      }
+    },
+    {
+      "questionText": "What other objects in nature use the same principles that keep ships floating?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple objects like ducks, logs, or fish and explains that they float by displacing water or having shapes and structures that keep them lighter than water.",
+        "meets": "Student names one or two objects from nature that float, such as a duck or leaf, and makes a connection to the ship's floating principle.",
+        "approaching": "Student identifies a floating object from nature but does not clearly explain what principle it shares with the ship.",
+        "beginning": "Student names an object but provides no explanation or names something that does not actually float."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:20:11.407Z",
+  "cost": 0.004634
+}

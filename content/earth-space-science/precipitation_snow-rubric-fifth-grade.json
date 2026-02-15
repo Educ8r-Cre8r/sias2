@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Snow",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe happening in this picture, and what questions does it make you wonder about?",
+      "bloomsLevel": "Remember/Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations (snow falling, snow covering surfaces, cold temperature, building/trees present) and asks 2+ thoughtful, scientifically-relevant questions that connect to weather, water cycle, or seasonal changes.",
+        "meets": "Student identifies 2-3 specific observations about snow or weather and asks at least one reasonable question about what is happening in the scene.",
+        "approaching": "Student makes 1-2 basic observations about snow or the scene but questions are vague, off-topic, or missing; limited detail provided.",
+        "beginning": "Student provides minimal or very general observations (e.g., 'it's snowing') with little or no questions, or observations are inaccurate."
+      }
+    },
+    {
+      "questionText": "Why do you think snow falls in winter but rain falls in spring, even though both come from clouds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that temperature is the key difference, specifically that winter is cold enough for precipitation to freeze into snow while spring is warmer so precipitation falls as rain; may mention that clouds contain water vapor in both seasons.",
+        "meets": "Student correctly identifies that temperature/cold weather causes snow in winter and warmer weather causes rain in spring, showing understanding that the same water falls differently based on temperature.",
+        "approaching": "Student recognizes temperature plays a role but explanation is incomplete or partially unclear; may confuse which season is colder or lack detail about how temperature affects precipitation type.",
+        "beginning": "Student's response shows little understanding of why precipitation differs by season; may be inaccurate or only mention that seasons are different without connecting to temperature or precipitation."
+      }
+    },
+    {
+      "questionText": "If you traced a snowflake backward through the water cycle, where would it have come from before it fell as snow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces a complete water cycle pathway backward: snowflake came from clouds → water vapor → evaporation from surface water (ocean, lakes, rivers) or other sources; may mention condensation as the process forming clouds.",
+        "meets": "Student correctly identifies that the snowflake came from clouds and came from water that evaporated from Earth's surface (water bodies or ground); shows understanding of basic water cycle stages.",
+        "approaching": "Student identifies clouds or evaporation but explanation is incomplete; may miss one or more stages of the water cycle or provide unclear reasoning about the cycle's sequence.",
+        "beginning": "Student's response shows minimal understanding of the water cycle; may only mention clouds or water without explaining the cycle, or provides inaccurate information about precipitation origins."
+      }
+    },
+    {
+      "questionText": "How might this snowy landscape change over the next few days or weeks, and what causes those changes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes (snow melts, ground becomes visible, snow may refreeze if temperatures drop, water runs into soil/streams) and explains causes such as temperature warming, sunlight, or continued cold weather with scientific reasoning.",
+        "meets": "Student predicts that snow will melt or accumulate and identifies temperature or sunlight as the cause; shows understanding that weather conditions drive landscape changes.",
+        "approaching": "Student makes a prediction about landscape change but cause explanation is vague or incomplete; may mention weather but lack detail about why changes occur.",
+        "beginning": "Student provides minimal prediction or incorrect information about how the landscape might change; fails to identify or explain what causes changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:43:13.072Z",
+  "cost": 0.005317
+}

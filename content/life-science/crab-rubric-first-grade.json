@@ -1,0 +1,53 @@
+{
+  "title": "Crab",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does the hermit crab use to catch food and move around?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (claws, legs, eyes on stalks) and explains how each one is used for catching food or moving with specific details (e.g., \"claws grab food\" or \"legs help it walk\").",
+        "meets": "Student identifies at least two body parts (such as claws and legs) and states what they do for catching food or movement.",
+        "approaching": "Student identifies one body part used for catching food or movement, but explanation may be incomplete or partially unclear.",
+        "beginning": "Student names a body part but provides little or no explanation of its function, or response is vague."
+      }
+    },
+    {
+      "questionText": "Why do you think the hermit crab carries a shell on its back? What would happen if it didn't have a shell?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the shell provides protection and describes what might happen without it using reasoning (e.g., \"It could get hurt\" or \"Other animals could attack it\"), showing understanding of predators or dangers.",
+        "meets": "Student states the shell protects the crab and provides a reasonable consequence of not having a shell, such as \"it would get hurt\" or \"it wouldn't be safe.\"",
+        "approaching": "Student recognizes the shell has a protective purpose or provides one consequence of not having it, but reasoning may be incomplete or unclear.",
+        "beginning": "Student makes a simple observation about the shell but shows minimal understanding of its purpose or provides an inaccurate response."
+      }
+    },
+    {
+      "questionText": "How is a hermit crab similar to and different from other crabs you might know about?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (legs, claws, eyes) and differences (shell it carries vs. hard shell on body) with specific details, showing clear understanding of what makes a hermit crab unique.",
+        "meets": "Student describes at least one similarity and one difference between a hermit crab and other crabs, such as \"Both have claws but only hermit crabs carry shells.\"",
+        "approaching": "Student identifies either a similarity or a difference, but may lack detail or only partially explains the comparison.",
+        "beginning": "Student attempts a comparison but provides vague or minimal information with limited clarity."
+      }
+    },
+    {
+      "questionText": "If the hermit crab grows too big for its shell, what do you think it should do? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests finding a new shell and explains reasoning with multiple details (e.g., \"It needs a bigger shell to protect its bigger body\" or \"It has to find one big enough to fit in\").",
+        "meets": "Student suggests finding a new, larger shell and provides a reasonable explanation, such as \"because it won't fit in the old one\" or \"to stay protected.\"",
+        "approaching": "Student suggests a solution (finding a new shell) but reasoning is incomplete or partially clear.",
+        "beginning": "Student provides a vague or minimal response with little explanation of why the crab would need to take action."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:40:48.305Z",
+  "cost": 0.004943
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Thermal Energy",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice has changed about the egg after heat was added?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes (egg white changed from clear to white, became solid/firm, yolk stayed yellow) and uses descriptive words to compare raw and cooked appearances.",
+        "meets": "Student accurately describes at least two clear changes in the egg's appearance, such as the white turning white or the texture becoming solid.",
+        "approaching": "Student notices that the egg changed but provides vague descriptions (e.g., 'it looks different') or identifies only one change with limited detail.",
+        "beginning": "Student provides minimal or unclear observation (e.g., 'it changed' or 'it cooked') with little to no specific details about what changed."
+      }
+    },
+    {
+      "questionText": "Why do you think the egg white turned from clear to white?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heat caused the egg white to change and may reference that heat makes materials change their properties, possibly mentioning that the clear liquid became solid.",
+        "meets": "Student correctly identifies that heat caused the change and states that the heat made the egg white turn white, showing basic cause-and-effect understanding.",
+        "approaching": "Student recognizes heat played a role but explanation is unclear or partially correct (e.g., 'heat made it white' without explaining what heat does to materials).",
+        "beginning": "Student provides an incorrect explanation, irrelevant answer, or simply restates the observation without attempting to explain the cause."
+      }
+    },
+    {
+      "questionText": "If we could cool down the cooked egg, do you think it would turn back into a raw egg? Why or why not?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that cooling won't reverse the change, with reasoning that explains some materials change permanently when heat is applied (e.g., 'the egg changed and can't go back' or 'heating changes it forever').",
+        "meets": "Student makes a reasonable prediction (no, it won't change back) and provides a logical reason related to permanent changes caused by heat.",
+        "approaching": "Student makes a prediction but reasoning is incomplete or shows partial understanding (e.g., 'it won't change back' with vague reasoning like 'because').",
+        "beginning": "Student makes an unsupported prediction or provides incorrect reasoning with no connection to how heat changes materials permanently."
+      }
+    },
+    {
+      "questionText": "Where is the heat coming from, and how does it reach the egg?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the flame as the heat source and explains that heat travels from the flame up through the hot pan to cook the egg, showing understanding of heat transfer.",
+        "meets": "Student correctly identifies the flame (or stove/fire) as the heat source and explains that the heat goes through the pan to reach the egg.",
+        "approaching": "Student identifies the flame as the heat source but explanation of how it reaches the egg is unclear or incomplete (e.g., 'the flame heats it' without mentioning the pan).",
+        "beginning": "Student provides minimal or incorrect information about the heat source and heat transfer (e.g., unclear statements or missing key components)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:02:57.626Z",
+  "cost": 0.004943
+}

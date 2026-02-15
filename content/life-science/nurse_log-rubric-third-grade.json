@@ -1,0 +1,53 @@
+{
+  "title": "Nurse Log",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the middle of this log is completely hollow while the outside still has bark?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposers (like fungi, bacteria, or insects) break down the wood from the inside first because it's softer and easier to decay, while the bark protects the outside longer. Student may mention that the hollow middle shows the log has been decomposing for a long time.",
+        "meets": "Student explains that decomposers or 'things that break down wood' work on the inside of the log, making it hollow, and that the bark on the outside protects the log from decaying as quickly.",
+        "approaching": "Student recognizes that something is breaking down the inside of the log and that the bark provides some protection, but explanation lacks clarity about what causes the decomposition or why the inside decays faster.",
+        "beginning": "Student provides a vague response such as 'it rotted' or 'bugs ate it' without explaining why the middle hollowed out differently than the outside, or shows minimal understanding of decay."
+      }
+    },
+    {
+      "questionText": "What do you think happens to all the nutrients in a fallen log over time, and where do they go?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposers break down the log and return nutrients to the soil, which helps plants grow. Student may mention specific nutrients (like nitrogen or minerals) or explain that the nutrients cycle back into the forest ecosystem.",
+        "meets": "Student explains that the nutrients from the log break down and go into the soil to help new plants grow, or that decomposers release nutrients back into the forest.",
+        "approaching": "Student recognizes that nutrients from the log go somewhere and mentions soil or plants, but the explanation of how this happens is incomplete or unclear.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'they disappear' or 'they go away,' without connecting nutrients to soil or plant growth."
+      }
+    },
+    {
+      "questionText": "How might the animals living inside this log depend on the decomposers to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposers break down the wood into soft material that animals can eat, or that decomposers create the habitat by hollowing out the log. Student may mention specific animals (insects, beetles) or that decomposers provide food sources.",
+        "meets": "Student explains that decomposers break down the log, which allows animals to live inside it and/or provides food for animals living there.",
+        "approaching": "Student recognizes that decomposers and animals in the log are connected, but the explanation of how they depend on each other is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal response such as 'decomposers help animals' without explaining how, or shows little understanding of the relationship between decomposers and log-dwelling animals."
+      }
+    },
+    {
+      "questionText": "If we removed all the dead logs from a forest, what problems might the forest plants and animals face?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple impacts, such as: loss of habitat for animals, loss of nutrients returned to soil affecting plant growth, and disappearance of decomposers' food source. Student shows understanding of forest ecosystem relationships.",
+        "meets": "Student identifies at least two problems, such as animals losing homes or plants not getting nutrients from decomposed wood, showing basic understanding of how dead logs support the forest ecosystem.",
+        "approaching": "Student identifies one valid problem (such as animals losing habitat or soil losing nutrients) but lacks detail or understanding of how this affects the whole forest.",
+        "beginning": "Student provides a vague response or identifies an unclear connection to forest problems, showing minimal understanding of why dead logs are important to forest ecosystems."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:33:09.780Z",
+  "cost": 0.005529
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Wind Turbines",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think is pushing the turbine blades around and around?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies wind as the force pushing the blades and explains that moving air makes the blades spin around in a circle.",
+        "meets": "Student identifies wind as what pushes the blades and notes that the blades move or spin.",
+        "approaching": "Student mentions wind or air, but explanation is unclear or incomplete about how it moves the blades.",
+        "beginning": "Student provides a vague response or does not identify wind as the cause of blade movement."
+      }
+    },
+    {
+      "questionText": "Why would people build these big turbines in a flat, open field instead of near trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that open fields have fewer obstacles, so wind can blow freely and move the blades better, while trees would block the wind.",
+        "meets": "Student identifies that wind moves more easily in open spaces or that trees would get in the way of the wind.",
+        "approaching": "Student recognizes that the location matters for wind, but explanation lacks clarity about how trees or open space affects wind movement.",
+        "beginning": "Student gives a minimal or unclear response that does not connect location to wind movement."
+      }
+    },
+    {
+      "questionText": "Can you see the wind? How do we know wind is real if we can't see it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student states we cannot see wind but explains we know it is real because we can see and feel what it does, such as moving the turbine blades or other objects.",
+        "meets": "Student correctly states we cannot see wind but identifies that we can see or feel its effects, like moving the blades.",
+        "approaching": "Student attempts to explain how we know wind exists but reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal response or does not effectively explain how we can detect wind without seeing it."
+      }
+    },
+    {
+      "questionText": "What other things does wind push or move? Have you seen wind moving things outside?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple examples of things wind moves (leaves, branches, flags, kites, hair) and describes observing wind's effects in personal experiences outside.",
+        "meets": "Student provides one or more clear examples of things wind can move, such as leaves or flags.",
+        "approaching": "Student attempts to give examples but responses are vague or incomplete, or only partially accurate.",
+        "beginning": "Student provides minimal examples or a response that does not clearly identify things wind can move."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:15:40.156Z",
+  "cost": 0.004201
+}

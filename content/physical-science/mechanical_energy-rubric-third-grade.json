@@ -1,0 +1,53 @@
+{
+  "title": "Mechanical Energy",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens inside the truck's engine that makes the boom lift go up?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the engine burns fuel to create energy/power and describes how this power is transferred through the truck to move the boom lift up, using accurate mechanical vocabulary.",
+        "meets": "Student correctly identifies that the engine provides power or energy that makes the boom lift move upward, with a basic explanation of the connection between engine and lift.",
+        "approaching": "Student recognizes that the engine is involved in making the boom lift work but provides vague or incomplete reasoning about how the power reaches the lift mechanism.",
+        "beginning": "Student gives a minimal response such as 'the engine makes it go' with little or no explanation of the process or connection to the boom lift."
+      }
+    },
+    {
+      "questionText": "If the boom lift can hold a worker and heavy equipment, but one person couldn't lift those things alone, what is helping make that possible?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that machines (like the boom lift and its mechanical parts) make work easier and explains specifically how simple machines or mechanical advantage help lift heavy objects that humans alone cannot move.",
+        "meets": "Student recognizes that the machine helps make lifting easier and provides a reasonable explanation that machines can do things people cannot do by themselves.",
+        "approaching": "Student acknowledges that the boom lift helps with lifting but offers incomplete reasoning, such as 'it's stronger' without explaining how mechanical systems provide assistance.",
+        "beginning": "Student provides a vague response like 'the machine helps' with no explanation of how or why the machine makes lifting possible."
+      }
+    },
+    {
+      "questionText": "How is the boom lift similar to a seesaw or a simple lever you might use at home?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both use a pivot point or fulcrum to help lift heavy objects and explains that both are simple machines that make work easier by using leverage, with specific examples.",
+        "meets": "Student correctly identifies that the boom lift and a lever/seesaw both help lift or move things using a mechanical principle, with accurate comparison.",
+        "approaching": "Student recognizes some similarity between the boom lift and a lever but provides incomplete or partially accurate reasoning about how they work the same way.",
+        "beginning": "Student attempts comparison but provides minimal or inaccurate details about how the boom lift and a lever are similar."
+      }
+    },
+    {
+      "questionText": "Why do you think the truck needs to stay still and parked while the boom lift is being used?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the truck must be stable and stationary to safely support the weight and position of the boom lift and worker, and describes how movement could cause instability, tipping, or danger.",
+        "meets": "Student correctly identifies that the truck needs to stay still for safety or stability reasons while the boom lift is operating, with a basic explanation.",
+        "approaching": "Student recognizes that the truck should be parked but provides incomplete or unclear reasoning about why stability is important during boom lift use.",
+        "beginning": "Student suggests the truck stays parked with minimal explanation or reasoning about safety and balance."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:44:28.127Z",
+  "cost": 0.004887
+}

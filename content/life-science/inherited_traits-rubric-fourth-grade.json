@@ -1,0 +1,53 @@
+{
+  "title": "Inherited Traits",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What traits do you notice that the baby birds share with the adult bird?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific inherited traits (such as beak shape, eye color, feather pattern, or body size) with clear descriptions of how chicks resemble the parent bird.",
+        "meets": "Student identifies two inherited traits shared between the parent and baby birds with accurate descriptions of the similarities.",
+        "approaching": "Student identifies one inherited trait or mentions similarities without specific details about which features are shared.",
+        "beginning": "Student provides vague responses such as 'they look the same' or lists one unclear observation without naming a specific trait."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful for baby birds to inherit traits like their parents' beak shape?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that inherited beak shape helps chicks survive by allowing them to eat the same foods as parents, and connects this to adaptation or survival in their specific environment.",
+        "meets": "Student explains that beak shape helps the chick eat food similar to what the parent eats, showing understanding of how this trait is useful for survival.",
+        "approaching": "Student mentions that beak shape is helpful for eating but provides incomplete reasoning or vague explanations of how it aids survival.",
+        "beginning": "Student provides minimal or inaccurate response, such as 'so it looks like the parent' without explaining the survival advantage."
+      }
+    },
+    {
+      "questionText": "If you compared two chicks from the same parents, would they look exactly identical? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that chicks would not be identical because they inherit different combinations of traits from both parents, and may mention that variation helps populations survive.",
+        "meets": "Student correctly states chicks would not be identical and explains that they inherit different combinations of traits from their parents.",
+        "approaching": "Student states they would not be identical but provides incomplete or unclear reasoning about why traits differ among siblings.",
+        "beginning": "Student provides an answer with little explanation, or incorrectly states the chicks would be identical."
+      }
+    },
+    {
+      "questionText": "How could we test whether certain bird traits are inherited versus learned from watching parents?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a valid experimental design (such as separating chicks from parents at birth and comparing their traits, or raising chicks with different parent birds) and explains how results would show whether traits are inherited or learned.",
+        "meets": "Student describes a reasonable method to test inherited versus learned traits, such as observing chicks raised without parents, with some clarity about how the test would work.",
+        "approaching": "Student suggests a testing idea but lacks specific details about how to set up the test or how to know if a trait is inherited versus learned.",
+        "beginning": "Student provides a vague or unclear response about testing, or does not describe a practical experiment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:53:25.700Z",
+  "cost": 0.004596
+}

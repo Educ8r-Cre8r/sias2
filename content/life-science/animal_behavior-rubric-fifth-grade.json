@@ -1,0 +1,53 @@
+{
+  "title": "Animal Behavior",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think this lizard's green color helps it stay safe in a forest?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the green color helps the lizard blend in with green leaves and trees, uses the term camouflage or blending in, and adds a detail about how this helps the lizard hide from predators or hunt for food.",
+        "meets": "Student explains that the green color helps the lizard hide or blend in with green plants and trees in the forest.",
+        "approaching": "Student mentions that the green color is helpful for hiding or that it matches the forest, but the explanation lacks clarity or detail about how this actually protects the lizard.",
+        "beginning": "Student makes a simple observation about the lizard being green or mentions hiding, but shows little understanding of how the color provides protection."
+      }
+    },
+    {
+      "questionText": "What would happen to this lizard if it lived on brown, rocky ground instead of green trees? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the lizard would be easier to see and more likely to be caught by predators, explains that its green color would stand out against brown rocks, and may mention that the lizard would be less camouflaged in that environment.",
+        "meets": "Student predicts the lizard would be easier to spot or in danger, and explains that the green color would not blend in with brown rocks and ground.",
+        "approaching": "Student makes a prediction about the lizard being easier to see but provides incomplete or unclear reasoning about why the color change matters.",
+        "beginning": "Student makes a simple statement that the lizard might have a problem or mentions the color difference, with minimal explanation of the consequences."
+      }
+    },
+    {
+      "questionText": "Compare this lizard to a desert lizard you might see. What different colors might a desert lizard have, and why would those colors help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares the two lizards by identifying that a desert lizard would likely be tan, brown, or sandy-colored, explains this helps it blend with sand and rocks, and demonstrates understanding that different environments require different camouflage colors for survival.",
+        "meets": "Student identifies that a desert lizard would be a different color like tan or brown, and explains that these colors would help it blend in with the desert environment.",
+        "approaching": "Student suggests different colors for a desert lizard but provides incomplete reasoning about how those colors would help the lizard survive in the desert.",
+        "beginning": "Student mentions a color change for a desert lizard but shows limited understanding of why camouflage matters for survival in different environments."
+      }
+    },
+    {
+      "questionText": "Do you think camouflage is something the lizard learned, or something it was born with? How do you know?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly identifies that camouflage is inherited and born with the lizard, supports the answer with logical reasoning (such as that the baby lizard has the same color without learning, or that all lizards in that forest are green), and demonstrates understanding of inherited traits.",
+        "meets": "Student correctly states that camouflage is something the lizard was born with and provides reasonable evidence, such as the idea that the lizard didn't have to learn its color or that parents pass it to babies.",
+        "approaching": "Student makes a reasonable choice between learned or inherited but provides incomplete or unclear evidence to support the answer.",
+        "beginning": "Student makes a choice but provides minimal or unclear reasoning, or shows confusion about inherited traits versus learned behaviors."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:08:23.397Z",
+  "cost": 0.005319
+}

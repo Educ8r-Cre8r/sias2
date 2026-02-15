@@ -1,0 +1,53 @@
+{
+  "title": "Balanced And Unbalanced Forces",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What forces do you see acting on the bucket in this picture?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple forces (gravity pulling down, hydraulic push upward, and arm support) with accurate descriptions of how each force acts on the bucket.",
+        "meets": "Student identifies at least two forces acting on the bucket, such as gravity and the push from the hydraulic arm, with generally accurate descriptions.",
+        "approaching": "Student identifies one force acting on the bucket or mentions two forces with vague or partially inaccurate descriptions of how they work.",
+        "beginning": "Student attempts to name a force but provides minimal detail or shows confusion about what forces are present."
+      }
+    },
+    {
+      "questionText": "If the backhoe stopped pushing with its hydraulic arm, what would happen to the bucket? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the bucket would fall and explains that gravity pulls objects down when the upward force from the hydraulic arm is removed, creating an unbalanced force.",
+        "meets": "Student predicts the bucket would fall and provides a reasonable explanation involving gravity or loss of the supporting force from the hydraulic arm.",
+        "approaching": "Student predicts the bucket would fall but provides an incomplete or partially unclear explanation of why this would happen.",
+        "beginning": "Student makes a prediction about what would happen but offers no explanation or provides an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "Why do you think the backhoe has such a long arm instead of a short, stubby arm?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the long arm increases leverage or mechanical advantage, allowing the backhoe to lift heavy objects and reach farther distances than a short arm could achieve.",
+        "meets": "Student explains that the long arm helps the backhoe lift heavier things or reach farther, showing understanding of the practical advantage.",
+        "approaching": "Student suggests the long arm helps with lifting or reaching but provides incomplete reasoning or uses imprecise language to explain the benefit.",
+        "beginning": "Student attempts an answer but shows minimal understanding, such as simply stating the arm is long without explaining why that matters."
+      }
+    },
+    {
+      "questionText": "Compare lifting a heavy rock with your hands versus using the backhoe. How are the forces different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the backhoe uses a hydraulic engine to create a much larger upward force than human muscles can produce, making it possible to lift objects that would be impossible by hand.",
+        "meets": "Student identifies that the backhoe produces a greater force than human hands and explains this difference helps lift heavier objects.",
+        "approaching": "Student notes that the backhoe is stronger or can lift heavier things but provides incomplete explanation of how the forces are different.",
+        "beginning": "Student attempts a comparison but offers minimal detail or shows unclear understanding of how the forces differ between human strength and machine power."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:10:44.912Z",
+  "cost": 0.004612
+}

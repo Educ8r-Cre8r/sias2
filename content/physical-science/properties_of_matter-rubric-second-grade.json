@@ -1,0 +1,53 @@
+{
+  "title": "Properties Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this liquid? How is it different from a solid like a rock or toy block?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple properties of the liquid (color, flows, takes shape of container) and explains at least two clear differences from solids (liquids move/flow, solids keep their shape; liquids can be poured, solids cannot).",
+        "meets": "Student describes the liquid's appearance and identifies at least one key difference between liquids and solids, such as liquids flowing or changing shape while solids stay the same shape.",
+        "approaching": "Student notices the liquid is yellow or wet but provides only vague or partially accurate comparisons to solids; may mention one difference with limited explanation.",
+        "beginning": "Student makes minimal observations about the liquid or offers inaccurate/unclear statements about how it differs from solids."
+      }
+    },
+    {
+      "questionText": "Why do you think someone chose to make this coolant bright yellow instead of clear like water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a logical reason (such as safety, visibility, identification) and explains how the bright color helps people use or notice the liquid correctly; may reference real-world consequences of not having color.",
+        "meets": "Student gives a reasonable explanation, such as making it easy to see, avoiding confusion with water, or helping people know it's special and not to drink it.",
+        "approaching": "Student attempts an explanation but it is unclear or partially logical; may suggest the color helps but without fully explaining why that matters.",
+        "beginning": "Student offers a vague guess or no meaningful explanation for why the color choice was made."
+      }
+    },
+    {
+      "questionText": "If we poured this liquid into different shaped containers—a cup, a bottle, and a bowl—what would happen to its shape? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the liquid would take the shape of each container and explains that liquids don't have their own shape but fill the space given to them, using accurate scientific reasoning about properties of liquids.",
+        "meets": "Student correctly predicts the liquid would change shape to fit each container and provides a basic explanation that liquids take the shape of their container.",
+        "approaching": "Student predicts the shape will change but provides incomplete or partially accurate reasoning; may confuse properties of liquids with solids.",
+        "beginning": "Student makes an inaccurate prediction or provides little to no explanation for how the liquid's shape would change."
+      }
+    },
+    {
+      "questionText": "Describe a time you've seen a liquid at home. How was it the same as or different from this car coolant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a specific home liquid (milk, juice, water) and makes multiple accurate comparisons or contrasts (color, purpose, where it's stored, safety precautions) showing thoughtful analysis of both liquids.",
+        "meets": "Student describes a familiar liquid and identifies at least one similarity and one difference with the coolant, such as both being liquids but having different colors or uses.",
+        "approaching": "Student mentions a home liquid but provides only vague comparisons; may identify similarities or differences but not both clearly.",
+        "beginning": "Student names a liquid but provides minimal or no meaningful comparison to the coolant."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:19:28.751Z",
+  "cost": 0.005044
+}

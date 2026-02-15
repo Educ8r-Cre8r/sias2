@@ -1,0 +1,53 @@
+{
+  "title": "Animal Behavior",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What color is this lizard, and why do you think it is that color?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies the lizard as green and explains that the green color helps it hide or blend in with plants and trees, using clear reasoning.",
+        "meets": "Student correctly identifies the lizard as green and provides a simple explanation that the color helps it hide or blend with its surroundings.",
+        "approaching": "Student identifies the lizard as green but provides an incomplete or unclear explanation about why it has this color.",
+        "beginning": "Student identifies the color as green but provides no explanation, or gives an inaccurate explanation unrelated to hiding or survival."
+      }
+    },
+    {
+      "questionText": "If this lizard lived in a desert with brown and tan rocks instead of green trees, would its green color still help it hide? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that green would not help the lizard hide in a brown/tan desert and explains that the lizard's color would not match the environment, making it easier to see.",
+        "meets": "Student correctly predicts that green would not help the lizard hide in a desert and provides a reasonable explanation about color matching the surroundings.",
+        "approaching": "Student makes a prediction about whether the color would help, but the explanation is incomplete or shows partial understanding of how camouflage works.",
+        "beginning": "Student makes an incorrect prediction or shows little understanding that color needs to match the environment to provide hiding help."
+      }
+    },
+    {
+      "questionText": "What animals do you know that have colors or patterns that help them hide?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals with colors or patterns that help them hide and identifies where each animal lives or what it hides from.",
+        "meets": "Student names at least one animal that has colors or patterns that help it hide, and shows understanding of how the color helps.",
+        "approaching": "Student names an animal but provides unclear or incomplete reasoning about how its color helps it hide, or names an animal where the connection to hiding is weak.",
+        "beginning": "Student names an animal but provides no explanation, or names an animal whose hiding ability is unclear."
+      }
+    },
+    {
+      "questionText": "How do you think a green lizard's color helps it stay safe from animals that want to eat it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the green color helps the lizard hide or blend in with plants and trees, making it difficult for predators to see it, using specific reasoning about camouflage.",
+        "meets": "Student explains that the green color helps the lizard hide from animals that want to eat it by blending in with its surroundings.",
+        "approaching": "Student provides a partial explanation about the color helping the lizard stay safe, but reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal or vague response that shows little understanding of how color protects the lizard from predators."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:07:56.453Z",
+  "cost": 0.004693
+}

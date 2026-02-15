@@ -1,0 +1,53 @@
+{
+  "title": "Circuits",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we removed one wire from this circuit?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the circuit would stop working and explains that electricity needs a complete path or loop to flow, using circuit vocabulary appropriately.",
+        "meets": "Student predicts the circuit would stop working or that the electricity would not flow if a wire were removed.",
+        "approaching": "Student makes a prediction but with unclear reasoning, such as saying something would happen but struggling to explain why.",
+        "beginning": "Student provides a vague response or incorrect prediction with little or no explanation of how removing a wire affects the circuit."
+      }
+    },
+    {
+      "questionText": "Why do you think the wires are wrapped in colored plastic instead of being bare metal?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that plastic protects people from electric shock and prevents wires from touching each other, using terms like 'insulation' or 'safety.'",
+        "meets": "Student identifies that the plastic covering provides protection or safety, such as protecting people or preventing damage.",
+        "approaching": "Student recognizes the plastic has a protective purpose but with incomplete or partially accurate reasoning.",
+        "beginning": "Student provides a minimal response such as 'it looks nice' or gives an inaccurate explanation of the plastic's purpose."
+      }
+    },
+    {
+      "questionText": "Can you think of three things in your house that use circuits to work?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student lists three or more household items that use circuits (such as lights, TV, computer, microwave, toy) and explains that circuits help these items work or use electricity.",
+        "meets": "Student lists three household items that use circuits, though explanation of how circuits help them work may be limited.",
+        "approaching": "Student lists one or two items that use circuits, or lists three items but some may not accurately use circuits.",
+        "beginning": "Student lists fewer than three items or provides items that do not use circuits; demonstrates limited understanding of circuits in daily life."
+      }
+    },
+    {
+      "questionText": "How is a circuit like a circle or a loop?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that electricity travels in a path that goes around and comes back to where it started, using the comparison to a circle or loop effectively.",
+        "meets": "Student identifies that a circuit forms a path or loop similar to a circle, and electricity travels through it.",
+        "approaching": "Student recognizes the similarity to a circle or loop but with vague or incomplete description of how electricity travels through the path.",
+        "beginning": "Student makes a weak or inaccurate comparison, or simply states they are similar without explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:00:22.454Z",
+  "cost": 0.004282
+}

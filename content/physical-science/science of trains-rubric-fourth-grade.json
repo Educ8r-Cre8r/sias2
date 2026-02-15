@@ -1,0 +1,53 @@
+{
+  "title": "Science Of Trains",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if a car tried to cross the railroad tracks while the train was approaching?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a collision would occur and explains multiple reasons why (train cannot stop quickly, car is much smaller, train has great momentum), demonstrating understanding of force and mass.",
+        "meets": "Student correctly predicts the car would be hit by the train and provides a reasonable explanation such as the train cannot stop in time or the train is too heavy to stop quickly.",
+        "approaching": "Student predicts something bad would happen to the car but explanation is vague or incomplete, such as 'the train would hit it' without explaining why the train cannot avoid it.",
+        "beginning": "Student provides a prediction that shows minimal understanding, such as 'they would crash' with no explanation or an inaccurate explanation of the outcome."
+      }
+    },
+    {
+      "questionText": "Why do you think train wheels are round instead of square? What advantage does the round shape give?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that round wheels roll smoothly and continuously without stopping and starting, and connects this to reduced friction or energy use; may mention that square wheels would bounce or get stuck.",
+        "meets": "Student identifies that round wheels roll better than square wheels and provides one clear advantage, such as 'they roll smoothly' or 'square wheels would be bumpy'.",
+        "approaching": "Student recognizes that round wheels are better for rolling but explanation lacks clarity or completeness, such as 'round is better' or 'they work better' without describing how or why.",
+        "beginning": "Student provides a response showing minimal understanding, such as 'because they are round' or an incorrect explanation unrelated to rolling motion."
+      }
+    },
+    {
+      "questionText": "If you gave a toy train a gentle push on smooth rails versus rough carpet, which would roll farther and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts the train rolls farther on smooth rails and explains that friction is lower on smooth surfaces, or uses similar language describing how roughness slows objects down.",
+        "meets": "Student correctly predicts the train rolls farther on smooth rails and provides a basic explanation such as 'the carpet is rough and slows it down' or 'smooth is easier to roll on'.",
+        "approaching": "Student makes the correct prediction but explanation is unclear or incomplete, such as 'smooth is better' without explaining what causes the difference in distance.",
+        "beginning": "Student makes an incorrect prediction, provides no prediction, or offers an explanation that shows little understanding of how surface affects motion."
+      }
+    },
+    {
+      "questionText": "How do you think the engineer slows down such a heavy train? What forces might help stop it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies brakes as the primary stopping method and names at least two forces involved in stopping, such as friction (from brakes), air resistance, or gravity on downhill sections; may explain how brakes create friction.",
+        "meets": "Student identifies brakes as the main way to slow a train and mentions at least one force that helps stop it, such as friction or air resistance, with a reasonable explanation.",
+        "approaching": "Student recognizes that brakes are used but provides incomplete or vague information about forces, such as 'brakes stop it' without explaining what forces are involved.",
+        "beginning": "Student provides minimal information, such as 'the brakes work' or 'he pulls a lever,' with no mention of forces or unclear explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:29:04.594Z",
+  "cost": 0.005274
+}

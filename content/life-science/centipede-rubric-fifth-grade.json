@@ -1,0 +1,53 @@
+{
+  "title": "Centipede",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How does a centipede's body structure help it survive as a hunter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple structural features (many legs for speed, segmented body for flexibility, venomous fangs for capturing prey) and explains how each adaptation specifically helps the centipede hunt successfully.",
+        "meets": "Student describes at least two body structures (such as legs for movement and fangs for capturing prey) and explains how they help the centipede hunt.",
+        "approaching": "Student identifies one or two body structures but provides incomplete or unclear explanations of how they help with hunting.",
+        "beginning": "Student names a body part (like legs or fangs) with minimal or no explanation of its hunting function."
+      }
+    },
+    {
+      "questionText": "If a centipede lost several legs, how might that affect its ability to move and catch food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that lost legs would reduce speed and balance, making it harder to chase prey and catch food, and may discuss compensation strategies or survival challenges.",
+        "meets": "Student correctly explains that fewer legs would slow the centipede down and make it harder to catch food.",
+        "approaching": "Student recognizes that lost legs would cause problems but provides vague or partially accurate explanations about movement or hunting.",
+        "beginning": "Student states that missing legs would be 'bad' or 'hurt the centipede' with little specific reasoning."
+      }
+    },
+    {
+      "questionText": "Compare how a centipede and a millipede are different, and explain why those differences matter for how they live.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (centipedes are predators with fewer legs and fangs; millipedes are herbivores with many legs and no fangs) and explains how these differences relate to their different diets and survival strategies.",
+        "meets": "Student identifies at least two differences between centipedes and millipedes and explains how these differences affect their lifestyles or what they eat.",
+        "approaching": "Student names some differences (leg count, diet, or fangs) but explanations lack clarity or completeness about why these differences matter.",
+        "beginning": "Student identifies one difference (such as leg count) with little or no explanation of why it matters."
+      }
+    },
+    {
+      "questionText": "Why might centipedes be found under logs and in soil rather than in open, dry spaces?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that centipedes need moisture to survive and that moist habitats under logs or soil also provide shelter, prey, and protection from predators.",
+        "meets": "Student identifies that centipedes need damp or moist environments and explains that logs and soil provide the moisture they need to survive.",
+        "approaching": "Student recognizes centipedes prefer damp places but provides incomplete reasoning about why moisture is important.",
+        "beginning": "Student states centipedes like damp places or are 'hiding' with minimal explanation of environmental needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:30:05.541Z",
+  "cost": 0.004693
+}

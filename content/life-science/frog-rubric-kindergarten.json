@@ -1,0 +1,53 @@
+{
+  "title": "Frog",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the frog's color compared to the leaf?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the frog and leaf are both green and notices they are the same color, plus observes additional details like the frog's red eyes or wet skin.",
+        "meets": "Student correctly observes that the frog and leaf are the same color (green) or uses words like 'match' or 'look alike.'",
+        "approaching": "Student notices the frog and leaf are similar in color but uses vague language or expresses it unclearly (e.g., 'they look the same' without specifying color).",
+        "beginning": "Student provides a response that does not accurately compare the colors, such as saying they are different colors or giving an unrelated observation."
+      }
+    },
+    {
+      "questionText": "Why do you think it might be helpful for a frog to be the same color as a leaf?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that matching the leaf's color helps the frog hide or be hard to see, and connects this to protection from predators or hunting for food.",
+        "meets": "Student explains that the frog's green color helps it hide on the green leaf or makes it hard to see.",
+        "approaching": "Student attempts to explain why the color match is helpful but gives an incomplete or partially accurate reason (e.g., 'it helps the frog' without explaining how).",
+        "beginning": "Student provides a response that shows little understanding of camouflage, such as 'the frog likes green' or an unrelated answer."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that are the same color as the places where they live?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more animals with accurate color-to-habitat matches (e.g., brown deer in brown forest, white polar bear in snow) and explains how the colors help them.",
+        "meets": "Student names at least one animal that is the same color as its habitat (e.g., brown rabbit in brown grass, white snow rabbit) with a reasonable connection.",
+        "approaching": "Student names an animal and its habitat but the color match is vague or not clearly connected (e.g., 'a bird in a tree' without specifying colors).",
+        "beginning": "Student names an animal or habitat but does not meaningfully connect the color to where the animal lives, or provides no response."
+      }
+    },
+    {
+      "questionText": "What would happen if this green frog was sitting on a red flower instead of a green leaf?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the frog would be easier to see and explains how this could make it harder to hide from predators or harder to sneak up on food.",
+        "meets": "Student predicts that the frog would stand out or be easier to see on the red flower because the colors would not match.",
+        "approaching": "Student attempts a prediction but it is incomplete or partially accurate (e.g., 'it would look different' without explaining the consequence).",
+        "beginning": "Student provides a prediction that shows minimal understanding, such as naming unrelated consequences or giving no clear answer."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:32:22.031Z",
+  "cost": 0.004918
+}

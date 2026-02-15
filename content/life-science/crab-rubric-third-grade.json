@@ -1,0 +1,53 @@
+{
+  "title": "Crab",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the ghost crab is tan or brown colored instead of bright red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that tan/brown color helps the crab blend in with sand to hide from predators or sneak up on food, using the term 'camouflage' or 'blending in' with specific reference to the sandy habitat.",
+        "meets": "Student identifies that the crab's color helps it hide or blend in with the sand, showing understanding of how color relates to survival in its environment.",
+        "approaching": "Student recognizes the crab's color is similar to sand or mentions hiding, but explanation is incomplete or lacks clear connection between color and survival benefit.",
+        "beginning": "Student provides a vague response such as 'it's just that color' or 'to match the beach' without explaining why this matters or how it helps the crab."
+      }
+    },
+    {
+      "questionText": "If all the insects on the beach disappeared, what might happen to the ghost crabs over many years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that crabs would have less food to eat, which could lead to starvation, population decrease, or possible extinction, demonstrating understanding of food chains and long-term population effects.",
+        "meets": "Student correctly identifies that insects are food for crabs and that losing this food source would negatively affect the crabs, such as causing them to go hungry or have fewer babies.",
+        "approaching": "Student mentions that crabs need insects to eat or that disappearing insects would be bad for crabs, but reasoning about long-term consequences is unclear or incomplete.",
+        "beginning": "Student provides a minimal response like 'crabs would be sad' or 'they would die' without explaining the connection between insects and crab survival."
+      }
+    },
+    {
+      "questionText": "How are a ghost crab's eye stalks similar to periscopes? Why is this helpful for a crab living in sand?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eye stalks work like periscopes by extending above the sand to see surroundings while the body stays hidden, and identifies specific benefits such as spotting danger or food without fully exposing itself.",
+        "meets": "Student describes that eye stalks extend upward like periscopes and explains that this helps the crab see while staying hidden or buried in sand.",
+        "approaching": "Student notes that eye stalks go up and that this helps the crab see, but the periscope comparison or explanation of why this is useful in sand is vague or incomplete.",
+        "beginning": "Student makes a general observation like 'eye stalks are tall' or 'periscopes help see' without clearly connecting the two or explaining the benefit to a sand-dwelling crab."
+      }
+    },
+    {
+      "questionText": "If you saw two ghost crabs, one lighter and one darker, which one might survive better on a white sandy beach? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies the lighter crab as better adapted and explains that its color blends in better with white sand, making it harder for predators to see or easier to sneak up on prey, using camouflage reasoning.",
+        "meets": "Student correctly identifies the lighter crab and explains that it blends in better with white sand, showing understanding of how matching color to environment helps survival.",
+        "approaching": "Student selects the lighter crab but explanation is incomplete, vague, or partially incorrect (e.g., mentions color difference but doesn't fully explain the survival advantage).",
+        "beginning": "Student provides a guess without reasoning, selects the wrong crab, or gives an explanation unrelated to color and camouflage (e.g., 'the darker one is stronger')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:41:05.325Z",
+  "cost": 0.005565
+}

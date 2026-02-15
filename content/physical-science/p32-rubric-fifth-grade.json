@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the bubble's shape changes as it moves through the air?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific shape changes (stretching, flattening, wobbling) and explains that air movement or forces cause these changes, using terms like 'air pressure' or 'flexibility.'",
+        "meets": "Student identifies 2-3 ways the bubble's shape changes (such as stretching or becoming wavy) as it moves through the air.",
+        "approaching": "Student notices the bubble's shape changes but describes only one change or uses vague language like 'it gets bigger' without clear connection to movement.",
+        "beginning": "Student makes a minimal observation about the bubble (e.g., 'it moves') with little or no description of shape changes."
+      }
+    },
+    {
+      "questionText": "Why do you think we see rainbow colors in the bubble even though the soap mixture is clear?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that light reflects and bends through the thin soap film layers, causing different colors to separate, and may mention that the thickness of the soap layer affects which colors appear.",
+        "meets": "Student recognizes that light interacting with the bubble's thin surface creates the rainbow colors, even though the soap itself is clear.",
+        "approaching": "Student attempts to explain the rainbow colors but provides incomplete reasoning, such as 'light bounces off it' without explaining why this creates different colors.",
+        "beginning": "Student provides a vague or incorrect explanation, such as 'the bubble has colors in it' or 'it's magic,' showing minimal understanding of light interaction."
+      }
+    },
+    {
+      "questionText": "How might changing the ingredients in our bubble solution affect the bubbles we create?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts how specific ingredient changes (adding more soap, changing water ratio, or adding corn syrup) would affect bubble properties like size, durability, or thickness, with scientific reasoning.",
+        "meets": "Student makes reasonable predictions that changing ingredients would affect how bubbles look or behave (such as 'adding more soap makes stronger bubbles').",
+        "approaching": "Student acknowledges that ingredients might matter but makes vague predictions without explaining the connection between ingredient change and bubble outcome.",
+        "beginning": "Student provides minimal response or guesses without logical reasoning (e.g., 'it would be different' with no explanation)."
+      }
+    },
+    {
+      "questionText": "What connections can you make between soap bubbles and other things in nature that have similar properties?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies 2+ natural examples with similar properties (such as cell membranes, oil films on water, or dragonfly wings) and explains the specific shared property (thin layers, light reflection, or flexibility).",
+        "meets": "Student names 1-2 natural things with similar properties to bubbles (such as soap film or a water droplet) and identifies at least one shared characteristic.",
+        "approaching": "Student identifies a natural example but struggles to clearly explain what property it shares with bubbles, or makes a weak connection.",
+        "beginning": "Student names something in nature with minimal or no explanation of how it relates to bubble properties."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:23:25.913Z",
+  "cost": 0.004912
+}

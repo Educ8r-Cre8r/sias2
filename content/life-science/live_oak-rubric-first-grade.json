@@ -1,0 +1,53 @@
+{
+  "title": "Live Oak",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "How do you think this tree got so big and tall?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the tree grew slowly over a long time by getting water, sunlight, and nutrients, and may mention that trees grow from seeds or that the tree is very old.",
+        "meets": "Student correctly identifies that the tree grew over time and mentions at least one thing the tree needs to grow, such as water, sunlight, or food.",
+        "approaching": "Student recognizes the tree is big and grew, but explanation is vague or incomplete (e.g., 'it grew a lot' without mentioning what helps it grow).",
+        "beginning": "Student provides minimal response that shows little understanding, such as 'it just got big' or an unrelated answer."
+      }
+    },
+    {
+      "questionText": "What does this tree need from the ground, the air, and the sun to stay alive and keep growing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies water and nutrients from the ground, oxygen or air from the air, and light/energy from the sun, and explains how at least two of these help the tree.",
+        "meets": "Student correctly identifies at least two of the three things trees need (water from ground, air, or sunlight) with brief explanations of how they help.",
+        "approaching": "Student identifies one or two things the tree needs but with incomplete or unclear explanations of their purpose.",
+        "beginning": "Student provides vague or mostly inaccurate responses, such as naming one item without explanation or confusing what trees need."
+      }
+    },
+    {
+      "questionText": "Why might birds and squirrels like to live in this big tree?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reasons such as shelter/safety from the branches, food from leaves or acorns, and shade, and explains how the tree's size and structure support these needs.",
+        "meets": "Student gives at least two valid reasons why animals like the tree, such as it provides shelter, food, or a safe place to live.",
+        "approaching": "Student identifies one reason animals might like the tree, but explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal or partially inaccurate response with little connection to the tree's features."
+      }
+    },
+    {
+      "questionText": "If we came back to visit this tree in 10 years, what do you think might be different about it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts realistic changes such as the tree being taller or wider, having thicker branches, or new leaves, and explains that trees continue to grow over time.",
+        "meets": "Student makes a reasonable prediction of change (e.g., tree grows bigger, gets taller, has more branches) that shows understanding of tree growth.",
+        "approaching": "Student makes a prediction but it is vague or only partially realistic (e.g., 'it will be different' without specific details).",
+        "beginning": "Student provides minimal response with little evidence of understanding how trees change over time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:32:02.035Z",
+  "cost": 0.004724
+}

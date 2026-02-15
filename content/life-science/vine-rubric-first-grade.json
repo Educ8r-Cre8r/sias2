@@ -1,0 +1,53 @@
+{
+  "title": "Vine",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the vine is growing up the fence instead of spreading out on the ground?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a logical reason (such as reaching sunlight, climbing helps the plant grow better, or the fence provides support) and explains why this helps the vine.",
+        "meets": "Student gives a reasonable explanation such as the vine climbs to get sunlight or the fence helps it grow upward.",
+        "approaching": "Student attempts an explanation but it is vague or partially incomplete, such as \"it likes the fence\" or \"it wants to go up.\"",
+        "beginning": "Student gives a response with little or no reasoning, such as \"I don't know\" or an answer unrelated to plant growth."
+      }
+    },
+    {
+      "questionText": "What would happen to this vine if we took the fence away?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the vine would fall down or spread on the ground and explains that the fence is helping support the plant's weight.",
+        "meets": "Student predicts the vine would fall down or lie on the ground because it needs the fence for support.",
+        "approaching": "Student makes a prediction (vine falls or grows differently) but does not explain why the fence matters to the plant.",
+        "beginning": "Student's prediction is unclear, incorrect, or shows minimal understanding of how the vine uses the fence."
+      }
+    },
+    {
+      "questionText": "How are the tendrils (the curly parts) helpful to the vine?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that tendrils wrap around the fence to hold the vine up and keep it from falling, showing understanding of their support function.",
+        "meets": "Student correctly identifies that tendrils help the vine hold on or wrap around the fence.",
+        "approaching": "Student mentions tendrils but gives an incomplete explanation, such as \"they curl\" or \"they help\" without explaining how.",
+        "beginning": "Student provides minimal detail or inaccurate information about what tendrils do."
+      }
+    },
+    {
+      "questionText": "Can you find a pattern in how the vine wraps around the fence?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific pattern such as the vine spirals or curves in repeating ways as it goes up, and describes where this pattern appears.",
+        "meets": "Student describes a pattern they observe, such as the tendrils wrap around in curly loops or the vine goes up in a certain way.",
+        "approaching": "Student notices something repeats about the vine but describes it vaguely, such as \"it goes round and round\" without clear detail.",
+        "beginning": "Student does not identify a clear pattern or provides a response unrelated to how the vine wraps."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:56:13.362Z",
+  "cost": 0.004388
+}

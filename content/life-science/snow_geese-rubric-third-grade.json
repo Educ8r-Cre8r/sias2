@@ -1,0 +1,53 @@
+{
+  "title": "Snow Geese",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think these geese are all gathered together in one big group instead of flying alone?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reasons geese gather (safety from predators, finding food, resting together) and explains how each helps geese survive during migration with specific details from the photo.",
+        "meets": "Student identifies at least two reasons geese gather in groups (such as safety or rest) and provides a basic explanation of how grouping helps them.",
+        "approaching": "Student identifies one reason geese gather together (such as safety or food) but explanation is incomplete or lacks detail about how it helps the geese.",
+        "beginning": "Student provides a vague answer (like 'they like each other') with little evidence of understanding why geese gather in groups for survival."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to snow geese if winter stayed cold all year and never got warm?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that geese need warm months to find food and rest, and recognizes that year-round cold would prevent their migration cycle; may mention consequences like starvation or inability to reproduce.",
+        "meets": "Student recognizes that geese need warmer weather for survival and explains that year-round cold would make it hard for them to live or find food.",
+        "approaching": "Student states that cold would be bad for geese but provides incomplete reasoning about why or how year-round winter would affect their survival.",
+        "beginning": "Student gives a simple answer (like 'they would be cold') without connecting it to how geese survive or what they need to live."
+      }
+    },
+    {
+      "questionText": "How is the way snow geese survive winter different from how you survive winter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (geese migrate/fly away while humans stay, geese have feathers while humans wear clothes, geese change behavior while humans use heat) and explains why each adaptation works for their species.",
+        "meets": "Student identifies at least two clear differences between how geese and humans survive winter (such as migration versus staying home, or feathers versus clothing) with brief explanations.",
+        "approaching": "Student identifies one difference between geese and human winter survival but explanation is incomplete or somewhat unclear.",
+        "beginning": "Student mentions winter survival but provides vague comparisons with minimal understanding of how geese and humans adapt differently."
+      }
+    },
+    {
+      "questionText": "These geese fly thousands of miles every year. How do you think they know which direction to fly and where to go?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple navigation methods geese might use (sun position, stars, Earth's magnetic field, landmarks, following experienced geese) and shows understanding that geese have natural instincts for navigation.",
+        "meets": "Student suggests at least one reasonable navigation method geese use (such as following the sun, landmarks, or experienced birds) with basic explanation of how it helps them find their way.",
+        "approaching": "Student suggests a navigation method but explanation lacks detail or shows partial understanding of how geese find their migration route.",
+        "beginning": "Student provides a vague answer (like 'they just know') with little evidence of thinking about how birds navigate long distances."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:58:08.528Z",
+  "cost": 0.00498
+}

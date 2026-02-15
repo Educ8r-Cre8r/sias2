@@ -1,0 +1,53 @@
+{
+  "title": "Turtle",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the turtle's shell pattern helps it survive in this environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies camouflage as the primary survival function and explains how the brown and yellow pattern specifically blends with the soil, plants, and leaf litter shown in the photo, providing multiple examples of how this protects the turtle from predators.",
+        "meets": "Student correctly identifies that the shell pattern provides camouflage and explains that the colors help the turtle hide in its natural environment among plants and soil.",
+        "approaching": "Student recognizes that the shell pattern is related to survival or mentions camouflage, but provides limited or vague explanation of how the specific colors or patterns help the turtle survive.",
+        "beginning": "Student provides a minimal response such as 'the pattern helps it' or makes an inaccurate statement about the shell's purpose without clear connection to survival or camouflage."
+      }
+    },
+    {
+      "questionText": "What evidence can you find in the photo that tells us about this turtle's life history?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence including the growth rings on the shell (indicating age), the reddish-orange coloring on the head/neck (indicating possible maturity or species characteristics), and the extended head position (indicating active behavior), and connects these to specific life history information.",
+        "meets": "Student identifies at least two pieces of evidence from the photo, such as the growth rings showing age or the coloring of the head, and explains what each piece tells us about the turtle's life.",
+        "approaching": "Student identifies one piece of evidence (such as growth rings or coloring) but provides incomplete or unclear explanation of what it reveals about the turtle's life history.",
+        "beginning": "Student mentions something visible in the photo but does not clearly connect it to life history information, or provides vague observations without scientific reasoning."
+      }
+    },
+    {
+      "questionText": "If this turtle's habitat was destroyed, what adaptations would help or hurt its chances of survival?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies specific adaptations (such as its shell for protection, ability to retract into its shell, or its dietary flexibility) and explains how each would help or hurt survival in a destroyed habitat; shows understanding that some adaptations are beneficial while others may become useless without the original environment.",
+        "meets": "Student identifies at least one adaptation and explains whether it would help or hurt survival in a destroyed habitat, demonstrating understanding that adaptations are suited to specific environments.",
+        "approaching": "Student mentions an adaptation or survival strategy but provides incomplete reasoning about how habitat destruction would affect its usefulness, or identifies only benefits without considering potential challenges.",
+        "beginning": "Student provides a vague or minimal response about survival or adaptations without clear connections to how habitat destruction would specifically impact this turtle."
+      }
+    },
+    {
+      "questionText": "How might this turtle's role in the ecosystem change during different seasons?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple seasonal changes in the turtle's role, such as increased activity and foraging in spring/summer versus hibernation/reduced activity in fall/winter, and describes how these changes affect its relationships with food sources, predators, and other organisms in the ecosystem.",
+        "meets": "Student describes how the turtle's activity level or role changes seasonally (such as being more active in warm months and less active in cold months) and identifies at least one way this affects the ecosystem.",
+        "approaching": "Student recognizes that seasonal changes occur and attempts to describe how the turtle's role might change, but reasoning is incomplete or lacks clear connection to ecosystem effects.",
+        "beginning": "Student provides a minimal or vague response about seasons and the turtle, without clear explanation of how the turtle's ecosystem role would be different."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:35:18.948Z",
+  "cost": 0.005486
+}

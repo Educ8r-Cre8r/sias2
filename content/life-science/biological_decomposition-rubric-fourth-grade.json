@@ -1,0 +1,53 @@
+{
+  "title": "Biological Decomposition",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this tree can still be alive even though the inside is hollow and decomposing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the tree's living layer (cambium and outer wood) transports water and nutrients, allowing the tree to survive even with a hollow center, and may mention that only the outer portions need to be alive for the tree to function.",
+        "meets": "Student identifies that the tree is alive because the outer part of the tree is still working or that the tree can get water and nutrients from somewhere, showing basic understanding that not all of the tree needs to be alive.",
+        "approaching": "Student recognizes that the tree is alive but provides incomplete reasoning, such as stating the outer parts are alive without explaining why this allows survival, or offering vague explanations about water or nutrients.",
+        "beginning": "Student provides a minimal response such as 'the tree is still alive' or makes inaccurate statements about how trees work, showing little understanding of tree structure or function."
+      }
+    },
+    {
+      "questionText": "What do you think will happen to the nutrients in the decomposing wood inside this tree cavity, and where might those nutrients go?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposers break down the wood into nutrients that are released into the soil, and may extend thinking by describing how these nutrients can be used by plants or other organisms in the ecosystem.",
+        "meets": "Student predicts that nutrients will be released or broken down by decomposers and identifies at least one destination (soil, ground, or other living things), demonstrating understanding of nutrient cycling.",
+        "approaching": "Student attempts to explain what happens to nutrients but provides incomplete or partially correct information, such as stating nutrients go somewhere without explaining the decomposition process, or mixing up some steps.",
+        "beginning": "Student provides a vague prediction such as 'the nutrients will go away' or makes statements unrelated to decomposition and nutrient cycling, showing minimal understanding of the concept."
+      }
+    },
+    {
+      "questionText": "How might this hollow tree be helpful to other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways the hollow tree helps forest organisms, such as providing homes for animals, offering shelter, creating a food source for decomposers, or supporting nutrient cycling, with specific examples.",
+        "meets": "Student identifies at least two ways the hollow tree is helpful to other living things, such as animals using it as shelter or home, or decomposers breaking down the wood, showing solid understanding of ecosystem relationships.",
+        "approaching": "Student recognizes the tree is helpful but provides only one example or incomplete explanations, such as mentioning animals without describing how the cavity helps them, or vague references to forest benefits.",
+        "beginning": "Student provides a minimal or unclear response, such as 'it helps the forest' without specific details, or makes inaccurate statements about relationships between the tree and other organisms."
+      }
+    },
+    {
+      "questionText": "Decomposers are breaking down the dead wood. How is this process important for the forest as a whole?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that decomposition returns nutrients to the soil so new plants can grow, and connects this to the broader forest ecosystem by discussing how this supports the food chain or helps maintain forest health and balance.",
+        "meets": "Student identifies that decomposition is important because it breaks down dead material and releases nutrients back into the soil for plants to use, demonstrating understanding of this key forest process.",
+        "approaching": "Student recognizes decomposition is important but provides incomplete reasoning, such as stating 'it breaks down wood' without explaining why this matters, or mentioning nutrients without connecting to plant growth or forest health.",
+        "beginning": "Student provides a vague response such as 'it is important' without explanation, or makes inaccurate statements about the role of decomposers in the forest, showing minimal understanding."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:44:29.838Z",
+  "cost": 0.005662
+}

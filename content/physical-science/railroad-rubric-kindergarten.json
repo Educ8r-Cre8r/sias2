@@ -1,0 +1,53 @@
+{
+  "title": "Railroad",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why do you think the railroad tracks are made of metal instead of wood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that metal is strong and hard, and explains that metal can hold up heavy trains or won't break easily, showing understanding of material properties.",
+        "meets": "Student states that metal is strong or that it doesn't break, demonstrating basic understanding that metal is a better material choice than wood.",
+        "approaching": "Student mentions metal or that tracks need to be strong, but gives vague or incomplete reasoning about why metal works better.",
+        "beginning": "Student gives a response with little detail, such as 'because it's metal' or provides an inaccurate reason unrelated to strength or durability."
+      }
+    },
+    {
+      "questionText": "What would happen if the rocks under the tracks were not there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the tracks would sink, move, or become uneven, and identifies that the rocks hold the tracks in place or keep them steady, showing understanding of the rocks' support function.",
+        "meets": "Student states the tracks would move, fall, sink, or get messy, demonstrating understanding that rocks serve a supportive purpose.",
+        "approaching": "Student recognizes something would go wrong with the tracks but provides incomplete or unclear details about what would happen.",
+        "beginning": "Student's response is vague or inaccurate, such as 'it would be bad' or shows minimal understanding of the rocks' role."
+      }
+    },
+    {
+      "questionText": "How are these railroad tracks similar to the sidewalk or path near your home?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities such as both are flat, hard surfaces that people or things travel on, and explains that both help things move in a certain direction.",
+        "meets": "Student identifies at least one similarity, such as both are hard surfaces or both are places where things travel, showing basic comparison skills.",
+        "approaching": "Student attempts a comparison but provides limited or partially accurate details, such as 'they both have things on them' without clarity.",
+        "beginning": "Student's response lacks clear comparison details or is inaccurate, such as stating they are the same without explanation or focusing on differences only."
+      }
+    },
+    {
+      "questionText": "Where do you think this train goes, and why do you think it travels in a straight line?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests a realistic destination (town, city, farm, station) and explains the train goes in a straight line because tracks guide it or because straight lines help it go faster or more easily.",
+        "meets": "Student suggests a destination and provides a basic reason for straight-line travel, such as 'tracks make it go straight' or 'it's easier that way.'",
+        "approaching": "Student suggests a destination but provides vague or incomplete reasoning about why it travels straight, or gives only partial explanation.",
+        "beginning": "Student's response shows minimal thought, such as 'I don't know' or provides an unrealistic or unclear destination without explanation of straight-line travel."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:20:02.633Z",
+  "cost": 0.004743
+}

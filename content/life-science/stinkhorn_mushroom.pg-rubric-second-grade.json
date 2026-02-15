@@ -1,0 +1,53 @@
+{
+  "title": "Stinkhorn Mushroom",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where this mushroom is growing, and why might that location be important?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the mushroom grows in wood chips/soil and explains two reasons why this location matters, such as getting nutrients from dead wood, staying moist, or having everything it needs to grow.",
+        "meets": "Student notices the mushroom is growing in wood chips or soil on the ground and provides one reasonable explanation for why that location is important for the mushroom's growth.",
+        "approaching": "Student notices the mushroom is on the ground or in wood chips but provides only a vague explanation or shows unclear thinking about why the location matters.",
+        "beginning": "Student makes a minimal observation about location or provides an inaccurate/confused response about why mushrooms need certain places to grow."
+      }
+    },
+    {
+      "questionText": "How do you think this mushroom helps other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms break down dead wood and help return nutrients to soil, and connects this to how other plants or animals benefit from these nutrients.",
+        "meets": "Student describes that the mushroom breaks down dead things or helps make the soil better for other living things to use.",
+        "approaching": "Student shows partial understanding that the mushroom does something helpful, but reasoning is incomplete or lacks clear connection to how other living things benefit.",
+        "beginning": "Student provides minimal or vague response with little evidence of understanding how mushrooms help living things in forests."
+      }
+    },
+    {
+      "questionText": "What patterns do you see in the mushroom's shape and colors, and what purpose might they serve?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the finger-like shape and bright orange color with black dots, and explains that bright colors and patterns might attract insects or animals to help spread the mushroom's spores.",
+        "meets": "Student notices the bright orange color and finger-like shape or black dots, and suggests these features might help insects notice the mushroom or help it spread.",
+        "approaching": "Student identifies some patterns in shape or color but provides unclear or incomplete reasoning about their purpose.",
+        "beginning": "Student names only one feature or provides minimal observation without connecting it to any purpose or function."
+      }
+    },
+    {
+      "questionText": "If you were a tiny insect, what might attract you to this mushroom?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple attractions such as the bright orange color, black dots, or possibly a smell, and explains why an insect would be interested in visiting (food, spreading spores, etc.).",
+        "meets": "Student identifies at least two features that would attract an insect, such as bright colors or the pattern of dots, showing reasonable thinking about insect attraction.",
+        "approaching": "Student identifies one or two features that might attract an insect but with unclear or incomplete reasoning about why insects would be drawn to them.",
+        "beginning": "Student names one feature with minimal explanation or provides a vague/unclear response about insect attraction."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:31:50.411Z",
+  "cost": 0.004704
+}

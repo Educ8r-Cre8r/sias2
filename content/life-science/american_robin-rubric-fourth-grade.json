@@ -1,0 +1,53 @@
+{
+  "title": "American Robin",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the robin has a dark back and an orange-red chest instead of being all one color?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different colors serve different purposes (camouflage on back, identification/attraction on chest) and connects this to how the robin survives or finds a mate in its environment.",
+        "meets": "Student identifies that the different colors help the robin in some way, such as blending in with trees or being recognized by other robins, with reasonable explanation.",
+        "approaching": "Student mentions that the colors might help the robin hide or be seen, but explanation is incomplete or lacks clear connection to survival or identification.",
+        "beginning": "Student provides a vague response such as 'the colors look nice' or simply describes what they see without explaining why the colors matter."
+      }
+    },
+    {
+      "questionText": "If a robin lived in a snowy forest all year long, how might its feather colors be different, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the robin would have lighter or whiter feathers and explains that this would help it blend in (camouflage) with snow, using specific vocabulary like 'adaptation' or 'environment,' and may discuss trade-offs in survival.",
+        "meets": "Student predicts lighter-colored feathers and correctly explains this would help the robin hide from predators or blend in with its snowy surroundings.",
+        "approaching": "Student predicts the feathers might change color but gives incomplete or partially accurate reasoning about why (e.g., 'to match the snow' without explaining the survival advantage).",
+        "beginning": "Student provides an unclear prediction or minimal explanation, such as 'it would be white' without explaining the purpose or connection to survival."
+      }
+    },
+    {
+      "questionText": "What does the robin use its sharp yellow beak for, and how does this help it survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple uses of the beak (catching insects, pulling worms, eating berries) and explains how obtaining food helps the robin survive by providing energy and nutrition.",
+        "meets": "Student correctly identifies that the robin uses its beak to catch and eat food such as worms or insects, and explains that this helps it get the food it needs to live.",
+        "approaching": "Student identifies that the beak is used for eating or catching food but provides limited or unclear connection to survival.",
+        "beginning": "Student gives a vague or inaccurate response about the beak's purpose, such as 'to sing' or 'to look pretty,' with little attempt to connect it to survival."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that have different colors on different parts of their bodies? What might those colors help them do?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names 2+ animals with distinct coloring patterns (e.g., penguins, zebras, ladybugs, skunks) and explains how each animal's colors serve specific survival purposes such as camouflage, warning others, or finding mates.",
+        "meets": "Student names at least one animal with different body colors and explains how those colors help it in ways such as hiding, being recognized, or staying safe.",
+        "approaching": "Student names an animal with different colors but provides vague or incomplete explanation of how the colors help, or may describe colors without connecting to function.",
+        "beginning": "Student names an animal but cannot explain why its colors matter, or provides an inaccurate example with little reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:04:46.947Z",
+  "cost": 0.005308
+}

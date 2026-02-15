@@ -1,0 +1,53 @@
+{
+  "title": "Cattle Egret",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the egret stays near the cow instead of hunting for insects by itself?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the egret benefits from insects disturbed by the cow's movement and provides specific reasoning (e.g., 'The cow's feet scare up insects that would be hard to find alone') while using terms like 'hunting strategy' or 'efficient feeding.'",
+        "meets": "Student identifies that staying near the cow helps the egret find or catch insects more easily, with a clear explanation of how the cow's activity benefits the bird's feeding.",
+        "approaching": "Student recognizes the egret gets food from being near the cow but provides incomplete reasoning (e.g., 'The egret finds more bugs' without explaining how the cow helps).",
+        "beginning": "Student provides a vague answer such as 'They are friends' or 'The egret likes the cow' with little connection to food or survival benefit."
+      }
+    },
+    {
+      "questionText": "How does the cow benefit from having the egret nearby? What problem does the egret help solve for the cow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the egret removes parasites or biting insects from the cow's body and explains how this solves a specific problem (e.g., 'The egret eats ticks and flies that bother the cow and could make it sick or uncomfortable').",
+        "meets": "Student explains that the egret helps the cow by removing or eating insects on the cow's body, reducing discomfort or harm to the cow.",
+        "approaching": "Student recognizes the egret helps the cow in some way but gives incomplete details (e.g., 'The bird helps by eating bugs' without explaining which bugs or how it helps the cow specifically).",
+        "beginning": "Student provides a minimal response such as 'The cow likes the bird' or 'They help each other' without explaining the specific benefit to the cow."
+      }
+    },
+    {
+      "questionText": "If we removed all the insects from this pasture, how would it affect both the egret and the cow? Explain what might happen.",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the egret would lose its food source and might leave or starve, while the cow might develop health problems (parasites, discomfort) that the egret normally prevents, showing understanding of how both animals depend on insects in different ways.",
+        "meets": "Student explains that removing insects would harm the egret (no food) and the cow (loses pest control), showing understanding that both animals need insects for survival or health.",
+        "approaching": "Student identifies that one animal (usually the egret) would be harmed by missing insects but incompletely explains the effect on both animals or the connection between them.",
+        "beginning": "Student gives a vague response such as 'They would both be sad' or 'They need insects' without clear explanation of the specific consequences for each animal."
+      }
+    },
+    {
+      "questionText": "Can you think of another example of two animals that might help each other survive, similar to how the egret and cow help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a specific animal pair with clear, accurate explanations of how both animals benefit (e.g., 'A clownfish lives in an anemone—the anemone protects the fish from predators, and the fish cleans the anemone and brings it food') using scientific vocabulary where appropriate.",
+        "meets": "Student provides a realistic animal pair and explains how both animals help each other, with mostly accurate details about their relationship.",
+        "approaching": "Student names two animals that might interact but provides incomplete or partially accurate reasoning about how they help each other (e.g., naming the pair but only explaining one animal's benefit).",
+        "beginning": "Student names two animals with little or no explanation of how they help each other, or provides an inaccurate example of animal cooperation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:31:38.010Z",
+  "cost": 0.005785
+}

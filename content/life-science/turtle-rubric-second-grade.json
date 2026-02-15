@@ -1,0 +1,53 @@
+{
+  "title": "Turtle",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the turtle's shell that might help it stay safe?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the shell is hard and explains how hardness protects the turtle from danger with multiple specific examples (e.g., protects from predators, shields from bumps).",
+        "meets": "Student identifies that the shell is hard and explains that this helps protect or keep the turtle safe from harm.",
+        "approaching": "Student notices the shell is hard or mentions protection, but the explanation is unclear or incomplete.",
+        "beginning": "Student makes a vague observation about the shell or mentions safety without clear reasoning."
+      }
+    },
+    {
+      "questionText": "How do you think this turtle's body parts help it get food and water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes how multiple body parts work together for feeding (e.g., mouth to eat plants, head to reach food, legs to move closer to water or plants).",
+        "meets": "Student explains how at least two body parts (such as the head, mouth, or legs) help the turtle find or eat food and drink water.",
+        "approaching": "Student identifies one body part and its function, but reasoning is incomplete or only partially accurate.",
+        "beginning": "Student names a body part or mentions food/water but does not explain how the part helps the turtle."
+      }
+    },
+    {
+      "questionText": "What patterns do you see on the turtle's shell, and what might have caused them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific ring or line patterns on the shell and explains that they form as the turtle grows, showing understanding that patterns change over time.",
+        "meets": "Student identifies patterns (such as rings or lines) on the shell and suggests a reasonable cause like growth or age.",
+        "approaching": "Student notices patterns exist on the shell but offers unclear or partially inaccurate explanations for why they are there.",
+        "beginning": "Student mentions seeing patterns or gives a vague answer without clear description or explanation."
+      }
+    },
+    {
+      "questionText": "If you were designing a house for this turtle, what would you need to include?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple features (e.g., water, plants, shelter, safe ground) and explains how each feature meets a turtle's basic need for food, water, safety, or shelter.",
+        "meets": "Student lists at least two features a turtle would need (such as water, food, or a safe place to hide) with brief explanations.",
+        "approaching": "Student suggests one or two features for a turtle's home but with limited or unclear reasoning about why they are needed.",
+        "beginning": "Student provides vague suggestions or names one feature without explaining its purpose for the turtle."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:34:56.302Z",
+  "cost": 0.004363
+}

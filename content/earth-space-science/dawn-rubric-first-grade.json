@@ -1,0 +1,53 @@
+{
+  "title": "Dawn",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors in the sky?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple colors (pink, orange, yellow) and describes where they appear in the sky (bottom, top, spreading out).",
+        "meets": "Student names at least two colors visible in the sky at dawn, such as pink and orange.",
+        "approaching": "Student names one color in the sky or mentions colors but with limited detail or accuracy.",
+        "beginning": "Student provides a vague response like 'pretty colors' or 'it's bright' without naming specific colors."
+      }
+    },
+    {
+      "questionText": "Why do you think the fog is only in some places and not others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fog forms where it is cooler or wetter, and may connect this to low areas or places with water/plants nearby.",
+        "meets": "Student provides a reasonable explanation such as 'fog is thicker where there are plants' or 'some places are colder than others.'",
+        "approaching": "Student attempts an explanation but it is only partially correct, such as 'fog likes some spots' without clear reasoning.",
+        "beginning": "Student says 'I don't know' or provides an answer unrelated to weather or temperature, such as 'the fog likes the plants.'"
+      }
+    },
+    {
+      "questionText": "What might happen to the fog as the sun gets higher in the sky?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the fog will disappear or evaporate and explains this happens because the sun's heat warms the air.",
+        "meets": "Student predicts the fog will go away or disappear as the sun rises higher.",
+        "approaching": "Student makes a prediction about the fog but it lacks clarity, such as 'it will go' or 'the sun will change it' without much detail.",
+        "beginning": "Student makes an inaccurate prediction or shows no understanding of how heat affects fog."
+      }
+    },
+    {
+      "questionText": "How could we find out if fog happens at the same time every day?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a simple plan to observe and record fog over multiple days (drawing, checking at dawn, keeping a chart) and identifies that patterns would show whether it happens at the same time.",
+        "meets": "Student suggests a reasonable method such as 'look outside at the same time every day' or 'draw pictures of the fog to see when it comes.'",
+        "approaching": "Student offers a vague idea like 'watch the fog' or 'look outside' but doesn't explain how to keep track or compare observations.",
+        "beginning": "Student provides little or no practical method, such as 'just look at it' or an unrelated answer."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:30:06.927Z",
+  "cost": 0.004406
+}

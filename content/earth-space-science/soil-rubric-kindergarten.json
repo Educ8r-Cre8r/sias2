@@ -1,0 +1,53 @@
+{
+  "title": "Soil",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you see in different parts of the soil?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more different things found in soil (such as rocks, dirt, roots, leaves, or dark material) and describes where they are located in the soil layers shown.",
+        "meets": "Student identifies two different things in the soil and describes their location (such as roots at the top or dark soil below).",
+        "approaching": "Student names one or two things in the soil but provides vague or incomplete descriptions of where they are located.",
+        "beginning": "Student provides a minimal response with one word or phrase, or describes only the soil color without identifying specific things in it."
+      }
+    },
+    {
+      "questionText": "Why do you think plant roots grow down into the soil instead of up into the air?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots grow down to find water or food/nutrients in the soil, using simple scientific language and showing understanding that soil provides what plants need.",
+        "meets": "Student gives a simple reason such as 'roots need soil' or 'the soil helps them' or 'they need water down there,' showing basic understanding of why roots go down.",
+        "approaching": "Student makes a partial attempt to explain, such as 'the soil is down there' or 'roots like soil,' but reasoning is incomplete or unclear.",
+        "beginning": "Student gives a vague response like 'because they do' or 'I don't know,' with little to no reasoning shown."
+      }
+    },
+    {
+      "questionText": "What do you think happens to a leaf after it falls to the ground and stays in the soil for a long time?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the leaf breaks down or rots and becomes part of the soil, and may add that this helps the soil or plants grow, using simple scientific thinking.",
+        "meets": "Student states that the leaf changes or breaks down in the soil over time, showing understanding that leaves do not stay the same in soil.",
+        "approaching": "Student recognizes something changes about the leaf but describes it vaguely (such as 'it gets yucky' or 'it goes away') without clear explanation of the process.",
+        "beginning": "Student gives a minimal response such as 'it stays there' or makes an inaccurate statement like 'it grows into a plant,' showing little understanding."
+      }
+    },
+    {
+      "questionText": "How do you think soil helps plants grow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains two or more ways soil helps plants, such as providing food/nutrients, water, a place for roots to grow, or holding the plant up, using simple scientific language.",
+        "meets": "Student identifies one way soil helps plants grow, such as 'soil gives them food' or 'soil holds water' or 'it holds the plant in place,' showing basic understanding.",
+        "approaching": "Student makes a general statement like 'soil is good for plants' or 'plants need soil' without explaining how or why soil actually helps.",
+        "beginning": "Student provides a vague or unclear response such as 'because it does' or 'I don't know,' with little evidence of understanding the connection between soil and plant growth."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:40:04.414Z",
+  "cost": 0.004939
+}

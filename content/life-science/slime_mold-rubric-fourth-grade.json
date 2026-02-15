@@ -1,0 +1,53 @@
+{
+  "title": "Slime Mold",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that this yellow organism is alive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple signs of life (such as movement, growth, eating/consuming dead material, or changing shape) and explains how each one proves the organism is alive using specific details from the photo.",
+        "meets": "Student identifies at least two clear signs of life (such as growth, movement, or breaking down dead material) with reasonable explanations of why these show the organism is alive.",
+        "approaching": "Student identifies one sign of life or mentions two signs with limited explanation; may confuse some life characteristics or provide incomplete reasoning.",
+        "beginning": "Student provides a vague response such as 'it looks alive' or 'it's yellow' with little connection to actual characteristics of living things."
+      }
+    },
+    {
+      "questionText": "How might this organism be helpful to the forest ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the organism breaks down dead leaves and wood into nutrients and describes how this helps other forest organisms (such as plants or soil) in a complete explanation.",
+        "meets": "Student correctly explains that the organism breaks down or decomposes dead material and identifies one way this helps the forest ecosystem.",
+        "approaching": "Student recognizes the organism breaks down dead material or mentions it is helpful but provides incomplete or unclear explanation of how this helps the ecosystem.",
+        "beginning": "Student gives a minimal response such as 'it helps the forest' or 'it eats stuff' without explaining the connection to ecosystem health."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to this slime mold if all the dead leaves were removed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the organism would struggle or die because dead leaves are its food source, and explains the cause-and-effect relationship with specific reasoning about what the organism needs to survive.",
+        "meets": "Student predicts the organism would have problems or disappear and gives a reasonable explanation that it needs the dead leaves for food or survival.",
+        "approaching": "Student makes a prediction with partial reasoning; may say it would 'go away' but gives incomplete or vague explanation of why.",
+        "beginning": "Student makes a prediction with little or no explanation, or provides an inaccurate response that doesn't connect to the organism's role as a decomposer."
+      }
+    },
+    {
+      "questionText": "How is this organism similar to and different from the plants and animals you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least one valid similarity and one valid difference (such as: similar—it's alive and grows; different—it's not a plant or animal, it breaks down matter instead of making food) with clear explanations.",
+        "meets": "Student identifies at least one similarity and one difference between the slime mold and familiar plants or animals with reasonable accuracy.",
+        "approaching": "Student attempts to compare but provides only one comparison or gives comparisons that are partially accurate or lack clear explanation.",
+        "beginning": "Student provides minimal comparison or makes inaccurate statements that don't reflect understanding of this organism versus plants and animals."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:27:23.695Z",
+  "cost": 0.004776
+}

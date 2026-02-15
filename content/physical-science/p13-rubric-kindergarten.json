@@ -1,0 +1,53 @@
+{
+  "title": "Static Electricity",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think will happen if we bring the balloon closer to the paper pieces?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts that more paper pieces will move or stick to the balloon and explains that bringing it closer makes the pulling force stronger.",
+        "meets": "Student predicts that the paper pieces will move toward the balloon or stick to it when brought closer.",
+        "approaching": "Student makes a prediction about the paper pieces but the prediction is unclear or only partially related to the balloon's movement.",
+        "beginning": "Student provides a vague response or repeats the question without making a clear prediction about what will happen."
+      }
+    },
+    {
+      "questionText": "Why do you think some pieces of paper moved toward the balloon while others moved away?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the balloon has a special force or charge that pulls some papers toward it, and recognizes that distance, paper size, or other factors might affect which papers move.",
+        "meets": "Student explains that the balloon has a pulling force or power that makes some papers move toward it, and acknowledges that not all papers moved the same way.",
+        "approaching": "Student recognizes that the balloon caused movement but gives an unclear or incomplete explanation of why some papers moved and others did not.",
+        "beginning": "Student gives a minimal response such as 'the balloon moved them' without explaining the difference between papers that moved and those that did not."
+      }
+    },
+    {
+      "questionText": "What other things in our classroom might be attracted to a charged balloon?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple light classroom objects (such as paper, hair, tissue, or cloth) and explains why they might be attracted based on their properties like being light or made of paper.",
+        "meets": "Student names at least two classroom objects that might be attracted to the balloon, such as paper, hair, or small pieces of trash.",
+        "approaching": "Student names one or two objects but provides little reasoning, or names objects that would not likely be attracted to the balloon.",
+        "beginning": "Student names an object with no clear connection to the balloon's attractive force, or gives a response that shows minimal understanding."
+      }
+    },
+    {
+      "questionText": "How is this balloon force different from when you push a toy car with your hand?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the balloon force pulls things without touching, while pushing requires touching and moving something away, and recognizes these are two different types of forces.",
+        "meets": "Student identifies that the balloon pulls or attracts things without touching, while pushing requires using your hand to touch and move something.",
+        "approaching": "Student recognizes there is a difference between the two forces but the explanation is unclear or incomplete, such as only mentioning that one requires touching.",
+        "beginning": "Student provides a vague comparison or does not clearly describe how the forces are different from each other."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:01:23.984Z",
+  "cost": 0.004494
+}

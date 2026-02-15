@@ -1,0 +1,53 @@
+{
+  "title": "Cicada Shell",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the cicada had to leave its shell behind?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the cicada grew too big for its shell and needed to shed it to become a grown-up, using words like \"outgrow\" or \"too small.\" Student may add that insects need to shed their shells to grow.",
+        "meets": "Student states that the cicada got too big for its shell or that it needed to leave the shell to grow bigger.",
+        "approaching": "Student recognizes the shell was left behind and attempts to explain it was related to growing or the cicada being bigger, though explanation is incomplete or unclear.",
+        "beginning": "Student provides a minimal response such as \"the cicada left it\" or \"it didn't need it anymore\" with little explanation of why."
+      }
+    },
+    {
+      "questionText": "What do you think happened to the cicada after it crawled out of this shell?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a logical sequence of events after the cicada left the shell, such as its wings drying and hardening, then flying away to find food or a mate. Student may mention the cicada became an adult.",
+        "meets": "Student states that the cicada flew away or that it became a grown-up insect with wings after leaving the shell.",
+        "approaching": "Student indicates the cicada did something after leaving the shell (like fly or move) but lacks clear details or logical sequence of events.",
+        "beginning": "Student provides a vague response like \"it went away\" or \"it moved\" without describing what the cicada actually did."
+      }
+    },
+    {
+      "questionText": "Look at the lichen on the bark. What other living things might use this tree as a home?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple living things that could live on or in the tree (such as birds, squirrels, insects, spiders, or worms) and explains why at least one would use the tree as a home (shelter, food, or protection).",
+        "meets": "Student names 2-3 different living things that could use the tree as a home, such as birds, bugs, or squirrels.",
+        "approaching": "Student identifies 1-2 living things that might use the tree but explanation is vague or only partially thought through.",
+        "beginning": "Student names one living thing or provides a response that shows limited thinking about other tree inhabitants."
+      }
+    },
+    {
+      "questionText": "How is a cicada shell like a coat that doesn't fit anymore?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a clear comparison explaining that both the shell and an outgrown coat no longer fit because the cicada or person inside grew bigger, and both are left behind. Student may extend the analogy to explain why you need a bigger size.",
+        "meets": "Student explains that both the shell and coat don't fit anymore because the cicada or person grew too big, so they need to be left behind.",
+        "approaching": "Student recognizes the comparison between a shell and coat but explanation lacks clarity or only partially addresses why neither fits anymore.",
+        "beginning": "Student attempts to make a connection between the shell and coat but reasoning is unclear or mostly incorrect."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:57:09.302Z",
+  "cost": 0.004937
+}

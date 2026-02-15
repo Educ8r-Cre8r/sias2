@@ -1,0 +1,53 @@
+{
+  "title": "Praying Mantis",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the praying mantis's front legs help it do?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the front legs catch or grab insects, and explains an additional detail such as how the spiky texture helps hold prey or that the legs move very fast.",
+        "meets": "Student correctly identifies that the front legs are used to catch or grab insects for eating.",
+        "approaching": "Student makes a partial connection, such as saying the legs help the mantis 'get food' or 'catch things' but lacks clarity about what is being caught.",
+        "beginning": "Student provides a vague response like 'the legs help it' or guesses without reasoning, or makes an inaccurate claim about the legs' function."
+      }
+    },
+    {
+      "questionText": "Why might the green color of the praying mantis be helpful when it's hunting insects on plants?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green color helps the mantis hide or blend in with plants so insects don't see it coming, and adds a related idea like 'it's sneaky' or 'it can surprise insects.'",
+        "meets": "Student explains that the green color helps the mantis hide or blend in with the green plants so insects can't easily see it.",
+        "approaching": "Student recognizes a connection between the color and plants (e.g., 'it's green like plants') but doesn't clearly explain how this helps with hunting.",
+        "beginning": "Student makes a simple observation like 'it's green' or provides an unclear or incorrect explanation for why color matters."
+      }
+    },
+    {
+      "questionText": "If a praying mantis didn't have those spiky legs, how might its life be different?",
+      "bloomsLevel": "Hypothesize",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without spiky legs the mantis couldn't hold or catch insects as well, and extends thinking by suggesting it might not have enough food or couldn't survive.",
+        "meets": "Student explains that the spiky legs help it catch or hold insects, so without them it would have trouble catching food or insects would escape.",
+        "approaching": "Student attempts to connect spiky legs to catching prey but the explanation is incomplete or unclear (e.g., 'it couldn't grab things as well').",
+        "beginning": "Student provides a minimal response like 'it would be different' or makes an unclear or inaccurate guess about how spiky legs matter."
+      }
+    },
+    {
+      "questionText": "Where do you think praying mantises find food, and why do they live in those places?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that mantises find insects on plants and flowers, and explains that they live there because insects come to plants for food or because plants provide places to hide and hunt.",
+        "meets": "Student identifies that mantises find food on plants or flowers, and explains that insects are found there because plants provide food.",
+        "approaching": "Student correctly identifies that mantises live on plants or that insects are found there, but provides incomplete reasoning about why.",
+        "beginning": "Student makes a vague guess like 'in nature' or 'outside' without connecting it to plants, insects, or the reasons they live in those places."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:03:30.313Z",
+  "cost": 0.004953
+}

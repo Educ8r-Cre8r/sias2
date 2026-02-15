@@ -1,0 +1,53 @@
+{
+  "title": "Mixtures",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "If you mixed salt into water until you couldn't see the salt anymore, do you think the salt is still there? How could you prove it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that salt remains in the mixture even when invisible, and describes multiple specific methods to prove it (e.g., evaporate water to see salt crystals, taste the water, measure the salt's effect on water properties like freezing point).",
+        "meets": "Student correctly states that salt is still present and describes at least one reasonable method to prove it, such as evaporating the water or tasting the salt water.",
+        "approaching": "Student indicates salt is still there but provides vague or incomplete proof method, such as 'you could test it' without clear explanation of how the test would work.",
+        "beginning": "Student provides minimal response, such as simply saying 'yes it's still there' or 'no it's gone,' with little to no explanation of how to prove either answer."
+      }
+    },
+    {
+      "questionText": "What do you notice about how the red liquid spreads through the bowl? Why might that happen if we think about tiny invisible particles?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the spreading pattern in detail (moves outward, diffuses, mixes evenly) and explains that tiny particles move and spread throughout the liquid, using appropriate vocabulary like 'particles,' 'spread,' or 'mix' to connect observation to particle behavior.",
+        "meets": "Student notices the red liquid spreads or diffuses throughout the bowl and offers a basic explanation that particles move or mix around.",
+        "approaching": "Student describes the spreading but provides incomplete or partially accurate explanation of particle movement, or focuses mainly on observation without connecting to particle behavior.",
+        "beginning": "Student provides minimal description of the spreading or vague reasoning that does not reference particle movement or mixing."
+      }
+    },
+    {
+      "questionText": "Compare mixing cinnamon into sugar with mixing paint colors together. How are they the same? How are they different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both create mixtures, both combine materials, both spread throughout) and meaningful differences (cinnamon and sugar are both dry solids while paints are liquids; cinnamon particles stay visible while paint colors blend to make new colors), showing understanding of mixture properties.",
+        "meets": "Student identifies at least one valid similarity and one valid difference, such as 'both mix materials together' and 'paint colors change but cinnamon stays cinnamon colored.'",
+        "approaching": "Student identifies either similarities or differences but not both clearly, or provides partially accurate comparisons with some confusion about mixture properties.",
+        "beginning": "Student attempts comparison but provides vague statements or inaccurate details about how the mixtures behave or appear."
+      }
+    },
+    {
+      "questionText": "If we separated all the cinnamon particles back out of the mixture, would we still have the same amount of cinnamon we started with?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly answers 'yes' and explains that matter cannot be created or destroyed, so all the cinnamon particles would still be there even though they are mixed in; may note that separation might be difficult but the amount remains unchanged.",
+        "meets": "Student correctly answers 'yes' and provides a reasonable explanation, such as 'the cinnamon doesn't disappear, it's just mixed in with the sugar.'",
+        "approaching": "Student answers 'yes' but provides limited or unclear explanation, or shows some uncertainty about whether the amount would be the same.",
+        "beginning": "Student answers with uncertainty or provides an incorrect answer, such as saying some cinnamon would be lost or created during mixing."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:15:33.780Z",
+  "cost": 0.005504
+}

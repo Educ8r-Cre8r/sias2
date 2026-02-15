@@ -1,0 +1,53 @@
+{
+  "title": "Larvae",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this larva's job is in this stage of its life?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the larva's main job is to eat and grow, and explains how eating helps it prepare for becoming an adult insect with specific details.",
+        "meets": "Student correctly identifies that the larva's job is to eat and grow during this stage of its life.",
+        "approaching": "Student mentions eating or growing as the larva's job, but the explanation is incomplete or partially unclear.",
+        "beginning": "Student provides a vague response about the larva's job or states an idea with little accuracy or explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think the larva is pale (light-colored) instead of bright and colorful like some adult insects?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests that the pale color helps the larva hide in soil or that the larva hasn't finished developing its adult colors yet, showing understanding of camouflage or development.",
+        "meets": "Student provides a reasonable explanation such as the larva blending in with soil, not being fully grown yet, or lacking adult coloring.",
+        "approaching": "Student attempts an explanation but it is partially correct or shows incomplete understanding of why larval coloring differs from adults.",
+        "beginning": "Student's response shows minimal understanding with vague or inaccurate reasoning about the larva's coloring."
+      }
+    },
+    {
+      "questionText": "If we found this larva in the soil, what would we need to do to keep it safe and healthy while we observe it?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple care requirements such as keeping the soil moist, maintaining soil in the container, keeping it cool/in shade, and providing appropriate food, demonstrating thorough understanding of larval habitat needs.",
+        "meets": "Student identifies at least two appropriate care needs such as keeping soil moist, providing food, or maintaining a proper habitat.",
+        "approaching": "Student suggests one or two care ideas, but some may be incomplete, vague, or partially correct.",
+        "beginning": "Student provides minimal or unclear suggestions for keeping the larva safe with little evidence of understanding its needs."
+      }
+    },
+    {
+      "questionText": "How do you think the larva's body will change before it becomes an adult insect? What will stay the same?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific changes such as growing bigger, developing wings, changing color, and gaining hard outer covering, and identifies what stays the same (such as basic body segments or head), showing understanding of insect metamorphosis.",
+        "meets": "Student describes how the larva will grow and change into an adult insect, and identifies at least one thing that stays the same.",
+        "approaching": "Student describes some physical changes the larva will undergo, but the explanation lacks detail or clarity about what remains the same.",
+        "beginning": "Student provides vague ideas about changes or shows minimal understanding of how a larva transforms into an adult insect."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:50:15.817Z",
+  "cost": 0.004733
+}

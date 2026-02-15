@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is making the flag move?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies wind as the cause and explains that wind is moving air that pushes the flag, demonstrating clear understanding of cause and effect.",
+        "meets": "Student correctly identifies wind as what is making the flag move with a simple explanation.",
+        "approaching": "Student mentions wind or air but explanation is unclear or only partially correct; may confuse wind with other causes.",
+        "beginning": "Student provides a vague response (\"something is moving it\") or identifies an incorrect cause with little or no explanation."
+      }
+    },
+    {
+      "questionText": "How can we tell that wind is there if we cannot see it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple observable effects of wind (flag waving, movement of objects, feeling it on skin) and explains that we observe wind's effects even though we cannot see the wind itself.",
+        "meets": "Student identifies at least one observable effect of wind, such as the flag moving, and explains we can tell wind is there by watching what it does.",
+        "approaching": "Student identifies that the flag moving shows wind is present but struggles to articulate why we cannot see wind or provides incomplete reasoning.",
+        "beginning": "Student provides a minimal response or confuses seeing wind with seeing its effects; shows unclear understanding of the concept."
+      }
+    },
+    {
+      "questionText": "What other things have you seen move because of wind?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student lists three or more examples of objects moved by wind with specific details (leaves blowing, kites flying, hair moving) and shows clear connection to wind as the cause.",
+        "meets": "Student lists two examples of things that move because of wind, demonstrating recall of real-world observations.",
+        "approaching": "Student provides one example of something that moves in wind, or mentions multiple items without clear explanation of wind's role.",
+        "beginning": "Student provides a vague or unclear example; may struggle to recall specific things moved by wind or shows minimal effort."
+      }
+    },
+    {
+      "questionText": "What would happen to the flag if there was no wind?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the flag would hang down or stay still and explains that without wind (moving air), there is no force to push and move the flag.",
+        "meets": "Student correctly predicts the flag would not move or would hang down if there was no wind.",
+        "approaching": "Student makes a partially correct prediction but explanation is unclear or incomplete; may confuse cause and effect.",
+        "beginning": "Student provides an incorrect prediction or vague response showing minimal understanding of wind's role in moving the flag."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:22:04.993Z",
+  "cost": 0.004256
+}

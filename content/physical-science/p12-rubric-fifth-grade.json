@@ -1,0 +1,53 @@
+{
+  "title": "Sound",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to the sound if the musicians played their instruments in outer space?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that no sound would be heard and explains that sound needs a medium (like air) to travel through, demonstrating understanding that sound waves require particles to vibrate and move.",
+        "meets": "Student predicts that there would be no sound or that it would be very quiet in space, and explains that there is no air for sound to travel through.",
+        "approaching": "Student recognizes that sound would change or be different in space but provides incomplete reasoning, such as mentioning air without fully explaining why air is necessary.",
+        "beginning": "Student provides a vague response like 'sound wouldn't work' or 'it would be quieter' with little to no explanation about why space affects sound."
+      }
+    },
+    {
+      "questionText": "How do you think the shape and length of different brass instruments affects the sounds they make?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that longer instruments produce lower pitches and shorter instruments produce higher pitches, and describes how the shape affects how air vibrates inside the instrument to create different tones.",
+        "meets": "Student identifies that the length of an instrument affects the pitch (shorter = higher, longer = lower) or that shape affects the sound quality, showing basic understanding of instrument design.",
+        "approaching": "Student recognizes that different shapes and lengths make different sounds but provides limited explanation of how or why these differences occur.",
+        "beginning": "Student states that shape and length matter but provides no clear reasoning or makes inaccurate claims about how they affect sound."
+      }
+    },
+    {
+      "questionText": "Why might a trombone sound different from a trumpet even when playing the same note?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that differences in tube length, shape, and mouthpiece size cause different vibration patterns and resonance, which creates distinct timbres (tone qualities) even at the same pitch.",
+        "meets": "Student identifies that the instruments have different shapes, sizes, or designs that cause them to sound different, and connects this to how the instruments produce their unique tones.",
+        "approaching": "Student recognizes the instruments sound different but gives incomplete reasons, such as mentioning only one structural difference without explaining how it affects sound.",
+        "beginning": "Student states the instruments sound different but provides no explanation or reasoning about why."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that shows sound is being produced by these instruments?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple observable signs such as the musicians' posture, vibrating instrument bodies, open mouths/lips, air being blown, and the fact that we can hear the music being played.",
+        "meets": "Student identifies two or more observable signs of sound production, such as the musicians playing with their mouths or the visible movement of air or instruments.",
+        "approaching": "Student identifies one clear observable sign of sound production, such as the musicians playing instruments or the instruments being in use, but lacks detail.",
+        "beginning": "Student provides a minimal response with vague references to the musicians or instruments without clear evidence that sound is being produced."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:01:16.888Z",
+  "cost": 0.004834
+}

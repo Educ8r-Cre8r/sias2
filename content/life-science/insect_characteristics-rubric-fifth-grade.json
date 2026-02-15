@@ -1,0 +1,53 @@
+{
+  "title": "Insect Characteristics",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What body parts do you see on this grasshopper, and how do you think each part helps it survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least four body parts (head, antennae, legs, wings) with accurate descriptions of how each aids survival, using terms like \"sense,\" \"jump,\" \"escape predators,\" or \"protection.\"",
+        "meets": "Student identifies three body parts and explains how most help the grasshopper survive with basic reasoning (e.g., legs for jumping, antennae for feeling).",
+        "approaching": "Student identifies two body parts with limited or partially accurate explanations of survival functions; reasoning may be vague or incomplete.",
+        "beginning": "Student names one or two body parts with minimal or missing explanations of how they help the grasshopper survive."
+      }
+    },
+    {
+      "questionText": "Why do you think the grasshopper is green instead of bright red or yellow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green coloring provides camouflage or blending in with plants to hide from predators, and may reference the term \"camouflage\" or discuss how bright colors would make the grasshopper visible.",
+        "meets": "Student explains that the green color helps the grasshopper hide or blend in with plants, showing understanding of basic camouflage without using the specific term.",
+        "approaching": "Student recognizes that green color relates to the grasshopper's environment but provides incomplete reasoning; may mention blending in without full explanation.",
+        "beginning": "Student provides a vague response (e.g., \"it just is green\") with little to no connection between color and survival or environment."
+      }
+    },
+    {
+      "questionText": "If a grasshopper's back legs were short and weak instead of long and strong, how might its life be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences such as inability to jump far, difficulty escaping predators, trouble reaching food or mates, or reduced survival chances, demonstrating cause-and-effect reasoning.",
+        "meets": "Student identifies two consequences of weak legs (e.g., cannot jump far, cannot escape danger) with clear cause-and-effect reasoning.",
+        "approaching": "Student identifies one consequence with partial reasoning; may lack clear connection between leg weakness and survival impact.",
+        "beginning": "Student provides minimal response (e.g., \"it couldn't jump\") with little elaboration or unclear reasoning about survival implications."
+      }
+    },
+    {
+      "questionText": "Where do you think you would find a grasshopper in nature, and why would it do well in that place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a realistic habitat (meadow, field, garden, grassland) and explains multiple reasons for success, such as plant food availability, camouflage among vegetation, or escape space.",
+        "meets": "Student identifies an appropriate habitat and gives at least two reasons why the grasshopper thrives there (e.g., plants for food, places to hide).",
+        "approaching": "Student identifies a reasonable habitat with one incomplete or partially accurate reason for the grasshopper's success.",
+        "beginning": "Student suggests a vague location or provides minimal reasoning about why a grasshopper would survive there."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:17:11.556Z",
+  "cost": 0.005017
+}

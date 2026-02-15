@@ -1,0 +1,53 @@
+{
+  "title": "Ice",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice happening to the ice cubes in this bowl?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific observations about the ice cubes, such as they are melting, getting smaller, floating, or creating water, and uses precise descriptive words.",
+        "meets": "Student accurately describes that the ice cubes are melting and identifies at least one other observable change, such as the amount of water increasing or the size of the ice changing.",
+        "approaching": "Student recognizes that the ice cubes are changing but provides limited detail; may mention melting but miss other observable changes happening in the bowl.",
+        "beginning": "Student provides a vague response such as 'the ice is there' or gives an inaccurate observation with minimal detail about what is actually happening."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of the ice look cloudy while the water looks clear?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the cloudy appearance is caused by air bubbles or trapped air in the ice and explains that clear water does not have these trapped bubbles, showing understanding of why clarity differs.",
+        "meets": "Student correctly identifies that air bubbles or air trapped inside the ice makes it look cloudy and understands this is different from the clear water.",
+        "approaching": "Student recognizes there is a difference between cloudy ice and clear water but gives an incomplete or partially accurate explanation of what causes the cloudiness.",
+        "beginning": "Student provides little explanation or guesses without reasoning; may describe what they see but does not attempt to explain why the ice and water look different."
+      }
+    },
+    {
+      "questionText": "How could you speed up or slow down the melting process?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple realistic strategies to both speed up and slow down melting, such as using heat/warm water to speed it up and putting it in a freezer or cold place to slow it down, showing deep understanding of temperature's effect.",
+        "meets": "Student suggests at least one appropriate way to speed up melting (such as adding heat or warm water) and one way to slow it down (such as using cold or a freezer), with reasonable explanations.",
+        "approaching": "Student provides one correct strategy for either speeding up or slowing down melting but lacks detail or provides only a partially accurate second strategy.",
+        "beginning": "Student attempts to answer but provides vague, irrelevant, or inaccurate strategies that show minimal understanding of how temperature affects melting speed."
+      }
+    },
+    {
+      "questionText": "What would happen if we put this bowl in the freezer overnight?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the water would freeze into ice and explains that the cold temperature in the freezer would cause this change, possibly noting that the ice and water would return to being solid ice.",
+        "meets": "Student correctly predicts that the water would freeze or turn into ice and identifies the freezer's cold temperature as the reason.",
+        "approaching": "Student predicts that something would freeze but gives incomplete reasoning or shows partial understanding of how the freezer's temperature causes the change.",
+        "beginning": "Student provides a prediction that is inaccurate or vague, or attempts to answer without clear reasoning about how cold temperatures affect water."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:02:34.096Z",
+  "cost": 0.004966
+}

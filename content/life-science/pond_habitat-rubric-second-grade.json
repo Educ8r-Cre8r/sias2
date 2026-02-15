@@ -1,0 +1,53 @@
+{
+  "title": "Pond Habitat",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the water lilies need to live and grow in the pond?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more needs (water, sunlight, soil/nutrients) with clear explanations of why each is important for water lilies to survive.",
+        "meets": "Student identifies two needs (such as water and sunlight) with reasonable explanations of how they help water lilies grow.",
+        "approaching": "Student identifies one or two needs but with limited or incomplete explanations; may confuse needs with general plant care.",
+        "beginning": "Student provides a vague response (e.g., 'it needs stuff') or names only one need with little or no explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think the white water lily flowers are floating on top of the water instead of being under it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers need sunlight to grow and float on the surface to reach it, demonstrating understanding of both plant needs and adaptation.",
+        "meets": "Student explains that flowers float to get sunlight or air, showing understanding of why position matters for plant survival.",
+        "approaching": "Student recognizes that floating is helpful but gives an incomplete reason (e.g., 'so they can get air' without connecting to growth or sunlight).",
+        "beginning": "Student provides a minimal response such as 'it just floats' or gives an inaccurate reason unrelated to plant needs."
+      }
+    },
+    {
+      "questionText": "If all the water disappeared from this pond, what would happen to the plants and animals living there? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both plants and animals would die because they depend on water for survival, showing understanding of how organisms rely on their habitat.",
+        "meets": "Student states that plants and animals would die or leave, with a basic explanation that they need water to live.",
+        "approaching": "Student mentions that something would happen to the living things but gives an unclear or partially correct reason for why.",
+        "beginning": "Student provides a vague answer (e.g., 'they would be sad') or fails to explain why water is necessary."
+      }
+    },
+    {
+      "questionText": "How is a pond habitat different from a garden habitat, and what living things might be found in each place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple key differences (water vs. soil, wet vs. dry) and names at least two living things appropriate to each habitat, showing clear understanding of how habitats shape what lives there.",
+        "meets": "Student identifies at least one major difference between pond and garden habitats and names at least one living thing found in each place.",
+        "approaching": "Student attempts to name differences or living things but provides incomplete or partially accurate information; may confuse what belongs in each habitat.",
+        "beginning": "Student provides minimal or unclear comparisons and struggles to name appropriate living things for either habitat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:52:24.590Z",
+  "cost": 0.004623
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Water Cycle",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make the white frost and snow appear on the flower and leaves overnight?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that water in the air turned into ice/frost because it got very cold overnight, and may mention that snow fell from clouds, demonstrating understanding of water changing states due to temperature.",
+        "meets": "Student correctly identifies that it got very cold and water froze, or that snow fell overnight, showing basic understanding of cold temperatures creating frost and snow.",
+        "approaching": "Student mentions cold or freezing but explanation is unclear or incomplete; may confuse frost with snow or provide a partially accurate response about temperature change.",
+        "beginning": "Student provides a vague response like \"it got cold\" with no explanation of how water turned to frost or snow, or response shows minimal understanding of the process."
+      }
+    },
+    {
+      "questionText": "Why do you think the daffodil flower is still yellow and bright even though it's covered in snow? What does that tell us about the flower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the flower is strong or hardy and can survive cold weather, connecting this to the idea that plants have adaptations to handle winter conditions and continue growing.",
+        "meets": "Student recognizes that the flower is still healthy or alive despite the snow, and explains that the flower is strong or tough enough to keep blooming in cold weather.",
+        "approaching": "Student observes that the flower is still yellow and bright but gives an incomplete explanation, such as mentioning the flower is pretty without explaining survival or strength.",
+        "beginning": "Student simply restates that the flower is yellow and bright without explaining why it can survive in snow, or provides an inaccurate response."
+      }
+    },
+    {
+      "questionText": "If we left this flower outside on a sunny day, what would happen to the frost and snow? Where would the water go?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the snow and frost would melt and explains that the water would go into the ground, evaporate into the air, or be absorbed by the plant, showing understanding of multiple paths water can take.",
+        "meets": "Student correctly predicts that the frost and snow would melt from the sun's warmth and identifies where some of the water would go (ground, air, or plant).",
+        "approaching": "Student predicts melting but provides an unclear or partially correct explanation of where the water goes, or mentions only one destination with limited reasoning.",
+        "beginning": "Student makes a vague prediction about melting with no explanation, or provides an inaccurate response about what happens to the water."
+      }
+    },
+    {
+      "questionText": "How is frost different from rain? How are they the same?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that frost is frozen water that forms on surfaces while rain is liquid water that falls, and identifies that both are forms of water, demonstrating understanding of water in different states.",
+        "meets": "Student identifies at least one difference (frost is frozen/icy, rain is wet liquid) and recognizes that both are water or come from the sky.",
+        "approaching": "Student identifies either a difference or a similarity but not both, or explanations lack clarity about the states of water or sources.",
+        "beginning": "Student provides minimal or unclear comparison, such as only naming the two types of water without explaining differences or similarities."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:11:08.797Z",
+  "cost": 0.005101
+}

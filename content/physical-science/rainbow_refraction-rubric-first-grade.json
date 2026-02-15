@@ -1,0 +1,53 @@
+{
+  "title": "Rainbow Refraction",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you need to see a rainbow?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies all three essential conditions (sun, water/raindrops, and correct position/angle) with clear explanations of why each is needed.",
+        "meets": "Student identifies at least two of the three conditions needed for a rainbow (sun, water, and position) with basic explanations.",
+        "approaching": "Student identifies one or two conditions (such as sun and water) but explanations are vague or incomplete.",
+        "beginning": "Student provides a minimal or unclear response, such as naming only one element or guessing without reasoning."
+      }
+    },
+    {
+      "questionText": "Why do you think the colors always appear in the same order every time we see a rainbow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that light bends in the same way each time because water droplets bend different colors of light by different amounts, always in the same order.",
+        "meets": "Student recognizes that the order is consistent and offers a reasonable explanation related to how light and water interact (e.g., 'light bends the same way every time').",
+        "approaching": "Student acknowledges the colors are always in the same order but provides an incomplete or partially accurate explanation of why.",
+        "beginning": "Student states colors are always the same but cannot explain why, or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "If you were standing in front of the sun instead of behind it, do you think you could see a rainbow? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts 'no' and explains that the sun must be behind you so light can pass through raindrops in front of you and reflect back to your eyes.",
+        "meets": "Student correctly predicts 'no' and provides a reasonable explanation about needing the sun in the right position or behind you.",
+        "approaching": "Student makes the correct prediction but explanation is unclear or incomplete regarding the sun's position and how light travels.",
+        "beginning": "Student gives an incorrect prediction or no explanation, or reasoning does not address the position of the sun."
+      }
+    },
+    {
+      "questionText": "Where would you look to find the end of a rainbow, and why do you think people say rainbows don't have an end?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that you cannot reach the end because rainbows move as you move, or that the 'end' depends on your position and the location of water droplets.",
+        "meets": "Student describes that the end appears to be on the ground or horizon and recognizes that it's hard to find because it moves or changes depending on where you stand.",
+        "approaching": "Student attempts to identify where the end appears but reasoning about why it cannot be reached is incomplete or unclear.",
+        "beginning": "Student provides a vague location or no clear explanation of why rainbows cannot have a reachable end."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:23:42.521Z",
+  "cost": 0.004636
+}

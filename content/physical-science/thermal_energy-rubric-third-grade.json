@@ -1,0 +1,53 @@
+{
+  "title": "Thermal Energy",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What changes do you notice happening to the egg as it cooks?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes (color, texture, state) with clear details, such as explaining that the clear egg white becomes white and solid while the yolk stays soft, and may mention the egg gets hot.",
+        "meets": "Student describes at least two clear changes to the egg, such as the color changing or the texture becoming solid, with accurate observations.",
+        "approaching": "Student notices some changes but with limited detail, such as mentioning the egg gets cooked or white, without explaining multiple changes or using complete descriptions.",
+        "beginning": "Student provides a vague response like 'the egg changes' or 'it cooks' with little specific observation of what actually happens to the egg."
+      }
+    },
+    {
+      "questionText": "Why do you think the egg white cooks before the yolk?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heat travels through the egg white first because it is on the outside or touches the hot pan first, and may note that the yolk needs more time or heat to cook solid.",
+        "meets": "Student provides a reasonable explanation that the egg white is on the outside so it gets hot first, or that heat reaches the white before the yolk.",
+        "approaching": "Student attempts an explanation but is incomplete or unclear, such as mentioning that the white is on the outside but not fully connecting this to why it cooks first.",
+        "beginning": "Student gives a response unrelated to heat or position, such as 'I don't know' or an inaccurate guess without any logical reasoning about how heat works."
+      }
+    },
+    {
+      "questionText": "If we let the cooked egg cool down in the refrigerator, will it turn back into a raw egg? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly states the egg will not turn back into raw, and explains that cooling removes heat but does not reverse the cooking change, or notes that the egg has permanently changed because the proteins changed their structure.",
+        "meets": "Student correctly answers that the egg will not become raw again and offers a simple explanation such as 'cooling down won't undo the cooking' or 'it already cooked.'",
+        "approaching": "Student answers correctly that it won't turn raw but provides an unclear or incomplete reason, or shows hesitation in the explanation.",
+        "beginning": "Student gives an incorrect answer, such as thinking the egg will return to raw, or provides no reasoning to support their answer."
+      }
+    },
+    {
+      "questionText": "What other foods do you eat that change when they are heated? What changes do you observe?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two foods and describes specific observable changes for each, such as bread turning brown, pasta softening, or cheese melting, showing clear connections to the egg cooking example.",
+        "meets": "Student names at least one food and describes a clear change it makes when heated, with accurate observations about color, texture, or appearance.",
+        "approaching": "Student names a food that changes when heated but provides limited or vague description of the change, such as 'it gets hot' without specific observable details.",
+        "beginning": "Student names a food but cannot describe how it changes when heated, or provides responses unrelated to heating foods."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:03:06.271Z",
+  "cost": 0.005043
+}

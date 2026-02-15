@@ -1,0 +1,53 @@
+{
+  "title": "Scales",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to an alligator if it didn't have scales?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple protective functions of scales (waterproofing, protection from predators, temperature regulation) and explains how losing scales would harm the alligator's survival with specific details.",
+        "meets": "Student correctly explains that scales protect the alligator and that without them the alligator would be hurt, dry out, or have trouble surviving in its environment.",
+        "approaching": "Student recognizes that scales are important for protection but provides only a vague or incomplete explanation of what would happen without them.",
+        "beginning": "Student gives a minimal response such as 'it would be sad' or 'it would get hurt' without explaining how scales help the alligator."
+      }
+    },
+    {
+      "questionText": "How are a reptile's scales similar to and different from your own skin?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (both protect the body, both cover the outside) and differences (scales are hard/bumpy while skin is smooth, reptile scales shed while human skin sheds in tiny pieces, scales are waterproof).",
+        "meets": "Student identifies at least one clear similarity and one clear difference between reptile scales and human skin with accurate descriptions.",
+        "approaching": "Student attempts to compare but provides only a partial or partially accurate response, such as identifying only a similarity or only a difference.",
+        "beginning": "Student provides a vague or minimal response with little or no accurate comparison between scales and human skin."
+      }
+    },
+    {
+      "questionText": "Why might an alligator's striped tail pattern be helpful for survival in a swampy environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how the striped pattern helps with camouflage by blending in with light and shadows in water or vegetation, and may mention how it helps the alligator hide from prey or predators.",
+        "meets": "Student correctly identifies that the stripes help the alligator hide or blend in with its swampy environment for camouflage.",
+        "approaching": "Student recognizes the stripes are connected to survival or hiding but provides an incomplete or unclear explanation of how camouflage works.",
+        "beginning": "Student provides a minimal or inaccurate response such as 'the stripes look nice' without connecting them to survival or the swamp environment."
+      }
+    },
+    {
+      "questionText": "If you were designing a robot that needed to work in a wet, muddy environment, what features from reptile scales would you copy?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple scale features (waterproof texture, bumpy/overlapping design, durability) and explains in detail how each would help the robot function in a wet, muddy environment with specific, practical applications.",
+        "meets": "Student identifies at least two features of scales that would be useful (such as waterproofing or tough texture) and explains how they would help the robot work in wet, muddy conditions.",
+        "approaching": "Student identifies at least one feature of scales that could be useful but provides only a basic or incomplete explanation of how it would help the robot.",
+        "beginning": "Student provides a vague response such as 'I would make it hard' or 'I would copy scales' without explaining what features or why they would be helpful."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:51:47.681Z",
+  "cost": 0.005112
+}

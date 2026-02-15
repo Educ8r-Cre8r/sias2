@@ -1,0 +1,53 @@
+{
+  "title": "Propane Heater",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the mesh part of the heater glows orange-red?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mesh glows because it is very hot and that hot things can make light, using words like 'heat,' 'hot,' and 'glow' to describe the connection between temperature and light emission.",
+        "meets": "Student states that the mesh glows because it is hot or that heat makes the glow, showing basic understanding that temperature and light are related.",
+        "approaching": "Student mentions that the mesh is hot or glowing but makes only a weak or incomplete connection between heat and the orange-red color.",
+        "beginning": "Student provides a vague response such as 'it glows' or 'it's red' without explaining why or attempting to connect heat to the glow."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the glow if we turned the heater off and let it cool down?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the glow would get darker, dimmer, or disappear as it cools, and explains that cooler things do not glow as brightly, showing understanding of the relationship between temperature and light.",
+        "meets": "Student predicts that the glow would go away or become darker/dimmer when the heater cools down.",
+        "approaching": "Student makes a prediction about change but is unclear whether the glow would dim, disappear, or change in some other way.",
+        "beginning": "Student makes an unclear or unsupported prediction, or states 'it would turn off' without describing what happens to the glow."
+      }
+    },
+    {
+      "questionText": "Can you feel the heat coming from the heater? How is the heat traveling to you if nothing is touching you?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student recognizes that heat travels through the air (radiation or air movement) without direct contact, using words like 'through the air,' 'invisible,' or describing how warmth spreads across space.",
+        "meets": "Student acknowledges that heat can be felt even though nothing is touching them and makes a reasonable attempt to explain that heat travels through air or space.",
+        "approaching": "Student recognizes that heat can be felt from a distance but provides an unclear or incomplete explanation of how the heat travels.",
+        "beginning": "Student confirms heat can be felt but provides no explanation for how it travels without contact, or suggests an inaccurate method of transfer."
+      }
+    },
+    {
+      "questionText": "What other things do you know that make light and heat at the same time?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student lists multiple examples (such as sun, fire, lamp, candle, stove) that accurately produce both light and heat simultaneously, showing broad understanding of heat and light sources.",
+        "meets": "Student provides one or two accurate examples of things that make both light and heat, such as a fire, lamp, or the sun.",
+        "approaching": "Student provides one example that makes light and heat, though the example may be slightly unclear or partially correct.",
+        "beginning": "Student attempts to name something but provides an unclear or inaccurate example, or gives a response that does not produce both light and heat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:43:15.103Z",
+  "cost": 0.004979
+}

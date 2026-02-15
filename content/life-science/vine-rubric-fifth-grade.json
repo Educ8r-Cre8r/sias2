@@ -1,0 +1,53 @@
+{
+  "title": "Vine",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this vine grows up the fence instead of spreading out along the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple advantages of vertical growth (access to sunlight, less competition, better air circulation) with specific references to how the fence provides support for climbing.",
+        "meets": "Student identifies at least one clear advantage of climbing (such as reaching sunlight or avoiding ground competition) and explains how the fence helps the vine grow upward.",
+        "approaching": "Student recognizes that the vine climbs upward and mentions one benefit (like getting sunlight), but explanation lacks detail or clarity about the role of the fence.",
+        "beginning": "Student provides a vague answer such as 'it likes to climb' or 'the fence is there' without explaining advantages of vertical growth."
+      }
+    },
+    {
+      "questionText": "If we removed this fence, what do you predict would happen to the vine? What other structures could it climb instead?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the vine would fall or spread along the ground and identifies multiple alternative structures (trees, poles, trellises, buildings) with explanation of what features make those structures suitable for climbing.",
+        "meets": "Student predicts the vine would fall or spread along the ground and identifies at least two alternative structures it could climb with brief explanation of why.",
+        "approaching": "Student makes a prediction about what would happen without the fence, or identifies one alternative structure, but reasoning is incomplete or unclear.",
+        "beginning": "Student provides minimal response such as 'it would fall down' or names one structure without explanation of why the vine could climb it."
+      }
+    },
+    {
+      "questionText": "Look at the tendrils. What problem does a curly tendril solve better than a straight stem would?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that curly tendrils grip and wrap around surfaces more effectively than straight stems, preventing the vine from slipping, and may note that coiling allows the vine to hold on to uneven or rough surfaces.",
+        "meets": "Student identifies that curly tendrils help the vine grip or hold onto the fence better than straight stems would, using appropriate descriptive language.",
+        "approaching": "Student recognizes that tendrils are curly and connect this to holding or gripping, but explanation is incomplete or lacks clarity about the advantage over straight structures.",
+        "beginning": "Student mentions tendrils are curly or notices they attach to the fence, but does not explain what problem they solve or why curly is better than straight."
+      }
+    },
+    {
+      "questionText": "How does the fence help this plant, and how does the plant help other living things (like insects or birds)?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains the fence provides structural support for climbing and describes at least two ways the plant benefits other organisms (shelter, food from flowers/fruits/insects, nesting sites) with specific examples.",
+        "meets": "Student explains the fence supports the vine's growth and identifies at least one way the plant helps other living things (such as providing food or shelter).",
+        "approaching": "Student mentions that the fence helps the vine grow or that the plant provides something for animals, but reasoning lacks detail or the connection is unclear.",
+        "beginning": "Student provides a vague response about the fence or the plant helping others, such as 'the plant is pretty' or 'animals like it,' without clear explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:56:46.725Z",
+  "cost": 0.005123
+}

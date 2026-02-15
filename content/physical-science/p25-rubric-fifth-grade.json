@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to these flowers if we removed them from the water for several hours?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the flowers would wilt or droop and explains that plants need water to stay firm and healthy, using accurate details about how water keeps plant cells rigid and strong.",
+        "meets": "Student predicts the flowers would wilt or become droopy and states that plants need water to survive and stay fresh.",
+        "approaching": "Student predicts something would happen to the flowers (like wilting) but provides an incomplete explanation or vague reasoning about why water is important.",
+        "beginning": "Student makes a prediction but it is inaccurate or provides no explanation, or simply states 'the flowers would die' without describing what would actually happen."
+      }
+    },
+    {
+      "questionText": "How is the way plants transport water similar to and different from how humans transport blood through their bodies?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies that both systems transport liquids to deliver nutrients/materials and use tube-like structures (vessels/veins), and accurately explains key differences such as plants moving water from roots upward while humans pump blood throughout their body using a heart.",
+        "meets": "Student identifies at least one similarity (both transport liquids) and one difference (such as direction of flow or the use of a heart versus root pressure) with generally accurate explanations.",
+        "approaching": "Student identifies either a similarity or difference, but explanations lack clarity or contain partially accurate information about one or both systems.",
+        "beginning": "Student attempts a comparison but provides mostly inaccurate information or vague statements that do not clearly address how the systems are similar or different."
+      }
+    },
+    {
+      "questionText": "Why can you see a reflection of the flowers in the glass table but not in the wall behind them?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the glass table is smooth and shiny, which reflects light, and accurately describes that the wall is rough and absorbs or scatters light instead of reflecting it, demonstrating understanding of how surface properties affect reflection.",
+        "meets": "Student explains that the glass table is smooth and reflective while the wall is not smooth, or states that shiny surfaces reflect light and dull surfaces do not.",
+        "approaching": "Student identifies that the table is smooth or shiny but provides an incomplete explanation of why this causes a reflection, or vaguely mentions the difference between the surfaces.",
+        "beginning": "Student recognizes that one surface is different from the other but cannot explain why reflections appear on one and not the other, or provides inaccurate reasoning about how light behaves."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe in this photo that shows the flowers are still \"alive\" even though they've been cut?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations such as bright color, firm petals, green stems, water absorption by the stems, and explains how each shows the flowers are still living and functioning.",
+        "meets": "Student identifies at least two observable signs of life such as bright color, firm appearance, green stems, or that stems are still taking in water, and makes reasonable connections to plant life processes.",
+        "approaching": "Student identifies one observable sign of life (such as the color or freshness of petals) but provides limited explanation of why this indicates the flowers are still alive.",
+        "beginning": "Student notices something about the flowers but provides vague observations or unclear reasoning about what evidence shows they are still alive."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:19:32.739Z",
+  "cost": 0.005221
+}

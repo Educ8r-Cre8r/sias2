@@ -1,0 +1,53 @@
+{
+  "title": "Balanced And Unbalanced Forces",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What is the bucket doing in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student accurately describes that the bucket is moving up high in the air and identifies that it is holding dirt and rocks, showing careful observation of the image.",
+        "meets": "Student correctly states that the bucket is going up or moving up in the air with basic accuracy.",
+        "approaching": "Student identifies the bucket but gives a vague or partially correct description, such as saying it is just moving without specifying direction.",
+        "beginning": "Student provides a minimal response like naming the object but not describing what it is doing, or gives an inaccurate description."
+      }
+    },
+    {
+      "questionText": "How do you think the worker makes the bucket go up and down? What does the machine need to do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the machine's arms push and pull to move the bucket, and identifies that the machine uses power or strength to lift heavy things, showing understanding of basic machine function.",
+        "meets": "Student describes that the machine's arms move or that something makes the bucket go up and down, demonstrating basic understanding of how the machine works.",
+        "approaching": "Student gives a partial explanation such as mentioning the arms or the machine but lacks clarity about how movement causes the bucket to go up and down.",
+        "beginning": "Student provides a vague response like the machine does it or a person pushes it, with little connection to the machine's actual function."
+      }
+    },
+    {
+      "questionText": "Could you pick up all that dirt and rocks with your hands? Why or why not? What does the machine do differently?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that they could not lift all the dirt and rocks because they are too heavy and too much, and identifies that the machine is stronger and can lift heavy things that people cannot, showing understanding of machine advantages.",
+        "meets": "Student correctly states they could not pick up all the dirt because it is too heavy, and recognizes that the machine can lift things people cannot.",
+        "approaching": "Student says they could not do it but provides incomplete reasoning, or mentions the machine is stronger without fully explaining the comparison.",
+        "beginning": "Student gives a minimal response such as no they couldn't or the machine is bigger, without explaining why or how they differ."
+      }
+    },
+    {
+      "questionText": "If the machine's arms were shorter, do you think it could still lift the bucket as high? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that shorter arms would not lift the bucket as high and explains that the length of the arms determines how high something can reach, demonstrating understanding of how arm length affects lifting height.",
+        "meets": "Student correctly predicts that shorter arms would not lift the bucket as high and provides a basic explanation related to arm length.",
+        "approaching": "Student makes a reasonable prediction but gives incomplete reasoning, or correctly identifies what would happen without a clear explanation of why.",
+        "beginning": "Student provides a vague response such as maybe or no without supporting explanation, or makes an inaccurate prediction."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:10:05.426Z",
+  "cost": 0.00476
+}

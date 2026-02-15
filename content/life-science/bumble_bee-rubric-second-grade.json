@@ -1,0 +1,53 @@
+{
+  "title": "Bumble Bee",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the yellow powder on the bee's legs is, and why is it there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the yellow powder as pollen, explains it comes from the flower's stamens, and describes that the bee collects it for food or that it helps make new flowers grow.",
+        "meets": "Student identifies the yellow powder as pollen and provides a reasonable explanation for why it is on the bee's legs, such as the bee collecting it or it sticking to the bee.",
+        "approaching": "Student recognizes the yellow powder is something the bee picked up from the flower but provides an incomplete or partially unclear explanation of its purpose.",
+        "beginning": "Student makes a minimal attempt to describe the yellow powder with vague or inaccurate information about what it is or why it is there."
+      }
+    },
+    {
+      "questionText": "How do bees and flowers help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bees get food (nectar or pollen) from flowers and that bees help flowers by moving pollen between flowers so new flowers or seeds can grow.",
+        "meets": "Student describes a helpful relationship between bees and flowers, such as bees getting food and flowers getting something in return, though details may be simplified.",
+        "approaching": "Student recognizes that bees and flowers help each other but provides only one benefit or an incomplete explanation of the relationship.",
+        "beginning": "Student provides a minimal or unclear response about how bees and flowers interact, with little evidence of understanding the helpful relationship."
+      }
+    },
+    {
+      "questionText": "What would happen to flowers if there were no bees to visit them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that flowers would not make seeds or new flowers would not grow, and explains this is because bees move pollen between flowers.",
+        "meets": "Student predicts a reasonable consequence such as fewer flowers, no new flowers growing, or flowers not making seeds, with a basic explanation connected to the bee's role.",
+        "approaching": "Student makes a prediction about what would happen to flowers but the explanation is incomplete or weakly connected to the bee's role in pollination.",
+        "beginning": "Student provides a minimal or vague prediction with little or no explanation of why flowers would be affected without bees."
+      }
+    },
+    {
+      "questionText": "Why do you think this flower is bright pink and red instead of gray or brown?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors help attract bees and other insects to visit the flower, connecting the flower's appearance to pollination or getting help from animals.",
+        "meets": "Student identifies that bright colors help attract bees or insects to the flower, with a clear connection to the flower's purpose.",
+        "approaching": "Student recognizes that bright colors attract bees or insects but provides limited reasoning or connection to why this helps the flower.",
+        "beginning": "Student provides a minimal response about the flower's color with little explanation of how it relates to attracting bees or insects."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:11:56.152Z",
+  "cost": 0.004696
+}

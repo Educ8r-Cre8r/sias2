@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this grasshopper survive, and how does each part work?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least four body parts (antennae, legs, wings, mouth parts) and explains how each helps the grasshopper survive with specific functions like sensing, jumping, flying, or eating.",
+        "meets": "Student identifies at least three body parts and explains how each helps the grasshopper survive with accurate, basic functions.",
+        "approaching": "Student identifies two body parts with partial explanations of how they help survival, or identifies more parts with unclear connections to survival.",
+        "beginning": "Student identifies one body part or provides vague descriptions of body parts with minimal explanation of survival function."
+      }
+    },
+    {
+      "questionText": "How might the relationship between this grasshopper and sunflower affect other living things in the area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a chain of effects showing how the grasshopper eating the sunflower impacts multiple organisms (e.g., fewer seeds for birds, predators hunting the grasshopper, less food for other insects), demonstrating understanding of food webs.",
+        "meets": "Student identifies at least two ways the grasshopper-sunflower relationship affects other organisms, such as predators eating the grasshopper or fewer seeds available for other animals.",
+        "approaching": "Student identifies one way the relationship affects other organisms, or provides multiple ideas with limited clarity or one incomplete connection.",
+        "beginning": "Student provides a vague or minimal response about how the relationship affects other living things, or states only that the grasshopper eats the sunflower."
+      }
+    },
+    {
+      "questionText": "What would happen to grasshoppers if all the plants in their habitat disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that grasshoppers would have no food and would either die, move to a new habitat, or become extinct, and may discuss how this would affect predators that depend on grasshoppers.",
+        "meets": "Student explains that grasshoppers would die or leave the habitat because they need plants for food.",
+        "approaching": "Student states that grasshoppers would die or have a problem, but the explanation of why is incomplete or lacks clear connection to food needs.",
+        "beginning": "Student provides a minimal response such as 'grasshoppers would die' without explanation or with inaccurate reasoning."
+      }
+    },
+    {
+      "questionText": "How are a grasshopper's body parts different from a butterfly's, and why might these differences exist?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student compares at least three body parts (legs, antennae, wings, mouth parts) between grasshopper and butterfly, identifies specific differences, and explains how these differences help each insect survive based on their different lifestyles or habitats.",
+        "meets": "Student compares at least two body parts and identifies differences, then provides logical explanations for why the differences help each insect survive.",
+        "approaching": "Student identifies at least two differences between grasshoppers and butterflies, but explanations for why differences exist are unclear or partially incomplete.",
+        "beginning": "Student identifies one difference or several differences without clear explanations of why the differences exist."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:28:56.876Z",
+  "cost": 0.004931
+}

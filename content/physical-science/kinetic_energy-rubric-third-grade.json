@@ -1,0 +1,53 @@
+{
+  "title": "Kinetic Energy",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What made the skateboard and the skateboarder move through the air?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the skateboarder pushed with their legs to create movement and explains that this push gave both the skateboarder and skateboard energy to leave the ground and move upward.",
+        "meets": "Student explains that the skateboarder pushed with their legs to make the skateboard and themselves move up into the air.",
+        "approaching": "Student mentions that the skateboarder's legs or pushing caused the movement, but the explanation is incomplete or lacks detail about how this created upward motion.",
+        "beginning": "Student provides a vague response such as 'they jumped' or 'they moved' without explaining what caused the movement or how the push was involved."
+      }
+    },
+    {
+      "questionText": "How do you think the skateboarder's kinetic energy would change if they pushed even harder with their legs?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that kinetic energy would increase and explains that a harder push would make the skateboarder move faster, which increases kinetic energy because moving things have more energy when they go faster.",
+        "meets": "Student predicts that kinetic energy would increase with a harder push and explains that the skateboarder would move faster.",
+        "approaching": "Student predicts that kinetic energy would increase but provides limited or unclear reasoning about why a harder push would cause this change.",
+        "beginning": "Student makes a prediction but it is inaccurate, or provides no explanation for why the kinetic energy would change with a harder push."
+      }
+    },
+    {
+      "questionText": "Why does the skateboard have kinetic energy even though it's not touching the ground anymore?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that kinetic energy is the energy of movement, and the skateboard has it because it is still moving through the air even without ground contact; student may note that it will only stop when friction or gravity slows it down.",
+        "meets": "Student explains that the skateboard has kinetic energy because it is moving or in motion, and kinetic energy doesn't require something to be touching the ground.",
+        "approaching": "Student states that the skateboard is moving or has energy, but the explanation of why it has kinetic energy without ground contact is unclear or incomplete.",
+        "beginning": "Student provides a minimal response such as 'it has energy' or 'it's moving' without explaining the connection between motion and kinetic energy."
+      }
+    },
+    {
+      "questionText": "If the skateboarder was moving slower, how would their kinetic energy be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that slower movement means less kinetic energy and provides a clear reason, such as 'kinetic energy depends on how fast something is moving, so slower speed equals less energy.'",
+        "meets": "Student correctly states that kinetic energy would be less or lower if the skateboarder was moving slower.",
+        "approaching": "Student recognizes a relationship between speed and kinetic energy but the explanation is vague or partially incorrect about the direction or magnitude of change.",
+        "beginning": "Student provides an inaccurate response, such as saying kinetic energy would stay the same, or gives no explanation for how speed affects kinetic energy."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:42:03.630Z",
+  "cost": 0.005035
+}

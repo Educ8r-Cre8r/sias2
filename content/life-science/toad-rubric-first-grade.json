@@ -1,0 +1,53 @@
+{
+  "title": "Toad",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this toad's skin and how might it help the toad?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student accurately describes the bumpy, dotted texture of the toad's skin and explains two or more ways it helps (camouflage, protection, staying moist). Uses words like bumpy, rough, or texture.",
+        "meets": "Student describes the bumpy or dotted skin and explains one way it helps the toad, such as hiding or protection. Response shows clear understanding of skin function.",
+        "approaching": "Student notices the skin is bumpy or has dots but provides an incomplete or unclear explanation of how it helps. May mention one idea but lack detail.",
+        "beginning": "Student makes a simple observation about skin appearance (bumpy or textured) with little to no explanation of how it helps the toad."
+      }
+    },
+    {
+      "questionText": "If you were designing a hiding place for this toad, what would it look like?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a hiding place with multiple features (dark, bumpy surface, cool, damp) that match the toad's appearance and needs. Explains why each feature helps the toad stay safe and hidden.",
+        "meets": "Student describes a hiding place with at least two features that match the toad's gray color or bumpy skin, showing understanding of camouflage. Explains why the toad would be hard to see there.",
+        "approaching": "Student describes a hiding place but includes only one matching feature (dark color or bumpy surface) or explanation is unclear. Shows partial understanding of camouflage.",
+        "beginning": "Student suggests a hiding place with minimal connection to the toad's appearance or no explanation of why the toad would be safe there."
+      }
+    },
+    {
+      "questionText": "How are a toad's body parts similar to or different from your body parts?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three specific body parts (eyes, legs, skin, mouth) and clearly explains both similarities and differences using grade-appropriate language. Shows thoughtful comparison.",
+        "meets": "Student identifies at least two body parts and explains at least one similarity and one difference between the toad and human bodies. Comparisons are accurate.",
+        "approaching": "Student identifies one or two body parts and attempts a comparison, but explanation is incomplete or partially unclear. May focus only on similarities or only on differences.",
+        "beginning": "Student names one body part or makes a vague comparison with little detail or accuracy."
+      }
+    },
+    {
+      "questionText": "What do you think this toad needs to stay alive and healthy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies four or more needs (food, water, shelter, air, warmth) with specific details about how each helps the toad. Shows deep understanding of animal survival.",
+        "meets": "Student identifies three basic needs (such as food, water, and shelter) with reasonable explanations for how each helps the toad survive.",
+        "approaching": "Student identifies two needs with brief explanations, or identifies three needs with unclear explanations. Understanding is partial.",
+        "beginning": "Student names one need with little to no explanation, or provides vague response about toad survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:33:14.942Z",
+  "cost": 0.004896
+}

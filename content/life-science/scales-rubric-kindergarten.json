@@ -1,0 +1,53 @@
+{
+  "title": "Scales",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the bumpy scales do for the alligator?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple functions of scales (protection, keeping water out, helping the alligator feel things) using words like 'protect,' 'shield,' or 'keep safe' with specific details about how they work.",
+        "meets": "Student correctly identifies that scales protect the alligator or keep it safe, using simple but accurate language to explain at least one purpose of the scales.",
+        "approaching": "Student mentions scales are 'hard' or 'bumpy' and suggests they might help the alligator, but the explanation is unclear or only partially correct.",
+        "beginning": "Student makes a vague attempt (like 'they help the alligator') without clear explanation of what scales actually do for protection or survival."
+      }
+    },
+    {
+      "questionText": "Why might scales help an alligator live in the water better than smooth skin would?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that scales protect the alligator from getting hurt, keep water out or dry, or help it move in water better, with reasoning that shows understanding of how scales are suited to water environments.",
+        "meets": "Student correctly identifies that scales protect the alligator in water or keep it safer than smooth skin would, with a simple but logical explanation.",
+        "approaching": "Student recognizes scales help in water but gives an incomplete or partially correct reason (like 'scales are hard' without explaining the water connection).",
+        "beginning": "Student attempts to answer but provides minimal or inaccurate reasoning about scales and water, or only repeats the question without explaining."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that might have scales or similar hard coverings?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names 3 or more animals with scales or hard coverings (fish, lizards, turtles, snakes, armadillos) and may describe where they live or how their coverings help them.",
+        "meets": "Student names 2 animals with scales or hard coverings that are accurate examples appropriate for kindergarten knowledge.",
+        "approaching": "Student names 1 animal with scales or similar covering, or names 2 animals where one example is unclear or less accurate.",
+        "beginning": "Student attempts to name an animal but gives a vague or inaccurate response, or cannot think of other animals with scales."
+      }
+    },
+    {
+      "questionText": "If you were an alligator, how would scales help keep you safe?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains how scales would protect them from multiple hazards (bites, scratches, bumps, sharp things) or imagines how scale armor would feel, using clear, specific language.",
+        "meets": "Student correctly explains that scales would protect them from getting hurt or bitten, using simple descriptive language and clear reasoning.",
+        "approaching": "Student shows some understanding that scales provide protection but gives incomplete reasoning or a vague explanation of how they keep an alligator safe.",
+        "beginning": "Student attempts an answer but provides minimal detail or reasoning about how scales would help keep them safe."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:51:25.219Z",
+  "cost": 0.004878
+}

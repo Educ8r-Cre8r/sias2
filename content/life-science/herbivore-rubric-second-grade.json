@@ -1,0 +1,53 @@
+{
+  "title": "Herbivore",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What animal do you think made these tracks, and what clues help you decide?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the animal (deer or hoofed animal) and provides multiple specific clues from the track, such as oval shape, toe marks, size, or pattern of prints in the soil.",
+        "meets": "Student identifies a reasonable animal and explains at least one clear clue visible in the track, such as the shape or toe marks.",
+        "approaching": "Student makes a guess about the animal but provides only vague clues or describes general features without connecting them clearly to the tracks shown.",
+        "beginning": "Student names an animal or notices something about the tracks but offers no clear explanation or reasoning for their choice."
+      }
+    },
+    {
+      "questionText": "How are these animal tracks similar to or different from human footprints you've seen in mud or sand?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities and differences with specific details, such as comparing toe placement, overall shape, size, depth, or number of toes between animal and human prints.",
+        "meets": "Student describes at least one clear similarity and one clear difference between the animal tracks and human footprints using observable details.",
+        "approaching": "Student attempts a comparison but describes only similarities OR differences, or uses general statements without specific details from the tracks.",
+        "beginning": "Student makes a simple observation about one track type but does not attempt a meaningful comparison between animal and human prints."
+      }
+    },
+    {
+      "questionText": "Why do you think it's helpful for scientists to study animal tracks instead of always watching the animals directly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons, such as animals are hard to find, tracks show where animals have been, scientists can study animals without disturbing them, or tracks help track movement over time.",
+        "meets": "Student provides one clear reason with appropriate explanation, such as tracks help find animals that are hiding or hard to see, or it's easier than waiting for animals to appear.",
+        "approaching": "Student recognizes that tracks are useful but provides limited or unclear reasoning about why scientists might prefer studying them over direct observation.",
+        "beginning": "Student makes a simple statement about tracks being helpful but provides little or no explanation of the reasoning behind this."
+      }
+    },
+    {
+      "questionText": "If you found tracks like these near your school or home, what would that tell you about the animals living in your neighborhood?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes logical inferences, such as identifying what type of animal lives nearby, describing the animal's habitat needs, or explaining what the animal might be doing or searching for.",
+        "meets": "Student makes a reasonable inference about what animal lives in the area and explains something simple about it, such as it was visiting that location or finding food.",
+        "approaching": "Student recognizes that tracks tell something about neighborhood animals but offers only vague or partially developed ideas about what the tracks reveal.",
+        "beginning": "Student acknowledges that tracks belong to an animal but provides minimal or unclear thinking about what this reveals about the neighborhood."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:12:43.390Z",
+  "cost": 0.004739
+}

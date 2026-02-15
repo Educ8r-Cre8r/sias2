@@ -1,0 +1,53 @@
+{
+  "title": "Snail",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think a snail makes a slimy trail when it moves? How does this help it survive?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mucus reduces friction, making movement easier and faster, and connects this to survival by describing how it helps the snail escape danger, find food, or conserve energy. Uses terms like \"slippery\" or \"friction\" appropriately.",
+        "meets": "Student correctly identifies that the slimy mucus helps the snail move more easily and mentions at least one survival benefit, such as escaping predators or moving to find food.",
+        "approaching": "Student recognizes that mucus helps the snail move or mentions a survival benefit, but the connection between the two ideas is unclear or incomplete.",
+        "beginning": "Student provides a vague answer about the slime or movement (e.g., \"it helps it go\") with little or no explanation of how this aids survival."
+      }
+    },
+    {
+      "questionText": "What might happen to a snail if it lost its shell? What does the shell do for the snail?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple shell functions (protection from predators, weather, drying out) and predicts realistic consequences of losing it (injury, death, dehydration). Explains why the shell is critical for snail survival.",
+        "meets": "Student correctly identifies that the shell protects the snail and predicts that losing it would make the snail vulnerable to harm or danger.",
+        "approaching": "Student mentions that the shell is protective or that losing it would be harmful, but explanations lack detail or clarity about specific threats or functions.",
+        "beginning": "Student provides a minimal response (e.g., \"the snail would die\") with little explanation of why or what the shell does."
+      }
+    },
+    {
+      "questionText": "How is a snail's way of moving different from how a cat or a bird moves? Why do you think they move differently?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific differences (snails glide slowly using muscular foot; cats use legs; birds use wings) and explains that different body structures and lifestyles require different movement strategies. May mention speed, terrain, or habitat adaptations.",
+        "meets": "Student identifies clear differences in how snails, cats, and birds move and provides a basic explanation that body structure affects how animals move.",
+        "approaching": "Student notes some differences in movement but offers limited or unclear reasoning about why these differences exist.",
+        "beginning": "Student mentions that snails move differently (e.g., \"slower\") but provides no real comparison to other animals or no explanation for the differences."
+      }
+    },
+    {
+      "questionText": "If you could only move the way a snail does, what would be hard about it? What would be easy?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple realistic challenges (slow speed, unable to climb quickly, difficulty escaping danger) and advantages (low energy use, precise movement, protection while moving). Reasoning shows understanding of snail adaptation trade-offs.",
+        "meets": "Student identifies at least one challenge and one advantage of snail movement, with reasonable explanations tied to how snails actually move.",
+        "approaching": "Student lists challenges or advantages but with incomplete or partially unclear reasoning; may mention only one category (hard or easy).",
+        "beginning": "Student provides minimal ideas about difficulties or ease of snail movement with little connection to how snails actually move."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:39:01.642Z",
+  "cost": 0.005304
+}

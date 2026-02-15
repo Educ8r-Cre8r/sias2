@@ -1,0 +1,53 @@
+{
+  "title": "Pond Habitat",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the water lily needs to stay alive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple things water lilies need (water, sunlight, soil/nutrients) and explains why at least one is important using simple scientific reasoning.",
+        "meets": "Student identifies at least two things water lilies need to stay alive, such as water and sunlight, with basic explanations.",
+        "approaching": "Student identifies one thing a water lily needs (usually water) but may lack clear explanation or understanding of why it matters.",
+        "beginning": "Student provides a vague or partially incorrect response, such as naming only one need without explanation, or gives a response unrelated to plant survival."
+      }
+    },
+    {
+      "questionText": "Why do you think the lily pad's leaves are flat and wide instead of pointy and thin?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flat, wide leaves help the lily pad float, collect sunlight, or stay on the water's surface, and makes a connection to how the leaf shape fits its water environment.",
+        "meets": "Student explains that the flat, wide shape helps the lily pad float or stay on top of the water with a reasonable description.",
+        "approaching": "Student attempts to explain the leaf shape but gives an incomplete or partially accurate reason (e.g., mentions floating but doesn't fully explain how the shape helps).",
+        "beginning": "Student makes a guess about leaf shape without logical reasoning, or describes the leaves without explaining why they are shaped that way."
+      }
+    },
+    {
+      "questionText": "How is a pond habitat different from a forest habitat? What lives in each one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two clear differences between pond and forest habitats (such as water vs. land, different plants, different animals) and names specific animals/plants that live in each habitat.",
+        "meets": "Student identifies at least one key difference between the habitats (ponds have water, forests have trees) and names one or two animals or plants from each habitat.",
+        "approaching": "Student attempts to compare the habitats but explanation is incomplete or unclear; may name some animals/plants but struggle to connect them to specific habitats.",
+        "beginning": "Student provides minimal detail, such as naming only one habitat difference or listing organisms without clear habitat connection, or response shows confusion about the two habitats."
+      }
+    },
+    {
+      "questionText": "If we took away the water from this pond, what would happen to the water lilies and other plants?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that water lilies would die or wilt without water, and shows understanding that water is essential for these plants because they need it to live and grow.",
+        "meets": "Student states that the water lilies would die or get sick without water, with a simple but accurate explanation.",
+        "approaching": "Student recognizes that something bad would happen to the plants but explanation lacks clarity or is incomplete (e.g., 'they wouldn't be okay' without further detail).",
+        "beginning": "Student provides a vague response or shows minimal understanding of how removing water affects plants, such as a one-word answer or incorrect prediction."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:52:10.582Z",
+  "cost": 0.004846
+}

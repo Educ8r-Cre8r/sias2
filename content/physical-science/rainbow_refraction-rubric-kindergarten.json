@@ -1,0 +1,53 @@
+{
+  "title": "Rainbow Refraction",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What colors do you see in the rainbow? Can you name them in order?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies and names 5 or more rainbow colors in correct order (red, orange, yellow, green, blue, purple) with confidence and clarity.",
+        "meets": "Student identifies and names 3-4 rainbow colors, with most in correct order from the photograph.",
+        "approaching": "Student identifies and names 1-2 rainbow colors but may struggle with order or accuracy in naming.",
+        "beginning": "Student attempts to name colors but names are mostly inaccurate, vague (like 'pretty colors'), or cannot be clearly understood."
+      }
+    },
+    {
+      "questionText": "Why do you think we see a rainbow when it rains and the sun is shining at the same time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that raindrops and sunlight work together, and describes how light bounces or bends through water to make colors appear in the sky.",
+        "meets": "Student recognizes that both rain and sun are needed together and makes a simple connection between the two (e.g., 'The sun shines through the raindrops').",
+        "approaching": "Student mentions that rain and sun are involved but explanation is unclear or only partially connected (e.g., 'There's rain and sun but doesn't explain why they create rainbow).",
+        "beginning": "Student's response is vague, incorrect, or shows little understanding of the relationship between rain, sun, and rainbows (e.g., 'Because it rains')."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if there were no raindrops in the air? Would we still see a rainbow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts no rainbow would appear and explains that raindrops are essential for creating a rainbow (e.g., 'We need water drops to make the rainbow happen').",
+        "meets": "Student correctly predicts no rainbow would appear and provides a simple reason related to the missing raindrops.",
+        "approaching": "Student makes a prediction but reasoning is unclear or only partially connected to raindrops' role in rainbow formation.",
+        "beginning": "Student makes an incorrect prediction or gives a vague/inaccurate response with little reasoning about raindrops' importance."
+      }
+    },
+    {
+      "questionText": "Have you ever seen a rainbow? Where were you, and what was happening with the weather?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student shares a clear, detailed personal memory of seeing a rainbow, describing both a specific location and accurate weather conditions (rain and/or sun).",
+        "meets": "Student shares a memory of seeing a rainbow and provides a location and/or mentions relevant weather conditions.",
+        "approaching": "Student shares a response about rainbows but details are vague, incomplete, or only partially connected to a personal experience.",
+        "beginning": "Student attempts to respond but provides little detail, or response is unclear, inaccurate, or shows uncertainty about seeing a rainbow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:23:35.598Z",
+  "cost": 0.004767
+}

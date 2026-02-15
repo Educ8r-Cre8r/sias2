@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What patterns do you notice in the sizes and colors of rocks in this concrete?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific patterns, such as rocks being distributed throughout, variety of colors (brown, orange, red, black, yellow), mix of large and small sizes, and explains how these elements work together in the concrete.",
+        "meets": "Student describes accurate observations about rock sizes and colors, noting that rocks vary in size and come in different colors scattered through the concrete.",
+        "approaching": "Student notices some differences in rocks but observations lack specificity; may mention colors or sizes but not both with clear examples.",
+        "beginning": "Student makes vague observations such as 'rocks are different' or 'there are many colors' without describing what those differences or colors actually are."
+      }
+    },
+    {
+      "questionText": "How might the properties of this concrete change if we used only small pebbles versus only large rocks?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes in concrete properties for both scenarios (small pebbles: smoother surface, more even distribution, different strength; large rocks: rougher texture, gaps, weaker binding) and explains why these differences would matter for using concrete.",
+        "meets": "Student makes reasonable predictions that using only small pebbles or only large rocks would change how the concrete looks or works, with basic explanations of differences.",
+        "approaching": "Student predicts some changes but explanations are incomplete or lack clarity; may mention one scenario more thoroughly than the other.",
+        "beginning": "Student provides minimal predictions with vague language such as 'it would be different' without explaining what would change or why."
+      }
+    },
+    {
+      "questionText": "What other materials do humans combine to make something stronger or more useful?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple specific examples of material combinations (e.g., steel reinforcement in concrete, glass and frame in windows, wood and nails in buildings) and explains how combining materials improves strength, durability, or usefulness.",
+        "meets": "Student provides 2-3 accurate examples of combined materials that make something stronger or more useful, with brief explanations of the benefit.",
+        "approaching": "Student provides 1-2 examples of combined materials but explanations of why they're stronger or more useful are incomplete or unclear.",
+        "beginning": "Student provides vague or single example with minimal explanation, or examples that don't clearly show how combining materials improves products."
+      }
+    },
+    {
+      "questionText": "Why do you think engineers chose to mix rocks with concrete instead of using just concrete alone?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that rocks add strength, stability, and durability to concrete, prevent cracking, reduce cost, and support the concrete structure; may reference that concrete alone would be weaker or more brittle.",
+        "meets": "Student provides logical reasoning that mixing rocks with concrete makes it stronger, more durable, or more cost-effective than using concrete alone.",
+        "approaching": "Student recognizes that rocks make concrete better but explanation lacks detail or scientific reasoning; may state 'rocks make it stronger' without explaining how or why.",
+        "beginning": "Student provides minimal explanation such as 'because it's better' or 'because they wanted to' without demonstrating understanding of material properties."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:05:57.416Z",
+  "cost": 0.004988
+}

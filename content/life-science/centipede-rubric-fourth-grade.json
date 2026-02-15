@@ -1,0 +1,53 @@
+{
+  "title": "Centipede",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to a centipede if it lost several legs? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts centipede would have difficulty moving quickly or balancing, explains that legs work together for movement, and describes how losing legs would affect its ability to escape predators or hunt for food.",
+        "meets": "Student predicts centipede would have trouble moving and explains that legs are needed for walking or getting around on surfaces.",
+        "approaching": "Student states centipede would move slower or have problems, but explanation is vague or only partially connects legs to movement.",
+        "beginning": "Student provides a minimal response such as \"it would be slower\" or \"it couldn't walk\" with little to no explanation of why legs are important."
+      }
+    },
+    {
+      "questionText": "Compare the centipede's legs to a dog's legs. Why do you think they are different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that centipedes have many short legs along a long body while dogs have four thick legs, and explains differences relate to body structure, how each animal moves, or the environments they live in.",
+        "meets": "Student notes centipedes have many legs and dogs have four legs, and provides a reasonable explanation such as different animals need different ways to move.",
+        "approaching": "Student identifies some differences (number or size of legs) but explanation for why they differ is incomplete or unclear.",
+        "beginning": "Student makes a simple observation like \"they look different\" or \"centipedes have more legs\" with no explanation of the reason for differences."
+      }
+    },
+    {
+      "questionText": "Where would be a good place to find a centipede, and why would it be living there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific damp, dark places (under logs, in soil, under leaf litter) and explains centipedes live there to find food, stay moist, hide from predators, or because these are suitable habitats for their survival.",
+        "meets": "Student identifies a reasonable place like under wood or in soil and explains it provides shelter, moisture, or food for the centipede.",
+        "approaching": "Student suggests a plausible location but reasoning is incomplete, vague, or partially incorrect (e.g., \"in the dirt\" without explaining why).",
+        "beginning": "Student suggests a location with little or no explanation, or provides an implausible answer about where centipedes would live."
+      }
+    },
+    {
+      "questionText": "If a centipede had to move through sand instead of wood, how might its body need to be different to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple adaptations such as wider/flatter feet for better traction, smoother body to reduce drag, different leg positioning, or increased leg strength, and explains how each change would help in sandy environments.",
+        "meets": "Student suggests one or two reasonable body changes (like stronger legs, wider feet, or smoother body) and explains how the change would help the centipede move or survive in sand.",
+        "approaching": "Student identifies a possible body change but explanation of why it would help in sand is unclear, incomplete, or only partially accurate.",
+        "beginning": "Student provides a vague response like \"it would be different\" or makes a suggestion unrelated to how sand affects movement or survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:29:58.794Z",
+  "cost": 0.005087
+}

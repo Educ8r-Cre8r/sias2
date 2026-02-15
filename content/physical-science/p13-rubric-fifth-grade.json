@@ -1,0 +1,53 @@
+{
+  "title": "Static Electricity",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we used a different liquid instead of water?",
+      "bloomsLevel": "Hypothesize",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a specific outcome for a different liquid and explains reasoning using understanding of how liquids have different properties (such as density, stickiness, or electrical charge) that would affect their behavior on a charged balloon.",
+        "meets": "Student makes a reasonable prediction about what would happen with a different liquid and provides a basic explanation that references at least one property of liquids.",
+        "approaching": "Student predicts a different outcome but explanation is vague or only partially explains why the liquid would behave differently than water.",
+        "beginning": "Student makes a prediction with little to no explanation, or the response shows minimal understanding of how liquid properties might matter."
+      }
+    },
+    {
+      "questionText": "How might the size of the water drops affect how long they stay attached to the balloon?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that larger drops would fall sooner because they are heavier, and smaller drops would stay attached longer because they are lighter, demonstrating understanding of how mass/weight affects gravitational pull and electrical attraction forces.",
+        "meets": "Student correctly explains that drop size affects how long drops stay attached and provides a reasonable explanation involving weight or gravity.",
+        "approaching": "Student recognizes that size matters but explanation is incomplete or somewhat unclear about the relationship between size and how long drops stay attached.",
+        "beginning": "Student mentions drop size but provides little or no explanation of how it would affect whether drops stay attached or fall."
+      }
+    },
+    {
+      "questionText": "Why do you think some drops fall while others stay attached?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that drops fall when gravity's pull becomes stronger than the electrical attraction from the charged balloon, and may reference differences in drop size, position on the balloon, or strength of the charge.",
+        "meets": "Student provides a reasonable explanation that either gravity pulls some drops down or the electrical charge is not equally strong everywhere on the balloon.",
+        "approaching": "Student attempts an explanation but it is partially incomplete or somewhat unclear about the forces involved (gravity and/or electrical attraction).",
+        "beginning": "Student makes a basic observation that some drops fall but provides little or no explanation of why this happens."
+      }
+    },
+    {
+      "questionText": "What other materials might be attracted to a charged balloon, and why?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific materials (such as paper, hair, dust, or plastic) that would be attracted to a charged balloon and explains that charged objects attract light materials or oppositely-charged objects, showing understanding of static electricity.",
+        "meets": "Student identifies at least one appropriate material and provides a basic explanation that it would be attracted because the balloon is charged or has static electricity.",
+        "approaching": "Student names one or two materials but explanation for why they would be attracted is vague or incomplete.",
+        "beginning": "Student lists a material with little to no explanation, or suggests materials that would not actually be attracted to a charged balloon."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:02:03.028Z",
+  "cost": 0.004667
+}

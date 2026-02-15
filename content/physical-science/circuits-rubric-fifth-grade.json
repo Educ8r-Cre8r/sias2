@@ -1,0 +1,53 @@
+{
+  "title": "Circuits",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we removed one of the colored wires from this circuit? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the circuit would stop working and provides a detailed explanation that electricity needs a complete path (closed loop) to flow; may reference specific consequences like the relay not activating or no current reaching its destination.",
+        "meets": "Student predicts the circuit would stop working or not function properly and explains that electricity needs a complete path or that removing a wire breaks the circuit.",
+        "approaching": "Student predicts something would happen to the circuit but explanation is incomplete or shows partial understanding (e.g., 'it won't work' without explaining why, or vague reference to electricity needing to flow).",
+        "beginning": "Student makes an attempt but provides minimal or inaccurate prediction (e.g., 'nothing will happen,' 'it will be brighter,' or no logical reasoning given)."
+      }
+    },
+    {
+      "questionText": "How is this electrical circuit similar to a water system with pipes and pumps? What parts are the same?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate analogies (e.g., wires are like pipes, power source is like a pump, relay is like a valve, electricity flows like water) and explains how the flow and control work similarly in both systems.",
+        "meets": "Student identifies at least two accurate analogies between circuit parts and water system parts (e.g., wires=pipes, power source=pump) and explains basic similarities in how things flow or are controlled.",
+        "approaching": "Student identifies one or two analogies but explanations are incomplete or partially confused (e.g., correctly identifies one comparison but misses others, or comparison lacks clear connection to function).",
+        "beginning": "Student attempts comparison but shows limited understanding with mostly inaccurate or vague analogies (e.g., 'they both use energy' without specific part comparisons)."
+      }
+    },
+    {
+      "questionText": "Why do you think different colored wires are used in this circuit instead of just one color?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different colors help identify different paths, functions, or destinations of electricity and may reference real-world practices like color-coding for safety or organization in electrical systems.",
+        "meets": "Student explains that different colors help identify different wires, make the circuit easier to understand, or help someone know which wires go where.",
+        "approaching": "Student recognizes that colors serve a purpose but reasoning is incomplete or partially unclear (e.g., 'it makes it look different' or 'helps you see the circuit' without explaining the practical benefit).",
+        "beginning": "Student provides minimal reasoning or inaccurate explanation (e.g., 'because they look better,' 'random choice,' or no logical explanation offered)."
+      }
+    },
+    {
+      "questionText": "If the relay is like a switch, what do you think it's switching on or off, and how would you test your idea?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly identifies that a relay switches electrical current on/off in a circuit path and proposes a specific, testable method (e.g., 'remove power to see if the relay stops working,' 'use a light to show when current flows,' 'measure voltage before and after the relay').",
+        "meets": "Student identifies that a relay switches current or electricity on/off and suggests a reasonable test method (e.g., 'turn it on and off to see what happens,' 'add a light to see if it works,' 'check if power reaches the other side').",
+        "approaching": "Student identifies that a relay is a switch but explanation of what it controls is vague; test idea is present but lacks clarity or specificity (e.g., 'see if it switches something,' 'test it but I'm not sure how').",
+        "beginning": "Student provides minimal understanding of relay function and test method is absent or impractical (e.g., 'it switches things,' 'just look at it,' or no test method offered)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:00:51.688Z",
+  "cost": 0.005928
+}

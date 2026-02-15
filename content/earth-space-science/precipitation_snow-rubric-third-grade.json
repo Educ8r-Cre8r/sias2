@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Snow",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What has to happen to the water in the clouds for it to become snow instead of rain?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that water in clouds must freeze or get very cold to become snow, and may add details about ice crystals forming or how temperature is the key factor in this change.",
+        "meets": "Student correctly identifies that the water in clouds needs to be cold or freeze in order to become snow instead of rain.",
+        "approaching": "Student mentions that snow requires cold or freezing, but the explanation is incomplete or somewhat unclear about the relationship between temperature and snow formation.",
+        "beginning": "Student provides a minimal response such as 'it gets cold' with little detail, or gives an inaccurate explanation of how snow forms."
+      }
+    },
+    {
+      "questionText": "If it was warmer outside, what do you think would fall instead of snow? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts rain would fall instead and explains with clear reasoning that warmer temperatures prevent freezing, so water stays liquid; may connect this to personal observations of weather patterns.",
+        "meets": "Student correctly predicts that rain would fall instead of snow and provides a reasonable explanation that warmer air would keep the water from freezing.",
+        "approaching": "Student predicts rain instead of snow but gives an incomplete or unclear explanation of why temperature affects whether precipitation is rain or snow.",
+        "beginning": "Student makes an incorrect prediction or provides little to no explanation for their answer about what would fall in warmer weather."
+      }
+    },
+    {
+      "questionText": "Where do you think the water in this snow came from before it was a cloud?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple sources such as lakes, oceans, or rivers and explains that water evaporates from these sources to form clouds, demonstrating understanding of the water cycle.",
+        "meets": "Student identifies at least one realistic source of water (such as a lake, ocean, river, or ground) and shows understanding that the water came from Earth's surface before becoming a cloud.",
+        "approaching": "Student names a water source but provides vague or incomplete reasoning about how that water became part of a cloud.",
+        "beginning": "Student provides a vague answer like 'the sky' or 'the water' without identifying a real source on Earth, or gives an answer that shows minimal understanding of water sources."
+      }
+    },
+    {
+      "questionText": "How could we measure how much snow falls in our schoolyard, and why would that be helpful?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a specific measurement method such as using a ruler or collection container, explains why it would be helpful (e.g., comparing snowfall between days, understanding weather patterns, or planning activities), and may mention tracking data over time.",
+        "meets": "Student suggests a reasonable way to measure snow (such as using a ruler or container) and gives at least one reason why measuring would be helpful for learning about snow or weather.",
+        "approaching": "Student suggests a measurement method but provides limited or unclear reasoning about why measuring snowfall would be useful.",
+        "beginning": "Student provides a vague or impractical measurement method, or explains the purpose of measuring with minimal clarity or reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:42:54.238Z",
+  "cost": 0.004887
+}

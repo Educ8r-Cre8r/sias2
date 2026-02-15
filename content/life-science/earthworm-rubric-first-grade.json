@@ -1,0 +1,53 @@
+{
+  "title": "Earthworm",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the earthworm is doing on top of the grass? Why might it have come out of the soil?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a reasonable inference about the earthworm's behavior (e.g., looking for food, escaping wet soil, moving to a new location) with a logical explanation of why it might leave the soil (e.g., too much rain, searching for food).",
+        "meets": "Student suggests a plausible reason the earthworm came above ground and provides a simple explanation for that reason.",
+        "approaching": "Student makes a guess about why the earthworm is on the grass but the explanation is unclear or partially connected to earthworm behavior.",
+        "beginning": "Student provides a response with minimal detail or an explanation that does not logically connect to earthworm behavior (e.g., 'it is just there' or unrelated ideas)."
+      }
+    },
+    {
+      "questionText": "How does the earthworm's long, wiggly body help it move through soil?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how the earthworm's wiggly movements and long shape work together to help it push through soil, using words like 'segments,' 'squeeze,' or 'tunnel,' and may mention that the flexible body is useful for digging.",
+        "meets": "Student correctly describes that the earthworm's long, wiggly body helps it move through soil by pushing or wiggling its way through.",
+        "approaching": "Student recognizes that the wiggly body or long shape helps with movement but the explanation lacks clarity or includes only partial reasoning.",
+        "beginning": "Student provides a vague response such as 'it wiggles' with no explanation of how this helps with moving through soil."
+      }
+    },
+    {
+      "questionText": "What do you think earthworms eat, and why is that important for plants?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that earthworms eat soil, dead plants, or decaying material and explains that this helps plants by breaking down waste into nutrients or making the soil better for plants to grow.",
+        "meets": "Student suggests an appropriate food for earthworms and makes a simple connection to how this helps plants (e.g., 'earthworms eat dirt and help plants grow').",
+        "approaching": "Student identifies something earthworms might eat but provides a weak or incomplete explanation of why this helps plants.",
+        "beginning": "Student provides a minimal response, such as naming a food with no explanation of importance to plants, or provides an inaccurate idea about earthworm diet or plant benefit."
+      }
+    },
+    {
+      "questionText": "If you were an earthworm, what would you need to stay alive and healthy underground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs for earthworm survival (e.g., soil, food/decaying plants, moisture, darkness) and explains why at least two of these are necessary for the earthworm to stay alive and healthy.",
+        "meets": "Student identifies two or more basic needs for an earthworm (such as soil, food, water, or a dark place) that are appropriate for underground survival.",
+        "approaching": "Student identifies one or two needs for an earthworm but the explanation of why these are necessary is incomplete or unclear.",
+        "beginning": "Student provides a vague or minimal response with little connection to earthworm survival needs (e.g., only one basic idea with no explanation)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:27:46.034Z",
+  "cost": 0.005247
+}

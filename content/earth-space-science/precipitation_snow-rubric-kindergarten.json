@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Snow",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you see falling from the sky in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies snow and describes it with specific details, such as \"white snowflakes\" or \"cold, fluffy snow falling down.\"",
+        "meets": "Student correctly identifies snow falling from the sky and may mention it is white or cold.",
+        "approaching": "Student identifies snow or mentions white things falling, but explanation is vague or incomplete.",
+        "beginning": "Student makes a minimal attempt to identify what is falling, such as saying \"white stuff\" or \"something,\" with little clarity."
+      }
+    },
+    {
+      "questionText": "Why do you think the water from clouds turned into snow instead of rain?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that it is very cold outside, which makes water freeze into snow, and may connect this to seasons or weather conditions.",
+        "meets": "Student correctly states that it is cold outside and that cold makes water turn into snow instead of rain.",
+        "approaching": "Student mentions cold or freezing but explanation lacks clarity about why this prevents rain from forming.",
+        "beginning": "Student provides an unclear or inaccurate response, such as \"because it's snowing\" or \"I don't know,\" showing minimal understanding of the connection between temperature and precipitation type."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the snow after it lands on the roof?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple outcomes, such as snow melting into water if it gets warmer, or piling up on the roof, showing understanding of snow's ability to change states.",
+        "meets": "Student provides a reasonable prediction, such as \"it melts\" or \"it piles up,\" showing basic understanding of what happens to snow.",
+        "approaching": "Student makes a prediction about snow on the roof but reasoning is unclear or partially inaccurate.",
+        "beginning": "Student's response is vague or shows minimal thinking, such as \"it stays there\" with no further explanation."
+      }
+    },
+    {
+      "questionText": "How is snow different from rain?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences, such as snow is frozen/solid and cold while rain is liquid and wet, or that snow comes from very cold clouds.",
+        "meets": "Student identifies at least one clear difference between snow and rain, such as snow is frozen or snow is white and fluffy.",
+        "approaching": "Student attempts to compare snow and rain but explanation is incomplete or partially confused.",
+        "beginning": "Student provides a minimal or unclear response showing little understanding of the differences between snow and rain."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:42:26.617Z",
+  "cost": 0.004249
+}

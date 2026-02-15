@@ -1,0 +1,53 @@
+{
+  "title": "Toad",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think a toad's bumpy skin helps it survive in its forest habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific functions of bumpy skin (camouflage among leaves/soil, moisture retention, defense through toxins) and explains how each adaptation helps the toad survive in a forest environment with supporting details.",
+        "meets": "Student identifies at least two ways bumpy skin helps survival, such as blending in with forest floor or keeping skin moist, with reasonable explanations of how these help the toad.",
+        "approaching": "Student identifies one function of bumpy skin (such as camouflage or moisture) but explanation is incomplete or lacks clear connection to forest survival.",
+        "beginning": "Student makes a general statement about bumpy skin without clear explanation of survival benefits, or provides inaccurate information about the toad's adaptation."
+      }
+    },
+    {
+      "questionText": "What might happen to this toad if its forest home became much drier due to climate change?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that drier conditions would cause the toad's skin to dry out, leading to difficulty with moisture-dependent processes like respiration and reproduction; discusses multiple impacts on toad survival or ecosystem relationships.",
+        "meets": "Student recognizes that drier conditions would harm the toad because toads need moisture, and describes at least one consequence such as dehydration, inability to breathe through skin, or reduced water for breeding.",
+        "approaching": "Student acknowledges that dry conditions would be harmful but provides only vague reasoning (e.g., 'toads need water') without explaining specific impacts or consequences.",
+        "beginning": "Student provides minimal response with little understanding of toad needs or climate change effects, or states an inaccurate prediction."
+      }
+    },
+    {
+      "questionText": "Compare how you breathe with how this toad breathes - what are the similarities and differences?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student accurately identifies that both use lungs but toads also breathe through skin; explains that both require oxygen for survival and discusses why amphibians have this dual-breathing advantage (moist skin, small lungs).",
+        "meets": "Student identifies at least one similarity (both breathe oxygen/air) and one difference (toads breathe through skin in addition to lungs, or humans only use lungs), with accurate descriptions.",
+        "approaching": "Student attempts to compare human and toad breathing but provides incomplete or partially inaccurate information, such as mentioning one similarity or difference without full explanation.",
+        "beginning": "Student provides vague or mostly inaccurate statements about how toads or humans breathe, with little evidence of understanding both processes."
+      }
+    },
+    {
+      "questionText": "Why do you think amphibians like this toad are often called 'indicator species' for ecosystem health?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that toads' dependence on both water and land environments makes them sensitive to pollution, habitat loss, and environmental changes, and recognizes that toad populations reflect overall ecosystem quality; may mention specific threats.",
+        "meets": "Student identifies that amphibians are sensitive to environmental changes and that their presence or absence tells us about ecosystem health, with a basic explanation of why (e.g., they need clean water and moist habitat).",
+        "approaching": "Student recognizes that amphibians might show something about ecosystem health but provides incomplete reasoning or unclear connection between toad sensitivity and environmental conditions.",
+        "beginning": "Student provides minimal explanation or states that toads are indicators without understanding why, or provides inaccurate information about the concept."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:33:47.404Z",
+  "cost": 0.005383
+}

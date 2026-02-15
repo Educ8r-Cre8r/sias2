@@ -1,0 +1,53 @@
+{
+  "title": "Bird Characteristics",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the pigeon's feet and beak? Why do you think they look that way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific details about the pigeon's feet (red color, texture, or structure) and beak (shape, size, color), and explains how each body part helps the pigeon survive (e.g., feet for gripping, beak for eating seeds).",
+        "meets": "Student identifies at least two details about the feet or beak and provides a simple explanation for why one of these body parts looks the way it does.",
+        "approaching": "Student notices the pigeon has feet and a beak with minimal detail, and attempts a reason for appearance but reasoning may be vague or incomplete.",
+        "beginning": "Student names the feet or beak with little to no detail and provides no clear explanation for their appearance."
+      }
+    },
+    {
+      "questionText": "If you saw a baby pigeon, what body parts would you expect it to have? Why would it look like its parents?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student lists multiple body parts a baby pigeon would have (feathers, wings, beak, feet) and explains that babies look like parents because they inherit traits from their families or because parents pass down features to their young.",
+        "meets": "Student names at least three body parts a baby pigeon would have and provides a simple reason why it would resemble its parents.",
+        "approaching": "Student lists one or two body parts a baby pigeon would have but gives incomplete or unclear reasoning about why it resembles its parents.",
+        "beginning": "Student mentions that a baby pigeon would look similar to adults with minimal detail and no clear explanation."
+      }
+    },
+    {
+      "questionText": "How does this pigeon use its wings, beak, and feet to survive and stay alive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how all three body parts help survival (wings for flying/escaping danger, beak for eating food, feet for perching or walking), showing understanding of how different features work together.",
+        "meets": "Student explains how at least two of the three body parts help the pigeon survive with appropriate functions.",
+        "approaching": "Student describes what one or two body parts do but provides unclear or partially accurate connections to survival.",
+        "beginning": "Student mentions one body part with a vague reference to survival or provides incorrect function."
+      }
+    },
+    {
+      "questionText": "If a pigeon had a different-shaped beak (like a hummingbird's long, thin beak), what problems might it have when trying to eat seeds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the long, thin beak would not work well for picking up or cracking seeds, and may describe how the pigeon's current beak is better suited for seeds, showing understanding of how beak shape relates to diet.",
+        "meets": "Student identifies at least one problem the hummingbird-style beak would cause when eating seeds (e.g., too thin, cannot pick up seeds, cannot crack them open).",
+        "approaching": "Student recognizes that the different beak would cause a problem but provides incomplete explanation of why or what specifically the pigeon could not do.",
+        "beginning": "Student states the beak would be different or cause a problem with minimal explanation of the specific difficulty."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:39:08.446Z",
+  "cost": 0.005085
+}

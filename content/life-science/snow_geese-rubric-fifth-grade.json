@@ -1,0 +1,53 @@
+{
+  "title": "Snow Geese",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe about how the geese are positioned in the field, and what might be the reason they stay together in large groups?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific positioning patterns (clustered, close together) and explains multiple reasons for grouping, such as protection from predators, sharing information about food sources, and warmth, using accurate scientific reasoning.",
+        "meets": "Student accurately describes that geese are grouped closely together and provides at least one logical reason, such as safety in numbers or easier to find food as a group.",
+        "approaching": "Student notes that geese are together in groups but provides incomplete or partially accurate reasoning; may mention safety or other benefits without full explanation.",
+        "beginning": "Student makes a general observation about geese being together but provides minimal or vague explanation for why they group together."
+      }
+    },
+    {
+      "questionText": "Why might snow geese need to travel to different places at different times of year instead of staying in one location all year?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that geese migrate to find adequate food and suitable conditions for survival and breeding, connecting seasonal changes in temperature, food availability, and habitat suitability to migration patterns.",
+        "meets": "Student provides a clear explanation that geese move to find food or better living conditions at different times of year, showing understanding of seasonal changes.",
+        "approaching": "Student recognizes that geese move to different places but explanation lacks clarity or connects only partially to seasonal needs like food or weather.",
+        "beginning": "Student provides a minimal response, such as 'they move around' or 'they like different places,' with little explanation of why migration occurs."
+      }
+    },
+    {
+      "questionText": "How do you think the geese 'know' when it's time to migrate if they've never made the journey before?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple environmental cues (day length, temperature changes, food availability) or inherited instincts that guide geese, and explains how young geese might learn from experienced flock members.",
+        "meets": "Student identifies at least one environmental signal (such as temperature drop or changing daylight) or mentions that geese follow experienced birds or use instinct.",
+        "approaching": "Student attempts to explain migration timing using environmental factors or instinct but lacks specificity or clarity in reasoning.",
+        "beginning": "Student provides a vague response like 'they just know' or 'instinct' without attempting to explain what might trigger migration."
+      }
+    },
+    {
+      "questionText": "What would happen to the snow geese if the wetlands where they stop to rest were destroyed by human development?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple negative consequences such as loss of food sources, inability to rest and regain energy, increased exhaustion, population decline, or potential starvation, showing understanding of how habitat loss affects survival.",
+        "meets": "Student identifies that geese would lose important rest stops or food sources and explains that this would make migration harder or threaten their survival.",
+        "approaching": "Student recognizes that losing wetlands would be harmful to geese but provides incomplete reasoning, such as mentioning only resting or only food without full impact.",
+        "beginning": "Student provides a minimal response, such as 'geese would die' or 'it would be bad,' without explaining the connection between wetlands and goose survival needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:58:25.352Z",
+  "cost": 0.005112
+}

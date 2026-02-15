@@ -1,0 +1,53 @@
+{
+  "title": "Lake Landform",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors of the leaves in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple leaf colors (green, red, orange, brown) and describes where they appear in the picture with specific location words (top, side, near water).",
+        "meets": "Student names at least two or three different leaf colors they see in the picture.",
+        "approaching": "Student names one leaf color or describes leaves in general terms without identifying specific colors.",
+        "beginning": "Student makes a vague response about the picture or names a color without connecting it to the leaves."
+      }
+    },
+    {
+      "questionText": "Why do you think some leaves are still green while others are red and orange?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that leaves change colors as seasons change and connects this to trees preparing for winter or getting less sunlight.",
+        "meets": "Student recognizes that leaves change colors and offers a reasonable explanation such as it is fall or the weather is getting colder.",
+        "approaching": "Student attempts an explanation but shows incomplete understanding, such as saying leaves change colors but not why or connecting it to season.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'leaves just change' or an unrelated answer."
+      }
+    },
+    {
+      "questionText": "What might happen to the fallen leaves and the tree branch in the water over the winter months?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts realistic changes such as leaves breaking down, branch sinking, freezing, or decomposing, and explains why using seasonal concepts.",
+        "meets": "Student makes a reasonable prediction about what will happen to the leaves or branch, such as they will sink, freeze, or disappear.",
+        "approaching": "Student makes a prediction but it is vague or only partially realistic, such as 'they will change' without detail.",
+        "beginning": "Student makes a prediction that is unrealistic or shows minimal understanding of winter or water environments."
+      }
+    },
+    {
+      "questionText": "How do you think animals that live in or near this lake prepare for winter when trees lose their leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple ways animals prepare, such as finding food, growing thicker fur, migrating away, or hibernating, and connects these to the loss of leaves.",
+        "meets": "Student describes one or two realistic ways animals prepare for winter, such as gathering food, moving to warmer places, or finding shelter.",
+        "approaching": "Student attempts to describe how animals prepare but explanation is incomplete or somewhat unclear, such as mentioning preparation but not connecting to leaf loss.",
+        "beginning": "Student provides a minimal or inaccurate response about animal preparation with little connection to winter or the lake environment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:44:58.366Z",
+  "cost": 0.004395
+}

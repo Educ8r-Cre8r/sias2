@@ -1,0 +1,53 @@
+{
+  "title": "Robot",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the robot's orange \"eye\" is used for, and why would a robot need something like an eye?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the orange eye is a sensor used to help the robot see or detect its surroundings, and connects this to how robots need sensors to navigate, avoid obstacles, or complete tasks—similar to how living things use eyes to gather information.",
+        "meets": "Student identifies that the orange eye helps the robot see or sense things around it, and explains that robots need eyes or sensors to move around safely or know what is happening in their environment.",
+        "approaching": "Student states that the eye helps the robot see or that robots need eyes, but provides incomplete reasoning or minimal explanation of why this would be important for the robot to function.",
+        "beginning": "Student makes a vague guess about the eye's purpose (e.g., \"it looks nice\" or \"it's just there\") with little or no explanation of how it helps the robot."
+      }
+    },
+    {
+      "questionText": "If you were to design a robot to help in your classroom, what would you want it to do, and what simple machines would it need?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a specific, realistic classroom task for the robot and identifies at least two simple machines needed (such as wheels, levers, or pulleys) with clear explanations of how each machine would help the robot perform its job.",
+        "meets": "Student describes a practical classroom task the robot could perform and identifies at least one simple machine the robot would need, with a reasonable explanation of how it helps.",
+        "approaching": "Student suggests a classroom task and mentions at least one simple machine, but the connection between the machine and the task is unclear or incompletely explained.",
+        "beginning": "Student provides a vague classroom task idea or names a simple machine with little to no connection between the two, or the response lacks clear thinking about how the robot would actually work."
+      }
+    },
+    {
+      "questionText": "How is this robot similar to and different from living animals? What can the robot do that animals do, and what can animals do that robots cannot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific similarities (e.g., both can move, both have sensors/eyes, both follow instructions/instincts) and differences (e.g., robots are built, animals grow; robots follow programs, animals make choices), and explains why each difference matters.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between the robot and animals, such as both can move but only animals can grow or make decisions on their own.",
+        "approaching": "Student attempts to compare the robot and animals but provides only one similarity or difference, or the comparison is partially accurate with some confusion about robot or animal abilities.",
+        "beginning": "Student makes a simple observation about the robot or animals but does not make a meaningful comparison, or the comparison contains inaccurate information about how robots or animals work."
+      }
+    },
+    {
+      "questionText": "Where does the robot's energy come from, and what happens to that energy to make the robot move?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific energy source (battery, electricity, solar power, or charging) and explains the complete process: energy powers a motor or mechanism that creates movement, demonstrating understanding of energy transformation.",
+        "meets": "Student correctly identifies that the robot uses electricity or batteries for energy and explains that this energy makes motors or parts move to create the robot's motion.",
+        "approaching": "Student identifies an energy source or explains that energy makes the robot move, but does not fully connect the two ideas or provides incomplete information about the energy transformation.",
+        "beginning": "Student provides a vague answer about energy (e.g., \"it needs power\") with little explanation of where the energy comes from or how it results in movement."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:37:25.536Z",
+  "cost": 0.005626
+}

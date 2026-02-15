@@ -1,0 +1,53 @@
+{
+  "title": "Propane Heater",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is causing the metal to glow red-orange like that?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that heat from burning propane gas makes the metal very hot, causing it to glow red-orange, and may connect this to the idea that very hot objects produce light.",
+        "meets": "Student correctly identifies that heat makes the metal glow red-orange, showing understanding that the metal becomes very hot and produces light as a result.",
+        "approaching": "Student recognizes that the metal is hot and glowing but provides incomplete reasoning about the connection between heat and light production.",
+        "beginning": "Student makes a simple observation that the metal is red-orange but shows little understanding of why heat causes this glow."
+      }
+    },
+    {
+      "questionText": "If we moved our hand closer to the heater, what would happen to the warmth we feel, and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the warmth would increase and explains that heat travels outward from the hot metal and gets stronger the closer you are to the source.",
+        "meets": "Student correctly predicts that moving closer would make the warmth stronger and provides a reasonable explanation about heat coming from the heater.",
+        "approaching": "Student predicts increased warmth but gives an incomplete or partially unclear explanation of how heat distance works.",
+        "beginning": "Student makes a prediction about warmth but provides little or no explanation for why this would happen."
+      }
+    },
+    {
+      "questionText": "How is this heater similar to and different from other things that produce light, like a light bulb or the sun?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (all produce light and heat) and differences (different sources of energy: burning propane vs. electricity vs. nuclear reactions) with specific details about how each works.",
+        "meets": "Student identifies at least one similarity (produce light and/or heat) and one difference (different energy sources or purposes) between the heater and other light sources.",
+        "approaching": "Student recognizes some similarities or differences but reasoning is incomplete or contains minor inaccuracies about how the different sources work.",
+        "beginning": "Student attempts comparison but shows limited understanding of similarities and differences between the heater and other light sources."
+      }
+    },
+    {
+      "questionText": "Why do you think the designers of this heater put a metal mesh screen in front of the hot elements instead of leaving them completely open?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple design reasons such as safety (preventing burns from touching hot metal), even heat distribution, and/or durability of the metal elements, showing sophisticated safety thinking.",
+        "meets": "Student identifies at least one valid design reason, such as safety from burns or protection of the hot metal parts, showing practical understanding of the mesh's function.",
+        "approaching": "Student suggests a reason for the mesh but explanation is vague or partially incomplete, such as mentioning safety without clear detail.",
+        "beginning": "Student attempts to explain the mesh's purpose but provides minimal or unclear reasoning about why it was included in the design."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:43:30.159Z",
+  "cost": 0.004784
+}

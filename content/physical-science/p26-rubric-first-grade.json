@@ -1,0 +1,53 @@
+{
+  "title": "Buoyancy",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we put a hole in the bottom of the ship?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the ship would sink and explains that water would come in through the hole, showing understanding that holes let water inside and make objects heavier.",
+        "meets": "Student predicts the ship would sink and mentions that water would come in or the ship would go down.",
+        "approaching": "Student predicts the ship would sink but provides minimal explanation, such as 'it would break' or 'water would get in' without connecting the idea to sinking.",
+        "beginning": "Student makes a prediction but it is unclear or incorrect, such as 'it would float still' or provides no reasoning."
+      }
+    },
+    {
+      "questionText": "Why do you think this heavy ship can float but a small rock sinks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the ship's shape or hollow design helps it float, and contrasts this with a rock being solid and heavy, demonstrating understanding of how design affects floating.",
+        "meets": "Student recognizes that the ship is shaped differently or built specially to float, while a rock is just a solid object that sinks.",
+        "approaching": "Student acknowledges that ships float and rocks sink but provides vague reasoning, such as 'ships are bigger' or 'rocks are heavy' without connecting shape or design to floating.",
+        "beginning": "Student makes a simple observation like 'ships float and rocks don't' with little to no explanation of why."
+      }
+    },
+    {
+      "questionText": "What other things have you seen that float on water?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more objects that float (such as boats, logs, ducks, or life jackets) and shows they have observed or experienced these in real situations.",
+        "meets": "Student names two floating objects accurately, such as a boat and a duck, or a log and a toy boat.",
+        "approaching": "Student names one floating object correctly or names multiple objects but some may not actually float (like a ball or toy, which could float or sink depending on material).",
+        "beginning": "Student attempts to name a floating object but it is unclear, incorrect, or they provide no answer."
+      }
+    },
+    {
+      "questionText": "How do you think people figured out how to make ships float?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests a logical discovery process, such as observing natural floating objects (logs, leaves), testing materials, or trying different shapes, showing creative thinking about how people learn through observation and experimentation.",
+        "meets": "Student suggests people learned by watching nature, trying things out, or building and testing boats, showing understanding that people discover things through observation or practice.",
+        "approaching": "Student provides a vague idea like 'they tried' or 'they tested things' but lacks specific details about what they might have observed or tried.",
+        "beginning": "Student gives a minimal or unclear response, such as 'I don't know' or an answer unrelated to learning how to make ships float."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:19:48.484Z",
+  "cost": 0.004711
+}

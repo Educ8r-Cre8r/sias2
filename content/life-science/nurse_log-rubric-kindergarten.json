@@ -1,0 +1,53 @@
+{
+  "title": "Nurse Log",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside this log? Why might it look different from the outside than the inside?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the log is breaking down/rotting and identifies specific reasons (bugs eating it, weather wearing it down) while noting the color or texture differences between outside and inside with clear descriptive language.",
+        "meets": "Student recognizes that something is breaking down the log and notices that the inside looks different from the outside, with a simple explanation of why (it's breaking apart, getting dark, getting soft).",
+        "approaching": "Student observes that the log looks different on the inside but provides limited or unclear explanation of what is happening or why it looks different.",
+        "beginning": "Student makes a simple observation about the log but does not explain what is happening inside or provide reasoning for the differences."
+      }
+    },
+    {
+      "questionText": "What kinds of animals or bugs do you think might live in or eat this log?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple specific animals or insects (ants, beetles, worms, termites, or decomposers) and explains how at least one uses the log for food or shelter with accurate details.",
+        "meets": "Student names at least two animals or bugs that might live in or eat the log with reasonable explanations of how they use it.",
+        "approaching": "Student names one or two animals or bugs but provides vague or incomplete reasoning about how they interact with the log.",
+        "beginning": "Student names an animal or bug with little to no explanation, or provides responses unrelated to the log."
+      }
+    },
+    {
+      "questionText": "How do you think this log helps new plants grow in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the rotting log provides nutrients or food for plants and/or that plants can grow on or use the log as a base, using words like 'nutrients,' 'soil,' or 'grow.'",
+        "meets": "Student identifies that the log helps plants grow by breaking down into something plants need or by providing a place for plants to grow, with a simple but accurate explanation.",
+        "approaching": "Student recognizes that the log is connected to plant growth but provides incomplete or partially unclear reasoning about how this happens.",
+        "beginning": "Student attempts to answer but provides minimal or vague connection between the log and new plant growth."
+      }
+    },
+    {
+      "questionText": "If we took this log away, what might happen to the forest creatures and plants that depend on it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences, such as animals losing homes or food sources, plants losing nutrients or a place to grow, using specific details about what creatures or plants need.",
+        "meets": "Student identifies at least one consequence for either forest creatures or plants (losing shelter, losing food, losing nutrients) with a reasonable explanation.",
+        "approaching": "Student recognizes that removing the log would cause a problem but provides limited detail or only partially explains the consequence.",
+        "beginning": "Student attempts to answer but provides minimal or unclear reasoning about what would happen without the log."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:32:41.630Z",
+  "cost": 0.004758
+}

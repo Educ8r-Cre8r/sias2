@@ -1,0 +1,53 @@
+{
+  "title": "Camouflage",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this snake's brown color helps it stay safe?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the snake's brown color matches the log and leaves, making it hard for other animals to see it, and identifies this as camouflage that helps the snake avoid predators or hunt prey.",
+        "meets": "Student explains that the brown color helps the snake hide or blend in with the brown log and leaves around it.",
+        "approaching": "Student identifies that the brown color helps the snake hide, but the explanation is vague or only partially connected to the surroundings.",
+        "beginning": "Student gives a minimal response such as 'it helps it hide' or 'the color is brown' without explaining the connection to the environment."
+      }
+    },
+    {
+      "questionText": "If this snake lived in a snowy place instead of the forest, what color would help it hide better? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies white as the better color and explains that white would match the snow, making it harder for predators or prey to see it, demonstrating understanding that camouflage works by matching the environment.",
+        "meets": "Student correctly identifies white as the better color and explains that it would blend in with the snow.",
+        "approaching": "Student identifies white as the better color but gives an incomplete or unclear explanation of why it would help the snake hide.",
+        "beginning": "Student guesses a color or gives a response that shows little understanding of how color helps animals hide in different environments."
+      }
+    },
+    {
+      "questionText": "What other animals might need to blend in with their surroundings? What colors would help them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals with specific matching colors and explains why those colors work for each animal's environment (e.g., green frog in grass, white polar bear in snow, brown deer in forest).",
+        "meets": "Student names at least two animals and identifies appropriate colors that would help them blend in with their habitats.",
+        "approaching": "Student names one or two animals and suggests colors, but the color choices may not match the animal's typical environment.",
+        "beginning": "Student names an animal or color but shows limited understanding of how different animals need different colors to blend in with their surroundings."
+      }
+    },
+    {
+      "questionText": "How would a bright red snake do in this forest? What might happen to it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bright red color would stand out against the brown log and leaves, making it easy to see, and predicts that predators could find it quickly or it would have trouble hiding from prey.",
+        "meets": "Student explains that the bright red color would stand out and would not blend in, making it unsafe or easier to spot in the forest.",
+        "approaching": "Student recognizes that red would stand out, but gives an incomplete or vague explanation of the consequences for the snake.",
+        "beginning": "Student provides a minimal response indicating red would not hide or would stand out, with little explanation of why this matters."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:46:51.670Z",
+  "cost": 0.004744
+}

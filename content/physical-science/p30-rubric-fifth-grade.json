@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that energy is being transferred from the water to the rocks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence (foam, spray, force of impact, sound) and explains how each demonstrates energy transfer from moving water to stationary rocks using accurate scientific vocabulary.",
+        "meets": "Student identifies at least two visible pieces of evidence (such as foam, spray, or splashing) and explains that these show the water is transferring energy to the rocks.",
+        "approaching": "Student identifies one visible piece of evidence (foam, spray, or splashing) but provides incomplete explanation of how it shows energy transfer.",
+        "beginning": "Student notices something happening in the photo (waves or splashing) but does not clearly connect it to energy transfer between water and rocks."
+      }
+    },
+    {
+      "questionText": "How might this coastline look different after 100 years of wave action, and what processes would cause those changes?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts specific changes (rocks broken into smaller pieces, different shoreline shape, more sand/pebbles) and explains multiple processes causing them, such as erosion, weathering, and sediment transport.",
+        "meets": "Student predicts reasonable changes to the coastline (rocks worn down, more sand, different shape) and identifies erosion or wave action as a cause.",
+        "approaching": "Student predicts that the coastline would change but describes changes vaguely or identifies only one process without clear connection to the changes.",
+        "beginning": "Student makes a prediction about changes but provides little detail or reasoning about what would cause those changes."
+      }
+    },
+    {
+      "questionText": "Where do you think the energy in these waves originally came from?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces energy back to the sun and explains how wind, created by uneven solar heating, transfers energy to ocean water to create waves.",
+        "meets": "Student identifies wind as the source of wave energy and makes a connection to the sun as the original energy source.",
+        "approaching": "Student identifies either wind or the sun as a source but does not clearly connect the two or explain the transfer process.",
+        "beginning": "Student provides a vague response such as 'the ocean' or 'water' without identifying wind, sun, or any energy source."
+      }
+    },
+    {
+      "questionText": "What would happen if we built a wall to block these waves, and how might that affect the energy transfer?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that a wall would block wave energy and describes specific consequences (energy reflected or absorbed, less erosion, possible impacts on beach or nearby areas) with accurate scientific reasoning.",
+        "meets": "Student explains that a wall would stop or slow wave energy reaching the rocks and predicts that erosion would decrease or that energy would be blocked.",
+        "approaching": "Student recognizes that a wall would change what happens but describes the effect on energy or erosion with incomplete reasoning.",
+        "beginning": "Student states that a wall would block waves but provides minimal explanation of how energy transfer would be affected."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:21:50.330Z",
+  "cost": 0.004738
+}

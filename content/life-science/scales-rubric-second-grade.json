@@ -1,0 +1,53 @@
+{
+  "title": "Scales",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the scales help the alligator do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple functions of scales (protection, swimming, staying dry) with specific details about how scales help the alligator survive in its environment.",
+        "meets": "Student identifies at least one clear function of scales, such as protection from harm or helping the alligator move through water.",
+        "approaching": "Student mentions scales help the alligator but gives vague or partially accurate reasons, such as 'they help it' without clear explanation.",
+        "beginning": "Student provides minimal response with little connection between scales and alligator survival, or response is mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "How are the scales on this reptile like the bumps on a basketball? How are they different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both similarities (bumpy texture, arranged in patterns) and differences (scales are hard/protective vs. bumps are for grip; scales overlap vs. bumps are separate), using specific observations from the photo.",
+        "meets": "Student correctly identifies at least one similarity and one difference between scales and basketball bumps with reasonable explanations.",
+        "approaching": "Student identifies either a similarity or difference but explanation is incomplete or partially inaccurate; may confuse the purpose of each.",
+        "beginning": "Student attempts comparison but provides vague or mostly inaccurate information about how scales and basketball bumps are alike or different."
+      }
+    },
+    {
+      "questionText": "If this alligator did not have scales, what problems might happen to its body?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple realistic problems (injury/cuts, drying out, difficulty swimming) and explains why scales prevent each problem with scientific reasoning.",
+        "meets": "Student identifies at least two reasonable problems the alligator would face without scales and explains why scales help prevent them.",
+        "approaching": "Student mentions one or two problems but explanations are incomplete or somewhat unclear about the connection to scale functions.",
+        "beginning": "Student provides minimal or vague response about potential problems, showing little understanding of scale functions for protection and health."
+      }
+    },
+    {
+      "questionText": "What other animals might have scales or bumpy skin? How could we find out?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals with scales (fish, snakes, lizards, turtles) and suggests multiple research methods (observe in nature, use books, watch videos, ask experts).",
+        "meets": "Student names at least two animals with scales or bumpy skin and suggests at least one reasonable way to find more information about them.",
+        "approaching": "Student names one or two animals and suggests a way to find out, but response lacks detail or one element is incomplete.",
+        "beginning": "Student provides minimal response with few animal examples or unclear/unrealistic suggestions for finding information."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:51:39.642Z",
+  "cost": 0.004548
+}

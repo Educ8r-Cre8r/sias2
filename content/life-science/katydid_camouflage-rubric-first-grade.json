@@ -1,0 +1,53 @@
+{
+  "title": "Katydid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why is it hard to see the katydid in this picture?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the katydid is green like the leaves and grass around it, and may add that this helps it hide from animals that want to eat it.",
+        "meets": "Student identifies that the katydid is the same color as the plants or grass, making it hard to see.",
+        "approaching": "Student mentions the katydid blends in or is green, but explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague answer such as \"it's hard to see\" or \"it's green\" without explanation of why this matters."
+      }
+    },
+    {
+      "questionText": "What would happen to a red katydid sitting in green grass? Who might see it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a red katydid would stand out and be easy to spot because red is different from green, and identifies specific predators like birds or other animals that hunt katydids.",
+        "meets": "Student explains that red would stand out against green grass and identifies that predators or animals that eat katydids would see it more easily.",
+        "approaching": "Student states that a red katydid would be easier to see or stand out, but provides limited reasoning or vague identification of who would see it.",
+        "beginning": "Student gives a minimal response such as \"it would be red\" or \"someone would see it\" without clear explanation."
+      }
+    },
+    {
+      "questionText": "Can you find three things in the picture that are the same color as the katydid? Why do you think that helps the katydid?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more green items (leaves, grass stems, plant parts) and explains that matching colors helps the katydid hide from predators so it won't get eaten.",
+        "meets": "Student identifies three green things in the picture and explains that matching the color of plants helps the katydid hide or blend in.",
+        "approaching": "Student identifies one or two green items or explains that it helps the katydid hide, but reasoning is incomplete or partially unclear.",
+        "beginning": "Student identifies one green item or provides a vague reason such as \"it helps it\" without connecting to hiding or survival."
+      }
+    },
+    {
+      "questionText": "What other animals do you think might use camouflage to hide from animals that want to eat them?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more animals (deer, frogs, snakes, moths, etc.) and explains how their coloring or pattern helps them blend into their environment to avoid predators.",
+        "meets": "Student names one or two animals that use camouflage and shows basic understanding that coloring helps them hide from predators.",
+        "approaching": "Student names one animal or mentions camouflage, but explanation of how it works is vague or incomplete.",
+        "beginning": "Student names an animal without connecting it to camouflage or hiding, or provides no meaningful response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:17:26.413Z",
+  "cost": 0.004766
+}

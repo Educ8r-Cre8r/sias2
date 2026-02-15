@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to the reflection if we moved the flowers closer to the mirror?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the reflection would appear larger or closer and explains that moving an object nearer to a mirror makes its reflection appear nearer/bigger because the mirror reflects what it sees from a shorter distance.",
+        "meets": "Student predicts the reflection would change and correctly states it would appear larger or closer to the mirror without fully explaining why.",
+        "approaching": "Student predicts something would change about the reflection but provides incomplete or partially accurate reasoning about how distance affects what a mirror shows.",
+        "beginning": "Student makes a prediction but shows little understanding of how moving objects affects their reflections, or provides only a vague response."
+      }
+    },
+    {
+      "questionText": "Why can we see through the glass vase but not through the table?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that glass is transparent (allows light to pass through) while the table is opaque (blocks light), using grade-appropriate vocabulary and providing clear reasoning about how materials allow or block light differently.",
+        "meets": "Student explains that glass is clear/lets light through and the table does not, accurately identifying the difference between the two materials.",
+        "approaching": "Student identifies that the glass and table are different materials but provides incomplete explanations of why you can or cannot see through them.",
+        "beginning": "Student acknowledges the materials are different but shows minimal understanding of transparency, clarity, or how light interacts with materials."
+      }
+    },
+    {
+      "questionText": "How is the reflection similar to and different from the real flowers?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (color, shape, size, stem appearance) and differences (reflection is flat/2D, reversed/backward, appears behind mirror, cannot be touched), demonstrating deep understanding of mirror reflections.",
+        "meets": "Student accurately describes at least two similarities and two differences between the reflection and real flowers, such as appearance being the same but location or touchability being different.",
+        "approaching": "Student identifies some similarities or differences but reasoning is incomplete or partially accurate; may miss key properties like reversal or location.",
+        "beginning": "Student attempts comparison but provides only vague observations with minimal accurate details about the reflection's properties."
+      }
+    },
+    {
+      "questionText": "What other objects in this room might create reflections, and why?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reflective objects (shiny surfaces like windows, water, polished metal) and explains that reflections occur when light bounces off smooth, shiny surfaces, demonstrating understanding of reflection principles.",
+        "meets": "Student identifies at least two reflective objects and explains that shiny or smooth surfaces create reflections, showing solid understanding of conditions needed for reflections.",
+        "approaching": "Student names some reflective objects but provides incomplete explanation of why they reflect; may mention shininess without clear reasoning.",
+        "beginning": "Student names one or fewer objects or provides minimal explanation of why objects create reflections."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:19:16.363Z",
+  "cost": 0.004628
+}

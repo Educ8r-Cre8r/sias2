@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the golden food looks different from the green lettuce?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (color, texture, shape) between the golden food and lettuce, using descriptive words like bumpy, rough, crispy, or smooth with clear comparisons.",
+        "meets": "Student identifies at least two clear differences between the golden food and lettuce, such as color and texture, with simple descriptive language.",
+        "approaching": "Student notices some differences between the food and lettuce but descriptions are vague or only identify one characteristic (like color or texture only).",
+        "beginning": "Student makes a minimal attempt to compare the foods with very limited or unclear descriptions of differences."
+      }
+    },
+    {
+      "questionText": "How do you think this food looked before it was cooked with heat?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a plausible before-and-after change using heat, describing how the food's color, texture, or appearance likely changed due to cooking (e.g., became golden and crispy from being lighter and softer).",
+        "meets": "Student makes a reasonable inference about how heat changed the food's appearance, mentioning that it was probably different in color or texture before cooking.",
+        "approaching": "Student makes a simple guess about how the food looked before cooking but reasoning is unclear or weakly connected to the effect of heat.",
+        "beginning": "Student provides a vague or minimal response showing little understanding of how heat affects food appearance."
+      }
+    },
+    {
+      "questionText": "What other foods have you seen that change when they get heated up?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple foods that change with heat and describes how they change (e.g., popcorn pops, cookies turn brown, eggs become solid), showing clear understanding of heat's effects.",
+        "meets": "Student names at least two foods that change when heated, with brief descriptions of how they change.",
+        "approaching": "Student names one or two foods that change with heat but provides minimal or vague description of the changes.",
+        "beginning": "Student names a food or provides a very unclear response with little connection to heat causing changes."
+      }
+    },
+    {
+      "questionText": "Why do you think people use heat to change their food before eating it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple thoughtful reasons for using heat to cook food, such as making it taste better, safer to eat, easier to chew, or changing its texture in desirable ways.",
+        "meets": "Student gives at least one reasonable reason why people cook food with heat, such as making it taste better or easier to eat.",
+        "approaching": "Student attempts to explain why heat is used for cooking but reasoning is unclear, incomplete, or shows partial understanding.",
+        "beginning": "Student provides a minimal or vague response that shows little understanding of the purposes of cooking with heat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:02:58.194Z",
+  "cost": 0.004547
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Tires",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why do you think the tire has bumpy parts instead of being smooth like a ball?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bumpy parts help the tire grip or hold onto the ground, and may add that this helps the car not slip or move safely.",
+        "meets": "Student identifies that the bumpy parts help the tire grip or stay on the ground with a simple explanation.",
+        "approaching": "Student mentions that the bumpy parts do something helpful but the explanation is unclear or incomplete (e.g., 'so it doesn't fall' or 'to be better').",
+        "beginning": "Student provides a minimal or vague response that does not explain the purpose of the tread (e.g., 'because it's bumpy' or 'I don't know')."
+      }
+    },
+    {
+      "questionText": "If the tire was completely smooth, what might happen when a car drives on a rainy day?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the car would slip or slide and explains that smooth tires cannot grip wet surfaces the way bumpy tires can.",
+        "meets": "Student predicts the car would slip, slide, or have trouble stopping on the wet road.",
+        "approaching": "Student makes a prediction about something going wrong but does not clearly connect it to the smooth surface or wetness (e.g., 'it would be bad' or 'the car would crash').",
+        "beginning": "Student provides no prediction or an unclear response unrelated to the smooth surface and rain (e.g., 'it would get wet')."
+      }
+    },
+    {
+      "questionText": "Can you find other things in our classroom that have bumpy surfaces? What do you think they're bumpy for?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more classroom objects with bumpy surfaces and correctly explains that the bumps help with gripping, holding, or preventing slipping (e.g., shoe soles, sandpaper, pencil grips).",
+        "meets": "Student identifies one or two classroom objects with bumpy surfaces and gives a reasonable explanation for why they are bumpy.",
+        "approaching": "Student identifies a bumpy classroom object but provides an unclear or incomplete explanation for its bumpy texture.",
+        "beginning": "Student names a classroom object but provides no clear identification of bumpy texture or gives an inaccurate reason for the bumps."
+      }
+    },
+    {
+      "questionText": "How is the bumpy tire tread like the bumpy bottom of your shoe?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that both the tire tread and shoe bottom have bumps to help grip the ground, and may note that both help prevent slipping during movement.",
+        "meets": "Student identifies that both the tire and shoe bottom are bumpy and explain they both help with gripping or not slipping.",
+        "approaching": "Student recognizes that both have bumpy parts but the connection to grip or preventing slipping is vague or incomplete.",
+        "beginning": "Student provides a minimal response or simply states that both are bumpy without explaining any purpose or connection."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:26:47.262Z",
+  "cost": 0.004811
+}

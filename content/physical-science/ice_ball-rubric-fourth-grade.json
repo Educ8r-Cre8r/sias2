@@ -1,0 +1,53 @@
+{
+  "title": "Ice Ball",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think caused the cracks and lines you see in the ice ball?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water expands when it freezes, causing pressure inside the ice that creates cracks and lines. Student may also describe how uneven freezing or temperature changes contribute to cracking.",
+        "meets": "Student explains that freezing causes the ice to crack or that the ice expanded and broke, showing understanding of ice formation and basic expansion.",
+        "approaching": "Student identifies that cracks are present and attempts an explanation related to freezing or cooling, but reasoning is incomplete or partially inaccurate.",
+        "beginning": "Student makes a vague observation about cracks without explanation, or provides an inaccurate reason unrelated to freezing and water properties."
+      }
+    },
+    {
+      "questionText": "How might the melting process be different if we put this ice ball in a freezer instead of room temperature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the ice ball would melt much slower or not at all in a freezer because freezers are cold and slow down or stop melting. Student may compare freezer temperature to room temperature or explain that heat transfer would be reduced.",
+        "meets": "Student correctly states that the ice ball would melt slower or wouldn't melt in a freezer, showing understanding that temperature affects melting rate.",
+        "approaching": "Student recognizes that a freezer is cold and would affect melting, but explanation lacks clarity or contains minor inaccuracies about the melting process.",
+        "beginning": "Student provides minimal response or suggests the freezer would cause melting, showing misunderstanding of how temperature affects ice."
+      }
+    },
+    {
+      "questionText": "Why do you think the center of the ice ball looks cloudy while the edges look clear?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that air bubbles or impurities get trapped in the center during freezing, or that the center froze differently than the edges. Student demonstrates understanding of how ice freezes from outside to inside.",
+        "meets": "Student identifies that the cloudy center contains something (air, bubbles, or impurities) trapped in the ice and contrasts it with the clear edges.",
+        "approaching": "Student notices the difference between cloudy center and clear edges but provides an incomplete or partially accurate explanation about what causes the cloudiness.",
+        "beginning": "Student describes what they see (cloudy center, clear edges) without attempting explanation, or provides an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "What other examples of melting and freezing do you observe in your daily life?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides multiple specific examples (ice cream melting, frost on grass freezing, ice cubes in drinks, icicles, popsicles) and briefly explains the conditions that cause melting or freezing in each.",
+        "meets": "Student provides at least two clear, realistic examples of melting or freezing from daily life, such as ice cream melting or ice cubes forming.",
+        "approaching": "Student provides one or two examples of melting or freezing, though explanations may be vague or examples may be somewhat unclear.",
+        "beginning": "Student provides a vague or unclear example, or an example that does not clearly relate to melting and freezing processes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:31:18.045Z",
+  "cost": 0.005049
+}

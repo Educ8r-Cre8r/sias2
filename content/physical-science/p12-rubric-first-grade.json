@@ -1,0 +1,53 @@
+{
+  "title": "Sound",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens inside the trumpet when someone blows into it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that air moves through the trumpet and makes the metal vibrate to create sound, using appropriate vocabulary like 'vibrate' or 'air' with clear reasoning.",
+        "meets": "Student describes that air goes through the trumpet and causes it to make sound, showing basic understanding of how the instrument works.",
+        "approaching": "Student mentions that air or blowing is involved in making sound, but the explanation is incomplete or partially unclear about what happens inside.",
+        "beginning": "Student provides a vague response like 'it makes a sound' with little or no explanation of what air does inside the trumpet."
+      }
+    },
+    {
+      "questionText": "How could we test if different materials make different sounds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a specific, testable plan comparing sounds from different materials (e.g., metal vs. plastic instruments), explaining what they would listen for and how they would make it a fair test.",
+        "meets": "Student describes a reasonable method for testing different materials and comparing their sounds, showing understanding that materials can be compared.",
+        "approaching": "Student mentions testing different materials or listening to sounds, but the plan is vague or lacks clear steps for comparison.",
+        "beginning": "Student gives a minimal response about testing materials but does not explain how to actually compare the sounds or test fairly."
+      }
+    },
+    {
+      "questionText": "Why do you think some instruments sound higher and others sound lower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests that size, length, or thickness of instruments affects pitch and provides an example from the photo or their experience (e.g., 'bigger instruments make lower sounds').",
+        "meets": "Student recognizes that something about the instruments is different and explains that this difference causes higher or lower sounds.",
+        "approaching": "Student acknowledges that instruments sound different in pitch but gives an unclear or partially correct reason for the difference.",
+        "beginning": "Student states that instruments sound different but provides no explanation or reasoning for why some sound higher or lower."
+      }
+    },
+    {
+      "questionText": "What would happen if there was no air inside the instruments?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without air, the instruments cannot vibrate or produce sound, showing understanding that air is necessary for sound to be made in instruments.",
+        "meets": "Student states that no sound would be made or that the instrument would not work without air inside.",
+        "approaching": "Student indicates that something would be different about the sound or the instrument, but the explanation involving air is unclear or incomplete.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'it would be quiet' without connecting the answer to the role of air."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:00:43.923Z",
+  "cost": 0.004384
+}

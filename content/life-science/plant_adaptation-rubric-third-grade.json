@@ -1,0 +1,53 @@
+{
+  "title": "Plant Adaptation",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What problem do you think thorns solve for a plant?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that thorns protect the plant from being eaten by animals and explains how the sharp points would hurt or discourage animals from touching the plant.",
+        "meets": "Student correctly identifies that thorns help protect the plant from animals eating it.",
+        "approaching": "Student mentions that thorns are sharp or that they have something to do with protection, but the explanation is incomplete or unclear.",
+        "beginning": "Student provides a vague response such as \"thorns help the plant\" without explaining how or why they are protective."
+      }
+    },
+    {
+      "questionText": "Why might an animal decide not to eat a plant with thorns after touching one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sharp thorns would poke or hurt the animal, causing pain, so the animal learns not to eat that plant and may avoid similar plants in the future.",
+        "meets": "Student explains that thorns are sharp and would hurt or pain an animal, so the animal would not want to eat the plant.",
+        "approaching": "Student recognizes that thorns hurt animals or that the animal would not like them, but the reasoning about cause and effect is incomplete.",
+        "beginning": "Student gives a brief or inaccurate response, such as \"the animal doesn't like it\" without explaining the connection between thorns and the animal's decision."
+      }
+    },
+    {
+      "questionText": "If a plant didn't have thorns and lived in a place with many hungry animals, what might happen to that plant over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that animals would eat the plant more easily, the plant might not survive or produce seeds, and over time there could be fewer of these plants because they don't have protection.",
+        "meets": "Student predicts that animals would eat the plant or the plant might die or disappear because it has no protection from hungry animals.",
+        "approaching": "Student recognizes that the plant would have a problem without thorns, or that animals might eat it more, but the explanation of consequences is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as \"the plant would die\" without explaining how the lack of thorns leads to this outcome."
+      }
+    },
+    {
+      "questionText": "Can you think of other ways plants protect themselves besides having thorns?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes two or more plant defenses such as poison, bitter taste, fuzzy leaves, hard shells, or spines, and explains how each defense protects the plant from being eaten.",
+        "meets": "Student identifies at least one other plant defense (such as spines, poisons, bitter taste, or waxy coatings) and explains how it protects the plant.",
+        "approaching": "Student mentions one or two plant defenses but provides limited explanation of how they work to protect the plant.",
+        "beginning": "Student attempts to name a plant defense but the explanation is unclear, inaccurate, or the response is too brief to demonstrate understanding."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:21:26.341Z",
+  "cost": 0.00474
+}

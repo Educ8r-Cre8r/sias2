@@ -1,0 +1,53 @@
+{
+  "title": "Genetic Mutation",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "If these zinnias grew from seeds in the same garden and were watered the same way, why do you think some are pink and others look different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that seeds contain different instructions that make flowers look different, uses the term 'genes' or 'inherited traits,' and provides a specific example of how the pink color or patterns might come from these differences.",
+        "meets": "Student recognizes that even though seeds were planted the same way, flowers can still look different, and connects this to the idea that seeds have different instructions inside them.",
+        "approaching": "Student acknowledges that flowers look different but provides only vague or incomplete reasoning, such as 'seeds are different' without explaining what makes them different.",
+        "beginning": "Student provides a minimal response that may focus only on environment (water, sunlight) or gives an inaccurate explanation with little connection to how seeds determine flower appearance."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if a gardener kept planting only seeds from the pinkest zinnias year after year?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that most or all flowers would eventually be pink, explains that choosing seeds from pink flowers passes pink-color instructions to the next generation, and may mention this is similar to how gardeners develop new flower varieties.",
+        "meets": "Student predicts that flowers would become more pink over time and explains this happens because pink flowers' seeds are being planted repeatedly.",
+        "approaching": "Student makes a prediction about flowers becoming pink but provides incomplete reasoning or describes the process without clearly connecting it to seeds passing traits to the next generation.",
+        "beginning": "Student provides a prediction with little or no explanation, or suggests the flowers would stay the same or change for unclear reasons."
+      }
+    },
+    {
+      "questionText": "How is this flower similar to and different from your own family members?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that like family members, flowers inherit traits from their 'parents' (parent plants/seeds) and explains that both people and flowers show variation even within the same family, providing specific examples such as eye color or flower color.",
+        "meets": "Student correctly identifies similarities (inherited traits, look different from each other) and differences (flowers don't grow or move like people) between flowers and family members.",
+        "approaching": "Student identifies some similarities or differences but reasoning is incomplete; may focus only on physical differences without connecting to inheritance or trait variation.",
+        "beginning": "Student provides minimal or vague comparisons with little evidence of understanding how traits are inherited or how family members compare to flowers."
+      }
+    },
+    {
+      "questionText": "Where do you think the flower's color instructions come from?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that color instructions come from the parent plant or the seed, uses the word 'genes,' and describes that these instructions are passed down, potentially mentioning both parent plants.",
+        "meets": "Student correctly identifies that the color instructions come from the seed or parent plant and explains that this information was inherited or passed down.",
+        "approaching": "Student recognizes that instructions come from the seed or plant but provides vague or incomplete explanation of how the information got there.",
+        "beginning": "Student provides a minimal response that may mention the seed but doesn't explain where the instructions originate, or gives an inaccurate answer such as attributing color only to sunlight or water."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:05:29.154Z",
+  "cost": 0.005121
+}

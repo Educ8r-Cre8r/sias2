@@ -1,0 +1,53 @@
+{
+  "title": "Solar Panels",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the sunlight when it hits the solar panel?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that sunlight is caught or absorbed by the solar panel and turned into electricity, using accurate vocabulary like 'energy' or 'power,' and may describe the dark color helping to catch light.",
+        "meets": "Student correctly states that the solar panel catches sunlight and changes it into electricity or power that can be used.",
+        "approaching": "Student mentions that something happens to the sunlight (like it gets caught or used) but may be vague about the result or incompletely explain the electricity connection.",
+        "beginning": "Student gives a minimal response such as 'the sun hits it' or 'it does something' with little or no explanation of how the solar panel uses the sunlight."
+      }
+    },
+    {
+      "questionText": "Why might a school or house want to use solar panels instead of just getting electricity from power lines?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple practical reasons (cost savings, renewable/clean energy, independence from power lines) and may explain that the sun is free or that solar energy doesn't pollute the air.",
+        "meets": "Student identifies at least one clear reason, such as saving money on electricity bills or that solar energy is free from the sun.",
+        "approaching": "Student attempts to provide a reason but may be unclear or partially incorrect, such as 'it's cheaper' without full explanation or mentioning only that it uses the sun.",
+        "beginning": "Student provides a vague or minimally developed response, such as 'it's better' or 'the sun' without explaining why solar panels might be preferred."
+      }
+    },
+    {
+      "questionText": "If a solar panel is in the shade under a big tree, what would happen to the electricity it makes? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that less or no electricity would be made and explains that shade blocks the sunlight that the solar panel needs to work, demonstrating understanding of the cause-and-effect relationship.",
+        "meets": "Student correctly states that the solar panel would make less electricity (or stop making electricity) because there is less sunlight or because the tree blocks the sun.",
+        "approaching": "Student recognizes that shade affects the solar panel's work but may lack a clear explanation of why, or may say it makes 'no electricity' without noting that less sunlight is the reason.",
+        "beginning": "Student attempts an answer but shows incomplete understanding, such as stating the panel wouldn't work without explaining the role of sunlight, or giving an unclear or inaccurate reason."
+      }
+    },
+    {
+      "questionText": "What are other ways we could use the sun's energy in our classroom or at home?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies 2 or more diverse, realistic ways to use sun's energy (such as heating water, growing plants, solar ovens, drying clothes) and explains how the sun's energy helps in each case.",
+        "meets": "Student identifies 1-2 appropriate ways to use the sun's energy at home or school (such as heating water, growing plants, or lighting) with basic explanations.",
+        "approaching": "Student suggests at least one way to use the sun's energy but the explanation may be vague, or the example may be only partially realistic or clearly connected to solar energy.",
+        "beginning": "Student provides a minimal or unclear response, such as naming an idea without explaining it, or suggesting something not clearly connected to using the sun's energy."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:34:38.655Z",
+  "cost": 0.005257
+}

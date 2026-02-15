@@ -1,0 +1,53 @@
+{
+  "title": "Rain Gauge",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the rain after it falls into the tube?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes that rain collects and fills up in the tube, making the water level go higher, and may mention the water stays in the gauge or could be emptied out.",
+        "meets": "Student explains that rain goes into the tube and the water level goes up or that it fills the tube with water.",
+        "approaching": "Student provides a simple response such as 'the water goes in the tube' or 'it fills up,' with limited detail about what happens.",
+        "beginning": "Student gives a minimal or unclear response such as 'it goes down' or 'it stays there,' showing limited understanding of collection."
+      }
+    },
+    {
+      "questionText": "Why do you think we use a rain gauge instead of just looking at the rain?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a rain gauge lets us measure and count how much rain fell, while just looking doesn't tell us the exact amount, demonstrating understanding of the tool's measurement purpose.",
+        "meets": "Student states that a rain gauge measures or tells us how much rain fell, or that it helps us know the amount of rain better than just looking.",
+        "approaching": "Student gives a partial reason such as 'it shows the rain' or 'it catches the rain,' but does not clearly explain the measurement or counting purpose.",
+        "beginning": "Student provides a vague or incorrect response such as 'it's there' or 'to hold the rain,' with little connection to measurement."
+      }
+    },
+    {
+      "questionText": "If we measure the rain every day for a week, what patterns might we notice?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies possible patterns such as some days having more rain than others, some days having no rain, or amounts changing throughout the week, showing thoughtful observation of weather variation.",
+        "meets": "Student suggests a simple pattern such as 'some days have more rain' or 'some days have no rain' or 'the rain goes up and down.'",
+        "approaching": "Student mentions that measurements might be different or change, but lacks clarity about what specific patterns might appear across the week.",
+        "beginning": "Student provides a minimal or unclear response such as 'it will be different' or 'we will see rain,' without describing a pattern."
+      }
+    },
+    {
+      "questionText": "Where does the rain come from before it falls into the gauge?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that rain comes from the sky or clouds above, and may add details about water evaporating and forming clouds, showing understanding of the water cycle.",
+        "meets": "Student correctly states that rain comes from the sky or clouds, demonstrating basic knowledge of rain's origin.",
+        "approaching": "Student provides a partial answer such as 'from up there' or 'from above,' with vague reference to the sky or clouds.",
+        "beginning": "Student gives a minimal or incorrect response such as 'from the ground' or offers no clear explanation of where rain originates."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:05:53.850Z",
+  "cost": 0.004765
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Engineering",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen if we make the wheels bigger? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that bigger wheels will help the vehicle move faster or farther and explains reasoning using accurate concepts like wheel size affecting distance traveled per rotation or rolling over obstacles more easily.",
+        "meets": "Student predicts that bigger wheels will make the vehicle move faster or better and provides a simple but accurate explanation of how wheel size affects movement.",
+        "approaching": "Student makes a prediction about bigger wheels helping movement but explanation is vague or only partially accurate; may lack clear reasoning about cause and effect.",
+        "beginning": "Student makes a prediction with little or no explanation, or prediction shows misunderstanding about how wheel size affects vehicle movement."
+      }
+    },
+    {
+      "questionText": "How is building a LEGO vehicle like building a real car? What is the same and what is different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (wheels, axles, parts that connect, need for structure) and differences (materials used, size, real cars have engines/power sources) and explains why these features matter for how vehicles work.",
+        "meets": "Student identifies at least two accurate similarities and one clear difference between LEGO vehicles and real cars with brief explanations.",
+        "approaching": "Student identifies one similarity or difference accurately, or identifies more than one but with incomplete or partially inaccurate explanations.",
+        "beginning": "Student attempts comparison but provides mostly inaccurate or vague statements with little clear understanding of vehicle building."
+      }
+    },
+    {
+      "questionText": "If your LEGO tower keeps falling over, what could you change to make it stronger?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple specific changes (wider base, lower center of gravity, stronger connections, stacking method) and explains how each change would improve stability using accurate reasoning about balance and structure.",
+        "meets": "Student suggests at least two reasonable changes to increase stability (such as making base wider, using more bricks, lowering the height) with adequate explanation of why each would help.",
+        "approaching": "Student suggests one or two changes to improve stability but explanation is unclear or only partially correct about how the change would help.",
+        "beginning": "Student suggests a change with little explanation, or suggestions show misunderstanding of what makes structures stable."
+      }
+    },
+    {
+      "questionText": "Explain what happens inside a wheel when it spins. Why do wheels help things move?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that the wheel rotates/turns around an axle and explains that wheels reduce friction or allow objects to roll smoothly, making movement easier than sliding; may mention rolling reduces effort needed.",
+        "meets": "Student describes that a wheel spins or rotates and explains that wheels help movement by rolling or reducing how hard things are to push/pull.",
+        "approaching": "Student describes some aspect of wheel spinning or provides incomplete explanation of how wheels help movement; understanding is partially correct but lacks clarity.",
+        "beginning": "Student provides minimal or vague description of wheel spinning or how wheels help movement, showing limited understanding."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:09:41.697Z",
+  "cost": 0.004765
+}

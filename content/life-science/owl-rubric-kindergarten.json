@@ -1,0 +1,53 @@
+{
+  "title": "Owl",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the owl's feathers and how they look like the rocks?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes specific color and pattern details (brown, gray, spots, lines) on the owl's feathers and explains how these match the rocks' appearance, using words like 'blend in' or 'match.'",
+        "meets": "Student identifies that the owl's feathers are brown and gray like the rocks, and notices the feathers have patterns similar to the rock colors.",
+        "approaching": "Student mentions that the owl and rocks are similar colors (brown or gray) but provides limited detail about the patterns or connection.",
+        "beginning": "Student makes a simple observation about colors or rocks but does not clearly connect the owl's feathers to the rocks' appearance."
+      }
+    },
+    {
+      "questionText": "Why do you think the owl has those colors and patterns on its feathers?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the colors and patterns help the owl hide from other animals or stay safe, using the term 'camouflage' or 'blend in,' and connects this to survival.",
+        "meets": "Student explains that the owl's colors and patterns help it hide or stay safe on the rocks, demonstrating understanding of the protective purpose.",
+        "approaching": "Student suggests the colors might help the owl in some way (hide, stay safe) but explanation is unclear or partially developed.",
+        "beginning": "Student offers a simple or incorrect reason for the owl's colors (e.g., 'it looks nice') with little connection to survival or protection."
+      }
+    },
+    {
+      "questionText": "How might the owl's big eyes help it survive?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that big eyes help the owl see in the dark or see better to find food and stay safe, demonstrating understanding of how this feature supports survival.",
+        "meets": "Student explains that the owl's big eyes help it see well or help it find food, connecting the feature to survival.",
+        "approaching": "Student mentions that big eyes help the owl see but does not clearly explain why this is important for survival.",
+        "beginning": "Student makes a simple statement about the eyes (e.g., 'it can see') without explaining how this helps the owl survive."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that use colors or patterns to hide?",
+      "bloomsLevel": "Recall/Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names 2+ animals with colors or patterns that help them hide (leopard, zebra, butterfly, frog) and describes how their colors match their environment.",
+        "meets": "Student names 1-2 animals that use colors or patterns to hide and shows understanding that this helps them blend into their surroundings.",
+        "approaching": "Student names an animal but provides unclear reasoning about how its colors help it hide, or names only one animal with minimal explanation.",
+        "beginning": "Student names an animal or provides a vague response about hiding but does not connect colors or patterns to camouflage."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:36:15.352Z",
+  "cost": 0.004696
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Force And Motion",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What did the child's legs do to make their body jump up?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the legs pushed down hard against the ground, and this pushing force made the body go up into the air, using clear cause-and-effect language.",
+        "meets": "Student states that the legs pushed down or bent and then straightened to make the body jump up.",
+        "approaching": "Student mentions that legs moved or helped the jump happen, but explanation is vague or incomplete (e.g., 'the legs went down').",
+        "beginning": "Student provides minimal response with little detail, such as 'the legs moved' or gives an inaccurate answer unrelated to pushing or jumping."
+      }
+    },
+    {
+      "questionText": "Why does the child come back down to the ground instead of floating in the air?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that something pulls the child down (gravity or 'Earth pulls things down') and uses specific language about why objects cannot stay in the air.",
+        "meets": "Student states that gravity pulls the child down or that something makes them come back to the ground.",
+        "approaching": "Student recognizes the child comes down but gives an incomplete or partially accurate reason, such as 'because they have to' or 'air makes them fall.'",
+        "beginning": "Student responds with an inaccurate or irrelevant explanation, such as 'the child is tired' or provides no clear reason."
+      }
+    },
+    {
+      "questionText": "If the child pushed their legs even harder, what do you think would happen to their jump?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the child would jump higher and explains that pushing harder with the legs creates more force to lift the body higher into the air.",
+        "meets": "Student predicts the child would jump higher or jump further as a result of pushing legs harder.",
+        "approaching": "Student makes a prediction but provides weak or unclear reasoning, such as 'they would jump better' without explaining how.",
+        "beginning": "Student makes an inaccurate prediction or one unrelated to the force applied, such as 'they would fall' or provides no prediction."
+      }
+    },
+    {
+      "questionText": "How is jumping different from running? What forces are the same or different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (e.g., jumping goes up/running goes forward) and explains that both use leg force, but jumping pushes down/up while running pushes forward.",
+        "meets": "Student identifies at least one clear difference between jumping and running (e.g., 'jumping goes up, running goes forward') and mentions legs are used in both.",
+        "approaching": "Student identifies a difference or similarity between jumping and running, but explanation is incomplete or somewhat unclear (e.g., 'they're different' without details).",
+        "beginning": "Student provides minimal response with little or no accurate comparison, such as 'jumping and running are both movements' or an inaccurate distinction."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:54:37.105Z",
+  "cost": 0.00471
+}

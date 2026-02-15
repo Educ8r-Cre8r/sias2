@@ -1,0 +1,53 @@
+{
+  "title": "Giant Leopard Moth",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Look at the eggs in the picture. What do you think will come out of these eggs, and how do you know?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that caterpillars will hatch from the eggs and provides two or more specific clues from the photo (e.g., moth laid them, they're small like insect eggs, they're near the adult moth) or references prior knowledge about moth life cycles.",
+        "meets": "Student correctly identifies that caterpillars will hatch and gives one reasonable explanation, such as the moth laid them or knowing that moths lay eggs that turn into caterpillars.",
+        "approaching": "Student identifies caterpillars or baby moths but explanation is vague (e.g., 'because they're eggs' or 'the moth put them there') with limited connection to the photo or life cycles.",
+        "beginning": "Student provides an incorrect answer (e.g., more moths, butterflies) or simply repeats the question without demonstrating understanding of moth development."
+      }
+    },
+    {
+      "questionText": "Why do you think the moth has to lay so many eggs at once instead of just laying one or two?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that many eggs increase survival chances because some may not survive (predators, weather, disease) and the moth needs to ensure some offspring reach adulthood to continue the species.",
+        "meets": "Student gives a logical reason such as 'not all will survive' or 'some might get eaten' or 'to make sure some babies grow up,' showing understanding of survival challenges.",
+        "approaching": "Student attempts an explanation but reasoning is incomplete or partially confused, such as 'so she has more babies' without connecting to survival or protection.",
+        "beginning": "Student provides minimal response like 'I don't know' or an inaccurate guess with no scientific reasoning, such as 'she likes a lot of eggs.'"
+      }
+    },
+    {
+      "questionText": "Compare the adult moth's wings to its body. What do the spotted white wings help the moth do that its fuzzy body cannot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that wings enable flight and the fuzzy body cannot, and explains one additional function wings provide (e.g., protection through camouflage with spots, flying to find food or a mate, escaping danger).",
+        "meets": "Student identifies that wings help the moth fly or move around, while the fuzzy body stays in one place or cannot fly, showing clear understanding of wing function.",
+        "approaching": "Student recognizes a difference between wings and body but reasoning is unclear, such as 'wings are different' or 'wings help but I'm not sure how' without mentioning flight.",
+        "beginning": "Student provides vague or inaccurate comparison, such as 'wings are white and body is fuzzy' without explaining what wings help the moth do."
+      }
+    },
+    {
+      "questionText": "If a caterpillar eats leaves, but an adult moth drinks nectar, why do you think they need different food sources at different times in their lives?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillar's body is designed for eating solid leaves to grow bigger, while the adult moth's body is designed with a different mouth (proboscis) for drinking liquid nectar, connecting body structure to function.",
+        "meets": "Student provides a logical explanation such as caterpillars need to grow so they eat more/solid food, while adult moths have different bodies or mouths that work better with liquid food.",
+        "approaching": "Student recognizes they eat different foods but explanation lacks depth, such as 'they like different things' or 'they change when they grow up' without explaining why the change makes sense.",
+        "beginning": "Student acknowledges the difference but provides minimal reasoning, such as 'because they're different' or 'when they grow up their food changes' without connecting to body structure or needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:02:16.954Z",
+  "cost": 0.005795
+}

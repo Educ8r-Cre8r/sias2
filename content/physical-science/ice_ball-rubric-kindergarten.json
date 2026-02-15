@@ -1,0 +1,53 @@
+{
+  "title": "Ice Ball",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this ice ball if we leave it here for one hour?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the ice will melt and explains why using heat or warmth, and may describe what the ice ball will look like after melting (smaller, more water).",
+        "meets": "Student predicts the ice will melt or get smaller with a simple reason like 'it will get warm' or 'the ice goes away.'",
+        "approaching": "Student makes a prediction about change but reasoning is unclear or incomplete, such as 'it will be different' without explaining melting.",
+        "beginning": "Student gives a minimal response like 'it will change' or repeats the question without demonstrating understanding of what will happen."
+      }
+    },
+    {
+      "questionText": "How does this ice ball feel different from the water around it?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple sensory differences, such as ice is hard/solid and cold, while water is wet and liquid, using descriptive words accurately.",
+        "meets": "Student identifies at least one clear difference, such as 'ice is cold and hard' or 'water is wet and soft,' showing understanding of solid versus liquid.",
+        "approaching": "Student identifies a difference but uses vague language like 'they feel different' or identifies only one basic property without clear explanation.",
+        "beginning": "Student provides a minimal or unclear response, such as 'they are not the same' without describing how they feel different."
+      }
+    },
+    {
+      "questionText": "Where have you seen ice melting in your everyday life?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides two or more specific real-world examples of melting ice, such as ice cream melting, ice cubes in a drink, or icicles dripping, with clear details.",
+        "meets": "Student provides one clear, realistic example of ice melting in daily life, such as 'ice cream melts' or 'ice in my cup goes away.'",
+        "approaching": "Student provides an example but it is vague or lacks detail, such as 'outside' or 'at home' without specifying what is melting.",
+        "beginning": "Student gives a minimal response or struggles to think of an example, such as 'I don't know' or an unclear reference."
+      }
+    },
+    {
+      "questionText": "What could we do to make this ice ball melt faster or slower?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple strategies with clear reasoning, such as 'put it in the sun to melt faster because the sun is hot' and 'put it in the freezer to melt slower because it's cold.'",
+        "meets": "Student suggests at least one strategy for making ice melt faster or slower with reasonable reasoning, such as 'put it outside to melt faster' or 'keep it cold to melt slower.'",
+        "approaching": "Student suggests an action but reasoning is incomplete or unclear, such as 'move it around' without explaining the effect on melting speed.",
+        "beginning": "Student provides a vague response like 'do something to it' or shows minimal understanding of how conditions affect melting."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:30:46.093Z",
+  "cost": 0.004887
+}

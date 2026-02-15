@@ -1,0 +1,53 @@
+{
+  "title": "Infrared Thermometer",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we pointed this tool at an ice cube?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the tool would show a low or cold number and explains that ice cubes are very cold, demonstrating understanding that the tool measures coldness as well as warmth.",
+        "meets": "Student predicts the tool would show a low number or indicate cold, showing basic understanding that the tool measures temperature of cold objects.",
+        "approaching": "Student makes a prediction about the ice cube but provides incomplete reasoning, such as saying it would show something different without explaining why.",
+        "beginning": "Student provides a vague response like 'it would be cold' or 'the number would change' without clear prediction or reasoning about temperature."
+      }
+    },
+    {
+      "questionText": "How is this different from the thermometer the nurse uses?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that this tool measures temperature without touching (points at things) while a nurse's thermometer touches the body, and explains why this might be an advantage.",
+        "meets": "Student correctly identifies at least one key difference, such as this tool doesn't need to touch things or that it works from far away.",
+        "approaching": "Student recognizes the tools are different but provides unclear or partially accurate details about how they differ.",
+        "beginning": "Student attempts to compare but provides vague or inaccurate statements that show minimal understanding of the differences."
+      }
+    },
+    {
+      "questionText": "What are some things in our classroom that might be warm or cool?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple classroom objects and correctly categorizes them as warm or cool, such as a sunny window (warm), a cold water fountain (cool), and the heater (warm).",
+        "meets": "Student names at least two classroom items and correctly identifies them as warm or cool with reasonable examples.",
+        "approaching": "Student names one or two items but shows uncertain understanding of whether they are warm or cool, or provides vague examples.",
+        "beginning": "Student attempts to name items but provides minimal or unclear responses without accurate warm/cool categorization."
+      }
+    },
+    {
+      "questionText": "Why might scientists want to measure temperature without touching something?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons, such as that touching something very hot could hurt you, that touching might damage or change the object, or that you can measure things from far away.",
+        "meets": "Student provides one clear reason, such as it keeps you safe from hot objects or you can measure things without getting too close.",
+        "approaching": "Student recognizes there is a reason but provides incomplete or unclear explanation, such as 'it's better' without fully explaining why.",
+        "beginning": "Student attempts to answer but provides minimal or vague response that does not clearly explain a reason for measuring without touching."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:34:03.318Z",
+  "cost": 0.004437
+}

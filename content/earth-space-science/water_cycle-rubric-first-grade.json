@@ -1,0 +1,53 @@
+{
+  "title": "Water Cycle",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make the snow stick to the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that snow stuck because it was cold and wet, and the flower was cold enough to hold it; may mention that the flower's surface helped catch and hold the snow.",
+        "meets": "Student explains that snow stuck to the flower because it was cold, or because the wet snow froze onto it.",
+        "approaching": "Student recognizes that cold or freezing had something to do with the snow sticking, but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as 'it was snowy' or 'the flower was cold' without explaining how or why snow stuck."
+      }
+    },
+    {
+      "questionText": "Why do you think the yellow flower didn't turn white like the leaves, even though snow covered it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student observes that the flower's yellow color shows through the snow because petals are smooth and slippery, or because the flower is warmer than the leaves, making snow less likely to stick or melt off.",
+        "meets": "Student recognizes that the flower's color is visible because snow didn't stick to it as much as it did to the leaves, or because the flower is a different shape or texture.",
+        "approaching": "Student notes that the flower is still yellow or that snow fell off it, but reasoning about why is unclear or incomplete.",
+        "beginning": "Student makes a simple observation like 'the flower is yellow' without attempting to explain why snow didn't cover it the same way as the leaves."
+      }
+    },
+    {
+      "questionText": "If you touched the frosted leaves, what do you think they would feel like—soft or hard? Why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly predicts hard/stiff and explains that frost or ice on the leaves makes them hard, or that frozen water is solid and hard.",
+        "meets": "Student predicts hard and provides a reason related to cold, frost, or ice covering the leaves.",
+        "approaching": "Student predicts hard or soft but reasoning is vague or incomplete; may confuse the leaf's natural texture with the effect of frost.",
+        "beginning": "Student makes a prediction with no reasoning, or reasoning that doesn't connect to frost or ice."
+      }
+    },
+    {
+      "questionText": "What might happen to this flower when the sun comes up and it gets warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that snow and frost will melt or turn into water, and may explain that heat from the sun causes ice/snow to melt, or that the flower will look different.",
+        "meets": "Student predicts that the snow or frost will melt or go away when it gets warmer, showing understanding of heat's effect on ice and snow.",
+        "approaching": "Student predicts a change due to warmth or sun, but doesn't clearly explain that snow/frost will melt or disappear.",
+        "beginning": "Student makes a vague prediction like 'it will change' without connecting warmth to melting snow or frost."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:11:00.368Z",
+  "cost": 0.004805
+}

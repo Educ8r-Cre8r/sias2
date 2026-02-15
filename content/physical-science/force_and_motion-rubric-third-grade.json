@@ -1,0 +1,53 @@
+{
+  "title": "Force And Motion",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What force did the student use to jump into the air?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies pushing force (or muscle force) and explains that the student's legs pushed against the ground to make their body move upward into the air.",
+        "meets": "Student correctly identifies that the student used a pushing force or muscle force to jump up.",
+        "approaching": "Student mentions force or jumping but uses imprecise language; may say 'they jumped hard' without clearly identifying the pushing action.",
+        "beginning": "Student provides a vague response such as 'they jumped' or 'they used force' with no clear explanation of how the force was created."
+      }
+    },
+    {
+      "questionText": "Why does the student come back down to the ground after jumping? What force makes that happen?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies gravity as the force pulling the student down and explains that gravity pulls everything toward Earth, which is why the student cannot stay in the air.",
+        "meets": "Student correctly identifies gravity as the force that brings the student back down to the ground.",
+        "approaching": "Student recognizes that something pulls the student down but uses unclear language such as 'it falls down' or 'the Earth pulls them'; does not clearly name gravity.",
+        "beginning": "Student provides a minimal response such as 'they come down' or 'gravity' without any explanation of why or how it works."
+      }
+    },
+    {
+      "questionText": "How did the student use their arms to help with their jump? What would happen if they kept their arms at their sides?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that swinging arms up helps the student jump higher by adding upward motion and that keeping arms at sides would make the jump lower or less powerful; may mention balance or momentum.",
+        "meets": "Student identifies that moving arms up helps the student jump higher and that keeping arms down would result in a lower or less effective jump.",
+        "approaching": "Student recognizes that arms help with jumping but explanation is incomplete; may mention arms going up without clearly explaining the effect on jump height or power.",
+        "beginning": "Student provides minimal response such as 'arms help' or 'it would be different' without explaining how or why arms make a difference."
+      }
+    },
+    {
+      "questionText": "If you jumped on the Moon instead of Earth, where gravity is much weaker, how do you think your jump would be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that weaker gravity on the Moon means they would jump much higher and stay in the air longer; may explain that gravity pulls less strongly on the Moon.",
+        "meets": "Student predicts that they would jump higher on the Moon due to weaker gravity or that they would not come down as quickly.",
+        "approaching": "Student makes a prediction about jumping on the Moon but reasoning is unclear or incomplete; may say 'it would be different' or 'you'd jump higher' without explaining gravity's role.",
+        "beginning": "Student provides a vague prediction such as 'you jump different on the Moon' or 'it's weird there' with little to no connection to gravity."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:54:52.661Z",
+  "cost": 0.004854
+}

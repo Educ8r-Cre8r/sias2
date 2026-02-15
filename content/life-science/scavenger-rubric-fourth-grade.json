@@ -1,0 +1,53 @@
+{
+  "title": "Scavenger",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think a vulture's head has no feathers, while other birds have feathered heads?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that featherless heads help vultures stay clean when eating dead animals and explains how this adaptation reduces bacteria or disease spread, using specific reasoning about the scavenging behavior shown in the photo.",
+        "meets": "Student explains that the bare head helps vultures because it keeps them clean when eating dead animals, making a clear connection between the adaptation and their feeding habits.",
+        "approaching": "Student recognizes that the bare head is related to what vultures eat or how they feed, but the explanation is incomplete or lacks clear reasoning about the benefit of this adaptation.",
+        "beginning": "Student makes a simple observation about the bare head (such as 'it looks different') or provides an inaccurate explanation with little connection to vulture behavior or function."
+      }
+    },
+    {
+      "questionText": "How does a vulture help keep the environment clean and healthy?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that vultures eat dead animals to prevent disease and decay, and describes how this keeps the environment healthy by stopping the spread of harmful bacteria or protecting other animals from illness.",
+        "meets": "Student clearly explains that vultures eat dead animals and help keep the environment clean by removing them from the area.",
+        "approaching": "Student states that vultures eat dead animals or help clean up, but provides incomplete reasoning about why this matters for environmental health.",
+        "beginning": "Student gives a vague answer such as 'vultures clean things' or provides inaccurate information about the vulture's role in the environment."
+      }
+    },
+    {
+      "questionText": "If there were no scavengers like vultures in an ecosystem, what problems might happen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple realistic problems such as disease spread, decaying animals harming the environment, or other animals getting sick, and explains how these problems connect to the loss of the scavenger's cleaning role.",
+        "meets": "Student describes at least two reasonable problems that could occur, such as dead animals piling up or disease spreading, showing understanding of the scavenger's importance.",
+        "approaching": "Student identifies one problem that might occur without scavengers, but the explanation lacks detail or clear connection to ecosystem health.",
+        "beginning": "Student provides a vague or unlikely problem (such as 'things would be messy') or shows minimal understanding of the scavenger's role in the ecosystem."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that are scavengers, and what do they have in common with vultures?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two other scavengers (such as hyenas, raccoons, or buzzards) and identifies multiple similarities with vultures, such as eating dead animals, having strong bodies, or helping clean the environment.",
+        "meets": "Student names at least one other scavenger and identifies one or two characteristics it shares with vultures, such as eating dead animals or having a similar role in nature.",
+        "approaching": "Student names one scavenger but provides limited or unclear description of what it has in common with vultures.",
+        "beginning": "Student names an animal that is not a scavenger, or provides a vague response with little accurate information about scavenging behavior."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:26:30.823Z",
+  "cost": 0.005086
+}

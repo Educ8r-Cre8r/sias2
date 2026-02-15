@@ -1,0 +1,53 @@
+{
+  "title": "Balanced And Unbalanced Forces",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if the backhoe tried to lift something even heavier than these rocks?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the backhoe might struggle, break, or be unable to lift it, and explains that machines have limits based on how strong they are or how much weight they can handle.",
+        "meets": "Student predicts a reasonable outcome such as the backhoe not being able to lift it or the machine having difficulty, showing understanding that there are limits to what machines can do.",
+        "approaching": "Student makes a prediction about what might happen but with limited explanation, such as stating the backhoe would break or stop without clear reasoning about weight or machine strength.",
+        "beginning": "Student provides a vague prediction or guess with little connection to the concept of machine strength or weight limits, such as 'it would be bad' or 'it would not work.'"
+      }
+    },
+    {
+      "questionText": "Why do you think people invented machines like backhoes instead of always moving rocks by hand?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that machines make work easier by lifting heavy objects that people cannot move alone, and describes how this saves time or energy, demonstrating understanding that machines extend human ability.",
+        "meets": "Student explains that backhoes help people move heavy rocks that are too heavy to pick up by hand, showing understanding that machines assist with difficult tasks.",
+        "approaching": "Student provides a partial explanation, such as 'machines help move things' or 'rocks are too heavy,' but lacks detail about why this matters or how it helps people.",
+        "beginning": "Student gives a minimal response such as 'because machines are strong' or 'to move rocks' without explaining why people need machines or how they help."
+      }
+    },
+    {
+      "questionText": "How is the backhoe's arm like your own arm when you pick something up?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both the backhoe's arm and a human arm bend or have joints, can move to reach and grab objects, and use force or strength to lift things, making clear connections between the two.",
+        "meets": "Student identifies at least two similarities, such as both arms bending, both being able to grab or lift objects, or both using force to move things.",
+        "approaching": "Student identifies one similarity between the backhoe's arm and a human arm, such as both can move or both pick things up, but lacks additional details for full comparison.",
+        "beginning": "Student attempts a comparison but provides vague or unclear statements, such as 'they both work' or 'they both move things,' without specific observable similarities."
+      }
+    },
+    {
+      "questionText": "What other machines have you seen that use pushing or pulling to move things?",
+      "bloomsLevel": "Recall/Apply",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more machines (such as bulldozers, dump trucks, wheelbarrows, or door openers) and correctly identifies whether each one pushes or pulls to move things.",
+        "meets": "Student names two machines that use pushing or pulling to move things, with accurate identification of the motion involved (such as a truck pushing dirt or a rope pulling a wagon).",
+        "approaching": "Student names one or two machines that involve pushing or pulling, but may be unclear or lack details about how the machine moves things.",
+        "beginning": "Student names a machine but does not clearly connect it to pushing or pulling, or provides a machine that does not use these motions to move things."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:10:21.996Z",
+  "cost": 0.005225
+}

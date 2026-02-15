@@ -1,0 +1,53 @@
+{
+  "title": "Plant Adaptation",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this plant has thorns?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that thorns protect the plant from being eaten by animals and may add that thorns are a defense or safety feature that keeps animals away.",
+        "meets": "Student correctly identifies that thorns help protect the plant or keep animals from eating it.",
+        "approaching": "Student mentions thorns are sharp or pointy and makes a connection to protection, but the explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague response such as \"they just do\" or describes the thorns without explaining their protective purpose."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if an animal tried to eat this plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the animal would be hurt or poked by the thorns and explains that this would discourage the animal from eating the plant, showing understanding of cause and effect.",
+        "meets": "Student predicts the animal would be hurt or poked by the sharp thorns.",
+        "approaching": "Student makes a prediction about what would happen but with limited detail; may say \"it would hurt\" without connecting it to the thorns.",
+        "beginning": "Student provides a minimal or unclear response, such as \"something bad\" without specific reference to the thorns or injury."
+      }
+    },
+    {
+      "questionText": "Can you think of other ways that plants protect themselves besides having thorns?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more plant defenses (such as bitter taste, thick skin, spines, or foul smell) and explains how each one protects the plant from being eaten.",
+        "meets": "Student identifies one or two other plant protection methods (such as thick leaves, bitter taste, or spines) with brief explanations.",
+        "approaching": "Student mentions one other plant protection method but with vague or incomplete explanation of how it works.",
+        "beginning": "Student struggles to identify other plant protections or provides inaccurate information with minimal reasoning."
+      }
+    },
+    {
+      "questionText": "If you were a hungry animal in the forest, would you try to eat this plant? Why or why not?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student takes a clear position (yes or no) and provides well-reasoned justification by weighing both hunger and the danger of thorns, demonstrating thoughtful decision-making.",
+        "meets": "Student takes a position and gives a logical reason, such as \"No, because the thorns would hurt me\" or \"Yes, because I'm very hungry.\"",
+        "approaching": "Student takes a position but provides limited or unclear reasoning; may acknowledge thorns but connection to the decision is weak.",
+        "beginning": "Student gives a minimal response or unclear answer without providing adequate reasoning for their choice."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:21:19.215Z",
+  "cost": 0.004459
+}

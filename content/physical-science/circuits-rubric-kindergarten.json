@@ -1,0 +1,53 @@
+{
+  "title": "Circuits",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happens when we unplug one of these wires?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that unplugging a wire stops electricity from flowing and breaks the path, using words like 'circuit' or 'flow,' and may mention the light or device stops working.",
+        "meets": "Student states that unplugging the wire makes the electricity stop or the light turn off, showing basic understanding of cause and effect.",
+        "approaching": "Student recognizes something changes when the wire is unplugged but explanation is unclear or incomplete (e.g., 'it stops' without explaining what stops).",
+        "beginning": "Student gives a minimal response with little connection to electricity or function (e.g., 'it falls out' or 'it's broken')."
+      }
+    },
+    {
+      "questionText": "Why do we use different colors of wires—what could the colors help us remember?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that different colors help organize or identify wires for different purposes, and may give a specific example (e.g., 'red is positive, black is negative') or explain how colors prevent mistakes.",
+        "meets": "Student states that different colors help us tell the wires apart or remember which wire goes where, showing understanding of organization.",
+        "approaching": "Student recognizes that colors matter but gives vague reasoning (e.g., 'so we know them' without explaining how colors help).",
+        "beginning": "Student provides minimal or off-topic response with little understanding of color's purpose (e.g., 'because they look nice')."
+      }
+    },
+    {
+      "questionText": "Can you trace the path that electricity takes from the battery, through the wires, and back again?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces a complete circuit path using finger or verbal description, clearly naming the starting point (battery), following wires through connections, and explaining how electricity returns to complete the loop.",
+        "meets": "Student traces a path from battery through wires and back, showing understanding that electricity travels in a circle, though explanation may lack some detail.",
+        "approaching": "Student traces part of the path or shows partial understanding that electricity moves through wires but cannot complete the full circuit explanation.",
+        "beginning": "Student attempts to trace but cannot identify the complete path, or shows minimal understanding of how electricity flows through the circuit."
+      }
+    },
+    {
+      "questionText": "What would happen if we built a circuit that powers a lamp—would the light work if we removed one wire?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the lamp would not work and explains that removing a wire breaks the circuit, preventing electricity from flowing all the way through to power the lamp.",
+        "meets": "Student correctly predicts the lamp would turn off or stop working if a wire is removed, showing understanding that a complete circuit is needed.",
+        "approaching": "Student predicts the lamp stops working but reasoning is unclear or incomplete (e.g., mentions the wire being gone but not why this stops the light).",
+        "beginning": "Student makes a prediction with little or no explanation, or is uncertain about what would happen to the lamp."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:00:08.180Z",
+  "cost": 0.004854
+}

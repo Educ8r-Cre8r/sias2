@@ -1,0 +1,53 @@
+{
+  "title": "Rainbow Refraction",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to the rainbow if all the rain stopped and the clouds cleared away?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the rainbow would disappear because water droplets are needed to reflect and refract light, and provides additional detail about why raindrops are essential for rainbow formation.",
+        "meets": "Student correctly states that the rainbow would disappear and identifies that water droplets or rain are necessary for rainbows to form.",
+        "approaching": "Student indicates the rainbow would go away but provides vague or incomplete reasoning about the role of water or rain in creating rainbows.",
+        "beginning": "Student gives a minimal response such as 'it would disappear' without explaining why, or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think we always see a rainbow with the sun behind us instead of in front of us?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that light must pass through water droplets toward the observer, requiring the sun to be behind them, and may mention that the observer sees reflected/refracted light coming from the droplets.",
+        "meets": "Student correctly identifies that the sun must be behind the observer and explains this is necessary for light to reach the water droplets and then the observer's eyes.",
+        "approaching": "Student recognizes the sun is behind the observer but gives incomplete or partially correct reasoning about how light travels through the water droplets.",
+        "beginning": "Student provides a vague answer such as 'the sun is behind you' without explaining the reason, or gives an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "If you were standing in a different location in this photograph, would you see the same rainbow in the same place in the sky? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly explains that each observer sees a different rainbow based on their position and angle relative to the sun and rain, and may note that rainbows are always at approximately 42 degrees from the antisolar point.",
+        "meets": "Student correctly states that the rainbow would appear in a different location in the sky and explains that your position and angle to the sun and water droplets affect what you see.",
+        "approaching": "Student recognizes the rainbow position would change but provides incomplete reasoning about why location matters or how the observer's position affects the view.",
+        "beginning": "Student gives a minimal or unclear answer, such as 'yes' or 'no' without explanation, or provides inaccurate reasoning about how observer position affects rainbow visibility."
+      }
+    },
+    {
+      "questionText": "How is a rainbow similar to light passing through a glass prism?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both use refraction to bend white light and separate it into colors, and may identify water droplets as natural prisms or describe how the angle of light entering affects the colors seen.",
+        "meets": "Student identifies that both rainbows and prisms separate white light into different colors through refraction or bending of light.",
+        "approaching": "Student recognizes a connection between rainbows and prisms but provides vague or partially correct details about how light behaves in each situation.",
+        "beginning": "Student makes minimal connection or states 'they both have colors' without explaining the science of how light bends or separates, or provides inaccurate information."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:24:05.833Z",
+  "cost": 0.005057
+}

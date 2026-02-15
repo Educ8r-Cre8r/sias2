@@ -1,0 +1,53 @@
+{
+  "title": "Katydid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the katydid is green instead of bright red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green color helps the katydid hide or blend in with green leaves and plants, and may add that bright colors would make it easier for predators to see it.",
+        "meets": "Student identifies that the katydid's green color helps it blend in with or hide among green plants and leaves.",
+        "approaching": "Student mentions that green color relates to plants or hiding, but the explanation is unclear or only partially connects the color to survival or camouflage.",
+        "beginning": "Student provides a simple response like \"it likes green\" or \"it lives on plants\" with no clear connection to hiding or protection."
+      }
+    },
+    {
+      "questionText": "If a katydid lived on brown tree bark instead of green leaves, what color do you think it would be, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the katydid would be brown and explains that matching the bark's color would help it hide from predators or stay camouflaged in its new habitat.",
+        "meets": "Student predicts the katydid would be brown and gives a reason that it would match the bark or help it hide.",
+        "approaching": "Student predicts brown but gives a weak or incomplete reason, such as \"it would turn brown\" without explaining why that would help.",
+        "beginning": "Student predicts a color but provides no reasoning, or the response shows confusion about how animals change color or blend in."
+      }
+    },
+    {
+      "questionText": "What animals do you think hunt katydids, and how does being green help the katydid stay safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least one realistic predator (bird, lizard, spider, etc.) and clearly explains that the green color helps the katydid blend in so predators cannot easily spot it on plants.",
+        "meets": "Student names one or more predators and explains that green color helps the katydid hide or blend in with plants, keeping it safe from being eaten.",
+        "approaching": "Student names a predator or explains that green helps with hiding, but does not fully connect both ideas or the reasoning is incomplete.",
+        "beginning": "Student gives vague answers like \"green helps it\" or names a predator with no explanation of how color provides protection."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal that is colored to match where it lives? How does its color help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names a specific animal with camouflage (deer, frog, butterfly, etc.) and explains clearly how its color helps it hide from predators or hunt prey, showing understanding that matching the environment is a survival advantage.",
+        "meets": "Student names an animal and explains that its color helps it blend in with its surroundings or hide from danger to survive.",
+        "approaching": "Student names an animal and mentions that color relates to hiding or survival, but the connection is unclear or incomplete.",
+        "beginning": "Student names an animal with no explanation, or describes an animal whose coloring does not relate to camouflage or survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:17:46.525Z",
+  "cost": 0.004915
+}

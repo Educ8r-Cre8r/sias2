@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe that tells you wind is present in this photo?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations of wind evidence, such as the flag's position being extended away from the pole, the fabric appearing to ripple or wave, and explains that the flag wouldn't move this way without an invisible force.",
+        "meets": "Student identifies at least one clear observation that shows wind is present, such as the flag is extended out or waving away from the flagpole.",
+        "approaching": "Student mentions the flag is moving or waving but provides limited detail about what specifically shows wind is acting on it.",
+        "beginning": "Student gives a vague response like 'the flag is moving' or 'I can see wind' without clear observations from the photo."
+      }
+    },
+    {
+      "questionText": "How might the flag's movement change if the wind speed doubled or if there was no wind at all?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that doubled wind speed would cause the flag to extend further out and wave more vigorously, while no wind would make the flag hang straight down or limp, and explains that the amount of force (wind) affects how much the flag moves.",
+        "meets": "Student makes reasonable predictions for both scenarios: stronger wind would make the flag move more or extend further, and no wind would make the flag drop or hang down.",
+        "approaching": "Student makes a prediction for one scenario or predicts movement changes but with incomplete reasoning about the relationship between wind speed and flag movement.",
+        "beginning": "Student makes a prediction but it is vague, unrealistic, or shows little understanding of how wind affects objects."
+      }
+    },
+    {
+      "questionText": "What other objects in your neighborhood show evidence of invisible forces acting on them?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three different neighborhood objects (such as trees bending, leaves blowing, curtains moving, hair blowing, clouds moving) and clearly connects each to the invisible force acting on it (wind, gravity, or magnetism).",
+        "meets": "Student identifies two or more objects from their neighborhood that show invisible forces and explains what force is acting on them (most likely wind or gravity).",
+        "approaching": "Student identifies one or two objects that could show invisible forces but the explanation of what force is acting on them is unclear or incomplete.",
+        "beginning": "Student identifies an object but provides minimal connection to invisible forces, or the object choice shows limited understanding of the concept."
+      }
+    },
+    {
+      "questionText": "If you were designing a new flag, what properties would make it move more or less in the wind?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific material and design properties (such as lighter fabric moves more, thicker fabric moves less, longer length increases movement, rough texture affects flow) and explains why each property would affect wind responsiveness.",
+        "meets": "Student identifies at least two properties (such as fabric weight, material type, size, or shape) that would change how the flag moves and provides reasonable explanations for each.",
+        "approaching": "Student identifies one or two properties that might affect movement but explanations lack clarity or scientific reasoning about how those properties interact with wind.",
+        "beginning": "Student mentions a property or gives a response that is vague or shows limited understanding of how material properties relate to wind movement."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:22:37.984Z",
+  "cost": 0.00502
+}

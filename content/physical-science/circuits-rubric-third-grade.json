@@ -1,0 +1,53 @@
+{
+  "title": "Circuits",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen if we remove one of the colored wires from this circuit board?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the circuit will break or stop working and explains that electricity needs a complete path/loop to flow, using accurate circuit vocabulary like 'complete circuit' or 'closed circuit.'",
+        "meets": "Student predicts the circuit will stop working or break and provides a reasonable explanation that electricity needs all the wires connected.",
+        "approaching": "Student predicts something will happen but explanation is vague or incomplete, such as 'it won't work' without explaining why the wire matters.",
+        "beginning": "Student provides a prediction with minimal or inaccurate reasoning, such as 'the wire will fall' or no clear connection to how circuits work."
+      }
+    },
+    {
+      "questionText": "Why do you think the wires in this circuit are colored differently? How might the different colors help us?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that colors help organize and identify different parts of the circuit, prevent mixing up connections, and make it easier to troubleshoot or follow the electrical path, demonstrating understanding of circuit organization.",
+        "meets": "Student explains that different colors help us tell the wires apart and make it easier to build or understand the circuit without getting confused.",
+        "approaching": "Student recognizes that colors serve a purpose but explanation is incomplete, such as 'colors make it look nice' or 'colors are just different' with limited connection to circuit function.",
+        "beginning": "Student provides minimal reasoning, such as 'they're different colors' or guesses without logical connection to circuit purpose."
+      }
+    },
+    {
+      "questionText": "If you wanted to build a circuit to light up a lamp in your bedroom, what parts would you need, and how would you connect them?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies all necessary parts (battery/power source, lamp, wires, switch) and describes connecting them in a complete loop with clear sequencing, explaining that the path must be unbroken for electricity to flow to the lamp.",
+        "meets": "Student identifies most necessary parts (battery, lamp, wires) and explains connecting them in a loop so electricity can reach the lamp, though may lack detail about a switch or exact connection method.",
+        "approaching": "Student identifies some needed parts (battery and lamp or wires) but explanation of connections is incomplete or unclear, or understanding of the complete path is partially developed.",
+        "beginning": "Student lists only one or two parts or provides vague/incomplete connections with little evidence of understanding how a circuit powers a lamp."
+      }
+    },
+    {
+      "questionText": "How is a circuit similar to a path or road you might walk or drive on?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a detailed comparison explaining that both electricity and people/vehicles follow a continuous path, must have a clear route to reach their destination, and cannot reach the end if the path is broken.",
+        "meets": "Student explains that a circuit is like a path because electricity travels along it, just like you travel on a road, and it needs to be complete to go all the way through.",
+        "approaching": "Student makes a general comparison but with incomplete reasoning, such as 'both go somewhere' or 'both are paths' without clearly connecting the idea of a complete/broken route.",
+        "beginning": "Student attempts a comparison but reasoning is vague or unclear, such as 'they're the same' with little explanation of how electricity and travel are similar."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:00:32.167Z",
+  "cost": 0.005246
+}

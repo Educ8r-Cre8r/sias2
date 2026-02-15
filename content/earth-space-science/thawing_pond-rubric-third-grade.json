@@ -1,0 +1,53 @@
+{
+  "title": "Thawing Pond",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe in this picture that tells you the weather is getting warmer?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple warming indicators (melting ice, green grass beginning to grow, bare branches starting to bud) and explains how each one shows temperature increase.",
+        "meets": "Student identifies at least two signs of warming such as melting ice, patches of grass showing, or water becoming visible, with brief explanations.",
+        "approaching": "Student identifies one warming sign like melting ice or visible water, but explanation is vague or incomplete.",
+        "beginning": "Student provides minimal observation or mentions only one detail without connecting it to warming weather."
+      }
+    },
+    {
+      "questionText": "Why do you think the ice is melting now instead of staying frozen all year long?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that temperature has risen above freezing point, causing ice to change to liquid water, and may mention seasonal changes or Earth's tilt causing spring warmth.",
+        "meets": "Student explains that warmer temperatures cause ice to melt, or that winter is ending and spring brings warmer weather.",
+        "approaching": "Student mentions that ice melts when it gets warmer but lacks clear connection to seasonal temperature changes.",
+        "beginning": "Student provides a simple response like 'it's warmer' without explaining the connection between heat and melting."
+      }
+    },
+    {
+      "questionText": "If this pond had more ice on it, what do you think would happen to all that water when it melted? Where would it go?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts water would flow downhill or into ground, may mention runoff, streams, or groundwater, and explains reasoning based on water's movement patterns.",
+        "meets": "Student predicts water would flow away from the pond (downhill, into the ground, or to other places) with reasonable explanation.",
+        "approaching": "Student recognizes water goes somewhere but explanation is unclear or only partially correct (e.g., 'it goes away' without direction or method).",
+        "beginning": "Student provides vague prediction about water's movement with little or no reasoning."
+      }
+    },
+    {
+      "questionText": "Can ice turn back into water, and can water turn back into ice? How?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that ice melts into water when heated and water freezes into ice when cooled; may describe this as reversible change or name the processes (melting/freezing).",
+        "meets": "Student correctly states that ice becomes water when warm and water becomes ice when cold, with brief explanations of how each happens.",
+        "approaching": "Student gives partial answer—explains one direction of change (melting or freezing) clearly, but the other is vague or incomplete.",
+        "beginning": "Student provides simple yes/no answers with minimal or unclear explanation of how temperature causes these changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:30:37.498Z",
+  "cost": 0.004573
+}

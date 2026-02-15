@@ -1,0 +1,53 @@
+{
+  "title": "Friction",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How does electrical energy travel from the power source to make the train move?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that electricity flows from the overhead wire through the pantograph to the train's motor, and describes how the electrical energy is converted into motion that moves the train along the tracks.",
+        "meets": "Student describes that electricity comes from the overhead wire through the pantograph and powers the train to make it move.",
+        "approaching": "Student identifies that the overhead wire and pantograph are involved in powering the train but provides incomplete or unclear explanation of how the electricity travels or creates motion.",
+        "beginning": "Student makes a simple observation about the pantograph or overhead wire but does not explain how electrical energy travels or creates motion."
+      }
+    },
+    {
+      "questionText": "What would happen if the pantograph lost contact with the overhead wire while the train was moving?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the train would lose electrical power and stop, and explains that the pantograph must stay connected to receive continuous electricity, making a connection to why this system is important for the train's operation.",
+        "meets": "Student correctly predicts that the train would lose power and stop, and explains that the pantograph needs to stay connected to the wire to get electricity.",
+        "approaching": "Student predicts the train would stop but provides vague reasoning about the lost connection or incomplete understanding of why electricity would be interrupted.",
+        "beginning": "Student makes a prediction about what would happen but provides little or no explanation about the role of electrical connection."
+      }
+    },
+    {
+      "questionText": "Why might cities choose electric trains instead of diesel buses for public transportation?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reasons such as electric trains producing less pollution, being quieter, serving more passengers efficiently, or using renewable energy sources, demonstrating understanding of environmental and practical benefits.",
+        "meets": "Student identifies at least two reasonable reasons why cities prefer electric trains, such as less pollution, carrying more people, or being better for the environment.",
+        "approaching": "Student identifies one possible advantage of electric trains (such as cleaner or more efficient) but explanation lacks detail or reasoning.",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of the benefits of electric trains over diesel buses."
+      }
+    },
+    {
+      "questionText": "What other machines in your daily life use electricity to create motion?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more machines that use electricity for motion (such as electric fans, washing machines, car windows, or elevators) and explains how electricity creates motion in at least one example.",
+        "meets": "Student identifies two or more everyday machines that use electricity to create motion with simple, accurate descriptions.",
+        "approaching": "Student identifies at least one machine that uses electricity for motion but may lack clarity or provides incomplete descriptions of additional examples.",
+        "beginning": "Student names one machine or provides a vague response with minimal connection to how electricity creates motion."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:20:55.731Z",
+  "cost": 0.004572
+}

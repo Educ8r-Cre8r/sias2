@@ -1,0 +1,53 @@
+{
+  "title": "Static Electricity",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen if we bring the balloon close to your hair?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts that hair will be pulled toward or stick to the balloon and explains this happens because the balloon has a special power or force that pulls things; may mention the balloon being charged or having static electricity.",
+        "meets": "Student predicts that the hair will move toward the balloon or stick to it when brought close.",
+        "approaching": "Student makes a prediction about what will happen but it is unclear or only partially correct (e.g., 'something will happen' or 'the hair might move').",
+        "beginning": "Student provides a vague response, is unsure, or makes an inaccurate prediction with no attempt to explain."
+      }
+    },
+    {
+      "questionText": "Why do you think some of the paper pieces stick to the balloon while others don't?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the balloon has a pulling force that attracts the paper and reasons about why some pieces stick (e.g., different sizes, different positions, or the force being stronger in some areas) with specific observations from the photo.",
+        "meets": "Student explains that the balloon has a force or power that pulls the paper pieces toward it, and acknowledges that not all pieces stick the same way.",
+        "approaching": "Student recognizes that the balloon causes the paper to stick but gives an incomplete or partially accurate explanation (e.g., 'the balloon is sticky' or 'it just does').",
+        "beginning": "Student attempts to answer but provides little reasoning or suggests an inaccurate cause (e.g., 'the paper is light' without connecting it to the balloon's action)."
+      }
+    },
+    {
+      "questionText": "How is the balloon like a magnet? How is it different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both the balloon and a magnet pull objects toward them, and explains a key difference such as magnets pull metal while this balloon pulls paper, or magnets work all the time while the balloon only works after being rubbed.",
+        "meets": "Student identifies that both pull or attract objects, and names at least one difference between how a magnet and the balloon work.",
+        "approaching": "Student makes a comparison but it is incomplete or partially accurate (e.g., 'they both pull things' but no clear difference, or confused about how each works).",
+        "beginning": "Student attempts a comparison but shows minimal understanding of how either magnets or the balloon work."
+      }
+    },
+    {
+      "questionText": "What other objects in our classroom might work like this balloon?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple classroom objects that could attract paper or other light objects through static electricity (e.g., a rubbed ruler, a comb, wool clothing) and explains why these objects would work similarly to the balloon.",
+        "meets": "Student identifies one or more classroom objects that could produce a similar pulling or attracting effect, showing understanding that the balloon's behavior could apply to other things.",
+        "approaching": "Student suggests an object but the connection to the balloon's behavior is unclear or only partially explained (e.g., naming a magnet but not explaining the similarity to the static balloon).",
+        "beginning": "Student suggests an object but provides no explanation, or the suggested object has no clear connection to how the balloon works."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:01:31.930Z",
+  "cost": 0.005041
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions do you think these nails needed to become so rusty?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions (water/moisture, oxygen, and time) that cause rusting and explains how these work together to create rust on metal.",
+        "meets": "Student identifies at least two conditions needed for rusting (such as water and oxygen) and provides a basic explanation of how they affect the nails.",
+        "approaching": "Student mentions one or two conditions for rusting (like water or air) but the explanation is incomplete or lacks connection to how rust forms.",
+        "beginning": "Student provides a vague response about rusting conditions (such as 'they got wet' or 'they were outside') with little or no scientific reasoning."
+      }
+    },
+    {
+      "questionText": "How might engineers use this information when building outdoor structures?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple engineering solutions (such as using rust-resistant materials, protective coatings, or stainless steel) and connects these directly to preventing the rust damage shown in the photo.",
+        "meets": "Student describes at least one way engineers protect outdoor structures from rust (such as using special paint, rust-resistant metals, or drainage) and explains why this is important.",
+        "approaching": "Student mentions that engineers prevent rust or suggests protecting metal from water, but the explanation lacks specific details or clear connection to the problem.",
+        "beginning": "Student gives a simple response like 'engineers fix rust' or 'they should use new nails' without explaining how to prevent the rust problem."
+      }
+    },
+    {
+      "questionText": "What evidence tells you that rusting is a chemical change rather than just getting dirty?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies specific evidence (such as color change, new material formation, or that the change cannot be reversed) and explains why these features prove a chemical change occurred, not just a physical change.",
+        "meets": "Student identifies evidence of chemical change (such as the color turning from silver to brown/orange or a new substance being created) and explains that this means the metal itself changed.",
+        "approaching": "Student recognizes that the nails look very different or mentions that rust is different from dirt, but does not clearly explain why this indicates a chemical change.",
+        "beginning": "Student states that rust is different from dirt but provides little or no explanation of what evidence shows a chemical change has occurred."
+      }
+    },
+    {
+      "questionText": "If you found similar nails in a dry desert versus near the ocean, how might they look different and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that ocean nails would rust more (due to salt water and moisture) while desert nails would rust much less (due to lack of water) and explains how moisture and salt both speed up rusting.",
+        "meets": "Student predicts that ocean nails would rust more than desert nails and gives a reasonable explanation involving moisture or salt water as the cause.",
+        "approaching": "Student makes a prediction about differences between ocean and desert nails but the explanation is incomplete or mentions only one factor (moisture or salt) without full reasoning.",
+        "beginning": "Student makes a simple prediction (such as 'ocean ones rust more') with little or no explanation of why the environments would affect the nails differently."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:24:52.121Z",
+  "cost": 0.004972
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if these waves hit the rocks every day for 100 years?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that rocks would wear down or break apart over time, explaining that repeated wave energy can slowly change rock shape, and may mention erosion or weathering by name.",
+        "meets": "Student predicts that rocks would get smaller, smoother, or change in some way due to waves hitting them repeatedly over a long time.",
+        "approaching": "Student recognizes that waves hitting rocks would cause some change, but explanation is vague or incomplete (e.g., 'rocks would be different' without describing how).",
+        "beginning": "Student provides minimal response with little reasoning, or makes an inaccurate prediction unrelated to wave action (e.g., 'nothing would happen')."
+      }
+    },
+    {
+      "questionText": "Where do you think the energy in these waves came from originally?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies the sun or wind as the source of wave energy, and explains the connection (e.g., 'The sun heats the ocean and causes wind, which makes waves' or 'Wind pushes the water to make waves').",
+        "meets": "Student correctly identifies either the sun or wind as the energy source for waves, with a basic explanation of the connection.",
+        "approaching": "Student attempts to identify a source but explanation is unclear or partially incorrect (e.g., mentions sun or wind but doesn't explain how they create waves).",
+        "beginning": "Student provides vague or inaccurate response without clear identification of energy source (e.g., 'the ocean' or 'water')."
+      }
+    },
+    {
+      "questionText": "How is this wave crashing similar to what happens when you throw a ball against a wall?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both involve energy transfer and describes specific similarities (e.g., 'Both have moving energy that hits something hard, the ball bounces back and water splashes back, both transfer energy to the surface they hit').",
+        "meets": "Student identifies at least one clear similarity between the wave and ball (e.g., both hit something hard, both splash/bounce back, both transfer energy).",
+        "approaching": "Student notices some connection but description is incomplete or vague (e.g., 'they both hit something' without further explanation).",
+        "beginning": "Student provides minimal or inaccurate response, or says they are not similar without reasoning."
+      }
+    },
+    {
+      "questionText": "What evidence can you see in the photo that shows energy is being transferred?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple visible signs of energy transfer (e.g., water spraying high into the air, white foam being created, rocks being impacted, water moving) and explains how each shows energy movement.",
+        "meets": "Student identifies two or more observable signs of energy being transferred in the photo, such as water spray, foam, or water movement.",
+        "approaching": "Student identifies one observable sign of energy transfer (such as splashing or spray) but explanation is basic or incomplete.",
+        "beginning": "Student provides vague response or minimal detail about what they observe in the photo related to energy."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:21:34.826Z",
+  "cost": 0.00495
+}

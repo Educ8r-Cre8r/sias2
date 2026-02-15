@@ -1,0 +1,53 @@
+{
+  "title": "Life Cyle",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the eggshell over the next few months?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the eggshell will break down or decompose into smaller pieces and describes how this process returns nutrients to the soil for plants to use.",
+        "meets": "Student predicts that the eggshell will break down or decompose over time, with some recognition that this benefits the soil or plants.",
+        "approaching": "Student predicts that the eggshell will change or break into pieces, but provides limited detail about why this happens or what happens next.",
+        "beginning": "Student makes a vague prediction about the eggshell (such as 'it will disappear' or 'it will rot') without explaining the decomposition process or consequences."
+      }
+    },
+    {
+      "questionText": "Why might a gardener intentionally add crushed eggshells to their soil instead of throwing them away?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eggshells provide nutrients (such as calcium) that help plants grow, and connects this to the concept of recycling materials instead of creating waste.",
+        "meets": "Student explains that eggshells provide nutrients or minerals to the soil that help plants grow better.",
+        "approaching": "Student recognizes that eggshells are beneficial to soil or plants but provides an incomplete or vague explanation of how or why.",
+        "beginning": "Student suggests a reason eggshells might be added to soil but the explanation shows minimal understanding of plant nutrients or soil health."
+      }
+    },
+    {
+      "questionText": "If eggshells provide nutrients to plants, where do you think the eggshell's nutrients came from originally?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student traces the nutrient pathway back to the chicken and its food (plants or feed), demonstrating understanding that nutrients originally came from the environment and were incorporated into the egg.",
+        "meets": "Student recognizes that the eggshell's nutrients came from the chicken that laid the egg, or from food the chicken ate.",
+        "approaching": "Student makes a connection between the chicken and the eggshell nutrients but with limited explanation of how the chicken obtained these nutrients.",
+        "beginning": "Student attempts to identify a source for eggshell nutrients but the explanation is unclear or contains significant inaccuracies."
+      }
+    },
+    {
+      "questionText": "How is the eggshell in this photo part of both a \"life cycle\" and a \"nutrient cycle\"?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the eggshell is part of a life cycle (egg to organism to death/decomposition) and part of a nutrient cycle (nutrients from soil → chicken → eggshell → soil → plants), showing how these cycles overlap.",
+        "meets": "Student identifies the eggshell's role in both a life cycle and nutrient cycle, such as explaining it connects to a chicken's life and returns materials to soil.",
+        "approaching": "Student recognizes the eggshell connects to either a life cycle or nutrient cycle but struggles to explain how it relates to both processes.",
+        "beginning": "Student attempts to answer but shows limited understanding of how life cycles and nutrient cycles differ or how the eggshell participates in each."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:23:28.733Z",
+  "cost": 0.005031
+}

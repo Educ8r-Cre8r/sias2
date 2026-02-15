@@ -1,0 +1,53 @@
+{
+  "title": "Gulf of Mexico",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think someone put that warning sign on the beach?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the sign warns people about the deep drop-off in the ocean floor and explains that this is dangerous because swimmers could suddenly go into very deep water where they cannot touch the bottom.",
+        "meets": "Student recognizes that the sign warns people about danger at the beach, specifically mentioning the deep water or drop-off.",
+        "approaching": "Student indicates the sign is a warning but provides a vague or partially accurate explanation, such as mentioning danger without clearly explaining the drop-off.",
+        "beginning": "Student provides a minimal response like 'it's a warning' with little or no explanation of why the warning is needed."
+      }
+    },
+    {
+      "questionText": "How do you think the water made that deep drop-off in the ocean floor?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moving water (waves, currents, or erosion) can carry away sand and sediment, gradually creating a deeper area, and may mention this happens over a long time.",
+        "meets": "Student describes that water movement or waves wear away the sand and rocks, making the ocean floor deeper over time.",
+        "approaching": "Student suggests water movement or erosion created the drop-off but lacks specific detail about how sand or sediment is removed.",
+        "beginning": "Student provides a vague response such as 'the water did it' without explaining the process of erosion or movement."
+      }
+    },
+    {
+      "questionText": "If we visit this beach again in 10 years, do you think it will look the same? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the beach will change, explaining that waves and erosion will continue to move sand and reshape the shoreline, and may mention that storms or weather could speed up these changes.",
+        "meets": "Student predicts the beach will change due to water movement and erosion, or will stay mostly the same with minor natural changes.",
+        "approaching": "Student predicts change or no change but provides limited or unclear reasoning about erosion, waves, or natural processes.",
+        "beginning": "Student gives a simple yes/no answer without explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "What could people do to protect the beach from changing so quickly?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple protective strategies such as building barriers (sea walls, breakwaters), planting beach grass or dunes, adding sand, or limiting beach access, and explains how at least one strategy reduces erosion.",
+        "meets": "Student suggests one or two reasonable ways to protect the beach, such as building structures to block waves, adding sand, or creating dunes.",
+        "approaching": "Student offers a basic idea for protection but with incomplete explanation, such as 'build something' or 'add sand' without describing how it helps.",
+        "beginning": "Student provides a vague or unrealistic response with little clear connection to reducing erosion or wave damage."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:42:34.166Z",
+  "cost": 0.004686
+}

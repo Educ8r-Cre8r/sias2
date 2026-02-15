@@ -1,0 +1,53 @@
+{
+  "title": "Thawing Pond",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make this ice start to melt?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that warmer weather or temperature increase caused the ice to melt, and may add related details like \"spring is warmer\" or \"the sun makes it warmer.\"",
+        "meets": "Student correctly identifies that the ice melted because it got warmer or the weather changed, demonstrating understanding of temperature's effect on ice.",
+        "approaching": "Student mentions warmth or weather but reasoning is unclear or incomplete, such as \"it got warm\" without connecting it to melting.",
+        "beginning": "Student provides a vague or inaccurate response with little connection to temperature or seasonal change, such as \"the pond broke\" or no clear explanation."
+      }
+    },
+    {
+      "questionText": "How is ice different from water? Why do you think they look different?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences (ice is hard/solid and water is wet/liquid) and explains that they look different because ice is frozen and solid while water flows and is liquid.",
+        "meets": "Student identifies at least one key difference between ice and water (such as ice is hard/frozen and water is soft/wet) with a simple explanation of why they look different.",
+        "approaching": "Student notices that ice and water look different but provides incomplete reasoning, such as \"ice is white and water is blue\" without explaining the physical difference.",
+        "beginning": "Student gives minimal or inaccurate response, such as \"they're different\" with no explanation or confusion between the two states."
+      }
+    },
+    {
+      "questionText": "If we brought this pond inside where it's warm, what would happen faster than it melting outside?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the ice would melt faster inside and explains that it's because it's much warmer indoors, or may note that the sun outdoors is weaker in spring than indoor heat.",
+        "meets": "Student correctly predicts that ice would melt faster inside and provides the reason that inside is warmer than outside.",
+        "approaching": "Student predicts that the ice would melt faster but gives unclear or incomplete reasoning about why temperature inside differs from outside.",
+        "beginning": "Student makes an inaccurate prediction or provides no clear reasoning, such as \"it would freeze more\" or \"I don't know.\""
+      }
+    },
+    {
+      "questionText": "Where do you think all this melted water goes? What happens to it next?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the water's path (flows to ground, runs into streams/rivers, or soaks into soil) and may add that it can evaporate or be used by plants and animals.",
+        "meets": "Student identifies a reasonable destination for melted water (such as it goes into the ground, flows away, or becomes part of rivers/streams) showing understanding of water movement.",
+        "approaching": "Student suggests a destination for the water but reasoning is vague or incomplete, such as \"it goes somewhere\" without clear detail.",
+        "beginning": "Student provides minimal or inaccurate response with no clear understanding of water movement, such as \"it disappears\" with no explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:30:21.451Z",
+  "cost": 0.004924
+}

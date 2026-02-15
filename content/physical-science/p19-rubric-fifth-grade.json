@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we used hot water instead of cold water?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the blue dye would spread faster in hot water and explains that heat gives molecules more energy to move quickly, making diffusion happen more rapidly than in cold water.",
+        "meets": "Student predicts the blue dye would spread faster in hot water and provides a reasonable explanation that heat or temperature makes it move quicker.",
+        "approaching": "Student predicts the blue dye would spread faster in hot water but provides limited or incomplete explanation for why this would happen.",
+        "beginning": "Student makes a prediction but it is unclear or inaccurate, or provides no explanation for the prediction."
+      }
+    },
+    {
+      "questionText": "How might this process be similar to how smell travels across a room?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both involve particles spreading out and mixing through a medium (water or air) without being pushed, identifying that diffusion is the process in both situations and describing how particles move from areas of high to low concentration.",
+        "meets": "Student identifies that both processes involve something spreading out or mixing through a medium and that particles move without being pushed to travel.",
+        "approaching": "Student recognizes a similarity between the two processes but the explanation is vague or partially incomplete, such as mentioning spreading without explaining the role of particle movement.",
+        "beginning": "Student attempts a comparison but provides minimal detail or an unclear/inaccurate connection between the two processes."
+      }
+    },
+    {
+      "questionText": "If we waited 24 hours, what would the water in the jar look like and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the water would be uniformly blue throughout and explains that diffusion continues until the blue dye is evenly distributed, reaching equilibrium where concentration is the same everywhere.",
+        "meets": "Student predicts the water would be uniformly or evenly blue and explains that the dye continues to spread and mix throughout all the water.",
+        "approaching": "Student predicts the water would look more blue or mixed but provides limited explanation for why the color would be more even or uniform.",
+        "beginning": "Student makes a prediction that is unclear or provides little to no explanation for what would happen over time."
+      }
+    },
+    {
+      "questionText": "How could we design an experiment to test whether temperature affects how fast diffusion happens?",
+      "bloomsLevel": "Design",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a detailed experimental design with clear variables: keeping water amount and dye amount constant while changing only temperature, using multiple temperatures, measuring or observing how long diffusion takes, and comparing results to draw conclusions.",
+        "meets": "Student outlines an experimental design that includes comparing different temperatures with the same amount of water and dye, and describes how to observe or measure the spreading process.",
+        "approaching": "Student describes testing different temperatures with dye and water but is missing details about controlling variables or how to fairly measure/compare the results.",
+        "beginning": "Student suggests testing different temperatures but provides minimal detail about the experimental setup, variables, or how to measure results."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:05:19.518Z",
+  "cost": 0.00474
+}

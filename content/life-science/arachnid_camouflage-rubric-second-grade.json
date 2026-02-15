@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this spider's color is brown and tan instead of bright red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spider's brown and tan colors match the tree bark, helping it hide from predators, and may add that bright colors would make it easy to see and get eaten.",
+        "meets": "Student identifies that the spider's colors help it blend in with the tree bark or that this helps keep it safe from animals that might eat it.",
+        "approaching": "Student recognizes that the spider's colors are similar to the bark or mentions hiding, but the explanation is incomplete or lacks clarity about why this matters.",
+        "beginning": "Student provides a response that shows minimal understanding, such as 'it just is' or guesses without connecting color to safety or blending in."
+      }
+    },
+    {
+      "questionText": "What would happen to a bright red spider living on this tree bark? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a bright red spider would be easy to spot and likely be eaten by predators because it would stand out against the brown and tan bark, showing clear cause-and-effect reasoning.",
+        "meets": "Student correctly predicts that a bright red spider would be easier to see or could be eaten because it wouldn't blend in with the bark.",
+        "approaching": "Student recognizes that a bright red spider might be seen more easily or could be in danger, but the explanation of why is vague or incomplete.",
+        "beginning": "Student makes a prediction or statement about a red spider but provides little reasoning or shows limited understanding of why color matters for hiding."
+      }
+    },
+    {
+      "questionText": "Can you find the spider in this photo? How does its body help it stay hidden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student accurately locates or describes the spider's location and explains how its brown and tan colors and body shape match the bumpy bark and lichen, making it hard to see.",
+        "meets": "Student identifies where the spider is or describes that its colors match the bark, showing understanding of how it blends in.",
+        "approaching": "Student attempts to locate the spider or mentions that its colors help it hide, but the description is unclear or partially accurate.",
+        "beginning": "Student makes an attempt to find the spider or mention hiding but provides minimal description or shows uncertainty about how the body helps it stay hidden."
+      }
+    },
+    {
+      "questionText": "Do you think a spider living on green leaves would have the same colors as this spider? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that a spider on green leaves would likely be green or different colors to match the leaves, explaining that matching the environment helps it hide and stay safe.",
+        "meets": "Student predicts that the spider would be a different color (like green) to match the leaves and provides a reasonable explanation about blending in or hiding.",
+        "approaching": "Student recognizes that the spider's color might change in a different environment or mentions matching surroundings, but the reasoning is incomplete or unclear.",
+        "beginning": "Student provides a simple response or guess about whether colors would be the same but shows limited understanding of how animals match their environment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:07:12.315Z",
+  "cost": 0.004873
+}

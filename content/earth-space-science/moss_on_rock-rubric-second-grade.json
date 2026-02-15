@@ -1,0 +1,53 @@
+{
+  "title": "Moss on Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the moss is growing on these rocks?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations about moss placement and appearance, such as the fuzzy texture, green color, and how it covers certain parts of the rocks in patches or layers.",
+        "meets": "Student describes how the moss looks and where it is growing on the rocks with at least two accurate details, such as it is green, soft, or covering parts of the rock.",
+        "approaching": "Student makes one or two observations about the moss or rocks but descriptions are vague or partially accurate, such as \"it's green\" or \"it's on the rock.\"",
+        "beginning": "Student provides a minimal response with little detail or accuracy, such as \"I see moss\" or \"it's there,\" showing minimal observation."
+      }
+    },
+    {
+      "questionText": "How do you think the moss might be changing the rocks over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moss breaks down or weathers the rock through specific processes, such as roots breaking it apart, moisture causing cracks, or the rock becoming smaller or weaker over time.",
+        "meets": "Student describes that moss causes some kind of change to the rock, such as breaking it down, wearing it away, or making it different, with a reasonable explanation.",
+        "approaching": "Student recognizes that moss might change the rock but the explanation is unclear or incomplete, such as \"it makes it different\" or \"moss changes it\" without details.",
+        "beginning": "Student provides a vague or inaccurate response, such as \"the moss grows\" or \"I don't know,\" with little evidence of understanding change."
+      }
+    },
+    {
+      "questionText": "What would happen to this rock if the moss kept growing on it for 100 years?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific long-term outcomes such as the rock becoming smaller, breaking apart into pieces, turning into soil, or being mostly covered by moss and other plants.",
+        "meets": "Student makes a reasonable prediction that the rock would change significantly, such as \"it would break down\" or \"it would get smaller\" or \"more moss would grow on it.\"",
+        "approaching": "Student attempts a prediction but it is incomplete or somewhat unclear, such as \"it would be different\" or \"more stuff would happen\" without sufficient detail.",
+        "beginning": "Student provides a minimal or unclear prediction with little reasoning, such as \"I don't know\" or \"it would stay the same.\""
+      }
+    },
+    {
+      "questionText": "Why do you think moss can survive growing on hard rocks instead of soft soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides thoughtful reasoning with multiple factors, such as moss needing less water or nutrients than other plants, being adapted to hard surfaces, or having special ways to attach and get what it needs.",
+        "meets": "Student gives a reasonable explanation with one or two factors, such as \"moss doesn't need much soil\" or \"it can hold onto the rock\" or \"it gets water from the air.\"",
+        "approaching": "Student attempts an explanation but reasoning is incomplete or somewhat unclear, such as \"moss is tough\" or \"it can grow anywhere\" without clear reasoning.",
+        "beginning": "Student provides a vague or inaccurate response with minimal reasoning, such as \"I don't know\" or \"because it does.\""
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:25:24.152Z",
+  "cost": 0.005094
+}

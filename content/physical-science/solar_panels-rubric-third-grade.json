@@ -1,0 +1,53 @@
+{
+  "title": "Solar Panels",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the solar panel knows to turn sunlight into electricity? What do you notice about the color and shape that might help it do this job?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that solar panels use special material to capture sunlight and convert it to electricity, and identifies multiple features (dark color absorbs sunlight, flat shape collects light, shiny surface reflects light) that help this process work.",
+        "meets": "Student recognizes that solar panels capture sunlight and change it to electricity, and notes at least one feature like the dark color or flat shape that helps capture sunlight.",
+        "approaching": "Student mentions that solar panels use sunlight or turn it into electricity, but provides limited or vague details about how the color or shape helps with this process.",
+        "beginning": "Student provides a minimal response such as 'it just does' or names one feature without connecting it to how solar panels work."
+      }
+    },
+    {
+      "questionText": "If it's a cloudy day and the solar panels make less electricity, where do you think the city gets electricity from instead?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple alternative electricity sources (power plants, wind turbines, dams) and explains why these sources are needed when solar panels don't work well on cloudy days.",
+        "meets": "Student names at least one alternative source of electricity such as power plants, wind energy, or water power, and connects it to the need for electricity when solar doesn't work.",
+        "approaching": "Student names one alternative source of electricity but makes a weak or incomplete connection to why it's needed on cloudy days.",
+        "beginning": "Student provides a vague response like 'other electricity' or names an energy source without explaining how it helps when solar panels don't work."
+      }
+    },
+    {
+      "questionText": "Why would someone put solar panels on a roof instead of on the ground or on the side of a building?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roofs get more direct sunlight than ground level or building sides, and may add that roofs don't take up usable space or that the angle helps capture sunlight better.",
+        "meets": "Student identifies that roofs are a better location because they receive more sunlight or are higher up where the sun hits them more directly.",
+        "approaching": "Student recognizes that roofs are better than other locations but gives an incomplete reason, such as 'roofs are higher' without connecting this to sun exposure.",
+        "beginning": "Student provides a minimal response such as 'they just put them there' or names a location without explaining why roofs are better."
+      }
+    },
+    {
+      "questionText": "What would happen if solar panels were painted white or shiny instead of dark blue? Why do you think that would change how much electricity they make?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that white or shiny paint would reflect light away instead of absorbing it, resulting in less electricity production, and explains that dark colors absorb sunlight better than light colors.",
+        "meets": "Student predicts that changing the color would make less electricity and correctly explains that dark colors absorb sunlight while light colors reflect it away.",
+        "approaching": "Student predicts a change in electricity production but provides an incomplete explanation about how color affects sunlight absorption or reflection.",
+        "beginning": "Student makes a prediction about electricity changes but provides no clear explanation, or gives an inaccurate reason for the change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:34:46.113Z",
+  "cost": 0.005199
+}

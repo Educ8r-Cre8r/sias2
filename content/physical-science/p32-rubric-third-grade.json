@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think makes the colors appear on the bubble?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that light bounces off or passes through the thin soap film, creating rainbow colors, and may mention that the film's thickness affects the colors seen.",
+        "meets": "Student correctly identifies that the soap film creates the colors, possibly mentioning light or that the thin surface causes the rainbow effect.",
+        "approaching": "Student recognizes that the bubble has colors or that something about the bubble's material makes the colors, but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as 'the bubble has colors' or 'it's pretty' without explaining how the colors form."
+      }
+    },
+    {
+      "questionText": "How might the bubble's shape change if you gently blow air near it?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the bubble will move and/or change shape in the direction of the air, explaining that air pressure or wind pushes the bubble and causes it to shift.",
+        "meets": "Student predicts the bubble will move or change shape when air is blown near it, showing understanding that air affects the bubble.",
+        "approaching": "Student makes a prediction about the bubble changing but the explanation is unclear or only partially connects air movement to the bubble's change.",
+        "beginning": "Student offers a vague prediction or response that doesn't clearly show understanding of how air might affect the bubble's movement or shape."
+      }
+    },
+    {
+      "questionText": "Why do you think some bubbles last longer than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple factors affecting bubble longevity, such as careful handling, film thickness, air dryness, or solution quality, demonstrating deeper thinking about conditions affecting durability.",
+        "meets": "Student provides one or two reasonable explanations, such as being handled gently, being in the right humidity, or the bubble solution quality affecting how long bubbles last.",
+        "approaching": "Student recognizes that different conditions affect bubbles but offers only a partial or unclear explanation of why some bubbles last longer.",
+        "beginning": "Student provides a minimal response such as 'some bubbles pop faster' without explaining any factors that affect bubble longevity."
+      }
+    },
+    {
+      "questionText": "What other things in nature show rainbow colors like this bubble?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple natural examples with rainbow colors (such as oil on water, prisms, water droplets in rain, bird feathers, or insect wings) and explains how light creates the colors in at least one example.",
+        "meets": "Student identifies at least two natural things that show rainbow colors, such as rainbows, prisms, oil slicks, or peacock feathers, showing understanding of where rainbow colors appear in nature.",
+        "approaching": "Student identifies one or two natural examples but the connection to rainbow colors may be unclear or the response lacks detail about how these things create their colors.",
+        "beginning": "Student provides a vague response such as 'rainbows' or 'nature has colors' without identifying specific natural objects or phenomena that display rainbow colors."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:23:09.861Z",
+  "cost": 0.004778
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What colors do you see in the sky during sunrise? Why do you think the sky changes colors?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple sunrise colors (orange, pink, yellow, blue) and explains that the sun's position and light traveling through the air cause color changes, using appropriate terms like 'light' or 'atmosphere.'",
+        "meets": "Student identifies at least two sunrise colors (orange, pink, or yellow) and provides a simple explanation that the sun or light causes the sky to change colors.",
+        "approaching": "Student identifies one sunrise color or names colors but provides an incomplete or unclear explanation for why colors change.",
+        "beginning": "Student names a color or says 'pretty' but does not attempt to explain why the sky changes colors, or provides an answer unrelated to light or the sun."
+      }
+    },
+    {
+      "questionText": "When does the sun rise in the morning where you live? How could we find out the exact time?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides an approximate time for local sunrise and identifies multiple ways to find the exact time, such as asking a parent, checking a clock, looking at a calendar, or using a computer/phone.",
+        "meets": "Student provides a reasonable approximate sunrise time (early morning, before school) and suggests at least one way to find the exact time, such as asking an adult or checking a tool.",
+        "approaching": "Student provides a vague time estimate or attempts to name one method to find the time but with limited clarity or accuracy.",
+        "beginning": "Student provides an incorrect time, suggests an unrealistic method, or does not attempt to answer both parts of the question."
+      }
+    },
+    {
+      "questionText": "If the sun rises in the east every morning, what do you think will happen tomorrow morning? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the sun will rise in the east tomorrow and explains the pattern by connecting to what happens every day or noting the sun's regular path, demonstrating understanding of daily patterns.",
+        "meets": "Student predicts the sun will rise in the east tomorrow and provides a simple reason, such as 'it always does' or 'that's what happens every morning.'",
+        "approaching": "Student makes a prediction but with unclear reasoning, or explains a pattern but does not clearly connect it to tomorrow's sunrise.",
+        "beginning": "Student provides an incorrect prediction, gives no reason, or shows no understanding of daily sunrise patterns."
+      }
+    },
+    {
+      "questionText": "Where is the sun during nighttime? How do we know it's still there even though we can't see it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains the sun moves to the other side of Earth (or goes on the other side) during night and identifies evidence it's still there, such as daylight in other places, the moon or stars being visible, or it rising again in the morning.",
+        "meets": "Student states the sun is on the other side of Earth or 'goes away' at night and provides one piece of evidence, such as 'it comes back in the morning' or 'we see it tomorrow.'",
+        "approaching": "Student indicates the sun's location during night but provides vague or partially accurate evidence, or explains the evidence but does not clearly connect it to the sun still existing.",
+        "beginning": "Student provides an inaccurate answer, such as 'the sun disappears,' or offers no explanation for how we know it still exists."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:45:54.312Z",
+  "cost": 0.005179
+}

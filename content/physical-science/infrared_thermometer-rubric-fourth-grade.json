@@ -1,0 +1,53 @@
+{
+  "title": "Infrared Thermometer",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we pointed this thermometer at different materials like metal, wood, and plastic that have been sitting in the same room?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts different temperature readings for each material and explains why materials absorb and release heat differently, showing understanding that materials have different properties affecting heat.",
+        "meets": "Student predicts that different materials might show different temperatures and provides a reasonable explanation about how materials respond to heat differently.",
+        "approaching": "Student predicts different temperatures but offers limited or unclear reasoning; may mention materials are different without fully explaining how this affects temperature readings.",
+        "beginning": "Student makes a prediction with minimal explanation, states all materials would be the same temperature, or provides an inaccurate response about how materials and heat interact."
+      }
+    },
+    {
+      "questionText": "How might firefighters, doctors, or chefs use infrared thermometers in their jobs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific, realistic applications for at least two professions with clear explanations of why the non-contact feature is important (e.g., firefighters measuring fire temperature safely, doctors checking fevers quickly).",
+        "meets": "Student describes appropriate uses for at least two professions with explanations of how the thermometer helps in those jobs.",
+        "approaching": "Student identifies uses for one or two professions but provides vague or partially accurate explanations; may not clearly connect the tool's features to job tasks.",
+        "beginning": "Student provides minimal or inaccurate examples; shows little understanding of how these professionals would use an infrared thermometer."
+      }
+    },
+    {
+      "questionText": "Why do you think this thermometer can measure temperature without touching an object when regular thermometers need to touch what they're measuring?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that infrared thermometers detect invisible heat rays or energy coming from objects, and contrasts this with how regular thermometers need direct contact to sense temperature through heat transfer.",
+        "meets": "Student explains that this thermometer detects heat energy from a distance without touching, and notes that regular thermometers work differently by needing contact.",
+        "approaching": "Student attempts to explain the difference but uses vague language about detecting heat or energy; explanation is incomplete or partially inaccurate.",
+        "beginning": "Student provides a minimal response, restates the question, or gives an inaccurate explanation with little evidence of understanding how the thermometers work differently."
+      }
+    },
+    {
+      "questionText": "What evidence do we have that invisible energy is moving from the brick to the thermometer?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies the temperature reading on the display as evidence and explains that the thermometer receiving a reading proves energy reached it from the brick, demonstrating understanding that invisible infrared energy transferred to cause the reading.",
+        "meets": "Student points to the temperature reading as evidence that the thermometer detected something from the brick, showing understanding that this indicates energy transfer occurred.",
+        "approaching": "Student mentions the temperature reading but provides unclear reasoning about how this shows energy movement; explanation lacks connection between the reading and invisible energy transfer.",
+        "beginning": "Student provides vague or inaccurate evidence; does not clearly connect the thermometer's reading to the concept of invisible energy moving from the brick."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:34:27.009Z",
+  "cost": 0.005017
+}

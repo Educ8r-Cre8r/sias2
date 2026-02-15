@@ -1,0 +1,53 @@
+{
+  "title": "Deciduous Trees",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What patterns do you notice in how different trees are changing colors around the lake?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific color patterns (e.g., trees closer to water vs. away from water, certain tree types changing at different times) and explains possible reasons for the differences, using observation details from the photo.",
+        "meets": "Student describes at least two different color patterns observed in the trees (e.g., some trees are yellow, others are red, some are still green) and notes that trees are changing at different times.",
+        "approaching": "Student notices that trees have different colors but describes only one pattern or gives vague observations like 'some trees are different colors' without specific details about which trees or what colors they see.",
+        "beginning": "Student makes a general statement about trees changing color but provides little specific observation or describes only one tree's appearance without noting any pattern or comparison."
+      }
+    },
+    {
+      "questionText": "How might the falling leaves benefit other living things in this forest ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple benefits of fallen leaves (e.g., food/nutrients for soil organisms, shelter for animals, helps decomposition, feeds plants through nutrient cycling) and explains how these benefits help the ecosystem function.",
+        "meets": "Student identifies at least two ways falling leaves help other organisms in the forest, such as providing food for insects, creating shelter for animals, or adding nutrients to soil.",
+        "approaching": "Student identifies one benefit of fallen leaves (such as animals using them for shelter or insects eating them) but lacks detail or clarity about how this helps the ecosystem.",
+        "beginning": "Student provides a vague or partially accurate response, such as 'leaves help things' or 'animals use leaves' without explaining how or what organisms benefit."
+      }
+    },
+    {
+      "questionText": "What would happen if trees didn't drop their leaves in winter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple realistic consequences such as trees wasting energy in winter, damage from snow/ice weight on leaves, trees being unable to survive cold temperatures, or disruption to animal hibernation patterns and food chains.",
+        "meets": "Student describes at least two logical consequences, such as trees becoming damaged by snow and ice, trees wasting energy trying to maintain leaves, or trees not surviving the cold winter.",
+        "approaching": "Student identifies one consequence of trees keeping leaves in winter (e.g., 'the tree might get too cold' or 'snow would break the branches') but the explanation lacks detail or scientific reasoning.",
+        "beginning": "Student provides a vague response such as 'bad things would happen' or 'trees wouldn't be okay' without explaining what would happen or why."
+      }
+    },
+    {
+      "questionText": "Why do you think some trees in the image still have green leaves while others have changed colors?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes multiple valid explanations such as different tree species having different timing for color change, different amounts of sunlight exposure, different ages of trees, or different temperatures in various locations around the lake.",
+        "meets": "Student suggests at least one reasonable explanation, such as different tree types changing at different times, some trees getting more sun than others, or trees being at different stages of fall.",
+        "approaching": "Student attempts an explanation (e.g., 'some trees change slower' or 'some trees are different') but the reasoning is unclear or lacks scientific thinking about plant adaptations or environmental factors.",
+        "beginning": "Student provides a minimal response such as 'they're just different' without attempting to explain why the differences exist or what might cause different color-change timing."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:28:13.941Z",
+  "cost": 0.005343
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Flower Parts",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the yellow powder on the stamen does? Why might a bee need to visit lots of flowers?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the yellow powder (pollen) helps make seeds and describes that bees carry pollen from flower to flower, making a connection between multiple flower visits and seed production.",
+        "meets": "Student identifies that the yellow powder helps the flower make seeds and notes that bees visit many flowers to collect pollen or nectar.",
+        "approaching": "Student makes a partial attempt, such as saying the powder is important or that bees visit flowers, but lacks clear connection between the two ideas.",
+        "beginning": "Student provides a minimal or unclear response, such as 'the powder is pretty' or 'bees like flowers,' with little connection to the flower's function."
+      }
+    },
+    {
+      "questionText": "How are the pink petals different from the stamen? Why do you think flowers need both?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly describes that petals are colorful and attract insects while the stamen makes pollen/seeds, and explains that flowers need both parts to attract visitors and create seeds.",
+        "meets": "Student identifies that petals look different (pink, colorful) from the stamen and explains that petals attract insects while the stamen is needed for seeds.",
+        "approaching": "Student notes some differences between petals and stamens but provides incomplete reasoning about why both are needed.",
+        "beginning": "Student gives vague observations like 'they look different' or 'they do different things' without clear explanations."
+      }
+    },
+    {
+      "questionText": "If a flower didn't have bright pink petals, what might happen to it? Would bees still visit?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that bees might not visit or visit less often without bright petals, and explains that bees use bright colors to find flowers for pollen and nectar.",
+        "meets": "Student predicts that without bright petals, fewer bees would visit, recognizing that bees are attracted to bright colors.",
+        "approaching": "Student makes a prediction about bees visiting or not visiting but with incomplete reasoning about why color matters.",
+        "beginning": "Student offers a vague prediction like 'bees might not come' or 'something bad would happen' without explanation."
+      }
+    },
+    {
+      "questionText": "What would happen if we took the stamen off the flower? Could the flower still make seeds?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the flower could not make seeds without the stamen and explains that the stamen contains the pollen needed to make seeds.",
+        "meets": "Student predicts that the flower could not make seeds without the stamen and identifies the stamen's role in seed production.",
+        "approaching": "Student predicts that seeds would not form but provides incomplete or unclear reasoning about the stamen's function.",
+        "beginning": "Student makes a prediction with little or no explanation, such as 'no seeds' or 'the flower would be sad.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:49:16.393Z",
+  "cost": 0.004785
+}

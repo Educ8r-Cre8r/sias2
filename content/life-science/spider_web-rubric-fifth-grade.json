@@ -1,0 +1,53 @@
+{
+  "title": "Spider Web",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the spider makes its web in this particular shape (round with lines going out from the center) instead of just a tangled mess of threads?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the web's geometric design is both strong and efficient for catching insects, using specific details such as how the radial lines and circular threads work together to trap prey and distribute the impact of a flying insect across the entire structure.",
+        "meets": "Student identifies that the round shape with lines from the center helps catch insects effectively and explains that this organized design is stronger or more useful than a tangled mess.",
+        "approaching": "Student recognizes that the web's shape helps the spider catch insects but provides limited explanation of how the geometric design accomplishes this purpose.",
+        "beginning": "Student makes a general statement about the web's shape or mentions catching insects but does not explain the connection between the design and its function."
+      }
+    },
+    {
+      "questionText": "What do you observe about where the web is positioned between the plants? Why might the spider choose this location?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific observations about the web's position (e.g., suspended between branches, in an open area, near vegetation) and provides multiple reasons for this placement, such as catching flying insects, being between food sources, or receiving adequate air currents.",
+        "meets": "Student observes that the web is positioned between plants or branches and explains that this location helps the spider catch flying insects or is a good location for trapping prey.",
+        "approaching": "Student notes the web is between plants but provides incomplete reasoning about why this location is beneficial, or observations lack specific details.",
+        "beginning": "Student makes a minimal observation about the web's location or suggests a reason without clear connection to spider survival or hunting."
+      }
+    },
+    {
+      "questionText": "If you were an insect flying through the forest, what would happen if you touched this web? Why is this helpful to the spider?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the insect would become trapped or stuck in the sticky silk, and describes how this benefits the spider by providing a food source or meal, making connections to the spider's survival needs.",
+        "meets": "Student correctly identifies that the insect would get stuck or trapped in the web and explains that this helps the spider catch food.",
+        "approaching": "Student recognizes that touching the web would trap the insect but provides limited or unclear explanation of why this benefits the spider.",
+        "beginning": "Student states that the insect would get stuck but does not explain why this is beneficial to the spider or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "The water droplets in this photo make the web visible to us. What does this tell you about spider silk normally? Why might invisibility be an advantage for the spider?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that spider silk is normally invisible or transparent, then provides a sophisticated explanation of why this is advantageous, such as insects cannot see the web to avoid it, giving the spider a hunting advantage or element of surprise.",
+        "meets": "Student states that spider silk is normally invisible or hard to see without water droplets, and identifies that invisibility helps the spider catch insects because prey cannot see the web to avoid it.",
+        "approaching": "Student recognizes that the water droplets make the web visible and suggests that spider silk is normally invisible, but provides incomplete reasoning about the advantage of invisibility.",
+        "beginning": "Student states that the web is visible because of water droplets but does not clearly explain what this tells us about spider silk normally or why invisibility matters."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:59:12.831Z",
+  "cost": 0.005364
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Cicada Shell",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the cicada left this shell behind instead of keeping it on its body?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cicada outgrew its exoskeleton and needed to shed it to become larger, using accurate terminology like 'molt' or 'exoskeleton' and connecting this to the cicada's life cycle or growth process.",
+        "meets": "Student explains that the cicada got too big for the shell and had to leave it behind in order to grow, showing understanding that shedding allows for growth.",
+        "approaching": "Student recognizes that the shell was left behind because the cicada was too big, but explanation lacks clarity about why shedding is necessary for growth.",
+        "beginning": "Student provides a vague response such as 'the cicada didn't need it anymore' or 'it fell off' without explaining the connection to growth."
+      }
+    },
+    {
+      "questionText": "If you could compare this empty shell to a living cicada, what differences would you notice? What would be the same?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (e.g., the shell is hollow/hard/brown while a living cicada is soft/flexible/has color) and similarities (e.g., both have legs, wings, head), showing detailed observation of body structure.",
+        "meets": "Student identifies at least one clear difference (shell is empty/hard) and one similarity (has legs, wings, or head), demonstrating basic comparative understanding.",
+        "approaching": "Student attempts a comparison but identifies only one characteristic or provides incomplete descriptions (e.g., 'the shell looks different' without detail).",
+        "beginning": "Student makes a simple observation without clear comparison (e.g., 'the shell is brown' or 'they look alike') showing minimal comparative thinking."
+      }
+    },
+    {
+      "questionText": "How do you think the cicada got out of this shell? What clues can the shell show us?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes how the cicada likely split or cracked the shell to escape and identifies specific clues from the shell's appearance (e.g., cracks, openings along the back or head) that support this explanation.",
+        "meets": "Student explains that the cicada split or broke open the shell to get out and identifies at least one physical clue visible on the shell that suggests this process.",
+        "approaching": "Student recognizes that the cicada had to break out of the shell but provides limited or unclear clues about how to tell this from the image.",
+        "beginning": "Student attempts an answer but provides vague reasoning (e.g., 'it just came out') without identifying how or what clues exist."
+      }
+    },
+    {
+      "questionText": "What might happen to this shell over time if it stays on the tree? What other living things might use it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the shell will break down, decay, or be weathered away, and identifies multiple organisms that might use it (e.g., insects seeking shelter, fungi breaking it down, small animals), showing understanding of decomposition and ecosystem roles.",
+        "meets": "Student predicts the shell will deteriorate over time and identifies at least one organism or process that might use or affect it (e.g., bugs living in it, weather breaking it down).",
+        "approaching": "Student recognizes the shell will change over time but provides limited detail about decomposition or mentions only one vague possibility for its use.",
+        "beginning": "Student provides a minimal response (e.g., 'it will go away') without explaining how or identifying what might use it."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:57:25.738Z",
+  "cost": 0.00544
+}

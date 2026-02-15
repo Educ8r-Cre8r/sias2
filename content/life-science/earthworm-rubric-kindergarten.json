@@ -1,0 +1,53 @@
+{
+  "title": "Earthworm",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the earthworm's body? What parts do you see?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body features (long, thin, brown, tube-like shape, rings/segments) and explains how these features help the earthworm, such as using rings to move or flexibility to dig.",
+        "meets": "Student describes at least three accurate body features of the earthworm, such as its long shape, brown color, and rings or segments covering its body.",
+        "approaching": "Student identifies one or two body features of the earthworm but descriptions may lack detail or accuracy (e.g., 'it's long' or 'it has lines').",
+        "beginning": "Student provides a vague or minimal description with little detail, such as 'it looks like a worm' or 'it's brown,' showing limited observation."
+      }
+    },
+    {
+      "questionText": "How is an earthworm's way of moving different from how you move? How is it the same?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that earthworms stretch and squeeze their body to move while humans use legs and muscles, and identifies a similarity such as both needing muscles to move or both moving forward.",
+        "meets": "Student identifies at least one clear difference (earthworms stretch/squeeze; humans walk/use legs) and one similarity (both move or both have bodies that help them move).",
+        "approaching": "Student identifies a difference or similarity but explanation is incomplete or partially unclear; may mention only movement types without explaining how they work.",
+        "beginning": "Student makes a vague comparison or provides minimal response such as 'earthworms are different' without specific examples or explanations."
+      }
+    },
+    {
+      "questionText": "Why do you think earthworms live in soil instead of in trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides logical reasoning such as earthworms can dig in soil, soil has food/nutrients, soil keeps them moist, or their body shape is better suited for digging than climbing.",
+        "meets": "Student gives one reasonable explanation for why earthworms live in soil, such as they can dig in soil, they need to stay wet, or they find food there.",
+        "approaching": "Student attempts an explanation but it may be partially inaccurate or incomplete, such as 'worms like dirt' without elaboration.",
+        "beginning": "Student provides a minimal or unclear response such as 'because they do' or 'worms live in soil' without reasoning."
+      }
+    },
+    {
+      "questionText": "If you were an earthworm, what would you need to be happy and healthy in the soil?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs such as food, water/moisture, soil to dig in, and air, explaining why each is important for the earthworm's survival and health.",
+        "meets": "Student identifies at least two needs earthworms require to survive in soil, such as food, water, or soil, with basic explanations of why.",
+        "approaching": "Student identifies one need or multiple needs but with incomplete or vague explanations; may struggle to explain why the need matters.",
+        "beginning": "Student provides a minimal response such as 'dirt' or 'food' without clear connection to earthworm health or survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:27:37.472Z",
+  "cost": 0.005038
+}

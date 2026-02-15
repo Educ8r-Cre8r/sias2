@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this spider is brown and gray instead of bright red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spider's brown and gray coloring matches its environment (bark, lichen, moss) and describes how this matching helps the spider hide from predators or sneak up on prey, demonstrating understanding of camouflage as an adaptation.",
+        "meets": "Student identifies that the spider's colors match the bark or tree environment and explains this helps the spider hide or blend in.",
+        "approaching": "Student mentions that the spider's colors are similar to its surroundings or that it helps the spider hide, but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a vague response such as 'it blends in' or 'that's just its color' with little or no explanation of why these colors are helpful."
+      }
+    },
+    {
+      "questionText": "If this same spider moved to a bright green leaf, would its camouflage still work? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that camouflage would not work on a green leaf and explains that the brown and gray colors would stand out against the bright green, making the spider visible to both predators and prey.",
+        "meets": "Student correctly predicts that camouflage would not work and explains that the spider's colors do not match a green leaf, so it would be easier to see.",
+        "approaching": "Student makes a correct prediction (yes or no) but provides a weak or incomplete explanation, such as 'it wouldn't match' without elaborating.",
+        "beginning": "Student makes an incorrect prediction or provides no clear reasoning about how the change in environment would affect the spider's camouflage."
+      }
+    },
+    {
+      "questionText": "What other animals might use camouflage to hide from predators? Can you think of one and describe what it looks like?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names a specific animal that uses camouflage and provides a detailed description of its appearance and how its coloring or pattern matches its habitat (e.g., 'A deer fawn has brown spots that look like sunlight through trees').",
+        "meets": "Student names a specific animal that uses camouflage and describes what it looks like or how it blends into its environment.",
+        "approaching": "Student names an animal and attempts a description, but the connection between the animal's appearance and camouflage is unclear or incomplete.",
+        "beginning": "Student names an animal but provides little to no description, or describes an animal that does not clearly use camouflage."
+      }
+    },
+    {
+      "questionText": "How does camouflage help a spider catch insects for food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that camouflage allows the spider to hide from insects so it can surprise and catch them, and may mention that insects cannot see the spider blending in with the background.",
+        "meets": "Student explains that camouflage helps the spider hide so it can catch insects, or that insects cannot easily see the spider.",
+        "approaching": "Student provides a partial explanation, such as 'the spider hides' or 'insects don't see it,' but doesn't fully connect this to catching food.",
+        "beginning": "Student provides a vague or minimal response such as 'it helps' with little or no explanation of the connection between hiding and catching food."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:07:28.566Z",
+  "cost": 0.00519
+}

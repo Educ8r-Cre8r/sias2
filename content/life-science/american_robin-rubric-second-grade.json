@@ -1,0 +1,53 @@
+{
+  "title": "American Robin",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the robin is standing on top of the rock instead of on the ground?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the high position helps the robin see predators or food from far away, and explains how this helps it survive or stay safe with specific reasoning.",
+        "meets": "Student explains that the rock gives the robin a good place to watch for danger or food, showing understanding of why high places are useful.",
+        "approaching": "Student mentions that the rock is a good spot or that it helps the robin see things, but the explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague answer like 'it wanted to' or 'it likes rocks' with little reasoning about survival or behavior."
+      }
+    },
+    {
+      "questionText": "What body parts does the robin use to help it survive, and what does each one do?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three body parts (such as beak, eyes, feet, wings) and accurately explains what each one does for survival, using details from the photo.",
+        "meets": "Student identifies at least two body parts visible in the photo and explains what each one does to help the robin survive.",
+        "approaching": "Student names one or two body parts and gives a partial or unclear explanation of how they help the robin.",
+        "beginning": "Student names a body part but gives no explanation, or provides inaccurate information about what it does."
+      }
+    },
+    {
+      "questionText": "If the robin lived in a place with no rocks or high places, how might it change its behavior to stay safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple realistic behavioral changes (such as using trees, moving more carefully, or staying hidden) and explains how each change would help the robin adapt to the new environment.",
+        "meets": "Student suggests at least one reasonable alternative behavior or place the robin might use instead of rocks, and explains how it would help keep the robin safe.",
+        "approaching": "Student suggests a possible change in behavior but the explanation is incomplete or the adaptation is not clearly connected to staying safe.",
+        "beginning": "Student gives a minimal answer or suggests an adaptation that doesn't make logical sense for robin survival."
+      }
+    },
+    {
+      "questionText": "What do you think the robin is looking for on the ground, and why does it need to look from high up?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the robin is looking for food (like worms or insects) and explains that the high position helps it see the ground better and watch for danger while searching.",
+        "meets": "Student explains that the robin is looking for food and recognizes that being up high helps it see the ground or stay safe.",
+        "approaching": "Student mentions food or suggests looking for something, but the explanation of why high ground helps is unclear or incomplete.",
+        "beginning": "Student provides a vague answer like 'looking for things' or 'it's hungry' with no explanation of why the height matters."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:04:29.931Z",
+  "cost": 0.004688
+}

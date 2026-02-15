@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this grasshopper get food from the sunflower?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (mouth/jaw, legs, antennae) and explains how each one helps the grasshopper get or find food from the sunflower.",
+        "meets": "Student identifies at least two body parts (such as mouth and legs) that help the grasshopper get food from the sunflower.",
+        "approaching": "Student identifies one body part that helps the grasshopper get food, but the explanation is incomplete or unclear.",
+        "beginning": "Student names a body part but does not explain how it helps get food, or response is mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "How might this grasshopper's life be different if it lived in a desert instead of near sunflowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences in food availability, water, shelter, and explains how the grasshopper would need to adapt (e.g., finding different plants, surviving with less water).",
+        "meets": "Student identifies at least two ways the grasshopper's life would be different, such as finding different food or dealing with hotter, drier conditions.",
+        "approaching": "Student mentions one difference between a desert and a place with sunflowers, but reasoning is incomplete or vague.",
+        "beginning": "Student's response shows minimal understanding; may only state 'it would be different' without specific details."
+      }
+    },
+    {
+      "questionText": "What do you notice about the grasshopper's legs, and how do you think they help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the long back legs in detail and explains how they help with multiple survival needs, such as jumping away from danger, reaching food, or moving to new plants.",
+        "meets": "Student notices the grasshopper has long back legs and explains how they help with at least one survival task, such as jumping or moving.",
+        "approaching": "Student notices the legs are long or different, but the explanation of how they help survival is unclear or incomplete.",
+        "beginning": "Student mentions legs but provides no clear observation about their size or limited explanation of their purpose."
+      }
+    },
+    {
+      "questionText": "If you were designing an animal to live on sunflowers, what body parts would you give it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs an animal with at least three specific body parts and explains how each part helps the animal survive on or eat sunflowers (e.g., strong mouth for seeds, sticky feet for gripping).",
+        "meets": "Student suggests at least two body parts for a sunflower-eating animal and explains how they would help the animal get food or stay on the flower.",
+        "approaching": "Student names one or two body parts but provides limited or unclear explanation of why those parts would be helpful on a sunflower.",
+        "beginning": "Student mentions a body part with little or no explanation, or response does not clearly connect to living on sunflowers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:28:42.141Z",
+  "cost": 0.004726
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Snail",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the snail moves?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the snail's slow movement with specific details, such as the snail using its foot or body to glide, and may note that it is slower than other animals.",
+        "meets": "Student accurately describes that the snail moves slowly or mentions that it crawls/slides along the surface.",
+        "approaching": "Student provides a partial observation, such as noting the snail moves or that it is slow, but lacks clear detail or precision.",
+        "beginning": "Student gives a vague response like 'it moves' or 'it goes' with minimal observation of movement characteristics."
+      }
+    },
+    {
+      "questionText": "Why do you think the snail leaves that shiny, wet trail behind?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the slime helps the snail move smoothly, protects its soft body, or helps it stick to surfaces, demonstrating understanding of function and adaptation.",
+        "meets": "Student provides a reasonable explanation, such as the slime helps the snail move or the snail makes it to help itself.",
+        "approaching": "Student recognizes the trail is slimy or wet but offers only partial reasoning, such as 'it helps the snail' without explaining how.",
+        "beginning": "Student attempts an answer but provides inaccurate or unclear reasoning, such as 'the snail is dirty' or no meaningful explanation."
+      }
+    },
+    {
+      "questionText": "What would happen to the snail if it didn't have that slimy trail?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the snail would have difficulty moving, could dry out, get hurt, or would not survive, showing understanding of the slime's protective and functional roles.",
+        "meets": "Student provides a reasonable consequence, such as the snail would not move well, would be harder to move, or would get hurt.",
+        "approaching": "Student identifies that something negative would happen but gives incomplete reasoning, such as 'it would be bad' without explaining why.",
+        "beginning": "Student gives a minimal or unclear response, such as 'I don't know' or an answer unrelated to movement or protection."
+      }
+    },
+    {
+      "questionText": "Where do you think snails like to live, and why?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies appropriate habitats (garden, under logs, near plants, wet areas) and explains reasons using multiple details, such as finding food, staying moist, or finding shelter.",
+        "meets": "Student identifies an appropriate habitat and provides a reasonable explanation, such as snails live in wet/damp places or places with plants and food.",
+        "approaching": "Student suggests a habitat but gives minimal or incomplete reasoning, such as 'snails live in the garden' without explaining why.",
+        "beginning": "Student provides an unclear or inaccurate habitat suggestion with little or no explanation for the choice."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:38:27.807Z",
+  "cost": 0.004637
+}

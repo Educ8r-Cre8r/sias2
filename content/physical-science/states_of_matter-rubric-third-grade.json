@@ -1,0 +1,53 @@
+{
+  "title": "States Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think engineers built a pipe and valve system in this neighborhood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the system controls and manages water flow for the neighborhood, and identifies at least two specific purposes (such as delivering water to homes, preventing flooding, or managing stormwater).",
+        "meets": "Student identifies that the pipe and valve system helps control or move water in the neighborhood for a practical purpose like supplying water or preventing water problems.",
+        "approaching": "Student recognizes the system is related to water but provides only a vague explanation of its purpose, such as 'it helps with water' without specific details.",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of why water systems are built, such as 'because they need it' or 'to have water.'"
+      }
+    },
+    {
+      "questionText": "What would happen to the water without this drainage system during a heavy rainstorm?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that water would accumulate and cause flooding, and explains how this could affect the neighborhood (damage to property, unsafe conditions, or water pooling in areas where it shouldn't be).",
+        "meets": "Student correctly predicts that water would build up, flood, or overflow in the neighborhood without the drainage system.",
+        "approaching": "Student recognizes that without the system something bad would happen with water but provides incomplete reasoning, such as 'water would go everywhere' without explaining the problem.",
+        "beginning": "Student's response is vague or shows minimal understanding, such as 'it would be wet' or does not connect the drainage system to managing rainwater."
+      }
+    },
+    {
+      "questionText": "How is a water valve similar to a faucet in your kitchen or bathroom?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both control the flow of water by turning on and off or opening and closing, and identifies that both are used to manage how much water comes out.",
+        "meets": "Student identifies that both valves and faucets control or manage the flow of water when turned on or off.",
+        "approaching": "Student recognizes a similarity between valves and faucets but describes it incompletely, such as 'they both have water' or 'they do something with water.'",
+        "beginning": "Student provides a minimal response showing little understanding of how valves and faucets function similarly, or states they are the same thing without explanation."
+      }
+    },
+    {
+      "questionText": "What do you think the orange cone is warning people about, and why is safety important around water systems?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cone warns people away from the water valve/system area and provides specific safety reasons such as preventing tripping, falls, accidents, or damage to the system.",
+        "meets": "Student identifies that the cone warns people to stay away from the water system and mentions at least one safety concern like preventing accidents or injuries.",
+        "approaching": "Student recognizes the cone is a warning but provides incomplete reasoning, such as 'it tells people to be careful' without explaining what the hazard is.",
+        "beginning": "Student provides a vague response such as 'it's orange' or 'it warns people' with little connection to safety around water systems."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:24:46.275Z",
+  "cost": 0.004979
+}

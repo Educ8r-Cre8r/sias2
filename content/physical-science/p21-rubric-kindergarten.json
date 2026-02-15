@@ -1,0 +1,53 @@
+{
+  "title": "System",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we didn't put gas in the car?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that gas is fuel that gives the car energy to move, and without it the car would stop or not work at all, demonstrating understanding of cause and effect.",
+        "meets": "Student correctly states that the car would not move or would stop without gas, showing basic understanding of fuel's role.",
+        "approaching": "Student recognizes that gas is important or that something bad would happen, but explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague response such as 'it won't work' without explaining why, or gives an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "How is a car engine like your body when you run and play?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a sophisticated comparison by explaining that both the engine and body use fuel (gas/food) for energy to move and work, and both have many parts that work together.",
+        "meets": "Student identifies at least one clear similarity, such as both need fuel or energy to work, or both help things move.",
+        "approaching": "Student attempts a comparison but it is incomplete or partially inaccurate; may mention movement or energy but not both concepts clearly.",
+        "beginning": "Student makes a vague connection or no real comparison, such as 'they both move' without explanation of why or how."
+      }
+    },
+    {
+      "questionText": "What other things need energy to move or work?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student lists three or more diverse examples of things that need energy (e.g., toys, lights, refrigerator, fan, bicycle, playground equipment) showing broad understanding.",
+        "meets": "Student identifies two clear examples of things that need energy to move or work, such as toys or lights.",
+        "approaching": "Student provides one example or gives multiple examples where some may be unclear or inaccurate.",
+        "beginning": "Student gives a vague or unclear response with little to no correct examples of things needing energy."
+      }
+    },
+    {
+      "questionText": "Why do you think car engines have so many different parts?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different parts do different jobs and work together to make the car run, or mentions that the parts help the engine turn gas into movement.",
+        "meets": "Student recognizes that different parts have different jobs, or that parts work together to make the car move.",
+        "approaching": "Student acknowledges that the parts matter or that they do something, but reasoning is vague or incomplete.",
+        "beginning": "Student provides a minimal response like 'I don't know' or 'because' without explanation, or offers an inaccurate reason."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:06:11.885Z",
+  "cost": 0.004376
+}

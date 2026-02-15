@@ -1,0 +1,53 @@
+{
+  "title": "Live Oak",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "If you could measure this tree's trunk today, and then measure it again in 10 years, what do you think you would find?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the trunk will grow wider/thicker and explains that trees grow by adding new wood each year, possibly mentioning rings or growth rings as evidence.",
+        "meets": "Student predicts the trunk will grow bigger or thicker and provides a basic reason, such as 'trees grow' or 'trees get bigger as they get older.'",
+        "approaching": "Student predicts the trunk will change but the explanation is vague or partially incorrect, such as 'it will be different' without clear reasoning about growth.",
+        "beginning": "Student makes a prediction but shows little understanding of tree growth, or provides only a guess without any explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think the tree's branches spread out sideways instead of growing straight up to the sky like a telephone pole?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that spreading branches help the tree reach more sunlight, shade a larger area, or stay balanced, and recognizes this as an adaptation that helps the tree survive.",
+        "meets": "Student provides a reasonable explanation such as 'it spreads out to get more sunlight' or 'it helps the tree balance' with basic supporting details.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially inaccurate, such as mentioning spreading without clear reasoning about the benefit.",
+        "beginning": "Student provides minimal explanation or suggests an incorrect reason, such as 'the tree just grows that way' with no clear thinking shown."
+      }
+    },
+    {
+      "questionText": "What living things might make a home in or around this big tree, and why would they choose to live there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific living things (such as birds, squirrels, insects, or small mammals) and explains multiple reasons they live there, such as shelter, food sources, or shade.",
+        "meets": "Student names at least two living things and provides basic reasons they would live there, such as 'birds nest in branches' or 'it gives shade' or 'food is available.'",
+        "approaching": "Student names one or two living things but provides limited or unclear reasoning about why they would choose to live there.",
+        "beginning": "Student provides a vague or minimal response, such as naming only one living thing with little to no explanation, or suggesting an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "How do you think this tree's life might be different if it grew in a forest with other trees instead of in a city with buildings around it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences in growing conditions (such as competition for sunlight, available water, soil quality, or space) and explains how each would affect the tree's shape, size, or health.",
+        "meets": "Student describes at least two ways the tree's life would differ, such as 'it would have less space' or 'it would compete for sunlight with other trees,' showing reasonable understanding of forest versus city environments.",
+        "approaching": "Student mentions one or two differences but the explanations are vague or partially developed, such as 'it would be different' without clear details.",
+        "beginning": "Student provides minimal response with little understanding of how different environments affect trees, or suggests inaccurate comparisons."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:32:17.849Z",
+  "cost": 0.005216
+}

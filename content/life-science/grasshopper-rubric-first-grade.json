@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help the grasshopper live on this flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (legs, antennae, mouth) and explains how each one helps the grasshopper survive or move on the flower.",
+        "meets": "Student identifies at least two body parts (such as legs and antennae) and describes what each part helps the grasshopper do.",
+        "approaching": "Student names one or two body parts but provides limited or unclear explanation of how they help the grasshopper.",
+        "beginning": "Student names a body part but cannot explain its purpose, or provides vague responses with minimal detail."
+      }
+    },
+    {
+      "questionText": "How do you think the grasshopper's legs help it every day?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that legs help the grasshopper jump, move between plants, and escape danger, showing understanding of multiple functions.",
+        "meets": "Student describes how the grasshopper uses its legs for at least one purpose, such as jumping or moving to find food.",
+        "approaching": "Student mentions that legs help the grasshopper move but gives incomplete reasoning or unclear examples.",
+        "beginning": "Student provides a simple response like 'legs help it walk' with little or no elaboration."
+      }
+    },
+    {
+      "questionText": "What do you notice about how the grasshopper's body parts are different from your body parts?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more differences (such as antennae instead of nose, six legs instead of two, hard outside body) and explains why these differences help the grasshopper.",
+        "meets": "Student identifies two or more differences between grasshopper and human body parts with accurate observations.",
+        "approaching": "Student notices one or two differences but description is vague or partially accurate.",
+        "beginning": "Student attempts to compare but makes unclear observations or identifies only one vague difference."
+      }
+    },
+    {
+      "questionText": "Why might this sunflower be important to different animals?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the flower provides food (seeds for some animals, nectar for insects), shelter, and mentions specific animals that might use it.",
+        "meets": "Student identifies that the flower provides food and/or shelter for animals, with at least one example of how an animal uses it.",
+        "approaching": "Student recognizes the flower is important to animals but explanation lacks detail or gives only one vague reason.",
+        "beginning": "Student provides a simple response like 'animals like it' without clear reasoning or examples."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:28:35.069Z",
+  "cost": 0.004197
+}

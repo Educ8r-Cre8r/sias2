@@ -1,0 +1,53 @@
+{
+  "title": "Pollinator Waystation",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the insects are doing when they visit these flowers?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that insects are getting food (nectar or pollen) from the flowers and may add that insects need this food to live and grow.",
+        "meets": "Student correctly states that insects are eating or getting food from the flowers.",
+        "approaching": "Student identifies that insects are visiting the flowers but provides vague reasoning, such as \"they like the flowers\" without mentioning food.",
+        "beginning": "Student makes a minimal attempt but provides an inaccurate or unclear response, such as \"the bugs are playing\" or shows little understanding of the connection between insects and flowers."
+      }
+    },
+    {
+      "questionText": "Why do you think someone planted so many different flowers in this garden together?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different flowers bloom at different times or attract different insects, showing understanding that variety helps more insects find food throughout the season.",
+        "meets": "Student provides a reasonable explanation, such as \"to have lots of food for insects\" or \"to give different insects what they like to eat.\"",
+        "approaching": "Student recognizes that planting many flowers is good for insects but gives incomplete reasoning, such as \"so insects have more to eat\" without considering variety or timing.",
+        "beginning": "Student provides a vague or largely inaccurate response, such as \"to make it pretty\" or shows minimal understanding of the connection to insects."
+      }
+    },
+    {
+      "questionText": "How do the insects help the flowers, and how do the flowers help the insects?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that insects carry pollen between flowers (helping flowers make seeds) and flowers give insects food (nectar/pollen), demonstrating understanding of a beneficial relationship.",
+        "meets": "Student identifies both ways the relationship helps: insects get food from flowers, and insects help flowers by carrying pollen or helping them grow.",
+        "approaching": "Student identifies one way the relationship works (insects eat from flowers OR insects help flowers) but does not explain or mention both directions of help.",
+        "beginning": "Student attempts to answer but provides mostly inaccurate information or vague statements like \"they help each other\" without specific examples."
+      }
+    },
+    {
+      "questionText": "If all the flowers disappeared, what would happen to the insects that live here?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that insects would have no food and would die, leave the area, or go hungry, demonstrating understanding that insects depend on flowers for survival.",
+        "meets": "Student correctly states that insects would die or have no food to eat because flowers are their food source.",
+        "approaching": "Student recognizes that something bad would happen to insects but provides incomplete reasoning, such as \"insects would be sad\" or \"they would go away\" without mentioning food or survival.",
+        "beginning": "Student provides a minimal or inaccurate response, such as \"insects don't need flowers\" or shows little understanding of insect dependence on flowers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:41:30.070Z",
+  "cost": 0.004711
+}

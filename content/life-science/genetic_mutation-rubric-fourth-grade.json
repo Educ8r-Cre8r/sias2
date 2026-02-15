@@ -1,0 +1,53 @@
+{
+  "title": "Genetic Mutation",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this flower's petals stand up straight while other flowers have petals that lay flat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a scientifically sound explanation referencing inherited traits or adaptation (e.g., genes, inherited characteristics), and connects the petal structure to a specific advantage like pollinator attraction or water protection.",
+        "meets": "Student explains that different flowers have different shapes due to differences in how they grew or inherited traits, demonstrating understanding that variation exists among plants.",
+        "approaching": "Student recognizes that the flower's petals are different but provides incomplete reasoning, such as noting the difference without explaining why it might exist (e.g., 'it just grows that way').",
+        "beginning": "Student provides a vague or inaccurate response that shows minimal understanding of plant differences (e.g., 'the flower likes to stand up')."
+      }
+    },
+    {
+      "questionText": "If you planted seeds from this flower, would all the new plants look exactly the same? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that plants would be similar but not identical, referencing that seeds carry inherited information (genes or traits) from parents while acknowledging that slight variations can occur.",
+        "meets": "Student predicts that most new plants would look similar to the parent plant because seeds carry traits from parents, showing understanding of inheritance.",
+        "approaching": "Student provides a partially correct response, such as saying plants would look similar but unable to clearly explain why, or expressing uncertainty about inheritance.",
+        "beginning": "Student provides an inaccurate prediction or reasoning (e.g., 'all plants will look different' or 'they grow randomly') without understanding seed inheritance."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if gardeners kept choosing to plant only the flowers with the tallest, straightest petals for many years in a row?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that selecting flowers with specific traits over many generations would increase that trait in the population, using terms like 'more and more flowers' or 'the trait becomes common,' demonstrating understanding of selective breeding.",
+        "meets": "Student predicts that over time, flowers would have taller and straighter petals because gardeners keep replanting those types, showing understanding that choosing certain plants affects future generations.",
+        "approaching": "Student recognizes that repeated selection would have some effect on the flowers but provides incomplete or unclear reasoning about how traits would change over time.",
+        "beginning": "Student provides a vague response (e.g., 'the flowers would change') without explaining how or why selection would influence the trait."
+      }
+    },
+    {
+      "questionText": "How might the bright pink color and upright petals help this flower survive or attract pollinators?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific advantages of both color and petal shape (e.g., bright color attracts insects/bees for pollination, upright petals guide pollinators or make landing easier), demonstrating understanding of plant adaptations and pollinator relationships.",
+        "meets": "Student explains that the bright color and/or upright shape help attract pollinators or help the flower in some way, showing basic understanding of adaptation.",
+        "approaching": "Student identifies that color or shape could help the flower but provides incomplete reasoning or only addresses one feature without clear explanation of the benefit.",
+        "beginning": "Student provides a minimal or inaccurate response (e.g., 'it looks nice' or 'pollinators like it') without explaining how these features function as adaptations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:05:38.110Z",
+  "cost": 0.005358
+}

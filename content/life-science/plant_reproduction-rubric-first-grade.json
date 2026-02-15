@@ -1,0 +1,53 @@
+{
+  "title": "Plant Reproduction",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you see inside the squash? Why do you think the seeds are inside and not outside?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies seeds and flesh inside the squash and explains that seeds are protected inside because it keeps them safe from damage or animals until they are ready to grow.",
+        "meets": "Student identifies seeds inside the squash and gives a simple reason, such as seeds are inside to keep them safe or protected.",
+        "approaching": "Student identifies seeds inside the squash but gives an incomplete or partially unclear reason for why they are inside.",
+        "beginning": "Student identifies only seeds or flesh inside the squash, or provides no clear reason for their location."
+      }
+    },
+    {
+      "questionText": "If we plant one of these seeds in soil and give it water and sunlight, what do you predict will happen?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the seed will grow into a squash plant and explains that seeds need water, sunlight, and soil to grow, showing understanding of basic plant needs.",
+        "meets": "Student predicts the seed will grow into a plant or squash plant when given water and sunlight.",
+        "approaching": "Student predicts something will happen to the seed but the prediction is vague (like \"it will change\") or only partially connected to plant growth.",
+        "beginning": "Student makes a prediction that shows little understanding of seed growth, or provides a response unrelated to planting seeds."
+      }
+    },
+    {
+      "questionText": "How is a seed like a baby? How might it be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both seeds and babies need food and care to grow, and identifies at least one difference such as babies need parents but seeds need soil and water, or babies are born live but seeds grow from soil.",
+        "meets": "Student identifies at least one similarity (like both need food or both grow) and one difference between seeds and babies.",
+        "approaching": "Student identifies either a similarity or a difference between seeds and babies, but not both, or explanations lack clarity.",
+        "beginning": "Student provides a response that shows minimal connection between seeds and babies, or does not attempt to compare them."
+      }
+    },
+    {
+      "questionText": "Where do you think seeds go after they fall from a plant? How might they travel to new places?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains seeds fall to the ground and describes at least two ways seeds can travel, such as wind, water, animals, or being buried in soil, showing understanding of seed dispersal.",
+        "meets": "Student explains that seeds fall to the ground and identifies at least one way seeds might travel to new places, such as by wind, water, or animals.",
+        "approaching": "Student identifies where seeds go or one way they might travel, but explanations are incomplete or lack clear reasoning.",
+        "beginning": "Student provides a vague response about seed movement or location with little evidence of understanding seed dispersal."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:21:58.436Z",
+  "cost": 0.004623
+}

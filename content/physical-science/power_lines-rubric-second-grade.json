@@ -1,0 +1,53 @@
+{
+  "title": "Power Lines",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think those wires on the pole are doing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that wires carry electricity to homes and schools, and describes what electricity does (powers lights, appliances, etc.) with specific examples.",
+        "meets": "Student correctly identifies that wires carry electricity to homes and schools.",
+        "approaching": "Student mentions electricity or power but with vague explanations (e.g., 'they do electricity' without clarity about delivery or purpose).",
+        "beginning": "Student provides minimal response like 'I don't know' or makes an inaccurate guess unrelated to electricity (e.g., 'they hold the pole up')."
+      }
+    },
+    {
+      "questionText": "Why do you think the big metal box (transformer) needs to be on the pole instead of inside our homes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the transformer makes electricity safer for home use and mentions it would be dangerous to have inside (e.g., 'it could hurt people' or 'it needs to change the electricity before it comes to our houses').",
+        "meets": "Student recognizes that the transformer makes electricity safe or that it needs to be outside for safety reasons.",
+        "approaching": "Student attempts to connect safety to the transformer's location but reasoning is unclear or incomplete (e.g., 'it's big so it has to be outside').",
+        "beginning": "Student provides unclear thinking or guesses without connecting to safety (e.g., 'because it is big' or 'I don't know')."
+      }
+    },
+    {
+      "questionText": "If electricity moves invisibly through wires, how do we know it's really there?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple observable signs of electricity (lights turn on, appliances work, heat/warmth, sounds) and explains we know it's there because we can see or feel its effects.",
+        "meets": "Student identifies at least one observable effect of electricity (e.g., lights turn on, things work, we can see the power) as evidence it exists.",
+        "approaching": "Student mentions an effect of electricity but reasoning is vague or partially formed (e.g., 'the lights work' without fully connecting this to proof of electricity).",
+        "beginning": "Student shows confusion or provides no clear connection between observable effects and the presence of electricity."
+      }
+    },
+    {
+      "questionText": "What would happen to our school if the wires on poles like this one broke during a storm?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple consequences with reasoning (e.g., 'the lights would go out so we couldn't see, and computers wouldn't work' or 'there would be no heat in winter').",
+        "meets": "Student predicts that the school would lose power/electricity and describes at least one effect (no lights, appliances won't work).",
+        "approaching": "Student recognizes something would go wrong but explanation lacks detail or clarity about the connection to broken wires (e.g., 'it would be bad' or 'we need the wires').",
+        "beginning": "Student provides an unclear or incorrect response that shows little understanding of the relationship between wires and power (e.g., 'the pole would fall' without mentioning electricity)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:35:24.586Z",
+  "cost": 0.00504
+}

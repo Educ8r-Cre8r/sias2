@@ -1,0 +1,53 @@
+{
+  "title": "Insect Characteristics",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What body parts do you see on the grasshopper, and how might each one help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies four or more body parts (legs, antennae, body, feet) and explains how each helps the grasshopper survive with specific details, such as legs for movement, antennae for sensing, or feet for gripping.",
+        "meets": "Student identifies three body parts and explains how at least two of them help the grasshopper survive with reasonable, accurate connections to survival.",
+        "approaching": "Student identifies two body parts and provides explanations for how they help, though explanations may be incomplete or lack clear survival connections.",
+        "beginning": "Student identifies one or two body parts with vague or minimal explanation of how they might help the grasshopper survive."
+      }
+    },
+    {
+      "questionText": "Why do you think the grasshopper is green instead of red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green coloring helps the grasshopper blend in with leaves for camouflage and connects this to survival advantages, such as hiding from predators or staying safe.",
+        "meets": "Student explains that the green color helps the grasshopper hide or blend in with plants and leaves.",
+        "approaching": "Student suggests the green color relates to hiding or plants but explanation is unclear or only partially connected to survival or camouflage.",
+        "beginning": "Student provides a guess about the color with little or no connection to the grasshopper's environment or survival."
+      }
+    },
+    {
+      "questionText": "If a grasshopper didn't have long back legs, how might its life be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without long back legs, the grasshopper could not jump high or far, which would affect multiple survival needs such as escaping predators, finding food, or moving between plants.",
+        "meets": "Student explains that without long back legs, the grasshopper would not be able to jump well or would have difficulty moving or escaping.",
+        "approaching": "Student recognizes that long back legs are important for jumping but explanation of consequences is incomplete or vague.",
+        "beginning": "Student mentions jumping or legs but provides minimal reasoning about how life would be different without them."
+      }
+    },
+    {
+      "questionText": "How is a grasshopper's body similar to and different from an ant's body?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two similarities (both insects with six legs, antennae, or body segments) and two differences (grasshopper has large back legs/jumps; ant has small legs/walks; or body shape differences) with accurate details.",
+        "meets": "Student identifies at least one similarity and one difference between grasshopper and ant bodies with accurate observations.",
+        "approaching": "Student attempts to compare grasshopper and ant bodies but identifies only similarities or only differences, or comparisons lack accuracy.",
+        "beginning": "Student makes a vague comparison with little accuracy or identifies only one characteristic about either insect's body."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:16:54.414Z",
+  "cost": 0.004736
+}

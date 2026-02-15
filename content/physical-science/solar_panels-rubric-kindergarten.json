@@ -1,0 +1,53 @@
+{
+  "title": "Solar Panels",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the solar panels are doing when the sun shines on them?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that solar panels catch sunlight and turn it into electricity to power homes, using the word \"energy\" or \"electricity\" correctly.",
+        "meets": "Student identifies that solar panels do something with the sun or sunlight, such as catching it or using it to make power.",
+        "approaching": "Student makes a simple observation about the panels and sun but does not clearly explain the connection or purpose.",
+        "beginning": "Student provides a vague response such as \"they work\" or repeats the question without showing understanding of the sun's role."
+      }
+    },
+    {
+      "questionText": "Why might someone put solar panels on their house instead of just using lights powered another way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple benefits such as using free sunlight, saving money, or helping the environment, showing thoughtful reasoning about why solar is an advantage.",
+        "meets": "Student provides one clear reason, such as the sun's energy being free or not needing to pay for electricity from other sources.",
+        "approaching": "Student mentions a benefit but with incomplete reasoning, such as \"it uses the sun\" without explaining why that matters.",
+        "beginning": "Student gives a minimally related response or guess, such as \"because it is shiny\" or \"because the sun is there.\""
+      }
+    },
+    {
+      "questionText": "If it's cloudy outside, what do you think happens to how much electricity the solar panels make? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that solar panels make less electricity on cloudy days and explains that clouds block sunlight from reaching the panels.",
+        "meets": "Student predicts that solar panels make less electricity when it is cloudy because there is less sunlight available.",
+        "approaching": "Student makes a prediction about clouds affecting the panels but provides incomplete or unclear reasoning about why.",
+        "beginning": "Student does not make a logical prediction or provides a response unrelated to sunlight, such as \"they still work the same.\""
+      }
+    },
+    {
+      "questionText": "How is solar energy different from the energy in a battery or a plug in the wall?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that solar energy comes from the sun while batteries and plugs provide electricity from other sources, and may note advantages like solar being free or natural.",
+        "meets": "Student correctly identifies that solar panels use sunlight to make energy while batteries and plugs get energy from different places or sources.",
+        "approaching": "Student recognizes a difference between solar and other energy sources but with vague or partially accurate language.",
+        "beginning": "Student provides minimal response or expresses confusion, such as \"they are different\" without explanation or reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:34:23.385Z",
+  "cost": 0.004436
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Friction",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think makes this train move forward?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that electricity from the wires powers the train and explains that the special arm (pantograph) connects the train to the wires to get this power.",
+        "meets": "Student correctly identifies that electricity or power from the wires above makes the train move forward.",
+        "approaching": "Student mentions the wires or electricity but lacks clarity about the connection between the wires and the train's movement.",
+        "beginning": "Student provides a vague or incorrect response, such as mentioning only the tracks or making no clear connection to the wires above."
+      }
+    },
+    {
+      "questionText": "How is this train different from a car or bus?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences, such as: the train runs on tracks (not roads), gets power from overhead wires, carries many more people, and/or does not create pollution like cars and buses do.",
+        "meets": "Student identifies at least two clear differences between the train and a car or bus, such as size, number of passengers, or how it gets power.",
+        "approaching": "Student identifies one difference between the train and cars/buses but struggles to explain it clearly or only makes a surface-level observation.",
+        "beginning": "Student provides a minimal or unclear response that does not meaningfully distinguish the train from other vehicles."
+      }
+    },
+    {
+      "questionText": "Why might people choose to ride this train instead of driving a car?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple thoughtful reasons, such as: trains carry many people at once (less traffic), don't make pollution, are faster for moving many people, or are safer than cars.",
+        "meets": "Student provides at least one clear reason why riding the train might be better than driving a car, such as carrying many people or reducing pollution.",
+        "approaching": "Student attempts to provide a reason but the explanation is incomplete or only partially logical (e.g., mentions trains are big but doesn't explain why that matters).",
+        "beginning": "Student provides a vague, unclear, or inaccurate response with little evidence of reasoning about the benefits of trains."
+      }
+    },
+    {
+      "questionText": "What would happen if the wires above the train were broken?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the train would lose its power source and stop moving because the wires deliver electricity to the train through the pantograph arm.",
+        "meets": "Student correctly states that the train would stop or not work because it gets power from those wires.",
+        "approaching": "Student recognizes that breaking the wires would cause a problem for the train but lacks a clear explanation of why or how.",
+        "beginning": "Student provides a response that is vague, incomplete, or does not clearly explain the consequences of broken wires for the train's operation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:20:41.601Z",
+  "cost": 0.004488
+}

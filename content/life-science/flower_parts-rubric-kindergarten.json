@@ -1,0 +1,53 @@
+{
+  "title": "Flower Parts",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What color is the flower in the picture? Why do you think it is so bright?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies the flower color (pink) and provides a thoughtful explanation that bright colors help attract insects or bees to the flower.",
+        "meets": "Student correctly identifies the flower color (pink) and offers a simple reason for why it is bright, such as to attract insects or animals.",
+        "approaching": "Student correctly identifies the flower color (pink) but provides an unclear or incomplete reason for its brightness, or gives a reason that is not related to the flower's purpose.",
+        "beginning": "Student identifies the flower color with difficulty or provides only the color name without attempting to explain why it is bright."
+      }
+    },
+    {
+      "questionText": "What do you see in the middle of the flower that looks like dust? Who might visit this flower to get that dusty stuff?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the yellow and orange dusty stuff (pollen) in the middle of the flower and correctly identifies multiple visitors, such as bees, butterflies, or other insects that might collect it.",
+        "meets": "Student describes the dusty powder in the middle of the flower and names at least one visitor, such as a bee or insect, that would come to get it.",
+        "approaching": "Student notices the dusty material in the middle but provides a vague description or names a visitor without making a clear connection between the dust and the visitor.",
+        "beginning": "Student acknowledges something in the middle of the flower but cannot describe the dusty stuff or provide any specific visitor that might visit the flower."
+      }
+    },
+    {
+      "questionText": "If a bee visits many flowers, what do you think happens to the dusty powder on the bee? Why might that be helpful to the flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the dusty powder (pollen) sticks to the bee's body and that when the bee visits other flowers, the powder helps make new flowers or seeds grow because it moves from flower to flower.",
+        "meets": "Student explains that the dusty powder sticks to the bee and transfers to other flowers, and recognizes this helps the flowers in some way, such as helping them grow or make seeds.",
+        "approaching": "Student recognizes that the powder moves from flower to flower on the bee but provides an incomplete or unclear explanation of why this helps the flowers.",
+        "beginning": "Student makes a simple observation about the powder on the bee but does not explain how this helps the flowers or the process is unclear."
+      }
+    },
+    {
+      "questionText": "Where have you seen flowers in real life? What insects or animals have you seen near them?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes a specific location where they have seen flowers (garden, park, yard, etc.) and names multiple insects or animals they observed near them with details about the creatures' actions.",
+        "meets": "Student names a specific location where they have seen flowers and identifies at least one insect or animal that was near the flowers.",
+        "approaching": "Student mentions a general place where flowers might be found but provides limited detail, or names an insect or animal without clearly connecting it to a flower location.",
+        "beginning": "Student provides a vague response about seeing flowers or struggling to think of a location or any insects or animals associated with flowers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:49:09.847Z",
+  "cost": 0.005065
+}

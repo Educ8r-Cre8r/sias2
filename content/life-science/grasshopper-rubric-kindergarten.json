@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What body parts help the grasshopper get its food?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts used for eating (mouth, teeth, or jaw) and explains how at least one part helps the grasshopper get or chew its food.",
+        "meets": "Student correctly identifies at least one body part that helps the grasshopper eat, such as its mouth or teeth.",
+        "approaching": "Student identifies a body part but may not correctly explain its connection to eating, or identifies an incorrect part with some uncertainty.",
+        "beginning": "Student provides a vague response, names a body part not related to eating, or shows minimal understanding of how grasshoppers eat."
+      }
+    },
+    {
+      "questionText": "How do you think the grasshopper uses its strong back legs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that strong back legs help the grasshopper jump or hop to move around and escape danger, demonstrating understanding of how body structure connects to function.",
+        "meets": "Student correctly identifies that the grasshopper uses its strong back legs for jumping or moving, showing understanding of purpose.",
+        "approaching": "Student mentions the back legs are strong or related to movement but may be unclear or incomplete about what the grasshopper does with them.",
+        "beginning": "Student makes a guess about the back legs with little reasoning, or provides an inaccurate or irrelevant response."
+      }
+    },
+    {
+      "questionText": "What would happen if there were no plants for grasshoppers to eat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that grasshoppers would not have food and could not survive, starve, or die, showing understanding of the relationship between organisms and their food sources.",
+        "meets": "Student correctly states that grasshoppers would go hungry, starve, or not have food to eat, showing basic understanding of food needs.",
+        "approaching": "Student recognizes there would be a problem for grasshoppers but explanation is vague or partially incorrect about the consequence.",
+        "beginning": "Student provides a response unrelated to food or survival, or shows minimal understanding of why grasshoppers need plants."
+      }
+    },
+    {
+      "questionText": "What other animals do you think might eat the same kind of food as this grasshopper?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals that eat plants (such as caterpillars, rabbits, deer, or other herbivores) and may explain they eat plants like grasshoppers do.",
+        "meets": "Student names at least one animal that eats plants or similar food to the grasshopper, showing understanding that multiple animals share food sources.",
+        "approaching": "Student names an animal but may be uncertain about whether it actually eats plants, or provides limited reasoning.",
+        "beginning": "Student names an animal unrelated to plant-eating, or provides a response showing minimal understanding of herbivores."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:28:28.657Z",
+  "cost": 0.004559
+}

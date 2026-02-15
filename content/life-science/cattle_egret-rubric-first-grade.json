@@ -1,0 +1,53 @@
+{
+  "title": "Cattle Egret",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the bird and the cow are doing together?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the bird and cow being together in a way that shows observation of their proximity and suggests a purposeful reason for their interaction (e.g., 'the bird is near the cow because it helps clean bugs off' or 'they are spending time together').",
+        "meets": "Student identifies that the bird and cow are together or near each other and makes a reasonable guess about their activity (e.g., 'they are playing together' or 'they are in the same place').",
+        "approaching": "Student acknowledges the bird and cow are in the picture together but gives a vague or partially accurate explanation of what they might be doing (e.g., 'they are outside' or 'the bird is on the fence').",
+        "beginning": "Student gives a minimal or unclear response that shows limited observation of the bird and cow together (e.g., 'they are here' or 'I don't know')."
+      }
+    },
+    {
+      "questionText": "How does the bird help the cow? How does the cow help the bird?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains both ways the animals help each other with specific details, showing understanding of a symbiotic relationship (e.g., 'the bird eats bugs off the cow so the cow is clean, and the cow gives the bird food to eat').",
+        "meets": "Student identifies at least one way each animal helps the other with accurate reasoning (e.g., 'the bird eats bugs and the cow has food for the bird' or 'the bird cleans the cow and the cow gives the bird a place to stand').",
+        "approaching": "Student attempts to explain how the animals help each other but only partially explains one direction or gives incomplete details (e.g., 'the bird helps the cow' without explaining how, or only describes one animal helping the other).",
+        "beginning": "Student gives a vague or inaccurate response showing minimal understanding of how the animals help each other (e.g., 'they like each other' or 'they help because they are friends')."
+      }
+    },
+    {
+      "questionText": "What would happen to the bird if there were no cows in this field? What would happen to the cow if there were no birds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts realistic consequences for both animals based on their relationship, explaining that the bird would lose a food source or have a harder time eating, and the cow would have more bugs or pests to deal with.",
+        "meets": "Student makes reasonable predictions about what would happen to both animals if they were separated (e.g., 'the bird wouldn't have food' and 'the cow would have more bugs').",
+        "approaching": "Student attempts predictions about both animals but reasoning is partial or somewhat unclear (e.g., 'the bird would be sad' or 'the cow would be alone' without connecting to their helpful relationship).",
+        "beginning": "Student gives a minimal or unclear prediction that shows limited understanding of the animals' dependence on each other (e.g., 'they would be gone' or 'something bad would happen')."
+      }
+    },
+    {
+      "questionText": "Can you think of other animals that might help each other like the bird and cow do?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names one or more animal pairs and explains how they help each other, showing they understand the pattern of helping relationships in nature (e.g., 'fish clean sharks by eating little bugs' or 'bees help flowers and flowers help bees with food').",
+        "meets": "Student names one or more animal pairs that help each other and provides a basic explanation of their relationship (e.g., 'a bee and a flower' or 'a puppy and a person help each other').",
+        "approaching": "Student names animals that might have a helping relationship but the explanation is vague or unclear (e.g., 'cats and dogs' or 'a bird and a fish' without describing how they help).",
+        "beginning": "Student names animals but shows little understanding of helping relationships, or provides a response that does not show transfer of the bird-cow concept (e.g., 'a lion and a zebra' or 'I don't know')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:31:11.690Z",
+  "cost": 0.006193
+}

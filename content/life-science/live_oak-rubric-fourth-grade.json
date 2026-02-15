@@ -1,0 +1,53 @@
+{
+  "title": "Live Oak",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to help this tree grow so large and old compared to younger trees in the park?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple factors (time/age, water, sunlight, good soil, protection from damage) and explains how each one helps trees grow larger, using specific evidence from the photo or prior knowledge.",
+        "meets": "Student identifies at least two factors that help trees grow large and explains how they contributed to this tree's growth with reasonable accuracy.",
+        "approaching": "Student identifies one or two growth factors but provides incomplete or partially unclear explanations of how they helped the tree become so large.",
+        "beginning": "Student makes a vague response about the tree being old or big without explaining specific reasons or factors that contributed to its growth."
+      }
+    },
+    {
+      "questionText": "If you could cut this tree in half and look inside, what would you expect to see, and what would it tell you?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes tree rings and explains that each ring represents one year of growth, connecting the number of rings to the tree's age and noting what rings reveal about growing conditions (thick vs. thin rings).",
+        "meets": "Student correctly identifies tree rings and explains that they show the tree's age or how long the tree has been growing.",
+        "approaching": "Student mentions rings or wood inside the tree but provides incomplete or partially inaccurate information about what they show or why they form.",
+        "beginning": "Student gives a vague response about the tree's inside (wood, trunk) without mentioning rings or providing meaningful explanations about what the interior reveals."
+      }
+    },
+    {
+      "questionText": "How do you think this old tree helps the community and the other plants and animals living near it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple benefits (shade for people and cooling, habitat for animals, food sources, oxygen production, soil protection) and explains how each supports the community or other organisms.",
+        "meets": "Student identifies at least two ways the tree helps the community or wildlife (such as providing shade, homes for animals, or food) with clear explanations.",
+        "approaching": "Student identifies one or two benefits but explanations lack detail or are somewhat unclear about how the tree actually helps.",
+        "beginning": "Student provides a vague or minimal response with little evidence of understanding how trees benefit their community or surrounding organisms."
+      }
+    },
+    {
+      "questionText": "What structural features of this tree make it good at surviving in a hot climate where water is sometimes scarce?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple features (thick bark for protection, large root system for finding water, deep shade from wide branches reducing evaporation, or waxy leaves) and explains the purpose of each adaptation.",
+        "meets": "Student identifies at least two structural features (such as thick bark, large branches, or deep roots) and explains how they help the tree survive hot, dry conditions.",
+        "approaching": "Student identifies one or two features but provides incomplete explanations of how they help the tree survive heat and water scarcity.",
+        "beginning": "Student names a part of the tree or gives a vague response without explaining how it helps survival in hot, dry climates."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:32:25.671Z",
+  "cost": 0.004906
+}

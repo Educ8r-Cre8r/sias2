@@ -1,0 +1,53 @@
+{
+  "title": "Deciduous Trees",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What patterns do you notice about when and how trees change colors each year?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple seasonal color patterns (trees change from green to yellow/orange/red in fall; changes happen every year at the same time) and explains that leaves fall off after changing colors.",
+        "meets": "Student identifies that trees change colors in fall and describes at least two colors (such as yellow and red) or notes that this happens every year.",
+        "approaching": "Student notices that trees change colors and mentions one or two specific colors, but the response lacks detail about when or how often this occurs.",
+        "beginning": "Student makes a simple statement about trees changing colors but provides little detail or mostly describes what is visible without explaining a pattern."
+      }
+    },
+    {
+      "questionText": "How might animals that live in this forest prepare differently for winter compared to the trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that trees drop leaves to save energy while describing multiple animal adaptations (such as migrating, hibernating, growing thick fur, or gathering food) and recognizes these are different strategies for survival.",
+        "meets": "Student describes that trees lose leaves and mentions at least one way animals prepare for winter (such as moving to warmer places, sleeping through winter, or storing food).",
+        "approaching": "Student identifies that trees and animals prepare differently and mentions one adaptation for either trees or animals, but the explanation is incomplete or unclear.",
+        "beginning": "Student attempts to compare trees and animals but provides vague or mostly inaccurate information about winter preparation."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if a tree kept all its leaves during a snowy winter?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the tree would struggle and explains multiple consequences (heavy snow could break branches, the tree would lose more water, it would waste energy keeping leaves alive in cold, or it would be harder for the tree to survive).",
+        "meets": "Student makes a reasonable prediction that the tree would have difficulty and provides one logical consequence, such as branches breaking from snow weight or the tree using too much energy.",
+        "approaching": "Student makes a prediction about negative consequences for the tree, but the reasoning is incomplete or only partially connected to winter conditions.",
+        "beginning": "Student attempts a prediction but provides little explanation or reasoning that connects to winter snow and tree survival."
+      }
+    },
+    {
+      "questionText": "Why do you think some trees in the photo are still green while others have changed colors?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that different tree types change colors at different times or that some trees may be evergreens that stay green year-round, and explains that not all trees respond to fall at the same time.",
+        "meets": "Student suggests that trees might be different types or explains that some trees change colors faster or slower than others.",
+        "approaching": "Student recognizes that different trees are at different color-change stages but offers limited reasoning about why this happens.",
+        "beginning": "Student notices that some trees are green and others are colored but provides no explanation for the difference."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:27:55.490Z",
+  "cost": 0.004753
+}

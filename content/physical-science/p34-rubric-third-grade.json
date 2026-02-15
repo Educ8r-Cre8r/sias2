@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to these icicles on a warm, sunny day?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts icicles would melt and explains that warm temperatures cause ice to change into water, possibly adding that the water would drip or flow down.",
+        "meets": "Student predicts icicles would melt and correctly identifies that warm or sunny weather causes this change.",
+        "approaching": "Student predicts icicles would melt but provides incomplete or unclear reasoning about why warm weather causes melting.",
+        "beginning": "Student makes a prediction but it is vague, inaccurate, or shows minimal understanding of how temperature affects ice."
+      }
+    },
+    {
+      "questionText": "How are icicles similar to and different from ice cubes in your freezer?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both are frozen water and explains multiple similarities (hard, cold, clear or white) and differences (icicles hang down and form from dripping water, ice cubes are made in trays and have different shapes).",
+        "meets": "Student identifies that both are frozen water and describes at least one similarity and one difference, such as both being cold/hard but having different shapes or locations.",
+        "approaching": "Student attempts to compare but provides only partial information, such as stating they are both ice without clear differences, or mentioning one similarity and one difference with unclear explanations.",
+        "beginning": "Student's response shows minimal comparison, such as just naming both objects or providing only vague or inaccurate details about their similarities or differences."
+      }
+    },
+    {
+      "questionText": "Why do you think some icicles are longer than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that longer icicles form when water drips and freezes many times over a period of time, and may note that location (how much water reaches certain spots) or temperature affects length.",
+        "meets": "Student explains that icicles grow longer when water drips and freezes repeatedly, showing understanding that the layering process creates length over time.",
+        "approaching": "Student identifies that repeated freezing is involved or that icicles grow over time, but the explanation is incomplete or somewhat unclear about the water-dripping-and-freezing process.",
+        "beginning": "Student's response is vague or shows minimal understanding, such as suggesting length is random or providing an inaccurate explanation unrelated to freezing or water dripping."
+      }
+    },
+    {
+      "questionText": "What evidence do you see that tells you water was involved in making these icicles?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence, such as the icicles' smooth, dripping appearance, their clear or shiny look (like frozen water), their shape hanging down (from dripping), and/or their location on a roof where water would collect.",
+        "meets": "Student identifies at least two pieces of evidence that water was involved, such as their appearance resembling frozen water, the way they hang down, or their location on a roof.",
+        "approaching": "Student recognizes some evidence that water was involved, such as noting icicles look like frozen water or hang from a roof, but provides limited detail or reasoning.",
+        "beginning": "Student's response is vague or minimal, such as just saying 'they look wet' or 'they're frozen water' without clear visual evidence from the photo."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:23:56.773Z",
+  "cost": 0.005116
+}

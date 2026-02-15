@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What happens when you look in a mirror?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that a mirror shows you a picture of yourself or objects, and describes what they see in detail (e.g., 'I see my face but backwards' or 'The mirror shows me what's in front of it').",
+        "meets": "Student correctly states that a mirror shows you or objects, and provides a simple accurate observation about what they see.",
+        "approaching": "Student mentions seeing something in a mirror but gives incomplete or partially accurate information (e.g., 'You see stuff' without detail).",
+        "beginning": "Student provides a vague or minimally accurate response with little attempt to describe what happens (e.g., 'It's shiny' or no clear answer)."
+      }
+    },
+    {
+      "questionText": "Why can we see the flowers in the mirror even though they're not behind it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mirror bounces or reflects light from the flowers so we can see them, demonstrating understanding that mirrors show images of things in front of them.",
+        "meets": "Student correctly explains that the mirror shows the flowers because they are in front of it or that mirrors reflect/show what's in front of them.",
+        "approaching": "Student attempts to explain but gives incomplete reasoning (e.g., 'The mirror shows them' without explaining how or why).",
+        "beginning": "Student provides minimal or inaccurate explanation with little evidence of understanding why mirrors show reflections (e.g., 'Because it's shiny')."
+      }
+    },
+    {
+      "questionText": "How do you think the reflection would change if we moved the flowers to a different spot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the reflected image would move to a different location in the mirror and explains that the reflection follows the object because mirrors show what's in front of them.",
+        "meets": "Student correctly predicts that the reflection would appear in a different spot in the mirror if the flowers were moved.",
+        "approaching": "Student makes a prediction about the reflection changing but with unclear or partially correct reasoning.",
+        "beginning": "Student provides a vague prediction or incorrect answer about how the reflection would change (e.g., 'It would disappear' or no clear prediction)."
+      }
+    },
+    {
+      "questionText": "What other things in our classroom or home act like mirrors?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reflective objects from the classroom or home (e.g., windows, shiny metal objects, water, white paper) and explains why they work like mirrors because they are smooth and shiny.",
+        "meets": "Student identifies at least two reflective objects and correctly explains that they are shiny or smooth, allowing them to reflect like mirrors.",
+        "approaching": "Student identifies one or two reflective objects but gives incomplete explanation of why they work like mirrors.",
+        "beginning": "Student attempts to identify reflective objects but provides minimal or inaccurate examples with little explanation (e.g., names only one object with no reasoning)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:19:00.836Z",
+  "cost": 0.004733
+}

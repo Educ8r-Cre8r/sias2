@@ -1,0 +1,53 @@
+{
+  "title": "Moss on Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to this rock if the moss kept growing on it for 100 years?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that moss would break down the rock into smaller pieces or soil, and explains that moss roots or acids help break apart the rock material over a very long time.",
+        "meets": "Student predicts the rock would break down or change, recognizing that moss growing for a long time would cause some kind of change to the rock.",
+        "approaching": "Student makes a prediction about change to the rock but the explanation is vague or partially accurate, such as saying the rock would get smaller without clear reasoning.",
+        "beginning": "Student provides a minimal or unclear prediction about the rock, or gives an answer unrelated to moss growth or rock weathering."
+      }
+    },
+    {
+      "questionText": "How is the way moss gets what it needs to survive different from how a sunflower gets what it needs?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that moss absorbs water and nutrients from the rock or air without roots or soil, while a sunflower uses roots to get water and nutrients from soil, showing understanding of two different survival strategies.",
+        "meets": "Student explains at least one key difference, such as moss not needing soil or a sunflower needing roots, with generally accurate reasoning.",
+        "approaching": "Student identifies a difference between moss and sunflower needs but explanation lacks detail or contains minor inaccuracies about how each gets nutrients.",
+        "beginning": "Student attempts to compare but provides vague or mostly inaccurate statements about how moss and sunflowers get what they need."
+      }
+    },
+    {
+      "questionText": "Why do you think moss can grow on rocks but grass cannot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moss does not need soil or deep roots to survive, while grass requires soil to anchor its roots and get nutrients, showing clear understanding of different plant needs.",
+        "meets": "Student gives a reasonable explanation that moss needs less soil than grass, or that moss can get what it needs from rocks while grass cannot.",
+        "approaching": "Student recognizes moss and grass have different needs but explanation is incomplete or somewhat unclear about why grass specifically cannot grow on rocks.",
+        "beginning": "Student provides a vague answer or shows minimal understanding of why moss and grass have different growing requirements."
+      }
+    },
+    {
+      "questionText": "What evidence do you see in the photo that shows this process has been happening for a long time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence such as thick moss coverage, different colored layers on the rock, or visible weathering, and explains that these features take time to develop.",
+        "meets": "Student points out at least one clear piece of evidence from the photo, such as the thick fuzzy moss patches or the rock's different colors, indicating time has passed.",
+        "approaching": "Student notices a visual detail from the photo but struggles to clearly explain how it shows that the process took a long time.",
+        "beginning": "Student provides minimal observation of the photo or gives an answer that does not connect visual evidence to the passage of time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:25:31.720Z",
+  "cost": 0.004801
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Larvae",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this larva's main job is right now in its life?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies eating/consuming food as the primary job and explains that the larva needs to grow and build energy or body mass for future life stages.",
+        "meets": "Student correctly identifies that the larva's main job is to eat and grow, demonstrating understanding of larval development.",
+        "approaching": "Student states that the larva eats or grows but provides limited explanation or confuses the larva's role with that of an adult insect.",
+        "beginning": "Student provides a vague response (e.g., 'it just sits there') or does not identify eating and growing as key functions."
+      }
+    },
+    {
+      "questionText": "Why might a larva look so different from the adult insect it will become? What might be the advantages?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different body forms suit different environments or food sources, and identifies multiple advantages (e.g., larvae can eat soft soil/decaying matter, fit into small spaces, or access resources adults cannot).",
+        "meets": "Student describes that the larva's shape and soft body allow it to live and feed in soil, recognizing this as an advantage for survival during the growth stage.",
+        "approaching": "Student notes that larvae and adults look different and attempts to explain one advantage, but reasoning is incomplete or partially inaccurate.",
+        "beginning": "Student acknowledges the difference in appearance but provides little or no explanation of why this difference exists or what advantages it provides."
+      }
+    },
+    {
+      "questionText": "If you could observe this larva over three months, what changes do you think you would see, and why would each change happen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific changes (e.g., increased size, molting/shedding skin, body segments becoming more defined, color changes) and explains that each change occurs due to growth, development, or preparation for metamorphosis.",
+        "meets": "Student predicts 2-3 changes such as growing larger or molting, with reasonable explanations that connect changes to normal development.",
+        "approaching": "Student predicts some changes (e.g., getting bigger) but explanations are vague or incomplete, or predictions show partial understanding of insect development.",
+        "beginning": "Student provides minimal predictions or changes that are unclear, inaccurate, or show little understanding of how larvae develop over time."
+      }
+    },
+    {
+      "questionText": "How does the larva's pale color and soft body help it survive in a soil environment where it lives?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that pale color provides camouflage in soil and light-colored environments, and describes how the soft body allows the larva to burrow, squeeze through small spaces, or move easily through soil to find food and avoid predators.",
+        "meets": "Student identifies that the pale color helps with camouflage in soil and/or that the soft body allows movement and burrowing, demonstrating understanding of how these features aid survival.",
+        "approaching": "Student mentions that the color or soft body is useful for soil living but provides incomplete or partially inaccurate explanations.",
+        "beginning": "Student provides a vague response or does not clearly explain how these features specifically help the larva survive in its soil habitat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:50:31.362Z",
+  "cost": 0.005112
+}

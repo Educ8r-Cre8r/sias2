@@ -1,0 +1,53 @@
+{
+  "title": "Solution",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen if we add yellow food coloring to this blue mixture?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts that blue and yellow will mix to make green, explaining that colors combine when liquids mix together, and may reference prior experiences with mixing colors.",
+        "meets": "Student predicts that the colors will mix together and make a new color, demonstrating understanding that two liquids and their colors combine.",
+        "approaching": "Student predicts the colors will mix but is uncertain about the resulting color, or suggests one color will stay separate rather than fully combining.",
+        "beginning": "Student makes a vague prediction like \"it will change\" or \"it will be pretty\" without demonstrating understanding that colors mix when liquids combine."
+      }
+    },
+    {
+      "questionText": "How could we make the blue color spread faster or slower through the water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple ways to change spreading speed (temperature, stirring, dropping from different heights) and explains why each method would work using concepts like heat or movement causing faster mixing.",
+        "meets": "Student suggests at least one reasonable method such as warming the water, stirring, or changing how the coloring is added, with a basic explanation of why it would work.",
+        "approaching": "Student suggests one method but with incomplete reasoning, or suggests a method that wouldn't actually affect spread speed (like changing the jar color).",
+        "beginning": "Student suggests a method without explanation, or provides an unclear/illogical response that doesn't demonstrate understanding of how to control mixing speed."
+      }
+    },
+    {
+      "questionText": "Where else have you seen liquids mixing together in your daily life?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple relevant examples from daily life (juice and water, milk and cereal, soap and water) and explains what happens during the mixing in each case.",
+        "meets": "Student provides 1-2 accurate examples of liquids mixing in everyday situations, such as making juice or washing dishes with soap.",
+        "approaching": "Student provides one example but it may be unclear or partially relevant, such as mentioning cooking but not specifying how liquids mix.",
+        "beginning": "Student provides a vague answer or an example that doesn't clearly show liquids mixing together, such as mentioning water without describing a mixing situation."
+      }
+    },
+    {
+      "questionText": "Why do you think the blue color eventually spreads throughout all the water instead of staying in one spot?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the blue liquid and water molecules move around and spread out through the water, using terms like \"mix,\" \"spread,\" or \"move throughout,\" and may reference that this happens naturally over time.",
+        "meets": "Student provides a reasonable explanation such as \"the color spreads because the liquids mix together\" or \"it moves around in the water,\" showing understanding that spreading is a natural result of mixing.",
+        "approaching": "Student attempts an explanation but is incomplete, such as \"it spreads because water moves\" without explaining why or how the color moves with it.",
+        "beginning": "Student provides a minimal or inaccurate response such as \"it just does\" or \"because water\" without demonstrating understanding of the mixing process."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:05:03.869Z",
+  "cost": 0.004926
+}

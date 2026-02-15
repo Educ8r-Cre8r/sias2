@@ -1,0 +1,53 @@
+{
+  "title": "Buoyancy",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why can this heavy steel ship float while a small steel nail sinks?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the ship's large shape spreads its weight over a wide area, displacing more water than a nail, and applies the concept that buoyant force equals the weight of water displaced to support the entire ship.",
+        "meets": "Student explains that the ship's shape and size help it float by spreading weight over a large area and displacing water, while a nail cannot displace enough water to support itself.",
+        "approaching": "Student recognizes that the ship's size or shape helps it float differently than a nail, but explanation lacks clarity about how weight distribution or water displacement works.",
+        "beginning": "Student provides a vague answer such as 'the ship is big' or 'it's made to float' without explaining the relationship between shape, weight, and water displacement."
+      }
+    },
+    {
+      "questionText": "What would happen to the ship's ability to float if water got inside the hull?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the ship would sink and explains that water inside the hull would increase the total weight and reduce the amount of water displaced by the hollow interior, decreasing buoyant force.",
+        "meets": "Student correctly predicts the ship would sink and explains that water inside would make it heavier or disrupt the buoyancy that keeps it afloat.",
+        "approaching": "Student predicts the ship would sink but provides incomplete reasoning, such as only mentioning it would be heavier without discussing how this affects buoyancy.",
+        "beginning": "Student makes an unclear prediction or suggests water inside would have minimal effect, showing little understanding of how buoyancy depends on the ship's structure."
+      }
+    },
+    {
+      "questionText": "How do you think engineers test whether a new ship design will float before building the full-size version?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that engineers test scale models in water tanks or use computer simulations to predict floating ability, explaining that testing a small version reduces cost and risk before building the full ship.",
+        "meets": "Student suggests engineers test small versions or models in water, or use computers to test designs, recognizing this helps them know if a full-size ship will work.",
+        "approaching": "Student mentions testing with models or computers but provides vague details about how this process works or why it is useful.",
+        "beginning": "Student gives a guess with little reasoning, such as 'they build a small one' without explaining the purpose or method of testing."
+      }
+    },
+    {
+      "questionText": "Compare how this cargo ship stays afloat to how a fish controls whether it floats or sinks in water.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that both use buoyancy to float but identifies key differences: the ship relies on its hollow shape and structural design to displace water, while fish control buoyancy by adjusting their swim bladder or body density, making fish more flexible in depth control.",
+        "meets": "Student identifies that both the ship and fish float by displacing water but recognizes that fish can adjust their position in water while the ship's floating ability depends on its fixed structure.",
+        "approaching": "Student makes a basic comparison such as 'both float in water' but lacks explanation of the mechanisms or meaningful differences between how each achieves buoyancy.",
+        "beginning": "Student attempts a comparison but confuses how buoyancy works for each or provides mostly inaccurate information about how ships or fish float."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:20:20.242Z",
+  "cost": 0.005215
+}

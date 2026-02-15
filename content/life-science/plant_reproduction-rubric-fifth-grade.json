@@ -1,0 +1,53 @@
+{
+  "title": "Plant Reproduction",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the stringy fibers inside the squash are for, and why might seeds need them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that fibers protect and cushion seeds, and explains how this protection helps seeds survive damage or environmental stress. May mention fibers hold seeds in place or help with dispersal.",
+        "meets": "Student states that fibers protect seeds or keep them in place, with a basic explanation of why this matters for seed survival or growth.",
+        "approaching": "Student recognizes fibers are connected to seeds or mentions protection, but explanation is vague or incomplete (e.g., \"they keep seeds safe\" without elaboration).",
+        "beginning": "Student makes a guess about fibers with minimal reasoning, or provides inaccurate information about their function."
+      }
+    },
+    {
+      "questionText": "If a squash grew in your garden and fell on the ground, how might its seeds end up growing somewhere far away?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple realistic dispersal methods (e.g., animals eating fruit and transporting seeds, water carrying seeds, humans moving fruit/seeds) and explains how each method works.",
+        "meets": "Student identifies at least one plausible seed dispersal method (animal, water, or human movement) and explains how seeds could travel from that process.",
+        "approaching": "Student mentions one dispersal idea but with limited detail or clarity (e.g., \"animals might move it\" without explaining how).",
+        "beginning": "Student suggests an idea with little explanation, or provides an unlikely/vague response about seed movement."
+      }
+    },
+    {
+      "questionText": "Compare the way squash seeds are protected inside a fruit to how chicken eggs are protected. What's similar, and what's different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (hard outer shell/skin, soft protective interior, keeps baby safe inside) and differences (fruit has flesh/nutrients, egg has yolk; fruit opens naturally, egg must be broken). May note that fruits disperse while eggs don't.",
+        "meets": "Student identifies at least one valid similarity and one difference between squash fruit and egg protection, with clear explanations.",
+        "approaching": "Student mentions similarities or differences but with incomplete detail, or identifies only one category well while the other is vague.",
+        "beginning": "Student attempts a comparison but with mostly inaccurate or unclear statements about how either structure protects its contents."
+      }
+    },
+    {
+      "questionText": "Why do you think plants invest so much energy in making large fruits with lots of flesh around the seeds instead of just scattering seeds directly?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple advantages of fruit production (attracts animals for seed dispersal, protects seeds from damage, provides nutrition for sprouting, attracts organisms that spread seeds far) and connects these benefits to plant survival or reproduction success.",
+        "meets": "Student identifies at least two benefits of fruit production (e.g., protection and animal attraction, or nutrition and dispersal) with reasonable explanations.",
+        "approaching": "Student mentions one benefit of making fruit with limited explanation, or suggests multiple benefits but with unclear reasoning.",
+        "beginning": "Student provides a guess with minimal reasoning, or focuses on human benefit rather than plant survival advantage."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:22:31.376Z",
+  "cost": 0.00502
+}

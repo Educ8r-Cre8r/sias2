@@ -1,0 +1,53 @@
+{
+  "title": "Biological Decomposition",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside this hollow tree?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple decomposition processes (rotting, breaking down wood, animals eating wood) with specific details about what is happening inside the tree.",
+        "meets": "Student identifies that the tree is rotting or breaking down, and mentions that decomposers or animals are involved in the process.",
+        "approaching": "Student recognizes the tree is dead or damaged inside but provides vague explanation such as 'something is happening' or 'it's broken' without clear connection to decomposition.",
+        "beginning": "Student provides minimal response like 'it's hollow' or 'there's a hole' with no explanation of what processes are occurring."
+      }
+    },
+    {
+      "questionText": "Why might insects and worms want to live inside a dead tree?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that insects and worms eat the decaying wood for food and describes how the soft, rotted wood is easier to live in and consume than hard living wood.",
+        "meets": "Student states that insects and worms find food in the dead tree or that they can live/hide inside the hollow space.",
+        "approaching": "Student mentions that insects or worms might live in the tree but gives incomplete reasoning, such as 'they like it there' without explaining the benefit.",
+        "beginning": "Student provides a vague or incorrect response such as 'bugs live in trees' without connecting it to the dead tree's characteristics."
+      }
+    },
+    {
+      "questionText": "If we didn't have decomposers breaking down dead wood, what might happen to our forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead trees would pile up or cover the forest floor, and connects this to how decomposers help return nutrients to soil for new plants to grow.",
+        "meets": "Student identifies that dead trees would build up or that the forest would get full of dead wood, showing understanding of decomposers' role.",
+        "approaching": "Student recognizes that something bad would happen to the forest but provides incomplete reasoning, such as 'there would be a lot of dead trees' without explaining the consequence.",
+        "beginning": "Student provides a minimal response like 'the forest would be messy' with little understanding of the decomposers' ecological role."
+      }
+    },
+    {
+      "questionText": "How is this dead tree helping living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways the dead tree helps (shelter for insects/animals, food source, returns nutrients to soil for new plants) with specific examples.",
+        "meets": "Student identifies at least two ways the dead tree is helpful, such as providing a home for animals and breaking down to feed the soil.",
+        "approaching": "Student identifies one way the dead tree helps, such as animals living in it, but explanation lacks complete detail or connection to forest health.",
+        "beginning": "Student provides vague response such as 'animals use it' or 'it helps' without explaining how or showing understanding of the benefit."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:44:12.770Z",
+  "cost": 0.004716
+}

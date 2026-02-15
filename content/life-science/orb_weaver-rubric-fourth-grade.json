@@ -1,0 +1,53 @@
+{
+  "title": "Orb Weaver",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the spider's long legs help it do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple functions of long legs (climbing, reaching, sensing vibrations, moving quickly) with specific examples of how each helps the spider survive.",
+        "meets": "Student correctly identifies at least two functions of long legs, such as climbing and moving quickly, with brief explanations.",
+        "approaching": "Student identifies one function of long legs (such as climbing or moving) but explanation is vague or lacks detail.",
+        "beginning": "Student provides a vague response like 'walk around' or 'move' with little or no explanation of how long legs are helpful."
+      }
+    },
+    {
+      "questionText": "Why might a spider crawl on a person's hand instead of running away?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spider is curious or exploring and may not perceive the hand as a threat, connecting this to spider behavior and sensory abilities.",
+        "meets": "Student provides a reasonable explanation such as the spider is curious, exploring, or doesn't see the hand as dangerous.",
+        "approaching": "Student offers a partial explanation like 'the spider is not scared' but doesn't explain why the spider isn't scared.",
+        "beginning": "Student responds with minimal reasoning such as 'it just does' or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "How is a spider different from an insect like a bee or ant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences including eight legs versus six, body segments (arachnid versus insect), and at least one additional feature like webs or fangs.",
+        "meets": "Student correctly identifies that spiders have eight legs while insects have six legs, and may mention one additional difference.",
+        "approaching": "Student attempts to compare spiders and insects but confuses some features or only partially identifies the difference in leg number.",
+        "beginning": "Student provides a vague response like 'they are different' without specific details or provides inaccurate information."
+      }
+    },
+    {
+      "questionText": "If spiders didn't hunt insects, what might happen to the number of insects in our neighborhood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that insect populations would increase significantly because spiders eat insects as predators, and connects this to food chains and balance in nature.",
+        "meets": "Student correctly predicts that the insect population would increase because spiders hunt and eat insects.",
+        "approaching": "Student recognizes the connection between spiders and insects but provides an incomplete explanation (e.g., 'more insects' without explaining why).",
+        "beginning": "Student gives a vague answer like 'something would change' or provides an inaccurate prediction without reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:51:08.851Z",
+  "cost": 0.004433
+}

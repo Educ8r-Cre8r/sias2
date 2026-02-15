@@ -1,0 +1,53 @@
+{
+  "title": "Force And Motion",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What made the child's body go up into the air?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the child's legs pushed down hard against the ground, which made their body go up, and may mention that the stronger the push, the higher they go.",
+        "meets": "Student correctly identifies that the child's legs pushed to make their body go up into the air.",
+        "approaching": "Student mentions pushing or legs but explanation is unclear or incomplete, such as 'the legs did it' without describing the pushing action.",
+        "beginning": "Student provides a vague answer like 'they jumped' or 'they went up' with no explanation of what caused the movement."
+      }
+    },
+    {
+      "questionText": "Why did the child come back down to the ground after jumping?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that Earth pulls everything down (gravity) or uses words like 'Earth pulls things down' and connects this to why the child must come back to the ground.",
+        "meets": "Student correctly identifies that Earth pulls or gravity makes the child come back down to the ground.",
+        "approaching": "Student recognizes the child comes down but gives incomplete reasoning, such as 'because they have to' or 'because gravity' without explanation.",
+        "beginning": "Student provides minimal response like 'they fell' or 'they came down' with no understanding of what causes this motion."
+      }
+    },
+    {
+      "questionText": "If the child pushed down harder with their legs, what do you think would happen to their jump?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the jump would be higher and explains that a harder push from the legs makes a bigger force, so the child goes higher into the air.",
+        "meets": "Student correctly predicts that pushing harder with the legs would make them jump higher.",
+        "approaching": "Student makes a prediction about the jump getting higher but reasoning is unclear or only partially correct, such as 'it would be different' without explaining how.",
+        "beginning": "Student gives a vague or incorrect prediction, such as 'it would be the same' or 'I don't know' with no attempt to explain."
+      }
+    },
+    {
+      "questionText": "What forces are working on the child's body right now—the push from the legs and the pull from Earth?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both forces (push from legs and pull from Earth/gravity) and explains how they work together, such as 'the legs push up but Earth pulls down, so the child goes up then comes back down.'",
+        "meets": "Student correctly names or describes both the push from the legs and the pull from Earth that work on the child's body.",
+        "approaching": "Student identifies one force clearly but struggles with the other, or mentions both forces with incomplete understanding of how they work together.",
+        "beginning": "Student names only one force or provides vague descriptions like 'pushes' and 'pulls' without connecting them to the child's body or the jumping action."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:54:28.725Z",
+  "cost": 0.0047
+}

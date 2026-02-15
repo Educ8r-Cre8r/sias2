@@ -1,0 +1,53 @@
+{
+  "title": "Pollination",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the bee is visiting this purple flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bee is getting food (nectar or honey) from the flower and may mention that bees need food to survive or make honey.",
+        "meets": "Student correctly states that the bee is visiting the flower to get food or drink something from the flower.",
+        "approaching": "Student recognizes the bee is doing something with the flower but gives a vague answer (e.g., 'the bee likes it' or 'it's eating') without mentioning food or nectar.",
+        "beginning": "Student provides a minimal or unclear response (e.g., 'it's on the flower') with no indication of why the bee is visiting."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the yellow powder on the bee's body when it visits another flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the yellow powder (pollen) rubs off onto the new flower and helps it grow or make seeds, demonstrating understanding of the pollination process.",
+        "meets": "Student correctly states that the yellow powder comes off the bee and goes onto the new flower.",
+        "approaching": "Student recognizes that something happens to the powder when the bee visits another flower but is unclear about what (e.g., 'it falls off' without explaining where it goes or why).",
+        "beginning": "Student gives a minimal response about the powder (e.g., 'it gets on the flower') with no clear understanding of the connection."
+      }
+    },
+    {
+      "questionText": "How do you think the flower helps the bee, and how does the bee help the flower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that the flower gives food (nectar) to the bee, and the bee helps the flower by moving pollen to make new flowers or seeds grow.",
+        "meets": "Student identifies that the flower provides food for the bee and the bee helps by moving the yellow powder to other flowers, showing a basic understanding of the two-way relationship.",
+        "approaching": "Student mentions one part of the relationship (either the flower helping the bee or the bee helping the flower) but not both, or gives incomplete explanations for each.",
+        "beginning": "Student provides a vague or mostly inaccurate response about how the flower and bee help each other."
+      }
+    },
+    {
+      "questionText": "If there were no bees, what might happen to flowers and the seeds they need to make baby plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that without bees, flowers would not get pollen moved to other flowers, so they would not make seeds, and therefore new flowers or baby plants could not grow.",
+        "meets": "Student predicts that flowers would not make seeds or that new flowers would not grow without bees, showing understanding of the bee's important role.",
+        "approaching": "Student recognizes that something bad would happen without bees but provides an incomplete explanation (e.g., 'flowers would die' without connecting it to seeds or new plants).",
+        "beginning": "Student makes a prediction with little connection to the role of bees and pollen in growing flowers and making seeds."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:39:25.303Z",
+  "cost": 0.004904
+}

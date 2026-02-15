@@ -1,0 +1,53 @@
+{
+  "title": "Robot",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe about how the robot moves, and what parts of the robot do you think help it move?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific moving parts (wheels) and describes detailed observations about movement direction, speed, or motion type; explains how multiple components work together to enable movement.",
+        "meets": "Student accurately identifies the wheels as the main moving part and describes how the robot moves with one or two clear observations about its motion.",
+        "approaching": "Student identifies that the robot has wheels or moves, but explanations are incomplete or lack specific details about how these parts enable movement.",
+        "beginning": "Student makes a vague observation about the robot moving or mentions a part without connecting it to movement, or response shows minimal understanding of the robot's motion."
+      }
+    },
+    {
+      "questionText": "How is the way this robot moves similar to or different from how animals move in nature? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple valid comparisons or contrasts (e.g., wheels vs. legs, no muscle movement, same forward motion) and provides thoughtful explanations of why these similarities or differences exist.",
+        "meets": "Student identifies at least one clear similarity or difference between robot and animal movement with a reasonable explanation of why they move differently.",
+        "approaching": "Student attempts to compare robot and animal movement but with limited or partially accurate details; explanation may be incomplete or unclear.",
+        "beginning": "Student mentions animals or movement but does not make meaningful comparisons, or response lacks clear thinking about how robot movement differs from animal movement."
+      }
+    },
+    {
+      "questionText": "If we wanted to change the robot so it moves faster or slower, what parts might we need to modify and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies specific modifiable parts (wheels, motors, programming) and explains causal relationships between modifications and speed changes with scientific reasoning.",
+        "meets": "Student identifies at least one part that could be modified (such as wheels or motors) and provides a logical explanation for why this change would affect speed.",
+        "approaching": "Student suggests a modification but explanation of how it would affect speed is vague, incomplete, or partially inaccurate.",
+        "beginning": "Student mentions changing something about the robot but shows little understanding of how modifications would affect movement speed."
+      }
+    },
+    {
+      "questionText": "What problem do you think engineers were trying to solve when they designed a robot with wheels instead of legs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple practical advantages of wheels over legs (stability, efficiency, terrain compatibility, design simplicity) with detailed reasoning about engineering design choices.",
+        "meets": "Student identifies at least one practical advantage of wheels over legs (such as stability, ease of building, or smooth movement) with reasonable explanation.",
+        "approaching": "Student suggests a reason wheels might be better but explanation lacks clarity or specific details about the engineering problem being solved.",
+        "beginning": "Student attempts to answer but provides vague or incomplete reasoning that does not clearly address why wheels were chosen over legs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:37:33.034Z",
+  "cost": 0.004705
+}

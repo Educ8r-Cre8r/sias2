@@ -1,0 +1,53 @@
+{
+  "title": "Orb Weaver",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does a spider have that help it catch food?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (legs, fangs, web) and explains how each part helps the spider catch food with specific details.",
+        "meets": "Student identifies at least two body parts (such as legs and web) that help a spider catch food.",
+        "approaching": "Student identifies one body part that helps a spider catch food, or mentions multiple parts with limited explanation of how they help.",
+        "beginning": "Student provides a vague or partially incorrect response, such as naming one body part without connecting it to catching food."
+      }
+    },
+    {
+      "questionText": "Why do you think a spider needs eight legs instead of two legs like people?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eight legs help spiders move quickly, climb, or balance on their webs, and connects this to how spiders hunt or survive.",
+        "meets": "Student provides a reasonable explanation that eight legs help spiders move better, climb, or do more things than two legs would allow.",
+        "approaching": "Student suggests that eight legs help spiders in some way but gives an incomplete or vague explanation.",
+        "beginning": "Student gives a minimal response, such as 'spiders just have eight legs' with no explanation of why they need them."
+      }
+    },
+    {
+      "questionText": "How is a spider's web like a trap? What does it catch?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a web is sticky and holds insects, comparing it to a trap that catches and keeps prey, and identifies specific insects the web might catch.",
+        "meets": "Student explains that a web is like a trap because it catches insects and holds them so the spider can eat them.",
+        "approaching": "Student recognizes that a web catches things or is like a trap but provides incomplete details about how it works or what it catches.",
+        "beginning": "Student makes a minimal connection between a web and a trap or provides mostly inaccurate information about what a web catches."
+      }
+    },
+    {
+      "questionText": "If a spider didn't have silk to make a web, how else might it catch food?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple realistic hunting strategies (pouncing, waiting to ambush, using legs to grab prey) and explains why each method might work.",
+        "meets": "Student suggests one or two reasonable alternative hunting methods, such as using its legs to grab insects or hiding and waiting for food.",
+        "approaching": "Student suggests a possible hunting method but with limited detail or a somewhat unclear explanation of how it would work.",
+        "beginning": "Student attempts to answer but provides a vague or unrealistic suggestion with minimal reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:50:46.024Z",
+  "cost": 0.004361
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Parent And Offspring",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the young bird has its mouth open? What is it communicating to its parent?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the open mouth signals hunger and explains that the young bird is communicating a need for food, using specific behavioral vocabulary like 'begging' or 'hunger signal,' and may note that this behavior helps the parent know when to feed.",
+        "meets": "Student correctly explains that the open mouth means the young bird is hungry and wants food from its parent, demonstrating understanding of this parent-offspring communication.",
+        "approaching": "Student recognizes that the open mouth is related to feeding or hunger but provides incomplete reasoning about how the parent responds or what the behavior communicates.",
+        "beginning": "Student makes a vague guess about the mouth being open (such as 'it's yawning' or 'it's tired') or provides minimal explanation of the communication between parent and offspring."
+      }
+    },
+    {
+      "questionText": "Look at both birds in the photo. What features do they share, and how are they different? Why might these differences matter for what each bird can do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple shared features (body shape, beak, feathers, size pattern) and specific differences (wing development, feather condition, size), and explains how differences affect abilities such as flying strength, feeding independence, or self-care.",
+        "meets": "Student identifies at least one shared feature and one clear difference between the birds, and explains how the difference affects what each bird can do (such as the adult being able to fly better or find its own food).",
+        "approaching": "Student identifies some similarities or differences but provides incomplete or unclear connections between physical features and what the birds can do.",
+        "beginning": "Student notices one or two obvious features but cannot explain how physical differences relate to the birds' abilities, or confuses which bird has which characteristics."
+      }
+    },
+    {
+      "questionText": "If the parent bird did not feed the young bird, what would happen? Why is parental care so important for baby birds?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the young bird would go hungry, become weak, or die, and connects parental care to survival by noting that baby birds cannot find or catch food on their own and depend on parents for energy and growth.",
+        "meets": "Student explains that without food from the parent, the young bird would become hungry or weak, and identifies that parental care is necessary because baby birds cannot feed themselves.",
+        "approaching": "Student recognizes that the young bird needs food to survive but provides incomplete reasoning about why the parent's role is essential or what would happen without care.",
+        "beginning": "Student gives a minimal response such as 'the bird would be sad' or 'it needs food' without explaining the consequences or why parental care matters for survival."
+      }
+    },
+    {
+      "questionText": "How does the young bird know to open its mouth and beg when it's hungry? Did someone teach it, or did it know this from birth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that begging is an instinct or inborn behavior that the bird knows from birth without being taught, and may note that this instinctive behavior helps babies survive because it immediately signals the parent to feed them.",
+        "meets": "Student correctly identifies that the young bird's begging behavior is instinctive or inborn, demonstrating understanding that this is a natural behavior the bird is born knowing rather than something that must be taught.",
+        "approaching": "Student attempts to distinguish between learned and instinctive behavior but is unclear or provides incomplete reasoning about why this particular behavior is inborn.",
+        "beginning": "Student provides a confused or unsupported response, such as suggesting the parent teaches the behavior, or gives no clear explanation for how the young bird knows to beg."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:38:01.410Z",
+  "cost": 0.005619
+}

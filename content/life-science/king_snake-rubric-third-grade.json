@@ -1,0 +1,53 @@
+{
+  "title": "King Snake",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this snake has such bright, colorful bands instead of hiding colors like brown or green?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors warn predators the snake is dangerous or poisonous, and connects this to the idea that the snake wants to be seen rather than hidden. Student may mention that predators learn to avoid these colors.",
+        "meets": "Student states that the bright colors warn predators or tell them the snake is dangerous, showing understanding that the colors serve a protective purpose rather than hiding.",
+        "approaching": "Student recognizes the bright colors are different from brown or green and suggests they might help the snake in some way, but explanation is vague or partially accurate.",
+        "beginning": "Student makes a simple observation about the colors being bright but does not explain why the snake might have them, or provides an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "What do you think happens when a predator like a hawk sees these bright red, yellow, and black colors for the first time?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the hawk might be curious or cautious, and explains that the hawk will remember these colors as a warning for the future. Student shows understanding of how warning colors work over time through learning.",
+        "meets": "Student predicts the hawk might be cautious or avoid the snake, or might try to eat it but learn it tastes bad. Student shows understanding that the colors give the hawk information.",
+        "approaching": "Student makes a prediction about the hawk's behavior but the explanation is incomplete or shows uncertainty about whether the colors actually protect the snake.",
+        "beginning": "Student gives a vague prediction or describes only what the hawk does without connecting it to the snake's warning colors."
+      }
+    },
+    {
+      "questionText": "If a snake has warning colors, what must be true about that snake to make the warning work?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the snake must be poisonous, venomous, or taste bad, AND that predators must have learned (or be able to learn) that these colors mean danger. Student shows understanding of both requirements for warning colors to work.",
+        "meets": "Student states that the snake must be dangerous, poisonous, or taste bad so that predators will avoid it after learning the warning. Student identifies the key connection between the colors and actual danger.",
+        "approaching": "Student identifies that something must be true about the snake (such as being dangerous) but doesn't fully explain why the warning colors only work if the snake has this trait.",
+        "beginning": "Student provides a general or inaccurate response about what must be true, such as just that the snake is colorful or that predators must see it."
+      }
+    },
+    {
+      "questionText": "How is this snake's defense strategy different from an animal that uses camouflage to hide?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that this snake uses warning colors to be SEEN and stand out, while camouflage helps animals hide and blend in. Student may give an example of a camouflaged animal and explains how both strategies protect the animal in different ways.",
+        "meets": "Student clearly states that the snake's bright colors make it visible and are the opposite of camouflage, which hides animals. Student shows understanding that these are two different protection methods.",
+        "approaching": "Student identifies a difference between the snake's colors and camouflage but the explanation is incomplete or somewhat unclear about how each strategy protects the animal.",
+        "beginning": "Student recognizes there is a difference but cannot clearly explain it, or confuses how the two strategies work."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:48:44.886Z",
+  "cost": 0.005371
+}

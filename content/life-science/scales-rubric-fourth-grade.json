@@ -1,0 +1,53 @@
+{
+  "title": "Scales",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the bumpy texture of an alligator's skin helps it survive in the water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bumpy scales protect the alligator's body, reduce drag in water for swimming, or help the alligator sense movement—demonstrating understanding of multiple functions of the texture.",
+        "meets": "Student identifies that the bumpy scales protect the alligator or help it move through water, providing a reasonable explanation for why this feature helps survival.",
+        "approaching": "Student recognizes that the bumpy texture is related to protection or water movement but provides incomplete or partially accurate reasoning about how it helps the alligator survive.",
+        "beginning": "Student makes a vague statement about the bumpy skin (such as \"it keeps it safe\" or \"it helps it swim\") without clear explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "Why might an alligator's dark and light coloring be important when it lives in a muddy swamp?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the dark and light pattern helps the alligator blend in with muddy water and vegetation through camouflage, making it harder for prey or predators to see it—using accurate vocabulary.",
+        "meets": "Student identifies that the coloring helps the alligator hide or blend in with its swamp environment, providing a reasonable explanation for this adaptation.",
+        "approaching": "Student recognizes that the coloring is connected to the swamp environment but gives an incomplete explanation (such as \"it helps it hide\" without explaining how or why).",
+        "beginning": "Student provides a minimal response about the coloring (such as \"it's dark\" or \"it helps\") with little connection to the swamp habitat or survival."
+      }
+    },
+    {
+      "questionText": "If an alligator lived in a bright, sandy desert instead of a dark swamp, how do you think its coloring might need to be different, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the alligator would need lighter or brighter coloring to blend in with sand and explains that this would help it hide from prey or predators in a desert environment through camouflage.",
+        "meets": "Student predicts that the alligator's coloring would need to be lighter and provides a reasonable explanation that lighter colors would help it blend in with the sandy desert.",
+        "approaching": "Student predicts a change in coloring (lighter or brighter) but the explanation for why is incomplete or unclear regarding how this would help in a desert.",
+        "beginning": "Student makes a vague prediction about coloring change (such as \"it would be different\") without clear reasoning about how the desert environment would require different coloring."
+      }
+    },
+    {
+      "questionText": "What other animal body parts have you seen that help the animal do something important, like the alligator's scales help protect it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animal body parts from different animals and clearly explains how each part helps the animal survive or function (such as \"bird wings help them fly\" and \"turtle shells protect them\").",
+        "meets": "Student names at least one other animal body part and explains how it helps that animal, showing understanding that body parts serve important functions.",
+        "approaching": "Student names an animal body part but provides an incomplete or vague explanation of its function, or names a body part without explaining how it helps the animal.",
+        "beginning": "Student names an animal or body part with minimal explanation, or provides a response that shows little connection to the concept of body parts helping animals survive."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:51:55.559Z",
+  "cost": 0.005395
+}

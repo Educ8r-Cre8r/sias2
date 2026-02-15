@@ -1,0 +1,53 @@
+{
+  "title": "Water Cycle",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Where do you think the frost and ice on this plant came from, and why didn't it fall as snow instead?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that frost comes from water vapor in the air that froze on the plant surface, and distinguishes that snow forms in clouds while frost forms on surfaces near the ground; may mention deposition as the process.",
+        "meets": "Student identifies that frost comes from water in the air and explains that it formed on the plant rather than falling as snow, showing understanding that frost and snow form differently.",
+        "approaching": "Student identifies that frost comes from water or air, but explanation of why it didn't fall as snow is incomplete or partially inaccurate; shows emerging understanding of the difference.",
+        "beginning": "Student provides vague response such as 'it came from the sky' or 'water froze' without distinguishing frost from snow or explaining the formation process."
+      }
+    },
+    {
+      "questionText": "If the temperature rises above 32°F tomorrow, what will happen to the frost? Explain the process using the word 'evaporation' or 'melting.'",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the frost will melt or evaporate and accurately explains the process using both terms correctly (melting as solid to liquid, evaporation as liquid to gas); may describe both steps of the water cycle.",
+        "meets": "Student predicts the frost will disappear when temperature rises and correctly uses either 'melting' or 'evaporation' to explain the process accurately.",
+        "approaching": "Student predicts the frost will disappear but uses the correct term (melting or evaporation) with incomplete or slightly inaccurate explanation of what happens.",
+        "beginning": "Student predicts frost will disappear but provides minimal explanation, uses incorrect vocabulary, or shows confusion about the process."
+      }
+    },
+    {
+      "questionText": "Why do you think the daffodil flower is still yellow and colorful even though it's covered in frost? Is it dead?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that frost coating the surface doesn't mean the plant is dead because the frost is only on the outside and doesn't harm the living tissue underneath; may mention that some plants are adapted to survive cold.",
+        "meets": "Student concludes the plant is not dead and explains that the frost is on the outside while the plant remains alive inside, or notes that the flower still has color showing it's living.",
+        "approaching": "Student states the plant is probably not dead and provides partial reasoning, such as noting the color is still visible, but explanation of why frost doesn't kill it is incomplete.",
+        "beginning": "Student provides minimal response such as 'I don't know' or 'it's still alive' without clear explanation of reasoning."
+      }
+    },
+    {
+      "questionText": "In which season(s) or times of day do you think frost is most likely to form? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies fall, winter, or early morning as most likely times and explains that frost forms when temperatures drop below 32°F, particularly when the ground cools overnight or during colder seasons.",
+        "meets": "Student identifies appropriate season(s) or time of day and provides a reasonable explanation that connects to temperature dropping or cooler conditions.",
+        "approaching": "Student identifies a plausible season or time of day but explanation is vague or incomplete; may show partial understanding of temperature's role.",
+        "beginning": "Student provides a vague answer with minimal or inaccurate reasoning about when frost forms."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:11:34.279Z",
+  "cost": 0.005346
+}

@@ -1,0 +1,53 @@
+{
+  "title": "White Ibises",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the ibis's beak is curved downward instead of straight?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the curved beak helps the ibis probe deep into mud and water to find food, and describes how the shape allows the bird to reach prey (like crustaceans or small fish) that straight beaks could not access efficiently.",
+        "meets": "Student states that the curved beak helps the ibis find or catch food in mud or water, showing understanding of how the beak shape relates to hunting in wetlands.",
+        "approaching": "Student identifies that the curved beak is used for finding food or mentions it helps the bird in water/mud, but lacks explanation of how the shape actually helps with hunting.",
+        "beginning": "Student makes a vague observation about the beak being curved or mentions food/water without demonstrating understanding of the connection between beak shape and function."
+      }
+    },
+    {
+      "questionText": "What would happen to this group of ibises if humans drained all the water from this wetland?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that ibises would lose their habitat and food source, and describes multiple consequences such as the birds having to migrate, struggling to find prey, or the population declining—showing understanding of how habitats support wildlife.",
+        "meets": "Student states that ibises would lose food or habitat and would need to leave the area, demonstrating understanding that water is essential for these birds' survival.",
+        "approaching": "Student recognizes that draining water would negatively affect ibises but provides incomplete reasoning, such as mentioning food or homes without fully explaining the connection.",
+        "beginning": "Student gives a minimal or vague response, such as 'the birds would go away' or 'it would be bad,' without explaining why wetland water matters to ibises."
+      }
+    },
+    {
+      "questionText": "How is the ibis's beak similar to a tool that a person might use, and why is that tool effective?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares the curved beak to a specific tool (such as a shovel, probe, or curved tweezers) and explains why that tool works well—for example, the curved shape allows it to dig into soft material and extract small objects efficiently, just as the beak does in mud.",
+        "meets": "Student identifies a reasonable tool comparison (such as a shovel or spoon) and explains how the curved shape helps with scooping or reaching into mud to find food.",
+        "approaching": "Student makes a tool comparison but provides limited or partially correct reasoning about why the tool is effective or how it matches the beak's function.",
+        "beginning": "Student attempts a tool comparison but it is unclear or inaccurate, or lacks explanation of why the tool works similarly to the beak."
+      }
+    },
+    {
+      "questionText": "If ibises live in groups like this, what advantages might they have that a single ibis hunting alone would NOT have?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple advantages of group living, such as finding more food through shared searching, having protection from predators through group vigilance, or sharing information about good feeding spots—demonstrating understanding of cooperative behavior in animals.",
+        "meets": "Student describes at least two advantages of living in a group, such as finding more food together or having safety in numbers, showing understanding of basic benefits of group behavior.",
+        "approaching": "Student identifies one advantage of group living (such as finding food or safety) but explanation is incomplete or lacks clarity about how the group benefits compared to a single bird.",
+        "beginning": "Student provides a vague response about groups being helpful or makes a statement without explaining specific advantages that a group would have over a solitary ibis."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:34:16.380Z",
+  "cost": 0.00549
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Giant Leopard Moth",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the mother moth might be staying close to her eggs?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that the mother is protecting her eggs from predators or danger, and provides an additional reason such as keeping them warm or safe from being moved, demonstrating understanding of parental care in insects.",
+        "meets": "Student correctly infers that the mother moth is protecting or caring for her eggs, showing understanding that mothers help keep their offspring safe.",
+        "approaching": "Student recognizes that the mother moth is near the eggs for a reason related to care, but explanation is vague or incomplete (e.g., 'she's watching them' without explaining why).",
+        "beginning": "Student provides a minimal response that shows limited understanding, such as 'she likes them' or gives an inaccurate reason unrelated to protection or care."
+      }
+    },
+    {
+      "questionText": "What will these eggs become, and what will they need to grow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies that eggs will become caterpillars, then moths, and lists multiple specific needs such as food (leaves), appropriate temperature, and moisture, showing understanding of complete metamorphosis.",
+        "meets": "Student correctly states that eggs will become caterpillars and then moths, and identifies at least two things needed to grow such as food and water or warmth.",
+        "approaching": "Student identifies that eggs will become caterpillars or moths, but provides incomplete or partially accurate information about what they need (e.g., names only one need or is unclear about the life cycle).",
+        "beginning": "Student provides a vague or mostly inaccurate response, such as confusing the life cycle stages or failing to identify what the eggs will become."
+      }
+    },
+    {
+      "questionText": "How are the spots on this moth's wings similar to or different from a leopard's spots, and why might they both have spots?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both similarities (both have brown spots on a lighter background) and differences (moth spots are on wings, leopard spots are on fur; different shapes or purposes), and explains that spots help both animals hide in their environments through camouflage.",
+        "meets": "Student identifies at least one similarity and one difference between the spots, and explains that spots help both animals with camouflage or hiding from predators.",
+        "approaching": "Student describes the spots but provides incomplete comparison or unclear reasoning; may identify only similarities or only differences, or gives a vague explanation about why they have spots.",
+        "beginning": "Student provides minimal description with little accurate comparison or unclear/inaccurate explanation of the purpose of spots."
+      }
+    },
+    {
+      "questionText": "If all of these eggs hatched into caterpillars, what might happen to the plants in their environment?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that caterpillars would eat many leaves and damage plants, and extends thinking to describe consequences such as plants becoming smaller, dying, or affecting other animals in the food chain that depend on those plants.",
+        "meets": "Student predicts that caterpillars would eat the plants and cause damage, demonstrating understanding that caterpillars need plant food and their large numbers would impact the environment.",
+        "approaching": "Student predicts that plants would be eaten or damaged, but explanation lacks detail or clarity about how many caterpillars or the extent of impact.",
+        "beginning": "Student makes a prediction with minimal reasoning or provides an inaccurate response about what caterpillars eat or how they would affect plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:02:25.781Z",
+  "cost": 0.005316
+}

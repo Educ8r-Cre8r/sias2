@@ -1,0 +1,53 @@
+{
+  "title": "Pollinator Waystation",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the flowers in this garden are so many different colors?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different flower colors attract different pollinators and recognizes that variety helps ensure pollinators can find food; may mention specific insects attracted to certain colors.",
+        "meets": "Student identifies that flower colors attract bees and butterflies or that different colors attract different pollinators.",
+        "approaching": "Student mentions that different colors attract insects but lacks specificity about which insects or why variety matters.",
+        "beginning": "Student provides vague responses such as \"flowers are just different colors\" or \"they look pretty\" without connecting to pollinators."
+      }
+    },
+    {
+      "questionText": "What would happen to the flowers in this garden if all the bees and butterflies disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers would not be pollinated, preventing seed and fruit production, and predicts this would reduce plant reproduction; may discuss long-term consequences for the garden ecosystem.",
+        "meets": "Student correctly identifies that flowers would not be pollinated and explains that this would prevent flowers from making seeds or new plants.",
+        "approaching": "Student states that something bad would happen to flowers or mentions pollination, but explanation is incomplete or lacks clarity about the process.",
+        "beginning": "Student provides an answer unrelated to pollination or simply states \"the flowers would die\" without explanation."
+      }
+    },
+    {
+      "questionText": "How do you think a butterfly's fuzzy body helps it pollinate flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fuzzy body parts trap or collect pollen when visiting flowers and transfer pollen between flowers; may mention that pollen is sticky or powder-like.",
+        "meets": "Student recognizes that the fuzzy body picks up pollen and carries it from flower to flower to help pollinate them.",
+        "approaching": "Student mentions that fuzz helps with pollination but provides incomplete reasoning, such as only stating it picks up pollen without explaining transfer to other flowers.",
+        "beginning": "Student provides a vague response like \"the fuzz helps\" or an answer disconnected from pollen transfer, such as \"it keeps butterflies warm.\""
+      }
+    },
+    {
+      "questionText": "If someone created a garden like this one in your neighborhood, what living things besides flowers and pollinators might benefit from it?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple organisms (such as birds, spiders, beetles, or small mammals) and explains how each would benefit, such as finding food, shelter, or nesting materials.",
+        "meets": "Student names at least two living things that would benefit from the garden and provides a basic explanation of how (e.g., birds eat insects, animals find shelter).",
+        "approaching": "Student identifies one or two organisms but provides limited or unclear explanation of how they would benefit from the garden.",
+        "beginning": "Student names one organism or provides only vague responses without clear reasoning about how it would benefit from the garden."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:42:00.485Z",
+  "cost": 0.004686
+}

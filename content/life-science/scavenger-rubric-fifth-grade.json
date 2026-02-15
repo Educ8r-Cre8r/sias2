@@ -1,0 +1,53 @@
+{
+  "title": "Scavenger",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to an ecosystem if there were no scavenger animals?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead animals would accumulate, disease could spread, and nutrient cycling would be disrupted, demonstrating understanding of multiple ecosystem consequences and the scavenger's role in decomposition and energy flow.",
+        "meets": "Student identifies that dead animals would pile up and explains that scavengers help clean up the environment or prevent disease, showing basic understanding of the scavenger's ecological role.",
+        "approaching": "Student mentions that dead animals would be left behind or that scavengers are important for cleanup, but lacks detail about ecosystem-wide impacts or consequences.",
+        "beginning": "Student provides a vague response such as 'bad things would happen' or 'the ecosystem would be messy' without explaining specific consequences or the scavenger's role."
+      }
+    },
+    {
+      "questionText": "How are a scavenger's body parts (like its bare head and strong legs) helpful for its job of finding food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bare head prevents disease and parasites from decaying animals, strong legs help walk through varied terrain searching for carrion, and powerful wings provide flight for scanning large areas—connecting multiple adaptations to scavenging behavior.",
+        "meets": "Student identifies that the bare head keeps the bird clean when eating dead animals and strong legs help it walk and search for food on the ground, showing understanding of how features support scavenging.",
+        "approaching": "Student mentions one or two body features and attempts to explain their usefulness (e.g., 'bare head is helpful' or 'strong legs help it walk'), but explanations are incomplete or lack clear connection to scavenging.",
+        "beginning": "Student identifies a body part but provides little or no explanation of how it helps with finding and eating food, or makes inaccurate statements about the adaptations."
+      }
+    },
+    {
+      "questionText": "Compare a scavenger to a hunter (like a hawk or lion). How are their feeding strategies different, and why might both types be important in nature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that scavengers eat already-dead animals while hunters kill live prey, describes how hunters control populations while scavengers prevent waste and disease, and recognizes both strategies support ecosystem balance and energy transfer.",
+        "meets": "Student identifies that scavengers eat dead animals and hunters catch living animals, and explains that both are important because they get food different ways or help the ecosystem.",
+        "approaching": "Student recognizes the difference between scavenging and hunting, but provides limited explanation of why both strategies matter or makes incomplete connections to ecosystem function.",
+        "beginning": "Student attempts a comparison but shows unclear understanding of the feeding strategies or provides minimal explanation of their ecological importance."
+      }
+    },
+    {
+      "questionText": "If you were designing a new scavenger animal for a specific environment, what adaptations would it need?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student selects a specific environment, identifies multiple realistic adaptations (such as sensory, physical, or digestive features) suited to that habitat, and explains how each adaptation would help the animal find and process carrion effectively.",
+        "meets": "Student names an environment and describes 2-3 appropriate adaptations (e.g., strong claws, good sense of smell, tough skin) with reasonable explanations of how they support scavenging in that setting.",
+        "approaching": "Student suggests an environment and identifies 1-2 adaptations, but explanations are vague or only partially connected to the scavenging role or specific environment challenges.",
+        "beginning": "Student proposes an adaptation with minimal detail or unclear connection to scavenging needs, or provides responses that are not realistic for the chosen environment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:26:39.934Z",
+  "cost": 0.005593
+}

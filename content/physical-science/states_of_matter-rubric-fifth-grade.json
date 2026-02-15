@@ -1,0 +1,53 @@
+{
+  "title": "States Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe happening to the water around the valve?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations including water pooling, spreading, or flowing, and describes the water's appearance or movement with precise details (e.g., 'water is leaking out and spreading across the ground in different directions').",
+        "meets": "Student accurately describes what is happening to the water, such as water leaking or pooling around the valve with basic detail.",
+        "approaching": "Student identifies that water is present around the valve but provides vague or partially accurate descriptions of what is happening (e.g., 'water is there').",
+        "beginning": "Student makes a minimal attempt to describe observations with little accuracy or detail (e.g., 'water is wet' or no clear observation stated)."
+      }
+    },
+    {
+      "questionText": "Why do you think the water is flowing downhill and spreading across the ground instead of staying in one spot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gravity pulls the water downhill and identifies that liquids flow and take the shape of their container, connecting these concepts to explain why water spreads rather than staying still.",
+        "meets": "Student provides a reasonable explanation that water flows downhill because of gravity or that liquids spread, showing basic understanding of liquid behavior.",
+        "approaching": "Student attempts an explanation but provides incomplete reasoning, such as mentioning gravity or flowing without fully connecting these ideas to why the water spreads.",
+        "beginning": "Student provides a vague or inaccurate explanation with minimal connection to how liquids behave (e.g., 'the water just does that' or unrelated statements)."
+      }
+    },
+    {
+      "questionText": "If you were an engineer fixing this leak, what would you need to know about how water behaves as a liquid to design a better solution?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple relevant properties of liquids (flows downhill, spreads, takes shape of container, follows gravity) and explains how understanding these behaviors would help prevent leaks or contain water (e.g., 'I'd need to know water flows everywhere, so I'd seal the valve and add drainage').",
+        "meets": "Student identifies at least two properties of liquids that an engineer should understand and connects them to designing a solution to the leak problem.",
+        "approaching": "Student identifies one property of liquid behavior or suggests a solution idea but provides incomplete explanation of why this knowledge matters for fixing the leak.",
+        "beginning": "Student provides minimal or vague ideas about liquid behavior with little connection to engineering a solution (e.g., 'fix the valve' with no explanation of liquid properties involved)."
+      }
+    },
+    {
+      "questionText": "How might this water leak affect the community, and what steps could be taken to prevent it?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple community impacts (wasted water, unsafe conditions, property damage, cost) and proposes multiple preventive steps with specific details (e.g., 'regular maintenance checks, replacing old pipes, installing sensors to detect leaks early').",
+        "meets": "Student identifies at least one realistic community impact and suggests at least one reasonable preventive step with adequate explanation.",
+        "approaching": "Student identifies a community impact or suggests prevention ideas but reasoning is incomplete or only partially developed (e.g., 'it wastes water' without explaining consequences, or 'fix it' without specific steps).",
+        "beginning": "Student provides minimal ideas about impacts or prevention with vague or unclear reasoning (e.g., 'bad for community' or 'fix the water' with no explanation)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:25:04.069Z",
+  "cost": 0.005367
+}

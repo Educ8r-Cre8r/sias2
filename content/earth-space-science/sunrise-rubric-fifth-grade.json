@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "If the sun doesn't actually move across the sky, what IS moving to make the sun appear to rise and set?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that Earth rotates on its axis and identifies this rotation as the cause of the sun's apparent movement; may include directional details (west to east) or explain how rotation creates the illusion of sun movement.",
+        "meets": "Student correctly identifies that Earth is moving/rotating and explains that this movement makes the sun appear to rise and set.",
+        "approaching": "Student mentions that Earth moves or rotates but provides incomplete explanation of how this causes the sun to appear to move across the sky.",
+        "beginning": "Student provides a vague or partially inaccurate response, such as confusing Earth's movement with the sun's actual motion, or stating the answer without explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think the colors at sunrise look different from the colors at noon when the sun is high in the sky?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that sunlight travels through more atmosphere at sunrise/sunset, causing light to scatter and filter differently, resulting in warmer colors (orange, red, pink); may mention that noon sunlight travels through less atmosphere and appears more yellow or white.",
+        "meets": "Student identifies that the sun's position in the sky or the amount of atmosphere the light passes through affects the colors seen, and accurately describes the color differences between sunrise and noon.",
+        "approaching": "Student recognizes that colors are different at sunrise versus noon but provides incomplete reasoning about why, such as mentioning the sun's position without explaining the atmospheric effect.",
+        "beginning": "Student provides minimal explanation or states that colors are different without attempting to explain the cause."
+      }
+    },
+    {
+      "questionText": "If you could travel west very quickly following the sunset, what would happen? How could you stay in daylight longer?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that traveling west would slow or delay sunset because you'd be moving opposite to Earth's rotation, and identifies the speed needed (approximately 1,000 mph at the equator) to stay in daylight or keep pace with the sunset.",
+        "meets": "Student correctly explains that traveling west would keep you in daylight longer or delay the sunset, and provides a clear reason related to Earth's rotation or movement across the planet.",
+        "approaching": "Student understands that traveling west could keep daylight longer but provides incomplete reasoning, or correctly identifies the concept but with unclear explanation.",
+        "beginning": "Student attempts to answer but shows minimal understanding, such as stating you'd stay in daylight without explaining why, or providing an inaccurate response."
+      }
+    },
+    {
+      "questionText": "At the same moment this sunrise was happening, it was nighttime on the opposite side of Earth. How is this possible?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that Earth is spherical and rotates, so different parts face the sun at different times; may include that only the side facing the sun experiences daylight while the opposite side is in darkness.",
+        "meets": "Student explains that Earth is round and rotates, which causes different locations to experience day and night at the same time, with one side facing the sun and the other side facing away.",
+        "approaching": "Student mentions that Earth is round or rotates but provides incomplete explanation of how this creates day and night on opposite sides simultaneously.",
+        "beginning": "Student provides a vague response or minimal attempt to explain the concept, such as acknowledging it happens without explaining the reason."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:46:28.949Z",
+  "cost": 0.005256
+}

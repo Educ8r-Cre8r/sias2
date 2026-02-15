@@ -1,0 +1,53 @@
+{
+  "title": "White Ibises",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What does the ibis use its long beak for?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the ibis uses its long beak to find and get food from the ground or water, and may add details like poking into mud or sand.",
+        "meets": "Student correctly states that the ibis uses its long beak to find food in the ground or water.",
+        "approaching": "Student mentions that the beak is used for finding food but provides limited or vague details about how or where.",
+        "beginning": "Student makes a simple statement about the beak (such as 'it eats' or 'it pecks') with little or no connection to finding food."
+      }
+    },
+    {
+      "questionText": "Why do you think the ibis walks in water instead of on dry land to find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that food (like fish, bugs, or worms) lives in water or mud, so the ibis goes where the food is, showing clear reasoning about habitat and feeding behavior.",
+        "meets": "Student provides a logical reason, such as the food is in the water, or there is more food in wet areas.",
+        "approaching": "Student attempts an explanation but it is unclear or partially correct, such as 'there is food there' without explaining what kind of food or why water matters.",
+        "beginning": "Student provides a response that shows little understanding, such as 'because it likes water' or 'to get wet,' with no connection to food."
+      }
+    },
+    {
+      "questionText": "If the ibis's beak was short and straight instead of long and curved, what would change about how it finds food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a short, straight beak could not reach deep into mud or water, could not scoop or probe as well, and describes how this would make finding food harder or impossible.",
+        "meets": "Student states that the ibis would have trouble finding food or could not reach food as deeply in the mud or water with a short, straight beak.",
+        "approaching": "Student recognizes that the beak shape matters for finding food but explanation is incomplete or unclear about how the change would affect the ibis.",
+        "beginning": "Student gives a vague response such as 'it wouldn't work' or 'it couldn't find food' with no explanation of why the beak shape matters."
+      }
+    },
+    {
+      "questionText": "How does living in a group help these ibises stay safe and find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple benefits, such as more eyes to watch for danger, sharing information about food locations, or protection from predators, showing understanding of group behavior.",
+        "meets": "Student explains at least one clear benefit, such as the group helping them stay safe by watching for danger, or helping them find more food together.",
+        "approaching": "Student recognizes that groups are helpful but gives limited or partially accurate details about safety or food-finding.",
+        "beginning": "Student states that groups help in a vague way, such as 'more birds are better,' with little explanation of how safety or food-finding benefit from being together."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:33:35.681Z",
+  "cost": 0.004873
+}

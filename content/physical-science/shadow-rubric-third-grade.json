@@ -1,0 +1,53 @@
+{
+  "title": "Shadow",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the shadow has the same shape as the rock?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that light from the sun cannot pass through the solid rock, so it blocks the light and makes a dark shape that matches the rock's outline; may mention that the shadow is created by the absence of light.",
+        "meets": "Student explains that the rock blocks the sunlight, which creates a shadow shaped like the rock because light cannot go through it.",
+        "approaching": "Student recognizes that the rock blocks light or that shadows copy shapes, but explanation is incomplete or lacks clarity about how blocking light creates the shadow shape.",
+        "beginning": "Student provides a minimal or vague response such as 'the shadow looks like the rock' without explaining why or how light and blocking are involved."
+      }
+    },
+    {
+      "questionText": "If we moved this rock to a different location, would the shadow look the same? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the shadow would look the same shape but in a different spot, and explains that the rock's shape hasn't changed so the shadow shape stays the same; may note that shadow position depends on where the sun is relative to the rock.",
+        "meets": "Student predicts the shadow shape would stay the same because the rock hasn't changed, though the shadow's location would move to a new spot.",
+        "approaching": "Student recognizes the shadow might look different but provides an incomplete or partially incorrect explanation; may confuse shadow shape with shadow size or position.",
+        "beginning": "Student gives a vague answer like 'yes' or 'no' without explanation, or suggests the shadow would look completely different without reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen to the shadow if we covered the sun with clouds? Can you explain why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that clouds would block or scatter the sunlight, causing the shadow to become very faint, disappear, or fade; demonstrates understanding that shadows need direct light to be visible.",
+        "meets": "Student explains that clouds would make the shadow disappear or become much lighter because the sunlight is blocked or dimmed by clouds.",
+        "approaching": "Student recognizes that clouds affect the shadow but gives an incomplete explanation; may say the shadow disappears without explaining that light is blocked.",
+        "beginning": "Student provides a minimal response such as 'the shadow would go away' or 'it would be dark' without explaining the connection between clouds and light."
+      }
+    },
+    {
+      "questionText": "How could we make the shadow bigger or smaller without moving the rock?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moving the light source (sun's position/time of day) closer or farther away, or changing the sun's angle in the sky, would make the shadow bigger or smaller; demonstrates understanding that shadow size depends on light direction and distance.",
+        "meets": "Student suggests moving the sun or changing the sun's position/angle, or mentions that the time of day affects shadow size, to make the shadow bigger or smaller.",
+        "approaching": "Student recognizes that something about the light needs to change but provides an unclear or incomplete explanation; may suggest moving light without fully explaining the effect.",
+        "beginning": "Student provides a vague or incorrect response such as 'we can't' or suggests moving the rock, which contradicts the constraint of the question."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:37:06.244Z",
+  "cost": 0.005087
+}

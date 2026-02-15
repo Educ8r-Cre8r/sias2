@@ -1,0 +1,53 @@
+{
+  "title": "Wind Turbines",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the turbine blades on a calm, windless day?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly explains that the blades would stop spinning or move very slowly, and connects this to the need for wind to generate energy, using terms like 'wind power' or 'energy production.'",
+        "meets": "Student accurately states that the blades would not spin or would spin slowly without wind, showing understanding of the basic relationship between wind and blade movement.",
+        "approaching": "Student indicates that something would change with the blades but provides incomplete reasoning, such as saying 'the blades stop' without explaining why.",
+        "beginning": "Student provides a vague response like 'they won't work' or 'something happens' with little connection to wind or energy concepts."
+      }
+    },
+    {
+      "questionText": "Why do you think the farmers chose this flat, open field for their wind turbines instead of placing them in a forest or near tall buildings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that open, flat areas have fewer obstacles blocking wind, and identifies multiple factors such as trees or buildings creating 'wind blocks' or 'shade,' demonstrating understanding of how geography affects wind flow.",
+        "meets": "Student correctly reasons that the open field allows more wind to reach the turbines compared to forests or buildings, showing basic understanding of wind movement and positioning.",
+        "approaching": "Student recognizes that the location matters but gives incomplete reasoning, such as 'there are no trees' without explaining how trees would affect the turbines.",
+        "beginning": "Student provides a general or inaccurate response like 'it's a good place' or 'they just wanted to' without connecting to wind or obstacles."
+      }
+    },
+    {
+      "questionText": "How is wind energy different from burning coal to make electricity, and why might one be better for Earth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that wind energy doesn't require burning fuel or producing pollution, while coal creates smoke and harmful gases, and explains how this benefits Earth's air and environment using specific environmental vocabulary.",
+        "meets": "Student correctly describes a key difference (wind uses natural wind vs. coal uses fuel) and identifies one environmental benefit, such as 'wind doesn't pollute' or 'wind is cleaner.'",
+        "approaching": "Student recognizes the two energy sources are different but provides incomplete or partially accurate comparisons, such as mentioning only one method or giving unclear environmental reasoning.",
+        "beginning": "Student attempts a comparison but shows minimal understanding, such as 'they're different' or provides inaccurate information about how either source works."
+      }
+    },
+    {
+      "questionText": "If we used wind turbines instead of coal power plants, what might change for the environment and for the air we breathe?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific environmental improvements, such as cleaner air, less pollution, protection of natural resources, or healthier ecosystems, and connects these changes to human health or Earth's future.",
+        "meets": "Student identifies at least two realistic environmental improvements from using wind turbines instead of coal, such as 'less air pollution' and 'cleaner air to breathe.'",
+        "approaching": "Student predicts some positive changes but reasoning is incomplete or vague, such as 'the air would be better' without explaining how or why.",
+        "beginning": "Student provides a minimal response with little detail or reasoning, such as 'things would change' or 'it would be better' without specific examples."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:16:13.921Z",
+  "cost": 0.005304
+}

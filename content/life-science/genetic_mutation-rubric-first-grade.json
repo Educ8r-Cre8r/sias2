@@ -1,0 +1,53 @@
+{
+  "title": "Genetic Mutation",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What colors do you see on this flower, and where are they?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more colors (pink, yellow, red, green) and uses location words (center, middle, outside, petals, leaves) to accurately describe where each color appears on the flower.",
+        "meets": "Student identifies two colors on the flower and correctly describes their location using simple position words like 'middle,' 'outside,' or 'on the petals.'",
+        "approaching": "Student identifies one or two colors but descriptions of location are vague or partially incorrect; may say 'on the flower' without specifying where.",
+        "beginning": "Student names one color or provides a response that is mostly unclear or inaccurate about color locations."
+      }
+    },
+    {
+      "questionText": "Why do you think this flower might have a bright yellow center in the middle?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a reasonable inference with supporting details, such as the yellow center helps bees or insects find the flower, or it contains pollen and nectar that insects need.",
+        "meets": "Student makes a simple, reasonable inference that the yellow center helps attract insects or bees to the flower.",
+        "approaching": "Student offers a guess about the yellow center but the reasoning is unclear or only partially connected to how flowers work.",
+        "beginning": "Student provides a response unrelated to the flower's function or simply describes the color without attempting an explanation."
+      }
+    },
+    {
+      "questionText": "If a bee visits this flower, what do you think it might be looking for?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific things a bee seeks like nectar, pollen, or food, and explains that the bright colors or center helps the bee find what it needs.",
+        "meets": "Student correctly identifies that a bee is looking for food, pollen, or nectar from the flower.",
+        "approaching": "Student mentions something the bee might want (such as food or pollen) but reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student provides a vague response or mentions something unrelated to what bees actually collect from flowers."
+      }
+    },
+    {
+      "questionText": "Look at other flowers in the garden. What do they have in common with this pink flower, and how are they different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least one clear similarity (such as all have petals, centers, or green leaves) and at least one difference (such as different colors, sizes, or number of petals) with specific descriptive details.",
+        "meets": "Student identifies at least one similarity and one difference between the pink flower and other flowers in the garden, using simple descriptive language.",
+        "approaching": "Student attempts to compare flowers but identifies only a similarity or only a difference, or comparisons lack clarity and detail.",
+        "beginning": "Student's response shows minimal effort to compare or contains mostly inaccurate observations about the flowers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:05:11.580Z",
+  "cost": 0.004628
+}

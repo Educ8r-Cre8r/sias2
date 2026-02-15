@@ -1,0 +1,53 @@
+{
+  "title": "Force And Motion",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What forces are acting on the student while they are in the air?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies gravity as the primary force acting downward and may also mention air resistance or the initial upward force from the jump; explains the direction and effect of at least two forces with scientific accuracy.",
+        "meets": "Student correctly identifies gravity as a force acting on the student while in the air and explains that it pulls the student downward.",
+        "approaching": "Student mentions gravity or a downward force but provides limited explanation of how it acts on the jumping student.",
+        "beginning": "Student provides a vague response about forces (e.g., 'there are forces') or identifies an incorrect force without demonstrating understanding of gravity's role."
+      }
+    },
+    {
+      "questionText": "Why does the student come back down to the ground after jumping?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that gravity pulls the student downward and connects this to why the student cannot stay in the air; may mention that the upward force from the jump is temporary while gravity continues to act.",
+        "meets": "Student explains that gravity pulls the student back down to Earth after jumping.",
+        "approaching": "Student states that the student comes down but provides an incomplete or partially correct explanation (e.g., mentions gravity but doesn't clearly explain its role).",
+        "beginning": "Student provides a minimal response such as 'they fall' or 'gravity' without explaining the cause-and-effect relationship."
+      }
+    },
+    {
+      "questionText": "How would the student's jump be different on the Moon, where gravity is weaker than on Earth?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the student would jump higher and/or stay in the air longer on the Moon; explains that weaker gravity means less downward force, allowing the student to travel farther upward before falling back down.",
+        "meets": "Student predicts the student would jump higher on the Moon and correctly connects this to the Moon having weaker gravity.",
+        "approaching": "Student predicts a difference in the jump (higher or longer) but provides incomplete reasoning about how weaker gravity causes the change.",
+        "beginning": "Student makes a prediction about jumping on the Moon but provides no explanation or an inaccurate explanation of gravity's role."
+      }
+    },
+    {
+      "questionText": "What changes would the student need to make to jump higher—more force, less force, or the same amount of force?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that more force is needed and explains that greater force from the muscles pushing against the ground creates greater upward acceleration; may connect this to overcoming gravity.",
+        "meets": "Student correctly states that the student needs to use more force and explains that more force helps the student jump higher.",
+        "approaching": "Student identifies more force as the answer but provides limited or unclear explanation of how increased force results in a higher jump.",
+        "beginning": "Student provides a vague or incorrect response (e.g., guesses without reasoning or misidentifies the type of force change needed)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:55:08.583Z",
+  "cost": 0.004735
+}

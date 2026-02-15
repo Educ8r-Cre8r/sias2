@@ -1,0 +1,53 @@
+{
+  "title": "Wind Turbines",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think makes the wind that spins these turbine blades?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that moving air (wind) spins the blades and describes what causes wind to move, such as warm air rising or air moving from one place to another.",
+        "meets": "Student correctly identifies that wind or moving air spins the turbine blades with a simple, accurate explanation.",
+        "approaching": "Student mentions wind or air but provides an incomplete or partially unclear explanation of how it makes the blades spin.",
+        "beginning": "Student gives a vague response such as 'the wind' or 'air' without explaining the connection to spinning the blades."
+      }
+    },
+    {
+      "questionText": "How would the turbines spin differently on a very windy day versus a calm day? Why would that happen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that stronger wind causes faster spinning and calmer conditions cause slower or no spinning, and connects this to the amount of wind force available to push the blades.",
+        "meets": "Student correctly states that turbines spin faster on windy days and slower on calm days, with a basic explanation of why.",
+        "approaching": "Student identifies that wind strength affects spinning speed but gives incomplete reasoning or misses the cause-and-effect relationship.",
+        "beginning": "Student makes a simple observation about windy and calm days but does not clearly explain how turbine speed would differ or why."
+      }
+    },
+    {
+      "questionText": "If the sun didn't heat Earth, would there be wind? What would change?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sun's heat creates wind by warming air, and predicts that without sun heat there would be no wind or very different air movement, showing understanding of the sun's role in weather.",
+        "meets": "Student correctly identifies that the sun causes wind through heating and predicts there would be little or no wind without the sun.",
+        "approaching": "Student recognizes a connection between the sun and wind but provides unclear or incomplete reasoning about how the sun creates wind.",
+        "beginning": "Student gives a minimal response such as 'no wind' without explaining the sun's role in creating wind or air movement."
+      }
+    },
+    {
+      "questionText": "Where does the wind that moves these turbines come from? Can you trace it back to the sun?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces wind back to the sun by explaining that the sun heats Earth's air, causing it to move and creating wind, demonstrating understanding of the complete energy chain.",
+        "meets": "Student explains that wind comes from the sun heating air, or traces a basic connection between the sun's energy and wind movement.",
+        "approaching": "Student mentions that wind comes from the sun or air movement but the explanation is incomplete or somewhat unclear about the connection.",
+        "beginning": "Student gives a vague answer about where wind comes from (such as 'the sky' or 'outside') without connecting it to the sun or air heating."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:15:47.221Z",
+  "cost": 0.004677
+}

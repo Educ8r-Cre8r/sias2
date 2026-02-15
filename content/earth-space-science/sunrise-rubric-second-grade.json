@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the sky looks different colors at sunrise than it does in the middle of the day?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that light travels differently through the atmosphere at sunrise, noting that the sun is lower in the sky and light passes through more air, which scatters colors and creates the orange, pink, and red hues seen in the photo.",
+        "meets": "Student explains that the sun is in a different position at sunrise and that this causes the sky to look different colors, mentioning that the light looks orange or pink at sunrise but blue during the day.",
+        "approaching": "Student identifies that the sky is a different color at sunrise (such as orange or pink) compared to the middle of the day, but offers limited or unclear explanation for why this happens.",
+        "beginning": "Student provides a minimal response, such as 'the sky looks different' or 'because it's sunrise,' with little to no explanation of the connection between sun position and sky color."
+      }
+    },
+    {
+      "questionText": "If you observe the sunrise tomorrow morning, what colors do you predict you will see, and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific colors (orange, pink, red, yellow) based on patterns from the photo and explains that these colors appear because the sun is low on the horizon and light passes through more atmosphere, which scatters light.",
+        "meets": "Student predicts that colors similar to those in the photo (such as orange, pink, or red) will appear at sunrise tomorrow and gives a simple reason, such as 'because the sun is just coming up' or 'like in the picture.'",
+        "approaching": "Student makes a prediction about sunrise colors but the reasoning is unclear or only partially connected to sunrise conditions; may describe colors without explaining why they would occur.",
+        "beginning": "Student provides a vague or inaccurate prediction, such as naming random colors or stating 'it will look like the picture' without any reasoning or explanation."
+      }
+    },
+    {
+      "questionText": "How is a sunrise different from a sunset? Do you think the same science explains both?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that sunrise happens in the morning when the sun rises in the east and sunset happens in the evening when the sun sets in the west, then explains that the same science (light scattering through the atmosphere when the sun is low) creates similar colors in both events.",
+        "meets": "Student describes basic differences (sunrise is morning/sun coming up, sunset is evening/sun going down) and recognizes that both events might produce similar colors because the sun is low in the sky in both cases.",
+        "approaching": "Student identifies some differences between sunrise and sunset but struggles to clearly explain the science; may mention that both have colors but unclear connection to sun position or light scattering.",
+        "beginning": "Student provides minimal or confused information, such as only naming 'one is morning and one is night' without connecting this to sky colors or scientific reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen if Earth did not rotate? Would we still have sunrises?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that Earth's rotation causes the sun to appear to move across the sky and that sunrises occur because different parts of Earth rotate toward the sun; concludes that without rotation, there would be no sunrises because one side would always face the sun and the other would always face away.",
+        "meets": "Student recognizes that rotation is needed for sunrises to happen and explains that without Earth spinning, we would not see the sun rise; may describe that one side of Earth would always be lit and the other always dark.",
+        "approaching": "Student shows partial understanding that Earth's rotation is connected to sunrises but explanation is incomplete or unclear; may state that sunrises wouldn't happen but with vague reasoning about rotation.",
+        "beginning": "Student provides minimal or inaccurate response, such as 'no sunrises' or 'yes, sunrises' without any explanation of Earth's rotation or how it relates to sunrise events."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:46:03.308Z",
+  "cost": 0.005855
+}

@@ -1,0 +1,53 @@
+{
+  "title": "White Ibises",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the ibis's beak is curved instead of straight like a straw?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the curved beak helps the ibis probe and dig into mud or water to find food, and identifies specific prey (crabs, shrimp, insects) or explains how the curve gives better control or leverage.",
+        "meets": "Student describes that the curved beak helps the ibis find or catch food in the mud or water, showing understanding of the beak's function.",
+        "approaching": "Student recognizes the beak is curved and mentions it is used for getting food, but explanation is vague or incomplete.",
+        "beginning": "Student makes a simple observation about the beak being curved but provides little or no explanation about its purpose or use."
+      }
+    },
+    {
+      "questionText": "If all the wetlands near this ibis colony disappeared, what would happen to the ibises and other animals living there?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that ibises would lose their home and food source, and describes how other wetland animals would also be affected; may mention that ibises would need to move or that the whole ecosystem would be damaged.",
+        "meets": "Student identifies that ibises would lose their habitat and food, and recognizes that other animals living in wetlands would also be harmed.",
+        "approaching": "Student understands that wetlands are important to ibises but explanation is incomplete; may mention only habitat loss or only food loss, not both.",
+        "beginning": "Student provides a vague response such as 'the birds would be sad' or 'they couldn't live there,' with minimal understanding of habitat or food needs."
+      }
+    },
+    {
+      "questionText": "Compare the ibis to another bird you know (like a robin or chicken). How are their beaks, legs, and food different? Why do you think those differences exist?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes specific differences in beaks (curved vs. straight), legs (long and thin vs. short), and food (water animals vs. seeds/worms), and explains how these differences help each bird survive in its habitat.",
+        "meets": "Student identifies at least two body differences between ibises and another bird, and explains that these differences help them eat different foods or live in different places.",
+        "approaching": "Student identifies one or two physical differences (beak or legs) but explanation of why the differences exist is incomplete or unclear.",
+        "beginning": "Student names another bird but provides minimal or inaccurate comparisons, with little understanding of how body parts relate to habitat or food."
+      }
+    },
+    {
+      "questionText": "If you could design a new bird to live in a different habitat (like a desert or forest), what special body parts would it need and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a bird with multiple realistic body parts suited to a specific habitat and explains clearly how each part helps the bird find food, stay cool/warm, or survive (e.g., strong thick beak for cracking seeds in desert, or short wings for flying through trees).",
+        "meets": "Student describes a new bird with 2-3 body parts adapted to a chosen habitat and provides reasonable explanations for how these parts help the bird survive.",
+        "approaching": "Student describes body parts for a habitat but explanations are basic or partially unclear; may describe only one adaptation or lack specific habitat details.",
+        "beginning": "Student names some body parts but provides vague or minimal reasoning about why they would help the bird survive in the chosen habitat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:33:59.113Z",
+  "cost": 0.005329
+}

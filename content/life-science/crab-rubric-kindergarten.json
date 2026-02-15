@@ -1,0 +1,53 @@
+{
+  "title": "Crab",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the crab is doing in the sand, and why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple crab behaviors (hiding, digging, finding food) and explains at least two reasons why the crab does these things (protection, getting food, staying cool).",
+        "meets": "Student identifies one crab behavior (such as hiding or looking for food) and provides a simple, logical reason why the crab does it.",
+        "approaching": "Student makes an attempt to describe what the crab is doing or suggests a reason, but explanation is vague or only partially connected to crab survival.",
+        "beginning": "Student provides a minimal response such as 'the crab is in the sand' with little or no explanation of why."
+      }
+    },
+    {
+      "questionText": "How does the crab's hard shell help it survive on the beach?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the shell protects the crab from predators and identifies at least one additional benefit (protection from sun, water loss, or impact).",
+        "meets": "Student clearly states that the hard shell protects the crab from harm, danger, or predators on the beach.",
+        "approaching": "Student recognizes the shell is hard and protective but gives an incomplete or unclear explanation of how this helps the crab survive.",
+        "beginning": "Student mentions the shell is hard but does not explain how this helps the crab survive, or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if a crab could not find any food in the sand?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a consequence (crab would be hungry, weak, or move away) and explains a logical chain of what might happen next (such as the crab moving to find food or becoming sick).",
+        "meets": "Student makes a reasonable prediction that the crab would need to find food elsewhere or would become hungry, showing basic cause-and-effect thinking.",
+        "approaching": "Student attempts a prediction but reasoning is unclear or only partially connected to how animals need food to survive.",
+        "beginning": "Student provides a vague response or prediction without connecting it to the crab's need for food to survive."
+      }
+    },
+    {
+      "questionText": "Where else do you think crabs might live, and what would they need there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests realistic habitats for crabs (ocean, rocks, mud) and identifies multiple things crabs would need in those places (water, food sources, shelter, or protection).",
+        "meets": "Student suggests a reasonable crab habitat (such as rocks or ocean water) and names at least one thing crabs would need to survive there.",
+        "approaching": "Student suggests a possible habitat but provides limited or unclear explanation of what crabs would need, or the connection is not fully developed.",
+        "beginning": "Student names a location with little reasoning, or does not explain what crabs would need to live there."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:40:41.215Z",
+  "cost": 0.004695
+}

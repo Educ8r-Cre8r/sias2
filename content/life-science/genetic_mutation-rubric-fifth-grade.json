@@ -1,0 +1,53 @@
+{
+  "title": "Genetic Mutation",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "If you planted seeds from this pink zinnia flower, would all the baby flowers be the same pink color? Why or why not?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts that baby flowers would NOT all be the same pink color and provides a detailed explanation using the concept of inherited traits or genes, demonstrating understanding that seeds carry different genetic information.",
+        "meets": "Student correctly predicts that baby flowers would likely have different pink shades and provides a reasonable explanation that mentions inherited traits or differences in seeds.",
+        "approaching": "Student makes a prediction about flower color variation but explanation is incomplete or shows partial understanding of why flowers might be different colors.",
+        "beginning": "Student provides a vague response (such as 'they might be different') with little or no explanation of inheritance or trait variation."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the garden if all the flowers were the same color instead of different shades? How might that affect the insects that visit them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple effects of color uniformity on the garden ecosystem, including reduced insect attraction and explains how insects use color variation to find flowers, demonstrating understanding of organism interactions.",
+        "meets": "Student identifies at least two reasonable effects, such as fewer insects visiting the garden or less interest from pollinators, with adequate explanation of how flower color variety helps insects.",
+        "approaching": "Student identifies one effect (such as fewer insects) but explanation lacks detail or shows incomplete understanding of the relationship between flower color and insect behavior.",
+        "beginning": "Student provides a minimal response with vague ideas about insects or garden changes, showing little understanding of ecosystem relationships."
+      }
+    },
+    {
+      "questionText": "This flower has pink petals and a yellow center. How is this different from the other flowers you see in the background? What does this tell us about how traits are inherited?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student accurately describes the visible differences in flower appearance and explains that different traits (colors, patterns) are inherited differently, demonstrating understanding that organisms inherit a combination of traits from parents.",
+        "meets": "Student describes observable differences between the zinnia and background flowers and makes a connection to trait inheritance or variation among related plants.",
+        "approaching": "Student identifies some visual differences but makes only a weak or incomplete connection to how traits are inherited.",
+        "beginning": "Student notices the flower looks different but provides little explanation or demonstrates minimal understanding of inherited traits."
+      }
+    },
+    {
+      "questionText": "If a bee is attracted to bright pink flowers more than pale pink flowers, how might this affect which zinnia plants produce the most seeds over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that bright pink flowers would be pollinated more by bees, produce more seeds, and over time more plants would have bright pink traits—demonstrating understanding of natural selection and how traits increase in a population.",
+        "meets": "Student identifies that bright pink flowers would attract more bees, receive more pollination, and likely produce more seeds, showing understanding of how pollination success relates to trait inheritance.",
+        "approaching": "Student makes a connection between bee preference and seed production but explanation is incomplete or lacks clarity about how this affects future flower colors in the population.",
+        "beginning": "Student provides a minimal or vague response showing little understanding of how pollinator preference influences which plants reproduce successfully."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:05:46.242Z",
+  "cost": 0.005087
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Food Chain",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What does this lizard need to live in this place?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific needs (food, water, shelter, warmth) and explains how the lizard uses items in the photo to meet those needs.",
+        "meets": "Student identifies two or more basic needs for the lizard (such as food, water, or a place to hide) with simple explanations.",
+        "approaching": "Student identifies one need for the lizard or mentions multiple needs with limited or unclear explanations.",
+        "beginning": "Student provides a vague answer (like 'food') with little or no explanation of why the lizard needs it."
+      }
+    },
+    {
+      "questionText": "Why do you think the lizard's skin color is brown instead of bright red?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that brown skin helps the lizard blend in (camouflage) with its surroundings and describes how this protects it from predators or helps it hunt.",
+        "meets": "Student explains that the brown color helps the lizard blend in with the dirt and rocks in its habitat.",
+        "approaching": "Student mentions that the brown color matches the ground or rocks but does not clearly explain why this is helpful.",
+        "beginning": "Student gives a simple observation about the color but shows no understanding of why the lizard's color matters."
+      }
+    },
+    {
+      "questionText": "If we took this lizard away from the dirt and rocks, what problems might it have?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple problems such as loss of shelter, inability to hide from predators, loss of camouflage, or difficulty finding food, and explains consequences.",
+        "meets": "Student identifies at least two problems the lizard would face, such as no place to hide or no protection from predators.",
+        "approaching": "Student identifies one problem the lizard might face (like having nowhere to hide) with limited explanation.",
+        "beginning": "Student provides a vague answer about the lizard having trouble, with little specific reasoning."
+      }
+    },
+    {
+      "questionText": "What other animals do you think live in the same habitat as this lizard, and what would they need?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student names two or more realistic habitat animals and identifies specific needs for each (insects need plants, snakes need small animals to eat, birds need trees), showing understanding of the ecosystem.",
+        "meets": "Student names one or two animals that could live in this habitat and identifies at least one need for the animals.",
+        "approaching": "Student names one realistic habitat animal but provides vague or incomplete information about what it needs.",
+        "beginning": "Student names an animal that may not fit this habitat or provides little information about what animals need to survive."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:59:27.091Z",
+  "cost": 0.00442
+}

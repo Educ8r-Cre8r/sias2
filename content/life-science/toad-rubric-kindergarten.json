@@ -1,0 +1,53 @@
+{
+  "title": "Toad",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the toad's skin and why might it look that way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple specific features of the toad's skin (bumpy, wet, brown) and explains two or more reasons why it looks this way, such as bumps help it hide or water keeps its skin moist.",
+        "meets": "Student describes the toad's bumpy or wet skin and provides one reasonable explanation for why it looks that way, such as bumps for hiding or water for staying wet.",
+        "approaching": "Student notices the toad's skin looks bumpy or wet but provides incomplete or unclear reasoning about why it looks this way.",
+        "beginning": "Student makes a simple observation about the toad's appearance but provides no explanation or an inaccurate one."
+      }
+    },
+    {
+      "questionText": "Where do you think this toad lives and what does it need to stay healthy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific habitat where toads live (like wet areas, gardens, or near water) and lists three or more things toads need, such as water, food, shelter, and shade.",
+        "meets": "Student identifies where toads might live (such as on the ground or near water) and names two needs like water and food or a place to hide.",
+        "approaching": "Student suggests a general place where toads live or names one or two things they need, but reasoning is unclear or partially incorrect.",
+        "beginning": "Student provides a vague answer about where toads live or what they need, with little detail or accuracy."
+      }
+    },
+    {
+      "questionText": "How is this toad the same or different from other animals you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares the toad to another animal by identifying two or more specific similarities or differences in appearance or behavior, such as 'Toads have bumpy skin but frogs have smooth skin' or 'Toads hop like rabbits.'",
+        "meets": "Student identifies one clear similarity or difference between the toad and another animal, such as both having eyes or toads being different colors than a pet.",
+        "approaching": "Student attempts a comparison but is vague or partially inaccurate, such as stating a similarity or difference without clear details.",
+        "beginning": "Student provides a minimal or unclear comparison with little evidence of recognizing similarities or differences."
+      }
+    },
+    {
+      "questionText": "What would happen if this toad couldn't find water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the toad would become sick or die because toads need water to keep their skin wet and moist, using specific reasoning about why water is important.",
+        "meets": "Student states that the toad would get sick, dry out, or have a problem, and connects this to the toad needing water to stay healthy.",
+        "approaching": "Student recognizes that something bad would happen without water but provides incomplete or partially unclear reasoning.",
+        "beginning": "Student gives a vague answer such as 'the toad would be sad' with little connection to why water matters."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:33:06.900Z",
+  "cost": 0.004765
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Railroad",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What different materials do you see in this picture, and what job does each one do?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more materials (metal rails, wooden ties, rocks/ballast) and explains what each one does with specific details, such as rails guide the train or rocks hold the track in place.",
+        "meets": "Student identifies at least two materials and explains the basic job each one does, such as metal rails and wooden ties, with generally accurate descriptions.",
+        "approaching": "Student identifies one or two materials but provides incomplete or unclear explanations of their jobs, or names materials but describes only one job accurately.",
+        "beginning": "Student names one material or provides vague descriptions of what materials do without clear connections between materials and their purposes."
+      }
+    },
+    {
+      "questionText": "Why do you think the railroad tracks look closer together far away, even though they're probably the same distance apart all the way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that things look smaller and closer when far away, connecting this to how our eyes see distance, and may mention vanishing point or perspective with grade-appropriate language.",
+        "meets": "Student correctly explains that things far away look smaller or closer together, and recognizes this happens even though the actual distance between tracks stays the same.",
+        "approaching": "Student shows partial understanding by noting that the tracks look different far away or that distance affects how things look, but the explanation is incomplete or somewhat confused.",
+        "beginning": "Student provides a minimal response, such as 'they look close' or 'they are far away,' without explaining why this happens or the connection to how we see distance."
+      }
+    },
+    {
+      "questionText": "If you wanted to build your own railroad track with blocks or sticks, what materials would you choose and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student selects materials and provides thoughtful reasons related to properties like strength, durability, or function (e.g., 'I would use metal bars because they are strong like real rails and won't bend easily').",
+        "meets": "Student chooses appropriate materials and gives reasonable explanations based on what would work for a model railroad track, such as straight sticks for rails or rocks for support.",
+        "approaching": "Student suggests materials but gives limited or unclear reasons, such as 'I would use sticks because they look like tracks' without explaining why those materials would work well.",
+        "beginning": "Student names materials with little connection to how they would function in a railroad track, or provides unclear reasoning for material choices."
+      }
+    },
+    {
+      "questionText": "What would happen if the rocks under the tracks were removed? Why do you think that would be a problem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that rocks (ballast) hold the tracks in place and predicts that without them, the tracks would shift, move, or become unstable, and recognizes why this would be dangerous for trains.",
+        "meets": "Student correctly predicts that removing the rocks would cause a problem with the tracks, such as the tracks moving or not staying in the right place, and provides a basic explanation.",
+        "approaching": "Student recognizes that removing rocks would cause a problem but provides incomplete reasoning, such as 'the track would move' without explaining why this matters or what happens to the rocks' function.",
+        "beginning": "Student gives a minimal or unclear response, such as 'it would be bad' or 'the rocks are important,' without explaining what would happen to the tracks."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:20:20.752Z",
+  "cost": 0.005208
+}

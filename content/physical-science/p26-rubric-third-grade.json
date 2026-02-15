@@ -1,0 +1,53 @@
+{
+  "title": "Buoyancy",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we filled the ship completely with water instead of cargo?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the ship would sink and explains that water is heavier than cargo or that the ship needs air spaces to float, showing understanding of how weight and buoyancy work together.",
+        "meets": "Student predicts the ship would sink and provides a reasonable explanation, such as 'it would be too heavy' or 'water would fill it up.'",
+        "approaching": "Student predicts the ship would sink but gives an incomplete or unclear explanation, such as 'because water is in it' without explaining why that matters.",
+        "beginning": "Student makes a prediction but provides no explanation, or the response shows confusion about what would happen (e.g., 'it would float higher')."
+      }
+    },
+    {
+      "questionText": "How is this big ship similar to a small toy boat floating in your bathtub?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both float on water, both have a bottom that touches the water, both hold cargo or objects) and explains that both are kept up by water pushing on them.",
+        "meets": "Student identifies at least two clear similarities, such as both float on water or both carry things, using simple, accurate descriptions.",
+        "approaching": "Student identifies one similarity between the ship and toy boat, but the explanation is vague or partially unclear.",
+        "beginning": "Student attempts to compare but provides minimal detail, vague statements, or focuses only on differences rather than similarities."
+      }
+    },
+    {
+      "questionText": "Why might the ship's designers make the bottom part red and the top part black?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the red bottom might help see wear or rust in water, or that the colors might help with visibility/safety, and the black top helps hide dirt or makes the ship easier to see from far away.",
+        "meets": "Student suggests a practical reason for the colors, such as the red shows where the ship is in the water, or the colors help keep the ship looking nice or help people see it.",
+        "approaching": "Student gives a reason for the colors but it is incomplete or somewhat unclear, such as 'red and black are good colors' without explaining why they were chosen.",
+        "beginning": "Student provides a response that shows little understanding, such as 'because designers like those colors' or gives no explanation at all."
+      }
+    },
+    {
+      "questionText": "What forces are working on this ship right now to keep it floating?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two forces: gravity pulling the ship down and water pushing up (buoyancy), and explains that these forces balance to keep the ship floating.",
+        "meets": "Student identifies the water pushing up on the ship (buoyancy) and mentions gravity or weight pulling it down, with a basic explanation of how these work together.",
+        "approaching": "Student mentions water pushing on the ship or the ship being heavy, but the explanation of how forces balance is unclear or incomplete.",
+        "beginning": "Student mentions one force in vague terms, such as 'water keeps it up' or 'it's heavy,' without explaining how forces work to keep it floating."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:20:03.595Z",
+  "cost": 0.004915
+}

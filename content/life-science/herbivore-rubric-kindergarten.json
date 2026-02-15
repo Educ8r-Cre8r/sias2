@@ -1,0 +1,53 @@
+{
+  "title": "Herbivore",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think made these footprints, and why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names a specific large animal (deer, elk, moose, bear) and gives a detailed reason why that animal would leave deep tracks, such as its weight or the softness of the ground.",
+        "meets": "Student names a large animal and provides a simple reason for the tracks, such as 'The animal walked there' or 'It stepped in the mud.'",
+        "approaching": "Student names an animal but gives vague or incomplete reasoning, or identifies only that 'something big' made the tracks without naming the animal.",
+        "beginning": "Student makes a guess with little reasoning, provides an incorrect animal, or gives a response unrelated to the footprints shown."
+      }
+    },
+    {
+      "questionText": "How do you know a big animal made these tracks instead of a small animal?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the tracks are big/deep and compares them to a small animal, such as 'A small animal like a squirrel would have tiny feet' or 'The tracks are too deep and wide for a small animal.'",
+        "meets": "Student observes that the tracks are large or deep and correctly connects this to a big animal's size or weight.",
+        "approaching": "Student notices the tracks are big but struggles to clearly explain why this shows a big animal made them, or uses unclear reasoning.",
+        "beginning": "Student gives a minimal response such as 'It's big' without explanation, or provides an inaccurate response."
+      }
+    },
+    {
+      "questionText": "Where else might we find animal tracks, and why do animals leave tracks in those places?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple locations (mud, sand, snow, dirt) and explains why tracks show up in each, such as 'Mud and sand are soft so feet sink in' or 'Snow shows tracks because it's white.'",
+        "meets": "Student names one or two locations where tracks appear and gives a simple explanation, such as 'In mud because it's soft' or 'On snow where the animal walked.'",
+        "approaching": "Student names a location but gives unclear or incomplete reasoning about why tracks appear there, or names a location but no explanation.",
+        "beginning": "Student names a location with no explanation, or gives an irrelevant response."
+      }
+    },
+    {
+      "questionText": "If you found tracks like these near your house, what could the animal have been looking for?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies what a large herbivore eats or needs (food, plants, water, a safe place) and explains how the animal would find it near a house, such as 'Looking for plants or grass to eat' or 'Searching for water from a pond.'",
+        "meets": "Student names something the animal might be looking for, such as 'food,' 'water,' or 'grass,' with a simple connection to why it would be near a house.",
+        "approaching": "Student names what the animal might be looking for but reasoning is unclear or incomplete, or gives a partially accurate response.",
+        "beginning": "Student makes a guess with little or no reasoning, or provides an inaccurate or irrelevant response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:12:27.768Z",
+  "cost": 0.005008
+}

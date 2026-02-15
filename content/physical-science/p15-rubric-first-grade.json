@@ -1,0 +1,53 @@
+{
+  "title": "Ice",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you see happening in this glass?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies water, ice cubes, AND fog/smoke coming from the glass, using clear descriptive words like \"cold\" or \"white mist.\"",
+        "meets": "Student describes at least two things they observe, such as ice cubes in water and fog rising from the glass.",
+        "approaching": "Student names one or two things they see (ice, water, or fog) but descriptions are vague or incomplete.",
+        "beginning": "Student makes a minimal observation with little detail, such as \"there's ice\" or \"it's foggy,\" or provides an unclear response."
+      }
+    },
+    {
+      "questionText": "Why do you think the fog is coming out of the water?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that very cold ice cools the air around the water and causes water to turn into fog or mist, showing understanding of temperature change.",
+        "meets": "Student gives a reasonable explanation that the ice is cold and makes fog, or that cold air makes fog appear.",
+        "approaching": "Student attempts an explanation but confuses cause and effect, such as saying \"the water makes fog\" without mentioning cold.",
+        "beginning": "Student gives a vague answer like \"I don't know\" or \"it just does,\" with no attempt to explain the cause."
+      }
+    },
+    {
+      "questionText": "How is this different from what happens when you put regular ice in water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that regular ice does not make fog, and describes that this ice must be extra cold or frozen differently, demonstrating understanding that temperature affects fog formation.",
+        "meets": "Student identifies that regular ice doesn't create fog like this, and suggests the ice in the photo is colder or more special.",
+        "approaching": "Student recognizes there is a difference but cannot clearly explain what it is, such as saying \"it's different\" without details.",
+        "beginning": "Student cannot identify a difference or provides an inaccurate comparison with minimal reasoning."
+      }
+    },
+    {
+      "questionText": "What other times have you seen fog or clouds appear?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes two or more real-world examples of fog or clouds with specific details, such as \"fog over the lake in the morning\" or \"clouds when it gets cold outside.\"",
+        "meets": "Student provides one or two accurate examples of when they have seen fog or clouds, such as outside on a cold day or during rain.",
+        "approaching": "Student attempts to give an example but it is unclear or loosely connected to fog/clouds, such as mentioning weather without specifics.",
+        "beginning": "Student provides no examples or an example unrelated to fog or clouds, such as \"I saw water\" with no connection to the topic."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:02:18.207Z",
+  "cost": 0.00445
+}

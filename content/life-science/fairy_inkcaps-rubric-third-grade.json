@@ -1,0 +1,53 @@
+{
+  "title": "Fairy Inkcaps",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think mushrooms appeared in this wood chip pile when they weren't there before?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms grew from spores or tiny living parts already in the wood chips, and connects this to mushrooms being decomposers that break down dead wood for food.",
+        "meets": "Student states that mushrooms grew from something in the wood chips or that they grew because there was dead wood available for them to eat.",
+        "approaching": "Student recognizes that something in or about the wood chips caused the mushrooms to grow, but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as 'mushrooms just grew there' or 'they came from somewhere' with little explanation."
+      }
+    },
+    {
+      "questionText": "What do you think the mushroom is doing under the ground where we can't see it?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mushroom's hidden part (mycelium) is breaking down dead wood into nutrients or food, using the term 'decomposer' or similar concept accurately.",
+        "meets": "Student describes that the mushroom is breaking down or eating the wood, or getting food and water from the ground/wood chips.",
+        "approaching": "Student recognizes the mushroom is doing something under the ground but explanation lacks detail or accuracy (e.g., 'eating,' 'growing' without specifics).",
+        "beginning": "Student provides a vague response such as 'growing' or 'living there' with minimal explanation of the mushroom's function."
+      }
+    },
+    {
+      "questionText": "How are mushrooms different from plants, even though they both grow from the ground?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as: mushrooms don't make their own food/sunlight like plants, mushrooms break down dead things, or mushrooms don't have roots or leaves.",
+        "meets": "Student identifies at least one clear difference, such as mushrooms don't need sunlight, mushrooms eat dead things instead of making their own food, or mushrooms lack roots and leaves.",
+        "approaching": "Student attempts to compare but explanation is incomplete or partially accurate (e.g., mentions color or size differences rather than how mushrooms function differently).",
+        "beginning": "Student provides minimal or vague response, such as 'they look different' or 'mushrooms aren't green' without functional explanations."
+      }
+    },
+    {
+      "questionText": "If we picked all the mushrooms off, would they grow back in the same spot? Why or why not?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts mushrooms would grow back and explains that the hidden underground part (mycelium/network) is still alive and can produce new mushrooms as long as dead wood remains.",
+        "meets": "Student predicts mushrooms would grow back and gives a reasonable explanation, such as 'the part underground is still there' or 'it can keep breaking down the wood.'",
+        "approaching": "Student makes a prediction but reasoning is incomplete or unclear (e.g., 'yes, because mushrooms grow fast' without mentioning the underground part).",
+        "beginning": "Student makes a prediction with little or no explanation, or provides an unclear response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:13:39.398Z",
+  "cost": 0.005006
+}

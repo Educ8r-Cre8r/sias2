@@ -1,0 +1,53 @@
+{
+  "title": "Germination",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this seed in the next few days?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts specific growth changes (stem grows taller, more leaves appear, root grows longer) and explains that the seed is becoming a plant with accurate scientific reasoning.",
+        "meets": "Student predicts the seed will continue to grow into a plant with accurate but general observations about what will happen next.",
+        "approaching": "Student predicts some growth will happen but description is vague or partially accurate (e.g., 'it will get bigger' without specifics).",
+        "beginning": "Student provides minimal prediction with little detail or accuracy (e.g., 'it will grow' or 'something will happen')."
+      }
+    },
+    {
+      "questionText": "Why do you think the green part is growing up instead of down, and the brown root-like part is growing down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that stems grow toward light and roots grow into soil/water, using accurate directional language and showing understanding of how plants respond to their environment.",
+        "meets": "Student correctly identifies that the green part (stem) grows up and the brown part (root) grows down, with a basic explanation of why (e.g., roots need soil, stems need light).",
+        "approaching": "Student recognizes the different directions but explanation is incomplete or partially inaccurate (e.g., only describes what happens without explaining why).",
+        "beginning": "Student describes the directions but provides no clear explanation or shows misconceptions about why each part grows that way."
+      }
+    },
+    {
+      "questionText": "What do you think this seed needed to start growing? How do you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple seed needs (water, warmth, soil/nutrients) and explains how they know by referencing evidence in the photo (moisture visible, healthy growth shown).",
+        "meets": "Student identifies at least two seed needs (water and warmth/soil) with simple explanations based on observations of the healthy sprouting seed.",
+        "approaching": "Student identifies one seed need with limited explanation, or identifies multiple needs but with unclear reasoning.",
+        "beginning": "Student names one need with minimal or no explanation of how they know, or provides vague responses."
+      }
+    },
+    {
+      "questionText": "If we put this seed in a dark closet with no water, what would happen? Why would it be different from the seed in this picture?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the seed would not grow well or would die, explaining that plants need both water and light, and contrasts this clearly with the healthy seed shown in the photo.",
+        "meets": "Student predicts negative outcomes (seed stops growing, plant wilts, dies) and identifies that water and light are missing compared to the pictured seed.",
+        "approaching": "Student predicts something negative might happen but reasoning is incomplete; may identify only one missing resource (water OR light) or explanation lacks clarity.",
+        "beginning": "Student predicts an outcome with little to no explanation, or shows unclear understanding of what the seed needs to grow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:47:40.228Z",
+  "cost": 0.004829
+}

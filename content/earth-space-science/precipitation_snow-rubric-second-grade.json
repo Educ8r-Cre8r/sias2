@@ -1,0 +1,53 @@
+{
+  "title": "Precipitation Snow",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think snow is falling here and not rain?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snow falls when it is very cold/freezing and water freezes into ice crystals in the clouds before falling, using the term 'cold' or 'freezing' with clear reasoning.",
+        "meets": "Student states that snow falls because it is cold outside, showing basic understanding of the temperature connection to snow formation.",
+        "approaching": "Student mentions that it is cold or snow is frozen water, but does not clearly connect temperature to why snow falls instead of rain.",
+        "beginning": "Student provides a vague or incomplete response such as 'it snows' or gives an unrelated reason without addressing temperature or the freezing process."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the snow after it lands on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple outcomes such as snow melting into water if it warms up, piling up, or staying frozen, showing understanding of how temperature affects snow's state.",
+        "meets": "Student describes one realistic outcome such as the snow melting into water or the snow staying on the ground, demonstrating basic understanding of snow's behavior.",
+        "approaching": "Student attempts to describe what happens but with partial accuracy, such as mentioning melting without connecting it to temperature, or giving an unclear description.",
+        "beginning": "Student provides a minimal or inaccurate response such as 'it goes away' without explanation or with unclear reasoning."
+      }
+    },
+    {
+      "questionText": "How is snow different from rain? How are they the same?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (snow is frozen/cold, rain is liquid water) and similarities (both fall from clouds, both are water), demonstrating comprehensive understanding of precipitation forms.",
+        "meets": "Student identifies at least one clear difference and one similarity, such as 'snow is frozen and rain is wet' and 'both come from clouds,' showing solid understanding.",
+        "approaching": "Student identifies either a difference or a similarity but not both, or provides incomplete descriptions that lack clarity.",
+        "beginning": "Student provides minimal response with vague or inaccurate comparisons, such as 'they are different' without explanation or with unclear reasoning."
+      }
+    },
+    {
+      "questionText": "If the temperature got warmer, what would happen to the snow on this building?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the snow would melt into water and explains that warmer temperatures cause snow (frozen water) to turn into liquid water, showing clear cause-and-effect understanding.",
+        "meets": "Student predicts the snow would melt or disappear when it gets warmer, demonstrating understanding of temperature's effect on snow.",
+        "approaching": "Student predicts a change will happen to the snow but with unclear or partially accurate reasoning about why or how.",
+        "beginning": "Student provides a vague prediction such as 'the snow will go away' without explanation, or gives an inaccurate response about temperature's effect."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:42:46.208Z",
+  "cost": 0.004745
+}

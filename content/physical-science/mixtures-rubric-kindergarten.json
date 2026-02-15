@@ -1,0 +1,53 @@
+{
+  "title": "Mixtures",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you see happening in the bowl right now? What will happen next?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes what is currently happening (mixer is moving, ingredients are in bowl) and accurately predicts that the red and brown materials will mix together to create a new color or texture.",
+        "meets": "Student identifies what is in the bowl and predicts that mixing will happen next, showing basic understanding of the process.",
+        "approaching": "Student names some things they see (bowl, mixer, or colors) but makes an unclear or partially incorrect prediction about what happens next.",
+        "beginning": "Student gives a vague response or makes a prediction with little connection to what mixing does."
+      }
+    },
+    {
+      "questionText": "Why do you think the cook is using the mixer instead of just stirring by hand? What's the difference?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mixer spins faster and mixes more evenly than a hand stir, and connects this to why it is helpful (saves time, mixes better, easier).",
+        "meets": "Student identifies that the mixer moves faster or works better than stirring by hand, showing understanding of the tool's purpose.",
+        "approaching": "Student recognizes that the mixer and hand stirring are different but gives an incomplete explanation of how or why.",
+        "beginning": "Student provides a response that shows minimal understanding of the difference between using a mixer and stirring by hand."
+      }
+    },
+    {
+      "questionText": "If we stopped mixing right now, do you think we could separate the red and brown materials back into two piles again? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts no and explains that the wet red ingredient soaks into or bonds with the brown ingredient, making them impossible to separate back into two distinct piles.",
+        "meets": "Student correctly predicts no and gives a reason such as 'they're mixed together' or 'they stick together now.'",
+        "approaching": "Student makes a prediction but gives an unclear or partially incorrect explanation, or hesitates between yes and no.",
+        "beginning": "Student makes a guess with little or no reasoning, or gives an answer that doesn't connect to mixing properties."
+      }
+    },
+    {
+      "questionText": "What other things at home or at school do we mix together? What happens when we mix them?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple familiar mixtures (paint and water, juice and water, sand and water) and describes what happens to each one (colors change, liquids combine, textures change).",
+        "meets": "Student names at least one familiar mixture from home or school and describes what happens when materials are mixed together.",
+        "approaching": "Student names one or two things that are mixed but gives vague or incomplete descriptions of what happens.",
+        "beginning": "Student names something or gives a minimal response with little description of what happens when materials mix."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:14:52.511Z",
+  "cost": 0.004608
+}

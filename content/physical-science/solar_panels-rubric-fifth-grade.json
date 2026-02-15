@@ -1,0 +1,53 @@
+{
+  "title": "Solar Panels",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "If you could design a solar panel for your school, where would you place it and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies an optimal location with multiple specific reasons, such as a south-facing roof or unshaded area, and explains how sunlight availability maximizes energy production using accurate scientific reasoning.",
+        "meets": "Student identifies an appropriate location (such as a roof or open area) and provides a logical reason related to sunlight exposure or shade avoidance.",
+        "approaching": "Student suggests a location but gives only a vague reason related to placement, such as 'it's sunny' or 'it's on top,' without fully explaining how location affects solar panel function.",
+        "beginning": "Student names a location with little or no reasoning, or provides reasoning that shows minimal understanding of how solar panels use sunlight."
+      }
+    },
+    {
+      "questionText": "Why do you think some people choose to install solar panels on their roofs even though they cost money upfront?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple long-term benefits, such as reduced electricity bills over time, lower energy costs, or environmental benefits, and recognizes that upfront costs are offset by future savings or advantages.",
+        "meets": "Student identifies at least one logical reason why the upfront cost is worth it, such as saving money on electricity bills in the future or reducing energy use.",
+        "approaching": "Student provides a partial reason, such as 'to save money' or 'it's good for the environment,' but does not clearly connect upfront costs to long-term benefits.",
+        "beginning": "Student offers a minimal or unclear response, such as 'people like them' or 'they work,' without addressing the cost-benefit question."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the electricity production if you covered part of a solar panel with a blanket? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that electricity production would decrease and explains that solar panels need sunlight to generate electricity, and a blanket blocks sunlight from reaching that part of the panel.",
+        "meets": "Student predicts a decrease in electricity production and provides a basic reason related to sunlight being blocked or reduced.",
+        "approaching": "Student predicts a change in electricity production but gives an incomplete explanation, such as 'it won't work as well' without clearly connecting the cause to blocked sunlight.",
+        "beginning": "Student makes a guess with no clear reasoning, or provides an inaccurate prediction such as 'it would make more electricity.'"
+      }
+    },
+    {
+      "questionText": "Compare how a solar panel creates electricity to how a wind turbine might create electricity. How are they similar and different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both use renewable energy sources to generate electricity) and differences (solar panels use sunlight, wind turbines use moving air; different mechanisms for energy conversion), demonstrating understanding of both technologies.",
+        "meets": "Student identifies at least one similarity and one difference between solar panels and wind turbines, such as 'both make electricity but one uses sun and one uses wind.'",
+        "approaching": "Student attempts a comparison but provides only partial or unclear details, such as mentioning one technology without fully explaining how it differs from the other.",
+        "beginning": "Student provides minimal or vague comparison information, or focuses on only one technology without attempting a comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:35:01.677Z",
+  "cost": 0.005125
+}

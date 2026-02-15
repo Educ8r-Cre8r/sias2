@@ -1,0 +1,53 @@
+{
+  "title": "Fairy Inkcaps",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "If you found mushrooms growing in your yard, what do you think they were eating or breaking down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that mushrooms break down dead or decaying material (wood chips, leaves, dead plants) and explains that mushrooms help turn old things into nutrients for soil, using specific examples from the photo or prior observations.",
+        "meets": "Student correctly identifies that mushrooms break down dead material like wood or leaves and explains that this helps decompose things in nature.",
+        "approaching": "Student recognizes that mushrooms eat or break down something and mentions dead material, but explanation is incomplete or lacks clarity about the decomposition process.",
+        "beginning": "Student provides a vague or inaccurate response, such as eating dirt or bugs, or states uncertainty about what mushrooms consume without attempting further explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think mushrooms need to release so many spores into the air instead of just one or two?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that many spores increase the chances that some will land in good growing spots and explains that releasing many spores helps mushrooms spread to new places since most won't grow or might get lost.",
+        "meets": "Student explains that releasing many spores helps ensure that at least some will find a good place to grow and start new mushrooms.",
+        "approaching": "Student recognizes that more spores increase chances of growth but provides incomplete reasoning, such as stating only that more spores are better without explaining why.",
+        "beginning": "Student offers minimal explanation, such as 'because there are lots of them' or 'to spread spores,' without reasoning about survival or successful growth."
+      }
+    },
+    {
+      "questionText": "What would happen to all the dead leaves and wood in the forest if there were no mushrooms or decomposers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead leaves and wood would pile up and not break down, and connects this to how nutrients wouldn't return to soil for plants to use, or how the forest would become cluttered.",
+        "meets": "Student correctly explains that dead leaves and wood would pile up and stay in the forest if decomposers were gone, or states that they would not break down.",
+        "approaching": "Student recognizes that something would happen to dead material but explanation is unclear or incomplete, such as 'they would stay there' without describing accumulation or consequences.",
+        "beginning": "Student provides a minimal or unclear response, such as 'they would be messy' or shows little understanding of the decomposer's role in nature."
+      }
+    },
+    {
+      "questionText": "How are mushrooms different from the plants we grow in our classroom garden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences, such as that mushrooms don't have roots or need soil to grow (they grow on wood/dead material), don't make their own food like plants do, or don't have leaves or flowers, and explains why these differences matter.",
+        "meets": "Student identifies at least two clear differences between mushrooms and garden plants, such as no roots, no leaves, or that they grow on different materials and break down dead things instead of making food.",
+        "approaching": "Student identifies one difference between mushrooms and plants but description lacks detail, or mentions differences that are partially accurate but unclear.",
+        "beginning": "Student provides a vague observation like 'they look different' or 'they're smaller' without identifying meaningful biological differences between mushrooms and plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:13:30.938Z",
+  "cost": 0.005228
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Herbivore",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What animal do you think made these tracks, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific animal and provides two or more reasons based on observable track features, such as size, shape, or depth of prints.",
+        "meets": "Student identifies a reasonable animal and gives one clear reason connected to the tracks, such as the size or shape of the footprints.",
+        "approaching": "Student names an animal but provides a reason that is vague or only partially connected to the track features shown.",
+        "beginning": "Student names an animal but offers no reason, or the reason shows little understanding of how tracks help identify animals."
+      }
+    },
+    {
+      "questionText": "How would tracks look different if a bigger animal walked here?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes two or more specific differences, such as larger prints, deeper indentations, or wider spacing between steps, showing clear comparison thinking.",
+        "meets": "Student describes one clear difference between these tracks and those of a bigger animal, such as prints being larger or deeper.",
+        "approaching": "Student mentions that tracks would look different but describes the difference in general or unclear terms.",
+        "beginning": "Student provides a minimal response, such as 'they would be bigger,' with little detail or explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think this animal was walking near these plants and water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a connection to animal needs, such as finding food or water to drink, and explains why these resources would attract a herbivore to this location.",
+        "meets": "Student identifies a reasonable reason for the animal being near plants and water, such as eating plants or getting a drink.",
+        "approaching": "Student suggests a reason but it is only partially connected to herbivore needs or the visible features in the photo.",
+        "beginning": "Student provides a vague reason or one that shows minimal understanding of why animals visit certain locations."
+      }
+    },
+    {
+      "questionText": "If we found tracks like these in our schoolyard, what would that tell us about the animals that live near our school?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple pieces of information the tracks reveal, such as what type of animal lives there, whether the area provides what the animal needs, or how the animal moves.",
+        "meets": "Student explains that the tracks tell us what animal lives near the school or that certain animals visit our area, showing an understanding of what tracks reveal.",
+        "approaching": "Student states that tracks tell us animals are near the school but provides limited detail about what we can learn from them.",
+        "beginning": "Student provides a minimal response, such as 'an animal was there,' without explaining what this tells us about the animals living near school."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:12:34.806Z",
+  "cost": 0.004376
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Cicada Shell",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think was inside this shell before the cicada left it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly identifies that a live cicada was inside the shell and describes specific body parts (like legs, wings, or head) that would have been inside.",
+        "meets": "Student correctly identifies that a live cicada or baby cicada was inside the shell.",
+        "approaching": "Student identifies that something living was inside the shell but is vague about what (says 'a bug' or 'an insect' without naming cicada).",
+        "beginning": "Student provides a response that shows minimal understanding, such as naming an incorrect animal or giving no clear answer."
+      }
+    },
+    {
+      "questionText": "Why did the cicada need to leave its shell? What does this tell us about how the cicada grows?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cicada grew too big for its shell and needed to shed it to keep growing, and uses the word 'molt' or describes this as part of the insect's life cycle.",
+        "meets": "Student explains that the cicada grew bigger and needed to leave its old shell so it could continue to grow or become a grown-up.",
+        "approaching": "Student recognizes that the cicada left the shell because of growth but provides an incomplete or partially unclear explanation.",
+        "beginning": "Student offers a vague response or incorrect reason for why the cicada left the shell (e.g., 'it wanted to' without connecting to growth)."
+      }
+    },
+    {
+      "questionText": "If you found this shell on a tree, how would you know that a cicada lived inside it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple observable features of the shell (shape like an insect body, hard papery texture, openings where the cicada exited, or location on tree bark) that would tell you a cicada lived there.",
+        "meets": "Student identifies at least two observable features of the shell (such as its insect-like shape, hard texture, or that it looks like a hollow body covering) that show a cicada was inside.",
+        "approaching": "Student identifies one observable feature of the shell that suggests an insect lived inside, but explanation lacks detail.",
+        "beginning": "Student provides a minimal or unclear response that does not connect visible shell features to evidence of a cicada."
+      }
+    },
+    {
+      "questionText": "What might happen if the cicada could not shed its old shell?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cicada would not be able to grow bigger and would stay stuck inside the shell, eventually becoming sick or unable to survive, showing understanding of why shedding is necessary.",
+        "meets": "Student explains that the cicada would not be able to grow or would get stuck in the shell, preventing it from becoming a grown-up.",
+        "approaching": "Student recognizes something bad would happen to the cicada but provides an incomplete or partially unclear explanation of the consequences.",
+        "beginning": "Student provides a vague answer or suggests an incorrect consequence without clear reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:57:01.346Z",
+  "cost": 0.004771
+}

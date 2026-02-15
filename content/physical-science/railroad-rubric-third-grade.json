@@ -1,0 +1,53 @@
+{
+  "title": "Railroad",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the railroad tracks are made of two rails running side by side instead of just one single rail?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that two rails provide stability and balance for the train, and extends thinking by describing how the rails work together to guide and support the heavy train from multiple directions.",
+        "meets": "Student identifies that two rails help balance or guide the train, demonstrating understanding that two rails are more stable than one.",
+        "approaching": "Student mentions that two rails are needed but provides incomplete reasoning, such as 'it helps the train' without explaining how stability or balance is achieved.",
+        "beginning": "Student gives a vague response like 'because that's how it is' or makes an inaccurate guess with little connection to how rails support a train."
+      }
+    },
+    {
+      "questionText": "What would happen to a train if the wooden ties weren't there to hold up the metal rails?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the rails would collapse or bend under the train's weight, and explains that ties distribute weight to prevent this, showing understanding of how ties support the structure.",
+        "meets": "Student correctly predicts that the rails would sag, collapse, or drop, demonstrating understanding of the ties' support function.",
+        "approaching": "Student attempts to predict a consequence but is unclear or partially inaccurate, such as 'the rails might move' without explaining the effect of losing support.",
+        "beginning": "Student provides a minimal or inaccurate prediction with little evidence of understanding the ties' role in supporting the rails."
+      }
+    },
+    {
+      "questionText": "How do you think the gravel under the ties helps keep the tracks in place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gravel provides a stable base and helps anchor the ties in place, and may add that it also helps water drain away or spreads the weight of the train.",
+        "meets": "Student identifies that gravel holds or stabilizes the ties, preventing them from moving or shifting out of position.",
+        "approaching": "Student recognizes that gravel plays a role but gives incomplete reasoning, such as 'gravel keeps things down' without explaining how stability is maintained.",
+        "beginning": "Student offers minimal explanation or an inaccurate idea about gravel's function, showing limited understanding of how it supports the track system."
+      }
+    },
+    {
+      "questionText": "If you had to design a track system to hold something even heavier than a train, what changes might you make?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple thoughtful changes with reasoning, such as thicker/stronger rails, closer-spaced ties, or deeper gravel bases, demonstrating understanding of how each component handles weight.",
+        "meets": "Student suggests one or two reasonable modifications such as stronger rails or more ties, with clear reasoning that connects to handling extra weight.",
+        "approaching": "Student proposes a change but provides unclear or partially logical reasoning, or suggests changes that don't clearly relate to supporting greater weight.",
+        "beginning": "Student offers a vague idea with little explanation, or suggests changes without clear connection to the problem of supporting heavier loads."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:20:42.985Z",
+  "cost": 0.004858
+}

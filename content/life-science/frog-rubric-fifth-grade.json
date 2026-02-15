@@ -1,0 +1,53 @@
+{
+  "title": "Frog",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How might this frog's appearance help it survive in its rainforest home?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple adaptations (green color, smooth skin, body shape) and explains how each helps the frog survive by avoiding predators or blending with environment; uses accurate vocabulary like camouflage.",
+        "meets": "Student identifies that the frog's green color helps it blend in with leaves and stay hidden from predators, demonstrating understanding of basic camouflage.",
+        "approaching": "Student recognizes the frog is green and mentions it helps with hiding, but explanation is incomplete or lacks detail about how this helps survival.",
+        "beginning": "Student provides a vague response like 'it helps it hide' or 'the color is green' with little connection to survival or predator avoidance."
+      }
+    },
+    {
+      "questionText": "What would happen to this frog population if all the green plants in their habitat died?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple interconnected consequences: loss of camouflage protection, loss of food sources (insects), loss of habitat/shelter; predicts population decline and connects to food chain.",
+        "meets": "Student identifies that frogs would lose camouflage and food sources, leading to population decrease; shows understanding of habitat dependence.",
+        "approaching": "Student mentions that losing plants would harm frogs but explanation is incomplete, such as only discussing camouflage loss or food loss, not both.",
+        "beginning": "Student provides a minimal response like 'frogs would die' or 'they need plants' without explaining the relationship between plants and frog survival."
+      }
+    },
+    {
+      "questionText": "Compare this frog's camouflage strategy to how other animals you know hide from predators.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares the frog's color-matching camouflage to at least two other animals (e.g., polar bear, butterfly, deer); explains similarities and differences in camouflage strategies and why different strategies work in different environments.",
+        "meets": "Student compares the frog's camouflage to one or two other animals and identifies both similarities (blending in) and differences in how they hide.",
+        "approaching": "Student mentions another animal's camouflage but comparison is surface-level; may describe both strategies without explaining how they are similar or different.",
+        "beginning": "Student names another animal but provides little meaningful comparison, or describes only one strategy without real connection between the two."
+      }
+    },
+    {
+      "questionText": "Design an experiment to test whether frogs with better camouflage are harder for predators to find.",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a clear experimental design with: identified variables (camouflage quality as independent variable, detection time/rate as dependent variable), control group, fair test procedures, and logical prediction based on camouflage concept.",
+        "meets": "Student outlines a basic experiment with clear materials, steps, and a way to measure results; identifies what is being tested and predicts an outcome.",
+        "approaching": "Student describes an experiment idea but is missing key components, such as no control group, unclear measurements, or incomplete procedure; prediction may be vague.",
+        "beginning": "Student attempts to describe an experiment but it lacks clarity, contains major logical gaps, or does not clearly test the relationship between camouflage and predator detection."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:32:58.919Z",
+  "cost": 0.005134
+}

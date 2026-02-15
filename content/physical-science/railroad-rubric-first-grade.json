@@ -1,0 +1,53 @@
+{
+  "title": "Railroad",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the two railroad tracks look closer together when we look far, far away?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that things look smaller and closer together when they are far away (perspective) and may mention that this happens because they are far from us or that our eyes make distant things appear that way.",
+        "meets": "Student recognizes that the tracks look closer together when far away and attempts to explain this is because of distance or how things look when they're far away.",
+        "approaching": "Student notices the tracks look closer together far away but provides unclear or incomplete reasoning, such as 'they just do' or vague references to distance.",
+        "beginning": "Student gives a minimal response with little explanation, such as 'they're far' or 'I don't know,' or provides an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "What would happen if the railroad ties were not there to hold the metal rails apart?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the rails would move closer together, touch, or come off their path, and recognizes that the ties keep the rails the correct distance apart so trains can safely run on them.",
+        "meets": "Student correctly predicts that without ties the rails would move closer together or touch, understanding that ties hold them apart.",
+        "approaching": "Student recognizes ties are important or that something would change without them, but reasoning is unclear or partially incorrect, such as 'the tracks would break' without explaining how.",
+        "beginning": "Student provides minimal or inaccurate response, such as 'it would be bad' or makes a guess with no reasoning about the rails or their spacing."
+      }
+    },
+    {
+      "questionText": "Can you think of other things you've seen that look like they come together when they are far away, even though they don't really?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more examples of perspective (such as roads, hallways, or rows of trees) and explains that they look like they meet in the distance but don't actually touch.",
+        "meets": "Student provides at least one clear example of something that appears to come together in the distance (such as a road or hallway) and shows understanding that it's similar to the railroad tracks.",
+        "approaching": "Student provides an example but with unclear connection to perspective, such as mentioning something that gets smaller but not clearly explaining that it appears to meet in the distance.",
+        "beginning": "Student struggles to provide an example or provides an unrelated answer, such as naming objects that don't demonstrate perspective."
+      }
+    },
+    {
+      "questionText": "Why do you think the people who built the railroad used metal rails instead of wood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a well-reasoned explanation with specific details, such as metal is stronger, lasts longer, doesn't break easily, or can carry heavy trains better than wood.",
+        "meets": "Student explains that metal is stronger or better for trains than wood, showing basic understanding of material properties.",
+        "approaching": "Student mentions that metal is stronger or that trains need metal, but reasoning is vague or incomplete, such as 'metal is better' without explanation.",
+        "beginning": "Student provides minimal response with little reasoning, such as 'because they did' or an inaccurate statement about metal or wood."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:20:11.519Z",
+  "cost": 0.005044
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Properties Of Matter",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the yellow liquid inside the container? Can you describe what it looks like?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific observations about the liquid (color, that it is wet/flows, that it fills the bottom of the container) using sensory language and shows curiosity about its properties.",
+        "meets": "Student accurately identifies the yellow color and describes the liquid as wet, flowing, or filling the container with simple, clear language.",
+        "approaching": "Student identifies the color yellow or mentions it is a liquid, but description is vague or lacks detail about what makes it look the way it does.",
+        "beginning": "Student makes a minimal attempt to describe the liquid with very limited or unclear details, such as just saying 'yellow' or 'wet' without further observation."
+      }
+    },
+    {
+      "questionText": "Why do you think this liquid needs to be in a container instead of just sitting loose in the engine like a solid block?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that liquids flow and would spill or leak without a container, and connects this to why the engine needs the liquid to stay in one place to work properly.",
+        "meets": "Student correctly explains that the liquid would spill or spread out if not in a container, showing understanding that liquids need to be held by containers.",
+        "approaching": "Student recognizes that the container holds the liquid or that the liquid would spill, but reasoning is incomplete or partially unclear.",
+        "beginning": "Student provides a minimal or vague response, such as 'so it doesn't spill,' without demonstrating clear understanding of why liquids behave differently than solids."
+      }
+    },
+    {
+      "questionText": "How is this yellow liquid different from a toy block or a piece of wood? What can liquids do that solids cannot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that liquids flow and change shape while solids keep their shape, and provides specific examples of what liquids can do (pour, drip, spread) that solids cannot.",
+        "meets": "Student explains that liquids flow and take the shape of their container, while solids keep their own shape, showing clear understanding of the key difference.",
+        "approaching": "Student identifies that liquids and solids are different and may mention flowing or shape-changing, but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student makes a minimal attempt to compare them, such as stating one is hard and one is wet, without explaining how their behaviors differ."
+      }
+    },
+    {
+      "questionText": "If we poured this liquid into a different-shaped container (like a cup instead of this rectangular one), what would happen to its shape?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the liquid would take the shape of the cup and explains that liquids always fit the shape of their container, demonstrating deep understanding of liquid properties.",
+        "meets": "Student correctly predicts the liquid would change shape and fit the cup, showing solid understanding of how liquids behave in different containers.",
+        "approaching": "Student predicts the liquid would change or move, but the explanation of why is incomplete or unclear.",
+        "beginning": "Student makes a prediction but it is vague or inaccurate, showing minimal understanding of how liquids respond to different containers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:19:12.347Z",
+  "cost": 0.005019
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Hummingbird",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the hummingbird's wings?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that wings move very fast and look blurry, and explains that fast wing movement helps the hummingbird hover or stay in one place in the air.",
+        "meets": "Student accurately describes that the hummingbird's wings move very fast or look blurry in the picture.",
+        "approaching": "Student notices the wings are moving or mentions they look different, but description lacks detail or accuracy.",
+        "beginning": "Student makes a vague comment about the wings or provides an inaccurate observation with minimal detail."
+      }
+    },
+    {
+      "questionText": "Why do you think the hummingbird's beak is so long?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the long beak helps the hummingbird reach deep inside flowers to get nectar, and may mention this is a useful body part for the bird's food.",
+        "meets": "Student correctly states that the long beak helps the hummingbird drink nectar from flowers or reach inside flowers.",
+        "approaching": "Student suggests the beak is for getting food or drinking but explanation is unclear or partially correct.",
+        "beginning": "Student provides a guess about the beak with little connection to the hummingbird's feeding or flowers."
+      }
+    },
+    {
+      "questionText": "How do you think the hummingbird and the flower help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hummingbird gets food (nectar) from the flower, and the flower gets help being pollinated or making seeds when the hummingbird visits, showing understanding of mutual benefit.",
+        "meets": "Student identifies that the hummingbird gets food from the flower and the flower benefits from the hummingbird's visit, though explanation of how may be simple.",
+        "approaching": "Student recognizes that both the hummingbird and flower benefit, but explanation of how is unclear or incomplete.",
+        "beginning": "Student makes a simple statement that they help each other with little or no explanation of how."
+      }
+    },
+    {
+      "questionText": "If the flowers didn't have nectar, what would happen to the hummingbird?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the hummingbird would not have food to eat, would have to go find food elsewhere, or might get sick or not survive, showing understanding of consequences and the bird's food needs.",
+        "meets": "Student correctly predicts the hummingbird would have no food or would need to find food somewhere else.",
+        "approaching": "Student makes a prediction about the hummingbird but reasoning is unclear or partially logical.",
+        "beginning": "Student provides a simple answer with minimal reasoning or makes an inaccurate prediction about the consequences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:18:23.887Z",
+  "cost": 0.004488
+}

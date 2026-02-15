@@ -1,0 +1,53 @@
+{
+  "title": "Gulf of Mexico",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think someone placed a warning sign in the ocean? What does that tell us about what's happening to the beach and seafloor?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sign warns of erosion caused by waves removing sediment, and describes how this creates a dangerous drop-off; makes connection to how water shapes land over time.",
+        "meets": "Student identifies that the sign warns people about a dangerous drop-off and explains that waves are wearing away the beach and seafloor.",
+        "approaching": "Student states that the sign is a warning and mentions either waves or erosion, but does not clearly connect the two concepts.",
+        "beginning": "Student provides a vague answer about the sign being dangerous or mentions waves/erosion without clear explanation."
+      }
+    },
+    {
+      "questionText": "If waves have been hitting this coastline for thousands of years, what do you predict the seafloor might look like 100 years from now? What evidence would help you know if you're right?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the seafloor will erode further with a steeper drop-off and identifies multiple forms of evidence (photos over time, sediment measurements, new warning signs) to verify the prediction.",
+        "meets": "Student predicts increased erosion or a deeper drop-off and suggests at least one type of evidence (such as comparing old and new photos) to verify the prediction.",
+        "approaching": "Student makes a prediction about future erosion but provides limited or vague evidence, or identifies evidence without clearly connecting it to the prediction.",
+        "beginning": "Student makes a simple prediction or mentions erosion but does not describe evidence or struggles to explain how evidence would help verify the prediction."
+      }
+    },
+    {
+      "questionText": "How are the water in the waves and the rocks and soil on the seafloor connected as a system? What does one do to the other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that waves (water) move sediment and break down rocks (causing erosion), and describes how this is a continuous interaction where water shapes the seafloor and sediment gets transported elsewhere.",
+        "meets": "Student identifies that waves move water that erodes rocks and soil, showing how water and seafloor materials interact as part of a system.",
+        "approaching": "Student recognizes that waves and the seafloor are connected or that water affects rocks, but the explanation of the relationship is incomplete or unclear.",
+        "beginning": "Student mentions waves or erosion separately without clearly describing how water and seafloor materials interact as a system."
+      }
+    },
+    {
+      "questionText": "Some people want to build a concrete wall to stop the waves from eroding the beach. What might be the advantages and disadvantages of doing this?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies at least two advantages (e.g., stops erosion, protects property) and two disadvantages (e.g., impacts wildlife, blocks natural sediment movement, affects other beaches) and explains the reasoning.",
+        "meets": "Student identifies at least one advantage and one disadvantage of building a wall with reasonable explanations for each.",
+        "approaching": "Student identifies advantages or disadvantages but with incomplete reasoning, or provides only one side with limited detail.",
+        "beginning": "Student provides minimal or vague ideas about advantages/disadvantages without clear explanation of how a wall would affect the beach system."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:42:59.207Z",
+  "cost": 0.005166
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Camouflage",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this lizard's color is brown and tan instead of bright red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the lizard's brown and tan colors match the bark and leaves around it, helping it hide from predators or prey, and uses the term 'camouflage' or 'blend in' accurately.",
+        "meets": "Student identifies that the lizard's colors match its surroundings (bark and leaves) and explains this helps the lizard hide or stay safe.",
+        "approaching": "Student recognizes that the lizard's color is similar to its environment, but the explanation of why this matters is unclear or incomplete.",
+        "beginning": "Student provides a vague answer such as 'it's brown because it lives there' with little connection to hiding or survival."
+      }
+    },
+    {
+      "questionText": "If this same lizard lived on a bright green plant instead of dark bark, what might happen to it? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the lizard would be easier to see because its brown color would stand out against the bright green, making it more vulnerable to predators, and explains that its camouflage would no longer work.",
+        "meets": "Student predicts the lizard would be easier to see on a bright green plant and explains that the brown color would not blend in anymore.",
+        "approaching": "Student predicts the lizard might be easier to see, but the explanation lacks clarity about why the color mismatch matters.",
+        "beginning": "Student provides a minimal response such as 'it would be different' without explaining what would happen or why."
+      }
+    },
+    {
+      "questionText": "What other animals might use camouflage to hide from predators, and where do they live?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals that use camouflage (e.g., deer, moth, frog, snow hare) and describes their habitats with specific details about how their colors match their environments.",
+        "meets": "Student names at least two animals that use camouflage and identifies where they live, showing understanding that their colors match their habitats.",
+        "approaching": "Student names one or two animals that use camouflage but provides vague habitat information or limited detail about how their colors help them hide.",
+        "beginning": "Student names an animal but provides little to no information about camouflage or habitat, or gives inaccurate examples."
+      }
+    },
+    {
+      "questionText": "How would a predator's life be different if all the animals it hunted were easy to see?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that predators would find food more easily and might catch prey faster, and also considers a consequence such as predators might not need to hunt as hard, animals might get sick more easily, or food chains might change.",
+        "meets": "Student explains that predators would have an easier time finding and catching food because prey would be visible without camouflage.",
+        "approaching": "Student recognizes that visible prey would make hunting easier, but the reasoning is incomplete or unclear about the impact on the predator.",
+        "beginning": "Student provides a minimal or vague response such as 'the predator would be happy' without explaining how hunting would change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:46:59.080Z",
+  "cost": 0.005022
+}

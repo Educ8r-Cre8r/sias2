@@ -1,0 +1,53 @@
+{
+  "title": "Arachnid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why is it hard to see the spider on the tree?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the spider's brown and gray colors match the tree bark, making it blend in or hide, and may add that this helps keep the spider safe from animals that want to eat it.",
+        "meets": "Student explains that the spider's color looks the same as the tree bark, so it is hard to see or that the spider blends in.",
+        "approaching": "Student identifies that the spider's color is similar to the tree or that something about the spider helps it hide, but explanation is unclear or incomplete.",
+        "beginning": "Student gives a vague response like 'it's hiding' or 'it's brown' without explaining the connection between the spider's color and the tree."
+      }
+    },
+    {
+      "questionText": "What would happen if this spider was bright red instead of brown? Would it be easier or harder to find?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly states it would be easier to find and explains that bright red stands out against the brown tree bark, so the spider would not blend in or hide well anymore.",
+        "meets": "Student correctly states it would be easier to find and provides a simple explanation that red doesn't match the tree or that it would stand out.",
+        "approaching": "Student states it would be easier to find but gives an incomplete or unclear reason, or correctly identifies the outcome without explaining why.",
+        "beginning": "Student gives an incorrect answer, provides only 'yes' or 'no' without reasoning, or shows confusion about how color helps animals hide."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal that hides by looking like its home?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names an appropriate animal and explains how its color or appearance matches its home environment (e.g., 'A caterpillar is green like leaves' or 'A bird's feathers look like branches').",
+        "meets": "Student names an appropriate animal and makes a simple connection to how it matches its home (e.g., 'A frog is green like leaves' or 'A butterfly looks like bark').",
+        "approaching": "Student names an animal but the explanation of how it hides is vague, partially incorrect, or weakly connected to camouflage.",
+        "beginning": "Student names an animal that doesn't use camouflage, provides no explanation, or shows misunderstanding of how animals blend in."
+      }
+    },
+    {
+      "questionText": "How do you think the spider got its brown color?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student recognizes that the spider was born with brown color or inherited it from its parents, and may note that this brown color helps it survive because it blends in with trees.",
+        "meets": "Student explains that the spider was born with the brown color or got it from its mom and dad, understanding it is natural to the spider.",
+        "approaching": "Student provides a partial answer about where color comes from (e.g., 'it grew brown' or 'it was always brown') but lacks clear understanding of inheritance or natural traits.",
+        "beginning": "Student provides an incorrect answer (e.g., 'the tree painted it'), offers no explanation, or shows confusion about how animals get their color."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:06:55.137Z",
+  "cost": 0.004987
+}

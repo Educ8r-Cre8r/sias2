@@ -1,0 +1,53 @@
+{
+  "title": "Amphibian",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this frog's feet and skin? Why do you think they look this way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific features (bumpy skin, sticky toe pads) and explains how each helps the frog survive, such as toe pads for climbing trees and bumpy skin for protection or moisture.",
+        "meets": "Student describes the frog's bumpy skin and special feet with toe pads, and provides a reasonable explanation that these features help the frog climb or stick to surfaces.",
+        "approaching": "Student notices some features like bumpy skin or special feet, but explanation is incomplete or shows only partial understanding of how these features help the frog.",
+        "beginning": "Student provides vague observations with little detail, or explanations that are unclear or inaccurate about the frog's adaptations."
+      }
+    },
+    {
+      "questionText": "How does this frog's gray color help it survive in nature?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gray color provides camouflage by blending with tree bark and wood, using the term 'camouflage' correctly and describing how this helps the frog hide from predators.",
+        "meets": "Student explains that the frog's gray color helps it blend in or hide in its environment so predators cannot see it easily.",
+        "approaching": "Student mentions that gray color helps the frog hide, but explanation lacks specific details about what the frog blends with or why hiding is important.",
+        "beginning": "Student provides minimal explanation or states that gray helps without explaining the connection to survival or hiding."
+      }
+    },
+    {
+      "questionText": "If this tree frog lived in a bright green forest instead of gray trees, how might its body be different, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the frog would be green to match its environment and explains that different colors help animals blend in with their surroundings, showing understanding of how adaptation connects to environment.",
+        "meets": "Student predicts the frog would likely be green instead of gray and explains that color helps the frog hide by blending in with plants in its environment.",
+        "approaching": "Student predicts the frog might be green, but reasoning is incomplete or lacks clear connection between environment and the need for camouflage.",
+        "beginning": "Student makes a prediction without explanation, or explanation shows confusion about why environment would affect the frog's color."
+      }
+    },
+    {
+      "questionText": "Compare this tree frog to a bullfrog that lives in ponds. What adaptations would be different and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (tree frog has sticky toe pads for climbing; bullfrog has powerful legs for jumping in water; different colors for different habitats) and explains how each adaptation matches the frog's specific environment.",
+        "meets": "Student identifies at least two clear adaptations that differ between tree frogs and bullfrogs (such as feet for climbing versus swimming, or colors for different environments) with reasonable explanations.",
+        "approaching": "Student identifies one or two differences in adaptations, but explanations lack detail or show incomplete understanding of how adaptations match each frog's habitat.",
+        "beginning": "Student attempts comparison but provides vague or inaccurate information about the frogs' different adaptations or habitats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:08:52.834Z",
+  "cost": 0.005087
+}

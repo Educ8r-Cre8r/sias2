@@ -1,0 +1,53 @@
+{
+  "title": "Deciduous Trees",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the different colored leaves in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple leaf colors (red, orange, yellow, green) with specific details, such as noticing that some trees have different colors than others or that leaves cover the ground.",
+        "meets": "Student names at least two different leaf colors they see in the picture, such as red, orange, or yellow leaves.",
+        "approaching": "Student names one leaf color or uses general color words (like 'pretty colors') but provides limited specific details about what they observe.",
+        "beginning": "Student gives a vague response about leaves or colors with minimal detail, such as 'they are different' or 'I see colors.'"
+      }
+    },
+    {
+      "questionText": "Why do you think some trees still have green leaves while others have changed colors?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that trees change with seasons and offers a reasonable cause, such as 'the weather got colder so some trees change colors first' or 'different types of trees change at different times.'",
+        "meets": "Student provides a simple explanation connecting tree leaf color to seasonal change, such as 'it got colder' or 'fall is happening.'",
+        "approaching": "Student makes a guess about why leaves change but with incomplete reasoning, such as 'some trees are older' or 'some trees like colors better.'",
+        "beginning": "Student makes a statement with little or no reasoning, such as 'they just do' or 'I don't know.'"
+      }
+    },
+    {
+      "questionText": "What do you predict this forest will look like in winter? What makes you think that?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific winter changes (bare trees, snow, no leaves) and explains reasoning by connecting to seasonal patterns or current observations, such as 'the trees will lose all their leaves because fall leaves always fall off in winter.'",
+        "meets": "Student makes a reasonable winter prediction (trees will be bare or have no leaves) and provides a simple explanation based on what happens in fall.",
+        "approaching": "Student makes a winter prediction but with weak reasoning, such as 'it will be cold' or 'trees will look different' without clear connection to leaf loss.",
+        "beginning": "Student makes an unclear prediction or provides no explanation, such as 'it will be white' or 'I think it will change.'"
+      }
+    },
+    {
+      "questionText": "How might the animals living in this forest prepare for the changes happening to the trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple animal preparations with specific details, such as 'birds will fly away because there won't be leaves for food' or 'squirrels will gather nuts and acorns to store for winter.'",
+        "meets": "Student identifies at least one way animals might prepare, such as 'animals might leave' or 'they will gather food' or 'they will find warm places to stay.'",
+        "approaching": "Student mentions animal preparation but with vague or incomplete details, such as 'animals will do something' or 'they will get ready' without explaining what they prepare for.",
+        "beginning": "Student provides minimal response or guesses without clear connection to tree changes, such as 'animals will move' or 'they will be fine.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:27:47.446Z",
+  "cost": 0.005049
+}

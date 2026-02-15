@@ -1,0 +1,53 @@
+{
+  "title": "Pollinator Waystation",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think some flowers are bright pink or orange, while others are white or pale yellow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flower colors attract different pollinators (e.g., bright colors attract bees and butterflies, some pale colors attract night pollinators) and connects this to how plants use color as a survival strategy to ensure pollination.",
+        "meets": "Student recognizes that different flower colors attract different insects and that bright colors help pollinators find the flowers for pollination.",
+        "approaching": "Student identifies that flower colors might attract insects or mentions that different colors exist, but provides incomplete reasoning about why this matters for the plant.",
+        "beginning": "Student makes a simple observation about flower colors (e.g., 'they look pretty') without connecting colors to pollinator attraction or plant survival."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the cosmos flowers in this garden if there were no bees, butterflies, or other insects to visit them?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that without pollinators, flowers would not produce seeds, and explains how this would reduce plant reproduction and eventually the flower population; may mention that the gardener could hand-pollinate as an alternative.",
+        "meets": "Student predicts that flowers would not make seeds or new flowers would not grow without insect pollinators.",
+        "approaching": "Student recognizes that something negative would happen to the flowers but provides vague reasoning (e.g., 'the flowers wouldn't do well') without explaining the connection to pollination or seed production.",
+        "beginning": "Student provides minimal response such as 'the flowers would die' without explaining the relationship between pollinators and plant reproduction."
+      }
+    },
+    {
+      "questionText": "How is the relationship between a flower and a bee different from the relationship between a predator and its prey?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student clearly explains that a flower-bee relationship is mutualistic (both benefit: bee gets nectar/pollen for food, flower gets pollinated), while a predator-prey relationship benefits only the predator and harms the prey; uses accurate science vocabulary.",
+        "meets": "Student identifies that the flower-bee relationship helps both organisms while the predator-prey relationship is harmful to the prey, or mentions that one relationship is beneficial and the other is not.",
+        "approaching": "Student recognizes some difference between the two relationships but with incomplete explanation (e.g., mentions one gets food but doesn't fully explain the mutual benefit or predator-prey harm).",
+        "beginning": "Student provides a minimal or inaccurate comparison showing little understanding of how the two relationships differ (e.g., 'they're both about eating')."
+      }
+    },
+    {
+      "questionText": "If someone wanted to create a pollinator waystation on the school grounds, what kinds of flowers would you choose, and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student selects specific flowers (e.g., cosmos, sunflowers, zinnias) and explains choices using multiple reasons: bright colors attract pollinators, bloom at different times to provide food throughout seasons, native to the region, or provide nectar and pollen; demonstrates understanding of pollinator needs.",
+        "meets": "Student suggests appropriate flower choices and provides at least one reasonable explanation related to pollinator attraction (e.g., bright colors, nectar for bees, or that pollinators like these flowers).",
+        "approaching": "Student suggests some flowers that could attract pollinators but gives incomplete reasoning or limited explanation of why those choices would support pollinators.",
+        "beginning": "Student names flowers with little to no explanation of why they would support pollinators, or provides responses unrelated to pollinator needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:42:09.815Z",
+  "cost": 0.005528
+}

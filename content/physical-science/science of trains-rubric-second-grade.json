@@ -1,0 +1,53 @@
+{
+  "title": "Science Of Trains",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What would happen if a car and a train tried to cross at the same time?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that a collision would occur and describes why the train cannot stop quickly (due to its size and weight), demonstrating understanding of cause and effect with specific details.",
+        "meets": "Student correctly identifies that a collision or crash would happen and recognizes that the train cannot stop in time to avoid it.",
+        "approaching": "Student states that something bad would happen but provides vague or incomplete reasoning about why a collision cannot be avoided.",
+        "beginning": "Student provides a minimal response such as 'they would crash' with little or no explanation of consequences."
+      }
+    },
+    {
+      "questionText": "Why do you think the train needs such a long distance to stop when the brakes are used?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the train is very heavy and carries lots of cargo, making it need more time and space to stop; may reference momentum or inertia in age-appropriate language.",
+        "meets": "Student correctly identifies that the train's weight or size makes it hard to stop quickly and requires a long stopping distance.",
+        "approaching": "Student recognizes the train is heavy or big but provides incomplete reasoning about why this affects stopping distance.",
+        "beginning": "Student gives a vague answer such as 'because it's big' without explaining the connection between size/weight and stopping distance."
+      }
+    },
+    {
+      "questionText": "How does the crossing signal help keep people safe?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the signal warns people to stop and stay away from the tracks before the train arrives, and describes how this prevents people from being hit.",
+        "meets": "Student states that the signal tells people to stop or warns them about the train coming, which keeps them safe.",
+        "approaching": "Student recognizes the signal is related to safety but provides incomplete explanation of how it prevents accidents.",
+        "beginning": "Student provides a minimal response such as 'it warns people' without explaining how this keeps them safe."
+      }
+    },
+    {
+      "questionText": "If we made the train lighter, would it stop faster or slower? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the train would stop faster and explains that less weight means the brakes have less material to slow down, using clear reasoning about the relationship between mass and stopping distance.",
+        "meets": "Student correctly predicts the train would stop faster and explains that a lighter train is easier to stop because it has less weight.",
+        "approaching": "Student makes the correct prediction but provides incomplete or partially accurate reasoning about why weight affects stopping distance.",
+        "beginning": "Student makes a prediction but provides no explanation, or gives an inaccurate prediction with minimal reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:28:47.634Z",
+  "cost": 0.00437
+}

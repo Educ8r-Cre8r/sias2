@@ -1,0 +1,53 @@
+{
+  "title": "Cicada Shell",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happened to the bug that was inside this shell?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the bug grew bigger and broke out of the shell, or that the bug left the shell behind when it became a grown-up bug, using observed details like the split shell.",
+        "meets": "Student correctly identifies that the bug came out of or left the shell, with a simple explanation of what happened.",
+        "approaching": "Student recognizes that the bug is no longer in the shell but provides limited or unclear reasoning about how or why it left.",
+        "beginning": "Student makes a vague guess about the shell or bug with little attempt to explain what happened to the insect."
+      }
+    },
+    {
+      "questionText": "Why do you think the shell split open in the middle?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bug pushed or squeezed its way out as it grew bigger, and describes how the shell needed to break open for the bug to escape.",
+        "meets": "Student identifies that the shell split to let the bug come out, with a reasonable explanation about growth or movement.",
+        "approaching": "Student suggests the shell split open but gives incomplete or partially accurate reasoning, such as mentioning the bug without clearly connecting it to growth or escape.",
+        "beginning": "Student notices the split but cannot explain why it happened, or provides an inaccurate reason unrelated to the insect."
+      }
+    },
+    {
+      "questionText": "If you could touch this shell, what do you think it would feel like, and why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the shell would feel hard, dry, thin, papery, or brittle, and explains the prediction by describing what the shell looks like (brown, empty, or similar observations).",
+        "meets": "Student predicts a reasonable texture for the shell and gives a simple reason based on its appearance in the photo.",
+        "approaching": "Student makes a texture prediction but gives weak or unclear reasoning, or reasons that don't connect clearly to the shell's appearance.",
+        "beginning": "Student guesses a texture with little or no explanation, or provides a prediction unrelated to the shell's appearance."
+      }
+    },
+    {
+      "questionText": "Can you find other evidence on this tree that shows bugs or animals live here?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the lichen as evidence of life on the tree and explains that lichen is a living thing, or names additional details like its color or location that show life exists there.",
+        "meets": "Student points to the lichen as evidence that something lives on or grows on the tree, recognizing it as a sign of life in the photo.",
+        "approaching": "Student notices the lichen or other details on the tree but does not clearly explain why these are signs of life, or makes unclear connections.",
+        "beginning": "Student points to something on the tree but cannot explain how it shows that bugs or animals live there, or provides minimal detail."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:56:54.104Z",
+  "cost": 0.004623
+}

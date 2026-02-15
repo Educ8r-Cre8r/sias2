@@ -1,0 +1,53 @@
+{
+  "title": "Soil",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors of the soil layers in this picture, and why do you think they look different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies all three soil layers and their colors accurately (dark top, reddish-brown middle, dark bottom), and explains that different colors show different materials like dead plants, minerals, or how old the soil is.",
+        "meets": "Student identifies at least two soil layers with correct colors and provides a simple explanation that different layers have different materials or age.",
+        "approaching": "Student notices the soil has different colors but names only one or two layers, or gives an incomplete reason like 'they're just different' without explaining why.",
+        "beginning": "Student notices colors are different but provides no accurate layer descriptions or reasons, such as 'they look different because they do' or vague responses."
+      }
+    },
+    {
+      "questionText": "How do you think the plants at the top of the soil got their water and food?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots absorb water and nutrients from the soil, and identifies specific soil parts like dead plants or minerals as sources of food/nutrients for plants.",
+        "meets": "Student correctly explains that roots take water and food from the soil, showing understanding that soil provides what plants need to grow.",
+        "approaching": "Student mentions roots and soil but explanation is incomplete, such as 'roots get water' without explaining how or where the water comes from.",
+        "beginning": "Student's response is vague or shows minimal understanding, such as 'plants need water' or 'soil helps them' without explaining the role of roots."
+      }
+    },
+    {
+      "questionText": "If we left dead leaves on the ground for a whole year, what do you predict would happen to them, and where would they end up?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that dead leaves would break down or decompose and become part of the soil, possibly mentioning that they mix into the dark top layer or become nutrients for new plants.",
+        "meets": "Student predicts that dead leaves would break down and become part of the soil or disappear into lower layers.",
+        "approaching": "Student makes a prediction about leaves changing or moving but reasoning is unclear, such as 'they would break' or 'go into the ground' without explaining the process.",
+        "beginning": "Student's prediction is vague, inaccurate, or shows minimal understanding, such as 'they would stay there' or 'they would go away' with no explanation."
+      }
+    },
+    {
+      "questionText": "Explain why soil is important for living things on Earth.",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons soil is important, such as providing food and water for plants, helping plants grow with nutrients, giving animals food through plants, or providing a home for living things.",
+        "meets": "Student explains that soil helps plants grow by providing water and nutrients, or that soil is needed for food and life on Earth.",
+        "approaching": "Student identifies that soil is important for plants or living things but explanation lacks detail, such as 'plants need soil' or 'soil helps life' without explaining how.",
+        "beginning": "Student's response is minimal or vague, such as 'soil is important' or 'it helps things' with little or no explanation of why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:40:28.495Z",
+  "cost": 0.005044
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Germination",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this seed in the next few weeks?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific growth changes (stem grows taller, more leaves appear, roots grow deeper, seed coat falls off) and explains how the plant will use soil, water, and sunlight to support these changes.",
+        "meets": "Student predicts that the plant will grow larger with a longer stem and roots, and may mention that leaves will develop or the seed coat will fall off.",
+        "approaching": "Student predicts growth will occur but provides vague details (plant gets bigger, more growing) without explaining what parts will change or how.",
+        "beginning": "Student makes a minimal prediction (it will grow) with little detail, or describes something unrelated to plant growth."
+      }
+    },
+    {
+      "questionText": "Why do you think the root grows downward into the soil instead of upward like the stem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that roots grow downward to find water and nutrients in the soil, and identifies gravity as a factor; may also note that this is called gravitropism or that stems grow upward toward light while roots grow toward resources below.",
+        "meets": "Student explains that roots grow downward to find water and nutrients in the soil, demonstrating understanding of the root's purpose and directional growth.",
+        "approaching": "Student identifies that roots need water or soil, or that they grow down, but does not clearly connect the direction of growth to the purpose of finding water and nutrients.",
+        "beginning": "Student provides a vague answer (roots just do) or an inaccurate explanation unrelated to water, nutrients, or soil resources."
+      }
+    },
+    {
+      "questionText": "If we removed this sprouting seed from the soil and kept it in a dark, dry place, what would happen to its growth? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that growth would slow or stop, and explains that the plant needs both water (from moist soil) and light for photosynthesis; may distinguish between what would happen without water versus without light.",
+        "meets": "Student predicts that growth would slow or stop, and identifies that the plant needs water from soil and/or light to grow properly.",
+        "approaching": "Student predicts negative effects on growth but provides incomplete reasoning, such as mentioning only water or only light, or stating the plant would die without clear explanation.",
+        "beginning": "Student makes a prediction with little or no explanation, or provides an inaccurate response about what the plant needs to survive."
+      }
+    },
+    {
+      "questionText": "What does the seed need from the soil, air, and water to grow into a healthy plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific needs from each source: nutrients and water from soil, oxygen from air, and water for hydration; explains how each resource supports plant functions like growth and photosynthesis.",
+        "meets": "Student identifies at least two needs from different sources, such as water and nutrients from soil and oxygen from air, showing understanding of multiple resources required for growth.",
+        "approaching": "Student identifies that plants need water and soil, or mentions one or two resources, but does not clearly connect them to sources (soil, air, water) or explain their purposes.",
+        "beginning": "Student provides a vague or incomplete list of needs (plant needs food) without connecting them to the three sources or explaining why they are necessary."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:47:56.706Z",
+  "cost": 0.005158
+}

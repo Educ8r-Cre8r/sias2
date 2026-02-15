@@ -1,0 +1,53 @@
+{
+  "title": "Frost On Car",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the frost when the sun comes up and the car gets warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the frost will melt and explains that heat from the sun makes ice turn into water, using precise language like 'melt' or 'disappear.'",
+        "meets": "Student predicts the frost will melt or go away when it gets warmer, showing understanding of basic temperature and state change.",
+        "approaching": "Student predicts something will happen to the frost but the explanation is unclear or partially correct, such as saying it will 'go away' without mentioning warmth or melting.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'it will stay the same' or an unrelated observation about the car."
+      }
+    },
+    {
+      "questionText": "Why did the frost form on the car during the night instead of during the day?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that frost forms when it is cold at night and the temperature drops below freezing, and connects this to why the sun's warmth prevents frost during the day.",
+        "meets": "Student explains that frost forms at night because it is cold or because the temperature drops, showing understanding of the connection between cold and frost.",
+        "approaching": "Student identifies that night is colder than day but does not clearly connect the cold temperature to why frost forms on the car.",
+        "beginning": "Student provides a vague response like 'it was night' or 'it was cold' without explaining the connection between cold and frost formation."
+      }
+    },
+    {
+      "questionText": "Where else in your neighborhood might you see frost on a cold morning?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple locations where frost forms (such as grass, windows, metal objects, or outdoor furniture) and explains why frost would form on those surfaces because they get cold at night.",
+        "meets": "Student identifies at least one location in their neighborhood where frost might appear, such as grass, trees, or windows.",
+        "approaching": "Student names a location but provides limited reasoning, or mentions a place where frost would not typically form.",
+        "beginning": "Student provides an unclear or inaccurate response, such as naming a location without explanation or struggling to think of where frost might appear."
+      }
+    },
+    {
+      "questionText": "How is frost different from the water that drips from a leaky faucet?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that frost is frozen solid ice while faucet water is liquid, and explains that frost forms when water freezes in cold temperatures while faucet water stays liquid at room temperature.",
+        "meets": "Student identifies at least one clear difference, such as frost being hard and frozen while faucet water is wet and liquid.",
+        "approaching": "Student recognizes both are water-related but struggles to clearly describe the difference, or identifies only a partial difference like 'frost is cold.'",
+        "beginning": "Student provides a minimal or confused response, such as 'they are both water' or an observation that does not address the key differences between them."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:14:09.912Z",
+  "cost": 0.004811
+}

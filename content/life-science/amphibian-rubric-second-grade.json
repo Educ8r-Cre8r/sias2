@@ -1,0 +1,53 @@
+{
+  "title": "Amphibian",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "How does the frog's body help it climb and stick to smooth surfaces?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body features (sticky toe pads, strong legs, flat body) and explains how each one helps the frog stick to and climb smooth surfaces with specific details.",
+        "meets": "Student identifies at least two body features (such as sticky toe pads and strong legs) and explains how they help the frog climb or stick to surfaces.",
+        "approaching": "Student mentions one body feature like sticky toe pads or strong legs but provides only a partial or unclear explanation of how it helps the frog.",
+        "beginning": "Student makes a general statement about the frog's body but does not clearly connect specific features to climbing or sticking abilities."
+      }
+    },
+    {
+      "questionText": "Why do you think tree frogs need sticky toe pads, but frogs that live on the ground might not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that tree frogs climb smooth surfaces like tree bark and leaves that require sticking power, while ground frogs walk on bumpy earth and rocks that provide natural grip without special toe pads.",
+        "meets": "Student recognizes that tree frogs climb trees and need sticky pads to stay on smooth surfaces, while ground frogs stay on the ground where they do not need sticky pads.",
+        "approaching": "Student suggests that tree frogs need sticky pads because they climb, but provides limited explanation of why ground frogs might not need them.",
+        "beginning": "Student makes a simple statement like \"tree frogs need them because they live in trees\" with little reasoning about how habitats differ."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that have special body parts to help them move in their home? How are they similar to or different from the frog?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals with special body parts (such as birds with wings, squirrels with claws, or spiders with sticky feet) and makes thoughtful comparisons about how these adaptations are similar to or different from the frog's sticky toe pads.",
+        "meets": "Student names one or two animals with special body parts and makes a reasonable comparison to how the frog uses its sticky toe pads for movement.",
+        "approaching": "Student names an animal with a special body part but provides only a vague or incomplete comparison to the frog's adaptations.",
+        "beginning": "Student names an animal but does not clearly identify its special body part or make a connection to the frog's abilities."
+      }
+    },
+    {
+      "questionText": "If a frog's toe pads stopped being sticky, what problems might the frog face?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences such as inability to climb trees, difficulty escaping predators, trouble catching insects, or falling from branches, showing understanding of how this adaptation helps the frog survive.",
+        "meets": "Student identifies at least one clear problem, such as the frog not being able to climb trees or stick to surfaces where it needs to go.",
+        "approaching": "Student suggests a problem related to climbing or sticking but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student makes a vague statement like \"it would have trouble\" without explaining what specific problems the frog would face."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:08:45.059Z",
+  "cost": 0.005064
+}

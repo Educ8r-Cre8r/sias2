@@ -1,0 +1,53 @@
+{
+  "title": "System",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if one part of the engine broke?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a specific consequence (car won't start, won't move, or loses power) and explains that engine parts work together, so breaking one affects how the whole engine functions.",
+        "meets": "Student predicts that the car would stop working or not run properly, showing understanding that engine parts are connected and important.",
+        "approaching": "Student makes a simple prediction that something bad would happen to the car but provides limited or unclear reasoning about why.",
+        "beginning": "Student gives a vague response (like 'it would be bad') with little or no explanation of how a broken part affects the engine or car."
+      }
+    },
+    {
+      "questionText": "How is a car engine like your body? How is it different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (both have many parts working together, both need fuel/food for energy) and differences (engine is made of metal/machines, body is made of living cells), showing deep understanding of both systems.",
+        "meets": "Student identifies at least one clear similarity (parts work together) and one difference (engine vs. body materials or purposes), demonstrating solid comparative thinking.",
+        "approaching": "Student identifies either a similarity or a difference, but not both, or provides incomplete comparisons that show partial understanding.",
+        "beginning": "Student provides a vague or inaccurate response with little evidence of understanding how to compare the engine and body."
+      }
+    },
+    {
+      "questionText": "What other machines do you know that change one type of energy into another?",
+      "bloomsLevel": "Recall/Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more different machines (fan, toaster, light bulb, bicycle) and explains what energy goes in and what comes out for at least one example.",
+        "meets": "Student names one or two machines and shows understanding that they change energy from one form to another, even if the explanation is basic.",
+        "approaching": "Student names a machine but provides unclear or incomplete explanation about how energy changes, or names something that doesn't clearly change energy types.",
+        "beginning": "Student names a machine but shows no understanding of energy transformation, or provides only a vague response."
+      }
+    },
+    {
+      "questionText": "Why do you think engineers made car engines so complicated instead of simple?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student provides insightful reasoning with multiple reasons (complicated design makes engines work better/faster, all parts are needed for different jobs, complexity allows cars to be safer or more reliable).",
+        "meets": "Student gives at least one logical reason why engines are complex, such as 'all the parts help it work better' or 'different parts do different jobs,' showing reasonable analytical thinking.",
+        "approaching": "Student attempts to explain why engines are complex but reasoning is unclear, incomplete, or shows only partial understanding of the relationship between design and function.",
+        "beginning": "Student provides minimal reasoning or guesses without logical explanation for why engineers designed complicated engines."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:06:27.927Z",
+  "cost": 0.004668
+}

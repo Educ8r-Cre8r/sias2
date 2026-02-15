@@ -1,0 +1,53 @@
+{
+  "title": "Frog",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this frog survive on the leaf?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names at least three body parts (feet/toes, skin, eyes) and explains how each one helps the frog survive on the leaf with specific details (sticky toes grip, wet skin helps movement, eyes see predators).",
+        "meets": "Student identifies two body parts that help the frog survive and explains how they work (toes help hold on, skin helps it move or stay wet).",
+        "approaching": "Student names one or two body parts but explanation is vague or incomplete (toes help, skin is there) without clear connection to survival.",
+        "beginning": "Student names a body part with no explanation, or provides an inaccurate response (like wings or tail)."
+      }
+    },
+    {
+      "questionText": "How might a frog's green color help keep it safe?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green color helps the frog blend in with the green leaf so predators cannot see it, and uses the term 'camouflage' or describes this hiding strategy clearly.",
+        "meets": "Student explains that the frog's green color looks like the leaf, making it hard for predators or animals to see the frog.",
+        "approaching": "Student recognizes the frog is green and the leaf is green but explanation of how this helps safety is incomplete or unclear.",
+        "beginning": "Student states the frog is green with no explanation of how color helps keep it safe, or provides an unrelated answer."
+      }
+    },
+    {
+      "questionText": "What would happen if a frog's skin dried out completely?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the frog would die or become very sick, and explains that frogs need wet skin to breathe through their skin or to stay alive, showing understanding of frog adaptations.",
+        "meets": "Student predicts the frog would die or get hurt, with a simple explanation that frogs need wet skin to survive.",
+        "approaching": "Student predicts something would go wrong with vague reasoning (the frog would be sad, the skin would be bad) without clear connection to survival.",
+        "beginning": "Student makes a prediction unrelated to drying out, or provides minimal response with no explanation."
+      }
+    },
+    {
+      "questionText": "How are a frog's feet different from your feet, and why?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two differences (frogs have webbed feet/toes, sticky pads, shorter feet) and explains why each difference helps frogs (swimming, climbing leaves, gripping slippery surfaces).",
+        "meets": "Student names one or two differences between frog feet and human feet and explains one reason why frogs need these differences (like webbed feet for swimming or sticky toes for climbing).",
+        "approaching": "Student identifies one difference but explanation of why is unclear or incomplete (frogs' feet are different, they use them to jump).",
+        "beginning": "Student states feet are different with little or no explanation, or provides an inaccurate comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:32:29.379Z",
+  "cost": 0.004788
+}

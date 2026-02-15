@@ -1,0 +1,53 @@
+{
+  "title": "Hummingbird",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What special body parts does the hummingbird have that help it drink from flowers?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the long, thin beak and explains how it fits deep into the flower to reach the nectar, demonstrating knowledge of how the beak's shape serves a specific function.",
+        "meets": "Student correctly identifies that the hummingbird has a long, thin beak that helps it drink from flowers.",
+        "approaching": "Student mentions the hummingbird's beak but provides incomplete or unclear explanation of how it helps the bird drink.",
+        "beginning": "Student provides a vague response about the hummingbird's body (e.g., 'it has a long beak') with little connection to drinking from flowers."
+      }
+    },
+    {
+      "questionText": "Why do you think the hummingbird's wings need to beat so fast?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fast wing beats allow the hummingbird to hover in one place and states that hovering helps it stay still while feeding, showing understanding of the connection between wing speed and staying near flowers.",
+        "meets": "Student explains that the fast wing beats help the hummingbird hover or stay in one spot near the flowers.",
+        "approaching": "Student recognizes the wing beats are fast and attempts to explain why, but the reasoning is incomplete or partially unclear (e.g., 'to fly' without mention of hovering).",
+        "beginning": "Student provides a minimal or inaccurate response such as 'because hummingbirds are fast' without explaining the purpose of the fast wing beats."
+      }
+    },
+    {
+      "questionText": "How do you think the hummingbird and the flower help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hummingbird drinks nectar from the flower (gets food) and the flower benefits because pollen rubs on the bird's beak and feathers, helping the flower reproduce, demonstrating understanding of a symbiotic relationship.",
+        "meets": "Student identifies that the hummingbird gets nectar or food from the flower and that the flower gets help from the hummingbird, though the explanation of how the flower benefits may lack detail.",
+        "approaching": "Student recognizes that both the hummingbird and flower benefit, but provides incomplete or unclear explanation of exactly how each one helps the other.",
+        "beginning": "Student provides a minimal response such as 'the bird eats from the flower' without explaining how the flower is helped by the hummingbird."
+      }
+    },
+    {
+      "questionText": "If a hummingbird couldn't hover in the air, how would that change the way it gets food?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the hummingbird would need to land on flowers or find another way to stay near the nectar, and describes how losing the ability to hover would make feeding difficult or impossible, showing deep understanding of adaptation and survival.",
+        "meets": "Student explains that without hovering, the hummingbird would have to land on flowers or would have difficulty getting food from the flowers.",
+        "approaching": "Student recognizes that not being able to hover would affect feeding but provides incomplete reasoning about how the bird would need to change its behavior.",
+        "beginning": "Student provides a vague response such as 'it wouldn't get food' without explaining what the hummingbird would do differently."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:18:46.702Z",
+  "cost": 0.005174
+}

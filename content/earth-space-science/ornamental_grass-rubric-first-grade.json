@@ -1,0 +1,53 @@
+{
+  "title": "Ornamental Grass",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how these grass seeds look?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific features (fluffy, white, feathery, soft) and may notice additional details like water drops or how seeds are arranged on the stem.",
+        "meets": "Student describes at least two clear features of the seeds, such as fluffy and white, or soft and feathery.",
+        "approaching": "Student identifies one feature of the seeds (fluffy OR white OR soft) but description is vague or incomplete.",
+        "beginning": "Student attempts to describe the seeds but uses only very general words (big, pretty) with little or no accurate detail."
+      }
+    },
+    {
+      "questionText": "How do you think these fluffy seeds travel to new places?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wind carries the fluffy seeds and connects this to why the seeds are light and feathery, showing understanding of how seed structure helps with travel.",
+        "meets": "Student correctly identifies wind as the way these seeds travel and provides a simple explanation of how the fluffy part helps.",
+        "approaching": "Student mentions wind or air movement as a way seeds travel but explanation is incomplete or unclear about why the fluffy structure helps.",
+        "beginning": "Student provides a vague answer (seeds fly, they move) without clear explanation of wind or the role of the fluffy structure."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful for plants to send their seeds far away?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple benefits such as finding new soil, getting more space, or reducing competition, showing deep understanding of plant survival needs.",
+        "meets": "Student provides one clear reason, such as seeds finding new places to grow, having room to grow, or not fighting with the parent plant for water and sunlight.",
+        "approaching": "Student recognizes that spreading seeds is helpful but reasoning is incomplete or unclear (e.g., 'so they can grow' without explaining why far away is better).",
+        "beginning": "Student attempts to answer but provides little or vague reasoning, such as 'it's good' or 'plants need to do it' without explanation."
+      }
+    },
+    {
+      "questionText": "What would happen if all the seeds fell right next to the parent plant?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts realistic consequences such as too many plants crowded together, not enough water or sunlight for all seeds, or competition between seeds and parent plant.",
+        "meets": "Student predicts that seeds would have a problem growing together, such as being too crowded or not having enough space and resources.",
+        "approaching": "Student recognizes that something negative would happen to the seeds but explanation is vague or incomplete (e.g., 'they wouldn't grow good').",
+        "beginning": "Student attempts an answer but provides minimal or unclear reasoning about what would happen to seeds falling near the parent plant."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:26:11.601Z",
+  "cost": 0.004561
+}

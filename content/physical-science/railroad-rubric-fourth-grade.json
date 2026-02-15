@@ -1,0 +1,53 @@
+{
+  "title": "Railroad",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think engineers chose metal and wood to build railroad tracks instead of plastic or concrete?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple properties of metal and wood (strength, durability, flexibility) and explains how these properties make them better choices than plastic or concrete for supporting heavy trains over time.",
+        "meets": "Student explains at least two reasons why metal and wood are good choices, such as their strength or ability to handle train weight, with generally accurate reasoning.",
+        "approaching": "Student identifies that metal and wood are strong materials but provides incomplete or partially accurate explanations of why they work better than other materials.",
+        "beginning": "Student makes a simple statement about metal and wood being used but provides little or no explanation of why these materials were chosen over others."
+      }
+    },
+    {
+      "questionText": "What do you observe has happened to the metal rails over time, and what might have caused those changes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific observable changes to the rails (such as rust, wear, or discoloration) and explains that weathering caused by exposure to water, oxygen, or friction from trains created these changes.",
+        "meets": "Student identifies at least one visible change to the metal rails and correctly explains that weather or use over time caused the change.",
+        "approaching": "Student notices that the rails look different or worn but provides only partial or vague explanations of what caused the changes.",
+        "beginning": "Student makes a minimal observation about the rails or suggests a cause but shows limited understanding of how materials change over time."
+      }
+    },
+    {
+      "questionText": "How do the small rocks under the railroad ties help support the weight of a heavy train?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the rocks (ballast) distribute the train's weight over a wider area and prevent the wooden ties from sinking into the ground, and may mention that they also provide drainage.",
+        "meets": "Student correctly explains that the rocks help spread out or support the weight of the train and keep the tracks stable and level.",
+        "approaching": "Student acknowledges that the rocks play a supporting role but provides an incomplete explanation of how weight distribution or stability works.",
+        "beginning": "Student makes a simple statement that the rocks help support the tracks but cannot explain how or why the rocks accomplish this."
+      }
+    },
+    {
+      "questionText": "If you were designing a new railroad track system, what materials would you choose and why would those materials work better than the ones shown in this photo?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes specific alternative materials with detailed explanations of how those materials would be superior (e.g., lasting longer, requiring less maintenance, handling weight better) and shows understanding of both the benefits and potential drawbacks of their choices.",
+        "meets": "Student suggests reasonable alternative materials and explains at least two advantages these materials would have over metal, wood, and rocks.",
+        "approaching": "Student proposes alternative materials but provides incomplete or weak reasoning about why they would be better than the current materials shown.",
+        "beginning": "Student names a material but provides little or no explanation of why it would work better for railroad tracks."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:20:50.727Z",
+  "cost": 0.004793
+}

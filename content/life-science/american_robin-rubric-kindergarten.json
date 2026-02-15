@@ -1,0 +1,53 @@
+{
+  "title": "American Robin",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the robin is looking for on the ground?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies specific foods robins eat (earthworms, bugs, insects, worms) and explains that robins search the ground to find these food sources.",
+        "meets": "Student identifies that the robin is looking for food and names at least one type of food robins eat (worms, bugs, or insects).",
+        "approaching": "Student recognizes the robin is looking for food but provides vague or generic descriptions without naming specific types of food.",
+        "beginning": "Student provides a minimal response such as 'food' with no elaboration or an inaccurate answer about what robins eat."
+      }
+    },
+    {
+      "questionText": "Why does the robin stand on a rock instead of staying on the ground to find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons such as getting a better view, staying safe from predators, or keeping dry, showing thoughtful reasoning about bird behavior.",
+        "meets": "Student provides one logical reason the robin stands on the rock, such as getting a better view to find food or staying safe from danger.",
+        "approaching": "Student attempts to explain why the robin stands on the rock but the reasoning is unclear or partially developed.",
+        "beginning": "Student gives a vague response or states the robin is on the rock without explaining why this is helpful for the bird."
+      }
+    },
+    {
+      "questionText": "What body parts does the robin use to find and eat food? How does each part help?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (eyes, beak, feet) and explains how each one helps the robin find or eat food (eyes to see, beak to pick up food, feet to stand and grip).",
+        "meets": "Student identifies at least two body parts (such as eyes and beak or beak and feet) and describes how each helps with finding or eating food.",
+        "approaching": "Student names one or two body parts but provides incomplete or unclear explanations of how they help the robin find or eat food.",
+        "beginning": "Student names a body part with little to no explanation of its function in finding or eating food."
+      }
+    },
+    {
+      "questionText": "If this robin couldn't find any earthworms or bugs in this spot, what do you think it would do next?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the robin would move to a different location to search for food, showing understanding that birds move to find resources.",
+        "meets": "Student suggests the robin would look somewhere else or move to find food in a different spot.",
+        "approaching": "Student provides a response that shows some understanding but is vague, such as 'it would find food' without explaining how the robin might do this.",
+        "beginning": "Student gives a minimal or unclear response that does not clearly address what the robin would do to find food elsewhere."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:04:16.203Z",
+  "cost": 0.004606
+}

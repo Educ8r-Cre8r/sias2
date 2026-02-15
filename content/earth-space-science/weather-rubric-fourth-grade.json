@@ -1,0 +1,53 @@
+{
+  "title": "Weather",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe in this image that tells you a storm is coming?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific visual clues (dark/thick clouds, sky color, cloud movement, wind effects) and explains how each one indicates an approaching storm using weather vocabulary.",
+        "meets": "Student identifies two or more specific visual clues such as dark clouds, heavy cloud cover, or threatening sky appearance, and connects them to storm arrival.",
+        "approaching": "Student identifies one or two visual details about the clouds or sky but makes incomplete connections to storms or uses vague descriptions like 'dark' or 'looks bad.'",
+        "beginning": "Student makes a general observation about the image (e.g., 'it looks cloudy') with minimal detail or unclear connection to storm prediction."
+      }
+    },
+    {
+      "questionText": "Why do you think the clouds are so dark and thick compared to regular clouds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dark, thick clouds contain many water droplets that block sunlight and relates this to storm formation, using terms like 'dense' or 'water vapor' accurately.",
+        "meets": "Student explains that dark clouds have more water droplets or moisture that blocks light, making them appear darker and thicker than lighter clouds.",
+        "approaching": "Student suggests clouds are dark due to water or moisture but provides incomplete or partially accurate explanation of why this makes them thick.",
+        "beginning": "Student provides a simple or vague reason (e.g., 'there's more stuff in them') with little scientific reasoning about water droplets or light blocking."
+      }
+    },
+    {
+      "questionText": "How might the people in this town prepare for this storm, and why would those preparations be important?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes three or more specific storm preparations (securing objects, moving indoors, checking supplies) and explains why each protects people or property from storm dangers like wind or lightning.",
+        "meets": "Student describes two or more reasonable storm preparations (such as going inside or securing items) and explains at least one reason why preparations keep people safe.",
+        "approaching": "Student mentions one or two preparations but provides incomplete reasoning about their importance, or mentions general safety without specific storm connection.",
+        "beginning": "Student provides a vague preparation idea or states preparations are important without explaining what dangers they protect against."
+      }
+    },
+    {
+      "questionText": "If we could follow the water droplets in these storm clouds, where do you think they came from originally, and where might they go after the storm?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the water cycle accurately, identifying evaporation from water bodies or land as origin, condensation forming clouds, and precipitation/runoff after the storm with scientific terms used correctly.",
+        "meets": "Student identifies that water came from a water source (lake, ocean, or ground) and explains that it will fall as rain or precipitation, showing basic understanding of water cycle movement.",
+        "approaching": "Student mentions water comes from and returns to water or that it will rain, but explanation is incomplete or lacks clear cycle connections.",
+        "beginning": "Student provides a simple or unclear answer about water origin or destination with minimal evidence of understanding water cycle movement."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:01:36.220Z",
+  "cost": 0.004908
+}

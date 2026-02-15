@@ -1,0 +1,53 @@
+{
+  "title": "Reptile Molting",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think a lizard needs to shed its skin when a human doesn't?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that lizards shed because their skin doesn't grow like human skin does, and provides a specific detail such as scales being rigid, skin not stretching, or the need to remove old outer layers to reveal new growth underneath.",
+        "meets": "Student explains that lizards shed their skin because it doesn't grow or stretch the way human skin does, showing understanding that molting serves a growth purpose.",
+        "approaching": "Student identifies that lizards shed their skin and mentions growth or that human skin is different, but explanation lacks clarity about why shedding is necessary for lizards.",
+        "beginning": "Student states that lizards shed their skin or mentions it's different from humans, but provides no explanation of the reason or purpose behind molting."
+      }
+    },
+    {
+      "questionText": "If a lizard molted every month and a human grew new skin as quickly, what problems might we have?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple realistic problems such as vulnerability during shedding, difficulty with protection or function, energy loss, pain, or interference with daily activities, and explains why each would be problematic.",
+        "meets": "Student identifies at least two plausible problems such as being vulnerable when shedding, losing protection, or wasting energy, with brief explanations of why these would be issues.",
+        "approaching": "Student identifies one problem with molting frequently or mentions concerns about shedding, but reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student attempts to describe a problem but response is vague, speculative without reasoning, or shows minimal understanding of why frequent molting would be harmful."
+      }
+    },
+    {
+      "questionText": "What adaptations do you notice about this lizard's body that help it survive on plants and leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies and explains multiple body adaptations such as sharp claws or toes for gripping leaves, long tail for balance, small body size for moving on plants, and uses the term 'adaptation' correctly with specific functions.",
+        "meets": "Student identifies at least two body features (such as claws, tail, or small size) and explains how each helps the lizard survive or move on plants and leaves.",
+        "approaching": "Student identifies one or two features of the lizard's body related to plants or leaves, but explanations of how they help are incomplete or unclear.",
+        "beginning": "Student describes the lizard's appearance or mentions one body part, but does not explain how it helps with survival on plants or leaves."
+      }
+    },
+    {
+      "questionText": "How might the color and pattern of this lizard's skin be helpful for its survival?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the brown-patterned head and tail help camouflage the lizard against tree bark or branches, and the white belly reduces visibility from predators below, demonstrating understanding of camouflage and predator-prey relationships.",
+        "meets": "Student explains that the coloring and patterns help the lizard hide or blend in with its environment, showing understanding of camouflage as a survival adaptation.",
+        "approaching": "Student mentions that the colors or patterns help the lizard hide or are connected to survival, but explanation lacks detail about how or why camouflage works.",
+        "beginning": "Student describes the lizard's colors or patterns but provides minimal or no explanation of how they help with survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:25:53.551Z",
+  "cost": 0.005229
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the grasshopper's long back legs help it survive in the wild?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long back legs help the grasshopper jump away from predators and reach food/plants, using specific survival language and showing understanding of escape and feeding as two separate survival benefits.",
+        "meets": "Student identifies that long back legs help the grasshopper jump, and connects this to either escaping danger or finding food in a reasonable way.",
+        "approaching": "Student mentions that long back legs help with jumping or movement, but does not clearly connect this to survival or only explains one way the legs help.",
+        "beginning": "Student provides a vague response about legs being long or useful, with little connection to survival or jumping."
+      }
+    },
+    {
+      "questionText": "What would happen to this grasshopper if it lived in a place with no plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the grasshopper would not have food to eat and would die or leave the area, demonstrating understanding that grasshoppers depend on plants as their food source for survival.",
+        "meets": "Student states that the grasshopper would not have food to eat or would starve, showing understanding of the grasshopper's dependence on plants.",
+        "approaching": "Student mentions the grasshopper needs plants or would have trouble eating, but the explanation is incomplete or unclear.",
+        "beginning": "Student provides a minimal response such as 'the grasshopper would be sad' without connecting plants to food or survival."
+      }
+    },
+    {
+      "questionText": "Compare the grasshopper's eyes to human eyes - what advantages might the grasshopper's eyes give it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that grasshoppers have bigger eyes on the sides of their heads (unlike humans), and explains that this helps them see in more directions to spot predators or food, showing deeper understanding of eye position and survival benefit.",
+        "meets": "Student notes that the grasshopper's eyes are big or different from human eyes, and explains that this helps the grasshopper see better or see movement.",
+        "approaching": "Student mentions the grasshopper has big eyes or eyes in different places, but gives limited or vague explanation of the advantage.",
+        "beginning": "Student makes a simple observation about the eyes (such as 'grasshoppers have big eyes') without explaining any advantage or benefit."
+      }
+    },
+    {
+      "questionText": "If you were designing a robot grasshopper, which body parts would be most important to include and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (such as powerful back legs for jumping, eyes for seeing, and mouth for eating) and explains why each is important for survival or function, showing synthesis of the grasshopper's adaptations.",
+        "meets": "Student identifies at least two important body parts (such as legs and eyes or legs and mouth) and provides reasonable explanations for why each would be important in a robot.",
+        "approaching": "Student identifies one or two body parts as important, but explanations are incomplete or lack clear reasoning about survival or function.",
+        "beginning": "Student names a body part but provides minimal or no explanation for why it would be important to include in a robot."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:28:49.343Z",
+  "cost": 0.004959
+}

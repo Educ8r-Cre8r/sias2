@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think makes icicles form in some places but not others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that cold temperature is needed and explains that water freezes in cold places, mentioning that some spots may get more sun or be in shadier areas, showing understanding of how location affects freezing.",
+        "meets": "Student explains that cold weather or freezing temperatures are needed for icicles to form, and recognizes that not all places are cold enough.",
+        "approaching": "Student mentions cold or freezing as a reason for icicle formation but provides incomplete or vague explanation about why they form in some places but not others.",
+        "beginning": "Student provides minimal response such as 'it's cold' or 'water freezes' with little connection to why location matters."
+      }
+    },
+    {
+      "questionText": "How might the weather conditions affect the size and shape of icicles?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that temperature, water flow, and freezing speed all affect icicles, noting that slow freezing might make thicker icicles and rapid freezing might make thin ones, with clear cause-and-effect reasoning.",
+        "meets": "Student describes how cold weather makes icicles form and explains that weather conditions like temperature or water melting/dripping affect how big or what shape icicles become.",
+        "approaching": "Student recognizes that weather affects icicles but explanation is incomplete; may mention cold or size/shape without clearly connecting how specific weather causes specific changes.",
+        "beginning": "Student makes a general statement about weather affecting icicles with little detail or explanation of cause and effect."
+      }
+    },
+    {
+      "questionText": "What would happen to these icicles on a warm, sunny day?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts icicles would melt and explains that warm temperature causes ice to turn into water, possibly describing the process (dripping, disappearing) and connecting it to the water cycle.",
+        "meets": "Student accurately predicts that icicles would melt on a warm, sunny day and explains that heat/warmth causes ice to melt.",
+        "approaching": "Student predicts that icicles would change or melt but explanation of why is vague or incomplete; may mention warmth without clearly connecting it to melting.",
+        "beginning": "Student provides a prediction with minimal or unclear reasoning about the role of warmth in melting ice."
+      }
+    },
+    {
+      "questionText": "Why do you think some icicles are thicker than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different amounts of water dripping or freezing speed affect thickness, considering factors like location on roof, amount of water flow, or how fast water freezes, showing multi-step reasoning.",
+        "meets": "Student suggests that differences in water amount, dripping rate, or freezing conditions cause some icicles to be thicker, with reasonable cause-and-effect explanation.",
+        "approaching": "Student recognizes that something causes the difference in thickness but explanation lacks detail; may mention water or cold without fully connecting how these create thickness differences.",
+        "beginning": "Student makes a vague statement about thickness differences with little or no scientific reasoning provided."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:23:48.566Z",
+  "cost": 0.004897
+}

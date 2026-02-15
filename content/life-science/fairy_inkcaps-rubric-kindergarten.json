@@ -1,0 +1,53 @@
+{
+  "title": "Fairy Inkcaps",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why do you think mushrooms grew on this wood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms need dead or rotting wood to grow on and describes that mushrooms help break down or eat the dead wood; may mention mushrooms need moisture or darkness.",
+        "meets": "Student states that mushrooms grew on the wood because it is dead or rotting, or because mushrooms need that kind of wood to grow.",
+        "approaching": "Student makes a simple observation about the wood (it is dark, broken, old) or mentions mushrooms need something to grow on, but reasoning is incomplete or vague.",
+        "beginning": "Student provides a minimal response such as \"mushrooms like wood\" or \"it just grew there\" with little or no explanation of why."
+      }
+    },
+    {
+      "questionText": "What do you think happened to this wood before the mushrooms grew?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a sequence of events (wood fell, got wet, started to rot, broke into pieces) and explains that the wood had to be dead or decomposing before mushrooms could grow on it.",
+        "meets": "Student correctly identifies that the wood was dead, rotted, broken apart, or had started to fall apart before the mushrooms grew.",
+        "approaching": "Student names one change to the wood (it broke, got wet, or died) but does not explain how this connects to mushroom growth.",
+        "beginning": "Student gives a vague response like \"the wood got old\" or \"something happened\" without specific details or connections."
+      }
+    },
+    {
+      "questionText": "If we left dead leaves in a pile outside, what might grow there and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that mushrooms, fungi, or decomposers would grow in the pile and explains that dead leaves are similar to dead wood and provide food or a home for these organisms.",
+        "meets": "Student predicts that mushrooms or something that breaks down dead things would grow in the leaf pile because leaves are dead and rotting.",
+        "approaching": "Student makes a prediction about what might grow (mushrooms, plants, bugs) but the reasoning is unclear or only partially connected to decomposition.",
+        "beginning": "Student gives a minimal prediction with little or no explanation, such as \"flowers will grow\" or \"something will grow there.\""
+      }
+    },
+    {
+      "questionText": "How is a mushroom like a helper in nature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms help by breaking down dead wood and leaves so they can become part of the soil, or that they recycle dead things in nature and help plants grow.",
+        "meets": "Student states that mushrooms help break down or clean up dead wood and leaves, or that they help nature by getting rid of dead things.",
+        "approaching": "Student recognizes that mushrooms do something helpful in nature (like breaking things down or cleaning up) but the explanation lacks detail or clarity.",
+        "beginning": "Student provides a vague response like \"mushrooms help nature\" or \"they are good\" without explanation of how they help."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:13:15.255Z",
+  "cost": 0.004775
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Thawing Pond",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happened to all the ice that was in this pond during winter?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that ice melted into water and describes what they observe in the photo (patches of water, less ice visible), demonstrating understanding of the change of state.",
+        "meets": "Student correctly states that the ice melted or turned into water, showing basic understanding of what happened to the frozen pond.",
+        "approaching": "Student mentions melting or water but provides limited detail or unclear explanation of what happened to the ice.",
+        "beginning": "Student gives a vague response like 'it went away' or 'it changed' with minimal understanding of melting or the water cycle."
+      }
+    },
+    {
+      "questionText": "Why do you think the ice started to melt? What changed from winter to spring?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that it got warmer and explains how warmer temperatures cause ice to melt, demonstrating understanding of seasonal temperature change and its effect on ice.",
+        "meets": "Student correctly identifies that the weather or temperature changed and became warmer, causing the ice to melt.",
+        "approaching": "Student mentions that something changed (warmth, spring, or weather) but offers limited explanation of why this causes melting.",
+        "beginning": "Student provides a vague answer like 'it's spring now' or 'it got warm' without connecting the temperature change to melting."
+      }
+    },
+    {
+      "questionText": "If we left an ice cube on the table in a warm classroom, what would happen to it over time? How is that the same as what happened to the pond?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the ice cube would melt into water and clearly explains how both situations involve heat causing ice to change to water, showing understanding of the same process in different settings.",
+        "meets": "Student predicts the ice cube would melt and recognizes that both the ice cube and pond melt because of warmth or heat.",
+        "approaching": "Student predicts melting but makes only a weak or incomplete connection between the ice cube scenario and what happened to the pond.",
+        "beginning": "Student predicts what happens to the ice cube but does not make a clear connection to the pond, or provides an inaccurate prediction."
+      }
+    },
+    {
+      "questionText": "Where do you think the water goes after the ice melts? Could it become ice again?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests water goes to soil, flows to other places, or evaporates, and explains that water can freeze again when it gets cold, demonstrating understanding of the water cycle and seasonal change.",
+        "meets": "Student identifies that water goes somewhere (into ground, stays in pond, or flows away) and recognizes that it can freeze again when cold returns.",
+        "approaching": "Student offers a location for the water or mentions refreezing but does not fully explain both ideas or provides incomplete reasoning.",
+        "beginning": "Student gives a vague answer about where water goes or whether it refreezes, showing minimal understanding of water movement or state changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:30:13.184Z",
+  "cost": 0.00481
+}

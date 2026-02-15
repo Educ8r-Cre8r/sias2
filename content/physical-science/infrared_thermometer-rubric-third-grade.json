@@ -1,0 +1,53 @@
+{
+  "title": "Infrared Thermometer",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we pointed this thermometer at different objects around our classroom?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that different objects would show different temperatures and explains why (e.g., objects in sunlight would be hotter, metal conducts heat differently, darker objects absorb more heat).",
+        "meets": "Student predicts that different objects would have different temperature readings and provides a simple explanation such as 'some things are hotter than others.'",
+        "approaching": "Student recognizes that objects might have different temperatures but provides vague reasoning or only partially explains why changes would occur.",
+        "beginning": "Student makes a prediction with little or no explanation, or suggests all objects would read the same temperature."
+      }
+    },
+    {
+      "questionText": "Why might this type of thermometer be more useful than a regular thermometer in some situations?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple advantages such as measuring without touching (safer with hot objects), measuring objects far away, and measuring quickly without waiting for contact, using clear scientific reasoning.",
+        "meets": "Student identifies at least one clear advantage such as 'you don't have to touch hot things' or 'it works from far away' with appropriate explanation.",
+        "approaching": "Student identifies that this thermometer is different from regular ones but gives incomplete reasoning about why it might be better in some situations.",
+        "beginning": "Student provides minimal explanation or states only that 'it's different' without explaining any practical advantages."
+      }
+    },
+    {
+      "questionText": "How do you think the temperature reading would change if we measured the same brick at different times of day?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the brick would be hotter during the day (when the sun is strongest) and cooler in the morning, evening, or at night, explaining that sunlight heats objects.",
+        "meets": "Student predicts the temperature would change at different times and mentions the sun's role, such as 'it would be hotter when the sun is out.'",
+        "approaching": "Student recognizes that temperature might change throughout the day but provides incomplete or unclear reasoning about why.",
+        "beginning": "Student makes a prediction with no explanation or suggests the temperature would stay the same throughout the day."
+      }
+    },
+    {
+      "questionText": "What other tools or technologies help us measure things we cannot see or touch?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names and describes multiple measurement tools (e.g., scales measure weight, rulers measure distance, thermometers measure temperature) and explains what each tool detects or measures.",
+        "meets": "Student names at least two measurement tools or technologies and identifies what each one measures (e.g., 'a scale measures how heavy something is').",
+        "approaching": "Student names one or two tools but provides incomplete descriptions or limited explanation of their purpose.",
+        "beginning": "Student names one tool with minimal or no description, or provides responses that are unclear or inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:34:18.916Z",
+  "cost": 0.004652
+}

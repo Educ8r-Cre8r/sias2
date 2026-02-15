@@ -1,0 +1,53 @@
+{
+  "title": "Toad",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this toad survive in its environment, and how do they work?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (eyes, skin, bumps) and explains specifically how each one helps the toad survive, such as golden eyes seeing in dim light or bumpy, moist skin helping the toad absorb water and hide in its environment.",
+        "meets": "Student identifies at least two body parts and describes how they help the toad survive, such as eyes for seeing or skin for staying wet.",
+        "approaching": "Student identifies one body part and attempts to explain how it helps the toad, but the explanation may be incomplete or lack specific details about survival.",
+        "beginning": "Student names a body part but provides no clear explanation of how it helps the toad survive, or response is vague and shows limited understanding."
+      }
+    },
+    {
+      "questionText": "How might this toad's life be different during wet seasons compared to dry seasons?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple ways the toad's life differs between seasons, such as more water available to drink and keep skin moist during wet season, easier access to food and ponds for breeding, versus needing to hide or burrow to stay moist during dry season.",
+        "meets": "Student describes at least two differences between wet and dry seasons, such as the toad having more water available when it rains or needing to find shelter when it's dry.",
+        "approaching": "Student mentions one or two differences but explanations lack detail or clarity about how the toad's behavior or survival changes with seasons.",
+        "beginning": "Student attempts to answer but provides minimal, vague, or mostly inaccurate information about seasonal differences in the toad's life."
+      }
+    },
+    {
+      "questionText": "What would happen to the toad if all the nearby ponds dried up permanently?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a chain of consequences, such as the toad losing its water source, being unable to keep its skin moist, unable to find insects to eat, unable to breed in ponds, and ultimately being unable to survive in that environment.",
+        "meets": "Student identifies that the toad would struggle to survive and explains at least one consequence, such as losing water to stay moist or not being able to find food and breed.",
+        "approaching": "Student recognizes that drying ponds would be harmful to the toad but provides only vague or partially accurate explanations of the consequences.",
+        "beginning": "Student attempts to answer but provides minimal understanding of how the loss of ponds would affect the toad's survival."
+      }
+    },
+    {
+      "questionText": "How are this toad's adaptations similar to or different from other animals you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares the toad's adaptations to at least two other animals with specific details, such as the toad's bumpy skin and golden eyes versus a frog's smooth skin, or the toad's camouflage compared to how other animals blend into their environments.",
+        "meets": "Student compares the toad's adaptations to at least one other animal with reasonable accuracy, identifying one similarity or difference such as eyes for seeing or skin texture.",
+        "approaching": "Student attempts to compare the toad to another animal but comparison lacks clarity, has limited detail, or shows incomplete understanding of adaptations.",
+        "beginning": "Student names another animal but provides minimal or unclear comparison of adaptations, or response shows little understanding of how adaptations differ between animals."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:33:30.680Z",
+  "cost": 0.005252
+}

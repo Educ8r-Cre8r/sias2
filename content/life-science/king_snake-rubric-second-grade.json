@@ -1,0 +1,53 @@
+{
+  "title": "King Snake",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors and stripes on this snake? Why do you think the snake has such bright colors?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes specific colors and stripe patterns (red, yellow, and black bands) and explains that bright colors warn other animals the snake might be dangerous or poisonous, showing understanding of warning coloration.",
+        "meets": "Student accurately identifies the colors and stripes on the snake and provides a reasonable explanation for why the bright colors might help the snake (such as warning animals to stay away).",
+        "approaching": "Student notices some colors or stripes but the description is incomplete or vague; explanation for bright colors is unclear or partially incorrect.",
+        "beginning": "Student identifies at least one color on the snake but provides little or no explanation for why the snake has bright colors, or the response is mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "If you were a bigger animal that wanted to eat this snake, what would the bright red, yellow, and black stripes tell you?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bright stripes are a warning sign that means the snake is dangerous or has poison, and connects this to the idea that bright colors tell other animals not to eat the snake.",
+        "meets": "Student understands that the bright stripes are a warning signal and explains that the colors tell a bigger animal to stay away or not eat the snake.",
+        "approaching": "Student recognizes that the stripes might be a warning but the explanation is unclear or incomplete; may confuse the warning with camouflage or other survival strategies.",
+        "beginning": "Student provides minimal response or suggests the stripes have a purpose other than warning (such as helping the snake hide), showing limited understanding of warning coloration."
+      }
+    },
+    {
+      "questionText": "How is this snake the same as or different from other snakes you've seen or read about? What helps it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two similarities or differences (such as color patterns, size, or behavior) and explains multiple survival features such as bright warning colors, smooth scales, or flexibility that help this snake survive.",
+        "meets": "Student identifies at least one similarity or difference between this snake and others and explains at least one survival feature that helps this snake (such as its bright colors warning predators or its smooth scales).",
+        "approaching": "Student makes a comparison to other snakes or mentions one survival feature, but the explanation lacks detail or is partially unclear.",
+        "beginning": "Student attempts to compare this snake to others or mention survival but provides vague responses with little accurate information."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to this snake if it lived in a place with lots of green plants and brown dirt instead of where it actually lives?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the snake would be easier for predators to see because its bright red, yellow, and black colors don't blend in with green and brown surroundings, explaining how camouflage or environment affects survival.",
+        "meets": "Student predicts the snake would stand out or be noticed more easily in a green and brown environment, connecting this to the idea that bright colors are less helpful for hiding in certain habitats.",
+        "approaching": "Student makes a prediction about the snake in a new environment but the explanation is incomplete or shows unclear reasoning about how colors help animals hide or survive.",
+        "beginning": "Student attempts a prediction but provides a vague response or one that shows limited understanding of how environment or color affects an animal's survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:48:35.935Z",
+  "cost": 0.00533
+}

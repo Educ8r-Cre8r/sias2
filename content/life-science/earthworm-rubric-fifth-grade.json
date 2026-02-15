@@ -1,0 +1,53 @@
+{
+  "title": "Earthworm",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the earthworm needs from the soil to survive, and how might rain change what it finds there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple soil resources (water, nutrients, organic matter/decomposing organisms) and explains how rain affects soil moisture, nutrient availability, or movement through soil with specific details about earthworm survival.",
+        "meets": "Student identifies at least two things earthworms need from soil (such as water, food, or nutrients) and describes how rain increases moisture or changes soil conditions in a way that affects the earthworm.",
+        "approaching": "Student identifies one or two basic soil needs (like water or food) and makes a simple connection to rain, but explanation lacks detail or shows incomplete understanding of cause and effect.",
+        "beginning": "Student provides a vague response about earthworm needs or rain (such as 'earthworms need dirt' or 'rain makes soil wet') with little connection between the two ideas."
+      }
+    },
+    {
+      "questionText": "How is an earthworm's body special or different from yours, and what do you think each part helps it do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple body differences (segmented rings, no legs, moist skin, simple brain) and explains how each adaptation helps the earthworm function (segments allow flexibility for burrowing, moist skin aids breathing, lack of legs suits underground movement).",
+        "meets": "Student identifies at least two body differences between earthworms and humans and explains a reasonable function for each part (such as segments help it bend or moist skin helps it breathe).",
+        "approaching": "Student identifies one or two body differences but provides incomplete or partially accurate explanations of how each part helps the earthworm survive or move.",
+        "beginning": "Student notices a basic physical difference (like 'earthworms are long' or 'they have no arms') but provides little or no explanation of how it helps the earthworm function."
+      }
+    },
+    {
+      "questionText": "If all the earthworms disappeared from a garden, what might happen to the plants growing there? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts negative effects on plants (reduced growth, wilting, nutrient loss) and explains the cause-and-effect chain: earthworms break down organic matter into nutrients, loosen soil for root growth and water drainage, and without them soil quality and plant health decline.",
+        "meets": "Student predicts that plants would be harmed or grow poorly and identifies at least one reason related to earthworm functions (such as nutrient cycling, soil loosening, or decomposition).",
+        "approaching": "Student predicts plants would be negatively affected but provides a vague or partially incomplete reason (such as 'earthworms help the soil' without explaining how).",
+        "beginning": "Student makes a prediction about plant changes but provides no clear reasoning, or reasoning that shows little understanding of earthworm ecological roles."
+      }
+    },
+    {
+      "questionText": "Earthworms move away from light even in the dark. How might this behavior help them stay safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that avoiding light helps earthworms escape predators (birds, beetles) that hunt in daylight, and connects this to their need to stay in dark soil where they are protected and can regulate moisture through their moist skin.",
+        "meets": "Student explains that moving away from light helps earthworms avoid predators or stay in safe, dark soil environments where they belong.",
+        "approaching": "Student recognizes that avoiding light is related to staying safe but provides incomplete reasoning (such as 'light is bad' without explanation of why or how it helps survival).",
+        "beginning": "Student acknowledges the behavior but provides vague or minimal explanation of how it relates to safety or survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:28:22.438Z",
+  "cost": 0.005612
+}

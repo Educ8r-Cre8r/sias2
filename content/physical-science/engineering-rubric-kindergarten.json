@@ -1,0 +1,53 @@
+{
+  "title": "Engineering",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What happens when we push the wheeled car versus when we push a block without wheels?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student clearly describes that the wheeled car rolls and moves far, while the block slides or stops quickly, and explains that wheels help things move more easily.",
+        "meets": "Student correctly identifies that the wheeled car rolls/moves and the block without wheels does not roll or moves differently.",
+        "approaching": "Student makes an observation about one object moving, but the comparison between wheels and no wheels is unclear or partially correct.",
+        "beginning": "Student gives a vague response such as 'they move' or 'they go' with little detail about the difference between wheels and blocks."
+      }
+    },
+    {
+      "questionText": "Why do you think wheels are round instead of square?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that round wheels roll smoothly and spin easily, while square shapes would stop or bump, and may add that round shapes work better for moving.",
+        "meets": "Student gives a reasonable explanation, such as 'round wheels roll better' or 'they spin easier' or 'round is smoother.'",
+        "approaching": "Student recognizes that round and square are different but provides incomplete reasoning, such as 'round is better' without explaining why.",
+        "beginning": "Student responds with 'because' or 'I don't know' or makes an unclear connection between shape and movement."
+      }
+    },
+    {
+      "questionText": "Can you tell me a story about what your robot or car might do if it could really move?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student creates an imaginative, detailed story with a sequence of events (beginning, middle, end) and describes specific actions the robot or car would perform.",
+        "meets": "Student tells a simple story with a clear idea of what the robot or car does, using 2-3 connected events or actions.",
+        "approaching": "Student attempts a story but events are not well-connected or the response is very brief with only one main action or idea.",
+        "beginning": "Student provides a minimal response such as 'it goes fast' or 'it moves' with no real story or sequence of events."
+      }
+    },
+    {
+      "questionText": "If you were going to build something that moves, what would you use—wheels or flat edges? Why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student chooses wheels and provides a clear, logical reason such as 'wheels roll and help things move better and faster' or explains how that choice solves a movement problem.",
+        "meets": "Student selects wheels or flat edges and gives a simple, sensible reason connected to how movement works.",
+        "approaching": "Student chooses one option but the reason is vague, incomplete, or only partially connected to movement and function.",
+        "beginning": "Student makes a choice but provides no reason, or the reason does not connect to movement or how the parts work."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:09:18.046Z",
+  "cost": 0.004598
+}

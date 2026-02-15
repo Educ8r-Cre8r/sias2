@@ -1,0 +1,53 @@
+{
+  "title": "Inherited Traits",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the chicks look darker and fluffier than their parent, even though they are from the same family?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that chicks have different feathers (downy/fluffy) because they are young and will change as they grow, demonstrating understanding that the same inherited traits may look different at different life stages.",
+        "meets": "Student correctly identifies that the chicks are younger and their fluffy appearance is temporary, or notes that their feathers will change as they grow older like their parent.",
+        "approaching": "Student recognizes the chicks look different from the adult but provides incomplete reasoning, such as only stating they are younger without explaining how feathers change, or offering vague observations about size differences.",
+        "beginning": "Student makes a minimal attempt with little accuracy, such as saying they look different without any explanation, or providing inaccurate reasons unrelated to age or feather development."
+      }
+    },
+    {
+      "questionText": "What similar features can you observe between the adult bird and the chicks that prove they are related?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific inherited traits shared between adult and chicks (such as eye ring, beak shape, body structure, or feather color patterns) and explains that these matching features show they inherited traits from their parent.",
+        "meets": "Student identifies at least two specific similar features between the adult and chicks, such as beak shape, eye markings, or body structure, showing they recognize inherited traits.",
+        "approaching": "Student identifies one similar feature between the adult and chicks, or mentions general similarities like color or size without being specific about which body parts match.",
+        "beginning": "Student makes a vague observation about the birds looking alike or attempts to identify similarities but provides inaccurate or unclear descriptions of matching features."
+      }
+    },
+    {
+      "questionText": "If these chicks grow up, what do you predict will happen to their feathers and appearance? What evidence from nature makes you think this?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts chicks will develop pale, smoother feathers like the adult and uses specific evidence (such as observing the adult's appearance or understanding that offspring develop toward adult traits) to support their prediction with clear reasoning.",
+        "meets": "Student predicts the chicks' feathers and appearance will change to look more like the adult bird and provides reasonable evidence, such as noting that the adult shows what the chicks will eventually look like.",
+        "approaching": "Student makes a prediction that the chicks will change or grow but provides limited or weak evidence; explanation may be incomplete or only partially based on observable details.",
+        "beginning": "Student makes a minimal prediction with little evidence, or provides an inaccurate prediction about how the chicks will develop."
+      }
+    },
+    {
+      "questionText": "How are inherited traits different from traits an animal develops during its lifetime, like scars or muscle strength?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student clearly explains that inherited traits come from parents through genes and are present from birth, while acquired traits develop during life through experience or activity; provides multiple relevant examples beyond the question.",
+        "meets": "Student accurately explains the key difference: inherited traits are passed down from parents and present at birth, while acquired traits develop over time through the animal's activities or experiences.",
+        "approaching": "Student identifies a difference between inherited and acquired traits but the explanation is partial or somewhat unclear; may correctly describe one type without fully explaining the other.",
+        "beginning": "Student makes a minimal attempt to distinguish the traits with little accuracy; explanation may be confused, vague, or missing key concepts about inheritance versus acquired traits."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:53:34.795Z",
+  "cost": 0.005385
+}

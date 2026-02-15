@@ -1,0 +1,53 @@
+{
+  "title": "Fall Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think trees drop their leaves in the fall instead of keeping them all winter long?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that trees drop leaves to conserve water and energy during cold winter months when water is frozen and unavailable, demonstrating understanding of tree survival strategies and seasonal adaptation.",
+        "meets": "Student provides a reasonable explanation such as trees drop leaves to save energy or water, or because it is too cold for leaves to survive the winter.",
+        "approaching": "Student recognizes that trees drop leaves in fall and mentions winter or cold, but the explanation is incomplete or lacks clear reasoning about why this helps the tree.",
+        "beginning": "Student states that trees drop leaves in fall but provides vague or inaccurate reasoning, such as 'leaves just fall' or 'trees get tired.'"
+      }
+    },
+    {
+      "questionText": "If a tree didn't drop its leaves, what problems might it face during a cold, snowy winter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific problems such as water loss through frozen leaves, damage from heavy snow and ice accumulation on leaves and branches, and excessive energy use trying to keep leaves alive in freezing conditions.",
+        "meets": "Student identifies at least two problems the tree might face, such as branches breaking under snow weight, leaves freezing and dying, or the tree losing too much water.",
+        "approaching": "Student identifies one problem the tree might face (such as snow damage or freezing), but explanation lacks detail or clarity about how this would harm the tree.",
+        "beginning": "Student attempts to answer but provides vague or unclear problems, such as 'it would be cold' or 'bad things would happen,' without connecting to tree survival."
+      }
+    },
+    {
+      "questionText": "What evidence in this photo tells us that autumn is happening in this place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence including the variety of fall leaf colors (reds, oranges, yellows, browns), the large quantity of fallen leaves covering the ground, and the bare or nearly bare branches visible on trees.",
+        "meets": "Student identifies at least two clear pieces of evidence such as the colorful fallen leaves on the ground and the variety of colors visible in the photo that match fall foliage.",
+        "approaching": "Student recognizes that leaves in the photo indicate fall but describes the evidence in general terms (like 'the leaves are different colors') without sufficient detail or only mentions one piece of evidence.",
+        "beginning": "Student makes a vague connection between the photo and fall, such as 'there are leaves' or 'it looks like fall,' without identifying specific observable evidence."
+      }
+    },
+    {
+      "questionText": "How do you think the amount of daylight in fall compared to summer affects what happens to tree leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that shorter days in fall signal trees to stop producing chlorophyll and begin leaf drop, connecting the decrease in daylight to seasonal triggers for tree dormancy and demonstrating understanding of photoperiodism.",
+        "meets": "Student explains that there is less daylight in fall than summer and suggests this causes trees to stop feeding their leaves or prepare to drop them, showing a connection between daylight and leaf changes.",
+        "approaching": "Student recognizes that daylight is different in fall and summer and attempts to connect this to leaf changes, but the explanation is incomplete or the connection is unclear.",
+        "beginning": "Student acknowledges the question about daylight but provides a weak or inaccurate response, such as 'it gets darker' without connecting this to why trees drop leaves."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:41:33.279Z",
+  "cost": 0.005329
+}

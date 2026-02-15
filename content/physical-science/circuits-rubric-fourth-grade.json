@@ -1,0 +1,53 @@
+{
+  "title": "Circuits",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the wires in this circuit are different colors?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different wire colors help organize and identify different electrical pathways or purposes in a circuit, and may mention that color-coding prevents mistakes when building or fixing circuits.",
+        "meets": "Student states that different colors help identify or organize the wires and their different purposes in the circuit.",
+        "approaching": "Student recognizes that the wires are different colors but provides only a partial explanation, such as stating colors are just different without connecting to circuit organization or function.",
+        "beginning": "Student gives a vague response like 'they just are' or makes an inaccurate guess unrelated to circuit function."
+      }
+    },
+    {
+      "questionText": "What would happen if one of these wires was cut or unplugged from the terminal block?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the circuit would break or stop working, and explains that electricity needs a complete, unbroken path to flow, using terms like 'complete circuit' or 'closed circuit.'",
+        "meets": "Student correctly predicts that the circuit would stop working and explains that the wire connection is necessary for electricity to flow.",
+        "approaching": "Student predicts something would happen but gives an incomplete explanation, such as stating the circuit breaks without explaining why, or providing a partially correct reason.",
+        "beginning": "Student makes an inaccurate prediction or provides no clear explanation for why cutting a wire would affect the circuit."
+      }
+    },
+    {
+      "questionText": "How is this circuit similar to a path you walk to get from your classroom to the playground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both require a complete, connected path; electricity travels through the circuit like a person walks along a continuous path, and both are blocked or stop if the path is broken.",
+        "meets": "Student identifies that both involve a path that must be complete or connected to reach the destination, and electricity must stay connected like a walker stays on the path.",
+        "approaching": "Student makes a basic comparison but misses key details; for example, noting that both are paths without explaining the importance of the path being unbroken or continuous.",
+        "beginning": "Student attempts a comparison but makes inaccurate connections or provides a vague analogy unrelated to circuit flow."
+      }
+    },
+    {
+      "questionText": "If we wanted to add a light bulb to this circuit, where would we connect it, and why does it need to be part of a complete loop?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies a specific location to connect the bulb and clearly explains that it must be part of a complete loop because electricity needs an unbroken path to travel through the bulb and make it light up.",
+        "meets": "Student identifies a reasonable location for the bulb and explains that it must be in a complete circuit for electricity to flow through it and work.",
+        "approaching": "Student suggests a location for the bulb but provides incomplete reasoning about why it needs to be in a loop, such as mentioning the bulb needs power without fully explaining the complete circuit requirement.",
+        "beginning": "Student provides a vague location suggestion or incorrect explanation for why the bulb needs to be in a loop."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:00:40.527Z",
+  "cost": 0.004958
+}

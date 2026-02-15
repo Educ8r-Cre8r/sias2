@@ -1,0 +1,53 @@
+{
+  "title": "Agriculture",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to plants if the soil was too hard and packed down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard, packed soil would prevent roots from growing down, water from soaking in, and nutrients from reaching plants, using specific plant parts (roots) and soil functions in their response.",
+        "meets": "Student identifies that hard soil would hurt plants and provides at least one reason, such as roots can't grow or water can't get in.",
+        "approaching": "Student recognizes that hard soil is bad for plants but provides vague reasoning or only states plants would 'die' or 'not grow' without explaining why.",
+        "beginning": "Student gives a minimal response with little detail, such as 'plants would die,' or shows confusion about how soil affects plants."
+      }
+    },
+    {
+      "questionText": "How might the earthworms and bugs in the soil feel when the big tractor drives over their home?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes realistic emotions (scared, hurt) and explains how the tractor's weight damages soil animals' homes or bodies, demonstrating understanding of cause and effect.",
+        "meets": "Student identifies that soil animals would feel scared or hurt and acknowledges that the heavy tractor is dangerous or harmful to them.",
+        "approaching": "Student mentions that the tractor might bother the animals or that they might be scared, but reasoning is incomplete or unclear.",
+        "beginning": "Student provides a vague answer like 'they would be sad' without connecting it to the tractor or soil home, or shows minimal understanding of the impact."
+      }
+    },
+    {
+      "questionText": "What are three things plants need from soil to grow big and healthy?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three accurate plant needs from soil (water, nutrients/food, air) and explains briefly how each helps plants grow.",
+        "meets": "Student correctly names three things plants need from soil, such as water, nutrients, and air, without necessarily explaining their functions.",
+        "approaching": "Student identifies two correct things plants need from soil, or names three items but one is inaccurate (e.g., sunlight instead of air).",
+        "beginning": "Student names only one thing plants need from soil, or provides mostly incorrect answers with limited understanding."
+      }
+    },
+    {
+      "questionText": "If you were a farmer, how would you take care of the soil to help both plants and soil animals?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple soil-care practices (reducing heavy machinery use, adding compost, avoiding too much tilling, leaving soil resting) and explains how each benefits both plants and soil organisms.",
+        "meets": "Student suggests at least two reasonable soil-care practices, such as not packing soil down or adding nutrients, with basic explanations of how they help plants or animals.",
+        "approaching": "Student suggests one or two soil-care ideas but explanations are vague, or suggestions show partial understanding (e.g., 'be nice to the soil' without specific actions).",
+        "beginning": "Student offers minimal ideas about soil care or provides answers unrelated to the question, such as watering from above or pulling weeds, with little connection to soil health."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:35:43.724Z",
+  "cost": 0.004895
+}

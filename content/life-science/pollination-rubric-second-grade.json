@@ -1,0 +1,53 @@
+{
+  "title": "Pollination",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the bee is doing on the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the bee is getting food (nectar) AND describes how pollen sticks to the bee's fuzzy body, showing understanding of both actions happening at once.",
+        "meets": "Student identifies that the bee is getting food or collecting pollen from the flower with accurate, simple language.",
+        "approaching": "Student mentions the bee is on the flower but provides only vague information (e.g., 'the bee is doing something on the flower') or focuses on only one action without clarity.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'the bee is flying' or 'the bee is there,' showing little understanding of the bee's purpose."
+      }
+    },
+    {
+      "questionText": "How does the yellow powder (pollen) help both the bee and the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that pollen helps the bee by providing food and helps the flower by moving to other flowers to make seeds, connecting both benefits clearly.",
+        "meets": "Student identifies that pollen provides food for the bee OR that it helps the flower make seeds, with a simple but accurate explanation.",
+        "approaching": "Student mentions that pollen helps in some way but the explanation is unclear or incomplete, or only partially addresses how it benefits both the bee and flower.",
+        "beginning": "Student provides a vague response like 'the pollen helps' without explanation, or shows incorrect understanding of pollen's purpose."
+      }
+    },
+    {
+      "questionText": "If there were no bees visiting flowers, what might happen to the plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that plants would not make seeds or make fewer seeds, and explains this is because bees carry pollen that flowers need to make seeds.",
+        "meets": "Student predicts a reasonable consequence such as 'plants wouldn't grow' or 'flowers wouldn't make seeds,' with basic reasoning about bees' importance.",
+        "approaching": "Student makes a prediction about what might happen but the reasoning is unclear or incomplete, such as 'plants would die' without explanation of why.",
+        "beginning": "Student provides a minimal or uncertain response, such as 'something bad would happen' or guesses without reasoning about bees and pollen."
+      }
+    },
+    {
+      "questionText": "What other animals might help move pollen from flower to flower like bees do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple pollinators (such as butterflies, hummingbirds, beetles, or moths) and explains that they visit flowers similarly to bees.",
+        "meets": "Student names one or two other pollinators (such as butterflies or hummingbirds) that help move pollen, showing knowledge of different animals that visit flowers.",
+        "approaching": "Student names an animal that might visit flowers but doesn't clearly explain the connection to pollination, or provides an example that is partially relevant.",
+        "beginning": "Student provides a vague response like 'other bugs' or 'animals,' or names an animal that doesn't typically pollinate flowers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:39:33.343Z",
+  "cost": 0.004828
+}

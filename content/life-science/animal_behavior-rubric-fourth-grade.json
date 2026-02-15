@@ -1,0 +1,53 @@
+{
+  "title": "Animal Behavior",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this lizard is green instead of red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the lizard's green color matches its environment (leaves and plants) and helps it hide from predators, using the term camouflage; may add that other colors wouldn't blend in as well.",
+        "meets": "Student correctly identifies that the green color helps the lizard hide or blend in with its surroundings, demonstrating understanding of basic camouflage.",
+        "approaching": "Student recognizes that color helps the lizard in some way but provides incomplete reasoning, such as only stating the lizard is green because it lives in trees without explaining the hiding benefit.",
+        "beginning": "Student provides a vague answer like 'it just is' or 'because lizards are green,' showing minimal understanding of the connection between color and survival."
+      }
+    },
+    {
+      "questionText": "If this lizard moved to a sandy desert, would its green color still help it hide from predators? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly predicts the green color would NOT help in a sandy desert and provides a clear explanation that the lizard would stand out against sand; may suggest the lizard would need a different color to survive there.",
+        "meets": "Student correctly predicts the green color would not work as well in a desert and explains that the color wouldn't match the sandy environment.",
+        "approaching": "Student shows some understanding that the environment matters but gives incomplete reasoning, such as saying the color 'might not work' without fully explaining why the mismatch would be a problem.",
+        "beginning": "Student provides an unclear answer or doesn't recognize that the environment change would affect how well camouflage works."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that use camouflage to hide? How is their hiding strategy similar to or different from this lizard's?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more animals with camouflage and provides specific, accurate comparisons (e.g., both use color matching, but a frog might hide in mud while the lizard hides on plants) showing deep understanding of camouflage strategies.",
+        "meets": "Student identifies at least one animal that uses camouflage and makes a reasonable comparison to the lizard, such as noting they both use color to blend in.",
+        "approaching": "Student names an animal with camouflage but makes only a basic or incomplete comparison, such as 'they're both hidden' without explaining how.",
+        "beginning": "Student struggles to name an animal with camouflage or provides inaccurate information about how camouflage works."
+      }
+    },
+    {
+      "questionText": "How do you think this lizard's scales help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple survival functions of scales, such as protection from injury, preventing water loss, or helping the lizard blend in with tree bark texture; demonstrates comprehensive understanding.",
+        "meets": "Student identifies at least one way scales help survival, such as protecting the lizard's skin from damage or harsh environments.",
+        "approaching": "Student recognizes that scales are important but provides vague reasoning, such as 'they keep the lizard safe' without specific explanation.",
+        "beginning": "Student provides minimal or inaccurate information about the role of scales in survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:08:14.836Z",
+  "cost": 0.005132
+}

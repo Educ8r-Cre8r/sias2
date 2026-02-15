@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that the cauliflower went through both physical and chemical changes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific physical changes (color, texture, shape) and chemical changes (browning indicates new substances formed, oil absorbed), explaining that physical changes are reversible while chemical changes create new materials that cannot easily be undone.",
+        "meets": "Student identifies at least two physical changes (such as color or texture) and recognizes that browning or cooking indicates a chemical change occurred, showing understanding that both types of changes happened.",
+        "approaching": "Student notices some visible changes like the golden color or texture difference but has difficulty distinguishing between physical and chemical changes, or provides incomplete explanations of why the cauliflower changed.",
+        "beginning": "Student describes the cauliflower as looking different but provides vague observations or cannot explain what physical or chemical changes occurred."
+      }
+    },
+    {
+      "questionText": "How would you design an experiment to test whether cooking creates new substances?",
+      "bloomsLevel": "Design",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a detailed experimental plan with clear variables (what to change, measure, and keep the same), identifies observable evidence of new substance formation (taste, smell, texture, ability to return to original state), and explains why this evidence would prove new substances were created.",
+        "meets": "Student outlines a basic experimental procedure comparing raw and cooked cauliflower, identifies at least one way to observe if new substances formed, and explains what results would show a chemical change occurred.",
+        "approaching": "Student suggests comparing raw and cooked cauliflower but lacks clear procedures or measurable observations; may identify one variable but not clearly describe how to collect evidence of new substances.",
+        "beginning": "Student provides a vague idea about testing (like 'cook it and look at it') with little detail about procedure, variables, or what evidence would demonstrate new substance formation."
+      }
+    },
+    {
+      "questionText": "Why do you think the raw vegetables look and feel different from the cooked cauliflower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heat caused chemical and physical changes—such as water loss making texture crisp, proteins denaturing changing texture and appearance, browning reactions creating new colors—and connects these changes to observable differences in firmness, color, and shine.",
+        "meets": "Student explains that heat caused the cauliflower to change color and texture, identifying at least one reason such as cooking making it softer or browning it, showing understanding that temperature affects how food looks and feels.",
+        "approaching": "Student recognizes the cauliflower looks and feels different due to cooking but provides incomplete or partially accurate explanations, such as mentioning only color or texture change without explaining the role of heat.",
+        "beginning": "Student states the cooked and raw vegetables look different but cannot explain why, or provides inaccurate reasoning unrelated to the effects of cooking."
+      }
+    },
+    {
+      "questionText": "What do you predict would happen if we tried to 'uncook' the fried cauliflower?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the cauliflower cannot return to its raw state and explains that chemical changes (browning, protein changes from heat) cannot be reversed, while also acknowledging that some physical changes might partially reverse (cooling could harden oil, but texture and taste remain changed).",
+        "meets": "Student predicts that the cauliflower would not return to its raw state and explains that cooking created permanent changes, demonstrating understanding that chemical changes cannot be easily undone.",
+        "approaching": "Student predicts the cauliflower would not fully return to raw form but provides incomplete or partially accurate reasoning about why reversal is impossible or difficult.",
+        "beginning": "Student makes a prediction (such as 'it would uncook') but provides little or no explanation, or demonstrates misunderstanding of how chemical and physical changes work."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:03:40.964Z",
+  "cost": 0.00565
+}

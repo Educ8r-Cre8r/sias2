@@ -1,0 +1,53 @@
+{
+  "title": "Slime Mold",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How might this organism's role as a decomposer affect other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that slime molds break down dead leaves and wood, returning nutrients to soil that help plants grow, and describes how this creates a cycle that benefits multiple forest organisms (plants, insects, or soil organisms).",
+        "meets": "Student identifies that slime molds break down dead material and explains that this helps return nutrients to the soil or helps other living things in some way.",
+        "approaching": "Student recognizes that slime molds eat dead material or mentions that decomposers are important, but provides limited explanation of how this affects other forest organisms.",
+        "beginning": "Student gives a vague response such as 'it helps the forest' or 'it eats dead stuff' with little or no explanation of the connection to other living things."
+      }
+    },
+    {
+      "questionText": "What evidence from the photo suggests this organism is alive and active?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence (bright yellow color indicating active growth, foam-like structure showing it is feeding and moving, spreading across the dead material) and explains what each suggests about the organism being alive.",
+        "meets": "Student identifies at least two pieces of evidence from the photo (such as its color, spreading growth, or presence on food material) that suggest the organism is alive and active.",
+        "approaching": "Student notices one piece of evidence (such as 'it has color' or 'it's growing on leaves') but provides incomplete reasoning about why this shows it's alive.",
+        "beginning": "Student makes a general statement like 'it looks alive' or 'I can see it' without identifying specific visual evidence from the photo."
+      }
+    },
+    {
+      "questionText": "If you were to design an experiment to test how slime molds find food, what would you try?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a testable experiment with a clear setup (such as placing food sources at different locations), identifies what would be observed or measured, and explains how the results would show how the slime mold finds food.",
+        "meets": "Student proposes a reasonable experiment involving placing food or different materials near the slime mold and explains what they would observe to test how it finds food.",
+        "approaching": "Student suggests an experiment idea (such as 'give it food' or 'put different things near it') but lacks details about how it would be set up or what would be measured.",
+        "beginning": "Student provides a vague idea like 'I would test it' or 'put food near it' without explaining how the experiment would work or what would be observed."
+      }
+    },
+    {
+      "questionText": "How does the structure of this single giant cell help it survive in its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how specific structural features (spongy foam texture for absorbing moisture and nutrients, large spreading body to contact more dead material, or lack of rigid cell wall for flexibility) help the slime mold find and absorb food or survive in damp forest conditions.",
+        "meets": "Student identifies that the slime mold's spread-out structure or spongy texture helps it find food or absorb nutrients from dead material.",
+        "approaching": "Student mentions the structure or appearance (such as 'it's bumpy' or 'it spreads out') but provides limited explanation of how this helps it survive.",
+        "beginning": "Student describes what they see ('it's yellow and spongy') with little or no connection to how this structure helps the organism survive."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:27:32.231Z",
+  "cost": 0.005344
+}

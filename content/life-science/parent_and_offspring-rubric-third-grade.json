@@ -1,0 +1,53 @@
+{
+  "title": "Parent And Offspring",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe that is different between the two birds in this picture?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific differences (such as feather texture, size, color, posture, or mouth position) and uses descriptive language to explain what they see.",
+        "meets": "Student identifies two clear differences between the birds (such as feather appearance and size) with accurate descriptions.",
+        "approaching": "Student identifies one or two differences but descriptions are vague or partially accurate (e.g., 'one is bigger' without additional detail).",
+        "beginning": "Student makes a minimal attempt to identify differences or provides inaccurate observations with little detail."
+      }
+    },
+    {
+      "questionText": "Why do you think the younger bird's feathers look fluffy and messy while the adult bird's feathers look smooth and neat?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that young birds' feathers are still growing or developing and haven't been groomed yet, connecting this to the bird's age and growth process.",
+        "meets": "Student provides a reasonable explanation that young birds' feathers look different because they are still growing or the bird is younger and still learning to care for itself.",
+        "approaching": "Student offers a partial explanation that shows some understanding (e.g., 'the baby bird hasn't cleaned its feathers yet') but lacks detail or clarity.",
+        "beginning": "Student makes a guess or provides an inaccurate explanation with minimal reasoning about feather development or grooming."
+      }
+    },
+    {
+      "questionText": "What do you think the parent bird is teaching the baby bird right now, and why is this important for survival?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests a specific skill the parent is teaching (such as flying, finding food, or building nests) and explains how that skill helps the baby bird survive independently.",
+        "meets": "Student identifies a reasonable survival skill the parent might be teaching and explains why it matters for the baby bird's survival.",
+        "approaching": "Student suggests what the parent might be teaching but provides incomplete reasoning about its importance, or explains survival importance without clear connection to what's being taught.",
+        "beginning": "Student makes a minimal attempt to answer with vague ideas about what's happening or very limited explanation of survival importance."
+      }
+    },
+    {
+      "questionText": "If both birds are the same species, how do you know they are the same type of bird even though they look different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple shared characteristics (such as similar beak shape, body structure, color patterns, or size range) and explains that these features help identify species even when birds look different due to age.",
+        "meets": "Student identifies two or more similar features (such as beak shape or general body structure) that indicate they are the same species despite appearance differences.",
+        "approaching": "Student identifies one similar feature or notes that the difference is due to age, but lacks multiple specific examples of matching characteristics.",
+        "beginning": "Student provides minimal reasoning or states only that 'they look kind of alike' without identifying specific matching features."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:37:51.852Z",
+  "cost": 0.00481
+}

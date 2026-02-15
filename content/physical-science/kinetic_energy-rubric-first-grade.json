@@ -1,0 +1,53 @@
+{
+  "title": "Kinetic Energy",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What made the skateboard move so fast?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the skater pushed off with their legs and explains that this push gave the skateboard energy to move fast, using words like 'push' and 'fast' accurately.",
+        "meets": "Student correctly identifies that the skater made the skateboard move fast, mentioning pushing or the skater's action as the cause.",
+        "approaching": "Student recognizes that the skater or a person caused the movement but provides incomplete or vague explanation of how the pushing worked.",
+        "beginning": "Student attempts to answer but provides minimal detail, such as 'it just moved' or 'the skater did it,' without explaining how or why."
+      }
+    },
+    {
+      "questionText": "Why did the skateboard keep moving even after the skater jumped off it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the skateboard was moving and kept going because it had energy from the push, and describes that nothing stopped it right away, showing understanding of motion continuing.",
+        "meets": "Student correctly explains that the skateboard keeps moving because the skater gave it a push and it doesn't stop right away without something to stop it.",
+        "approaching": "Student recognizes the skateboard keeps moving but gives incomplete reasoning, such as 'it keeps going' or 'nothing stopped it yet' without connecting to the initial push.",
+        "beginning": "Student provides a minimal response like 'it just keeps going' or 'because it's moving' without explaining the connection between the push and continued motion."
+      }
+    },
+    {
+      "questionText": "If someone put a wall in front of the skateboard, what do you think would happen to it?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the skateboard would stop when it hits the wall and explains that the wall would block or stop the skateboard's movement, showing understanding of how objects stop.",
+        "meets": "Student correctly predicts the skateboard would stop or hit the wall and acknowledges the wall would cause this to happen.",
+        "approaching": "Student makes a prediction about what would happen but provides unclear or partially correct reasoning, such as 'it would stop but I'm not sure why' or 'it would bounce.'",
+        "beginning": "Student attempts a prediction but it is vague or shows minimal understanding, such as 'something would happen' or 'it would break' without logical connection."
+      }
+    },
+    {
+      "questionText": "How is the skater's movement different from the skateboard's movement?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the skater is jumping up in the air while the skateboard is moving forward/to the side, and explains they are moving in different directions or ways.",
+        "meets": "Student correctly observes that the skater and skateboard are moving differently, noting the skater is in the air and the skateboard is going along the ground or in a different direction.",
+        "approaching": "Student recognizes there is a difference in movement but description is unclear or incomplete, such as 'they move different' without specifying how.",
+        "beginning": "Student attempts to compare but provides minimal or unclear detail, such as 'they're not moving the same' without describing the actual differences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:41:48.043Z",
+  "cost": 0.004948
+}

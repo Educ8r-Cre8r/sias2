@@ -1,0 +1,53 @@
+{
+  "title": "Forms Of Energy",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What makes the train move down the tracks?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the train's engine uses energy to push or pull the train, and may mention that the engine makes the train go forward or backward on the tracks.",
+        "meets": "Student identifies that the engine makes the train move or that something pushes/pulls the train to make it go.",
+        "approaching": "Student mentions the engine or that the train moves, but explanation is unclear or incomplete.",
+        "beginning": "Student provides a minimal response such as 'it goes' or 'the engine' without explaining how movement happens."
+      }
+    },
+    {
+      "questionText": "Why do you think the train's engine has to be much stronger/bigger than the car's engine?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the train is much heavier/bigger, so it needs more energy or a stronger engine to move it, and may compare how much harder it is to push heavy things.",
+        "meets": "Student correctly states that the train is heavier or bigger, so it needs a stronger engine to move it.",
+        "approaching": "Student recognizes that the train is bigger or heavier, or that the engine needs to be stronger, but doesn't clearly connect the two ideas.",
+        "beginning": "Student makes a guess or provides an unclear response that doesn't address the train's size or weight."
+      }
+    },
+    {
+      "questionText": "If we wanted to make the car go faster, what could we do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests using more energy from the engine (pushing harder, using more power) and may explain that more energy makes things go faster.",
+        "meets": "Student suggests a reasonable action such as making the engine stronger, pushing harder, or giving it more power to go faster.",
+        "approaching": "Student provides a suggestion related to speed or the engine, but explanation lacks clarity or is only partially correct.",
+        "beginning": "Student provides a vague response such as 'go fast' or mentions an unrelated action without connecting it to energy or engine power."
+      }
+    },
+    {
+      "questionText": "How are the train and the car the same? How are they different in terms of moving?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both have engines, both move using energy, both use pushes/pulls) and differences (train is bigger/heavier, train is slower/faster, train carries more), showing clear comparison.",
+        "meets": "Student identifies at least one similarity and one difference about how the train and car move, such as both have engines but the train is bigger, or both need energy but move differently.",
+        "approaching": "Student identifies either a similarity or difference, but explanation is incomplete or only partially accurate.",
+        "beginning": "Student provides a minimal response that only describes one vehicle without making a clear comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:39:51.255Z",
+  "cost": 0.004498
+}

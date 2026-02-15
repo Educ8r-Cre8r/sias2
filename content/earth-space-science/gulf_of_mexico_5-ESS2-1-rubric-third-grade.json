@@ -1,0 +1,53 @@
+{
+  "title": "Gulf of Mexico",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think there is a sudden drop-off in the ocean here instead of the ocean floor sloping gradually everywhere?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the drop-off formed from waves, currents, or erosion wearing away the ocean floor over time, and recognizes that different areas have different underwater shapes due to these forces.",
+        "meets": "Student identifies that water movement or erosion created the drop-off, or states that the ocean floor is not the same everywhere without clear explanation.",
+        "approaching": "Student mentions water or waves as a cause but provides incomplete reasoning, or makes a guess with minimal scientific thinking.",
+        "beginning": "Student provides a vague response such as 'the ocean is deep there' or 'it just is' with little to no reference to water movement or erosion."
+      }
+    },
+    {
+      "questionText": "What would happen to the beach and the sign after a really big storm with huge waves? Where might the sand go?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that large waves would move sand away from the beach and into deeper water or down the drop-off, and recognizes that the sign could be damaged or buried, connecting this to ongoing erosion.",
+        "meets": "Student correctly describes that big waves would move sand (away from beach or elsewhere) and that the sign could be damaged or knocked over.",
+        "approaching": "Student identifies that waves would move the sign or sand but provides incomplete details about where the sand goes or what happens to the sign.",
+        "beginning": "Student gives a vague answer like 'it would get wet' or 'the waves would hit it' without explaining sand movement or damage."
+      }
+    },
+    {
+      "questionText": "If you were designing a way to keep people safe at this beach, what could you do besides put up a sign?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple practical safety solutions (such as barriers, ropes, lifeguards, or different warning methods) and explains how each idea would protect people from the drop-off.",
+        "meets": "Student proposes at least one reasonable safety idea (such as a rope, fence, lifeguard, or marked boundary) with a logical explanation of how it helps.",
+        "approaching": "Student suggests a safety idea that is somewhat practical but lacks clear explanation of how it prevents harm from the drop-off.",
+        "beginning": "Student provides a vague or impractical idea with little or no explanation of how it keeps people safe."
+      }
+    },
+    {
+      "questionText": "How do you think waves and water created this underwater cliff over many, many years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that repeated wave action and water movement broke down, carried away, or eroded rock and sand over a long time, gradually creating the steep underwater cliff.",
+        "meets": "Student describes that waves or water wearing away the ocean floor over time created the cliff, showing understanding of erosion as a slow process.",
+        "approaching": "Student mentions water movement or erosion but provides incomplete or unclear reasoning about how it creates a cliff shape.",
+        "beginning": "Student provides a minimal answer such as 'waves made it' or 'water moved stuff' without explanation of the long-term erosion process."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:42:42.231Z",
+  "cost": 0.004952
+}

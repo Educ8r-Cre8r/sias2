@@ -1,0 +1,53 @@
+{
+  "title": "Static Electricity",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we brought another charged balloon near this one?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a specific outcome (balloons push apart or stick together) and explains reasoning using words like \"electricity\" or \"charge,\" demonstrating understanding that balloons have invisible forces.",
+        "meets": "Student makes a reasonable prediction about what would happen (balloons move apart or together) with a simple explanation referencing the balloon's special property.",
+        "approaching": "Student makes a prediction but explanation is vague or partially connected to the balloon's ability to attract objects; may show uncertainty.",
+        "beginning": "Student provides a prediction with little or no explanation, or describes an outcome unrelated to the balloon's properties shown in the photo."
+      }
+    },
+    {
+      "questionText": "Why do you think some pieces of confetti are sticking to the balloon while others stay on the table?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the balloon has a special power or force that pulls some confetti to it, and recognizes that confetti closer to or touching the balloon are affected while distant pieces are not.",
+        "meets": "Student identifies that the balloon attracts or pulls the confetti, with a simple explanation of why some stick and others don't based on location or the balloon's properties.",
+        "approaching": "Student recognizes that the balloon is attracting confetti but has incomplete reasoning about why only some pieces stick; explanation lacks clarity.",
+        "beginning": "Student attempts an explanation but is mostly inaccurate or vague; shows minimal understanding of why confetti behaves differently."
+      }
+    },
+    {
+      "questionText": "How could we test whether the balloon's \"power\" works on different materials like feathers, coins, or paper clips?",
+      "bloomsLevel": "Design",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a clear test procedure: bring the balloon near each material separately and observe which ones stick, demonstrating understanding of fair testing by changing one variable at a time.",
+        "meets": "Student describes a reasonable test method, such as bringing the balloon close to different materials and watching if they stick, showing understanding of how to test multiple items.",
+        "approaching": "Student suggests testing different materials with the balloon but explanation is incomplete or unclear about how to actually conduct or observe the test.",
+        "beginning": "Student mentions testing different materials but provides little detail about how the test would work or what to observe."
+      }
+    },
+    {
+      "questionText": "What other times have you noticed objects sticking to things when they shouldn't?",
+      "bloomsLevel": "Connect",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes 2+ real-world examples of objects sticking without typical adhesives (static cling on clothes, balloons sticking to walls, hair standing up) and makes connections to the balloon's behavior.",
+        "meets": "Student provides at least one accurate example of objects sticking unexpectedly and makes a connection to the lesson about the balloon's special property.",
+        "approaching": "Student provides an example but the connection to the balloon's power is weak or unclear; example may need clarification.",
+        "beginning": "Student provides a vague or unclear example, or describes objects sticking in typical ways (tape, glue) without understanding the connection to static electricity."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:01:39.824Z",
+  "cost": 0.004844
+}

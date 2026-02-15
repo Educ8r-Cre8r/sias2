@@ -1,0 +1,53 @@
+{
+  "title": "Symbiotic Relationship",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the bee has such a fuzzy, hairy body?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the fuzzy body helps pollen stick to the bee and connects this to how pollen moves between flowers for reproduction or plant growth.",
+        "meets": "Student explains that the fuzzy body helps pollen stick to the bee so it can carry pollen from flower to flower.",
+        "approaching": "Student states that the fuzzy body helps pollen stick but provides incomplete reasoning about why this is important.",
+        "beginning": "Student makes a vague statement about fuzz or pollen with little connection between the two or minimal explanation."
+      }
+    },
+    {
+      "questionText": "What would happen to the flowers if there were no bees to visit them?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that flowers would not be pollinated, would not make seeds, and explains how this would affect the plant population or food chain over time.",
+        "meets": "Student predicts that flowers would not get pollen or would have trouble growing seeds without bees visiting them.",
+        "approaching": "Student predicts something negative would happen to flowers but the explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague prediction or states flowers would 'die' without explaining the role of bees or pollen."
+      }
+    },
+    {
+      "questionText": "How is the relationship between a bee and a flower different from the relationship between a cat and a mouse?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that bee-flower is a helping relationship (mutualism) where both benefit, while cat-mouse is a predator-prey relationship where one hunts the other, and provides specific details about what each organism gets.",
+        "meets": "Student explains that bees and flowers help each other while cats hunt mice, or uses terms like 'mutualism' correctly to describe the difference.",
+        "approaching": "Student recognizes the relationships are different but explanation lacks clarity or confuses whether organisms help or harm each other.",
+        "beginning": "Student makes a simple statement like 'they're different' with little or no explanation of how the relationships differ."
+      }
+    },
+    {
+      "questionText": "What other animals or plants might depend on bees to survive?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals or plants that depend on bees and explains how (e.g., birds eat seeds from bee-pollinated plants, people eat fruits and vegetables from pollinated crops).",
+        "meets": "Student names at least two animals or plants that might depend on bees and provides a reasonable explanation for one of them.",
+        "approaching": "Student names one or two organisms but explanation is incomplete or connection to bees is unclear.",
+        "beginning": "Student names an organism with little or no explanation of how it depends on bees, or provides an inaccurate response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:38:36.323Z",
+  "cost": 0.004514
+}

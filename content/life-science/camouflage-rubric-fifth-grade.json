@@ -1,0 +1,53 @@
+{
+  "title": "Camouflage",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this snake's brown and tan colors help it survive in a forest?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the brown and tan colors match the forest environment (logs, leaves, soil) and uses the term 'camouflage' to describe how this helps the snake hide from predators or sneak up on prey.",
+        "meets": "Student identifies that the snake's colors match the forest surroundings and explains that this helps the snake hide or blend in with its environment.",
+        "approaching": "Student recognizes that the snake's colors are similar to the forest but provides a vague explanation of why this helps, such as 'it helps it hide' without connecting to the specific environment.",
+        "beginning": "Student makes a simple observation about the snake's color but does not explain how it helps the snake survive in the forest."
+      }
+    },
+    {
+      "questionText": "What would happen to a bright red snake living on this forest floor? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the red snake would be easily spotted by predators or prey and explains that the bright red color stands out against the brown, tan, and green colors of the forest, making the snake more vulnerable or less successful at hunting.",
+        "meets": "Student predicts the red snake would be easy to see and explains that the bright color does not match the brown and tan forest environment, so it would stand out.",
+        "approaching": "Student indicates the red snake would have problems surviving but provides incomplete reasoning, such as 'it would be seen' without fully explaining why the color is a problem in that specific environment.",
+        "beginning": "Student provides a minimal response such as 'it would be bad' with little to no explanation of how color relates to survival on the forest floor."
+      }
+    },
+    {
+      "questionText": "How might a snake's camouflage change if it lived in a desert instead of a forest? What would need to be different and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that desert camouflage would need lighter, sandy, or tan colors that match sand and rocks rather than logs and leaves, and connects this to the idea that effective camouflage must match an animal's specific environment to help it survive.",
+        "meets": "Student identifies that the snake's colors would need to change to match the desert environment and explains that the new colors should blend with sand, rocks, or desert plants instead of forest materials.",
+        "approaching": "Student recognizes the camouflage would change but provides a partial or unclear explanation, such as 'it would be different colors' without clearly connecting the new colors to desert features.",
+        "beginning": "Student states the camouflage would change but does not explain what it would change to or why the change would be necessary."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal that uses camouflage to survive? How does its coloring match its home?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names a specific animal that uses camouflage and provides detailed explanation of how its colors and patterns match features of its habitat (e.g., 'a deer's brown fur matches tree bark and dried grass so hunters can't see it').",
+        "meets": "Student names an animal that uses camouflage and explains how its coloring matches its environment in a clear way.",
+        "approaching": "Student names an animal and mentions camouflage or environment but makes an incomplete connection between the animal's appearance and its habitat.",
+        "beginning": "Student names an animal but provides minimal or vague information about how its coloring relates to camouflage or its home."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:47:17.421Z",
+  "cost": 0.005375
+}

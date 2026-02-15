@@ -1,0 +1,53 @@
+{
+  "title": "Frost On Car",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the frost when the sun comes up and the car gets warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the frost will melt and explains that heat from the sun causes ice to change into water, using the term 'melting' or 'phase change' accurately.",
+        "meets": "Student predicts the frost will melt or disappear when the car gets warm, with a basic explanation that heat causes the change.",
+        "approaching": "Student predicts the frost will go away or melt but provides incomplete reasoning or vague explanations about warmth or the sun.",
+        "beginning": "Student makes a prediction but provides little or no explanation, or predicts an outcome unrelated to the effect of heat on ice."
+      }
+    },
+    {
+      "questionText": "Why does frost appear on the car on some mornings but not on others? What conditions need to be present?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions needed for frost formation (cold temperatures, moisture in the air, clear nights) and explains how these conditions work together to create frost.",
+        "meets": "Student identifies at least two conditions such as cold temperature and moisture, with reasonable explanations of why both are necessary.",
+        "approaching": "Student identifies one or two conditions but explanations lack clarity or completeness; may mention cold or water but not explain the connection fully.",
+        "beginning": "Student mentions cold or mentions that conditions matter, but provides little detail or inaccurate reasoning about what conditions are needed."
+      }
+    },
+    {
+      "questionText": "If you could touch the frost on this car, what would it feel like, and why would it feel that way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes frost as cold, hard, or icy and explains that it feels this way because it is frozen water made of ice crystals, using scientific terminology.",
+        "meets": "Student describes frost as cold or hard/icy and makes a connection to it being ice or frozen water.",
+        "approaching": "Student describes how frost would feel (cold, hard) but provides minimal or unclear reasoning about why it has these properties.",
+        "beginning": "Student provides a minimal description of the texture or temperature with little or no explanation of the reason."
+      }
+    },
+    {
+      "questionText": "How is frost different from dew or rain? Where does the water that makes frost come from?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that frost is frozen water while dew and rain are liquid, identifies that frost comes from water vapor in the air, and may note that frost forms at very cold temperatures while dew forms at warmer temperatures.",
+        "meets": "Student identifies that frost is ice while dew and rain are water droplets, and explains that frost comes from water vapor or moisture in the air.",
+        "approaching": "Student notes some differences between frost and dew/rain or mentions water vapor, but explanations are incomplete or lack clarity about the water sources or phase differences.",
+        "beginning": "Student attempts to describe differences but provides vague or mostly inaccurate information about frost, dew, and rain or their origins."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:14:36.572Z",
+  "cost": 0.004825
+}

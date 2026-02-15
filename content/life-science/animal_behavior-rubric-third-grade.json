@@ -1,0 +1,53 @@
+{
+  "title": "Animal Behavior",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this lizard is green instead of red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the lizard's green color helps it hide or blend in with green trees and leaves, and identifies this as camouflage or hiding. Student may add that other colors would make the lizard easier for predators to see.",
+        "meets": "Student states that the green color helps the lizard hide or blend in with its environment (trees or leaves). Explanation is clear and shows understanding of color matching.",
+        "approaching": "Student mentions that green color relates to trees or hiding, but explanation is incomplete or lacks clarity. For example, student may say the color is green because it lives on trees, without explaining how this helps.",
+        "beginning": "Student provides a minimal or vague response, such as 'lizards are green' or 'it likes green.' Response shows little evidence of understanding why the color matters."
+      }
+    },
+    {
+      "questionText": "What would happen if this lizard lived on gray rocks instead of green trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the lizard would be easier to see or catch on gray rocks because its green color would not match. Student may reason that predators could spot it more easily or that it would not be camouflaged.",
+        "meets": "Student predicts that the lizard would stand out or be easier to see on gray rocks because the green color would not match. Response shows logical cause-and-effect thinking.",
+        "approaching": "Student recognizes that the lizard's color would not match gray rocks, but explanation of consequences is vague or incomplete. For example, student may say 'it wouldn't blend in' without explaining why this matters.",
+        "beginning": "Student provides a minimal response such as 'it would look different' or offers an inaccurate prediction with little reasoning."
+      }
+    },
+    {
+      "questionText": "How do you think this lizard's color helps it hunt for food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the green color helps the lizard hide from insects or prey so it can sneak up and catch food without being noticed. Student demonstrates understanding that camouflage helps both hide from predators and hunt prey.",
+        "meets": "Student explains that the lizard's color helps it sneak up on insects or food because the lizard is hard to see. Response shows understanding of how camouflage aids hunting.",
+        "approaching": "Student recognizes that the color helps with hunting but explanation is incomplete or unclear. For example, student may say 'it helps catch bugs' without explaining the connection to camouflage or hiding.",
+        "beginning": "Student provides a vague response such as 'it helps it hunt' or gives an answer unrelated to how color supports hunting behavior."
+      }
+    },
+    {
+      "questionText": "If all the trees turned brown and lost their leaves, how might the lizard change over many, many years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that lizards might become brown or darker over many generations because green lizards would be seen more easily and eaten, while brown lizards would survive and have babies. Student demonstrates understanding of adaptation and natural selection.",
+        "meets": "Student predicts that the lizard would become brown or a darker color to match the brown trees over time. Explanation includes the idea that this change would help the lizard hide or survive.",
+        "approaching": "Student recognizes that the lizard's color might change to brown to match the environment, but explanation of how or why this happens over time is unclear or incomplete.",
+        "beginning": "Student provides a minimal response such as 'it would turn brown' or 'it would change colors' without reasoning about why or how this would occur over time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:08:05.785Z",
+  "cost": 0.005498
+}

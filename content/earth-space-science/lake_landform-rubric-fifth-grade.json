@@ -1,0 +1,53 @@
+{
+  "title": "Lake Landform",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think caused this lake to form in this location instead of somewhere else?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple factors that created the lake (such as glaciers, erosion, underground water sources, or terrain features) and explains how these geological processes shaped the landscape over time.",
+        "meets": "Student identifies at least one plausible cause for the lake's formation (such as a glacier, rain collecting in a low area, or water erosion) with a brief explanation of how it worked.",
+        "approaching": "Student suggests a cause for the lake's formation but provides incomplete or partially accurate reasoning, or identifies only that water is present without explaining why it formed there.",
+        "beginning": "Student makes a vague statement about the lake's formation or suggests a cause with little to no explanation or scientific reasoning."
+      }
+    },
+    {
+      "questionText": "How might this lake look different in winter, spring, or summer compared to what we see in this autumn photo?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes seasonal changes across multiple seasons with specific details about water conditions, vegetation, wildlife activity, and how these changes connect to seasonal weather patterns.",
+        "meets": "Student describes how the lake would look different in at least two other seasons, including changes to water conditions, trees, or other visible features with reasonable seasonal accuracy.",
+        "approaching": "Student identifies some seasonal changes (such as snow in winter or green leaves in summer) but descriptions lack detail or show incomplete understanding of how seasons affect lakes.",
+        "beginning": "Student makes a vague seasonal observation or describes only one change without clear seasonal connection or explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think fallen logs and leaves are important for animals and plants that live in and around the lake?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple roles of fallen logs and leaves (such as shelter for animals, food sources, nutrient cycling, or habitat creation) and connects these to specific organisms or ecosystem processes.",
+        "meets": "Student identifies at least two ways fallen logs and leaves help lake organisms (such as providing shelter, food, or oxygen) with clear, age-appropriate explanations.",
+        "approaching": "Student recognizes that fallen logs and leaves are helpful but provides limited reasoning or only one benefit with incomplete explanation.",
+        "beginning": "Student provides a minimal response or suggests the materials are important without explaining how or why they benefit the lake ecosystem."
+      }
+    },
+    {
+      "questionText": "If we visited this same lake 100 years from now, what changes might we observe, and what causes those changes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts multiple long-term changes (such as sedimentation, vegetation shifts, erosion, or human impacts) and explains specific processes that would cause these changes over a century.",
+        "meets": "Student predicts at least two reasonable long-term changes to the lake and identifies causes such as erosion, sedimentation, plant growth, or weather patterns.",
+        "approaching": "Student predicts a change to the lake but provides unclear or partially accurate reasoning about the causes, or identifies only one change.",
+        "beginning": "Student makes a vague prediction about the lake's future or suggests a change without attempting to explain what would cause it."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:45:32.645Z",
+  "cost": 0.004912
+}

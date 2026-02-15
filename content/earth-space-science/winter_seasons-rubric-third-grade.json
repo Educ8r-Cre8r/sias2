@@ -1,0 +1,53 @@
+{
+  "title": "Winter Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think evergreen trees keep their leaves in winter when other trees lose theirs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that evergreens keep their needle-like leaves to survive cold winters and provides a reasonable adaptation explanation, such as the needles being waxy or tough enough to handle freezing temperatures or snow.",
+        "meets": "Student identifies that evergreen trees keep their leaves/needles in winter while other trees lose theirs and offers a basic explanation related to survival or protection from winter.",
+        "approaching": "Student recognizes that evergreen trees look different in winter but provides only a vague or partially accurate reason, such as 'they don't need to lose their leaves' without explaining why.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'they just do' or 'because they're green,' with little attempt to explain the difference between tree types."
+      }
+    },
+    {
+      "questionText": "What do you observe about where the snow is piling up on these trees? Why might that be?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific observations of snow accumulation patterns (on branches, in layers, on top, or clumping together) and explains that snow sticks to the needles and branches because they provide surface area, or mentions gravity pulling snow downward.",
+        "meets": "Student observes that snow is piled on the branches and tree parts and provides a reasonable explanation such as 'snow sticks to the branches' or 'it lands on top of the tree.'",
+        "approaching": "Student notices snow is on the tree but gives an incomplete explanation, such as 'the snow goes on the branches' without explaining why snow collects there.",
+        "beginning": "Student makes a vague observation like 'there's snow on it' with little to no explanation of where or why snow accumulates on the tree."
+      }
+    },
+    {
+      "questionText": "If all the snow on this tree melted, where would that water go?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student traces the path of melting snow water, explaining it would drip down through branches to the ground, soak into soil, or run off into the environment, demonstrating understanding of water movement.",
+        "meets": "Student correctly identifies that melted snow would go to the ground or drip down from the tree, showing basic understanding of water flow.",
+        "approaching": "Student provides a partially correct answer, such as 'it would go down' or 'to the ground,' but lacks detail about the path or process.",
+        "beginning": "Student provides a vague response like 'it melts' or 'it disappears' with minimal understanding of where water from melted snow would travel."
+      }
+    },
+    {
+      "questionText": "How might the snow covering these trees help or hurt the plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both potential benefits (insulation keeping plant warm, water source when melted) and drawbacks (heavy weight bending/breaking branches, blocking sunlight), demonstrating balanced thinking about effects.",
+        "meets": "Student identifies either a benefit or a drawback of snow on trees with a reasonable explanation, such as 'the snow keeps it warm' or 'heavy snow could break branches.'",
+        "approaching": "Student recognizes snow has an effect on the plant but provides an incomplete or partially accurate explanation, such as 'snow might hurt it' without clear reasoning.",
+        "beginning": "Student provides a minimal response like 'it helps' or 'it hurts' with little to no explanation of the cause or effect."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:54:05.048Z",
+  "cost": 0.005325
+}

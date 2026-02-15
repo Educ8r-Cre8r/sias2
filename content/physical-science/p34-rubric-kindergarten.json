@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think makes icicles grow longer or shorter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water dripping and freezing makes icicles grow longer, and identifies that warmth or melting makes them shorter, using clear cause-and-effect language.",
+        "meets": "Student identifies that freezing water or cold makes icicles grow, and mentions that warmth or heat can make them shorter.",
+        "approaching": "Student mentions either freezing or melting as a factor in icicle growth or shrinkage, but explanation is unclear or incomplete.",
+        "beginning": "Student provides a minimal response such as 'cold' or 'water' without explaining how these factors affect icicle size."
+      }
+    },
+    {
+      "questionText": "How are icicles similar to and different from ice cubes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both are frozen water and describes multiple differences, such as shape (long and pointy vs. square), where they form (outside vs. in freezer), or how they form (dripping water vs. poured water).",
+        "meets": "Student states that both are ice or frozen water and identifies at least one clear difference in shape, size, or how they form.",
+        "approaching": "Student identifies that both are cold or frozen, but provides only vague or unclear comparisons and differences.",
+        "beginning": "Student makes a simple observation about one object but does not make a meaningful comparison between icicles and ice cubes."
+      }
+    },
+    {
+      "questionText": "What would happen to these icicles on a warm, sunny day?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that icicles would melt and explains that warm temperature or heat from the sun causes ice to turn into water, using appropriate vocabulary.",
+        "meets": "Student predicts that icicles would melt or disappear and mentions warmth or the sun as the cause.",
+        "approaching": "Student predicts that icicles would change but the explanation is vague, such as 'they would go away' without mentioning melting or heat.",
+        "beginning": "Student provides a response that shows minimal understanding, such as 'they would be different' without explaining melting or the role of warmth."
+      }
+    },
+    {
+      "questionText": "Where else have you seen ice forming in nature?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides multiple examples of ice in nature, such as frozen ponds, ice on windows, snow, or frozen lakes, with accurate details about each location.",
+        "meets": "Student names at least one or two places where ice forms naturally, such as on a lake, pond, or window, with basic accuracy.",
+        "approaching": "Student names a place where ice might form but with limited detail, or provides an example that is unclear or partially inaccurate.",
+        "beginning": "Student provides a vague response such as 'outside' or 'cold places' without naming a specific location where ice forms."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:23:33.379Z",
+  "cost": 0.004634
+}

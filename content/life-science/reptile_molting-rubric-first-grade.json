@@ -1,0 +1,53 @@
+{
+  "title": "Reptile Molting",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the lizard's skin?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific skin features (bumpy texture, colors like brown and white, scales) and uses descriptive words to explain what they see.",
+        "meets": "Student identifies at least two features of the lizard's skin, such as color or texture, with accurate observations.",
+        "approaching": "Student notices one feature of the lizard's skin (color or texture) but description is vague or incomplete.",
+        "beginning": "Student provides a minimal response with little detail, such as naming a color without describing the skin itself."
+      }
+    },
+    {
+      "questionText": "Why do you think the lizard has different colors on its body—brown on top and lighter on the bottom?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that lighter coloring on the belly helps hide the lizard (camouflage) and may mention that brown on top helps blend with its habitat.",
+        "meets": "Student provides a reasonable explanation that the different colors help the lizard hide or stay safe from other animals.",
+        "approaching": "Student suggests a reason for the color difference but the explanation is incomplete or shows partial understanding of camouflage.",
+        "beginning": "Student notices the colors are different but cannot explain why, or gives an answer unrelated to survival or protection."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the lizard's skin as it grows bigger?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the skin gets bigger, stretches, or gets shed to make room for growth, using words like 'grow,' 'shed,' or 'gets too small.'",
+        "meets": "Student correctly infers that the skin changes or gets bigger as the lizard grows, showing understanding of growth.",
+        "approaching": "Student recognizes that something happens to the skin as the lizard grows but the explanation is vague or partially accurate.",
+        "beginning": "Student provides a minimal response or an inaccurate guess about what happens to the lizard's skin."
+      }
+    },
+    {
+      "questionText": "How is a lizard different from a bird or a fish? What special things help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two differences (such as scales vs. feathers, legs vs. fins) and names at least two survival adaptations like tail, claws, or skin texture.",
+        "meets": "Student identifies at least one clear difference between a lizard and a bird or fish, and names at least one survival feature of a lizard.",
+        "approaching": "Student attempts to describe differences or survival features but the explanation is incomplete or shows partial understanding of reptile adaptations.",
+        "beginning": "Student provides a minimal or unclear response with little evidence of understanding how lizards differ from other animals."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:25:19.384Z",
+  "cost": 0.004497
+}

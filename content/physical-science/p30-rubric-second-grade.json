@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the rocks after many years of waves hitting them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that waves wear down or break the rocks into smaller pieces over time, using words like 'erosion,' 'smooth,' or 'break apart,' and may connect this to how the rocks shown are already wet and smooth.",
+        "meets": "Student correctly identifies that rocks change or get smaller/smoother from waves hitting them over many years, showing understanding of weathering or erosion.",
+        "approaching": "Student recognizes that waves affect rocks in some way (such as making them wet or damaged) but lacks clear explanation of how this happens over time.",
+        "beginning": "Student provides a vague response (such as 'rocks get wet' or 'waves hit them') without showing understanding of gradual change or erosion."
+      }
+    },
+    {
+      "questionText": "How is the energy of ocean waves similar to the energy of a bouncing ball?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both waves and bouncing balls transfer energy through movement and can make things move or change, using examples like 'both have power' or 'both make water/things splash or bounce.'",
+        "meets": "Student identifies that both waves and bouncing balls have energy that makes them move and can hit or push things.",
+        "approaching": "Student recognizes a connection between waves and bouncing balls (such as 'both hit things' or 'both move') but does not clearly explain the role of energy.",
+        "beginning": "Student makes a simple observation (such as 'they both move') without explaining how energy is involved or similar."
+      }
+    },
+    {
+      "questionText": "Why do you think the water sprays so high when it hits the rocks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the energy from the moving wave forces water upward when it hits the hard rocks, or describes how the rocks stop the wave and release its energy as spray.",
+        "meets": "Student identifies that the wave's force or energy causes the water to spray upward when it hits the rocks.",
+        "approaching": "Student recognizes that the wave hitting the rocks makes water spray but provides incomplete reasoning about why it goes high (such as 'the rocks are hard' without connecting to energy or force).",
+        "beginning": "Student provides a minimal response (such as 'because the waves hit the rocks') without explaining the cause of the high spray."
+      }
+    },
+    {
+      "questionText": "What other things in nature show the same kind of pattern as these waves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple natural patterns similar to waves (such as ripples in water, wind patterns, or vibrations) and explains what makes them similar (such as 'they all repeat' or 'they move energy').",
+        "meets": "Student identifies at least one natural pattern similar to waves (such as ripples, wind, or sound) and explains a basic similarity.",
+        "approaching": "Student names one or two natural phenomena (such as rain or wind) but makes limited connection to wave patterns or cannot clearly explain the similarity.",
+        "beginning": "Student provides a vague or unclear response with little connection to wave patterns (such as 'water' or 'ocean')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:21:26.685Z",
+  "cost": 0.004936
+}

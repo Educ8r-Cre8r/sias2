@@ -1,0 +1,53 @@
+{
+  "title": "Frog",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "How does the frog's green color help it stay safe?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the frog's green color helps it hide or blend in with green leaves so predators cannot see it easily, using the word 'camouflage' or 'blend in' accurately.",
+        "meets": "Student explains that the green color helps the frog hide or that it matches the green leaf, protecting it from danger.",
+        "approaching": "Student states that the green color helps the frog or keeps it safe but provides incomplete or vague reasoning about how or why.",
+        "beginning": "Student makes a minimal attempt, such as 'the green color helps' or 'it hides' without clear explanation."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that match their surroundings?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals with matching colors/patterns and explains how each one's appearance helps it blend in with its environment.",
+        "meets": "Student names one or two animals that match their surroundings and provides a simple explanation of how their appearance helps them.",
+        "approaching": "Student names one animal but provides minimal or unclear explanation of how it matches its surroundings.",
+        "beginning": "Student names an animal but does not explain how it matches its surroundings, or provides an inaccurate example."
+      }
+    },
+    {
+      "questionText": "Why do you think this frog has sticky toe pads instead of claws like a cat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sticky toe pads help the frog climb smooth leaves and trees better than claws would, and connects this to the frog's life in trees or on plants.",
+        "meets": "Student explains that sticky toe pads help the frog climb plants or trees, or that they work better on leaves than claws would.",
+        "approaching": "Student recognizes that sticky toe pads help with climbing but provides incomplete or unclear reasoning about why this is better than claws.",
+        "beginning": "Student attempts to answer but provides vague reasoning such as 'because frogs need them' without explaining how or why they help."
+      }
+    },
+    {
+      "questionText": "What would happen if this green frog lived in a desert instead of a forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the frog's green color would make it easy to see against brown sand or rocks, making it unsafe; may mention the frog would need a different color or that deserts are too dry for frogs.",
+        "meets": "Student explains that the green frog would be easy to see in a desert, making it unsafe, or that it would stand out and not blend in.",
+        "approaching": "Student recognizes that something would be different but provides unclear reasoning; may mention the frog would be visible but not explain the danger or why.",
+        "beginning": "Student makes a minimal attempt, such as 'it would be different' or 'it wouldn't match' without explaining consequences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:32:36.120Z",
+  "cost": 0.00468
+}

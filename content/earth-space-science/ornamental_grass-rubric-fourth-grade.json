@@ -1,0 +1,53 @@
+{
+  "title": "Ornamental Grass",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions do you think are needed for dew to form on plants?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions for dew formation (cool temperature, water vapor in air, clear night) with accurate scientific reasoning and explains how these work together.",
+        "meets": "Student identifies at least two conditions needed for dew to form, such as cool air and moisture, with generally accurate explanations.",
+        "approaching": "Student identifies one condition for dew formation (like coolness or moisture) but explanation is incomplete or partially inaccurate.",
+        "beginning": "Student provides a vague response like 'it needs to be wet' or 'water appears' with little understanding of formation conditions."
+      }
+    },
+    {
+      "questionText": "How might dew formation help plants survive in dry environments?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dew provides water that plants can absorb through roots or leaves, connects this to survival in dry climates, and may mention that dew forms when other water sources are scarce.",
+        "meets": "Student correctly explains that dew gives plants water they need to survive and acknowledges this is helpful in dry environments.",
+        "approaching": "Student recognizes that dew is water and plants need water, but makes incomplete connections between dew formation and dry environment survival.",
+        "beginning": "Student makes a simple statement like 'dew helps plants' or 'plants drink water' without explaining the survival connection."
+      }
+    },
+    {
+      "questionText": "Where else have you observed water droplets forming, and what might cause them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple real-world observations (windows, car hoods, spider webs) and correctly identifies different causes (cooling, condensation from warm to cool surfaces) with specific examples.",
+        "meets": "Student identifies at least one other location where water droplets form and provides a reasonable explanation for the cause, such as cooling or condensation.",
+        "approaching": "Student names one location where droplets form but explanation for the cause is vague or partially inaccurate.",
+        "beginning": "Student provides a minimal response like 'on windows' without explaining what causes the water droplets to form."
+      }
+    },
+    {
+      "questionText": "If you were a water molecule in the air, describe your journey to becoming a dewdrop.",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a complete water cycle journey including evaporation, condensation, and collection on the plant, using water cycle vocabulary and showing clear understanding of the process.",
+        "meets": "Student describes the journey from water vapor to liquid droplet on the plant with accurate steps, though explanation may lack some scientific vocabulary.",
+        "approaching": "Student describes a partial journey (such as being in air then on a plant) but skips key steps or uses unclear language about the process.",
+        "beginning": "Student provides a very brief or confused response that shows minimal understanding of how water becomes a dewdrop."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:26:36.186Z",
+  "cost": 0.00462
+}

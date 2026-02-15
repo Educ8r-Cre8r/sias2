@@ -1,0 +1,53 @@
+{
+  "title": "Camouflage",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this lizard is brown and not bright blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the brown color helps the lizard hide or blend in with the wood and leaves, and uses the term \"camouflage\" or \"blend in\" to describe this protection strategy.",
+        "meets": "Student explains that the brown color helps the lizard hide or blend in with its surroundings like the wood and leaves.",
+        "approaching": "Student recognizes that brown color is related to where the lizard lives or mentions that it helps the lizard hide, but explanation is unclear or incomplete.",
+        "beginning": "Student provides a response with minimal connection to hiding or blending, such as \"because it's brown\" or \"it just is.\""
+      }
+    },
+    {
+      "questionText": "If this lizard lived on bright green grass instead of brown wood, what color do you think it should be, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the lizard should be green and explains that this color would help it hide or blend in with the grass so other animals cannot see it as easily.",
+        "meets": "Student predicts the lizard should be green and explains that this color would help it blend in or hide in the grass.",
+        "approaching": "Student predicts the lizard should be green but provides weak or unclear reasoning about why this color would help it.",
+        "beginning": "Student provides an inaccurate color prediction or states a color without any explanation about hiding or blending."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal that hides by blending in with where it lives? What color is it, and where does it live?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies an appropriate animal that uses camouflage (such as a butterfly, frog, or owl), describes its color accurately, names its habitat, and explains how the color matches the environment.",
+        "meets": "Student identifies an animal that uses camouflage, describes its color, and names where it lives.",
+        "approaching": "Student names an animal and either describes its color or its habitat, but not both, or provides incomplete information about camouflage.",
+        "beginning": "Student names an animal but provides little to no information about its color, habitat, or how it blends in."
+      }
+    },
+    {
+      "questionText": "What would happen to this lizard if it were bright red instead of brown?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a bright red lizard would be easy to see and could be caught by predators more easily because it would not blend in with the brown wood and leaves.",
+        "meets": "Student explains that the bright red color would make the lizard easy to see and that predators might find it more easily.",
+        "approaching": "Student recognizes that bright red would be visible or stand out, but does not clearly connect this to predator danger or being easier to spot.",
+        "beginning": "Student provides a vague response such as \"it would look different\" without explaining the danger or why visibility matters."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:46:44.322Z",
+  "cost": 0.004774
+}

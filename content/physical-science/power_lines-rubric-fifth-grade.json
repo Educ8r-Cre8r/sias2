@@ -1,0 +1,53 @@
+{
+  "title": "Power Lines",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if one of these power lines broke? How might it affect your neighborhood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific consequences of a broken power line (loss of electricity, safety hazards, potential fires) and explains how different parts of the neighborhood would be affected, demonstrating understanding of electrical distribution systems.",
+        "meets": "Student describes at least two realistic consequences of a broken power line, such as loss of power to homes or danger to people, with basic explanations of how the neighborhood might be impacted.",
+        "approaching": "Student identifies one consequence of a broken power line (such as no electricity) but provides incomplete or vague explanations about how the neighborhood would be affected.",
+        "beginning": "Student provides a minimal response mentioning only that something bad would happen or offers an inaccurate/unrealistic consequence with little explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think the wires are made of metal instead of plastic or rubber?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that metal conducts electricity while plastic and rubber are insulators, and provides additional reasoning such as durability, strength, or cost-effectiveness for outdoor use.",
+        "meets": "Student correctly explains that metal conducts electricity better than plastic or rubber, demonstrating understanding of electrical conductivity.",
+        "approaching": "Student mentions that metal is needed for electricity to travel but provides incomplete or partially inaccurate explanation about why plastic or rubber would not work.",
+        "beginning": "Student gives a vague response such as 'metal is stronger' or 'it just works' without addressing electrical conductivity or material properties."
+      }
+    },
+    {
+      "questionText": "How is electricity different from water, and how are they similar in the way they travel through pipes and wires?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both travel through pathways, need a conductor, require a closed system) and differences (electricity is energy vs. water is matter; different speeds; different safety concerns), demonstrating sophisticated understanding of both systems.",
+        "meets": "Student identifies at least one accurate similarity (both flow through pipes/wires to reach destinations) and one difference (electricity is energy; water is a liquid), showing solid understanding of the comparison.",
+        "approaching": "Student identifies either a similarity or difference but provides incomplete reasoning; may confuse some properties or offer only surface-level comparisons.",
+        "beginning": "Student provides minimal or confused response with little accurate comparison between how electricity and water travel through their respective delivery systems."
+      }
+    },
+    {
+      "questionText": "What would change if the transformer on this pole wasn't here?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the transformer reduces high-voltage electricity to safe levels for homes and describes specific consequences if absent, such as unsafe voltage reaching homes or inability to use appliances properly.",
+        "meets": "Student correctly identifies that the transformer changes or reduces the electricity in some way and explains that without it, homes would not receive usable power or electricity would be unsafe.",
+        "approaching": "Student recognizes the transformer has an important function related to electricity but provides incomplete or partially inaccurate explanation about what it does or why it matters.",
+        "beginning": "Student provides vague response such as 'things wouldn't work' without explaining the transformer's specific role in electrical distribution."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:35:49.600Z",
+  "cost": 0.005003
+}

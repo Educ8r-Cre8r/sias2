@@ -1,0 +1,53 @@
+{
+  "title": "Tires",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What would happen if tires were completely smooth like a rubber ball?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that smooth tires would slip or slide on the road and describes how tread helps grip the road, using the word \"friction\" or \"grip\" appropriately.",
+        "meets": "Student states that smooth tires would slip or slide and correctly identifies that tread helps tires stay on the road or stop better.",
+        "approaching": "Student mentions that smooth tires might slip or identifies that tread is important, but explanation is incomplete or unclear.",
+        "beginning": "Student provides a vague response such as \"tires wouldn't work\" without explaining why or what tread does."
+      }
+    },
+    {
+      "questionText": "Why do you think tire tread looks different from the tread on the bottom of your shoes, even though they both need to grip?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that cars need to push water away and move faster than people walk, explaining how tire tread patterns are designed differently to handle both water and speed, with reference to specific details from the photo.",
+        "meets": "Student correctly identifies at least two reasons tire tread differs from shoe tread, such as cars needing to remove water or traveling at higher speeds.",
+        "approaching": "Student identifies one reason tire tread differs (such as water removal or speed) but explanation lacks detail or is partially unclear.",
+        "beginning": "Student acknowledges that treads look different but provides little to no explanation of why they should be different."
+      }
+    },
+    {
+      "questionText": "How do you think a tire's tread changes after someone drives a car for many years?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that tread wears down or gets smaller over time and connects this to reduced grip or safety, demonstrating understanding of cause and effect.",
+        "meets": "Student correctly states that tread gets worn down, flattened, or smaller after many years of driving.",
+        "approaching": "Student suggests the tread changes but description is vague (e.g., \"it gets worse\") without clearly explaining what happens.",
+        "beginning": "Student provides minimal response or incorrect information, such as tread getting deeper or thicker."
+      }
+    },
+    {
+      "questionText": "If you were designing a tire for a race car on a wet track, what would you change about the tread pattern and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes specific changes (deeper grooves, different pattern shapes) and explains how these changes would help remove water faster or improve grip on wet roads, showing thoughtful reasoning.",
+        "meets": "Student suggests making tread deeper or changing the pattern and provides a reasonable explanation related to water removal or gripping wet surfaces.",
+        "approaching": "Student identifies that tread should change but explanation of why is vague or only partially connected to wet track conditions.",
+        "beginning": "Student makes a suggestion about tread changes with little or no explanation, or response is unrelated to handling wet tracks."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:27:02.639Z",
+  "cost": 0.004695
+}

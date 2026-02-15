@@ -1,0 +1,53 @@
+{
+  "title": "Propane Heater",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe happening to the metal mesh? What does the color tell us about its temperature?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the mesh glowing bright orange-red and explains that the color indicates the mesh is very hot, using the term 'temperature' correctly and connecting color change to heat intensity.",
+        "meets": "Student identifies that the mesh is glowing red or orange and states that this color shows the mesh is hot or has a high temperature.",
+        "approaching": "Student notes the mesh is glowing or red but provides unclear or incomplete connection between color and temperature, such as saying 'it's red because it's hot' without explaining what the color tells us.",
+        "beginning": "Student provides minimal observation such as 'the mesh is red' or 'it glows' with little to no explanation of what the color indicates about temperature."
+      }
+    },
+    {
+      "questionText": "Where is the energy in this heater coming from, and how does it change form from the propane to the red glow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies propane as the energy source, explains that burning the propane releases chemical energy that becomes heat energy, and describes how this heat energy makes the mesh glow red.",
+        "meets": "Student correctly states that energy comes from propane and explains that burning it creates heat that makes the mesh red or glow.",
+        "approaching": "Student identifies propane as the source but provides incomplete explanation of energy change, such as mentioning burning or heat without clearly connecting it to the red glow.",
+        "beginning": "Student gives a vague response such as 'propane makes it hot' or 'fire makes it glow' without explaining the energy transformation."
+      }
+    },
+    {
+      "questionText": "If we placed a thermometer near the heater, what would happen to it and why? What type of energy transfer is that?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the thermometer reading would increase, explains that heat energy from the glowing mesh travels to the thermometer, and correctly identifies this as radiation or thermal energy transfer through air.",
+        "meets": "Student predicts the thermometer would get hotter or the reading would go up, and identifies that heat from the heater travels to it through radiation or heat transfer.",
+        "approaching": "Student predicts the thermometer would change but provides incomplete reasoning, such as 'it would get hot' without explaining the transfer process or naming the type of energy transfer.",
+        "beginning": "Student makes a prediction with minimal explanation, such as 'the thermometer would go up' or 'it would get hot' without describing why or how energy moves."
+      }
+    },
+    {
+      "questionText": "Why do you think engineers designed the heater to have a metal mesh instead of just burning the propane in an open flame? What advantage does it provide?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the mesh spreads heat over a larger area making heating more efficient and safer, and recognizes that it glows to radiate heat rather than producing a dangerous open flame.",
+        "meets": "Student identifies that the mesh helps spread or distribute heat better than an open flame, or makes the heater safer or more effective.",
+        "approaching": "Student recognizes an advantage of the mesh design but explanation lacks detail, such as 'it makes it safer' or 'it spreads the heat' without fully explaining why this matters.",
+        "beginning": "Student provides a vague answer such as 'it looks better' or 'engineers like it' with little reasoning connected to heat transfer or safety."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:43:41.081Z",
+  "cost": 0.005345
+}

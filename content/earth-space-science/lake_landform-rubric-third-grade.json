@@ -1,0 +1,53 @@
+{
+  "title": "Lake Landform",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this fallen tree over many, many years?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the tree will decompose and break down into smaller pieces over time, explaining that water, weather, and organisms like fungi or insects will help it decay and eventually become part of the soil or lake bottom.",
+        "meets": "Student predicts that the tree will break down or rot over time due to water and weather, with basic understanding that natural processes will change the tree.",
+        "approaching": "Student predicts the tree will change over time but provides vague reasoning, such as saying it will get smaller or disappear without explaining the decomposition process.",
+        "beginning": "Student makes a prediction about the tree but it is unclear or inaccurate, such as saying it will float away or stay the same forever."
+      }
+    },
+    {
+      "questionText": "Why do you think the water collected in this low area instead of somewhere else?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water flows downhill to the lowest areas due to gravity, and identifies that this depression or valley holds water better than surrounding higher ground, demonstrating understanding of topography and water movement.",
+        "meets": "Student correctly explains that water gathers in low places because it flows downhill or because the land is lower in this spot.",
+        "approaching": "Student recognizes that the area is low or that water flows there, but the explanation is incomplete or lacks clear reasoning about why low areas collect water.",
+        "beginning": "Student provides a minimal response such as 'the water is there' without explaining why water collects in low areas."
+      }
+    },
+    {
+      "questionText": "How might this lake be different in summer compared to fall, when this picture was taken?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple seasonal differences such as water level changes, temperature variations, different plant colors (green in summer vs. fall colors now), and how these affect living things like animals and plants in and around the lake.",
+        "meets": "Student identifies at least two seasonal differences, such as warmer temperatures in summer, more leaves on trees, or water level changes between seasons.",
+        "approaching": "Student identifies one seasonal difference (such as temperature or leaf color) but reasoning is incomplete or the connection to the lake is unclear.",
+        "beginning": "Student attempts to compare seasons but provides vague or minimal details with limited understanding of how seasons affect the lake environment."
+      }
+    },
+    {
+      "questionText": "If you could visit this lake, what living and nonliving things would you expect to find there, and how do they need each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple living things (such as fish, plants, birds, insects, decomposers) and nonliving things (water, rocks, soil, air), and explains specific relationships showing how they depend on each other, such as plants needing water and sun, animals eating plants, or decomposers breaking down dead matter.",
+        "meets": "Student lists several living and nonliving things found in or around the lake and explains that they need each other in a general way, such as animals needing plants for food or water being necessary for life.",
+        "approaching": "Student identifies some living or nonliving things in the lake but provides limited explanation of how they interact or depend on each other.",
+        "beginning": "Student lists a few things found at the lake with little to no explanation of how living and nonliving things are connected or need each other."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:45:15.390Z",
+  "cost": 0.005179
+}

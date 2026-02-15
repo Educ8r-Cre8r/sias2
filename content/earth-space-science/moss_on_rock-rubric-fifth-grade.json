@@ -1,0 +1,53 @@
+{
+  "title": "Moss on Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that the moss is changing the rock over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes (moss filling cracks, rock appearing worn/weathered, different colored layers exposed) and explains how moss contributes to rock breakdown through weathering processes like breaking apart rock material.",
+        "meets": "Student observes that moss is covering cracks in the rock and notes that the rock surface appears worn or weathered, suggesting the moss is affecting the rock over time.",
+        "approaching": "Student recognizes that moss is growing on the rock and suggests it might be changing it, but provides vague or limited observations (e.g., 'the moss is breaking it' without specific details).",
+        "beginning": "Student states that moss is present on the rock but provides minimal or no explanation of how it might be changing the rock surface."
+      }
+    },
+    {
+      "questionText": "How might this rocky area look different in 100 years if the moss continues growing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that more of the rock will be covered by moss, the rock will break down further into smaller pieces or soil, and explains that this process (weathering and soil formation) creates conditions for other plants to grow, showing understanding of ecological succession.",
+        "meets": "Student predicts that more moss will cover the rock and suggests the rock will become more broken down or weathered over 100 years.",
+        "approaching": "Student makes a prediction about the area changing (e.g., 'more moss will grow' or 'the rock will get smaller') but lacks detail or reasoning about how this change would occur.",
+        "beginning": "Student attempts a prediction but it is unclear, inaccurate, or shows little understanding of long-term changes (e.g., 'it will disappear' without explanation)."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the moss if this rock was moved to a desert environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the moss would die or stop growing and explains multiple reasons: deserts are dry (moss needs moisture), have extreme temperatures, or receive intense sunlight, demonstrating understanding of moss habitat requirements.",
+        "meets": "Student predicts the moss would die or stop growing because deserts are very dry or hot, showing understanding that moss needs moisture or cooler conditions.",
+        "approaching": "Student recognizes that the desert environment would be harmful to the moss but provides incomplete or partially accurate reasoning (e.g., 'it would die because it's different' without mentioning specific desert conditions).",
+        "beginning": "Student attempts an answer but provides minimal explanation or shows misunderstanding (e.g., 'the moss would grow bigger' or 'it would change color' without clear reasoning)."
+      }
+    },
+    {
+      "questionText": "Why do you think moss grows better in the cracks of rocks rather than on smooth surfaces?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that cracks provide protection, trap moisture and nutrients, offer places for spores to attach and grow, and protect moss from drying out or being rubbed away, showing comprehensive understanding of moss growing conditions.",
+        "meets": "Student explains that cracks hold water/moisture or provide places for moss to attach and grow, demonstrating understanding of basic moss habitat needs.",
+        "approaching": "Student recognizes that cracks are better for moss growth but provides incomplete reasoning (e.g., 'moss likes cracks' or 'it's easier to grow there' without explaining why).",
+        "beginning": "Student attempts an explanation but shows minimal understanding or provides inaccurate information (e.g., 'cracks are bigger' or provides no clear reason for the preference)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:25:48.732Z",
+  "cost": 0.005478
+}

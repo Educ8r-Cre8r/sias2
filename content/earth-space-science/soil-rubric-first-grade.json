@@ -1,0 +1,53 @@
+{
+  "title": "Soil",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you see in the different layers of this soil?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple soil layers with specific colors and describes what is in each layer, including details like roots, rocks, or different soil colors (dark, reddish-brown, darker).",
+        "meets": "Student describes at least two different soil layers and notices they look different from each other, mentioning colors or contents.",
+        "approaching": "Student identifies that soil has different parts or layers but provides limited or vague descriptions of what they see.",
+        "beginning": "Student makes a simple observation about soil but does not clearly describe different layers or what is in them."
+      }
+    },
+    {
+      "questionText": "Why do you think the plant's roots are growing down into the soil instead of staying above ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots grow down to find water and nutrients in the soil, and connects this to why plants need these things to grow and stay alive.",
+        "meets": "Student correctly identifies that roots grow down into soil to get water or food/nutrients that plants need.",
+        "approaching": "Student recognizes that roots go into the soil for a reason but provides an incomplete or partially correct explanation (e.g., mentions water or food but not why it's needed).",
+        "beginning": "Student provides a minimal or unclear reason for root growth, such as 'roots just grow down' without explaining what they find in soil."
+      }
+    },
+    {
+      "questionText": "If we left a pile of dead leaves on the ground for a whole year, what do you think would happen to them?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that leaves break down or decompose into soil and explains that this happens because they decay over time, possibly mentioning that they become part of the soil.",
+        "meets": "Student predicts that leaves will break apart, rot, or turn into soil without much additional explanation.",
+        "approaching": "Student makes a prediction about the leaves changing (e.g., getting smaller, darker) but the explanation is unclear or incomplete.",
+        "beginning": "Student makes a vague prediction or guess about leaves with little reasoning (e.g., 'they go away' or 'they disappear')."
+      }
+    },
+    {
+      "questionText": "What would happen to a plant if we tried to grow it in sand with no soil? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would not grow well or would die and explains that soil has nutrients and water that sand does not have, or that roots need soil to get what they need.",
+        "meets": "Student predicts the plant would have trouble growing and identifies that soil is different from sand because it has what plants need (water, nutrients, or food).",
+        "approaching": "Student predicts a negative outcome for the plant but provides a weak or incomplete explanation of why sand is not good for plants.",
+        "beginning": "Student makes a simple prediction (plant would die/not grow) with little to no explanation of why sand and soil are different."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:40:11.953Z",
+  "cost": 0.004721
+}

@@ -1,0 +1,53 @@
+{
+  "title": "King Snake",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this snake's bright colors might help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors warn predators the snake may be dangerous and describes how this reduces attacks; may reference the specific red, yellow, and black bands as a warning signal.",
+        "meets": "Student identifies that the bright colors warn or scare predators away, helping the snake avoid being eaten.",
+        "approaching": "Student mentions that bright colors help the snake in some way but provides incomplete reasoning, such as saying colors help it hide or that predators avoid it without explaining why.",
+        "beginning": "Student provides a vague response like \"the colors help it\" or suggests colors serve a purpose unrelated to predator defense, such as helping it find food."
+      }
+    },
+    {
+      "questionText": "If a predator eats a poisonous snake and gets sick, how might that affect what it hunts in the future?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the predator learns to avoid snakes with those colors in the future and may connect this to how warning colors become effective through repeated learning by predators.",
+        "meets": "Student describes that the sick predator will remember and avoid eating snakes that look like that one, or will hunt different animals instead.",
+        "approaching": "Student recognizes the predator will change its hunting behavior but provides incomplete reasoning, such as saying it will \"stay away\" without explaining that it learned to identify the snake's appearance.",
+        "beginning": "Student provides a minimal response such as \"the predator won't hunt snakes\" or \"it will get sick again\" without connecting the experience to future hunting choices."
+      }
+    },
+    {
+      "questionText": "Some harmless snakes look almost identical to poisonous snakes. How could this be helpful to the harmless snake?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that predators mistake the harmless snake for a poisonous one and avoid it, protecting the harmless snake from being eaten; may reference this as mimicry or copying the warning colors.",
+        "meets": "Student identifies that looking like a poisonous snake tricks predators into thinking it's dangerous and leaving it alone.",
+        "approaching": "Student recognizes that the harmless snake benefits from looking like a poisonous one but provides incomplete explanation, such as saying predators are confused without explaining the predators' response.",
+        "beginning": "Student provides a vague response such as \"it helps the snake\" or suggests the similarity serves a purpose unrelated to predator defense."
+      }
+    },
+    {
+      "questionText": "Over thousands of years, why might snakes with brighter warning colors become more common in a population than snakes with dull colors?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that snakes with bright colors survive better because predators learn to recognize and avoid them, so they reproduce more often and pass bright color traits to offspring; may use terms like \"natural selection\" or \"adaptation.\"",
+        "meets": "Student describes that bright-colored snakes are more likely to survive and have babies because predators avoid them, so over time there are more bright-colored snakes in the population.",
+        "approaching": "Student recognizes that bright colors help snakes survive better but provides incomplete reasoning about how this leads to more bright-colored snakes, such as mentioning survival without explaining reproduction or population change.",
+        "beginning": "Student provides a minimal response such as \"bright colors are better\" or suggests a reason unrelated to predator avoidance and survival advantages."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:49:02.321Z",
+  "cost": 0.005259
+}

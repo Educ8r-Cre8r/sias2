@@ -1,0 +1,53 @@
+{
+  "title": "Fall Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What causes the leaves to change color in the fall?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that trees stop making chlorophyll (green pigment) in fall, revealing other pigments like yellow, orange, and red that were already in the leaves, and may mention this happens because of shorter days and cooler temperatures.",
+        "meets": "Student explains that leaves change color because trees stop making green color, and other colors like yellow, orange, and red show up instead.",
+        "approaching": "Student states that leaves change color in fall and may mention that it gets colder or days get shorter, but does not explain what causes the specific color change.",
+        "beginning": "Student provides a vague response such as 'leaves change color' or 'it's fall' without explaining the cause of the color change."
+      }
+    },
+    {
+      "questionText": "Why do you think trees drop their leaves in autumn instead of keeping them all year?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dropping leaves helps trees survive winter by reducing water loss and saving energy when water in the ground freezes, and may connect this to how trees need less sunlight in winter.",
+        "meets": "Student explains that trees drop leaves to prepare for winter and to save water or energy during the cold season when it is harder for the tree to survive.",
+        "approaching": "Student recognizes that dropping leaves is related to winter survival but provides incomplete reasoning, such as 'trees drop leaves so they don't get cold' without explaining the benefit.",
+        "beginning": "Student provides a minimal response like 'trees drop leaves in fall' or makes an inaccurate guess without connecting it to winter survival."
+      }
+    },
+    {
+      "questionText": "If a tree didn't drop its leaves before winter, what problems might it face?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple problems such as: leaves would lose too much water through evaporation when roots cannot absorb frozen ground water, heavy snow/ice would break branches, or the tree would waste energy trying to keep dead leaves alive.",
+        "meets": "Student identifies at least one realistic problem a tree would face, such as losing too much water, branches breaking from snow, or the tree becoming too weak to survive winter.",
+        "approaching": "Student attempts to identify a problem but reasoning is incomplete or partially inaccurate, such as 'the tree would get too cold' without explaining how leaves would make it worse.",
+        "beginning": "Student provides a vague or inaccurate response such as 'the tree would die' without explaining any specific problems that would occur."
+      }
+    },
+    {
+      "questionText": "How would the life cycle of a tree be different if we lived in a place where it never got cold?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that trees would likely keep their leaves year-round and might grow continuously throughout the year, and recognizes that the tree's life cycle would not include a dormant winter period or seasonal changes.",
+        "meets": "Student explains that trees would not drop their leaves or would have a different growth pattern because there would be no winter season to prepare for.",
+        "approaching": "Student recognizes that the tree's life cycle would change without cold weather but provides incomplete reasoning, such as 'trees would keep their leaves' without explaining why or how growth would be different.",
+        "beginning": "Student provides a minimal response such as 'trees would be different' or 'they wouldn't drop leaves' without explaining how the life cycle would actually change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:41:24.993Z",
+  "cost": 0.005195
+}

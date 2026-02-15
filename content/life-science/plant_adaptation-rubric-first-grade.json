@@ -1,0 +1,53 @@
+{
+  "title": "Plant Adaptation",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this plant has sharp thorns instead of smooth leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that thorns protect the plant from animals eating it, uses the word \"protection\" or \"defense,\" and provides a specific example of how thorns work (e.g., \"they poke animals\" or \"they hurt\").",
+        "meets": "Student identifies that thorns help protect the plant or keep animals away, with a clear but simple explanation of protection.",
+        "approaching": "Student mentions thorns are sharp or that they might stop animals, but the explanation is incomplete or lacks clarity about the protective purpose.",
+        "beginning": "Student provides a vague response (e.g., \"the plant has thorns\") with little or no explanation of why, or states an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "What animals might stay away from a thorny plant? How do you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two realistic animals that eat plants (e.g., deer, rabbits, insects) and explains that these animals would avoid thorns because they don't want to get hurt or poked.",
+        "meets": "Student names at least one plant-eating animal and gives a reasonable explanation for why it would avoid thorns, such as pain or discomfort.",
+        "approaching": "Student names an animal but gives an unclear or partially correct reason for avoiding thorns, or names an animal that doesn't typically eat plants.",
+        "beginning": "Student names an animal with little or no explanation, or provides an inaccurate reason for avoidance."
+      }
+    },
+    {
+      "questionText": "If this thorny plant lived in a place with no animals to eat it, would it still need thorns? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly answers \"no\" and explains that thorns are only useful when there are animals around to eat the plant, showing understanding that the thorns serve a specific protective purpose.",
+        "meets": "Student answers \"no\" with a basic explanation that thorns protect from animals, so they wouldn't be needed without animals.",
+        "approaching": "Student attempts to reason about the purpose of thorns but the answer is unclear, contradictory, or partially correct (e.g., \"maybe it still needs them\").",
+        "beginning": "Student gives an answer without clear reasoning, or states an inaccurate connection between thorns and animal threats."
+      }
+    },
+    {
+      "questionText": "Can you think of other things in nature (besides plants) that have sharp points to protect themselves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals or natural things with sharp points (e.g., porcupine quills, cactus spines, hedgehog spikes, sea urchin spines) and explains how these sharp parts protect them.",
+        "meets": "Student names at least one animal or natural thing with sharp protective features and connects it to the idea of protection.",
+        "approaching": "Student names something with sharp parts but makes a weak or unclear connection to protection, or the example is not clearly related to self-protection.",
+        "beginning": "Student names something sharp with little or no connection to protection, or provides an inaccurate example."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:21:12.408Z",
+  "cost": 0.004996
+}

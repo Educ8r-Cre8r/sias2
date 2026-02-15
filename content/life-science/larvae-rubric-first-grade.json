@@ -1,0 +1,53 @@
+{
+  "title": "Larvae",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this tiny creature eats, and why do you think it lives in the dirt?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple food sources (soil, plants, decaying matter) and explains two or more reasons for living in dirt (protection, moisture, food availability) using complete thoughts.",
+        "meets": "Student suggests a reasonable food source and provides one logical reason for living in dirt, such as staying safe or finding food.",
+        "approaching": "Student makes a guess about food or habitat but provides incomplete or partially unclear reasoning; may mention only one aspect (food or habitat).",
+        "beginning": "Student provides a vague response with minimal connection to larva biology, such as 'it eats dirt' without explanation, or does not attempt to answer."
+      }
+    },
+    {
+      "questionText": "How is this larva's body different from a butterfly or beetle you might see flying? What do you think changes as it grows?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two body differences (soft vs. hard, no wings, small vs. large) and describes changes during growth, demonstrating understanding of metamorphosis concepts.",
+        "meets": "Student identifies one or two clear body differences and mentions that the larva will change as it grows into an adult insect.",
+        "approaching": "Student notices some differences but descriptions are unclear or incomplete; may mention growth without explaining what changes.",
+        "beginning": "Student makes vague observations such as 'it's different' without specific details, or does not attempt comparison."
+      }
+    },
+    {
+      "questionText": "If you had to design a creature to live in soil, what body parts would you give it, and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a creature with at least three body parts and explains why each part would help it survive in soil (e.g., strong legs for digging, small body to fit through spaces).",
+        "meets": "Student proposes at least two body parts suited to soil living and provides reasonable explanations for their choices.",
+        "approaching": "Student suggests some body parts but explanations are vague or only partially connected to soil living; reasoning may be unclear.",
+        "beginning": "Student lists body parts with no explanation, or response lacks connection to soil habitat requirements."
+      }
+    },
+    {
+      "questionText": "Why do you think the larva has a brown head but a white body?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student offers a thoughtful explanation connecting color to function, such as the brown head being stronger for eating, or discusses how coloring might relate to camouflage or protection.",
+        "meets": "Student provides a reasonable inference, such as the head being darker because it's tougher or more protected, or the white body blending into soil.",
+        "approaching": "Student attempts an explanation but reasoning is incomplete or somewhat unclear; may note the color difference without clear connection to survival.",
+        "beginning": "Student responds with 'I don't know' or an answer unrelated to the larva's survival or characteristics."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:50:01.096Z",
+  "cost": 0.004731
+}

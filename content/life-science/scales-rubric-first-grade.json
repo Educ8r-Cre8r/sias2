@@ -1,0 +1,53 @@
+{
+  "title": "Scales",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the bumpy skin on this animal? How is it different from your skin?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific features of the scales (bumpy, hard, tile-like pattern) and makes accurate comparisons to human skin (smooth, soft, no scales) using descriptive words.",
+        "meets": "Student identifies that the animal has bumpy or scaly skin and notes that it is different from human skin, with at least one accurate comparison.",
+        "approaching": "Student notices the skin is bumpy or different but provides vague descriptions or makes only partial comparisons to human skin.",
+        "beginning": "Student provides a minimal response about the animal's skin with little detail or makes an inaccurate observation."
+      }
+    },
+    {
+      "questionText": "Why do you think this animal needs tough, scaly skin? What could the scales protect it from?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that scales provide protection and identifies multiple specific threats (water, sharp plants, other animals, sun) with logical reasoning about how scales help.",
+        "meets": "Student explains that scales protect the animal and identifies at least one realistic threat or protection benefit appropriate to the animal's environment.",
+        "approaching": "Student recognizes scales provide some kind of protection but gives vague or partially incomplete explanations about what they protect against.",
+        "beginning": "Student provides a minimal or unclear answer about why the animal needs scales, with little logical reasoning."
+      }
+    },
+    {
+      "questionText": "If you were going to design a skin covering for an animal that lives in a swamp, what would you make it like? Why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a realistic skin covering with multiple features suited to a swamp (waterproof, tough, protective) and provides clear scientific reasoning for each design choice.",
+        "meets": "Student describes a logical skin design for a swamp animal and explains at least two reasons why their design would help the animal survive there.",
+        "approaching": "Student describes a skin design for a swamp animal but provides only one reason or incomplete explanation for why it would work.",
+        "beginning": "Student attempts a design but provides minimal detail or unclear reasoning about why it would help an animal in a swamp."
+      }
+    },
+    {
+      "questionText": "How do you think having scales helps this animal survive in places where it lives?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple survival advantages of scales (protection, water resistance, camouflage, temperature control) specific to the animal's wetland habitat.",
+        "meets": "Student explains how scales help the animal survive with at least two specific and accurate examples related to its habitat.",
+        "approaching": "Student identifies that scales help the animal survive but provides only one benefit or gives incomplete explanations.",
+        "beginning": "Student provides a vague or minimally detailed response about how scales help the animal survive."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:51:32.265Z",
+  "cost": 0.004557
+}

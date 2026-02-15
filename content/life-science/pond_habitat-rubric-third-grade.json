@@ -1,0 +1,53 @@
+{
+  "title": "Pond Habitat",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the water lily plant needs to grow in the pond?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific needs (water, sunlight, nutrients/soil) with accurate explanations of why each is important for water lily growth.",
+        "meets": "Student identifies two or more basic needs of water lilies (such as water and sunlight) with simple, accurate explanations.",
+        "approaching": "Student identifies one need of water lilies (such as water) but explanation is vague or incomplete; may mention other needs without clear reasoning.",
+        "beginning": "Student provides a minimal or unclear response; may mention water but shows little understanding of what plants need to grow."
+      }
+    },
+    {
+      "questionText": "Why do you think animals like to live near or in ponds? What does a pond give them?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pond resources for animals (water for drinking/living, food sources, shelter/safety) and explains how at least two of these support animal survival.",
+        "meets": "Student identifies at least two things ponds provide animals (such as water and food or shelter) with reasonable explanations of how these help animals.",
+        "approaching": "Student identifies one thing a pond provides (such as water) but reasoning is incomplete; may list other benefits without explaining why they matter.",
+        "beginning": "Student provides a vague answer like 'animals like ponds' with little or no explanation of what ponds offer animals."
+      }
+    },
+    {
+      "questionText": "How do you think the trees help the pond animals, even though the trees don't live in the water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple ways trees support pond life (shade/cooling water, dropping leaves for food, providing shelter/homes, dropping branches) and explains connections between tree actions and animal needs.",
+        "meets": "Student identifies at least two ways trees help pond animals (such as providing shade or shelter) with clear, logical explanations.",
+        "approaching": "Student identifies one way trees help (such as shade or food) but explanation lacks detail; may mention trees are helpful without clear reasoning about how.",
+        "beginning": "Student provides a minimal response such as 'trees are nice' with little understanding of how land plants specifically benefit water animals."
+      }
+    },
+    {
+      "questionText": "If someone drained all the water from this pond, what would happen to the plants and animals that live there? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water plants and animals would die or leave because they need water to survive; demonstrates understanding that removing water causes loss of habitat and resources necessary for life.",
+        "meets": "Student explains that plants and animals would die or leave the pond, with a simple reason related to water loss (such as 'they need water to live').",
+        "approaching": "Student says plants and animals would die or be harmed, but reasoning is vague or incomplete; may show partial understanding of why water is essential.",
+        "beginning": "Student provides a minimal response with little explanation; may say things would die but show little understanding of the connection between water and life."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:52:32.078Z",
+  "cost": 0.004806
+}

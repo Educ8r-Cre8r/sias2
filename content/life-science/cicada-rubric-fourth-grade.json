@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages might cicadas gain from spending most of their lives underground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific advantages (protection from predators, stable temperature, access to plant roots for food) and explains how each benefit helps the cicada survive underground.",
+        "meets": "Student identifies at least two advantages of underground living, such as protection or finding food, with reasonable explanations.",
+        "approaching": "Student identifies one advantage of underground living but explanation is vague or partially inaccurate; reasoning is incomplete.",
+        "beginning": "Student provides a minimal response with little or no explanation; may confuse underground living with other cicada behaviors."
+      }
+    },
+    {
+      "questionText": "How do you think the cicada's body parts help it survive in its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes how multiple body parts (transparent wings, strong legs, large eyes, hard body) connect to specific survival needs like flying, detecting danger, or digging.",
+        "meets": "Student identifies at least two body parts and explains how each helps the cicada survive in its environment (e.g., strong legs for digging, wings for flying).",
+        "approaching": "Student names one or two body parts visible in the photo but offers only simple or incomplete connections to survival.",
+        "beginning": "Student lists body parts with little to no explanation of how they help the cicada survive."
+      }
+    },
+    {
+      "questionText": "Why might cicadas emerge in huge numbers all at the same time instead of just a few at a time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains the protective advantage of large group emergence (predators can only eat a few compared to total population) and connects this to the cicada's survival strategy.",
+        "meets": "Student identifies that emerging in large numbers provides protection or advantage, such as predators being overwhelmed or unable to eat all the cicadas.",
+        "approaching": "Student recognizes that group emergence is connected to survival but explanation lacks clarity or is only partially developed.",
+        "beginning": "Student makes a guess about group emergence with minimal reasoning or understanding of the survival advantage."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in the cicada's life cycle compared to other insects we've studied?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares cicada life cycle patterns (long underground stage, synchronized emergence, short adult life) to other insects and notes that cicadas are unusual or different in specific ways.",
+        "meets": "Student identifies at least one pattern in the cicada life cycle (such as spending time underground) and makes a reasonable comparison to another insect studied.",
+        "approaching": "Student identifies a pattern but comparison to other insects is weak, vague, or shows incomplete understanding of other insect life cycles.",
+        "beginning": "Student provides minimal details about cicada or other insect life cycles; comparison is unclear or missing."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:29:42.670Z",
+  "cost": 0.004534
+}

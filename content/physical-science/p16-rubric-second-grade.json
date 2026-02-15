@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice changed about the cauliflower after it was cooked?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes (color became golden/brown, texture became crispy/crunchy, shape changed) and uses descriptive words to explain what they observe.",
+        "meets": "Student identifies at least two changes in the cauliflower, such as color and texture, with accurate descriptions of what cooked cauliflower looks like.",
+        "approaching": "Student notices that the cauliflower changed but provides only one change (such as color or crunchiness) with limited detail or description.",
+        "beginning": "Student makes a vague observation about the cauliflower changing (such as 'it looks different') but cannot describe specific changes."
+      }
+    },
+    {
+      "questionText": "How do you think heat changed the way this food looks and feels?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heat made the cauliflower brown/golden and crispy, and connects these changes by describing how heat removes water and makes food crunchy while providing a clear cause-and-effect relationship.",
+        "meets": "Student explains that heat changed the color and texture of the cauliflower, recognizing that it became crispier and darker due to cooking.",
+        "approaching": "Student identifies that heat caused some changes but provides incomplete explanations, such as mentioning color change without explaining the texture change or vice versa.",
+        "beginning": "Student acknowledges that heat caused a change but provides little explanation of how or why the food's appearance or feel was affected."
+      }
+    },
+    {
+      "questionText": "What other foods have you seen change when they are cooked?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more foods and describes specific changes observed in each (such as 'chicken turns white,' 'eggs get hard,' 'bread turns brown'), showing clear understanding of heat's effects on different foods.",
+        "meets": "Student names two or three foods and describes how they change when cooked, such as color or texture changes, with accurate observations.",
+        "approaching": "Student names one or two foods that change when cooked but provides limited or vague descriptions of the changes, such as 'it gets different' without details.",
+        "beginning": "Student names a food or provides a very general response about cooking but does not clearly describe how the food changes with heat."
+      }
+    },
+    {
+      "questionText": "Why do you think people cook vegetables instead of always eating them raw?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons for cooking vegetables, such as improved taste, better texture (crunchier or softer), easier to eat, or food safety, with thoughtful explanations connecting reasons to real experiences.",
+        "meets": "Student provides at least one valid reason for cooking vegetables, such as it tastes better, it's easier to chew, or it feels different, with a reasonable explanation.",
+        "approaching": "Student attempts to explain why people cook vegetables but reasoning is unclear or partially formed, such as 'because we like it' without supporting details.",
+        "beginning": "Student provides a minimal response that does not clearly explain why cooking vegetables might be beneficial or preferred."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:03:15.401Z",
+  "cost": 0.004865
+}

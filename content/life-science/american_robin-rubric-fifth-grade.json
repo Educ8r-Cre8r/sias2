@@ -1,0 +1,53 @@
+{
+  "title": "American Robin",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the robin's orange breast helps it survive?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple survival functions of the orange breast (e.g., attracting mates, warning predators, or helping other robins recognize their species) with specific details and uses vocabulary like camouflage, predator, or adaptation.",
+        "meets": "Student identifies at least one survival function of the orange breast, such as helping attract a mate or making the robin recognizable to other robins, with a clear explanation.",
+        "approaching": "Student recognizes that the orange breast helps the robin survive but provides incomplete or partially accurate reasoning, such as vague statements about \"helping it be seen\" without full explanation.",
+        "beginning": "Student makes a general statement about the orange breast or survival (e.g., \"it helps it survive\") with minimal explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "Compare the robin's dark back to its bright orange breast. Why might the robin need both colors instead of just one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies contrasting functions of both colors—dark back for camouflage/blending into shadows and trees, bright breast for attracting mates or signaling—and explains how having both colors serves different survival purposes better than one color alone.",
+        "meets": "Student accurately compares the two colors and explains that the dark back and bright breast serve different purposes, such as one helping hide and one helping attract mates.",
+        "approaching": "Student notices the color difference and attempts to explain purposes for each color but reasoning is incomplete or one explanation lacks clarity or accuracy.",
+        "beginning": "Student identifies that the colors are different or states a general purpose for colors but provides little comparison or reasoning about why both are needed."
+      }
+    },
+    {
+      "questionText": "If a robin lived in a snowy environment all year, what color might help it survive better than orange? Explain your thinking.",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts white or light-colored plumage would be more beneficial and provides scientific reasoning using concepts like camouflage, blending into snow, predator avoidance, or adaptation to environment; may note that orange would make the robin more visible to predators.",
+        "meets": "Student predicts a lighter color (white, gray, or pale) would help better and explains that it would help the robin blend into snow or hide from predators.",
+        "approaching": "Student predicts a color change (light or white) but explanation is partially formed or lacks clear reasoning about camouflage or survival advantage in snow.",
+        "beginning": "Student gives a color prediction with vague or minimal explanation, or states that a color would help but does not connect it to snow environment or survival."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that have bright colors on their bodies? What do you think those colors help them do?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals with bright colors (e.g., cardinals, parrots, poisonous frogs) and explains different purposes for bright coloring such as attracting mates, warning predators of danger, or species recognition; may use vocabulary like adaptation or signal.",
+        "meets": "Student names at least one or two animals with bright colors and explains a survival purpose such as attracting mates, warning predators, or helping animals recognize each other.",
+        "approaching": "Student names one or more animals with bright colors but explanation of purpose is incomplete, vague, or partially accurate.",
+        "beginning": "Student names an animal with bright colors or mentions a purpose for bright colors but provides minimal detail or unclear connection between the animal and function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:04:55.894Z",
+  "cost": 0.005411
+}

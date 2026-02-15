@@ -1,0 +1,53 @@
+{
+  "title": "Insect Characteristics",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this grasshopper is green?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the grasshopper's green color helps it hide or blend in with the green leaf and plants, and extends thinking by mentioning this helps keep it safe from animals that might eat it.",
+        "meets": "Student correctly identifies that the grasshopper's green color helps it blend in or hide on the green leaf or plants.",
+        "approaching": "Student mentions the grasshopper is green and makes a simple connection to the leaf or hiding, but reasoning is incomplete or unclear.",
+        "beginning": "Student provides a minimal response such as 'it is green' or 'it matches the leaf' with little or no explanation of why this matters."
+      }
+    },
+    {
+      "questionText": "What body parts can you see on the grasshopper, and what do you think each one does?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three body parts (such as legs, antennae, eyes, wings, or body) and explains what each one does with accurate, specific details (e.g., legs help it jump, antennae help it smell or feel).",
+        "meets": "Student identifies at least two body parts and explains a reasonable function for each, such as legs for jumping or eyes for seeing.",
+        "approaching": "Student identifies one or two body parts and attempts to explain what they do, but explanations are vague or partially incorrect.",
+        "beginning": "Student names one body part or gives a very vague response like 'it has legs' without explaining what the part does."
+      }
+    },
+    {
+      "questionText": "If a grasshopper was brown instead of green, what might happen to it when it sits on this leaf?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a brown grasshopper would stand out or be easy to see on the green leaf, making it easier for predators to find and eat it, showing clear understanding of camouflage.",
+        "meets": "Student correctly explains that a brown grasshopper would be easier to see on the green leaf, or that it would not blend in as well and could be spotted by animals that eat it.",
+        "approaching": "Student recognizes that brown would look different on a green leaf but explanation of the consequence is unclear or incomplete.",
+        "beginning": "Student provides a minimal response such as 'you could see it' or 'it would look different' without explaining why this would be a problem."
+      }
+    },
+    {
+      "questionText": "Where do grasshoppers find their food, and why do they need to live near plants?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that grasshoppers find food by eating plants, and describes why they need to live near plants (plants are their food source) and may extend by mentioning plants also provide shelter or camouflage.",
+        "meets": "Student correctly states that grasshoppers eat plants and need to live near plants because that is where their food is.",
+        "approaching": "Student indicates that grasshoppers eat plants or live near them, but does not clearly explain the connection between the two ideas.",
+        "beginning": "Student provides a vague response such as 'they eat plants' or 'they live on leaves' without explaining the relationship."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:16:39.073Z",
+  "cost": 0.004994
+}

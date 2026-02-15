@@ -1,0 +1,53 @@
+{
+  "title": "Amphibian",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What special body parts does this frog have that help it live in trees?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (sticky toe pads, strong legs, large eyes) and explains how each one helps the frog live in trees with specific details.",
+        "meets": "Student identifies at least two special body parts (such as sticky toe pads or strong legs) and explains how they help the frog in trees.",
+        "approaching": "Student identifies one special body part or mentions sticky feet/strong legs but provides limited or unclear explanation of how it helps.",
+        "beginning": "Student makes a vague attempt (e.g., 'it has feet' or 'it can stick') with minimal detail or connection to tree living."
+      }
+    },
+    {
+      "questionText": "Why might the frog's bumpy, gray-brown skin be helpful when it sits on a tree?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bumpy, gray-brown texture helps the frog hide or blend in with the tree bark and rocks, protecting it from predators.",
+        "meets": "Student explains that the bumpy, gray-brown skin helps the frog blend in or hide on trees, using the word 'camouflage' or describing matching colors.",
+        "approaching": "Student mentions that the bumpy skin or gray-brown color helps the frog 'hide' or 'blend in' but explanation lacks clarity or detail.",
+        "beginning": "Student provides a minimal response such as 'it looks like the tree' or 'it helps' without clear reasoning."
+      }
+    },
+    {
+      "questionText": "If a frog lost its sticky toe pads, what problems might it have?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple problems (cannot climb trees, would fall, cannot catch insects in high places, cannot escape predators) with logical reasoning.",
+        "meets": "Student identifies at least one major problem such as the frog cannot climb trees or would fall, with reasonable explanation.",
+        "approaching": "Student identifies that the frog would have difficulty but explanation is vague (e.g., 'it couldn't climb') without clear reasoning.",
+        "beginning": "Student attempts an answer but provides minimal or unclear problem (e.g., 'it would be bad' or 'it couldn't move')."
+      }
+    },
+    {
+      "questionText": "Where do you think this frog came from before it was on this white surface, and why might it need to move to a different place?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a likely habitat (trees, forest, rocks near water) and explains multiple reasons to move (finding food/insects, finding water, escaping danger, searching for mates).",
+        "meets": "Student identifies a reasonable habitat like trees or forest and gives at least one reason for moving such as finding food or water.",
+        "approaching": "Student suggests a general location (outside, nature) and provides a simple reason for moving but with limited detail or unclear thinking.",
+        "beginning": "Student makes a guess about where the frog came from or why it moved without clear reasoning or connection to frog behavior."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:08:31.003Z",
+  "cost": 0.004885
+}

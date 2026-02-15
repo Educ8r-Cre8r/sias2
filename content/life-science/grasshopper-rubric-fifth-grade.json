@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the grasshopper's body parts help it survive in its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies and explains how multiple body parts (legs, antennae, eyes, wings) help the grasshopper survive, using specific details about function such as gripping, sensing, seeing, or escaping predators.",
+        "meets": "Student describes how at least two grasshopper body parts help it survive with accurate explanations of their functions.",
+        "approaching": "Student identifies one or two body parts and attempts to explain their function, but explanations may be incomplete or lack clear connection to survival.",
+        "beginning": "Student names a body part but provides vague or inaccurate descriptions of how it helps the grasshopper survive."
+      }
+    },
+    {
+      "questionText": "What would happen to the sunflower population if all grasshoppers disappeared from this ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that sunflower populations would likely increase due to reduced seed consumption, and explains the cause-and-effect relationship between grasshopper predation and plant survival with clear reasoning.",
+        "meets": "Student predicts a reasonable outcome (sunflower population would increase) and explains it is because grasshoppers would no longer eat the seeds.",
+        "approaching": "Student makes a prediction about the sunflower population but provides incomplete reasoning or shows partial understanding of the predator-prey relationship.",
+        "beginning": "Student makes a guess about what would happen but provides little or no explanation, or the prediction shows minimal understanding of ecosystems."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how the sunflower seeds are arranged, and why might this pattern be helpful?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the spiral pattern of seed arrangement with specific observations and explains how this pattern maximizes space, helps seeds receive sunlight, or improves seed dispersal efficiency.",
+        "meets": "Student identifies the spiral pattern and provides a reasonable explanation for why this arrangement might be beneficial to the sunflower.",
+        "approaching": "Student notices the pattern is organized or spiral-like but provides a limited or partially accurate explanation of the benefit.",
+        "beginning": "Student mentions seeds are arranged in some way but shows minimal observation of the pattern or provides vague reasoning about why it matters."
+      }
+    },
+    {
+      "questionText": "How might this grasshopper's feeding behavior affect other organisms in the food web?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student traces multiple food web connections, explaining how grasshopper seed consumption affects sunflower reproduction and how predators that eat grasshoppers are also impacted, showing understanding of interconnected relationships.",
+        "meets": "Student describes at least two effects: that eating seeds reduces sunflower seeds available AND that grasshoppers serve as food for predators, showing basic food web understanding.",
+        "approaching": "Student identifies one effect on other organisms (such as reducing seeds for other animals or serving as food) but reasoning may be incomplete or connections unclear.",
+        "beginning": "Student attempts to describe an effect but shows minimal understanding of how feeding behavior connects organisms in a food web."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:29:05.251Z",
+  "cost": 0.004827
+}

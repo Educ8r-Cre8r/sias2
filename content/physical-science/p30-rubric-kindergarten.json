@@ -1,0 +1,53 @@
+{
+  "title": "Force",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the rocks when waves hit them every day?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes that waves break rocks into smaller pieces and explains that this happens because water pushes hard on the rocks repeatedly over time.",
+        "meets": "Student explains that waves hit the rocks and make them smaller or break them apart.",
+        "approaching": "Student says the waves change the rocks but provides limited detail, such as 'the rocks get smaller' without explaining why or how.",
+        "beginning": "Student gives a vague response like 'the rocks change' or 'the water hits them' with little connection to the wave action in the photo."
+      }
+    },
+    {
+      "questionText": "How might the beach look different after many years of waves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple changes, such as rocks becoming smoother and smaller, more sand appearing, or the shoreline shifting, and connects these changes to repeated wave action over time.",
+        "meets": "Student predicts that rocks will become smaller or smoother, or that there will be more sand on the beach after many years.",
+        "approaching": "Student makes a prediction about how the beach might change but the connection to waves is unclear or incomplete, such as 'there will be more rocks' without explaining why.",
+        "beginning": "Student offers a minimal or uncertain response like 'it will look different' without describing specific changes or explaining how waves cause them."
+      }
+    },
+    {
+      "questionText": "What other things in nature can change rocks?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple natural forces (such as rain, wind, ice, or other water sources) and explains how at least one of them breaks down or changes rocks over time.",
+        "meets": "Student identifies at least one other natural force like rain, wind, or ice that can change rocks.",
+        "approaching": "Student names something from nature that might change rocks but the explanation is vague or the connection to rock change is unclear, such as 'the sun' without explaining how.",
+        "beginning": "Student provides a response with little accuracy or relevance, such as naming something that does not change rocks or giving no specific example."
+      }
+    },
+    {
+      "questionText": "Why do you think some rocks are smooth and others are rough?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that smooth rocks have been hit by waves or water for a long time and rough rocks have not, connecting the rock texture directly to the amount of weathering they have experienced.",
+        "meets": "Student explains that smooth rocks have been worn down by waves or water, while rough rocks have not been worn as much.",
+        "approaching": "Student notices that some rocks are smooth and some are rough but provides an incomplete or partially accurate explanation, such as 'smooth rocks are older' without mentioning water or waves.",
+        "beginning": "Student acknowledges the difference between smooth and rough rocks but offers no explanation or an inaccurate one, such as 'they are just different.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:21:10.930Z",
+  "cost": 0.004602
+}

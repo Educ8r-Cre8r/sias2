@@ -1,0 +1,53 @@
+{
+  "title": "Herbivore",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What can we learn about an animal just by looking at its footprints?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of information from the footprints (size, shape, depth, number of toes/hooves, weight, recent presence) and explains how each detail tells us something specific about the animal's characteristics or behavior.",
+        "meets": "Student identifies at least three details from the footprints (such as size, shape, or that the animal has hooves) and explains what these details tell us about the animal.",
+        "approaching": "Student identifies one or two details from the footprints (such as size or shape) but provides only vague or incomplete explanations of what these details reveal about the animal.",
+        "beginning": "Student makes a simple observation about the footprints but does not clearly explain what information the prints reveal about the animal."
+      }
+    },
+    {
+      "questionText": "Why do you think this animal has hooves instead of paws like a dog?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hooves help the animal move across different terrains, support its body weight, or relate to its herbivore diet and lifestyle, using specific comparisons between hooves and paws.",
+        "meets": "Student gives a reasonable explanation for why hooves are useful for this animal, such as helping it walk on soft ground, supporting its weight, or moving through grassland.",
+        "approaching": "Student attempts to explain why hooves might be different from paws but provides incomplete or partially accurate reasoning with limited detail.",
+        "beginning": "Student acknowledges hooves and paws are different but offers no clear explanation or provides an inaccurate reason for the difference."
+      }
+    },
+    {
+      "questionText": "If we found these tracks near a garden, what might the animal be doing there?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly infers the animal is eating plants and explains specific herbivore behaviors (grazing, browsing vegetation, eating garden crops) with clear reasoning connecting the animal's diet to its presence in the garden.",
+        "meets": "Student correctly infers the animal is looking for food or eating plants in the garden, showing understanding that herbivores eat vegetation.",
+        "approaching": "Student suggests the animal might be in the garden but provides unclear or partially accurate reasoning about why a herbivore would be there.",
+        "beginning": "Student makes a guess about what the animal is doing with little or no connection to its herbivore characteristics or logical reasoning."
+      }
+    },
+    {
+      "questionText": "How is a herbivore's foot different from a meat-eater's foot, and why do you think that is?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student accurately describes differences (hooves vs. claws/pads, toe structure) and explains how these adaptations relate to each animal's diet and lifestyle (herbivores need grip for walking on terrain; carnivores need claws for hunting/gripping prey).",
+        "meets": "Student identifies at least one clear difference between herbivore and carnivore feet and provides a reasonable explanation connecting the difference to their different diets or ways of life.",
+        "approaching": "Student identifies a difference between the feet but offers incomplete or somewhat unclear reasoning about why this difference exists based on diet.",
+        "beginning": "Student mentions feet are different or references hooves and claws but provides little or no explanation of why these differences relate to what each animal eats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:13:07.919Z",
+  "cost": 0.005138
+}

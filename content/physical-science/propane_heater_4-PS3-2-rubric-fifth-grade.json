@@ -1,0 +1,53 @@
+{
+  "title": "Propane Heater",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the metal in the heater glows red-orange instead of staying gray like it is when it is cold?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heat energy causes the metal atoms to move faster, and that very hot objects release light energy, demonstrating understanding that both heat and light are forms of energy that increase with temperature.",
+        "meets": "Student accurately states that the metal is very hot and explains that hot things glow or give off light, showing understanding of the relationship between heat and light.",
+        "approaching": "Student recognizes that the metal glows because it is hot but provides incomplete explanation of why heat causes glowing or confuses the cause with the effect.",
+        "beginning": "Student provides vague response such as 'it glows because of fire' or 'the heat makes it glow' without explaining the connection between temperature and light emission."
+      }
+    },
+    {
+      "questionText": "If we could see all the way down to the tiny molecules in the propane and oxygen, what do you think is happening when they meet and burn?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes that propane and oxygen molecules are breaking apart and rearranging to form new substances (like carbon dioxide and water), and explains that this process releases energy as heat and light, demonstrating understanding of combustion at the molecular level.",
+        "meets": "Student explains that the molecules are reacting or combining together, and that this reaction releases energy, showing basic understanding that combustion involves molecular interaction and energy release.",
+        "approaching": "Student indicates that molecules are meeting or mixing, but explanation of what happens is incomplete or partially inaccurate; may confuse combustion with simple mixing or melting.",
+        "beginning": "Student provides minimal detail such as 'molecules burn' or 'they combine' without explaining what burning means at the molecular level or how energy is released."
+      }
+    },
+    {
+      "questionText": "Where do you think the energy in propane originally came from, and why can we use it as fuel?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that propane came from fossilized organisms (ancient plants and animals) and explains that we can use it as fuel because the chemical energy stored in it can be released through combustion to do useful work like heating.",
+        "meets": "Student states that propane comes from the earth or fossil sources and explains that it can be burned to release energy for heating, showing understanding of fossil fuels and energy conversion.",
+        "approaching": "Student identifies one correct piece of information (source or usability) but lacks complete explanation; for example, may name fossil fuels but not explain why they work as fuel, or vice versa.",
+        "beginning": "Student provides minimal or vague response such as 'it comes from underground' or 'we can burn it' without explaining the connection between source and usability as fuel."
+      }
+    },
+    {
+      "questionText": "How is the heat from this propane heater different from the heat you feel from the sun on a sunny day?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the propane heater's heat comes from burning fuel (chemical energy) while the sun's heat comes from nuclear reactions, and explains that both transfer heat but through different sources and methods (direct radiation from sun versus combustion from heater).",
+        "meets": "Student identifies at least two accurate differences, such as the heater burns fuel to make heat while the sun produces heat naturally, or that the heater's heat travels in all directions while sun's heat travels through space.",
+        "approaching": "Student identifies one valid difference between the two heat sources but explanation is incomplete or partially unclear; may describe appearance rather than source.",
+        "beginning": "Student makes a simple observation like 'one is hotter' or 'one is from fire' without explaining meaningful differences in how each produces or delivers heat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:43:50.787Z",
+  "cost": 0.005621
+}

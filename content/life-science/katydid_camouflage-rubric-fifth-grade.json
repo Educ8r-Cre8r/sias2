@@ -1,0 +1,53 @@
+{
+  "title": "Katydid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the katydid is green instead of red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green color matches the katydid's grass and leaf environment, making it harder for predators to see, and uses the term 'camouflage' or 'adaptation' to describe this survival advantage.",
+        "meets": "Student identifies that the green color helps the katydid blend in with grass and leaves, making it difficult for predators to find it.",
+        "approaching": "Student recognizes that green color is related to the katydid's surroundings but provides incomplete reasoning about how this helps the insect survive.",
+        "beginning": "Student makes a simple observation about the katydid being green but does not explain the connection to its environment or survival."
+      }
+    },
+    {
+      "questionText": "If a katydid lived on tree bark instead of grass, what color do you predict it might be, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a brown or gray color and explains that the katydid would need to match tree bark coloring to blend in and avoid predators, demonstrating understanding that camouflage is adaptation to specific environments.",
+        "meets": "Student predicts a brown or darker color and explains that it would help the katydid blend in with tree bark to hide from predators.",
+        "approaching": "Student makes a prediction about color change but provides limited or unclear reasoning about how bark color relates to camouflage.",
+        "beginning": "Student makes a prediction but provides no explanation, or the prediction shows minimal understanding of how environments affect camouflage coloring."
+      }
+    },
+    {
+      "questionText": "What would happen to a population of bright pink katydids if they lived in a grassy field? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that pink katydids would be easier for predators to spot, likely be eaten more often, and the population would decrease over time, demonstrating understanding of natural selection and survival of the fittest.",
+        "meets": "Student explains that pink katydids would stand out against green grass, making them easier for predators to catch, so fewer would survive.",
+        "approaching": "Student recognizes that pink would stand out in a grassy field but provides incomplete reasoning about the consequences for the population.",
+        "beginning": "Student provides a vague response about pink being visible or mentions predators but shows little understanding of population consequences."
+      }
+    },
+    {
+      "questionText": "Can you think of other animals that use camouflage? How does their coloring or pattern help them survive?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more animals with camouflage (such as deer, moths, frogs, snakes) and explains how each animal's specific coloring or pattern matches its environment to hide from predators or prey.",
+        "meets": "Student names one or two animals that use camouflage and explains how their coloring or patterns help them blend into their environment to survive.",
+        "approaching": "Student names an animal that uses camouflage but provides limited or unclear explanation of how its appearance helps it survive.",
+        "beginning": "Student names an animal but provides minimal or inaccurate information about how camouflage helps it survive."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:18:10.771Z",
+  "cost": 0.005012
+}

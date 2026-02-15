@@ -1,0 +1,53 @@
+{
+  "title": "Turtle",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this turtle survive in its environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least four body parts (shell, legs, head, tail) and explains how each one helps the turtle survive, such as the shell for protection or legs for movement.",
+        "meets": "Student identifies at least three body parts and explains how most of them help the turtle survive in its environment.",
+        "approaching": "Student identifies two body parts and attempts to explain how they help, but explanations may be incomplete or unclear.",
+        "beginning": "Student names one body part or provides a response with minimal detail and vague connection to survival."
+      }
+    },
+    {
+      "questionText": "How might this turtle's life be different if it lived in a desert instead of this grassy area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences in the turtle's life, such as needing to find less water, finding different food sources, and dealing with extreme heat, and explains why these changes would occur.",
+        "meets": "Student identifies at least two differences between desert and grassy environments and explains how the turtle would need to adapt.",
+        "approaching": "Student mentions one or two differences between the environments but explanations lack detail or clarity about how the turtle would be affected.",
+        "beginning": "Student provides a vague response with minimal comparison between environments or inaccurate information about deserts or turtles."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice on the turtle's shell and what might they tell us?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the ring patterns in detail and makes connections to protection, age, or how the shell helps the turtle blend in with its environment.",
+        "meets": "Student identifies ring patterns on the shell and suggests one reasonable purpose, such as protection or camouflage.",
+        "approaching": "Student notices patterns on the shell but provides limited explanation about their purpose, or explanation is partially inaccurate.",
+        "beginning": "Student mentions the shell has patterns but provides no meaningful explanation of what the patterns might mean or do."
+      }
+    },
+    {
+      "questionText": "If you were designing a new animal for this habitat, what features would you give it to help it survive?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs an animal with at least three features specifically suited to the grassy, damp habitat and explains how each feature helps survival, showing understanding of habitat needs.",
+        "meets": "Student describes an animal with at least two features suited to a grassy habitat and explains how these features aid survival.",
+        "approaching": "Student describes one or two features but explanations lack clarity or connection to how they help in a grassy environment.",
+        "beginning": "Student describes an animal with vague or unclear features, with little to no explanation of how they support survival in the habitat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:35:03.016Z",
+  "cost": 0.00444
+}

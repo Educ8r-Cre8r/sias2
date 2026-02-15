@@ -1,0 +1,53 @@
+{
+  "title": "Pond Habitat",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe about how the water lily is designed to live in water?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple adaptations with specific details, such as flat leaves for floating, waxy coating to repel water, or roots anchored in sediment, demonstrating comprehensive understanding of aquatic plant design.",
+        "meets": "Student describes 2-3 clear adaptations of the water lily, such as flat floating leaves or roots in water, with accurate explanations of how these features help it survive.",
+        "approaching": "Student identifies 1-2 adaptations of the water lily with limited or partially accurate explanations of their purpose in an aquatic environment.",
+        "beginning": "Student makes a vague observation about the water lily (e.g., 'it floats') with little to no explanation of how its design helps it live in water."
+      }
+    },
+    {
+      "questionText": "Why do you think the large lily pad leaves are flat and spread out on top of the water instead of growing upward like other plant leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flat, spreading leaves maximize sunlight absorption while floating, and connects this to photosynthesis and the unique environment of water; may mention buoyancy or reduced water resistance.",
+        "meets": "Student correctly explains that flat leaves allow the plant to float and/or capture more sunlight on the water's surface compared to upright leaves.",
+        "approaching": "Student offers a partial explanation, such as 'flat leaves help it float' or 'they get more sun,' but lacks full reasoning connecting form to function.",
+        "beginning": "Student provides a minimal or unclear response, such as 'they are flat because that's how they grow,' without explanation of the advantage."
+      }
+    },
+    {
+      "questionText": "If all the trees around this pond were cut down, how might the pond ecosystem change? What organisms might be affected?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple ecosystem changes (e.g., loss of shade, increased water temperature, reduced food sources) and explains how specific organisms would be affected (fish needing cooler water, animals losing shelter or food).",
+        "meets": "Student describes 2-3 ecosystem changes from removing trees and identifies at least 2 organisms that would be affected with reasonable explanations of why.",
+        "approaching": "Student identifies some ecosystem changes or affected organisms but with incomplete or partially accurate reasoning about cause-and-effect relationships.",
+        "beginning": "Student provides a vague response such as 'animals would be sad' or names one change/organism with little to no explanation of why."
+      }
+    },
+    {
+      "questionText": "How do you think the white water lily flowers help the entire pond ecosystem survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers attract pollinators (bees, insects), which enables reproduction and seed production, and connects this to food chains or ecosystem balance; may mention oxygen production by the plant.",
+        "meets": "Student identifies that flowers attract pollinators or produce seeds/food for organisms, and explains how this benefits the pond ecosystem.",
+        "approaching": "Student mentions that flowers are important or attract insects but provides incomplete reasoning about how this helps the ecosystem survive.",
+        "beginning": "Student offers a minimal response such as 'flowers are pretty' or 'they help' without explaining the ecological function or purpose."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:52:49.516Z",
+  "cost": 0.00508
+}

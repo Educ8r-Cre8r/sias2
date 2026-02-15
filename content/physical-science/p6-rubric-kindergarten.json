@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice is different about these nails compared to new nails?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences such as color (brown/orange), texture (bumpy/rough), or condition (bent/straight), and explains that rust is on the nails.",
+        "meets": "Student identifies at least two clear differences between rusty and new nails, such as the brown/orange color or the bumpy appearance.",
+        "approaching": "Student notices the nails look different in color or appearance but describes only one difference or uses vague language like 'they look old.'",
+        "beginning": "Student makes a simple observation like 'they are different' or 'they are brown' without describing what specifically changed."
+      }
+    },
+    {
+      "questionText": "What do you think caused these changes to happen?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student connects the rust to exposure to water or air over time, and may mention that the nails are old or outside, showing understanding that time and moisture cause rust.",
+        "meets": "Student suggests that water, rain, or being outside for a long time caused the nails to rust and change color.",
+        "approaching": "Student provides a partial explanation such as 'they got wet' or 'they are old' but does not clearly connect this to the rusty appearance.",
+        "beginning": "Student gives a vague answer like 'they got dirty' or 'they changed' without attempting to explain why."
+      }
+    },
+    {
+      "questionText": "How do you think we could protect metal from rusting?",
+      "bloomsLevel": "Generate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple ways to protect metal such as keeping it dry, using paint, oil, or storing it inside, showing practical problem-solving thinking.",
+        "meets": "Student suggests at least one reasonable way to prevent rust, such as keeping the metal dry, covering it, painting it, or storing it inside.",
+        "approaching": "Student suggests an idea related to protection (like 'wash it' or 'put it somewhere') but the connection to preventing rust is unclear or incomplete.",
+        "beginning": "Student offers a response that does not relate to rust prevention or simply says 'I don't know.'"
+      }
+    },
+    {
+      "questionText": "What other metal things have you seen that look rusty like this?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple examples of rusty metal objects from their own experience (such as old bikes, playground equipment, or car parts) and briefly describes where they saw them.",
+        "meets": "Student names at least two common metal objects that can rust, such as nails, screws, bikes, or playground equipment.",
+        "approaching": "Student names one example of a rusty metal object, or names a metal object without being sure if it rusts.",
+        "beginning": "Student struggles to think of an example or gives a vague response like 'I saw rust somewhere.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:24:21.044Z",
+  "cost": 0.004559
+}

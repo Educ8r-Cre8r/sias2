@@ -1,0 +1,53 @@
+{
+  "title": "Camouflage",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this leaf is hard to see on the log?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the leaf's brown and tan colors match the log and surrounding dead leaves, making it blend in so predators or observers cannot easily spot it. Student uses the term 'camouflage' or 'blend in' correctly.",
+        "meets": "Student identifies that the leaf's color is similar to the log and dead leaves around it, which makes it hard to see. Response shows understanding of color matching.",
+        "approaching": "Student notes that the leaf is brown or the same color as something nearby, but explanation of why this makes it hard to see is unclear or incomplete.",
+        "beginning": "Student provides a minimal response such as 'it's brown' or 'it hides' without connecting the leaf's color to its surroundings or explaining why color matters."
+      }
+    },
+    {
+      "questionText": "What would happen to an animal if its color made it stand out instead of blend in with its habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a bright or different-colored animal would be easily spotted by predators, making it more likely to be caught or eaten. Student may connect this to the opposite of camouflage or discuss increased danger/survival disadvantage.",
+        "meets": "Student correctly states that an animal with a color that stands out would be easier to see and more likely to be caught by predators. Response shows clear cause-and-effect thinking.",
+        "approaching": "Student recognizes that standing out would be 'bad' or make the animal visible, but explanation lacks detail about predators or survival consequences.",
+        "beginning": "Student provides a vague response like 'it would be found' or 'it would be seen' without explaining what happens after being seen or why it matters."
+      }
+    },
+    {
+      "questionText": "How do you think a bright red frog's camouflage might work differently than a brown frog's camouflage?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a brown frog blends into leaves and soil, while a bright red frog stands out but may be bright-colored as a warning to predators that it is poisonous or toxic. Student recognizes these are two different camouflage strategies.",
+        "meets": "Student describes that the brown frog hides by blending in with its environment, while the bright red frog would be easily seen. Student may note these are different ways to stay safe.",
+        "approaching": "Student attempts to compare the two frogs but reasoning is incomplete, such as mentioning color differences without explaining how each strategy works in nature.",
+        "beginning": "Student states the frogs are different colors but provides little or no explanation of how their camouflage strategies differ or why color matters."
+      }
+    },
+    {
+      "questionText": "If the environment changed—like if all the brown leaves turned green—what might happen to an animal with brown camouflage over many years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that brown animals would no longer be hidden and would be caught more easily by predators, so over time fewer brown animals would survive and have babies. Student may introduce the concept of adaptation or natural selection in simple terms.",
+        "meets": "Student recognizes that brown camouflage would no longer work in a green environment, making brown animals more visible and vulnerable to predators. Student understands this would negatively impact the animal's survival.",
+        "approaching": "Student identifies that brown camouflage wouldn't work in green leaves, but does not fully explain the long-term consequences for the animal population or survival.",
+        "beginning": "Student states that the brown animal 'wouldn't hide' or 'would be seen' without explaining what happens to the animal population or why this matters over time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:47:08.421Z",
+  "cost": 0.005585
+}

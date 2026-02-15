@@ -1,0 +1,53 @@
+{
+  "title": "Tires",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to a tire if someone drove a car in circles in the same spot over and over?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the tire would wear down/flatten in that spot and explains that repeated friction in one area causes more damage than normal driving, demonstrating understanding of how friction affects materials over time.",
+        "meets": "Student correctly predicts the tire would wear down or get damaged from driving in circles repeatedly, showing basic understanding that repeated friction causes tire wear.",
+        "approaching": "Student predicts some kind of damage or wear to the tire but provides vague or incomplete reasoning, such as 'it would get worn' without explaining why repeated circular driving matters.",
+        "beginning": "Student makes a prediction with little detail or provides an inaccurate response, such as describing only what they see without connecting it to the circular motion or friction concept."
+      }
+    },
+    {
+      "questionText": "Why might a race car driver need to change tires more often than someone who drives slowly on quiet streets?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that race cars go faster, creating more friction and heat that wears tires quickly, and may reference that performance tires are softer/different materials, showing connections between speed, friction, and tire durability.",
+        "meets": "Student correctly explains that race car drivers go faster, which causes tires to wear out more quickly due to increased friction, showing understanding of the relationship between speed and wear.",
+        "approaching": "Student recognizes that speed or friction is involved but provides incomplete reasoning, such as 'race cars are faster' without clearly connecting this to why tires wear out more quickly.",
+        "beginning": "Student provides a vague response like 'race cars need more tires' or makes an inaccurate statement without demonstrating understanding of friction and wear."
+      }
+    },
+    {
+      "questionText": "How could tire companies design a tire that lasts longer without wearing out as quickly?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple solutions such as using harder/more durable rubber materials, improving tread design to reduce friction, or adding protective layers, demonstrating thoughtful application of friction and material science concepts.",
+        "meets": "Student suggests at least one realistic design solution such as making the tire from stronger material or improving the tread pattern, showing practical application of wear and friction concepts.",
+        "approaching": "Student suggests a design idea but with limited connection to friction or wear, such as 'make it thicker' without explaining how this reduces friction or wear.",
+        "beginning": "Student provides a vague or impractical suggestion like 'use better rubber' without any explanation, or shows minimal understanding of how design choices affect tire durability."
+      }
+    },
+    {
+      "questionText": "Explain the connection between friction, heat, and tire wear. Why do all three happen together?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student clearly explains that friction between the tire and road creates heat, and this heat causes the rubber to break down and wear away, making specific connections between all three concepts as an interconnected system.",
+        "meets": "Student explains that friction creates heat, and heat causes the tire rubber to wear away, demonstrating understanding of how the three concepts are connected.",
+        "approaching": "Student mentions two of the three concepts and attempts to connect them, such as 'friction makes heat and that wears the tire,' but reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student lists friction, heat, or wear separately without clearly explaining how they connect, or provides a mostly inaccurate response about their relationship."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:27:29.039Z",
+  "cost": 0.005281
+}

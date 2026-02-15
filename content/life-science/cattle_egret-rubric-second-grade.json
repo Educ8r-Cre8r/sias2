@@ -1,0 +1,53 @@
+{
+  "title": "Cattle Egret",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the cattle egret likes to stay near cows?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the egret stays near cows because the cow's movement helps stir up insects from the grass, making them easier for the bird to catch with its pointed beak. Student may also mention that the cow provides shelter or safety.",
+        "meets": "Student identifies that the egret stays near cows to find and catch food (insects). Explanation shows basic understanding of the relationship between the two animals.",
+        "approaching": "Student makes an attempt to explain the relationship but gives incomplete reasoning, such as stating the egret likes cows but not clearly explaining why or mentioning food/insects without clear connection.",
+        "beginning": "Student provides a vague or minimal response, such as 'the bird likes the cow' or 'they are friends,' with little to no explanation of the actual reason."
+      }
+    },
+    {
+      "questionText": "How does the cow help the bird, and how does the bird help the cow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that the cow helps by stirring up insects as it moves, and the bird helps by eating insects (like flies or parasites) that bother the cow. Student recognizes this as a helpful relationship where both animals benefit.",
+        "meets": "Student correctly identifies that the cow helps the bird find food and the bird helps the cow by eating bugs or insects that bother it. Both parts of the relationship are mentioned with basic accuracy.",
+        "approaching": "Student identifies one part of the relationship clearly (either how cow helps bird OR how bird helps cow) but struggles with the other part, or gives incomplete explanations of both.",
+        "beginning": "Student provides minimal information, such as 'they help each other' or mentions only one animal, with little explanation of how the helping actually works."
+      }
+    },
+    {
+      "questionText": "What would happen to the cattle egret if there were no cows in its habitat?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the egret would have difficulty finding insects or food because the cow helps stir them up, and explains how this might affect the bird's survival or require the bird to find food differently.",
+        "meets": "Student predicts that the egret would have a harder time finding food or insects without the cows nearby. The response shows understanding that cows are important to the egret's survival.",
+        "approaching": "Student makes a prediction about what might happen but the explanation is unclear or partially correct, such as stating the bird would struggle but not clearly explaining why.",
+        "beginning": "Student provides a vague prediction with minimal reasoning, such as 'the bird would be sad' or 'it would leave,' with little connection to food or survival."
+      }
+    },
+    {
+      "questionText": "Can you think of another animal that might live near a large animal and help it the way the egret helps the cow?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a realistic example (such as oxpeckers on zebras, birds on elephants, or fish cleaning sharks) and clearly explains how that animal helps the larger animal in a similar way to how egrets help cows.",
+        "meets": "Student names another animal that lives near a large animal and gives a basic explanation of how it helps, showing understanding of the symbiotic relationship pattern from the cattle egret example.",
+        "approaching": "Student names an appropriate animal pair but the explanation of how they help each other is vague, incomplete, or not clearly connected to the cattle egret example.",
+        "beginning": "Student names two animals but provides little or no explanation of their relationship, or names an unlikely pairing with minimal reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:31:20.524Z",
+  "cost": 0.005418
+}

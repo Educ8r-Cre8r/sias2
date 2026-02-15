@@ -1,0 +1,53 @@
+{
+  "title": "Alligator Predator",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the alligator stays hidden in the water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the alligator hides to sneak up on and catch food, and connects this to camouflage by describing how the water and plants help hide the alligator's dark color.",
+        "meets": "Student explains that the alligator hides so animals don't see it, or states it helps the alligator catch food or stay safe.",
+        "approaching": "Student identifies that the alligator is hiding but gives an incomplete reason, such as \"it likes the water\" or \"it's staying still\" without connecting to hunting or safety.",
+        "beginning": "Student provides a vague response like \"because it wants to\" or makes no attempt to explain the alligator's behavior."
+      }
+    },
+    {
+      "questionText": "How does the alligator's bumpy skin help it catch food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bumpy skin looks like the marsh environment (rocks, mud, or plants), making the alligator hard to see, which helps it sneak up on and catch animals.",
+        "meets": "Student describes that the bumpy skin helps the alligator hide or blend in with its surroundings so it can catch food.",
+        "approaching": "Student mentions the bumpy skin or hiding but doesn't clearly explain how this helps with catching food, or gives a partially correct reason.",
+        "beginning": "Student provides a minimal response about the bumps, such as \"bumps are strong\" or doesn't attempt to explain how they help with hunting."
+      }
+    },
+    {
+      "questionText": "What animals do you think the alligator eats in this marsh habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple realistic prey animals found in marshes (such as fish, frogs, turtles, birds, or small mammals) and explains why the alligator could catch them in this environment.",
+        "meets": "Student names one or two realistic marsh animals the alligator could eat, such as fish or frogs.",
+        "approaching": "Student names an animal the alligator might eat but it may not be appropriate to a marsh habitat, or gives only vague descriptions like \"small animals.\"",
+        "beginning": "Student provides an unrealistic answer, such as \"elephants\" or \"trees,\" or makes no meaningful attempt to answer."
+      }
+    },
+    {
+      "questionText": "If the alligator's skin were bright red instead of dark green, what would happen when it tries to hunt?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright red skin would be easy to see in the green water and plants, so animals would notice the alligator and escape before it could catch them, showing understanding of how camouflage helps hunting.",
+        "meets": "Student states that the alligator would be easier to see, animals would notice it, or it would be harder to catch food.",
+        "approaching": "Student recognizes that red skin would be different or more visible but doesn't clearly explain how this would affect the alligator's ability to hunt.",
+        "beginning": "Student gives a vague or off-topic response, such as \"red is pretty\" or doesn't attempt to explain the consequence."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:55:31.060Z",
+  "cost": 0.004985
+}

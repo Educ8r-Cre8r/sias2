@@ -1,0 +1,53 @@
+{
+  "title": "Rain Gauge",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the rainwater after it collects in the gauge? Where does it go?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple pathways for rainwater (evaporation, absorption into ground, runoff to streams) and explains how weather or soil conditions affect where water goes.",
+        "meets": "Student identifies at least one correct destination for rainwater, such as soaking into the ground, evaporating, or running off into drains or streams.",
+        "approaching": "Student mentions where rainwater might go but explanation is unclear or only partially accurate, such as 'it goes away' or 'disappears' without specific detail.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'it stays there' or shows minimal understanding of what happens to collected water."
+      }
+    },
+    {
+      "questionText": "Why do you think scientists measure rain instead of just looking at the sky and guessing how much fell?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that measurements give exact numbers, are more reliable than guesses, and allow scientists to compare and track rainfall patterns over time for accurate weather data.",
+        "meets": "Student identifies that measuring gives exact amounts and that guessing would be inaccurate or unreliable compared to using a rain gauge tool.",
+        "approaching": "Student recognizes that measurement is better than guessing but provides incomplete reasoning, such as 'you can't tell how much by looking' without explaining why precision matters.",
+        "beginning": "Student offers a vague answer like 'it's more accurate' or 'scientists need to' without explaining the purpose or benefit of precise measurement."
+      }
+    },
+    {
+      "questionText": "If we measured rain every day for a month, what patterns might we notice? How could we organize that information?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple possible patterns (rainy days cluster, weekends vs. weekdays, beginning/middle/end of month) and suggests organizing methods like charts, graphs, or tables with labeled data.",
+        "meets": "Student describes at least one rainfall pattern (such as some days having more rain than others or certain times being wetter) and suggests one way to organize data like a list or simple chart.",
+        "approaching": "Student mentions a pattern or organization method but lacks clarity or detail, such as 'it rains different amounts' without specifics or 'we could write it down' without explaining how.",
+        "beginning": "Student provides a minimal response that shows little understanding of patterns or data organization, such as 'there would be a lot of rain' or 'put it on paper.'"
+      }
+    },
+    {
+      "questionText": "If two rain gauges in different neighborhoods collected different amounts of rain on the same day, what might explain the difference?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes multiple specific factors affecting rainfall variation, such as location relative to mountains, proximity to water bodies, elevation, or urban heat affecting rainfall patterns.",
+        "meets": "Student identifies at least one valid reason for differences, such as one neighborhood being closer to clouds, one area being higher up, or one being farther from rain.",
+        "approaching": "Student recognizes differences exist but explanation lacks scientific reasoning, such as 'one place got more rain' or vague responses like 'the weather was different.'",
+        "beginning": "Student provides little evidence of understanding, such as 'I don't know' or an answer unrelated to weather or location factors."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:06:29.559Z",
+  "cost": 0.005237
+}

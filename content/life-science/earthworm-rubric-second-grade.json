@@ -1,0 +1,53 @@
+{
+  "title": "Earthworm",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the earthworm's ring-like body parts help it do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the rings (segments) help the earthworm move or stretch, and explains that the segments work together or bend to help it dig and move through soil.",
+        "meets": "Student correctly states that the ring-like body parts help the earthworm move or dig through the soil.",
+        "approaching": "Student recognizes the rings are important to the earthworm but provides an unclear or partially correct explanation of their purpose (e.g., 'they help it' without specifying how).",
+        "beginning": "Student makes a guess about the rings but the response is vague, inaccurate, or shows minimal understanding of their function."
+      }
+    },
+    {
+      "questionText": "Why do you think an earthworm needs to stay in moist soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that earthworms need moisture to breathe through their skin or to survive, and may add that dry conditions would harm or dry out the earthworm.",
+        "meets": "Student correctly identifies that earthworms need moisture or wet soil to survive or stay alive.",
+        "approaching": "Student recognizes that moisture is important to earthworms but gives an incomplete or unclear reason (e.g., 'it likes water' without explaining why).",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'earthworms like water' without any reasoning about survival or needs."
+      }
+    },
+    {
+      "questionText": "How does the earthworm help the plants and soil in a garden?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that earthworms help by breaking down dead materials, mixing the soil, or creating tunnels that help water and air reach plant roots.",
+        "meets": "Student identifies at least one way earthworms help gardens, such as making soil better, creating tunnels, or helping plants grow.",
+        "approaching": "Student recognizes that earthworms are helpful to gardens but gives a vague or incomplete explanation of how.",
+        "beginning": "Student states that earthworms help gardens but provides no clear explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "If you found an earthworm on dry pavement, what would you predict would happen to it, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the earthworm would die or be harmed and explains that it needs moist soil to survive, and that dry pavement would dry it out or make it unable to breathe.",
+        "meets": "Student predicts the earthworm would die or get hurt and provides a reason related to dryness or lack of soil.",
+        "approaching": "Student makes a prediction about harm to the earthworm but gives an unclear or incomplete reason (e.g., 'it would die because it doesn't like it there').",
+        "beginning": "Student attempts a prediction but provides little or no reasoning, or the prediction is unclear or inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:27:56.607Z",
+  "cost": 0.004733
+}

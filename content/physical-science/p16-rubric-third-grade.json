@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What changes do you notice between raw vegetables and cooked food?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes (color, texture, appearance) between raw and cooked food, using descriptive words like 'crispy,' 'golden,' or 'bumpy,' and explains why these changes happened due to heat.",
+        "meets": "Student describes at least two clear changes between raw and cooked food, such as color change or texture difference, with accurate details from the photo.",
+        "approaching": "Student notices some differences between raw and cooked food but descriptions are vague or incomplete; may mention only one change or use unclear language.",
+        "beginning": "Student provides minimal or unclear observations about changes; may confuse raw and cooked items or describe only obvious surface features without connecting to cooking."
+      }
+    },
+    {
+      "questionText": "How do you think heat energy traveled from the stove to change this food?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains heat transfer with specific examples, such as describing how hot oil or direct heat touched the food, and uses vocabulary like 'heat energy' or 'warm' to describe the transfer process.",
+        "meets": "Student provides a reasonable explanation of how heat reached the food, mentioning the stove or cooking method and describing the heating process in simple terms.",
+        "approaching": "Student attempts to explain heat transfer but explanation is incomplete or partially unclear; may mention heat but not explain the path or method clearly.",
+        "beginning": "Student's explanation is vague or minimal; may only state 'heat cooked it' without describing how the heat traveled or reached the food."
+      }
+    },
+    {
+      "questionText": "What evidence tells you that the food has been heated?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of visual evidence of heating, such as golden-brown color, crispy texture, and bumpy coating, and explains what each change reveals about heat's effect on the food.",
+        "meets": "Student identifies at least two clear visual clues that show the food was heated, such as color change or crispy appearance, with accurate descriptions.",
+        "approaching": "Student identifies some evidence of heating but descriptions lack detail or clarity; may mention appearance but struggle to explain why it shows heating occurred.",
+        "beginning": "Student provides vague evidence or struggles to identify specific visual clues; may state 'it looks different' without describing what changed."
+      }
+    },
+    {
+      "questionText": "If you could watch the tiny particles in this food while it cooked, what do you think you would see happening?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a detailed, scientifically reasonable prediction about particle movement or behavior during cooking, describing how heat causes particles to move faster or change, showing understanding of heat's effect at a particle level.",
+        "meets": "Student makes a logical prediction about what particles might do during cooking, such as moving faster or spreading apart, based on understanding of how heat affects matter.",
+        "approaching": "Student attempts a prediction about particles but explanation is incomplete or shows partial understanding; may describe movement but not clearly connect it to heat.",
+        "beginning": "Student's prediction is vague, minimal, or shows little understanding of how particles respond to heat; may provide an unclear or disconnected response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:03:23.491Z",
+  "cost": 0.004922
+}

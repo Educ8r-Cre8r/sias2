@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions are necessary for icicles to form, and why don't they form in summer?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that freezing temperatures and dripping water are both necessary, explains that summer temperatures are too warm to freeze water, and describes how the cycle of melting and refreezing creates icicles.",
+        "meets": "Student correctly states that cold temperatures and water are needed for icicles to form, and explains that summer is too warm for water to freeze into icicles.",
+        "approaching": "Student mentions that cold weather or freezing is needed, but explanation is incomplete; may confuse why icicles don't form in summer or lack detail about the water's role.",
+        "beginning": "Student provides a vague response such as 'cold makes icicles' or 'it's too hot in summer,' showing minimal understanding of the conditions required."
+      }
+    },
+    {
+      "questionText": "How would the shape of icicles change if the temperature was much colder or warmer?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that much colder temperatures would freeze water faster, making shorter or stubbier icicles, and that warmer temperatures would prevent formation or cause melting; connects predictions to the rate of freezing.",
+        "meets": "Student predicts reasonable changes in icicle shape with colder or warmer temperatures and provides a logical explanation based on freezing or melting rates.",
+        "approaching": "Student makes a prediction about how temperature affects icicles but explanation lacks clarity; may describe change without explaining why it happens.",
+        "beginning": "Student offers a minimal response such as 'colder makes bigger' or 'warmer melts them' without supporting reasoning or detail."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe in the photo that shows water changed from liquid to solid?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the hard, pointed shape of the icicles as evidence, describes how icicles hang downward in a specific form (showing solidity), and may note that solid water maintains its shape unlike dripping liquid.",
+        "meets": "Student identifies the solid, hard shape of the icicles or notes that they hold their form as evidence that water has frozen into a solid state.",
+        "approaching": "Student recognizes that icicles are 'hard' or 'frozen' but provides limited observational detail or doesn't clearly connect the observation to the state change.",
+        "beginning": "Student gives a vague response such as 'they look frozen' or 'they're cold' without describing what is actually visible in the photo as evidence."
+      }
+    },
+    {
+      "questionText": "Why do you think some icicles in the photo are thicker than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that more water dripping or refreezing in one location builds up thicker icicles, and may note that location on the roof or duration of freezing affects thickness.",
+        "meets": "Student reasonably explains that thicker icicles result from more water dripping and freezing over time, or that some spots receive more water flow.",
+        "approaching": "Student suggests a cause such as 'more water' or 'longer freezing' but explanation is unclear or incomplete; may lack connection between water accumulation and thickness.",
+        "beginning": "Student provides minimal reasoning such as 'some froze more' or 'they're just different' without explaining the process of how thickness develops."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:24:13.065Z",
+  "cost": 0.005205
+}

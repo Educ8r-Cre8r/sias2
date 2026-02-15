@@ -1,0 +1,53 @@
+{
+  "title": "Rainbow Refraction",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think we can only see a rainbow when the sun is behind us and not in front of us?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that light must pass through water droplets and reflect back to our eyes, and describes how the sun's position behind the observer allows light to bounce off droplets toward the observer rather than away.",
+        "meets": "Student correctly identifies that the sun needs to be behind the observer and explains that light must reflect off water droplets to reach our eyes.",
+        "approaching": "Student states that the sun must be behind us and mentions water droplets, but the explanation of how light travels is incomplete or partially unclear.",
+        "beginning": "Student provides a vague response such as 'the sun needs to be behind us' without explaining why this matters for seeing a rainbow."
+      }
+    },
+    {
+      "questionText": "If you could catch the end of a rainbow and move it to a different location, what do you think would happen? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the rainbow would disappear or reappear in a new location because rainbows form from the angle between the sun, water droplets, and observer, so moving the end point would change this angle and break the light reflection pattern.",
+        "meets": "Student recognizes that the rainbow would disappear or change location because it depends on the position of the sun and water droplets, showing understanding that rainbows are not physical objects.",
+        "approaching": "Student attempts to explain that moving the rainbow would cause a change but provides an incomplete or partially inaccurate reason, such as mentioning only the sun or only the water droplets.",
+        "beginning": "Student provides a simple response like 'it would break' or 'it would move' without explaining why or demonstrating understanding that rainbows depend on observer position."
+      }
+    },
+    {
+      "questionText": "How is a rainbow similar to what happens when light passes through a prism in the classroom?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both rainbows and prisms separate white light into its spectrum of colors through refraction, and notes that water droplets act like tiny prisms bending light to create the colored bands we see.",
+        "meets": "Student identifies that both rainbows and prisms separate light into different colors and mentions that light is bent or refracted in both situations.",
+        "approaching": "Student recognizes that both involve colors appearing from light but provides incomplete reasoning about how the separation happens or what causes the colors.",
+        "beginning": "Student makes a simple observation such as 'both show colors' without explaining the connection between refraction or light bending in rainbows and prisms."
+      }
+    },
+    {
+      "questionText": "What would happen to the rainbow if there were no water droplets in the air, even though the sun and sky conditions were perfect?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that no rainbow would form because water droplets are essential for light to refract and reflect, and that sunlight alone cannot create a rainbow without a medium to interact with.",
+        "meets": "Student correctly states that there would be no rainbow and explains that water droplets are necessary for a rainbow to appear.",
+        "approaching": "Student indicates that the rainbow would not appear but provides limited explanation of why water droplets are important to the process.",
+        "beginning": "Student simply states 'no rainbow' without explaining the role of water droplets in forming rainbows."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:24:13.859Z",
+  "cost": 0.005183
+}

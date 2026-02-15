@@ -1,0 +1,53 @@
+{
+  "title": "Larvae",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this insect's body? Why might it look soft and pale?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific body features (soft texture, pale color, curved shape, small hairs, darker head) and explains that the soft body helps the larva move through soil and the pale color might be because it just hatched or lives in dark places.",
+        "meets": "Student describes at least two body features (such as soft, pale, or curved) and provides a reasonable explanation for why it looks this way (such as being young or living in soil).",
+        "approaching": "Student notices the larva looks soft or pale but provides incomplete or unclear reasoning about why it has these characteristics.",
+        "beginning": "Student makes a vague observation about the larva's appearance with little or no explanation of why it looks this way."
+      }
+    },
+    {
+      "questionText": "This is a baby insect. What might happen to it as it grows bigger?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the larva will grow, change shape, and eventually become an adult insect with wings, using terms like 'metamorphosis' or describing a multi-stage transformation (larva → pupa → adult).",
+        "meets": "Student predicts the larva will grow bigger and change into an adult insect with wings or different features.",
+        "approaching": "Student predicts the larva will grow but provides only vague details about what changes might happen or describes incomplete transformation.",
+        "beginning": "Student makes a prediction about growth but provides little detail or shows confusion about insect development."
+      }
+    },
+    {
+      "questionText": "Why do you think this young insect is hiding in dirt or wood instead of flying around like an adult insect?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the larva cannot fly because it doesn't have wings yet, and that hiding in soil or wood provides protection, food sources, and a safe place to grow and develop.",
+        "meets": "Student explains that the larva hides because it doesn't have wings yet or because it's safer and has food in the soil/wood.",
+        "approaching": "Student identifies one reason the larva hides (such as lacking wings or needing protection) but reasoning is incomplete or partially unclear.",
+        "beginning": "Student attempts an answer but provides minimal reasoning or shows confusion about why larvae hide in soil or wood."
+      }
+    },
+    {
+      "questionText": "How is this larva different from a caterpillar you might see on a leaf?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as: this larva is pale/white while caterpillars are often colorful, this larva lives in soil/wood while caterpillars are on leaves, and this larva type is different from butterfly/moth caterpillars.",
+        "meets": "Student identifies at least two clear differences between the larva and a caterpillar, such as color, habitat, or body appearance.",
+        "approaching": "Student notices at least one difference (such as color or where it lives) but comparison is incomplete or somewhat unclear.",
+        "beginning": "Student attempts to compare but provides vague or minimal details about how they differ."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:50:08.753Z",
+  "cost": 0.00492
+}

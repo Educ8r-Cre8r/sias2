@@ -1,0 +1,53 @@
+{
+  "title": "Pollination",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to flowers if there were no bees to visit them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers would not be pollinated and could not make seeds or reproduce, and connects this to consequences like fewer flowers in nature or impacts on other animals that depend on flowers.",
+        "meets": "Student explains that flowers would not be pollinated and would have difficulty making seeds or reproducing without bees visiting them.",
+        "approaching": "Student recognizes that bees help flowers in some way, but explanation of what would happen without them is incomplete or partially unclear.",
+        "beginning": "Student provides a vague response such as 'flowers would die' or 'bees are important' without explaining the connection to pollination or reproduction."
+      }
+    },
+    {
+      "questionText": "Why is the bee's fuzzy body important for pollination?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the fuzzy hair traps and carries pollen grains from flower to flower, and may add that this is why bees are better pollinators than smooth insects.",
+        "meets": "Student explains that the fuzzy hair on the bee's body picks up or carries pollen as it visits flowers.",
+        "approaching": "Student identifies that the fuzzy body is related to pollen or pollination but provides incomplete or unclear explanation of how it works.",
+        "beginning": "Student mentions fuzz or pollen separately but does not connect how the bee's fuzzy body helps with pollination."
+      }
+    },
+    {
+      "questionText": "How is the relationship between a bee and a flower an example of both organisms helping each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the flower provides nectar and pollen as food for the bee, and the bee helps the flower reproduce by transferring pollen between flowers, using the term 'mutualism' or 'symbiosis' or similar vocabulary.",
+        "meets": "Student explains that the flower provides food (nectar or pollen) for the bee, and the bee helps the flower by carrying pollen to other flowers.",
+        "approaching": "Student identifies that both the bee and flower benefit but provides unclear or incomplete explanation of how each one helps the other.",
+        "beginning": "Student states that they help each other but provides little or no explanation of what each organism gives or receives."
+      }
+    },
+    {
+      "questionText": "If a bee collects pollen from one type of flower and visits a different type of flower next, does this help either plant? Explain.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that cross-pollination between different flower types can help plants create healthier or more diverse offspring, or acknowledges that pollen must be from the same species to create seeds, demonstrating understanding of pollination requirements.",
+        "meets": "Student explains that the pollen from the first flower helps the second flower type if it pollinates it, showing understanding that pollen transfer helps plant reproduction.",
+        "approaching": "Student recognizes that pollen transfer happens but provides incomplete reasoning about whether it helps the plants or under what conditions it is helpful.",
+        "beginning": "Student provides a brief yes or no answer with little or no explanation, or suggests the pollen transfer does not help without clear reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:39:56.540Z",
+  "cost": 0.004932
+}

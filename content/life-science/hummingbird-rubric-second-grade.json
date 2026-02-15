@@ -1,0 +1,53 @@
+{
+  "title": "Hummingbird",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the hummingbird's body is different from other birds you know?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific body differences (tiny size, long thin beak, fast wings, bright colors) and explains why one difference helps the hummingbird survive.",
+        "meets": "Student identifies two specific body differences (such as small size and long beak) that make the hummingbird different from other birds.",
+        "approaching": "Student notices the hummingbird looks different but describes only one specific body part or uses vague descriptions like 'it's smaller' without additional details.",
+        "beginning": "Student makes a general observation ('it's different') but provides little or no specific description of body features."
+      }
+    },
+    {
+      "questionText": "Why do you think the hummingbird needs to visit so many flowers? What is it looking for?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hummingbird drinks nectar for energy and visits many flowers because each flower has only a small amount of food, connecting this to why hummingbirds must eat frequently.",
+        "meets": "Student correctly identifies that the hummingbird is looking for food (nectar or sweetness) in the flowers and explains that it needs to visit many flowers to get enough food.",
+        "approaching": "Student states the hummingbird gets food from flowers but provides incomplete reasoning, such as only saying 'it's hungry' without explaining why multiple flowers are needed.",
+        "beginning": "Student gives a vague answer like 'it likes flowers' or 'it's eating' without explaining what it's looking for or why many flowers are needed."
+      }
+    },
+    {
+      "questionText": "How does the hummingbird help the flowers, and how do the flowers help the hummingbird?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hummingbird spreads pollen to help flowers make seeds while the flowers provide nectar energy, using the word 'pollen' or 'pollination' correctly and showing understanding of this relationship.",
+        "meets": "Student identifies both how the hummingbird helps flowers (moves pollen or helps them grow) and how flowers help the hummingbird (provides food or nectar) in a clear way.",
+        "approaching": "Student describes one direction of the relationship clearly (either what flowers give to hummingbird OR what hummingbird does for flowers) but is vague or incomplete about the other direction.",
+        "beginning": "Student recognizes the hummingbird and flowers are connected but provides minimal or unclear explanation of how they help each other."
+      }
+    },
+    {
+      "questionText": "If a hummingbird had short, fat wings instead of long, thin wings, what would change about how it flies and eats?",
+      "bloomsLevel": "Hypothesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that short, fat wings couldn't beat fast enough to hover, so the hummingbird couldn't stay in place to drink from flowers, and explains how this would affect finding food and survival.",
+        "meets": "Student predicts that short, fat wings would make the hummingbird unable to hover or would make it harder to visit flowers and drink nectar.",
+        "approaching": "Student makes a prediction about flying or eating changing, but the explanation is incomplete or somewhat unclear (for example, 'it wouldn't fly as good' without explaining the hovering problem).",
+        "beginning": "Student gives a vague prediction like 'it would be different' with little explanation of what would actually change about flying or eating."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:18:39.228Z",
+  "cost": 0.005374
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Turtle",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the turtle's shell and how might it help the turtle?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple shell features (hard, patterned, covers body) and explains 2+ ways it helps the turtle (protection, staying safe, keeping it dry).",
+        "meets": "Student describes the shell as hard or protective and explains at least one way it helps the turtle, such as keeping it safe from danger.",
+        "approaching": "Student notices the shell exists and mentions one simple observation (hard, has colors) but explanation of how it helps is vague or incomplete.",
+        "beginning": "Student makes a basic observation about the shell (it's there, it's hard) with little or no explanation of its purpose."
+      }
+    },
+    {
+      "questionText": "Where do you think this turtle finds food and water in its habitat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific features in the photo (plants, rocks, ground areas) and explains how the turtle uses them to find food and water, showing understanding of habitat.",
+        "meets": "Student identifies at least one place in or near the habitat where a turtle might find food or water (like plants or water areas) with reasonable thinking.",
+        "approaching": "Student mentions a location but reasoning is unclear; may confuse what turtles eat or need, or description is too vague.",
+        "beginning": "Student gives a vague answer (like 'outside') with no connection to the photo or turtle's actual needs."
+      }
+    },
+    {
+      "questionText": "How is a turtle's shell similar to or different from a house where people live?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (protection, shelter, has an inside space) and/or differences (shell grows with turtle, houses are built, made of different materials) with clear explanations.",
+        "meets": "Student identifies at least one similarity (both provide protection/shelter) or one difference (shell is hard/natural vs. houses are built) with reasonable thinking.",
+        "approaching": "Student attempts a comparison but reasoning is incomplete or only lists features without explaining how they compare.",
+        "beginning": "Student provides minimal comparison or makes statements that don't clearly connect shells and houses."
+      }
+    },
+    {
+      "questionText": "What would happen if a turtle didn't have a shell?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences, such as the turtle having no protection from predators, injuries, or weather, and connects this to why shells are important for survival.",
+        "meets": "Student predicts a logical consequence of losing its shell, such as the turtle being hurt more easily or having no protection from danger.",
+        "approaching": "Student attempts to predict what would happen but reasoning is unclear or partially inaccurate; may mention consequences without full understanding.",
+        "beginning": "Student provides a vague answer with little reasoning, such as 'it would be bad' without explaining why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:34:49.586Z",
+  "cost": 0.004541
+}

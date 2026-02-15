@@ -1,0 +1,53 @@
+{
+  "title": "Frost On Car",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think frost appears on some mornings but not on others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that temperature and moisture are both needed for frost, explaining that frost forms on cold mornings when it's cold enough for water to freeze, showing understanding that conditions must be just right.",
+        "meets": "Student explains that frost appears when it is very cold or that it needs to be cold enough, demonstrating basic understanding of temperature's role in frost formation.",
+        "approaching": "Student mentions that cold weather or temperature is involved but provides incomplete reasoning, such as only saying \"it's cold\" without connecting to moisture or freezing.",
+        "beginning": "Student provides a vague response like \"I don't know\" or \"sometimes it's cold,\" showing minimal understanding of the conditions needed for frost to form."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the frost if the sun came out and warmed it up?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the frost would melt and explains that heat from the sun turns the ice into water, using the word \"melt\" or \"disappear\" and connecting it to warming, showing understanding of how heat changes solids to liquids.",
+        "meets": "Student predicts the frost would melt or go away when it gets warm, demonstrating understanding that warmth causes frost to disappear.",
+        "approaching": "Student predicts something will happen to the frost but provides unclear reasoning, such as \"it will change\" or \"it will be different\" without explaining how warmth causes melting.",
+        "beginning": "Student makes an inaccurate prediction or responds vaguely, such as \"I don't know\" or \"it will stay there,\" showing little understanding of how heat affects frozen water."
+      }
+    },
+    {
+      "questionText": "How is frost different from rain or snow?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two differences, such as frost forms on surfaces from freezing moisture while rain falls from the sky, or frost is ice crystals on things while snow falls as flakes, demonstrating clear understanding of how frost forms differently.",
+        "meets": "Student identifies one clear difference, such as frost stays on surfaces while rain falls, or frost forms from cold while snow falls from clouds, showing basic understanding of how frost differs from rain and snow.",
+        "approaching": "Student attempts to compare but only describes what each looks like or provides incomplete differences, such as \"frost is white and rain is wet\" without explaining how they form differently.",
+        "beginning": "Student provides minimal or inaccurate information, such as \"they're all cold\" or \"I don't know,\" showing little understanding of the differences between frost, rain, and snow."
+      }
+    },
+    {
+      "questionText": "If you touched frost with your bare hand, what do you think it would feel like, and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the frost would feel cold or icy and explains that it would be cold because frost is frozen water or ice, demonstrating understanding of frost's composition and properties.",
+        "meets": "Student predicts the frost would feel cold and connects this to frost being frozen or ice, showing understanding that frozen things are cold.",
+        "approaching": "Student predicts a feeling like cold or wet but provides incomplete reasoning, such as \"it would feel cold\" without explaining why or mentioning that frost is frozen.",
+        "beginning": "Student makes an unclear prediction or provides minimal reasoning, such as \"it would feel weird\" or \"I don't know,\" showing little understanding of frost's cold properties."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:14:19.645Z",
+  "cost": 0.005305
+}

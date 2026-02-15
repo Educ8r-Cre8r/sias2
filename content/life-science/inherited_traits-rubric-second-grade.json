@@ -1,0 +1,53 @@
+{
+  "title": "Inherited Traits",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What traits do the baby birds share with their parent bird?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific shared traits (such as beak shape, body shape, eye-ring color, or tan coloring) with clear descriptive language.",
+        "meets": "Student identifies two shared traits between baby and parent birds with accurate descriptions.",
+        "approaching": "Student identifies one shared trait between baby and parent birds, or mentions similarities but lacks specific details.",
+        "beginning": "Student provides a vague response such as 'they look the same' without identifying specific traits, or gives an inaccurate observation."
+      }
+    },
+    {
+      "questionText": "Why do you think the baby birds look similar to their parent? What do you think helped them get these traits?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that babies come from parents and inherit traits from them, using the word 'inherit' or 'passed down' and connecting this to the specific traits shown in the photo.",
+        "meets": "Student explains that the baby birds look like their parent because the parent gave them traits or that babies get traits from their parents.",
+        "approaching": "Student recognizes a connection between parent and babies but explanation is unclear or incomplete, such as 'they look like their mom' without explaining how traits were passed down.",
+        "beginning": "Student provides minimal explanation or suggests incorrect ideas, such as 'they look the same because they live together' or gives no clear reasoning."
+      }
+    },
+    {
+      "questionText": "How are the baby birds different from their parent bird? Why might those differences exist?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more differences (such as size, feather patterns, or age) and explains that these differences exist because babies are younger and will grow larger over time.",
+        "meets": "Student identifies at least one difference between baby and parent birds and provides a reasonable explanation related to age or growth.",
+        "approaching": "Student identifies a difference but provides an incomplete or unclear explanation, such as noting size difference without explaining why it exists.",
+        "beginning": "Student struggles to identify differences, provides inaccurate observations, or offers no explanation for why differences exist."
+      }
+    },
+    {
+      "questionText": "If you looked at your own family, what traits do you share with your parents or family members? How did you get those traits?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more personal inherited traits (such as eye color, hair color, nose shape, or height) and explains clearly that these traits came from parents or family members.",
+        "meets": "Student identifies one or two traits they share with family members and states that these traits came from their parents or family.",
+        "approaching": "Student identifies a trait they share with family but gives vague or incomplete explanation, or may describe non-inherited characteristics such as clothing or interests.",
+        "beginning": "Student provides minimal response, describes only non-inherited traits, or shows confusion about how traits are inherited from family."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:53:10.371Z",
+  "cost": 0.004645
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this cicada survive in its environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (such as wings, legs, eyes, or mouth) and explains how each one helps the cicada survive or move in its environment.",
+        "meets": "Student identifies two body parts and explains how at least one of them helps the cicada survive or function in its environment.",
+        "approaching": "Student names one or two body parts visible on the cicada but provides limited or unclear explanation of how they help survival.",
+        "beginning": "Student names a body part with no explanation, or provides vague responses that do not connect to survival or function."
+      }
+    },
+    {
+      "questionText": "How do you think spending years underground helps cicadas stay safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple ways being underground provides protection (such as hiding from predators, avoiding harsh weather, or staying hidden) and connects this to cicada survival.",
+        "meets": "Student gives a reasonable explanation of how being underground keeps cicadas safe from at least one threat (predators or weather).",
+        "approaching": "Student attempts to explain underground protection but reasoning is incomplete or somewhat unclear; may mention safety without fully explaining the connection.",
+        "beginning": "Student gives a minimal response or states that underground is safe without any explanation of why or how."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice about when and where cicadas appear?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student notices specific patterns such as timing (certain times of year), location (trees or outdoor areas), or behaviors (many appearing together), and may connect patterns to environmental clues.",
+        "meets": "Student identifies one clear pattern about when or where cicadas appear, such as in summer or on trees.",
+        "approaching": "Student attempts to describe a pattern but it is vague or partially formed; may mention time or place with limited clarity.",
+        "beginning": "Student provides a minimal observation with no clear pattern identified, or response is unclear."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful for many cicadas to emerge at the same time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons such as predators being overwhelmed by numbers, better chances for finding mates, or safety in large groups, showing thoughtful analysis.",
+        "meets": "Student explains one logical reason why emerging together helps cicadas, such as increasing survival chances or protecting each other through large numbers.",
+        "approaching": "Student recognizes that emerging together is helpful but explanation is incomplete or only partially logical; may state the benefit without clear reasoning.",
+        "beginning": "Student provides a minimal or unclear response about why this would be helpful, with little evidence of understanding the advantage of numbers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:29:27.414Z",
+  "cost": 0.004347
+}

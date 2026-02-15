@@ -1,0 +1,53 @@
+{
+  "title": "Propane Heater",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the red part of the heater? Why do you think it looks that color?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the red part is hot and glowing, explains it looks red because it is very hot, and may connect this to other hot things they've seen glow (like fire or light bulbs).",
+        "meets": "Student accurately describes the red part as glowing or bright and explains that the color comes from heat or that it is hot.",
+        "approaching": "Student notices the red color but provides an incomplete explanation; may say it is red without explaining why, or gives a vague response about heat.",
+        "beginning": "Student makes a minimal observation about the heater's color but shows little understanding of why things glow when hot."
+      }
+    },
+    {
+      "questionText": "How do you think the heater makes the air around it warmer? Can you describe what you observe?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that heat moves from the hot red part into the air around it and describes observing warm air rising or heat spreading outward in multiple directions.",
+        "meets": "Student explains that the heater gives off heat that warms the nearby air, demonstrating understanding that heat moves from the heater outward.",
+        "approaching": "Student shows partial understanding by noting the heater is hot or that it makes things warm nearby, but cannot clearly explain how the heat moves through the air.",
+        "beginning": "Student makes a simple statement like \"it's hot\" or \"it warms things\" with little explanation of the heating process."
+      }
+    },
+    {
+      "questionText": "If we put a blanket over part of the heater (safely), where would you feel the warmth most? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts warmth would be felt most in uncovered areas and explains that the blanket blocks heat, or that heat rises and escapes from the sides and top.",
+        "meets": "Student predicts that you would feel warmth in the areas not covered by the blanket and provides a basic reason, such as the blanket blocks the heat.",
+        "approaching": "Student makes a prediction about where warmth would be felt but gives an incomplete or unclear explanation of why.",
+        "beginning": "Student makes a prediction or statement about the blanket and heater with little or no reasoning about how the blanket affects heat movement."
+      }
+    },
+    {
+      "questionText": "How is this heater similar to or different from the sun warming us outside?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both the heater and sun give off heat and light to warm things, and may note differences such as the sun is much bigger, farther away, or hotter.",
+        "meets": "Student identifies at least one similarity (both are hot/give heat) or one difference (sun is bigger, heater is smaller) between the heater and sun.",
+        "approaching": "Student attempts a comparison but the response is unclear or only partially accurate; may confuse how each warms things.",
+        "beginning": "Student mentions the heater or sun but does not make a meaningful comparison between the two heat sources."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:43:07.078Z",
+  "cost": 0.004866
+}

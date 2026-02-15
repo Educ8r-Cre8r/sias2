@@ -1,0 +1,53 @@
+{
+  "title": "Insect",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that suggests this insect and flower help each other survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific benefits for both organisms (e.g., insect gets food from nectar/pollen while flower gets pollinated for reproduction) and explains how each organism depends on the other using accurate biological vocabulary.",
+        "meets": "Student identifies at least one benefit for the insect and one for the flower, demonstrating understanding of a mutually helpful relationship between the two organisms.",
+        "approaching": "Student recognizes that the insect and flower interact or that one organism benefits, but explanation is incomplete or shows partial understanding of the mutual relationship.",
+        "beginning": "Student provides a vague response such as 'they help each other' without specific evidence from the photo or accurate reasoning about the relationship."
+      }
+    },
+    {
+      "questionText": "How might this daisy's reproduction be affected if no insects visited it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that without insect pollinators, the flower cannot transfer pollen to other flowers, preventing fertilization and seed production, and may discuss alternative pollination methods or consequences for plant populations.",
+        "meets": "Student correctly explains that the flower would not be pollinated or would not produce seeds if insects did not visit it, showing understanding of the insect's role in reproduction.",
+        "approaching": "Student recognizes that insects are important to the flower or that something would happen to reproduction, but reasoning is unclear or incomplete.",
+        "beginning": "Student provides a minimal response such as 'it wouldn't grow' without explanation of how pollination or reproduction would be affected."
+      }
+    },
+    {
+      "questionText": "What specific body parts does this insect have that make it good at collecting food from flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific body parts (antennae, legs, mouthparts) visible in the photo and explains how each part helps the insect feed or locate flowers with accurate functional reasoning.",
+        "meets": "Student identifies at least two specific body parts from the insect and explains how they help it collect food from flowers.",
+        "approaching": "Student identifies one or more body parts but provides incomplete or partially accurate explanations of how they function in collecting food.",
+        "beginning": "Student names a general body part (e.g., 'legs' or 'mouth') with little or no explanation of its function in feeding."
+      }
+    },
+    {
+      "questionText": "If you were designing a robot pollinator, what features from this insect would you copy and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student selects multiple insect features (e.g., long antennae for sensing, six legs for stability, small size for flower access) and provides detailed, logical reasoning for why each feature would be useful in a robot pollinator.",
+        "meets": "Student identifies at least two features from the insect and explains with reasonable logic why those features would help a robot pollinator do its job.",
+        "approaching": "Student identifies one or more insect features but reasoning for selection is unclear, incomplete, or shows partial understanding of how the feature aids pollination.",
+        "beginning": "Student names a feature without explaining why it would be useful, or provides vague reasoning unrelated to pollination."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:36:45.593Z",
+  "cost": 0.004936
+}

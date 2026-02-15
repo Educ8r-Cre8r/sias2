@@ -1,0 +1,53 @@
+{
+  "title": "King Snake",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What colors and patterns do you see on this snake?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies all three main colors (red, black, and yellow/white) and describes the pattern as stripes or bands that wrap around the snake's body in an organized way.",
+        "meets": "Student correctly identifies at least two of the main colors and notes that the snake has stripes or a pattern that repeats.",
+        "approaching": "Student identifies one or two colors or mentions a pattern, but description is incomplete or lacks detail about how the pattern looks.",
+        "beginning": "Student names one color or vaguely describes the snake's appearance with minimal accuracy or detail."
+      }
+    },
+    {
+      "questionText": "Why do you think this snake has such bright, colorful stripes? What might the stripes help the snake do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors warn other animals the snake might be dangerous, or that colors help the snake hide or stand out, and provides reasoning such as 'so animals know not to eat it' or 'so it can stay safe.'",
+        "meets": "Student suggests one clear purpose for the stripes, such as warning other animals, staying safe, or being noticed, with basic reasoning.",
+        "approaching": "Student offers an idea about why the stripes might be helpful but explanation is vague or only partially connected to the stripes' actual function.",
+        "beginning": "Student makes a guess about the stripes with little reasoning or provides an answer that doesn't logically connect to the snake's survival."
+      }
+    },
+    {
+      "questionText": "How is this snake's body different from a worm or a lizard? What special features does a snake have?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as: snakes have scales and smooth bodies, no legs (unlike lizards), a long curved body, a small head, and can move without legs; may note that worms are soft and snakes are hard.",
+        "meets": "Student identifies at least two clear differences, such as snakes have no legs or snakes have scales and a hard body, compared to worms or lizards.",
+        "approaching": "Student notices one difference between snakes and other animals but description lacks detail or is partially inaccurate.",
+        "beginning": "Student attempts to compare but provides vague or mostly inaccurate descriptions of the snake's body features."
+      }
+    },
+    {
+      "questionText": "If this snake didn't have bright colors, how might its life be different? What might happen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a specific consequence such as: other animals might try to eat it more often, it could be harder to see, or other snakes wouldn't recognize it as easily; reasoning shows understanding that bright colors serve a protective function.",
+        "meets": "Student predicts one realistic consequence, such as the snake being in more danger or being easier to catch, with logical reasoning.",
+        "approaching": "Student makes a prediction about what might change but reasoning is unclear or not fully connected to the purpose of the snake's coloring.",
+        "beginning": "Student attempts to answer but provides a response that is vague, unlikely, or shows minimal understanding of why colors matter to the snake."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:48:27.681Z",
+  "cost": 0.004931
+}

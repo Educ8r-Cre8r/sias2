@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think causes the sun to appear in different places in the sky throughout the day?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that Earth rotates/spins and this causes the sun to appear to move across the sky, using clear reasoning and possibly mentioning that the sun actually stays in one place while Earth moves.",
+        "meets": "Student correctly identifies that Earth's rotation or spinning causes the sun to appear in different places in the sky throughout the day.",
+        "approaching": "Student mentions either Earth's movement or the sun's apparent movement but does not clearly connect the two ideas or provides incomplete explanation.",
+        "beginning": "Student provides a vague response such as 'the sun moves' or 'Earth moves' without clear connection between the two or with inaccurate information."
+      }
+    },
+    {
+      "questionText": "Why do you think the sky is red and orange at sunrise instead of blue like it is during the middle of the day?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sunlight travels through more atmosphere at sunrise, causing shorter blue wavelengths to scatter and longer red/orange wavelengths to reach Earth, showing understanding of light scattering.",
+        "meets": "Student correctly explains that the sun's light travels through more air or atmosphere at sunrise, which changes the colors we see in the sky.",
+        "approaching": "Student recognizes that something about the sun's position or light path at sunrise causes different colors but explanation is incomplete or partially unclear.",
+        "beginning": "Student provides a minimal or inaccurate response such as 'the sun is orange' or 'that's just how sunrise looks' without explaining the cause."
+      }
+    },
+    {
+      "questionText": "If Earth is always spinning, why does it feel like we are standing still?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that Earth spins at a constant, smooth speed so we don't feel the motion; mentions reference points or provides analogy (e.g., airplane passengers don't feel movement at constant speed).",
+        "meets": "Student correctly explains that Earth spins at a steady, constant speed, so we don't notice or feel the movement.",
+        "approaching": "Student recognizes that constant motion is involved in why we don't feel Earth's spin but explanation lacks clarity or completeness.",
+        "beginning": "Student provides minimal response such as 'we just don't feel it' or 'Earth isn't really spinning' without meaningful explanation."
+      }
+    },
+    {
+      "questionText": "Where do you predict the sun will be in the sky two hours from now, and what evidence helps you make this prediction?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the sun will be higher in the sky or in a different position (toward east/south based on time of day) and supports prediction with evidence such as Earth's rotation, the sun's pattern throughout the day, or observation from the photo.",
+        "meets": "Student makes a reasonable prediction about the sun's location two hours later and identifies at least one piece of evidence such as observing the sunrise position or knowing the sun moves across the sky.",
+        "approaching": "Student makes a prediction about sun location but provides weak, unclear, or only partial evidence; reasoning may be incomplete.",
+        "beginning": "Student makes a prediction with little or no supporting evidence, or prediction shows misunderstanding of sun's movement patterns."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:46:11.281Z",
+  "cost": 0.005043
+}

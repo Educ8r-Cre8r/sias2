@@ -1,0 +1,53 @@
+{
+  "title": "Pond Habitat",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the pond if all the water lily plants disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific consequences (e.g., loss of shade, food source, or oxygen production) and explains how these changes would affect other pond organisms, demonstrating understanding of ecosystem interdependence.",
+        "meets": "Student describes at least one reasonable consequence of losing water lilies, such as affecting animals that live on the plants or changing conditions in the pond.",
+        "approaching": "Student mentions that something would change in the pond but provides limited or vague reasoning; may confuse cause and effect or only partially explain the consequence.",
+        "beginning": "Student provides a minimal response with little connection to pond ecosystems, such as 'the pond would be different' without explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "How are the flowering shrubs at the edge of the pond similar to and different from the water lilies in the water?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (both are plants, both flower, both provide habitat) and differences (water lilies float/live in water vs. shrubs grow on land, different leaf shapes), using precise descriptive language.",
+        "meets": "Student identifies at least one similarity and one difference between water lilies and flowering shrubs, such as both having flowers but living in different environments.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or provides partially accurate comparisons with incomplete observations about the two plants.",
+        "beginning": "Student provides a vague or minimal response that does not clearly compare the two plants or contains significant inaccuracies about their characteristics."
+      }
+    },
+    {
+      "questionText": "Why do you think the photographer took this photo at water level instead of standing above the pond looking down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the water-level perspective shows details more clearly (such as the flowers, depth, or reflections) and connects this to how perspective affects what we can observe in nature or scientific documentation.",
+        "meets": "Student provides a reasonable explanation for the water-level perspective, such as being able to see the flowers better, see reflections, or view the plants from the animals' perspective.",
+        "approaching": "Student attempts to explain the photographer's choice but provides incomplete reasoning or makes a connection that is only partially logical.",
+        "beginning": "Student provides minimal or unclear reasoning, such as 'the photographer liked it' without explaining what the water-level view shows."
+      }
+    },
+    {
+      "questionText": "If you could add one new organism to this pond (a frog, a dragonfly, a fish), which would you choose and why? How might it change the pond?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student selects an organism, provides specific reasons related to the ecosystem (food chain, habitat), and predicts multiple realistic changes (e.g., effects on other organisms, water quality, or plant growth) with scientific reasoning.",
+        "meets": "Student selects an organism with a clear reason and predicts at least one realistic change to the pond, showing understanding of how the new organism would interact with the existing environment.",
+        "approaching": "Student selects an organism but provides limited reasoning or makes a prediction about change that is only partially logical or detailed.",
+        "beginning": "Student selects an organism with minimal or no explanation, or makes an unrealistic prediction about how it would affect the pond."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:52:40.623Z",
+  "cost": 0.00515
+}

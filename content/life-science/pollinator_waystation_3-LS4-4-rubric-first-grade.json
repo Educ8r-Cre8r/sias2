@@ -1,0 +1,53 @@
+{
+  "title": "Pollinator Waystation",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the flowers in this garden are so many different colors?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different colors help attract different insects and that insects can see and find flowers more easily because of the variety of colors.",
+        "meets": "Student states that the different colors attract insects or help insects find the flowers to visit.",
+        "approaching": "Student mentions that the colors are pretty or nice, or suggests colors might help insects but without clear explanation of how.",
+        "beginning": "Student names some colors seen in the photo but does not explain why the flowers have different colors."
+      }
+    },
+    {
+      "questionText": "What do you think the insects get from visiting these flowers, and what do the flowers get from the insects visiting?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that insects get food (nectar or pollen) from flowers and that flowers get help making seeds or spreading pollen when insects visit, showing understanding of this exchange.",
+        "meets": "Student identifies that insects get food from flowers and that flowers benefit from insects visiting, though explanation of how flowers benefit may be basic.",
+        "approaching": "Student identifies either what insects get OR what flowers get, but not both, or gives incomplete explanations of the exchange.",
+        "beginning": "Student provides a vague answer like \"insects like flowers\" without explaining what either one gets from the visit."
+      }
+    },
+    {
+      "questionText": "If there were no insects visiting these flowers, what do you think would happen to the plants next year?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that fewer flowers or seeds would grow next year because insects help flowers make seeds, showing understanding of the connection between pollination and plant reproduction.",
+        "meets": "Student predicts that the plants would not grow as well or that there would be fewer flowers next year because insects help the plants.",
+        "approaching": "Student predicts something negative would happen to the plants but the reason is unclear or incomplete (e.g., \"the plants would die\" without explanation).",
+        "beginning": "Student makes a prediction with little reasoning, such as \"the flowers would be sad\" or \"nothing would happen.\""
+      }
+    },
+    {
+      "questionText": "How is this flower garden different from a field with only one kind of flower?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that this garden has many types of flowers in different colors and explains that more kinds of flowers attract more insects or provide more food for insects than a field with only one kind.",
+        "meets": "Student observes that this garden has many different kinds and colors of flowers, while a field with one kind would have only one type or color.",
+        "approaching": "Student notices the garden has more than one kind of flower or mentions colors, but does not clearly compare it to a single-flower field.",
+        "beginning": "Student gives a vague answer such as \"this one is prettier\" or \"they are different\" without describing specific differences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:41:37.763Z",
+  "cost": 0.004587
+}

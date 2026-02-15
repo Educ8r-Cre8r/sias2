@@ -1,0 +1,53 @@
+{
+  "title": "Circuits",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens when we unplug one of the wires from the circuit board?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts that unplugging a wire will break the circuit and stop electricity from flowing, and explains that the electricity needs a complete path through all the wires to work.",
+        "meets": "Student predicts that unplugging a wire will stop the circuit from working or turn off the light, showing understanding that all wires are needed.",
+        "approaching": "Student recognizes that unplugging a wire causes something to stop working, but explanation is vague or incomplete (e.g., 'it breaks' without explaining why).",
+        "beginning": "Student makes a prediction but it is inaccurate, unclear, or shows little understanding of how wires connect electricity (e.g., 'it gets fixed' or 'the wire goes away')."
+      }
+    },
+    {
+      "questionText": "Why do you think we need wires to connect all these parts together?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wires carry electricity from one part to another and that electricity needs a pathway or loop to travel through all the connected parts to make things work.",
+        "meets": "Student explains that wires help electricity move between the parts or that wires connect things so they work together.",
+        "approaching": "Student gives a partial explanation, such as 'wires connect things' or 'they make it work,' but does not explain the role of electricity moving through them.",
+        "beginning": "Student provides a response that is unclear, off-topic, or shows minimal understanding (e.g., 'because they do' or 'to hold it together')."
+      }
+    },
+    {
+      "questionText": "If the light doesn't turn on, what could be wrong with our circuit?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple possible problems, such as a loose or unplugged wire, a broken wire, or the switch being in the off position, and explains how each would stop electricity from flowing.",
+        "meets": "Student identifies one or two possible problems with the circuit, such as a loose wire or unplugged wire, showing understanding that a complete circuit is needed.",
+        "approaching": "Student suggests one possible problem but explanation is vague or incomplete (e.g., 'the wire is broken' without explaining why this matters).",
+        "beginning": "Student's response shows little understanding of circuit problems (e.g., 'it's broken' with no further explanation or an unrelated answer)."
+      }
+    },
+    {
+      "questionText": "Can you think of other things in your house that use circuits and electricity to work?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more household items that use electricity (such as lamps, TVs, refrigerators, or phones) and explains that they all need electricity flowing through circuits to work.",
+        "meets": "Student identifies two or three household items that use electricity and recognizes they work because of circuits or electricity.",
+        "approaching": "Student identifies one or two household items that use electricity, but may not clearly connect them to circuits or electricity.",
+        "beginning": "Student names one item or provides a response that is unclear or unrelated to household items using electricity (e.g., 'my toy' without identifying what it does or how it works)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:00:15.601Z",
+  "cost": 0.00503
+}

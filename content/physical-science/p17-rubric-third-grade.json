@@ -1,0 +1,53 @@
+{
+  "title": "Reflection",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the reflection if the glass building had rough, bumpy windows instead of smooth ones?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the reflection would become blurry, fuzzy, or disappear, and explains that smooth surfaces are needed for clear reflections while rough surfaces scatter light in different directions.",
+        "meets": "Student predicts that the reflection would become less clear or blurry, and provides a simple explanation that rough surfaces don't reflect light as well as smooth ones.",
+        "approaching": "Student predicts that the reflection would change or get worse but provides limited or incomplete reasoning about why bumpy surfaces affect reflections.",
+        "beginning": "Student makes a prediction with little to no explanation, or suggests the reflection would stay the same despite the surface change."
+      }
+    },
+    {
+      "questionText": "Why can you see the building's reflection better on the glass building than on a brick wall?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that glass is smooth and shiny, which reflects light clearly, while brick is rough and bumpy, which scatters light and doesn't reflect a clear image; may note that smooth surfaces make better mirrors.",
+        "meets": "Student explains that glass reflects better because it is smooth and shiny, while brick doesn't reflect as well because it is rough or not reflective.",
+        "approaching": "Student identifies that glass and brick are different materials but provides only partial explanation of why one reflects better than the other.",
+        "beginning": "Student states that glass is better for reflections but offers vague or minimal reasoning about the difference between the two materials."
+      }
+    },
+    {
+      "questionText": "How is this building reflection similar to seeing yourself in a puddle of water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both glass and water are smooth, shiny surfaces that reflect light to create images; may mention that both reflections are clear because of the smooth surface, and explain that light bounces off both.",
+        "meets": "Student recognizes that both glass and water are smooth and shiny, and that both create reflections of objects or people nearby.",
+        "approaching": "Student identifies one similarity between water and glass reflections but lacks detail or accuracy in the explanation.",
+        "beginning": "Student mentions reflections or makes a vague comparison between glass and water without clear reasoning about why reflections form in both."
+      }
+    },
+    {
+      "questionText": "If you were standing inside the glass building, do you think you could see the reflection from inside? Why or why not?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts no (or limited) reflection from inside and explains that light from inside is brighter than outside, so the glass acts like a window instead of a mirror, or notes that light must bounce off the surface to create a reflection.",
+        "meets": "Student predicts that the reflection would not be visible from inside and provides a reason related to light, brightness, or how reflections work.",
+        "approaching": "Student attempts to predict whether a reflection would be visible from inside but provides incomplete or partially accurate reasoning about why.",
+        "beginning": "Student makes a prediction with little or no explanation, or shows confusion about how reflections work from different positions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:04:14.151Z",
+  "cost": 0.004876
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Alligator Predator",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Where does the alligator live, and what do you see in this picture that it needs?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the swamp/water habitat and names multiple things the alligator needs (water, mud, plants) with clear explanations of why each is important.",
+        "meets": "Student identifies that the alligator lives in water or swamp and names at least two things it needs from the picture, such as water and mud or plants.",
+        "approaching": "Student identifies the water as the alligator's home but names only one thing it needs, or shows uncertainty about why the alligator needs these things.",
+        "beginning": "Student attempts to identify where the alligator lives or what it needs but provides vague or inaccurate responses with minimal detail."
+      }
+    },
+    {
+      "questionText": "Why do you think the alligator's bumpy, dark skin helps it survive in the swamp?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bumpy, dark skin helps the alligator hide by blending in with the muddy water and plants, using the term 'camouflage' or 'blend in' and connecting it to staying safe.",
+        "meets": "Student explains that the bumpy, dark skin helps the alligator blend in or hide in the muddy, dark swamp water so it is hard to see.",
+        "approaching": "Student mentions that the skin color or bumps help the alligator hide but provides incomplete reasoning or unclear connection to the swamp environment.",
+        "beginning": "Student attempts to explain the connection between skin and survival but gives vague, unclear, or inaccurate responses."
+      }
+    },
+    {
+      "questionText": "If an alligator lived in a bright, sandy desert instead of a muddy swamp, how might its skin color be different to help it hide?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the skin would be lighter or tan/brown to match the sandy desert environment and explains that this color change would help it hide from other animals or hunt better.",
+        "meets": "Student predicts the alligator's skin would be lighter in color to match the sandy desert and explains this would help it blend in or hide.",
+        "approaching": "Student predicts the skin color would be different but provides incomplete reasoning about how the lighter color would help the alligator in the desert.",
+        "beginning": "Student attempts to predict how skin color might change but gives vague, unclear, or shows minimal understanding of how color helps animals hide."
+      }
+    },
+    {
+      "questionText": "What other animals might live in the same swamp with the alligator, and what would they need to stay alive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least three swamp animals and identifies different things each needs to survive, such as water, food, or plants, showing understanding of varied habitat needs.",
+        "meets": "Student names at least two realistic swamp animals and identifies basic needs they share, such as water and food.",
+        "approaching": "Student names one or two swamp animals but provides vague or incomplete information about what they need to stay alive.",
+        "beginning": "Student attempts to name swamp animals or their needs but provides minimal, unclear, or inaccurate responses."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:55:15.736Z",
+  "cost": 0.005012
+}

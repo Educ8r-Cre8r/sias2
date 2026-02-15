@@ -1,0 +1,53 @@
+{
+  "title": "Cattle Egret",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why does the cow let the egret stand on the fence nearby while it eats grass?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the egret helps the cow by eating insects and parasites, and the cow allows this because it benefits from being cleaned; uses specific vocabulary like 'parasites' or 'insects.'",
+        "meets": "Student identifies that the egret eats bugs or helps clean the cow, and the cow does not mind or benefits from having the egret nearby.",
+        "approaching": "Student recognizes that the egret and cow are together and mentions they help each other, but explanation is vague or only partially accurate.",
+        "beginning": "Student provides a minimal response such as 'the cow likes the bird' or 'they are friends' with little scientific reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen to the egret if there were no cattle or other large animals in the pasture?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the egret would have less food and fewer insects to eat, explaining that large animals stir up bugs when they move; may discuss how the egret depends on this relationship for survival.",
+        "meets": "Student predicts the egret would have trouble finding food or would go hungry because there would be no large animals to help find insects.",
+        "approaching": "Student recognizes the egret might have a problem but gives an incomplete explanation, such as 'the bird would be sad' or 'it needs the cow.'",
+        "beginning": "Student gives a minimal or inaccurate response, such as 'it would fly away' without explaining why or how this relates to food."
+      }
+    },
+    {
+      "questionText": "How do you think this relationship helps each animal survive better?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the egret gets easier access to food and the cow stays healthier by having parasites/bugs removed; clearly describes how both animals benefit from this partnership.",
+        "meets": "Student identifies that the egret gets food and the cow gets help staying clean, showing understanding that both animals benefit.",
+        "approaching": "Student mentions that the animals help each other but explanation lacks clear details about how each animal benefits.",
+        "beginning": "Student provides a vague response such as 'they help each other' or 'they like each other' without explaining how this helps survival."
+      }
+    },
+    {
+      "questionText": "Are there any 'helpers' in your life or home that work with you the way the egret works with the cow? How?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific helper (parent, teacher, pet, sibling) and explains how they work together in a way that is similar to the symbiotic relationship—both benefit from the partnership; analogy is clear and appropriate.",
+        "meets": "Student identifies a helper in their life and makes a reasonable connection to how the egret and cow work together, showing understanding of the relationship.",
+        "approaching": "Student identifies someone who helps them but makes a vague or partially unclear connection to the egret-cow relationship.",
+        "beginning": "Student mentions a helper or person but provides little or no explanation of how they work together or why it relates to the photo."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:31:28.261Z",
+  "cost": 0.004938
+}

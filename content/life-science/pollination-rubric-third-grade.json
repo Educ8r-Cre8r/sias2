@@ -1,0 +1,53 @@
+{
+  "title": "Pollination",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the flowers if there were no bees to visit them?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts flowers would not make seeds or new plants, and explains that bees carry pollen needed for this to happen, showing understanding of the pollination process.",
+        "meets": "Student predicts flowers would have a problem or would not grow/make seeds, with a basic explanation that bees help flowers.",
+        "approaching": "Student predicts something would be wrong with the flowers but provides vague or incomplete reasoning about why bees matter.",
+        "beginning": "Student makes a prediction with little or no explanation, or suggests an unclear connection between bees and flowers."
+      }
+    },
+    {
+      "questionText": "Why does the bee's body have to be fuzzy? What would happen if it were smooth like a rock?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that fuzzy hairs trap and hold pollen, and predicts that smooth skin would not catch pollen, making it impossible to move pollen between flowers.",
+        "meets": "Student explains that fuzzy hairs help catch or carry pollen, and notes that a smooth bee would not pick up pollen as well.",
+        "approaching": "Student mentions that fuzz helps with pollen or that smooth would not work, but lacks clear explanation of how or why.",
+        "beginning": "Student provides a minimal response about fuzz or smoothness with little connection to pollen or pollination."
+      }
+    },
+    {
+      "questionText": "Look at the flower's bright purple color. Why do you think flowers have bright colors?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that bright colors attract bees and other insects to visit the flowers, and explains that this helps with pollination or seed-making.",
+        "meets": "Student infers that bright colors help attract bees or insects to the flower.",
+        "approaching": "Student suggests bright colors attract bees or insects but provides weak or incomplete reasoning.",
+        "beginning": "Student offers a vague answer about color or makes a guess with little scientific reasoning."
+      }
+    },
+    {
+      "questionText": "How is the bee helping the flower, and how is the flower helping the bee? Is this fair to both?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies that bees carry pollen to help flowers make seeds, and that flowers give bees nectar for food, and clearly explains this exchange is fair because both get what they need.",
+        "meets": "Student explains that the bee helps by carrying pollen and the flower helps by giving food (nectar), and recognizes this benefits both.",
+        "approaching": "Student identifies one way each organism helps the other but may not clearly explain the benefit or fairness of the exchange.",
+        "beginning": "Student attempts to describe one organism helping the other but provides little detail or unclear reasoning about fairness."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:39:40.185Z",
+  "cost": 0.004534
+}

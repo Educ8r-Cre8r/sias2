@@ -1,0 +1,53 @@
+{
+  "title": "Ice",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the ice over time, and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts ice will melt into water and explains with multiple reasons (e.g., room temperature, heat energy from surroundings, time passing), using terms like 'heat' or 'melt' accurately.",
+        "meets": "Student predicts ice will melt into water and provides a basic explanation involving warmth or heat from the environment.",
+        "approaching": "Student predicts ice will melt but provides incomplete or vague reasoning (e.g., 'it gets warm' without elaboration), or shows partial understanding of the melting process.",
+        "beginning": "Student makes a prediction but offers no explanation, or suggests an inaccurate outcome (e.g., ice will get bigger or disappear completely without becoming water)."
+      }
+    },
+    {
+      "questionText": "How is the ice in this bowl similar to and different from ice you see outside in winter?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both are frozen water, solid form) and differences (indoor ice melts faster, outdoor ice may be thicker, from snow vs. tap water), showing understanding of how temperature affects ice.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between bowl ice and outdoor winter ice (e.g., 'similar—both are ice; different—bowl ice melts faster because it's warmer inside').",
+        "approaching": "Student attempts comparison but identifies similarities or differences that are vague or only partially accurate (e.g., 'they're both cold' without other distinctions).",
+        "beginning": "Student provides minimal response with no clear comparison, or makes statements that show confusion about the difference between indoor and outdoor ice."
+      }
+    },
+    {
+      "questionText": "If you wanted to make the ice melt faster or slower, what could you do?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple specific actions to change melting speed and explains how heat or temperature affects each action (e.g., 'move bowl to freezer to slow it' or 'place in sunlight to speed it up because more heat makes it melt faster').",
+        "meets": "Student suggests at least one specific action to make ice melt faster OR slower and provides a basic explanation related to temperature or heat.",
+        "approaching": "Student suggests an action but provides incomplete or unclear reasoning (e.g., 'put it in the fridge' without explaining why, or vague statements about temperature).",
+        "beginning": "Student provides a vague or irrelevant suggestion (e.g., 'just wait') with little to no explanation of how it would affect melting speed."
+      }
+    },
+    {
+      "questionText": "Why do you think ice floats on top of the water instead of sinking to the bottom?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that ice is less dense than liquid water, using evidence from the photo (floating pieces) and connecting to the property that solid water takes up more space, or that ice is lighter per unit volume.",
+        "meets": "Student provides a basic explanation that ice floats because it is lighter than water or less heavy than liquid water, showing understanding of relative density.",
+        "approaching": "Student attempts an explanation but uses incomplete or imprecise reasoning (e.g., 'ice floats because it's cold' or 'water pushes it up') without clear understanding of density differences.",
+        "beginning": "Student provides minimal or inaccurate explanation (e.g., 'because ice is on top' or 'I don't know'), showing little understanding of why ice floats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:02:43.066Z",
+  "cost": 0.005395
+}

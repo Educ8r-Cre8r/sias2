@@ -1,0 +1,53 @@
+{
+  "title": "Deciduous Trees",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What patterns do you notice in how the trees are changing colors?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple color patterns (e.g., trees change from green to yellow, orange, and red; some trees change faster than others) and explains that these changes happen in a sequence or order.",
+        "meets": "Student identifies at least two different colors the trees changed to and notes that not all trees changed at the same time.",
+        "approaching": "Student names some colors they see in the trees but provides limited detail about how or when the colors changed.",
+        "beginning": "Student mentions only one color or gives a vague response like 'the trees are different colors' without describing specific color changes."
+      }
+    },
+    {
+      "questionText": "Why might some trees in the photo still be green while others have changed colors?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that trees change colors at different times because of differences in temperature, sunlight, or tree type, showing understanding that fall happens gradually and not all trees respond the same way.",
+        "meets": "Student provides a reasonable explanation such as 'some trees change colors slower than others' or 'different kinds of trees change at different times' with basic reasoning.",
+        "approaching": "Student attempts an explanation but is incomplete, such as 'they change when it gets colder' without connecting this to why some trees are still green.",
+        "beginning": "Student offers little explanation or states 'I don't know' or 'they just do' without attempting to reason through the observation."
+      }
+    },
+    {
+      "questionText": "How do you think these trees will look different in three months during winter?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that most or all trees will lose their leaves and describes additional winter features such as bare branches, possible snow, or that the landscape will look more open or gray.",
+        "meets": "Student correctly predicts that the trees will lose their leaves and will look bare or have no leaves in winter.",
+        "approaching": "Student makes a prediction about winter but with some inaccuracy, such as predicting leaves will turn different colors again or showing uncertainty about leaf loss.",
+        "beginning": "Student provides a vague prediction like 'they will look different' or 'it will be colder' without describing how the trees themselves will change."
+      }
+    },
+    {
+      "questionText": "What would happen to this forest if trees never dropped their leaves?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences such as trees using too much energy in winter, trees becoming unhealthy or dying, or the forest looking completely different year-round, showing understanding that leaf-dropping is important for tree survival.",
+        "meets": "Student identifies at least one realistic consequence such as 'the trees might get too tired' or 'it would be harder for the trees in winter' and explains a basic reason why this would be a problem.",
+        "approaching": "Student recognizes something negative would happen but provides limited reasoning, such as 'the trees would be sad' or 'something bad would happen' without scientific explanation.",
+        "beginning": "Student gives a response unrelated to the trees' survival or function, such as 'the forest would still be pretty' or 'I don't know what would happen.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:28:03.809Z",
+  "cost": 0.00493
+}

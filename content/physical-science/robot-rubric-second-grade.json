@@ -1,0 +1,53 @@
+{
+  "title": "Robot",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you observe about how this robot moves?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific movements (rolling, spinning, walking) and notes details like wheel shape, body parts that help it move, and how legs or wheels work together.",
+        "meets": "Student identifies that the robot moves using wheels or legs and describes basic movement like rolling or walking.",
+        "approaching": "Student mentions that the robot moves but provides vague descriptions like 'it goes' or 'it rolls' with minimal detail about how.",
+        "beginning": "Student attempts to describe movement but uses unclear language or provides inaccurate information about robot parts."
+      }
+    },
+    {
+      "questionText": "Why do you think the robot's eye lights up? Where do you think the energy comes from to make it light up and move?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the light comes from electricity or a power source (battery) and connects this energy to both the light and movement; may mention that energy is needed to power machines.",
+        "meets": "Student identifies that a battery or power source provides energy and that this energy makes the light and movement work.",
+        "approaching": "Student recognizes that the eye lights up and suggests energy is involved, but the explanation of the energy source is incomplete or partially accurate.",
+        "beginning": "Student provides a simple response about the eye lighting up but shows little understanding of energy sources or why the robot needs power."
+      }
+    },
+    {
+      "questionText": "If we put this robot on different surfaces—like carpet, sand, or ice—how might its movement change? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts how movement would change on each surface and explains why using concepts like friction, grip, smoothness, or how surfaces slow down or speed up wheels.",
+        "meets": "Student predicts that movement would change on different surfaces and gives a basic reason, such as 'sand is harder to move on' or 'ice is slippery.'",
+        "approaching": "Student predicts some changes in movement but the reasoning is incomplete or vague, or predictions apply to only one or two surfaces.",
+        "beginning": "Student attempts to compare surfaces but predictions are unclear or lack logical reasoning about how surfaces affect movement."
+      }
+    },
+    {
+      "questionText": "What could we design a robot like this to do? How would we need to change it to help us explore a place like the ocean or the moon?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes specific tasks for the robot (collecting samples, taking pictures) and describes multiple design changes needed for extreme environments, such as waterproof materials for ocean or special wheels for moon's gravity.",
+        "meets": "Student suggests a reasonable purpose for the robot and identifies at least one or two design changes needed for ocean or moon exploration.",
+        "approaching": "Student proposes a task for the robot but design changes are vague or only partially fit the extreme environment (e.g., 'make it waterproof' for ocean but no other modifications).",
+        "beginning": "Student suggests a simple task or mentions changing the robot but shows limited understanding of what adaptations would actually be needed for ocean or moon environments."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:37:08.588Z",
+  "cost": 0.004855
+}

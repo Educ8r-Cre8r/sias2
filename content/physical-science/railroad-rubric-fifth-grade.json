@@ -1,0 +1,53 @@
+{
+  "title": "Railroad",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the railroad company uses two rails instead of a single wide rail?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that two rails provide stability and balance for the train, and extends thinking by discussing how the two rails distribute weight or guide the train in a specific direction with scientific precision.",
+        "meets": "Student identifies that two rails help keep the train balanced, stable, or on track, demonstrating understanding of the basic structural purpose of the dual-rail design.",
+        "approaching": "Student mentions that two rails are important or help the train stay on the tracks, but explanation lacks clarity about how stability or balance is achieved.",
+        "beginning": "Student provides a vague response such as 'two rails are stronger' or 'they work better' without explaining the connection to train balance or function."
+      }
+    },
+    {
+      "questionText": "If the wooden ties were farther apart, what do you predict might happen to the railroad track and trains?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that rails would sag, bend, or become unstable, and explains the reasoning by connecting to concepts of support, weight distribution, or structural integrity.",
+        "meets": "Student makes a reasonable prediction that the tracks would become weaker, sag, or the train might derail, showing understanding that tie spacing affects track stability.",
+        "approaching": "Student predicts something negative would happen (tracks would break or train would have problems) but provides incomplete or unclear reasoning about why spacing matters.",
+        "beginning": "Student makes a prediction with minimal explanation or suggests consequences that don't logically connect to tie spacing (e.g., 'the train would go faster')."
+      }
+    },
+    {
+      "questionText": "What would happen if all the gravel underneath the tracks disappeared?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts tracks would sink, shift, or become unstable, and explains that gravel provides support, drainage, and distributes the train's weight across the ground.",
+        "meets": "Student predicts the tracks would sink, move, or become damaged, demonstrating understanding that gravel serves as a support or foundation layer.",
+        "approaching": "Student predicts a negative outcome (tracks would break or fail) but explanation is vague about gravel's role in supporting the structure.",
+        "beginning": "Student provides a minimal prediction with little explanation, such as 'the tracks would fall' or 'it would be bad' without describing the mechanism."
+      }
+    },
+    {
+      "questionText": "How is the design of railroad tracks similar to how you stand or walk to keep your balance?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies that both use a wide base for stability (two rails like two feet/legs), explains how spacing and distance from a center point aid balance, and may mention weight distribution.",
+        "meets": "Student recognizes that two rails function like two legs or feet, and explains how this design helps with balance and stability in a logical way.",
+        "approaching": "Student notices that two rails are like two legs or feet but provides incomplete reasoning about why this design helps with balance.",
+        "beginning": "Student makes a surface-level comparison (rails are like legs) without explaining how this design relates to balance or stability."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:20:58.876Z",
+  "cost": 0.004872
+}

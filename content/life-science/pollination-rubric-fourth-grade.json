@@ -1,0 +1,53 @@
+{
+  "title": "Pollination",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to flowers if there were no bees to visit them?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that without bees, flowers would not be pollinated, preventing seed and fruit formation, and describes a consequence like fewer new plants growing or the flower species disappearing over time.",
+        "meets": "Student identifies that bees help flowers make seeds or that without bees, flowers would not reproduce or would not make seeds.",
+        "approaching": "Student provides a partial response, such as flowers would die or bees are important to flowers, but lacks clear explanation of how or why.",
+        "beginning": "Student offers a vague response like 'flowers would be sad' or 'nothing would happen' with no scientific reasoning."
+      }
+    },
+    {
+      "questionText": "Why do you think flowers are colorful and smell sweet?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that colorful petals and sweet smells are adaptations that attract pollinators, and identifies that this helps flowers reproduce by getting bees (or other pollinators) to visit them.",
+        "meets": "Student states that flowers are colorful and sweet-smelling to attract bees or other insects, connecting these features to pollinator visits.",
+        "approaching": "Student recognizes that colors and smells attract bees but provides incomplete reasoning, such as 'flowers are pretty for bees' without connecting to pollination or reproduction.",
+        "beginning": "Student provides a minimal response like 'flowers are colorful because they are' or 'bees like them' without explanation of purpose."
+      }
+    },
+    {
+      "questionText": "How do both the bee and the flower benefit from this relationship? Explain your thinking.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly identifies that the bee gets nectar or food for energy and the flower gets pollinated to reproduce, demonstrating understanding of mutualism as a reciprocal relationship where both organisms gain something they need.",
+        "meets": "Student identifies at least two benefits: the bee gets food or nectar, and the flower gets help reproducing or making seeds through pollination.",
+        "approaching": "Student identifies one clear benefit (such as bee gets food OR flower gets pollinated) but provides incomplete information about the reciprocal nature of the relationship.",
+        "beginning": "Student states that the bee and flower help each other but provides vague or inaccurate details about what each organism receives."
+      }
+    },
+    {
+      "questionText": "If you were a flower, what would you do to attract a pollinator to visit you?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple adaptations based on the photo or lesson, such as using bright colors, producing sweet nectar, or having specific flower shapes, and explains why each feature would attract pollinators.",
+        "meets": "Student suggests at least two realistic adaptations, such as being colorful, having a sweet smell, or producing nectar, to attract pollinators.",
+        "approaching": "Student suggests one adaptation idea (like being colorful or smelling good) with limited explanation of why it would attract pollinators.",
+        "beginning": "Student provides a vague idea like 'look pretty' or 'smell nice' without connecting the feature to attracting specific pollinators."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:39:49.016Z",
+  "cost": 0.004944
+}

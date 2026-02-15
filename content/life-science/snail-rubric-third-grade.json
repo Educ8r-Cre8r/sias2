@@ -1,0 +1,53 @@
+{
+  "title": "Snail",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the snail is moving toward the lichen? What might it be doing there?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly infers that the snail is eating or looking for food, specifically mentions lichen as food, and explains why snails might be attracted to it (nutrients, moisture, or growth on rocks/walls).",
+        "meets": "Student correctly identifies that the snail is eating or feeding and mentions lichen as a food source without additional reasoning.",
+        "approaching": "Student suggests the snail is moving toward the lichen but provides incomplete reasoning, such as saying it's eating without explaining why or what lichen is.",
+        "beginning": "Student provides a vague response (snail is 'going there' or 'doing something') with little connection to feeding or food."
+      }
+    },
+    {
+      "questionText": "How does a snail's shell help it survive in nature? What would happen if a snail didn't have a shell?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the shell provides protection from predators and harsh weather, describes what might happen without it (snail would be eaten, dry out, or be easily harmed), and uses survival-related vocabulary appropriately.",
+        "meets": "Student identifies that the shell protects the snail and predicts a reasonable consequence of not having one (being eaten or getting hurt).",
+        "approaching": "Student recognizes the shell has a protective function but explanation is incomplete or missing prediction about life without a shell.",
+        "beginning": "Student makes a vague statement about the shell ('it's hard' or 'it helps') with minimal connection to survival or protection."
+      }
+    },
+    {
+      "questionText": "What body parts does the snail have, and what job does each one do?",
+      "bloomsLevel": "Describe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least four body parts (shell, soft body, tentacles/eyestalks, mouth or foot) and correctly explains the function of each with accurate details.",
+        "meets": "Student identifies at least three body parts (shell, soft body, tentacles) and describes accurate functions for most of them.",
+        "approaching": "Student names at least two body parts and attempts to describe their functions, but descriptions may be incomplete or partially inaccurate.",
+        "beginning": "Student names one body part or provides only vague descriptions of what snail parts do without clear connection between body parts and their functions."
+      }
+    },
+    {
+      "questionText": "If you were a bird hunting for food, would you want to eat a snail with a hard shell or without one? Why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student chooses the snail without a shell and provides a detailed explanation that considers multiple factors, such as difficulty breaking a hard shell, effort required to eat, or bird safety (shells can harm the bird).",
+        "meets": "Student chooses the snail without a shell and explains it would be easier to eat because the hard shell is difficult to break or the soft snail is more accessible.",
+        "approaching": "Student makes a choice but reasoning is incomplete or somewhat unclear, such as saying one is 'harder' without fully explaining the difficulty.",
+        "beginning": "Student makes a choice with minimal or unclear reasoning that doesn't clearly connect to predator-prey survival concepts."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:38:52.460Z",
+  "cost": 0.005021
+}

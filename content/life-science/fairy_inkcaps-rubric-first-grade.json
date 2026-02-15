@@ -1,0 +1,53 @@
+{
+  "title": "Fairy Inkcaps",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the mushroom is doing to the wood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms break down or eat the dead wood, making it turn into soil or smaller pieces, and may describe this as rotting or decomposing with specific language.",
+        "meets": "Student correctly identifies that the mushroom is breaking down, rotting, or helping the wood disappear, with a simple but accurate explanation.",
+        "approaching": "Student recognizes that the mushroom is doing something to the wood (changing it, breaking it, making it softer) but the explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal response that shows little understanding, such as 'it's growing' without connecting it to the wood's change."
+      }
+    },
+    {
+      "questionText": "Why do you think mushrooms grow in wet places rather than dry places?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms need water or moisture to grow, and may describe how wet environments help them get what they need or break down wood better.",
+        "meets": "Student correctly states that mushrooms need water, wetness, or moisture to grow, with a straightforward reasoning.",
+        "approaching": "Student acknowledges that wet places are important for mushroom growth but gives an unclear or partially correct reason (e.g., 'they like it wet' without explaining why).",
+        "beginning": "Student gives a response that shows minimal understanding, such as guessing or stating an unrelated reason."
+      }
+    },
+    {
+      "questionText": "If all the mushrooms disappeared from a forest, what might happen to the dead branches and leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that dead wood and leaves would pile up, not turn into soil, or decompose much more slowly, recognizing mushrooms' role in the forest ecosystem.",
+        "meets": "Student correctly predicts that dead leaves and branches would not break down as quickly or would pile up without mushrooms.",
+        "approaching": "Student recognizes that something bad would happen to the forest without mushrooms but gives an unclear or partially correct explanation.",
+        "beginning": "Student provides a minimal or inaccurate response that shows little understanding of mushrooms' role in nature."
+      }
+    },
+    {
+      "questionText": "Where have YOU seen mushrooms grow, and what was it like around them?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes a specific location where they saw mushrooms and provides multiple details about the surroundings, such as the weather, what the wood or ground looked like, and whether it was wet or shaded.",
+        "meets": "Student shares a specific place where they saw mushrooms and describes at least one detail about the conditions around them (wet, dark, near dead wood, etc.).",
+        "approaching": "Student mentions a location or general setting but provides few or vague details about the surroundings.",
+        "beginning": "Student gives a minimal response, such as naming only a place without describing it, or stating 'I don't know.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:13:22.280Z",
+  "cost": 0.004689
+}

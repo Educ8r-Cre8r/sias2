@@ -1,0 +1,53 @@
+{
+  "title": "Fairy Inkcaps",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think mushrooms only grow on dead wood and not on living trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that living trees have defenses (like bark or sap) that protect them, while dead wood is easier for fungi to break down; may mention that fungi need already-decomposing material to feed on.",
+        "meets": "Student identifies that dead wood is easier for mushrooms to break down than living wood, or notes that living trees are protected in some way.",
+        "approaching": "Student recognizes a difference between dead and living wood but provides incomplete reasoning, such as saying mushrooms \"like dead wood\" without explaining why.",
+        "beginning": "Student provides minimal or vague response, such as \"mushrooms just grow on dead stuff\" with no explanation of why."
+      }
+    },
+    {
+      "questionText": "What do you think happens to the nutrients in the wood after the mushroom breaks it down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that nutrients are released back into the soil where plants can use them, or describes how decomposition returns nutrients to the ecosystem for new growth.",
+        "meets": "Student states that nutrients go into the soil or that they help new plants grow, showing understanding of nutrient cycling.",
+        "approaching": "Student recognizes that something happens to nutrients after breakdown but provides incomplete details, such as \"nutrients go somewhere\" without explaining where or why.",
+        "beginning": "Student provides a vague or inaccurate response, such as \"the mushroom keeps them\" or \"they disappear.\""
+      }
+    },
+    {
+      "questionText": "How are fungi different from plants, even though they grow from the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences, such as fungi break down dead material for food (while plants make their own food), don't have chlorophyll/aren't green, or don't use sunlight to grow.",
+        "meets": "Student identifies at least one clear difference between fungi and plants, such as how they get food or that they don't need sunlight.",
+        "approaching": "Student recognizes fungi are different but provides incomplete reasoning, such as \"fungi are not plants\" without explaining specific differences.",
+        "beginning": "Student provides minimal or inaccurate response, such as \"mushrooms are weird\" or \"they look different\" with no scientific reasoning."
+      }
+    },
+    {
+      "questionText": "If there were no fungi in the forest, what problems might happen to plants and animals?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences, such as dead wood would pile up (no decomposition), nutrients wouldn't return to soil, plants wouldn't grow as well, and animals would lose food or habitat.",
+        "meets": "Student identifies at least one consequence, such as dead wood would pile up, nutrients wouldn't be available for plants, or some animals wouldn't have food.",
+        "approaching": "Student recognizes problems would occur but provides incomplete reasoning, such as \"things wouldn't grow\" without explaining why or how.",
+        "beginning": "Student provides a vague response, such as \"things would be bad\" or \"plants would die\" without explaining the connection to fungi's role."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:13:46.486Z",
+  "cost": 0.004841
+}

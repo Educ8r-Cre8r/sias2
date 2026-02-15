@@ -1,0 +1,53 @@
+{
+  "title": "Genetic Mutation",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this flower looks different from the other flowers in the garden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (more petals, fuller center, brighter color) and uses words like 'change' or 'different' to explain that flowers can grow in different ways; may mention that plants sometimes grow differently from their family members.",
+        "meets": "Student identifies at least one clear difference (such as more petals or fuller center) and provides a reasonable explanation that this flower grew differently or changed in some way.",
+        "approaching": "Student notices the flower looks different but provides vague or incomplete reasoning; may say 'it just does' or mention only appearance without explaining why it might be different.",
+        "beginning": "Student recognizes the flower is different but cannot explain why, or provides an inaccurate response unrelated to plant growth or natural differences."
+      }
+    },
+    {
+      "questionText": "If you planted a seed from this special flower, what do you think the new plant might look like?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the new plant could look like either the special flower or regular flowers and explains that sometimes special traits pass down to babies while other times they don't; shows understanding that seeds grow into new plants.",
+        "meets": "Student makes a reasonable prediction that the new plant might look similar to the special flower or different from it, with a simple explanation of why.",
+        "approaching": "Student makes a prediction about what the new plant might look like but reasoning is unclear or only partially connected to how seeds grow into plants.",
+        "beginning": "Student makes a vague prediction or one unrelated to seeds, plants, or growth; shows minimal understanding of how new plants come from seeds."
+      }
+    },
+    {
+      "questionText": "How is this pink flower the same as other flowers you've seen, and how is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (has petals, center part, green leaves, needs sun) and multiple differences (more petals, fuller center, specific color shades) using descriptive words and showing clear comparison.",
+        "meets": "Student identifies at least one similarity and one difference between this flower and others, using specific details like petals, color, or shape.",
+        "approaching": "Student identifies either similarities or differences but not both, or provides limited detail; reasoning may be incomplete or vague.",
+        "beginning": "Student attempts comparison but provides mostly inaccurate details or cannot identify clear similarities or differences; shows minimal observational understanding."
+      }
+    },
+    {
+      "questionText": "What do you think the yellow bumpy part in the middle of the flower does?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the middle part (stamens) helps make seeds or helps baby plants grow; may mention pollen, bees, or that it is important for the flower to make more flowers.",
+        "meets": "Student identifies that the yellow middle part does something important for the flower, such as making seeds or helping new flowers grow, with a reasonable explanation.",
+        "approaching": "Student recognizes the middle part has a purpose but explanation is unclear, incomplete, or only partially accurate; may confuse its function with other flower parts.",
+        "beginning": "Student provides a vague guess about the function or an inaccurate response; shows little understanding of flower part functions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:05:20.003Z",
+  "cost": 0.005038
+}

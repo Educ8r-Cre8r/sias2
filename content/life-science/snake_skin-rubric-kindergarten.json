@@ -1,0 +1,53 @@
+{
+  "title": "Snake Skin",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this snake needs to live in this pile of leaves?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple basic needs (food, water, shelter, warmth) and explains why the leaf pile provides at least two of these for the snake.",
+        "meets": "Student identifies at least two things a snake needs to live, such as food, shelter, or a place to hide.",
+        "approaching": "Student identifies one thing a snake needs to live, such as food or a hiding place, but explanation is vague or incomplete.",
+        "beginning": "Student provides a response that shows minimal understanding, such as naming only one basic need without connection to the leaf pile, or responds with unrelated information."
+      }
+    },
+    {
+      "questionText": "Why do you think the snake's brown color helps it stay safe in this place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the snake's brown color matches (blends in with) the brown and tan leaves, using the word 'camouflage' or 'blend in,' and describes how this helps the snake hide from other animals.",
+        "meets": "Student explains that the brown color helps the snake hide or blend in with the brown leaves and dirt on the forest floor.",
+        "approaching": "Student recognizes that the snake's color is similar to the leaves or mentions hiding, but the connection between color and safety is unclear or incomplete.",
+        "beginning": "Student provides a response with little connection to camouflage or protection, such as simply stating the snake is brown or the leaves are brown without explaining how this helps."
+      }
+    },
+    {
+      "questionText": "How is a snake's skin different from your skin?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences, such as snakes having scales, being dry/smooth, or not having fur, and compares to human skin being soft, having pores, or being covered with hair.",
+        "meets": "Student identifies at least one clear difference between snake skin and human skin, such as snakes having scales or their skin looking bumpy.",
+        "approaching": "Student attempts to describe a difference but the explanation is unclear or partially inaccurate, such as saying the snake's skin 'looks weird' without specific details.",
+        "beginning": "Student provides a minimal response with little accuracy, such as stating the snake is 'different' without describing what is actually different about its skin."
+      }
+    },
+    {
+      "questionText": "What animals do you think live in the same pile of leaves as this snake?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple animals that realistically live in leaf piles (such as insects, worms, beetles, spiders, small mammals) and explains why they might live there together.",
+        "meets": "Student names at least two animals that could live in a leaf pile, such as bugs, worms, or small creatures.",
+        "approaching": "Student names one animal that could live in a leaf pile, but with limited reasoning, or names animals with questionable accuracy to the habitat.",
+        "beginning": "Student provides minimal or unrealistic animals (such as lions or whales) with no connection to leaf pile habitats, or responds with vague information."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:37:41.079Z",
+  "cost": 0.004856
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Dawn",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions do you think need to be present for fog to form over this field?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific conditions for fog formation (cool temperatures, water vapor, calm air) and explains how these conditions interact together to create fog.",
+        "meets": "Student identifies at least two conditions needed for fog to form, such as cool air and water vapor or moisture in the air.",
+        "approaching": "Student mentions one condition for fog formation (such as cold or wet) but explanation lacks detail or scientific accuracy.",
+        "beginning": "Student provides a vague or inaccurate response about fog formation, such as \"it's cloudy\" or \"it's wet,\" showing minimal understanding of the conditions required."
+      }
+    },
+    {
+      "questionText": "How might this fog affect the plants growing in the field, and is it helpful or harmful?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies both helpful effects (moisture for plants, protection from frost) and potentially harmful effects (reduced sunlight, disease risk) and provides a reasoned conclusion about overall impact.",
+        "meets": "Student identifies at least one way fog affects plants and correctly determines whether it is helpful or harmful with a reasonable explanation.",
+        "approaching": "Student recognizes that fog affects plants but provides an incomplete or partially inaccurate explanation of the effects or struggles to determine if it is helpful or harmful.",
+        "beginning": "Student provides a minimal response with little evidence of understanding how fog impacts plants, such as a one-word answer or completely inaccurate statement."
+      }
+    },
+    {
+      "questionText": "If you were a farmer, how would you predict when fog might form over your crops?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a practical prediction strategy using multiple weather indicators (temperature drop, humidity levels, time of day, season) that a farmer could actually use.",
+        "meets": "Student suggests a reasonable prediction method, such as watching temperature changes or observing weather patterns at certain times of day.",
+        "approaching": "Student attempts to describe a prediction method but it is vague or only partially logical, such as mentioning time of year without connecting it to weather conditions.",
+        "beginning": "Student provides minimal or unclear prediction strategies that show little practical understanding, such as \"guess\" or \"look outside.\""
+      }
+    },
+    {
+      "questionText": "What would happen to this fog as the sun rises higher in the sky?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the fog will evaporate or disappear because the sun's warmth heats the water droplets and turns them into water vapor, with clear cause-and-effect reasoning.",
+        "meets": "Student correctly states that the fog will disappear or evaporate as the sun rises and provides a basic explanation involving heat or warmth from the sun.",
+        "approaching": "Student recognizes that fog will change as the sun rises but provides an incomplete or partially inaccurate explanation of the process.",
+        "beginning": "Student provides a minimal or inaccurate response, such as \"it goes away\" without explanation or an incorrect statement about what happens to fog."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:30:37.884Z",
+  "cost": 0.004761
+}

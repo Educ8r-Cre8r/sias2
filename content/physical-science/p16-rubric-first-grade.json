@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What words can you use to describe how these foods look different?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student uses multiple descriptive words (such as bumpy, smooth, round, flat, orange, white) and explains how at least two foods look different from each other.",
+        "meets": "Student uses at least two descriptive words to tell how the foods look different, such as color or shape.",
+        "approaching": "Student uses one descriptive word or provides a vague description like 'different' without specific details about appearance.",
+        "beginning": "Student makes minimal attempt to describe the foods or uses words that do not relate to how they look."
+      }
+    },
+    {
+      "questionText": "How could you sort these food pieces into groups?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes sorting by multiple attributes (such as color AND shape, or texture AND color) and explains the reasoning for at least one sorting method.",
+        "meets": "Student suggests one clear way to sort the foods, such as by color or shape, and shows understanding that items can be organized into groups.",
+        "approaching": "Student attempts to suggest a sorting method but the explanation is unclear or incomplete, such as mentioning groups without a clear sorting rule.",
+        "beginning": "Student's response does not describe a clear sorting method or shows minimal understanding of grouping items."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if you touched each piece?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts what touching would feel like and connects predictions to visible properties (such as 'the bumpy one would feel rough' or 'the smooth one would feel slippery').",
+        "meets": "Student makes reasonable predictions about how each food piece would feel, such as soft, hard, bumpy, or smooth.",
+        "approaching": "Student makes a prediction about touching the foods but it is vague or only applies to one piece without connecting to what they observe.",
+        "beginning": "Student's prediction is unclear, unrelated to the foods shown, or shows little effort to think about the question."
+      }
+    },
+    {
+      "questionText": "Which senses could help you learn more about these materials?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least three senses (such as touch, taste, sight, or smell) and explains what each sense could help you learn about the food pieces.",
+        "meets": "Student identifies at least two senses that could be used to learn about the foods and shows understanding that different senses provide different information.",
+        "approaching": "Student identifies one or two senses but the explanation of how they would help is incomplete or unclear.",
+        "beginning": "Student mentions a sense with no explanation, or the response shows minimal understanding of how senses help us learn about materials."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:03:07.372Z",
+  "cost": 0.00435
+}

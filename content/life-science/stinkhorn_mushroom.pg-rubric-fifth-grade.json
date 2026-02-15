@@ -1,0 +1,53 @@
+{
+  "title": "Stinkhorn Mushroom",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the stinkhorn mushroom evolved to smell bad instead of good like flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bad smell attracts flies and insects that eat decaying matter (rather than pollinators), and connects this to the mushroom's role as a decomposer that needs different insects than flowers need.",
+        "meets": "Student recognizes that the bad smell attracts flies or insects that help spread spores, and understands this is different from how flowers attract pollinators.",
+        "approaching": "Student identifies that the smell attracts insects or mentions that the mushroom needs insects to spread spores, but the explanation is incomplete or lacks clear reasoning.",
+        "beginning": "Student provides a vague answer such as 'it smells bad to attract bugs' or 'because that's how mushrooms are' without explaining the connection to spore spreading or decomposition."
+      }
+    },
+    {
+      "questionText": "What might happen to a forest ecosystem if all the decomposer fungi suddenly disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that dead plants and animals would accumulate, nutrients would not return to soil, and plants could not grow well; may mention that the food chain would be disrupted without decomposers returning energy and materials to the ecosystem.",
+        "meets": "Student describes that dead material would not break down or that nutrients would not be recycled, and recognizes this would harm plants or other organisms in the forest.",
+        "approaching": "Student mentions that 'bad things would happen' to the forest or that dead stuff would pile up, but reasoning about ecosystem effects is unclear or incomplete.",
+        "beginning": "Student provides a minimal response such as 'the forest would be dirty' or 'things would die' without explaining the role of decomposers."
+      }
+    },
+    {
+      "questionText": "How is the way this mushroom spreads its spores similar to and different from how flowering plants spread their seeds?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly identifies that both use insects to spread reproductive material (similarity) but explains that mushrooms use smell to attract scavenging insects while flowers use color/nectar to attract pollinators, and that spores are different from seeds.",
+        "meets": "Student identifies at least one similarity (both use insects) and one difference (mushrooms use smell; flowers use color/scent, or spores versus seeds).",
+        "approaching": "Student attempts to compare but provides only one similarity or one difference, or explanations lack clarity about why insects are attracted differently.",
+        "beginning": "Student makes a basic statement like 'they both use insects' or 'they're different' without elaborating on similarities or differences."
+      }
+    },
+    {
+      "questionText": "What evidence from the photo supports the idea that this organism is adapted to attract insects?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple visual adaptations from the photo (bright orange color, slimy dark coating, unusual shape) and explains how each feature likely attracts or helps insects interact with the mushroom for spore dispersal.",
+        "meets": "Student identifies at least two features visible in the photo (such as bright color, slimy coating, or unusual appearance) that likely attract insects.",
+        "approaching": "Student identifies one feature from the photo such as the color or slime, but the connection to insect attraction is weak or incomplete.",
+        "beginning": "Student makes a vague observation like 'it looks weird' or 'it has color' without explaining how these features attract insects."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:32:14.266Z",
+  "cost": 0.00526
+}

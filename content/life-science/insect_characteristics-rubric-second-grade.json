@@ -1,0 +1,53 @@
+{
+  "title": "Insect Characteristics",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the grasshopper's back legs compared to its front legs? Why do you think they are different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student accurately describes that back legs are larger/longer and explains a specific reason (jumping, pushing off ground) with a clear connection to how the grasshopper uses them for movement or survival.",
+        "meets": "Student describes that back legs are bigger or longer and provides a reasonable explanation for why they are different, such as for jumping or moving.",
+        "approaching": "Student notices the legs are different sizes but explanation is incomplete or vague (e.g., 'because they are' or mentions one feature without explaining purpose).",
+        "beginning": "Student makes minimal observation about leg differences or provides an inaccurate/unclear response with little attempt to explain why."
+      }
+    },
+    {
+      "questionText": "How do you think the grasshopper's long antennae help it find food or stay safe?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that antennae sense the environment (smell, touch, or feel vibrations) and connects this to specific ways it helps find food or detect danger with accurate reasoning.",
+        "meets": "Student explains that antennae help the grasshopper sense or feel things around it to find food or stay away from danger.",
+        "approaching": "Student acknowledges antennae have a purpose but explanation lacks detail or clarity (e.g., 'they help it' without explaining how).",
+        "beginning": "Student provides vague or minimal response that shows limited understanding of antenna function (e.g., 'they are long' with no explanation of purpose)."
+      }
+    },
+    {
+      "questionText": "If you look at other insects like ants or beetles, do you think they will have the same three body parts as this grasshopper? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly predicts that all insects have three body parts (head, thorax, abdomen) and provides reasoning that most insects share this basic structure as a characteristic of the insect group.",
+        "meets": "Student predicts that other insects will have the same three body parts and provides a reasonable explanation related to insects being similar or having a common body plan.",
+        "approaching": "Student makes a prediction about body parts but reasoning is incomplete or shows uncertainty about whether all insects share this feature.",
+        "beginning": "Student makes a prediction or statement about other insects' body parts with little or no explanation, or response shows significant misunderstanding."
+      }
+    },
+    {
+      "questionText": "How does the grasshopper's green color help it survive in a garden or field?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green color provides camouflage by blending in with leaves and plants, helping the grasshopper hide from predators or stay hidden while finding food.",
+        "meets": "Student explains that the green color helps the grasshopper blend in with plants or hide, making it harder for predators to see.",
+        "approaching": "Student recognizes that green color is helpful but explanation lacks specific detail (e.g., 'it helps hide' without mentioning plants or blending in).",
+        "beginning": "Student provides a minimal response that shows limited understanding of camouflage or survival (e.g., 'it's green like plants' with no connection to how this helps)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:16:46.985Z",
+  "cost": 0.005118
+}

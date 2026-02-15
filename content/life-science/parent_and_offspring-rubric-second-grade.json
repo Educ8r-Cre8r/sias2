@@ -1,0 +1,53 @@
+{
+  "title": "Parent And Offspring",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the baby bird needs from its parent to grow big and strong?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs (food/feeding, protection, warmth, teaching) with specific details about why each helps the bird grow, showing understanding of parent care beyond basic feeding.",
+        "meets": "Student identifies that the baby bird needs food and mentions at least one other need (like protection or warmth) with a simple explanation of how it helps.",
+        "approaching": "Student identifies that the baby bird needs food, but explanation is vague or mentions only feeding without connecting to growth.",
+        "beginning": "Student gives a minimal response mentioning food or parent help, but with little detail or unclear reasoning."
+      }
+    },
+    {
+      "questionText": "How are the two birds in this photo the same, and how are they different? Why do you think they look different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (same species, body shape, features) and differences (size, feather color/pattern, beak size), and explains that differences are due to the baby being younger and still growing.",
+        "meets": "Student identifies at least two similarities and two differences (such as size difference and age-related features), with a basic explanation that the baby is smaller because it is younger.",
+        "approaching": "Student identifies some similarities or differences, but explanation is incomplete or shows limited understanding of why the baby looks different (e.g., only notes size without reasoning).",
+        "beginning": "Student provides vague observations with minimal similarities or differences identified, and little to no explanation for the differences."
+      }
+    },
+    {
+      "questionText": "If this baby bird didn't have its parent to feed it, what might happen to it? Why is that?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the baby would not get food and would become weak, sick, or might not survive, with specific reasoning about how food provides energy and nutrients needed for life and growth.",
+        "meets": "Student explains that without food from the parent, the baby bird would get hungry, become weak, or could die, showing understanding that food is necessary for survival.",
+        "approaching": "Student suggests the baby bird would have a problem (hungry, sick, or die) but explanation lacks clarity about why food is essential or connection to survival.",
+        "beginning": "Student gives a minimal response about something bad happening, but reasoning is unclear or inaccurate."
+      }
+    },
+    {
+      "questionText": "What other baby animals do you know that need help from their parents? How is taking care of a baby bird similar to taking care of a baby puppy or a baby human?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple baby animals and explains 3+ ways that parent care is similar across species (feeding, protection, warmth, teaching), showing understanding that many babies depend on parents for survival.",
+        "meets": "Student names at least 2 baby animals and identifies 2 ways that parent care is similar (such as feeding and protection), with reasonable explanations.",
+        "approaching": "Student names 1-2 baby animals and identifies 1 similarity in parent care, but explanation may be incomplete or lack depth.",
+        "beginning": "Student names a baby animal or mentions one similarity, but response is vague or shows limited understanding of parent care needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:37:44.684Z",
+  "cost": 0.005032
+}

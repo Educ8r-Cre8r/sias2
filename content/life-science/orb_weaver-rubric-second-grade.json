@@ -1,0 +1,53 @@
+{
+  "title": "Orb Weaver",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the spider uses its web for, and why does it need to catch insects?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that spiders use webs to catch insects for food and describes why spiders need food (to grow, have energy, or stay alive), using accurate biological vocabulary.",
+        "meets": "Student correctly states that spiders use webs to catch insects for food and gives a simple reason why spiders need to eat insects.",
+        "approaching": "Student identifies that webs catch insects or that spiders eat them, but explanation is incomplete or shows partial understanding of the purpose.",
+        "beginning": "Student provides a minimal response such as 'the spider eats bugs' or 'it catches things' with little explanation of why."
+      }
+    },
+    {
+      "questionText": "How are spider legs helpful to spiders when they are building and sitting on their webs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple ways spider legs help (such as holding onto the web, moving across it without getting stuck, building the web, or feeling vibrations) and explains why each ability is useful.",
+        "meets": "Student identifies at least two ways spider legs are helpful, such as holding on to the web or walking across it to catch insects.",
+        "approaching": "Student mentions one way spider legs are helpful (such as 'walking on the web' or 'holding on') but lacks detail or doesn't fully explain how it helps.",
+        "beginning": "Student makes a vague statement about spider legs like 'spiders use legs' without explaining how they help with webs."
+      }
+    },
+    {
+      "questionText": "If a spider didn't have the ability to make silk, how might its life be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple consequences of not making silk, such as inability to catch food, difficulty protecting eggs, or need for a different hunting method, and explains how these changes would affect the spider's survival.",
+        "meets": "Student identifies at least two ways a spider's life would change without silk, such as not being able to catch insects or build a web.",
+        "approaching": "Student identifies one consequence of not making silk (such as 'can't catch insects') but explanation is incomplete or partially accurate.",
+        "beginning": "Student provides a minimal response such as 'the spider couldn't make a web' without explaining what would happen because of this."
+      }
+    },
+    {
+      "questionText": "What other animals might use tools or build things to help them find food, just like spiders use webs?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals and explains how their tools or structures help them catch or find food (examples: birds building nests, beavers building dams, bees making hives), drawing clear connections to how spiders use webs.",
+        "meets": "Student names at least two animals that build or use things to help find food and briefly explains how each does this.",
+        "approaching": "Student names one or two animals that build things, but explanation of how it helps them find food is vague or incomplete.",
+        "beginning": "Student names an animal but does not explain how it uses tools or builds things, or response shows limited understanding of the connection to finding food."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:50:53.823Z",
+  "cost": 0.004931
+}

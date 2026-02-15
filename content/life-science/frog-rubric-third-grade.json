@@ -1,0 +1,53 @@
+{
+  "title": "Frog",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What specific body parts help this frog survive in trees, and how does each part help?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three body parts (toes, skin, eyes) and explains how each helps the frog survive in trees with specific details, such as toes for gripping branches or eyes for seeing predators.",
+        "meets": "Student identifies at least two body parts and explains how each helps the frog survive in its tree habitat with accurate, simple descriptions.",
+        "approaching": "Student identifies one or two body parts and attempts to explain how they help, but the explanation is incomplete or lacks specific details about survival.",
+        "beginning": "Student names a body part but provides little to no explanation of how it helps the frog survive in trees, or response is mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "If this green frog lived in a desert instead of a forest, what adaptations might help it survive better?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple realistic adaptations (darker color for heat protection, water-storing skin, different body shape) and explains why each would help survival in a dry environment compared to its current forest habitat.",
+        "meets": "Student describes at least two plausible adaptations (such as different coloring or skin changes) and explains why they would help the frog survive in a desert.",
+        "approaching": "Student suggests one adaptation or gives a general description of changes without clear explanation of how they would help survival in a desert.",
+        "beginning": "Student provides a vague or unrealistic adaptation suggestion with little reasoning about desert survival, or shows minimal understanding of habitat differences."
+      }
+    },
+    {
+      "questionText": "How might this frog's life be different during the day compared to at night?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences in daily/nightly behaviors (such as hunting, resting, hiding, or activity levels) with specific details about why frogs behave this way in different light conditions.",
+        "meets": "Student identifies at least two differences in daytime versus nighttime behavior with reasonable explanations based on light and frog activity patterns.",
+        "approaching": "Student identifies one difference in daytime versus nighttime, but the explanation is unclear or partially accurate.",
+        "beginning": "Student provides a vague response about day and night differences, or shows minimal understanding of how frogs' lives change based on light."
+      }
+    },
+    {
+      "questionText": "What evidence from the photo shows this frog is well-adapted to its habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of visual evidence (green color for camouflage, toes for gripping, large eyes for seeing, smooth skin for moisture) and explains how each shows adaptation to a forest tree habitat.",
+        "meets": "Student identifies at least two observable features from the photo and explains how each shows the frog is adapted to living in trees and forests.",
+        "approaching": "Student identifies one or two features but the connection to habitat adaptation is unclear or only partially explained.",
+        "beginning": "Student names a feature seen in the photo but provides little or no explanation of how it shows adaptation to the frog's habitat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:32:43.228Z",
+  "cost": 0.004846
+}

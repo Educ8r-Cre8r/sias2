@@ -1,0 +1,53 @@
+{
+  "title": "Spider Web",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you see in this picture? What does the web look like to you?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the web and describes multiple specific details (such as water droplets, sparkles, round pattern, or connection to leaves) using clear, descriptive language.",
+        "meets": "Student identifies the web and describes at least two features, such as its round shape, the droplets on it, or what it is connected to.",
+        "approaching": "Student identifies the web or describes one simple feature, but the description is incomplete or vague (such as 'it's shiny' or 'it's in nature').",
+        "beginning": "Student makes a minimal attempt to describe what is shown, such as naming only 'a web' with no additional details."
+      }
+    },
+    {
+      "questionText": "Why do you think the spider made this web? What could it be used for?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the web catches bugs for food and describes how the web's sticky or round design helps trap insects, demonstrating understanding of the web's purpose.",
+        "meets": "Student correctly states that the spider made the web to catch food or bugs, showing basic understanding of the web's function.",
+        "approaching": "Student suggests a function for the web (like catching things) but the explanation is incomplete or shows partial understanding of why spiders build webs.",
+        "beginning": "Student provides an inaccurate guess or vague response that shows little understanding of the web's purpose, such as 'the spider likes it.'"
+      }
+    },
+    {
+      "questionText": "How is a spider web like other things you know about? What is it similar to?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes thoughtful comparisons (such as to a net, a fence, a fence, or a pattern like circles) and explains a similarity in detail, such as 'It's like a net because both catch things.'",
+        "meets": "Student identifies a reasonable comparison to something familiar (such as a net, a fence, a dreamcatcher, or a pattern) and briefly explains the similarity.",
+        "approaching": "Student names something the web is similar to but provides weak or unclear reasoning for the comparison.",
+        "beginning": "Student attempts a comparison but it is unclear, incorrect, or lacks any explanation of similarity."
+      }
+    },
+    {
+      "questionText": "If you were a tiny bug flying through the air, what would happen if you touched this sticky web? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bug would get stuck because the web is sticky, and connects this to the spider's purpose of catching food, showing clear cause-and-effect understanding.",
+        "meets": "Student correctly explains that the bug would get stuck or trapped because the web is sticky.",
+        "approaching": "Student states that something would happen to the bug, but the explanation of stickiness or being trapped is incomplete or unclear.",
+        "beginning": "Student provides a minimal or inaccurate response with little evidence of understanding that the web's stickiness affects what touches it."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:58:32.869Z",
+  "cost": 0.004761
+}

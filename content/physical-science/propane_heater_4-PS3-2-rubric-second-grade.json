@@ -1,0 +1,53 @@
+{
+  "title": "Propane Heater",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside the heater to make the metal turn red and glow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that fire or burning fuel creates heat energy that travels through the metal, making it hot enough to glow red, and may mention that the blue flame is the fuel burning.",
+        "meets": "Student describes that heat from inside the heater makes the metal turn red and glow, showing understanding of heat transfer.",
+        "approaching": "Student identifies that the heater makes the metal hot and red, but provides incomplete or vague explanation of how heat causes the glow.",
+        "beginning": "Student gives a minimal response such as 'it gets hot' or 'the fire makes it red' without explaining the connection between heat and glowing."
+      }
+    },
+    {
+      "questionText": "If we turned off the heater right now, predict what would happen to the red glow. Why do you think that would happen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the red glow would disappear and explains that without heat from the flame, the metal would cool down and no longer be hot enough to glow, showing understanding of cause and effect.",
+        "meets": "Student predicts the glow would go away and provides a reasonable explanation that the metal cools down when the heater turns off.",
+        "approaching": "Student predicts the glow would disappear but gives an incomplete explanation, such as 'it cools down' without connecting it to why cooling stops the glow.",
+        "beginning": "Student makes a prediction about the glow but provides no explanation, or gives an inaccurate prediction."
+      }
+    },
+    {
+      "questionText": "How is this heater similar to other things that make light and heat, like a light bulb or a campfire? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that all three produce both light and heat through energy, and describes specific differences such as the heater using propane fuel while a campfire uses wood, or a light bulb using electricity.",
+        "meets": "Student identifies that all three make light and heat, and notes at least one difference such as different fuel sources or how they create heat.",
+        "approaching": "Student identifies one similarity (light or heat) and attempts to describe differences, but reasoning is incomplete or partially inaccurate.",
+        "beginning": "Student provides minimal comparison, such as naming one similarity or difference without clear explanation."
+      }
+    },
+    {
+      "questionText": "What would happen if we touched the red metal? Is it safe? Why or why not?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that touching the red metal would cause a burn because it is very hot, demonstrates understanding that extreme heat is dangerous, and may mention that we should never touch it without protection.",
+        "meets": "Student correctly states that touching the red metal would hurt because it is very hot and not safe.",
+        "approaching": "Student indicates that touching would be dangerous or hurt, but provides unclear or incomplete reasoning about temperature and heat.",
+        "beginning": "Student provides a minimal response such as 'it's not safe' or 'it would hurt' without explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:43:22.503Z",
+  "cost": 0.004885
+}

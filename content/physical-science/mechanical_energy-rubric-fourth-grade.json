@@ -1,0 +1,53 @@
+{
+  "title": "Mechanical Energy",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What problem is the pulley system solving in this picture?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the pulley system solves the problem of lifting a heavy object high into the air safely and efficiently, and explains how it makes the task possible that would be difficult or impossible by hand.",
+        "meets": "Student correctly identifies that the pulley system helps lift the heavy sphere up into the air, demonstrating understanding of the basic purpose.",
+        "approaching": "Student recognizes that the pulley system is used for lifting, but provides limited detail or shows incomplete understanding of why this is necessary.",
+        "beginning": "Student gives a vague response such as 'it lifts things' with little evidence of understanding the specific problem being solved."
+      }
+    },
+    {
+      "questionText": "Why do you think the worker uses a pulley instead of trying to lift the sphere by hand?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sphere is too heavy for the worker to lift alone and describes how the pulley system provides mechanical advantage by distributing the weight or changing the direction of the force needed.",
+        "meets": "Student correctly explains that the sphere is too heavy to lift by hand and that the pulley helps make lifting it easier, showing understanding of mechanical advantage.",
+        "approaching": "Student recognizes that the sphere is heavy and that a pulley helps, but provides incomplete explanation of how or why the pulley makes the job easier.",
+        "beginning": "Student provides a minimal response such as 'the pulley is stronger' without clear reasoning connecting to weight or force."
+      }
+    },
+    {
+      "questionText": "If the sphere is very heavy, how does the pulley make the job easier for the worker?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that pulleys change the direction of force and/or distribute weight to reduce the force needed, using grade-appropriate vocabulary such as 'mechanical advantage' or 'reduces the amount of force.'",
+        "meets": "Student explains that the pulley helps reduce the effort needed or makes the work easier, such as by sharing the load or changing how the force is applied.",
+        "approaching": "Student attempts to explain how pulleys help but uses vague language or provides an incomplete explanation of the reduction in effort required.",
+        "beginning": "Student gives a brief or unclear response that shows minimal understanding of how pulleys reduce the effort needed to lift heavy objects."
+      }
+    },
+    {
+      "questionText": "What would happen if the rope broke while the sphere was being lifted? Use what you know about gravity to explain your answer.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the sphere would fall quickly to the ground and explains that gravity pulls objects downward, making clear connections between the rope's role and the force of gravity.",
+        "meets": "Student predicts the sphere would fall and correctly explains that gravity pulls objects down, demonstrating understanding of gravity's role.",
+        "approaching": "Student predicts the sphere would fall but provides an incomplete or vague explanation of gravity, or confuses gravity's role in the situation.",
+        "beginning": "Student provides a minimal response such as 'it would fall' with little to no explanation involving gravity."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:44:35.198Z",
+  "cost": 0.004832
+}

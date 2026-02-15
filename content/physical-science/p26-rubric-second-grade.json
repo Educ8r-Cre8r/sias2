@@ -1,0 +1,53 @@
+{
+  "title": "Buoyancy",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we filled the ship with water instead of air?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the ship would sink and connects this to the idea that air helps things float while water makes them heavy, showing understanding of why ships need air inside.",
+        "meets": "Student correctly states the ship would sink and provides a simple reason, such as 'it would be too heavy' or 'water makes it go down.'",
+        "approaching": "Student predicts the ship would sink but provides minimal or unclear reasoning about why water would cause this.",
+        "beginning": "Student gives an unclear answer or predicts an incorrect outcome with little or no explanation."
+      }
+    },
+    {
+      "questionText": "Why might the ship have a red bottom and black top - what purposes might these colors serve?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests practical purposes such as visibility (black top helps see the ship from far away; red bottom shows if the ship is damaged or leaking) and explains how these help keep the ship safe.",
+        "meets": "Student suggests one reasonable purpose for the colors, such as helping people see the ship or protecting it from something.",
+        "approaching": "Student notices the different colors but offers vague or only partially logical reasons (e.g., 'to look nice' with some practical thinking mixed in).",
+        "beginning": "Student acknowledges the colors exist but provides no meaningful reason or offers inaccurate explanations."
+      }
+    },
+    {
+      "questionText": "How is this big ship similar to a toy boat in your bathtub?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities such as both float on water, both are hollow inside to trap air, both carry things, and both move through water, demonstrating understanding of shared floating principles.",
+        "meets": "Student identifies two or more clear similarities, such as both float on water and both are made to move or carry things.",
+        "approaching": "Student identifies one similarity correctly but explanations are incomplete or lacks detail.",
+        "beginning": "Student struggles to identify clear similarities or provides vague responses without accurate observations."
+      }
+    },
+    {
+      "questionText": "What other things have you seen that float even though they seem heavy?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides 3+ examples of heavy-looking floating objects (such as boats, barges, docks, or water rafts) and explains that they float because they are hollow or filled with air.",
+        "meets": "Student provides 2-3 accurate examples of things that float despite seeming heavy, such as boats or rafts.",
+        "approaching": "Student provides 1-2 examples of floating objects but may lack detail or clarity in their descriptions.",
+        "beginning": "Student provides vague, unclear, or inaccurate examples with minimal detail."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:19:55.568Z",
+  "cost": 0.00443
+}

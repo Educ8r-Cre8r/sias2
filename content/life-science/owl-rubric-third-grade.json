@@ -1,0 +1,53 @@
+{
+  "title": "Owl",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the owl's feathers and how might they help it survive in the wild?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple feather characteristics (color, pattern, texture) and explains how at least two features help the owl survive (camouflage for hiding, insulation for warmth, waterproofing).",
+        "meets": "Student identifies the owl's feather colors or pattern and explains how feathers help with camouflage or protection in the environment.",
+        "approaching": "Student notices the owl has feathers and mentions one way they might help (blending in or staying warm), but explanation lacks detail.",
+        "beginning": "Student makes a simple observation about feathers but provides no explanation of survival benefit, or response is vague."
+      }
+    },
+    {
+      "questionText": "If this owl lived in a snowy environment instead of a rocky one, how do you think its appearance might be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the owl would be mostly white or lighter-colored for camouflage in snow and explains the reason by comparing it to the current brown/white pattern that matches rocks and trees.",
+        "meets": "Student predicts the owl's feathers would be lighter or whiter and recognizes this would help it blend in with snow.",
+        "approaching": "Student makes a prediction about color change but explanation is incomplete or shows partial understanding of camouflage.",
+        "beginning": "Student attempts a prediction but lacks reasoning, or response is unclear or inaccurate."
+      }
+    },
+    {
+      "questionText": "Why do you think owls have such large eyes compared to other birds?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that large eyes help owls see in the dark or at night and connects this to owl behavior (hunting when it's dark) or their adaptation as nocturnal hunters.",
+        "meets": "Student explains that large eyes help the owl see better, especially at night or in dim light.",
+        "approaching": "Student recognizes large eyes are for seeing but explanation is vague or incomplete (e.g., 'to see better' without clarifying when or why).",
+        "beginning": "Student provides minimal response or inaccurate explanation of why owls have large eyes."
+      }
+    },
+    {
+      "questionText": "What evidence can you find in the photo that shows this owl is well-adapted to its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more adaptations with evidence from photo (camouflage feathers match rocks/trees, large eyes for night vision, ear tufts for hearing) and explains how each helps survival.",
+        "meets": "Student identifies two adaptations with photo evidence (e.g., spotted feathers blend in, big eyes help see) and explains how they help the owl survive.",
+        "approaching": "Student identifies one adaptation from the photo but explanation is unclear, or identifies features without explaining their adaptive purpose.",
+        "beginning": "Student provides vague observations or minimal evidence of understanding how photo features show adaptation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:36:30.566Z",
+  "cost": 0.00472
+}

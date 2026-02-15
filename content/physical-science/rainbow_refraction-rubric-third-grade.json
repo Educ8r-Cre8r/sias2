@@ -1,0 +1,53 @@
+{
+  "title": "Rainbow Refraction",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think a rainbow only appears when it's raining and sunny at the same time?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both sunlight AND water droplets are needed together, and describes how they work together to make the rainbow appear (e.g., 'The sun has to shine through the raindrops to make the colors').",
+        "meets": "Student identifies that rain and sun are both needed for a rainbow to appear, with a simple explanation of why both are necessary.",
+        "approaching": "Student mentions that rain and sun are needed but provides incomplete or unclear reasoning about why both must be present at the same time.",
+        "beginning": "Student gives a vague response like 'you need rain' or 'you need sun' but doesn't explain the connection between the two."
+      }
+    },
+    {
+      "questionText": "If you tried to walk toward a rainbow, do you think you could catch it or touch it? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts you cannot catch a rainbow and explains that it is light reflecting through water droplets, not a solid object you can touch, and may mention it moves as you move.",
+        "meets": "Student correctly predicts you cannot catch a rainbow and gives a reasonable explanation, such as 'it's made of light' or 'it's not a real thing you can hold.'",
+        "approaching": "Student predicts you cannot catch a rainbow but provides unclear or partially accurate reasoning about why it cannot be touched.",
+        "beginning": "Student is unsure whether a rainbow can be caught, or provides minimal explanation for their prediction."
+      }
+    },
+    {
+      "questionText": "What would happen to the rainbow if there were no water droplets in the air?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the rainbow would disappear and explains that water droplets are essential for light to reflect and create the colors (e.g., 'The light needs the water to bounce off to make colors').",
+        "meets": "Student correctly predicts the rainbow would disappear and recognizes that water droplets are necessary for a rainbow to form.",
+        "approaching": "Student predicts the rainbow would disappear but provides incomplete or unclear reasoning about the role of water droplets.",
+        "beginning": "Student provides a vague prediction or reasoning that shows minimal understanding of water droplets' role in rainbows."
+      }
+    },
+    {
+      "questionText": "Can you think of other times you might see a rainbow besides during rain?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more realistic examples (e.g., garden hose, waterfall, fountain, mist) and explains how each involves sunlight shining through water droplets in the air.",
+        "meets": "Student identifies one or two reasonable examples of rainbows (e.g., from a garden hose or waterfall) that involve sunlight and water.",
+        "approaching": "Student thinks of one example but provides unclear connection to sunlight and water, or suggests an unlikely scenario.",
+        "beginning": "Student struggles to think of other examples or provides unrealistic suggestions without connecting to sunlight and water droplets."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:23:57.832Z",
+  "cost": 0.004843
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Mixture",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What patterns do you notice in how the rocks are arranged in the concrete?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific patterns (e.g., rocks of different sizes are spread throughout, different colors are mixed together, smaller rocks fill spaces between larger rocks) and explains how these patterns help hold the concrete together.",
+        "meets": "Student describes at least two accurate observations about how rocks are arranged, such as different sizes being mixed together or various colors throughout the concrete.",
+        "approaching": "Student notices that rocks are different sizes or colors but provides limited description of how they are actually arranged in the concrete.",
+        "beginning": "Student makes a vague statement about the rocks (e.g., 'there are rocks') with little detail about their arrangement or patterns."
+      }
+    },
+    {
+      "questionText": "Why do you think engineers choose to mix different sized rocks instead of using all the same size?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different sizes help concrete be stronger and longer-lasting, noting that smaller rocks fill gaps between larger rocks to make it more solid and compact.",
+        "meets": "Student provides a reasonable explanation that mixing different sized rocks makes the concrete stronger or helps them fit together better.",
+        "approaching": "Student gives a partial explanation, such as 'it makes it stronger' or 'so pieces fit,' but lacks detail about how different sizes work together.",
+        "beginning": "Student offers a minimal or unclear reason, such as 'because they just do' or makes an inaccurate statement about the purpose."
+      }
+    },
+    {
+      "questionText": "How might the properties of this concrete change if we removed all the rocks and just used cement?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that cement alone would be weaker, less durable, or more likely to crack, and explains that the rocks provide strength and stability to the concrete mixture.",
+        "meets": "Student predicts that removing the rocks would make the concrete weaker or change its strength in a reasonable way.",
+        "approaching": "Student makes a prediction about change but the reasoning is unclear or only partially connected to the role of rocks in concrete.",
+        "beginning": "Student provides a vague prediction with little or no connection to how rocks contribute to concrete's properties."
+      }
+    },
+    {
+      "questionText": "What other materials in our classroom or school are made by combining different things together?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two specific materials from their classroom or school (e.g., paper made from wood fibers, paint made from pigment and liquid, soil made of rocks and dirt) and explains that combining materials creates something new and useful.",
+        "meets": "Student names at least two materials that are combinations of different things, such as wood, paint, or bricks.",
+        "approaching": "Student identifies one example of a combined material with some accuracy, or mentions multiple materials but with unclear explanations.",
+        "beginning": "Student provides a vague or incorrect example with little evidence of understanding how materials can be combined together."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:05:49.499Z",
+  "cost": 0.004655
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Giant Leopard Moth",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the tiny yellow eggs after the mother moth lays them?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the complete life cycle progression (eggs → caterpillars → moths) with accurate sequencing and explains what caterpillars will do after hatching, such as eat or grow.",
+        "meets": "Student correctly identifies that eggs will hatch into caterpillars or baby moths and shows understanding that the eggs begin a life cycle.",
+        "approaching": "Student mentions that something will happen to the eggs or that babies will come out, but the explanation is vague or partially incorrect about what hatches from the eggs.",
+        "beginning": "Student provides a minimal response such as 'they get bigger' or 'they grow' with little connection to hatching or the life cycle."
+      }
+    },
+    {
+      "questionText": "How do you think the baby caterpillar will be different from the grown-up moth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple physical differences (such as body shape, wings, legs, or color) and explains that caterpillars and moths look very different even though they are the same animal at different life stages.",
+        "meets": "Student identifies at least two clear physical differences between a caterpillar and a moth, such as wings, body shape, or legs.",
+        "approaching": "Student identifies one physical difference between a caterpillar and a moth, but the explanation lacks detail or clarity.",
+        "beginning": "Student attempts to compare the two but provides vague, inaccurate, or non-observable differences such as 'they are different' without specific details."
+      }
+    },
+    {
+      "questionText": "Why might the white wings with brown spots help the moth stay safe in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spotted pattern helps the moth blend in or hide (camouflage) by matching the appearance of bark, wood, or the forest environment, making it hard for predators to see.",
+        "meets": "Student recognizes that the white wings with brown spots help the moth hide or blend in with its surroundings, using the word 'camouflage' or 'hide' appropriately.",
+        "approaching": "Student suggests the colors help the moth hide or be safe but the explanation is incomplete or lacks connection to blending with the environment.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'the colors are pretty' or 'they keep it warm' without addressing protection or hiding."
+      }
+    },
+    {
+      "questionText": "If the moth mother laid eggs on a different plant that caterpillars don't eat, what might happen to the babies?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillars would not have food to eat and would starve, die, or not grow properly, demonstrating understanding that caterpillars need specific plants to survive.",
+        "meets": "Student predicts that the caterpillars would have trouble because they need to eat the right plant, or that they might die or not grow without the correct food.",
+        "approaching": "Student recognizes that food is important or that something bad might happen, but the explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague response such as 'they would be sad' or 'something bad would happen' without connecting it to food or survival needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:01:52.510Z",
+  "cost": 0.005125
+}

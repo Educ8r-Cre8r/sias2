@@ -1,0 +1,53 @@
+{
+  "title": "Weather",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the clouds in this picture? What makes them look different from regular clouds?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific cloud features (dark color, thick/puffy shape, low-hanging, dense) and explains how each feature makes them look different from regular clouds using accurate weather vocabulary.",
+        "meets": "Student identifies at least two cloud features (such as dark color and thick appearance) and explains that they look different from regular clouds.",
+        "approaching": "Student notices that the clouds look different but describes only one feature or uses vague language like 'they look big' or 'they look bad' without clear explanation.",
+        "beginning": "Student makes a minimal observation about the clouds (such as 'they are dark') with little or no explanation of what makes them different."
+      }
+    },
+    {
+      "questionText": "Why do you think the clouds are so dark and thick? Where did all that water come from?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dark, thick clouds contain a lot of water droplets that block sunlight, and traces water's source (ocean, lakes, or ground water that evaporated) with clear cause-and-effect reasoning.",
+        "meets": "Student explains that dark clouds have a lot of water in them and identifies at least one water source (like the ocean or a lake) or mentions evaporation.",
+        "approaching": "Student attempts to explain the dark color or mentions water/clouds, but reasoning is incomplete or partially accurate (for example, 'there's lots of water' without explaining why clouds are dark).",
+        "beginning": "Student provides a minimal or unclear response, such as 'it rains' or 'there's water' without attempting to explain why the clouds look dark or where water comes from."
+      }
+    },
+    {
+      "questionText": "If you were standing on this road, what might happen next? What clues from the sky are telling you that?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a specific storm outcome (heavy rain, wind, lightning, or hail) and identifies at least two sky clues (dark clouds, low clouds, thick clouds, or heavy cloud cover) that support the prediction with logical reasoning.",
+        "meets": "Student predicts something will happen (rain or a storm) and identifies at least one sky clue, such as dark or thick clouds, as evidence.",
+        "approaching": "Student makes a prediction about weather but provides vague clues from the sky, or identifies sky features without clearly connecting them to the prediction.",
+        "beginning": "Student makes a minimal prediction (such as 'it will rain') with little or no reference to sky clues, or the response is unclear."
+      }
+    },
+    {
+      "questionText": "How do you think the people and animals in this town know a big storm is coming? What are the signs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple storm signs from the photo (dark sky, thick clouds, low clouds) and explains how people and animals would notice these signs and respond (looking up, seeking shelter, feeling wind or temperature changes).",
+        "meets": "Student identifies at least two visible storm signs from the sky or landscape and explains that people and animals would see or sense them to know a storm is coming.",
+        "approaching": "Student identifies at least one storm sign but provides limited explanation of how people or animals would notice it, or reasoning is incomplete.",
+        "beginning": "Student identifies a sign of approaching weather but offers minimal or vague explanation of how people and animals would recognize it."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:01:11.246Z",
+  "cost": 0.005259
+}

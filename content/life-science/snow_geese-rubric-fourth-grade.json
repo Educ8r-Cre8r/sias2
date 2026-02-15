@@ -1,0 +1,53 @@
+{
+  "title": "Snow Geese",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the snow geese stopped in this farm field instead of flying all the way south without stopping?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reasons for stopping (e.g., rest, food, energy) and explains how the farm field provides necessary resources, using specific details about migration needs.",
+        "meets": "Student provides at least one logical reason for stopping (such as needing to rest or find food) and connects it to the farm field environment.",
+        "approaching": "Student offers a reason for stopping but with incomplete reasoning, such as mentioning rest or food without explaining why these are necessary during migration.",
+        "beginning": "Student provides a vague response like 'they were tired' or 'they wanted to stop' with little explanation of why geese need to stop during migration."
+      }
+    },
+    {
+      "questionText": "What would happen to the geese if they didn't migrate during winter?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences (e.g., lack of food, freezing water, inability to survive cold) and describes how these factors would affect geese survival with scientific reasoning.",
+        "meets": "Student predicts a reasonable consequence of not migrating, such as running out of food or freezing, and explains why this would be a problem for geese.",
+        "approaching": "Student predicts a consequence but with incomplete understanding, such as stating geese would 'die' without clearly explaining the reason (food shortage or cold).",
+        "beginning": "Student provides a minimal response like 'they would die' with little or no explanation of the cause."
+      }
+    },
+    {
+      "questionText": "How do you think the geese know when it's time to fly south and which direction to go?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple cues (e.g., daylight changes, temperature drops, instinct, magnetic fields) and explains how geese use these signals to navigate, demonstrating understanding of animal navigation.",
+        "meets": "Student identifies at least one reasonable cue for migration timing or direction (such as temperature, daylight, or following other geese) and explains how geese use this information.",
+        "approaching": "Student identifies a cue for migration but with vague reasoning, such as mentioning 'they just know' or naming a cue without explaining how geese actually use it.",
+        "beginning": "Student provides a minimal response like 'they follow other geese' or 'they know' with little supporting detail or reasoning."
+      }
+    },
+    {
+      "questionText": "Compare and contrast how snow geese prepare for migration with how you prepare for a long car trip.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (e.g., resting, gathering energy/supplies, planning a route) and differences (e.g., geese use instinct while humans use maps, geese eat constantly while humans pack food) with specific details for each.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between how geese and humans prepare for travel, with brief explanations for each.",
+        "approaching": "Student attempts a comparison and contrast but focuses mainly on one aspect, or provides similarities/differences without clear explanations of how they relate to preparation.",
+        "beginning": "Student provides minimal comparisons or contrasts that lack accuracy or clear connection to the concept of preparation (e.g., 'geese fly and cars drive' without relating to preparation)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:58:16.531Z",
+  "cost": 0.005161
+}

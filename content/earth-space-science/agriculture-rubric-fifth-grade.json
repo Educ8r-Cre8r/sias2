@@ -1,0 +1,53 @@
+{
+  "title": "Agriculture",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How might this farming practice affect the soil differently in wet versus dry weather?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains specific soil impacts for both wet and dry conditions (e.g., compaction risks when wet, dust erosion when dry) and connects to how these affect plant growth or water absorption.",
+        "meets": "Student describes how soil is affected differently in wet versus dry weather, identifying at least one consequence for each condition (e.g., soil gets muddy when wet, becomes hard when dry).",
+        "approaching": "Student mentions differences between wet and dry weather effects on soil but lacks specificity or provides incomplete explanations for one condition.",
+        "beginning": "Student provides vague or minimal response about weather effects on soil, or confuses how wet and dry conditions impact the farming practice."
+      }
+    },
+    {
+      "questionText": "What would happen to our food supply if farmers couldn't use machines like tractors?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple interconnected consequences (e.g., fewer crops planted, slower work, higher food prices, less food available) and discusses why farmers rely on machines for efficiency.",
+        "meets": "Student identifies at least two realistic consequences of not having tractors, such as reduced crop production or difficulty preparing farmland.",
+        "approaching": "Student identifies one consequence but explanation lacks detail, or reasoning is partially unclear about the connection between machine use and food supply.",
+        "beginning": "Student provides minimal or inaccurate response with little understanding of how farm machinery impacts food production."
+      }
+    },
+    {
+      "questionText": "Compare the advantages and disadvantages of using heavy machinery on farmland.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific advantages (efficiency, large-scale planting, speed) and disadvantages (soil compaction, cost, environmental impact) with clear explanations of each.",
+        "meets": "Student identifies at least two advantages and two disadvantages of heavy machinery use on farmland with reasonable explanations.",
+        "approaching": "Student identifies some advantages and/or disadvantages but explanations are incomplete or one side is underdeveloped.",
+        "beginning": "Student lists only advantages or only disadvantages, or provides vague responses without clear comparison."
+      }
+    },
+    {
+      "questionText": "Why do you think the farmer chose to work this field at this particular time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple logical reasons based on farming practices (e.g., soil preparation before planting season, appropriate soil moisture, weather conditions) with explanation of why timing matters.",
+        "meets": "Student suggests at least two reasonable reasons the farmer chose this time, such as preparing for planting season or favorable soil/weather conditions.",
+        "approaching": "Student provides one plausible reason or multiple reasons with incomplete explanations about why timing is important for farming.",
+        "beginning": "Student provides minimal or unlikely reasoning with little evidence of understanding seasonal farming practices."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:36:08.369Z",
+  "cost": 0.004518
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Crab",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the ghost crab has eyestalks that stick up instead of eyes on the front of its head like humans?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eyestalks allow the crab to see above the sand while staying hidden, and connects this to the crab's adaptation for detecting predators or prey in its beach environment.",
+        "meets": "Student correctly identifies that eyestalks help the crab see while remaining low or hidden in the sand, showing understanding of how this body structure aids survival.",
+        "approaching": "Student recognizes that eyestalks are different from human eyes and mentions they help the crab see, but explanation lacks clarity about why this location is beneficial.",
+        "beginning": "Student makes a minimal observation about eyestalks being on top of the head or notes they are different from humans, with little or no explanation of their function."
+      }
+    },
+    {
+      "questionText": "If a ghost crab were moved to a rainforest, what problems might it face, and how would those problems relate to its current adaptations?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple problems (moisture/humidity, food type, dense vegetation, predators) and explains how specific adaptations (pale coloring, sand-burrowing legs, eyestalks for open terrain) would be ineffective in a rainforest environment.",
+        "meets": "Student identifies at least two realistic problems a ghost crab would face in a rainforest and connects them to one or two of the crab's current adaptations.",
+        "approaching": "Student identifies one or two problems the crab might face, but makes weak or incomplete connections to how its current adaptations would not work in a rainforest.",
+        "beginning": "Student provides a vague response about the rainforest being different or mentions one problem without connecting it to the crab's adaptations."
+      }
+    },
+    {
+      "questionText": "How does the ghost crab's pale coloring help it survive, and how is this different from how a ghost crab uses its claws to survive?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that pale coloring provides camouflage for hiding on sand (a passive defense), while claws are used for active hunting or defense, and recognizes these serve different survival purposes.",
+        "meets": "Student accurately describes that pale coloring helps the crab hide or blend in, and explains that claws are used for catching food or defending itself, noting they are different survival strategies.",
+        "approaching": "Student identifies that coloring helps hide and claws are for protection or food, but the explanation of how they differ is unclear or incomplete.",
+        "beginning": "Student mentions pale coloring or claws in relation to survival but does not clearly explain how they work differently or provide minimal detail."
+      }
+    },
+    {
+      "questionText": "What would happen to the beach ecosystem if all the ghost crabs disappeared, and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple ecosystem impacts, such as increases in prey populations (insects, small organisms), changes to predator food sources, or disruption of nutrient cycling in sand, demonstrating understanding of food chains and ecosystem balance.",
+        "meets": "Student describes at least two consequences, such as prey populations increasing or predators losing a food source, showing understanding that removing a species affects other organisms.",
+        "approaching": "Student identifies that the ecosystem would change or mentions one consequence, but reasoning is incomplete or connections between organisms are unclear.",
+        "beginning": "Student provides a brief response acknowledging ecosystem change or mentions that other animals would be affected, with minimal reasoning or evidence of understanding food relationships."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:41:22.725Z",
+  "cost": 0.005377
+}

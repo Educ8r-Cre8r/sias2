@@ -1,0 +1,53 @@
+{
+  "title": "Live Oak",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this tree needs to stay alive and healthy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more things trees need (water, sunlight, soil, air) with clear explanations of why each is important for the tree's survival.",
+        "meets": "Student identifies at least two things trees need (such as water and sunlight) with simple, accurate explanations.",
+        "approaching": "Student identifies one or two things trees need, but explanations are vague or only partially accurate.",
+        "beginning": "Student provides a response that is unclear, names only one basic need with little explanation, or gives an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "Why do you think the trunk is so thick and strong, and the branches spread out so wide?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the thick trunk supports the tree's weight and that wide branches help the tree get sunlight and collect water, showing understanding of structure and function.",
+        "meets": "Student gives at least one reason the trunk is thick (holds tree up) or one reason branches spread wide (gets sunlight or holds leaves).",
+        "approaching": "Student makes an attempt to explain trunk thickness or branch spread but reasoning is incomplete or partially incorrect.",
+        "beginning": "Student provides a response that is very limited, unclear, or shows little understanding of how tree parts help the tree survive."
+      }
+    },
+    {
+      "questionText": "How do you think this tree grew so big? What would happen if a tree never got sunlight?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the tree grew big over a long time by getting water, sunlight, and nutrients, and correctly predicts that without sunlight a tree would not grow, get sick, or die.",
+        "meets": "Student explains that trees grow over time with water and sunlight, and identifies that lack of sunlight would be bad for the tree.",
+        "approaching": "Student gives a partial answer about how trees grow or makes a prediction about no sunlight, but reasoning is incomplete.",
+        "beginning": "Student's response is unclear, very brief, or shows minimal understanding of how sunlight affects tree growth."
+      }
+    },
+    {
+      "questionText": "What animals or bugs do you think might live in or on this tree, and why would they choose to live here?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more realistic animals or insects and explains at least two reasons they would live in the tree (food, shelter, safety, leaves, branches).",
+        "meets": "Student names one or two animals or insects that could live in the tree and gives a simple reason why (food, shelter, or safe place).",
+        "approaching": "Student names an animal or insect but gives a vague or incomplete reason, or the reason lacks connection to the tree's features.",
+        "beginning": "Student names an animal or insect but provides no clear reason, or the response is unclear and shows limited understanding of habitats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:31:54.655Z",
+  "cost": 0.004646
+}

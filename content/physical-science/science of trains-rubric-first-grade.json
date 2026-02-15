@@ -1,0 +1,53 @@
+{
+  "title": "Science Of Trains",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What makes the train move forward down the tracks?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that an engine or motor powers the train and explains that the engine pulls the connected train cars along the tracks, demonstrating understanding of how force moves the train forward.",
+        "meets": "Student states that the engine makes the train move or that something pushes/pulls the train down the tracks with basic accuracy.",
+        "approaching": "Student mentions the engine or tracks but provides vague or incomplete explanation of how the train actually moves forward.",
+        "beginning": "Student provides minimal response such as 'it goes' or 'the tracks' without explaining the connection between engine/power and forward motion."
+      }
+    },
+    {
+      "questionText": "Why do you think the red lights turn on when the train is coming to the crossing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that red lights warn cars and people to stop so they don't crash into the large, fast-moving train and identifies this as a safety system to prevent accidents.",
+        "meets": "Student states that the red lights tell cars to stop or warn people because the train is coming, showing understanding of the safety purpose.",
+        "approaching": "Student recognizes the lights are a warning or related to the train, but explanation lacks clarity about why stopping is necessary or how it keeps people safe.",
+        "beginning": "Student provides minimal or unclear response such as 'the lights turn on' without explaining the safety reason or purpose."
+      }
+    },
+    {
+      "questionText": "If the train's brakes didn't work, what do you think would happen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the train would not stop and would crash or keep moving, and explains that brakes slow down and stop moving objects, showing understanding of how brakes function as a safety feature.",
+        "meets": "Student predicts that the train would keep going or crash, demonstrating basic understanding that brakes are needed to stop the train.",
+        "approaching": "Student makes a prediction about something bad happening but explanation lacks clarity about the purpose of brakes or why stopping matters.",
+        "beginning": "Student provides vague response such as 'something bad' or 'it would go' without clear prediction or explanation of the brake's role."
+      }
+    },
+    {
+      "questionText": "How is a train similar to a toy car you push across the floor? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both move on wheels/tracks, both carry things) and differences (train is much bigger/heavier, train has an engine vs. pushed by hand, train carries more), showing detailed comparative thinking.",
+        "meets": "Student identifies at least one similarity and one difference between trains and toy cars with accurate descriptions.",
+        "approaching": "Student attempts comparison but provides only similarities OR differences, or descriptions lack clarity and accuracy.",
+        "beginning": "Student provides minimal or unclear comparison such as 'they're both cars' or 'trains are bigger' without elaboration."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:28:39.680Z",
+  "cost": 0.004639
+}

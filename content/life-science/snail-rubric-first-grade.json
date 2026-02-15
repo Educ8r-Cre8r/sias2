@@ -1,0 +1,53 @@
+{
+  "title": "Snail",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the snail moves?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific observations about snail movement (e.g., slow, uses its foot, glides, moves in one direction) and may compare it to other animals' movement.",
+        "meets": "Student accurately describes that the snail moves slowly and identifies at least one other detail about how it moves (e.g., uses its body, crawls on the rock).",
+        "approaching": "Student recognizes that the snail moves slowly but provides limited or vague details about the method of movement.",
+        "beginning": "Student provides a minimal response with one word or phrase (e.g., 'it moves') with little detail or accuracy."
+      }
+    },
+    {
+      "questionText": "Why do you think the snail leaves a shiny, wet trail behind it as it moves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the snail produces mucus or slime to help it move and may explain additional purposes like protection or moisture, using scientific thinking beyond the observation.",
+        "meets": "Student provides a reasonable explanation that the wet trail helps the snail move or that it comes from the snail's body, showing basic cause-and-effect understanding.",
+        "approaching": "Student makes a connection between the snail and the trail but the explanation is incomplete or partially unclear (e.g., 'it makes it wet' without explaining why).",
+        "beginning": "Student provides a vague or inaccurate response that shows minimal understanding of why snails leave trails (e.g., 'because it does' or 'it's just shiny')."
+      }
+    },
+    {
+      "questionText": "How is the snail's shell like a house? How is it different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple likenesses (protection, shelter, something to live in) and differences (snail grows its shell, carries it, it's hard/made of different material), showing nuanced comparison thinking.",
+        "meets": "Student identifies at least one similarity (e.g., protects the snail) and one difference (e.g., snail carries it or a house stays in one place), demonstrating basic comparison skills.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or explanations lack clarity about why these are valid comparisons.",
+        "beginning": "Student provides minimal or confused responses that show little understanding of how a shell functions as shelter or how it differs from a house."
+      }
+    },
+    {
+      "questionText": "If a snail didn't have a shell, what problems might it face?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple problems (e.g., no protection from predators, would dry out, couldn't hide, would get hurt more easily) showing understanding of the shell's protective and moisture-retaining functions.",
+        "meets": "Student identifies at least two reasonable problems the snail would face without a shell, such as predators attacking it or it getting hurt more easily.",
+        "approaching": "Student identifies one problem the snail might face without a shell, but reasoning may be incomplete or unclear.",
+        "beginning": "Student provides a vague response or minimal attempt (e.g., 'it would be sad') with little evidence of understanding the shell's protective role."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:38:36.241Z",
+  "cost": 0.005005
+}

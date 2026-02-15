@@ -1,0 +1,53 @@
+{
+  "title": "Flower Parts",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What job do you think the yellow bumpy parts at the top of the flower do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the yellow bumpy parts make or hold pollen and explains that pollen helps make seeds or new flowers grow, using appropriate vocabulary.",
+        "meets": "Student correctly identifies that the yellow bumpy parts have a job related to making seeds or pollen, demonstrating basic understanding of flower reproduction.",
+        "approaching": "Student recognizes the yellow bumpy parts are important but provides an incomplete or partially accurate explanation of their purpose.",
+        "beginning": "Student makes a guess about the yellow parts but shows little understanding of their actual function in the flower."
+      }
+    },
+    {
+      "questionText": "Why might insects visit this pink flower? What do you notice that might attract them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific features (pink color, yellow bumps, thread-like parts) and explains how these attract insects, connecting to pollen or nectar as food sources.",
+        "meets": "Student identifies at least one feature of the flower (color, shape, or yellow parts) and explains a reasonable reason insects might visit, such as food.",
+        "approaching": "Student notices some features of the flower or mentions insects visiting but provides incomplete or unclear reasoning about what attracts them.",
+        "beginning": "Student provides a vague response about insects visiting flowers but shows minimal connection between flower features and insect attraction."
+      }
+    },
+    {
+      "questionText": "If we didn't have flowers, what foods or plants might disappear from our world? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple foods or plants that depend on flowers (fruits, vegetables, seeds) and explains the connection between flowers, insects, and food production with clear reasoning.",
+        "meets": "Student names at least one food or plant that needs flowers and provides a logical explanation of why it would disappear without flowers.",
+        "approaching": "Student mentions some foods or plants but provides incomplete reasoning about the relationship between flowers and food, or makes one unclear connection.",
+        "beginning": "Student attempts to answer but provides vague or minimally connected ideas about flowers and food without clear understanding of the relationship."
+      }
+    },
+    {
+      "questionText": "How is this flower similar to and different from other flowers you have seen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities and differences (color, size, petal arrangement, shape of center parts) between this flower and other flowers, using specific descriptive language.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between this pink flower and other flowers they have observed.",
+        "approaching": "Student attempts to compare this flower to others but provides only one comparison, or comparisons that are partially accurate or unclear.",
+        "beginning": "Student provides a vague or incomplete response with minimal accurate comparisons between this flower and others."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:49:23.057Z",
+  "cost": 0.004504
+}

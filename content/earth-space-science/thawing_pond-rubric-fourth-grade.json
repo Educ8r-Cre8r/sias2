@@ -1,0 +1,53 @@
+{
+  "title": "Thawing Pond",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the ice on this pond melted, but the trees are still bare and brown?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sun warms water/ice more than air, causing ice to melt before plants receive enough warmth to grow leaves, demonstrating understanding of differential heating and seasonal plant cycles.",
+        "meets": "Student states that the sun is getting warmer and melting the ice, and notes that trees need more time or warmth to grow leaves again.",
+        "approaching": "Student mentions the sun or warmer weather causing ice to melt, but provides incomplete explanation of why trees remain bare (e.g., only says \"trees are still sleeping\" without connecting to temperature).",
+        "beginning": "Student provides vague response such as \"ice melted\" or \"it got warm\" with little connection between ice melting and tree dormancy, or describes only one observation without explanation."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this pond in the summer? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the pond will be completely liquid water and warmer, and explains that summer temperatures continue to rise, causing all remaining ice to melt; may mention increased plant growth around the pond.",
+        "meets": "Student predicts the ice will melt completely and the pond will have liquid water, with a reasonable explanation involving warmer summer temperatures.",
+        "approaching": "Student predicts the ice will melt or the pond will be warmer, but explanation is incomplete or partially inaccurate (e.g., \"the sun will shine more\" without connecting to temperature change).",
+        "beginning": "Student makes a prediction with minimal or no supporting reasoning, or provides an inaccurate prediction (e.g., pond will freeze more in summer)."
+      }
+    },
+    {
+      "questionText": "Where do you think the melted ice water goes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pathways such as evaporation into the atmosphere, absorption into soil/groundwater, and flow to other bodies of water, demonstrating understanding of the water cycle.",
+        "meets": "Student identifies at least two destinations for melted water, such as the pond staying there, soaking into ground, or flowing away to a stream or other location.",
+        "approaching": "Student identifies one destination (e.g., \"stays in the pond\" or \"soaks into the ground\") but may overlook other pathways or provide incomplete reasoning.",
+        "beginning": "Student provides a vague response such as \"goes away\" or \"disappears\" with little evidence of understanding where water actually goes in nature."
+      }
+    },
+    {
+      "questionText": "How would this pond look different if Earth were tilted the opposite way during this time of year?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that if Earth tilted the opposite way, the Northern Hemisphere would receive less direct sunlight during spring, so the pond would likely still be frozen and trees would remain dormant longer.",
+        "meets": "Student predicts the pond would stay frozen or have more ice, and explains this is because Earth would be tilted away from the sun, receiving less warmth.",
+        "approaching": "Student states the pond would be frozen or colder, but the explanation about Earth's tilt and sunlight is unclear or incomplete (e.g., mentions tilt but doesn't explain its effect on warmth).",
+        "beginning": "Student provides minimal response such as \"it would be different\" or \"colder\" with little or no connection to Earth's tilt or the role of sunlight."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:30:46.306Z",
+  "cost": 0.005315
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Static Electricity",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we used heavier objects instead of paper confetti?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts heavier objects would not stick as well or would fall, explains that the balloon's static charge has limited pulling power, and may mention that weight affects whether objects can be lifted.",
+        "meets": "Student predicts heavier objects would fall or not stick to the balloon, with a simple explanation that heavier things are harder to move.",
+        "approaching": "Student makes a prediction about heavier objects but provides minimal or unclear reasoning; may show partial understanding that weight matters.",
+        "beginning": "Student provides a vague prediction or no clear answer; reasoning is missing or inaccurate (e.g., 'they would stick better')."
+      }
+    },
+    {
+      "questionText": "Why do you think some of the confetti pieces move toward the balloon while others don't?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the charged balloon attracts nearby confetti pieces more strongly because they are closer, and recognizes that distance affects the balloon's pulling force on objects.",
+        "meets": "Student correctly identifies that some confetti is closer to the balloon than others, or that distance affects whether pieces move toward it.",
+        "approaching": "Student recognizes that position or distance plays a role but explanation is incomplete or lacks clarity about how proximity affects attraction.",
+        "beginning": "Student provides a vague answer or incorrect explanation (e.g., 'some pieces are heavier' without addressing location or distance)."
+      }
+    },
+    {
+      "questionText": "How could we test whether the balloon's power gets weaker over time?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a specific test procedure (e.g., measure how many pieces stick at different time intervals, or test from the same distance over time) and explains what results would show the power getting weaker.",
+        "meets": "Student suggests a reasonable test method, such as checking the balloon at different times or measuring how many pieces stick, with basic explanation of what to observe.",
+        "approaching": "Student identifies a test idea but description is vague or incomplete; reasoning about what would show weakening power is unclear.",
+        "beginning": "Student suggests a test but it is not clearly explained or not logically connected to measuring the balloon's power over time."
+      }
+    },
+    {
+      "questionText": "What other materials in our classroom might be attracted to a charged balloon?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple appropriate light materials (e.g., tissue paper, small foam pieces, bits of string, dust) and explains that lightweight objects can be attracted because the static charge can move them.",
+        "meets": "Student names 2-3 classroom materials that could be attracted to the balloon, selecting reasonable lightweight items.",
+        "approaching": "Student names 1-2 materials but selections may not all be appropriate; reasoning about why these would work is limited or missing.",
+        "beginning": "Student names materials but choices are questionable (e.g., heavy objects like books) or response lacks specificity."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:01:48.022Z",
+  "cost": 0.004706
+}

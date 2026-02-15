@@ -1,0 +1,53 @@
+{
+  "title": "Shadow",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you see in this picture? Where is the shadow?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the rock, grass, and shadow with clear location words (beside, next to, under) and describes the shadow's dark color or shape.",
+        "meets": "Student correctly identifies the rock and shadow and points to or names where the shadow is located near the rock.",
+        "approaching": "Student identifies either the rock or the shadow but has difficulty locating or describing where the shadow is.",
+        "beginning": "Student makes a vague response about what is in the picture or does not identify the shadow."
+      }
+    },
+    {
+      "questionText": "Why do you think there is a dark area next to the rock? What is making it dark?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the sun shines on the rock and creates a dark shadow on the ground, understanding that the rock blocks the light.",
+        "meets": "Student correctly identifies that the sun or light makes the dark shadow, or that the rock blocks the light.",
+        "approaching": "Student attempts to explain the shadow but provides an incomplete or partially correct reason, such as mentioning the sun or rock but not the connection.",
+        "beginning": "Student provides a vague, incorrect, or no explanation for why the dark area exists."
+      }
+    },
+    {
+      "questionText": "If we came back to look at this rock at a different time of day, what do you think the shadow might look like? Would it be in the same place?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the shadow would move or change position and explains that the sun moves during the day, affecting where the shadow appears.",
+        "meets": "Student predicts that the shadow would look different or move to a different location at another time of day.",
+        "approaching": "Student makes a prediction about the shadow changing but cannot explain why it would change.",
+        "beginning": "Student does not make a prediction or states the shadow would stay the same without reasoning."
+      }
+    },
+    {
+      "questionText": "Can you find a shadow outside right now? What is making that shadow?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific shadow outside and explains that the sun shining on an object creates it, showing transfer of understanding to a new example.",
+        "meets": "Student finds a shadow outside and correctly identifies the object or sun as the cause of the shadow.",
+        "approaching": "Student finds a shadow but provides incomplete reasoning about what is making it, or identifies an object but does not connect it to the sun or light.",
+        "beginning": "Student attempts to find a shadow but cannot identify one or does not explain what causes it."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:36:43.480Z",
+  "cost": 0.004278
+}

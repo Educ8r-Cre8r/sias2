@@ -1,0 +1,53 @@
+{
+  "title": "Kinetic Energy",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What forces are acting on the skateboarder when they are in the air?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies gravity as the primary force pulling the skateboarder downward and explains that air resistance also acts on the skateboarder during flight, demonstrating comprehensive understanding of forces in motion.",
+        "meets": "Student correctly identifies gravity as the main force acting on the skateboarder when in the air, with accurate explanation of how it pulls them back down.",
+        "approaching": "Student identifies gravity or mentions that a force pulls the skateboarder down, but explanation is incomplete or lacks clarity about the direction or effect of the force.",
+        "beginning": "Student provides a vague response such as 'there is a force' or 'gravity' with little or no explanation of how it affects the skateboarder's motion."
+      }
+    },
+    {
+      "questionText": "Why does the skateboarder move faster at the bottom of the ramp than at the top? Use the words 'potential energy' and 'kinetic energy' in your answer.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that potential energy at the top converts to kinetic energy at the bottom, resulting in faster movement, and demonstrates understanding that the higher starting position provides more energy to convert.",
+        "meets": "Student correctly uses both 'potential energy' and 'kinetic energy' and explains that potential energy changes to kinetic energy as the skateboarder moves down, causing increased speed.",
+        "approaching": "Student uses both required terms but explanation shows incomplete understanding, such as mentioning the terms without clearly connecting them to the speed change or energy conversion.",
+        "beginning": "Student uses one or neither of the required terms, or provides minimal explanation with little connection between energy types and the skateboarder's changing speed."
+      }
+    },
+    {
+      "questionText": "If the skateboarder were heavier, how might that change how high they could jump or how far they could travel? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a heavier skateboarder would jump lower and travel less far because more mass requires more force to move, and relates this to the energy needed to overcome gravity and resistance.",
+        "meets": "Student correctly predicts that a heavier skateboarder would likely jump lower or travel less far, and provides a reasonable explanation involving mass, force, or effort required.",
+        "approaching": "Student predicts that weight would affect jumping height or distance but provides incomplete or partially inaccurate reasoning about why this change would occur.",
+        "beginning": "Student makes a prediction about the effect of weight but provides little or inaccurate explanation, or is unsure about the relationship between mass and motion."
+      }
+    },
+    {
+      "questionText": "How could friction (like from the wheels on the concrete) and air resistance affect the skateboarder's motion? What would happen if there were no friction at all?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that friction and air resistance slow the skateboarder down, and reasons that without friction, the skateboarder would continue moving without losing speed and would have difficulty stopping or controlling the skateboard.",
+        "meets": "Student identifies that friction and air resistance slow motion, and predicts that without friction, movement would continue longer or stopping would be difficult.",
+        "approaching": "Student shows partial understanding by mentioning friction or air resistance slows motion, but provides incomplete explanation of what would happen without friction, or lacks clarity on the connection to control.",
+        "beginning": "Student provides a vague or minimally accurate response about friction and resistance, with little attempt to explain effects on the skateboarder's motion or what happens without friction."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:42:19.616Z",
+  "cost": 0.005455
+}

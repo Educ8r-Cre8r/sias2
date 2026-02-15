@@ -1,0 +1,53 @@
+{
+  "title": "Katydid Camouflage",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "If the grass in this katydid's home turned brown in the fall, why might a green katydid have trouble surviving there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the green katydid would be easy to see against brown grass, making it vulnerable to predators, and connects this to camouflage not working when the environment changes color.",
+        "meets": "Student explains that the green katydid would stand out against brown grass and predators could find it more easily.",
+        "approaching": "Student recognizes that brown grass and a green katydid don't match or that the katydid might be seen, but reasoning is incomplete or unclear.",
+        "beginning": "Student provides a minimal response such as 'the katydid would be cold' or 'it wouldn't match' without explaining the connection to survival or predators."
+      }
+    },
+    {
+      "questionText": "Why do you think the katydid's body shape looks like a leaf, not just its color?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both the leaf shape and green color work together for better camouflage, noting that shape helps disguise the katydid as part of the plant so predators won't recognize it as an insect.",
+        "meets": "Student explains that the leaf shape helps hide the katydid because it looks more like a plant and less like an insect, making it harder for predators to spot.",
+        "approaching": "Student recognizes that shape helps with hiding or camouflage, but the explanation lacks clarity about why shape matters beyond just color.",
+        "beginning": "Student provides a vague response such as 'to blend in' or 'to hide' without explaining how the leaf shape helps."
+      }
+    },
+    {
+      "questionText": "How would a bright red katydid survive differently than a green katydid in the same grassy area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a bright red katydid would be easily seen by predators and would not survive well in the grassy area, then contrasts this with the green katydid's advantage of blending in, showing understanding of how camouflage affects survival.",
+        "meets": "Student explains that a bright red katydid would stand out and be spotted by predators more easily, while a green katydid stays hidden because it matches the grass.",
+        "approaching": "Student recognizes that red and green are different colors and mentions that one is more visible, but does not fully explain the survival difference.",
+        "beginning": "Student states that red and green are different colors or that red is brighter, without connecting this to predators or survival."
+      }
+    },
+    {
+      "questionText": "If some katydids in a population are darker green and some are lighter green, what might happen over time if their habitat gets darker?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that darker green katydids would have better camouflage in a darker habitat and survive better, leading to more darker katydids in the population over time, demonstrating understanding of natural selection and adaptation.",
+        "meets": "Student explains that darker green katydids would blend in better with a darker habitat, survive longer, and there would be more of them in the population over time.",
+        "approaching": "Student recognizes that darker katydids would blend in better in a darker habitat, but does not clearly explain what would happen to the population over time.",
+        "beginning": "Student states that darker green katydids would hide better or survive better, without explaining what happens to the population or why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:17:55.394Z",
+  "cost": 0.00533
+}

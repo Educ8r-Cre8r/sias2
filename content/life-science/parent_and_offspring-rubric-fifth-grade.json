@@ -1,0 +1,53 @@
+{
+  "title": "Parent And Offspring",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What physical traits can you observe that the parent and baby bird share? Why do you think they have these similar features?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific shared physical traits (body shape, markings, size proportions, beak color) and explains that these traits are inherited from the parent through genes, demonstrating understanding of heredity.",
+        "meets": "Student identifies two shared physical traits and explains that the baby bird has similar features because it inherited them from its parent.",
+        "approaching": "Student identifies one or two shared physical traits but provides incomplete or vague reasoning about why they are similar, such as 'they look alike' without mentioning inheritance.",
+        "beginning": "Student identifies one trait or provides only a general observation like 'they are both birds' with little or no explanation of similarity."
+      }
+    },
+    {
+      "questionText": "If this baby bird grows up and has babies of its own, what traits might it pass on to its offspring? Why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific inherited traits (body shape, markings, beak characteristics) and explains that parents pass physical traits to offspring through heredity, using accurate scientific reasoning.",
+        "meets": "Student identifies at least two traits the bird might pass on and explains that parents give traits to their offspring through inheritance.",
+        "approaching": "Student identifies one or two traits but provides unclear or incomplete reasoning about the passing of traits to offspring.",
+        "beginning": "Student provides a vague response such as 'it will have baby birds' or identifies traits without explaining how they would be passed on."
+      }
+    },
+    {
+      "questionText": "How do you think the parent bird is helping the baby bird survive? What would happen to the baby bird if the parent were not there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple ways the parent helps (food, protection, teaching survival skills) and explains specific consequences of losing parental care (starvation, predation, inability to survive), showing comprehensive understanding of parent-offspring relationships.",
+        "meets": "Student describes two ways a parent bird helps the baby survive and explains at least one consequence if the parent were absent.",
+        "approaching": "Student identifies one way the parent helps or one consequence of losing parental care, but reasoning may be incomplete or partially inaccurate.",
+        "beginning": "Student provides a minimal response such as 'the parent helps' or 'the baby would die' with little supporting explanation."
+      }
+    },
+    {
+      "questionText": "Why might it be important for the baby bird to watch and learn from its parent, rather than just inheriting its parent's traits?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student distinguishes between inherited traits and learned behaviors, explaining that skills like finding food, building nests, or communicating cannot be inherited genetically and must be learned through observation and practice.",
+        "meets": "Student explains that the baby bird learns important survival skills or behaviors from the parent that genes alone cannot provide.",
+        "approaching": "Student recognizes that learning from the parent is important but provides vague or partially accurate reasoning about what cannot be inherited.",
+        "beginning": "Student provides a minimal response such as 'the baby needs to learn' without explaining what cannot be inherited or why learning matters."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:38:08.528Z",
+  "cost": 0.004954
+}

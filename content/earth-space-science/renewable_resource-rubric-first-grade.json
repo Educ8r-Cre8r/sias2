@@ -1,0 +1,53 @@
+{
+  "title": "Renewable Resource",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What parts of this building come from trees, and what job does each part do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple wood parts (beams, boards, frame) and explains what each one does with specific details, such as beams holding up the building or boards making walls.",
+        "meets": "Student identifies at least two wood parts and explains what they do, such as wood holds up the building or makes the walls.",
+        "approaching": "Student identifies one or two wood parts but gives incomplete or unclear explanations of what they do.",
+        "beginning": "Student identifies wood in the picture but cannot explain what any parts do, or gives very unclear answers."
+      }
+    },
+    {
+      "questionText": "Why do you think the builders put that fluffy insulation inside the walls instead of leaving them empty?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that insulation keeps heat or warmth inside and makes the building more comfortable, and may mention it saves energy or money.",
+        "meets": "Student explains that insulation keeps the building warm or helps with temperature inside the building.",
+        "approaching": "Student recognizes insulation has something to do with warmth or comfort but gives incomplete or vague reasoning.",
+        "beginning": "Student provides a guess about insulation with little or no explanation, or gives an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "Where do you think the trees came from before they became the wood for this building?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that trees grew in forests or from the ground and were cut down by people to make wood for building.",
+        "meets": "Student explains that trees came from forests or nature before becoming wood.",
+        "approaching": "Student mentions trees came from nature or forests but with limited detail or clarity.",
+        "beginning": "Student gives a vague answer or does not clearly connect trees to their natural origin."
+      }
+    },
+    {
+      "questionText": "If we keep cutting down trees to build, what might happen to our forests?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that forests could get smaller, have fewer trees, or disappear, and may connect this to problems for animals or the environment.",
+        "meets": "Student explains that cutting many trees would reduce forests or cause there to be fewer trees.",
+        "approaching": "Student recognizes that cutting trees affects forests but gives unclear or incomplete reasoning about what would happen.",
+        "beginning": "Student makes a guess with little understanding, or provides an inaccurate answer about forest changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T04:36:04.047Z",
+  "cost": 0.004131
+}

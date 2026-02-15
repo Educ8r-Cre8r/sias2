@@ -1,0 +1,53 @@
+{
+  "title": "Robot",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about this robot? What parts can you see?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies four or more specific robot parts (head, eye, body, legs, spots) with accurate descriptions and shows excitement or curiosity about the robot's features.",
+        "meets": "Student identifies three robot parts (such as head, eye, and legs) with simple, accurate descriptions of what they look like.",
+        "approaching": "Student identifies one or two robot parts with basic descriptions, such as naming the color or shape of one feature.",
+        "beginning": "Student points to or names the robot but provides vague observations like 'it's blue' without identifying specific parts."
+      }
+    },
+    {
+      "questionText": "Why do you think someone made this robot? What could it do for us?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student gives two or more thoughtful reasons for creating the robot (play, learning, help with tasks) and explains specific things the robot could do, showing creative thinking about robot functions.",
+        "meets": "Student gives one clear reason for making the robot and describes at least one thing it could do, such as move around or help us.",
+        "approaching": "Student offers a simple idea about why the robot was made or what it could do, but the explanation is incomplete or unclear.",
+        "beginning": "Student responds with 'to play with' or a very simple answer without explaining what the robot could actually do."
+      }
+    },
+    {
+      "questionText": "If we wanted to build our own robot toy, what would we need? What would we use?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student lists four or more materials (boxes, buttons, paint, stick-on items, wheels) and explains how at least two materials would be used to make robot parts or features.",
+        "meets": "Student lists three materials needed to build a robot and describes how some of them would be used to make the robot.",
+        "approaching": "Student lists two materials that could be used but provides limited explanation of how they would help build the robot.",
+        "beginning": "Student names one material or gives a vague answer like 'stuff' without explaining how it would help make a robot."
+      }
+    },
+    {
+      "questionText": "How is this robot the same as or different from other toys you have? What makes it special?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more similarities or differences with other toys and explains what makes this robot special by referring to specific features like its shape, color, or abilities.",
+        "meets": "Student describes one similarity or difference and identifies at least one feature that makes this robot special or interesting.",
+        "approaching": "Student makes a comparison to another toy or mentions one special feature, but the explanation is simple or somewhat unclear.",
+        "beginning": "Student says the robot is 'different' or 'special' without explaining how or why, or compares it to another toy without clear reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:36:52.373Z",
+  "cost": 0.004559
+}
