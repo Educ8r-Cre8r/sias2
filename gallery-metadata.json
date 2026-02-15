@@ -2843,39 +2843,62 @@
       "keywords": [
         "rock layers",
         "sedimentary rock",
-        "stratification",
         "erosion",
+        "stratigraphy",
         "weathering",
-        "earth science"
+        "earth materials"
       ],
       "ngssStandards": {
         "kindergarten": [
-          "K-ESS2-1",
-          "K-ESS2.D"
+          "K-ESS2-2",
+          "K-ESS2.A",
+          "K-ESS3-1",
+          "K-ESS3-3",
+          "K-ESS3.A"
         ],
         "grade1": [
+          "1-ESS1-1",
+          "1-ESS1-2",
           "2-ESS1-1",
-          "2-ESS1.C"
+          "4-ESS1-1"
         ],
         "grade2": [
           "2-ESS1-1",
-          "2-ESS1.C"
+          "2-ESS1.A",
+          "2-ESS2-1",
+          "2-ESS2-2",
+          "2-ESS2-3",
+          "2-ESS2.A",
+          "2-ESS2.B"
         ],
         "grade3": [
-          "2-ESS1-1",
-          "2-ESS1.C"
+          "3-ESS2-1",
+          "3-ESS2-2",
+          "3-ESS2.A",
+          "3-ESS2.B",
+          "3-ESS3-1"
         ],
         "grade4": [
           "4-ESS1-1",
-          "4-ESS1.C"
+          "4-ESS1.A",
+          "4-ESS2-1",
+          "4-ESS2-2",
+          "4-ESS2.A",
+          "4-ESS3-1",
+          "4-ESS3-2"
         ],
         "grade5": [
-          "2-ESS1.C",
-          "5-ESS1-2"
+          "5-ESS2-1",
+          "5-ESS2-2",
+          "5-ESS2.A",
+          "5-ESS2.B",
+          "5-ESS3-1"
         ]
       },
-      "processingCost": 0.2787,
-      "phenomenon": ""
+      "processingCost": 0.1141,
+      "phenomenon": "Rock layering and stratification, which occurs when sediments (tiny pieces of rock, sand, and minerals) are deposited in horizontal layers over long periods of time.",
+      "processingTime": "3m 54s",
+      "processedAt": "2026-02-15T06:18:56.609Z"
     },
     {
       "id": 53,

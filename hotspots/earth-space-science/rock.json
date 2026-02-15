@@ -1,0 +1,48 @@
+{
+  "hotspots": [
+    {
+      "id": 1,
+      "x": "45%",
+      "y": "35%",
+      "label": "Rock Layers",
+      "fact": "This rock shows many thin layers stacked on top of each other, like pages in a book! Each layer was formed at a different time, with the oldest layers at the bottom and newer layers on top. Scientists can read these layers like a history book to learn about Earth's past. This is called **stratification** — that's when rocks form in distinct layers over long periods of time.",
+      "vocabulary": {
+        "term": "Stratification",
+        "definition": "The arrangement of rock or soil in visible layers, with each layer representing a different time period in Earth's history."
+      }
+    },
+    {
+      "id": 2,
+      "x": "52%",
+      "y": "50%",
+      "label": "Weathering and Erosion",
+      "fact": "Notice how this rock has rough, broken edges and some parts are crumbling away? This happens because of **weathering** — when wind, water, and weather slowly break rocks into smaller pieces. Over millions of years, weathering breaks big rocks into sand and gravel, which you can see all around this rock!",
+      "vocabulary": {
+        "term": "Weathering",
+        "definition": "The slow process where rocks break down into smaller pieces because of wind, water, ice, and temperature changes."
+      }
+    },
+    {
+      "id": 3,
+      "x": "58%",
+      "y": "75%",
+      "label": "Sediment and Gravel",
+      "fact": "The small rocks and pebbles covering the ground around this big rock are called **sediment**. Sediment forms when larger rocks are broken apart by weathering and erosion, and then water or wind carries the pieces to new places. When sediment piles up in layers and gets pressed together for a very long time, it can become solid rock!",
+      "vocabulary": {
+        "term": "Sediment",
+        "definition": "Tiny pieces of rock and minerals that are broken off from larger rocks and carried by water or wind to other places."
+      }
+    },
+    {
+      "id": 4,
+      "x": "48%",
+      "y": "60%",
+      "label": "Light and Dark Bands",
+      "fact": "See how this rock has stripes of lighter and darker colors? These different colored bands tell us that different materials were deposited at different times. The lighter bands might contain different minerals or were formed under different conditions than the darker bands. This helps scientists understand what Earth's environment was like long, long ago!",
+      "vocabulary": {
+        "term": "Mineral",
+        "definition": "A solid, natural material that makes up rocks; minerals have a specific chemical composition and crystal structure."
+      }
+    }
+  ]
+}
