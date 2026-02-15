@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the shapes in these rocks?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific shapes (such as shells, spirals, or animal parts) and describes their details using descriptive words like curved, round, or pointed.",
+        "meets": "Student names at least two shapes they see in the rocks, such as shells or spirals, with basic descriptions.",
+        "approaching": "Student identifies one shape in the rocks but provides limited or vague description of what they observe.",
+        "beginning": "Student makes a general observation about the rocks but does not clearly identify or describe any specific shapes."
+      }
+    },
+    {
+      "questionText": "How do you think these animal shapes got inside the rocks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that animals died long ago, were covered with mud or sand, and eventually turned into stone over a very long time, showing understanding of the fossil formation process.",
+        "meets": "Student correctly explains that dead animals were covered and became part of rocks, demonstrating basic understanding of fossil formation.",
+        "approaching": "Student suggests that animals got into rocks through covering or burying but lacks clarity about the role of time or the turning-to-stone process.",
+        "beginning": "Student provides a vague or partially inaccurate explanation, such as animals simply being placed in rocks or with minimal connection to natural processes."
+      }
+    },
+    {
+      "questionText": "What can these fossils tell us about what Earth was like long ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fossils show animals lived long ago and uses details to infer conditions, such as suggesting water environments because shells are present, or that different animals existed then.",
+        "meets": "Student explains that fossils show animals lived long ago and provides at least one reasonable inference about Earth's past (such as certain animals existed or specific environments were present).",
+        "approaching": "Student recognizes that fossils are from long ago but makes only a simple or partially accurate statement about what Earth was like without clear reasoning.",
+        "beginning": "Student acknowledges fossils are old but provides little or no information about what they reveal about Earth's history."
+      }
+    },
+    {
+      "questionText": "If you found a fossil, what would you want to learn about it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes multiple specific, thoughtful questions about the fossil, such as asking what kind of animal it was, how long ago it lived, or what it ate, showing curiosity about fossils as evidence of life.",
+        "meets": "Student identifies at least one meaningful question they would ask about the fossil, such as what animal it was or when it lived.",
+        "approaching": "Student expresses interest in the fossil but asks a vague question or one that shows incomplete understanding of what fossils represent.",
+        "beginning": "Student provides a minimal response, such as saying they want to look at it, without posing a genuine investigative question."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T05:00:25.797Z",
+  "cost": 0.00452
+}

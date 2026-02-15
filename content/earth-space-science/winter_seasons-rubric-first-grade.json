@@ -1,0 +1,53 @@
+{
+  "title": "Winter Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you see in this picture that tells us it is winter?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple winter clues with specific details (snow on trees, white landscape, cold appearance, bare or snow-covered branches) and explains why each sign indicates winter.",
+        "meets": "Student identifies at least two clear signs of winter, such as snow, white landscape, or snow-covered trees, with simple descriptions.",
+        "approaching": "Student identifies one winter clue (snow or cold) with vague or minimal description, or mentions multiple signs without clear detail.",
+        "beginning": "Student provides a response that is unclear, mentions winter but without identifying specific visual clues, or gives an inaccurate observation."
+      }
+    },
+    {
+      "questionText": "Why do you think the snow is sticking to the green branches instead of falling off?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snow sticks because branches are sticky, wet, or bumpy, and connects this to how snow needs something to hold onto; may mention the snow is wet or heavy.",
+        "meets": "Student provides a reasonable explanation such as 'the snow is sticky' or 'the branches catch the snow' that shows basic understanding of how snow adheres to surfaces.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially unclear, such as 'the snow just stays' or offering a reason that shows uncertain understanding.",
+        "beginning": "Student provides minimal reasoning, an unclear answer, or states that snow sticks without attempting to explain why."
+      }
+    },
+    {
+      "questionText": "How is winter different from other times of year you have seen?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly compares winter to at least two other seasons with specific contrasts (e.g., winter is cold and snowy while summer is hot; winter has bare trees while spring has buds; winter is white while fall is colorful).",
+        "meets": "Student identifies at least one clear difference between winter and another season, such as it being colder, having snow, or being whiter than other times of year.",
+        "approaching": "Student mentions a difference but explanation is vague or only partially accurate, or compares winter to another season with limited detail.",
+        "beginning": "Student provides a minimal response, states winter is different without explanation, or gives an inaccurate comparison."
+      }
+    },
+    {
+      "questionText": "What do you think will happen to the snow when the sun shines on it for a long time?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that snow will melt and explains that sun heat causes this change; may connect to water or describe where the melted snow goes.",
+        "meets": "Student predicts that snow will melt or go away when the sun shines on it, showing understanding that heat from the sun affects snow.",
+        "approaching": "Student makes a prediction about change but explanation is unclear, or prediction is partially correct (e.g., 'it will change' without specifying how).",
+        "beginning": "Student provides a minimal, unclear, or inaccurate prediction with little connection to how sun affects snow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T05:00:34.125Z",
+  "cost": 0.004822
+}

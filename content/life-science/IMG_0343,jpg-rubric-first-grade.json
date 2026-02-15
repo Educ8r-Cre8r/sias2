@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the lizard is trying to say with its orange fan?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains the fan's purpose with specific details, such as showing strength, warning others to stay away, or attracting a mate, and connects it to the lizard's bright orange color.",
+        "meets": "Student identifies that the fan is a way for the lizard to communicate or send a message, with a reasonable explanation like \"it's showing off\" or \"telling others to go away.\"",
+        "approaching": "Student recognizes the fan is being used for communication but provides a vague or partially accurate explanation, such as \"it's trying to talk\" without clear details.",
+        "beginning": "Student makes a minimal attempt, such as \"it's pretty\" or \"it's playing,\" showing little understanding of the fan's communicative purpose."
+      }
+    },
+    {
+      "questionText": "How is this lizard's throat fan like the way you use your hands to wave?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities, such as both being visible movements that get attention, both being used to send messages, and both displaying something bright or noticeable to others.",
+        "meets": "Student identifies at least one clear similarity, such as both are ways to get someone's attention or both are visible signals that other animals can see.",
+        "approaching": "Student attempts a comparison but provides only a partial connection, such as \"they both move\" or \"people can see them,\" without fully explaining how they communicate similarly.",
+        "beginning": "Student makes a vague comparison like \"they're both orange\" or \"they both move,\" showing minimal understanding of the communicative similarity."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that use colors or body parts to communicate?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names at least two animals and explains how each uses color or body parts to communicate, such as \"peacocks use bright feathers to attract mates\" or \"fireflies flash their tails to find friends.\"",
+        "meets": "Student names at least one animal and provides a basic explanation of how it uses color or body parts, such as \"birds use colorful feathers\" or \"dogs wag their tails.\"",
+        "approaching": "Student names one or two animals but provides minimal or unclear explanation of how they communicate, such as \"snakes are colorful\" without explaining the purpose.",
+        "beginning": "Student provides a vague response like \"lots of animals are colorful\" or names an animal but gives no explanation of communication use."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful for animals to \"talk\" without making sounds?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons, such as animals can communicate when far apart, at night, or when sounds would attract predators, and explains how silent communication keeps them safe.",
+        "meets": "Student provides one reasonable reason, such as \"they can send messages without making noise\" or \"it helps them stay hidden from predators,\" showing practical understanding.",
+        "approaching": "Student attempts an explanation but it is unclear or only partially accurate, such as \"some animals can't talk\" without connecting it to benefits.",
+        "beginning": "Student provides a minimal response, such as \"because they don't have voices,\" showing little connection to the advantage of silent communication."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T05:00:42.395Z",
+  "cost": 0.005039
+}
