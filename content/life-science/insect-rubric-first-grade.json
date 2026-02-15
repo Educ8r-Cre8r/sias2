@@ -1,0 +1,53 @@
+{
+  "title": "Insect",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts do you think help this insect move around on the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (legs, feet, body) and explains how each helps the insect move or stay on the flower with specific details, such as legs for walking or gripping.",
+        "meets": "Student identifies at least two body parts (such as legs or feet) that help the insect move on the flower.",
+        "approaching": "Student names one body part that helps the insect move, but explanation is vague or incomplete.",
+        "beginning": "Student attempts to name a body part but provides little or unclear connection to how it helps the insect move."
+      }
+    },
+    {
+      "questionText": "Why do you think the insect is visiting this flower? What does it need?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the insect is collecting food (pollen or nectar) and explains that insects need food to survive, showing understanding of the relationship between insects and flowers.",
+        "meets": "Student correctly identifies that the insect is getting food from the flower, such as pollen or nectar.",
+        "approaching": "Student recognizes the insect is doing something with the flower but provides an incomplete or partially correct reason (such as mentioning only that it's on the flower).",
+        "beginning": "Student provides a response that shows minimal understanding, such as a guess without clear reasoning about why insects visit flowers."
+      }
+    },
+    {
+      "questionText": "How do you think the flower might benefit from the insect's visit?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the insect helps the flower by moving pollen between flowers or helping make seeds, demonstrating understanding of pollination's purpose.",
+        "meets": "Student identifies that the insect helps the flower in some way, such as by moving pollen or helping it make seeds.",
+        "approaching": "Student recognizes there is some benefit but provides an unclear or partially correct explanation, such as mentioning the insect is on the flower without explaining the benefit.",
+        "beginning": "Student attempts an answer but shows little understanding of how the insect helps the flower."
+      }
+    },
+    {
+      "questionText": "If there were no insects visiting flowers, what might happen to the plants?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that plants would not make seeds or fruit and explains that insects are needed for this to happen, showing understanding of how pollination affects plant survival.",
+        "meets": "Student predicts a reasonable consequence, such as plants not making seeds or fewer flowers growing.",
+        "approaching": "Student makes a prediction that is partially related to the loss of insects, but reasoning is incomplete or unclear.",
+        "beginning": "Student attempts a prediction but provides little logical connection to the role insects play with flowers and plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:24:20.697Z",
+  "cost": 0.004463
+}

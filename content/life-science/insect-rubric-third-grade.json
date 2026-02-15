@@ -4,50 +4,50 @@
   "gradeLevel": "third-grade",
   "questions": [
     {
-      "questionText": "What do you think the insect is doing on the flower, and why?",
+      "questionText": "What body parts does this insect have that help it survive on flowers?",
       "bloomsLevel": "Understand",
       "dokLevel": 1,
       "rubric": {
-        "exceeds": "Student identifies that the insect is feeding on nectar or pollen and explains that insects need food to survive, showing understanding of the insect's basic needs and behavior.",
-        "meets": "Student correctly states that the insect is eating or getting food from the flower with a simple, accurate explanation of why.",
-        "approaching": "Student recognizes the insect is on the flower for food but provides incomplete or unclear reasoning about why the insect needs to be there.",
-        "beginning": "Student makes a vague guess about what the insect is doing (such as 'it's playing') with little or no explanation of purpose."
+        "exceeds": "Student identifies at least three body parts (such as long legs, antennae, and mouthparts) and explains how each specific part helps the insect interact with or get food from flowers.",
+        "meets": "Student identifies at least two body parts (such as legs and antennae) and describes how they help the insect on flowers.",
+        "approaching": "Student names one or two body parts visible on the insect but provides limited or incomplete explanation of how they help with survival on flowers.",
+        "beginning": "Student identifies a body part but provides vague or inaccurate information about its purpose, or confuses insect parts with flower parts."
       }
     },
     {
-      "questionText": "How might this flower be different if no insects ever visited it?",
+      "questionText": "Why might an insect with longer legs be better at visiting flowers than an insect with shorter legs? How could this help it survive?",
       "bloomsLevel": "Analyze",
       "dokLevel": 2,
       "rubric": {
-        "exceeds": "Student explains that without insects, the flower would not be pollinated and could not make seeds or new flowers, demonstrating understanding of the relationship between insects and flower reproduction.",
-        "meets": "Student identifies that the flower would not make seeds or would not be able to reproduce without insects visiting it.",
-        "approaching": "Student recognizes that insects affect the flower in some way but provides limited or partially accurate details about what would change.",
-        "beginning": "Student offers a response that shows minimal understanding, such as 'the flower would be sad' or a response unrelated to the insect's role."
+        "exceeds": "Student explains that longer legs help the insect reach farther or move more easily between flowers, and connects this advantage to gathering more food or energy needed for survival and reproduction.",
+        "meets": "Student explains that longer legs allow the insect to reach flowers more easily or travel between them, and identifies how this helps the insect survive.",
+        "approaching": "Student states that longer legs are helpful but provides incomplete reasoning about how this helps the insect access flowers or get food.",
+        "beginning": "Student mentions longer legs but gives vague or illogical explanation of the advantage, or does not connect the trait to survival."
       }
     },
     {
-      "questionText": "What features of the flower do you think attract insects?",
+      "questionText": "If all the flowers in this area died, what would happen to insects like this one? Use what you know about survival and food.",
       "bloomsLevel": "Analyze",
       "dokLevel": 2,
       "rubric": {
-        "exceeds": "Student identifies multiple specific features (bright color, sweet smell, nectar, pollen, or shape) and explains how each feature helps attract insects to the flower.",
-        "meets": "Student names at least two features of the flower (such as color and smell, or yellow center and petals) that attract insects.",
-        "approaching": "Student identifies one feature that might attract insects but provides limited explanation or mentions only obvious visual characteristics.",
-        "beginning": "Student gives a vague response like 'insects like it' or 'it's pretty' with no specific features mentioned."
+        "exceeds": "Student explains that without flowers, insects would lose their food source and could starve or move away; may also mention effects on other animals that depend on insects for food.",
+        "meets": "Student describes that insects need flowers for food and would have trouble surviving or staying in that area if flowers disappeared.",
+        "approaching": "Student recognizes that flowers are food for insects, but explanation of consequences is incomplete or unclear.",
+        "beginning": "Student makes a simple statement about insects and flowers but shows little understanding of how insects depend on flowers for survival."
       }
     },
     {
-      "questionText": "If all the insects disappeared from an area, what might happen to the flowers?",
-      "bloomsLevel": "Evaluate",
-      "dokLevel": 3,
+      "questionText": "How do you think this insect's babies would look? Would they be exactly like the parent, or might they be different? What traits might they inherit?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
       "rubric": {
-        "exceeds": "Student explains that flowers would not be pollinated, could not make seeds, and would eventually disappear from the area, demonstrating clear understanding of how insects and flowers depend on each other.",
-        "meets": "Student predicts that flowers would have problems making seeds or reproducing, showing understanding that insects are needed for flowers to continue growing.",
-        "approaching": "Student recognizes that something bad would happen to flowers but provides incomplete reasoning or unclear connections between insects and flower survival.",
-        "beginning": "Student makes a prediction that shows minimal understanding, such as 'the flowers would die' without explanation of why insects matter."
+        "exceeds": "Student predicts babies would resemble the parent and explains that traits like leg length, antennae, or color might be inherited; recognizes some differences might occur due to variation.",
+        "meets": "Student predicts that baby insects would look similar to the parent and identifies at least one inherited trait (such as leg length, color, or antennae).",
+        "approaching": "Student attempts to compare babies to parents but provides incomplete description of inherited traits or shows uncertainty about which traits pass from parent to offspring.",
+        "beginning": "Student makes a vague prediction about what babies might look like but does not identify specific traits or how inheritance works."
       }
     }
   ],
-  "generatedAt": "2026-02-15T03:36:37.907Z",
-  "cost": 0.004547
+  "generatedAt": "2026-02-15T06:24:34.849Z",
+  "cost": 0.004901
 }

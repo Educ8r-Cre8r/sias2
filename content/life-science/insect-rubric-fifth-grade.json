@@ -4,50 +4,50 @@
   "gradeLevel": "fifth-grade",
   "questions": [
     {
-      "questionText": "What evidence do you see that suggests this insect and flower help each other survive?",
+      "questionText": "Why do you think this flower is bright white and yellow instead of green like the rest of the plant?",
       "bloomsLevel": "Analyze",
       "dokLevel": 2,
       "rubric": {
-        "exceeds": "Student identifies multiple specific benefits for both organisms (e.g., insect gets food from nectar/pollen while flower gets pollinated for reproduction) and explains how each organism depends on the other using accurate biological vocabulary.",
-        "meets": "Student identifies at least one benefit for the insect and one for the flower, demonstrating understanding of a mutually helpful relationship between the two organisms.",
-        "approaching": "Student recognizes that the insect and flower interact or that one organism benefits, but explanation is incomplete or shows partial understanding of the mutual relationship.",
-        "beginning": "Student provides a vague response such as 'they help each other' without specific evidence from the photo or accurate reasoning about the relationship."
+        "exceeds": "Student explains that bright colors attract insects for pollination and identifies how the specific white petals and yellow center work together as a visual signal to insects; may mention that green is for photosynthesis in leaves.",
+        "meets": "Student correctly identifies that bright colors attract insects and explains that this helps with pollination or getting insects to visit the flower.",
+        "approaching": "Student recognizes that the bright colors attract insects but provides incomplete reasoning about why this matters, or confuses the purpose of flower colors.",
+        "beginning": "Student provides a vague answer such as 'flowers are pretty' or 'it's just how flowers look' with no connection to insect attraction or pollination."
       }
     },
     {
-      "questionText": "How might this daisy's reproduction be affected if no insects visited it?",
+      "questionText": "If all the insects in an area disappeared, what might happen to the flowering plants, and how would that affect other animals that depend on those plants?",
       "bloomsLevel": "Analyze",
       "dokLevel": 3,
       "rubric": {
-        "exceeds": "Student explains that without insect pollinators, the flower cannot transfer pollen to other flowers, preventing fertilization and seed production, and may discuss alternative pollination methods or consequences for plant populations.",
-        "meets": "Student correctly explains that the flower would not be pollinated or would not produce seeds if insects did not visit it, showing understanding of the insect's role in reproduction.",
-        "approaching": "Student recognizes that insects are important to the flower or that something would happen to reproduction, but reasoning is unclear or incomplete.",
-        "beginning": "Student provides a minimal response such as 'it wouldn't grow' without explanation of how pollination or reproduction would be affected."
+        "exceeds": "Student describes a chain of effects: insects disappear → flowers cannot be pollinated → fewer seeds and fruits form → flowering plants decline → animals that eat plants or seeds lose food sources; demonstrates understanding of food chains and ecosystem interdependence.",
+        "meets": "Student explains that without insects, flowers would not be pollinated and produce fewer seeds, and that this would reduce food for animals that depend on plants.",
+        "approaching": "Student identifies that insects disappearing would harm plants or mentions pollination or food chains, but the explanation lacks clear connections between causes and effects.",
+        "beginning": "Student provides a minimal response such as 'plants would die' or 'animals would have no food' without explaining the connection to insects or pollination."
       }
     },
     {
-      "questionText": "What specific body parts does this insect have that make it good at collecting food from flowers?",
+      "questionText": "What do you think the insect is doing when it lands on the flower, and what is it getting from the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the insect is collecting or eating pollen and nectar as food, and describes how the insect benefits from this resource; may note that pollen sticks to the insect's body for pollination.",
+        "meets": "Student correctly identifies that the insect is feeding on pollen and/or nectar from the flower as a food source.",
+        "approaching": "Student recognizes the insect is interacting with the flower for food but provides vague language like 'eating something' or 'getting stuff' without naming pollen or nectar.",
+        "beginning": "Student provides an unclear or inaccurate answer such as 'it's sitting on the flower' or 'it's playing' with no mention of feeding or food."
+      }
+    },
+    {
+      "questionText": "How is the relationship between this insect and the flower different from a relationship where one animal eats another animal for food?",
       "bloomsLevel": "Analyze",
       "dokLevel": 2,
       "rubric": {
-        "exceeds": "Student identifies multiple specific body parts (antennae, legs, mouthparts) visible in the photo and explains how each part helps the insect feed or locate flowers with accurate functional reasoning.",
-        "meets": "Student identifies at least two specific body parts from the insect and explains how they help it collect food from flowers.",
-        "approaching": "Student identifies one or more body parts but provides incomplete or partially accurate explanations of how they function in collecting food.",
-        "beginning": "Student names a general body part (e.g., 'legs' or 'mouth') with little or no explanation of its function in feeding."
-      }
-    },
-    {
-      "questionText": "If you were designing a robot pollinator, what features from this insect would you copy and why?",
-      "bloomsLevel": "Evaluate",
-      "dokLevel": 3,
-      "rubric": {
-        "exceeds": "Student selects multiple insect features (e.g., long antennae for sensing, six legs for stability, small size for flower access) and provides detailed, logical reasoning for why each feature would be useful in a robot pollinator.",
-        "meets": "Student identifies at least two features from the insect and explains with reasonable logic why those features would help a robot pollinator do its job.",
-        "approaching": "Student identifies one or more insect features but reasoning for selection is unclear, incomplete, or shows partial understanding of how the feature aids pollination.",
-        "beginning": "Student names a feature without explaining why it would be useful, or provides vague reasoning unrelated to pollination."
+        "exceeds": "Student explains that both the insect and flower benefit (the insect gets food, the flower gets pollinated), making it a mutually beneficial relationship, unlike predator-prey where only one benefits; may use the term 'symbiosis' or 'mutualism.'",
+        "meets": "Student identifies that the insect-flower relationship is beneficial to both (insect gets food, flower gets help with pollination), while a predator-prey relationship only benefits the predator.",
+        "approaching": "Student recognizes that the relationships are different and mentions that the insect and flower both gain something, but the explanation is unclear or incomplete about how predator-prey differs.",
+        "beginning": "Student provides a vague response such as 'they help each other' or 'it's different' without explaining how the insect-flower relationship differs from predator-prey relationships."
       }
     }
   ],
-  "generatedAt": "2026-02-15T03:36:45.593Z",
-  "cost": 0.004936
+  "generatedAt": "2026-02-15T06:24:51.269Z",
+  "cost": 0.00557
 }

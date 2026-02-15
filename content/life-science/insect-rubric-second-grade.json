@@ -1,0 +1,53 @@
+{
+  "title": "Insect",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the insect gets from visiting the flower, and what does the flower get from the insect visiting?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the insect gets food (pollen or nectar) and the flower gets help making seeds through pollination, using specific details from the photo such as the insect's position on the flower center.",
+        "meets": "Student explains that the insect gets food from the flower and the flower gets something helpful from the insect's visit, showing understanding of the two-way relationship.",
+        "approaching": "Student identifies either what the insect gets OR what the flower gets, but not both, or gives incomplete explanations of the relationship.",
+        "beginning": "Student provides a vague response such as 'the insect likes the flower' or 'the flower helps the insect' without explaining what is exchanged between them."
+      }
+    },
+    {
+      "questionText": "If there were no insects to visit flowers, what might happen to the flowers and the seeds they make?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without insects, flowers would not make seeds or make fewer seeds, connecting this to the lack of pollination and describing how this affects future plants.",
+        "meets": "Student predicts that flowers would have trouble making seeds or that there would be fewer flowers without insects visiting them.",
+        "approaching": "Student recognizes that something would change about flowers or seeds without insects, but the explanation is unclear or partially incorrect.",
+        "beginning": "Student gives a minimal response like 'flowers would die' or 'insects are important' without explaining the connection to seeds."
+      }
+    },
+    {
+      "questionText": "Look at the insect's body. What body parts do you see that might help it climb on the flower or collect pollen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts from the photo (such as long legs, antennae, or claws/feet) and explains how each part helps the insect climb or collect pollen from the flower.",
+        "meets": "Student identifies at least two body parts of the insect and describes how they help it interact with the flower, using observations from the photo.",
+        "approaching": "Student identifies one body part correctly or mentions multiple parts without clear explanations of how they help the insect on the flower.",
+        "beginning": "Student names a general body part like 'legs' or 'head' without explaining how it helps the insect on the flower."
+      }
+    },
+    {
+      "questionText": "How might a daisy flower in a garden be different from a daisy flower in a wild meadow, and which insects might visit each one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes specific differences such as garden flowers being closer together or different sizes, and explains that different insects (like garden bees versus wild insects) might visit each location based on what's available.",
+        "meets": "Student identifies at least one difference between garden and wild daisies and suggests that different types of insects might visit each setting.",
+        "approaching": "Student recognizes that garden and wild flowers might be different or that different insects visit them, but explanations lack detail or clarity.",
+        "beginning": "Student provides a vague comparison like 'one is bigger' or 'different bugs go there' without supporting reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:24:27.680Z",
+  "cost": 0.005048
+}

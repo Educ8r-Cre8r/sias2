@@ -1,0 +1,53 @@
+{
+  "title": "Insect",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think the bug needs from the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bug gets food (nectar or pollen) from the flower's yellow center and explains why the bug needs this food to survive and have energy.",
+        "meets": "Student correctly identifies that the bug gets food from the flower or eats something from the yellow center of the flower.",
+        "approaching": "Student mentions the bug gets something from the flower but is vague about what it is or why the bug needs it.",
+        "beginning": "Student makes a guess about the bug and flower but shows little understanding of their relationship or what the bug needs."
+      }
+    },
+    {
+      "questionText": "How does the bug help the flower?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bug carries pollen or yellow powder from the flower to help make new flowers, and describes how this happens when the bug lands on and walks around the flower.",
+        "meets": "Student identifies that the bug helps the flower by moving pollen or helping make new flowers, or that the bug spreads something from the flower.",
+        "approaching": "Student recognizes the bug and flower help each other but cannot clearly explain how the bug helps the flower.",
+        "beginning": "Student provides a vague response such as 'the bug helps' without explaining how or with minimal connection to the photo."
+      }
+    },
+    {
+      "questionText": "What would happen to the flower if insects stopped visiting?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that flowers would not make seeds or new flowers, and explains that insects are needed to move pollen, showing understanding of why this relationship matters.",
+        "meets": "Student predicts a reasonable consequence such as the flower cannot make seeds, cannot make new flowers, or would not grow new flowers.",
+        "approaching": "Student recognizes something would change but gives a vague prediction like 'the flower would die' without connecting it to the bug's role.",
+        "beginning": "Student makes a prediction but it shows little understanding of why insects visiting flowers is important."
+      }
+    },
+    {
+      "questionText": "Where else have you seen a bug visiting a flower? What was the bug doing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes a specific location where they observed a bug on a flower and explains what the bug was doing (eating, getting food, moving on petals) with details similar to the photo.",
+        "meets": "Student shares a place where they saw a bug and a flower, and describes what the bug was doing such as sitting, eating, or walking on the flower.",
+        "approaching": "Student mentions seeing a bug and flower in another place but the description of what the bug was doing is vague or unclear.",
+        "beginning": "Student attempts to answer by naming a place or a bug but provides minimal detail about what was actually happening."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:24:13.599Z",
+  "cost": 0.004462
+}

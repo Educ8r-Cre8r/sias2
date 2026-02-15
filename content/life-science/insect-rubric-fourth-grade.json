@@ -1,0 +1,53 @@
+{
+  "title": "Insect",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this insect has such long, thin legs instead of short, thick legs like a beetle might have?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long, thin legs help the insect reach across the flower to hunt prey, move quickly to escape danger, or position itself on flowers without sinking into petals, and identifies this as an adaptation to its hunting lifestyle.",
+        "meets": "Student identifies that long, thin legs help the insect move across flowers or hunt for food, and explains that this body structure is useful for the insect's survival.",
+        "approaching": "Student states that long, thin legs help the insect in some way, such as moving or reaching, but provides incomplete reasoning about why this structure is beneficial.",
+        "beginning": "Student makes a vague observation about the legs (e.g., \"they help it move\" or \"they're different\") with little explanation of purpose or function."
+      }
+    },
+    {
+      "questionText": "What sensory information do you think the insect's antennae and eyes are collecting while it sits on the flower, and how might the insect use that information?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that antennae detect smell and touch to find prey or food sources, and eyes detect movement or light, then explains how the insect uses this sensory information together to hunt successfully or locate resources.",
+        "meets": "Student correctly identifies what antennae and eyes sense (such as smell, touch, or movement) and describes one way the insect uses this information to find food or survive on the flower.",
+        "approaching": "Student identifies that antennae and/or eyes collect information but provides incomplete or partially accurate descriptions of what they sense or how it's used.",
+        "beginning": "Student makes a general statement about the antennae or eyes (e.g., \"they help it see\") with minimal explanation of what information is collected or how it's used."
+      }
+    },
+    {
+      "questionText": "If all the flowers in this area disappeared, how would that affect this insect's ability to survive and reproduce?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that flowers attract prey insects, so without flowers the predatory insect loses its hunting ground and food source, which would prevent it from surviving and reproducing; may mention effects on the food chain or ecosystem.",
+        "meets": "Student identifies that the insect would lose access to food or prey without flowers, and explains that this would make it difficult for the insect to survive and have offspring.",
+        "approaching": "Student recognizes that losing flowers would negatively affect the insect but provides incomplete reasoning about the connection between flowers, food sources, and survival.",
+        "beginning": "Student states that the insect would be affected by losing flowers but offers little explanation of why or how this would impact survival or reproduction."
+      }
+    },
+    {
+      "questionText": "How is the insect's hunting behavior an example of adaptation?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the insect's body structure (long legs, antennae, eyes) and its behavior of waiting on flowers are adaptations that help it catch prey efficiently, and identifies how these traits developed over time to increase survival.",
+        "meets": "Student identifies that the insect's hunting behavior on flowers is an adaptation and explains how its physical features or positioning help it survive by catching food.",
+        "approaching": "Student recognizes that hunting on flowers is related to adaptation but provides incomplete or unclear connections between the insect's behavior and its survival.",
+        "beginning": "Student mentions adaptation but offers minimal explanation of how the insect's hunting behavior is an example of adaptation or why this behavior helps the insect survive."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:24:43.050Z",
+  "cost": 0.005442
+}
