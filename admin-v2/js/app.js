@@ -32,7 +32,9 @@ function resolveAssetUrl(relativePath) {
   if (STORAGE_ENABLED && (
     cleaned.startsWith('images/') ||
     cleaned.startsWith('pdfs/') ||
-    cleaned.startsWith('5e_lessons/')
+    cleaned.startsWith('5e_lessons/') ||
+    cleaned.startsWith('exit_tickets/') ||
+    cleaned.startsWith('exit_ticket_rubrics/')
   )) {
     return `https://firebasestorage.googleapis.com/v0/b/${STORAGE_BUCKET}/o/${encodeURIComponent(cleaned)}?alt=media`;
   }
@@ -113,6 +115,7 @@ function switchTab(tabName) {
     if (tabName === 'analytics' && typeof loadAnalytics === 'function') loadAnalytics();
     if (tabName === 'comments' && typeof loadComments === 'function') loadComments();
     if (tabName === 'traffic' && typeof loadGA4Analytics === 'function') loadGA4Analytics();
+    if (tabName === 'backfill' && typeof renderBackfillStats === 'function') renderBackfillStats();
 }
 
 /**
@@ -224,6 +227,7 @@ function computeAssociatedFiles(image) {
             ...grades.map(g => `content/${category}/${nameNoExt}-${g}.json`),
             `content/${category}/${nameNoExt}-edp.json`,
             ...grades.map(g => `content/${category}/${nameNoExt}-5e-${g}.json`),
+            ...grades.map(g => `content/${category}/${nameNoExt}-rubric-${g}.json`),
         ],
         hotspots: [
             `hotspots/${category}/${nameNoExt}.json`,
@@ -234,6 +238,12 @@ function computeAssociatedFiles(image) {
         ],
         fiveE: [
             ...grades.map(g => `5e_lessons/${category}/${nameNoExt}-${g}.pdf`),
+        ],
+        exitTickets: [
+            ...grades.map(g => `exit_tickets/${category}/${nameNoExt}-exit-ticket-${g}.pdf`),
+        ],
+        rubrics: [
+            ...grades.map(g => `exit_ticket_rubrics/${category}/${nameNoExt}-rubric-${g}.pdf`),
         ]
     };
 }
@@ -242,7 +252,7 @@ function computeAssociatedFiles(image) {
  * Count total files from associated files object
  */
 function countAssociatedFiles(filesObj) {
-    return filesObj.images.length + filesObj.content.length + filesObj.hotspots.length + filesObj.pdfs.length + (filesObj.fiveE ? filesObj.fiveE.length : 0);
+    return filesObj.images.length + filesObj.content.length + filesObj.hotspots.length + filesObj.pdfs.length + (filesObj.fiveE ? filesObj.fiveE.length : 0) + (filesObj.exitTickets ? filesObj.exitTickets.length : 0) + (filesObj.rubrics ? filesObj.rubrics.length : 0);
 }
 
 /**

@@ -526,6 +526,8 @@ exports.processQueue = functions.runWith({
   try {
     if (taskType === '5e-generation') {
       await process5EFromQueue(item);
+    } else if (taskType === 'rubric-generation') {
+      await processRubricFromQueue(item);
     } else {
       await processImageFromQueue(item);
     }
@@ -544,8 +546,8 @@ exports.processQueue = functions.runWith({
 
     if (attempts >= 3) {
       await doc.ref.update({ status: 'failed', error: error.message, attempts });
-      // Only move to failed/ for image-processing tasks (not 5E follow-ups)
-      if (taskType !== '5e-generation') {
+      // Only move to failed/ for image-processing tasks (not 5E/rubric follow-ups)
+      if (taskType !== '5e-generation' && taskType !== 'rubric-generation') {
         const bucket = admin.storage().bucket();
         try {
           await bucket.file(item.filePath).move(`failed/${Date.now()}_${item.filename}`);
@@ -788,6 +790,34 @@ async function processImageFromQueue(queueItem) {
     }
     console.log(`✅ Generated ${pdfCount} lesson PDFs`);
 
+    // Generate Exit Ticket PDFs for all 6 grade levels
+    console.log('🎫 Generating Exit Ticket PDFs...');
+    const { generateExitTicketPDF } = require('./exit-ticket-generator');
+    let exitTicketCount = 0;
+
+    for (const grade of GRADE_LEVELS) {
+      try {
+        const contentPath = path.join(repoDir, 'content', category, `${nameNoExt}-${grade.key}.json`);
+        const contentData = JSON.parse(await fs.readFile(contentPath, 'utf8'));
+
+        const exitTicketBuffer = await generateExitTicketPDF({
+          title: generateTitle(filename),
+          category,
+          gradeLevel: grade.key,
+          markdownContent: contentData.content,
+          imagePath: targetImagePath,
+          logoPath
+        });
+
+        await uploadBufferToGalleryStorage(exitTicketBuffer, `exit_tickets/${category}/${nameNoExt}-exit-ticket-${grade.key}.pdf`, 'application/pdf');
+        exitTicketCount++;
+        console.log(`   ✅ ${grade.name} Exit Ticket generated`);
+      } catch (etErr) {
+        console.warn(`   ⚠️ ${grade.name} Exit Ticket failed (non-blocking): ${etErr.message}`);
+      }
+    }
+    console.log(`✅ Generated ${exitTicketCount} Exit Ticket PDFs`);
+
     // Generate Engineering Design Process content and PDF
     console.log('🔧 Generating Engineering Design Process content...');
     try {
@@ -817,6 +847,24 @@ async function processImageFromQueue(queueItem) {
       console.log('✅ 5E generation queued for next processing cycle');
     } catch (queueErr) {
       console.warn(`⚠️ Failed to queue 5E generation: ${queueErr.message}`);
+    }
+
+    // Queue Rubric generation as a separate follow-up task
+    console.log('📊 Queueing Rubric generation as follow-up task...');
+    try {
+      await db.collection('imageQueue').add({
+        type: 'rubric-generation',
+        filename,
+        category,
+        filePath: `processed/${category}/${filename}`,
+        nameNoExt,
+        status: 'pending',
+        createdAt: admin.firestore.FieldValue.serverTimestamp(),
+        attempts: 0
+      });
+      console.log('✅ Rubric generation queued for next processing cycle');
+    } catch (queueErr) {
+      console.warn(`⚠️ Failed to queue Rubric generation: ${queueErr.message}`);
     }
 
     // Calculate processing duration
@@ -1028,6 +1076,275 @@ Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
     // Clean up temp files on error
     try {
       await fs.rm(tempFilePath, { force: true });
+      await fs.rm(path.join(tempDir, 'sias2-repo'), { recursive: true, force: true });
+    } catch (e) {}
+
+    throw error;
+  }
+}
+
+// ============================================================
+// Rubric Generation
+// ============================================================
+
+const RUBRIC_SYSTEM_PROMPT = `You are an expert K-5 Science Assessment Developer. You create 4-point rubric scoring criteria for science discussion questions based on photographs. Your rubrics are used by elementary teachers to evaluate student responses.
+
+## Rubric Scale
+- Exceeds Expectations (4): Student demonstrates deep understanding with specific details, scientific vocabulary, and connections beyond the question's scope.
+- Meets Expectations (3): Student demonstrates solid understanding with accurate details and reasonable explanations.
+- Approaching Expectations (2): Student shows partial understanding with some accurate elements but incomplete reasoning.
+- Beginning (1): Student provides minimal, vague, or inaccurate response with little evidence of understanding.
+
+## Guidelines
+1. Criteria must be grade-appropriate — use vocabulary and expectations matching the specified grade level.
+2. Each level must be clearly distinguishable from adjacent levels.
+3. "Exceeds" should describe what an exemplary student response looks like — not just "more than Meets."
+4. "Beginning" should still describe an attempt, not a blank response.
+5. Criteria should reference observable/measurable student behaviors, not subjective judgments.
+6. Keep each criterion to 1-2 sentences for printability.
+7. Reference specific science concepts from the photo/content when writing criteria.
+
+Output format: Respond ONLY with valid JSON matching this schema:
+{
+  "questions": [
+    {
+      "questionText": "the full question text without Bloom's/DOK annotations",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "description...",
+        "meets": "description...",
+        "approaching": "description...",
+        "beginning": "description..."
+      }
+    }
+  ]
+}`;
+
+/**
+ * Process rubric generation from the queue.
+ * Reads existing content JSONs, calls Claude API for rubric criteria, generates PDFs.
+ */
+async function processRubricFromQueue(queueItem) {
+  const { filename, category, filePath, nameNoExt } = queueItem;
+  const bucket = admin.storage().bucket();
+  const anthropicKey = process.env.ANTHROPIC_API_KEY;
+
+  console.log(`📊 Rubric Generation: ${filename}`);
+  console.log(`📂 Category: ${category}`);
+
+  const rubricStartTime = Date.now();
+  const tempDir = os.tmpdir();
+
+  try {
+    // Clone repo (sparse — only JSON + logo needed)
+    const repoDir = path.join(tempDir, 'sias2-repo');
+    const githubToken = process.env.GITHUB_TOKEN;
+    const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+
+    const repoGit = await sparseClone(repoUrl, repoDir, [
+      'sias_logo.png',
+      'gallery-metadata.json',
+      `content/${category}/`,
+    ], { userName: 'SIAS Automation' });
+
+    const logoPath = path.join(repoDir, 'sias_logo.png');
+    const anthropic = new Anthropic({ apiKey: anthropicKey });
+    const { generateRubricPDF } = require('./rubric-generator');
+    const { extractDiscussionQuestions } = require('./exit-ticket-generator');
+
+    const contentDir = path.join(repoDir, 'content', category);
+    let totalCost = 0;
+    let rubricCount = 0;
+
+    for (const grade of GRADE_LEVELS) {
+      console.log(`   📊 Generating ${grade.name} rubric...`);
+
+      try {
+        // Read existing content JSON
+        const contentPath = path.join(contentDir, `${nameNoExt}-${grade.key}.json`);
+        const contentData = JSON.parse(await fs.readFile(contentPath, 'utf8'));
+
+        // Extract discussion questions from markdown
+        const questions = extractDiscussionQuestions(contentData.content);
+        if (questions.length === 0) {
+          console.warn(`   ⚠️ No discussion questions found for ${grade.name}, skipping rubric`);
+          continue;
+        }
+
+        // Extract brief content summary for context
+        const descMatch = contentData.content.match(/##\s*📸\s*Photo Description\s*\n([\s\S]*?)(?=\n##\s|$)/);
+        const contentSummary = descMatch ? descMatch[1].trim().substring(0, 300) : '';
+
+        // Format questions for the AI prompt
+        const questionsForPrompt = questions.map((q, i) => `${i + 1}. ${q}`).join('\n');
+
+        const userPrompt = `Photo: ${filename}
+Category: ${category}
+Grade Level: ${grade.name}
+
+Here are the discussion questions from the existing lesson content:
+
+${questionsForPrompt}
+
+Here is a brief content summary for context:
+${contentSummary}
+
+Generate a 4-point rubric for each question. Make criteria specific to the science content visible in this photo.`;
+
+        // Call Claude API for rubric content
+        let response;
+        const RETRY_DELAYS = [5000, 15000, 45000];
+        for (let attempt = 1; attempt <= 3; attempt++) {
+          try {
+            response = await anthropic.messages.create({
+              model: 'claude-haiku-4-5-20251001',
+              max_tokens: 4096,
+              system: [{
+                type: 'text',
+                text: RUBRIC_SYSTEM_PROMPT,
+                cache_control: { type: 'ephemeral' }
+              }],
+              messages: [{
+                role: 'user',
+                content: userPrompt
+              }]
+            });
+            break;
+          } catch (apiErr) {
+            if (attempt < 3 && (apiErr.status === 429 || apiErr.status === 529)) {
+              console.warn(`   ⚠️ API rate limited (attempt ${attempt}/3), retrying in ${RETRY_DELAYS[attempt - 1] / 1000}s...`);
+              await new Promise(r => setTimeout(r, RETRY_DELAYS[attempt - 1]));
+            } else {
+              throw apiErr;
+            }
+          }
+        }
+
+        // Calculate cost
+        const usage = response.usage || {};
+        const inputCost = ((usage.input_tokens || 0) * 1 + (usage.cache_creation_input_tokens || 0) * 1.25 + (usage.cache_read_input_tokens || 0) * 0.1) / 1000000;
+        const outputCost = ((usage.output_tokens || 0) * 5) / 1000000;
+        const callCost = inputCost + outputCost;
+        totalCost += callCost;
+
+        // Parse the rubric JSON response
+        const responseText = response.content[0].text.trim();
+        let rubricData;
+        try {
+          // Try to extract JSON from response (may be wrapped in markdown code block)
+          const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+          if (jsonMatch) {
+            rubricData = JSON.parse(jsonMatch[0]);
+          } else {
+            throw new Error('No JSON found in response');
+          }
+        } catch (parseErr) {
+          console.warn(`   ⚠️ Failed to parse rubric JSON for ${grade.name}: ${parseErr.message}`);
+          continue;
+        }
+
+        // Save rubric content JSON to git
+        const rubricJsonPath = path.join(contentDir, `${nameNoExt}-rubric-${grade.key}.json`);
+        const rubricJsonContent = {
+          title: generateTitle(filename),
+          category,
+          gradeLevel: grade.key,
+          questions: rubricData.questions,
+          generatedAt: new Date().toISOString(),
+          cost: parseFloat(callCost.toFixed(6))
+        };
+        await fs.writeFile(rubricJsonPath, JSON.stringify(rubricJsonContent, null, 2));
+
+        // Generate rubric PDF
+        const rubricPdfBuffer = await generateRubricPDF({
+          title: generateTitle(filename),
+          category,
+          gradeLevel: grade.key,
+          rubricData: rubricJsonContent,
+          logoPath
+        });
+
+        // Upload rubric PDF to Storage
+        await uploadBufferToGalleryStorage(
+          rubricPdfBuffer,
+          `exit_ticket_rubrics/${category}/${nameNoExt}-rubric-${grade.key}.pdf`,
+          'application/pdf'
+        );
+
+        rubricCount++;
+        console.log(`   ✅ ${grade.name} rubric generated (cost: $${callCost.toFixed(4)})`);
+
+      } catch (gradeErr) {
+        console.warn(`   ⚠️ ${grade.name} rubric failed (non-blocking): ${gradeErr.message}`);
+      }
+    }
+
+    // Calculate rubric processing time
+    const rubricDurationMs = Date.now() - rubricStartTime;
+    const rubricMinutes = Math.floor(rubricDurationMs / 60000);
+    const rubricSeconds = Math.round((rubricDurationMs % 60000) / 1000);
+    const rubricTimeStr = `${rubricMinutes}m ${rubricSeconds}s`;
+
+    // Update metadata with rubric cost
+    const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+    const metadataData = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+    const imageEntry = metadataData.images.find(img => img.filename === filename);
+    const combinedCost = parseFloat(((imageEntry?.processingCost || 0) + totalCost).toFixed(4));
+    if (imageEntry) {
+      imageEntry.processingCost = combinedCost;
+
+      // Combine processing times
+      const existingMatch = (imageEntry.processingTime || '').match(/(\d+)m\s*(\d+)s/);
+      const existingMs = existingMatch
+        ? (parseInt(existingMatch[1]) * 60000 + parseInt(existingMatch[2]) * 1000)
+        : 0;
+      const totalMs = existingMs + rubricDurationMs;
+      const totalMinutes = Math.floor(totalMs / 60000);
+      const totalSeconds = Math.round((totalMs % 60000) / 1000);
+      imageEntry.processingTime = `${totalMinutes}m ${totalSeconds}s`;
+
+      await fs.writeFile(metadataPath, JSON.stringify(metadataData, null, 2));
+      console.log(`✅ Updated processing cost (+$${totalCost.toFixed(4)}) and time (+${rubricTimeStr}) in metadata`);
+    }
+
+    // Update Firestore
+    await db.collection('processingCosts').doc(filename).set({
+      cost: combinedCost,
+      processingTime: imageEntry?.processingTime || rubricTimeStr,
+      phase: 'complete',
+      updatedAt: admin.firestore.FieldValue.serverTimestamp()
+    }, { merge: true });
+
+    // Commit and push rubric JSONs
+    console.log('📤 Committing rubric content to GitHub...');
+    await repoGit.add('.');
+    await repoGit.commit(`Add scoring rubrics for ${filename}
+
+- Generated ${rubricCount} grade-level rubric JSONs (K-5)
+- Uploaded ${rubricCount} rubric PDFs to Storage
+- Total rubric cost: $${totalCost.toFixed(4)}
+
+Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
+
+    await pushWithRetry(repoGit);
+    console.log('✅ Rubric content pushed to GitHub');
+
+    // Clean up
+    await fs.rm(repoDir, { recursive: true, force: true });
+
+    console.log('🎉 ============================================');
+    console.log(`✅ Rubric generation complete: ${filename}`);
+    console.log(`📊 Generated ${rubricCount} rubrics`);
+    console.log(`💰 Rubric cost: $${totalCost.toFixed(4)}`);
+    console.log('🎉 ============================================');
+
+    return { success: true, filename, cost: totalCost };
+
+  } catch (error) {
+    console.error('❌ Error in rubric generation:', error);
+
+    try {
       await fs.rm(path.join(tempDir, 'sias2-repo'), { recursive: true, force: true });
     } catch (e) {}
 
@@ -2577,6 +2894,8 @@ exports.adminDeleteImage = functions
         `content/${category}/${nameNoExt}-edp.json`,
         // 5E content files
         ...grades.map(g => `content/${category}/${nameNoExt}-5e-${g}.json`),
+        // Rubric content files
+        ...grades.map(g => `content/${category}/${nameNoExt}-rubric-${g}.json`),
         // Hotspots
         `hotspots/${category}/${nameNoExt}.json`,
         // PDFs
@@ -2642,6 +2961,10 @@ Co-Authored-By: SIAS Admin <${ADMIN_EMAIL}>`);
         `pdfs/${category}/${nameNoExt}-edp.pdf`,
         // 5E lesson PDFs
         ...grades.map(g => `5e_lessons/${category}/${nameNoExt}-${g}.pdf`),
+        // Exit Ticket PDFs
+        ...grades.map(g => `exit_tickets/${category}/${nameNoExt}-exit-ticket-${g}.pdf`),
+        // Rubric PDFs
+        ...grades.map(g => `exit_ticket_rubrics/${category}/${nameNoExt}-rubric-${g}.pdf`),
         // Processed source image
         `processed/${category}/${filename}`,
       ];
@@ -2981,7 +3304,7 @@ exports.adminUpdateImageMetadata = functions
  * Saves updated content JSON, regenerates the PDF, backs up original, commits to GitHub.
  */
 exports.adminEditContent = functions
-  .runWith({ memory: '1GB', timeoutSeconds: 540, secrets: ['GITHUB_TOKEN'] })
+  .runWith({ memory: '1GB', timeoutSeconds: 540, secrets: ['GITHUB_TOKEN', 'ANTHROPIC_API_KEY'] })
   .https.onCall(async (data, context) => {
     await verifyAdmin(context);
 
@@ -3091,6 +3414,86 @@ exports.adminEditContent = functions
         // Upload regenerated PDF to Storage instead of writing to git
         await uploadBufferToGalleryStorage(pdfBuffer, storagePdfPath, 'application/pdf');
         console.log(`   ✅ ${gradeLabel} PDF regenerated and uploaded to Storage`);
+
+        // Regenerate exit ticket PDF (no AI call needed — just re-extracts questions)
+        if (!isEDP) {
+          try {
+            const { generateExitTicketPDF } = require('./exit-ticket-generator');
+            const exitTicketBuffer = await generateExitTicketPDF({
+              title: image.title,
+              category,
+              gradeLevel,
+              markdownContent: content,
+              imagePath: tempImagePath,
+              logoPath
+            });
+            await uploadBufferToGalleryStorage(
+              exitTicketBuffer,
+              `exit_tickets/${category}/${nameNoExt}-exit-ticket-${gradeLevel}.pdf`,
+              'application/pdf'
+            );
+            console.log(`   ✅ ${gradeLabel} Exit Ticket regenerated`);
+          } catch (etErr) {
+            console.warn(`   ⚠️ Exit Ticket regeneration failed (non-blocking): ${etErr.message}`);
+          }
+
+          // Regenerate rubric (requires AI call for new scoring criteria)
+          try {
+            const anthropicKey = process.env.ANTHROPIC_API_KEY;
+            if (anthropicKey) {
+              const anthropic = new Anthropic({ apiKey: anthropicKey });
+              const { generateRubricPDF } = require('./rubric-generator');
+              const { extractDiscussionQuestions } = require('./exit-ticket-generator');
+
+              const questions = extractDiscussionQuestions(content);
+              if (questions.length > 0) {
+                const descMatch = content.match(/##\s*📸\s*Photo Description\s*\n([\s\S]*?)(?=\n##\s|$)/);
+                const contentSummary = descMatch ? descMatch[1].trim().substring(0, 300) : '';
+                const questionsForPrompt = questions.map((q, i) => `${i + 1}. ${q}`).join('\n');
+
+                const grade = GRADE_LEVELS.find(g => g.key === gradeLevel);
+                const response = await anthropic.messages.create({
+                  model: 'claude-haiku-4-5-20251001',
+                  max_tokens: 4096,
+                  system: [{ type: 'text', text: RUBRIC_SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } }],
+                  messages: [{ role: 'user', content: `Photo: ${image.filename}\nCategory: ${category}\nGrade Level: ${grade?.name || gradeLevel}\n\nDiscussion questions:\n${questionsForPrompt}\n\nContent summary:\n${contentSummary}\n\nGenerate a 4-point rubric for each question.` }]
+                });
+
+                const responseText = response.content[0].text.trim();
+                const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+                if (jsonMatch) {
+                  const rubricData = JSON.parse(jsonMatch[0]);
+                  const rubricJsonContent = {
+                    title: image.title,
+                    category,
+                    gradeLevel,
+                    questions: rubricData.questions,
+                    generatedAt: new Date().toISOString()
+                  };
+
+                  // Save rubric JSON to git
+                  const rubricJsonPath = path.join(repoDir, 'content', category, `${nameNoExt}-rubric-${gradeLevel}.json`);
+                  await fs.writeFile(rubricJsonPath, JSON.stringify(rubricJsonContent, null, 2));
+
+                  // Generate and upload rubric PDF
+                  const rubricPdfBuffer = await generateRubricPDF({
+                    title: image.title, category, gradeLevel, rubricData: rubricJsonContent, logoPath
+                  });
+                  await uploadBufferToGalleryStorage(
+                    rubricPdfBuffer,
+                    `exit_ticket_rubrics/${category}/${nameNoExt}-rubric-${gradeLevel}.pdf`,
+                    'application/pdf'
+                  );
+                  console.log(`   ✅ ${gradeLabel} Rubric regenerated`);
+                }
+              }
+            } else {
+              console.warn('   ⚠️ ANTHROPIC_API_KEY not available, skipping rubric regeneration');
+            }
+          } catch (rubricErr) {
+            console.warn(`   ⚠️ Rubric regeneration failed (non-blocking): ${rubricErr.message}`);
+          }
+        }
 
         await fs.rm(tempImagePath, { force: true });
       } catch (pdfErr) {
@@ -4334,6 +4737,258 @@ exports.adminGetGA4Report = functions
       console.error('GA4 API error:', error);
       if (error instanceof functions.https.HttpsError) throw error;
       throw new functions.https.HttpsError('internal', 'GA4 report failed: ' + error.message);
+    }
+  });
+
+// ============================================================
+// Backfill: Exit Tickets & Rubrics
+// ============================================================
+
+/**
+ * Admin: Backfill Exit Ticket PDFs for existing images (no AI calls, fast)
+ * Processes a batch of images, generating exit ticket PDFs from existing content JSONs.
+ */
+exports.adminBackfillExitTickets = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 540, secrets: ['GITHUB_TOKEN'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { batchStart = 0, batchSize = 10 } = data;
+    console.log(`🎫 Backfill Exit Tickets: batch ${batchStart} to ${batchStart + batchSize - 1}`);
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-backfill-et');
+
+    try {
+      const githubToken = process.env.GITHUB_TOKEN;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'sias_logo.png',
+        'gallery-metadata.json',
+        'content/*/',
+      ], { userName: 'SIAS Automation' });
+
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+      const logoPath = path.join(repoDir, 'sias_logo.png');
+
+      const { generateExitTicketPDF } = require('./exit-ticket-generator');
+      const grades = GRADE_LEVELS;
+      const batch = metadata.images.slice(batchStart, batchStart + batchSize);
+
+      let processedCount = 0;
+      let pdfCount = 0;
+      const errors = [];
+
+      for (const image of batch) {
+        const nameNoExt = image.filename.replace(/\.[^/.]+$/, '');
+        const category = image.category;
+
+        // Download image from Storage for thumbnail
+        let imageBuffer = null;
+        try {
+          const galleryBucket = admin.storage().bucket(GALLERY_BUCKET);
+          const [buffer] = await galleryBucket.file(`images/${category}/${image.filename}`).download();
+          imageBuffer = buffer;
+        } catch (e) {
+          console.warn(`   ⚠️ Could not download image for ${image.filename}, generating without thumbnail`);
+        }
+
+        for (const grade of grades) {
+          try {
+            const contentPath = path.join(repoDir, 'content', category, `${nameNoExt}-${grade.key}.json`);
+            const contentData = JSON.parse(await fs.readFile(contentPath, 'utf8'));
+
+            const exitTicketBuffer = await generateExitTicketPDF({
+              title: image.title || generateTitle(image.filename),
+              category,
+              gradeLevel: grade.key,
+              markdownContent: contentData.content,
+              imagePath: imageBuffer,
+              logoPath
+            });
+
+            await uploadBufferToGalleryStorage(
+              exitTicketBuffer,
+              `exit_tickets/${category}/${nameNoExt}-exit-ticket-${grade.key}.pdf`,
+              'application/pdf'
+            );
+            pdfCount++;
+          } catch (err) {
+            const errMsg = `${image.filename} / ${grade.name}: ${err.message}`;
+            console.warn(`   ⚠️ ${errMsg}`);
+            errors.push(errMsg);
+          }
+        }
+
+        processedCount++;
+        console.log(`   ✅ ${image.filename} (${pdfCount} total PDFs)`);
+      }
+
+      await fs.rm(repoDir, { recursive: true, force: true });
+
+      const hasMore = batchStart + batchSize < metadata.images.length;
+      console.log(`✅ Backfill complete: ${processedCount} images, ${pdfCount} PDFs, ${errors.length} errors`);
+
+      return {
+        success: true,
+        processed: processedCount,
+        pdfs: pdfCount,
+        errors,
+        total: metadata.images.length,
+        nextBatch: hasMore ? batchStart + batchSize : null,
+        hasMore
+      };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('Backfill exit tickets error:', error);
+      throw new functions.https.HttpsError('internal', 'Backfill failed: ' + error.message);
+    }
+  });
+
+/**
+ * Admin: Backfill Rubric PDFs for existing images (requires AI calls)
+ * Processes a batch of images, generating rubric content and PDFs.
+ */
+exports.adminBackfillRubrics = functions
+  .runWith({ memory: '1GB', timeoutSeconds: 540, secrets: ['GITHUB_TOKEN', 'ANTHROPIC_API_KEY'] })
+  .https.onCall(async (data, context) => {
+    await verifyAdmin(context);
+
+    const { batchStart = 0, batchSize = 3 } = data;
+    console.log(`📊 Backfill Rubrics: batch ${batchStart} to ${batchStart + batchSize - 1}`);
+
+    const tempDir = os.tmpdir();
+    const repoDir = path.join(tempDir, 'sias2-backfill-rubric');
+
+    try {
+      const githubToken = process.env.GITHUB_TOKEN;
+      const anthropicKey = process.env.ANTHROPIC_API_KEY;
+      const repoUrl = `https://${githubToken}@github.com/Educ8r-Cre8r/sias2.git`;
+
+      const repoGit = await sparseClone(repoUrl, repoDir, [
+        'sias_logo.png',
+        'gallery-metadata.json',
+        'content/*/',
+      ], { userName: 'SIAS Automation' });
+
+      const metadataPath = path.join(repoDir, 'gallery-metadata.json');
+      const metadata = JSON.parse(await fs.readFile(metadataPath, 'utf8'));
+      const logoPath = path.join(repoDir, 'sias_logo.png');
+
+      const anthropic = new Anthropic({ apiKey: anthropicKey });
+      const { generateRubricPDF } = require('./rubric-generator');
+      const { extractDiscussionQuestions } = require('./exit-ticket-generator');
+      const grades = GRADE_LEVELS;
+      const batch = metadata.images.slice(batchStart, batchStart + batchSize);
+
+      let processedCount = 0;
+      let pdfCount = 0;
+      let totalCost = 0;
+      const errors = [];
+
+      for (const image of batch) {
+        const nameNoExt = image.filename.replace(/\.[^/.]+$/, '');
+        const category = image.category;
+        const contentDir = path.join(repoDir, 'content', category);
+
+        for (const grade of grades) {
+          try {
+            const contentPath = path.join(contentDir, `${nameNoExt}-${grade.key}.json`);
+            const contentData = JSON.parse(await fs.readFile(contentPath, 'utf8'));
+
+            const questions = extractDiscussionQuestions(contentData.content);
+            if (questions.length === 0) continue;
+
+            const descMatch = contentData.content.match(/##\s*📸\s*Photo Description\s*\n([\s\S]*?)(?=\n##\s|$)/);
+            const contentSummary = descMatch ? descMatch[1].trim().substring(0, 300) : '';
+            const questionsForPrompt = questions.map((q, i) => `${i + 1}. ${q}`).join('\n');
+
+            const response = await anthropic.messages.create({
+              model: 'claude-haiku-4-5-20251001',
+              max_tokens: 4096,
+              system: [{ type: 'text', text: RUBRIC_SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } }],
+              messages: [{ role: 'user', content: `Photo: ${image.filename}\nCategory: ${category}\nGrade Level: ${grade.name}\n\nDiscussion questions:\n${questionsForPrompt}\n\nContent summary:\n${contentSummary}\n\nGenerate a 4-point rubric for each question.` }]
+            });
+
+            const usage = response.usage || {};
+            const callCost = ((usage.input_tokens || 0) * 1 + (usage.cache_creation_input_tokens || 0) * 1.25 + (usage.cache_read_input_tokens || 0) * 0.1 + (usage.output_tokens || 0) * 5) / 1000000;
+            totalCost += callCost;
+
+            const responseText = response.content[0].text.trim();
+            const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+            if (!jsonMatch) continue;
+
+            const rubricData = JSON.parse(jsonMatch[0]);
+            const rubricJsonContent = {
+              title: image.title || generateTitle(image.filename),
+              category,
+              gradeLevel: grade.key,
+              questions: rubricData.questions,
+              generatedAt: new Date().toISOString(),
+              cost: parseFloat(callCost.toFixed(6))
+            };
+
+            // Save rubric JSON to git
+            const rubricJsonPath = path.join(contentDir, `${nameNoExt}-rubric-${grade.key}.json`);
+            await fs.writeFile(rubricJsonPath, JSON.stringify(rubricJsonContent, null, 2));
+
+            // Generate and upload PDF
+            const rubricPdfBuffer = await generateRubricPDF({
+              title: image.title || generateTitle(image.filename),
+              category,
+              gradeLevel: grade.key,
+              rubricData: rubricJsonContent,
+              logoPath
+            });
+
+            await uploadBufferToGalleryStorage(
+              rubricPdfBuffer,
+              `exit_ticket_rubrics/${category}/${nameNoExt}-rubric-${grade.key}.pdf`,
+              'application/pdf'
+            );
+            pdfCount++;
+          } catch (err) {
+            const errMsg = `${image.filename} / ${grade.name}: ${err.message}`;
+            console.warn(`   ⚠️ ${errMsg}`);
+            errors.push(errMsg);
+          }
+        }
+
+        processedCount++;
+        console.log(`   ✅ ${image.filename} rubrics done (${pdfCount} total PDFs, $${totalCost.toFixed(4)})`);
+      }
+
+      // Commit rubric JSONs to git
+      await repoGit.add('.');
+      await repoGit.commit(`Backfill scoring rubrics (batch ${batchStart}-${batchStart + batchSize - 1})
+
+- Generated ${pdfCount} rubric JSONs and PDFs
+- Total cost: $${totalCost.toFixed(4)}
+
+Co-Authored-By: SIAS Automation <mr.alexdjones@gmail.com>`);
+
+      await pushWithRetry(repoGit);
+      await fs.rm(repoDir, { recursive: true, force: true });
+
+      const hasMore = batchStart + batchSize < metadata.images.length;
+      console.log(`✅ Backfill complete: ${processedCount} images, ${pdfCount} rubric PDFs, ${errors.length} errors, cost: $${totalCost.toFixed(4)}`);
+
+      return {
+        success: true,
+        processed: processedCount,
+        pdfs: pdfCount,
+        errors,
+        cost: parseFloat(totalCost.toFixed(4)),
+        total: metadata.images.length,
+        nextBatch: hasMore ? batchStart + batchSize : null,
+        hasMore
+      };
+    } catch (error) {
+      try { await fs.rm(repoDir, { recursive: true, force: true }); } catch (e) {}
+      console.error('Backfill rubrics error:', error);
+      throw new functions.https.HttpsError('internal', 'Backfill failed: ' + error.message);
     }
   });
 

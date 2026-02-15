@@ -128,6 +128,14 @@ function showDetailModal(imageId) {
                         <summary style="cursor: pointer; font-size: 0.85rem;">5E Lessons (${files.fiveE ? files.fiveE.length : 0})</summary>
                         <ul class="audit-file-list" style="margin-top: 4px;">${files.fiveE ? fileListHtml(files.fiveE) : ''}</ul>
                     </details>
+                    <details style="margin-bottom: 8px;">
+                        <summary style="cursor: pointer; font-size: 0.85rem;">Exit Tickets (${files.exitTickets ? files.exitTickets.length : 0})</summary>
+                        <ul class="audit-file-list" style="margin-top: 4px;">${files.exitTickets ? fileListHtml(files.exitTickets) : ''}</ul>
+                    </details>
+                    <details style="margin-bottom: 8px;">
+                        <summary style="cursor: pointer; font-size: 0.85rem;">Rubrics (${files.rubrics ? files.rubrics.length : 0})</summary>
+                        <ul class="audit-file-list" style="margin-top: 4px;">${files.rubrics ? fileListHtml(files.rubrics) : ''}</ul>
+                    </details>
                 </div>
 
                 ${image.hasContent ? `
@@ -136,6 +144,8 @@ function showDetailModal(imageId) {
                     <div class="pdf-preview-tabs">
                         <button class="pdf-tab" onclick="openPdfViewer(${image.id}, 'lesson')">Lesson PDFs</button>
                         <button class="pdf-tab" onclick="openPdfViewer(${image.id}, '5e')">5E Lesson PDFs</button>
+                        <button class="pdf-tab" onclick="openPdfViewer(${image.id}, 'exit-ticket')">Exit Tickets</button>
+                        <button class="pdf-tab" onclick="openPdfViewer(${image.id}, 'rubric')">Rubrics</button>
                     </div>
                 </div>
                 ` : ''}
@@ -453,6 +463,10 @@ function getPdfUrl(image, tab, grade) {
     let path;
     if (tab === '5e') {
         path = `5e_lessons/${category}/${nameNoExt}-${grade}.pdf`;
+    } else if (tab === 'exit-ticket') {
+        path = `exit_tickets/${category}/${nameNoExt}-exit-ticket-${grade}.pdf`;
+    } else if (tab === 'rubric') {
+        path = `exit_ticket_rubrics/${category}/${nameNoExt}-rubric-${grade}.pdf`;
     } else {
         path = `pdfs/${category}/${nameNoExt}-${grade}.pdf`;
     }
@@ -497,11 +511,13 @@ function renderPdfViewerShell() {
     const tabsHtml = `
         <button class="pdf-tab ${pdfPreviewTab === 'lesson' ? 'active' : ''}" onclick="switchPdfTab('lesson')">Lesson PDFs</button>
         <button class="pdf-tab ${pdfPreviewTab === '5e' ? 'active' : ''}" onclick="switchPdfTab('5e')">5E Lesson PDFs</button>
+        <button class="pdf-tab ${pdfPreviewTab === 'exit-ticket' ? 'active' : ''}" onclick="switchPdfTab('exit-ticket')">Exit Tickets</button>
+        <button class="pdf-tab ${pdfPreviewTab === 'rubric' ? 'active' : ''}" onclick="switchPdfTab('rubric')">Rubrics</button>
     `;
 
     const pillsHtml = PDF_GRADE_LEVELS.map(g => {
         const isEdp = g.key === 'edp';
-        const hiddenClass = (isEdp && pdfPreviewTab === '5e') ? ' hidden' : '';
+        const hiddenClass = (isEdp && pdfPreviewTab !== 'lesson') ? ' hidden' : '';
         const activeClass = (g.key === pdfPreviewGrade) ? ' active' : '';
         return `<button class="pdf-grade${activeClass}${hiddenClass}" data-grade="${g.key}" onclick="switchPdfGrade('${g.key}')">${g.label}</button>`;
     }).join('');
@@ -631,7 +647,7 @@ function pdfNextPage() {
  */
 function switchPdfTab(tab) {
     pdfPreviewTab = tab;
-    if (tab === '5e' && pdfPreviewGrade === 'edp') {
+    if (tab !== 'lesson' && pdfPreviewGrade === 'edp') {
         pdfPreviewGrade = 'kindergarten';
     }
     renderPdfViewerShell();

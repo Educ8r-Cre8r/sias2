@@ -2539,7 +2539,9 @@ a:hover {
 
   .lesson-pdf-btn,
   .five-e-pdf-btn,
-  .edp-pdf-btn {
+  .edp-pdf-btn,
+  .exit-ticket-btn,
+  .rubric-btn {
     font-size: 0.65rem;
     padding: 4px 10px;
     border-width: 1.5px;
@@ -2856,6 +2858,82 @@ a:hover {
   box-shadow: none;
 }
 
+/* ============================================
+   Exit Ticket PDF Button
+   ============================================ */
+.exit-ticket-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-bg-white);
+  color: var(--color-text-light);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--transition-base);
+  animation: pdfBtnFadeIn 0.5s ease 0.45s backwards;
+}
+
+.exit-ticket-btn:hover,
+.exit-ticket-btn:focus-visible {
+  border-color: #00838F;
+  color: #00838F;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.exit-ticket-btn:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.exit-ticket-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* ============================================
+   Rubric PDF Button
+   ============================================ */
+.rubric-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: var(--color-bg-white);
+  color: var(--color-text-light);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--transition-base);
+  animation: pdfBtnFadeIn 0.5s ease 0.5s backwards;
+}
+
+.rubric-btn:hover,
+.rubric-btn:focus-visible {
+  border-color: #D84315;
+  color: #D84315;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.rubric-btn:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.rubric-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
 .five-e-pdf-btn {
   display: inline-flex;
   align-items: center;
@@ -3154,7 +3232,9 @@ a:hover {
 
   .lesson-pdf-btn,
   .five-e-pdf-btn,
-  .edp-pdf-btn {
+  .edp-pdf-btn,
+  .exit-ticket-btn,
+  .rubric-btn {
     font-size: 0.7rem;
     padding: 5px 12px;
     border-width: 1.5px;
@@ -4410,6 +4490,28 @@ a:hover {
   color: var(--color-text-light);
   margin-top: 2px;
   font-style: italic;
+}
+
+.dqc-actions {
+  display: flex;
+  gap: 8px;
+  padding: 8px 18px 14px 18px;
+  justify-content: flex-end;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.discussion-quick-card.collapsed .dqc-actions {
+  max-height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.dqc-actions .exit-ticket-btn,
+.dqc-actions .rubric-btn {
+  animation: none;
+}
 }
 
 /* ============================================

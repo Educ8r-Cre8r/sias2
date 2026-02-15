@@ -3,7 +3,7 @@
  * Progressive Web App caching with per-resource strategies.
  */
 
-const CACHE_VERSION = 'v8';
+const CACHE_VERSION = 'v9';
 const SHELL_CACHE = `sias-shell-${CACHE_VERSION}`;
 const METADATA_CACHE = `sias-metadata-${CACHE_VERSION}`;
 const CONTENT_CACHE = `sias-content-${CACHE_VERSION}`;
@@ -107,7 +107,9 @@ self.addEventListener('fetch', (event) => {
       return;
     }
     if (request.url.includes(encodeURIComponent('pdfs/')) ||
-        request.url.includes(encodeURIComponent('5e_lessons/'))) {
+        request.url.includes(encodeURIComponent('5e_lessons/')) ||
+        request.url.includes(encodeURIComponent('exit_tickets/')) ||
+        request.url.includes(encodeURIComponent('exit_ticket_rubrics/'))) {
       event.respondWith(cacheFirst(request, PDF_CACHE));
       return;
     }

@@ -46,6 +46,8 @@ function resolveAssetUrl(relativePath) {
     relativePath.startsWith('images/') ||
     relativePath.startsWith('pdfs/') ||
     relativePath.startsWith('5e_lessons/') ||
+    relativePath.startsWith('exit_tickets/') ||
+    relativePath.startsWith('exit_ticket_rubrics/') ||
     relativePath.startsWith('assets/')
   )) {
     return `https://firebasestorage.googleapis.com/v0/b/${STORAGE_BUCKET}/o/${encodeURIComponent(relativePath)}?alt=media`;
@@ -1400,7 +1402,7 @@ async function loadEducationalContent(image, modalBody) {
 
     // Check cache first
     if (state.loadedContent[cacheKey]) {
-      renderContent(state.loadedContent[cacheKey], modalBody);
+      renderContent(state.loadedContent[cacheKey], modalBody, image);
       return;
     }
 
@@ -1428,7 +1430,7 @@ async function loadEducationalContent(image, modalBody) {
     state.loadedContent[cacheKey] = contentData;
 
     // Render the content
-    renderContent(contentData, modalBody);
+    renderContent(contentData, modalBody, image);
 
   } catch (error) {
     console.error('Error loading content:', error);
@@ -1445,7 +1447,7 @@ async function loadEducationalContent(image, modalBody) {
 /**
  * Render educational content in modal
  */
-function renderContent(contentData, modalBody) {
+function renderContent(contentData, modalBody, image) {
   // Content is directly in the contentData.content field
   // (Each grade level has its own JSON file with content at the root)
   let markdownContent = contentData.content;
@@ -1528,6 +1530,32 @@ function renderContent(contentData, modalBody) {
   // Update modal body with discussion card pinned at top, content, then sentence stems
   modalBody.innerHTML = discussionCard + html + sentenceStemsHTML;
 
+  // Wire up discussion card Exit Ticket / Rubric buttons
+  const dqcExitBtn = modalBody.querySelector('.dqc-exit-ticket-btn');
+  if (dqcExitBtn) {
+    dqcExitBtn.onclick = () => {
+      if (!currentUser || currentUser.isAnonymous) {
+        if (confirm('Sign in with Google to download exit tickets. Sign in now?')) signInWithGoogle();
+        return;
+      }
+      const baseFilename = image.filename.replace(/\.[^/.]+$/, '');
+      const exitTicketPath = `exit_tickets/${image.category}/${baseFilename}-exit-ticket-${state.selectedGradeLevel}.pdf`;
+      window.open(resolveAssetUrl(exitTicketPath), '_blank');
+    };
+  }
+  const dqcRubricBtn = modalBody.querySelector('.dqc-rubric-btn');
+  if (dqcRubricBtn) {
+    dqcRubricBtn.onclick = () => {
+      if (!currentUser || currentUser.isAnonymous) {
+        if (confirm('Sign in with Google to download scoring rubrics. Sign in now?')) signInWithGoogle();
+        return;
+      }
+      const baseFilename = image.filename.replace(/\.[^/.]+$/, '');
+      const rubricPath = `exit_ticket_rubrics/${image.category}/${baseFilename}-rubric-${state.selectedGradeLevel}.pdf`;
+      window.open(resolveAssetUrl(rubricPath), '_blank');
+    };
+  }
+
   // Add animated class to trigger staggered animations
   modalBody.classList.remove('animated'); // Remove if exists
   void modalBody.offsetWidth; // Force reflow to restart animations
@@ -1571,11 +1599,15 @@ function extractDiscussionCard(markdownContent) {
     <div class="discussion-quick-card collapsed">
       <div class="dqc-header" onclick="this.parentElement.classList.toggle('collapsed')">
         <span class="dqc-icon">💬</span>
-        <span class="dqc-title">Discussion Questions</span>
+        <span class="dqc-title">Discussion Questions/Exit Tickets</span>
         <span class="dqc-count">${questionLines.length}</span>
         <span class="dqc-toggle">▾</span>
       </div>
       <ol class="dqc-list">${questionsHtml}</ol>
+      <div class="dqc-actions">
+        <button class="exit-ticket-btn dqc-exit-ticket-btn" aria-label="Download exit ticket as PDF" title="Download student exit ticket PDF">🎫 Exit Ticket</button>
+        <button class="rubric-btn dqc-rubric-btn" aria-label="Download scoring rubric as PDF" title="Download teacher scoring rubric PDF">📊 Rubric</button>
+      </div>
     </div>
   `;
 }

@@ -6,6 +6,8 @@ service firebase.storage {
     match /images/{allPaths=**} { allow read; }
     match /pdfs/{allPaths=**} { allow read; }
     match /5e_lessons/{allPaths=**} { allow read; }
+    match /exit_tickets/{allPaths=**} { allow read; }
+    match /exit_ticket_rubrics/{allPaths=**} { allow read; }
     match /assets/{allPaths=**} { allow read; }
 
     // Allow uploads to the /uploads/ directory
