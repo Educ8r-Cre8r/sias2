@@ -19,7 +19,8 @@ const state = {
   featuredFilter: false, // Featured Collection filter active
   newFilter: false, // "What's New" filter active
   sortNewest: false, // "Newest First" sort active
-  currentModalImageId: null // Currently open modal image ID (for prev/next nav)
+  currentModalImageId: null, // Currently open modal image ID (for prev/next nav)
+  currentViewerImage: null // Image data for the currently open image viewer modal
 };
 
 const IMAGES_PER_PAGE = 48;
@@ -2114,6 +2115,9 @@ function openImageModal(imagePath, altText, imageData = null) {
 
   if (!modal || !modalImage || !modalTitle) return;
 
+  // Store image data for Content button
+  state.currentViewerImage = imageData;
+
   // Set title
   modalTitle.textContent = altText;
 
@@ -2209,7 +2213,13 @@ function openImageModal(imagePath, altText, imageData = null) {
 function closeImageModal() {
   const modal = document.getElementById('image-modal');
 
-  if (!modal) return;
+  if (!modal || !modal.classList.contains('active')) return;
+
+  // Prevent double-close during animation
+  if (modal.classList.contains('closing')) return;
+
+  // Clear stored viewer image
+  state.currentViewerImage = null;
 
   // Clean up hotspots
   cleanupHotspots();
@@ -2223,9 +2233,27 @@ function closeImageModal() {
     if (stemBtn) stemBtn.classList.remove('active');
   }
 
-  modal.classList.remove('active');
-  modal.style.display = 'none';
-  document.body.style.overflow = '';
+  // Play closing animation, then hide
+  modal.classList.add('closing');
+  setTimeout(() => {
+    modal.classList.remove('active', 'closing');
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+  }, 300);
+}
+
+/**
+ * Open educational content modal from the image viewer
+ */
+function openContentFromViewer() {
+  const image = state.currentViewerImage;
+  if (!image) return;
+
+  closeImageModal();
+  // Wait for close animation to finish before opening content modal
+  setTimeout(() => {
+    openModal(image.id);
+  }, 320);
 }
 
 /**

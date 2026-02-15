@@ -353,11 +353,11 @@
             <div class="image-modal-header">
                 <div class="image-modal-title-section">
                     <h2 id="image-modal-title" class="image-modal-title"></h2>
-                    <p id="image-modal-credit" class="image-credit">Educational Use Only - No Commercial Use</p>
-                    <button class="copy-attribution-btn" id="image-modal-copy-attribution-btn" onclick="copyAttribution()" aria-label="Copy attribution text" title="Copy attribution for this image">
-                        &#x1F4CB; Copy Attribution
-                    </button>
                 </div>
+                <button id="image-only-btn" class="modal-action-btn image-only-btn" onclick="showImageOnly()" aria-label="Show image only" style="display:inline-flex;">
+                    <span class="btn-icon">📷</span>
+                    <span>Image Only</span>
+                </button>
                 <button id="hotspot-toggle-btn" class="modal-action-btn hotspot-btn" onclick="toggleHotspots()" aria-label="Toggle hotspot visibility" style="display:none;">
                     <span class="btn-icon">👁️</span>
                     <span>Hotspots</span>
@@ -366,9 +366,9 @@
                     <span class="btn-icon">💬</span>
                     <span>Sentence Stems</span>
                 </button>
-                <button id="image-only-btn" class="modal-action-btn image-only-btn" onclick="showImageOnly()" aria-label="Show image only" style="display:inline-flex;">
-                    <span class="btn-icon">📷</span>
-                    <span>Image Only</span>
+                <button id="content-btn" class="modal-action-btn content-btn" onclick="openContentFromViewer()" aria-label="View educational content" style="display:inline-flex;">
+                    <span class="btn-icon">📚</span>
+                    <span>Content</span>
                 </button>
                 <button class="close-btn image-modal-close-btn" onclick="closeImageModal()" aria-label="Close image viewer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -419,6 +419,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="image-modal-footer">
+                <p id="image-modal-credit" class="image-credit">Educational Use Only - No Commercial Use</p>
+                <button class="copy-attribution-btn" id="image-modal-copy-attribution-btn" onclick="copyAttribution()" aria-label="Copy attribution text" title="Copy attribution for this image">
+                    &#x1F4CB; Copy Attribution
+                </button>
             </div>
         </div>
     </div>
