@@ -1,0 +1,53 @@
+{
+  "title": "Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Looking at the different colored layers in this rock, what do you think might have caused the changes from one layer to the next?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific causes of layer changes (e.g., different sediment sources, varying water energy, environmental conditions) and explains how each would create distinct colored or textured layers, demonstrating understanding of how sedimentary rocks form.",
+        "meets": "Student correctly identifies that different materials or conditions created the different layers and provides at least one reasonable explanation (e.g., different sediments settled, environment changed) for the color or texture changes observed.",
+        "approaching": "Student recognizes that layers are different but provides only a vague explanation for why (e.g., 'different stuff' or 'things changed') without clear connection to how rocks form in layers.",
+        "beginning": "Student makes a minimal attempt to explain layer differences, offering unclear or largely inaccurate ideas about what caused the changes (e.g., 'the rock just has different colors')."
+      }
+    },
+    {
+      "questionText": "If the bottom layer of this rock is the oldest, what can you infer about what happened to Earth's environment over the time it took all these layers to form?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student uses the principle of superposition to explain that layers show a sequence of environmental changes over time and identifies specific inferences based on visible layer characteristics (e.g., color or texture changes indicate shifts in water conditions, sediment sources, or climate).",
+        "meets": "Student correctly applies the concept that older layers are at the bottom and infers that the environment changed over time, providing a logical explanation based on observable layer differences.",
+        "approaching": "Student understands that bottom layers are older but makes a general or partially accurate inference about environmental change without clearly connecting it to what the layers show.",
+        "beginning": "Student attempts to use the oldest-at-bottom concept but makes unclear or inaccurate inferences about environmental changes, showing limited understanding of how rock layers record Earth's history."
+      }
+    },
+    {
+      "questionText": "How do you think this rock formation ended up on the surface where we can see it, if it formed deep underground in ancient oceans?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple processes that could bring deep oceanic rock to the surface (e.g., uplift from tectonic activity, erosion of overlying rock, mountain formation) and describes how these processes work together over geological time.",
+        "meets": "Student identifies at least one plausible process for bringing the rock from depth to surface (e.g., uplift, erosion, or mountain building) and explains how that process could have occurred.",
+        "approaching": "Student recognizes the rock had to move from below to above the surface and suggests a possible process, but the explanation lacks detail or clarity about how the movement happened.",
+        "beginning": "Student attempts to address how the rock moved to the surface but offers a vague or largely inaccurate explanation (e.g., 'it just came up' or confused reasoning about rock movement)."
+      }
+    },
+    {
+      "questionText": "How might studying the layers in this rock help scientists predict future changes to our landscape?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that past environmental patterns recorded in layers help identify trends and cycles, then applies this to predict how similar future changes might affect landscapes (e.g., understanding past climate shifts, sea level changes, or sediment patterns informs future predictions).",
+        "meets": "Student correctly explains that rock layers show past environmental conditions and makes a logical connection to how understanding this history could help predict future landscape changes.",
+        "approaching": "Student recognizes that layers contain information about the past and makes a general connection to using that information for predictions, but the explanation of how this works is incomplete or somewhat unclear.",
+        "beginning": "Student attempts to connect past rock layers to future predictions but provides a vague or inaccurate explanation of how studying layers would help scientists forecast landscape changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:36:54.642Z",
+  "cost": 0.005804
+}

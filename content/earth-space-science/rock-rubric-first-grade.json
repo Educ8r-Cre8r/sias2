@@ -1,0 +1,53 @@
+{
+  "title": "Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What patterns do you see in the rock? Can you describe the different colors and stripes?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple colors (tan, brown, white) and clearly describes that the rock has stripes or layers stacked on top of each other, using words like \"stripes,\" \"bands,\" or \"layers.\"",
+        "meets": "Student names at least two colors in the rock and describes that there are stripes or layers visible.",
+        "approaching": "Student identifies at least one color or mentions that the rock has stripes/layers, but descriptions lack detail or clarity.",
+        "beginning": "Student makes a minimal attempt to describe the rock's colors or patterns with vague or mostly inaccurate observations."
+      }
+    },
+    {
+      "questionText": "Why do you think the rock has these different colored stripes instead of being all one color?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that different materials or sediments came from different sources and were layered over time, showing understanding that the stripes represent different deposits.",
+        "meets": "Student suggests a reasonable explanation such as different materials or sediments being added at different times to create the layers.",
+        "approaching": "Student attempts an explanation but it is vague or only partially connected to the idea of different materials or layering (e.g., \"different stuff mixed together\").",
+        "beginning": "Student provides a minimal or unclear response with little attempt to explain why the stripes have different colors."
+      }
+    },
+    {
+      "questionText": "If each stripe took a very long time to form, what would happen to our world if we could speed up time and watch this rock form really fast?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that if time were sped up, we would see the layers form quickly and could watch the rock change, demonstrating understanding that the rock formation process normally takes a very long time.",
+        "meets": "Student explains that we would see the rock form faster or layers being added more quickly, showing understanding of the connection between time and formation.",
+        "approaching": "Student attempts to connect time to the formation process but the explanation is unclear or incomplete (e.g., \"it would go fast\").",
+        "beginning": "Student provides a minimal response that does not clearly address how speeding up time would affect the rock formation process."
+      }
+    },
+    {
+      "questionText": "Look at the smooth, flat layers. What do you think pressed down on these layers to make them so flat and smooth?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that weight, pressure, or heavy materials (sediment, rocks, water, or soil) pressing down on the layers over time caused them to become flat and smooth.",
+        "meets": "Student suggests that pressure or weight from above flattened and smoothed the layers, showing basic understanding of compaction.",
+        "approaching": "Student attempts an explanation involving something pressing down but the reasoning is vague or incomplete (e.g., \"something heavy was on top\").",
+        "beginning": "Student provides a minimal or unclear response with little attempt to explain what caused the layers to become flat and smooth."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:36:20.788Z",
+  "cost": 0.004864
+}

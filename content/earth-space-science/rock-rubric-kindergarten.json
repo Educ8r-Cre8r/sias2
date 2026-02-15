@@ -1,0 +1,53 @@
+{
+  "title": "Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors in this rock? Why do you think it has stripes?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple colors (brown and white) and stripes, and explains that different materials or minerals create the different layers and stripes in the rock.",
+        "meets": "Student notices the different colors and stripes in the rock and makes a simple observation that the stripes come from different materials or parts of the rock.",
+        "approaching": "Student identifies some colors or notices stripes, but provides incomplete or vague explanation for why the stripes exist.",
+        "beginning": "Student names one or two colors but does not address the stripes or provides an unclear response about what creates them."
+      }
+    },
+    {
+      "questionText": "If we looked at this rock a million years ago, what might it have looked like? Where might it have been?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the rock's layers formed over time and connects this to an environment like an ocean, river, or ground where layers of material built up, showing understanding that rocks change and form in different places.",
+        "meets": "Student suggests the rock might have looked different or been in a different place (like under water or in the ground) and recognizes that rocks can form and change over time.",
+        "approaching": "Student makes a guess about the rock's past but the explanation is unclear or only partly connected to how rocks form and change.",
+        "beginning": "Student provides a minimal response or one that does not connect to how rocks develop over time."
+      }
+    },
+    {
+      "questionText": "How do you think humans moved this big, heavy rock to this parking area? What tools might they have used?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple realistic tools or methods (trucks, ramps, rollers, levers) and explains how these tools help move something heavy by reducing effort or making the task easier.",
+        "meets": "Student names one or two tools (truck, crane, or simple machine) that could move a heavy rock and recognizes that tools help people move heavy objects.",
+        "approaching": "Student suggests a tool or method but the explanation is vague or only partially explains how it would help move the rock.",
+        "beginning": "Student provides a minimal answer or vague idea without clear connection to tools or how moving heavy objects works."
+      }
+    },
+    {
+      "questionText": "If we left this rock outside for many more years, do you think it would look different? What might happen to it?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the rock will change and describes specific weathering processes (wearing away, cracking, color fading, or material breaking down from rain, wind, or sun) that happen to rocks over time.",
+        "meets": "Student predicts the rock will change and mentions one way it might change (getting smaller, breaking, or looking worn) due to weather or time.",
+        "approaching": "Student makes a prediction that the rock will change but provides limited or unclear explanation for what might happen.",
+        "beginning": "Student provides minimal response or unclear prediction with little reasoning about how rocks change over time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:36:13.329Z",
+  "cost": 0.004838
+}

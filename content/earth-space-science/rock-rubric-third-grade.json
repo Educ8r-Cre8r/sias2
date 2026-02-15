@@ -1,0 +1,53 @@
+{
+  "title": "Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think each colored layer tells us about what was happening at this location long, long ago?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that different colored layers represent different conditions or materials that existed at different times, and provides specific inferences about what might have caused each color (e.g., tan layer = sandy area, brown layer = muddy area, explaining how environments change over time).",
+        "meets": "Student recognizes that each colored layer shows something different happened long ago and makes a reasonable inference about at least two layers, such as different types of material or different environments.",
+        "approaching": "Student acknowledges that layers are different colors and attempts to explain what one or two layers might show, but reasoning is vague or only partially connected to what layers reveal about past conditions.",
+        "beginning": "Student describes the colors visible in the rock but does not make clear connections between the colored layers and past conditions or environments."
+      }
+    },
+    {
+      "questionText": "If you had to order these layers from oldest to newest, how would you do it, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that bottom layers are oldest and top layers are newest, explains the scientific principle that layers stack on top of each other over time, and accurately sequences the visible layers from bottom to top with clear reasoning about how rock layers form.",
+        "meets": "Student correctly identifies that bottom layers are oldest and top layers are newest, and provides a reasonable explanation that layers build up over time.",
+        "approaching": "Student attempts to order layers from oldest to newest but shows incomplete understanding of the ordering principle or provides unclear reasoning about why layers are in that sequence.",
+        "beginning": "Student attempts to order layers but makes incorrect sequencing choices or provides no explanation for the ordering."
+      }
+    },
+    {
+      "questionText": "How do you think this rock got all these different layers? What do you think had to happen over and over again?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that layers formed through repeated deposition of sediment or material (such as sand, mud, or silt) settling in water or being deposited by wind, and describes how this process happened many times over a long period to create multiple layers.",
+        "meets": "Student describes a process of materials settling or being laid down in layers and explains that this process happened multiple times to create the different bands in the rock.",
+        "approaching": "Student recognizes that something happened repeatedly to form layers but provides vague or partially accurate details about what process created the layers.",
+        "beginning": "Student mentions layers were created but provides minimal or inaccurate information about the repeated process that formed them."
+      }
+    },
+    {
+      "questionText": "Why might the color be different in some layers? What might that tell us changed between the time one layer formed and when the next layer formed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different colors represent different types of materials or minerals, and infers specific environmental changes (such as water levels, sediment sources, or weathering conditions) that would cause different materials to be deposited at different times.",
+        "meets": "Student identifies that different colors likely mean different types of materials were deposited and reasonably infers that something changed in the environment between layer formations.",
+        "approaching": "Student acknowledges that color differences might relate to different materials but provides incomplete or unclear reasoning about what environmental changes caused these differences.",
+        "beginning": "Student notes that layers have different colors but does not connect the color differences to changes in materials or environmental conditions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:36:37.246Z",
+  "cost": 0.005226
+}

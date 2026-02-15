@@ -1,0 +1,53 @@
+{
+  "title": "Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Looking at the different colored layers in this rock, what do you think changed between the time the bottom layer formed and the time the top layer formed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes (such as environmental conditions, sediment type, or weathering patterns) between layers and explains how the different colors and textures provide evidence for these changes over time.",
+        "meets": "Student identifies at least one reasonable change between layers (such as a shift in sediment source, water level, or environmental conditions) and references the visible color or texture differences as supporting evidence.",
+        "approaching": "Student suggests that something changed between layers and attempts to connect this to the visible differences in color or texture, but the explanation is vague or only partially accurate.",
+        "beginning": "Student makes a simple observation about the layers being different colors but provides little or no explanation for what might have changed or why the layers look different."
+      }
+    },
+    {
+      "questionText": "How might this rock look different 100 years from now, and what natural processes would cause those changes?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes (such as erosion, weathering, or surface breakdown) with accurate descriptions of the natural processes that would cause them, demonstrating understanding of how rocks change over time.",
+        "meets": "Student predicts reasonable changes to the rock's appearance and identifies at least one natural process (such as weathering or erosion) that would cause the changes.",
+        "approaching": "Student predicts that the rock will change and mentions a natural process, but the connection between the process and the predicted change is unclear or partially incomplete.",
+        "beginning": "Student provides a vague prediction about the rock changing but offers little or no explanation of which natural processes would be responsible."
+      }
+    },
+    {
+      "questionText": "If you could travel back in time to when the bottom layer of this rock was forming, what do you think the environment would have been like? What evidence from the rock helps you make that inference?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a detailed, scientifically reasonable ancient environment and identifies specific rock features (such as layer composition, color, texture, or grain size) as evidence to support multiple inferences about that past environment.",
+        "meets": "Student describes a plausible ancient environment and references at least one visible rock feature (such as color, texture, or material composition) as evidence for their inference.",
+        "approaching": "Student suggests what the environment might have been like and mentions a rock feature, but the connection between the evidence and the inference is weak or unclear.",
+        "beginning": "Student attempts to describe an ancient environment or identifies a rock feature, but provides little or no connection between the two."
+      }
+    },
+    {
+      "questionText": "Geologists study rocks to understand Earth's history. What questions would a geologist ask about this rock formation to learn more about the past?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student generates multiple scientifically relevant questions about the rock's layers, formation, composition, or age that demonstrate sophisticated thinking about how rocks reveal Earth's history and environmental changes.",
+        "meets": "Student generates at least two reasonable questions that a geologist might ask about the rock layers, formation process, or what the layers reveal about past environments.",
+        "approaching": "Student generates at least one question about the rock that shows some scientific thinking, but the questions may be overly simple or lack clear connection to understanding Earth's history.",
+        "beginning": "Student attempts to generate questions about the rock but the questions are vague, off-topic, or show minimal understanding of how geologists use rocks to study the past."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:36:44.889Z",
+  "cost": 0.005374
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the different colored stripes in this rock? Why do you think the rock has these layers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific colors in the stripes (tan, brown, white) and explains that layers form when different materials are pressed together over time, showing understanding that rocks are made from layers of different materials.",
+        "meets": "Student describes the different colored stripes and states that layers form when materials stack up or get pressed together, demonstrating basic understanding of rock layering.",
+        "approaching": "Student notices there are different colors or stripes in the rock but provides vague or incomplete explanation about why layers form, such as 'the rock just has stripes' or 'materials got mixed together.'",
+        "beginning": "Student identifies only that the rock has colors or stripes but cannot explain why layers exist, or provides inaccurate information such as the stripes being painted on."
+      }
+    },
+    {
+      "questionText": "If we touched this rock every day for a year, would it feel smoother or rougher? What would cause it to change?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the rock would become smoother and explains that repeated touching and rubbing wears away rough edges, connecting this to weathering or erosion as a natural process that changes rocks over time.",
+        "meets": "Student predicts the rock would become smoother and explains that rubbing or touching causes the rough parts to wear down, showing understanding of how rocks change through physical contact.",
+        "approaching": "Student makes a prediction about smoothness but provides incomplete reasoning, such as 'it would get smoother because we touch it' without explaining the wearing-away process.",
+        "beginning": "Student makes a vague prediction or incorrect prediction (such as rougher) with little to no explanation, or states the rock would not change."
+      }
+    },
+    {
+      "questionText": "This rock was found broken on the ground. What are some things in nature that might have broken it apart?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more natural forces (such as wind, water, ice, rain, temperature changes, or gravity) and explains how each one can break rocks apart, demonstrating understanding of multiple weathering processes.",
+        "meets": "Student identifies two natural forces or processes that break rocks and provides basic explanations for how they cause breaking, such as water washing it or freezing and thawing.",
+        "approaching": "Student identifies one natural cause of rock breaking or names multiple causes with minimal explanation, such as 'water breaks rocks' without describing how.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'animals broke it' or 'it just breaks,' with little connection to natural weathering processes."
+      }
+    },
+    {
+      "questionText": "If you could look at this rock a million years ago, what do you think it might have looked like? Where might it have been?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes how the rock might have looked different (less worn, more solid, or different shape) and explains that it may have been underground, in water, or in a different location due to slow changes over millions of years.",
+        "meets": "Student imagines the rock might have looked different (such as bigger, less broken, or smoother) and suggests it could have been in a different place, such as underground or deep water.",
+        "approaching": "Student makes a simple guess about how the rock looked or where it was long ago but lacks detailed reasoning or shows limited understanding of geological time.",
+        "beginning": "Student provides a vague response such as 'it looked the same' or 'it was somewhere else' without explanation or creative thinking about how rocks change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:36:29.364Z",
+  "cost": 0.005511
+}
