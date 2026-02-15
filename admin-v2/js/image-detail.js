@@ -435,6 +435,10 @@ async function saveImageMetadata() {
 
         // Refresh the images grid
         if (typeof renderImagesGrid === 'function') renderImagesGrid();
+
+        // Refresh content audit & NGSS coverage so they reflect the changes
+        if (typeof renderContentAudit === 'function') renderContentAudit();
+        if (typeof refreshNgssCoverage === 'function') refreshNgssCoverage();
     } catch (error) {
         console.error('Save metadata error:', error);
         showToast('Failed to save: ' + error.message, 'error');
