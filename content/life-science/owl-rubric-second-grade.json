@@ -1,0 +1,53 @@
+{
+  "title": "Owl",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the owl's feathers look bumpy and have different colors mixed together?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bumpy, mixed-color feathers help the owl hide or blend in with its surroundings, and describes how the colors match the brick wall or tree bark the owl lives near.",
+        "meets": "Student identifies that the owl's feathers are bumpy and mixed colors, and states that this helps the owl blend in or hide from other animals.",
+        "approaching": "Student notices the feathers are bumpy or have mixed colors, but explanation of why is unclear or only partially related to hiding or blending in.",
+        "beginning": "Student describes what the feathers look like (bumpy or mixed colors) but does not explain why or provides a response unrelated to camouflage."
+      }
+    },
+    {
+      "questionText": "If this owl lived in a dark forest with lots of trees instead of on a brick wall, how do you think its feathers might look different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the owl's feathers would be darker colors (browns or grays) to match tree bark and forest shadows, and explains that this change would help the owl hide better in a different environment.",
+        "meets": "Student predicts the owl's feathers would be darker or would look different to match the forest, showing understanding that feather color connects to the owl's surroundings.",
+        "approaching": "Student makes a prediction about how feathers might change but the explanation is vague or only partially connects to matching the forest environment.",
+        "beginning": "Student gives a prediction but shows little understanding of why feathers would need to change, or response is unclear."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that blend in with their surroundings? How is their camouflage similar to or different from the owl's?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student names at least two animals with camouflage and describes both similarities (colors match surroundings) and differences (using patterns, textures, or shapes), showing deeper understanding of how different animals hide.",
+        "meets": "Student names at least one animal with camouflage and explains how it is similar to or different from the owl's hiding strategy.",
+        "approaching": "Student names an animal with camouflage but the comparison to the owl is incomplete, unclear, or only states similarities without differences.",
+        "beginning": "Student names an animal but provides little or no comparison to the owl's camouflage, or response shows minimal understanding of how camouflage works."
+      }
+    },
+    {
+      "questionText": "How does the owl's camouflage help it survive? What would happen if the owl had bright red feathers instead?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that camouflage helps the owl hide from prey or predators so it can hunt or stay safe, and predicts that bright red feathers would make the owl easy to see, putting it in danger.",
+        "meets": "Student explains that camouflage helps the owl hide and predicts that bright red feathers would make the owl stand out or get caught more easily.",
+        "approaching": "Student states that camouflage helps the owl hide or mentions bright feathers would be bad, but reasoning is incomplete or not fully connected to survival.",
+        "beginning": "Student provides minimal explanation of how camouflage helps the owl or makes unclear predictions about bright feathers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:30:30.981Z",
+  "cost": 0.005253
+}

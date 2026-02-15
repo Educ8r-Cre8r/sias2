@@ -1,0 +1,53 @@
+{
+  "title": "Owl",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this owl has such large eyes compared to other animals like squirrels or birds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that owls hunt at night and need large eyes to gather more light, and connects this to the owl's nocturnal lifestyle and predatory behavior with specific details about how eye size relates to vision in low-light conditions.",
+        "meets": "Student correctly identifies that the owl's large eyes help it see in the dark or at night, and explains this is an adaptation for hunting when other animals are less active.",
+        "approaching": "Student states that large eyes help the owl see better, but the explanation lacks clarity about why this matters or only vaguely references nighttime or hunting.",
+        "beginning": "Student provides a minimal response such as 'big eyes help it see' without explaining why owls need better vision or when they use this adaptation."
+      }
+    },
+    {
+      "questionText": "If all the small mice and voles in a forest disappeared, what would happen to the owls living there, and what might happen to the plants in that forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that owls would struggle to find food and their population would decline, and analyzes the food chain connection to plants by reasoning that without predation, mice/vole populations would normally increase (if food were available), which could damage plants; student may mention the broader ecosystem impact.",
+        "meets": "Student correctly identifies that owls would have less food and their numbers might decrease, and explains that mice or voles eat plants, so plants might be affected by the loss of these predators.",
+        "approaching": "Student shows understanding that food chains connect owls to mice/voles and plants, but the explanation is incomplete or shows confusion about whether plant populations would increase or decrease without the herbivores.",
+        "beginning": "Student provides a vague response such as 'owls would have no food' or mentions plants and animals are connected without clearly explaining the cause-and-effect relationships in the food chain."
+      }
+    },
+    {
+      "questionText": "Compare the owl in this photo to a songbird like a robin. What external structures are different, and how do these differences help each bird survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple structural differences (e.g., owl's forward-facing eyes vs. robin's side-facing eyes, owl's talons vs. robin's feet, ear tufts, rounded head, camouflaged feathers) and explains how each adaptation connects to different hunting strategies, habitats, or survival needs with specific details.",
+        "meets": "Student identifies at least two structural differences between owls and robins, and explains how these adaptations help each bird with hunting, feeding, or survival in ways that match their different lifestyles.",
+        "approaching": "Student identifies some external differences but provides incomplete or partially accurate explanations of how these structures help the birds survive or function differently.",
+        "beginning": "Student notices one difference or provides a description without clear explanation of how the structures relate to survival or how the birds hunt or live differently."
+      }
+    },
+    {
+      "questionText": "Describe how the matter in the food (a mouse) that an owl eats becomes part of the owl's body and eventually returns to the environment.",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces matter through the food chain and digestion, explaining that nutrients from the mouse become part of the owl's body through digestion, and describes multiple return pathways (waste, decomposition after death, respiration) with accurate scientific language.",
+        "meets": "Student explains that the owl digests the mouse and the nutrients become part of its body, and identifies at least one way the matter returns to the environment (such as through waste, decay, or being eaten by decomposers).",
+        "approaching": "Student shows understanding that the owl eats the mouse and gains energy or nutrients, but the explanation of how matter becomes part of the owl or returns to the environment is incomplete or vague.",
+        "beginning": "Student provides a minimal response such as 'the owl eats the mouse and it becomes the owl' without describing digestion, breakdown, or how the matter cycles back to the environment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:30:58.079Z",
+  "cost": 0.005997
+}

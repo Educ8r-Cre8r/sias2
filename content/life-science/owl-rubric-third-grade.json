@@ -4,50 +4,50 @@
   "gradeLevel": "third-grade",
   "questions": [
     {
-      "questionText": "What do you notice about the owl's feathers and how might they help it survive in the wild?",
-      "bloomsLevel": "Understand",
-      "dokLevel": 1,
-      "rubric": {
-        "exceeds": "Student describes multiple feather characteristics (color, pattern, texture) and explains how at least two features help the owl survive (camouflage for hiding, insulation for warmth, waterproofing).",
-        "meets": "Student identifies the owl's feather colors or pattern and explains how feathers help with camouflage or protection in the environment.",
-        "approaching": "Student notices the owl has feathers and mentions one way they might help (blending in or staying warm), but explanation lacks detail.",
-        "beginning": "Student makes a simple observation about feathers but provides no explanation of survival benefit, or response is vague."
-      }
-    },
-    {
-      "questionText": "If this owl lived in a snowy environment instead of a rocky one, how do you think its appearance might be different?",
+      "questionText": "Why do you think this owl has brown and gray feathers instead of bright blue or red feathers?",
       "bloomsLevel": "Analyze",
       "dokLevel": 2,
       "rubric": {
-        "exceeds": "Student predicts the owl would be mostly white or lighter-colored for camouflage in snow and explains the reason by comparing it to the current brown/white pattern that matches rocks and trees.",
-        "meets": "Student predicts the owl's feathers would be lighter or whiter and recognizes this would help it blend in with snow.",
-        "approaching": "Student makes a prediction about color change but explanation is incomplete or shows partial understanding of camouflage.",
-        "beginning": "Student attempts a prediction but lacks reasoning, or response is unclear or inaccurate."
+        "exceeds": "Student explains that brown and gray feathers help the owl blend in with tree bark and its environment (camouflage), and provides an additional reason such as helping the owl hide from predators or stay safe while hunting.",
+        "meets": "Student correctly explains that the owl's brown and gray feathers help it blend in with trees or match its surroundings, demonstrating understanding of camouflage.",
+        "approaching": "Student mentions that the feathers help the owl hide or blend in, but the explanation lacks clarity about how or why camouflage is important to the owl.",
+        "beginning": "Student provides a minimal response such as 'it looks like trees' or 'that's just the color it is,' with little explanation of the purpose of the feather coloring."
       }
     },
     {
-      "questionText": "Why do you think owls have such large eyes compared to other birds?",
-      "bloomsLevel": "Understand",
-      "dokLevel": 1,
-      "rubric": {
-        "exceeds": "Student explains that large eyes help owls see in the dark or at night and connects this to owl behavior (hunting when it's dark) or their adaptation as nocturnal hunters.",
-        "meets": "Student explains that large eyes help the owl see better, especially at night or in dim light.",
-        "approaching": "Student recognizes large eyes are for seeing but explanation is vague or incomplete (e.g., 'to see better' without clarifying when or why).",
-        "beginning": "Student provides minimal response or inaccurate explanation of why owls have large eyes."
-      }
-    },
-    {
-      "questionText": "What evidence can you find in the photo that shows this owl is well-adapted to its environment?",
+      "questionText": "What would happen to an owl population if all the trees in their forest were cut down and the forest became a flat, open field?",
       "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that owls would struggle to survive because they would lose their homes (habitat) and camouflage, then predicts multiple consequences such as owls moving away, having difficulty hunting, or the population decreasing significantly.",
+        "meets": "Student identifies that cutting down trees would harm owls by removing their habitat or shelter, and explains that owls would have trouble surviving or would need to move to a new forest.",
+        "approaching": "Student recognizes that losing trees would be bad for owls but provides incomplete reasoning, such as only mentioning habitat loss without connecting it to survival or population effects.",
+        "beginning": "Student gives a vague response like 'owls would be sad' or 'they would die,' without explaining why the loss of trees would negatively affect owls."
+      }
+    },
+    {
+      "questionText": "If you found two owls from the same species but with different feather patterns—one very dark and one very light—where might each owl live, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly explains that the dark owl would live in a darker environment (like a forest with darker tree bark) and the light owl in a lighter environment (like birch trees or lighter bark), and explains that this camouflage helps each owl survive by blending into its surroundings.",
+        "meets": "Student predicts reasonable different habitats for each owl and explains that each feather pattern helps the owl blend in with its environment for camouflage or safety.",
+        "approaching": "Student suggests different environments for the two owls but provides incomplete reasoning about why the feather patterns matter, or makes a prediction without a clear explanation.",
+        "beginning": "Student makes a guess about where each owl might live but provides no connection to camouflage or feather patterns, or gives unclear reasoning."
+      }
+    },
+    {
+      "questionText": "How is the owl's camouflage an example of a trait passed down from its parents?",
+      "bloomsLevel": "Understand",
       "dokLevel": 2,
       "rubric": {
-        "exceeds": "Student identifies three or more adaptations with evidence from photo (camouflage feathers match rocks/trees, large eyes for night vision, ear tufts for hearing) and explains how each helps survival.",
-        "meets": "Student identifies two adaptations with photo evidence (e.g., spotted feathers blend in, big eyes help see) and explains how they help the owl survive.",
-        "approaching": "Student identifies one adaptation from the photo but explanation is unclear, or identifies features without explaining their adaptive purpose.",
-        "beginning": "Student provides vague observations or minimal evidence of understanding how photo features show adaptation."
+        "exceeds": "Student explains that the owl inherited its brown and gray feather coloring from its parents, recognizes this is a trait that helps the owl survive, and makes a connection such as 'parent owls with good camouflage survive and have babies that inherit the same colors.'",
+        "meets": "Student correctly identifies that the owl's feather colors are a trait inherited from its parents and explains that this trait helps the owl hide or blend in with its environment.",
+        "approaching": "Student acknowledges that the owl inherited its feather colors from parents or that camouflage helps the owl, but does not clearly connect both ideas together.",
+        "beginning": "Student provides a vague statement such as 'the parents gave it the colors' without explaining how this relates to camouflage or survival."
       }
     }
   ],
-  "generatedAt": "2026-02-15T03:36:30.566Z",
-  "cost": 0.00472
+  "generatedAt": "2026-02-15T06:30:39.953Z",
+  "cost": 0.005682
 }

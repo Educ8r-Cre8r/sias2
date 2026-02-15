@@ -1,0 +1,53 @@
+{
+  "title": "Owl",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this owl's feathers are gray and brown instead of bright colors like a parrot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the owl's gray and brown feathers provide camouflage to blend with tree bark and rocks, helping it hide from prey or predators, and contrasts this with a parrot's bright colors that serve a different purpose (like attracting mates or communication).",
+        "meets": "Student identifies that the owl's gray and brown feathers help it blend into its surroundings or hide, and recognizes this is different from bright colors.",
+        "approaching": "Student mentions that the owl's colors help it hide or that they are different from a parrot's colors, but provides limited explanation of why this matters for the owl's survival.",
+        "beginning": "Student provides a vague response such as 'owls are just gray and brown' or 'they look like rocks,' without explaining the connection to hiding or survival."
+      }
+    },
+    {
+      "questionText": "If a scientist found owl fossils showing that ancient owls had different colored feathers, what might that tell us about the environments where those owls lived?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that different feather colors in ancient owls would suggest those owls lived in different environments (such as forests with different colored bark or brighter settings), and connects this to how animals adapt their appearance to match their surroundings over time.",
+        "meets": "Student recognizes that different feather colors would indicate ancient owls lived in different environments, and implies a connection between feather color and habitat.",
+        "approaching": "Student acknowledges that feather color might be related to where owls lived, but cannot clearly explain how or why the environment would affect feather color.",
+        "beginning": "Student makes a general statement about fossils or environments without connecting feather color to habitat adaptation."
+      }
+    },
+    {
+      "questionText": "How would an owl's life be different if it had bright red and yellow feathers instead of mottled gray and brown?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple ways bright feathers would negatively impact survival, such as making the owl easier for prey to spot (affecting hunting success), making it more visible to predators, and preventing it from blending into its natural background.",
+        "meets": "Student identifies at least one significant way bright feathers would change the owl's life, such as making it harder to hunt or hide from predators.",
+        "approaching": "Student recognizes that bright feathers would be different but provides only a partial explanation, such as 'it wouldn't hide as well' without fully developing the idea.",
+        "beginning": "Student offers a minimal response such as 'the owl would look different' without explaining consequences for the owl's survival or behavior."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that blend into their surroundings, and how do their external structures help them survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more animals with camouflage (such as deer, frogs, moths, or grasshoppers) and explains specific external structures that help each animal blend in (such as color, pattern, shape, or texture) and why this matters for survival.",
+        "meets": "Student names one or two animals that blend into their surroundings and describes at least one external structure that helps them hide, with a clear connection to survival.",
+        "approaching": "Student identifies an animal with camouflage and mentions how it hides, but lacks specific details about external structures or provides incomplete reasoning.",
+        "beginning": "Student names an animal but provides little to no explanation of how it blends in or why this helps it survive."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T06:30:48.665Z",
+  "cost": 0.005502
+}
