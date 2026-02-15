@@ -5,43 +5,43 @@
       "x": "25%",
       "y": "20%",
       "label": "Ear Tufts",
-      "fact": "This owl has special feather tufts on its head that look like ears, but they're not really ears at all! These tufts help the owl blend in with trees and branches to hide from predators. This is called **camouflage** — that's when an animal's colors or patterns help it hide in its environment.",
+      "fact": "This owl has special pointed feathers on its head that look like ears, but they're not really ears! These feathers help the owl blend in with tree branches and bark, which is called camouflage. This adaptation helps the owl hide from other animals and sneak up on prey.",
       "vocabulary": {
         "term": "Camouflage",
-        "definition": "Colors, patterns, or shapes that help an animal hide by blending in with its surroundings."
+        "definition": "Colors, patterns, or shapes that help an animal blend in with its surroundings so it's hard to see."
       }
     },
     {
       "id": 2,
-      "x": "35%",
-      "y": "45%",
-      "label": "Feather Pattern",
-      "fact": "An owl's feathers have a mottled gray and brown pattern that helps it hide on tree bark and rocks. These feathers are also specially designed to help owls fly silently through the night sky. The feathers are a key **body structure** that helps this animal survive and hunt.",
+      "x": "20%",
+      "y": "55%",
+      "label": "Patterned Feathers",
+      "fact": "The owl's feathers have a mottled gray and brown pattern with white spots that help it stay hidden on light-colored surfaces like this white wall or tree bark. Different owl species have different feather patterns suited to their specific habitats, showing how animals are adapted to their environments.",
       "vocabulary": {
-        "term": "Body structure",
-        "definition": "The different parts of an animal's body that help it do important things like move, eat, and stay safe."
+        "term": "Adaptation",
+        "definition": "A special trait or body part that helps an animal survive and do well in its environment."
       }
     },
     {
       "id": 3,
-      "x": "20%",
-      "y": "60%",
-      "label": "Owl's Eyes",
-      "fact": "Although you can't see them clearly in this picture, owls have huge forward-facing eyes that help them see in the dark at night. Owls are **nocturnal** animals, which means they are active at night and sleep during the day. Their special eyes are adaptations that help them survive in their nighttime habitat.",
+      "x": "35%",
+      "y": "70%",
+      "label": "Body Structure",
+      "fact": "This owl has a compact, rounded body with soft feathers that make it look fluffy and help it stay warm. Owls are birds, which means they have feathers, wings, and lay eggs as part of their life cycle. Their body shape helps them fly silently through the air to hunt at night.",
       "vocabulary": {
-        "term": "Nocturnal",
-        "definition": "An animal that is active and hunts at night and rests during the day."
+        "term": "Feathers",
+        "definition": "Special lightweight structures that cover a bird's body and help it fly, stay warm, and blend into its environment."
       }
     },
     {
       "id": 4,
-      "x": "45%",
-      "y": "55%",
-      "label": "Perched on Object",
-      "fact": "This owl is perched on what looks like a metal object near a white stone wall, which could be its habitat. Owls live in many different habitats like forests, deserts, and near buildings where they can find food like mice and insects. Understanding where animals live helps us protect their **ecosystems**.",
+      "x": "15%",
+      "y": "40%",
+      "label": "Forward-Facing Eyes",
+      "fact": "This owl's large eyes face forward, which gives it special vision to see prey in the dark and judge how far away things are. Owls are nocturnal hunters, meaning they hunt at night, and their big eyes help them see much better than humans in dim light. This is an important adaptation for an owl's survival.",
       "vocabulary": {
-        "term": "Habitat",
-        "definition": "The place where an animal lives that has everything it needs, like food, water, shelter, and space."
+        "term": "Nocturnal",
+        "definition": "An animal that is active and hunts at night and rests during the day."
       }
     }
   ]
