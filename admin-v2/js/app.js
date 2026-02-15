@@ -115,7 +115,6 @@ function switchTab(tabName) {
     if (tabName === 'analytics' && typeof loadAnalytics === 'function') loadAnalytics();
     if (tabName === 'comments' && typeof loadComments === 'function') loadComments();
     if (tabName === 'traffic' && typeof loadGA4Analytics === 'function') loadGA4Analytics();
-    if (tabName === 'backfill' && typeof renderBackfillStats === 'function') renderBackfillStats();
 }
 
 /**

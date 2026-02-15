@@ -101,7 +101,6 @@
                 <button class="tab-btn" data-tab="analytics" onclick="switchTab('analytics')">Analytics</button>
                 <button class="tab-btn" data-tab="traffic" onclick="switchTab('traffic')">Site Traffic</button>
                 <button class="tab-btn" data-tab="comments" onclick="switchTab('comments')">Comments</button>
-                <button class="tab-btn" data-tab="backfill" onclick="switchTab('backfill')">Backfill Tools</button>
             </nav>
 
             <!-- ======== OVERVIEW TAB ======== -->
@@ -703,92 +702,6 @@
                 </div>
             </div>
 
-            <!-- ======== BACKFILL TOOLS TAB ======== -->
-            <div id="tab-backfill" class="tab-content">
-                <div class="stats-row" id="backfill-stats-row">
-                    <div class="stat-card">
-                        <div class="stat-value" id="backfill-total-images">--</div>
-                        <div class="stat-label">Total Images</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" id="backfill-exit-ticket-count">--</div>
-                        <div class="stat-label">Exit Tickets in Storage</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" id="backfill-rubric-count">--</div>
-                        <div class="stat-label">Rubrics in Storage</div>
-                    </div>
-                </div>
-
-                <!-- Exit Ticket Backfill -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>Exit Ticket Backfill</h2>
-                        <div style="display: flex; gap: 8px; align-items: center;">
-                            <span class="text-muted" id="et-backfill-status">Ready</span>
-                            <button class="btn btn-small btn-primary" id="et-backfill-btn" onclick="startExitTicketBackfill()">Start Backfill</button>
-                        </div>
-                    </div>
-                    <p class="text-muted" style="padding: 0 20px;">Generate exit ticket PDFs for all images. No AI cost &mdash; extracts questions from existing content JSONs. Batch size: 10 images (60 PDFs) per call.</p>
-                    <div id="et-backfill-progress" style="padding: 12px 20px 20px; display: none;">
-                        <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
-                            <span id="et-progress-label">Processing...</span>
-                            <span id="et-progress-pct">0%</span>
-                        </div>
-                        <div class="upload-progress-track" style="height: 8px; border-radius: 4px; background: var(--bg-light);">
-                            <div class="upload-progress-bar" id="et-progress-bar" style="width: 0%; height: 100%; border-radius: 4px; background: #00838F; transition: width 0.3s;"></div>
-                        </div>
-                        <div id="et-progress-log" style="margin-top: 12px; font-size: 0.8rem; color: var(--text-muted); max-height: 200px; overflow-y: auto; font-family: monospace;"></div>
-                    </div>
-                </div>
-
-                <!-- Rubric Backfill -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>Rubric Backfill</h2>
-                        <div style="display: flex; gap: 8px; align-items: center;">
-                            <span class="text-muted" id="rubric-backfill-status">Ready</span>
-                            <button class="btn btn-small btn-primary" id="rubric-backfill-btn" onclick="startRubricBackfill()">Start Backfill</button>
-                        </div>
-                    </div>
-                    <p class="text-muted" style="padding: 0 20px;">Generate rubric JSONs (AI) + PDFs for all images. Uses Claude Haiku &mdash; ~$0.028 per image, ~$4.79 total for 171 images. Batch size: 3 images (18 API calls) per call.</p>
-                    <div id="rubric-backfill-progress" style="padding: 12px 20px 20px; display: none;">
-                        <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
-                            <span id="rubric-progress-label">Processing...</span>
-                            <span id="rubric-progress-pct">0%</span>
-                        </div>
-                        <div class="upload-progress-track" style="height: 8px; border-radius: 4px; background: var(--bg-light);">
-                            <div class="upload-progress-bar" id="rubric-progress-bar" style="width: 0%; height: 100%; border-radius: 4px; background: #D84315; transition: width 0.3s;"></div>
-                        </div>
-                        <div id="rubric-progress-log" style="margin-top: 12px; font-size: 0.8rem; color: var(--text-muted); max-height: 200px; overflow-y: auto; font-family: monospace;"></div>
-                    </div>
-                </div>
-
-                <!-- Terminal Script Info -->
-                <div class="card">
-                    <div class="card-header">
-                        <h2>Terminal Scripts</h2>
-                    </div>
-                    <div style="padding: 0 20px 20px;">
-                        <p class="text-muted">For faster backfills, use the terminal scripts which run locally with parallel uploads:</p>
-                        <pre style="background: var(--bg-dark); color: #e0e0e0; padding: 16px; border-radius: 8px; font-size: 0.82rem; overflow-x: auto; margin-top: 8px;">
-<span style="color: #888;"># Install dependencies (first time only)</span>
-cd tools && npm install
-
-<span style="color: #888;"># Exit Tickets (free, ~5 min for all 171 images)</span>
-node tools/backfill-exit-tickets.js
-
-<span style="color: #888;"># Rubrics (~$4.79 total, ~30 min for all 171 images)</span>
-node tools/backfill-rubrics.js
-
-<span style="color: #888;"># Options</span>
-node tools/backfill-exit-tickets.js --force        <span style="color: #888;"># Regenerate existing</span>
-node tools/backfill-exit-tickets.js --start 50     <span style="color: #888;"># Start from image 50</span>
-node tools/backfill-exit-tickets.js --limit 10     <span style="color: #888;"># Process only 10 images</span></pre>
-                    </div>
-                </div>
-            </div>
-
         </div><!-- .admin-container -->
     </div><!-- #dashboard -->
 
@@ -938,7 +851,6 @@ node tools/backfill-exit-tickets.js --limit 10     <span style="color: #888;"># 
     <script src="js/health-checks.js"></script>
     <script src="js/reorder-manager.js"></script>
     <script src="js/collection-manager.js"></script>
-    <script src="js/backfill-tools.js"></script>
 
 </body>
 </html>
