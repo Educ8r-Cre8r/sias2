@@ -1,0 +1,53 @@
+{
+  "title": "Erosion",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think made the water look brown and muddy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that soil, dirt, or mud from the ground mixed into the water, and may add that rain washed these materials into the water.",
+        "meets": "Student correctly states that dirt or mud mixed with the water to make it brown and muddy.",
+        "approaching": "Student identifies that something from the ground got into the water but explanation is vague or partially unclear.",
+        "beginning": "Student gives a minimal response like \"it's dirty\" without explaining where the dirt or mud came from."
+      }
+    },
+    {
+      "questionText": "Where do you predict this flowing water will go next?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the water will flow downhill or to lower areas, and may mention it could reach a stream, river, or pond based on how flowing water moves.",
+        "meets": "Student makes a reasonable prediction that the water will flow to a lower place or continue moving downstream.",
+        "approaching": "Student makes a prediction about where the water goes but it shows unclear reasoning or is only partially logical.",
+        "beginning": "Student makes a prediction with little or no explanation, or the prediction does not relate to how water flows."
+      }
+    },
+    {
+      "questionText": "How is this flowing water different from water in a pond?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as flowing water moves quickly while pond water is still, flowing water carries dirt, and flowing water changes the land it moves across.",
+        "meets": "Student correctly identifies that flowing water moves fast and keeps going, while pond water stays in one place and is still.",
+        "approaching": "Student names one difference between flowing and pond water but the explanation is incomplete or partially accurate.",
+        "beginning": "Student attempts to compare but provides vague descriptions or only one unclear difference between the two types of water."
+      }
+    },
+    {
+      "questionText": "What might happen to the rocks and dirt if the water keeps flowing?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that rocks and dirt will be worn away, moved, or carried downstream by the flowing water, and may explain this happens over time as water pushes them.",
+        "meets": "Student predicts that the rocks and dirt will move or be washed away by the flowing water.",
+        "approaching": "Student makes a prediction about changes to rocks and dirt but the explanation is unclear or only partially connected to flowing water.",
+        "beginning": "Student provides a minimal or unclear prediction about what might happen to the rocks and dirt."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:55:54.362Z",
+  "cost": 0.004137
+}

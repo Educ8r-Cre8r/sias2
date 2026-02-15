@@ -1,0 +1,53 @@
+{
+  "title": "Hill",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think makes the city buildings look fuzzy and hard to see?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that air, pollution, or particles in the air make the buildings fuzzy and explains that something between us and the buildings blocks the clear view, using observational details from the photo.",
+        "meets": "Student correctly identifies that air or something in the air makes the buildings look fuzzy and unclear compared to nearby objects.",
+        "approaching": "Student recognizes the buildings look fuzzy but provides an incomplete or partially correct explanation, such as mentioning clouds or distance without connecting to air quality.",
+        "beginning": "Student makes a vague statement about the buildings being fuzzy or hard to see but shows little understanding of what causes this effect."
+      }
+    },
+    {
+      "questionText": "How might the view change on a windy day compared to a still day?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wind could blow away particles or dust in the air, making distant objects clearer, and contrasts this with still air that keeps particles concentrated and makes views hazier.",
+        "meets": "Student predicts that wind could help make the distant buildings clearer by moving air or particles away.",
+        "approaching": "Student acknowledges wind could change the view but provides vague reasoning, such as wind just making things 'better' or 'different' without explanation.",
+        "beginning": "Student provides a minimal response or incorrect prediction about how wind would affect visibility."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice when comparing things that are close to us versus far away?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that nearby objects (trees, house) are clear and sharp while distant objects (city buildings) are fuzzy and hazy, and connects this to air and distance as causes.",
+        "meets": "Student identifies that things close by are clearer and easier to see while far-away things look fuzzy or harder to see.",
+        "approaching": "Student notices that distant and nearby objects look different but describes the pattern incompletely or without clear comparison.",
+        "beginning": "Student provides a minimal observation about close or distant objects with little descriptive detail or pattern recognition."
+      }
+    },
+    {
+      "questionText": "How could we find out if the air is cleaner or dirtier on different days?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests comparing how far away you can see distant objects on different days or observing whether buildings look clearer or hazier, explaining that clearer views mean cleaner air.",
+        "meets": "Student proposes comparing the view or clarity of distant objects on different days to determine if air is cleaner or dirtier.",
+        "approaching": "Student suggests looking outside or observing the air but provides vague methods without clear connection to measuring or comparing cleanliness.",
+        "beginning": "Student offers a minimal or unclear response that does not describe a practical method for comparing air quality."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:49:36.008Z",
+  "cost": 0.004568
+}

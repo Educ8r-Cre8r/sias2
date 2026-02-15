@@ -1,0 +1,53 @@
+{
+  "title": "Pelican",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about this bird's beak and how might it help the bird get food?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the beak as long and big, and explains that it helps the pelican catch or scoop up fish from the water with specific details about how the beak works.",
+        "meets": "Student notices the beak is long or big and makes a reasonable connection that it helps the bird get food from the water.",
+        "approaching": "Student notices the beak is long or different but makes only a vague connection to getting food, or describes the beak without explaining its purpose.",
+        "beginning": "Student makes a minimal observation about the beak or mentions food without connecting the two ideas."
+      }
+    },
+    {
+      "questionText": "Where do you think this pelican lives and why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the pelican lives near water or the ocean and explains multiple reasons, such as finding fish, the wooden post shown, or being near water in the photo.",
+        "meets": "Student identifies that the pelican lives near water or the ocean and provides one reason, such as catching fish or being near the water.",
+        "approaching": "Student identifies water or ocean as the habitat but gives a weak or incomplete reason, or shows uncertainty in the answer.",
+        "beginning": "Student gives a vague answer about where the bird lives or provides a reason unrelated to its habitat needs."
+      }
+    },
+    {
+      "questionText": "How is this bird the same or different from birds you see in your backyard?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (such as the long beak, size, or color) and similarities (such as having feathers or wings), showing clear comparison between the pelican and common backyard birds.",
+        "meets": "Student identifies at least one clear difference or similarity between the pelican and backyard birds, such as beak size or the presence of feathers.",
+        "approaching": "Student attempts to compare the pelican to backyard birds but gives only vague observations or identifies one characteristic without clear comparison.",
+        "beginning": "Student provides minimal or unclear observations about how the pelican compares to other birds."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if this pelican had a tiny beak like a robin?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that a tiny beak would make it hard to catch fish and shows understanding that the pelican's long beak is special for its way of getting food from water.",
+        "meets": "Student predicts that a tiny beak would make it difficult for the pelican to catch fish or get food.",
+        "approaching": "Student makes a prediction about what would happen but with unclear or partially formed reasoning about how a beak size affects feeding.",
+        "beginning": "Student gives a simple answer with little explanation, such as 'it couldn't eat,' without showing cause-and-effect thinking."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:39:12.529Z",
+  "cost": 0.004589
+}

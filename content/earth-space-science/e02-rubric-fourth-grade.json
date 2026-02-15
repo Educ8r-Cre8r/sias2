@@ -1,0 +1,53 @@
+{
+  "title": "Hill",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is causing the city in the distance to look hazy compared to the trees in the front?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that air pollution, dust, or particles in the atmosphere cause the haze and explains that these particles block or scatter light, making distant objects appear less clear than nearby objects.",
+        "meets": "Student recognizes that something in the air (pollution, particles, or fog) is making the city look blurry or unclear, and notes that distance affects visibility.",
+        "approaching": "Student mentions that the city looks foggy or blurry but provides incomplete reasoning, such as stating it's far away without explaining what causes the haze effect.",
+        "beginning": "Student offers a vague response like 'the city looks different' or guesses without scientific reasoning about air, particles, or distance."
+      }
+    },
+    {
+      "questionText": "How might the air quality in this picture affect the plants, animals, and people living in both areas?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains how poor air quality harms multiple organisms (e.g., polluted air makes breathing difficult for animals and people, reduces sunlight for plant growth) and recognizes that areas with clearer air like the forest may experience fewer negative effects than the hazy city.",
+        "meets": "Student identifies at least two ways poor air quality affects living things, such as making it harder for people to breathe or blocking sunlight from plants.",
+        "approaching": "Student mentions that air quality affects living things but provides only one effect or uses vague language like 'it's bad for them' without specific examples.",
+        "beginning": "Student provides a minimal response such as 'it could make things sick' with no clear explanation of how or why."
+      }
+    },
+    {
+      "questionText": "What solutions could help reduce the haze we see over the city?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple realistic solutions (e.g., using cleaner energy sources, planting more trees, reducing vehicle emissions, using air filters) and explains how at least one solution would work to reduce particles or pollution in the air.",
+        "meets": "Student suggests two or more reasonable ways to reduce air pollution, such as fewer cars, cleaner factories, or planting trees, with basic explanations of how they help.",
+        "approaching": "Student offers one or two ideas to reduce haze but with incomplete explanations, or suggests solutions that are somewhat unrealistic or vaguely connected to air quality.",
+        "beginning": "Student provides a vague idea like 'clean it up' or 'make it better' with little understanding of what causes the haze or how solutions would work."
+      }
+    },
+    {
+      "questionText": "If you were standing in the city looking back toward this house, what do you think you would see and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts seeing the house and trees less clearly due to the haze and distance, explains that the same haze visible from the house affects the view in reverse, and recognizes the forest might appear darker or less distinct against the sky.",
+        "meets": "Student predicts the house and trees would be hard to see or blurry from the city and correctly connects this to the haze and distance shown in the photo.",
+        "approaching": "Student acknowledges the view would be different or unclear from the city but provides incomplete reasoning about why, such as mentioning only distance or only haze.",
+        "beginning": "Student gives a vague answer like 'you'd see trees' or 'it would look far away' without explaining how the haze affects the reverse view."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:49:52.742Z",
+  "cost": 0.005336
+}

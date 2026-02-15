@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages might a lizard have by using visual signals instead of sounds to communicate?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple advantages (e.g., works when sound cannot travel, stays silent to avoid predators, works in noisy environments, uses less energy) with clear explanations of how each benefit helps the lizard survive or communicate.",
+        "meets": "Student identifies at least two advantages of visual signals over sounds, such as the ability to communicate silently or from a distance, with reasonable explanations.",
+        "approaching": "Student identifies one advantage of visual signals, such as being quiet or visible from far away, but explanation may lack detail or clarity.",
+        "beginning": "Student provides a vague or minimal response that shows little understanding of why visual communication might benefit a lizard."
+      }
+    },
+    {
+      "questionText": "How do you think the lizard's dewlap display compares to ways humans communicate without words?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes thoughtful comparisons between the dewlap and human nonverbal communication (e.g., both use color/appearance, both show emotions or intentions, both can be seen from a distance) and explains how both serve similar communication purposes.",
+        "meets": "Student identifies at least one accurate similarity between the dewlap display and human nonverbal communication, such as both being visual or both conveying meaning without words.",
+        "approaching": "Student attempts a comparison but may be incomplete or partially accurate, such as mentioning that both are visual but not fully explaining the similarity.",
+        "beginning": "Student provides a minimal or unclear response that does not establish a meaningful connection between dewlap displays and human nonverbal communication."
+      }
+    },
+    {
+      "questionText": "What would happen if all the lizards in an area had the exact same dewlap color and pattern?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that lizards would have difficulty identifying each other or recognizing individuals, and connects this to potential problems for finding mates, establishing territory, or avoiding predators, showing understanding of why variation is important.",
+        "meets": "Student recognizes that having identical dewlaps would make it hard for lizards to tell each other apart or communicate individual differences.",
+        "approaching": "Student identifies that having the same patterns might cause some kind of problem but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal or inaccurate response with little understanding of how identical markings would affect lizard communication or survival."
+      }
+    },
+    {
+      "questionText": "Why might it be important for the lizard to be able to hide its dewlap when not using it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hiding the dewlap helps the lizard blend in with its environment (camouflage) to avoid predators, conserves energy, and uses the display strategically only when needed for communication or defense.",
+        "meets": "Student identifies that hiding the dewlap helps the lizard avoid being seen by predators or allows it to blend in with rocks and dirt.",
+        "approaching": "Student recognizes that hiding the dewlap is important but provides incomplete reasoning, such as mentioning camouflage without explaining why it matters.",
+        "beginning": "Student provides a vague or minimal response that does not clearly explain the survival advantage of hiding the dewlap."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:16:56.363Z",
+  "cost": 0.005038
+}

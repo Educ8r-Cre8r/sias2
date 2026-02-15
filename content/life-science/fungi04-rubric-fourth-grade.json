@@ -1,0 +1,53 @@
+{
+  "title": "Fungi04",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to these pink structures over the next few days?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple realistic outcomes (e.g., structures will release spores, shrivel up, spread to new areas) and explains WHY using observations about fungi life cycles or environmental factors like moisture or temperature.",
+        "meets": "Student predicts a reasonable outcome (e.g., structures will get bigger, release spores, or break apart) with a basic explanation connected to fungi growth or decay.",
+        "approaching": "Student makes a prediction about what will happen but provides limited or incomplete reasoning; explanation may be vague or only partially connected to fungi.",
+        "beginning": "Student provides a prediction with little or no explanation, or the prediction is unclear/unrealistic based on fungi behavior."
+      }
+    },
+    {
+      "questionText": "How might these colorful fungi help other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways fungi help forest organisms (e.g., breaking down dead wood for nutrients, providing food for insects/animals, returning nutrients to soil) and explains how these actions support forest ecosystems.",
+        "meets": "Student identifies at least one way fungi help other living things (e.g., breaking down dead material, providing food, or enriching soil) with a clear explanation.",
+        "approaching": "Student suggests fungi help other organisms but explanation is incomplete or only partially accurate; may confuse fungi role with other organisms.",
+        "beginning": "Student provides a vague response or minimal attempt to explain fungi's role in helping other forest living things."
+      }
+    },
+    {
+      "questionText": "Why do you think these organisms are bright pink instead of brown like the dead leaves around them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful explanation considering multiple factors such as pigment production for protection, attracting insects for spore dispersal, or adaptation for different life stages, with specific reasoning.",
+        "meets": "Student offers a reasonable hypothesis (e.g., bright color attracts animals, helps them stand out, or indicates they are alive/different from dead material) with basic supporting reasoning.",
+        "approaching": "Student attempts an explanation but reasoning is incomplete or partially unclear; may mention color but lack connection to fungi function or survival.",
+        "beginning": "Student provides a minimal or unclear response; little attempt to explain the connection between color and fungi characteristics or purpose."
+      }
+    },
+    {
+      "questionText": "What conditions do you think these fungi need to grow and survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific conditions fungi need (e.g., moisture/dampness, darkness or shade, dead organic material to feed on, proper temperature) and explains WHY each condition is important for survival.",
+        "meets": "Student identifies at least two conditions fungi need (e.g., moisture, dead wood, shade) with brief explanations of why these conditions help fungi survive.",
+        "approaching": "Student names one or two conditions fungi might need but explanation is vague; may have incomplete understanding of why conditions are necessary.",
+        "beginning": "Student provides minimal or vague response about fungi conditions; little evidence of understanding what fungi require to grow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:30:57.370Z",
+  "cost": 0.00482
+}

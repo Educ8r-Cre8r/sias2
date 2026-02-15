@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about this lizard's throat?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the bright orange and red throat flap (dewlap) and describes its color, size, or position with specific details like \"it puffs out\" or \"it's really colorful.\"",
+        "meets": "Student notices the lizard has a colorful or bright throat that is different from the rest of its body.",
+        "approaching": "Student mentions something about the throat or identifies a color, but description is vague or partially accurate (e.g., \"it has red stuff\").",
+        "beginning": "Student makes a minimal attempt such as \"it looks different\" or points to the throat area without describing what makes it special."
+      }
+    },
+    {
+      "questionText": "Why do you think the lizard shows its colorful throat to other lizards?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains the dewlap is used for communication and provides two connected reasons, such as \"to show it's strong and healthy\" or \"to warn other lizards to stay away\" or \"to attract a mate.\"",
+        "meets": "Student gives a reasonable explanation that the colorful throat helps the lizard communicate with other lizards, such as to show it's strong, to scare enemies, or to get attention.",
+        "approaching": "Student provides a partial explanation like \"to show other lizards\" or \"because it's pretty,\" but reasoning is unclear or incomplete.",
+        "beginning": "Student gives a minimal or illogical response such as \"I don't know\" or \"because it's red\" without connecting it to communication or animal behavior."
+      }
+    },
+    {
+      "questionText": "How else do animals talk to each other without using words?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more ways animals communicate without words, using specific examples like colors, sounds, body movements, smells, or touch (e.g., \"bees dance,\" \"snakes hiss,\" \"birds sing\").",
+        "meets": "Student identifies two ways animals communicate without words with simple, accurate examples like sounds, colors, movements, or facial expressions.",
+        "approaching": "Student identifies one way animals communicate or mentions multiple ways with vague descriptions (e.g., \"they make noises\" or \"they move around\").",
+        "beginning": "Student makes a minimal attempt such as \"I don't know\" or provides an inaccurate response like \"they write messages.\""
+      }
+    },
+    {
+      "questionText": "What would happen if all lizards looked exactly the same?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that lizards would have trouble communicating with each other and provides a specific consequence, such as \"they couldn't find mates,\" \"they couldn't warn each other of danger,\" or \"they might attack the wrong lizards.\"",
+        "meets": "Student explains that lizards would have a hard time telling each other apart or that they would lose a way to communicate with each other.",
+        "approaching": "Student identifies that sameness would cause a problem but reasoning is incomplete or unclear (e.g., \"they would be confused\" without explaining why or how it matters).",
+        "beginning": "Student provides a minimal response such as \"it would be weird\" or \"I don't know\" without addressing how sameness affects lizard communication or survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:16:24.494Z",
+  "cost": 0.005058
+}

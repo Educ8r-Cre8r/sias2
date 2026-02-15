@@ -1,0 +1,53 @@
+{
+  "title": "Seed Germination",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this little plant needs to keep growing bigger?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple basic plant needs (water, sunlight, soil) with specific details about why each is important for growth.",
+        "meets": "Student identifies at least two basic plant needs (such as water and sunlight) with reasonable explanations of how they help the plant grow.",
+        "approaching": "Student identifies one plant need (water or sunlight) with a simple explanation, or mentions multiple needs without clear explanations.",
+        "beginning": "Student provides a vague answer about plant needs (like \"food\" or \"air\") with little or no explanation of how it helps growth."
+      }
+    },
+    {
+      "questionText": "How might the dead plant pieces around the seedling help or hurt its growth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how dead plant pieces could both help (decompose into soil nutrients) and hurt (block sunlight or space) growth, showing understanding of multiple effects.",
+        "meets": "Student explains either how dead pieces help (become nutrients or soil) or how they might hurt (block light or take up space) with a clear reason.",
+        "approaching": "Student identifies that dead pieces could help or hurt but gives incomplete or somewhat unclear reasoning about the effect on growth.",
+        "beginning": "Student attempts to answer but provides vague ideas about dead pieces and growth with little scientific reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen if we moved this plant to a dark closet?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would struggle or die and explains that plants need light to make food or grow properly, showing understanding of photosynthesis at grade level.",
+        "meets": "Student predicts the plant would not grow well or would get sick/die without light, with a simple explanation that plants need sunlight.",
+        "approaching": "Student predicts a negative effect from darkness but with unclear or incomplete reasoning about why light matters for plants.",
+        "beginning": "Student makes a prediction about moving the plant but shows little understanding of why darkness would affect plant growth."
+      }
+    },
+    {
+      "questionText": "Why do you think plants can grow in places that look messy or damaged?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that plants can grow in damaged places because they have strong seeds, can use dead materials as nutrients, or adapt to challenging conditions, showing resilience understanding.",
+        "meets": "Student explains that plants can grow there because they have strong roots, or because dead plant parts break down into soil that helps them, or they just need basic needs met.",
+        "approaching": "Student acknowledges plants can grow in messy places but gives an incomplete or partially unclear explanation of how or why.",
+        "beginning": "Student attempts an answer but provides minimal or vague reasoning about plant growth in damaged environments."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:20:29.311Z",
+  "cost": 0.004458
+}

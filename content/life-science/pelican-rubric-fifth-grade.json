@@ -1,0 +1,53 @@
+{
+  "title": "Pelican",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How does the pelican's beak and pouch design help it survive better than a bird with a small, thin beak?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how the large beak and pouch are structural adaptations that allow pelicans to catch and store larger amounts of fish, and connects this to survival advantages such as feeding efficiency or reduced hunting time needed to find food.",
+        "meets": "Student accurately describes that the pelican's large beak and pouch help it catch and hold more fish than a small-beaked bird, and explains this gives the pelican a feeding advantage.",
+        "approaching": "Student identifies that the pelican has a large beak and pouch that holds fish, but explanation of survival advantage is incomplete or partially unclear.",
+        "beginning": "Student makes a simple observation about the pelican's beak or pouch but provides little explanation of how this design helps the bird survive."
+      }
+    },
+    {
+      "questionText": "What would happen to the coastal ecosystem if pelicans disappeared, and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple effects such as increased fish populations, changes in predator-prey relationships, or impacts on food chains; demonstrates understanding that pelicans are part of a connected ecosystem and their loss would create an imbalance.",
+        "meets": "Student describes at least two reasonable consequences, such as fish populations increasing or other animals losing a food source, and explains why pelicans' removal would cause these changes.",
+        "approaching": "Student predicts one or two changes to the ecosystem but reasoning is incomplete or shows partial understanding of food chains or predator-prey relationships.",
+        "beginning": "Student makes a prediction about ecosystem changes but provides vague or inaccurate reasoning about how pelicans fit into the coastal environment."
+      }
+    },
+    {
+      "questionText": "Compare and contrast how a pelican's feeding adaptations differ from those of other water birds like ducks or herons.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific adaptations for each bird type (e.g., pelican's pouch vs. duck's filter feeding or heron's spear-like beak) and explains how each adaptation matches the bird's feeding strategy and prey type.",
+        "meets": "Student correctly compares at least two feeding adaptations between pelicans and other water birds, and explains how the differences relate to what each bird eats.",
+        "approaching": "Student identifies some differences in beak or feeding structures but explanation of how these relate to feeding strategies is incomplete or vague.",
+        "beginning": "Student mentions differences between pelican beaks and other birds' beaks but provides little detail or unclear connections to feeding behavior."
+      }
+    },
+    {
+      "questionText": "Design an investigation to test which beak shape works best for catching different types of food items.",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a detailed investigation with clear variables (different beak shapes and food types), describes a fair testing method, explains what data would be collected and how, and discusses limitations or follow-up questions.",
+        "meets": "Student designs an investigation that tests at least two different beak shapes with food items, identifies the variable being tested, and describes how results would show which beak works best.",
+        "approaching": "Student outlines an investigation with some experimental elements but is unclear about variables, fair testing, or how results would be measured.",
+        "beginning": "Student attempts to design an investigation but lacks clear procedures, variables, or a method to determine which beak shape is most effective."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:39:51.133Z",
+  "cost": 0.005218
+}

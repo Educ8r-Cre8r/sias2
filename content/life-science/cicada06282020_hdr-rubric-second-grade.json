@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this cicada survive in its environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least three body parts (wings, eyes, legs, or mouth) and explains how each one helps the cicada survive, such as wings for flying away from danger or eyes for seeing.",
+        "meets": "Student identifies two body parts and explains how they help the cicada survive with accurate, simple descriptions.",
+        "approaching": "Student identifies one or two body parts but provides limited or unclear explanation of how they help the cicada survive.",
+        "beginning": "Student names one body part with no explanation, or provides a response that shows minimal understanding of how body parts help cicadas."
+      }
+    },
+    {
+      "questionText": "How might a cicada's life be different in summer compared to winter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple differences such as cicadas being active and making sounds in summer, finding food when plants are growing, and being inactive or hiding in winter when it is cold and food is scarce.",
+        "meets": "Student describes at least two differences between summer and winter cicada activity, such as more activity in summer and less activity in winter.",
+        "approaching": "Student mentions that summer and winter are different for cicadas but provides only one incomplete comparison or uses vague language.",
+        "beginning": "Student gives a minimal response such as 'it is cold in winter' without connecting it to how the cicada's life changes."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if there were no cicadas in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a chain of effects, such as animals that eat cicadas would have less food, plants might be affected differently, or the forest ecosystem would change in multiple ways.",
+        "meets": "Student identifies one or two reasonable consequences, such as 'animals that eat cicadas would go hungry' or 'the forest would be quieter.'",
+        "approaching": "Student attempts to explain an effect but the reasoning is incomplete or partially unclear, such as 'things would be different' without specific details.",
+        "beginning": "Student provides a vague answer with little evidence of understanding consequences, such as 'the forest would be sad' or no meaningful response."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice about the cicada's body parts?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple patterns such as the cicada has two pairs of wings with matching dark lines, symmetrical body parts on left and right sides, and body parts arranged for specific purposes (wings for flying, eyes for seeing).",
+        "meets": "Student identifies at least two patterns, such as matching wings, two eyes, or body parts arranged symmetrically or in pairs.",
+        "approaching": "Student notices one pattern such as the cicada has two wings or two eyes, but description lacks detail or clarity.",
+        "beginning": "Student provides minimal observation with little pattern recognition, such as 'it has body parts' or an inaccurate description."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:23:34.298Z",
+  "cost": 0.004661
+}

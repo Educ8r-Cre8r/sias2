@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe that tells you these two chrysalises are at different stages?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observable differences (color change, open/closed appearance, presence/absence of butterfly) and explains what each difference reveals about the stage of development.",
+        "meets": "Student identifies at least two observable differences between the chrysalises (such as color or openness) and correctly explains that they show different stages of development.",
+        "approaching": "Student notices that the chrysalises look different but describes only one feature or provides incomplete explanations of what the differences mean.",
+        "beginning": "Student makes a general observation that the chrysalises are different but provides little specific evidence or unclear reasoning about the stages."
+      }
+    },
+    {
+      "questionText": "Why might butterflies choose to attach their chrysalises to human-made structures like buildings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasoned explanations (such as protection from predators, stable structure, shelter from weather) and connects these to how they help the developing butterfly survive.",
+        "meets": "Student provides one or two logical reasons why a building might be a good place for a chrysalis, such as shelter, protection, or stability.",
+        "approaching": "Student suggests a reason but the explanation is vague or only partially connected to the chrysalis's needs (e.g., 'butterflies like buildings' without explaining why).",
+        "beginning": "Student makes a guess about location choice with minimal reasoning or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "How does the butterfly's life cycle pattern compare to other animals you know about?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies the chrysalis stage as part of complete metamorphosis and compares it to other animals with different life cycle patterns, explaining how butterfly development is similar or different (e.g., 'Butterflies have a chrysalis stage unlike birds, which hatch from eggs').",
+        "meets": "Student correctly identifies the chrysalis as part of the butterfly's life cycle and makes a reasonable comparison to another animal's life cycle, noting similarities or differences.",
+        "approaching": "Student mentions another animal and attempts a comparison, but the explanation is incomplete or partially inaccurate about either the butterfly's or the other animal's development.",
+        "beginning": "Student names another animal but provides no clear comparison, or makes an inaccurate comparison between life cycles."
+      }
+    },
+    {
+      "questionText": "What would happen to the developing butterfly if the chrysalis was damaged during the transformation?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts realistic consequences of chrysalis damage (butterfly cannot develop properly, may die, may emerge with damaged wings) and explains why the chrysalis protects the butterfly during this vulnerable stage.",
+        "meets": "Student predicts that damage would harm or prevent the butterfly's development, with a reasonable explanation of the consequence.",
+        "approaching": "Student recognizes that damage would be negative but provides a vague or incomplete explanation of what would specifically happen to the butterfly.",
+        "beginning": "Student makes a prediction with minimal reasoning or provides an unclear response about the chrysalis's importance."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:36:37.554Z",
+  "cost": 0.004816
+}

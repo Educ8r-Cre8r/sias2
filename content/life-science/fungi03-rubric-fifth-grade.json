@@ -1,0 +1,53 @@
+{
+  "title": "Fungi03",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to a forest if there were no decomposers like these fungi?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead organisms and waste would accumulate, nutrients would not return to soil, and new plants would not have necessary materials to grow, demonstrating understanding of the complete decomposition cycle.",
+        "meets": "Student identifies that dead wood and leaves would pile up and that nutrients would not get back into the soil for plants to use.",
+        "approaching": "Student mentions that dead things would not break down or that plants would have trouble growing, but reasoning is incomplete or partially unclear.",
+        "beginning": "Student provides a vague response such as 'the forest would be messy' or 'things would pile up' with little connection to how decomposers work."
+      }
+    },
+    {
+      "questionText": "How do you think these mushrooms help other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fungi break down dead wood to release nutrients that enrich soil, which plants absorb to grow, and may note that fungi also provide food for forest animals, showing interconnected understanding.",
+        "meets": "Student identifies that mushrooms break down dead wood and that this helps plants get nutrients from the soil.",
+        "approaching": "Student recognizes that mushrooms decompose wood or that they help plants, but explanation lacks clear connection between decomposition and nutrient availability.",
+        "beginning": "Student offers a minimal response such as 'they break down wood' or 'they help' without explaining how this benefits other organisms."
+      }
+    },
+    {
+      "questionText": "Why might these fungi be growing on dead wood instead of living trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead wood cannot defend itself like living trees can, and that fungi break down already-dead material more easily than living tissue, demonstrating understanding of decomposer role and tree defenses.",
+        "meets": "Student states that fungi grow on dead wood because it is easier to break down, or that living trees have protection that dead wood does not.",
+        "approaching": "Student recognizes that dead wood is different from living trees but gives incomplete reasoning about why fungi prefer it.",
+        "beginning": "Student provides a vague answer such as 'fungi like dead things' without explaining the difference between living and dead wood."
+      }
+    },
+    {
+      "questionText": "If you were a tiny nutrient molecule in this rotting log, describe your journey from the wood to a new plant.",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces a complete journey: fungi break down wood, releasing nutrients into soil, roots absorb nutrients, and nutrients travel through the plant to support growth, using appropriate vocabulary like decomposition and absorption.",
+        "meets": "Student describes a logical sequence such as fungi breaking down the wood, nutrients entering the soil, and plants taking in the nutrients.",
+        "approaching": "Student describes part of the journey (fungi breaking down wood OR plants absorbing nutrients) but misses steps or shows incomplete understanding of the full process.",
+        "beginning": "Student provides a disconnected or overly simplistic response such as 'I go into the soil and then into a plant' without explaining how fungi are involved."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:30:19.055Z",
+  "cost": 0.004835
+}

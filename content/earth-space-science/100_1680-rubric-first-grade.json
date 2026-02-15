@@ -1,0 +1,53 @@
+{
+  "title": "Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make everything in this picture white?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that snow fell from the sky and landed on everything, using the word 'snow' and showing understanding that precipitation covered objects during winter.",
+        "meets": "Student identifies that snow made things white and indicates it came from weather or the sky, demonstrating basic understanding of winter precipitation.",
+        "approaching": "Student mentions snow or winter but gives incomplete explanation, such as only saying 'it snowed' without describing what snow is or where it came from.",
+        "beginning": "Student provides minimal response like 'it's white' or 'cold' without connecting the whiteness to snow or winter weather."
+      }
+    },
+    {
+      "questionText": "How do you think the snow got on top of the wagon?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that snow fell from the clouds or sky and landed on the wagon, using positional language like 'on top' and showing understanding that snow accumulates on objects.",
+        "meets": "Student describes that snow fell on the wagon from above or that the wagon got covered with snow during snowfall.",
+        "approaching": "Student mentions snow getting on the wagon but explanation is vague, such as 'it just did' or 'the snow put itself there' without describing falling or accumulation.",
+        "beginning": "Student gives minimal or unclear response, such as 'it's there' or attempts an explanation unrelated to snowfall."
+      }
+    },
+    {
+      "questionText": "What would happen to this snow if the temperature got warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that snow would melt, using temperature vocabulary and explaining that warmer weather causes snow to turn into water or disappear.",
+        "meets": "Student predicts that snow would melt or go away when it gets warmer, showing understanding of how temperature affects snow.",
+        "approaching": "Student indicates some change would happen to snow with warmer temperature but explanation lacks clarity, such as 'it would be different' or 'it goes away' without mentioning melting.",
+        "beginning": "Student provides minimal prediction or guesses incorrectly, such as 'more snow would come' or 'it stays the same.'"
+      }
+    },
+    {
+      "questionText": "What other things have you seen that are covered with snow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple objects or areas covered with snow (such as trees, houses, cars, ground, bushes) and describes what they looked like when covered.",
+        "meets": "Student names at least one object or area they have seen covered with snow, such as trees, houses, or the ground.",
+        "approaching": "Student attempts to name something that could be covered with snow but description is vague or only partially correct, such as mentioning a general category like 'stuff' without specific examples.",
+        "beginning": "Student provides minimal or unclear response, such as 'I don't know' or names something unlikely to be covered with snow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:44:47.998Z",
+  "cost": 0.004658
+}

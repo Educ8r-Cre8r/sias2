@@ -1,0 +1,53 @@
+{
+  "title": "Backyard Landscape",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the different plants in this garden?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific plant features (e.g., different colors, sizes, shapes) and explains one difference between plants (e.g., flowers are colorful but grass is green).",
+        "meets": "Student identifies two plant features or types in the garden (e.g., flowers and grass) and notes at least one difference between them.",
+        "approaching": "Student names one or two plants or plant parts (e.g., flowers, grass) but provides limited detail or does not explain differences.",
+        "beginning": "Student gives a vague response (e.g., 'plants') or makes minimal observations without naming specific plants or features."
+      }
+    },
+    {
+      "questionText": "Why do you think some flowers are orange and others are white?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful hypothesis with reasoning, such as connecting flower color to different plant types or suggesting that plants can grow different colors naturally.",
+        "meets": "Student offers a simple, logical explanation such as 'different kinds of flowers are different colors' or 'they grew that way.'",
+        "approaching": "Student acknowledges that flowers have different colors but cannot explain why, or provides an unclear or partially reasonable explanation.",
+        "beginning": "Student simply restates the observation (e.g., 'because they are orange and white') without offering any explanation."
+      }
+    },
+    {
+      "questionText": "What would happen to these plants if they didn't get water for many days?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that plants would die, wilt, or get sick and explains that plants need water to grow and stay healthy.",
+        "meets": "Student predicts a negative outcome for the plants (e.g., they would die, wilt, or get dry) based on plants needing water.",
+        "approaching": "Student recognizes that no water would be bad for plants but cannot clearly explain what would happen or why water matters.",
+        "beginning": "Student provides an unclear or inaccurate response (e.g., 'they would be fine' or 'I don't know') with no reasoning."
+      }
+    },
+    {
+      "questionText": "How is this garden like a home for plants and animals?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple features that make a garden suitable for living things, such as food, shelter, water, or space, and explains how at least two features help plants or animals.",
+        "meets": "Student explains that a garden provides something plants and animals need (e.g., food, water, or a place to live) with a clear example.",
+        "approaching": "Student makes a connection between the garden and a home but with incomplete reasoning or minimal explanation of what the garden provides.",
+        "beginning": "Student gives a minimal response (e.g., 'because it is') or does not clearly explain how a garden functions as a home."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:21:05.743Z",
+  "cost": 0.004586
+}

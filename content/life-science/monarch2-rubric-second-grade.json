@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the butterfly will do first when it comes out?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts a logical first action (dry wings, rest, or fly) with a reason that shows understanding of butterfly needs, such as 'It will rest and dry its wings so they are strong enough to fly.'",
+        "meets": "Student predicts a reasonable first action the butterfly might do, such as resting, drying wings, or flying away.",
+        "approaching": "Student makes a prediction about what the butterfly will do, but the action may be unclear or only partially realistic (e.g., 'It will do something').",
+        "beginning": "Student provides a vague answer or describes an action unrelated to a newly emerged butterfly (e.g., 'It will eat' without context, or 'I don't know')."
+      }
+    },
+    {
+      "questionText": "How is this butterfly different from the caterpillar it used to be?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple physical differences with specific details, such as 'The butterfly has wings, six legs, and colorful patterns, but the caterpillar had no wings and a long green body with no pattern.'",
+        "meets": "Student describes 2-3 clear physical differences between the butterfly and caterpillar, such as wings, body shape, or color.",
+        "approaching": "Student mentions at least one difference between the butterfly and caterpillar, but the explanation may be incomplete or lack detail (e.g., 'It has wings now').",
+        "beginning": "Student attempts to compare but provides inaccurate or very vague information (e.g., 'It's bigger' or 'It looks different')."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful for this animal to have such different life stages?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains two or more advantages of different life stages, such as 'The caterpillar eats lots of leaves to grow big and strong, but the butterfly can fly to find new plants and lay eggs in different places.'",
+        "meets": "Student provides one clear reason why different life stages are helpful, such as eating different foods, flying to new places, or spreading to new areas.",
+        "approaching": "Student recognizes that different life stages have different purposes, but the explanation is unclear or incomplete (e.g., 'So it can change' or 'It helps it grow').",
+        "beginning": "Student provides a minimal or inaccurate response that does not clearly explain the benefit of different life stages (e.g., 'Because it has to' or no real explanation)."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that change a lot as they grow?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names 2 or more animals that undergo significant change (frogs, beetles, ants, flies) and may describe one change, showing clear understanding of metamorphosis (e.g., 'Frogs start as tadpoles with tails, and beetles change inside a cocoon like butterflies do').",
+        "meets": "Student names 1-2 animals that change significantly as they grow, with a brief description of the change.",
+        "approaching": "Student names one animal that changes, but the description of change may be vague or incomplete (e.g., 'A frog' or 'A bird grows').",
+        "beginning": "Student provides a response that is unclear, names an animal with minimal change, or gives no clear example (e.g., 'I don't know' or naming an animal that primarily just gets bigger)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:37:07.964Z",
+  "cost": 0.005411
+}

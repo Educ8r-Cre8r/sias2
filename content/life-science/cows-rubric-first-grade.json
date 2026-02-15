@@ -1,0 +1,53 @@
+{
+  "title": "Cows",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the cows are using their mouths?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes specific mouth movements (chewing, pulling grass) and explains that cows use their mouths to eat or get food from the grass.",
+        "meets": "Student accurately identifies that cows are using their mouths to eat or eat grass, with some detail about the action.",
+        "approaching": "Student mentions mouths or eating but provides limited detail or clarity about what the cows are doing with their mouths.",
+        "beginning": "Student gives a vague response about mouths or eating with minimal or unclear connection to the photo."
+      }
+    },
+    {
+      "questionText": "How are the cows in the picture different from each other?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple color differences (black, white, black-and-white spots) and may notice other differences such as size or position in the field.",
+        "meets": "Student correctly identifies at least two different cow colors (such as black and white, or spotted) shown in the photo.",
+        "approaching": "Student identifies one color difference between cows or mentions that they look different without clear description.",
+        "beginning": "Student provides a vague response about cows being different with little or no reference to specific observable features."
+      }
+    },
+    {
+      "questionText": "Why do you think the cows spend so much time eating grass?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that cows need to eat grass to get energy, grow, or stay healthy, showing understanding of basic animal nutrition.",
+        "meets": "Student gives a reasonable explanation that cows eat grass because they need food or that eating helps them survive.",
+        "approaching": "Student attempts an explanation but provides limited reasoning, such as 'cows like grass' without connecting to a need.",
+        "beginning": "Student's response is unclear, off-topic, or shows minimal attempt to explain why cows eat grass."
+      }
+    },
+    {
+      "questionText": "What would happen if there was no grass in the field?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a logical consequence such as cows having no food to eat, having to move elsewhere, or becoming hungry/weak, showing cause-and-effect thinking.",
+        "meets": "Student predicts a reasonable consequence like cows would not have food or would need to find something else to eat.",
+        "approaching": "Student makes a prediction but lacks clear connection to cause and effect, or provides an incomplete explanation.",
+        "beginning": "Student's prediction is vague, illogical, or shows minimal understanding of the relationship between grass and cows' food."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:24:08.945Z",
+  "cost": 0.004251
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Pelican",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this pelican's beak that makes it different from other birds?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific features of the pelican's beak (long shape, large pouch underneath) and accurately compares it to beaks of other birds they know (like a sparrow or robin), explaining how the features look different.",
+        "meets": "Student accurately describes the pelican's beak as long and mentions the pouch underneath, and notes that it looks different from other birds' beaks.",
+        "approaching": "Student identifies that the pelican's beak is big or long, but provides vague comparisons to other birds or incomplete descriptions of the pouch.",
+        "beginning": "Student provides minimal details about the beak (such as 'it's big') with little or no comparison to other birds."
+      }
+    },
+    {
+      "questionText": "Why do you think pelicans live near water instead of in forests?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that pelicans need water to find food (fish) and uses details about the pelican's physical features (beak/pouch) to support why water habitats make sense, showing clear cause-and-effect thinking.",
+        "meets": "Student explains that pelicans live near water because they eat fish or get food from water, making a logical connection between habitat and survival needs.",
+        "approaching": "Student states that pelicans need water or eat fish, but the explanation lacks detail or the connection between habitat and the pelican's needs is unclear.",
+        "beginning": "Student provides a vague answer like 'pelicans like water' with little reasoning or no connection to the bird's food or survival."
+      }
+    },
+    {
+      "questionText": "How does the pelican's big pouch help it get food?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the pouch holds water and fish, and describes the process clearly (pelican scoops water and fish, then drains water and swallows fish), demonstrating understanding of how the feature functions in feeding.",
+        "meets": "Student accurately explains that the pouch catches or holds fish, and that this helps the pelican get food from the water.",
+        "approaching": "Student states that the pouch helps catch fish or holds food, but the explanation of how it works is incomplete or lacks clear details.",
+        "beginning": "Student provides a minimal response like 'the pouch catches fish' with little explanation of how the pouch actually helps the pelican feed."
+      }
+    },
+    {
+      "questionText": "What would happen if a pelican had a tiny beak like a sparrow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that a tiny beak would prevent the pelican from catching large fish and would make it unable to use its pouch effectively, explaining how this would affect the pelican's survival or ability to find enough food.",
+        "meets": "Student predicts that a tiny beak would make it difficult for the pelican to catch fish or get enough food, showing understanding of how body features connect to feeding ability.",
+        "approaching": "Student makes a prediction about the tiny beak (such as 'it couldn't catch fish'), but the reasoning is incomplete or unclear.",
+        "beginning": "Student provides a vague or unsupported answer with little reasoning about how beak size affects the pelican's ability to find food."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:39:27.358Z",
+  "cost": 0.005068
+}

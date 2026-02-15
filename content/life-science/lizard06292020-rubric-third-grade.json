@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How does the lizard's coloring help it survive in its environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the lizard's brown and tan coloring matches the tree bark, making it hard for predators to see, and connects this to the concept of camouflage with specific examples from the photo.",
+        "meets": "Student identifies that the lizard's colors blend in with the tree bark and explains this helps it hide from predators or stay safe.",
+        "approaching": "Student mentions the lizard's coloring is similar to the tree or that it helps the lizard hide, but the explanation is incomplete or unclear.",
+        "beginning": "Student provides a vague response such as 'the colors help it' or 'it matches the tree' without explaining why this matters for survival."
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that use camouflage, and how might their camouflage be different from this lizard's?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals with camouflage (such as deer, butterflies, or frogs) and explains specific differences in their camouflage strategies, such as different colors, patterns, or how they match different environments.",
+        "meets": "Student names at least one animal that uses camouflage and describes how its camouflage is different from the lizard's in terms of color or pattern.",
+        "approaching": "Student names one or two animals with camouflage but gives limited or partially accurate descriptions of how their camouflage differs from the lizard's.",
+        "beginning": "Student names an animal but does not explain how its camouflage is different, or provides inaccurate information about camouflage."
+      }
+    },
+    {
+      "questionText": "If this lizard lived in a snowy environment instead of on trees, how do you predict its appearance might be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the lizard would be white or light-colored to match snow and explains the reasoning that camouflage helps animals survive by hiding from predators, using clear cause-and-effect thinking.",
+        "meets": "Student predicts the lizard's coloring would change to white or light colors to match the snowy environment and gives a basic reason why.",
+        "approaching": "Student makes a prediction about color change but the reasoning is unclear or incomplete, such as 'it would be white because snow is cold.'",
+        "beginning": "Student makes a vague prediction or does not address how the lizard's appearance would change to match a snowy environment."
+      }
+    },
+    {
+      "questionText": "What evidence from the photo supports the idea that this lizard is well-adapted to its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence, such as matching coloring, bumpy skin texture, and watchful eye position, and explains how each adaptation helps the lizard survive on tree branches.",
+        "meets": "Student identifies at least two visible features from the photo (such as color matching the bark, textured skin, or eye placement) and explains how they help the lizard survive.",
+        "approaching": "Student identifies one or two features from the photo but provides incomplete explanations of how they help the lizard survive in its environment.",
+        "beginning": "Student identifies a feature from the photo but provides no explanation of how it shows adaptation, or gives vague, unrelated responses."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:33:07.811Z",
+  "cost": 0.005179
+}

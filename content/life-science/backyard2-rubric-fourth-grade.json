@@ -1,0 +1,53 @@
+{
+  "title": "Backyard Landscape",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that these plants are getting everything they need to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence (healthy green leaves, bright flowers, varied plant sizes, water feature) and explains how each shows plants are getting water, sunlight, or nutrients.",
+        "meets": "Student identifies at least two pieces of evidence that plants are healthy (such as colorful flowers, green leaves, or the presence of water) and makes a reasonable connection to plant needs.",
+        "approaching": "Student identifies one or two features of the plants (like flowers or green color) but provides limited or unclear explanation of how these show the plants' needs are being met.",
+        "beginning": "Student makes a vague observation about the plants (they look nice, they're growing) with little or no connection to what plants need to survive."
+      }
+    },
+    {
+      "questionText": "How might removing one type of plant from this garden affect the other plants and animals that visit?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that removing one plant type could affect multiple other organisms (other plants competing for resources, animals losing food or shelter) and describes a specific chain of effects in the garden.",
+        "meets": "Student explains that removing a plant could affect either other plants or visiting animals in at least one logical way, such as animals losing food or plants having more space.",
+        "approaching": "Student recognizes that removing a plant might cause a change but provides only a general or partially unclear explanation of how other garden organisms would be affected.",
+        "beginning": "Student acknowledges the question but provides a minimal or inaccurate response about how other plants or animals might be affected."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how the different plants are arranged in this garden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific patterns (grouped by color, arranged by height, organized around water feature) and explains a possible reason for each arrangement choice.",
+        "meets": "Student identifies at least two patterns in plant arrangement (such as color grouping, height differences, or placement near water) with accurate descriptions.",
+        "approaching": "Student notices one arrangement pattern but description is vague or incomplete; may struggle to identify why plants are arranged this way.",
+        "beginning": "Student makes a general observation about the garden layout with little specific detail about actual plant arrangement patterns."
+      }
+    },
+    {
+      "questionText": "If you were to design your own garden, what would you need to consider to make sure all your plants could grow successfully together?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student considers multiple factors (sunlight, water, soil space, compatible plant types, visiting organisms) and explains how each factor supports plant growth and garden success.",
+        "meets": "Student identifies at least three important considerations for garden design (such as water access, sunlight, or plant spacing) with reasonable explanations of why each matters.",
+        "approaching": "Student identifies one or two design considerations but explanations are general or lack clear connection to how plants grow together successfully.",
+        "beginning": "Student provides a minimal response with vague suggestions for a garden with little evidence of understanding plant growth needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:21:29.986Z",
+  "cost": 0.004805
+}

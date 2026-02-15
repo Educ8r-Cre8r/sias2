@@ -1,0 +1,53 @@
+{
+  "title": "Fungi04",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors and shapes in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific colors (pink, brown, tan) and describes varied shapes (round balls, bumpy, bumpy clusters) with clear, detailed language.",
+        "meets": "Student identifies the pink color and describes the shapes as round or ball-like, with accurate observations about what they see.",
+        "approaching": "Student mentions the pink color or round shapes, but descriptions are vague or only partially accurate (e.g., mentions color but not shape, or vice versa).",
+        "beginning": "Student makes a minimal attempt to describe the picture (e.g., just says \"pink\" or \"round\") with little detail or accuracy."
+      }
+    },
+    {
+      "questionText": "Why do you think these pink blobs are growing on old wood instead of fresh, green leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposers break down dead/old materials and provides a logical reason why old wood is better for this (e.g., it's softer, it's already breaking apart, it's dead).",
+        "meets": "Student correctly identifies that old wood is dead or broken down, and explains that the pink blobs need dead things to grow on.",
+        "approaching": "Student shows partial understanding by mentioning that wood is old or dead, but reasoning about why decomposers prefer it is unclear or incomplete.",
+        "beginning": "Student provides a minimal or inaccurate response, such as guessing randomly or stating only that the blobs are growing there without explanation."
+      }
+    },
+    {
+      "questionText": "How might these bright pink structures help this living thing survive in the dark forest?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests that bright color helps the organism be seen or noticed, and connects this to survival (e.g., animals notice it, helps it spread, helps it be found for food).",
+        "meets": "Student suggests a reasonable survival advantage such as the bright pink color helping the organism be visible or noticed in a dark place.",
+        "approaching": "Student attempts to connect the bright color to survival but reasoning is unclear, incomplete, or only partially logical (e.g., \"it helps... because it's bright\" without full explanation).",
+        "beginning": "Student makes a minimal attempt with little or no clear connection between the pink color and survival (e.g., \"it's pretty\" or no answer)."
+      }
+    },
+    {
+      "questionText": "What would happen if all the decomposers like this slime mold disappeared from the forest?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that dead materials would pile up or not break down, and describes a consequence for the forest (e.g., plants couldn't grow, forest would get messy, nutrients wouldn't go back to soil).",
+        "meets": "Student correctly identifies that dead wood and leaves would not break down, or explains a clear negative consequence for the forest environment.",
+        "approaching": "Student shows partial understanding by mentioning that decomposers are important or that things wouldn't break down, but consequences are vague or underdeveloped.",
+        "beginning": "Student provides a minimal or unclear response about what decomposers do or why they matter (e.g., \"things would be bad\" with no explanation)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:30:27.273Z",
+  "cost": 0.004979
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Bell Pepper",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the seeds are arranged inside the pepper?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the seed arrangement with specific details (e.g., seeds clustered together, arranged in the center, attached to white parts) and uses accurate descriptive words.",
+        "meets": "Student accurately describes where the seeds are located inside the pepper and notes that they are grouped or clustered together.",
+        "approaching": "Student identifies that there are seeds inside the pepper but provides vague descriptions of their arrangement or location.",
+        "beginning": "Student mentions seeds are in the pepper but provides minimal or unclear description of how they are arranged."
+      }
+    },
+    {
+      "questionText": "Why do you think the pepper walls are thick instead of thin?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful explanation that the thick walls protect the seeds inside from damage and may mention keeping seeds safe during growth or transport.",
+        "meets": "Student explains that the thick walls protect the seeds or help keep the pepper strong and sturdy.",
+        "approaching": "Student recognizes the thick walls serve a protective purpose but explanation lacks clarity or detail about what is being protected.",
+        "beginning": "Student attempts an explanation but it is unclear, inaccurate, or shows minimal understanding of the wall's function."
+      }
+    },
+    {
+      "questionText": "How might this pepper help make new pepper plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the seeds inside the pepper can grow into new plants and may add that the pepper provides food or protection for the seeds during growth.",
+        "meets": "Student correctly identifies that the seeds can grow into new pepper plants or that seeds are what make new plants.",
+        "approaching": "Student recognizes a connection between the pepper and new plants but explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides minimal response with vague mention of seeds or new plants but limited understanding of the relationship."
+      }
+    },
+    {
+      "questionText": "What would happen if we planted these seeds in soil and gave them water and sunlight?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that new pepper plants would grow and explains that water, sunlight, and soil are necessary resources that seeds need to sprout and grow.",
+        "meets": "Student predicts that the seeds would grow into new pepper plants with water and sunlight provided.",
+        "approaching": "Student makes a prediction about plant growth but reasoning is incomplete or misses the role of one or more required resources.",
+        "beginning": "Student attempts a prediction but it is vague, inaccurate, or shows little understanding of seed growth requirements."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:40:12.354Z",
+  "cost": 0.004187
+}

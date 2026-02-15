@@ -1,0 +1,53 @@
+{
+  "title": "Bee",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the bee's body that might help it collect pollen?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body features (fuzzy/hairy body, legs, wings) and explains how each one helps collect or carry pollen with specific details about how the features work.",
+        "meets": "Student identifies at least two body features of the bee and explains how they help collect pollen with reasonable accuracy.",
+        "approaching": "Student identifies one or two body features but provides limited or partially correct explanation of how they help collect pollen.",
+        "beginning": "Student names a body part (such as wings or legs) but provides vague or no explanation of its role in collecting pollen."
+      }
+    },
+    {
+      "questionText": "How do you think the relationship between bees and flowers helps both organisms survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains how bees benefit (food/nectar) and how flowers benefit (pollen spread/reproduction) with clear understanding that both organisms depend on each other for survival.",
+        "meets": "Student explains that bees get something from flowers and flowers benefit from bees, showing basic understanding of the helpful relationship between them.",
+        "approaching": "Student identifies that bees and flowers help each other but provides incomplete or partially unclear explanation of how or why this relationship matters.",
+        "beginning": "Student makes a simple statement about bees and flowers being together but shows little understanding of how the relationship helps them survive."
+      }
+    },
+    {
+      "questionText": "What might happen to a garden if all the bees disappeared?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple consequences (fewer flowers, less fruit or seeds, changes to food chain) and explains the chain of events showing deep understanding of bees' importance.",
+        "meets": "Student predicts at least one clear consequence (such as fewer flowers or fruits) and explains why this would happen because bees pollinate.",
+        "approaching": "Student predicts a consequence but explanation is incomplete or shows limited understanding of why bees are important to the garden.",
+        "beginning": "Student makes a simple prediction (like 'the garden would be sad') with little or no explanation of the reason or effect."
+      }
+    },
+    {
+      "questionText": "Why do you think flowers are often bright colors and smell sweet?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors and sweet smells attract bees to visit, and connects this to how it helps the flower survive or reproduce through pollination.",
+        "meets": "Student explains that bright colors and/or sweet smells attract bees to the flowers with reasonable accuracy.",
+        "approaching": "Student identifies that colors or smells might attract bees but reasoning is incomplete or partially unclear.",
+        "beginning": "Student provides a simple answer about colors or smells but shows little understanding of why flowers have these features."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:22:08.219Z",
+  "cost": 0.004452
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Cows",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you see in the photo that shows these cattle are well-adapted for eating grass?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific adaptations (flat teeth for grinding, strong jaw, able to graze continuously) and explains how each feature helps cattle eat grass efficiently.",
+        "meets": "Student identifies at least two physical features of cattle (such as flat teeth or the ability to graze) and explains how these help them eat grass.",
+        "approaching": "Student identifies one adaptation (such as teeth or mouth shape) but provides limited or incomplete explanation of how it helps cattle eat grass.",
+        "beginning": "Student makes vague observations about the cattle's appearance or eating but does not connect these to adaptations for eating grass."
+      }
+    },
+    {
+      "questionText": "How might the ecosystem change if these cattle were suddenly removed from this pasture?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple interconnected changes (grass would grow taller, plants would change, fewer nutrients returned to soil, possible effects on other animals) showing understanding of ecosystem relationships.",
+        "meets": "Student describes two or more changes that would occur, such as grass growing back or plants increasing, with reasonable explanations.",
+        "approaching": "Student identifies one change (like grass growing more) but reasoning is incomplete or lacks connection to how ecosystems work.",
+        "beginning": "Student provides a minimal response with vague ideas about what might change, or makes predictions not grounded in ecosystem concepts."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the energy from the grass after the cattle eat it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that energy is used by cattle for movement, body heat, and growth, and that some energy is lost as heat, demonstrating understanding of energy flow through food chains.",
+        "meets": "Student correctly explains that cattle use the energy from grass for body functions like growing or moving, or that energy is stored in the cattle's body.",
+        "approaching": "Student recognizes that cattle use energy from grass but provides limited detail or somewhat unclear explanation of what happens to that energy.",
+        "beginning": "Student provides a vague response about energy or food without clear understanding of how energy moves through living things."
+      }
+    },
+    {
+      "questionText": "Why do you think some cattle have different coat colors and patterns while others look similar?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different colors and patterns are inherited traits from parents and may reference how selective breeding or natural variation creates diversity in a population.",
+        "meets": "Student correctly identifies that coat color is inherited from parents and recognizes that this creates differences among cattle in a herd.",
+        "approaching": "Student suggests that coat color comes from parents or is inherited but lacks clear explanation or shows partial understanding of how traits pass down.",
+        "beginning": "Student provides minimal explanation, such as 'they are just different' or 'cows can be different colors,' without connecting to inheritance or traits."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:24:31.782Z",
+  "cost": 0.004602
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how far you can see in this picture?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that things nearby are clear (like sand or people) and distant things are hidden or blurry (like the buildings), using specific examples from the photo.",
+        "meets": "Student recognizes that some things are hard to see or far away because of the fog, and can point to or name at least one thing that is hidden.",
+        "approaching": "Student notices that things look different or unclear in the picture but has difficulty explaining what is far away or why things look foggy.",
+        "beginning": "Student makes a simple observation about the picture but does not specifically address what they can or cannot see in the distance."
+      }
+    },
+    {
+      "questionText": "How is this foggy day different from a sunny day at the beach?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as fog makes it harder to see, it looks gray/white instead of bright and blue, and things are hidden or blurry, comparing specific features between the two types of days.",
+        "meets": "Student describes at least two differences between a foggy beach day and a sunny beach day, such as the fog blocking the view or the sky looking different.",
+        "approaching": "Student mentions one difference between foggy and sunny days but the explanation is incomplete or unclear.",
+        "beginning": "Student attempts to compare but provides only vague descriptions or minimal details about how the days are different."
+      }
+    },
+    {
+      "questionText": "What do you think will happen to the fog as the day gets warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the fog will go away or disappear as it gets warmer and explains that heat/warmth makes the fog disappear, showing understanding of the connection between temperature and fog.",
+        "meets": "Student predicts that the fog will go away or become less thick as the day gets warmer, with a simple explanation.",
+        "approaching": "Student makes a prediction about what will happen to the fog but the explanation is unclear or only partially accurate.",
+        "beginning": "Student attempts a prediction but provides little or no explanation for why the fog would change."
+      }
+    },
+    {
+      "questionText": "Why might it be harder to find your family on a foggy beach day?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fog makes it hard to see far away, so you cannot easily spot people in the distance, and may mention that everything looks similar or blurry in the fog.",
+        "meets": "Student explains that the fog makes it difficult to see people who are far away or hides people from view.",
+        "approaching": "Student recognizes that fog makes it harder to see but provides an incomplete or unclear explanation of the connection to finding family.",
+        "beginning": "Student mentions fog or vision but does not clearly explain why it would make finding family harder."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:46:10.463Z",
+  "cost": 0.004493
+}

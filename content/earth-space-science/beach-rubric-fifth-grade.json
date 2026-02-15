@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the ghost crab has those long eye stalks sticking up from its head? What advantage might that give it living on a beach?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that eye stalks allow the crab to see above sand or obstacles while staying hidden, and identifies multiple advantages such as detecting predators, finding food, or monitoring surroundings without exposing its body.",
+        "meets": "Student correctly identifies that eye stalks help the crab see above the sand or surroundings, and explains one clear advantage such as spotting danger or locating food.",
+        "approaching": "Student recognizes that eye stalks are for seeing or vision, but explanation of the advantage is vague, incomplete, or only partially accurate (e.g., 'helps it see' without connecting to beach survival).",
+        "beginning": "Student provides a minimal response about eye stalks (e.g., 'for looking') with little to no explanation of how this helps the crab survive on the beach."
+      }
+    },
+    {
+      "questionText": "If a big storm came and moved tons of sand away from this beach, what might happen to the ghost crabs living here?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple consequences such as loss of burrows/homes, exposure to predators, loss of food sources, or habitat destruction, and explains the cause-and-effect relationship between sand loss and crab survival.",
+        "meets": "Student predicts one or two reasonable consequences of sand loss (such as loss of burrows or increased danger from predators) with a logical explanation.",
+        "approaching": "Student identifies that the storm would negatively affect the crabs but gives vague or partially incomplete reasoning (e.g., 'they would have nowhere to live' without elaboration).",
+        "beginning": "Student provides a minimal response such as 'the crabs would be hurt' with little or no explanation of how sand loss causes the problem."
+      }
+    },
+    {
+      "questionText": "Where do you think the sand on this beach came from originally, and how did it get here?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sand comes from rock erosion (weathering of mountains, cliffs, or rock formations) and describes a process of transport such as rivers carrying sand to the ocean, ocean waves breaking rocks down, or water and wind moving sediment to the beach.",
+        "meets": "Student identifies a reasonable source of sand (such as rocks, mountains, or cliffs) and describes a general transport process (such as water, waves, or wind moving the sand).",
+        "approaching": "Student identifies a source of sand or a transport method, but the explanation is incomplete or oversimplified (e.g., 'sand comes from rocks' without explaining how it got to the beach).",
+        "beginning": "Student provides a vague or minimally accurate response such as 'the sand is from the ground' with little explanation of origin or movement."
+      }
+    },
+    {
+      "questionText": "How might studying beaches help scientists and communities prepare for big storms or protect coastlines?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple ways beach study helps preparation (understanding sand erosion patterns, predicting storm damage, designing barriers or protections) and connects findings to real community safety or coastal management decisions.",
+        "meets": "Student identifies at least two ways studying beaches helps with storm preparation or protection, such as understanding how storms affect beaches or learning where erosion happens.",
+        "approaching": "Student recognizes that beach study could help with storms or protection but gives incomplete or general reasoning (e.g., 'scientists can learn about storms' without explaining how this helps communities).",
+        "beginning": "Student provides a minimal response such as 'it helps them know about storms' with little connection to actual preparation or coastal protection."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:48:27.166Z",
+  "cost": 0.00557
+}

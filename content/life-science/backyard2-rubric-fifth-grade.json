@@ -1,0 +1,53 @@
+{
+  "title": "Backyard Landscape",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the different plants in this garden help or compete with each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two specific ways plants interact (such as sharing nutrients, competing for sunlight, or providing support) and explains how both helpful and competitive relationships might occur in the garden with specific plant examples.",
+        "meets": "Student describes at least one way plants help each other or compete for resources, and provides a reasonable explanation of how this affects the garden.",
+        "approaching": "Student mentions that plants interact in some way or compete for resources, but explanation is vague or partially accurate; may confuse helping and competing relationships.",
+        "beginning": "Student provides a minimal response acknowledging plants are different or makes a vague statement about plants without explaining how they help or compete."
+      }
+    },
+    {
+      "questionText": "What evidence can you find that this garden supports more than just plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple types of organisms supported by the garden (such as insects, birds, or aquatic life) and explains how specific garden features (water, flowers, or plants) provide food, shelter, or habitat for these organisms.",
+        "meets": "Student identifies at least one organism other than plants that the garden supports and provides evidence from the photo (such as the water feature or flowers) that explains why.",
+        "approaching": "Student identifies another organism the garden might support but provides limited or unclear evidence from the photo; reasoning is incomplete.",
+        "beginning": "Student names an organism without explanation or provides evidence that does not clearly connect to garden features."
+      }
+    },
+    {
+      "questionText": "If you removed the water feature, how might that change the ecosystem in this garden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific changes to the ecosystem (such as loss of water-dependent organisms, reduced moisture for plants, or changes to animal habitats) and explains how these changes would affect other parts of the garden.",
+        "meets": "Student predicts at least one reasonable change to the ecosystem if the water feature were removed and explains why this change would occur.",
+        "approaching": "Student predicts a change but explanation is unclear; may show incomplete understanding of how the water feature supports the ecosystem.",
+        "beginning": "Student makes a prediction with minimal explanation or states the water would be missing without connecting this to ecosystem impacts."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how the plants are arranged, and why might that be beneficial?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple patterns of plant arrangement (such as grouping by color, height variation, or layering) and explains how each pattern might benefit the garden (such as reducing competition, maximizing sunlight, or creating visual appeal and habitat variety).",
+        "meets": "Student identifies at least one pattern in plant arrangement and explains one benefit of this arrangement for the garden's health or appearance.",
+        "approaching": "Student notices a pattern in plant arrangement but provides unclear or incomplete reasoning about why this arrangement might be beneficial.",
+        "beginning": "Student mentions that plants are arranged differently or simply describes colors and positions without explaining patterns or benefits."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:21:38.243Z",
+  "cost": 0.004756
+}

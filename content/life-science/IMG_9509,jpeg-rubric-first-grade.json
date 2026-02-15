@@ -1,0 +1,53 @@
+{
+  "title": "Seed Germination",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where this plant is growing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about the plant's location, such as it grows on the ground, among brown sticks, or in a place with dead plant parts, using descriptive words.",
+        "meets": "Student accurately describes where the plant is growing, such as on the ground or among sticks, with at least one specific detail.",
+        "approaching": "Student identifies that the plant is growing in a location on or near the ground but provides limited or vague details.",
+        "beginning": "Student makes a minimal attempt to describe the location with little accuracy or provides an unclear response."
+      }
+    },
+    {
+      "questionText": "Why do you think this little plant can grow here when there are so many dry sticks around?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a logical explanation connecting plant needs (water, soil, or nutrients) to why the plant can grow, and mentions something specific about the dead plant parts or ground helping it.",
+        "meets": "Student offers a reasonable explanation, such as the plant has water, soil, or nutrients available, showing basic understanding of plant growth needs.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially inaccurate, such as mentioning one plant need without full reasoning.",
+        "beginning": "Student's response shows little understanding of plant needs or provides an inaccurate or confused explanation."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this plant as it continues to grow?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a logical prediction about plant growth with specific details, such as it will grow taller, develop more leaves, or become bigger and stronger.",
+        "meets": "Student predicts that the plant will grow bigger or continue to grow, showing basic understanding of plant development.",
+        "approaching": "Student makes a prediction about plant growth but it is vague, partially unclear, or only partially realistic.",
+        "beginning": "Student's prediction is minimal, difficult to understand, or shows little connection to how plants actually grow."
+      }
+    },
+    {
+      "questionText": "How might this plant help other living things in this area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways the plant helps living things, such as providing food, shelter, or making the area look better, showing understanding of plant roles in ecosystems.",
+        "meets": "Student identifies at least one way the plant helps other living things, such as providing food or a place to live, with a reasonable explanation.",
+        "approaching": "Student attempts to explain how the plant might help others but the response is incomplete or shows limited understanding of plant benefits.",
+        "beginning": "Student provides a minimal or unclear response with little evidence of understanding how plants help other living things."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:20:22.086Z",
+  "cost": 0.004378
+}

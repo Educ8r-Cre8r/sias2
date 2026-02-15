@@ -1,0 +1,53 @@
+{
+  "title": "Turtles",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how these two turtles are different from each other?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (size, shell appearance, algae/plants on one shell, colors on head/legs) and explains why one difference might matter to the turtle.",
+        "meets": "Student accurately describes at least two clear differences between the turtles, such as size or the plants growing on the bigger turtle's shell.",
+        "approaching": "Student notices that the turtles are different and mentions one detail (like one is bigger or one has green stuff on it) but lacks clarity or accuracy.",
+        "beginning": "Student gives a vague response like 'they look different' with little or no specific details about what makes them different."
+      }
+    },
+    {
+      "questionText": "Why do you think the bigger turtle has plants growing on its shell but the smaller one doesn't?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests that the bigger turtle stays still longer or in one place more often, allowing algae/plants time to grow, and connects this to the turtle's age or behavior.",
+        "meets": "Student provides a reasonable explanation such as the bigger turtle stays in one spot longer, or plants had more time to grow on it.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially accurate, such as 'the bigger turtle likes plants' or 'plants just grow on bigger things.'",
+        "beginning": "Student provides a guess with no logical reasoning, such as 'I don't know' or an answer unrelated to time, movement, or growth."
+      }
+    },
+    {
+      "questionText": "What would happen to these turtles if this pond dried up?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the turtles would need to find water or move to a new home, and explains why water is important for turtles' survival (drinking, living, or staying cool).",
+        "meets": "Student correctly predicts the turtles would have a problem and identifies that they need to find water or leave the pond.",
+        "approaching": "Student predicts something would happen to the turtles but the explanation is vague or incomplete, such as 'they would die' without explaining why.",
+        "beginning": "Student gives an inaccurate prediction or shows little understanding, such as 'nothing would happen' or an unrelated response."
+      }
+    },
+    {
+      "questionText": "How are these turtles getting what they need to survive in this habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs (water, food, shelter) and explains specifically how the pond habitat provides these, such as water for drinking/living, plants or animals for food, and the log for resting.",
+        "meets": "Student identifies at least two things turtles need and explains how the pond or log provides at least one of them (water, food, or a place to rest).",
+        "approaching": "Student names some things turtles need or mentions the habitat provides something, but the connection between needs and habitat resources is unclear or incomplete.",
+        "beginning": "Student provides a limited or unclear response, such as 'they get food' without describing where food comes from or why the habitat matters."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:44:05.143Z",
+  "cost": 0.004925
+}

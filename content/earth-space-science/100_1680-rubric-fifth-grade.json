@@ -1,0 +1,53 @@
+{
+  "title": "Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions must be present for snow to form and stay on the ground?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions (temperature below 32°F, moisture in air, cold clouds) and explains why each condition is necessary for snow formation and accumulation on the ground.",
+        "meets": "Student correctly identifies at least two conditions needed for snow to form and stay on the ground, such as cold temperature and moisture in the air.",
+        "approaching": "Student identifies one condition for snow formation (usually temperature) but explanation is incomplete or partially inaccurate about why snow stays on the ground.",
+        "beginning": "Student provides a vague or mostly inaccurate response about snow formation, such as only mentioning 'it's cold' without explaining what cold means."
+      }
+    },
+    {
+      "questionText": "How might this snowy scene look different in three months, and what processes would cause those changes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific seasonal changes (melting snow, green vegetation growth, liquid water in field) and explains multiple processes causing them, such as increased sunlight, warmer temperatures, and the water cycle.",
+        "meets": "Student accurately describes how the scene would look different in three months (less snow, greening plants) and identifies at least one process like melting or plant growth caused by warmer weather.",
+        "approaching": "Student predicts some changes to the scene but reasoning is incomplete; may mention warmer temperatures without explaining how this causes visible changes like melting or plant growth.",
+        "beginning": "Student provides minimal description of changes or focuses only on one simple observation like 'there would be no snow' without explaining why or what else would change."
+      }
+    },
+    {
+      "questionText": "Why do you think the snow accumulated more thickly on some surfaces than others in this image?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple factors affecting snow accumulation, such as surface texture, angle/shape of objects (wagon's flat surfaces vs. sides), wind patterns, and explains how each factor causes thicker or thinner snow layers.",
+        "meets": "Student provides a reasonable explanation for uneven snow accumulation, such as flat horizontal surfaces collect more snow than sloped surfaces, or objects block wind.",
+        "approaching": "Student attempts to explain why accumulation differs but reasoning is incomplete or partially unclear, such as mentioning that 'the wagon catches snow' without explaining why certain parts catch more.",
+        "beginning": "Student acknowledges snow is thicker in some places but provides little or inaccurate explanation for why, such as 'it just snowed more there.'"
+      }
+    },
+    {
+      "questionText": "What role does this snow play in providing water for plants and animals later in the year?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snow is stored water that melts in spring to provide water for plants and animals, and connects this to the water cycle or seasonal availability of water sources.",
+        "meets": "Student correctly explains that snow melts and provides water for plants and animals later in the year, showing understanding of snow as a water source.",
+        "approaching": "Student recognizes that snow relates to water for plants and animals but explanation lacks clarity about the melting process or timing of when this water becomes available.",
+        "beginning": "Student provides a minimal or vague response, such as 'snow helps plants' without explaining how or when the water becomes usable."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:45:19.705Z",
+  "cost": 0.005109
+}

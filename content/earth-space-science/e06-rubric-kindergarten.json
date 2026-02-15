@@ -1,0 +1,53 @@
+{
+  "title": "Drought",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make the ground look like this?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the ground is dry and explains that the soil shrank and cracked because water went away or it was very hot, using clear, descriptive language.",
+        "meets": "Student recognizes the ground is dry and cracked, and provides a simple explanation such as 'it's dry' or 'the sun made it crack.'",
+        "approaching": "Student notices the cracks or dryness but offers an unclear or partially correct explanation, such as 'something happened' without specifics.",
+        "beginning": "Student makes a minimal response such as 'the ground is broken' with little or no explanation for why it happened."
+      }
+    },
+    {
+      "questionText": "How might this area look different after it rains?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific changes such as the cracks closing up, the mud becoming soft, or the ground becoming wet and darker, showing understanding of how water affects soil.",
+        "meets": "Student predicts that rain would make the ground wet or that the cracks might fill with water or close up.",
+        "approaching": "Student predicts a change from rain but lacks detail, such as 'it will be different' or 'it will be wet' without explaining how.",
+        "beginning": "Student provides a vague or unclear prediction, such as 'it will change' with no description of what the change might be."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in the cracks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific patterns such as cracks forming pieces like a puzzle, lines connecting together, or cracks that are similar sizes, using observational details.",
+        "meets": "Student identifies a pattern such as 'the cracks make lines' or 'they look like a puzzle' or 'they connect together.'",
+        "approaching": "Student notices cracks exist and attempts to describe a pattern but uses vague language such as 'there are lots of cracks' or 'they look bumpy.'",
+        "beginning": "Student acknowledges cracks are present but provides no clear observation of any pattern."
+      }
+    },
+    {
+      "questionText": "Why do you think some plants are still growing here?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that plants find water in the cracks, grow in protected spots, or have roots that reach deep into the soil, demonstrating understanding of plant survival.",
+        "meets": "Student provides a simple explanation such as 'there is water in the cracks' or 'plants like to grow in cracks' or 'the plant is strong.'",
+        "approaching": "Student offers a partial reason such as 'the plant needs water' or 'plants grow' without connecting it to how plants survive in this dry area.",
+        "beginning": "Student states that plants are growing but cannot explain why, such as 'the plant is there.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:51:47.077Z",
+  "cost": 0.004621
+}

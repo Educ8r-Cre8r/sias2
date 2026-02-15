@@ -1,0 +1,53 @@
+{
+  "title": "Deceased Deer",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the deer's body over time?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple changes over time (body breaks down, returns to soil, helps plants grow) using words like decompose or decay, and explains that this is a natural process.",
+        "meets": "Student identifies that the deer's body will break down or change over time and mentions what might happen (goes back into ground, becomes part of nature).",
+        "approaching": "Student recognizes that something will happen to the body but provides vague or incomplete descriptions (gets smaller, disappears) without clear explanation of the process.",
+        "beginning": "Student provides a minimal response (it will go away) or an inaccurate idea about what happens to the deer's body over time."
+      }
+    },
+    {
+      "questionText": "Why is it important for dead plants and animals to break down in nature?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that breaking down returns nutrients to soil and helps new plants grow, making a connection to the cycle of nature and how living things depend on this process.",
+        "meets": "Student identifies that dead things breaking down helps the soil or helps new plants and animals, showing understanding of why this matters in nature.",
+        "approaching": "Student recognizes that breaking down is important but gives a limited or partially correct reason (something about soil or plants) without complete understanding.",
+        "beginning": "Student provides a vague answer (it's just what happens) or does not explain why breaking down matters in nature."
+      }
+    },
+    {
+      "questionText": "How was the deer like its parents when it was born, and how might it have been different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple likenesses (same shape, four legs, color, ears) and differences (smaller size, might have needed parent's milk), showing understanding of inherited traits and growth changes.",
+        "meets": "Student describes at least one way the baby deer was like its parents (looked similar) and one way it was different (was smaller), showing basic understanding of inheritance and growth.",
+        "approaching": "Student identifies either similarities or differences but not both, or provides limited details about how baby and adult deer compare.",
+        "beginning": "Student provides a vague or minimal response (looked like parents or was different) with little detail or unclear thinking about the comparison."
+      }
+    },
+    {
+      "questionText": "What other animals or plants in this forest might have depended on this deer or will depend on what it becomes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple animals (scavengers, insects) or plants that might use the deer now or later, explaining how they depend on it (for food, nutrients) and showing understanding of food chains or decomposition.",
+        "meets": "Student names at least one animal or plant that depends on the deer (insects that eat it, plants that grow where it breaks down) with a reasonable explanation.",
+        "approaching": "Student mentions an animal or plant but provides unclear reasoning, or identifies a connection that is only partially accurate.",
+        "beginning": "Student provides a minimal or vague answer (something eats it) with little detail or shows limited understanding of how organisms depend on each other."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:14:53.358Z",
+  "cost": 0.00485
+}

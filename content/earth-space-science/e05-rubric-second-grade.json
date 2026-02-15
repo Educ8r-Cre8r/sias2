@@ -1,0 +1,53 @@
+{
+  "title": "Rock covered with Moss and Lichen",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you see that living things are growing on this rock?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific types of living things (moss, lichen) and describes visible features like green color, fuzzy texture, or white patches that show they are growing on the rock's surface.",
+        "meets": "Student identifies at least one living thing growing on the rock and describes one observable feature, such as green color or a patch covering part of the surface.",
+        "approaching": "Student mentions that something is growing on the rock or describes one feature (green, fuzzy, or patchy) but may confuse what is growing or provide incomplete details.",
+        "beginning": "Student makes a vague statement about the rock looking different or identifies color/texture without clearly connecting it to living things growing on the rock."
+      }
+    },
+    {
+      "questionText": "How do you think this rock might look different in 100 years?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes based on growth patterns, such as moss and lichen covering more of the rock, the rock breaking down, or new plants growing on top, and explains that living things change over time.",
+        "meets": "Student predicts that the rock will look different due to the growing moss and lichen covering more area or that more living things might grow on it.",
+        "approaching": "Student predicts the rock will change but provides limited reasoning or vague details, such as \"it will look different\" or \"more stuff will grow\" without explaining how.",
+        "beginning": "Student makes a prediction with little connection to the living things shown or provides an unclear/unrealistic response about how the rock might change."
+      }
+    },
+    {
+      "questionText": "What do you think the moss and lichen need to survive on this rock?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs such as water, sunlight, and air, and explains how each helps moss and lichen survive on the rock using simple reasoning.",
+        "meets": "Student identifies two basic needs (such as water and light) that moss and lichen need to survive on the rock.",
+        "approaching": "Student identifies one need for survival (water or sunlight) but may not fully explain why it is needed, or suggests needs that are partially accurate.",
+        "beginning": "Student provides a vague or inaccurate response about what organisms need, with little connection to survival or the specific organisms shown."
+      }
+    },
+    {
+      "questionText": "How is this rock's surface different from a brand new rock?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple surface differences in detail, such as the new rock being smooth and plain while this one has texture, colors, and living things covering it, explaining that time and growth create these changes.",
+        "meets": "Student identifies two or more differences between the new rock and this one, such as color differences, texture, or presence of moss and lichen.",
+        "approaching": "Student identifies one difference (such as color or texture) but may provide limited detail or only partially describe what makes the surfaces different.",
+        "beginning": "Student attempts to compare the rocks but provides vague or unclear differences with minimal observable details from the photograph."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:51:13.479Z",
+  "cost": 0.004817
+}

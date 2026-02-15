@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What does finding a sea creature fossil on dry land tell us about how this place has changed over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the area was once covered by water (ocean or sea) and has changed to dry land over millions of years, using specific details about how the scallop lived in water and describing the process of land and water changes.",
+        "meets": "Student identifies that the area was once underwater where the sea creature lived and has since changed to dry land, demonstrating understanding of how environments change over time.",
+        "approaching": "Student recognizes that the fossil is a sea creature and that something has changed, but explanation lacks clarity about whether the land changed to water or water changed to land.",
+        "beginning": "Student makes a vague statement about the fossil being from the ocean or mentions change, but shows minimal understanding of how the environment transformed over time."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of this ancient scallop were preserved while the soft body parts were not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard parts like shells are more resistant to decay and preserve better when buried in sediment, and may note that soft tissues decompose quickly or are eaten by organisms, showing understanding of fossilization conditions.",
+        "meets": "Student identifies that the hard shell is preserved because it is hard and durable, while soft body parts decayed or disappeared over time.",
+        "approaching": "Student recognizes that hard and soft parts are different and mentions preservation, but reasoning is incomplete or partially confused about why preservation differs.",
+        "beginning": "Student gives a minimal or unclear response about the shell being preserved, with little explanation of the difference between hard and soft parts."
+      }
+    },
+    {
+      "questionText": "If you found this fossil, what questions would you want to investigate about the environment where this animal lived?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student generates at least three thoughtful, specific questions about the ancient environment (such as water temperature, depth, other organisms present, food sources, or ocean conditions), demonstrating curiosity about multiple aspects of the ecosystem.",
+        "meets": "Student generates two or more reasonable questions about the ancient environment where the scallop lived, such as what the water was like or what other animals lived there.",
+        "approaching": "Student generates one or two questions about the fossil or environment, but questions may be vague, overly simple, or show incomplete understanding of what scientists investigate about past ecosystems.",
+        "beginning": "Student attempts to ask a question but it is vague, off-topic, or shows minimal understanding of what an ancient environment might have been like."
+      }
+    },
+    {
+      "questionText": "How might scientists use fossils like this one as evidence to understand what Earth was like millions of years ago?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple ways fossils provide evidence, such as showing where water existed, what animals lived during that time, how the environment changed, or how life has evolved, demonstrating comprehensive understanding of how fossils inform scientific knowledge.",
+        "meets": "Student explains that fossils show what animals lived long ago and/or reveal information about past environments, such as that water covered certain areas millions of years ago.",
+        "approaching": "Student mentions that fossils help scientists learn about the past or tells what animals existed, but explanation lacks specific details about what scientists can determine about Earth's history.",
+        "beginning": "Student gives a vague response that fossils are old or from a long time ago, with minimal explanation of how they serve as scientific evidence."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:54:45.354Z",
+  "cost": 0.005246
+}

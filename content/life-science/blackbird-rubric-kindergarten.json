@@ -1,0 +1,53 @@
+{
+  "title": "Blackbird",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how this bird is using its body to look for food?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple body parts the bird uses (beak, eyes, legs) and explains what each part does when looking for food (beak pecks, eyes look, legs walk).",
+        "meets": "Student identifies at least two body parts the bird uses to look for food, such as the beak or eyes, with a simple explanation of how.",
+        "approaching": "Student names one body part the bird uses or gives a vague description of the bird's actions without clear details.",
+        "beginning": "Student makes a minimal attempt with unclear or inaccurate observations about the bird's body or food-finding behavior."
+      }
+    },
+    {
+      "questionText": "What do you think this bird might be looking for in the grass?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific food items (bugs, worms, seeds) and explains why the bird might find these in grass using simple reasoning about where food lives.",
+        "meets": "Student suggests a reasonable food item the bird might eat and provides a basic reason for where to find it.",
+        "approaching": "Student guesses a food item but provides little or unclear reasoning about why it would be in the grass.",
+        "beginning": "Student gives a vague answer or names something that is not food the bird would eat."
+      }
+    },
+    {
+      "questionText": "How is this bird the same as or different from other animals you know?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities or differences using observable features (feathers, beak, wings, eyes) and compares the bird to specific other animals they know.",
+        "meets": "Student identifies at least one clear similarity or difference between this bird and another animal they know, using observable features.",
+        "approaching": "Student makes a comparison but it is unclear, vague, or partially accurate in its details.",
+        "beginning": "Student attempts a comparison but it is unclear, inaccurate, or does not clearly reference another animal."
+      }
+    },
+    {
+      "questionText": "What would happen if this bird couldn't find food here?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a reasonable consequence and explains a logical chain of events (bird needs to move to find food, bird gets hungry, bird must go elsewhere).",
+        "meets": "Student predicts a reasonable consequence, such as the bird moving away or going hungry.",
+        "approaching": "Student makes a prediction that is plausible but incomplete or vague in its explanation.",
+        "beginning": "Student makes a minimal attempt with unclear or unrealistic predictions about the outcome."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:22:30.255Z",
+  "cost": 0.004246
+}

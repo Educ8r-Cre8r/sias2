@@ -1,0 +1,53 @@
+{
+  "title": "Fountain",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that tells you the temperature dropped below freezing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence (water turned to ice/solid, icicles formed, water stopped flowing) and explains that freezing occurs at 32°F or below, demonstrating understanding of the phase change from liquid to solid.",
+        "meets": "Student identifies at least two clear pieces of evidence such as the presence of icicles or ice formations and correctly states that water froze, showing understanding that freezing requires cold temperatures.",
+        "approaching": "Student identifies one piece of evidence like icicles or ice, but explanation is incomplete or lacks connection to freezing temperatures and phase changes.",
+        "beginning": "Student makes a simple observation (\"there is ice\") but provides little or no explanation of what freezing is or why it indicates cold temperature."
+      }
+    },
+    {
+      "questionText": "How might the shape and size of these icicles give us clues about how long it has been freezing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that longer/larger icicles indicate a longer freezing period and describes the process of how water continuously drips and refreezes to build icicles over time, showing cause-and-effect reasoning.",
+        "meets": "Student correctly identifies that larger or longer icicles suggest more time has passed and provides a reasonable explanation that more freezing time allows icicles to grow bigger.",
+        "approaching": "Student makes a connection between icicle size and time (bigger means longer) but provides limited or vague reasoning about how icicles grow.",
+        "beginning": "Student describes the icicles but does not make a clear connection between their size or shape and the amount of time spent freezing."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this fountain when the temperature rises above 32°F?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the ice will melt and water will return to liquid form, accurately explaining that 32°F is the melting point and may add details about water flowing again or returning to its original state.",
+        "meets": "Student predicts that the ice will melt or disappear and connects this to temperature rising above freezing, showing understanding of the phase change from solid back to liquid.",
+        "approaching": "Student predicts melting will occur but provides incomplete reasoning or is uncertain about the connection to the 32°F temperature threshold.",
+        "beginning": "Student makes a vague prediction (\"it will change\" or \"the ice will go away\") without explaining why or how temperature causes this change."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of the fountain have more ice formation than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student provides multiple scientifically sound explanations such as differences in water flow rate, exposure to wind or sunlight, or the shape of the fountain affecting where water collects and refreezes, demonstrating nuanced thinking about variables.",
+        "meets": "Student identifies at least one logical reason for uneven ice formation, such as areas where water flows more having more ice, or certain spots being colder or more exposed to freezing conditions.",
+        "approaching": "Student attempts to explain the difference but reasoning is incomplete or partially accurate, such as mentioning location or water flow without clear connection to ice formation.",
+        "beginning": "Student acknowledges that ice amounts differ but provides no explanation or only vague speculation about why some areas have more ice."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:59:41.312Z",
+  "cost": 0.00521
+}

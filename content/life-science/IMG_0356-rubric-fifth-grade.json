@@ -1,0 +1,53 @@
+{
+  "title": "Parts of a Plant",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this plant needs to continue growing successfully?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least three plant needs (water, sunlight, soil/nutrients, air) with specific explanations of how each supports growth, such as 'water helps transport nutrients' or 'sunlight provides energy for the leaves to make food.'",
+        "meets": "Student identifies two or three basic plant needs (water, sunlight, soil/nutrients) with general explanations of why each is important for growth.",
+        "approaching": "Student identifies one or two plant needs with limited or partially accurate explanations; may confuse why certain resources are needed.",
+        "beginning": "Student names one plant need with vague reasoning, or provides inaccurate information about plant requirements."
+      }
+    },
+    {
+      "questionText": "How might this seedling look different if it were grown in complete darkness?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple differences (pale/yellow color, taller/spindly stems, smaller or fewer leaves, slower growth) and explains that plants need light to make chlorophyll and food, demonstrating understanding of photosynthesis.",
+        "meets": "Student predicts two or three differences such as pale color and taller growth, with reasonable explanations that plants need light for healthy development.",
+        "approaching": "Student predicts one or two differences but explanations are incomplete or partially inaccurate; may not clearly connect darkness to plant health.",
+        "beginning": "Student makes a prediction with minimal detail or reasoning; response shows limited understanding of light's role in plant growth."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that shows this seed has been growing for several days?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence from the image (length of roots, development of true leaves beyond cotyledons, height of shoot, visible seed coat still present) and explains what each indicates about growth over time.",
+        "meets": "Student identifies two or three specific observations (roots have grown, shoot has grown upward, leaves are developing) that indicate growth has occurred.",
+        "approaching": "Student identifies one or two observations about growth but provides limited detail or unclear connection to the passage of time.",
+        "beginning": "Student makes a vague observation about the seedling with minimal specific evidence or explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think the roots grow downward while the shoot grows upward?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots grow downward toward water and nutrients in soil while shoots grow upward toward sunlight and air, demonstrating understanding of how plants respond to their environment and directional growth.",
+        "meets": "Student explains that roots need to find water and soil nutrients below while shoots need to reach sunlight above, showing understanding of plant directional growth.",
+        "approaching": "Student provides a partial explanation mentioning either water/nutrients or sunlight, but reasoning is incomplete or not fully connected to root and shoot function.",
+        "beginning": "Student offers a vague reason or guesses without clear evidence of understanding why different plant parts grow in different directions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:17:53.753Z",
+  "cost": 0.004774
+}

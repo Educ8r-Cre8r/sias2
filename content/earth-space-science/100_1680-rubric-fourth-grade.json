@@ -1,0 +1,53 @@
+{
+  "title": "Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions do you think were needed for this much snow to accumulate on the wagon?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific conditions (cold temperatures, repeated snowfall, wind patterns, or length of winter) and explains how each contributes to snow accumulation on the wagon.",
+        "meets": "Student identifies at least two conditions needed for snow accumulation, such as cold temperatures and snowfall, with basic explanations of how they work together.",
+        "approaching": "Student mentions one or two conditions (like snow or cold) but provides incomplete or unclear explanations of how they lead to accumulation.",
+        "beginning": "Student provides a vague response mentioning snow or winter but does not explain what conditions were necessary for the accumulation to occur."
+      }
+    },
+    {
+      "questionText": "How might the plants and small animals under this snow be affected by the thick white covering?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple effects on both plants and animals (such as limited sunlight affecting plants, insulation benefits, or animals finding shelter) and explains the cause-and-effect relationships.",
+        "meets": "Student identifies at least two effects (such as blocked sunlight for plants or protection/shelter for animals) with reasonable explanations of how the snow covering causes these effects.",
+        "approaching": "Student mentions one effect on plants or animals, but the explanation is unclear or only partially correct.",
+        "beginning": "Student provides a minimal or vague response that shows little understanding of how snow covering affects living things beneath it."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this snow when spring arrives?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts melting and explains the cause (warmer temperatures or increased sunlight) and describes what happens to the water (runoff, soaking into ground) or changes to the landscape.",
+        "meets": "Student correctly predicts that snow will melt when spring arrives and identifies temperature change or warmer weather as the reason.",
+        "approaching": "Student predicts melting but provides an incomplete or unclear reason, or shows partial understanding of the process.",
+        "beginning": "Student makes a vague prediction about spring or snow but does not explain what will happen or why."
+      }
+    },
+    {
+      "questionText": "Why do you think the snow stuck to the wagon but we can see some bare ground in other areas?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the wagon's surfaces collect and hold snow while bare ground may be warmer or receive more direct sunlight, showing understanding of how surface type and temperature affect snow accumulation.",
+        "meets": "Student provides a reasonable explanation such as the wagon's flat surfaces catch snow better, or that bare areas are warmer or receive more sun.",
+        "approaching": "Student identifies that the wagon caught snow or that some areas are different, but the explanation is incomplete or partially unclear.",
+        "beginning": "Student observes there is snow on the wagon and bare ground elsewhere but does not explain why the difference exists."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:45:11.462Z",
+  "cost": 0.004643
+}

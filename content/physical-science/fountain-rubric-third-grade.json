@@ -1,0 +1,53 @@
+{
+  "title": "Fountain",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to these icicles if the temperature got warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts icicles would melt and explains that warmer temperature gives ice more heat energy, causing it to turn into water; may mention the water would drip down or flow away.",
+        "meets": "Student predicts icicles would melt when it gets warmer and provides a basic explanation that heat causes ice to melt or change to water.",
+        "approaching": "Student predicts icicles would melt but provides limited or unclear reasoning, such as 'it would disappear' without explaining the role of temperature or melting.",
+        "beginning": "Student provides a vague prediction like 'it would change' or 'it would be different' with little to no explanation of what would happen or why."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of the fountain have more ice than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that moving water (at the top where water flows faster) freezes differently than still water, and explains that some areas stay colder or are exposed to cold air longer, creating more ice buildup.",
+        "meets": "Student recognizes that temperature or water movement affects where ice forms and explains that some areas are colder or get more frozen water flowing over them.",
+        "approaching": "Student notes that different parts have different amounts of ice but provides incomplete reasoning, such as 'some parts are colder' without explaining why or how that happens.",
+        "beginning": "Student observes that ice amounts differ but offers no clear explanation, or provides inaccurate reasoning unrelated to temperature or water flow."
+      }
+    },
+    {
+      "questionText": "How is the water in this fountain similar to and different from the ice?",
+      "bloomsLevel": "Compare/Contrast",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that water and ice are both made of the same substance (water) and explains similarities (both are wet/clear, both found in fountain) and differences (ice is hard and solid, water is liquid and flows; ice is frozen).",
+        "meets": "Student describes at least one similarity and one difference, such as 'water flows but ice doesn't' or 'they both come from the fountain but ice is frozen and hard.'",
+        "approaching": "Student mentions some similarities or differences but reasoning is incomplete or partially inaccurate, such as naming only one attribute or mixing up properties.",
+        "beginning": "Student attempts comparison but provides vague or mostly inaccurate statements with minimal clarity about water versus ice properties."
+      }
+    },
+    {
+      "questionText": "What other places have you seen water change into ice in nature?",
+      "bloomsLevel": "Recall/Apply",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple locations where water freezes in nature (pond, lake, river, puddle) and explains that ice forms when water gets very cold in winter or freezing temperatures.",
+        "meets": "Student identifies at least two places where water turns to ice in nature, such as a puddle, lake, or pond, showing understanding that this happens in cold conditions.",
+        "approaching": "Student names one or two places where ice forms but may lack detail or show incomplete understanding of the freezing process involved.",
+        "beginning": "Student provides vague examples or mentions only one place with minimal explanation, or gives responses unrelated to natural water freezing."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:59:22.767Z",
+  "cost": 0.005037
+}

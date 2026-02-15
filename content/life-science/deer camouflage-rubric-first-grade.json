@@ -1,0 +1,53 @@
+{
+  "title": "Deer Camouflage",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the deer's colors match the grass around them?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the deer's brown fur matches the brown grass and explains that both are the same or similar color, using words like 'blend' or 'blend in' to describe how they look alike.",
+        "meets": "Student notices that the deer and grass are both brown or tan colors and says they look similar or the same color.",
+        "approaching": "Student mentions that the deer's color is brown or that the grass is brown, but does not clearly connect the two colors or explain how they match.",
+        "beginning": "Student makes a vague observation about the deer or grass but shows little understanding that their colors are similar or related."
+      }
+    },
+    {
+      "questionText": "How might this coloring help the deer stay safe from animals that want to eat them?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the matching colors help the deer hide or be hard to see, and identifies that this keeps them safe from predators or 'animals that want to eat them' by making it difficult for those animals to spot them.",
+        "meets": "Student explains that the brown color helps the deer hide or be hard to see, making it safer from other animals.",
+        "approaching": "Student suggests that the color helps the deer hide but the explanation is incomplete or unclear about how hiding keeps them safe.",
+        "beginning": "Student mentions hiding or safety but does not clearly explain the connection between the deer's color and staying safe."
+      }
+    },
+    {
+      "questionText": "What would happen if these deer lived in a snowy place instead of a grassy place?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the brown deer would stand out or be easy to see in white snow, and explains that this would make them less safe because predators could spot them more easily.",
+        "meets": "Student predicts that brown deer would stand out or be visible in snow, or would not blend in as well and could be seen.",
+        "approaching": "Student makes a prediction about the deer in snow but the reasoning is unclear or partially incomplete.",
+        "beginning": "Student attempts a prediction but it is vague or shows minimal understanding of how color blending works in different environments."
+      }
+    },
+    {
+      "questionText": "Can you think of other animals that might use similar colors to hide?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names one or more animals and explains how their colors help them blend in with a specific environment (e.g., 'A rabbit is brown like dirt and grass, so it can hide in the field').",
+        "meets": "Student names one or more animals that use camouflage colors, such as rabbits, squirrels, or birds, showing they understand the concept applies beyond deer.",
+        "approaching": "Student names an animal but does not clearly explain how or why that animal's colors help it hide.",
+        "beginning": "Student names an animal with minimal connection to camouflage or color blending, or provides a vague response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:24:55.316Z",
+  "cost": 0.004696
+}

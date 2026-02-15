@@ -1,0 +1,53 @@
+{
+  "title": "Rocks",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think made these rocks flat and smooth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies water or weathering as the cause and explains that rocks become smooth through movement or rubbing over a long time, using terms like 'erosion' or 'wearing down.'",
+        "meets": "Student correctly identifies that water, movement, or time made the rocks smooth and provides a simple explanation of how this process works.",
+        "approaching": "Student mentions water or movement as a cause but provides an incomplete or partially unclear explanation of how rocks become smooth.",
+        "beginning": "Student makes a guess about the rocks being smooth but provides no clear reason or gives an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "How do you think these rocks got from wherever they formed to this yard?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a multi-step process such as water carrying rocks downstream, erosion moving them, or people collecting and delivering them, showing understanding of natural and human causes.",
+        "meets": "Student explains that water, rivers, or people moved the rocks to the yard using one clear method of transport.",
+        "approaching": "Student suggests rocks were moved but provides vague or incomplete reasoning about how they traveled to the yard.",
+        "beginning": "Student provides a minimal or unclear response that does not adequately explain how the rocks reached the yard."
+      }
+    },
+    {
+      "questionText": "What might happen to these rocks if they stayed outside for 100 more years?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific weathering changes such as cracks forming, rocks breaking into smaller pieces, or moss/algae growing on them, explaining that weather and time cause these changes.",
+        "meets": "Student predicts that rocks will break down, weather, or become covered with plants/moss over time.",
+        "approaching": "Student makes a prediction about change but lacks specific details or clear reasoning about weather's role.",
+        "beginning": "Student provides a vague prediction or suggests rocks will stay the same without explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think people choose to use rocks like these for decorating their yards?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons such as rocks being attractive, long-lasting, requiring little care, and fitting with the natural landscape or plants.",
+        "meets": "Student gives at least two valid reasons such as rocks looking nice, lasting a long time, or being easy to maintain.",
+        "approaching": "Student mentions one reason for using decorative rocks but lacks detail or clarity in explanation.",
+        "beginning": "Student provides a minimal response that does not clearly explain why people use rocks for yard decoration."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:47:14.301Z",
+  "cost": 0.004272
+}

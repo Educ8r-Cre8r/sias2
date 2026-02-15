@@ -1,0 +1,53 @@
+{
+  "title": "Wood",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the rings in different logs?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes specific details about the rings in multiple logs, such as noticing that some logs have more rings, rings are different sizes, or rings are darker or lighter in different logs.",
+        "meets": "Student identifies that the logs have rings and describes at least one difference between the rings in different logs, such as some rings being thicker or more numerous.",
+        "approaching": "Student names the rings and attempts to compare them between logs, but the description is vague or only partially accurate (e.g., 'the rings look different' without explaining how).",
+        "beginning": "Student makes a minimal observation about the rings, such as 'I see rings' or 'the logs have circles,' with little attempt to compare different logs."
+      }
+    },
+    {
+      "questionText": "Why do you think some rings are thick and others are thin?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that thick rings might show a year when the tree grew a lot and thin rings show a year when the tree grew less, and connects this to conditions like weather or water availability.",
+        "meets": "Student provides a reasonable explanation that thick rings mean the tree grew more and thin rings mean the tree grew less, showing an understanding of growth variation.",
+        "approaching": "Student attempts to explain the difference in ring thickness but the reasoning is incomplete or partially correct (e.g., 'thick rings are older' or 'thin rings are from last year' without clear explanation).",
+        "beginning": "Student offers a minimal or inaccurate explanation, such as 'some trees grow thick' or 'I don't know,' with no connection to tree growth."
+      }
+    },
+    {
+      "questionText": "How could we find out how old a tree was before it was cut down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that you can count the rings because each ring represents one year of growth, and may mention this is how scientists determine a tree's age.",
+        "meets": "Student correctly identifies that counting the rings would show the tree's age, with an understanding that each ring relates to a year of growth.",
+        "approaching": "Student recognizes that counting is involved or that rings connect to age, but the explanation lacks clarity about the one-ring-per-year relationship.",
+        "beginning": "Student provides a vague response like 'look at the rings' or 'count them' with little evidence of understanding why this method works."
+      }
+    },
+    {
+      "questionText": "What might happen to the rings if a tree didn't get enough water one year?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the ring from that year would be thinner or smaller because the tree would grow less without enough water, showing understanding of how water affects tree growth.",
+        "meets": "Student predicts that the ring would be thinner or the tree would grow less that year due to lack of water, demonstrating a clear cause-and-effect relationship.",
+        "approaching": "Student makes a prediction about the rings or tree growth being affected by water, but the reasoning is unclear or only partially explains the connection.",
+        "beginning": "Student makes a minimal prediction like 'the rings would be different' or 'the tree would be sick,' without explaining how lack of water causes the change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:57:34.154Z",
+  "cost": 0.004992
+}

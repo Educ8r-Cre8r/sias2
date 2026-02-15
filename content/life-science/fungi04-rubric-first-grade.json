@@ -1,0 +1,53 @@
+{
+  "title": "Fungi04",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where these pink organisms are growing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the pink organisms are growing on dead wood and leaves, and explains that they need these materials to grow or that they break things down.",
+        "meets": "Student correctly observes that the pink organisms are growing on dead wood, old leaves, or rotten materials on the forest floor.",
+        "approaching": "Student notices the pink organisms are on the ground or near wood/leaves but description is vague or partially accurate.",
+        "beginning": "Student makes a general observation about location (like 'on the ground') with little specific detail about the wood or leaves."
+      }
+    },
+    {
+      "questionText": "Why do you think these living things might be important for the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that these organisms help break down or recycle dead things so plants can grow, and may mention that they return nutrients to soil.",
+        "meets": "Student identifies that these organisms help break down dead wood and leaves, or that they clean up the forest.",
+        "approaching": "Student recognizes these organisms do something helpful in the forest but explanation is incomplete or unclear about the breaking-down process.",
+        "beginning": "Student offers a vague reason like 'they are good for the forest' without explaining how or why."
+      }
+    },
+    {
+      "questionText": "What would happen if nothing ever cleaned up dead leaves and sticks in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead materials would pile up, plants wouldn't get nutrients, or new plants couldn't grow well, showing understanding of nutrient cycling.",
+        "meets": "Student describes that dead leaves and sticks would pile up a lot, or that the forest would look very messy and crowded.",
+        "approaching": "Student recognizes something bad would happen but explanation is unclear or only partially developed.",
+        "beginning": "Student gives a minimal answer like 'it would be messy' with no explanation of consequences."
+      }
+    },
+    {
+      "questionText": "How are these organisms similar to and different from plants and animals you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that fungi are living things like plants and animals, but notes they don't have leaves or move around, and they break down food rather than make it or eat it.",
+        "meets": "Student notes at least one similarity (all are living things) and one difference (fungi look different, don't move, or eat dead things in a different way).",
+        "approaching": "Student mentions some similarities or differences but reasoning is incomplete or mixes up characteristics.",
+        "beginning": "Student makes a simple observation like 'they look different' or 'they are alive' with limited comparison details."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:30:34.240Z",
+  "cost": 0.004337
+}

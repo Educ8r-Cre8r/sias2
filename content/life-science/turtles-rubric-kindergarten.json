@@ -1,0 +1,53 @@
+{
+  "title": "Turtles",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about where these turtles chose to sit?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about the turtles' location, such as on a log, near water, in a sunny spot, and describes the size difference between the two turtles.",
+        "meets": "Student accurately describes where the turtles are sitting, such as on a log by the water or in the sun, with at least one supporting detail.",
+        "approaching": "Student identifies the general location of the turtles (on a log or near water) but provides minimal or vague details about their surroundings.",
+        "beginning": "Student makes a simple observation about the turtles or their location but the response is unclear or shows limited awareness of where they are positioned."
+      }
+    },
+    {
+      "questionText": "Why do you think the turtle is sitting in the sunny spot instead of the shade?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the turtle is warming up its body in the sun and may add that turtles are cold-blooded or need sunshine to stay warm and active.",
+        "meets": "Student provides a reasonable explanation that the turtle is warming up or staying warm in the sunshine.",
+        "approaching": "Student attempts an explanation related to warmth or sun but the reasoning is incomplete or somewhat unclear (e.g., 'turtles like the sun' without explaining why).",
+        "beginning": "Student makes a guess or provides a response unrelated to the sun's warmth, such as 'the turtle likes it' without explaining the connection to temperature."
+      }
+    },
+    {
+      "questionText": "How is a turtle's shell similar to and different from your skin?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least one similarity (both cover and protect the body) and two differences (shell is hard/bumpy while skin is soft; shell doesn't grow/can't be replaced like skin; things grow on shell).",
+        "meets": "Student identifies at least one similarity and one difference between a turtle's shell and human skin, such as both protect the body but the shell is hard and skin is soft.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or provides incomplete comparisons that show partial understanding.",
+        "beginning": "Student provides a vague response about the shell or skin with little comparison or shows minimal understanding of how they are alike or different."
+      }
+    },
+    {
+      "questionText": "What would happen if turtles couldn't find sunny places to warm up?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that turtles would get cold, move slowly, or not be able to survive, and explains that turtles need warmth from the sun to stay active and healthy.",
+        "meets": "Student predicts a reasonable consequence such as the turtle would get cold, wouldn't be able to move, or would be unhappy/uncomfortable.",
+        "approaching": "Student makes a prediction related to temperature or the turtle's well-being but the explanation is incomplete or lacks clear reasoning.",
+        "beginning": "Student makes a vague prediction, provides an unclear response, or shows limited understanding of how lack of sunlight would affect turtles."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:43:48.901Z",
+  "cost": 0.004836
+}

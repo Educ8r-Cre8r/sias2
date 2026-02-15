@@ -1,0 +1,53 @@
+{
+  "title": "Rocks",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice that is the same about these rocks? What is different?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (all are rocks, hard, gray/brown colors) and differences (sizes, shapes like round or flat, textures) with specific examples from the photo.",
+        "meets": "Student identifies at least one similarity and one difference about the rocks, such as size or color, using simple descriptive words.",
+        "approaching": "Student notices rocks are different but provides vague descriptions; may identify only size or color without clear comparison.",
+        "beginning": "Student makes minimal or unclear observations about the rocks; response shows little attempt to compare or describe features."
+      }
+    },
+    {
+      "questionText": "How do you think these rocks got to be different shapes and sizes?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that rocks break apart or wear down over time through weather (wind, water, ice), and recognizes this happens naturally; may mention rocks were once bigger.",
+        "meets": "Student suggests rocks changed through natural processes like breaking, wearing down, or weathering, showing basic understanding of rock change.",
+        "approaching": "Student attempts to explain rock differences but reasoning is incomplete; may mention breaking or weather but without clear cause-and-effect.",
+        "beginning": "Student provides minimal or inaccurate explanation; response lacks understanding of how rocks change shape and size."
+      }
+    },
+    {
+      "questionText": "If you were going to sort these rocks into groups, what groups would you make?",
+      "bloomsLevel": "Classify",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes multiple logical sorting categories (size, color, shape, texture) and explains the reasoning; may suggest two or more ways to sort.",
+        "meets": "Student proposes one clear sorting category (by size, color, or shape) and gives an example of how rocks would be grouped.",
+        "approaching": "Student attempts to suggest a grouping method but reasoning is unclear or categories overlap; lacks specific examples.",
+        "beginning": "Student provides vague or no sorting method; response shows minimal understanding of how to organize objects by properties."
+      }
+    },
+    {
+      "questionText": "Why do you think someone arranged these rocks this way instead of leaving them scattered around?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons such as decoration, protecting plants, preventing erosion, creating a garden feature, or making the yard look nice and organized.",
+        "meets": "Student provides a reasonable explanation such as rocks arranged for decoration, to look nice, to protect plants, or to organize the space.",
+        "approaching": "Student recognizes rocks were deliberately arranged but explanation is incomplete or somewhat unclear about the purpose.",
+        "beginning": "Student provides minimal or unclear reasoning; shows little understanding of why objects are intentionally arranged."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:46:59.679Z",
+  "cost": 0.00436
+}

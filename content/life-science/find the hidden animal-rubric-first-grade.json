@@ -1,0 +1,53 @@
+{
+  "title": "Find The Hidden Animal",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors of the rocks in this picture?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple rock colors (brown, gray, tan) and describes how colors are similar or different, showing careful observation of the details in the photo.",
+        "meets": "Student correctly names at least two different rock colors visible in the picture, such as brown and gray.",
+        "approaching": "Student names one rock color or uses vague color descriptions like 'dark' or 'light' without clear accuracy.",
+        "beginning": "Student provides an unclear or inaccurate color description, or states 'I don't know' without attempting to look at the photo."
+      }
+    },
+    {
+      "questionText": "Why do you think it might be hard to find the hidden animal?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the animal's colors match the rocks (camouflage) and describes how this makes it blend in or hide from view, using clear reasoning.",
+        "meets": "Student correctly identifies that the animal looks like the rocks or has similar colors, making it difficult to spot.",
+        "approaching": "Student mentions the animal is hard to find but gives a partial or unclear reason, such as 'it's hiding' without connecting it to matching colors.",
+        "beginning": "Student's response is vague or inaccurate, such as 'I can't find it' or 'it's just hiding' without explaining why."
+      }
+    },
+    {
+      "questionText": "How does blending in with rocks help an animal stay safe?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that matching the rocks helps an animal hide from predators or dangers, and describes how this camouflage keeps the animal protected from being seen.",
+        "meets": "Student correctly explains that blending in helps the animal hide so other animals cannot see it, keeping it safe.",
+        "approaching": "Student states that blending in helps the animal stay safe but provides incomplete or unclear reasoning about how or why.",
+        "beginning": "Student's response lacks connection between blending in and safety, or is too vague to demonstrate understanding."
+      }
+    },
+    {
+      "questionText": "What other places might animals hide, and what would they need to look like?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two hiding places (such as trees, grass, or water) and explains what colors or patterns each animal would need to match those environments for camouflage.",
+        "meets": "Student identifies one realistic hiding place and describes what the animal would need to look like to blend in with that place.",
+        "approaching": "Student suggests a hiding place but provides vague or incomplete description of what the animal would need to look like, or description doesn't clearly connect to camouflage.",
+        "beginning": "Student's response is unclear or shows limited understanding, such as naming a place without describing appearance, or providing unrealistic examples."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:25:41.315Z",
+  "cost": 0.004528
+}

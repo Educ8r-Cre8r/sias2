@@ -1,0 +1,53 @@
+{
+  "title": "Parts of a Plant",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this seed needs to keep growing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple things a plant needs (water, sunlight, soil) with accurate explanations of why each helps the plant grow.",
+        "meets": "Student identifies at least two things a plant needs to grow, such as water and sunlight, with basic explanations.",
+        "approaching": "Student identifies one thing a plant needs (water or sunlight) but explanation is vague or incomplete.",
+        "beginning": "Student provides a response that is unclear, incorrect, or shows minimal understanding of plant needs."
+      }
+    },
+    {
+      "questionText": "How are the roots different from the leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (roots are white/underground while leaves are green/above ground; roots absorb water while leaves make food) using accurate descriptive language.",
+        "meets": "Student identifies at least two clear differences between roots and leaves, such as color, location, or what they do.",
+        "approaching": "Student identifies one difference between roots and leaves but misses other obvious characteristics or uses incomplete descriptions.",
+        "beginning": "Student's response is unclear, vague, or shows limited ability to compare roots and leaves."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this plant in one week?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student makes a reasonable prediction about growth (stem gets taller, more leaves grow, roots get longer) and explains why these changes would happen.",
+        "meets": "Student makes a reasonable prediction about how the plant will change in one week, such as growing taller or developing more leaves.",
+        "approaching": "Student makes a prediction about plant growth but it is only partially reasonable or lacks clear explanation.",
+        "beginning": "Student's prediction is unclear, unrealistic, or shows minimal understanding of how plants grow over time."
+      }
+    },
+    {
+      "questionText": "Why do you think the roots grow down instead of up?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots grow down to find water and nutrients in the soil, demonstrating understanding of plant function and survival needs.",
+        "meets": "Student provides a logical explanation, such as roots grow down to get water from the soil or to hold the plant in place.",
+        "approaching": "Student attempts an explanation for why roots grow down but reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student's response is vague, incorrect, or shows little understanding of root function and direction of growth."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:17:17.553Z",
+  "cost": 0.004063
+}

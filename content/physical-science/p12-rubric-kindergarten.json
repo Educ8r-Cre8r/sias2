@@ -1,0 +1,53 @@
+{
+  "title": "Sound",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happens inside the trumpet when someone blows into it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that air moves through the trumpet and makes something vibrate or move inside to create sound, using descriptive words like 'shake,' 'vibrate,' or 'move fast.'",
+        "meets": "Student describes that air goes through the trumpet and something inside makes it work or makes a sound.",
+        "approaching": "Student mentions that air goes in the trumpet or that something happens inside, but explanation is unclear or incomplete.",
+        "beginning": "Student gives a minimal response like 'it makes noise' or 'air goes in' with no additional detail about what happens inside."
+      }
+    },
+    {
+      "questionText": "How do you think the sound gets from the instrument to your ears?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that sound travels through the air from the trumpet to reach people's ears, or mentions that sound waves move through the air.",
+        "meets": "Student says that the sound travels through the air or moves through the space between the trumpet and ears.",
+        "approaching": "Student indicates that sound goes from the trumpet to ears but lacks clarity about how it travels or what it travels through.",
+        "beginning": "Student provides a vague response like 'it just does' or 'you hear it' without explaining the path of sound."
+      }
+    },
+    {
+      "questionText": "Why do you think some instruments sound higher and some sound lower?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student connects different sounds to specific instrument features, such as size, length, or how fast air moves through it, explaining that bigger or longer might make lower sounds.",
+        "meets": "Student recognizes that different instruments make different pitches and suggests that something about the instruments is different, such as size or shape.",
+        "approaching": "Student acknowledges that some instruments sound different but cannot clearly explain why the differences exist.",
+        "beginning": "Student states that instruments sound different but shows no attempt to explain why or what causes the difference."
+      }
+    },
+    {
+      "questionText": "What would happen if we made the trumpet longer or shorter?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that changing the trumpet's length would change the sound's pitch, specifically that making it longer makes it lower or shorter makes it higher, showing understanding of the relationship.",
+        "meets": "Student predicts that the sound would change if the trumpet got longer or shorter, though the specific pitch change may not be clearly stated.",
+        "approaching": "Student predicts some change would occur but the prediction is unclear or only partially correct about what would happen to the sound.",
+        "beginning": "Student makes a simple guess like 'it would sound different' or 'it would break' without reasoning about how length affects sound."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:00:36.504Z",
+  "cost": 0.004381
+}

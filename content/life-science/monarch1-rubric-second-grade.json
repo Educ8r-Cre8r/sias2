@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice that is the same and different about these two chrysalises?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific similarities (both hanging, both have protective shells) and differences (one is green with yellow spots and one is brown, one looks empty and one looks full) using descriptive language.",
+        "meets": "Student identifies at least one similarity and one difference between the two chrysalises with accurate observations (e.g., different colors, both are hanging).",
+        "approaching": "Student notices that the chrysalises look different or are in the same place but provides vague descriptions or identifies only one characteristic without clear comparison.",
+        "beginning": "Student makes a simple observation about the chrysalises but does not make a clear comparison between the two or provides inaccurate information."
+      }
+    },
+    {
+      "questionText": "Why do you think the chrysalis is hard on the outside?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hard shell protects the butterfly inside from predators or damage and may mention it keeps the butterfly safe while it changes.",
+        "meets": "Student provides a reasonable explanation that the hard shell protects the butterfly or keeps it safe inside.",
+        "approaching": "Student suggests protection or safety but the explanation is incomplete or unclear (e.g., 'it keeps it safe' without explaining from what or why).",
+        "beginning": "Student provides a minimal response such as 'it's hard' or guesses without connecting the hardness to protection or function."
+      }
+    },
+    {
+      "questionText": "What questions would you ask a scientist who studies butterflies?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student asks two or more thoughtful, specific questions about butterfly life cycles, chrysalises, or what happens inside the cocoon that show curiosity and biological thinking.",
+        "meets": "Student asks one or two clear questions about butterflies or chrysalises that show genuine curiosity (e.g., 'How long does it take to become a butterfly?' or 'What's inside the chrysalis?').",
+        "approaching": "Student asks a question about butterflies but it is vague or very basic (e.g., 'Do butterflies fly?' or 'What do they eat?') without showing deep curiosity about the chrysalis or change.",
+        "beginning": "Student struggles to ask a question or asks something off-topic, or repeats a question asked by the teacher without modification."
+      }
+    },
+    {
+      "questionText": "How might the location where this chrysalis is hanging help or hurt the butterfly inside?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways location helps or hurts the butterfly, such as protection from predators, weather exposure, sunlight for warmth, or accessibility to food after emergence, with specific reasoning.",
+        "meets": "Student identifies at least one way the location could help or hurt the chrysalis (e.g., it's on a building so predators might not find it, or rain could damage it) with clear reasoning.",
+        "approaching": "Student recognizes that location matters and mentions one factor but explanation lacks detail or clarity (e.g., 'it's safe there' without explaining why or how).",
+        "beginning": "Student provides a minimal or vague response about location (e.g., 'it's on a building') without explaining potential benefits or harms to the chrysalis or butterfly."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:36:23.302Z",
+  "cost": 0.005042
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Rock covered with Moss and Lichen",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What living things can you see growing on this rock?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies moss and describes it with specific details (color, texture, or location on rock) and may mention other organisms like leaves or insects.",
+        "meets": "Student correctly identifies moss as a living thing growing on the rock.",
+        "approaching": "Student identifies something growing on the rock but is uncertain whether it is living, or describes it with vague language.",
+        "beginning": "Student gives a minimal response or is unable to identify any living things on the rock."
+      }
+    },
+    {
+      "questionText": "How do you think the moss gets what it needs to live on this rock?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moss gets water from rain and nutrients from the air or decaying material, showing understanding of multiple needs for plant survival.",
+        "meets": "Student explains that moss gets water or moisture from the rock or ground, or mentions that it gets what it needs from its surroundings.",
+        "approaching": "Student mentions one way moss gets what it needs but explanation is incomplete or partially unclear (e.g., 'it gets water' without explaining where from).",
+        "beginning": "Student provides a vague guess or incorrect explanation about how moss survives on the rock."
+      }
+    },
+    {
+      "questionText": "What might happen to this rock if it stayed outside for many more years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the rock will break down or change shape and explains that moss, weather, or roots may cause it to crumble or become smaller over time.",
+        "meets": "Student predicts the rock will change or break down over time, mentioning weathering, moss growth, or similar cause.",
+        "approaching": "Student makes a prediction about change but explanation lacks clear connection to weathering or biological processes.",
+        "beginning": "Student provides minimal or vague prediction with little reasoning about what might happen to the rock."
+      }
+    },
+    {
+      "questionText": "How is this rock similar to and different from the rocks in our school playground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (shape, hardness, size) and differences (moss coverage, color, location/moisture) and explains why differences exist based on environment.",
+        "meets": "Student identifies at least one similarity and one difference between the forest rock and playground rocks accurately.",
+        "approaching": "Student identifies a similarity or difference but description is vague, or identifies only one comparison without the other.",
+        "beginning": "Student makes a minimal attempt to compare rocks or provides inaccurate observations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:50:57.991Z",
+  "cost": 0.00418
+}

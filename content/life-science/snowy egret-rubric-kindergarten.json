@@ -1,0 +1,53 @@
+{
+  "title": "Snowy Egret",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about this bird's body parts that help it catch fish?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (beak, legs, feathers) and explains how each one helps the bird catch or find fish with specific details.",
+        "meets": "Student identifies at least two body parts (such as long beak or long legs) and describes how they help with catching fish.",
+        "approaching": "Student identifies one body part that helps the bird catch fish, but the explanation is vague or incomplete.",
+        "beginning": "Student notices the bird has a beak or legs but does not connect these features to catching fish."
+      }
+    },
+    {
+      "questionText": "How do you think this bird's long legs help it get food?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long legs let the bird walk in deep water to reach fish and stay dry, showing clear cause-and-effect thinking.",
+        "meets": "Student explains that long legs help the bird walk in water or reach fish in the water without getting wet.",
+        "approaching": "Student mentions that long legs help in the water but the explanation lacks clarity about why this helps get food.",
+        "beginning": "Student makes a simple statement about legs being long but does not explain how this helps the bird find or catch food."
+      }
+    },
+    {
+      "questionText": "What other animals have special body parts for getting food?",
+      "bloomsLevel": "Recall/Connect",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least three animals and describes the special body part each one uses to get food (e.g., rabbit's teeth for chewing, bird's claws for catching).",
+        "meets": "Student names at least two animals and identifies a special body part each one uses to find or eat food.",
+        "approaching": "Student names one or two animals with a special body part for food, but description is unclear or incomplete.",
+        "beginning": "Student names an animal but does not identify or describe a special body part used for getting food."
+      }
+    },
+    {
+      "questionText": "If this bird lived in a desert instead of by water, what problems might it have?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple problems (no water for fish, long legs not useful in sand, feathers not suited for heat) and explains how each would affect the bird's survival.",
+        "meets": "Student identifies at least two problems the bird would face in a desert, such as no fish to eat or lack of water.",
+        "approaching": "Student identifies one problem the bird might have in a desert, but reasoning is unclear or only partially thought through.",
+        "beginning": "Student mentions a desert or says the bird would have problems, but does not explain what those problems would be."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:42:13.258Z",
+  "cost": 0.004318
+}

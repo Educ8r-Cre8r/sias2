@@ -1,0 +1,53 @@
+{
+  "title": "Rock covered with Moss and Lichen",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that living things can change non-living things?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific organisms (moss, lichen) and explains how they break down or change the rock surface through weathering processes; describes how living things can alter non-living materials over time.",
+        "meets": "Student identifies at least one organism (moss or lichen) visible on the rock and explains that it is changing or breaking down the rock surface.",
+        "approaching": "Student identifies organisms on the rock but provides only vague descriptions of how they might change it, or states that living things change rocks without specific evidence from the photo.",
+        "beginning": "Student mentions organisms or rocks but does not connect them or provides minimal/inaccurate explanation of how living things affect non-living things."
+      }
+    },
+    {
+      "questionText": "How might this rock look different in 100 years, and what factors would cause those changes?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes (increased weathering, more organisms, cracks, breakdown into smaller pieces) and identifies multiple factors causing change (biological weathering by organisms, physical weathering from weather, time passage); shows understanding of how combined factors affect rocks.",
+        "meets": "Student predicts reasonable changes to the rock and identifies at least one factor (weathering, organism growth, weather, or time) that would cause those changes.",
+        "approaching": "Student makes a prediction about how the rock might change but identifies only vague or incomplete factors causing the change, or factors are partially accurate.",
+        "beginning": "Student provides a minimal prediction or identifies a factor but does not clearly connect it to how the rock would change; reasoning is unclear or mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "Why do you think lichens can grow on bare rock while other plants cannot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that lichens are specially adapted organisms (or symbiotic relationships) that can break down rock for nutrients and survive with minimal soil; may reference that other plants need soil, more water, or specific nutrients that lichens can obtain from rock.",
+        "meets": "Student explains that lichens have special adaptations or characteristics that allow them to grow on rock, while other plants need soil or other conditions; reasoning is mostly clear.",
+        "approaching": "Student suggests that lichens are different from other plants or adapted to rock environments but explanation is incomplete or somewhat unclear about why other plants cannot grow there.",
+        "beginning": "Student provides a vague response such as 'lichens are strong' or 'they just can' with little explanation of adaptations or plant requirements."
+      }
+    },
+    {
+      "questionText": "How does the weathering of this rock connect to soil formation in the forest ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that rock weathering breaks rock into smaller pieces and that organisms (like lichen and moss) help break it down; connects this to soil formation by describing how broken rock material mixes with organic matter to create soil that supports forest plants and ecosystems.",
+        "meets": "Student explains that weathering breaks down the rock and that this process is related to soil formation; makes a clear connection between rock breakdown and the creation of soil in the forest.",
+        "approaching": "Student identifies that weathering breaks down rocks and mentions soil formation, but the connection between the two is unclear or incomplete; may describe the processes separately without linking them.",
+        "beginning": "Student mentions weathering or soil but does not connect them clearly, or provides minimal explanation of either process."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:51:39.700Z",
+  "cost": 0.005224
+}

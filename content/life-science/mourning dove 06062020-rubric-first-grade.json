@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this bird is looking for in the garden soil?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bird is looking for food (seeds, bugs, or worms) and explains why birds need to eat to survive and grow.",
+        "meets": "Student correctly identifies that the bird is looking for food such as seeds, bugs, or worms in the soil.",
+        "approaching": "Student mentions that the bird is looking for something to eat but provides vague or incomplete details about what type of food.",
+        "beginning": "Student provides a minimal response such as 'food' with no explanation, or gives an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "How do you think the bird's feet help it walk on the ground?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the bird's feet grip or hold onto the ground and help the bird balance or move around safely to find food.",
+        "meets": "Student describes that the bird's feet help it walk, stand, or move on the ground.",
+        "approaching": "Student mentions the bird's feet but provides only a simple observation like 'they help it stand' without clear explanation.",
+        "beginning": "Student gives a vague response such as 'the feet are for walking' with no detail or reasoning."
+      }
+    },
+    {
+      "questionText": "What other animals might live in this garden with the bird?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student lists at least three garden animals (such as bugs, worms, bees, butterflies, or ants) and explains why these animals would live in a garden with plants.",
+        "meets": "Student identifies at least two animals that might live in a garden, such as bugs, worms, bees, or butterflies.",
+        "approaching": "Student names one or two garden animals but cannot explain why they would live there, or names animals that don't typically live in gardens.",
+        "beginning": "Student provides a vague or incorrect response, such as naming an animal that would not live in a garden, with little reasoning."
+      }
+    },
+    {
+      "questionText": "Why do you think gardens are good homes for birds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gardens provide food (seeds, bugs, insects), water, shelter from plants, and a safe place for birds to live and raise families.",
+        "meets": "Student identifies at least two reasons gardens are good for birds, such as food, plants for shelter, water, or places to nest.",
+        "approaching": "Student mentions one reason gardens are good for birds (such as food or plants) but explanation is incomplete or lacks detail.",
+        "beginning": "Student provides a minimal or unclear response such as 'gardens are nice' without connecting to bird needs or survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:37:48.058Z",
+  "cost": 0.004371
+}

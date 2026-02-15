@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this animal needed to live when it was alive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple basic needs (water, food, shelter) and explains why the animal in the fossil would have needed at least two of these to survive.",
+        "meets": "Student identifies at least two basic needs (such as water, food, or a home) that the animal would have needed to live.",
+        "approaching": "Student identifies one basic need the animal would have needed, such as water or food, but the explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague response (like 'it needed stuff') or names something that isn't clearly a survival need."
+      }
+    },
+    {
+      "questionText": "How is this fossil the same or different from shells you might find at the beach today?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two similarities AND two differences (such as shape, color, material, or how they were made) and explains why these differences might exist.",
+        "meets": "Student identifies at least one similarity and one difference between the fossil shell and modern shells, such as the fossil being hard rock and modern shells being softer.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or the comparison is unclear or partially inaccurate.",
+        "beginning": "Student makes a comparison that is vague, mostly inaccurate, or doesn't clearly compare the fossil to modern shells."
+      }
+    },
+    {
+      "questionText": "What does this fossil tell us about what this place was like long ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water was present long ago and describes how the animal and environment changed over time, or connects the fossil to ancient ocean/water conditions.",
+        "meets": "Student recognizes that this place had water long ago because shell animals live in water, showing understanding that the environment has changed.",
+        "approaching": "Student mentions that water or animals were here long ago but the explanation is incomplete or lacks clear connection between the fossil and past conditions.",
+        "beginning": "Student provides minimal information such as 'there were shells here' without explaining what the presence of a shell tells us about the past environment."
+      }
+    },
+    {
+      "questionText": "If you found this fossil, what questions would you want to ask about it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student asks at least three thoughtful, specific questions about the fossil (such as what animal made it, how old it is, or where it came from) that show curiosity about fossils and how they form.",
+        "meets": "Student asks two reasonable questions about the fossil or the animal that made it, showing genuine curiosity about fossils.",
+        "approaching": "Student asks one question about the fossil, or asks multiple questions but they are very general or unclear.",
+        "beginning": "Student asks a vague question or makes a statement rather than asking a real question about the fossil."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:54:12.873Z",
+  "cost": 0.004537
+}

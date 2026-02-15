@@ -1,0 +1,53 @@
+{
+  "title": "Clouds",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this cloud is made of?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that clouds are made of water droplets or water, and explains that the droplets are very tiny or that many tiny pieces stick together to form the cloud.",
+        "meets": "Student correctly states that clouds are made of water or water droplets, showing understanding of basic cloud composition.",
+        "approaching": "Student mentions water or something wet but lacks clarity about whether it is liquid water, water droplets, or provides incomplete reasoning about cloud formation.",
+        "beginning": "Student provides a vague answer such as 'air' or 'sky stuff,' or makes an inaccurate guess like 'cotton' or 'smoke' without connection to water."
+      }
+    },
+    {
+      "questionText": "How do you think the water gets up into the sky to make clouds?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the water cycle process, explaining that water evaporates from oceans, lakes, or ground and rises up as it warms, then cools to form clouds; may mention the sun's role.",
+        "meets": "Student explains that water goes up into the sky and cools to make clouds, mentioning heat or the sun as the reason water rises.",
+        "approaching": "Student recognizes that water moves from Earth to the sky but provides an incomplete or partially unclear explanation of the process, such as mentioning rising but not cooling.",
+        "beginning": "Student offers a minimal or inaccurate response, such as 'it just goes up' or 'the cloud pulls the water,' showing little understanding of the water cycle."
+      }
+    },
+    {
+      "questionText": "What might happen to this cloud if the weather changes?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple possible outcomes (rain, disappearing, changing shape) and explains why, such as 'it could rain if it gets heavier' or 'it could disappear if it gets warmer and evaporates.'",
+        "meets": "Student makes a reasonable prediction about what could happen to the cloud, such as it raining, changing shape, or disappearing, with a basic explanation.",
+        "approaching": "Student predicts something that might happen to the cloud but provides incomplete or unclear reasoning for why the change would occur.",
+        "beginning": "Student makes a vague prediction or guess unrelated to weather changes, such as 'it could turn purple,' with no scientific reasoning."
+      }
+    },
+    {
+      "questionText": "Why do you think the crane looks so small next to the cloud?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cloud is very far away or very high up in the sky, and connects this distance to why objects appear smaller; may mention that the cloud is much bigger than the crane.",
+        "meets": "Student correctly identifies that the cloud is far away or very high up, and explains that this distance makes the crane appear small by comparison.",
+        "approaching": "Student recognizes that distance or height affects how big something looks but may not clearly explain the relationship between distance and apparent size.",
+        "beginning": "Student provides a minimal response such as 'the cloud is big' or 'the crane is small' without explaining the role of distance or perspective."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:50:26.225Z",
+  "cost": 0.004868
+}

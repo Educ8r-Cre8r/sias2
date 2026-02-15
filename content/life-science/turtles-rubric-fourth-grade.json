@@ -1,0 +1,53 @@
+{
+  "title": "Turtles",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think both turtles chose to bask on the same log instead of staying in the water?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that turtles bask to warm their bodies and become active, and identifies multiple benefits such as regulating body temperature, drying their shells, or improving digestion. Student may note that being on the log is safer than staying in open water.",
+        "meets": "Student correctly identifies that turtles bask to warm up or get energy from the sun. Explanation shows understanding that basking is important for turtle survival and activity.",
+        "approaching": "Student mentions that turtles go on the log to get warm or be in the sun, but explanation is incomplete or lacks clear connection between basking and turtle needs.",
+        "beginning": "Student provides a vague response such as 'turtles like the sun' or 'they wanted to rest' without explaining why warmth or the log location matters for turtles."
+      }
+    },
+    {
+      "questionText": "How might the turtle with moss on its shell be different from the smaller, cleaner turtle?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the moss-covered turtle is likely older and has spent more time in the water or one location, allowing algae/moss to grow. Student may infer differences in age, habitat use, or behavior while acknowledging both are healthy turtles.",
+        "meets": "Student observes that the moss-covered turtle is probably older or has been in water longer, causing the moss to grow on its shell. Response shows understanding of how shells change over time.",
+        "approaching": "Student notes that one turtle has moss and the other doesn't, and attempts to connect this to age or time in water, but reasoning is incomplete or partially unclear.",
+        "beginning": "Student simply states the turtles look different or mentions the moss without explaining what the difference might mean or how it happened."
+      }
+    },
+    {
+      "questionText": "What would happen to these turtles if there were no sunny spots available for basking?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that turtles would become cold, slow, inactive, or unable to digest food properly. Response may include consequences for survival, health, or behavior, showing understanding that basking is essential for turtle wellness.",
+        "meets": "Student predicts that turtles would get cold or wouldn't be able to warm up, affecting their activity or health. Answer demonstrates understanding that basking is necessary for turtles.",
+        "approaching": "Student predicts a negative outcome for the turtles related to lack of warmth or sun, but explanation is vague or only partially connects basking to turtle survival needs.",
+        "beginning": "Student gives a simple answer like 'turtles would be sad' or 'they couldn't bask' without explaining what harm or changes would result."
+      }
+    },
+    {
+      "questionText": "How do you think turtle basking behavior might change between summer and winter?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that turtles would bask more often or for longer periods in summer when it's warmer and the sun is stronger, and less in winter. Response may mention that turtles might hibernate or be less active in winter, showing understanding of seasonal adaptation.",
+        "meets": "Student predicts that turtles would bask more in summer and less in winter, with a reasonable explanation that summer is warmer and winter is colder.",
+        "approaching": "Student predicts a seasonal difference in basking behavior but explanation lacks clarity or doesn't fully connect temperature/season to turtle activity changes.",
+        "beginning": "Student mentions summer and winter are different or that basking might change, but provides no clear reasoning or prediction about how behavior would differ."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:44:23.538Z",
+  "cost": 0.005483
+}

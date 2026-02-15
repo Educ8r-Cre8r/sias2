@@ -1,0 +1,53 @@
+{
+  "title": "Predator and Prey",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What does the gecko need the dragonfly for?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the gecko needs the dragonfly for food/eating and describes why geckos need to eat (to grow, have energy, or stay alive).",
+        "meets": "Student correctly identifies that the gecko needs the dragonfly for food or to eat.",
+        "approaching": "Student indicates the gecko wants or needs the dragonfly but may not clearly state it is for food.",
+        "beginning": "Student gives a minimal or unclear response, such as naming the dragonfly without explaining the relationship between the two animals."
+      }
+    },
+    {
+      "questionText": "How do you think the gecko was able to catch the flying dragonfly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple strategies, such as the gecko's speed, hiding on plants, or being quick, and explains why these abilities help it catch prey.",
+        "meets": "Student provides a reasonable explanation such as the gecko is fast, it hid and waited, or it jumped to catch the dragonfly.",
+        "approaching": "Student mentions one basic idea like 'the gecko is fast' or 'it jumped' but provides limited explanation.",
+        "beginning": "Student offers a vague response such as 'it caught it' or 'it was there' without explaining any method."
+      }
+    },
+    {
+      "questionText": "What would happen if there were no insects for geckos to eat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that geckos would go hungry, get sick, or die, and connects this to why insects are important for geckos' survival.",
+        "meets": "Student states that geckos would have no food, get hungry, or would not survive.",
+        "approaching": "Student mentions that geckos need food or would have a problem but lacks clarity about the consequence.",
+        "beginning": "Student gives a minimal response such as 'geckos would be sad' or repeats the question without answering."
+      }
+    },
+    {
+      "questionText": "What other animals might eat insects like this dragonfly?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple animals (such as birds, frogs, spiders, or other lizards) that eat insects and may describe where these animals live.",
+        "meets": "Student names at least two different animals that eat insects, such as birds and frogs.",
+        "approaching": "Student names one animal that eats insects or names multiple animals but is unsure if they actually eat insects.",
+        "beginning": "Student names an animal but does not clarify if it eats insects, or provides an unclear/irrelevant response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:18:00.826Z",
+  "cost": 0.004287
+}

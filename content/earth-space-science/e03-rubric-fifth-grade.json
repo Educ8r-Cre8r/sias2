@@ -1,0 +1,53 @@
+{
+  "title": "Clouds",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions in the atmosphere do you think were necessary to create these towering clouds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple atmospheric conditions (warm air, moisture, rising air, or instability) with scientific reasoning, such as explaining how warm air holds more water vapor or describing why air rises to form clouds.",
+        "meets": "Student identifies at least two atmospheric conditions needed for cloud formation, such as moisture and rising air, or warm air and cooling.",
+        "approaching": "Student identifies one atmospheric condition (such as moisture or warm air) but explanation is incomplete or lacks clear connection to cloud formation.",
+        "beginning": "Student provides vague or inaccurate response, such as \"it was cloudy\" or \"there was water,\" with little evidence of understanding cloud formation requirements."
+      }
+    },
+    {
+      "questionText": "How might the weather change if these clouds continue to grow taller and darker?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific weather changes (precipitation, strong winds, temperature drop) and explains the connection between cloud size/darkness and storm development with scientific reasoning.",
+        "meets": "Student predicts reasonable weather changes, such as rain or a storm, and provides a basic explanation that darker/taller clouds are associated with heavier precipitation.",
+        "approaching": "Student predicts a weather change but reasoning is incomplete; may state rain or storm without explaining why taller, darker clouds lead to these conditions.",
+        "beginning": "Student provides minimal or vague prediction, such as \"it will rain\" or \"bad weather,\" with no explanation or inaccurate reasoning."
+      }
+    },
+    {
+      "questionText": "Compare and contrast how water behaves differently at ground level versus high in the atmosphere where these clouds formed.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies key differences (water is liquid on ground, turns to vapor with heat, becomes tiny ice crystals or water droplets in cold atmosphere) and explains how temperature and pressure cause these state changes.",
+        "meets": "Student describes at least one difference and one similarity, such as noting water evaporates at ground level but condenses in clouds, or that water exists in both places.",
+        "approaching": "Student identifies differences or similarities but reasoning is partial; may mention temperature or state changes without fully explaining the cause or effect.",
+        "beginning": "Student provides vague or minimal response, such as \"water is different up there,\" with little specific detail about how water behaves differently."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe in this photo that supports the idea that matter changes states in the water cycle?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies visible evidence of state changes, such as observing clouds as condensed water vapor and explaining that the visible clouds represent liquid water or ice crystals formed from invisible water vapor.",
+        "meets": "Student identifies evidence such as the presence of visible clouds or moisture in the air, and connects this to water changing from one state to another in the water cycle.",
+        "approaching": "Student observes clouds in the photo and mentions state changes but explanation lacks clarity about which states are represented or how they demonstrate the water cycle.",
+        "beginning": "Student provides minimal observation, such as \"there are clouds,\" with little connection to matter changing states or the water cycle."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:50:51.411Z",
+  "cost": 0.004945
+}

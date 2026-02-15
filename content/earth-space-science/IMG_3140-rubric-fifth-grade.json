@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions do you think are needed for fog to form at this beach?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions for fog formation (cool air, warm water, moisture) and explains how these interact, using accurate scientific vocabulary like 'condensation' or 'water vapor.'",
+        "meets": "Student identifies at least two conditions needed for fog (such as cool air and water moisture) with a basic explanation of why fog forms at beaches.",
+        "approaching": "Student mentions one condition for fog formation (like 'it's cold' or 'there's water') but explanation is incomplete or shows partial understanding of the process.",
+        "beginning": "Student provides a vague response about fog (like 'it's cloudy' or 'it's wet') with little attempt to explain what causes fog to form."
+      }
+    },
+    {
+      "questionText": "How might the seagulls' behavior change if there were no seaweed or organic matter washed up on the beach?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that seagulls would need to find food elsewhere, making connections to how seaweed and organic matter support the beach food chain and ecosystem, using specific behavioral terms like 'foraging' or 'migration.'",
+        "meets": "Student recognizes that seagulls use seaweed and organic matter for food, and explains that without it, seagulls would have less food or go to different locations to feed.",
+        "approaching": "Student states that seagulls eat seaweed or organic matter, but explanation of behavioral changes is vague or incomplete (like 'they'd be hungry' without explaining what they'd do differently).",
+        "beginning": "Student provides a minimal response (like 'seagulls need food') with little connection to how seaweed affects seagull behavior."
+      }
+    },
+    {
+      "questionText": "If you were a weather forecaster, what evidence from this photo would help you predict tomorrow's weather?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies specific weather clues (thick fog, wet sand, gray sky) and makes logical predictions about future conditions (fog may persist, possible rain, cool temperatures), explaining cause-and-effect relationships between observations.",
+        "meets": "Student identifies at least two weather clues visible in the photo (such as fog or wet sand) and makes a reasonable prediction about tomorrow's weather based on these observations.",
+        "approaching": "Student identifies one weather observation from the photo but makes only a simple or partially reasoned prediction about tomorrow's weather.",
+        "beginning": "Student provides a vague observation about the weather shown (like 'it looks cloudy') with little attempt to predict future conditions."
+      }
+    },
+    {
+      "questionText": "How do you think this coastal ecosystem might be different during different seasons of the year?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes seasonal changes affecting multiple ecosystem components (temperature, fog frequency, seagull populations, plant/seaweed growth, human activity), using specific seasonal details appropriate for coastal areas.",
+        "meets": "Student identifies how at least two seasonal factors would change the coastal ecosystem (such as warmer temperatures in summer, more seaweed in winter, or differences in seagull behavior).",
+        "approaching": "Student mentions one seasonal change or provides observations about seasons without clearly connecting changes to the specific coastal ecosystem shown in the photo.",
+        "beginning": "Student offers a vague response about seasons (like 'it's different') with little detail about how the beach ecosystem would actually change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:46:51.919Z",
+  "cost": 0.005257
+}

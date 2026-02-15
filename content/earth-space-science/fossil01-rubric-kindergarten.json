@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the shapes and patterns in these rocks?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific shapes and patterns (shells, circles, bumps, lines) and describes them with clear observational details like size, texture, or arrangement.",
+        "meets": "Student identifies at least two shapes or patterns in the rocks, such as shells or bumpy lines, and describes what they look like.",
+        "approaching": "Student notices that the rocks have shapes or patterns but descriptions are vague or limited to one observation, such as 'it looks bumpy' or 'there are circles.'",
+        "beginning": "Student makes a minimal response about the rocks, such as pointing or saying 'rocks' without identifying specific shapes or patterns."
+      }
+    },
+    {
+      "questionText": "How do you think these animal shapes got inside the rocks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that animals from long ago died and were covered by mud or sand that turned into rock, demonstrating understanding of how fossils form over time.",
+        "meets": "Student suggests that the animal shapes were left in the rocks or that animals got covered by something that hardened, showing basic understanding of fossil formation.",
+        "approaching": "Student offers a simple idea like 'the animals were in the rock' or 'they got stuck,' but the explanation lacks clear reasoning about how the process happened.",
+        "beginning": "Student gives a vague response such as 'I don't know' or makes an unrelated statement without attempting to explain fossil formation."
+      }
+    },
+    {
+      "questionText": "What can these fossils tell us about what Earth was like long ago?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fossils show ocean animals lived long ago and describes what this tells us about Earth's past, such as 'there was an ocean here' or 'sea animals were here a long time ago.'",
+        "meets": "Student identifies that fossils are from animals that lived long ago and connects this to learning something about Earth's past, such as 'animals used to live here.'",
+        "approaching": "Student recognizes that fossils are old or from long ago but struggles to explain what this tells us about Earth or makes an incomplete connection to the past.",
+        "beginning": "Student provides minimal response such as 'fossils are old' without connecting them to what Earth was like or offering unclear reasoning."
+      }
+    },
+    {
+      "questionText": "If you found a fossil, what questions would you want to ask about it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student generates at least two thoughtful, specific questions about a fossil, such as 'What animal was this?' or 'How long ago did it live?' showing curiosity about fossils and their origins.",
+        "meets": "Student asks one or two reasonable questions about a fossil, such as wondering what animal it was or how old it is, demonstrating curiosity about fossils.",
+        "approaching": "Student attempts to ask a question but it is vague, repetitive, or only partially related to learning about the fossil, such as 'Is it big?'",
+        "beginning": "Student makes little effort to ask a question or provides a response unrelated to fossils, such as 'I don't know' or 'I like rocks.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:52:33.005Z",
+  "cost": 0.004944
+}

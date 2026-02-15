@@ -1,0 +1,53 @@
+{
+  "title": "Great Egret",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about this bird's body parts that help it get food?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (long neck, long legs, pointed beak) and explains how each one helps the egret catch food in the water.",
+        "meets": "Student identifies two body parts (such as long neck and beak, or long legs and beak) and explains that they help the bird get food.",
+        "approaching": "Student identifies one or two body parts but gives limited or vague explanation of how they help with getting food.",
+        "beginning": "Student names the bird or mentions one body part with no clear connection to how it helps catch food."
+      }
+    },
+    {
+      "questionText": "How do you think this bird's long legs help it?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long legs help the egret wade or walk through deep water without getting wet, and stay above the water to see and catch fish.",
+        "meets": "Student explains that long legs help the egret walk or stand in the water to find and catch food.",
+        "approaching": "Student mentions that long legs help in water but reasoning is incomplete (e.g., 'it can walk better' without explaining why this matters for food).",
+        "beginning": "Student gives a simple observation ('the legs are long') with no explanation of how this helps the bird."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that use tools or body parts to get food?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals and describes specific body parts or tools each uses to get food (e.g., 'bears use claws to catch fish' and 'squirrels use teeth to crack nuts').",
+        "meets": "Student names one or two animals and describes how they use a body part or tool to find or eat food.",
+        "approaching": "Student names one or two animals but description of how they get food is vague or incomplete.",
+        "beginning": "Student names an animal but provides no clear explanation of how it uses body parts or tools to get food."
+      }
+    },
+    {
+      "questionText": "If you were designing a bird to catch fish, what body parts would you give it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student designs a bird with at least three body parts suited to catching fish (such as long legs, pointed beak, sharp eyes, or wings) and explains why each part would help.",
+        "meets": "Student designs a bird with two appropriate body parts (such as a long beak and long legs) and explains why these would help catch fish.",
+        "approaching": "Student suggests one or two body parts that could help catch fish but reasoning is simple or partially incomplete.",
+        "beginning": "Student suggests a body part with little or no explanation, or suggests a part not well-suited to catching fish (e.g., 'short legs')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:31:58.809Z",
+  "cost": 0.004552
+}

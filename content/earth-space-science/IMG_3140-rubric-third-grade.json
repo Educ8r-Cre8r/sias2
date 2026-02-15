@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the fog if the sun came out strongly?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the fog would disappear or evaporate and explains that heat from the sun causes water to turn into a gas that floats into the air, demonstrating understanding of evaporation.",
+        "meets": "Student correctly predicts the fog would disappear or go away when the sun comes out and provides a reasonable explanation about heat or warmth affecting the fog.",
+        "approaching": "Student predicts the fog would disappear but provides incomplete or vague reasoning, such as 'the sun makes it go away' without explaining how.",
+        "beginning": "Student makes an unclear prediction or states the fog would stay the same, or provides no explanation for their answer."
+      }
+    },
+    {
+      "questionText": "How is the fog in this picture similar to and different from clouds in the sky?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both fog and clouds are made of water droplets and that both are white and fluffy, then explains that fog is near the ground while clouds float high in the sky, demonstrating clear understanding of the relationship between these forms of water.",
+        "meets": "Student identifies at least one similarity (made of water or look similar) and one difference (fog is on the ground, clouds are in the sky) with accurate reasoning.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or provides incomplete descriptions such as 'they both look white' without further detail.",
+        "beginning": "Student's response is vague or inaccurate, such as stating fog and clouds are completely different with no valid comparisons."
+      }
+    },
+    {
+      "questionText": "Why might some beaches have more fog than others?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that differences in water temperature, air temperature, or wind patterns cause some beaches to have more fog, and connects this to how water evaporates and condenses into fog droplets.",
+        "meets": "Student provides a reasonable explanation such as 'some beaches are colder,' 'the water is different temperatures,' or 'the weather is different' that shows understanding that conditions affect fog formation.",
+        "approaching": "Student recognizes that fog amounts vary but provides only a partial explanation, such as mentioning one factor (cold water or air) without connecting it to fog formation.",
+        "beginning": "Student's response shows minimal understanding, such as 'I don't know' or 'beaches just have different amounts of fog' with no reasoning provided."
+      }
+    },
+    {
+      "questionText": "What evidence can you see that shows water is constantly moving and changing in this picture?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence such as waves in the ocean, fog/mist in the air, wet sand where waves reached, and seaweed washed ashore, then explains how these show water moving and changing forms (liquid water to fog/mist).",
+        "meets": "Student identifies at least two specific observations from the picture (such as waves, fog, wet sand, or seaweed) that show water is moving or changing.",
+        "approaching": "Student identifies one observation related to water movement (such as 'there are waves' or 'the sand is wet') but provides limited detail or doesn't fully explain how it shows water changing.",
+        "beginning": "Student's response is vague or focuses on non-water elements, such as describing the people or building without connecting observations to water movement and change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:46:34.329Z",
+  "cost": 0.005203
+}

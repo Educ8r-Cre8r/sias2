@@ -1,0 +1,53 @@
+{
+  "title": "Bell Pepper",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we planted these seeds?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that seeds would grow into new pepper plants and describes what would happen (grow roots, sprout, make new peppers), showing understanding of the complete plant life cycle.",
+        "meets": "Student correctly states that seeds would grow into pepper plants or new peppers would develop, demonstrating basic understanding of seed growth.",
+        "approaching": "Student provides a partial response such as 'seeds would grow' but lacks detail about what would grow or is uncertain about the outcome.",
+        "beginning": "Student gives a vague response like 'something would happen' or guesses without connecting seeds to plant growth."
+      }
+    },
+    {
+      "questionText": "Why do you think plants make fruits around their seeds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the fruit protects the seeds and helps spread them, recognizing multiple purposes of the fruit with specific details about protection and seed dispersal.",
+        "meets": "Student identifies that the fruit protects the seeds or helps keep them safe, showing understanding of the fruit's main function.",
+        "approaching": "Student mentions protection or mentions the fruit's connection to seeds but with incomplete reasoning or vague language.",
+        "beginning": "Student provides little explanation or makes an inaccurate statement about why fruits develop around seeds."
+      }
+    },
+    {
+      "questionText": "How are the seeds in this pepper similar to seeds in other fruits you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (seeds are small, white/light-colored, found inside fruit, need planting to grow) and names specific fruits, demonstrating broad understanding of seed characteristics.",
+        "meets": "Student identifies one or two similarities between pepper seeds and seeds in other fruits, such as location inside fruit or that they grow into plants.",
+        "approaching": "Student mentions seeds in other fruits but provides limited or unclear comparisons to pepper seeds.",
+        "beginning": "Student attempts to compare but provides inaccurate or very minimal information about similarities."
+      }
+    },
+    {
+      "questionText": "What parts of this pepper help protect the seeds inside?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the thick green walls/skin as protection and explains how they shield seeds from damage or harm, demonstrating understanding of the pepper's protective function.",
+        "meets": "Student correctly identifies the thick green walls or outer part of the pepper as protective without additional explanation.",
+        "approaching": "Student identifies a protective part but uses vague language or shows incomplete understanding of how it protects seeds.",
+        "beginning": "Student provides a minimal response or cannot identify which parts protect the seeds."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:40:05.722Z",
+  "cost": 0.004227
+}

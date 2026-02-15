@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the lizard looks compared to the tree?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about the lizard (color, bumpy skin, long tail, yellow eye) and describes how it matches the tree bark (brown color, similar texture).",
+        "meets": "Student notices that the lizard is brown like the tree and may mention one other detail such as the tail or bumpy skin.",
+        "approaching": "Student identifies that the lizard and tree are similar colors but provides minimal additional detail or description.",
+        "beginning": "Student makes a simple observation about the lizard or tree but does not clearly compare the two or the comparison is unclear."
+      }
+    },
+    {
+      "questionText": "Why do you think the lizard's brown color helps it stay safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the brown color helps the lizard hide by blending in with the tree bark so predators cannot easily see it, demonstrating understanding of camouflage.",
+        "meets": "Student explains that the brown color helps the lizard hide on the tree or that it is hard to see because it blends in.",
+        "approaching": "Student recognizes that the color helps keep the lizard safe but provides incomplete reasoning, such as stating the lizard blends in without explaining why that matters.",
+        "beginning": "Student provides a vague answer such as 'the color keeps it safe' without explaining how or why the brown color matters."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that blend in with their homes?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more animals and explains how each one's color or appearance helps it blend in with its specific home environment.",
+        "meets": "Student names at least one animal and explains how its color or appearance helps it blend in with its environment.",
+        "approaching": "Student names one or two animals but provides limited or unclear explanation of how they blend in with their homes.",
+        "beginning": "Student names an animal but provides no explanation of how it blends in, or the answer is unclear or inaccurate."
+      }
+    },
+    {
+      "questionText": "How do you think this lizard finds food while staying hidden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the lizard can move quietly or slowly while staying hidden, and/or can see insects while remaining camouflaged, demonstrating understanding of how camouflage helps with hunting.",
+        "meets": "Student suggests a reasonable idea such as the lizard moving slowly to find food or being able to see prey while hidden by its color.",
+        "approaching": "Student recognizes that the lizard finds food while hidden but provides incomplete reasoning, such as only stating it stays hidden without explaining how this helps it hunt.",
+        "beginning": "Student provides a vague or underdeveloped response that shows minimal connection between hiding and finding food."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:32:45.936Z",
+  "cost": 0.004515
+}

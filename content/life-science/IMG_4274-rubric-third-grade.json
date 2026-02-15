@@ -1,0 +1,53 @@
+{
+  "title": "Dragonfly",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How do you think a dragonfly's large eyes help it survive in its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that large eyes help the dragonfly see prey or predators and connects this to survival by describing how good vision helps it hunt or stay safe in its habitat.",
+        "meets": "Student states that large eyes help the dragonfly see well and explains that this helps it find food or avoid danger.",
+        "approaching": "Student mentions that large eyes help the dragonfly see, but the explanation of why this matters for survival is incomplete or unclear.",
+        "beginning": "Student provides a vague response such as 'big eyes help it see' with little or no explanation of how this helps the dragonfly survive."
+      }
+    },
+    {
+      "questionText": "What would happen to a dragonfly if all the ponds and streams in its habitat dried up?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the dragonfly would lose its habitat and food source, and predicts multiple consequences such as the dragonfly having to move, starve, or die, showing understanding of habitat dependence.",
+        "meets": "Student correctly explains that the dragonfly would struggle to survive because it needs water and either loses its home or food source.",
+        "approaching": "Student recognizes that drying water would be a problem for the dragonfly but provides only a partial explanation, such as mentioning habitat loss without discussing food or survival consequences.",
+        "beginning": "Student provides a minimal response such as 'the dragonfly would die' without explaining why water is important to dragonflies."
+      }
+    },
+    {
+      "questionText": "Compare the dragonfly's wings to a bird's wings - how are they similar and different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both allow flight, are attached to the body) and differences (dragonfly has four transparent wings; birds have two feathered wings, dragonfly wings move differently), demonstrating detailed comparison.",
+        "meets": "Student describes at least one similarity and one difference between dragonfly and bird wings, such as both help with flying but dragonflies have four wings and birds have two.",
+        "approaching": "Student attempts a comparison but provides incomplete information, such as mentioning wings help both fly without describing clear differences, or describing only one aspect.",
+        "beginning": "Student makes a vague or inaccurate comparison, such as 'they both have wings' without adding meaningful details about similarities or differences."
+      }
+    },
+    {
+      "questionText": "Why might having four separate wings be better for a dragonfly than having two wings like a butterfly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that four wings provide better control, maneuverability, or ability to hover and move in different directions, connecting this to the dragonfly's hunting or survival needs.",
+        "meets": "Student identifies that four wings give the dragonfly better control or movement compared to two wings, showing understanding of how wing number affects flight.",
+        "approaching": "Student suggests four wings might be helpful but the explanation is unclear or incomplete, such as 'four wings are better' without explaining how or why.",
+        "beginning": "Student provides a minimal or inaccurate response, such as guessing that more wings are automatically better without providing a reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:19:54.052Z",
+  "cost": 0.005005
+}

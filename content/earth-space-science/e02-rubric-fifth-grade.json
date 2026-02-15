@@ -1,0 +1,53 @@
+{
+  "title": "Hill",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is causing the hazy appearance in the distance, and what evidence supports your thinking?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies air pollution or smog as the cause and provides multiple pieces of evidence from the photo (e.g., the visible haze blocking the city, the difference in clarity between foreground and background, the cloudy sky) while explaining how pollutants create haze.",
+        "meets": "Student identifies air pollution or smog as the cause and points to at least one piece of visual evidence from the photo, such as the haze obscuring the distant city or the cloudiness in the atmosphere.",
+        "approaching": "Student suggests pollution or clouds might be causing the haze but provides limited or vague evidence from the image, such as simply stating \"it looks foggy\" without specific observations.",
+        "beginning": "Student makes a minimal attempt to explain the haze (e.g., \"it's cloudy\" or \"something is wrong\") with no clear reasoning or evidence from the photograph."
+      }
+    },
+    {
+      "questionText": "How might the air quality on this hillside compare to the air quality in the city you can see in the distance?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hillside likely has better air quality than the city and supports this with reasoning about pollution sources (e.g., more vehicles, factories, and people in cities produce more pollutants) while referencing the visible haze concentrated over the city area.",
+        "meets": "Student predicts that the hillside has better air quality than the city and provides a reasonable explanation such as the city having more pollution sources or the haze being thicker over the city area.",
+        "approaching": "Student recognizes that air quality might differ between the hillside and city but gives incomplete reasoning, such as stating one location is better without explaining why or how pollution sources differ.",
+        "beginning": "Student provides a vague or unsupported comparison (e.g., \"they are different\" or \"one is cleaner\") with minimal explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "What solutions could communities implement to reduce the hazy air pollution visible in this image?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple, specific, realistic solutions (e.g., reducing vehicle emissions, using clean energy, planting more trees for air filtration) and explains how at least two solutions would reduce the visible haze or improve air quality.",
+        "meets": "Student suggests at least two realistic solutions to reduce air pollution (such as using cleaner transportation, reducing factory emissions, or planting trees) with basic explanations of how they would help.",
+        "approaching": "Student suggests one or two solutions but the explanation is incomplete or somewhat unclear (e.g., mentioning planting trees without explaining how it helps, or suggesting solutions without connecting them to reducing haze).",
+        "beginning": "Student attempts to suggest a solution but it is vague, unrealistic, or lacks any explanation of how it would reduce air pollution (e.g., \"make less pollution\" with no specific ideas)."
+      }
+    },
+    {
+      "questionText": "How do you think this air quality might affect the plants and animals living in this area?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple negative effects of air pollution on living things (e.g., pollutants damage leaves affecting photosynthesis, animals breathe unhealthy air, plants absorb harmful chemicals) and demonstrates understanding of how organisms interact with their environment.",
+        "meets": "Student identifies at least two effects of poor air quality on plants or animals, such as pollution harming plant leaves, animals having difficulty breathing, or reduced health and growth.",
+        "approaching": "Student recognizes that air pollution could negatively affect plants or animals but provides only one effect or incomplete reasoning (e.g., \"plants might get sick\" without explaining why).",
+        "beginning": "Student makes a minimal attempt to connect air quality to living things (e.g., \"it's bad for them\") with little specific explanation or understanding of cause and effect."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:50:02.408Z",
+  "cost": 0.005808
+}

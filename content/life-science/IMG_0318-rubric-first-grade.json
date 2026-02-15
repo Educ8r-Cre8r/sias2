@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What external parts do you see on this bird, and what does each part help the bird do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more bird parts (feathers, beak, eye, legs) and explains what each part does using complete sentences and accurate details (e.g., 'feathers keep the bird warm and dry').",
+        "meets": "Student identifies two bird parts and explains what each part helps the bird do with basic accuracy (e.g., 'beak for eating' and 'feathers for keeping warm').",
+        "approaching": "Student identifies one or two bird parts but explanations are incomplete or partially accurate; may describe what parts look like rather than what they do.",
+        "beginning": "Student names a bird part (feathers, beak, or eye) but provides little or no explanation of its function, or response is vague."
+      }
+    },
+    {
+      "questionText": "Why do you think this bird's feathers are tan and gray instead of bright red or blue?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that tan and gray colors help the bird blend in with its surroundings (camouflage) and may mention this keeps the bird safe from predators or makes it harder to see.",
+        "meets": "Student explains that the tan and gray colors help the bird hide or blend in with nature, demonstrating understanding of camouflage.",
+        "approaching": "Student mentions the bird's colors relate to where it lives or suggests camouflage, but reasoning is unclear or partially developed.",
+        "beginning": "Student provides a simple observation ('the bird is brown') or guesses without connecting colors to survival or environment."
+      }
+    },
+    {
+      "questionText": "If you looked at a picture of this bird's mother or father, what would be the same, and what might be different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (same species features, beak shape, eye) and differences (adult bird would be larger, have fuller feathers, or be more brightly colored), showing understanding of growth and variation.",
+        "meets": "Student identifies at least one similarity and one difference between a young bird and adult bird (e.g., 'same beak shape but bigger bird' or 'same color but parent might look different').",
+        "approaching": "Student identifies either similarities or differences, but not both; explanation may be vague or show uncertain understanding of how birds grow.",
+        "beginning": "Student attempts an answer but provides minimal or inaccurate comparisons with little connection to bird growth or family traits."
+      }
+    },
+    {
+      "questionText": "How would this bird's life be different if it did not have feathers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple ways feathers are essential: keeping the bird warm, protecting skin, helping it fly, or keeping it dry; response shows deep understanding of feather functions.",
+        "meets": "Student explains one or two important functions of feathers (e.g., 'it would be cold' or 'it couldn't fly'), demonstrating solid understanding.",
+        "approaching": "Student recognizes feathers are important and mentions one function, but explanation lacks detail or is partially unclear.",
+        "beginning": "Student provides a minimal response such as 'the bird would be sad' or 'it would be different' without explaining how feathers actually help the bird."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:15:44.443Z",
+  "cost": 0.005105
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Cows",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the cows look different from each other?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (colors, patterns, spots) and describes them clearly using descriptive words like 'black,' 'white,' 'spotted,' or 'stripes.'",
+        "meets": "Student identifies at least two differences in how the cows look, such as color or spots.",
+        "approaching": "Student notices that cows look different but describes only one difference or uses vague language.",
+        "beginning": "Student attempts to answer but provides minimal or unclear observations about cow differences."
+      }
+    },
+    {
+      "questionText": "What do you think the cows need to stay healthy and happy?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs (food, water, space, shelter) and explains why at least one is important for health using simple cause-and-effect language.",
+        "meets": "Student identifies 2-3 things cows need, such as grass, water, or space to move around.",
+        "approaching": "Student identifies one or two needs but may lack clear explanation or reasoning for why cows need them.",
+        "beginning": "Student provides a response but names vague items or shows minimal understanding of animal needs."
+      }
+    },
+    {
+      "questionText": "How are the cows the same as other animals you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (have bodies, eat food, move, have eyes/ears) and connects to specific animals mentioned.",
+        "meets": "Student identifies 2-3 similarities between cows and other animals, such as eating, moving, or having body parts.",
+        "approaching": "Student identifies one similarity but explanation may be incomplete or somewhat unclear.",
+        "beginning": "Student attempts an answer but provides vague or minimal similarities between cows and other animals."
+      }
+    },
+    {
+      "questionText": "What would happen if the cows didn't have grass to eat?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a logical consequence (cows would be hungry, get sick, or move away) and explains the connection between food and health.",
+        "meets": "Student makes a reasonable prediction about what would happen without grass, such as cows getting hungry or becoming unhealthy.",
+        "approaching": "Student makes a prediction but reasoning is unclear or only partially connected to the need for food.",
+        "beginning": "Student provides a response but prediction is vague or shows limited understanding of why food matters for animals."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:24:02.536Z",
+  "cost": 0.004106
+}

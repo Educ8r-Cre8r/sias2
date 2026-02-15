@@ -1,0 +1,53 @@
+{
+  "title": "Drought",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that tells you about the water cycle in this location?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence (deep cracks, hardened soil, minimal vegetation) and explains how they indicate low precipitation or high evaporation, demonstrating understanding of how water cycle stages affect soil conditions.",
+        "meets": "Student identifies at least two pieces of evidence such as cracks or dry soil and explains that the location has little water available, showing basic understanding of water cycle in dry environments.",
+        "approaching": "Student identifies one piece of evidence like cracks or dryness but provides vague or incomplete explanation of what it reveals about water availability or the water cycle.",
+        "beginning": "Student notices the soil looks dry or mentions cracks but does not make a clear connection to the water cycle or water availability in the location."
+      }
+    },
+    {
+      "questionText": "How might the plants growing in these cracks be different from plants that grow in well-watered soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares multiple adaptations (smaller size, deeper roots, thicker leaves) and explains how these help plants survive with limited water, demonstrating understanding of plant adaptations to drought conditions.",
+        "meets": "Student describes at least two differences (such as smaller size, weaker growth, or need for less water) and provides reasonable explanations for why these plants must be different.",
+        "approaching": "Student identifies one or two differences between the plants but provides incomplete or partially accurate reasoning about why drought conditions cause these changes.",
+        "beginning": "Student acknowledges plants in cracks might be different but provides vague descriptions or no clear explanation of how drought affects plant growth."
+      }
+    },
+    {
+      "questionText": "If you were a farmer looking at this field, what steps could you take to help the soil and plants?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple solutions (irrigation, adding mulch or compost, crop rotation) and explains how each addresses soil problems like water retention or soil structure, demonstrating practical understanding of soil management.",
+        "meets": "Student suggests at least two reasonable solutions such as watering, adding organic material, or changing farming practices, with brief explanations of how they help.",
+        "approaching": "Student suggests one or two solutions but provides incomplete reasoning, or suggestions are partially practical (e.g., 'add water' without explaining how or 'fix the cracks' without a method).",
+        "beginning": "Student suggests a vague solution like 'make it wet' or 'help the plants' without explaining specific steps or how it would improve soil and plant growth."
+      }
+    },
+    {
+      "questionText": "What do you predict would happen to this soil if it rained heavily tomorrow?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple effects (water absorption, soil settling, possible erosion or flooding) and explains the reasoning by connecting soil structure and water infiltration rate to potential outcomes.",
+        "meets": "Student predicts a reasonable outcome such as water soaking in or soil becoming softer, and provides basic explanation linking the prediction to the cracked soil structure.",
+        "approaching": "Student makes a prediction but with incomplete or partially logical reasoning; may predict something plausible but not fully explain why based on the soil's current condition.",
+        "beginning": "Student makes a simple prediction like 'it will get wet' with little to no explanation or reasoning about how the cracked soil would respond to heavy rain."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:52:24.871Z",
+  "cost": 0.005133
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Rocks",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that water has been flowing over these rocks for a long time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence (color changes, smooth surfaces, moss/algae growth, worn edges) and explains how each one shows water's long-term effects on the rocks.",
+        "meets": "Student identifies at least two pieces of evidence that water has flowed over the rocks for a long time, such as smooth surfaces or color changes, with brief explanations.",
+        "approaching": "Student identifies one piece of evidence that water has affected the rocks but provides incomplete or unclear explanation of how it shows long-term water flow.",
+        "beginning": "Student provides a vague response or identifies only that water is present without explaining evidence of long-term flow over the rocks."
+      }
+    },
+    {
+      "questionText": "How do you think this rock garden might look different after 100 years of water flowing over it?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes based on erosion and weathering (rocks becoming smoother, smaller, or more rounded; more color changes; possible rearrangement) and connects predictions to water's erosive power.",
+        "meets": "Student makes a reasonable prediction of change (rocks getting smoother, smaller, or worn down) supported by understanding that water shapes rocks over time.",
+        "approaching": "Student makes a prediction about changes but reasoning is incomplete or partially accurate, showing partial understanding of water's effects on rocks.",
+        "beginning": "Student provides a vague prediction or one without clear connection to water's ability to shape and erode rocks over time."
+      }
+    },
+    {
+      "questionText": "Where do you think the tiny rock pieces go when water washes them away from this garden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces the path of sediment (carried downstream, settles in lower areas, collected in drains/water features) and explains that water carries small pieces to other locations where they accumulate.",
+        "meets": "Student identifies that small rock pieces are carried away by water to another location (such as downstream, into soil, or a drain) with reasonable explanation.",
+        "approaching": "Student suggests that pieces go somewhere when washed away but provides incomplete reasoning or is uncertain about the specific destination.",
+        "beginning": "Student provides a minimal or vague response that does not clearly explain where rock pieces travel when water moves them."
+      }
+    },
+    {
+      "questionText": "What would happen to these rocks if no water ever flowed over them?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that rocks would remain unchanged (no erosion, smoothing, or color changes from water) and explains that without water's action, weathering from water flow would not occur.",
+        "meets": "Student predicts that rocks would stay the same or not change and identifies that water is needed to wear down and shape the rocks.",
+        "approaching": "Student predicts little or no change to the rocks but reasoning about why is incomplete or unclear.",
+        "beginning": "Student provides a vague prediction or does not clearly explain what would happen without water flowing over the rocks."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:47:22.558Z",
+  "cost": 0.004773
+}

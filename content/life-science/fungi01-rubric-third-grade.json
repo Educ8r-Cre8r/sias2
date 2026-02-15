@@ -1,0 +1,53 @@
+{
+  "title": "Fungi01",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this mushroom needs to grow and stay healthy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific needs (water, darkness or shade, decomposing material, moisture) and explains why mushrooms need each one to survive and grow.",
+        "meets": "Student identifies at least two things mushrooms need to grow, such as water, soil, or darkness, with brief explanations of why.",
+        "approaching": "Student identifies one or two things mushrooms need (water, soil, air) but explanations are vague or incomplete.",
+        "beginning": "Student provides a minimal response such as naming only water or soil, or gives an inaccurate answer about mushroom needs."
+      }
+    },
+    {
+      "questionText": "How might this mushroom be helpful to other living things in its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms break down dead material and make nutrients available for plants, and describes how this helps other living things in a chain or cycle.",
+        "meets": "Student explains that mushrooms help by breaking down dead things or providing food for animals, showing understanding of at least one role mushrooms play.",
+        "approaching": "Student identifies that mushrooms might be helpful but gives incomplete reasoning, such as mentioning food or decomposition without full explanation.",
+        "beginning": "Student provides a vague answer like 'mushrooms help' or gives an inaccurate idea about how mushrooms help living things."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice when comparing this mushroom to other living things you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple patterns, such as mushrooms having parts (cap, stem, gills) like plants have parts, growing from the ground, or existing in groups, and makes connections to other organisms.",
+        "meets": "Student notices and describes at least two observable patterns, such as the mushroom having a stem and cap, growing in groups, or having similar features to plants.",
+        "approaching": "Student notices one pattern (such as shape, growth location, or appearing in groups) but description lacks detail or connection to other living things.",
+        "beginning": "Student attempts to compare the mushroom but provides minimal, unclear, or inaccurate observations about patterns."
+      }
+    },
+    {
+      "questionText": "If you were a tiny spore from this mushroom, what would need to happen for you to grow into a new mushroom?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a logical sequence of conditions needed for spore growth, including moisture, appropriate location (damp soil, decaying matter), time, and temperature, showing understanding of mushroom life cycles.",
+        "meets": "Student identifies at least two conditions needed for a spore to grow, such as moisture and a suitable environment like soil or dead material.",
+        "approaching": "Student identifies one or two factors like water or soil but explanation is incomplete or shows partial understanding of spore growth requirements.",
+        "beginning": "Student provides minimal response with vague conditions, or gives an inaccurate description of what a spore would need to grow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:26:47.418Z",
+  "cost": 0.004748
+}

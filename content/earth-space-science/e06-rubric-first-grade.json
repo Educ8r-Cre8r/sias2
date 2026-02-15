@@ -1,0 +1,53 @@
+{
+  "title": "Drought",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make the ground look like this?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the ground dried out and lost water, causing it to shrink and crack into pieces, using observation details from the photo.",
+        "meets": "Student states that the ground dried out or lost water, causing the cracks to form.",
+        "approaching": "Student mentions the ground is cracked or dry but provides incomplete or unclear reasoning about the connection between drying and cracking.",
+        "beginning": "Student gives a minimal response such as \"it cracked\" or \"it's dry\" without explaining why or how this happened."
+      }
+    },
+    {
+      "questionText": "How might the plants in the cracks be getting the water they need?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water soaks down into the cracks in the ground to reach plant roots, and may mention rain or ground water as a source.",
+        "meets": "Student identifies that water in the cracks or ground reaches the plants' roots to help them grow.",
+        "approaching": "Student recognizes plants need water and mentions cracks or ground but makes an incomplete connection between water sources and how plants get water.",
+        "beginning": "Student provides a vague response such as \"they get water\" or \"from the cracks\" without explaining the process or role of water."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this ground when it rains?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the ground will absorb water, become softer, and the cracks may close up, explaining how water changes the ground's condition.",
+        "meets": "Student predicts the ground will become wet or softer when it rains, or that the cracks will fill with water.",
+        "approaching": "Student makes a prediction about rain and the ground but provides limited detail or reasoning about how water affects the dry, cracked earth.",
+        "beginning": "Student gives a minimal prediction such as \"it will get wet\" without describing any changes to the ground's appearance or texture."
+      }
+    },
+    {
+      "questionText": "Where else have you seen things crack when they get dry?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple specific examples from their environment (mud puddles, clay, paint, lips) and explains that drying causes materials to shrink and crack.",
+        "meets": "Student provides at least one clear example from their own experience of something cracking when dry.",
+        "approaching": "Student attempts to give an example but it is vague or unclear, or they struggle to connect it to the drying process.",
+        "beginning": "Student gives no example or provides an example unrelated to drying and cracking."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:51:53.891Z",
+  "cost": 0.00432
+}

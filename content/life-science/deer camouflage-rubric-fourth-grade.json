@@ -1,0 +1,53 @@
+{
+  "title": "Deer Camouflage",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the deer's coloring compares to their surroundings?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the deer's brown and tan fur matches the golden-brown grass and tree branches, using specific color words and explaining that this similarity makes the deer hard to see.",
+        "meets": "Student accurately describes that the deer's coloring is similar to the colors in its surroundings, such as the grass or trees.",
+        "approaching": "Student notices that the deer and surroundings share some similar colors but provides vague or incomplete descriptions of what matches.",
+        "beginning": "Student makes a general observation about the deer's color or surroundings but does not clearly compare them or makes an inaccurate observation."
+      }
+    },
+    {
+      "questionText": "Why might it be important for deer to be hard to see in their habitat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that being hard to see helps deer stay safe from predators and increases their chances of survival, demonstrating understanding of predator-prey relationships in their habitat.",
+        "meets": "Student explains that being hard to see helps deer avoid danger or predators, showing clear understanding of the survival benefit.",
+        "approaching": "Student provides a partial explanation, such as that hiding is important for deer, but lacks clarity about why or mentions predators without full explanation.",
+        "beginning": "Student gives a vague answer like 'it helps them' or 'it's important' without explaining the specific reason related to safety or survival."
+      }
+    },
+    {
+      "questionText": "How do you think a deer's appearance might be different in summer compared to winter, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that summer fur would be lighter (reddish-brown) to match green plants and winter fur would be darker/thicker to match snow or bare branches, explaining that camouflage changes with seasonal habitat changes.",
+        "meets": "Student predicts that the deer's fur color or coat would change between seasons to match the different surroundings, showing understanding that camouflage adjusts with the environment.",
+        "approaching": "Student recognizes that the deer might look different in summer and winter but provides incomplete reasoning or only describes one season clearly.",
+        "beginning": "Student acknowledges differences between seasons but does not connect them to the deer's appearance or camouflage needs."
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that use camouflage, and how might their camouflage be similar or different from deer?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals with camouflage (e.g., rabbits, squirrels, snakes) and explains specific similarities and differences, such as how a rabbit's brown fur blends like the deer's or how a snake's patterns differ from solid colors.",
+        "meets": "Student names at least one other animal that uses camouflage and identifies a reasonable similarity or difference, such as both using brown colors or one using patterns while the other uses solid colors.",
+        "approaching": "Student names one or two other animals with camouflage but provides limited or unclear comparison to the deer's camouflage strategy.",
+        "beginning": "Student names an animal but does not explain how it uses camouflage or makes no meaningful comparison to the deer."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:25:19.347Z",
+  "cost": 0.005056
+}

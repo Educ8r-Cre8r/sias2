@@ -1,0 +1,53 @@
+{
+  "title": "Chrysalis",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside the green chrysalis?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillar is changing into a butterfly, using the term metamorphosis or describing specific changes like growing wings or the body transforming.",
+        "meets": "Student correctly identifies that a caterpillar is inside changing into a butterfly with a clear, simple explanation.",
+        "approaching": "Student recognizes that something is changing inside the chrysalis but provides limited or partially accurate details about the transformation.",
+        "beginning": "Student provides a vague response such as 'something is in there' or 'it's sleeping' with no clear understanding of the change happening."
+      }
+    },
+    {
+      "questionText": "Why might the chrysalis be green instead of bright red or yellow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green helps the chrysalis hide or blend in with leaves and plants (camouflage), protecting it from predators or danger.",
+        "meets": "Student identifies that the green color helps the chrysalis hide or stay safe by blending in with its surroundings.",
+        "approaching": "Student attempts to explain a connection between the green color and safety or hiding but reasoning is incomplete or unclear.",
+        "beginning": "Student offers a simple color preference ('it looks pretty') or no logical explanation for the green color."
+      }
+    },
+    {
+      "questionText": "How is a chrysalis similar to and different from an egg?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both protect what's inside, both are stages before something grows) and differences (eggs hatch into babies, chrysalis has a caterpillar inside that transforms, different shapes/materials).",
+        "meets": "Student identifies at least one clear similarity and one clear difference, such as both protect life inside but eggs are different shapes, or both are stages but a chrysalis comes from a caterpillar.",
+        "approaching": "Student identifies either a similarity or difference but not both, or provides incomplete comparisons with some accurate details.",
+        "beginning": "Student attempts comparison but offers vague, inaccurate, or unclear statements with minimal understanding of either eggs or chrysalises."
+      }
+    },
+    {
+      "questionText": "What would happen if we opened the chrysalis to peek inside?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that opening the chrysalis would hurt or kill the butterfly-to-be and prevent it from finishing its transformation, and recognizes this is why we should not disturb it.",
+        "meets": "Student correctly predicts that opening the chrysalis would harm or stop the butterfly from developing into its final form.",
+        "approaching": "Student recognizes that opening it would be harmful but provides unclear or incomplete reasoning about why or how the butterfly would be affected.",
+        "beginning": "Student guesses a consequence without logical reasoning or demonstrates minimal understanding of why opening it matters."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:56:51.108Z",
+  "cost": 0.004483
+}

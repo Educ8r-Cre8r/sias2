@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper Eating Hibiscus Bud",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What might happen to this grasshopper if there were no plants to eat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the grasshopper would not have food and would starve or die, and makes a connection to why plants are important for animal survival in food chains.",
+        "meets": "Student correctly identifies that the grasshopper would not have food and would starve or die without plants.",
+        "approaching": "Student recognizes that plants are food for the grasshopper but has incomplete reasoning about what would happen to the grasshopper without them.",
+        "beginning": "Student provides a vague response such as 'the grasshopper would be sad' or shows minimal understanding that plants matter to grasshoppers."
+      }
+    },
+    {
+      "questionText": "How do you think the grasshopper's mouth parts help it eat different types of plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes how the grasshopper's mouth parts (like biting or chewing) work to break apart plant material, and explains how these adaptations allow it to eat various plants with different textures.",
+        "meets": "Student explains that the grasshopper's mouth parts help it bite or chew plants, allowing it to eat different types of plants.",
+        "approaching": "Student identifies that the grasshopper has special mouth parts for eating but provides limited explanation of how they function or why they help with different plants.",
+        "beginning": "Student makes a general or inaccurate statement about the grasshopper's mouth parts with little connection to how they help with eating plants."
+      }
+    },
+    {
+      "questionText": "What other animals might want to eat this grasshopper, and how might it protect itself?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple predators (such as birds, spiders, or snakes) and explains how the grasshopper's green color camouflages it or how its strong legs help it escape, making connections to survival strategies.",
+        "meets": "Student names at least one animal that eats grasshoppers and describes one way the grasshopper protects itself, such as jumping away or hiding.",
+        "approaching": "Student names a predator or describes a protection method but lacks detail or clarity in explaining how the protection works.",
+        "beginning": "Student provides a minimal response with only a predator name or vague protection idea with little explanation."
+      }
+    },
+    {
+      "questionText": "If you were designing a garden, how would you balance helping plants grow while providing food for insects?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a thoughtful plan that includes growing some plants specifically for insects, protecting other plants, and explaining why both plants and insects are needed in a healthy garden ecosystem.",
+        "meets": "Student suggests a reasonable approach, such as planting extra plants for insects to eat or keeping some plants protected, showing understanding that both plants and insects can be accommodated.",
+        "approaching": "Student attempts to address the balance but offers incomplete or partially developed ideas, such as mentioning plants or insects but not thoroughly explaining the solution.",
+        "beginning": "Student provides a vague or one-sided response that focuses only on plants or insects without addressing how to balance both."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:31:35.272Z",
+  "cost": 0.004856
+}

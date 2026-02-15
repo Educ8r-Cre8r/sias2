@@ -1,0 +1,53 @@
+{
+  "title": "Clouds",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to these clouds if the temperature got much colder?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that colder temperatures would cause clouds to form precipitation (rain or snow) and explains that cold air cannot hold as much water, using accurate cloud science vocabulary.",
+        "meets": "Student predicts that clouds would produce rain or snow when it gets colder and provides a basic explanation about temperature and water.",
+        "approaching": "Student makes a prediction about weather change but reasoning is unclear or partially incomplete; may confuse clouds with other weather phenomena.",
+        "beginning": "Student provides a vague response like 'it would rain' with little or no explanation of the connection between temperature and clouds."
+      }
+    },
+    {
+      "questionText": "How might the weather change if these clouds continue to grow bigger?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that larger clouds will likely produce precipitation and describes specific weather changes (heavier rain, longer storms) with reasoning about cloud size and water capacity.",
+        "meets": "Student correctly predicts that bigger clouds could bring rain or storms and provides a simple reason connecting cloud size to weather.",
+        "approaching": "Student predicts weather change but reasoning is incomplete; may say 'it will rain' without explaining why larger clouds affect weather differently.",
+        "beginning": "Student provides a minimal response with little connection between cloud size and weather outcomes or offers an inaccurate prediction."
+      }
+    },
+    {
+      "questionText": "Where do you think the water in these clouds originally came from?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains the water cycle by identifying that cloud water came from oceans, lakes, or rivers through evaporation, demonstrating understanding of how water moves from Earth's surface to the sky.",
+        "meets": "Student correctly identifies that cloud water came from bodies of water like the ocean, sea, or lakes.",
+        "approaching": "Student provides a partially correct answer, such as identifying water sources but without clear explanation of how water reaches clouds.",
+        "beginning": "Student gives a vague or incorrect response, such as 'the sky' or 'air,' with no mention of Earth's water sources."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in the shape and size of these clouds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student observes multiple specific patterns, such as clouds stacked vertically, graduated sizes, puffy rounded shapes, and describes how these relate to cloud formation or updrafts.",
+        "meets": "Student identifies 2-3 clear patterns in the clouds, such as puffy shapes, different sizes, or vertical stacking, using observational language.",
+        "approaching": "Student notices one or two patterns but descriptions are vague; may use general terms like 'big' and 'white' without detailed observation.",
+        "beginning": "Student provides minimal observation, such as 'they look fluffy' or 'they are white,' without identifying clear patterns in shape or size."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:50:33.412Z",
+  "cost": 0.004601
+}

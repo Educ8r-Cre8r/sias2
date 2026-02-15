@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice is different between the caterpillar stage and the butterfly stage?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (such as body shape, wings, movement, or color) between caterpillar and butterfly stages with specific details from the photo or prior knowledge.",
+        "meets": "Student identifies at least two clear differences between the caterpillar and butterfly stages, such as wings or body shape.",
+        "approaching": "Student identifies one difference between caterpillar and butterfly stages, though description may lack detail or clarity.",
+        "beginning": "Student attempts to compare stages but provides vague or inaccurate responses with minimal observable differences mentioned."
+      }
+    },
+    {
+      "questionText": "Why do you think butterflies need to change their body shape to survive?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides thoughtful reasoning connecting body changes to survival needs (such as flying to find food, escaping danger, or reaching flowers) with age-appropriate scientific thinking.",
+        "meets": "Student offers a reasonable explanation for why butterflies change, such as needing wings to move or find food.",
+        "approaching": "Student makes a simple connection between body shape and survival but reasoning is incomplete or partially unclear.",
+        "beginning": "Student attempts an answer but provides little logical reasoning or suggests misconceptions about why the change occurs."
+      }
+    },
+    {
+      "questionText": "What patterns do you see in how the butterfly's wings look?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple patterns with specific details, such as orange color, black lines, white spots, and symmetry on both wings using descriptive language.",
+        "meets": "Student identifies 2-3 patterns visible on the monarch wings, such as color, spots, or lines.",
+        "approaching": "Student notices at least one pattern (color, spots, or lines) on the butterfly's wings but description lacks detail.",
+        "beginning": "Student attempts to describe patterns but uses very vague language or provides inaccurate observations about the wing appearance."
+      }
+    },
+    {
+      "questionText": "How might this butterfly's life be different from a baby bird growing up?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences in how butterflies and birds grow (such as metamorphosis vs. gradual growth, chrysalis vs. nest, wings present at birth vs. growing in, independent vs. parental care) with clear explanations.",
+        "meets": "Student identifies at least two key differences in how butterflies and birds develop or live, such as different homes or how they grow.",
+        "approaching": "Student makes a comparison but identifies only one difference, or reasoning is partially developed.",
+        "beginning": "Student attempts comparison but provides vague or mostly inaccurate statements about how butterflies and birds are different."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:36:52.654Z",
+  "cost": 0.004393
+}

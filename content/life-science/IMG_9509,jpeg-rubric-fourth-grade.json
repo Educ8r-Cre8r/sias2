@@ -1,0 +1,53 @@
+{
+  "title": "Seed Germination",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this seedling needs to continue growing successfully?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific needs (water, sunlight, soil nutrients, air) and explains briefly why each is important for plant growth.",
+        "meets": "Student identifies at least two plant needs (such as water and sunlight) with reasonable explanations of how they support growth.",
+        "approaching": "Student identifies one or two plant needs but with vague or incomplete explanations of their importance.",
+        "beginning": "Student mentions basic plant needs in very general terms or provides inaccurate information about what plants require."
+      }
+    },
+    {
+      "questionText": "How might the decomposing wood chips help or hurt the seedling's growth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains both benefits (nutrients, soil structure, moisture retention) and potential challenges (blocking sunlight, competing for nutrients) of decomposing wood chips with specific details.",
+        "meets": "Student identifies at least one way wood chips could help (add nutrients or improve soil) and attempts to explain the relationship to plant growth.",
+        "approaching": "Student recognizes that decomposing wood could affect growth but explanation is incomplete or shows limited understanding of decomposition and plant nutrition.",
+        "beginning": "Student provides minimal response, vague ideas about wood chips, or shows little understanding of decomposition or its role in plant growth."
+      }
+    },
+    {
+      "questionText": "What evidence can you see that tells you this is a young plant rather than a mature one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific features (small size, thin stem, few leaves, bright green color, oval leaf shape) and explains why these indicate a young plant versus a mature one.",
+        "meets": "Student identifies at least two observable features of the seedling (such as small size and few leaves) and connects them to youth and maturity.",
+        "approaching": "Student notices some young plant characteristics but descriptions lack detail or clear connection to maturity comparisons.",
+        "beginning": "Student mentions one feature vaguely or provides limited observations about how the plant appears young."
+      }
+    },
+    {
+      "questionText": "If you found this seedling, what predictions would you make about how it might look in one month?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes detailed predictions of growth changes (taller stem, more leaves, larger leaf size, possible new branches) based on understanding of plant growth patterns and conditions shown in the photo.",
+        "meets": "Student predicts reasonable growth changes such as the plant getting taller or developing more leaves, with logical reasoning based on normal plant growth.",
+        "approaching": "Student makes a prediction about growth but reasoning is unclear or based on incomplete understanding of how plants develop over time.",
+        "beginning": "Student provides a vague prediction about the plant's future or shows minimal understanding of plant growth and development."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:20:43.339Z",
+  "cost": 0.004507
+}

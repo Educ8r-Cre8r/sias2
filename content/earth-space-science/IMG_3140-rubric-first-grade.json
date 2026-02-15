@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the fog if the sun came out?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts fog would go away or disappear and explains that warmth/heat from the sun causes it to disappear, using heat-related vocabulary appropriately.",
+        "meets": "Student predicts fog would go away or disappear when the sun comes out with a simple explanation about warmth or the sun.",
+        "approaching": "Student predicts the fog would change but explanation is vague, incomplete, or shows confusion about the cause.",
+        "beginning": "Student makes a prediction but it is inaccurate, or provides no explanation for their prediction."
+      }
+    },
+    {
+      "questionText": "How is fog the same as or different from clouds?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both similarities (both gray, both made of water/moisture) and differences (fog is close to ground/people, clouds are high in sky) using descriptive vocabulary.",
+        "meets": "Student identifies at least one similarity or one difference between fog and clouds with accurate observations.",
+        "approaching": "Student attempts to compare but makes only one vague observation or includes some inaccurate information about either fog or clouds.",
+        "beginning": "Student provides minimal response that does not clearly address similarities or differences, or response is inaccurate."
+      }
+    },
+    {
+      "questionText": "What other times have you seen your breath or steam that looks like fog?",
+      "bloomsLevel": "Recall/Connect",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple real-life examples (breath on cold days, bathroom mirror steam, hot food steam) and explains why they look like fog.",
+        "meets": "Student describes one or two personal examples of seeing breath or steam that looks like fog.",
+        "approaching": "Student attempts to describe an example but it is unclear or only partially relevant to fog-like appearance.",
+        "beginning": "Student provides a vague response or an example that is not clearly related to fog-like water vapor."
+      }
+    },
+    {
+      "questionText": "Why might it be harder to see things far away when it's foggy?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fog blocks or covers things far away, preventing light from reaching our eyes clearly, and may reference the photo's fuzzy buildings.",
+        "meets": "Student explains that fog gets in the way or blocks our view of distant things.",
+        "approaching": "Student recognizes something about fog making it hard to see far away but explanation lacks clarity or completeness.",
+        "beginning": "Student provides a minimal or vague response that does not clearly explain why distance visibility is reduced in fog."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:46:17.581Z",
+  "cost": 0.004209
+}

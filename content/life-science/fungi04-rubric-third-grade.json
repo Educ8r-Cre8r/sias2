@@ -1,0 +1,53 @@
+{
+  "title": "Fungi04",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the forest floor if there were no fungi to break down dead wood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead wood and leaves would pile up or stay on the forest floor, and connects this to how fungi help return nutrients to the soil for new plants to use.",
+        "meets": "Student states that dead wood and leaves would pile up or not break down without fungi, showing understanding of fungi's decomposing role.",
+        "approaching": "Student mentions that something bad would happen to dead wood or the forest floor, but reasoning is unclear or incomplete.",
+        "beginning": "Student provides a vague response such as 'the forest would be messy' with little to no explanation of fungi's role in breaking down dead material."
+      }
+    },
+    {
+      "questionText": "How are these pink fungi similar to and different from the plants growing nearby?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both fungi and plants grow on the forest floor and need moisture, but explains that fungi break down dead material while plants make their own food, and notes that fungi don't have green color like plants.",
+        "meets": "Student identifies at least one similarity (both living things on forest floor) and one difference (fungi break down dead things; plants are green or make food).",
+        "approaching": "Student mentions a similarity or difference between fungi and plants, but the explanation is incomplete or partially unclear.",
+        "beginning": "Student makes a general observation about fungi and plants but provides little evidence of understanding how they are similar or different."
+      }
+    },
+    {
+      "questionText": "Where do you predict you might find similar fungi in your neighborhood, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a specific location (rotting log, mulch pile, under leaves, dead wood near trees) and explains that fungi need moist, dark places with dead plant material to break down.",
+        "meets": "Student predicts a reasonable location where dead plant material exists (yard, garden, under trees) and gives a basic reason related to finding dead wood or moisture.",
+        "approaching": "Student predicts a location but the reason is vague, partially connected to fungal needs, or the prediction shows limited understanding of where decomposers are found.",
+        "beginning": "Student makes a prediction with little or no explanation, or the location is unlikely for finding decomposer fungi."
+      }
+    },
+    {
+      "questionText": "What evidence from the photo shows that these fungi are doing their job as decomposers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the fungi are growing on dead wood and decaying plant material, and explains that their presence shows they are breaking down and feeding on the old, dead matter.",
+        "meets": "Student observes that fungi are growing on dead wood or old plant parts, connecting this to their decomposer job of breaking things down.",
+        "approaching": "Student notes that fungi are on dead material or mentions decomposing, but the connection between location and the decomposer role is weak or unclear.",
+        "beginning": "Student describes what they see (fungi on wood) without explaining how this shows the fungi are decomposing or breaking things down."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:30:49.512Z",
+  "cost": 0.004811
+}

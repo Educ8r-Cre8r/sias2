@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why might cicadas spend so many years underground before emerging all at once?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple adaptive reasons (protection from predators, survival of the species, access to underground food sources) and connects the strategy to cicada life cycle, showing understanding that the synchronized emergence increases chances of survival.",
+        "meets": "Student identifies at least one clear reason cicadas stay underground for years, such as protection from predators or waiting for the right time to emerge, with a logical explanation.",
+        "approaching": "Student attempts to explain why cicadas emerge underground but provides incomplete or partially accurate reasoning, such as mentioning waiting or hiding without full explanation.",
+        "beginning": "Student provides a vague response or minimal attempt to explain the behavior, such as 'they hide' or 'it keeps them safe' without clear reasoning."
+      }
+    },
+    {
+      "questionText": "How do you think the mass emergence of cicadas affects other animals in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes how the sudden abundance of cicadas provides food for multiple predators (birds, mammals, reptiles) and explains how this burst affects the food chain or ecosystem balance in the forest.",
+        "meets": "Student identifies that many cicadas emerging at once provides food for other forest animals, naming at least one or two specific predators that might benefit.",
+        "approaching": "Student recognizes that other animals eat cicadas or that the emergence affects other animals, but provides limited examples or incomplete reasoning about the impact.",
+        "beginning": "Student provides a minimal response, such as 'animals eat them' or 'it affects other animals' without elaboration or specific examples."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in the cicada's body structure that help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple structural adaptations visible in the photo (strong legs for gripping, veined wings for flight, large eyes for vision, hard exoskeleton for protection) and explains how each feature supports survival.",
+        "meets": "Student observes at least two structural features from the photo (such as strong legs, clear wings, or large eyes) and explains how each helps the cicada survive or function.",
+        "approaching": "Student notices one or two body structures from the photo but provides incomplete explanation of how they help survival, or makes a connection that is partially accurate.",
+        "beginning": "Student identifies a body part visible in the photo but provides little to no explanation of its survival function, or makes an unclear connection."
+      }
+    },
+    {
+      "questionText": "If climate change affects soil temperatures, how might this impact cicada emergence timing?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts specific effects of soil temperature changes on cicada emergence (warmer soils might trigger earlier emergence, cooler soils might delay it) and explains potential consequences for cicadas' survival or food availability, showing cause-and-effect thinking.",
+        "meets": "Student predicts that temperature changes would affect when cicadas emerge (earlier or later) and provides a basic explanation of how soil temperature might be a signal for emergence.",
+        "approaching": "Student recognizes that climate change could affect cicadas or that temperature matters, but provides vague predictions or incomplete reasoning about how it would impact emergence timing.",
+        "beginning": "Student attempts to answer but provides minimal understanding of the connection between temperature and cicada behavior, such as 'it might change when they come out' without explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:23:56.640Z",
+  "cost": 0.00514
+}

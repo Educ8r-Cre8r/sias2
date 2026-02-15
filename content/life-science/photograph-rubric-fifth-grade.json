@@ -1,0 +1,53 @@
+{
+  "title": "Ecosystem",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that this forest ecosystem is healthy and thriving?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific signs of forest health (dense canopy, variety of tree heights, thick green leaves, close-growing trees) and explains how each sign shows the ecosystem is thriving and supporting life.",
+        "meets": "Student identifies at least two clear signs of forest health, such as dense green canopy or variety of tree sizes, with brief explanations of why these indicate a healthy ecosystem.",
+        "approaching": "Student identifies one or two signs of forest health (like green trees or many trees) but provides limited or unclear explanations of why these indicate the forest is thriving.",
+        "beginning": "Student provides vague observations (like \"it has trees\" or \"it looks green\") with little to no explanation of what makes a forest healthy."
+      }
+    },
+    {
+      "questionText": "How might the road affect the movement of animals through this forest ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the road acts as a barrier dividing the forest and describes multiple impacts, such as animals being unable to move freely between forest sections, increased danger from vehicles, or habitat fragmentation affecting populations.",
+        "meets": "Student explains that the road creates a barrier that disrupts animal movement between the forest sections, with a reasonable cause-and-effect statement about how this affects animals.",
+        "approaching": "Student recognizes that the road might affect animal movement but provides incomplete reasoning, such as stating animals cannot cross without explaining why this matters.",
+        "beginning": "Student provides a minimal response, such as \"the road is in the way\" or \"animals can't go there,\" without clear explanation of how this affects animal movement."
+      }
+    },
+    {
+      "questionText": "What would happen to this forest if there was a long drought or too much rain?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains effects of both drought and excess rain, describing specific impacts on trees (wilting, disease, root damage) and consequences for the entire ecosystem (food chains disrupted, animals leaving, forest decline).",
+        "meets": "Student describes reasonable effects of either drought or excess rain on trees and the forest ecosystem, such as trees dying, animals losing habitat, or the forest becoming unhealthy.",
+        "approaching": "Student identifies that extreme water conditions would harm the forest but provides vague effects (like \"trees would die\") with limited explanation of how water affects plant and animal survival.",
+        "beginning": "Student provides minimal or unclear response, such as \"the forest would be bad\" without explaining specific effects of too much or too little water."
+      }
+    },
+    {
+      "questionText": "How do you think this forest looked 100 years ago compared to today?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student makes evidence-based predictions comparing past and present, noting the road's recent development, observing the farmland nearby suggests habitat loss, and discussing how the forest composition may have changed while identifying factors that caused these changes.",
+        "meets": "Student makes reasonable comparisons between past and present forest, such as noting the road did not exist 100 years ago or that there may have been fewer human structures nearby.",
+        "approaching": "Student attempts a comparison between past and present but uses limited evidence from the photo; may make general statements without clear connection to what the image shows (forest, road, farmland).",
+        "beginning": "Student provides a minimal comparison or guesses without using visual evidence from the photograph to support the response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:41:22.944Z",
+  "cost": 0.005148
+}

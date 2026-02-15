@@ -1,0 +1,53 @@
+{
+  "title": "Fungi02",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to a forest if there were no fungi to break down dead leaves and wood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead leaves and wood would pile up and not decompose, preventing nutrients from returning to soil and affecting plant growth, with clear reasoning about the forest ecosystem.",
+        "meets": "Student recognizes that dead leaves and wood would not break down and accumulate, understanding that fungi are important for decomposition in forests.",
+        "approaching": "Student identifies that dead material would pile up or that fungi help break things down, but explanation lacks clarity or completeness about the consequences.",
+        "beginning": "Student provides vague response like \"bad things would happen\" or shows minimal understanding of fungi's role in breaking down dead materials."
+      }
+    },
+    {
+      "questionText": "How are fungi similar to and different from plants?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (both are living organisms, grow in soil) and differences (fungi absorb food from dead material rather than making it; don't have chlorophyll or green color), showing clear distinction between the two.",
+        "meets": "Student identifies at least one valid similarity and one valid difference between fungi and plants, such as fungi don't make their own food like plants do.",
+        "approaching": "Student identifies a similarity or difference but description is incomplete, partially inaccurate, or only addresses one category (similarities or differences, not both).",
+        "beginning": "Student attempts comparison but provides mostly inaccurate or unclear statements about how fungi and plants relate to each other."
+      }
+    },
+    {
+      "questionText": "Why might these mushrooms be growing in wood chips instead of on living trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wood chips are dead/decomposing material that fungi eat to survive, and that fungi break down dead wood rather than harm living trees, showing understanding of fungi's role and preference for dead organic material.",
+        "meets": "Student recognizes that wood chips are dead and fungi grow on dead material, or that fungi feed on decomposing wood.",
+        "approaching": "Student mentions that wood chips are dead or that fungi grows on them, but reasoning is incomplete or lacks explanation of why fungi prefer dead material.",
+        "beginning": "Student provides minimal explanation or shows confusion about why mushrooms grow in wood chips rather than living trees."
+      }
+    },
+    {
+      "questionText": "What evidence can you see in the photo that decomposition is happening?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence such as dark, crumbly wood chips, broken-down bark, presence of mushrooms/fungi, and the deteriorated state of plant materials, connecting these observations to the decomposition process.",
+        "meets": "Student identifies at least two observable details from the photo (dark wood chips, mushrooms, deteriorating plant material) as evidence of decomposition happening.",
+        "approaching": "Student identifies one or two observations from the photo but makes limited or unclear connection to decomposition, or description lacks sufficient detail.",
+        "beginning": "Student provides vague observations or minimal evidence from the photo related to decomposition occurring."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:27:41.483Z",
+  "cost": 0.004755
+}

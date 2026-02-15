@@ -1,0 +1,53 @@
+{
+  "title": "Erosion",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that water is changing the landscape in this photo?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence (muddy water flowing, soil and rocks being carried, water moving across the landscape) and explains how each shows water is actively changing the land by moving and wearing away materials.",
+        "meets": "Student identifies at least two clear pieces of evidence that water is changing the landscape, such as the muddy water flowing or soil being moved, with accurate descriptions.",
+        "approaching": "Student identifies one piece of evidence that water is changing the landscape, such as muddy water or moving soil, but explanation is incomplete or lacks detail.",
+        "beginning": "Student provides a vague response about water or the landscape but does not clearly identify specific evidence of change, or response is inaccurate."
+      }
+    },
+    {
+      "questionText": "How might this erosion affect the railroad tracks over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple realistic impacts of erosion on railroad tracks, such as soil washing away causing the ground beneath tracks to become unstable, tracks shifting out of position, or the gravel support stones being carried away, and describes why these changes would be problems.",
+        "meets": "Student describes at least one logical way erosion could damage the railroad, such as washing away soil that supports the tracks or moving the gravel bed beneath them.",
+        "approaching": "Student recognizes that erosion could be harmful to the railroad but provides only vague or partially correct reasoning about how damage might occur.",
+        "beginning": "Student provides minimal or unclear explanation of how erosion might affect the railroad tracks, or response shows little understanding of the problem."
+      }
+    },
+    {
+      "questionText": "What solutions could engineers design to protect the railroad from water damage?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes at least two detailed, practical solutions (such as drainage channels, barriers, slope modifications, or protective barriers) and explains how each solution would prevent water damage or redirect water away from the tracks.",
+        "meets": "Student suggests at least one realistic solution to protect the railroad from water damage, with a reasonable explanation of how it would help.",
+        "approaching": "Student offers a solution idea that shows some understanding of the problem, but explanation of how it would work is incomplete, unclear, or only partially practical.",
+        "beginning": "Student provides a vague or unrealistic suggestion, or shows minimal understanding of what would be needed to protect the railroad from water damage."
+      }
+    },
+    {
+      "questionText": "Where do you think this muddy water will end up, and what will happen to the soil it's carrying?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student traces the path of water downhill, predicts where it will flow (to lower areas, streams, or rivers), and explains what happens to the soil it carries (settles out in calmer areas, builds up sediment, or deposits in water bodies), showing understanding of water movement and sediment transport.",
+        "meets": "Student predicts where the water will travel (to lower ground or water sources) and describes what happens to some of the soil, such as settling or being deposited elsewhere.",
+        "approaching": "Student identifies that water flows downhill or that soil moves with the water, but reasoning about the final destination or sediment deposit is incomplete or unclear.",
+        "beginning": "Student provides a minimal or vague response about where the water goes or what happens to the soil, showing limited understanding of water flow or sediment movement."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:56:18.901Z",
+  "cost": 0.005131
+}

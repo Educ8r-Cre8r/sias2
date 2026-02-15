@@ -1,0 +1,53 @@
+{
+  "title": "Backyard Landscape",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about where different plants are growing in this garden?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific locations where plants grow (near rocks, by water, in sunny spots) and describes differences in how plants are arranged or grouped in the garden.",
+        "meets": "Student accurately identifies at least two different places where plants are growing (such as near rocks or by water) in the garden.",
+        "approaching": "Student identifies one location where plants grow or notices that plants are in different places, but description is vague or incomplete.",
+        "beginning": "Student provides minimal response with unclear observations about plant locations or does not attempt to describe where plants are growing."
+      }
+    },
+    {
+      "questionText": "How do you think these plants get everything they need to stay alive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that plants need multiple things to survive (water, sun, soil) and makes connections to what they see in the photo, such as plants being in sunny spots or near water sources.",
+        "meets": "Student identifies at least two things plants need to stay alive, such as water and sunlight, with simple explanations of how plants get them.",
+        "approaching": "Student names one or two things plants need but explanation is unclear or incomplete; may confuse plant needs with animal needs.",
+        "beginning": "Student provides vague response or attempts to answer but shows minimal understanding of what plants need to survive."
+      }
+    },
+    {
+      "questionText": "What would happen if these plants didn't get water for a long time?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that plants would die or stop growing and describes observable changes such as wilting, turning brown, or drooping, showing understanding of water's role in plant health.",
+        "meets": "Student predicts that plants would die or get sick without water and provides a reasonable explanation of why water is important for plants.",
+        "approaching": "Student recognizes that something bad would happen to plants without water but explanation lacks detail or clarity about the specific effects.",
+        "beginning": "Student provides minimal or unclear prediction about consequences of no water, or response shows little understanding of water's importance to plants."
+      }
+    },
+    {
+      "questionText": "Which plant in this garden would you like to learn more about and why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student selects a specific plant and provides multiple reasons for their choice, such as color, size, or curiosity about how it grows or what it needs.",
+        "meets": "Student identifies a specific plant from the garden and gives at least one clear reason why they would like to learn more about it.",
+        "approaching": "Student names a plant but reason for learning more is vague, unclear, or barely elaborated.",
+        "beginning": "Student gives minimal response, does not identify a specific plant, or provides no meaningful reason for their choice."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:20:58.812Z",
+  "cost": 0.004429
+}

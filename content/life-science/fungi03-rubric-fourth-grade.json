@@ -1,0 +1,53 @@
+{
+  "title": "Fungi03",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to a forest if there were no fungi to break down dead trees and leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead material would pile up and not decompose, and connects this to how nutrients would not return to soil or how new plants could not grow well; uses vocabulary like decompose or nutrients.",
+        "meets": "Student explains that dead trees and leaves would not break down or would pile up, and recognizes this would be a problem for the forest.",
+        "approaching": "Student states that dead material would stay on the ground or that fungi help break things down, but does not fully explain the consequences for the forest.",
+        "beginning": "Student provides a vague response like 'the forest would be bad' or 'fungi help' without explaining what would happen to dead material or why it matters."
+      }
+    },
+    {
+      "questionText": "How are these mushrooms similar to and different from the plants growing nearby?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that mushrooms and plants are both living things that grow, but explains that mushrooms do not make their own food like plants do (or cannot make food from sunlight); may mention that mushrooms break down dead material instead.",
+        "meets": "Student identifies at least one similarity (both are living, both grow) and one difference (plants are green/have leaves, mushrooms look different; or mushrooms are not green).",
+        "approaching": "Student identifies either a similarity or a difference, but not both clearly, or descriptions are incomplete or partially inaccurate.",
+        "beginning": "Student provides minimal or vague comparisons with little accuracy, such as 'they are both in the forest' or does not attempt a real comparison."
+      }
+    },
+    {
+      "questionText": "Why might these mushrooms be growing on dead wood instead of healthy, living trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead wood is easier to break down because it is already dead, or that fungi cannot easily break apart the protective outer layer of living trees; connects this to the fungi's role as decomposer.",
+        "meets": "Student explains that the wood is dead and easier to break down, or that living trees have defenses that stop fungi from growing on them.",
+        "approaching": "Student recognizes that the wood is dead or that fungi break it down, but does not clearly explain why dead wood is a better place than living trees.",
+        "beginning": "Student gives a vague response such as 'fungi like dead wood' without explaining the reason or shows minimal understanding of why the location matters."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that tells you about the mushroom's life cycle?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies visible structures like caps and gills as parts that make spores, and explains that these structures show the mushroom is in a reproductive stage; may mention that the mushroom grew from the wood or will eventually release spores.",
+        "meets": "Student observes at least two specific details from the photo (such as caps, gills, size, color, or that they are on wood) and connects these to the mushroom growing or reproducing.",
+        "approaching": "Student observes details from the photo (caps, gills, color, or location on wood) but makes limited or unclear connections to the life cycle.",
+        "beginning": "Student describes the mushroom's appearance without connecting observations to growth, reproduction, or any stage of the life cycle."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:30:11.082Z",
+  "cost": 0.005164
+}

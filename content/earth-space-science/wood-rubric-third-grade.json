@@ -1,0 +1,53 @@
+{
+  "title": "Wood",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to tree rings during a year with very little rain?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that rings would be thinner and explains that trees need water to grow, making a clear connection between water availability and ring size growth.",
+        "meets": "Student predicts that rings would be thinner or smaller during a dry year with a basic explanation about trees needing water or rain to grow.",
+        "approaching": "Student predicts the ring would be thinner but provides incomplete reasoning, such as mentioning rain or water without clearly connecting it to tree growth.",
+        "beginning": "Student provides a response that shows minimal understanding, such as guessing the ring would disappear, change color, or offering no clear reasoning about the effect of rain."
+      }
+    },
+    {
+      "questionText": "How could counting tree rings help us learn about what happened in the past?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that each ring represents one year and uses this to describe how scientists can determine tree age and learn about past weather or environmental conditions (such as droughts or wet years).",
+        "meets": "Student explains that each ring equals one year and that counting them tells us how old the tree is or gives us information about past conditions.",
+        "approaching": "Student shows partial understanding by mentioning that rings tell us about the past or represent time, but the explanation is incomplete or unclear about how this works.",
+        "beginning": "Student provides a vague response such as 'rings show history' or 'they help us know things' without explaining the connection between rings, years, or past conditions."
+      }
+    },
+    {
+      "questionText": "Why might some rings be thicker than others in the same tree?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that thicker rings form during years with good growing conditions (more rain, warmth, or sunlight) while thinner rings form during difficult years (drought, cold, or shade), showing understanding of how environment affects growth.",
+        "meets": "Student identifies that thicker rings form during good growing conditions or when the tree had plenty of water and food, while thinner rings form during harder years.",
+        "approaching": "Student recognizes that ring thickness varies and attempts to explain it by mentioning factors like weather, water, or growing conditions, but the connection is incomplete or unclear.",
+        "beginning": "Student provides a response with minimal reasoning, such as 'some years were different' or 'the tree grew differently' without explaining why or what causes the difference."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice when comparing rings from different trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that trees from the same area may share similar ring patterns (such as matching thick and thin rings in the same years) and explains this is because they experienced the same weather or environmental conditions.",
+        "meets": "Student compares rings from different trees and identifies similarities or differences in ring thickness, noting that some patterns appear similar across trees.",
+        "approaching": "Student attempts to compare trees but observations are vague or partially formed, such as noticing that rings look different but unable to describe the pattern clearly.",
+        "beginning": "Student provides minimal observation such as 'the rings are different' or 'they look the same' without describing specific patterns or making meaningful comparisons."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:57:49.849Z",
+  "cost": 0.00497
+}

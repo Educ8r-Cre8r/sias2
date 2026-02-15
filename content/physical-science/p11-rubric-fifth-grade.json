@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the engineers chose to make these arches curved instead of straight?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that curved arches distribute weight and forces more evenly than straight structures, and may add that curves provide both structural strength and aesthetic appeal. Student uses specific observations from the photo, such as the flowing wave-like shapes.",
+        "meets": "Student identifies that curved shapes provide strength or that curves help the structure support weight better than straight lines. Explanation is logical and shows understanding of how shape affects function.",
+        "approaching": "Student recognizes that curved shapes might be stronger or mentions that curves look better, but reasoning is incomplete or somewhat unclear. May not explain how the curve helps with strength or function.",
+        "beginning": "Student provides a vague response such as 'curves look nice' or 'curves are stronger' without explanation or reasoning. May show minimal understanding of how structure relates to design choices."
+      }
+    },
+    {
+      "questionText": "What properties would the metal need to have to work well for this outdoor sculpture?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple properties such as rust-resistance, durability, strength, and ability to withstand weather. Student explains why each property matters (e.g., rust-resistance prevents deterioration from rain and moisture). May mention specific metals like stainless steel or aluminum.",
+        "meets": "Student identifies at least two properties the metal needs, such as being strong, weather-resistant, or not rusting easily. Explanations connect the properties to outdoor conditions.",
+        "approaching": "Student identifies one or two metal properties but may not clearly explain why they're important for an outdoor sculpture. Reasoning about outdoor conditions may be incomplete.",
+        "beginning": "Student mentions only that the metal needs to be 'strong' or 'good' without identifying specific properties or explaining their importance. Response shows minimal understanding of material requirements."
+      }
+    },
+    {
+      "questionText": "How might this structure perform differently if it were made from wood or plastic instead of metal?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how wood or plastic would perform differently, discussing specific properties such as lower strength, vulnerability to rotting or warping, inability to reflect light, or different longevity outdoors. Compares performance across multiple factors.",
+        "meets": "Student identifies that wood or plastic would not work as well and explains at least one reason, such as wood rots outdoors or plastic isn't strong enough to hold the curved shape. Reasoning is sound and practical.",
+        "approaching": "Student recognizes that materials would perform differently but explanation is incomplete. May mention one difference (like wood rotting) without fully explaining the consequence for the sculpture.",
+        "beginning": "Student provides a minimal response such as 'wood would break' or 'plastic isn't as good' without explaining why or how performance would differ. Shows limited understanding of material properties."
+      }
+    },
+    {
+      "questionText": "What forces do you think this sculpture needs to withstand in its outdoor environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple forces such as wind, weight of the metal, rain, temperature changes, and sunlight. Explains how each force affects the structure (e.g., wind pushes on the large curved surfaces; temperature changes cause expansion or contraction).",
+        "meets": "Student identifies at least two outdoor forces such as wind and weight, or rain and temperature changes. Explanations show understanding of how these forces act on the sculpture.",
+        "approaching": "Student identifies one or two forces (such as wind or weight) but explanation of how they affect the structure is unclear or incomplete. May not consider multiple environmental conditions.",
+        "beginning": "Student mentions only 'wind' or 'weather' in vague terms without identifying specific forces or explaining how they stress the structure. Response shows minimal understanding of forces."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:00:28.945Z",
+  "cost": 0.005525
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Parts of a Plant",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the plant needed to start growing from the seed?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple things seeds need to grow (water, air, warmth) with specific details about why each is important for seed growth.",
+        "meets": "Student identifies at least two things seeds need to grow, such as water and warmth, with brief explanations of how they help.",
+        "approaching": "Student identifies one or two things seeds need, such as water or soil, but explanation is vague or incomplete.",
+        "beginning": "Student provides a minimal response with little detail, such as naming only one thing (like 'water') with no explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think the roots grew before the leaves appeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots grow first to find water and nutrients in the soil, then describes how this helps leaves grow later, showing understanding of plant function.",
+        "meets": "Student states that roots need to grow first to get water or food from the soil before the plant can grow leaves.",
+        "approaching": "Student mentions that roots grow first but provides an incomplete reason, such as 'roots grow down' without explaining why this matters.",
+        "beginning": "Student recognizes that roots grew first but cannot explain why, or provides an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "What might happen if we put this growing plant in a dark closet for a week?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would struggle or die without light, and explains that plants need light to make food and grow strong, showing understanding of photosynthesis.",
+        "meets": "Student predicts the plant would not grow well or would turn yellow/pale without light, connecting this to plants needing sunlight.",
+        "approaching": "Student makes a prediction about the plant in the dark but with incomplete reasoning, such as 'it would stop growing' without explaining why.",
+        "beginning": "Student makes a vague prediction or states 'something bad would happen' with no explanation about light or plant needs."
+      }
+    },
+    {
+      "questionText": "How is this baby plant similar to and different from a baby animal?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both grow, need food/water, start small) and differences (plant has roots and leaves, animal has eyes and moves), using specific details from the photo.",
+        "meets": "Student identifies at least one clear similarity (both grow) and one clear difference (plant has roots, animal has legs) with brief explanations.",
+        "approaching": "Student attempts to compare but identifies mostly similarities OR mostly differences, with limited detail or one incomplete comparison.",
+        "beginning": "Student makes a simple observation but does not clearly compare or contrast, or provides inaccurate information about plants or animals."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:17:24.229Z",
+  "cost": 0.004464
+}

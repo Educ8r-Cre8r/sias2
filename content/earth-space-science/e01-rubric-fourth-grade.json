@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the shadows in this picture and how might they look different at noon?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student accurately describes shadows as long and stretched due to the low sun angle, and explains that at noon shadows would be much shorter and directly underneath objects because the sun is higher in the sky.",
+        "meets": "Student describes that the shadows are long and notices they would be shorter at noon when the sun is higher up.",
+        "approaching": "Student notices shadows are present and long, but only partially explains how or why they might change at noon.",
+        "beginning": "Student provides vague observations about shadows or minimal description of how shadows might look different at different times."
+      }
+    },
+    {
+      "questionText": "If you were standing in this same spot tomorrow at the same time, would the shadows look exactly the same? Why or why not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student recognizes shadows would be slightly different and explains that the sun's position changes throughout the year (seasonal change), causing shadows to be in different directions or lengths on different days.",
+        "meets": "Student correctly predicts shadows would be similar or close to the same because the time of day would be the same, or acknowledges minor changes due to the sun's position shifting.",
+        "approaching": "Student attempts to answer but shows incomplete reasoning—may say shadows would be the same without explanation, or mention the sun moves but cannot clearly connect it to shadow changes.",
+        "beginning": "Student provides a simple yes or no answer without reasoning, or gives inaccurate information about how shadows form."
+      }
+    },
+    {
+      "questionText": "How could you use shadows to tell what time of day it is?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that shadow length and direction change throughout the day—long shadows indicate early morning or late afternoon/evening, while short shadows indicate midday, and that the shadow's direction shows where the sun is located.",
+        "meets": "Student identifies that shadow length changes with time of day and that long shadows appear in the morning or evening while short shadows appear at midday.",
+        "approaching": "Student recognizes shadows change throughout the day but provides incomplete explanation—may mention length or direction but not fully connect it to time.",
+        "beginning": "Student provides minimal or vague response, such as 'shadows are different' without explaining how to use them to tell time."
+      }
+    },
+    {
+      "questionText": "What would happen to these shadows if there were clouds covering the sun?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts shadows would become very faint, fuzzy, or disappear entirely, and explains that clouds block or scatter sunlight, which is needed to create clear shadows.",
+        "meets": "Student correctly predicts that shadows would become lighter, softer, or disappear when clouds block the sun.",
+        "approaching": "Student predicts a change to the shadows but explanation is unclear or incomplete—may say shadows disappear without explaining why, or be uncertain about the effect.",
+        "beginning": "Student provides an inaccurate prediction or vague response with little connection to how light and shadows interact."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:49:04.257Z",
+  "cost": 0.004752
+}

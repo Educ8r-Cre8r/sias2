@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this animal looked like when it was alive?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific features of the living animal (such as size, color, body shape, or how it moved) based on the fossil shell shape, and makes a reasonable connection between the fossil and what the animal might have looked like.",
+        "meets": "Student describes what the living animal looked like with at least two accurate details based on observing the fossil shell shape shown in the rock.",
+        "approaching": "Student attempts to describe what the animal looked like but provides only one detail or description that is vague or partially connected to the fossil shown.",
+        "beginning": "Student provides a minimal or unclear response with little connection between the fossil and what the animal might have looked like."
+      }
+    },
+    {
+      "questionText": "How do you think this shell got inside the rock?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a logical sequence of how the shell became a fossil (such as the animal dying, being covered by sediment/mud, and hardening into rock over time), using grade-appropriate scientific reasoning.",
+        "meets": "Student provides a reasonable explanation that the shell was covered by mud, dirt, or sediment and stayed in the rock, showing basic understanding of fossil formation.",
+        "approaching": "Student offers a partial explanation such as 'it got buried' or 'mud covered it' but lacks detail or clarity about the process of becoming a fossil.",
+        "beginning": "Student gives a vague response such as 'it just got stuck' or 'the rock grew around it' with minimal explanation of how the shell ended up in the rock."
+      }
+    },
+    {
+      "questionText": "What does this fossil tell us about what Earth was like long ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two features of ancient Earth based on the fossil (such as water being present, the type of environment, or what animals lived there), and explains why the fossil provides this information.",
+        "meets": "Student states at least one accurate fact about ancient Earth based on the fossil, such as there was water, animals lived here, or this place was different long ago.",
+        "approaching": "Student makes a connection between the fossil and ancient Earth but provides limited or partially accurate information about what the fossil reveals.",
+        "beginning": "Student provides a minimal response that shows little understanding of what fossils can tell us about ancient Earth."
+      }
+    },
+    {
+      "questionText": "Why do you think we don't see animals like this living in our oceans today?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful explanation with multiple reasons such as change over time, extinction, different ocean conditions, or evolution, demonstrating understanding that Earth and life have changed.",
+        "meets": "Student gives a reasonable explanation such as the animal died out, the ocean changed, or this type of animal no longer exists, showing basic understanding of change over time.",
+        "approaching": "Student attempts to explain why the animal is not alive today but provides incomplete or partially accurate reasoning with limited detail.",
+        "beginning": "Student offers a vague or minimal response such as 'it's dead' or 'it went away' without explaining why or showing understanding of change over time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:55:07.825Z",
+  "cost": 0.00486
+}

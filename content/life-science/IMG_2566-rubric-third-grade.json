@@ -1,0 +1,53 @@
+{
+  "title": "Swallowtail Butterfly",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the flowers if butterflies disappeared from this area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that flowers need butterflies to help make seeds by moving pollen, and describes specific consequences like fewer flowers growing or seeds not being made without this help.",
+        "meets": "Student identifies that butterflies help flowers in some way and explains that flowers might have a problem or not grow well without butterflies.",
+        "approaching": "Student recognizes that butterflies and flowers are connected but provides an incomplete explanation, such as stating flowers would be sad or plants would die without explaining why.",
+        "beginning": "Student provides a vague response like \"flowers would disappear\" or \"something bad would happen\" with no explanation of the butterfly's role."
+      }
+    },
+    {
+      "questionText": "How is the butterfly's tongue similar to tools that humans use?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the proboscis as a tube or straw and makes a detailed comparison to a specific human tool (like a drinking straw, tube, or suction tool), explaining how both are used to reach or pull something.",
+        "meets": "Student recognizes the butterfly's tongue as a long, thin tool and compares it to a human tool like a straw, describing how it helps reach something inside.",
+        "approaching": "Student acknowledges the butterfly's tongue is long or thin and mentions a tool, but the comparison is unclear or only partially connected to how the tools work.",
+        "beginning": "Student mentions the butterfly has a special mouth part or names a tool without making a clear comparison between them."
+      }
+    },
+    {
+      "questionText": "What evidence can you see in the photo that shows the butterfly and flower are helping each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the butterfly gets nectar for food while pollen sticks to the butterfly and gets carried to other flowers, using specific details from the photo like the butterfly's body touching the flower or pollen on the butterfly.",
+        "meets": "Student describes that the butterfly is drinking nectar and that the butterfly helps the flower, with visual evidence from the photo supporting both ideas.",
+        "approaching": "Student observes that the butterfly is drinking from the flower but provides incomplete evidence of the flower being helped, or describes only one part of their relationship.",
+        "beginning": "Student mentions the butterfly and flower interacting but provides little or no evidence of how they help each other."
+      }
+    },
+    {
+      "questionText": "Why do you think flowers are often bright colors and smell sweet?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors and sweet smells attract butterflies and other insects, and connects this to how the insects help the flowers by moving pollen or making seeds.",
+        "meets": "Student recognizes that flowers' bright colors and sweet smell attract butterflies or insects that visit them.",
+        "approaching": "Student identifies that bright colors and sweet smells are features of flowers but provides a weak or incomplete explanation of why these features matter for attracting visitors.",
+        "beginning": "Student observes that flowers are colorful or smell sweet but gives no explanation for why these traits would be important."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:19:06.649Z",
+  "cost": 0.004777
+}

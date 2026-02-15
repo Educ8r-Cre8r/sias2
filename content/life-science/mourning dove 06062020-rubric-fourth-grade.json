@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that this garden provides what the mourning dove needs to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple survival needs (shelter, food sources, water) and explains specifically how the garden elements shown (plants, shrubs, soil, pot) meet those needs with scientific reasoning.",
+        "meets": "Student identifies at least two survival needs the dove requires and describes how specific garden features (such as plants for shelter or soil for finding food) support those needs.",
+        "approaching": "Student names one or two things the dove needs to survive and mentions at least one garden feature, but the connection between need and feature is vague or incomplete.",
+        "beginning": "Student provides a general statement about the garden being good for the dove but offers little specific evidence or does not clearly identify what the dove needs to survive."
+      }
+    },
+    {
+      "questionText": "How might this garden habitat change during different seasons, and how would that affect the animals living here?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes specific seasonal changes (plant growth, flowering, plant dormancy, temperature) and explains how multiple animals would be affected differently (food availability, nesting sites, shelter changes) showing cause-and-effect reasoning.",
+        "meets": "Student describes seasonal changes to the garden and explains how at least one of those changes would affect the mourning dove or other animals living there.",
+        "approaching": "Student mentions that the garden changes with seasons and attempts to connect a change to an animal impact, but reasoning is incomplete or the explanation lacks clarity.",
+        "beginning": "Student acknowledges seasons exist or mentions the garden might change but does not explain specific changes or how animals would be affected."
+      }
+    },
+    {
+      "questionText": "If you were designing a garden to attract birds, what features would you include and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple features (plants, water source, shelter areas, nesting spots) with scientific explanations of why each feature would attract birds, demonstrating understanding of bird needs and behavior.",
+        "meets": "Student suggests at least three different garden features and provides reasonable explanations for why each feature would help attract birds to the space.",
+        "approaching": "Student identifies some garden features that might attract birds but provides limited or incomplete reasoning about why birds would be drawn to them.",
+        "beginning": "Student names one or two garden features with minimal or no explanation of how those features would attract birds."
+      }
+    },
+    {
+      "questionText": "What other animals might also find this garden habitat suitable for their needs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple animals and explains specifically what features in the garden would meet each animal's needs (food, water, shelter) showing understanding of different habitats within the garden.",
+        "meets": "Student names at least two animals that could live in this garden and describes how at least one garden feature would be helpful to those animals.",
+        "approaching": "Student identifies one or more animals that might live in the garden but provides vague or incomplete explanation of how the garden meets their needs.",
+        "beginning": "Student names one animal that could live in the garden with little or no explanation of why the habitat would be suitable."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:38:11.346Z",
+  "cost": 0.004811
+}

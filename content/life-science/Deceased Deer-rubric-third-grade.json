@@ -1,0 +1,53 @@
+{
+  "title": "Deceased Deer",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this deer's body over time, and where will all the parts go?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the deer's body will break down into smaller pieces, identifies multiple decomposers (like insects, fungi, bacteria), and describes how nutrients return to the soil to help plants grow.",
+        "meets": "Student describes that the deer's body will break down over time and mentions that decomposers help this process happen, with some parts returning to the ground.",
+        "approaching": "Student states the body will break down or disappear but provides limited detail about how or what happens to the parts; may mention decomposers but without clear explanation.",
+        "beginning": "Student provides a vague response such as 'it will go away' or 'it will be eaten' with little understanding of decomposition or where the materials go."
+      }
+    },
+    {
+      "questionText": "Why is it important that decomposers break down dead organisms, and how does this help the rest of the forest or ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that decomposers return nutrients to soil, allowing plants to grow, which provides food for animals; makes clear connections showing how this cycle supports the entire forest ecosystem and prevents waste buildup.",
+        "meets": "Student identifies that decomposers break down dead things and explains that this helps the forest by returning nutrients to soil or providing food for living things.",
+        "approaching": "Student recognizes decomposers are important but provides incomplete reasoning; may mention nutrients or growth but lacks connection to how this supports the broader ecosystem.",
+        "beginning": "Student offers minimal explanation, such as 'decomposers are important' or 'they eat dead things,' with little understanding of the ecosystem benefit."
+      }
+    },
+    {
+      "questionText": "If this deer had been healthier and stronger, do you think it might have lived longer? What traits might help a deer survive in nature?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that health and strength could help a deer survive longer and identifies multiple specific survival traits (speed for escape, camouflage coloring, antlers for defense, strength for running) with reasoning about how each helps.",
+        "meets": "Student agrees health could help a deer live longer and identifies 2-3 survival traits (such as speed, strength, or camouflage) with basic explanation of how they help.",
+        "approaching": "Student makes a reasonable prediction about health and survival but identifies only one trait or provides vague descriptions; shows partial understanding of survival adaptations.",
+        "beginning": "Student provides a simple yes/no answer with minimal trait identification or reasoning; little evidence of understanding how traits support survival."
+      }
+    },
+    {
+      "questionText": "Compare the life cycle of a deer to the life cycle of a butterfly. What stages do they both have in common, even though they look very different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies shared life cycle stages (birth, growth, maturity, death) for both animals and explains how the order differs; recognizes that both organisms grow and eventually die despite their different appearances and lifespans.",
+        "meets": "Student identifies at least two common life cycle stages (such as birth and growth, or growth and death) and notes that both animals go through similar changes even though they look different.",
+        "approaching": "Student identifies one common stage or makes a general comparison but lacks clarity; may confuse specific stages or provide incomplete information about the life cycles.",
+        "beginning": "Student attempts comparison but provides vague or mostly inaccurate information; shows minimal understanding of life cycle stages for either animal."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:15:09.860Z",
+  "cost": 0.005348
+}

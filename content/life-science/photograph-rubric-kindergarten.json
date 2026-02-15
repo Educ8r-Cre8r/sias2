@@ -1,0 +1,53 @@
+{
+  "title": "Ecosystem",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think animals in this forest need to survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more basic needs (food, water, shelter, air) and explains how at least two are found in the forest using specific details from the photo.",
+        "meets": "Student identifies two basic needs animals require (such as food and shelter) and gives simple examples of where they find these in the forest.",
+        "approaching": "Student mentions one or two basic needs (like food or home) but explanations are vague or may confuse needs with wants.",
+        "beginning": "Student provides minimal response with only one unclear idea about what animals need, such as 'they need stuff' without specific examples."
+      }
+    },
+    {
+      "questionText": "How might different animals use the trees, ground, and open spaces differently?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific animals and explains clearly how at least three different habitat parts (trees, ground, open spaces) are used differently; uses details like 'birds live in trees' and 'squirrels run on the ground.'",
+        "meets": "Student names at least two animals and describes how they use different parts of the forest (trees or ground or open spaces) in different ways.",
+        "approaching": "Student mentions some animals or habitat parts but gives limited or generic descriptions of how they use different areas; may only reference one type of space.",
+        "beginning": "Student provides a simple or unclear response that barely attempts to compare how different animals use forest areas."
+      }
+    },
+    {
+      "questionText": "What would happen if all the trees were cut down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences using cause-and-effect (e.g., 'Animals lose homes, so they have to leave' or 'No trees means no food and shelter for many animals').",
+        "meets": "Student identifies at least two problems that would happen, such as animals losing homes or food sources disappearing.",
+        "approaching": "Student identifies one consequence (animals leaving, losing shelter, or less food) but reasoning is incomplete or lacks detail.",
+        "beginning": "Student attempts an answer but provides vague ideas ('Animals would be sad') without clear understanding of the consequences."
+      }
+    },
+    {
+      "questionText": "How do you think the road affects the animals living in this forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple effects of the road using specific reasoning, such as 'Cars might hurt animals crossing' and 'Noise and people disturb where animals live' with clear cause-and-effect thinking.",
+        "meets": "Student identifies at least two ways the road affects animals, such as danger from cars or disturbing their homes.",
+        "approaching": "Student mentions one effect the road might have (danger, noise, or loss of space) but explanation lacks detail or is partially unclear.",
+        "beginning": "Student provides a minimal or unclear response about the road's impact, such as 'The road is bad' without specific reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:40:43.198Z",
+  "cost": 0.004609
+}

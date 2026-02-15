@@ -1,0 +1,53 @@
+{
+  "title": "Seedling",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this plant cutting if we leave it in water for three months? Will it be the same, better, or worse? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant will grow or develop roots and leaves, provides multiple specific reasons (water provides nutrients, oxygen in water supports growth, stem can develop new roots), and acknowledges potential challenges if water becomes stagnant or algae grows.",
+        "meets": "Student predicts the plant will grow or stay healthy in water and gives at least one accurate reason related to water providing what plants need to survive and grow.",
+        "approaching": "Student makes a prediction but provides incomplete or partially accurate reasoning, such as stating the plant will grow but struggling to explain why water supports growth.",
+        "beginning": "Student makes a vague prediction without clear reasoning, or provides inaccurate information about how plants use water (e.g., 'it will float away' or 'water will kill it')."
+      }
+    },
+    {
+      "questionText": "How is this plant's way of getting water different from a plant growing in your backyard garden? Why might a farmer choose to grow plants in water instead of soil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly contrasts water absorption in hydroponic systems versus soil absorption, explains at least two farmer advantages (water conservation, faster growth, year-round growing, fewer pests), and connects to real-world farming practices.",
+        "meets": "Student identifies that this plant absorbs water directly versus through soil roots, and provides one reasonable farming advantage such as using less water or growing plants where soil is poor.",
+        "approaching": "Student recognizes the difference between water and soil growing but provides incomplete comparisons or vague farming advantages; reasoning lacks specificity.",
+        "beginning": "Student shows minimal understanding of the difference between hydroponic and soil-based growing, with vague or inaccurate statements about farmer choices."
+      }
+    },
+    {
+      "questionText": "If we trace one water molecule from the bottle into the plant's leaves, what path would it take, and what would happen to it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces a complete, accurate path: water → absorbed by roots → travels up stem through vascular tissue → reaches leaves → used in photosynthesis or released as water vapor through transpiration; uses grade-appropriate scientific vocabulary like xylem, vascular, or transpiration.",
+        "meets": "Student describes a mostly accurate pathway from roots to leaves and mentions what happens in leaves (used for food-making or released as vapor); may use simple language but shows understanding of water movement.",
+        "approaching": "Student describes partial pathway (water enters roots and goes to leaves) but is unclear about what happens to water in the leaves, or mentions only one function of water.",
+        "beginning": "Student provides vague or inaccurate descriptions of water movement, such as 'water stays in the roots' or cannot explain what happens to water in the leaves."
+      }
+    },
+    {
+      "questionText": "Why do you think the stem developed roots in the water? What might the plant be 'trying' to do?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots develop to absorb water and nutrients more efficiently, and recognizes this as a survival adaptation; may note that the plant responds to environmental conditions (presence of water) to grow roots where they're needed.",
+        "meets": "Student explains that roots develop to help the plant absorb water and nutrients, demonstrating understanding that roots serve a specific survival function.",
+        "approaching": "Student recognizes that the plant is 'trying' to grow roots but provides incomplete reasoning about why, such as 'plants need roots' without explaining the function of those roots.",
+        "beginning": "Student provides minimal or inaccurate explanation, such as 'the plant got thirsty' or cannot explain the purpose of roots developing in water."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:14:37.380Z",
+  "cost": 0.005671
+}

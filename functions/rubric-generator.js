@@ -4,38 +4,45 @@
  *
  * Each PDF contains a 4-point rubric table for discussion questions.
  * Rubric criteria are AI-generated for each grade level.
+ * Layout: LANDSCAPE, single page only. Font sizes maximized to fill the page.
  *
  * Shared module used by:
  *  - functions/index.js (Cloud Function pipeline)
+ *  - tools/backfill-rubrics.js (terminal backfill)
  */
 
 const PDFDocument = require('pdfkit');
 const fs = require('fs').promises;
 
 // ============================================================
-// Constants (matching pdf-generator.js layout)
+// Constants — Landscape Letter (11" × 8.5")
 // ============================================================
 
-const PAGE_WIDTH = 612;
-const PAGE_HEIGHT = 792;
-const MARGIN = 40;
-const CONTENT_WIDTH = PAGE_WIDTH - 2 * MARGIN; // 532
-const FOOTER_HEIGHT = 48;
+const PAGE_WIDTH = 792;   // 11 inches
+const PAGE_HEIGHT = 612;  // 8.5 inches
+const MARGIN = 36;
+const CONTENT_WIDTH = PAGE_WIDTH - 2 * MARGIN; // 720
+const FOOTER_HEIGHT = 44;
 const USABLE_HEIGHT = PAGE_HEIGHT - MARGIN - FOOTER_HEIGHT;
 
+// Fixed vertical space consumed by header + scale + table header
+// Header: ~42pt, scale: ~20pt, table header: ~24pt = ~86pt
+const HEADER_OVERHEAD = 86;
+const TABLE_SPACE = USABLE_HEIGHT - HEADER_OVERHEAD; // ~446pt for rows + note
+
 const FONT = {
-  body: 7,              // Smaller for table cells
-  tableHeader: 7.5,
-  questionText: 7.5,
-  sectionHeader: 11,
+  body: 9,
+  tableHeader: 9,
+  questionText: 9.5,
+  bloomsDok: 7.5,
   headerTitle: 16,
-  headerGrade: 11,
-  headerSubtitle: 9,
-  miniHeaderTitle: 11,
+  headerGrade: 12,
+  headerSubtitle: 10,
   scaleLabel: 9,
+  noteText: 7.5,
   footerAttribution: 7,
-  footerBar: 10,
-  pageNumber: 7.5
+  footerBar: 9,
+  pageNumber: 7
 };
 
 // Deep Orange color scheme for rubrics
@@ -45,6 +52,7 @@ const COLORS = {
   bodyText: [68, 68, 68],         // #444444
   subtitleText: [117, 117, 117],  // #757575
   lightGray: [150, 150, 150],     // #969696
+  bloomsDok: [130, 130, 130],     // Lighter gray for Bloom's/DOK annotation
   white: [255, 255, 255],
   tableHeaderBg: [216, 67, 21],   // Deep orange header row
   tableHeaderText: [255, 255, 255],
@@ -53,14 +61,6 @@ const COLORS = {
   rowOdd: [253, 246, 243],        // Very light orange tint
   questionCol: [250, 250, 250],   // Light gray for question column
   pageNumberContrast: [255, 210, 190], // Light orange-white for footer bar
-
-  // Proficiency level colors for column headers
-  levels: {
-    exceeds:     { bg: [232, 245, 233], text: [46, 125, 50] },    // Green
-    meets:       { bg: [227, 242, 253], text: [21, 101, 192] },   // Blue
-    approaching: { bg: [255, 248, 225], text: [245, 127, 23] },   // Amber
-    beginning:   { bg: [255, 235, 238], text: [198, 40, 40] }     // Red
-  }
 };
 
 const GRADE_LABELS = {
@@ -79,25 +79,31 @@ const CATEGORY_LABELS = {
 };
 
 // ============================================================
+// Table Layout
+// ============================================================
+
+// Column widths: Question gets more space, rubric levels split the rest
+const COL_QUESTION_WIDTH = Math.round(CONTENT_WIDTH * 0.26); // ~187pt
+const COL_LEVEL_WIDTH = Math.round((CONTENT_WIDTH - COL_QUESTION_WIDTH) / 4); // ~133pt each
+const COL_WIDTHS = [
+  COL_QUESTION_WIDTH,
+  COL_LEVEL_WIDTH,
+  COL_LEVEL_WIDTH,
+  COL_LEVEL_WIDTH,
+  CONTENT_WIDTH - COL_QUESTION_WIDTH - (COL_LEVEL_WIDTH * 3) // last col gets remainder
+];
+
+const COL_HEADERS = ['Question', 'Exceeds (4)', 'Meets (3)', 'Approaching (2)', 'Beginning (1)'];
+const CELL_PADDING = 5;
+
+// ============================================================
 // PDF Rendering Helpers
 // ============================================================
 
-function ensureSpace(doc, y, needed, headerOpts, state) {
-  if (y + needed > USABLE_HEIGHT) {
-    addFooter(doc, state.currentPage, state);
-    state.currentPage++;
-    doc.addPage();
-    let newY = MARGIN;
-    newY = renderHeader(doc, headerOpts, newY, true);
-    return newY;
-  }
-  return y;
-}
-
-function addFooter(doc, pageNum, state) {
+function addFooter(doc) {
   const footerY = PAGE_HEIGHT - FOOTER_HEIGHT;
 
-  // Attribution line (same as all other SIAS PDFs)
+  // Attribution line
   doc.font('Helvetica-Oblique')
      .fontSize(FONT.footerAttribution)
      .fillColor(COLORS.lightGray);
@@ -109,8 +115,8 @@ function addFooter(doc, pageNum, state) {
   });
 
   // Deep orange footer bar
-  const barY = footerY + 14;
-  const barHeight = 26;
+  const barY = footerY + 12;
+  const barHeight = 24;
   doc.save();
   doc.rect(0, barY, PAGE_WIDTH, barHeight).fill(COLORS.primary);
 
@@ -118,20 +124,17 @@ function addFooter(doc, pageNum, state) {
   doc.font('Helvetica-Bold')
      .fontSize(FONT.footerBar)
      .fillColor(COLORS.white);
-  doc.text('FOR TEACHER USE ONLY', 0, barY + 7, {
+  doc.text('FOR TEACHER USE ONLY', 0, barY + 6, {
     width: PAGE_WIDTH,
     align: 'center',
     lineBreak: false
   });
 
-  // Page number
-  const pageText = state.totalPages
-    ? `Page ${pageNum} of ${state.totalPages}`
-    : `Page ${pageNum}`;
+  // Page indicator
   doc.font('Helvetica')
      .fontSize(FONT.pageNumber)
      .fillColor(COLORS.pageNumberContrast);
-  doc.text(pageText, 0, barY + 9, {
+  doc.text('Page 1 of 1', 0, barY + 8, {
     width: PAGE_WIDTH - MARGIN,
     align: 'right',
     lineBreak: false
@@ -139,13 +142,13 @@ function addFooter(doc, pageNum, state) {
   doc.restore();
 }
 
-function renderHeader(doc, options, y, mini) {
+function renderHeader(doc, options, y) {
   const { title, category, gradeLevel, logoData } = options;
   const gradeLabel = GRADE_LABELS[gradeLevel] || gradeLevel;
   const categoryLabel = CATEGORY_LABELS[category] || category;
 
   if (logoData) {
-    const logoW = mini ? 55 : 80;
+    const logoW = 75;
     const logoH = logoW * (234 / 604);
     try {
       doc.image(logoData, MARGIN, y, { width: logoW, height: logoH });
@@ -154,99 +157,64 @@ function renderHeader(doc, options, y, mini) {
     }
   }
 
-  const textX = MARGIN + (mini ? 65 : 92);
+  const textX = MARGIN + 85;
 
-  if (mini) {
-    doc.font('Helvetica-Bold')
-       .fontSize(FONT.miniHeaderTitle)
-       .fillColor(COLORS.headerText);
-    doc.text(`${title} \u2014 ${gradeLabel} Scoring Rubric`, textX, y + 4, {
-      width: CONTENT_WIDTH - (textX - MARGIN),
-      lineBreak: false
-    });
-    y += 24;
-  } else {
-    doc.font('Helvetica-Bold')
-       .fontSize(FONT.headerTitle)
-       .fillColor(COLORS.headerText);
-    doc.text(title, textX, y + 2, {
-      width: CONTENT_WIDTH - (textX - MARGIN) - 80,
-      lineBreak: false
-    });
+  doc.font('Helvetica-Bold')
+     .fontSize(FONT.headerTitle)
+     .fillColor(COLORS.headerText);
+  doc.text(title, textX, y + 2, {
+    width: CONTENT_WIDTH - (textX - MARGIN) - 100,
+    lineBreak: false
+  });
 
-    // Grade badge on the right
-    doc.font('Helvetica-Bold')
-       .fontSize(FONT.headerGrade)
-       .fillColor(COLORS.primary);
-    doc.text(gradeLabel, PAGE_WIDTH - MARGIN - 80, y + 4, {
-      width: 80,
-      align: 'right',
-      lineBreak: false
-    });
+  // Grade badge on the right
+  doc.font('Helvetica-Bold')
+     .fontSize(FONT.headerGrade)
+     .fillColor(COLORS.primary);
+  doc.text(gradeLabel, PAGE_WIDTH - MARGIN - 100, y + 3, {
+    width: 100,
+    align: 'right',
+    lineBreak: false
+  });
 
-    // Subtitle
-    doc.font('Helvetica')
-       .fontSize(FONT.headerSubtitle)
-       .fillColor(COLORS.subtitleText);
-    doc.text(`${categoryLabel}  |  Scoring Rubric`, textX, y + 22, {
-      width: CONTENT_WIDTH - (textX - MARGIN),
-      lineBreak: false
-    });
+  // Subtitle
+  doc.font('Helvetica')
+     .fontSize(FONT.headerSubtitle)
+     .fillColor(COLORS.subtitleText);
+  doc.text(`${categoryLabel}  |  Scoring Rubric`, textX, y + 22, {
+    width: CONTENT_WIDTH - (textX - MARGIN),
+    lineBreak: false
+  });
 
-    y += 40;
-  }
+  y += 38;
 
   // Deep orange horizontal rule
   doc.save();
   doc.strokeColor(COLORS.primary)
-     .lineWidth(mini ? 1 : 1.5)
+     .lineWidth(1.5)
      .moveTo(MARGIN, y)
      .lineTo(PAGE_WIDTH - MARGIN, y)
      .stroke();
   doc.restore();
 
-  return y + (mini ? 8 : 12);
+  return y + 8;
 }
 
 // ============================================================
 // Table Rendering
 // ============================================================
 
-// Column widths: Question gets more space, rubric levels split the rest
-const COL_QUESTION_WIDTH = Math.round(CONTENT_WIDTH * 0.28); // ~149pt
-const COL_LEVEL_WIDTH = Math.round((CONTENT_WIDTH - COL_QUESTION_WIDTH) / 4); // ~96pt each
-const COL_WIDTHS = [
-  COL_QUESTION_WIDTH,
-  COL_LEVEL_WIDTH,
-  COL_LEVEL_WIDTH,
-  COL_LEVEL_WIDTH,
-  CONTENT_WIDTH - COL_QUESTION_WIDTH - (COL_LEVEL_WIDTH * 3) // last col gets remainder
-];
-
-const COL_HEADERS = ['Question', 'Exceeds (4)', 'Meets (3)', 'Approaching (2)', 'Beginning (1)'];
-const LEVEL_COLORS = [
-  null, // question column — uses different styling
-  COLORS.levels.exceeds,
-  COLORS.levels.meets,
-  COLORS.levels.approaching,
-  COLORS.levels.beginning
-];
-
-const CELL_PADDING = 4;
-
 /**
  * Render the table header row
  */
 function renderTableHeader(doc, y) {
   let x = MARGIN;
-  const headerHeight = 22;
+  const headerHeight = 24;
 
   for (let i = 0; i < COL_HEADERS.length; i++) {
-    // Background
     doc.save();
     doc.rect(x, y, COL_WIDTHS[i], headerHeight).fill(COLORS.tableHeaderBg);
 
-    // Text
     doc.fillColor(COLORS.tableHeaderText)
        .font('Helvetica-Bold')
        .fontSize(FONT.tableHeader);
@@ -264,9 +232,20 @@ function renderTableHeader(doc, y) {
 }
 
 /**
- * Measure the height needed for a rubric row
+ * Build the Bloom's/DOK annotation string
  */
-function measureRowHeight(doc, question, rubric) {
+function buildAnnotation(question) {
+  const parts = [];
+  if (question.bloomsLevel) parts.push(`Bloom\u2019s: ${question.bloomsLevel}`);
+  if (question.dokLevel) parts.push(`DOK: ${question.dokLevel}`);
+  return parts.join('  |  ');
+}
+
+/**
+ * Measure the height needed for a rubric row at given font sizes.
+ * For the question column (col 0), accounts for Bloom's/DOK annotation line.
+ */
+function measureRowHeight(doc, question, rubric, bodySize, questionSize, bloomsSize) {
   const cellTexts = [
     question.questionText || '',
     rubric.exceeds || '',
@@ -278,21 +257,29 @@ function measureRowHeight(doc, question, rubric) {
   let maxHeight = 0;
   for (let i = 0; i < cellTexts.length; i++) {
     const font = i === 0 ? 'Helvetica-Bold' : 'Helvetica';
-    const fontSize = i === 0 ? FONT.questionText : FONT.body;
+    const fontSize = i === 0 ? questionSize : bodySize;
     doc.font(font).fontSize(fontSize);
     const textWidth = COL_WIDTHS[i] - (CELL_PADDING * 2);
-    const h = doc.heightOfString(cellTexts[i], { width: textWidth }) + (CELL_PADDING * 2) + 2;
+    let h = doc.heightOfString(cellTexts[i], { width: textWidth }) + (CELL_PADDING * 2) + 2;
+
+    // Add space for Bloom's/DOK annotation in question column
+    if (i === 0 && (question.bloomsLevel || question.dokLevel)) {
+      doc.font('Helvetica-Oblique').fontSize(bloomsSize);
+      const annotationText = buildAnnotation(question);
+      h += doc.heightOfString(annotationText, { width: textWidth }) + 3;
+    }
+
     if (h > maxHeight) maxHeight = h;
   }
 
-  return Math.max(maxHeight, 36); // minimum row height
+  return Math.max(maxHeight, 36);
 }
 
 /**
  * Render a single rubric table row
  */
-function renderTableRow(doc, question, rubric, y, rowIndex) {
-  const rowHeight = measureRowHeight(doc, question, rubric);
+function renderTableRow(doc, question, rubric, y, rowIndex, bodySize, questionSize, bloomsSize) {
+  const rowHeight = measureRowHeight(doc, question, rubric, bodySize, questionSize, bloomsSize);
 
   const cellTexts = [
     question.questionText || '',
@@ -325,17 +312,38 @@ function renderTableRow(doc, question, rubric, y, rowIndex) {
 
     // Cell text
     const font = i === 0 ? 'Helvetica-Bold' : 'Helvetica';
-    const fontSize = i === 0 ? FONT.questionText : FONT.body;
+    const fontSize = i === 0 ? questionSize : bodySize;
     const textColor = i === 0 ? COLORS.headerText : COLORS.bodyText;
+    const textWidth = COL_WIDTHS[i] - (CELL_PADDING * 2);
 
     doc.fillColor(textColor)
        .font(font)
        .fontSize(fontSize);
-    doc.text(cellTexts[i], x + CELL_PADDING, y + CELL_PADDING, {
-      width: COL_WIDTHS[i] - (CELL_PADDING * 2),
-      height: rowHeight - (CELL_PADDING * 2),
-      ellipsis: true
-    });
+
+    if (i === 0) {
+      // Question column: render question text, then Bloom's/DOK annotation below
+      doc.text(cellTexts[i], x + CELL_PADDING, y + CELL_PADDING, {
+        width: textWidth
+      });
+
+      // Bloom's/DOK annotation
+      if (question.bloomsLevel || question.dokLevel) {
+        const annotationY = doc.y + 2;
+        doc.font('Helvetica-Oblique')
+           .fontSize(bloomsSize)
+           .fillColor(COLORS.bloomsDok);
+        doc.text(buildAnnotation(question), x + CELL_PADDING, annotationY, {
+          width: textWidth
+        });
+      }
+    } else {
+      // Rubric criteria columns
+      doc.text(cellTexts[i], x + CELL_PADDING, y + CELL_PADDING, {
+        width: textWidth,
+        height: rowHeight - (CELL_PADDING * 2),
+        ellipsis: true
+      });
+    }
 
     doc.restore();
     x += COL_WIDTHS[i];
@@ -350,6 +358,7 @@ function renderTableRow(doc, question, rubric, y, rowIndex) {
 
 /**
  * Generate a scoring rubric PDF with a 4-point table for each discussion question.
+ * Landscape, single page. Automatically scales font sizes to fill the page.
  *
  * @param {Object} options
  * @param {string} options.title - Image title
@@ -375,24 +384,92 @@ async function generateRubricPDF(options) {
   }
 
   const headerOpts = { title, category, gradeLevel, logoData };
-  const state = { currentPage: 1, totalPages: null };
+  const questions = rubricData.questions || [];
 
-  const doc = new PDFDocument({
-    size: 'letter',
+  // ── Auto-scale font sizes to fill the page ──
+  // Start at preferred sizes and scale down only if content overflows.
+  // Scale up if there's lots of extra room.
+  let bodySize = FONT.body;            // 9
+  let questionSize = FONT.questionText; // 9.5
+  let bloomsSize = FONT.bloomsDok;      // 7.5
+
+  // We need a temporary doc to measure heights
+  const measureDoc = new PDFDocument({
+    size: [PAGE_WIDTH, PAGE_HEIGHT],
     margins: { top: MARGIN, bottom: 10, left: MARGIN, right: MARGIN },
-    bufferPages: true,
+    autoFirstPage: true
+  });
+  // Consume output to avoid backpressure
+  measureDoc.on('data', () => {});
+
+  // Space available for table rows + note (~18pt for note)
+  const noteSpace = 18;
+  const availableForRows = TABLE_SPACE - noteSpace;
+
+  // Measure total row height at current font sizes
+  function totalRowsHeight(bSize, qSize, blSize) {
+    let total = 0;
+    for (const q of questions) {
+      const rubric = q.rubric || {};
+      total += measureRowHeight(measureDoc, q, rubric, bSize, qSize, blSize);
+    }
+    return total;
+  }
+
+  // Try scaling up if there's room (max 12pt body)
+  const MAX_BODY = 12;
+  const MIN_BODY = 7;
+  let totalH = totalRowsHeight(bodySize, questionSize, bloomsSize);
+
+  if (totalH < availableForRows) {
+    // Scale up — try progressively larger sizes
+    for (let tryBody = MAX_BODY; tryBody > bodySize; tryBody -= 0.5) {
+      const tryQuestion = tryBody + 0.5;
+      const tryBlooms = tryBody - 1.5;
+      const tryH = totalRowsHeight(tryBody, tryQuestion, tryBlooms);
+      if (tryH <= availableForRows) {
+        bodySize = tryBody;
+        questionSize = tryQuestion;
+        bloomsSize = tryBlooms;
+        totalH = tryH;
+        break;
+      }
+    }
+  } else {
+    // Scale down if it overflows
+    for (let tryBody = bodySize - 0.5; tryBody >= MIN_BODY; tryBody -= 0.5) {
+      const tryQuestion = tryBody + 0.5;
+      const tryBlooms = tryBody - 1.5;
+      const tryH = totalRowsHeight(tryBody, tryQuestion, tryBlooms);
+      if (tryH <= availableForRows) {
+        bodySize = tryBody;
+        questionSize = tryQuestion;
+        bloomsSize = tryBlooms;
+        totalH = tryH;
+        break;
+      }
+    }
+  }
+
+  measureDoc.end();
+
+  // ── Build the actual PDF ──
+  const doc = new PDFDocument({
+    size: [PAGE_WIDTH, PAGE_HEIGHT], // landscape letter
+    margins: { top: MARGIN, bottom: 10, left: MARGIN, right: MARGIN },
+    bufferPages: false,
     autoFirstPage: false
   });
 
   const chunks = [];
   doc.on('data', chunk => chunks.push(chunk));
 
-  // ====== PAGE 1 ======
+  // ====== SINGLE PAGE ======
   doc.addPage();
   let y = MARGIN;
 
-  // Full header
-  y = renderHeader(doc, headerOpts, y, false);
+  // Header
+  y = renderHeader(doc, headerOpts, y);
 
   // Scale description
   doc.font('Helvetica')
@@ -402,71 +479,31 @@ async function generateRubricPDF(options) {
     width: CONTENT_WIDTH,
     align: 'center'
   });
-  y = doc.y + 8;
+  y = doc.y + 6;
 
   // Table header
   y = renderTableHeader(doc, y);
 
   // Table rows — one per question
-  const questions = rubricData.questions || [];
   for (let i = 0; i < questions.length; i++) {
     const q = questions[i];
     const rubric = q.rubric || {};
-
-    // Measure row height and check if we need a new page
-    const rowHeight = measureRowHeight(doc, q, rubric);
-    const tableHeaderHeight = 22; // need to re-render header on new page
-
-    if (y + rowHeight > USABLE_HEIGHT) {
-      // Need a new page
-      addFooter(doc, state.currentPage, state);
-      state.currentPage++;
-      doc.addPage();
-      y = MARGIN;
-      y = renderHeader(doc, headerOpts, y, true);
-      // Re-render table header on new page
-      y = renderTableHeader(doc, y);
-    }
-
-    y = renderTableRow(doc, q, rubric, y, i);
+    y = renderTableRow(doc, q, rubric, y, i, bodySize, questionSize, bloomsSize);
   }
 
-  // Add some space after the table
-  y += 10;
-
-  // Scoring guide note
-  if (y + 30 < USABLE_HEIGHT) {
+  // Note (if there's room)
+  y += 6;
+  if (y + 16 < USABLE_HEIGHT) {
     doc.font('Helvetica-Oblique')
-       .fontSize(7.5)
+       .fontSize(FONT.noteText)
        .fillColor(COLORS.subtitleText);
     doc.text('Note: This rubric is AI-generated based on the discussion questions for this photograph. Review and adjust criteria as needed for your classroom context.', MARGIN, y, {
       width: CONTENT_WIDTH
     });
   }
 
-  // Add footer to last page
-  addFooter(doc, state.currentPage, state);
-
-  // Update page numbers
-  const totalPages = state.currentPage;
-  state.totalPages = totalPages;
-
-  for (let i = 0; i < totalPages; i++) {
-    doc.switchToPage(i);
-    const footerY = PAGE_HEIGHT - FOOTER_HEIGHT;
-    const barY = footerY + 14;
-    doc.save();
-    doc.rect(PAGE_WIDTH - MARGIN - 100, barY, 100, 26).fill(COLORS.primary);
-    doc.font('Helvetica')
-       .fontSize(FONT.pageNumber)
-       .fillColor(COLORS.pageNumberContrast);
-    doc.text(`Page ${i + 1} of ${totalPages}`, 0, barY + 9, {
-      width: PAGE_WIDTH - MARGIN,
-      align: 'right',
-      lineBreak: false
-    });
-    doc.restore();
-  }
+  // Footer
+  addFooter(doc);
 
   doc.end();
 

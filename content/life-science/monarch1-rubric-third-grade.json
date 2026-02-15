@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that tells you one butterfly has already emerged?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details (brown color, empty appearance, clear window/opening) and explains how these features prove the butterfly left the chrysalis.",
+        "meets": "Student correctly identifies that the brown chrysalis looks empty or has an opening, and connects this observation to the butterfly emerging.",
+        "approaching": "Student notices the chrysalis looks different (brown or empty) but provides unclear or incomplete reasoning about what happened to the butterfly.",
+        "beginning": "Student makes a vague observation about one chrysalis being different but does not clearly explain the connection to the butterfly emerging."
+      }
+    },
+    {
+      "questionText": "Why might it be important for the chrysalis to be hard on the outside?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hard shell protects the butterfly inside and identifies multiple reasons (from predators, weather, or damage) using specific details.",
+        "meets": "Student explains that the hard outside protects the butterfly from predators or harm while it changes inside.",
+        "approaching": "Student recognizes that protection is important but gives incomplete or vague reasoning about what the chrysalis protects against.",
+        "beginning": "Student states the chrysalis is hard but does not explain why this matters or what it protects."
+      }
+    },
+    {
+      "questionText": "How is a butterfly's life cycle similar to and different from a human's life cycle?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies at least one similarity (both grow and change) and at least two differences (chrysalis stage, length of time, how they look), using specific details from butterfly development.",
+        "meets": "Student identifies at least one similarity and one clear difference between butterfly and human life cycles with accurate explanations.",
+        "approaching": "Student identifies either similarities or differences, but reasoning is incomplete or one part is unclear or inaccurate.",
+        "beginning": "Student attempts comparison but provides mostly inaccurate or overly vague statements about life cycles."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to the green chrysalis in the next few days?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the butterfly will emerge and explains the prediction using specific evidence from the photo (comparing to the empty chrysalis) and knowledge of metamorphosis.",
+        "meets": "Student predicts a butterfly will emerge from the green chrysalis and provides a reasonable explanation based on the visible chrysalis or the other chrysalis in the photo.",
+        "approaching": "Student predicts something will happen to the chrysalis but the explanation is incomplete or only partially based on observations.",
+        "beginning": "Student makes a prediction but provides little or vague reasoning; prediction may be inaccurate or unclear."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:36:30.112Z",
+  "cost": 0.00439
+}

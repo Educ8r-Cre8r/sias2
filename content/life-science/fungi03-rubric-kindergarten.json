@@ -1,0 +1,53 @@
+{
+  "title": "Fungi03",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about where these mushrooms are growing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that mushrooms are growing on wood/dead wood and notes additional details like they are near green plants or describes the wood's appearance (dark, old, or rotting).",
+        "meets": "Student identifies that mushrooms are growing on wood and provides one clear observation about the location or surroundings.",
+        "approaching": "Student makes a general observation about where the mushrooms are but provides limited detail (e.g., 'on something' or 'outside') without clearly identifying wood.",
+        "beginning": "Student provides a vague or inaccurate response with minimal observation (e.g., 'on the ground' or no clear location identified)."
+      }
+    },
+    {
+      "questionText": "How do you think these mushrooms are different from the green plants in the picture?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences such as mushrooms are not green, do not have leaves, are growing on wood instead of soil, or are a different color/shape than plants.",
+        "meets": "Student identifies at least one clear difference between mushrooms and plants, such as mushrooms are not green or mushrooms have a different shape than plants.",
+        "approaching": "Student notices that mushrooms and plants are different but provides vague reasoning or only partially accurate descriptions (e.g., 'they look different' without explaining how).",
+        "beginning": "Student provides minimal response or inaccurate comparison (e.g., 'they are the same' or cannot identify a clear difference)."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to the forest if there were no mushrooms to break down dead wood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead wood would pile up or not go away, and makes a connection to how this could affect the forest (e.g., less space for new plants, messy forest, or harm to the forest ecosystem).",
+        "meets": "Student explains that dead wood would build up or stay in the forest without mushrooms breaking it down.",
+        "approaching": "Student makes a prediction about consequences but reasoning is unclear or partially incomplete (e.g., 'the forest would be bad' without explaining why).",
+        "beginning": "Student provides minimal response or prediction with little or no reasoning about what mushrooms do (e.g., 'it would be different' with no elaboration)."
+      }
+    },
+    {
+      "questionText": "Why do you think mushrooms might grow better in some places than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple factors affecting mushroom growth such as moisture/dampness, darkness/shade, availability of dead wood, or temperature, with reasonable explanations for at least two factors.",
+        "meets": "Student identifies at least one logical factor that helps mushrooms grow, such as they need wood, moisture, or shade.",
+        "approaching": "Student suggests a factor but explanation shows partial understanding (e.g., mentions wood or water but with vague or incomplete reasoning).",
+        "beginning": "Student provides minimal reasoning or a response that shows little understanding of conditions mushrooms need to grow (e.g., 'because they like it' with no detail)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:27:58.214Z",
+  "cost": 0.004916
+}

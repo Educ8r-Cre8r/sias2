@@ -1,0 +1,53 @@
+{
+  "title": "Ecosystem",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What different animals do you think might live in the top of the trees versus on the forest floor, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least three animals with correct placement (e.g., birds/squirrels in tree tops, insects/deer on forest floor) and explains two or more reasons why animals live in different places, such as food sources, shelter, or light.",
+        "meets": "Student names at least two animals with correct placement and provides one clear reason why different animals live in different forest levels, such as where they find food or shelter.",
+        "approaching": "Student names one or two animals in forest locations but reasoning is incomplete or partially unclear; may describe where animals live without fully explaining why they live there.",
+        "beginning": "Student names an animal or forest location but shows minimal understanding; explanation is missing, vague, or contains significant inaccuracies about forest habitats."
+      }
+    },
+    {
+      "questionText": "How might building the road through this forest have changed where animals can live and find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the road splits the forest into smaller sections and describes two or more consequences, such as animals losing habitat, having difficulty finding food or crossing safely, or changes to which plants grow near the road.",
+        "meets": "Student recognizes that the road divides the forest and explains one clear consequence, such as animals losing living space, having trouble finding food, or difficulty moving through the forest.",
+        "approaching": "Student identifies the road as a change to the forest but explanation is incomplete; may mention animals being affected without clear reasoning about habitat or food sources.",
+        "beginning": "Student acknowledges the road exists but provides little or vague explanation of how it affects where animals live or find food; reasoning is minimal or unclear."
+      }
+    },
+    {
+      "questionText": "If you were a bird flying over this forest, what clues would tell you this is a healthy ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more clues of forest health from the photo, such as thick tree cover, many different shades of green, variety of plant life, connected habitat, or evidence of animal activity; explains why each clue shows the ecosystem is healthy.",
+        "meets": "Student identifies two clues of forest health visible in the photo, such as dense trees or green vegetation, and explains why these indicate a healthy ecosystem.",
+        "approaching": "Student identifies one clue of forest health or mentions multiple observations with incomplete explanations; reasoning about ecosystem health is partially formed.",
+        "beginning": "Student provides a vague observation about the forest but shows minimal understanding of what makes an ecosystem healthy; clues are unclear or reasoning is missing."
+      }
+    },
+    {
+      "questionText": "What would happen to this forest community if all the trees suddenly disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple interconnected consequences, such as animals losing habitat and food sources, plants depending on trees for shade dying, food chains being broken, or soil erosion, and describes how these changes affect the whole forest community.",
+        "meets": "Student describes two consequences of losing all trees, such as animals losing homes, food sources disappearing, or other plants dying, and recognizes these affect the forest community.",
+        "approaching": "Student identifies one consequence of losing trees or mentions multiple effects with incomplete reasoning; may not clearly connect the change to the broader forest community.",
+        "beginning": "Student provides a minimal response, such as 'animals would die' without explanation; understanding of forest community connections is unclear or mostly absent."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:41:07.117Z",
+  "cost": 0.00521
+}

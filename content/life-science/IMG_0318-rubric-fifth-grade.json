@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How does this bird's color help it survive in its habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bird's gray and brown coloring matches the sandy ground and rocks, providing camouflage to hide from predators and help it survive. Student may also explain how this adaptation helps the bird avoid being seen while hunting for food.",
+        "meets": "Student identifies that the bird's gray and brown colors blend in with the sandy habitat and help it hide from predators or stay safe.",
+        "approaching": "Student recognizes that the bird's colors are similar to its surroundings or mentions hiding, but the explanation lacks clarity about why this helps the bird survive.",
+        "beginning": "Student provides a vague response such as 'the colors help it' or 'it blends in' without explaining the survival benefit or connection to the sandy habitat."
+      }
+    },
+    {
+      "questionText": "If this bird's habitat changed from sandy ground to green grass, what might happen to the population of these birds over many generations, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the bird population would likely decrease because their gray and brown coloring would no longer provide camouflage on green grass, making them easier targets for predators. Student may discuss how this is an example of natural selection or adaptation pressure over generations.",
+        "meets": "Student predicts the bird population would decrease because the birds' colors would no longer blend in with green grass, making them more visible to predators.",
+        "approaching": "Student recognizes that the habitat change would affect the birds negatively or that camouflage would not work as well, but the explanation is incomplete or lacks connection to population changes.",
+        "beginning": "Student makes a prediction (decrease or increase) with little or no explanation of how camouflage or predation relates to the habitat change."
+      }
+    },
+    {
+      "questionText": "Trace the path of energy and matter: How might the sun's energy eventually reach this bird, and where does the matter in the bird's body come from?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student traces a complete food chain by explaining that sun's energy is captured by plants through photosynthesis, then transferred to insects or other animals the bird eats. Student identifies that matter in the bird's body comes from food (plants and animals it consumes) and explains that this matter cycles through living things.",
+        "meets": "Student explains that the sun's energy reaches the bird through plants and food, and that the bird's body matter comes from the food it eats (plants and/or animals).",
+        "approaching": "Student identifies that the sun, plants, and food are involved in getting energy to the bird, or that food provides matter for the bird's body, but the connection between these ideas is unclear or incomplete.",
+        "beginning": "Student provides a brief or vague response mentioning the sun, plants, or food without explaining how energy or matter actually moves from one to the bird."
+      }
+    },
+    {
+      "questionText": "What would happen to this bird's ecosystem if all the plants disappeared? How would that affect the bird's survival?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that without plants, insects and other food sources would disappear, so the bird would lose its food supply and likely die. Student may also describe how the loss of plants would affect the entire ecosystem, including other animals and the balance of living things.",
+        "meets": "Student explains that plants are needed for the bird's food (either directly or indirectly through insects), so without plants the bird would not survive or would starve.",
+        "approaching": "Student recognizes that plants are important for the bird's survival or that the bird needs food, but does not clearly explain the chain of events (plants → insects/food → bird survival).",
+        "beginning": "Student provides a minimal response such as 'the bird would die' or 'plants are important' without explaining why or how plants affect the bird's survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:16:16.685Z",
+  "cost": 0.005725
+}

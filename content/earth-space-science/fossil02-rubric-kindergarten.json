@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the shapes in these rocks?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific shapes (shells, spirals, snails) and describes details like size, pattern, or how shapes look different from each other.",
+        "meets": "Student names at least one shape found in the rocks (shell, spiral, or snail-like) and describes what it looks like.",
+        "approaching": "Student notices there are shapes in the rocks but uses vague descriptions (\"bumpy,\" \"round\") or identifies only one unclear shape.",
+        "beginning": "Student makes a minimal attempt to describe the rocks or shapes but provides very little detail or observation."
+      }
+    },
+    {
+      "questionText": "How do you think these shell shapes got inside the rocks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that ocean animals left shells that were covered by sand or mud that turned into rock, showing understanding of how fossils form over time.",
+        "meets": "Student explains that shells got buried or covered and eventually became part of the rocks, showing basic understanding of fossil formation.",
+        "approaching": "Student suggests the shells went into the rocks but gives an incomplete explanation, such as \"they just got stuck\" or \"the rocks grew around them.\"",
+        "beginning": "Student provides a vague or inaccurate response (\"they were always there\") with little understanding of how fossils form."
+      }
+    },
+    {
+      "questionText": "What does finding ocean animal fossils on land tell us about how Earth has changed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the land used to be covered by ocean water where these animals lived, and the water went away, showing understanding that Earth's surface changes over time.",
+        "meets": "Student recognizes that the land was once covered by water or ocean, and that is why ocean animal fossils are found there now.",
+        "approaching": "Student makes a connection between ocean fossils and water or Earth changing, but the explanation is unclear or incomplete (\"the ocean was here before\").",
+        "beginning": "Student provides minimal response or does not make a clear connection between fossils and how Earth has changed."
+      }
+    },
+    {
+      "questionText": "If you found a fossil, what questions would you want to ask about it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student generates multiple thoughtful, age-appropriate questions about the fossil (What animal was it? How old is it? Where did it live?) that show curiosity about fossil characteristics and origins.",
+        "meets": "Student generates at least one clear, relevant question about the fossil, such as what animal it was, how long ago it lived, or what it looked like.",
+        "approaching": "Student attempts to ask a question about the fossil but it is vague (\"What is that?\") or only loosely related to learning about fossils.",
+        "beginning": "Student provides a minimal response or asks a question that shows little curiosity or understanding about fossils."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:53:24.434Z",
+  "cost": 0.004577
+}

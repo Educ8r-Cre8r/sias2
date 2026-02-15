@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What can this fossil tell us about what this area was like millions of years ago?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers multiple details about the ancient environment (ocean water, warm climate, or specific time period) and explains how the brachiopod fossil provides evidence for these conditions using specific observations from the fossil.",
+        "meets": "Student correctly identifies that this area was covered by ocean or water millions of years ago and explains that the brachiopod fossil is evidence of this past environment.",
+        "approaching": "Student recognizes the fossil is from a sea creature and mentions the area had water long ago, but provides limited explanation of how the fossil shows this.",
+        "beginning": "Student makes a vague statement about the fossil being old or from the past, with minimal connection to what the environment was like."
+      }
+    },
+    {
+      "questionText": "Why do you think we find more fossils of shells and bones than of soft body parts like skin or leaves?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard parts like shells and bones fossilize more easily because they are more resistant to decay and breakdown, and may reference how quick burial or mineral replacement helps preserve these structures better than soft tissues.",
+        "meets": "Student correctly explains that hard shells and bones are more likely to fossilize because they last longer or are harder and take longer to break down compared to soft body parts.",
+        "approaching": "Student identifies that hard parts fossilize better than soft parts but provides an incomplete or partially inaccurate explanation of why this occurs.",
+        "beginning": "Student attempts to answer but provides minimal reasoning or an inaccurate explanation about fossil formation."
+      }
+    },
+    {
+      "questionText": "If you found this fossil in your backyard, what questions would you want to investigate?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student generates multiple, thoughtful investigative questions that address different aspects (age, formation, other fossils in the area, environmental conditions) and shows clear connection to scientific inquiry methods.",
+        "meets": "Student generates at least two relevant questions about the fossil that could be investigated, such as its age, how it formed, or what other organisms lived nearby.",
+        "approaching": "Student generates one or two questions, but they may be vague or only partially related to investigating the fossil's origin or history.",
+        "beginning": "Student provides a question or idea with minimal scientific connection or unclear purpose for investigation."
+      }
+    },
+    {
+      "questionText": "How might scientists use fossils like this one to learn about climate change in the past?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that fossils show where ocean creatures lived, revealing where ancient oceans and coastlines were located, and connects this to understanding past climate and temperature conditions that supported certain marine life.",
+        "meets": "Student explains that fossils like brachiopods show what kinds of organisms lived in an area and that this information helps scientists understand what the climate or environment was like in the past.",
+        "approaching": "Student makes a connection between fossils and past climate or environment, but the explanation lacks detail or contains some inaccuracies.",
+        "beginning": "Student provides a minimal or vague response that shows limited understanding of how fossils relate to learning about past climates."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:55:40.827Z",
+  "cost": 0.004908
+}

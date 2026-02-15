@@ -1,0 +1,53 @@
+{
+  "title": "Bee",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does this bee have that help it get food from plants?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple bee body parts (legs, mouth, fuzzy body) and explains how each one helps the bee get food from plants with specific details (e.g., \"legs grip the flower\" or \"fuzzy body picks up pollen\").",
+        "meets": "Student identifies at least two bee body parts that help get food (such as legs, mouth, or fuzzy body) and explains what each part does.",
+        "approaching": "Student names one or two bee body parts but explanation of how they help get food is vague or only partially correct.",
+        "beginning": "Student names a bee body part but provides no explanation, or identifies parts that do not relate to getting food."
+      }
+    },
+    {
+      "questionText": "How do you think the bee and the plant help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bee gets food (pollen or nectar) from the plant and the plant gets help with making seeds (pollination) through a clear cause-and-effect relationship with accurate details.",
+        "meets": "Student describes how the bee gets something from the plant and how the plant gets help from the bee, showing mutual benefit.",
+        "approaching": "Student recognizes that bee and plant help each other but explanation lacks clarity or is incomplete (e.g., mentions food but not pollination, or vague about the exchange).",
+        "beginning": "Student provides a simple answer with minimal detail, such as \"the bee gets food\" without explaining plant benefit, or response shows misunderstanding."
+      }
+    },
+    {
+      "questionText": "What would happen to flowers if there were no bees to visit them?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that flowers would not make seeds or new plants would not grow, explaining that bees help flowers by moving pollen between flowers.",
+        "meets": "Student predicts a reasonable consequence such as \"flowers would not make seeds\" or \"there would be fewer flowers,\" with a simple explanation.",
+        "approaching": "Student makes a prediction about flowers but reasoning is unclear or partially incorrect (e.g., \"flowers would die\" without explaining why).",
+        "beginning": "Student makes a vague prediction or shows misunderstanding (e.g., \"the flowers would be sad\" with no connection to bees' role)."
+      }
+    },
+    {
+      "questionText": "If you were going to design a robot bee, what parts would it need to do a bee's job?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a robot bee with multiple functional parts (legs for gripping, a fuzzy surface or special tool to collect pollen, wings to fly, and a way to visit many flowers) explaining how each part helps it do the bee's job.",
+        "meets": "Student identifies at least three important robot bee parts (such as legs, wings, and something to collect pollen) and explains what each part does.",
+        "approaching": "Student names some robot bee parts but explanations lack detail, or parts are not clearly connected to the bee's actual job of helping plants.",
+        "beginning": "Student lists one or two simple parts with little explanation, or suggests parts that do not match a bee's function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:21:53.557Z",
+  "cost": 0.004925
+}

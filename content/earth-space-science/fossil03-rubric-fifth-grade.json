@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What conditions do you think were necessary for this brachiopod to become a fossil instead of just decaying away?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific conditions (rapid burial, sediment coverage, lack of oxygen, hard shell) and explains how each condition helped preserve the fossil rather than allowing it to decay completely.",
+        "meets": "Student identifies at least two conditions necessary for fossilization (such as burial in sediment and protection from scavengers) with reasonable explanations of how these conditions preserved the organism.",
+        "approaching": "Student mentions one or two fossilization conditions (such as being buried or covered) but explanations are incomplete or lack clear connection to how preservation occurs.",
+        "beginning": "Student provides a vague response mentioning burial or coverage with minimal explanation of why these conditions prevent decay."
+      }
+    },
+    {
+      "questionText": "If we find ocean fossils in rocks on a mountain, what does this tell us about how Earth has changed over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the location indicates the mountain was once underwater and connects this to plate tectonics, erosion, or major Earth changes; demonstrates understanding that Earth's surface constantly changes.",
+        "meets": "Student correctly concludes that the area was once covered by an ocean and uses this evidence to explain that Earth's landscape has changed significantly over time.",
+        "approaching": "Student recognizes that ocean fossils on mountains suggest the area was once underwater but provides incomplete reasoning about Earth's changes.",
+        "beginning": "Student states that fossils indicate water was present but does not clearly connect this to how Earth has changed over time."
+      }
+    },
+    {
+      "questionText": "How might scientists use fossils like this one to learn about ancient climates and environments?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fossils reveal what organisms lived in specific environments and describes how studying the type and abundance of fossils helps scientists understand temperature, water conditions, and ecosystem characteristics of the past.",
+        "meets": "Student identifies that fossils show what animals lived in an area and explains that this information helps scientists understand what the ancient environment was like.",
+        "approaching": "Student mentions that fossils tell us about ancient environments but provides limited details about how scientists actually gather or interpret this information.",
+        "beginning": "Student gives a vague response such as 'fossils tell us about the past' without explaining the connection to climate or environment."
+      }
+    },
+    {
+      "questionText": "Why do you think some types of organisms are more commonly found as fossils than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple factors affecting fossilization likelihood (hard shells preserve better than soft bodies, organisms living in depositional environments more likely to be buried, abundance of organism in past populations) and explains how each factor influences fossil abundance.",
+        "meets": "Student identifies at least two factors that affect fossilization (such as hard shells being easier to preserve than soft bodies, or some organisms living in better burial environments) with clear explanations.",
+        "approaching": "Student identifies one factor (such as hard shells or burial location) but explanation lacks detail or clarity about why this makes fossilization more likely.",
+        "beginning": "Student provides a general statement about fossilization differences without clearly identifying or explaining specific factors that affect which organisms become fossils."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:54:53.254Z",
+  "cost": 0.004979
+}

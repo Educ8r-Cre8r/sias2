@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "Why do you think the crab lives on the sandy beach and not in the grass or on a rock?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple reasons the crab belongs on the beach (sand to dig in, food to eat, water nearby) and explains how the crab's body parts help it live there, using words like 'claws' or 'home.'",
+        "meets": "Student gives at least one clear reason the crab lives on the beach, such as 'it needs sand' or 'it can hide in sand,' showing understanding that the crab's home matches its needs.",
+        "approaching": "Student attempts to explain why the crab is on the beach but reasoning is incomplete or partially unclear, such as 'crabs like sand' without explaining why.",
+        "beginning": "Student gives a vague response or shows minimal understanding, such as 'it just does' or 'because it's a crab,' with little connection to the beach habitat."
+      }
+    },
+    {
+      "questionText": "What do you think happened to make all this sand? Where did it come from?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sand came from rocks or shells that broke apart over time, and mentions water or waves as a cause, showing understanding of erosion processes.",
+        "meets": "Student correctly identifies that sand came from rocks breaking or explains that waves/water helped make the sand, demonstrating basic understanding of sand formation.",
+        "approaching": "Student shows partial understanding by mentioning rocks or water but does not connect both ideas, or reasoning is somewhat unclear.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'someone made it' or 'I don't know,' with little evidence of understanding sand origins."
+      }
+    },
+    {
+      "questionText": "If a big storm came and moved all the sand on this beach, what might happen to the crab?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple consequences for the crab (loses its home, gets buried, washes away, loses food sources) and explains why the crab would have problems without its sandy beach home.",
+        "meets": "Student makes a reasonable prediction that the crab would be harmed or lose its home, with a simple explanation showing cause-and-effect thinking.",
+        "approaching": "Student attempts a prediction but reasoning is incomplete or unclear, such as 'the crab would be sad' without explaining what actually would happen.",
+        "beginning": "Student gives a vague, illogical, or off-topic response, such as 'it would fly away' or shows minimal attempt to predict consequences."
+      }
+    },
+    {
+      "questionText": "How is the beach different from your classroom? What do you see here that you don't see at school?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences between beach and classroom (sand vs. floor, ocean nearby, animals like crabs, no desks/walls) and describes details about what makes each place special.",
+        "meets": "Student names at least two clear differences between the beach and classroom, such as 'sand instead of floor' and 'a crab instead of no animals,' showing understanding of contrasting environments.",
+        "approaching": "Student identifies one difference between the beach and classroom, or names several things but connections between the two places are unclear.",
+        "beginning": "Student attempts to compare but response is vague or mostly inaccurate, such as 'they're different' with no specific examples or details."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:47:47.772Z",
+  "cost": 0.005235
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fungi04",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to a forest if all the decomposers suddenly disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead plants and animals would pile up and not break down, preventing nutrients from returning to soil, and describes how this would harm plant growth and the entire forest ecosystem over time.",
+        "meets": "Student states that dead material would pile up and that decomposers break down dead things, with a reasonable explanation of why this matters to the forest.",
+        "approaching": "Student recognizes that decomposers break down dead material and that something bad would happen without them, but the explanation is incomplete or unclear.",
+        "beginning": "Student provides a vague response such as 'the forest would be bad' or 'things wouldn't break down' with little to no elaboration."
+      }
+    },
+    {
+      "questionText": "How do you think these pink organisms know where to find dead plant material?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes multiple possible methods (such as chemical signals, spores spreading through air, or growth from existing material) and explains why decomposers might use these strategies.",
+        "meets": "Student suggests one or two reasonable methods, such as sensing chemicals from dead plants or spores landing on decaying wood, with logical reasoning.",
+        "approaching": "Student offers a plausible idea (like 'they smell it' or 'they grow there') but provides incomplete or limited explanation.",
+        "beginning": "Student gives a minimal response like 'they just know' or 'they can see it' with no scientific reasoning."
+      }
+    },
+    {
+      "questionText": "Why might decomposers be more active in some seasons than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that temperature, moisture, and availability of dead material change seasonally and explains how each factor affects decomposer activity with specific examples.",
+        "meets": "Student correctly identifies at least two factors (such as temperature and moisture or rain) that vary by season and explains how they affect decomposer growth.",
+        "approaching": "Student mentions that seasons are different and decomposers respond to this, but provides only vague details about which factors matter.",
+        "beginning": "Student gives a general answer like 'it's different in winter' or 'they like warm weather' without explaining why."
+      }
+    },
+    {
+      "questionText": "What evidence from the photo shows that decomposition is actively happening?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence—such as the presence of pink fungi, the decayed condition of the wood, the soft texture visible, and fungi clustering on dead material—and explains what each shows about active decomposition.",
+        "meets": "Student points to specific details like the pink fungi growing on the dead wood or the crumbly/decayed appearance of the material, connecting these to active breakdown.",
+        "approaching": "Student notices the fungi or dead material but makes only a basic connection to decomposition without clear explanation.",
+        "beginning": "Student provides a minimal observation like 'there are fungi' or 'the wood is dead' without explaining what this shows about decomposition happening."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:31:05.286Z",
+  "cost": 0.004756
+}

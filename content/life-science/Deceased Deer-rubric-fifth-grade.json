@@ -1,0 +1,53 @@
+{
+  "title": "Deceased Deer",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the deer's body over the next few months and years?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a detailed sequence of decomposition stages, including specific organisms (decomposers, scavengers) and processes (breaking down, returning to soil) that occur over time.",
+        "meets": "Student explains that the deer's body will break down and return to the soil, mentioning at least one decomposer or time-related change.",
+        "approaching": "Student provides a partial explanation, such as the body will break down or disappear, but lacks detail about the process or timeline.",
+        "beginning": "Student offers a vague response like \"it will go away\" or \"it will rot\" without demonstrating understanding of decomposition."
+      }
+    },
+    {
+      "questionText": "Where do you think the nutrients from the deer's body will go, and how might they become part of a plant or another animal?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student traces a complete nutrient pathway from the decomposing deer through soil, into plant roots, and into other animals, using appropriate vocabulary (nutrients, absorbed, food chain).",
+        "meets": "Student identifies that nutrients go into the soil and explains how plants or animals can use them, showing understanding of basic nutrient cycling.",
+        "approaching": "Student recognizes that nutrients will be used by plants or animals but provides incomplete or unclear explanation of how the transfer occurs.",
+        "beginning": "Student gives a minimal response such as \"nutrients go into the ground\" with no explanation of how organisms access or use them."
+      }
+    },
+    {
+      "questionText": "Why is decomposition important for forests and other ecosystems? What would happen if decomposers didn't exist?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that decomposition recycles nutrients for new life, enriches soil, and prevents waste buildup; logically describes serious ecosystem consequences of missing decomposers (nutrient depletion, dead organism accumulation, ecosystem collapse).",
+        "meets": "Student identifies that decomposition returns nutrients to soil for plants and explains one realistic consequence if decomposers didn't exist.",
+        "approaching": "Student recognizes decomposition's role in returning materials to nature but provides incomplete reasoning about why this matters or gives vague consequences.",
+        "beginning": "Student provides minimal understanding, such as \"decomposers are important\" or \"bad things would happen\" without clear explanation."
+      }
+    },
+    {
+      "questionText": "How is the deer in this photo similar to a tree that falls in the forest, and how is decomposition like recycling?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies that both the deer and fallen tree are dead organisms that decompose and return materials to nature; explains that decomposition is like recycling because materials are broken down and reused by new living things.",
+        "meets": "Student describes similarities between the deer and fallen tree (both break down, both return to soil) and makes a connection between decomposition and recycling as a reuse process.",
+        "approaching": "Student identifies one similarity or makes a partial connection to recycling, but reasoning is incomplete or lacks clear explanation of how the processes are alike.",
+        "beginning": "Student attempts comparison but shows unclear thinking, such as stating they are both \"in nature\" without meaningful connection to decomposition or recycling."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:15:27.633Z",
+  "cost": 0.005018
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Find The Hidden Animal",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What advantages does the snake's camouflage give it in this rocky environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific advantages (e.g., hiding from predators, sneaking up on prey, staying safe) and explains how the snake's colors and patterns match the rocks to make each advantage work.",
+        "meets": "Student identifies at least two advantages of camouflage, such as hiding from predators or hunting prey, with a simple explanation of how the rocky colors help the snake.",
+        "approaching": "Student identifies one advantage of camouflage (such as hiding or safety) but provides limited explanation of how the snake's appearance helps in the rocky environment.",
+        "beginning": "Student provides a vague or incomplete response, such as 'the snake hides' or 'it blends in,' without explaining what advantage this provides."
+      }
+    },
+    {
+      "questionText": "How might this snake's appearance be different if it lived in a grassy meadow instead of rocky ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the snake would need green or brown colors to match grass and describes how this would help the snake survive in that habitat; may mention that patterns or body shape might also change.",
+        "meets": "Student correctly predicts the snake would have green and/or brown coloring to match grass and explains that this would help it hide in a meadow environment.",
+        "approaching": "Student predicts the snake's color would change to green or brown but provides incomplete reasoning about why this change would be helpful in a meadow.",
+        "beginning": "Student makes a prediction about color change but shows little understanding of why camouflage matters or how it relates to different habitats."
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that use camouflage, and how does their camouflage match their habitat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names three or more animals with camouflage (e.g., tiger, leaf insect, polar bear, tree frog) and clearly describes how each animal's colors or patterns match specific features of its habitat.",
+        "meets": "Student names two animals that use camouflage and provides reasonable explanations of how their appearance matches their habitats (e.g., 'deer are brown like the forest').",
+        "approaching": "Student names one or two animals with camouflage but provides limited or partially accurate descriptions of how their appearance matches their habitats.",
+        "beginning": "Student names an animal or two but shows minimal understanding of how camouflage connects to habitat or provides inaccurate information."
+      }
+    },
+    {
+      "questionText": "If the rocks in this area changed color over many years, what might happen to the snake population?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that if rocks changed color, snakes with the old coloring would be easier to spot, leading to more being caught by predators or having trouble hunting, causing the population to decrease; may mention snakes with new coloring would survive better.",
+        "meets": "Student predicts the snake population would decrease if rocks changed color and explains that snakes would no longer be camouflaged, making them easier for predators to find or harder for them to hunt.",
+        "approaching": "Student recognizes that a rock color change would negatively affect the snake population but provides incomplete reasoning about why camouflage loss matters to survival.",
+        "beginning": "Student attempts to answer but shows minimal understanding of the connection between camouflage, survival, and population changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:25:58.127Z",
+  "cost": 0.005278
+}

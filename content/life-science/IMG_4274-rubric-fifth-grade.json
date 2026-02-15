@@ -1,0 +1,53 @@
+{
+  "title": "Dragonfly",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the dragonfly's large eyes help it survive in its environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that large eyes help the dragonfly see in multiple directions at once to spot prey or predators, and connects this to the compound eye structure visible in the photo, demonstrating understanding of how eye size relates to survival.",
+        "meets": "Student correctly explains that the large eyes help the dragonfly see prey or detect movement, showing basic understanding of how vision aids survival.",
+        "approaching": "Student mentions that big eyes help the dragonfly see, but lacks detail about what the dragonfly sees or why this matters for survival.",
+        "beginning": "Student provides a vague response such as 'big eyes help it see' or 'eyes are important' with little explanation of survival benefits."
+      }
+    },
+    {
+      "questionText": "What evidence from the photograph supports the idea that dragonflies are well-adapted for flying?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific adaptations visible in the photo (transparent wings with vein patterns for strength and lightness, thin streamlined body, segmented structure) and explains how each feature supports flight efficiency.",
+        "meets": "Student identifies at least two features from the photograph (such as wings and thin body) and explains how they support flying ability.",
+        "approaching": "Student identifies one physical feature related to flight (wings or body shape) but provides incomplete explanation of how it helps with flying.",
+        "beginning": "Student mentions that dragonflies can fly or describes a visible feature but does not connect observations to flying adaptation."
+      }
+    },
+    {
+      "questionText": "If you were designing a robot that could catch small flying objects, what features would you copy from a dragonfly?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific dragonfly features (large eyes for tracking, strong transparent wings, lightweight segmented body, rapid movement ability) and explains scientifically why each would be useful for a catching robot.",
+        "meets": "Student identifies two or more dragonfly features and explains how copying them would help a robot catch flying objects.",
+        "approaching": "Student identifies one or two features from the dragonfly but provides incomplete reasoning about how they would help a catching robot function.",
+        "beginning": "Student names a dragonfly feature or suggests copying the dragonfly but offers no clear explanation of how this would help catch objects."
+      }
+    },
+    {
+      "questionText": "How might the dragonfly's role as a predator affect other organisms in its ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dragonflies eat insects (prey) which controls their populations, and identifies at least one cascading effect on the ecosystem (such as impact on predators that eat dragonflies or on plant growth if insect populations change).",
+        "meets": "Student correctly identifies that dragonflies hunt and eat smaller insects, which controls insect populations in their ecosystem.",
+        "approaching": "Student recognizes that dragonflies eat other animals or are predators, but provides incomplete explanation of ecosystem impacts.",
+        "beginning": "Student states that dragonflies are predators or eat insects but does not explain what effect this has on the ecosystem."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:20:09.021Z",
+  "cost": 0.004898
+}

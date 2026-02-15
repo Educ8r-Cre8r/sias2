@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How does the lizard's coloring help it survive in its environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the lizard's mottled brown coloring matches tree bark, providing camouflage to hide from predators and prey, and may describe how this adaptation helps the lizard hunt or avoid being eaten.",
+        "meets": "Student accurately identifies that the lizard's brown coloring helps it blend in with the tree branch or bark, making it harder to see.",
+        "approaching": "Student recognizes that the lizard's color is related to hiding or blending in, but explanation lacks detail or confuses the purpose of camouflage.",
+        "beginning": "Student provides a vague response such as 'the color helps it' or makes an inaccurate statement about the lizard's coloring."
+      }
+    },
+    {
+      "questionText": "What would happen to this lizard population if all the trees were cut down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the population would decline or disappear, explaining that lizards would lose habitat, food sources, and shelter, and may discuss how this affects the food chain or other organisms that depend on the forest.",
+        "meets": "Student correctly predicts the lizard population would decrease, identifying at least two reasons such as loss of habitat, food, or shelter.",
+        "approaching": "Student predicts a negative outcome for the lizards but provides only one reason (such as loss of trees) without explaining how this affects survival.",
+        "beginning": "Student provides an unclear prediction or states an inaccurate consequence without reasoning about the lizard's dependence on trees."
+      }
+    },
+    {
+      "questionText": "What other animals use camouflage as a survival strategy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more animals with camouflage adaptations (such as deer, moths, snakes, or butterflies) and briefly describes how each animal's coloring or appearance helps it blend into its environment.",
+        "meets": "Student names two or three animals that use camouflage and correctly identifies that their coloring or appearance helps them hide in their environments.",
+        "approaching": "Student names one or two animals with camouflage but provides limited or unclear explanation of how their adaptations help them survive.",
+        "beginning": "Student names an animal but cannot explain camouflage, or provides an inaccurate example of camouflage."
+      }
+    },
+    {
+      "questionText": "How might this lizard's adaptations be different if it lived in a desert instead of a forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts realistic adaptations (lighter coloring to match sand, thicker skin to retain water, larger feet for sand) and explains why each adaptation would help the lizard survive in a hot, dry environment with different predators and food sources.",
+        "meets": "Student predicts two or more different adaptations the lizard would need in a desert, such as different coloring or body features, with logical reasoning about survival.",
+        "approaching": "Student identifies that the lizard's adaptations would change but provides only vague details or one adaptation without clear explanation of how it helps in a desert.",
+        "beginning": "Student acknowledges the adaptations would be different but cannot describe what changes or provide reasoning based on desert conditions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:33:23.855Z",
+  "cost": 0.005002
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Snowy Egret",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this egret catch fish, and how does each part help?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (beak, eyes, feet, legs) and explains how each specifically helps the egret catch fish (e.g., long beak spears fish, sharp eyes spot fish in water, long legs keep body dry).",
+        "meets": "Student identifies at least two body parts and explains how each helps catch fish with accurate, grade-appropriate descriptions.",
+        "approaching": "Student identifies one or two body parts and provides a simple explanation of how they help, though the explanation may lack detail or be partially unclear.",
+        "beginning": "Student names a body part but provides little or no explanation of how it helps catch fish, or explanation is inaccurate."
+      }
+    },
+    {
+      "questionText": "Why do you think egrets live near water instead of in forests?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that egrets live near water because that's where their food (fish) lives, and connects this to the bird's adaptations like long legs and beak designed for hunting in water.",
+        "meets": "Student explains that egrets live near water because they eat fish and fish live in water, showing clear cause-and-effect thinking.",
+        "approaching": "Student mentions water and food (fish) but reasoning is incomplete or the connection between habitat and food is unclear.",
+        "beginning": "Student provides a vague answer such as \"egrets like water\" with little or no reasoning about why water is important to them."
+      }
+    },
+    {
+      "questionText": "How might this bird's life change if the wetland dried up?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences such as loss of food source (fish would disappear), inability to hunt, need to move to find water, and impact on the bird's survival or behavior.",
+        "meets": "Student identifies at least two specific changes such as loss of fish to eat or the bird having to move to find water and food.",
+        "approaching": "Student identifies one change (such as no water or no fish) but explanation is simple or missing details about how this affects the egret.",
+        "beginning": "Student provides a vague response such as \"the bird would leave\" with little explanation of why or what consequences the egret would face."
+      }
+    },
+    {
+      "questionText": "What other animals might live in the same habitat as this egret?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more realistic wetland animals (fish, frogs, turtles, dragonflies, ducks, etc.) and may explain why they live in this habitat.",
+        "meets": "Student names at least two realistic wetland animals that actually live in water or near water habitats.",
+        "approaching": "Student names one or two animals that could live in or near water, though the response may include one animal that doesn't typically belong in wetlands.",
+        "beginning": "Student names an animal or animals with little accuracy, or response is too vague (such as \"fish and bugs\") without specific animal names."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:42:35.771Z",
+  "cost": 0.004755
+}

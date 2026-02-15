@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the cicada's body parts and how might each part help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific body parts (wings, eyes, legs, mouth) and explains how each helps the cicada survive with accurate details, such as wings for flying away from danger or large eyes for seeing.",
+        "meets": "Student identifies two body parts and explains how they help the cicada survive with reasonable accuracy, such as wings for flying or legs for holding onto branches.",
+        "approaching": "Student identifies one or two body parts but provides limited or incomplete explanations of how they help survival; may describe what the part looks like rather than its function.",
+        "beginning": "Student notices the cicada has body parts but provides vague or no explanation of how they help the cicada survive."
+      }
+    },
+    {
+      "questionText": "How do you think a cicada's life underground as a nymph compares to its life above ground as an adult?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three differences between nymph and adult life (such as location, food sources, activities, or appearance) with logical reasoning about why these changes happen.",
+        "meets": "Student identifies two clear differences between underground nymph life and above-ground adult life with reasonable explanations.",
+        "approaching": "Student identifies one difference or mentions both nymph and adult stages but with incomplete or partially unclear comparisons.",
+        "beginning": "Student makes a simple statement about nymphs or adults but does not make a clear comparison between the two life stages."
+      }
+    },
+    {
+      "questionText": "Why might cicadas emerge in large groups at the same time instead of one by one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides two or more logical reasons for group emergence, such as safety in numbers to avoid predators, better chances for finding mates, or overwhelming predators with large numbers.",
+        "meets": "Student provides one clear reason for group emergence, such as protection from predators or help with finding mates, with sound reasoning.",
+        "approaching": "Student attempts to explain group emergence but reasoning is incomplete or partially unclear; may mention one idea but not fully develop it.",
+        "beginning": "Student acknowledges that cicadas emerge in groups but provides no explanation or only vague reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen to the forest ecosystem if cicadas disappeared completely?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes two or more effects on the forest ecosystem, such as loss of food for birds and other animals, impact on plants, or disruption of the food chain with clear connections.",
+        "meets": "Student describes one clear effect on the forest ecosystem, such as animals losing a food source, with reasonable explanation of how it would matter.",
+        "approaching": "Student identifies that cicadas are important but provides limited detail about what would happen to the ecosystem; explanation may be incomplete.",
+        "beginning": "Student states something would change but provides minimal or unclear explanation of how the disappearance would affect the forest ecosystem."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:23:41.189Z",
+  "cost": 0.004706
+}

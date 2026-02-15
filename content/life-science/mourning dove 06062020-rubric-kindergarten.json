@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about where this bird chose to sit?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names the location (garden or dirt) and describes multiple details, such as the soil color, nearby plants, or flowers surrounding the bird.",
+        "meets": "Student identifies that the bird is sitting in a garden or on the ground and notices at least one detail like plants, flowers, or soil nearby.",
+        "approaching": "Student identifies the general location (ground or garden) but provides limited or vague details about what is around the bird.",
+        "beginning": "Student attempts to answer but provides minimal or unclear observations, such as just saying 'on the ground' with no additional details."
+      }
+    },
+    {
+      "questionText": "What things does this bird need to stay alive and healthy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more basic needs (food, water, shelter, air) and explains why the bird needs at least one of them to survive.",
+        "meets": "Student identifies two or more basic needs such as food, water, or shelter that help the bird stay alive.",
+        "approaching": "Student identifies one basic need (such as food or water) but explanations are incomplete or unclear.",
+        "beginning": "Student attempts to name a need but provides a vague or inaccurate response with little understanding of why birds need it."
+      }
+    },
+    {
+      "questionText": "How is this garden like the bird's home, and how is it different from your home?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both have plants, living things, or space) and differences (garden is outdoors/has dirt, home has walls/furniture), showing understanding of different types of homes.",
+        "meets": "Student identifies at least one similarity and one difference between a garden and a human home, such as gardens having plants while homes have people living inside.",
+        "approaching": "Student attempts to compare but identifies only similarities or only differences, or explanations lack clarity about what makes a home.",
+        "beginning": "Student makes a comparison attempt but provides vague or unclear statements that show minimal understanding of garden and home differences."
+      }
+    },
+    {
+      "questionText": "What would happen if all the plants in this garden disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bird would lose food and shelter, and describes how the bird might have to move away or could struggle to survive without plants.",
+        "meets": "Student predicts a reasonable consequence, such as the bird losing food or shelter, showing understanding that plants are important to the bird.",
+        "approaching": "Student makes a prediction about what would happen but with incomplete reasoning, such as just saying 'the bird would leave' without explaining why.",
+        "beginning": "Student attempts to answer but provides a vague response or shows minimal understanding of the connection between plants and the bird's survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:37:41.450Z",
+  "cost": 0.004448
+}

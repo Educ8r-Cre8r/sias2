@@ -1,0 +1,53 @@
+{
+  "title": "Find The Hidden Animal",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages might this animal gain from being so well camouflaged among the rocks?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific advantages (e.g., hiding from predators, sneaking up on prey, staying safe) and explains how camouflage helps the animal survive in its rocky habitat.",
+        "meets": "Student identifies at least two advantages of camouflage, such as protection from predators or hunting success, with reasonable explanations.",
+        "approaching": "Student identifies one advantage of camouflage (such as hiding) but explanation is vague or incomplete; may mention survival without clear connection to the rocky environment.",
+        "beginning": "Student provides a minimal response such as 'it hides' or 'it stays safe' with little or no explanation of how camouflage helps the animal."
+      }
+    },
+    {
+      "questionText": "How do you think this animal's camouflage might affect other animals in its ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains effects on multiple organisms (predators and prey) with specific reasoning; may discuss food chains or predator-prey relationships affected by the camouflaged animal's success.",
+        "meets": "Student explains how camouflage affects at least one other type of animal in the ecosystem (e.g., predators have harder time finding it, or its prey are caught more easily).",
+        "approaching": "Student recognizes that other animals are affected but provides unclear or only partially accurate reasoning; may mention effects without explaining the connection.",
+        "beginning": "Student provides a vague response such as 'other animals are affected' or 'predators can't see it' without explaining what happens as a result."
+      }
+    },
+    {
+      "questionText": "If this rocky environment changed over time to become more sandy, what might happen to animals with this type of camouflage?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that camouflage would become less effective because the animal's coloring matches rocks, not sand, and explains consequences (e.g., increased predation, need to adapt or relocate); may mention adaptation over time.",
+        "meets": "Student predicts that the animal's camouflage would not work as well in sand and explains that the animal could be more easily seen by predators.",
+        "approaching": "Student recognizes that the environment change would affect camouflage but explanation lacks clarity; may state the animal would be 'in trouble' without explaining why or how.",
+        "beginning": "Student provides minimal response such as 'the animal would be seen' or 'it wouldn't blend in' without connecting to sand versus rocks."
+      }
+    },
+    {
+      "questionText": "What other examples of animal camouflage have you observed in nature, and how do they compare to this example?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple valid examples of camouflage (e.g., insects on tree bark, deer in grass, polar bear in snow) and makes thoughtful comparisons explaining how each is adapted to match its specific environment.",
+        "meets": "Student provides at least one accurate example of animal camouflage and makes a reasonable comparison to the rocky camouflage example (e.g., both match their surroundings, both use color blending).",
+        "approaching": "Student identifies one example of camouflage but comparison to the rocky example is weak or only partially accurate; may describe the example without clear connection.",
+        "beginning": "Student provides a vague or possibly inaccurate example of camouflage with little or no comparison to the rocky environment example."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:26:15.936Z",
+  "cost": 0.005354
+}

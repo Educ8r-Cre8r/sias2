@@ -1,0 +1,53 @@
+{
+  "title": "Drought",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to the water that used to be in this soil?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that water evaporated into the air or was absorbed by plants, and mentions that heat or sun caused the water to disappear from the soil.",
+        "meets": "Student correctly identifies that the water disappeared or evaporated, with a simple explanation of how or where it went.",
+        "approaching": "Student recognizes that water is gone from the soil but provides unclear or incomplete reasoning about what happened to it.",
+        "beginning": "Student gives a minimal response such as 'the water went away' without explanation, or provides an inaccurate statement about the water."
+      }
+    },
+    {
+      "questionText": "How might the small plants growing in the cracks be different from plants that need lots of water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple adaptations such as deeper roots to find water, smaller leaves to save water, or thicker leaves/stems to store water, and explains how these features help the plant survive in dry soil.",
+        "meets": "Student describes at least one way these plants are different (such as having deeper roots or needing less water) and explains how this helps them grow in dry conditions.",
+        "approaching": "Student mentions that the plants are different or tougher but provides incomplete reasoning; may identify one adaptation without fully explaining its purpose.",
+        "beginning": "Student makes a vague statement like 'the plants are different' without providing specific details or explanations."
+      }
+    },
+    {
+      "questionText": "If you were a farmer, what could you do to help soil like this?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple solutions such as adding water through irrigation, adding compost or organic matter to hold water, planting drought-resistant crops, or shading the soil, and explains why each would help.",
+        "meets": "Student proposes at least one practical solution (such as watering more or adding material to soil) that would improve the soil's moisture or quality.",
+        "approaching": "Student suggests a solution but the explanation is unclear or incomplete; may suggest adding water without explaining how it helps the cracking problem.",
+        "beginning": "Student provides a vague or unrealistic suggestion with little connection to solving the dry soil problem."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how the soil cracked, and why do you think it cracked this way?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the pattern (such as pieces like puzzle pieces or connected lines) and explains that soil cracks when it dries because water leaves the spaces between soil particles, causing the ground to shrink and break apart.",
+        "meets": "Student identifies a pattern in the cracks (such as lines connecting or piece shapes) and provides a reasonable explanation that dry soil shrinks or pulls apart.",
+        "approaching": "Student notices the cracks form a pattern but offers incomplete or partially inaccurate reasoning about why the cracking occurred.",
+        "beginning": "Student makes a general observation about cracks without describing a specific pattern or provides no explanation for why they formed."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:52:08.992Z",
+  "cost": 0.004774
+}

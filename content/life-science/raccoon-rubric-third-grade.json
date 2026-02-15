@@ -1,0 +1,53 @@
+{
+  "title": "Raccoon",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this raccoon's body that might help it survive in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body features (fur color, mask, claws, tail) and explains specifically how each helps the raccoon survive, such as fur for warmth or the mask helping it see at night.",
+        "meets": "Student identifies at least two body features and explains how they help the raccoon survive in the forest with accurate details.",
+        "approaching": "Student identifies one or two body features but explanation of how they help survival is unclear or incomplete.",
+        "beginning": "Student notices something about the raccoon's body but provides no clear connection to survival or uses inaccurate information."
+      }
+    },
+    {
+      "questionText": "How might this raccoon's life be different if it lived in a desert instead of a forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple differences between forest and desert environments and describes how the raccoon would need to adapt (find water, deal with heat, find different food sources).",
+        "meets": "Student identifies at least two ways the raccoon's life would be different, such as less water or different food availability.",
+        "approaching": "Student mentions that life would be different but provides only one example or shows incomplete understanding of desert conditions.",
+        "beginning": "Student provides a vague response or minimal comparison between forest and desert environments."
+      }
+    },
+    {
+      "questionText": "What evidence can you find in the photo that shows this is the raccoon's natural habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence from the photo (trees, plants, stump, shade) and explains why each shows this is where raccoons naturally live.",
+        "meets": "Student points to at least two elements in the photo (such as trees and plants) that show this is a forest habitat where raccoons live.",
+        "approaching": "Student identifies one or two details from the photo but makes weak connections to why this is a natural habitat for raccoons.",
+        "beginning": "Student notices something in the photo but cannot clearly explain how it shows this is the raccoon's natural habitat."
+      }
+    },
+    {
+      "questionText": "Why do you think the raccoon chose to rest on top of the stump instead of on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple logical reasons the stump is safer or better (protection from predators, staying dry, seeing surroundings) with clear scientific thinking.",
+        "meets": "Student gives at least one reasonable explanation for why the stump is a better resting spot than the ground.",
+        "approaching": "Student offers a possible reason but the explanation lacks detail or shows incomplete thinking about safety or comfort.",
+        "beginning": "Student makes a guess about why the raccoon is on the stump without clear reasoning or accurate information."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:41:51.930Z",
+  "cost": 0.00448
+}

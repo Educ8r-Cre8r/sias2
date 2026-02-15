@@ -1,0 +1,53 @@
+{
+  "title": "Predator and Prey",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help the gecko be a successful hunter?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (eyes, sticky feet, tongue, teeth) and explains how each one helps the gecko catch food with specific examples from the photo.",
+        "meets": "Student identifies at least two body parts (such as sticky feet and eyes) and explains how they help the gecko hunt.",
+        "approaching": "Student identifies one body part that helps the gecko hunt but provides limited explanation of how it helps.",
+        "beginning": "Student names a body part with little or no explanation, or provides an inaccurate response about how the gecko hunts."
+      }
+    },
+    {
+      "questionText": "How might this feeding relationship change if there were fewer dragonflies in this habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fewer dragonflies would mean less food for the gecko and describes connected consequences, such as the gecko needing to hunt other insects or struggling to survive.",
+        "meets": "Student explains that fewer dragonflies would mean less food available for the gecko to eat, affecting its survival or behavior.",
+        "approaching": "Student recognizes that fewer dragonflies would affect the gecko but provides an incomplete or partially accurate explanation of the impact.",
+        "beginning": "Student provides a minimal response or shows confusion about how the number of dragonflies affects the gecko."
+      }
+    },
+    {
+      "questionText": "What adaptations does the dragonfly have that usually help it avoid predators?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple adaptations (wings for fast flight, large eyes, clear/transparent wings) and explains how each helps the dragonfly escape predators.",
+        "meets": "Student identifies at least two adaptations of the dragonfly (such as fast wings or large eyes) and explains how they help it avoid being caught.",
+        "approaching": "Student identifies one adaptation of the dragonfly but provides incomplete or unclear explanation of how it helps avoid predators.",
+        "beginning": "Student names a dragonfly feature with little or no connection to predator avoidance, or provides an inaccurate response."
+      }
+    },
+    {
+      "questionText": "If you were designing an animal to live in this habitat, what features would you give it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple features (body shape, hunting adaptations, camouflage colors, movement abilities) that are realistic for the habitat and explains how each feature would help the animal survive or hunt successfully.",
+        "meets": "Student proposes at least two realistic features appropriate for this habitat and explains how they would help the animal survive or find food.",
+        "approaching": "Student proposes some features for the animal but explanations are incomplete or only partially connected to habitat survival needs.",
+        "beginning": "Student proposes features with little reasoning or proposes features that are unrealistic for the habitat environment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:18:21.272Z",
+  "cost": 0.004503
+}

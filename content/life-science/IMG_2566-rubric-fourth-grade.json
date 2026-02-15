@@ -1,0 +1,53 @@
+{
+  "title": "Swallowtail Butterfly",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What might happen to the flowers if all the butterflies disappeared from this area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without butterflies, flowers would not be pollinated, resulting in fewer seeds and new plants, and connects this to how butterflies and flowers depend on each other.",
+        "meets": "Student identifies that butterflies help flowers make seeds or that flowers would have problems reproducing without butterflies.",
+        "approaching": "Student recognizes that butterflies are important to flowers or that something bad would happen, but lacks clear explanation of the connection to reproduction or pollination.",
+        "beginning": "Student provides a vague response such as 'flowers would die' or 'nothing would happen' without attempting to explain why butterflies matter to flowers."
+      }
+    },
+    {
+      "questionText": "How do you think the butterfly knows which flowers have the most nectar?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that butterflies might use multiple senses such as sight (bright colors), smell, or touch to find nectar-rich flowers, and recognizes that flower colors or patterns are signals to pollinators.",
+        "meets": "Student suggests that butterflies use one sense like color, smell, or shape to find flowers with nectar.",
+        "approaching": "Student recognizes that butterflies find nectar using senses but provides incomplete or unclear reasoning about how this works.",
+        "beginning": "Student provides a minimal response such as 'butterflies just know' or 'they look for it' without explaining which senses or signals are involved."
+      }
+    },
+    {
+      "questionText": "Why do you think this flower is bright pink instead of green like its leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bright pink color attracts pollinators like butterflies to the flower, while green leaves are for photosynthesis and don't need to attract animals.",
+        "meets": "Student correctly identifies that the bright color helps attract butterflies or other pollinators to the flower.",
+        "approaching": "Student recognizes that the pink color is different from the leaves and serves a purpose, but the explanation is unclear or partially correct.",
+        "beginning": "Student offers a vague response such as 'it looks pretty' or 'that's just the color it is' without connecting color to pollinator attraction."
+      }
+    },
+    {
+      "questionText": "What other animals might visit this same flower, and how might they be different from the butterfly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two other pollinators (such as bees, hummingbirds, or moths) and describes specific differences in body parts, feeding methods, or how they interact with the flower.",
+        "meets": "Student identifies one or two other animals that visit flowers and describes at least one difference in how they are built or how they feed compared to butterflies.",
+        "approaching": "Student names another animal that might visit flowers but provides limited or unclear detail about how it differs from a butterfly.",
+        "beginning": "Student names another animal but provides no explanation of differences, or response is too vague to demonstrate understanding of animal adaptations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:19:14.277Z",
+  "cost": 0.004775
+}

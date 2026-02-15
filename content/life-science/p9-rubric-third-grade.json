@@ -1,0 +1,53 @@
+{
+  "title": "Monarch Caterpillar",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the caterpillar's colors and patterns, and why might these be important?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific colors and patterns (yellow, black, white stripes), explains that bright colors warn predators the caterpillar is poisonous or tastes bad, and connects this to the caterpillar's survival.",
+        "meets": "Student describes the caterpillar's stripes and colors accurately and explains that the bright colors help protect the caterpillar from predators.",
+        "approaching": "Student notices some colors or patterns on the caterpillar but provides incomplete or partially correct reasoning about their purpose (e.g., \"so it doesn't get eaten\" without explaining how the colors help).",
+        "beginning": "Student notices colors or patterns but cannot explain why they might be important, or provides a vague response with minimal detail."
+      }
+    },
+    {
+      "questionText": "How do you think this caterpillar will be different when it becomes a butterfly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple changes including wings, body shape, antennae becoming longer or different, ability to fly, and loss of stripes; explains that these changes happen during metamorphosis.",
+        "meets": "Student correctly identifies at least two major changes (such as wings, ability to fly, or body shape changing) and understands the caterpillar becomes a butterfly.",
+        "approaching": "Student identifies one or two changes but reasoning may be unclear or partially incomplete; may confuse some features of butterflies with caterpillars.",
+        "beginning": "Student gives a vague response like \"it will be different\" with little specific detail about how a butterfly differs from a caterpillar."
+      }
+    },
+    {
+      "questionText": "What does this caterpillar need to survive and grow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs including food (plants/leaves), water, air, and safe shelter; explains why each is necessary for the caterpillar's survival and growth.",
+        "meets": "Student identifies at least two basic needs such as food and water, or food and shelter, with reasonable explanations for why each is important.",
+        "approaching": "Student identifies one or two needs correctly (such as leaves to eat) but explanations are incomplete or reasoning about why it's needed is unclear.",
+        "beginning": "Student provides a minimal response with vague ideas about what caterpillars need, such as \"food\" without detail, or responses that are mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "How might the caterpillar's environment affect its chances of becoming a butterfly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple environmental factors (habitat with food plants, safe place to form chrysalis, appropriate temperature, protection from predators) and how each affects the caterpillar's survival and transformation into a butterfly.",
+        "meets": "Student identifies at least two environmental factors (such as food availability and shelter or safety from predators) and explains how these affect the caterpillar becoming a butterfly.",
+        "approaching": "Student mentions one environmental factor correctly (such as needing food plants) but reasoning about impact is incomplete or vague.",
+        "beginning": "Student provides a minimal or unclear response with little understanding of how environment connects to the caterpillar's development into a butterfly."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:38:48.788Z",
+  "cost": 0.005066
+}

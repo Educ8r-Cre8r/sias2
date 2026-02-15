@@ -1,0 +1,53 @@
+{
+  "title": "Swallowtail Butterfly",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the butterfly's mouth parts and how might they help it get food?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the butterfly's long, thin tongue and explains in detail how it helps the butterfly drink nectar from deep inside the flower, using descriptive words like 'tube' or 'straw-like.'",
+        "meets": "Student notices the butterfly has a long, thin mouth part and explains that it helps the butterfly get food or drink from the flower.",
+        "approaching": "Student identifies that the butterfly has a special mouth part or notices it is using its mouth to get food, but the explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague response such as 'the butterfly has a mouth' or 'it eats the flower' without describing the special features that help it feed."
+      }
+    },
+    {
+      "questionText": "How do you think the flower and butterfly help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the butterfly gets food (nectar) from the flower and describes how the butterfly helps the flower by moving pollen as it visits, using grade-appropriate terms like 'pollen' or 'spreading pollen.'",
+        "meets": "Student identifies that the butterfly gets food from the flower and explains that the butterfly helps the flower in some way, such as spreading pollen or helping it make seeds.",
+        "approaching": "Student recognizes that both the flower and butterfly benefit, but only explains one way they help each other or gives an incomplete explanation.",
+        "beginning": "Student provides a minimal response such as 'they help each other' with little to no explanation of how or why."
+      }
+    },
+    {
+      "questionText": "What might happen to the flowers if all the butterflies disappeared from this area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that flowers would not get pollen spread, would not make seeds, or would not grow and reproduce, and explains the cause-and-effect relationship with specific details.",
+        "meets": "Student predicts that flowers would have a problem, such as not being able to make seeds or not growing, due to butterflies not visiting them.",
+        "approaching": "Student makes a prediction about what might happen to flowers, but the connection to butterflies or pollination is unclear or partially incorrect.",
+        "beginning": "Student provides a vague prediction such as 'the flowers would die' or 'nothing would happen' with no explanation."
+      }
+    },
+    {
+      "questionText": "How is a butterfly's tongue similar to and different from a straw?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both the butterfly's tongue and a straw are long, thin, and used for drinking liquids, and identifies a specific difference such as the butterfly's tongue is part of its body or it can roll up.",
+        "meets": "Student identifies at least one similarity (both are used for drinking or both are long and thin) and at least one difference between a butterfly's tongue and a straw.",
+        "approaching": "Student identifies either a similarity or a difference, but not both, or gives an incomplete comparison.",
+        "beginning": "Student attempts a comparison but provides inaccurate or irrelevant information, such as confusing the tongue with other butterfly body parts."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:18:58.830Z",
+  "cost": 0.004928
+}

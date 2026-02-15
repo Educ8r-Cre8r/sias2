@@ -1,0 +1,53 @@
+{
+  "title": "Predator and Prey",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the dragonfly's body parts that might help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (wings, eyes, body shape) and explains how each helps the dragonfly survive, such as wings for flying away from danger or big eyes for seeing food.",
+        "meets": "Student identifies at least two body parts and explains how they help the dragonfly survive, such as wings for flying or big eyes for seeing.",
+        "approaching": "Student identifies one or two body parts but explanation of survival benefit is unclear or incomplete, such as mentioning wings but not explaining their purpose.",
+        "beginning": "Student names one body part with minimal or no explanation of how it helps the dragonfly survive, or response is too vague to demonstrate understanding."
+      }
+    },
+    {
+      "questionText": "Why do you think the dragonfly chose to land on this particular plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful reason supported by details from the photo, such as the plant has leaves that provide shelter, water nearby for drinking, or insects attracted to the plant for food.",
+        "meets": "Student provides a reasonable reason for landing on the plant, such as resting, finding food, or the plant being a good place to stay.",
+        "approaching": "Student provides a simple or partially reasonable answer but lacks specific details from the photo, such as saying \"it wanted to\" without explanation.",
+        "beginning": "Student provides an answer that shows minimal reasoning or is disconnected from the photo, such as a guess with no explanation."
+      }
+    },
+    {
+      "questionText": "How are the dragonfly's wings different from a bird's wings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences with specific details, such as dragonfly wings are clear and four separate wings while bird wings are feathered and attached to the body, and explains how these differences affect flying.",
+        "meets": "Student identifies at least two clear differences between dragonfly and bird wings, such as dragonfly wings being see-through or the number of wings being different.",
+        "approaching": "Student identifies one difference between the wings but description lacks detail or clarity, such as mentioning they look different without explaining how.",
+        "beginning": "Student attempts to compare the wings but response is vague, inaccurate, or shows minimal understanding of the differences."
+      }
+    },
+    {
+      "questionText": "What questions do you have about how dragonflies use their big eyes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student asks thoughtful, specific questions that show curiosity about dragonfly vision, such as \"Can dragonflies see in all directions at once?\" or \"Do their big eyes help them catch fast-moving insects?\"",
+        "meets": "Student asks a clear, relevant question about the dragonfly's eyes and their function, such as \"Why do dragonflies have such big eyes?\" or \"What do dragonflies see with their eyes?\"",
+        "approaching": "Student asks a question about the dragonfly's eyes but it is somewhat unclear or only loosely connected to how they use them, such as \"Are the eyes big?\"",
+        "beginning": "Student provides a minimal response that is not clearly a question or shows little curiosity about the dragonfly's eyes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:18:15.128Z",
+  "cost": 0.004986
+}

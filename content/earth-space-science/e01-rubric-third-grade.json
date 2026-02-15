@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the shadows in this picture compared to shadows at noon?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that shadows are long and stretch far across the ground, explains this happens because the sun is low in the sky at sunrise/sunset, and makes a specific comparison to how shadows would be shorter at noon when the sun is higher.",
+        "meets": "Student observes that shadows are long and different from noon shadows, and provides a basic explanation that the sun's position in the sky affects shadow length.",
+        "approaching": "Student notices shadows are longer or different but provides incomplete or partially accurate reasoning about why this occurs.",
+        "beginning": "Student makes a vague comment about shadows or sun position with minimal detail or inaccurate information."
+      }
+    },
+    {
+      "questionText": "How might this same city look different at different times of day?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple changes including shadow length and direction, brightness levels, color of light, and how buildings would appear at morning, noon, and evening; demonstrates understanding that sun position affects how places look throughout the day.",
+        "meets": "Student identifies two or three ways the city would look different, such as shadow changes, brightness changes, or different lighting colors at different times.",
+        "approaching": "Student mentions one or two changes (like shadows or brightness) but explanations lack detail or show incomplete understanding of how time of day affects appearance.",
+        "beginning": "Student provides a vague response such as 'it would look different' with little or no specific details about time-of-day changes."
+      }
+    },
+    {
+      "questionText": "Why do some buildings appear brighter than others in this photo?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that buildings directly facing the sun appear brighter because they receive direct sunlight, while buildings in shadow appear darker, and may mention that glass and reflective surfaces can make buildings extra bright.",
+        "meets": "Student correctly identifies that buildings facing the sun are brighter and those in shadow are darker, showing understanding of how sunlight affects brightness.",
+        "approaching": "Student notes that some buildings are brighter but provides incomplete or partially accurate reasoning about sunlight and shadows.",
+        "beginning": "Student makes a simple observation that buildings look different without explaining the role of sunlight or shadows."
+      }
+    },
+    {
+      "questionText": "What would happen to the shadows if this photo was taken from the opposite direction?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that shadows would point in the opposite direction and would fall on different sides of buildings; demonstrates understanding that shadow direction depends on which direction the sun is shining from.",
+        "meets": "Student correctly states that shadows would point the other way or appear on the opposite side of buildings.",
+        "approaching": "Student shows partial understanding by mentioning shadows would change but provides unclear or incomplete description of how they would be different.",
+        "beginning": "Student provides a vague response such as 'shadows would be different' with no clear explanation of directional change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:48:55.893Z",
+  "cost": 0.004614
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Seedling",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the plant in the bottle is leaning toward the window?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that plants grow toward light and explains that the plant is leaning toward the window because that is where the light comes from, demonstrating understanding of how plants respond to light.",
+        "meets": "Student recognizes that the plant is leaning toward the window and mentions light or sun as the reason, showing basic understanding of plant response to light.",
+        "approaching": "Student notices the plant is leaning toward the window but provides an incomplete or vague explanation (e.g., 'it likes the window' without mentioning light).",
+        "beginning": "Student makes a minimal attempt that shows little connection between the plant's position and light, or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "What would happen if we moved this bottle to a dark corner of the room for one week?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the plant would stop growing toward the light or change direction, and explains that plants need light to grow healthy, showing understanding of light as an essential plant need.",
+        "meets": "Student predicts a change in the plant's growth (such as it would stop leaning or grow differently) and connects this to the lack of light in a dark corner.",
+        "approaching": "Student makes a prediction about what would happen but the reasoning is unclear or only partially connected to the plant's need for light.",
+        "beginning": "Student makes a vague prediction or does not connect the change to the plant's need for light."
+      }
+    },
+    {
+      "questionText": "How is this plant different from plants growing outside in the garden, and why do you think there are differences?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (e.g., the bottle plant is smaller, confined to a bottle, gets limited water/soil/space) and explains that garden plants have more room, soil, water, and sunlight to grow larger and healthier.",
+        "meets": "Student identifies at least one clear difference between the bottle plant and garden plants (such as size or growing space) and provides a reasonable explanation related to available resources.",
+        "approaching": "Student notices a difference but the explanation is incomplete or only partially accurate (e.g., mentions the bottle but doesn't explain why that matters).",
+        "beginning": "Student provides a minimal or inaccurate response with little evidence of comparing the two growing environments."
+      }
+    },
+    {
+      "questionText": "What does the plant need to survive in this bottle, and where does it get each thing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple plant needs (light, water, soil/nutrients, air) and explains where each comes from in this setup (light from window, water from rain or watering, nutrients from soil in bottle, air from surroundings).",
+        "meets": "Student identifies at least two plant needs and explains where they come from, showing understanding that plants need multiple things to survive.",
+        "approaching": "Student identifies one or two plant needs but the explanation of where they come from is incomplete or unclear.",
+        "beginning": "Student provides minimal or vague information about plant needs with little explanation of sources."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:14:12.137Z",
+  "cost": 0.004895
+}

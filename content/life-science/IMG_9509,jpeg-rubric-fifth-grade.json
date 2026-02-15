@@ -1,0 +1,53 @@
+{
+  "title": "Seed Germination",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that this plant is healthy and growing successfully?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific signs of health (bright green color, new leaves emerging, strong upright growth) and explains why each indicates healthy growth using appropriate vocabulary like 'cotyledons' or 'photosynthesis.'",
+        "meets": "Student identifies at least two clear signs of health, such as green color and new leaf growth, and provides basic explanations of what these features show about the plant's condition.",
+        "approaching": "Student identifies one or two signs of health (such as green color or leaves) but explanations are incomplete or lack clarity about why these features indicate the plant is healthy.",
+        "beginning": "Student makes a simple observation about the plant's appearance (e.g., 'it's green') with little or no explanation of what this means for the plant's health."
+      }
+    },
+    {
+      "questionText": "How might this seedling's growth be different if it were planted in a sunny garden bed instead of under this mulch layer?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple differences (faster growth, stronger stems, larger leaves, different leaf color) and explains the scientific reasons, such as how sunlight enables photosynthesis or how mulch affects temperature and moisture.",
+        "meets": "Student predicts at least two reasonable differences in growth (such as faster growth or taller stems) and provides a basic explanation connected to sunlight, temperature, or moisture conditions.",
+        "approaching": "Student predicts one difference in growth but explanation is vague or incomplete; may mention sunlight but lacks detail about how it affects plant development.",
+        "beginning": "Student makes a simple prediction ('it would grow bigger') with no explanation or with an inaccurate explanation of how conditions affect plant growth."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to the wood chips around this plant over the next year?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the wood chips will decompose into soil, and explains that decomposers (like fungi and bacteria) break down the dead wood and that this adds nutrients to the soil the plant can use.",
+        "meets": "Student predicts that wood chips will break down or decay over time, and mentions that this process happens due to natural decomposition or weathering.",
+        "approaching": "Student predicts some change to the wood chips (breaking apart, getting darker) but explanation of why this happens is incomplete or lacks reference to decomposition.",
+        "beginning": "Student makes a vague prediction ('they will change') with no explanation, or predicts an unrealistic outcome."
+      }
+    },
+    {
+      "questionText": "Why do you think some seeds can grow through barriers like mulch while others cannot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that seed size and strength are factors, and connects this to concepts like stored energy in seeds, seed coat thickness, or how large seeds have enough resources to push through barriers.",
+        "meets": "Student identifies that seed characteristics differ (some seeds are larger or stronger) and explains that this affects whether they can push through mulch barriers.",
+        "approaching": "Student recognizes that different seeds have different characteristics but explanation of how this relates to growing through mulch is unclear or incomplete.",
+        "beginning": "Student provides a simple observation ('some seeds are bigger') without connecting it to the ability to grow through barriers."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:20:52.060Z",
+  "cost": 0.005088
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Blackbird",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does this bird have that help it find food?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (beak, eyes, feet/legs) and explains how each helps find food with specific details, such as \"the bird uses its eyes to see food and its beak to pick it up.\"",
+        "meets": "Student identifies at least two body parts (such as beak and eyes) and explains that they help the bird find or eat food.",
+        "approaching": "Student identifies one body part that helps with food, but the explanation is vague or incomplete (e.g., \"the beak helps\").",
+        "beginning": "Student names a body part but shows no clear connection to finding food, or provides an unclear/inaccurate response."
+      }
+    },
+    {
+      "questionText": "How do you think this bird's beak shape helps it eat different foods than a duck?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the pointed beak shape and explains how it is different from a duck's flat beak, then predicts what foods each beak is better for (e.g., \"This bird's pointed beak can poke into the ground for insects, but a duck's flat beak scoops water\").",
+        "meets": "Student notes that this bird has a pointed beak and explains that a different beak shape helps birds eat different foods.",
+        "approaching": "Student mentions the beak shape or that it is different from a duck's beak, but the connection to eating different foods is unclear or incomplete.",
+        "beginning": "Student makes a vague comment about beaks or ducks without explaining how shape affects food choices."
+      }
+    },
+    {
+      "questionText": "What would happen if this bird lived somewhere with no grass or ground to walk on?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the bird would struggle to find food because it searches on the ground, and suggests what might happen (e.g., \"It couldn't find insects or worms, so it would have to move to a new place or go hungry\").",
+        "meets": "Student predicts a reasonable consequence, such as the bird would have trouble finding food or would need to move.",
+        "approaching": "Student provides a prediction but with incomplete reasoning, such as \"it would be sad\" or \"it couldn't find food\" without explaining why.",
+        "beginning": "Student gives a vague answer or one that does not clearly connect to how the bird finds food."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that use their body parts in special ways?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names at least two animals and describes specific body parts and how they use them for a purpose (e.g., \"A squirrel uses its bushy tail for balance and a rabbit uses its strong legs to jump\").",
+        "meets": "Student names one or two animals and explains how a body part helps that animal (e.g., \"A cat uses its claws to climb\").",
+        "approaching": "Student names an animal and mentions a body part, but the explanation of its special use is unclear or incomplete.",
+        "beginning": "Student names an animal but does not describe any special body part use, or provides a response that is difficult to understand."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:22:37.756Z",
+  "cost": 0.004972
+}

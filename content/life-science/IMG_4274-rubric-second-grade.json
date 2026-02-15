@@ -1,0 +1,53 @@
+{
+  "title": "Dragonfly",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this dragonfly survive in its environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (wings, eyes, legs) and explains how each one helps the dragonfly survive, such as wings for flying to escape danger or catch food, and eyes for seeing.",
+        "meets": "Student identifies two body parts that help the dragonfly survive and provides a simple explanation for how they help, such as wings for flying or eyes for seeing.",
+        "approaching": "Student identifies one body part that helps the dragonfly survive, or identifies multiple parts but provides only a vague explanation of how they help.",
+        "beginning": "Student names a body part but provides no explanation, or gives an inaccurate response about how dragonfly body parts help it survive."
+      }
+    },
+    {
+      "questionText": "How might a dragonfly's large eyes help it find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that large eyes help the dragonfly see insects moving quickly, spot food from far away, or see in many directions at once, showing understanding of how eye size connects to hunting ability.",
+        "meets": "Student explains that large eyes help the dragonfly see insects or food, demonstrating understanding that bigger eyes aid in finding prey.",
+        "approaching": "Student states that large eyes help the dragonfly see, but does not connect this to finding food or catching insects.",
+        "beginning": "Student provides a minimal or unclear response, such as 'big eyes are good' without explaining how they help find food."
+      }
+    },
+    {
+      "questionText": "Why do you think dragonflies need to live near water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dragonflies lay eggs in water and their babies (nymphs) live in water before becoming adults, or identifies water as a place to find food like mosquitoes and other insects.",
+        "meets": "Student provides a reasonable explanation, such as dragonflies need water to lay eggs, their babies live in water, or water has food they eat.",
+        "approaching": "Student recognizes dragonflies are connected to water but provides an incomplete or partially accurate reason, such as 'they like water' without explaining why.",
+        "beginning": "Student provides little or no reasoning, or gives an inaccurate response about why dragonflies live near water."
+      }
+    },
+    {
+      "questionText": "What would happen to mosquitoes if there were no dragonflies?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mosquitoes would increase in number because dragonflies would not be eating them, and may extend thinking to describe other effects, such as more disease or more mosquitoes bothering people.",
+        "meets": "Student explains that mosquitoes would increase or there would be more mosquitoes because dragonflies eat them and keep their population down.",
+        "approaching": "Student recognizes that dragonflies eat mosquitoes, but does not clearly explain what would happen to mosquitoes without them, or provides an incomplete connection.",
+        "beginning": "Student gives a vague response or shows minimal understanding of the relationship between dragonflies and mosquitoes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:19:46.213Z",
+  "cost": 0.004808
+}

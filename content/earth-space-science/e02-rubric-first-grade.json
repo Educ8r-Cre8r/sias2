@@ -1,0 +1,53 @@
+{
+  "title": "Hill",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how clear or cloudy the air looks in this picture?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the air looks cloudy or foggy and explains that it makes things harder to see far away; may mention that nearby things are clearer than distant things.",
+        "meets": "Student accurately describes the air as cloudy or foggy and notes that it affects how well we can see things in the distance.",
+        "approaching": "Student recognizes that the air looks cloudy or foggy but provides limited detail about what this means or how it affects visibility.",
+        "beginning": "Student makes a minimal observation about the air or clouds but does not clearly describe whether the air looks clear or cloudy."
+      }
+    },
+    {
+      "questionText": "Why do you think the buildings far away look less clear than the house that is closer?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cloudy air between us and the distant buildings blocks our view, and connects this to the idea that more air and clouds in between make things harder to see.",
+        "meets": "Student correctly identifies that the cloudy air or fog in between makes the far-away buildings harder to see, or that distance affects how clearly we can see things.",
+        "approaching": "Student recognizes that either the clouds/foggy air or the distance plays a role in making distant buildings less clear, but explanation is incomplete or unclear.",
+        "beginning": "Student attempts to answer but provides a vague or inaccurate reason, such as the buildings being smaller without connecting it to air or visibility."
+      }
+    },
+    {
+      "questionText": "How might the air look different on a windy day compared to a still day?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that wind could blow the clouds or fog away, making the air clearer, or that wind could stir up dust and make the air look more cloudy; shows understanding of how wind affects what we see.",
+        "meets": "Student reasonably predicts that wind would change how the air looks—either clearing it up or making it cloudier—with a simple explanation.",
+        "approaching": "Student makes a prediction about wind affecting the air but lacks a clear explanation of how or why the air might look different.",
+        "beginning": "Student provides a vague response or does not clearly explain how wind might change the appearance of the air."
+      }
+    },
+    {
+      "questionText": "What could people do to help make the air cleaner in their community?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple realistic actions (such as riding bikes, planting trees, or using less cars) and explains how these actions help reduce pollution or make air cleaner.",
+        "meets": "Student suggests at least one realistic way people could help clean the air, such as walking instead of driving, planting trees, or reducing pollution.",
+        "approaching": "Student suggests an idea to help with air quality but with limited detail or an incomplete connection to how it actually helps.",
+        "beginning": "Student offers a vague or unclear suggestion with little evidence of understanding what makes air cleaner or how people can help."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:49:28.438Z",
+  "cost": 0.004746
+}

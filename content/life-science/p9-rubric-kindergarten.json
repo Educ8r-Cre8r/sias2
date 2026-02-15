@@ -1,0 +1,53 @@
+{
+  "title": "Monarch Caterpillar",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the caterpillar's colors and patterns?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific colors (black, yellow, white) and describes the stripe pattern with clear details, such as 'stripes go around the caterpillar's body.'",
+        "meets": "Student names at least two colors of the caterpillar and mentions that it has stripes or a pattern.",
+        "approaching": "Student names one or two colors or mentions stripes/patterns but with limited detail or accuracy.",
+        "beginning": "Student makes a vague observation about the caterpillar's appearance with minimal color or pattern details, or response is unclear."
+      }
+    },
+    {
+      "questionText": "Why do you think the caterpillar has such bright stripes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests a purpose for the bright colors, such as 'warning animals it might taste bad' or 'helping it hide,' and explains their thinking with a reasonable reason.",
+        "meets": "Student provides a simple reason for the bright stripes, such as 'to scare other animals' or 'to be pretty,' that shows some understanding of protection or visibility.",
+        "approaching": "Student offers a guess about the stripes' purpose but with incomplete reasoning or limited connection to how the colors might help the caterpillar.",
+        "beginning": "Student provides a response that is unclear, unrelated to the caterpillar's survival, or shows minimal attempt to explain the purpose of the stripes."
+      }
+    },
+    {
+      "questionText": "What do you think this caterpillar needs to grow bigger and stronger?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs, such as 'food like leaves, water, and sunlight,' and may mention that the caterpillar eats to get energy to grow.",
+        "meets": "Student correctly identifies at least two things the caterpillar needs to grow, such as food and water, or food and time.",
+        "approaching": "Student names one thing the caterpillar needs (usually food or leaves) but may lack clarity or miss other important needs.",
+        "beginning": "Student provides a vague or partially inaccurate response about the caterpillar's needs, such as naming something irrelevant or showing unclear understanding."
+      }
+    },
+    {
+      "questionText": "How might this caterpillar be different from the butterfly it will become?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple clear differences, such as 'caterpillar crawls and has stripes, butterfly flies and has wings,' showing understanding of the life cycle transformation.",
+        "meets": "Student identifies at least two differences between a caterpillar and butterfly, such as body shape, how it moves, or the presence of wings.",
+        "approaching": "Student mentions one difference between a caterpillar and butterfly, or describes a difference with limited clarity or accuracy.",
+        "beginning": "Student's response is vague, incorrect, or shows minimal understanding of how a caterpillar and butterfly are different."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:38:26.295Z",
+  "cost": 0.004728
+}

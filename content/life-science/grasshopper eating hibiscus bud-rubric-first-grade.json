@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper Eating Hibiscus Bud",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does the grasshopper use to get its food?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts the grasshopper uses to eat (mouth/jaws, legs for holding/climbing, eyes for finding food) with clear explanation of how each part helps.",
+        "meets": "Student identifies two body parts the grasshopper uses to eat, such as mouth and legs, with simple but accurate explanations.",
+        "approaching": "Student names one or two body parts but with vague or partially accurate explanations of how they are used for eating.",
+        "beginning": "Student names a body part but shows unclear understanding of its role in eating, or provides only a single word response."
+      }
+    },
+    {
+      "questionText": "How do you think the grasshopper's strong legs help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that strong legs help the grasshopper move to find food, escape from danger, and reach plants, showing understanding of how this trait supports survival needs.",
+        "meets": "Student explains that strong legs help the grasshopper move to find food or get away from danger, showing basic understanding of survival.",
+        "approaching": "Student mentions that strong legs help the grasshopper move or jump but does not clearly connect this to survival or finding food.",
+        "beginning": "Student makes a vague statement about legs being strong or helpful but shows little connection to survival or eating."
+      }
+    },
+    {
+      "questionText": "What might happen to the grasshopper if there were no plants around?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the grasshopper would have no food to eat and would not survive, demonstrating understanding that grasshoppers depend on plants for food and life.",
+        "meets": "Student predicts that the grasshopper would have no food or would go away, showing basic understanding of the plant-grasshopper relationship.",
+        "approaching": "Student mentions that the grasshopper would be hungry or sad, but does not clearly explain the consequence or why plants matter.",
+        "beginning": "Student provides a minimal response like 'it would die' without explaining why or showing understanding of the connection to food."
+      }
+    },
+    {
+      "questionText": "How is the way a grasshopper eats different from how you eat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two differences, such as grasshoppers eat only plants while people eat plants and meat, grasshoppers bite with their mouth parts while people use teeth and hands, or grasshoppers eat raw plants while people cook food.",
+        "meets": "Student identifies one clear difference, such as grasshoppers eat plants/bugs while people eat different foods, or grasshoppers use their mouth differently than people.",
+        "approaching": "Student attempts to compare eating methods but provides unclear or partially accurate information, such as simply stating 'they are different' without details.",
+        "beginning": "Student provides a vague response or shows minimal understanding of how grasshopper eating differs from human eating."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:31:19.154Z",
+  "cost": 0.004666
+}

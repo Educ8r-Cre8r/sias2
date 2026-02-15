@@ -1,0 +1,53 @@
+{
+  "title": "Sunflower",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this seed needed to start growing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple things seeds need to grow (water, soil, sunlight) and explains why at least one is important for the plant.",
+        "meets": "Student identifies at least two things seeds need to grow, such as water, soil, or sunlight.",
+        "approaching": "Student identifies one thing seeds need to grow but may be unclear or incomplete in explanation.",
+        "beginning": "Student provides a vague answer like 'food' or 'help' without clear connection to seed growth."
+      }
+    },
+    {
+      "questionText": "How is this baby plant the same or different from a big plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities and differences, such as both have leaves and roots but the baby plant is smaller, has fewer leaves, and is still growing.",
+        "meets": "Student identifies at least one similarity and one difference between the baby plant and a big plant, using observable features.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or descriptions are vague or partially accurate.",
+        "beginning": "Student provides a minimal response with little detail or accuracy about baby and big plants."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this plant next?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts realistic growth progression, such as more leaves will grow, the stem will get taller, or it will eventually have a flower, with brief reasoning.",
+        "meets": "Student makes a reasonable prediction about what happens next, such as 'it will grow bigger' or 'more leaves will come out.'",
+        "approaching": "Student makes a prediction that shows some understanding of plant growth but lacks detail or may be partially unclear.",
+        "beginning": "Student makes a vague prediction unrelated to plant growth or shows minimal understanding of what happens next."
+      }
+    },
+    {
+      "questionText": "Where do you think this seed came from?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that seeds come from plants or flowers, and may mention that people planted it or it came from nature.",
+        "meets": "Student identifies that the seed came from a plant, a flower, or was planted in the ground.",
+        "approaching": "Student provides an answer about seed origin that shows partial understanding, such as 'outside' or 'from a flower' but lacks clarity.",
+        "beginning": "Student gives a vague or inaccurate answer with little connection to how seeds originate from plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:42:59.788Z",
+  "cost": 0.004116
+}

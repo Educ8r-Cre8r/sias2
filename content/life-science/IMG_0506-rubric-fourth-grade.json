@@ -1,0 +1,53 @@
+{
+  "title": "Predator and Prey",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What specific structures can you observe on both the dragonfly and pitcher plant that help them survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three specific structures (such as dragonfly's large eyes, wings, or body shape AND pitcher plant's cup-shaped trap or slippery surface) and explains how each structure helps the organism find food, move, or catch prey.",
+        "meets": "Student identifies at least two specific structures (one from dragonfly and one from pitcher plant) and explains how they help the organism survive or catch food.",
+        "approaching": "Student identifies one or two structures but provides only vague explanations of how they help survival, or describes structures without clear connection to survival.",
+        "beginning": "Student identifies only one structure with minimal or no explanation of its survival purpose, or provides inaccurate information about the structures shown."
+      }
+    },
+    {
+      "questionText": "How might the relationship between these two organisms change during different seasons?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains how seasonal changes (such as temperature, plant growth, or insect activity) would affect when dragonflies visit the pitcher plant, and predicts specific changes in their interaction across at least two seasons with reasoning.",
+        "meets": "Student describes how at least one seasonal change (such as fewer insects in winter or more growth in summer) would affect whether the dragonfly and pitcher plant interact.",
+        "approaching": "Student mentions seasonal changes but with incomplete reasoning, such as stating seasons change without connecting to how the organisms' relationship would change.",
+        "beginning": "Student provides minimal or unclear response about seasonal changes, or suggests changes unrelated to how the organisms interact."
+      }
+    },
+    {
+      "questionText": "What evidence from the image supports the idea that both organisms are predators?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific visual evidence for both organisms being predators (such as dragonfly's large eyes for hunting and cup-shaped pitcher plant trap for catching insects) and explains how each adaptation helps them catch food.",
+        "meets": "Student provides evidence that both organisms are predators, such as noting the dragonfly's position on the plant or the pitcher plant's cup shape designed to trap insects.",
+        "approaching": "Student identifies evidence that only one organism is a predator, or provides general statements about predators without specific reference to what is shown in the image.",
+        "beginning": "Student provides minimal evidence or misidentifies what the organisms eat, showing limited understanding of predator characteristics."
+      }
+    },
+    {
+      "questionText": "If you were to design an experiment to test how pitcher plants catch insects, what would you need to observe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies at least three specific observations needed (such as how insects enter the trap, whether the surface is slippery, how long insects stay inside, or what happens after capture) and explains why each observation would be important for understanding the pitcher plant's hunting method.",
+        "meets": "Student identifies at least two specific observations needed to test how the pitcher plant catches insects and provides reasonable explanation for why observing these would help understand the process.",
+        "approaching": "Student identifies at least one observation but with vague reasoning, or lists general things to observe without specific connection to how pitcher plants trap insects.",
+        "beginning": "Student provides minimal or unclear observations, or suggests observations that are unrelated to how the pitcher plant catches insects."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:18:28.790Z",
+  "cost": 0.005053
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Snowy Egret",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this bird's body parts that help it live near water?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (long legs, long neck, pointed beak, yellow feet) and explains how each one helps the egret live near water, such as legs for wading or beak for catching fish.",
+        "meets": "Student identifies at least two body parts (such as long legs and pointed beak) and explains that they help the bird live or find food in the water.",
+        "approaching": "Student names one or two body parts of the egret but provides only vague or incomplete explanations of how they help with water life.",
+        "beginning": "Student names a body part but shows little understanding of how it helps the bird live near water, or provides an inaccurate response."
+      }
+    },
+    {
+      "questionText": "How might this bird's life be different if it had short legs instead of long legs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple ways short legs would affect the egret, such as not being able to wade in deep water, difficulty catching food, or staying wet more often, with clear reasoning.",
+        "meets": "Student explains that short legs would make it harder for the bird to do something important, such as wading in water or hunting for food.",
+        "approaching": "Student recognizes that short legs would change the bird's life but provides an incomplete or partially accurate explanation.",
+        "beginning": "Student gives a minimal response, such as 'it would be different,' without explaining how or why."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that have special body parts for where they live?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals and identifies specific body parts that help each animal live in its habitat, showing clear connections between body parts and habitats.",
+        "meets": "Student names one or two animals and describes at least one special body part that helps them live in their environment.",
+        "approaching": "Student names an animal but provides little detail about its special body parts, or the connection to habitat is unclear.",
+        "beginning": "Student names an animal but provides no description of special body parts, or the response is off-topic."
+      }
+    },
+    {
+      "questionText": "Why do you think the bird is standing so still in the water?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that the bird is hunting or waiting for food, and explains that staying still helps it catch fish or other prey without scaring them away.",
+        "meets": "Student infers that the bird is either hunting, waiting for food, or being quiet, with a reasonable explanation connected to how birds find food.",
+        "approaching": "Student makes an inference about why the bird is still but the explanation is incomplete or shows partial understanding of bird behavior.",
+        "beginning": "Student provides a minimal or inaccurate response that shows little understanding of how birds hunt for food."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:42:27.993Z",
+  "cost": 0.004587
+}

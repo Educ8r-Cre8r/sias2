@@ -1,0 +1,53 @@
+{
+  "title": "Rocks",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What clues in these rocks tell us about how they formed long ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple clues (such as layers, texture, color, or flatness) and explains how each clue suggests a specific formation process (such as sedimentary rock formed in water or weathering of larger rocks).",
+        "meets": "Student identifies at least two clues from the rocks and explains how they suggest the rocks formed long ago, using appropriate vocabulary like layers, weathering, or compaction.",
+        "approaching": "Student identifies one or two clues from the rocks but provides incomplete or partially accurate explanations of how they formed.",
+        "beginning": "Student makes a simple observation about the rocks' appearance but provides little or no explanation of how clues show their formation process."
+      }
+    },
+    {
+      "questionText": "How do you think these rocks traveled from where they first formed to this garden?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a multi-step transportation process (such as erosion, water movement, and human collection) and connects it to how rocks naturally move through Earth's systems before being placed in the garden.",
+        "meets": "Student describes one or two realistic transportation methods (such as water movement, ice, or wind) and explains why rocks could have moved that way to reach the garden.",
+        "approaching": "Student suggests one transportation method but provides limited explanation or shows incomplete understanding of how rocks naturally move across Earth's surface.",
+        "beginning": "Student makes a vague statement about rocks moving (such as 'water moved them' or 'people picked them up') with little supporting detail or reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen to these rocks if they stayed in this garden for 100 more years?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific weathering and erosion changes (such as smaller pieces breaking off, surfaces becoming smoother or rougher, color fading, or plant roots breaking them apart) and explains the causes of these changes.",
+        "meets": "Student predicts that rocks would change through weathering or erosion and provides a reasonable cause, such as wind, rain, temperature changes, or plant growth.",
+        "approaching": "Student predicts some change to the rocks but provides vague or partially accurate explanations of how weathering or erosion causes changes.",
+        "beginning": "Student makes a simple prediction about the rocks (such as 'they would get smaller' or 'they would break') with little or no explanation of why this would happen."
+      }
+    },
+    {
+      "questionText": "Why do you think some rocks in the pile are different colors and textures?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different colors and textures result from different mineral compositions, different formation locations, or different amounts of weathering experienced by each rock.",
+        "meets": "Student explains that rocks come from different sources or experienced different conditions, which caused their different colors and textures.",
+        "approaching": "Student suggests that the rocks are different but provides incomplete reasoning (such as 'they are from different places' without explaining what that means for their appearance).",
+        "beginning": "Student acknowledges that the rocks look different but provides no explanation or only vague observations about their appearance."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:47:30.539Z",
+  "cost": 0.004912
+}

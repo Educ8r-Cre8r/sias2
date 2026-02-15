@@ -1,0 +1,53 @@
+{
+  "title": "Great Egret",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the egret's long legs help it find food?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long legs allow the egret to wade into deep water without getting wet, reaching fish and other water animals that shorter-legged birds cannot reach, and may mention that the legs help the bird stay balanced or move through water.",
+        "meets": "Student identifies that the long legs help the egret reach into the water to find food or catch fish, showing understanding of how this body part is useful for hunting in water.",
+        "approaching": "Student recognizes that the long legs are connected to finding food in water but provides limited explanation, such as 'the legs help it get food' without describing how or why they are helpful.",
+        "beginning": "Student gives a minimal response such as 'long legs are good' or makes an inaccurate statement about the egret's legs and food that shows little understanding of the adaptation."
+      }
+    },
+    {
+      "questionText": "What might happen to this egret if the water in its habitat dried up?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the egret would lose its food source (fish and water animals), may have no water to drink, and might have to move to a new habitat to survive, demonstrating understanding of multiple ways water is essential to the egret's survival.",
+        "meets": "Student identifies that the egret would have difficulty finding food or would need to leave because it depends on water, showing understanding that water is critical to the egret's survival.",
+        "approaching": "Student recognizes that the egret would be affected by lack of water but provides incomplete reasoning, such as 'it wouldn't have food' without explaining why or what would happen next.",
+        "beginning": "Student provides a vague response such as 'the egret would be sad' or 'it would die' without explaining the connection between the habitat and the egret's needs."
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that have similar adaptations for living near water?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names three or more water animals (such as herons, cranes, ducks, flamingos, or wading birds) and identifies specific shared adaptations like long legs, webbed feet, or beaks designed for water living.",
+        "meets": "Student names two water animals and identifies at least one adaptation they share with the egret, such as long legs or a beak suited for catching fish.",
+        "approaching": "Student names one or two water animals but provides limited detail about their adaptations, or identifies an adaptation without clearly connecting it to living near water.",
+        "beginning": "Student names an animal or two but does not identify any shared adaptations, or provides inaccurate information about how those animals are similar to the egret."
+      }
+    },
+    {
+      "questionText": "If you were designing a bird to live in a desert, what body parts would be different from this egret?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple body part differences with clear reasoning, such as shorter legs (less water-wading needed), smaller beak (different food), thicker feathers (heat protection), or the ability to store water, showing understanding of how habitats determine adaptations.",
+        "meets": "Student identifies two or more body parts that would be different and explains why they would need to change for desert survival, such as shorter legs or a different beak, showing logical thinking about habitat needs.",
+        "approaching": "Student identifies one or two body part changes but provides limited or unclear reasoning about why those changes would help the bird survive in a desert.",
+        "beginning": "Student names a body part that would be different but gives no explanation, or provides an unclear or inaccurate response that shows minimal understanding of how animals adapt to different habitats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:32:21.978Z",
+  "cost": 0.005553
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Chrysalis",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside the green chrysalis?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes that the caterpillar is changing or transforming into a butterfly, using words like 'growing,' 'changing,' or 'turning into,' and may mention the caterpillar is inside.",
+        "meets": "Student indicates that something is happening inside the chrysalis and attempts to describe it as a change, such as 'the caterpillar is getting bigger' or 'it's turning into a butterfly.'",
+        "approaching": "Student recognizes that something is inside the chrysalis or that change is occurring, but explanation is vague or incomplete, such as 'something is in there' or 'it's changing.'",
+        "beginning": "Student provides a minimal response with little detail, such as 'a bug' or 'something,' or does not attempt to describe what is happening."
+      }
+    },
+    {
+      "questionText": "Why do you think the caterpillar needs to make a chrysalis?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides a reason such as 'to be safe,' 'to protect it while it changes,' or 'to keep it warm,' showing understanding that the chrysalis serves a protective purpose during transformation.",
+        "meets": "Student gives a simple reason like 'to stay safe,' 'to hide,' or 'to change into a butterfly,' demonstrating basic understanding of the chrysalis's purpose.",
+        "approaching": "Student recognizes the chrysalis is important but gives a partial or unclear reason, such as 'it needs it' or 'to be different,' without clear explanation.",
+        "beginning": "Student provides no clear reason or gives an inaccurate response, such as 'I don't know' or an unrelated idea."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how butterflies grow and change?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a clear pattern or sequence, such as 'the caterpillar eats and grows, then makes a chrysalis, then becomes a butterfly,' or notes that butterflies go through big changes in their life.",
+        "meets": "Student recognizes that butterflies change in stages, mentioning at least two parts of their life cycle, such as 'caterpillar' and 'butterfly,' or that they grow in different ways.",
+        "approaching": "Student notices some changes but has incomplete understanding, such as mentioning only 'the caterpillar changes' or 'it gets bigger,' without describing a clear pattern or sequence.",
+        "beginning": "Student provides little or no pattern description, such as 'I don't know' or makes an observation unrelated to growth or change patterns."
+      }
+    },
+    {
+      "questionText": "How is a butterfly's life cycle different from how you grow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies key differences, such as 'butterflies make a chrysalis and change completely, but we grow bigger slowly,' or 'butterflies start as caterpillars but people start as babies,' showing clear comparison.",
+        "meets": "Student describes at least one difference between butterfly and human growth, such as 'butterflies go in a chrysalis' or 'they change into something different,' demonstrating basic comparison understanding.",
+        "approaching": "Student recognizes there is a difference but gives only partial details, such as 'butterflies are different' or 'they change,' without explaining how or why.",
+        "beginning": "Student cannot identify a difference or provides an unclear/inaccurate response, such as 'I don't know' or a response unrelated to growth cycles."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:56:36.691Z",
+  "cost": 0.005361
+}

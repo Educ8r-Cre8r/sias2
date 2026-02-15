@@ -1,0 +1,53 @@
+{
+  "title": "Monarch Caterpillar",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the caterpillar's colors and patterns?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific colors (black, white, yellow) and describes the pattern as stripes or bands covering the caterpillar's body with clear detail.",
+        "meets": "Student identifies at least two colors and describes them as stripes or a pattern on the caterpillar.",
+        "approaching": "Student names one or two colors OR mentions stripes/pattern but lacks detail or clarity in description.",
+        "beginning": "Student provides a vague response (like 'it has colors') with minimal or no pattern description."
+      }
+    },
+    {
+      "questionText": "Why do you think the caterpillar has bright stripes instead of being green like the leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors warn predators the caterpillar might be poisonous or bad to eat, showing understanding of defense strategy.",
+        "meets": "Student suggests the bright stripes help the caterpillar in some way, such as warning animals to stay away or helping it hide.",
+        "approaching": "Student makes a guess about why the caterpillar has stripes but the reasoning is unclear or only partially connected to survival.",
+        "beginning": "Student provides a minimal response with little reasoning or suggests the colors are just for looks."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this caterpillar as it grows?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the caterpillar will change into a butterfly or moth, describing stages like forming a cocoon or chrysalis as part of the process.",
+        "meets": "Student predicts the caterpillar will become a butterfly or moth through some kind of change.",
+        "approaching": "Student predicts a change will happen but is unsure whether it becomes a butterfly or moth, or describes an incomplete transformation.",
+        "beginning": "Student provides a vague prediction ('it will get bigger') with no mention of metamorphosis or becoming an insect."
+      }
+    },
+    {
+      "questionText": "How might the caterpillar's appearance help it survive in nature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how bright stripes warn predators AND connects this to the caterpillar's survival, using reasoning like 'animals learn not to eat it' or 'it stays safe.'",
+        "meets": "Student explains that the bright colors help protect the caterpillar by warning or scaring away predators.",
+        "approaching": "Student identifies that appearance helps survival but gives incomplete reasoning, such as 'the colors help it' without explaining how.",
+        "beginning": "Student provides minimal explanation or suggests the appearance helps in ways unrelated to survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:38:33.244Z",
+  "cost": 0.004389
+}

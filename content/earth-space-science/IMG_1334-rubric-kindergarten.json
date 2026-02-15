@@ -1,0 +1,53 @@
+{
+  "title": "Mammal",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the squirrel is holding its food?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific details about the squirrel's paws, such as the squirrel using both front paws to hold the food, the small size of the paws, or how the paws grip the food tightly.",
+        "meets": "Student identifies that the squirrel is using its front paws to hold the food and describes at least one detail about how it holds it.",
+        "approaching": "Student notices that the squirrel is holding food with its paws but provides limited or vague description of how the paws are positioned.",
+        "beginning": "Student mentions the squirrel has the food but provides minimal or unclear observation about the role of the paws in holding it."
+      }
+    },
+    {
+      "questionText": "Why do you think the squirrel chose to eat in the garden instead of somewhere else?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides thoughtful reasoning with multiple ideas, such as the garden has food sources, plants provide shelter or shade, or the squirrel feels safe there, using details from the photo.",
+        "meets": "Student gives a reasonable explanation, such as the garden has food or plants, showing basic understanding of why a squirrel might choose this location.",
+        "approaching": "Student attempts an explanation but reasoning is incomplete or partially unclear, such as mentioning food or a location without full connection.",
+        "beginning": "Student gives a vague response such as 'the squirrel likes it here' with little or no reasoning about the garden environment."
+      }
+    },
+    {
+      "questionText": "What other animals might visit this garden to find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals that eat garden plants or seeds (such as birds, rabbits, insects, or deer) and explains what types of food each animal might find there.",
+        "meets": "Student names at least two animals that visit gardens and shows understanding that they come to find food.",
+        "approaching": "Student names one or two animals that might visit gardens but provides limited explanation of why they would come for food.",
+        "beginning": "Student names an animal but shows unclear connection to gardens or food, or response is too vague to demonstrate understanding."
+      }
+    },
+    {
+      "questionText": "How are the squirrel's front paws similar to or different from your hands?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (such as both have fingers for grasping, both can hold things) and differences (such as squirrel's paws are smaller, have claws, or are covered in fur), using specific observations.",
+        "meets": "Student describes at least one similarity and one difference between squirrel paws and human hands with accurate details.",
+        "approaching": "Student identifies either a similarity or difference but explanation lacks detail or clarity, or comparison is incomplete.",
+        "beginning": "Student makes a simple comparison with minimal detail, such as 'they're different' without explaining how, or response does not clearly address the question."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:45:27.374Z",
+  "cost": 0.004719
+}

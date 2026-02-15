@@ -1,0 +1,53 @@
+{
+  "title": "Pelican",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the pelican's beak that makes it different from other birds?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple distinctive features of the pelican's beak (long, big, has a pouch) and explains how these features are different from other birds they know.",
+        "meets": "Student accurately describes the pelican's beak as long and mentions the pouch underneath, showing clear observation of what makes it different.",
+        "approaching": "Student notices the beak is long or mentions the pouch, but does not fully explain how these features make it different from other birds.",
+        "beginning": "Student gives a vague description (like \"big\" or \"different\") with little detail about the beak or pouch."
+      }
+    },
+    {
+      "questionText": "How do you think the pelican's big pouch helps it get food?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the pouch holds or catches fish in the water and describes a logical sequence of how the pelican uses it to collect and store food.",
+        "meets": "Student correctly infers that the pouch helps catch or hold fish, making it easier for the pelican to get food from the water.",
+        "approaching": "Student suggests the pouch helps with food but gives an incomplete or partially unclear explanation of how it works.",
+        "beginning": "Student provides a minimal response or incorrect idea about how the pouch helps the pelican get food."
+      }
+    },
+    {
+      "questionText": "What would happen if a pelican lived in a desert instead of near water?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the pelican would have difficulty finding fish or water and connects this to how the pelican's beak and pouch are designed for catching water animals.",
+        "meets": "Student predicts the pelican would struggle to find food or water, recognizing that pelicans need water to survive and hunt.",
+        "approaching": "Student makes a prediction that shows partial understanding (like \"it would be hard\" or \"no fish\") but lacks clear reasoning about why.",
+        "beginning": "Student gives a vague or undeveloped prediction with little connection to the pelican's need for water or food sources."
+      }
+    },
+    {
+      "questionText": "What other animals have body parts that help them get food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals with different specialized body parts for eating (like beaks, claws, or tongues) and explains how each part helps that animal get food.",
+        "meets": "Student identifies at least two animals with body parts designed to help them get food, with brief explanations of how those parts work.",
+        "approaching": "Student names one or two animals with special eating body parts but provides limited or unclear explanation of how the parts help them get food.",
+        "beginning": "Student mentions an animal or body part with little connection to how it helps with getting food, or response is too vague."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:39:19.480Z",
+  "cost": 0.004582
+}

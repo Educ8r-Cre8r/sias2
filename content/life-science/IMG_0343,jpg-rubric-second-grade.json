@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the lizard is trying to tell other lizards with its bright orange dewlap?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the dewlap sends a message to other lizards (such as staying away, showing strength, or attracting a mate) and uses specific details from the photo to support their thinking.",
+        "meets": "Student correctly identifies that the dewlap is used to communicate a message to other lizards and provides a reasonable explanation of what that message might be.",
+        "approaching": "Student recognizes the dewlap is for communication but provides only a vague explanation of the message, such as 'it tells them something' without clarity.",
+        "beginning": "Student provides a response that shows minimal understanding, such as 'the lizard is showing off' with no explanation of why or what the message means."
+      }
+    },
+    {
+      "questionText": "How is the lizard's dewlap similar to ways humans communicate without talking?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple human non-verbal communication methods (such as facial expressions, hand gestures, or body language) and explains how they work similarly to the dewlap to send messages without words.",
+        "meets": "Student identifies at least one human non-verbal communication method and makes a clear connection to how the dewlap works the same way to communicate without talking.",
+        "approaching": "Student identifies a human communication method but makes only a weak or incomplete connection to how it is similar to the dewlap's function.",
+        "beginning": "Student's response shows confusion about non-verbal communication or provides an inaccurate comparison that does not connect to the dewlap's purpose."
+      }
+    },
+    {
+      "questionText": "Why might it be important for the dewlap to be a bright color instead of brown like the lizard's body?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bright color makes the message stand out and be noticed by other lizards, and may note that it contrasts with the body color for visibility or that it helps other lizards see the signal from far away.",
+        "meets": "Student correctly explains that the bright orange color helps other lizards see the dewlap more easily than if it were brown, so the message gets noticed.",
+        "approaching": "Student recognizes that bright colors are important for visibility but provides only a partial explanation, such as 'so other lizards can see it' without explaining why this matters.",
+        "beginning": "Student provides a minimal response such as 'because it looks pretty' or 'because bright is better' with no connection to communication or visibility."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that use bright colors or special body parts to communicate?",
+      "bloomsLevel": "Recall/Apply",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple animals with bright colors or special body parts used for communication (such as peacocks, fireflies, or poison frogs) and explains what each animal's signal means or does.",
+        "meets": "Student names at least one or two animals that use bright colors or special body parts to communicate and shows understanding that these features send messages like the dewlap does.",
+        "approaching": "Student names an animal with bright colors or special features but may not clearly explain that it is used for communication, or gives only one unclear example.",
+        "beginning": "Student names an animal but shows no connection to communication, or provides a vague response such as 'a colorful bird' with minimal detail."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:16:40.436Z",
+  "cost": 0.005175
+}

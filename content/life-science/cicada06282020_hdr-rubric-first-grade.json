@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help the cicada live on trees?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (legs, feet, wings, or claws) and explains how at least two help the cicada stay on or move around trees with specific details.",
+        "meets": "Student identifies two body parts (such as legs and feet or claws) that help the cicada live on trees with a basic explanation of how they work.",
+        "approaching": "Student names one or two body parts of the cicada but gives vague or incomplete explanations of how they help it live on trees.",
+        "beginning": "Student identifies a body part or mentions the cicada lives on trees but provides minimal explanation or identifies incorrect body parts."
+      }
+    },
+    {
+      "questionText": "How do you think the cicada uses its wings?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wings help the cicada fly or move between trees and describes why flying would be useful (finding food, escaping danger, finding mates) with logical reasoning.",
+        "meets": "Student correctly explains that the cicada uses its wings to fly and provides a reasonable reason, such as moving around or getting food.",
+        "approaching": "Student suggests the wings are used for flying or moving but the explanation is incomplete or lacks clear reasoning about why this helps the cicada.",
+        "beginning": "Student makes a vague statement about wings (such as 'to move') with little or no explanation, or suggests an incorrect use."
+      }
+    },
+    {
+      "questionText": "Why might cicadas need to make loud sounds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers multiple reasons for loud sounds, such as communicating with other cicadas, finding mates, or warning others, and explains the purpose of at least two with logical thinking.",
+        "meets": "Student provides a reasonable explanation such as cicadas making sounds to call to each other or find friends, showing basic understanding of animal communication.",
+        "approaching": "Student suggests the sounds have a purpose (like talking or finding others) but the explanation is unclear or only partially developed.",
+        "beginning": "Student acknowledges cicadas make sounds but offers no explanation, an incorrect reason, or a completely unclear response."
+      }
+    },
+    {
+      "questionText": "What would happen if there were no trees for cicadas to live on?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that cicadas would not survive or would have to move elsewhere, and identifies multiple connected consequences (no food, no place to rest, no shelter, population would decrease).",
+        "meets": "Student explains that cicadas could not live there or would go away, providing one or two clear reasons such as loss of food or shelter.",
+        "approaching": "Student recognizes that cicadas need trees but gives an incomplete or partially correct explanation of what would happen without them.",
+        "beginning": "Student provides a minimal response such as 'cicadas would die' with little explanation or understanding of why trees are important to cicadas."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:23:26.768Z",
+  "cost": 0.004594
+}

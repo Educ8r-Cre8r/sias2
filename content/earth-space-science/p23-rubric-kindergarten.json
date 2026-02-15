@@ -1,0 +1,53 @@
+{
+  "title": "Erosion",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the color of this water?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the water is brown or muddy and explains that dirt or soil makes the water darker, showing understanding of how materials mix with water.",
+        "meets": "Student accurately describes the water as brown, muddy, or dirty and recognizes it looks different from clear water.",
+        "approaching": "Student notices the water is a darker color but uses vague descriptions like \"yucky\" or \"not clean\" without explaining why.",
+        "beginning": "Student gives minimal response such as \"it's brown\" or \"it's dirty\" with no descriptive details or observations."
+      }
+    },
+    {
+      "questionText": "Why do you think the water is moving in that direction?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water moves downward or flows because of gravity, or describes how the ground slopes, showing understanding of how gravity affects water movement.",
+        "meets": "Student provides a reasonable explanation such as water flowing downhill, water running that way, or the water following the ground.",
+        "approaching": "Student attempts an explanation but it is unclear or partially formed, such as \"it just goes\" or \"something makes it move\" without clear reasoning.",
+        "beginning": "Student provides no explanation or states \"I don't know\" without attempting to think about why water moves."
+      }
+    },
+    {
+      "questionText": "What would happen if we poured clean water on dirt?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the water would become brown or dirty and explains that dirt mixes with the water, or describes the water soaking into the ground, showing understanding of water and soil interactions.",
+        "meets": "Student predicts that clean water would become dirty or muddy, or that the water would soak into the dirt.",
+        "approaching": "Student makes a prediction but with unclear reasoning, such as \"the water would change\" or \"something would happen\" without explaining the dirt's role.",
+        "beginning": "Student provides a vague or no prediction, such as \"I don't know\" or an unrelated response."
+      }
+    },
+    {
+      "questionText": "How is this flowing water similar to when you wash your hands?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that water moves and carries away dirt or germs in both situations, and recognizes that moving water cleans by removing unwanted materials.",
+        "meets": "Student recognizes that water flows in both situations, or that water helps wash away dirt or soap in hand washing.",
+        "approaching": "Student makes a partial connection such as \"water moves\" or \"both have water\" but does not explain how the water's movement helps with cleaning.",
+        "beginning": "Student provides minimal response such as \"they're both wet\" or shows no clear understanding of the comparison."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:55:47.879Z",
+  "cost": 0.004398
+}

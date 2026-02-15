@@ -1,0 +1,53 @@
+{
+  "title": "Wood",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the circles inside these logs?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific features of the rings, such as their circular shape, different colors (light and dark), or their arrangement from center to edge with accurate descriptive language.",
+        "meets": "Student accurately describes the circles/rings inside the logs and notes that they are different colors or arranged in a pattern.",
+        "approaching": "Student identifies that there are circles or rings inside the logs but provides limited detail or description of their appearance.",
+        "beginning": "Student makes a simple observation about the logs but does not clearly identify or describe the rings/circles inside them."
+      }
+    },
+    {
+      "questionText": "Why do you think some rings are bigger than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a scientific explanation connecting ring size to tree growth, such as linking bigger rings to more water, good growing conditions, or years when the tree grew faster.",
+        "meets": "Student offers a reasonable explanation for why rings differ in size, such as the tree growing more during certain times or having different amounts of food or water.",
+        "approaching": "Student attempts to explain ring size differences but the reasoning is unclear, partially accurate, or uses vague language like \"the tree was different.\"",
+        "beginning": "Student acknowledges that rings are different sizes but cannot explain why or provides an inaccurate explanation."
+      }
+    },
+    {
+      "questionText": "How could we find out how old this tree was?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that counting the rings would show the tree's age and may describe that each ring represents one year of growth, demonstrating understanding of the ring-age relationship.",
+        "meets": "Student correctly identifies that the rings can be counted or used to find the tree's age, with a basic explanation of why this works.",
+        "approaching": "Student suggests counting the rings or mentions rings are related to age but does not fully explain the connection between rings and years lived.",
+        "beginning": "Student provides a vague response about finding the tree's age or counts rings without explaining what the count represents."
+      }
+    },
+    {
+      "questionText": "What would happen to the rings if a tree didn't get enough water for a year?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the ring would be thinner or smaller because the tree would grow less without enough water, showing understanding of how water affects tree growth.",
+        "meets": "Student correctly predicts that the ring formed that year would be smaller or thinner due to lack of water.",
+        "approaching": "Student predicts a change to the ring but the explanation of why or how it changes is unclear or partially accurate.",
+        "beginning": "Student attempts to answer but cannot clearly predict what would happen to the rings or provides an inaccurate response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:57:26.510Z",
+  "cost": 0.004398
+}

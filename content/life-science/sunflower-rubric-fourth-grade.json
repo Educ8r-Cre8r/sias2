@@ -1,0 +1,53 @@
+{
+  "title": "Sunflower",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the plant needed from its environment to begin growing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least three specific resources the plant needs (water, soil/nutrients, sunlight, air, warmth) and explains how each one helped the seed begin growing into a new plant.",
+        "meets": "Student identifies two or more resources the plant needs to grow, such as water and soil, with a brief explanation of why each is important.",
+        "approaching": "Student identifies one or two resources the plant needs, but explanations are vague or lack clear connection to how they help the seed grow.",
+        "beginning": "Student names a resource like water or soil but provides little or no explanation of why it matters for plant growth."
+      }
+    },
+    {
+      "questionText": "How might this small plant change over the next few weeks, and what evidence supports your prediction?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific changes (taller stem, more leaves, roots deeper in soil, seed shell falls off) and supports each prediction with observable evidence from the photo or knowledge of plant growth patterns.",
+        "meets": "Student predicts 2-3 changes to the plant, such as growing taller or developing more leaves, and provides reasonable observations or explanations to support the predictions.",
+        "approaching": "Student predicts at least one change to the plant but provides limited or weak evidence; reasoning may be unclear or partially supported.",
+        "beginning": "Student makes a vague prediction about the plant changing but offers no supporting evidence or explanation for the prediction."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of the old seed are still attached to the new plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that seed parts (cotyledons or seed coat) provide stored nutrients and energy for the young plant to grow until it can make its own food, and describes this as a protective or nourishing role.",
+        "meets": "Student recognizes that the seed parts still attached are providing food or energy to help the young plant grow, or protect it as it develops.",
+        "approaching": "Student suggests the seed parts help the plant in some way, but explanation is incomplete or unclear; may confuse the purpose of different plant structures.",
+        "beginning": "Student acknowledges the seed parts are still there but provides no explanation or offers an inaccurate guess about their purpose."
+      }
+    },
+    {
+      "questionText": "What would happen if we planted this same type of seed in different conditions like darkness or without water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts how lack of water or darkness would negatively affect growth, explaining that water is needed for growth and sunlight is needed for making food; distinguishes between the two conditions and their different effects.",
+        "meets": "Student predicts that the plant would not grow well without water or in darkness, and explains that plants need water and light to survive and grow.",
+        "approaching": "Student recognizes that missing water or light would harm the plant but provides limited explanation of why, or confuses how each condition affects plant growth.",
+        "beginning": "Student states the plant would not grow but offers little or no explanation of the reasons for this prediction."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:43:32.072Z",
+  "cost": 0.004857
+}

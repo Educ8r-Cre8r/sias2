@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages might complete metamorphosis give monarch butterflies compared to animals that don't change form?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific advantages (e.g., caterpillar eats plants while butterfly drinks nectar, reducing competition; different body forms allow use of different food sources or habitats) and explains how these benefits help monarch survival.",
+        "meets": "Student identifies at least two advantages of metamorphosis, such as caterpillars and butterflies eating different foods or living in different ways, with basic explanations of how this helps monarchs.",
+        "approaching": "Student identifies one advantage of complete metamorphosis or mentions that caterpillars and butterflies are different, but reasoning is unclear or incomplete.",
+        "beginning": "Student provides a vague response about metamorphosis being 'good' or 'helpful' with little to no specific details about advantages."
+      }
+    },
+    {
+      "questionText": "How do you think the butterfly 'knows' when it's time to emerge from the chrysalis?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes multiple reasonable biological triggers (temperature changes, day length, internal development signals) and explains how these environmental or body cues might signal readiness to emerge.",
+        "meets": "Student identifies one or two plausible triggers for emergence, such as temperature, season, or body development being complete, with logical reasoning.",
+        "approaching": "Student suggests a trigger for emergence (e.g., 'when it's warm' or 'when it's ready') but provides limited explanation of how the butterfly would sense this.",
+        "beginning": "Student offers a vague or unclear response, such as 'it just knows' or 'it feels it,' without describing any biological process."
+      }
+    },
+    {
+      "questionText": "What would happen to monarch populations if milkweed plants disappeared from their habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that monarch caterpillars only eat milkweed, so the population would decline or disappear, and may discuss cascading effects on ecosystems or predators that depend on monarchs.",
+        "meets": "Student correctly identifies that milkweed is the food for caterpillars and predicts the monarch population would decrease or die out without it.",
+        "approaching": "Student recognizes that milkweed is important to monarchs but provides unclear or partially correct reasoning about population consequences.",
+        "beginning": "Student provides a minimal response such as 'monarchs would die' or 'the population would change' with no explanation of the connection to milkweed as food."
+      }
+    },
+    {
+      "questionText": "Compare the body parts a caterpillar needs versus what a butterfly needs - why are they so different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific body part differences (caterpillar has chewing mouthparts/legs for crawling; butterfly has proboscis/wings) and explains how each form's body matches its lifestyle and food source.",
+        "meets": "Student names at least two body part differences between caterpillars and butterflies and connects these differences to how each form lives or eats.",
+        "approaching": "Student identifies some body part differences (wings, mouth, legs) but provides limited or unclear explanation for why the differences exist.",
+        "beginning": "Student mentions that caterpillars and butterflies look different or names one body part difference without explaining the purpose or reason."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:37:24.758Z",
+  "cost": 0.005139
+}

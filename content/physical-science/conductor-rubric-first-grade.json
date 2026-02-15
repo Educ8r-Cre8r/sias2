@@ -1,0 +1,53 @@
+{
+  "title": "Conductor",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we took one wire away from the battery?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the light bulb would turn off and explains that electricity needs a complete path (circuit) to flow from the battery through the wires to make the light work.",
+        "meets": "Student predicts the light bulb would turn off or stop glowing and provides a basic explanation that the wire is needed to make the light work.",
+        "approaching": "Student predicts the light bulb would turn off but offers little or unclear explanation about why removing a wire matters.",
+        "beginning": "Student makes a prediction but it is unclear or inaccurate (e.g., the light would get brighter), with no explanation provided."
+      }
+    },
+    {
+      "questionText": "Why do you think the light bulb is glowing?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that electricity from the battery travels through the wires to the light bulb, making it glow, and may mention that energy from the battery powers the light.",
+        "meets": "Student explains that the battery makes the light bulb glow or that electricity from the battery makes the light work.",
+        "approaching": "Student provides a partial explanation, such as \"the battery makes it light\" but does not clearly connect the battery, wires, and light bulb.",
+        "beginning": "Student offers a vague response such as \"it just glows\" or \"the battery\" with little connection between components."
+      }
+    },
+    {
+      "questionText": "What other things in your house need batteries to work?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more battery-powered items from home (e.g., flashlight, toy, remote control, smoke detector) showing broad understanding of everyday battery use.",
+        "meets": "Student identifies two battery-powered items from home with accuracy (e.g., toy and flashlight).",
+        "approaching": "Student identifies one battery-powered item from home, or identifies two items but one may be inaccurate.",
+        "beginning": "Student attempts to name a battery-powered item but is vague or inaccurate, or provides no clear examples."
+      }
+    },
+    {
+      "questionText": "How could we make this light bulb brighter or dimmer?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple methods such as adding more batteries (brighter), removing batteries (dimmer), changing the type of battery, or adjusting the distance/connection of wires, showing deep thinking about electricity and light.",
+        "meets": "Student suggests at least one reasonable method, such as adding more batteries to make it brighter or using fewer batteries to make it dimmer.",
+        "approaching": "Student suggests a method but it is only partially correct or feasible (e.g., \"move the wire\" without clear explanation of how this affects brightness).",
+        "beginning": "Student provides a vague or unrealistic suggestion (e.g., \"just make it brighter\") with no clear method or reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:58:22.042Z",
+  "cost": 0.00466
+}

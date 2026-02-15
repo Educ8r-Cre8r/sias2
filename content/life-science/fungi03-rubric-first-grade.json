@@ -1,0 +1,53 @@
+{
+  "title": "Fungi03",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where these mushrooms are growing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about the location, such as the mushrooms growing on a dead log, in the woods, or on wood, and may note other environmental features like the texture or color of the log.",
+        "meets": "Student accurately identifies that the mushrooms are growing on a log or dead wood with simple descriptive language.",
+        "approaching": "Student notices the mushrooms are growing on something wooden or mentions they are on the ground/wood, but description is vague or partially accurate.",
+        "beginning": "Student makes a vague observation about where the mushrooms are, such as 'on something' or 'outside,' with minimal detail or accuracy."
+      }
+    },
+    {
+      "questionText": "Why do you think mushrooms might choose to grow on dead logs instead of living trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms break down or eat dead wood, and may connect this to the idea that dead logs cannot protect themselves or that mushrooms help recycle dead things in nature.",
+        "meets": "Student provides a reasonable explanation, such as 'dead wood is easier to break down' or 'mushrooms can eat the dead wood,' showing basic understanding of fungal decomposition.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially accurate, such as 'mushrooms like dead things' without explaining why or how.",
+        "beginning": "Student provides a guess or vague response with little reasoning, such as 'because they like it there' with no supporting explanation."
+      }
+    },
+    {
+      "questionText": "What might happen to our forests if there were no fungi to break down dead trees and leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead trees and leaves would pile up or not disappear, and makes a connection to how this would affect the forest ecosystem, such as 'there would be no room for new plants' or 'animals would lose their homes.'",
+        "meets": "Student identifies that dead trees and leaves would pile up or stay around longer, demonstrating understanding that fungi help break things down in the forest.",
+        "approaching": "Student recognizes that something bad would happen or that dead things would remain, but the explanation lacks clarity or complete reasoning.",
+        "beginning": "Student provides a minimal or unclear response, such as 'the forest would be messy' or 'bad things would happen,' without explanation."
+      }
+    },
+    {
+      "questionText": "How are mushrooms different from the plants in your garden at home?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences between mushrooms and plants, such as 'mushrooms don't have roots or leaves,' 'they grow on dead wood instead of in soil,' or 'they break down dead things instead of making their own food,' showing understanding that fungi are not plants.",
+        "meets": "Student identifies at least one clear difference, such as 'mushrooms don't have leaves' or 'they grow on logs instead of in dirt,' demonstrating basic understanding of how mushrooms differ from garden plants.",
+        "approaching": "Student attempts to compare mushrooms and plants but provides an incomplete or partially accurate difference, such as 'they look different' or 'mushrooms are brown,' without meaningful scientific distinction.",
+        "beginning": "Student makes a vague or inaccurate observation, such as 'they are different' with no specific details or reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:28:06.277Z",
+  "cost": 0.005122
+}

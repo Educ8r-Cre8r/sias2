@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think these sea creatures looked like when they were alive millions of years ago?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple specific features of the sea creature (body shape, shell texture, size, moving parts) and explains how the fossil shape gives clues about what the animal looked like when alive.",
+        "meets": "Student describes what the sea creature looked like using 2-3 details from the fossil, such as shell shape or size, with a reasonable explanation based on the rock impression.",
+        "approaching": "Student describes the sea creature with one or two details from the fossil, but reasoning may be unclear or only partially connected to what the fossil shows.",
+        "beginning": "Student gives a vague or simple response about the creature, with little reference to the fossil's features or shape."
+      }
+    },
+    {
+      "questionText": "How are these fossil shells the same or different from shells you might find at the beach today?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific similarities (hard protective covering, spiral or ridged patterns) and differences (fossils are in rock, modern shells are alive or smooth, age difference) with clear explanations.",
+        "meets": "Student identifies at least one similarity and one difference between fossil shells and beach shells with reasonable explanations.",
+        "approaching": "Student attempts to compare but may identify only similarities or only differences, or explanations lack clarity.",
+        "beginning": "Student provides minimal or vague comparisons with little connection to what fossils or beach shells actually are."
+      }
+    },
+    {
+      "questionText": "What does finding sea creature fossils on land tell us about how Earth has changed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that land where fossils are found was once underwater or covered by an ocean, and describes how this shows Earth's surface has changed over time, possibly mentioning water levels or land movement.",
+        "meets": "Student explains that finding sea creature fossils on land means this place used to be underwater or covered by ocean water, showing Earth has changed.",
+        "approaching": "Student recognizes that fossils on land are unusual or that something changed, but explanation is incomplete or unclear about why this indicates Earth has changed.",
+        "beginning": "Student provides a minimal response that does not clearly connect fossils to changes in Earth or water location."
+      }
+    },
+    {
+      "questionText": "Why do you think only some dead animals become fossils while others do not?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple conditions needed for fossils to form (being buried quickly, protected in rock/sediment, hard body parts) and why other conditions prevent fossilization.",
+        "meets": "Student provides a reasonable explanation for why fossils form, such as animals being buried in mud or protected under rocks, showing understanding that special conditions are needed.",
+        "approaching": "Student attempts to explain why some animals become fossils but reasoning is incomplete or partially unclear (mentions burial or protection but lacks detail).",
+        "beginning": "Student provides a vague response or guess about fossil formation without clear reasoning about conditions needed."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:52:49.140Z",
+  "cost": 0.004683
+}

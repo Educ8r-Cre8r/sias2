@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this area looked like when this scallop was alive?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a detailed water environment with multiple accurate features (ocean, sea, water depth, other sea creatures, or plants) and explains why scallops need those conditions to live.",
+        "meets": "Student describes a water environment where the scallop lived with at least two accurate details, such as it being in an ocean or sea with water.",
+        "approaching": "Student mentions water or ocean as the scallop's habitat but provides limited details or some inaccurate information about the ancient environment.",
+        "beginning": "Student gives a vague response about the environment (such as 'it was wet' or 'there was water') with little or no specific details."
+      }
+    },
+    {
+      "questionText": "How is this fossil scallop similar to and different from scallops living in the ocean today?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least one similarity (shell shape, fan ridges, hard shell) and at least one difference (age, how it was preserved, condition, or size) with accurate reasoning about why differences exist.",
+        "meets": "Student identifies at least one similarity and one difference between the fossil and modern scallops with accurate observations.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or provides information that is partially accurate or unclear.",
+        "beginning": "Student attempts to compare but provides vague, inaccurate, or minimal information about either fossil or modern scallops."
+      }
+    },
+    {
+      "questionText": "What conditions do you think were needed for this shell to become a fossil?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple necessary conditions for fossilization (shell buried quickly, covered by sediment or mud, protected from decay, pressure over time) and describes how these conditions work together.",
+        "meets": "Student identifies at least two conditions needed for fossilization, such as the shell being buried and covered, with reasonable explanations.",
+        "approaching": "Student mentions one or two conditions for fossilization but explanations lack detail or show incomplete understanding of the process.",
+        "beginning": "Student provides minimal or vague conditions needed for fossilization with little scientific reasoning."
+      }
+    },
+    {
+      "questionText": "If you found this fossil, what questions would you want to ask a scientist about it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student asks three or more thoughtful, specific questions that show curiosity about the fossil's age, origin, environment, or how scientists learn from fossils, demonstrating scientific thinking.",
+        "meets": "Student asks two questions that are relevant to the fossil and show genuine curiosity about it, such as when it lived or where it came from.",
+        "approaching": "Student asks one or two questions about the fossil, but questions may be vague, repetitive, or show limited scientific curiosity.",
+        "beginning": "Student asks a question that is not related to the fossil, is too vague to be meaningful, or shows minimal engagement with the learning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:54:36.741Z",
+  "cost": 0.004722
+}

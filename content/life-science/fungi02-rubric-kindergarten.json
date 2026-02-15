@@ -1,0 +1,53 @@
+{
+  "title": "Fungi02",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about where these mushrooms are growing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about location, such as mushrooms growing in wood chips, on the ground, near dead leaves, or in a forest/shady place with accurate descriptions.",
+        "meets": "Student accurately describes where the mushrooms are growing, such as on the ground, in dirt, near wood, or among dead leaves.",
+        "approaching": "Student identifies the general location (ground or forest) but provides limited details or uses vague descriptions like \"outside\" or \"in nature.\"",
+        "beginning": "Student points to or acknowledges the mushrooms but provides minimal or unclear information about their location."
+      }
+    },
+    {
+      "questionText": "How do you think these mushrooms are similar to and different from plants in our garden?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (living things, grow from ground, have parts) and differences (mushrooms are brown/different shape, don't have flowers or leaves, need dark/wet places) with clear explanations.",
+        "meets": "Student identifies at least one similarity and one difference between mushrooms and garden plants with reasonable descriptions (e.g., both grow, but mushrooms look different).",
+        "approaching": "Student identifies either a similarity or a difference, but explanations lack detail or show incomplete understanding of the differences.",
+        "beginning": "Student makes a general statement about mushrooms and plants but does not clearly identify similarities or differences."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to all the dead leaves and wood if there were no mushrooms or other decomposers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead leaves and wood would pile up, not break down, or stay on the ground forever, and makes a connection to why decomposers are needed to keep nature clean.",
+        "meets": "Student correctly predicts that dead leaves and wood would pile up or not go away if there were no mushrooms, showing understanding of decomposition.",
+        "approaching": "Student shows partial understanding, such as saying things would pile up but without clear explanation, or confusing the role of mushrooms.",
+        "beginning": "Student provides a minimal response that does not clearly connect mushrooms to breaking down dead materials."
+      }
+    },
+    {
+      "questionText": "Why might it be important for mushrooms to grow near dead plant materials?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms need dead wood and leaves for food, or that they help break down dead materials into soil, showing understanding of the mushroom's role as a decomposer.",
+        "meets": "Student correctly identifies that mushrooms use or eat dead leaves and wood, or that they help break down dead plant materials.",
+        "approaching": "Student recognizes a connection between mushrooms and dead materials but explains it vaguely or with incomplete reasoning.",
+        "beginning": "Student makes a simple observation but does not explain why mushrooms need to be near dead plant materials."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:27:11.379Z",
+  "cost": 0.004623
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Clouds",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to these clouds if the temperature suddenly got much colder?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that clouds would condense into precipitation (rain, snow, or sleet) and explains that colder temperatures cause water droplets to combine and become heavy enough to fall.",
+        "meets": "Student predicts that the clouds would change by producing rain or snow and correctly identifies that colder temperatures affect what happens to clouds.",
+        "approaching": "Student predicts a change to the clouds when temperature drops but provides incomplete reasoning, such as saying clouds would disappear or move without explaining the temperature connection.",
+        "beginning": "Student makes a guess about what would happen with little or no explanation, or provides an inaccurate response like 'the clouds would blow away.'"
+      }
+    },
+    {
+      "questionText": "How might the water in these clouds have traveled here from the ocean?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the complete water cycle by explaining that ocean water evaporates due to sun's heat, becomes water vapor, rises into the atmosphere, and condenses into clouds.",
+        "meets": "Student explains that water from the ocean evaporates and rises to form clouds, showing understanding of at least two steps in the water cycle.",
+        "approaching": "Student mentions that water comes from the ocean and gets to clouds but provides incomplete steps, such as only describing evaporation or only describing condensation.",
+        "beginning": "Student provides a vague answer like 'the water floated up' or 'the wind brought it' with minimal detail about how water moves from ocean to clouds."
+      }
+    },
+    {
+      "questionText": "Compare and contrast what you observe about these clouds versus clouds you see on a stormy day.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific similarities (both made of water droplets) and differences (these are puffy and white while storm clouds are dark, thick, and low; storm clouds bring heavy rain or lightning) using descriptive language.",
+        "meets": "Student describes at least one similarity and one difference between fair-weather clouds and storm clouds, such as color, size, or weather they produce.",
+        "approaching": "Student attempts to compare the clouds but addresses only one aspect (similarity or difference) clearly, or uses vague descriptors like 'they look different' without specific details.",
+        "beginning": "Student makes minimal observations or provides inaccurate comparisons, such as saying storm clouds are the same or failing to describe what is visible in the image."
+      }
+    },
+    {
+      "questionText": "Why do you think we can see clouds but not the water vapor in the air around us?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that clouds are visible because they contain tiny water droplets clustered together, while invisible water vapor is individual molecules scattered in the air; recognizes that size and density affect visibility.",
+        "meets": "Student correctly states that clouds contain water droplets we can see while the air contains invisible water vapor, and identifies that the difference in form makes them visible or invisible.",
+        "approaching": "Student recognizes that clouds and air water are different forms but provides incomplete reasoning about why one is visible and the other is not.",
+        "beginning": "Student provides a minimal or vague answer such as 'clouds are thicker' without explaining the connection to visibility or the difference between water droplets and water vapor."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:50:41.997Z",
+  "cost": 0.005049
+}

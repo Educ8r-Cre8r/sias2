@@ -1,0 +1,53 @@
+{
+  "title": "Wood",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think caused some rings to be thicker than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that thicker rings form when trees have good growing conditions (more water, sunshine, or warmth) and thinner rings form during harder years, demonstrating understanding of how environment affects growth.",
+        "meets": "Student identifies that rings can be different thicknesses and connects this to the tree having good or bad years for growing, showing basic understanding of growth variation.",
+        "approaching": "Student notices that some rings are thicker or thinner but provides an incomplete explanation, such as mentioning growing conditions without connecting to ring thickness.",
+        "beginning": "Student states that rings are different sizes but cannot explain why, or provides a response unrelated to growing conditions and tree growth."
+      }
+    },
+    {
+      "questionText": "How could we figure out which tree was the oldest just by looking at these logs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that counting all the tree rings or noting that the tree with the most rings would be oldest, demonstrating understanding that each ring represents one year of growth.",
+        "meets": "Student correctly identifies that the tree with the most rings would be the oldest, showing understanding that rings relate to age.",
+        "approaching": "Student recognizes a connection between rings and age but is uncertain about whether more or fewer rings indicate an older tree, or suggests looking at other features like size.",
+        "beginning": "Student provides a vague response about comparing logs or rings but does not connect ring count to tree age."
+      }
+    },
+    {
+      "questionText": "What might happen to the forest animals when trees are cut down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple consequences such as animals losing their homes or habitat, food sources, or shelter, and may mention that some animals would need to move to find new places to live.",
+        "meets": "Student identifies that cutting down trees would negatively affect animals by removing their homes or shelter, showing understanding of basic habitat needs.",
+        "approaching": "Student recognizes that cutting trees affects animals but provides incomplete reasoning, such as mentioning animals would be sad without explaining why or what they need from trees.",
+        "beginning": "Student acknowledges that cutting trees impacts animals but gives a vague or minimally developed response without connecting to habitat or survival needs."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice when you look at all these tree rings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple observable patterns such as rings forming circles, some rings being thicker or thinner, rings being close together or far apart, and possibly notes that all logs show similar ring patterns.",
+        "meets": "Student identifies at least two clear patterns in the rings, such as that they form circles or that some are thicker and some are thinner.",
+        "approaching": "Student notices one pattern in the rings, such as them being circular or varying in size, but provides limited detail or observation.",
+        "beginning": "Student attempts to describe patterns but uses vague language or focuses on non-ring features like wood color without clearly describing ring characteristics."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:57:41.788Z",
+  "cost": 0.0047
+}

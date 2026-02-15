@@ -1,0 +1,53 @@
+{
+  "title": "Deceased Deer",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to the deer's body over a long time?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple stages of decomposition using appropriate vocabulary (such as break down, rot, decay) and explains that the body gradually returns to the soil over time.",
+        "meets": "Student explains that the deer's body will break down or decay and eventually disappear or become part of the ground.",
+        "approaching": "Student mentions that the body will change or go away, but explanation is vague or incomplete (e.g., 'it will get smaller' without explaining why).",
+        "beginning": "Student provides a minimal response with little detail, such as 'it will be gone' or 'it will rot,' with no further explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think it's important for dead plants and animals to break down in nature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that decomposition returns nutrients to soil for plants to use, and connects this to the cycle of life or food chain (e.g., 'plants need nutrients to grow, and animals eat those plants').",
+        "meets": "Student identifies that breaking down dead things helps plants grow or puts nutrients back into the soil, showing understanding of basic decomposition's purpose.",
+        "approaching": "Student recognizes that decomposition is important but gives an incomplete reason, such as 'it helps things grow' without explaining the nutrient connection.",
+        "beginning": "Student gives a minimal or unclear response, such as 'it's important because it is' or 'animals need it,' showing little understanding of decomposition's role."
+      }
+    },
+    {
+      "questionText": "How might the soil be different in a place where many animals have died and broken down compared to a place where no animals have died?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that soil with decomposed animals is richer or has more nutrients, darker, better for plant growth, or has more living things in it, using specific observations and reasoning.",
+        "meets": "Student explains that soil where animals died and broke down would be better for plants to grow or would have more nutrients in it.",
+        "approaching": "Student notes a difference between the two soils (e.g., 'the soil would be different') but provides limited explanation or reasoning for why.",
+        "beginning": "Student attempts an answer but provides vague or inaccurate information, such as 'the soil would be yucky' with no scientific reasoning."
+      }
+    },
+    {
+      "questionText": "What living things do you think might use the nutrients from this deer's body to grow?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple types of living things (such as plants, bacteria, fungi, insects, worms) that use nutrients from decomposition and explains how they benefit.",
+        "meets": "Student names at least two living things (such as plants, mushrooms, worms, or bugs) that would use nutrients from the deer's body.",
+        "approaching": "Student identifies one type of living thing that might use the nutrients, with limited explanation of how or why.",
+        "beginning": "Student provides a minimal answer with little detail or accuracy, such as naming only one organism without context or giving an unclear response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:15:01.183Z",
+  "cost": 0.004938
+}

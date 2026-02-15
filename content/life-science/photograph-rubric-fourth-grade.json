@@ -1,0 +1,53 @@
+{
+  "title": "Ecosystem",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that this forest provides homes for different types of animals?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific habitats (e.g., dense trees for nesting, ground cover for small animals, different tree heights) and explains how each supports different animals with accurate details.",
+        "meets": "Student identifies at least two types of habitats or features in the forest and explains how they could provide homes for animals.",
+        "approaching": "Student identifies one or two forest features that could be animal homes but provides limited or incomplete explanations of how animals use them.",
+        "beginning": "Student makes a simple observation about the forest having animals or trees but provides little evidence or unclear connections to animal habitats."
+      }
+    },
+    {
+      "questionText": "How might building the road through this forest have changed life for the animals living there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple specific impacts (habitat loss, splitting animal populations, noise pollution, danger to crossing animals) with clear explanations of how each affects different forest animals.",
+        "meets": "Student identifies at least two ways the road affects animals, such as loss of habitat or difficulty moving through the forest.",
+        "approaching": "Student identifies one impact of the road on animals but explanation is general or incomplete; may confuse cause and effect.",
+        "beginning": "Student acknowledges the road exists but provides vague or minimal explanation of its effects on forest animals."
+      }
+    },
+    {
+      "questionText": "If you could shrink down and explore different layers of this forest, what differences might you observe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple forest layers (canopy, understory, forest floor) with specific details about light, plants, animals, and living conditions unique to each layer.",
+        "meets": "Student describes at least two different forest layers and identifies how they differ in terms of light, plants, or other features.",
+        "approaching": "Student recognizes that forests have different areas or layers but descriptions are vague or only partially accurate.",
+        "beginning": "Student attempts to describe forest differences but provides minimal or unclear details about layers."
+      }
+    },
+    {
+      "questionText": "What connections can you make between this forest and your own daily life?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student makes multiple specific, thoughtful connections (air/oxygen production, water cycling, food sources, building materials, recreation, climate benefits) with clear explanations of why forests matter to humans.",
+        "meets": "Student makes at least two logical connections between forests and daily life with reasonable explanations.",
+        "approaching": "Student makes one connection between the forest and daily life, or makes multiple connections that are general or not fully explained.",
+        "beginning": "Student attempts a connection but explanation is vague, unclear, or shows limited understanding of forest benefits."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:41:13.967Z",
+  "cost": 0.004402
+}

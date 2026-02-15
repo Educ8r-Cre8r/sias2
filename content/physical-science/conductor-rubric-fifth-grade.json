@@ -1,0 +1,53 @@
+{
+  "title": "Conductor",
+  "category": "physical-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we removed one of the wires from this circuit?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the light bulb would stop glowing and explains that electricity needs a complete path (closed circuit) to flow, using accurate vocabulary like 'complete circuit' or 'closed loop.'",
+        "meets": "Student correctly predicts the light bulb would stop glowing and provides a reasonable explanation that the wire is needed for electricity to travel.",
+        "approaching": "Student predicts the light would go out but provides an incomplete or partially accurate explanation, such as 'the electricity needs the wire' without mentioning a complete path.",
+        "beginning": "Student makes a prediction but provides no explanation, an inaccurate explanation, or suggests the light would stay on."
+      }
+    },
+    {
+      "questionText": "Why do you think the light bulb glows when connected to the battery but not when sitting by itself?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the battery provides electrical energy that flows through the circuit, converting electrical energy to light energy, and identifies that a solo bulb lacks an energy source.",
+        "meets": "Student explains that the battery provides the electricity or power needed to make the light bulb glow, and recognizes the bulb alone cannot produce light.",
+        "approaching": "Student identifies that the battery is needed and the bulb produces light, but the explanation of how they work together is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as 'the battery makes it glow' with little elaboration or understanding of the energy transfer involved."
+      }
+    },
+    {
+      "questionText": "How is this simple circuit similar to turning on a light switch in your house?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both use a closed circuit to allow electricity to flow and identifies the switch as a tool to control whether the circuit is complete or broken, connecting to real-world electricity.",
+        "meets": "Student recognizes that both involve electricity flowing to create light and notes that a switch controls whether electricity flows through the system.",
+        "approaching": "Student makes a partial connection between the circuit and a light switch but explanation lacks clarity about how the switch controls the flow of electricity.",
+        "beginning": "Student makes a vague connection ('they both have electricity' or 'they both make light') without explaining the role of a switch or complete circuit."
+      }
+    },
+    {
+      "questionText": "What other materials could we test to see if they conduct electricity like the copper wire does?",
+      "bloomsLevel": "Generate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple testable materials (both conductors like aluminum foil or metal paper clips and insulators like rubber or plastic) and predicts which would likely conduct electricity based on material properties.",
+        "meets": "Student suggests at least two different materials that could be tested in place of the copper wire, demonstrating understanding of material variety for testing.",
+        "approaching": "Student suggests one or two materials but provides little reasoning, or suggests materials that are unclear or difficult to test in a circuit.",
+        "beginning": "Student suggests a material with no explanation, or provides vague/unclear suggestions that show minimal understanding of what could be tested."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:58:53.207Z",
+  "cost": 0.004842
+}

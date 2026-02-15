@@ -1,0 +1,53 @@
+{
+  "title": "Raccoon",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts do you notice on this raccoon and how might they help it survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least three raccoon body parts (fur, eyes, ears, paws, tail) and explains how each specifically helps the raccoon survive (e.g., \"The mask helps hide its eyes so other animals don't see it\"; \"Paws help it climb and catch food\").",
+        "meets": "Student identifies two or more raccoon body parts and explains how at least two help the raccoon survive with accurate, simple descriptions.",
+        "approaching": "Student identifies one or two body parts and attempts to explain how they help, but explanations are incomplete or partially unclear.",
+        "beginning": "Student names only one body part or provides minimal description with little or no explanation of survival value."
+      }
+    },
+    {
+      "questionText": "Why do you think the raccoon chose to rest on this tree stump instead of other places?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple logical reasons connected to habitat features in the photo, such as safety from predators, shade for cooling, protection from weather, or good view of surroundings, with clear explanations.",
+        "meets": "Student gives at least two reasonable reasons why the tree stump is a good resting place, such as shelter, shade, or safety.",
+        "approaching": "Student provides one reason or multiple reasons that show partial understanding but lack clear connection to the photograph details.",
+        "beginning": "Student provides a vague answer (\"because it's nice\" or \"I don't know\") with no clear reasoning or connection to the habitat."
+      }
+    },
+    {
+      "questionText": "How are a raccoon's needs similar to and different from your needs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two similarities (food, water, shelter, rest) and two differences (type of food, where we sleep, how we find shelter) with specific, grade-appropriate examples.",
+        "meets": "Student identifies at least one similarity and one difference between raccoon and human needs with accurate, simple explanations.",
+        "approaching": "Student attempts to compare needs but descriptions are vague or show only partial understanding of either similarities or differences.",
+        "beginning": "Student provides minimal response with little evidence of understanding animal or human needs."
+      }
+    },
+    {
+      "questionText": "What would happen if this forest habitat changed and there were no more fallen logs or trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences such as: raccoons losing shelter/shade, having fewer places to rest, losing food sources from decaying logs, or needing to find new habitats, with clear reasoning about habitat changes.",
+        "meets": "Student describes at least one or two realistic consequences for the raccoon if fallen logs disappeared, such as losing shelter, shade, or food sources.",
+        "approaching": "Student identifies that the change would negatively affect the raccoon but explanations lack specific details or clear reasoning.",
+        "beginning": "Student provides a vague or minimal response (\"it would be bad\") with little connection to the raccoon's actual needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:41:36.925Z",
+  "cost": 0.004775
+}

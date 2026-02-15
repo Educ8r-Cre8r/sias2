@@ -1,0 +1,53 @@
+{
+  "title": "Bell Pepper",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we planted these seeds?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that seeds would grow into pepper plants and describes a detail about growth, such as stems, leaves, or new peppers forming.",
+        "meets": "Student predicts that seeds would grow into pepper plants or that something would grow from the seeds.",
+        "approaching": "Student makes a prediction related to growth but is vague or uncertain, such as saying 'something might happen' or 'it could grow.'",
+        "beginning": "Student provides a minimal response like 'I don't know' or makes a prediction unrelated to plant growth."
+      }
+    },
+    {
+      "questionText": "Why do you think the seeds are inside the pepper instead of outside?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that seeds are inside the pepper for protection and/or identifies that the pepper keeps seeds safe from harm or animals.",
+        "meets": "Student recognizes that seeds are inside the pepper for a reason, such as for protection or to keep them safe.",
+        "approaching": "Student acknowledges that seeds being inside might be important but provides unclear or incomplete reasoning.",
+        "beginning": "Student responds with 'I don't know' or provides a response that does not address why seeds would be protected or kept inside."
+      }
+    },
+    {
+      "questionText": "What other foods have you eaten that might have seeds inside?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more foods with seeds inside (such as watermelon, apple, tomato, cucumber) and may describe where the seeds are located.",
+        "meets": "Student identifies two foods that have seeds inside, such as watermelon and apple, or tomato and orange.",
+        "approaching": "Student identifies one food with seeds inside or names foods that may have seeds but with uncertain details.",
+        "beginning": "Student struggles to name foods with seeds or provides an inaccurate response such as naming foods without seeds."
+      }
+    },
+    {
+      "questionText": "How do you think this pepper got its seeds in the first place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the pepper plant made or grew the seeds, or that seeds came from a pepper plant or flower.",
+        "meets": "Student recognizes that the seeds came from the pepper plant or came from nature/growth in some way.",
+        "approaching": "Student attempts to explain the origin of seeds but provides incomplete or vague reasoning, such as 'it just has them.'",
+        "beginning": "Student responds with 'I don't know' or provides a response unrelated to plant growth or pepper plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:39:58.878Z",
+  "cost": 0.004205
+}

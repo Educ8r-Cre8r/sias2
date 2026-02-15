@@ -1,0 +1,53 @@
+{
+  "title": "Turtles",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the turtle's shell shape helps it survive in its wetland home?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple survival functions of the shell's shape (protection from predators, streamlined for swimming, ability to retreat inside) and connects shell design to specific wetland challenges or predators.",
+        "meets": "Student explains that the shell shape provides protection and helps the turtle survive, with at least one accurate detail about how it functions in a wetland environment.",
+        "approaching": "Student recognizes the shell provides some form of protection but explanation is incomplete or vague; may mention only one basic function without clear connection to wetland survival.",
+        "beginning": "Student provides a minimal response about the shell (e.g., 'it protects it') with little or no explanation of how this helps survival in a wetland."
+      }
+    },
+    {
+      "questionText": "What would happen to the wetland ecosystem if all the turtles disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple interconnected effects on the ecosystem (changes to food webs, plant growth, water quality, or predator-prey relationships) and explains how turtles' role as both predators and prey creates ripple effects throughout the habitat.",
+        "meets": "Student identifies at least two consequences of turtle disappearance (e.g., changes to food chains, overpopulation of prey species, or impact on other animals) with reasonable explanations.",
+        "approaching": "Student mentions one or two potential changes but reasoning is incomplete; may show understanding that turtles are part of the ecosystem but cannot fully explain cascading effects.",
+        "beginning": "Student provides a vague or inaccurate response (e.g., 'the wetland would be sad') with minimal evidence of understanding ecosystem relationships."
+      }
+    },
+    {
+      "questionText": "Why might the smaller turtle be staying close to the larger one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes multiple plausible explanations (protection from predators, learning/mimicking behavior, thermoregulation, or family relationship) and supports reasoning with evidence from turtle behavior or biology.",
+        "meets": "Student suggests a reasonable explanation (such as protection, seeking warmth, or following) with some logical support based on animal behavior or survival needs.",
+        "approaching": "Student offers a possible reason but explanation lacks clear logic or biological reasoning; response may be partially accurate but incomplete.",
+        "beginning": "Student makes a guess with little or no scientific reasoning (e.g., 'they're friends') or provides an inaccurate response."
+      }
+    },
+    {
+      "questionText": "What evidence can you find in the photo that shows this is a healthy habitat for turtles?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific habitat features (water present, vegetation/green plants, basking spot on log, absence of pollution, shelter options) and explains why each supports turtle health and survival.",
+        "meets": "Student points out at least two visible habitat features (such as water, plants, resting areas) and explains how they support turtles living in the wetland.",
+        "approaching": "Student identifies one or two features (e.g., 'there's water' or 'there are plants') but provides minimal explanation of why these matter for turtle health.",
+        "beginning": "Student names something visible in the photo but does not explain its connection to turtle health or habitat quality; response shows limited observation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:44:32.549Z",
+  "cost": 0.005131
+}

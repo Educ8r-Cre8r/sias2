@@ -1,0 +1,53 @@
+{
+  "title": "Deceased Deer",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the deer's body over the next few months?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple stages of decomposition (breaking down, becoming skeleton, returning to soil) and identifies specific decomposers or processes (bacteria, fungi, insects) that will cause these changes.",
+        "meets": "Student explains that the deer's body will break down or decay over time and mentions at least one thing that will help this process happen (decomposers, weather, or time).",
+        "approaching": "Student recognizes the body will change or break down but provides limited details about how or why, or mentions only vague processes without specifics.",
+        "beginning": "Student provides a minimal response such as 'it will disappear' or 'it will rot' with little explanation of the decomposition process."
+      }
+    },
+    {
+      "questionText": "Why is it important for animals to die and decompose in an ecosystem? What would happen if dead things never broke down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that decomposition returns nutrients to soil for plants and describes a consequence of no decomposition (piling up, blocking sunlight, preventing nutrients from cycling) with clear reasoning about ecosystem disruption.",
+        "meets": "Student identifies that decomposition is important because it returns materials to the soil/earth for plants to use, or recognizes that without decomposition things would pile up or ecosystems would have problems.",
+        "approaching": "Student indicates decomposition is important but reasoning is incomplete or partially accurate; may mention nutrients or soil but with limited explanation of why this matters.",
+        "beginning": "Student provides a vague answer such as 'it's natural' or 'things need to break down' without explaining the purpose or consequences."
+      }
+    },
+    {
+      "questionText": "What are decomposers, and where do they live? Can you think of any decomposers you've seen?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly defines decomposers as organisms that break down dead things, identifies at least two specific examples (bacteria, fungi, earthworms, millipedes, insects), and describes where they live (soil, rotting wood, dead leaves).",
+        "meets": "Student explains that decomposers break down dead material and names at least one specific decomposer (worm, fungus, mushroom, beetle) or describes where they are commonly found.",
+        "approaching": "Student identifies decomposers as 'things that break down dead stuff' but provides limited examples or vague locations; may confuse decomposers with other organisms.",
+        "beginning": "Student attempts to define decomposers but response is unclear or inaccurate; cannot provide specific examples or locations."
+      }
+    },
+    {
+      "questionText": "Compare how this deer's body will help new plants and animals grow in this forest. How is decomposition like recycling?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that nutrients from the deer return to soil to feed plants, and plants feed animals; connects decomposition to recycling by describing how materials are reused rather than thrown away, using specific examples (nutrients, energy, materials).",
+        "meets": "Student describes that the deer's body provides nutrients for plants or that decomposition is like recycling because nothing is wasted and materials are used again in nature.",
+        "approaching": "Student makes a partial connection between the deer decomposing and helping nature grow, or identifies that decomposition is similar to recycling but with incomplete reasoning about how materials are reused.",
+        "beginning": "Student attempts the comparison but reasoning is unclear; may state they are similar without explaining why or provide only surface-level observations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:15:19.410Z",
+  "cost": 0.005362
+}

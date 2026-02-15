@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the lizard's skin looks compared to the tree bark?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific similarities (color, texture, bumpy appearance) between the lizard's skin and bark, using descriptive words like rough, brown, or bumpy.",
+        "meets": "Student accurately describes at least two ways the lizard's skin looks similar to the tree bark, such as the color being brown or the texture being bumpy.",
+        "approaching": "Student notices that the lizard and bark look somewhat alike, but provides only one vague comparison or uses limited descriptive language.",
+        "beginning": "Student makes a simple observation but may confuse details or state that the lizard and bark look different rather than similar."
+      }
+    },
+    {
+      "questionText": "How do you think the lizard's skin color helps it stay safe?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that the brown color helps the lizard blend in or hide from predators, using terms like camouflage or 'blends in,' and connects this to staying safe.",
+        "meets": "Student explains that the lizard's brown color helps it hide or stay safe because it looks like the tree, showing understanding of basic camouflage.",
+        "approaching": "Student attempts to explain how color helps, but the reasoning is incomplete or somewhat unclear (e.g., 'the color helps it' without explaining why or how).",
+        "beginning": "Student provides a minimal response about color and safety that shows little understanding of how appearance provides protection."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that match their surroundings?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals and specifically describes how each one matches its surroundings (e.g., 'A green frog blends in with leaves' or 'A white rabbit hides in snow').",
+        "meets": "Student names at least one animal that matches its surroundings and provides a simple explanation of where it blends in (e.g., a bird in a tree or a butterfly on a flower).",
+        "approaching": "Student names an animal but provides minimal or unclear explanation of how it matches its surroundings.",
+        "beginning": "Student names an animal but does not explain how it matches its surroundings, or response shows unclear thinking about the concept."
+      }
+    },
+    {
+      "questionText": "If this lizard lived in a snowy place instead of on trees, what color do you think it might be and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the lizard would be white or light-colored and explains that this would help it blend in with snow or stay hidden from predators in a snowy environment.",
+        "meets": "Student predicts a light or white color for a snowy place and provides a basic reason, such as 'it would blend in with the snow' or 'it would be hard to see.'",
+        "approaching": "Student makes a prediction about color change but gives limited or incomplete reasoning about why the color would help in snow.",
+        "beginning": "Student makes a prediction but provides no explanation, or the prediction does not connect to camouflage or safety in snow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:32:53.306Z",
+  "cost": 0.004908
+}

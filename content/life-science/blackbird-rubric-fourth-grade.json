@@ -1,0 +1,53 @@
+{
+  "title": "Blackbird",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How does this bird's beak shape help it find food that other birds might miss?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies the pointed beak shape and explains how it allows the bird to probe into grass, soil, or small spaces to find insects or seeds that birds with different beak shapes cannot access, and may mention specific prey like worms or grubs.",
+        "meets": "Student describes the pointed beak and explains that it helps the bird find food in the grass or ground, noting that other birds with different beak shapes might not be able to reach the same food sources.",
+        "approaching": "Student notices the beak is pointed or long and mentions it helps find food, but the explanation is vague or incomplete (e.g., 'it helps it dig' without explaining why this matters).",
+        "beginning": "Student makes a simple observation about the beak (e.g., 'it has a pointy beak') but provides no clear explanation of how this helps it find food, or the response is inaccurate."
+      }
+    },
+    {
+      "questionText": "What would happen to this bird species if all the grass areas disappeared from their habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the bird would lose its food source and shelter, predict the population would decline or relocate, and may discuss why grass-dwelling birds are dependent on this specific habitat, showing cause-and-effect reasoning.",
+        "meets": "Student predicts the bird would have trouble finding food or surviving, explaining that grass is where the bird hunts and lives, leading to negative consequences for the species.",
+        "approaching": "Student recognizes that losing grass would be bad for the bird, but the explanation lacks detail about why (e.g., 'it wouldn't have food' without connecting to what food is found in grass).",
+        "beginning": "Student provides a minimal or unclear response, such as 'the bird would die' without any reasoning, or an inaccurate statement about the bird's habitat needs."
+      }
+    },
+    {
+      "questionText": "Why might this bird be more successful at finding food on a dewy morning compared to a dry afternoon?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dew or moisture makes insects and worms more visible or easier to locate on the grass surface, and may infer that insects are more active or exposed in cool, wet conditions, showing connection between environmental conditions and animal behavior.",
+        "meets": "Student recognizes that water droplets on grass (visible in the photo) make it easier for the bird to see or find food, or that insects are more active or visible when it's dewy.",
+        "approaching": "Student attempts to connect dew to food-finding success but the explanation is incomplete (e.g., 'it's easier to see' or 'bugs come out' without clear reasoning).",
+        "beginning": "Student provides a vague answer unrelated to the photo or habitat conditions, such as 'the bird is hungrier' or no response demonstrating understanding of morning dew and insect behavior."
+      }
+    },
+    {
+      "questionText": "How do you think this bird's feeding behavior compares to how a hawk or eagle finds food?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student contrasts the blackbird's ground-foraging behavior with a hawk or eagle's hunting strategy (aerial hunting, catching larger prey), and explains how different beak shapes and body sizes support these different feeding methods.",
+        "meets": "Student identifies key differences, such as the blackbird forages on the ground for small prey while hawks or eagles hunt from the air and catch larger animals, showing understanding of two different feeding strategies.",
+        "approaching": "Student mentions one difference between the birds' feeding behaviors (e.g., 'one hunts in the air, one hunts on the ground') but lacks detail or clarity about why these differences exist.",
+        "beginning": "Student attempts a comparison but provides inaccurate or vague information, such as 'they both find food' or no clear distinction between ground-foraging and aerial hunting."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:23:02.450Z",
+  "cost": 0.005816
+}

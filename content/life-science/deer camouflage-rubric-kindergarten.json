@@ -1,0 +1,53 @@
+{
+  "title": "Deer Camouflage",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the deer's fur color compares to the grass around them?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the deer's brown fur is the same color as the golden grass and explains that this makes the deer hard to see, using color words accurately.",
+        "meets": "Student notices that the deer's fur and grass are similar colors or that the deer blends in with its surroundings.",
+        "approaching": "Student makes a simple observation about the deer or grass but does not clearly compare the two or connect them to hiding.",
+        "beginning": "Student gives a vague response like 'they look the same' or 'the deer is brown' without making a clear comparison."
+      }
+    },
+    {
+      "questionText": "Why do you think it helps deer to be hard to see?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that being hard to see helps deer stay safe from animals that might hunt them, showing understanding of predator-prey relationships.",
+        "meets": "Student gives a reasonable reason such as 'it helps them hide' or 'so other animals can't find them' or 'it keeps them safe.'",
+        "approaching": "Student offers a partial explanation like 'so they don't get found' but lacks clarity about why this matters.",
+        "beginning": "Student responds with 'I don't know' or gives an unrelated answer like 'to play hide and seek.'"
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that are hard to spot in their homes?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names a specific animal and describes how it blends into its environment, showing understanding that multiple animals use camouflage.",
+        "meets": "Student names one or two animals that can be hard to see, such as squirrels, rabbits, or birds in trees.",
+        "approaching": "Student names an animal but doesn't explain how it hides, or names an animal that doesn't clearly relate to camouflage.",
+        "beginning": "Student cannot name an animal or names one that is very easy to see, like a bright red bird or zebra."
+      }
+    },
+    {
+      "questionText": "How might a deer's camouflage help it in different seasons when the grass changes color?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the deer's brown fur helps it blend with grass in some seasons and suggests what might happen in other seasons (e.g., 'in winter with snow, the brown wouldn't work as well') or that this is a challenge for deer.",
+        "meets": "Student recognizes that the deer's camouflage works well when grass is brown or golden and understands it might not work the same way when the environment changes color.",
+        "approaching": "Student shows some awareness that seasons change and grass color changes but doesn't clearly connect this to how the deer's camouflage is affected.",
+        "beginning": "Student doesn't address seasonal changes or provides an unrelated response about seasons."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:24:47.984Z",
+  "cost": 0.004674
+}

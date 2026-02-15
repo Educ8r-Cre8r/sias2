@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the shape of these arches?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the curved shape using precise language (like 'curved,' 'rounded,' or 'bent') and identifies multiple features, such as how the arch curves up and down or that it is tall and smooth.",
+        "meets": "Student accurately describes the arches as curved or rounded and notes at least one characteristic like their height or smooth appearance.",
+        "approaching": "Student identifies that the arches are curved but description lacks detail or uses vague language; may only note one basic feature.",
+        "beginning": "Student makes a minimal attempt to describe the shape with very simple words or provides an unclear/inaccurate response about what the arches look like."
+      }
+    },
+    {
+      "questionText": "How do you think these metal arches stay standing up?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the curved shape and strong metal material work together to hold the arch up, demonstrating understanding that both shape and material matter for stability.",
+        "meets": "Student explains that either the metal is strong enough to hold it up or that the curved shape helps it stand, showing partial understanding of arch strength.",
+        "approaching": "Student makes a guess about why it stays up but reasoning is unclear or only partially connected to material strength or shape properties.",
+        "beginning": "Student provides a vague response like 'it just does' or 'it's strong' without any explanation of how shape or material helps it stand."
+      }
+    },
+    {
+      "questionText": "What would happen if we tried to build these arches with different materials like paper or wood?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that paper or wood would not work and explains with specific reasoning, such as 'paper is too thin and would tear' or 'wood might break because it's not as strong as metal.'",
+        "meets": "Student predicts the arches would fail or be different and provides a basic reason related to material weakness or strength.",
+        "approaching": "Student makes a prediction but gives incomplete or unclear reasoning about why the material would not work for building arches.",
+        "beginning": "Student makes a prediction with little or no explanation, or provides an inaccurate response about how materials would affect the structure."
+      }
+    },
+    {
+      "questionText": "Where else have you seen curved structures in your neighborhood?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two specific curved structures from their neighborhood (like a playground slide, rainbow, tunnel, or bridge) and explains why each one is curved.",
+        "meets": "Student identifies at least one real curved structure from their neighborhood with a reasonable explanation of where they saw it.",
+        "approaching": "Student names a curved structure but provides vague location details or the example is unclear or difficult to verify from their neighborhood.",
+        "beginning": "Student attempts to name a structure but it is unclear, unrelated to their neighborhood, or provided with minimal detail."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:59:57.395Z",
+  "cost": 0.004568
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Looking at the plover's gray and white feathers, why do you think these colors help the bird survive in this rocky habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gray and white feathers match the colors of rocks and pebbles, making the plover hard to see (camouflage), and provides specific examples of how this helps the bird avoid predators or hide while hunting.",
+        "meets": "Student correctly identifies that the plover's gray and white colors help it blend in with its rocky surroundings, making it harder for predators to spot the bird.",
+        "approaching": "Student recognizes that the plover's colors relate to its environment but provides incomplete reasoning, such as stating the colors \"match the rocks\" without explaining why this helps survival.",
+        "beginning": "Student provides a minimal or unclear response, such as \"the colors help it\" or makes inaccurate statements about camouflage or habitat matching."
+      }
+    },
+    {
+      "questionText": "If a plover lived in a green forest instead of rocky ground, what problems might its gray coloring cause, and how might that affect its survival?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that gray feathers would stand out against green forest colors, making the plover visible to predators, and describes specific consequences such as increased danger or difficulty hiding from threats, demonstrating understanding of how environment and adaptation must match.",
+        "meets": "Student identifies that gray coloring would make the plover stand out in a green forest and would make it easier for predators to see, concluding this would harm the bird's survival.",
+        "approaching": "Student recognizes that gray and green don't match but provides incomplete reasoning about the survival impact, such as only stating \"predators would see it\" without explaining the consequences.",
+        "beginning": "Student provides a vague response such as \"it wouldn't work\" or makes inaccurate statements about color-matching without logical explanation of survival effects."
+      }
+    },
+    {
+      "questionText": "Describe how the plover's eye and brain work together when the bird sees a predator approaching.",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the eye sees the predator and sends information to the brain, which decides what action to take (like flying away or freezing), demonstrating understanding of the sensory-to-brain-to-response pathway.",
+        "meets": "Student describes that the plover's eye sees the predator and the brain helps the bird decide to move or escape, showing basic understanding of eye-brain coordination.",
+        "approaching": "Student identifies that the eye and brain are involved but provides incomplete or unclear explanation, such as \"the eye sees it and the brain helps\" without describing what happens next.",
+        "beginning": "Student provides a minimal response such as \"the eye sees it\" or makes inaccurate statements about eye-brain function without clear connection to predator awareness."
+      }
+    },
+    {
+      "questionText": "What might happen to a population of plovers if all their rocky habitats were covered with green grass and plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that plovers would become easy to spot against green grass due to their gray feathers, leading to increased predation, and predicts that the population would decrease significantly or plovers would need to leave the area to survive.",
+        "meets": "Student identifies that the habitat change would make plovers more visible to predators, resulting in fewer birds surviving and the population declining.",
+        "approaching": "Student recognizes that the habitat change is a problem for plovers but provides incomplete reasoning about population effects, such as saying \"they wouldn't be safe\" without explaining population-level consequences.",
+        "beginning": "Student provides a vague or minimally accurate response such as \"the plovers would have problems\" without explaining how this affects the entire population or why habitat loss matters."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:16:07.621Z",
+  "cost": 0.005595
+}

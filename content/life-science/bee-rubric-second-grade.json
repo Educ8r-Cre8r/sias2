@@ -1,0 +1,53 @@
+{
+  "title": "Bee",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the bee's body that might help it do its job?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more body features (fuzzy body, legs, wings, eyes) and explains how each one helps the bee with its job, such as fuzzy body collecting pollen or wings for flying.",
+        "meets": "Student identifies two body features and explains how at least one helps the bee do its job, such as noting legs for holding onto flowers or fuzzy body for collecting pollen.",
+        "approaching": "Student identifies one or two body features but provides limited or unclear explanation of how they help, such as mentioning the bee is fuzzy or has legs without connecting to function.",
+        "beginning": "Student names a body part (wings, legs, fuzz) with no explanation, or describes the bee's appearance without connecting to how it helps the bee work."
+      }
+    },
+    {
+      "questionText": "How do you think bees and flowers help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains both parts of the relationship: bees get food (nectar/pollen) from flowers, and flowers get help making seeds when bees move pollen between them.",
+        "meets": "Student describes a helpful relationship between bees and flowers, such as bees getting food from flowers or flowers being pollinated, showing basic understanding of mutual benefit.",
+        "approaching": "Student recognizes that bees and flowers are connected or that one helps the other, but explanation is vague or incomplete, such as only mentioning bees visit flowers without explaining why.",
+        "beginning": "Student provides a minimal response like 'they help each other' or 'bees like flowers' with little detail or reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen to plants if there were no bees?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts plants would have trouble making seeds or fruit and explains that without bees to move pollen, plants cannot reproduce, showing understanding of cause and effect.",
+        "meets": "Student predicts a reasonable consequence such as plants not making seeds, not growing, or dying, showing understanding that bees are important to plants.",
+        "approaching": "Student recognizes something bad would happen to plants but provides vague reasoning, such as 'plants would die' without explaining the connection to pollination or reproduction.",
+        "beginning": "Student makes a minimal prediction like 'plants would be sad' or 'bees help plants' without explaining any consequence or cause-and-effect relationship."
+      }
+    },
+    {
+      "questionText": "Where do you think this bee lives and what does it need to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a realistic habitat (garden, meadow, hive) and lists three or more survival needs such as flowers for food, water, shelter, and a safe place to lay eggs.",
+        "meets": "Student identifies a reasonable habitat and lists two survival needs, such as flowers for food and a safe place to live, showing understanding of bee habitat requirements.",
+        "approaching": "Student identifies a habitat or survival needs but reasoning is incomplete, such as mentioning only food or only where it lives without full explanation.",
+        "beginning": "Student provides minimal response like 'outside' or 'bees need flowers' with little detail about habitat or multiple survival needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:22:01.566Z",
+  "cost": 0.004977
+}

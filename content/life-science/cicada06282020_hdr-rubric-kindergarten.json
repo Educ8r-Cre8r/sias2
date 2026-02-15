@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how this cicada looks different from other bugs you've seen?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies 3+ specific physical features of the cicada (such as clear wings, large eyes, brown color, or thick body) and compares them to other bugs they know.",
+        "meets": "Student identifies 2 specific physical features of the cicada and makes at least one comparison to another bug.",
+        "approaching": "Student identifies 1 specific feature of the cicada or makes a general statement about how it looks different, but reasoning is incomplete.",
+        "beginning": "Student makes a vague observation about the cicada (like \"it's big\" or \"it's different\") with little specific detail or comparison."
+      }
+    },
+    {
+      "questionText": "Why do you think cicadas make such loud sounds?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a logical reason for cicada sounds (such as communication, finding mates, or warning others) and explains how the sound might help the cicada survive or live.",
+        "meets": "Student provides a reasonable reason for cicada sounds (such as talking to other cicadas, finding friends, or calling) that shows basic understanding of animal behavior.",
+        "approaching": "Student offers a possible reason for cicada sounds but the explanation is unclear or only partially connected to animal behavior or survival.",
+        "beginning": "Student gives a vague answer (like \"to be loud\") or a reason not connected to why animals make sounds."
+      }
+    },
+    {
+      "questionText": "How might living underground for years help cicadas survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains 2+ ways underground living helps cicadas survive, such as protection from predators, staying safe from weather, or access to food/water from roots.",
+        "meets": "Student explains 1 way that living underground helps cicadas survive, such as protection or safety from danger.",
+        "approaching": "Student acknowledges that underground living might help cicadas but the explanation is vague or only partially accurate (like \"it keeps them safe\" with no detail).",
+        "beginning": "Student shows minimal understanding, offering unclear or inaccurate statements about why cicadas live underground."
+      }
+    },
+    {
+      "questionText": "What would happen if there were no cicadas in the forest?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple effects of missing cicadas on the forest ecosystem, such as loss of food for animals, changes to the forest environment, or impacts on other living things.",
+        "meets": "Student describes 1-2 reasonable effects, such as animals losing a food source or the forest becoming different in some way.",
+        "approaching": "Student offers a possible effect but with limited detail or unclear reasoning about how cicadas affect the forest.",
+        "beginning": "Student gives a minimal response that shows little understanding of how cicadas affect other living things or the forest."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:23:19.011Z",
+  "cost": 0.004531
+}

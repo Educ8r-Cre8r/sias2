@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you find in this photo that shows this garden meets the mourning dove's basic survival needs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three basic needs (food, water, shelter) and explains specifically how the garden provides each (e.g., seeds from plants, water in the pot, protection from predators among flowers).",
+        "meets": "Student identifies two basic needs and provides reasonable explanations for how the garden meets them with references to visible elements.",
+        "approaching": "Student identifies one or two basic needs but explanations are vague or only partially connected to visible garden features.",
+        "beginning": "Student mentions the dove or garden but provides minimal or inaccurate information about what the bird needs to survive."
+      }
+    },
+    {
+      "questionText": "How might the dove's behavior change if one element of this habitat was removed, like the plants or water source?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts specific behavioral changes for removing plants OR water, explains the cause-and-effect relationship clearly, and identifies what the dove would need to do instead (e.g., find food elsewhere, visit more frequently, leave the area).",
+        "meets": "Student predicts how removing one element would change the dove's behavior and provides a reasonable explanation connected to the habitat.",
+        "approaching": "Student attempts to predict a change but explanation shows incomplete understanding of why the behavior would change or lacks clear cause-and-effect reasoning.",
+        "beginning": "Student provides a minimal prediction or response that does not clearly address how removing an element would affect the dove's behavior."
+      }
+    },
+    {
+      "questionText": "What other animals might also find this garden habitat suitable, and what would they need that's the same or different from the dove?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student names at least two other animals and explains what habitat needs they share with the dove and what needs differ, showing understanding of diverse animal requirements (e.g., butterflies need nectar from flowers, squirrels need shelter in trees).",
+        "meets": "Student names one or two animals and identifies at least one shared need and one different need with reasonable explanations.",
+        "approaching": "Student names an animal but provides incomplete or partially accurate comparisons of needs; reasoning may lack clarity.",
+        "beginning": "Student names an animal but provides little or vague information about what it needs or how those needs compare to the dove's."
+      }
+    },
+    {
+      "questionText": "If you were designing a bird-friendly garden, what features would you include based on what you observe in this photo?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies at least three features from the photo (plants for food/shelter, water source, open soil area) and explains how each feature supports bird survival with specific details.",
+        "meets": "Student identifies at least two features visible in the photo and explains how each would help birds survive in a garden.",
+        "approaching": "Student identifies one or two features but explanations are general or lack clear connection to how they support bird survival.",
+        "beginning": "Student mentions a garden feature but provides minimal explanation of why it would be important for birds or the explanation is inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:38:18.613Z",
+  "cost": 0.004855
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think these animals looked like when they were alive millions of years ago?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple physical features of the sea animal (shell shape, size, color, movement) and explains how the fossil shows what the animal looked like using specific details from the photo.",
+        "meets": "Student describes what the animal looked like based on the fossil, including at least two features such as shell shape or spiral pattern, showing understanding that fossils show us ancient animals.",
+        "approaching": "Student attempts to describe what the animal looked like but provides only vague descriptions or repeats the word \"shell\" without additional details about shape or appearance.",
+        "beginning": "Student provides a minimal response such as \"it was a shell\" or \"it lived in water\" without describing what the actual animal looked like."
+      }
+    },
+    {
+      "questionText": "How do you think these sea animal fossils ended up on dry land?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the land was once covered by water or ocean and describes a logical sequence of how sea animals died, got buried, and turned into fossils as the area changed over time.",
+        "meets": "Student explains that the ocean or water used to cover this area where the fossils are now found, showing understanding that the environment changed over millions of years.",
+        "approaching": "Student recognizes that water was involved but provides an incomplete explanation, such as saying \"the water moved\" or \"the animals swam here\" without explaining how the environment changed.",
+        "beginning": "Student provides a vague or inaccurate answer such as \"someone moved them\" or \"I don't know\" with little connection to how environments change over time."
+      }
+    },
+    {
+      "questionText": "What does finding these fossils tell us about what this place was like long ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student concludes that this place was an ocean or sea long ago and explains that the presence of many sea animal fossils shows what lived here, making connections to how different environments support different animals.",
+        "meets": "Student explains that this area was covered by water or ocean long ago based on finding sea animal fossils there, demonstrating understanding that fossils tell us about past environments.",
+        "approaching": "Student states that water was here but does not fully explain why the fossils prove this, or provides only a simple statement like \"it was wet long ago.\"",
+        "beginning": "Student makes a vague observation such as \"something lived here\" without connecting the fossils to what the environment was actually like."
+      }
+    },
+    {
+      "questionText": "Why do you think we find more shell fossils than fossils of soft animal parts like jellyfish?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard shells are easier to preserve and turn into fossils because they don't break down as quickly, and contrasts this with soft bodies that decay and disappear before becoming fossils.",
+        "meets": "Student explains that shells are hard and last a long time, or that soft animals break down easily, showing understanding that hard parts preserve better than soft parts.",
+        "approaching": "Student recognizes that shells are harder or that soft things don't last, but does not clearly explain why this affects fossil formation.",
+        "beginning": "Student provides a response with little connection to preservation, such as \"because shells are cool\" or \"I don't know.\""
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:53:40.130Z",
+  "cost": 0.005063
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What can these fossils tell us about what this area was like millions of years ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that this area was once covered by ocean or water, explains that sea creatures lived there, and provides specific details about what types of environments or conditions existed based on the types of fossils shown.",
+        "meets": "Student correctly states that this area was underwater long ago and that sea creatures lived there, with some reference to what the fossils reveal about the ancient environment.",
+        "approaching": "Student recognizes that fossils come from ancient times and that some were sea creatures, but explanations about the ancient environment are vague or incomplete.",
+        "beginning": "Student provides a minimal or unclear response, such as 'fossils are old' or 'animals lived here,' with little connection to what the environment was like."
+      }
+    },
+    {
+      "questionText": "Why do you think we find more fossils of sea creatures with shells than fossils of jellyfish?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard shells preserve better than soft bodies over time, uses the term 'fossilization' or 'preservation,' and may mention that jellyfish lack hard parts needed for fossilization.",
+        "meets": "Student correctly identifies that shells are hard and preserve better than soft bodies, and explains this is why we find more shell fossils.",
+        "approaching": "Student recognizes that shells last longer than jellyfish bodies, but the explanation of why or how preservation works is incomplete or unclear.",
+        "beginning": "Student makes a guess or provides an answer with little scientific reasoning, such as 'there were more shells' or 'jellyfish disappear.'"
+      }
+    },
+    {
+      "questionText": "How might scientists use fossils like these to learn about ancient climates and environments?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that scientists can determine water temperature, ocean depth, and climate by studying what types of sea creatures lived there, and notes that different organisms live in different environments.",
+        "meets": "Student identifies that scientists can learn about ancient climate and environment by looking at what creatures lived there and what conditions they needed.",
+        "approaching": "Student understands that fossils provide information about the past, but cannot clearly explain how scientists use them to determine climate or environment details.",
+        "beginning": "Student provides a vague response such as 'fossils tell us about the past' with no clear connection to learning about ancient climates or environments."
+      }
+    },
+    {
+      "questionText": "What conditions would need to be present for a modern-day organism to become fossilized?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions such as rapid burial, presence of sediment or rock layers, water environments, hard body parts, and time, explaining how each helps preserve an organism.",
+        "meets": "Student identifies at least two conditions needed for fossilization, such as quick burial and sediment coverage, with reasonable explanations for why these conditions help.",
+        "approaching": "Student identifies one or two conditions for fossilization but explanations are incomplete or lack clear reasoning about the fossilization process.",
+        "beginning": "Student provides minimal information about fossilization conditions, such as 'it needs to be buried' or 'it needs rocks,' with little detail or explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:53:16.837Z",
+  "cost": 0.004977
+}

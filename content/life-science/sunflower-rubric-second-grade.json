@@ -1,0 +1,53 @@
+{
+  "title": "Sunflower",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to this seed before we could see the green plant?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the complete seed germination process, including that the seed was planted in soil, water was added, and the seed grew roots first before the green plant grew up. Student uses terms like \"sprouted\" or \"germinated.\"",
+        "meets": "Student explains that the seed was planted in soil and grew into a plant, or that water helped the seed start growing. Response shows understanding that seeds change into plants.",
+        "approaching": "Student identifies that something happened to make the seed grow but provides incomplete details (e.g., \"it got water\" or \"it was planted\" without connecting to growth). Explanation lacks clarity about the process.",
+        "beginning": "Student gives a vague response like \"it grew\" or \"it changed\" with little or no explanation of what caused the change or how seeds become plants."
+      }
+    },
+    {
+      "questionText": "Why do you think the plant's leaves are green while the seed shell is brown?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that green leaves contain chlorophyll or help the plant make food using sunlight, and that the brown seed shell protected the seed underground where it didn't need to be green. Student connects color to function.",
+        "meets": "Student provides a reasonable explanation such as: the green color helps the plant with sunlight or food, or the brown color protected the seed in the soil. Student shows understanding that colors serve different purposes.",
+        "approaching": "Student notes that the leaves and shell are different colors but gives only a partial explanation (e.g., \"leaves are green because plants are green\" without explaining why the seed shell is brown or what the colors do).",
+        "beginning": "Student only observes that the colors are different or gives an inaccurate explanation with no clear reasoning about why plants and seeds have different colors."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to the seed shell that's still on top of the plant?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts the seed shell will fall off or be pushed off as the plant grows taller, and explains that the plant no longer needs it for protection. Student may mention it will stay on the ground like the other shell.",
+        "meets": "Student predicts the seed shell will fall off or drop down, showing understanding that it will separate from the growing plant. Prediction is reasonable based on the photo.",
+        "approaching": "Student makes a prediction (e.g., \"it will fall off\" or \"it will stay there\") but provides little or unclear reasoning about why this will happen.",
+        "beginning": "Student gives a minimal response like \"it will fall\" or \"it will be there\" with no explanation, or an inaccurate prediction that doesn't match what typically happens to seed shells."
+      }
+    },
+    {
+      "questionText": "How is this baby plant the same as and different from a full-grown plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both green, have leaves, growing) and differences (baby plant is small with few leaves, still has seed shell; grown plant is bigger with many leaves and flowers). Uses clear comparison language.",
+        "meets": "Student provides at least one similarity and one difference between the baby and full-grown plant (e.g., \"both have green leaves, but the baby plant is smaller\" or \"both are sunflowers, but the big one has flowers\").",
+        "approaching": "Student identifies either a similarity or difference but not both, or provides only vague comparisons (e.g., \"they're both plants\" without explaining how they differ in size, shape, or features).",
+        "beginning": "Student attempts to compare but gives minimal or unclear details, such as just saying \"they're different\" or \"they look the same\" without specific examples."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:43:15.800Z",
+  "cost": 0.005601
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Conductor",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think will happen if we touch the wires to a penny? A crayon?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student makes two different predictions (one for penny, one for crayon) and explains why based on material properties, such as \"the penny is shiny metal so electricity can go through it\" and \"the crayon is waxy so electricity can't go through.\"",
+        "meets": "Student makes predictions for both objects and attempts an explanation, such as \"the penny will work\" and \"the crayon won't work,\" showing basic understanding of different materials.",
+        "approaching": "Student makes a prediction for at least one object but provides limited or unclear reasoning, such as \"the penny will light it up\" with little explanation of why.",
+        "beginning": "Student makes a vague prediction or guesses without reasoning, such as \"maybe it will work\" or \"I don't know,\" showing minimal engagement with the question."
+      }
+    },
+    {
+      "questionText": "Why do you think some things make the light work and others don't?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that some materials are conductors and others are not, using examples from the activity and explaining that electricity flows through certain materials like metal but not through others like plastic or rubber.",
+        "meets": "Student recognizes that different materials behave differently in the circuit and provides a simple explanation, such as \"some things let electricity go through and some don't.\"",
+        "approaching": "Student acknowledges that materials are different but provides incomplete reasoning, such as \"some things are different\" or mentions one type of material without clear explanation of how it affects the light.",
+        "beginning": "Student gives a minimal or unclear response, such as \"I don't know\" or \"some things just work,\" with no explanation of material properties or electricity flow."
+      }
+    },
+    {
+      "questionText": "What would happen if we took out the battery from our circuit?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student correctly predicts the light will turn off and explains that the battery provides the power or energy that makes electricity flow through the circuit to light the bulb.",
+        "meets": "Student correctly predicts the light will turn off and provides a simple reason, such as \"the battery makes it work\" or \"there's no power.\"",
+        "approaching": "Student predicts the light will turn off but gives a vague or incomplete explanation, such as \"it stops working\" without explaining why or the role of the battery.",
+        "beginning": "Student makes an incorrect prediction, is unsure, or gives no explanation, such as \"I think it will still work\" or provides no response."
+      }
+    },
+    {
+      "questionText": "How is this tiny light bulb similar to the big lights in our classroom?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities, such as \"both use electricity to make light,\" \"both have a filament or wire inside that glows,\" and \"both need power to work,\" showing understanding of how light bulbs function.",
+        "meets": "Student identifies at least one clear similarity, such as \"both make light\" or \"both need electricity to work,\" demonstrating basic understanding of light bulbs.",
+        "approaching": "Student recognizes the objects are both lights but struggles to explain how they are similar, such as \"they're both bulbs\" or \"they both light up\" without connecting to electricity or function.",
+        "beginning": "Student gives a vague response or focuses on appearance only, such as \"they're both round\" or \"I don't know,\" with little understanding of their functional similarity."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:58:14.657Z",
+  "cost": 0.005302
+}

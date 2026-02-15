@@ -1,0 +1,53 @@
+{
+  "title": "Find The Hidden Animal",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages does camouflage give this animal in its rocky habitat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific advantages of camouflage (hiding from predators, hunting prey, staying safe) and explains how the animal's coloring and pattern match the rocky environment to provide these benefits.",
+        "meets": "Student identifies at least two advantages of camouflage, such as hiding from predators or hunting for food, and explains that the animal's appearance helps it blend in with rocks.",
+        "approaching": "Student identifies one advantage of camouflage (hiding or safety) but provides limited explanation of how the rocky habitat makes camouflage helpful.",
+        "beginning": "Student provides a vague or incomplete response, such as 'it helps the animal hide' without explaining why camouflage matters in a rocky area."
+      }
+    },
+    {
+      "questionText": "How might this animal's survival be affected if it lived in a forest instead of a rocky area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the animal's camouflage would be ineffective in a forest because trees, leaves, and vegetation are different colors and textures than rocks, making the animal more visible to predators and reducing its survival chances.",
+        "meets": "Student recognizes that the animal's camouflage works for rocks but not for a forest environment, and explains this would make survival harder because predators could see it more easily.",
+        "approaching": "Student identifies that the camouflage might not work as well in a forest but provides incomplete reasoning about how different surroundings would affect the animal's visibility.",
+        "beginning": "Student gives a minimal response such as 'it would be harder' or 'it would die' without explaining the connection between camouflage and the forest environment."
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that use camouflage, and how does their camouflage match their habitat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more camouflaged animals and explains specifically how each animal's colors, patterns, or features match different habitats (e.g., snow hares in winter, spotted jaguars in forests, striped tigers in tall grass).",
+        "meets": "Student names two or more camouflaged animals and describes how their appearance helps them blend into their specific habitats, showing clear connections between animal and environment.",
+        "approaching": "Student names one or two camouflaged animals but provides limited or vague explanations of how their camouflage matches their habitat.",
+        "beginning": "Student names an animal or two but does not explain how their camouflage matches their environment, or provides inaccurate information about camouflage."
+      }
+    },
+    {
+      "questionText": "If you were designing a robot to hide in this rocky environment, what features would you give it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple specific robotic features based on the rocky habitat (varied coloring in browns/grays, textured surface, irregular shape, small size to match rock variety) and explains how each feature would help it blend in and function effectively.",
+        "meets": "Student designs a robot with at least three features appropriate to the rocky environment, such as camouflage colors, a shape similar to rocks, or a rough texture, with brief explanations of how each helps.",
+        "approaching": "Student proposes some relevant features for hiding in a rocky area (like brown coloring or rock-like shape) but the design is incomplete or reasoning is unclear.",
+        "beginning": "Student offers vague or minimally developed design ideas with little connection to the specific rocky habitat or camouflage principles."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:26:07.561Z",
+  "cost": 0.005448
+}

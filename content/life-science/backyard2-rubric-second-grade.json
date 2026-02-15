@@ -1,0 +1,53 @@
+{
+  "title": "Backyard Landscape",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the different plants are arranged in this garden?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific arrangement details (e.g., flowers grouped by color, plants at different heights, placement near fence or rocks) and explains how the arrangement helps the garden look organized or helps plants grow.",
+        "meets": "Student describes 2-3 specific details about how plants are positioned, such as flowers of the same color grouped together or plants growing near the fence.",
+        "approaching": "Student notices some plants are arranged in a particular way but provides vague descriptions (e.g., 'they're next to each other') with limited specific details.",
+        "beginning": "Student makes a general statement about the garden (e.g., 'there are plants') but does not describe how they are actually arranged."
+      }
+    },
+    {
+      "questionText": "Why do you think some flowers are orange and others are purple?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests that different plants naturally have different colors as a trait and may connect this to pollination, plant species, or genetic differences; explanation shows scientific reasoning beyond the photo.",
+        "meets": "Student explains that different types of flowers have different colors naturally, or that the flowers came from different plants or seeds.",
+        "approaching": "Student acknowledges flowers have different colors but provides incomplete reasoning, such as 'they're just different' or 'someone planted them that way' without further explanation.",
+        "beginning": "Student states that flowers are different colors but cannot explain why, or provides an inaccurate reason (e.g., 'the soil made them different colors')."
+      }
+    },
+    {
+      "questionText": "What would happen if these plants didn't get water for many days?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that plants would wilt, droop, or die and explains that water is essential for plant survival and growth; may mention how long plants can survive without water.",
+        "meets": "Student predicts plants would become unhealthy, wilted, or dead and correctly identifies that plants need water to survive.",
+        "approaching": "Student predicts something negative would happen to the plants but the explanation is incomplete or lacks connection to water's role in plant health.",
+        "beginning": "Student makes a prediction but it is vague, inaccurate, or shows little understanding of why plants need water (e.g., 'they would be bad')."
+      }
+    },
+    {
+      "questionText": "How are the plants in this garden similar to and different from each other?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least 2 similarities (e.g., all grow in soil, all need water and sunlight) and 2 differences (e.g., flower color, plant size, plant type) using specific observations from the photo.",
+        "meets": "Student identifies at least 1 similarity and 1 difference between plants with specific details, such as 'flowers are different colors but both grow in the same soil.'",
+        "approaching": "Student attempts to compare plants but provides mostly vague statements (e.g., 'they're the same and different') or only focuses on one type of comparison.",
+        "beginning": "Student makes a minimal attempt to compare plants with little specific detail or accuracy (e.g., 'they look different' without elaboration)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:21:13.829Z",
+  "cost": 0.005005
+}

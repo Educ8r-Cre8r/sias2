@@ -1,0 +1,53 @@
+{
+  "title": "Conductor",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we removed one of the wires from the battery? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the light bulb would turn off and explains that electricity needs a complete path or loop to flow, using accurate circuit terminology like 'closed circuit' or 'complete circuit.'",
+        "meets": "Student predicts the light bulb would turn off and provides a basic explanation that the electricity cannot travel or flow without all the wires connected.",
+        "approaching": "Student predicts the light bulb would turn off but provides an incomplete or partially accurate explanation, such as 'the electricity gets stuck' or 'it won't work' without clear reasoning.",
+        "beginning": "Student makes a prediction but provides no explanation, or the prediction is unclear or inaccurate (e.g., says the bulb will get brighter or stay the same)."
+      }
+    },
+    {
+      "questionText": "How is the energy changing as it moves from the battery to the light bulb?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that electrical energy from the battery is converted into light energy and heat energy in the bulb, demonstrating understanding of energy transformation.",
+        "meets": "Student describes that the battery provides energy that makes the light bulb light up, showing basic understanding of energy transfer from source to bulb.",
+        "approaching": "Student identifies that energy comes from the battery and reaches the bulb but provides vague or incomplete description of what happens to the energy.",
+        "beginning": "Student provides a minimal response such as 'energy makes the light' or 'the battery gives power' without clear description of change or transformation."
+      }
+    },
+    {
+      "questionText": "What other materials could we test to see if they conduct electricity like these wires do?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple appropriate conductors (e.g., metal spoon, aluminum foil, copper penny) and demonstrates understanding that metals conduct electricity, while also predicting that non-conductors would not work.",
+        "meets": "Student suggests at least two appropriate conductive materials like metal objects (spoons, nails, foil) that could be tested in place of the wires.",
+        "approaching": "Student suggests one appropriate material or suggests multiple materials but includes at least one non-conductor, showing partial understanding of electrical conductivity.",
+        "beginning": "Student provides vague suggestions like 'other things' or suggests mostly non-conductors (plastic, wood, rubber) without reasoning about material properties."
+      }
+    },
+    {
+      "questionText": "How does this simple circuit compare to the electrical system in our classroom?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies that both use batteries/power sources and wires to conduct electricity, and explains that classroom electricity is more complex with more branches and uses wall outlets instead of batteries, while maintaining the same basic principles.",
+        "meets": "Student identifies similarities (both use wires and power to light bulbs) and notes that classroom electricity is bigger or uses wall outlets instead of batteries.",
+        "approaching": "Student recognizes this is a simple version of classroom electricity or identifies one similarity or difference but lacks depth in comparison.",
+        "beginning": "Student provides minimal comparison such as 'the classroom has more lights' or 'they both use electricity' without meaningful analysis."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:58:44.724Z",
+  "cost": 0.00498
+}

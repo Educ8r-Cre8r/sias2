@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe that shows this monarch caterpillar is preparing for its next life stage?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations from the photo (e.g., location near empty chrysalis, body position, size/maturity) and explains how each piece of evidence suggests the caterpillar is ready to form a chrysalis.",
+        "meets": "Student identifies at least two specific observations from the photo (such as the presence of the empty chrysalis nearby or the caterpillar's size) that indicate it is preparing to transform.",
+        "approaching": "Student identifies one observation from the photo but with limited detail, or mentions the caterpillar and chrysalis without clearly connecting them to preparation for change.",
+        "beginning": "Student makes a vague statement about change or mentions the chrysalis without providing clear evidence from the photo, or response is mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "How might the monarch's four-stage life cycle help it survive better than if it stayed a caterpillar its whole life?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains at least three survival advantages of the four-stage life cycle (e.g., butterfly can fly to find mates and new food sources, caterpillar focuses on eating, different body parts allow different survival strategies) with scientific reasoning.",
+        "meets": "Student explains two survival advantages of having different life stages, such as the caterpillar eating leaves and the butterfly being able to fly or migrate to survive.",
+        "approaching": "Student identifies one survival advantage of the life cycle stages but with incomplete reasoning, or mentions general survival without connecting it to specific life stages.",
+        "beginning": "Student provides a vague answer about survival or life cycles with little connection to the monarch's specific four-stage life cycle, or response lacks accurate information."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice between the monarch life cycle and other animals you know about?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies and explains multiple patterns across different animals (e.g., complete metamorphosis in insects, growth stages in mammals, egg-to-adult sequences) and shows understanding that different animals develop in different ways.",
+        "meets": "Student identifies at least two life cycle patterns and compares the monarch life cycle to one other animal, noting similarities such as growth stages or transformations.",
+        "approaching": "Student identifies one pattern or makes a comparison between the monarch and another animal but with incomplete or partially accurate reasoning.",
+        "beginning": "Student makes a minimal attempt to compare life cycles or provides inaccurate information about how other animals develop."
+      }
+    },
+    {
+      "questionText": "If you were designing an organism that needed to travel long distances and also eat lots of leaves, what life cycle stages would you create and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a detailed life cycle with multiple stages that address both survival needs (eating leaves and traveling), explains the function of each stage with scientific reasoning, and may reference how the monarch life cycle inspired their design.",
+        "meets": "Student proposes a life cycle with at least two distinct stages—one for eating/growing and one for traveling—and explains how each stage helps the organism survive.",
+        "approaching": "Student proposes a life cycle with stages but the explanation of how stages help with eating and traveling is incomplete or lacks clear reasoning.",
+        "beginning": "Student proposes a simple or unclear life cycle design with minimal explanation of how it addresses the two survival needs (eating and traveling)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:35:52.278Z",
+  "cost": 0.005242
+}

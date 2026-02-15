@@ -1,0 +1,53 @@
+{
+  "title": "Rocks",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the rocks are different from each other?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences between rocks, such as size, color, and shape, using descriptive words (e.g., 'big and small,' 'dark and light,' 'bumpy and smooth').",
+        "meets": "Student identifies at least two clear differences between the rocks, such as they are different sizes or different colors.",
+        "approaching": "Student notices the rocks are different but describes only one characteristic, or uses vague language like 'they look different' without specific details.",
+        "beginning": "Student makes a minimal attempt to describe differences but provides inaccurate or unclear observations (e.g., 'they are rocks') with no specific details."
+      }
+    },
+    {
+      "questionText": "Why do you think some rocks are bigger and some are smaller?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful inference with a reasonable explanation, such as rocks breaking apart over time, rocks coming from different places, or natural processes wearing rocks down.",
+        "meets": "Student offers a simple but plausible explanation for size differences, such as 'they grew different sizes' or 'they came from different places.'",
+        "approaching": "Student attempts an explanation but it is unclear or partially incorrect (e.g., 'someone made them' without elaboration) or shows confused reasoning.",
+        "beginning": "Student provides a vague response or no clear explanation (e.g., 'I don't know' or 'because they are different')."
+      }
+    },
+    {
+      "questionText": "What might happen to these rocks if it rains a lot?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a realistic outcome involving water's effects on rocks, such as rocks breaking into smaller pieces, rocks getting wet and smooth, or water washing rocks away.",
+        "meets": "Student makes a simple but reasonable prediction about rain affecting the rocks, such as 'the rocks will get wet' or 'they might move.'",
+        "approaching": "Student makes a prediction but it is vague or partially unclear (e.g., 'something will happen to them') or shows incomplete reasoning.",
+        "beginning": "Student provides a minimal response with little or no connection to rain's effects (e.g., 'the rocks will be there' or an inaccurate prediction)."
+      }
+    },
+    {
+      "questionText": "How do you think people could use these different rocks?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple practical uses for rocks that show understanding of size/type matching, such as using big rocks for building or walls, small rocks for decoration or filling spaces, and different rocks for different purposes.",
+        "meets": "Student suggests at least one realistic way people could use these rocks, such as for building, decoration, or landscaping.",
+        "approaching": "Student suggests a possible use but the explanation is vague or partially reasonable (e.g., 'you could play with them') or lacks connection to the rocks' characteristics.",
+        "beginning": "Student provides a minimal response or an unrealistic suggestion with little explanation (e.g., 'I don't know' or an unrelated answer)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:47:07.236Z",
+  "cost": 0.004877
+}

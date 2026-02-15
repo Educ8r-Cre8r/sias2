@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you see in the photo that shows this garden provides what the dove needs to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple survival needs (food, shelter, water) and provides specific evidence from the photo for at least two needs, such as plants for seeds or hiding spots among flowers and the pot.",
+        "meets": "Student identifies at least two survival needs (such as food and shelter) with accurate observations from the photo, like plants for food or spaces to hide.",
+        "approaching": "Student identifies one survival need with some photo evidence, but explanation may be vague or only partially connected to what the dove actually needs.",
+        "beginning": "Student names something in the garden (plants, pot, flowers) but does not clearly explain how it helps the dove survive or provides minimal connection to survival needs."
+      }
+    },
+    {
+      "questionText": "How might this dove's behavior change if the garden had no plants or hiding spots?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple behavioral changes with reasoning, such as the dove would not stay to feed, would need to find shelter elsewhere, or would feel unsafe and fly away, showing understanding of how habitat affects animal behavior.",
+        "meets": "Student describes at least one reasonable behavioral change, such as the dove leaving to find food or shelter, with logical explanation connected to missing garden features.",
+        "approaching": "Student suggests a behavior change, but reasoning is incomplete or only partially connected to missing plants or hiding spots.",
+        "beginning": "Student makes a vague statement about the dove leaving or being unhappy, with little or no explanation of why plants and hiding spots matter."
+      }
+    },
+    {
+      "questionText": "What other animals might also find this garden habitat suitable, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals and explains why each would thrive in this garden by connecting specific habitat features (plants for food, shelter, soil for insects) to animal needs.",
+        "meets": "Student names at least one other animal and provides a reasonable explanation for why it would live in the garden, such as insects for food or plants for shelter.",
+        "approaching": "Student names another animal but provides limited or partially accurate reasoning about why it would use the garden habitat.",
+        "beginning": "Student names another animal with no clear explanation or with inaccurate reasoning about habitat suitability."
+      }
+    },
+    {
+      "questionText": "If you were designing a garden to help birds, what features would you include based on what you observe about this dove's needs?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests at least three features (such as plants for food and shelter, water source, nesting spots, different plant heights) with detailed explanations of how each feature meets specific bird needs.",
+        "meets": "Student suggests at least two garden features that support birds, such as plants for food and hiding places, with clear explanations of why these features help birds.",
+        "approaching": "Student suggests one or two features but explanations lack detail or clarity about how they support bird survival and behavior.",
+        "beginning": "Student suggests a garden feature with minimal or unclear connection to bird needs, or suggests features unrelated to the dove's habitat needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:38:03.810Z",
+  "cost": 0.004818
+}

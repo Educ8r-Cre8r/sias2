@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you see in this photo that shows the monarch butterfly's life cycle?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more life cycle stages visible in the photo (caterpillar and chrysalis) and explains what each stage shows about how monarchs change and grow.",
+        "meets": "Student identifies both the caterpillar and the empty chrysalis and recognizes these are different stages in the monarch's life cycle.",
+        "approaching": "Student identifies either the caterpillar or the chrysalis but provides limited explanation of how they relate to the life cycle.",
+        "beginning": "Student names one part of the photo but shows minimal understanding of life cycle stages or makes vague observations."
+      }
+    },
+    {
+      "questionText": "How might the caterpillar's bright stripes help it survive in nature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors warn predators the caterpillar is poisonous or tastes bad, demonstrating understanding of warning coloration as a survival adaptation.",
+        "meets": "Student states that the bright stripes help the caterpillar by warning animals to stay away or that the colors protect it from predators.",
+        "approaching": "Student mentions the stripes help the caterpillar survive but provides incomplete reasoning, such as 'it looks scary' without explaining why that matters.",
+        "beginning": "Student gives a vague answer like 'the colors help it' or 'animals don't like it' with little evidence of understanding how the colors actually protect the caterpillar."
+      }
+    },
+    {
+      "questionText": "What do you predict would happen if this caterpillar couldn't find enough milkweed plants to eat?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the caterpillar would not grow large enough or would not survive, and connects this to the importance of food for growth and life.",
+        "meets": "Student predicts the caterpillar would starve, die, or not grow properly without enough milkweed to eat.",
+        "approaching": "Student makes a prediction related to food and survival but the reasoning is incomplete or somewhat unclear.",
+        "beginning": "Student attempts a prediction but it is vague, unrealistic, or shows minimal understanding of why caterpillars need plants to survive."
+      }
+    },
+    {
+      "questionText": "Compare how a monarch caterpillar changes to how a human baby grows up - what's similar and what's different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies at least one similarity (both grow and eat food) and one clear difference (caterpillar undergoes complete metamorphosis; humans gradually grow), showing understanding of different life paths.",
+        "meets": "Student identifies one similarity and one difference between how caterpillars and humans grow and change.",
+        "approaching": "Student provides a partial comparison with either a similarity or difference identified, but reasoning may be incomplete or unclear.",
+        "beginning": "Student attempts to compare but statements are vague or show minimal understanding of how caterpillars and humans develop differently."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:33:52.727Z",
+  "cost": 0.004745
+}

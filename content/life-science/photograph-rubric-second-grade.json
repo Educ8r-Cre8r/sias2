@@ -1,0 +1,53 @@
+{
+  "title": "Ecosystem",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What different types of homes do you think animals might have in this forest?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more animal homes (such as nests in trees, holes in trunks, burrows under roots, or dens) with specific details about where in the forest each home might be located.",
+        "meets": "Student identifies two or more different animal homes that could exist in a forest with reasonable explanations of where animals might live.",
+        "approaching": "Student identifies one or two animal homes but provides limited detail or reasoning about why those homes would be found in a forest.",
+        "beginning": "Student provides a vague response naming one home type with little or no connection to the forest shown in the photo."
+      }
+    },
+    {
+      "questionText": "How might the road affect the animals that live in this forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple effects of the road (such as danger from cars, splitting habitats, noise, or blocking movement) and discusses how these changes impact forest animals' safety or survival.",
+        "meets": "Student identifies at least two ways the road could affect forest animals, such as danger from traffic or dividing their living space.",
+        "approaching": "Student mentions one way the road might affect animals but explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal response acknowledging the road exists but shows little understanding of its effects on forest animals."
+      }
+    },
+    {
+      "questionText": "What do you notice about where the trees grow compared to where the open spaces are?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the pattern of trees (dense grouping with breaks) and explains why this pattern exists (such as the road clearing trees, farming clearing land) with specific observations from the photo.",
+        "meets": "Student observes that trees are thick in some areas and more spread out in others, and identifies at least one reason for this pattern.",
+        "approaching": "Student notices that trees and open spaces exist in different places but provides limited explanation of why or how they are arranged.",
+        "beginning": "Student makes a general statement about trees and open spaces with little specific observation or reasoning."
+      }
+    },
+    {
+      "questionText": "If you were a small animal living here, what would you need to survive and where would you find it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple survival needs (food, water, shelter, safety) and explains where in the forest each item could be found using specific details from the photo.",
+        "meets": "Student identifies two or three survival needs (such as food, shelter, or water) and describes reasonable places in the forest where an animal could find them.",
+        "approaching": "Student identifies one or two survival needs but provides vague or incomplete details about where they might be found in this forest.",
+        "beginning": "Student mentions a survival need but provides little specific information about where it would be located in the forest environment."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:40:58.414Z",
+  "cost": 0.004525
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think this bird is gray and white instead of bright colors like a parrot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gray and white colors help the bird hide or blend in with rocks and sand, and provides a reason why hiding is important (like staying safe from predators or sneaking up on food).",
+        "meets": "Student explains that the bird's gray and white colors help it blend in or hide in its rocky habitat.",
+        "approaching": "Student identifies that the bird's colors are different from a parrot's, or mentions that the colors match the ground, but doesn't explain why this is helpful.",
+        "beginning": "Student makes a simple observation about the bird's color or compares it to a parrot without explaining any connection to the habitat."
+      }
+    },
+    {
+      "questionText": "What do you think this bird eats, and how can you tell by looking at its beak?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a specific type of food (seeds, insects, small bugs, worms) and explains how the beak's size, shape, or sharpness helps the bird eat that food.",
+        "meets": "Student predicts what the bird eats (insects, seeds, or small things) and describes a feature of the beak that suggests this diet.",
+        "approaching": "Student makes a reasonable prediction about food or describes the beak, but makes only a weak connection between the two, or describes the beak without connecting it to diet.",
+        "beginning": "Student gives a vague answer about food or describes the beak without attempting to explain how the beak relates to what the bird eats."
+      }
+    },
+    {
+      "questionText": "How would this bird's life be different if it lived in a forest with lots of trees instead of on rocky ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple specific differences (such as needing different shelter, having to climb or perch, eating different foods, or camouflage being different) and explains how these changes would affect the bird.",
+        "meets": "Student identifies at least two ways the bird's life would be different, such as where it lives, how it moves, or what it eats.",
+        "approaching": "Student mentions one way the bird's life would be different, or gives a vague answer that shows partial understanding of habitat change.",
+        "beginning": "Student attempts to answer but provides minimal, unclear, or inaccurate information about how forest life would differ from rocky ground life."
+      }
+    },
+    {
+      "questionText": "What other animals do you think live in the same rocky habitat as this plover, and how might they be different from each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two realistic animals for a rocky habitat and explains specific differences between them, such as size, diet, where they shelter, or how they move.",
+        "meets": "Student names at least two animals that could live in a rocky habitat and describes at least one difference between them.",
+        "approaching": "Student names one or two animals for the habitat, or names animals without explaining differences, or differences are unclear or incomplete.",
+        "beginning": "Student attempts to name an animal or describe a difference, but provides minimal or unclear information about rocky habitat animals."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:15:51.645Z",
+  "cost": 0.00496
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Rock covered with Moss and Lichen",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that this rock has been changing over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence of rock change (moss growth, lichen patches, discoloration, possible pitting or weathering) and explains how these living things or natural processes are causing the changes.",
+        "meets": "Student identifies at least two visible signs that the rock is changing, such as moss or lichen growth, and recognizes these are caused by living things or weathering.",
+        "approaching": "Student identifies one visible change on the rock (such as moss or lichen) but may not clearly explain that this shows the rock is changing over time.",
+        "beginning": "Student makes a vague observation about the rock's appearance but does not clearly identify evidence of change or refers to the rock without noting the role of living things."
+      }
+    },
+    {
+      "questionText": "How might this rock look different in 100 years if the moss and lichen keep growing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts specific changes (more moss and lichen coverage, rock becoming more broken down, more soil formation, cracks deepening) and explains how continued growth of these organisms will cause the rock to deteriorate or transform over a long time period.",
+        "meets": "Student predicts that the moss and lichen will cover more of the rock or that the rock will break down further, showing understanding that these organisms change rocks over time.",
+        "approaching": "Student makes a prediction about the rock's appearance but with limited detail; may note more growth without explaining the connection to rock breakdown or change.",
+        "beginning": "Student provides a vague prediction or states the rock will look different without explaining how moss and lichen growth would cause specific changes."
+      }
+    },
+    {
+      "questionText": "What other living things might be able to break down rocks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple organisms that break down rocks (fungi, plant roots, earthworms, insects, bacteria) and explains how at least two of them cause rock weathering through physical or chemical action.",
+        "meets": "Student names at least two other living things that break down rocks (such as plant roots, fungi, or animals) and provides a basic explanation of how they cause breakdown.",
+        "approaching": "Student names one or two organisms that might break down rocks but explanation of how they do so is unclear or incomplete.",
+        "beginning": "Student names one organism or provides a vague response without clear examples of how living things break down rocks."
+      }
+    },
+    {
+      "questionText": "Why do you think moss and lichen can grow on rocks but grass cannot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moss and lichen have shallow or special root-like structures that can attach to hard rock surfaces, while grass needs soil with nutrients and water storage, demonstrating understanding of different plant adaptations.",
+        "meets": "Student correctly explains that moss and lichen don't need soil to grow while grass needs soil, or recognizes that moss and lichen are adapted to grow on hard surfaces.",
+        "approaching": "Student attempts to explain the difference between moss/lichen and grass but explanation is partially correct or incomplete (e.g., mentions soil but not why moss/lichen can skip it).",
+        "beginning": "Student provides a vague or inaccurate response that does not clearly address why moss and lichen have an advantage over grass on rocks."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:51:21.760Z",
+  "cost": 0.00507
+}

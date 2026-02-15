@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think these spiral-shaped fossils tell us about where this area used to be long ago?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the area was once covered by water or ocean, identifies that spiral shells come from sea creatures, and provides additional reasoning such as how fossils form or why sea creatures lived there.",
+        "meets": "Student correctly identifies that the area was once underwater or was an ocean/sea, and connects this to the presence of shell fossils from sea creatures.",
+        "approaching": "Student recognizes that fossils are from sea creatures or mentions water, but the explanation is incomplete or lacks clear connection between the shells and the ancient environment.",
+        "beginning": "Student provides a minimal response such as 'it was in water' or 'there were shells here' without clear explanation of what this tells us about the ancient area."
+      }
+    },
+    {
+      "questionText": "Why do you think we find more shell fossils than fossils of soft body parts like jellyfish?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard shells preserve better because they are stronger and more durable, and may add that soft parts decompose or break down quickly, making fossils less likely to form.",
+        "meets": "Student correctly identifies that shells are harder or stronger than soft body parts, and therefore are more likely to be preserved as fossils over time.",
+        "approaching": "Student recognizes that shells are harder or that soft parts disappear, but the explanation lacks clarity about why this affects fossil preservation.",
+        "beginning": "Student provides vague reasoning such as 'shells last longer' or 'soft parts go away' without explaining the connection to fossil formation."
+      }
+    },
+    {
+      "questionText": "How are these fossil shells the same as and different from shells you might find at the beach today?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least one similarity (such as spiral shape or ridged pattern) and at least one difference (such as being turned to stone, being very old, or being heavier), demonstrating understanding of fossilization.",
+        "meets": "Student identifies both a similarity and a difference between fossil shells and modern beach shells, such as similar shape but different material or age.",
+        "approaching": "Student attempts to compare but only identifies either a similarity or a difference, or provides incomplete descriptions of each.",
+        "beginning": "Student makes minimal comparisons with vague statements such as 'they look alike' or 'they are different' without specific details."
+      }
+    },
+    {
+      "questionText": "If you found a fish fossil on top of a mountain, what would that tell you about how Earth has changed?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mountain was once underwater or the location has changed from ocean to land, and may extend thinking to concepts like uplift, erosion, or dramatic changes in Earth over time.",
+        "meets": "Student correctly identifies that the area was once covered by water or ocean, indicating that Earth and its landscape have changed over time.",
+        "approaching": "Student recognizes that a fish fossil on a mountain is unusual or that it suggests the area was once different, but the explanation lacks clarity about what specifically changed.",
+        "beginning": "Student provides a minimal response acknowledging something unusual about finding a fish on a mountain without explaining what this reveals about Earth's changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:53:48.066Z",
+  "cost": 0.005013
+}

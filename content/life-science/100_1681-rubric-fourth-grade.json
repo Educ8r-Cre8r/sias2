@@ -1,0 +1,53 @@
+{
+  "title": "Seedling",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the plant if we moved the bottle away from the window where it doesn't get sunlight?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would die or weaken and explains multiple specific effects of lack of sunlight, such as yellowing leaves, stopped growth, or loss of energy, demonstrating understanding that plants need light for survival.",
+        "meets": "Student predicts the plant would die, become sick, or stop growing and explains that plants need sunlight to survive and stay healthy.",
+        "approaching": "Student predicts something negative would happen to the plant but provides vague reasoning, such as 'it needs light' without explaining what specifically would happen to the plant.",
+        "beginning": "Student makes an unclear prediction or states the plant would change without explaining the connection to sunlight or plant survival."
+      }
+    },
+    {
+      "questionText": "Why do you think the plant's roots are growing down into the soil instead of up toward the light, even though light is necessary for the plant to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that roots have a different job than leaves—roots grow down to find water and nutrients in the soil, while leaves grow up to find light—and recognizes that different plant parts have different purposes for survival.",
+        "meets": "Student explains that roots grow down to get water and nutrients from the soil, separate from the plant's need for light, showing understanding that roots and leaves have different functions.",
+        "approaching": "Student states that roots need to go down or that roots get water, but does not clearly explain why this is different from the plant's need for light.",
+        "beginning": "Student gives a minimal response such as 'roots just grow down' without explaining the purpose or function of roots."
+      }
+    },
+    {
+      "questionText": "How is growing a plant in a bottle garden different from growing one in an outdoor garden? What's the same about both?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (size, enclosed space, limited soil/water, no air exchange) and similarities (both need soil, water, light, and air; both use roots and leaves), demonstrating thorough comparison of the two environments.",
+        "meets": "Student identifies at least one clear difference and one similarity between bottle and outdoor gardens, such as the bottle being smaller or both needing sunlight and water.",
+        "approaching": "Student attempts comparison but identifies either differences or similarities clearly, but not both, or provides incomplete explanations.",
+        "beginning": "Student makes a vague or inaccurate comparison, such as 'they're both plants' without meaningful differences or similarities explained."
+      }
+    },
+    {
+      "questionText": "If we sealed this bottle completely so no air could get in or out, what do you think would happen to the plant over time, and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts the plant would eventually die and explains that plants need fresh air (oxygen and carbon dioxide exchange) to survive, and may mention that a sealed environment would become unhealthy over time.",
+        "meets": "Student predicts the plant would weaken, die, or become unhealthy and explains that plants need air or that a sealed bottle would trap something harmful or prevent the exchange of gases.",
+        "approaching": "Student predicts something negative would happen but provides incomplete reasoning, such as 'it needs air' without explaining why air is necessary for plant survival.",
+        "beginning": "Student makes a prediction with little or no explanation about why sealing the bottle would affect the plant."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:14:28.119Z",
+  "cost": 0.005262
+}

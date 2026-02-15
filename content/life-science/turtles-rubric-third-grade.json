@@ -1,0 +1,53 @@
+{
+  "title": "Turtles",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to these turtles if their pond dried up?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple consequences (e.g., turtles would need to find water, could get sick, might move to a new pond) and explains why water is essential for turtle survival using specific details about turtle habitats.",
+        "meets": "Student predicts a reasonable consequence of the pond drying up (e.g., turtles would need to find water or would die) with a basic explanation of why water matters to turtles.",
+        "approaching": "Student makes a prediction about what would happen but the explanation is incomplete or only partially accurate (e.g., 'turtles would leave' but no clear reason why).",
+        "beginning": "Student provides a vague prediction with little or no reasoning (e.g., 'the turtles would be sad' or 'something bad would happen')."
+      }
+    },
+    {
+      "questionText": "How does the algae growing on the turtle's shell help both the turtle and the algae survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains a mutualistic relationship with specific benefits to each organism: algae gets a place to live/sunlight, and the turtle gains camouflage or protection; uses accurate vocabulary like 'symbiosis' or 'partnership.'",
+        "meets": "Student identifies that both organisms benefit and provides at least one accurate benefit to each (e.g., algae has a home, turtle has camouflage or protection from predators).",
+        "approaching": "Student recognizes that both organisms are involved but explains benefits incompletely or with minor inaccuracies (e.g., mentions only one organism benefits clearly, or reasons are vague).",
+        "beginning": "Student attempts to answer but shows limited understanding of the relationship (e.g., 'the algae grows on the turtle' with no explanation of how either benefits)."
+      }
+    },
+    {
+      "questionText": "What evidence can you find in the photo that shows these turtles are well-adapted to their environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple adaptations with photo evidence and explains how each helps the turtle survive (e.g., shell for protection, position on log for basking and safety, legs for swimming, ability to stay on land and in water).",
+        "meets": "Student identifies at least two adaptations visible in the photo (e.g., hard shell for protection, legs for movement) and explains why these features are helpful in their water environment.",
+        "approaching": "Student identifies one or two features but explanation of how they help survival is incomplete or unclear (e.g., 'they have shells' without connecting to protection or survival).",
+        "beginning": "Student describes what turtles look like in the photo with little connection to adaptation or survival (e.g., 'the turtle is on a log' with no explanation of why this matters)."
+      }
+    },
+    {
+      "questionText": "Why do you think the turtles are sitting in the sun instead of staying in the water?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that turtles bask to regulate body temperature, dry their shells, or maintain shell health, with a clear explanation of why cold-blooded animals need warmth from the sun.",
+        "meets": "Student makes a reasonable inference that turtles sit in the sun to get warm or dry off, with a simple explanation connected to turtle biology.",
+        "approaching": "Student suggests a reason for basking (e.g., 'to get warm') but the explanation is vague or lacks biological connection (e.g., 'because they like the sun').",
+        "beginning": "Student provides a minimal response with little reasoning (e.g., 'they wanted to rest' or 'they were tired')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:44:14.178Z",
+  "cost": 0.005642
+}

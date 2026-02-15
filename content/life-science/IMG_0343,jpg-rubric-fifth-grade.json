@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages might visual communication give this lizard compared to making sounds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple advantages (e.g., works silently to avoid predators, visible from far away, doesn't require energy to make sounds) and explains why each advantage helps the lizard survive or communicate more effectively.",
+        "meets": "Student identifies at least two advantages of visual communication over sounds with reasonable explanations (e.g., can be seen from a distance, doesn't make noise that attracts predators).",
+        "approaching": "Student identifies one advantage of visual communication or mentions multiple advantages with incomplete explanations (e.g., \"it can be seen\" without explaining why that matters).",
+        "beginning": "Student provides a vague response with minimal detail (e.g., \"it's colorful\" or \"it's quieter\") with little explanation of how this helps the lizard."
+      }
+    },
+    {
+      "questionText": "How might this lizard's communication method be different in a forest versus a desert environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how forest conditions (dense vegetation, shadows) and desert conditions (open space, bright sunlight) affect the visibility and effectiveness of the dewlap display, with specific reasoning about how the lizard might adjust its behavior.",
+        "meets": "Student describes differences in visibility between forest and desert environments and explains how the colorful display would be more or less effective in each setting.",
+        "approaching": "Student mentions differences between forest and desert (e.g., \"forests are dark, deserts are bright\") but makes limited connections to how this affects the lizard's communication.",
+        "beginning": "Student provides minimal or inaccurate information about environments or how they affect the lizard's display (e.g., \"forests are wet\" without connecting to communication)."
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that use colorful displays to communicate, and why might this be an effective strategy?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least three animals that use colorful displays (e.g., peacocks, poison dart frogs, male cardinals) and explains why bright colors are effective for communication, such as attracting mates, showing health, or warning of danger.",
+        "meets": "Student names at least two animals that use colorful displays and provides reasonable explanations for why bright colors help them communicate successfully.",
+        "approaching": "Student names one or two animals with colorful displays but offers vague or incomplete reasoning about why colors are effective for communication.",
+        "beginning": "Student names an animal but provides minimal or inaccurate information about colorful communication (e.g., names an animal without explaining how it uses color to communicate)."
+      }
+    },
+    {
+      "questionText": "If you were designing a communication system for a new animal species, what features would you include and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a communication system with multiple features (e.g., color, sound, movement, scent) and provides scientific reasoning for each feature based on the animal's environment, needs, or lifestyle; demonstrates understanding of how different species communicate.",
+        "meets": "Student describes a communication system with at least two features (e.g., bright colors and sounds) and explains why each feature would be useful for the imaginary animal species.",
+        "approaching": "Student describes a communication system with one or two features but provides limited or incomplete reasoning about why those features would work for the animal.",
+        "beginning": "Student suggests features with vague or minimal explanation (e.g., \"I would make it colorful\" without explaining the purpose or benefit)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:17:04.349Z",
+  "cost": 0.005357
+}

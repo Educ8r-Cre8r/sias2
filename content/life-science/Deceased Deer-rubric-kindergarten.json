@@ -1,0 +1,53 @@
+{
+  "title": "Deceased Deer",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happened to this deer?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful explanation of what happened (deer got sick, was injured, grew very old, or died naturally) and may mention that this is a normal part of nature.",
+        "meets": "Student recognizes the deer is no longer alive and offers a simple, reasonable explanation such as the deer died or got hurt.",
+        "approaching": "Student acknowledges the deer is dead but provides vague or incomplete reasoning, such as 'something happened' or 'it's sleeping' (showing partial understanding).",
+        "beginning": "Student provides a minimal response with little connection to the concept of death, such as 'I don't know' or an inaccurate statement like 'the deer is playing.'"
+      }
+    },
+    {
+      "questionText": "What do you think will happen to the deer's body over time, and why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the deer's body will break down or decompose and connects this to natural processes (becoming part of soil, returning to nature, or helping new plants grow).",
+        "meets": "Student describes that the deer's body will change or go away over time and provides a basic reason, such as 'it will break down' or 'it will become part of the ground.'",
+        "approaching": "Student recognizes the body will change but gives incomplete or partially accurate reasoning, such as 'it will get smaller' without explaining why.",
+        "beginning": "Student's response shows minimal understanding, such as 'I don't know what happens' or an inaccurate idea like 'the deer will wake up.'"
+      }
+    },
+    {
+      "questionText": "How do you think the deer's body helps other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the deer's body provides food or nutrients for other animals (scavengers, insects, decomposers) and/or helps plants grow, showing understanding of food chains or nutrient cycling.",
+        "meets": "Student describes that the deer's body helps feed other animals or makes the soil better for plants, demonstrating basic understanding of the connection between the dead deer and forest life.",
+        "approaching": "Student recognizes that the deer helps other living things but provides vague details, such as 'animals eat it' or 'it helps plants' without clear explanation.",
+        "beginning": "Student's response is minimal or unclear, such as 'it helps them' with no elaboration, or shows misunderstanding like 'other animals won't eat it.'"
+      }
+    },
+    {
+      "questionText": "All living things eventually die. What do you think happens to the materials in a dead animal's body?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that materials from the dead animal return to the soil or nature, nourish new plants, or are recycled back into the forest ecosystem, showing understanding of matter cycling.",
+        "meets": "Student describes that the materials break down and go back into the ground or nature to help new living things grow.",
+        "approaching": "Student shows partial understanding that materials change or move but explanation is incomplete, such as 'the body gets smaller' or 'it goes away' without clear reasoning.",
+        "beginning": "Student provides minimal response with unclear thinking, such as 'I don't know' or 'the stuff disappears' with no further explanation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:14:45.063Z",
+  "cost": 0.005121
+}

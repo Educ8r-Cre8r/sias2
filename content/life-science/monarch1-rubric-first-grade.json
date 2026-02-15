@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside the green cocoon?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillar is changing or transforming into a butterfly inside the cocoon and describes the process with specific details like growing wings or changing shape.",
+        "meets": "Student correctly identifies that the caterpillar is changing or turning into a butterfly inside the green cocoon.",
+        "approaching": "Student recognizes something is happening inside the cocoon but provides vague or partially accurate descriptions such as 'the caterpillar is sleeping' or 'it is growing.'",
+        "beginning": "Student provides a minimal or incorrect response with little understanding, such as 'something is in there' or an unrelated answer."
+      }
+    },
+    {
+      "questionText": "Why might caterpillars need a hard shell around them while they change?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons for the protective shell, such as keeping the caterpillar safe from predators, protecting it from weather, or helping it stay warm during the change.",
+        "meets": "Student provides a reasonable explanation that the hard shell protects the caterpillar from danger, predators, or the weather while it changes.",
+        "approaching": "Student recognizes protection as a purpose but gives incomplete or partially accurate reasoning, such as 'it keeps it safe' without explaining from what.",
+        "beginning": "Student provides a vague or inaccurate response with minimal reasoning, such as 'because it needs it' or 'for no reason.'"
+      }
+    },
+    {
+      "questionText": "How are these two cocoons the same and different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (both are cocoons, both protect caterpillars, both have caterpillars changing inside) and differences (one is green and new, one is brown and old; different colors).",
+        "meets": "Student identifies at least one clear similarity and one clear difference between the cocoons, such as color, age, or appearance.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or provides partially accurate comparisons with some vague observations.",
+        "beginning": "Student provides minimal or inaccurate information about how the cocoons compare, such as random observations unrelated to the cocoons."
+      }
+    },
+    {
+      "questionText": "What do you predict will come out of the green cocoon?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts a butterfly will emerge and provides supporting details such as describing its wings, color, or how it will look when it comes out.",
+        "meets": "Student correctly predicts that a butterfly will come out of the green cocoon.",
+        "approaching": "Student makes a prediction related to living things but with some uncertainty or vagueness, such as 'maybe a butterfly' or 'a flying insect.'",
+        "beginning": "Student provides an incorrect prediction or minimal response, such as 'I don't know' or an unrelated animal."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:36:15.228Z",
+  "cost": 0.00465
+}

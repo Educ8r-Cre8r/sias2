@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this animal needed to live when it was alive millions of years ago?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific needs (water, food, shelter) and explains why the sea animal would need each one to survive in its ocean environment.",
+        "meets": "Student identifies at least two basic needs the animal required, such as water and food, with simple explanations of why.",
+        "approaching": "Student identifies one or two needs (such as water or food) but provides minimal or unclear reasoning about why the animal needed them.",
+        "beginning": "Student provides a vague response (like \"it needed stuff\") or lists needs without any explanation of why."
+      }
+    },
+    {
+      "questionText": "How is this fossil different from animals we see in the ocean today?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (shell shape, size, type of animal) and explains that this animal lived long ago and may no longer exist, or has changed over time.",
+        "meets": "Student identifies at least one clear difference between the fossil animal and modern ocean animals, such as the shape or type of shell.",
+        "approaching": "Student recognizes the fossil is different from modern animals but describes the difference in vague terms or with incomplete thinking.",
+        "beginning": "Student states the fossil is different but cannot explain how, or provides an inaccurate comparison."
+      }
+    },
+    {
+      "questionText": "What might have happened to the environment where this fossil was found between when the animal was alive and now?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple environmental changes (ocean became land, water levels changed, temperature shifted, or burial in sediment) and connects these to how the fossil formed.",
+        "meets": "Student suggests a reasonable environmental change, such as the ocean turning into land or the area being covered by rock and dirt over time.",
+        "approaching": "Student mentions an environmental change but with unclear reasoning or incomplete understanding of the fossil formation process.",
+        "beginning": "Student provides a vague or illogical answer, such as \"it got lost\" or \"nothing happened.\""
+      }
+    },
+    {
+      "questionText": "If you found this fossil, what questions would you want to ask a scientist about it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student asks multiple thoughtful, specific questions that show curiosity about the fossil's age, identity, how it formed, or what the environment was like (e.g., \"How old is this animal?\" \"What did it eat?\" \"Were there other animals living with it?\").",
+        "meets": "Student asks at least one reasonable, science-based question about the fossil, such as what kind of animal it was, how old it is, or how it got into the rock.",
+        "approaching": "Student asks a question related to the fossil but it is vague, off-topic, or shows incomplete understanding (e.g., \"Is it worth money?\").",
+        "beginning": "Student provides a question that is unclear, unrelated to the fossil, or shows minimal curiosity about it."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:54:28.583Z",
+  "cost": 0.004714
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What would happen if we tried to build these arches using straight pieces instead of curved ones?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that straight pieces would not hold up or would collapse, and explains that the curved shape distributes weight differently than straight pieces, showing understanding of how shape affects structure.",
+        "meets": "Student predicts that straight pieces would not work as well as curved ones and gives a reasonable explanation related to the arch's curved shape.",
+        "approaching": "Student predicts that straight pieces would fail or be weaker but gives only a vague or partially correct explanation of why the curve matters.",
+        "beginning": "Student makes a prediction about straight pieces but provides little or no explanation, or the explanation is unclear or inaccurate."
+      }
+    },
+    {
+      "questionText": "How do you think the curved shape helps the arches stay standing?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the curved shape spreads weight evenly across the arch and describes how the curve helps support the structure without falling, demonstrating understanding of how shape supports strength.",
+        "meets": "Student explains that the curved shape helps distribute weight or makes the arch stronger, with a clear connection to why curves are important for standing structures.",
+        "approaching": "Student identifies that the curve helps the arch stand but gives an incomplete or somewhat unclear explanation of how the shape provides support.",
+        "beginning": "Student makes a simple statement about the curve helping the arch stand but provides no explanation or gives an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "Where else have you seen arch shapes in buildings or nature?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more examples of arches from both buildings and nature (such as doorways, bridges, rainbows, or caves) with specific details about each.",
+        "meets": "Student identifies two or more examples of arches from buildings or nature with clear descriptions of what the arch looks like.",
+        "approaching": "Student identifies one example of an arch or mentions arches in general locations but lacks specific details or clarity.",
+        "beginning": "Student attempts to identify an arch example but is vague, inaccurate, or provides minimal information."
+      }
+    },
+    {
+      "questionText": "What materials would work best for building an arch and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies strong materials (such as metal, stone, or wood) and explains multiple reasons why each material works well for arches, such as being sturdy or not breaking easily.",
+        "meets": "Student identifies at least one strong material that would work for an arch and gives a clear reason why that material is a good choice.",
+        "approaching": "Student identifies a material that could work for an arch but gives only a vague or partially correct reason for the choice.",
+        "beginning": "Student suggests a material with little or no explanation, or suggests an inappropriate material with unclear reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:00:11.211Z",
+  "cost": 0.004506
+}

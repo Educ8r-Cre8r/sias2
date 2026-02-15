@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think engineers chose a curved arch shape instead of straight beams for this structure?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that curved arches distribute weight/force evenly and are stronger than straight beams, using specific vocabulary like 'distribute,' 'weight,' or 'support,' and may mention that curves can hold more weight with less material.",
+        "meets": "Student identifies that the curved arch shape makes the structure stronger or helps it hold weight better, with a basic explanation of how the curve helps.",
+        "approaching": "Student recognizes that the arch shape is different from straight beams and offers a partial reason (such as 'it looks stronger' or 'it spreads things out'), but the explanation is incomplete or unclear.",
+        "beginning": "Student provides a vague response like 'because it looks cool' or 'because it's curved,' with little or no explanation of structural advantages."
+      }
+    },
+    {
+      "questionText": "What would happen if these arches were made of different materials like wood or plastic?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific differences based on material properties (wood might crack or bend, plastic might be lighter but sag over time), showing understanding that different materials have different strengths and weaknesses, and connects this to the arch's function.",
+        "meets": "Student predicts that the arches would perform differently with wood or plastic (such as being weaker, breaking, or bending), with a reasonable explanation tied to material properties.",
+        "approaching": "Student recognizes that different materials would cause changes to the structure but offers only vague predictions ('it wouldn't work' or 'it would be different') without clear reasoning about material properties.",
+        "beginning": "Student provides a minimal response with little understanding, such as 'it would look different' or no clear prediction about how materials would affect the structure."
+      }
+    },
+    {
+      "questionText": "How do the forces acting on these arches compare to forces acting on a bridge?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both arches and bridges experience weight/load forces pushing down and explains how the curved shape in both transfers forces outward or downward to the supports, using comparative language.",
+        "meets": "Student recognizes that both structures experience similar forces (weight pushing down) and notes that both use curved or supported designs to handle these forces.",
+        "approaching": "Student attempts to compare forces but provides only partial understanding, such as mentioning that both structures are strong but without clear explanation of how forces work similarly or differently.",
+        "beginning": "Student makes a vague comparison or primarily restates that both are structures, with minimal understanding of how forces act on them."
+      }
+    },
+    {
+      "questionText": "If you were designing a playground structure, how might you use the arch principle to make it strong and safe?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a specific playground design using curved arch shapes and explains how this design would distribute weight safely and support children, demonstrating understanding of the arch principle applied to a practical situation.",
+        "meets": "Student describes a playground structure that uses an arch or curved shape and explains that this design would make it stronger or safer, with reasonable logic connected to the arch principle.",
+        "approaching": "Student suggests using a curved or arch-like design in a playground but provides limited explanation of how this improves strength or safety.",
+        "beginning": "Student provides a minimal or unclear response, such as naming a playground structure without connecting it to arch principles or safety."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:00:20.125Z",
+  "cost": 0.005188
+}

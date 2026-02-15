@@ -1,0 +1,53 @@
+{
+  "title": "Cows",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the cows look different from each other?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (color patterns, spots, markings) and may explain that cows can be different colors like black, white, or spotted, showing awareness that animals in the same group can look different.",
+        "meets": "Student describes at least two visible differences in how the cows look, such as identifying that some are black, some are white, or some have spots.",
+        "approaching": "Student notices that the cows look different but provides only one specific detail, such as mentioning color differences without explaining what they are.",
+        "beginning": "Student makes a vague observation like 'the cows are different' with little to no specific details about how they differ in appearance."
+      }
+    },
+    {
+      "questionText": "Why do you think the farmer put a fence around the field?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the fence keeps the cows in the field and safe, and may add that it prevents them from wandering away or getting lost, showing understanding of the fence's protective purpose.",
+        "meets": "Student gives a reasonable explanation such as 'to keep the cows in the field' or 'so they don't run away,' demonstrating basic understanding of the fence's function.",
+        "approaching": "Student attempts to explain the fence's purpose but reasoning is unclear or incomplete, such as 'the farmer needs a fence' without explaining why.",
+        "beginning": "Student provides minimal or inaccurate response, such as 'the farmer likes fences' or no clear reasoning about the fence's purpose."
+      }
+    },
+    {
+      "questionText": "What would happen if the cows didn't have this grassy field?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that cows need grass for food and predicts specific consequences such as 'the cows would go hungry,' 'they would be sad,' or 'the farmer would have to feed them another way,' showing understanding of cows' dietary needs.",
+        "meets": "Student predicts a reasonable outcome such as 'the cows wouldn't have food to eat' or 'the cows would be hungry,' demonstrating understanding that grass is food for cows.",
+        "approaching": "Student makes a prediction but with incomplete reasoning, such as 'something bad would happen' or 'the cows would be sad' without connecting it to food or survival needs.",
+        "beginning": "Student provides a vague or unclear prediction like 'it would be different' with little connection to cows' needs for grass or food."
+      }
+    },
+    {
+      "questionText": "How are the cows' needs similar to your pet's needs?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similar needs such as food, water, shelter, and space to move around, explaining that both cows and pets need these things to stay healthy and happy.",
+        "meets": "Student identifies at least two similar needs between cows and pets, such as 'they both need food and water' or 'they both need a safe place to live,' showing understanding of basic animal needs.",
+        "approaching": "Student identifies one similarity between cow and pet needs with partial explanation, such as 'they both eat' without mentioning other important needs.",
+        "beginning": "Student provides a vague or unclear comparison like 'cows and pets are the same' or identifies a similarity that is not related to their basic needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:24:17.391Z",
+  "cost": 0.005157
+}

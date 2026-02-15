@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this animal looked like when it was alive in the ocean?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific features of the living animal (such as size, shape, color, or how it moved) with logical reasoning based on the fossil shell's appearance and ocean habitat knowledge.",
+        "meets": "Student describes what the animal might have looked like with at least two reasonable details that connect to the fossil shell shown.",
+        "approaching": "Student attempts to describe the animal but provides only one detail or vague description with limited connection to the fossil.",
+        "beginning": "Student provides a minimal or unclear response that shows little attempt to connect the fossil to what the living animal might have been like."
+      }
+    },
+    {
+      "questionText": "How is this fossil shell the same as or different from shells you might find at the beach today?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (such as fan shape, hard material) and differences (such as age, color, or texture) with specific details and explains why the differences exist.",
+        "meets": "Student identifies at least one similarity and one difference between the fossil shell and modern beach shells with accurate descriptions.",
+        "approaching": "Student identifies either a similarity or a difference but with incomplete or partially accurate details.",
+        "beginning": "Student attempts a comparison but provides vague or inaccurate information about either fossil or modern shells."
+      }
+    },
+    {
+      "questionText": "What do you think had to happen for this shell to become a fossil?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the fossil formation process in correct sequence (shell buried, covered by sediment, pressure and time turned it to stone) using grade-appropriate vocabulary like buried, layers, or rock.",
+        "meets": "Student explains that the shell needed to be buried and covered for a long time to turn into rock, showing understanding of key steps.",
+        "approaching": "Student mentions burial or time passing but does not clearly explain both ideas or the connection between them.",
+        "beginning": "Student provides a minimal response that shows limited understanding of how fossils form (for example, just saying \"it got hard\" without context)."
+      }
+    },
+    {
+      "questionText": "If we found many of these fossils in the same rock layer, what might that tell us about this place long ago?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that many fossils in one layer suggest the ocean covered that place, many of these animals lived there, or conditions were right for these animals, with logical reasoning.",
+        "meets": "Student makes a reasonable inference that the location was once an ocean or that many of these animals lived there together in the past.",
+        "approaching": "Student attempts an inference but it is unclear or only partially connected to finding many fossils in the same layer.",
+        "beginning": "Student provides a response that shows minimal inference or understanding of what multiple fossils in one layer might indicate about the past."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:55:15.476Z",
+  "cost": 0.004552
+}

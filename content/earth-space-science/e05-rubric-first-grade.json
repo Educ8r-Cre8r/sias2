@@ -1,0 +1,53 @@
+{
+  "title": "Rock covered with Moss and Lichen",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice growing on this rock?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies moss by name and describes multiple characteristics, such as its green color, soft texture, or how it covers the rock in patches.",
+        "meets": "Student identifies the green plant growing on the rock and describes at least one detail, such as its color or that it covers part of the rock.",
+        "approaching": "Student notices something is growing on the rock and attempts to describe it, but uses vague language like 'green stuff' without clear details.",
+        "beginning": "Student makes a minimal observation about the rock (such as 'it's green' or 'there's something on it') with little or no attempt to describe what is growing."
+      }
+    },
+    {
+      "questionText": "How do you think the moss got onto this rock?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student proposes a reasonable explanation involving spores, wind, water, or animals spreading moss, and explains why that method would work in a forest setting.",
+        "meets": "Student provides a plausible explanation for how moss arrived on the rock, such as wind blowing it there or water carrying it.",
+        "approaching": "Student attempts to explain how moss got on the rock but the explanation is unclear or only partially logical, such as 'it just grew there' without details.",
+        "beginning": "Student makes a guess about how moss arrived with minimal reasoning, or provides an unclear/unrealistic answer."
+      }
+    },
+    {
+      "questionText": "What might this rock look like in 100 years if the moss keeps growing on it?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes such as the rock becoming completely covered in moss, breaking down over time, or becoming part of soil, and explains how this relates to weathering or decomposition.",
+        "meets": "Student predicts that the moss will cover more of the rock or that the rock might change, with a reasonable explanation of growth or decay.",
+        "approaching": "Student makes a prediction about the rock's future appearance but the explanation is vague or partially illogical, such as 'it will be bigger' without clarity.",
+        "beginning": "Student offers a prediction with little to no explanation, or provides an unrealistic answer."
+      }
+    },
+    {
+      "questionText": "Why do you think some rocks have plants growing on them while others don't?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple factors affecting moss growth, such as moisture, shade, sunlight, or proximity to trees, and explains how at least two factors influence where moss grows.",
+        "meets": "Student identifies at least one condition that affects moss growth, such as a rock being in a damp forest location or receiving enough shade, and explains why this matters.",
+        "approaching": "Student attempts to explain why some rocks have moss while others don't but the reasoning is incomplete or unclear, such as mentioning one factor without full explanation.",
+        "beginning": "Student offers a vague reason or guess about why moss grows on some rocks but not others, with minimal or no logical connection."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:51:05.249Z",
+  "cost": 0.004684
+}

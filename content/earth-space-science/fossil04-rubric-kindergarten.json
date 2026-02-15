@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the lines on this shell fossil?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific features of the lines (such as they spread out like a fan, they are wavy, or they make a pattern) and explains what the lines might mean.",
+        "meets": "Student identifies that the shell has lines and describes them accurately (such as lines going out, lines spreading, or lines that make a pattern).",
+        "approaching": "Student notices the shell has lines but gives vague description (like 'it has lines' or 'there are marks') with limited detail.",
+        "beginning": "Student makes minimal attempt to describe the lines or provides inaccurate observations."
+      }
+    },
+    {
+      "questionText": "How do you think this shell got stuck in the rock?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a plausible sequence of events involving the shell being buried (such as the shell sinking in mud or sand, being covered over time, and hardening into rock) and uses appropriate vocabulary.",
+        "meets": "Student provides a reasonable explanation that the shell was buried or covered by rock or soil over time, showing basic understanding of fossil formation.",
+        "approaching": "Student offers a partial explanation, such as 'the rock covered it' or 'it got stuck,' but reasoning is unclear or incomplete.",
+        "beginning": "Student provides minimal or vague response that shows little understanding of how fossils form in rock."
+      }
+    },
+    {
+      "questionText": "What does this fossil tell us about what lived on Earth long ago?",
+      "bloomsLevel": "Interpret",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the fossil shows a shell animal lived long ago and makes connections to where it may have lived (water, ocean) or what this tells us about Earth's past.",
+        "meets": "Student identifies that a shell animal lived on Earth long ago and the fossil is proof that this animal existed.",
+        "approaching": "Student recognizes the fossil is related to something that lived long ago but provides incomplete or somewhat unclear reasoning.",
+        "beginning": "Student provides minimal response or shows unclear understanding of what fossils tell us about past life."
+      }
+    },
+    {
+      "questionText": "If you found this fossil, what questions would you want to ask about it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student asks multiple thoughtful, science-based questions (such as 'How old is it?' 'What kind of animal was it?' 'Where did it live?' or 'How long did it take to turn to rock?') that show curiosity about fossils.",
+        "meets": "Student asks one or two reasonable questions about the fossil that show interest in learning more (such as 'What kind of shell is it?' or 'How old is it?').",
+        "approaching": "Student asks a question but it may be vague or show limited scientific curiosity, such as 'Is it old?' with little follow-up thinking.",
+        "beginning": "Student provides a minimal response or asks an unclear question that shows little engagement with the fossil."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:55:00.312Z",
+  "cost": 0.004642
+}

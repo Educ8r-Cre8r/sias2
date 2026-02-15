@@ -1,0 +1,53 @@
+{
+  "title": "Blackbird",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How does the bird's beak shape help it get food from the ground?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the pointed beak allows the bird to poke or dig into the ground, and identifies specific food items (like worms or insects) that the beak shape helps it catch or pull out.",
+        "meets": "Student explains that the pointed beak helps the bird pick up or find food on the ground, with accurate reasoning about how the shape works for feeding.",
+        "approaching": "Student identifies that the beak helps the bird get food but provides incomplete or vague explanation of how the pointed shape is useful.",
+        "beginning": "Student makes a simple observation about the beak or food but shows little understanding of the connection between beak shape and feeding."
+      }
+    },
+    {
+      "questionText": "What might happen to this bird if all the grass in its habitat disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the bird would have no food source and explains multiple consequences such as starvation, moving to a new habitat, or not surviving, showing understanding of food chains and habitat needs.",
+        "meets": "Student predicts that the bird would struggle to find food or might have to leave, recognizing that grass habitat is important for the bird's survival.",
+        "approaching": "Student provides a prediction about what would happen but with incomplete reasoning, such as stating the bird would leave without explaining why.",
+        "beginning": "Student provides a minimal or unclear prediction with little connection to the bird's need for food and habitat."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that use their body parts in special ways to get food?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals and describes specific body parts and how each part helps that animal get food, showing clear understanding of adaptation.",
+        "meets": "Student names one or two animals and explains how at least one specific body part helps them get food.",
+        "approaching": "Student names an animal but provides vague or incomplete explanation of how its body parts help it get food.",
+        "beginning": "Student names an animal but provides minimal or no explanation of how body parts are used for feeding."
+      }
+    },
+    {
+      "questionText": "Why do you think the bird is looking for food on wet grass instead of dry grass?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wet ground makes it easier to find or catch prey like worms or insects because they come to the surface or are more visible, demonstrating understanding of animal behavior and habitat conditions.",
+        "meets": "Student provides a reasonable explanation such as worms come out when it's wet, or food is easier to find in wet grass.",
+        "approaching": "Student provides a partial explanation that shows some understanding, such as noting that wet areas have more food, but lacking detail about why.",
+        "beginning": "Student offers a vague guess or observation about wet grass with little scientific reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:22:52.598Z",
+  "cost": 0.004551
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What can these fossils tell us about what this area was like millions of years ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that this area was once covered by ocean or water, describes multiple types of ancient sea life present (shells, marine creatures), and explains how the presence of these specific fossils reveals information about the ancient environment and ecosystem.",
+        "meets": "Student explains that this area was once underwater and identifies at least two types of sea creatures or shells found as fossils, demonstrating understanding that fossils show what lived in an area long ago.",
+        "approaching": "Student recognizes that fossils come from long ago and mentions water or ocean, but provides limited detail about specific organisms or environmental conditions shown in the fossils.",
+        "beginning": "Student states that fossils are old or mentions seeing shells and bones, but shows minimal understanding of what the fossils reveal about the ancient area."
+      }
+    },
+    {
+      "questionText": "Why do you think we find more fossils of shells and bones than of soft body parts like skin or leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard parts like shells and bones resist decay better and fossilize more easily, providing specific reasoning about why soft tissues decompose quickly and are less likely to be preserved in rock over millions of years.",
+        "meets": "Student correctly identifies that shells and bones are harder and last longer than soft parts, explaining that hard materials are easier to preserve as fossils.",
+        "approaching": "Student recognizes that hard parts are more likely to fossilize than soft parts but provides incomplete or vague reasoning about the preservation process.",
+        "beginning": "Student mentions that shells or bones last longer or are stronger, but offers little explanation for why this affects fossilization."
+      }
+    },
+    {
+      "questionText": "If you found similar fossils on top of a mountain, what might that suggest about Earth's history?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that mountains were once underwater or sea level, using evidence that ocean fossils on mountains indicate land has risen over time or continents have moved, demonstrating understanding of Earth's dynamic surface and geological processes.",
+        "meets": "Student concludes that the area was once covered by water or ocean, explaining that the presence of sea creature fossils on a mountain suggests the land has changed significantly over Earth's history.",
+        "approaching": "Student recognizes that fossils on a mountain suggest the area was once different, but reasoning about how the land changed is incomplete or unclear.",
+        "beginning": "Student acknowledges that finding sea fossils on a mountain is unusual but provides minimal or unclear explanation about what this reveals about Earth's past."
+      }
+    },
+    {
+      "questionText": "How might scientists use these fossils to learn about ancient ocean temperatures and conditions?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that different organisms live in specific temperature and salinity conditions, so fossil types indicate the ocean's past temperature and chemistry; may mention that shell composition or organism distribution provides clues about ancient environmental conditions.",
+        "meets": "Student describes that scientists can study what kinds of sea creatures lived in the fossils to determine if the ocean was warm or cold, demonstrating understanding that organisms indicate environmental conditions.",
+        "approaching": "Student suggests that fossils could help scientists learn about ocean conditions but provides limited or general explanation of the connection between organism types and temperature or water conditions.",
+        "beginning": "Student acknowledges scientists study fossils but provides vague or minimal explanation of how fossil types reveal information about ancient ocean conditions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:54:05.855Z",
+  "cost": 0.005151
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What can this fossil tell us about what this place was like millions of years ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that this brachiopod fossil indicates the area was once covered by ocean or sea water, and provides additional details about the ancient environment (such as water depth, other organisms present, or climate conditions).",
+        "meets": "Student correctly explains that this fossil shows the area was once underwater or covered by an ocean, indicating the environment was very different from today.",
+        "approaching": "Student recognizes that fossils show information about the past environment but provides limited details; may mention water or ancient times without clear connection to the brachiopod.",
+        "beginning": "Student gives a vague response about fossils being old or mentions the past without explaining what the specific fossil reveals about the ancient environment."
+      }
+    },
+    {
+      "questionText": "Why do you think we find more fossils of shells and bones than of soft body parts like skin or leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard structures like shells and bones are more likely to be preserved because they resist decay and breakdown over time, and may extend reasoning to describe how soft parts decompose quickly or are less likely to survive the fossilization process.",
+        "meets": "Student correctly identifies that shells and bones are harder and last longer than soft body parts, or explains that hard parts are easier to preserve as fossils.",
+        "approaching": "Student recognizes that hard parts are preserved better but explanation lacks clarity about why (decay, breakdown, time) or mentions only that shells are strong without connecting to preservation.",
+        "beginning": "Student provides minimal reasoning such as 'shells are harder' or 'soft parts disappear' without explaining the preservation connection to fossilization."
+      }
+    },
+    {
+      "questionText": "If you found this fossil in a mountain, what would that suggest about the mountain's history?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that finding a sea creature fossil in a mountain indicates the mountain was once underwater or at sea level, and extends thinking to describe how the land was uplifted, changed shape over time, or was affected by geological processes.",
+        "meets": "Student correctly infers that the mountain must have been underwater at some point in the past, since brachiopods are sea creatures, showing the land has changed.",
+        "approaching": "Student recognizes that the fossil suggests the mountain was once in water, but reasoning is incomplete or lacks clear connection between sea creatures and the mountain's history.",
+        "beginning": "Student provides a minimal response such as 'the mountain was wet' or 'it was in the ocean' without clear explanation of what this reveals about the mountain's past."
+      }
+    },
+    {
+      "questionText": "How might scientists use fossils like this one to learn about ancient climates?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that scientists can determine ancient climate by studying where brachiopods lived (water temperature preferences, depth), what other organisms lived nearby, or how environments changed over time, showing understanding of fossil context.",
+        "meets": "Student identifies that scientists can use fossils to learn what the climate was like by studying what organisms lived there or what conditions they needed to survive.",
+        "approaching": "Student mentions that fossils help scientists learn about ancient climate but provides vague or incomplete reasoning about how the specific fossil reveals climate information.",
+        "beginning": "Student gives a minimal response such as 'fossils show old weather' or 'they tell us about the past' without explaining the connection to climate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:55:32.492Z",
+  "cost": 0.005213
+}

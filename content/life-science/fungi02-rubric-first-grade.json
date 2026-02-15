@@ -1,0 +1,53 @@
+{
+  "title": "Fungi02",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where these mushrooms are growing?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific details about location, such as mushrooms growing on wood chips on the ground, and explains why that location makes sense for mushrooms.",
+        "meets": "Student accurately describes that mushrooms are growing on wood chips or in a dark, damp place on the ground.",
+        "approaching": "Student identifies that mushrooms are on the ground or mentions wood chips, but description lacks detail or clarity.",
+        "beginning": "Student makes a vague observation about where mushrooms are, such as 'on the ground,' with minimal specific details about the wood chips or location."
+      }
+    },
+    {
+      "questionText": "How do you think these mushrooms help the wood chips change over time?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms break down or eat the wood chips, making them softer, smaller, or turning them into soil, and connects this to decomposition.",
+        "meets": "Student describes that mushrooms help break down the wood chips or make them change, showing understanding of the fungal decomposition role.",
+        "approaching": "Student suggests mushrooms cause some kind of change to the wood chips but explanation is unclear or incomplete, such as 'they make it different.'",
+        "beginning": "Student provides minimal response, such as 'mushrooms change the wood,' with little explanation of how or why this happens."
+      }
+    },
+    {
+      "questionText": "What might happen to a forest if there were no mushrooms or fungi to break down dead leaves and wood?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple consequences, such as dead leaves and wood piling up, soil becoming unhealthy, or plants not being able to grow because nutrients aren't returned to the ground.",
+        "meets": "Student describes one clear consequence, such as dead leaves and wood piling up in the forest or the forest becoming messy and unhealthy.",
+        "approaching": "Student recognizes something bad would happen without fungi, but explanation is vague, such as 'the forest would be bad' without specific details.",
+        "beginning": "Student provides a minimal response, such as 'things would be different,' showing unclear understanding of fungi's role in decomposition."
+      }
+    },
+    {
+      "questionText": "How are mushrooms different from the plants in our classroom garden?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences with accurate details, such as mushrooms don't have roots or leaves, they don't make their own food from sunlight, they grow on dead things, or they're a different color and shape than garden plants.",
+        "meets": "Student describes at least two clear differences between mushrooms and garden plants, such as mushrooms growing on wood instead of soil, or lacking green leaves.",
+        "approaching": "Student identifies one difference between mushrooms and garden plants, but explanation may lack detail or contain partially inaccurate information.",
+        "beginning": "Student makes a vague comparison, such as 'they look different,' with little specific detail about how mushrooms differ from garden plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:27:19.444Z",
+  "cost": 0.00472
+}

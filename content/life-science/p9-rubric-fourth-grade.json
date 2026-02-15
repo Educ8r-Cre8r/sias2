@@ -1,0 +1,53 @@
+{
+  "title": "Monarch Caterpillar",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if this caterpillar couldn't find milkweed plants to eat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillar would starve or die because milkweed is its only food source, and connects this to why monarch caterpillars depend on specific plants for survival.",
+        "meets": "Student states that the caterpillar would starve or die without milkweed plants to eat, showing understanding of the caterpillar's dependence on this food source.",
+        "approaching": "Student recognizes that the caterpillar needs to eat milkweed but provides incomplete reasoning about what would happen without it (e.g., \"it wouldn't have food\" without explaining consequences).",
+        "beginning": "Student provides a vague response such as \"it would be bad\" or \"it would die\" with little or no explanation of why milkweed is important."
+      }
+    },
+    {
+      "questionText": "How do the caterpillar's body parts help it survive in its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (tentacles, legs, mouth) and explains how each helps survival (e.g., tentacles sense food, legs crawl to plants, mouth chews leaves), demonstrating understanding of adaptation.",
+        "meets": "Student describes at least two body parts and explains how they help the caterpillar survive or move to find food (e.g., legs for crawling, mouth for eating).",
+        "approaching": "Student mentions one or two body parts but provides limited or unclear explanation of how they help survival (e.g., \"it has legs to move\" without further detail).",
+        "beginning": "Student names a body part but provides no explanation, or gives inaccurate information about how body parts function."
+      }
+    },
+    {
+      "questionText": "Why might the caterpillar's bright colors be more helpful than camouflage colors?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors warn predators the caterpillar is poisonous or tastes bad from eating milkweed, and contrasts this with how camouflage would hide the caterpillar, demonstrating understanding of warning coloration.",
+        "meets": "Student identifies that the bright colors warn predators to stay away because the caterpillar is poisonous or dangerous, showing understanding of warning coloration as a defense.",
+        "approaching": "Student recognizes that bright colors are a defense mechanism but provides incomplete reasoning (e.g., \"predators see it and stay away\" without explaining why the colors send a warning).",
+        "beginning": "Student states that bright colors are helpful but provides little or no explanation, or confuses the purpose of bright colors with camouflage."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that shows this caterpillar is a living organism?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple observable evidence of life (movement, color patterns, body structure, location near food source) and explains that these characteristics show the caterpillar meets the definition of a living organism.",
+        "meets": "Student points to specific evidence from the photo such as movement, eating behavior, or physical body parts, and connects this to the caterpillar being alive.",
+        "approaching": "Student identifies one or two pieces of evidence (e.g., \"it moves\" or \"it has a body\") but provides limited connection to what makes something a living organism.",
+        "beginning": "Student provides vague evidence such as \"it looks alive\" or names only one basic characteristic without explanation of how it shows the caterpillar is living."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:38:56.657Z",
+  "cost": 0.005428
+}

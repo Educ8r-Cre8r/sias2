@@ -1,0 +1,53 @@
+{
+  "title": "Snowy Egret",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the egret's yellow feet help it catch fish better than if it had different colored feet?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that yellow feet attract fish or make fish easier to see, and connects this to how the bright color contrasts with water or how fish might be drawn to movement; may mention that the color helps the egret see its own feet in murky water.",
+        "meets": "Student identifies that the yellow feet help the egret catch fish, explaining that the bright color either attracts fish or makes the feet visible/easier to control in water.",
+        "approaching": "Student recognizes that yellow feet are important for catching fish but provides only a vague explanation, such as 'the color helps' or 'fish like yellow,' without clear reasoning.",
+        "beginning": "Student makes a minimal attempt, such as 'yellow feet are good' or 'they help catch fish,' with no explanation of how or why the color matters."
+      }
+    },
+    {
+      "questionText": "What might happen to this egret if the wetland habitat was drained and turned into a parking lot?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple consequences such as loss of food (fish), loss of nesting/resting places, and displacement to new areas; explains how the loss of water directly affects the egret's survival and behavior.",
+        "meets": "Student predicts that the egret would lose its home and food source (fish), recognizing that wetlands are essential for the bird's survival.",
+        "approaching": "Student predicts that something bad would happen to the egret (such as 'it would go away' or 'it couldn't live there') but provides incomplete reasoning about why wetlands matter.",
+        "beginning": "Student provides a minimal or vague prediction, such as 'the egret would leave' or 'it would be sad,' with little connection to habitat loss or survival needs."
+      }
+    },
+    {
+      "questionText": "Why do you think egrets have long, thin beaks instead of short, thick beaks like cardinals?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long, thin beaks are adapted for catching fish in water (allowing the egret to reach into water or spear slippery fish), while connecting this to how cardinals' short, thick beaks are adapted for cracking seeds; recognizes these are different adaptations for different food sources.",
+        "meets": "Student explains that the egret's long, thin beak is designed for catching fish in water, demonstrating understanding of how beak shape relates to diet and habitat.",
+        "approaching": "Student identifies that the long beak is useful for fishing or catching food in water but lacks detail about how the thin shape specifically helps with this task.",
+        "beginning": "Student makes a general statement such as 'long beaks are better' or 'they need to reach fish' without explaining how the beak's length or shape actually functions."
+      }
+    },
+    {
+      "questionText": "If you were designing a robot bird to catch fish, what features from this egret would you copy and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies and explains multiple specific features (long thin beak for spearing, yellow feet for attraction/visibility, white feathers for camouflage, one-leg stance for balance/stealth) and clearly connects each feature to its function in catching fish; shows creative design thinking.",
+        "meets": "Student identifies at least two specific egret features (such as beak shape and feet color or white coloring) and explains how each would help the robot bird catch fish.",
+        "approaching": "Student identifies at least one specific feature from the egret that would be useful for catching fish but provides limited explanation of why that feature matters or how it works.",
+        "beginning": "Student mentions a general idea such as 'copy the beak' or 'use white feathers' with little to no explanation of how these features would help catch fish."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:42:45.222Z",
+  "cost": 0.005735
+}

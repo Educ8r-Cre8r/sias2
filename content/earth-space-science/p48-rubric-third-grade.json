@@ -1,0 +1,53 @@
+{
+  "title": "Chrysalis",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside the chrysalis that we cannot see?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillar's body is changing and breaking down into parts that will form a butterfly, and may mention that this takes time or that new body parts are forming.",
+        "meets": "Student correctly identifies that the caterpillar is changing into a butterfly inside the chrysalis and describes at least one body part that changes.",
+        "approaching": "Student recognizes that something is changing inside the chrysalis but provides vague or partially accurate descriptions of the process (e.g., 'it's growing' or 'it's getting ready').",
+        "beginning": "Student provides a minimal response that shows little understanding of what happens inside the chrysalis, such as 'something is in there' or an inaccurate guess."
+      }
+    },
+    {
+      "questionText": "How might the chrysalis protect the developing butterfly from danger?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple protective features (hard shell, camouflage color, hanging location) and explains how each one helps keep the butterfly safe from specific dangers like predators or weather.",
+        "meets": "Student identifies at least two ways the chrysalis provides protection, such as its hard outer shell or green color that blends in with plants.",
+        "approaching": "Student identifies one way the chrysalis protects the butterfly but may lack detail or clarity in the explanation (e.g., 'it has a hard cover' without explaining why this helps).",
+        "beginning": "Student provides a vague or mostly inaccurate response about protection, such as 'it keeps it safe' without any specific features or reasoning."
+      }
+    },
+    {
+      "questionText": "Why do you think some animals go through metamorphosis while others do not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a thoughtful inference connecting metamorphosis to an animal's life needs, such as how different environments or food sources might require body changes, and provides a relevant example.",
+        "meets": "Student provides a reasonable explanation for why metamorphosis might happen, such as suggesting it helps animals survive or change where they live, with a simple example.",
+        "approaching": "Student offers a partial or incomplete explanation, such as acknowledging that different animals have different needs but struggling to connect this to why metamorphosis occurs.",
+        "beginning": "Student provides a minimal or unclear response, such as 'because they are different' or 'some just don't need to change,' with little reasoning."
+      }
+    },
+    {
+      "questionText": "What evidence could we collect to prove that metamorphosis is happening?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student suggests multiple specific, measurable methods to collect evidence (observations over time, photographs, drawings, measurements, opening a chrysalis) and explains why each method would demonstrate the changes happening.",
+        "meets": "Student proposes at least two realistic ways to observe or document metamorphosis, such as taking pictures of the chrysalis at different times or watching for the butterfly to emerge.",
+        "approaching": "Student suggests one method to collect evidence but may lack clarity about how it would show metamorphosis, or suggests a vague approach like 'watch it' without specific details.",
+        "beginning": "Student provides a minimal response with unclear or impractical suggestions, such as 'look at it' or an idea that wouldn't actually show evidence of change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:56:59.337Z",
+  "cost": 0.005064
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Hill",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What differences do you notice between the house on the hill and the buildings far away?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (e.g., house is on a hill while buildings are in a flat area, house is surrounded by trees while buildings have fewer trees, house is bigger/smaller than buildings, or differences in colors/shapes) with clear descriptive language.",
+        "meets": "Student identifies at least two clear differences between the house and distant buildings, such as location, number of trees, or size, using simple descriptive words.",
+        "approaching": "Student identifies one difference between the house and buildings, or mentions observations that are partially accurate but lack clear detail.",
+        "beginning": "Student makes a vague observation or attempts to compare but provides unclear or mostly inaccurate information about the two structures."
+      }
+    },
+    {
+      "questionText": "Why do you think people chose to build the house surrounded by so many trees?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasonable reasons trees benefit the house (e.g., shade, cool air, pretty, animals need trees, protection from wind) and explains at least one reason with simple detail.",
+        "meets": "Student gives at least one logical reason people might build near trees, such as shade, beauty, or shelter, with basic explanation.",
+        "approaching": "Student attempts to provide a reason but explanation is incomplete, unclear, or only partially logical (e.g., 'because trees are nice' without explaining benefit).",
+        "beginning": "Student offers minimal or vague reasoning, or response shows little understanding of why trees might be beneficial to a building location."
+      }
+    },
+    {
+      "questionText": "How do you think the trees help the animals that live there?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple ways trees help animals (e.g., food/berries, shelter/homes, shade, places to hide) and demonstrates understanding that animals depend on trees.",
+        "meets": "Student identifies at least one way trees help animals, such as providing shelter, food, or shade, with a simple explanation.",
+        "approaching": "Student mentions one benefit (e.g., 'animals live in trees') but lacks clear explanation of how this helps them.",
+        "beginning": "Student provides a minimal response or shows unclear understanding of the relationship between trees and animals."
+      }
+    },
+    {
+      "questionText": "What would happen to this area if it rained very hard for many days?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple effects of heavy rain (e.g., ground gets wet/muddy, trees get more water, water might flow down the hill, floods could happen, animals might move) and explains at least one prediction with reasoning.",
+        "meets": "Student makes a reasonable prediction about effects of heavy rain, such as the area becoming wet, muddy, flooded, or water running downhill.",
+        "approaching": "Student attempts a prediction but it is vague, partially logical, or lacks clear connection to heavy rain (e.g., 'it will be wet' without further explanation).",
+        "beginning": "Student provides minimal response or prediction that shows little understanding of how heavy rain affects landscapes and areas with hills or trees."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:49:20.835Z",
+  "cost": 0.004852
+}

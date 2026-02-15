@@ -1,0 +1,53 @@
+{
+  "title": "Deer Camouflage",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think these deer have brown and tan fur instead of bright colors like red or blue?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that brown and tan fur helps deer blend in with their environment (grass, trees, dirt) and makes them harder for predators to see, using the term 'camouflage' or 'blending in' with specific habitat details.",
+        "meets": "Student states that brown and tan fur helps the deer hide or blend in with their surroundings, showing understanding of basic camouflage.",
+        "approaching": "Student mentions that the deer's color matches the grass or environment, but explanation is incomplete or lacks clear connection to hiding or survival.",
+        "beginning": "Student provides a vague response (e.g., 'deer are brown') or suggests an inaccurate reason (e.g., 'they like that color') with little understanding of camouflage."
+      }
+    },
+    {
+      "questionText": "What might happen to a deer with bright white fur living in this grassy area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a white deer would stand out and be easily spotted by predators, explaining that poor camouflage makes it harder for the deer to hide and survive in the brown/tan grassy habitat.",
+        "meets": "Student correctly predicts that a white deer would be easy to see or would stand out in the grass, indicating understanding of how camouflage helps protection.",
+        "approaching": "Student recognizes that white would look different from the grass, but reasoning about consequences (predators, danger) is unclear or incomplete.",
+        "beginning": "Student gives a minimal response (e.g., 'it would be different') or an inaccurate prediction with little connection to predators or habitat."
+      }
+    },
+    {
+      "questionText": "How does the deer's camouflage help it survive in this habitat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that camouflage helps the deer hide from predators so it won't be hunted, and/or helps it sneak up on food, demonstrating understanding of survival advantages in a specific habitat.",
+        "meets": "Student explains that camouflage helps the deer hide or stay safe from predators, showing clear understanding of how camouflage supports survival.",
+        "approaching": "Student mentions that camouflage helps the deer hide, but explanation of survival benefit is vague or incomplete.",
+        "beginning": "Student provides a minimal or confused response (e.g., 'it helps it live') without explaining the connection between hiding and survival."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that use camouflage, and how does their camouflage match their homes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more animals with camouflage and explains how each animal's coloring matches its specific habitat (e.g., 'rabbits are brown like the dirt and grass they live in,' 'owls are gray like tree bark').",
+        "meets": "Student names at least one animal that uses camouflage and describes how its coloring matches its habitat, showing understanding of the pattern across different animals.",
+        "approaching": "Student names an animal with camouflage but explanation of how it matches its habitat is incomplete or unclear.",
+        "beginning": "Student names an animal but provides no explanation of camouflage, or suggests an animal that does not use camouflage as a survival strategy."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:25:10.422Z",
+  "cost": 0.005235
+}

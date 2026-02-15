@@ -1,0 +1,53 @@
+{
+  "title": "Dragonfly",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the dragonfly's eyes and how might they help it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the dragonfly has big eyes and explains two ways they help, such as seeing in many directions, spotting movement, or catching food.",
+        "meets": "Student describes that the dragonfly has big eyes and explains one way they help the dragonfly, such as seeing other insects or watching for danger.",
+        "approaching": "Student notices the dragonfly has big eyes and offers a simple reason they might help, such as 'to see' or 'to find bugs,' but lacks detail.",
+        "beginning": "Student makes a vague observation about the eyes or provides an unclear/inaccurate explanation of their purpose."
+      }
+    },
+    {
+      "questionText": "How are a dragonfly's wings different from a bird's wings?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences, such as dragonfly wings are clear/see-through while bird wings have feathers, or dragonfly wings move differently than bird wings.",
+        "meets": "Student identifies at least one clear difference between dragonfly wings and bird wings, such as noting that dragonfly wings are clear or that bird wings have feathers.",
+        "approaching": "Student attempts a comparison but provides incomplete or partially accurate information, such as mentioning wings are different without clear explanation.",
+        "beginning": "Student provides a minimal response that does not clearly compare the wings or contains inaccurate information."
+      }
+    },
+    {
+      "questionText": "What would happen if a dragonfly didn't have such big eyes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a logical consequence, such as the dragonfly couldn't see insects to eat, couldn't avoid predators, or would have trouble catching food, showing cause-and-effect thinking.",
+        "meets": "Student predicts one reasonable consequence, such as the dragonfly might not catch food or could get hurt because it wouldn't see well.",
+        "approaching": "Student attempts to predict a consequence but it is unclear or only partially logical, such as 'it would be sad' or 'it wouldn't be as good.'",
+        "beginning": "Student provides a response with little connection to vision or survival, or states 'I don't know.'"
+      }
+    },
+    {
+      "questionText": "Where do you think this dragonfly lives and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a habitat like near water and provides two reasons, such as dragonflies live near water where they find food and lay eggs, or need water for their life cycle.",
+        "meets": "Student identifies a reasonable habitat like water, a pond, or wet area and gives one supporting reason, such as 'dragonflies need water' or 'they find insects there.'",
+        "approaching": "Student suggests a general location like 'outside' or 'near water' but gives incomplete or vague reasoning.",
+        "beginning": "Student provides a habitat guess with no reasoning or an inaccurate response unrelated to dragonfly habitats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:19:38.442Z",
+  "cost": 0.004744
+}

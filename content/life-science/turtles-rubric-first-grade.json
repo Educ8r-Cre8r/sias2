@@ -1,0 +1,53 @@
+{
+  "title": "Turtles",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the two turtles are different from each other?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (size, shell color, moss/algae growth) and uses descriptive words like 'bigger,' 'smaller,' 'green,' or 'darker' to compare the turtles.",
+        "meets": "Student identifies at least two clear differences between the turtles, such as size or shell appearance, with simple descriptions.",
+        "approaching": "Student identifies one difference between the turtles (such as size) but descriptions lack detail or may be unclear.",
+        "beginning": "Student notices the turtles are different but provides vague responses or cannot clearly describe how they differ."
+      }
+    },
+    {
+      "questionText": "Why do you think the turtles chose to sit on this log instead of staying in the water?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a logical inference with a reason, such as turtles need to rest, warm up in the sun, breathe air, or dry off, and explains why this behavior helps the turtle.",
+        "meets": "Student provides a reasonable inference about why turtles sit on logs, such as to rest or warm up, with a simple explanation.",
+        "approaching": "Student attempts an inference but explanation is incomplete or somewhat unclear, such as 'turtles like to sit' without clear reasoning.",
+        "beginning": "Student's response shows minimal understanding with vague ideas like 'it's fun' or no clear connection to turtle needs."
+      }
+    },
+    {
+      "questionText": "How does a turtle's shell help it survive in its habitat?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple functions of the shell (protection from predators, protection from injury, staying safe) using the word 'protect' or 'protect from' with specific examples.",
+        "meets": "Student explains that the shell protects the turtle from danger or animals with a simple, clear explanation.",
+        "approaching": "Student mentions the shell helps the turtle survive but explanation is vague or incomplete, such as 'it keeps it safe' without detail.",
+        "beginning": "Student provides a minimal response that does not clearly explain the shell's survival function."
+      }
+    },
+    {
+      "questionText": "What other animals might live in this same pond habitat with the turtles?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student lists multiple pond animals from different categories (such as fish, frogs, birds, or insects) and explains why these animals would live in a pond habitat.",
+        "meets": "Student names at least two animals that realistically live in ponds with a simple reason, such as 'frogs live in ponds' or 'ducks swim in water.'",
+        "approaching": "Student names one or two pond animals but reasoning is absent or unclear, or suggests unlikely habitat animals.",
+        "beginning": "Student names animals with little connection to pond habitats or provides vague responses without clear examples."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:43:56.256Z",
+  "cost": 0.004631
+}

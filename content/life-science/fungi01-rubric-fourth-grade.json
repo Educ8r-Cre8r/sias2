@@ -1,0 +1,53 @@
+{
+  "title": "Fungi01",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to a forest if there were no fungi to break down dead leaves and logs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead leaves and logs would pile up and decompose very slowly, preventing nutrients from returning to soil, and describes how this would affect plant growth or the overall forest ecosystem.",
+        "meets": "Student correctly identifies that dead leaves and logs would pile up without fungi to break them down, and explains that this would be a problem for the forest.",
+        "approaching": "Student mentions that fungi break down dead material or that something bad would happen without fungi, but the explanation is incomplete or lacks detail about decomposition.",
+        "beginning": "Student provides a vague response such as 'the forest would be messy' or 'bad things would happen' with little understanding of fungi's decomposition role."
+      }
+    },
+    {
+      "questionText": "How might the shape and position of these gills help the mushroom spread its spores?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes how the gills' large surface area and downward-hanging position allow spores to be released and fall or be carried by wind and water, using accurate vocabulary like 'surface area' or 'gravity.'",
+        "meets": "Student explains that the gills help spread spores by releasing them downward or into the air, and recognizes that the gill structure helps with spore dispersal.",
+        "approaching": "Student identifies that gills release spores or mentions their position, but the explanation of how this helps spread spores is unclear or incomplete.",
+        "beginning": "Student names the gills or recognizes they are present but provides little or no explanation of how they help spread spores."
+      }
+    },
+    {
+      "questionText": "If you found mushrooms growing in a circle in your yard, what could you infer about the fungus underground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student infers that a large underground network (mycelium) is spreading outward in all directions from a center point, and may explain that the mushrooms are fruiting bodies that appear where the fungus is most mature or active.",
+        "meets": "Student infers that the mushrooms above ground are connected to a network underground that is spreading outward in a circle.",
+        "approaching": "Student recognizes that there is something underground connected to the mushrooms, but the explanation of the circular pattern or underground structure is vague or incomplete.",
+        "beginning": "Student provides a minimal response such as 'there is fungus underground' without explaining the circular arrangement or structure."
+      }
+    },
+    {
+      "questionText": "Compare and contrast how fungi reproduce with spores versus how flowering plants reproduce with seeds.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies similarities (both are ways to spread and create new organisms) and differences (spores are single cells from one parent; seeds have two parents and contain stored food, or spores are smaller and more numerous), using accurate scientific vocabulary.",
+        "meets": "Student provides at least one accurate similarity (both spread organisms) and one difference (spores vs. seeds; number produced; size), showing understanding of both reproduction methods.",
+        "approaching": "Student mentions spores and seeds or attempts to compare them, but the explanation contains gaps, inaccuracies, or lacks clear similarities or differences.",
+        "beginning": "Student provides a vague or mostly inaccurate response about the two reproduction methods with minimal understanding demonstrated."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:26:56.101Z",
+  "cost": 0.005121
+}

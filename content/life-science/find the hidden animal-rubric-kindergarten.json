@@ -1,0 +1,53 @@
+{
+  "title": "Find The Hidden Animal",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the colors and shapes in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies and describes multiple colors (such as brown, gray, tan) and several different shapes (round, bumpy, smooth, flat) observed in the rocks and pebbles.",
+        "meets": "Student notices and names at least two colors and two different shapes found among the rocks in the picture.",
+        "approaching": "Student identifies one or two colors or shapes, but descriptions are vague or only partially accurate.",
+        "beginning": "Student makes a minimal attempt to describe the picture but provides little detail or mostly inaccurate observations."
+      }
+    },
+    {
+      "questionText": "Why might an animal want to look like a rock?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that looking like a rock helps the animal hide so it won't be seen by predators or prey, using the word 'camouflage' or 'blending in' accurately.",
+        "meets": "Student explains that looking like a rock helps the animal hide or stay safe because predators or other animals won't see it.",
+        "approaching": "Student suggests hiding or safety as a reason but the explanation is unclear or only partially connected to the animal's appearance.",
+        "beginning": "Student provides a minimal or unclear response that shows little understanding of why camouflage would be helpful."
+      }
+    },
+    {
+      "questionText": "How do you think this animal's appearance helps it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the animal's rock-like colors and shape help it survive by staying hidden from predators and/or sneaking up on prey, showing cause-and-effect thinking.",
+        "meets": "Student explains that looking like rocks helps the animal survive because it can hide and stay safe from danger.",
+        "approaching": "Student mentions hiding or safety but the explanation of how appearance connects to survival is incomplete or somewhat unclear.",
+        "beginning": "Student provides a vague response or shows minimal understanding of the connection between appearance and survival."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that blend in with their surroundings?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names and describes at least two animals that camouflage with their environment, explaining specifically how their colors or patterns match their surroundings.",
+        "meets": "Student names at least one or two animals that blend in with their surroundings and makes a simple connection to how they match their environment.",
+        "approaching": "Student names one animal that blends in, but provides little or unclear explanation of how it matches its surroundings.",
+        "beginning": "Student names an animal with minimal or no explanation, or provides an animal example that does not clearly demonstrate camouflage."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:25:34.320Z",
+  "cost": 0.004348
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Find The Hidden Animal",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the hidden animal's colors compare to the rocks around it?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific color matches between the animal and rocks (e.g., \"The animal is brown and gray like the pebbles around it\") and notes additional features like texture or size similarities.",
+        "meets": "Student accurately describes that the animal's colors are similar to or match the rocks around it, using at least one specific color word.",
+        "approaching": "Student notices that the animal and rocks have similar colors but provides limited detail or uses vague descriptions like \"the same color.\"",
+        "beginning": "Student makes a general statement about colors or appearance but does not clearly compare the animal to the rocks, or response is unclear."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful for this animal to look like the rocks in its habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that camouflage helps the animal hide from predators or sneak up on prey, and connects this to the animal's survival or safety in its rocky habitat.",
+        "meets": "Student explains that looking like rocks helps the animal hide or stay safe, demonstrating understanding of basic camouflage as a survival strategy.",
+        "approaching": "Student recognizes that looking like rocks is helpful but provides incomplete reasoning, such as \"it helps hide\" without explaining why hiding is important.",
+        "beginning": "Student attempts to explain but gives a vague or inaccurate response, such as \"so it doesn't get dirty\" or \"because rocks are around it.\""
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that might use camouflage, and where would they hide?",
+      "bloomsLevel": "Retrieve",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals with camouflage (e.g., grasshopper, stick insect, snow hare) and describes appropriate habitats where each would hide with accurate reasoning.",
+        "meets": "Student names at least one animal that uses camouflage and describes a reasonable habitat or location where it would hide.",
+        "approaching": "Student names one animal but provides limited or unclear information about where it would hide, or names animals without clear connection to camouflage.",
+        "beginning": "Student names an animal but does not explain camouflage or habitat, or provides an inaccurate or confused response."
+      }
+    },
+    {
+      "questionText": "How do you think baby animals get their camouflage colors?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that baby animals inherit camouflage colors from their parents through genes or are born with colors that match their habitat, showing understanding of inherited traits.",
+        "meets": "Student reasonably infers that babies are born with camouflage colors similar to their parents or that they match their environment naturally.",
+        "approaching": "Student makes an attempt to explain but the reasoning is partially correct or unclear, such as \"they learn it\" or \"the rocks make them that color.\"",
+        "beginning": "Student provides a vague response like \"I don't know\" or gives an inaccurate explanation without connecting to how traits pass from parents to babies."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:25:48.999Z",
+  "cost": 0.004875
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fountain",
+  "category": "physical-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think made the water in the fountain turn into ice?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that cold or freezing temperatures made the water turn into ice and may explain that water needs to be very cold to freeze.",
+        "meets": "Student correctly states that cold weather or cold temperatures made the water freeze into ice.",
+        "approaching": "Student mentions cold or freezing but with limited detail, or confuses the cause with other weather factors.",
+        "beginning": "Student provides a vague response about cold, or offers an inaccurate explanation unrelated to temperature."
+      }
+    },
+    {
+      "questionText": "Where else have you seen water turn into ice?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple specific places where water freezes into ice (such as a pond, puddle, ice skating rink, freezer, or icicles on a house).",
+        "meets": "Student identifies at least one specific place where water has turned into ice, such as a puddle, pond, or freezer.",
+        "approaching": "Student names a place where ice exists but struggles to clearly explain that water froze there, or gives a very general response.",
+        "beginning": "Student gives a vague or unclear response, or cannot think of a place where water turns to ice."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this ice when the weather gets warm?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the ice will melt and may explain that warmth or warm temperature causes ice to turn back into water.",
+        "meets": "Student correctly predicts that the ice will melt when the weather becomes warm.",
+        "approaching": "Student predicts that something will happen to the ice but gives an incomplete explanation, or predicts melting without clear reasoning.",
+        "beginning": "Student makes an inaccurate prediction, or cannot predict what will happen to the frozen fountain."
+      }
+    },
+    {
+      "questionText": "How is this frozen fountain the same as and different from an ice cube?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both are frozen water/ice, both are hard and cold) and differences (fountain is outside/larger, ice cube is in a freezer/smaller, fountain has icicles), using clear comparisons.",
+        "meets": "Student identifies at least one similarity and one difference between the frozen fountain and an ice cube, such as both being made of ice but different in size or location.",
+        "approaching": "Student attempts to compare the two but identifies only similarities OR only differences, or explanations are unclear or partially accurate.",
+        "beginning": "Student struggles to identify clear similarities or differences, or provides minimal, vague responses."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:59:06.426Z",
+  "cost": 0.004302
+}

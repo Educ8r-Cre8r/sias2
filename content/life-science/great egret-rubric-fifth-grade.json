@@ -1,0 +1,53 @@
+{
+  "title": "Great Egret",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the egret's body parts help it survive in its habitat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least three specific body parts (long legs, curved neck, sharp beak) and explains how each adaptation helps the egret hunt, move through water, or catch food with clear scientific reasoning.",
+        "meets": "Student identifies two or more body parts of the egret and explains how they help the bird survive in its water habitat with accurate details.",
+        "approaching": "Student identifies at least one body part and provides a basic explanation of how it helps the egret, but reasoning may be incomplete or lack specific details.",
+        "beginning": "Student names a body part or makes a vague statement about survival, but provides little or no explanation of how it helps the egret function."
+      }
+    },
+    {
+      "questionText": "What might happen to the egret population if the water in their habitat became polluted?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a chain of effects (pollution → fewer fish → less food → egrets leave or die) and explains how water quality affects the entire ecosystem, showing understanding of food chains and habitat dependence.",
+        "meets": "Student explains that pollution would reduce food sources or make water unsafe, leading to fewer egrets or population decline with reasonable cause-and-effect reasoning.",
+        "approaching": "Student states that pollution would hurt egrets but provides an incomplete or partially unclear explanation of how this would occur.",
+        "beginning": "Student makes a simple statement like 'pollution is bad' or 'egrets would die' with little or no explanation of the connection."
+      }
+    },
+    {
+      "questionText": "Compare and contrast how an egret and a duck are similar and different in their adaptations for living near water.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two similarities (both have waterproof feathers, long necks) and two differences (egret has long legs for wading vs. duck swims; different beak shapes for different foods) and explains how each adaptation matches their hunting or feeding style.",
+        "meets": "Student identifies at least one similarity and one difference in water adaptations between egrets and ducks with accurate descriptions.",
+        "approaching": "Student attempts to compare both birds but provides only partial information, missing details, or unclear explanations of how adaptations differ.",
+        "beginning": "Student names the two birds or mentions one feature but does not clearly compare or contrast their adaptations."
+      }
+    },
+    {
+      "questionText": "Design a new bird species that could successfully compete with egrets for food in the same habitat.",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a bird with specific, realistic adaptations (beak type, leg length, hunting method) that would compete with egrets for fish and explains why these features would work in the same water habitat without making the design dependent on unrealistic traits.",
+        "meets": "Student describes a new bird with at least two adaptations suited to hunting in water and explains how it could catch food similar to egrets.",
+        "approaching": "Student proposes a bird design with some appropriate water-hunting features but may lack clarity about how it competes for food or include some unrealistic elements.",
+        "beginning": "Student describes a bird idea with minimal detail or unrealistic features that would not actually work for competing in the egret's habitat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:32:38.773Z",
+  "cost": 0.005011
+}

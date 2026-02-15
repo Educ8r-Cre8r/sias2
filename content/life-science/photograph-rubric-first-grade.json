@@ -1,0 +1,53 @@
+{
+  "title": "Ecosystem",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think lives in this forest that we can't see in the picture?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names 3+ forest animals with details about where they hide (e.g., 'Birds in nests in trees, squirrels in holes, bugs under leaves') showing understanding that forests provide shelter.",
+        "meets": "Student names 2 forest animals that could live there (e.g., 'deer and birds') with simple explanations of why they live in forests.",
+        "approaching": "Student names 1-2 forest animals but provides minimal or vague reasoning about why they would live there.",
+        "beginning": "Student names an animal but with little connection to forest habitats, or provides only 'I don't know' type responses."
+      }
+    },
+    {
+      "questionText": "How might the animals that live in the forest be different from animals that live in the open fields?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies 3+ specific differences (e.g., 'Forest animals climb trees, field animals run fast; forest animals hide in trees, field animals need open space to see') showing understanding of habitat adaptation.",
+        "meets": "Student identifies 2 clear differences between forest and field animals (e.g., 'Forest animals climb; field animals run' or 'Forest animals hide; field animals are in open').",
+        "approaching": "Student identifies 1 difference or provides general comparisons that show partial understanding but lack specific examples.",
+        "beginning": "Student provides vague statements like 'they are different' with no clear reasoning or examples."
+      }
+    },
+    {
+      "questionText": "What would happen to the forest animals if all the trees were cut down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences (e.g., 'Animals would lose their homes, have nowhere to hide or find food, and would have to move away or get hurt') demonstrating understanding of dependence on trees.",
+        "meets": "Student explains 1-2 consequences clearly (e.g., 'The animals would lose their homes' or 'They wouldn't have places to hide and would have to leave').",
+        "approaching": "Student identifies a consequence but explanation is incomplete or somewhat unclear (e.g., 'The animals would be sad' or 'They couldn't live there anymore' without elaboration).",
+        "beginning": "Student provides minimal response like 'the animals would die' or 'it would be bad' with no real explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think some areas have lots of trees while others are open fields?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides thoughtful reasoning with 2+ factors (e.g., 'People cleared trees for fields to grow food, or maybe the weather or ground is different there') showing emerging understanding of environmental factors.",
+        "meets": "Student offers a reasonable explanation (e.g., 'People cut down trees to make fields' or 'Some places grow trees better than others').",
+        "approaching": "Student provides a partial or overly simple explanation (e.g., 'Trees grow in some places' or 'People did it') without much reasoning.",
+        "beginning": "Student responds with 'I don't know' or provides an answer unrelated to the question."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:40:51.573Z",
+  "cost": 0.005005
+}

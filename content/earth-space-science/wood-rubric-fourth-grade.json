@@ -1,0 +1,53 @@
+{
+  "title": "Wood",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What patterns do you notice when comparing the rings in different logs?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific patterns across logs, such as variations in ring width, number of rings, color differences between heartwood and sapwood, and describes how these patterns differ between individual logs.",
+        "meets": "Student identifies at least two clear patterns when comparing rings, such as differences in ring width or varying numbers of rings across different logs.",
+        "approaching": "Student notices that rings exist and may mention one similarity or difference between logs, but observations lack specificity or detail.",
+        "beginning": "Student makes a minimal attempt to compare logs, offering vague observations like 'the rings look different' without supporting details."
+      }
+    },
+    {
+      "questionText": "How might a tree's rings look different if it grew during a very dry year versus a very wet year?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dry years produce thin rings due to less growth and wet years produce thick rings due to more growth, and connects this to how trees need water to grow larger amounts of wood.",
+        "meets": "Student accurately explains that dry years create thinner rings and wet years create thicker rings, showing understanding of the relationship between water availability and tree growth.",
+        "approaching": "Student demonstrates partial understanding by suggesting rings would look different in dry versus wet years, but the explanation is incomplete or contains minor inaccuracies about why.",
+        "beginning": "Student provides a minimal or unclear response, such as 'rings look different' without explaining how or why dry and wet years would affect ring appearance."
+      }
+    },
+    {
+      "questionText": "If you found a tree stump with 50 rings, what could you infer about that tree's life story?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student infers that the tree was 50 years old and may add details about its life, such as identifying potential dry or wet years based on ring width, or discussing how long it took the tree to grow to that size.",
+        "meets": "Student correctly infers that the tree was approximately 50 years old and explains that each ring represents one year of growth.",
+        "approaching": "Student makes an attempt to infer the tree's age or mentions that rings relate to years, but the connection is unclear or partially incorrect.",
+        "beginning": "Student provides a vague response about the tree or rings without clearly inferring the tree's age or life story."
+      }
+    },
+    {
+      "questionText": "Why do you think scientists study tree rings to learn about past weather patterns?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that tree rings record yearly growth patterns that reflect weather conditions, and reasons that wide rings indicate wet/good growing years while thin rings indicate dry/difficult years, allowing scientists to reconstruct past climates.",
+        "meets": "Student explains that scientists can use tree rings to learn about past weather because the rings show how much a tree grew each year, and growth is affected by weather conditions like rainfall.",
+        "approaching": "Student suggests a connection between tree rings and past weather but the explanation is incomplete or shows partial understanding of how weather affects ring formation.",
+        "beginning": "Student makes a minimal attempt to explain the connection, such as 'tree rings tell about weather' without supporting reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:57:57.404Z",
+  "cost": 0.004909
+}

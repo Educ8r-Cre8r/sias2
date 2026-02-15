@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the caterpillar's old skin looks compared to the caterpillar?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific differences between the old skin and caterpillar, such as color, size, texture, or that the skin is empty and the caterpillar is full of life.",
+        "meets": "Student identifies at least two clear differences, such as the old skin being empty/flat and the caterpillar being full/alive, or that they are different sizes.",
+        "approaching": "Student notices some differences but descriptions are vague or incomplete, such as saying one looks different without explaining how.",
+        "beginning": "Student makes minimal observations or provides inaccurate descriptions with little detail about the differences shown."
+      }
+    },
+    {
+      "questionText": "Why do you think the caterpillar needed to come out of its old skin?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillar grew too big for its old skin and needed a new, bigger skin to keep growing, using clear reasoning.",
+        "meets": "Student provides a logical explanation that the caterpillar outgrew its old skin or needed more room, showing basic understanding of growth.",
+        "approaching": "Student attempts to explain growth but reasoning is unclear or partially formed, such as saying it needed to change without explaining why.",
+        "beginning": "Student offers a response with little connection to the concept of growth or provides vague ideas like the caterpillar wanted to change."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that grow out of their coverings?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more animals that shed or outgrow coverings, such as snakes, crabs, birds (feathers), or fish, showing broad knowledge.",
+        "meets": "Student correctly identifies two animals that shed or outgrow their coverings, such as snakes and birds, or snakes and crabs.",
+        "approaching": "Student names one animal correctly, or mentions multiple animals but with unclear connection to shedding/outgrowing coverings.",
+        "beginning": "Student names an animal but cannot explain how it sheds or outgrows coverings, or provides an inaccurate example."
+      }
+    },
+    {
+      "questionText": "How is a caterpillar shedding its skin similar to how you outgrow your clothes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly explains that both the caterpillar and child grow bigger, become too large for their covering, and need a new, larger one to fit properly.",
+        "meets": "Student makes a clear connection that both grow and need bigger coverings as they get larger, showing solid understanding of the similarity.",
+        "approaching": "Student identifies a similarity but the explanation lacks detail or clarity, such as saying they both change without fully explaining the growth connection.",
+        "beginning": "Student attempts to compare but reasoning is unclear, incomplete, or shows minimal understanding of the similarity between the two processes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:33:30.709Z",
+  "cost": 0.004697
+}

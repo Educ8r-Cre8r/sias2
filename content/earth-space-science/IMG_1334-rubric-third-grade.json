@@ -1,0 +1,53 @@
+{
+  "title": "Mammal",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this squirrel survive in its environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (such as sharp claws, bushy tail, strong teeth, small ears) and explains how each one helps the squirrel survive or move in its environment.",
+        "meets": "Student identifies two body parts visible in the photo and explains how they help the squirrel survive or function in its habitat.",
+        "approaching": "Student identifies one or two body parts but provides limited or unclear explanation of how they help the squirrel.",
+        "beginning": "Student names a body part but does not explain its survival function, or response is vague and shows minimal understanding."
+      }
+    },
+    {
+      "questionText": "How might this squirrel's life be different if it lived in a forest instead of near people?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple differences (such as food sources, shelter options, safety, or behaviors) and reasons why a forest environment would affect the squirrel differently than living near people.",
+        "meets": "Student describes two or more differences between living in a forest and near people, showing understanding that habitat affects a squirrel's life.",
+        "approaching": "Student identifies one difference between forest and human environments but reasoning is incomplete or partially unclear.",
+        "beginning": "Student provides a vague response or one difference with little explanation of how forest and human environments differ for squirrels."
+      }
+    },
+    {
+      "questionText": "What evidence do you see that shows this habitat meets the squirrel's needs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific details from the photo (plants, flowers, food, space to move) and explains how each detail meets a particular squirrel need like food, shelter, or safety.",
+        "meets": "Student identifies two or more details from the habitat (such as plants, food, or open space) and explains how they help meet the squirrel's basic needs.",
+        "approaching": "Student identifies one or two habitat features but provides incomplete explanation of how they meet the squirrel's needs.",
+        "beginning": "Student names a habitat feature but does not explain why it helps meet the squirrel's needs, or response lacks clear connection to survival needs."
+      }
+    },
+    {
+      "questionText": "Why do you think the squirrel is holding its food instead of eating it on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a well-reasoned explanation such as protection from predators, better view of surroundings, or carrying food to storage, and may connect this to animal behavior or survival.",
+        "meets": "Student suggests a logical reason for holding food (such as safety, being able to see better, or carrying it away) that shows understanding of squirrel behavior.",
+        "approaching": "Student suggests a reason for holding food but reasoning is somewhat unclear or lacks connection to survival or safety.",
+        "beginning": "Student provides a minimal or unclear answer with little reasoning about why squirrels might hold their food while eating."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:45:47.844Z",
+  "cost": 0.004699
+}

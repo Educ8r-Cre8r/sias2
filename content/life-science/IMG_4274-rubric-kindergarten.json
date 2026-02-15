@@ -1,0 +1,53 @@
+{
+  "title": "Dragonfly",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What body parts do you notice on this dragonfly that help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (wings, eyes, legs, body) and explains how at least two help the dragonfly survive (e.g., wings help it fly away from danger, big eyes help it see).",
+        "meets": "Student identifies two body parts and explains how at least one helps the dragonfly survive with a simple reason (e.g., wings to fly, eyes to see).",
+        "approaching": "Student names one or two body parts but provides only vague or incomplete explanation of how they help (e.g., names wings but doesn't explain their function).",
+        "beginning": "Student names a body part with no explanation, or provides inaccurate information about how body parts help the dragonfly survive."
+      }
+    },
+    {
+      "questionText": "How do you think the dragonfly uses its big eyes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that big eyes help the dragonfly see in multiple ways, such as finding food, watching for danger, or seeing in different directions at once.",
+        "meets": "Student explains that big eyes help the dragonfly see, with one clear reason such as finding food or watching for danger.",
+        "approaching": "Student mentions that the dragonfly uses its eyes to see but provides limited or unclear reasoning about why this matters for survival.",
+        "beginning": "Student provides a minimal response such as just repeating that dragonflies have big eyes, with little or no explanation of their use."
+      }
+    },
+    {
+      "questionText": "What do you think this dragonfly needs to stay alive and healthy?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more needs (water, food/insects, air, sunlight) and connects at least one to the water habitat shown in the photo.",
+        "meets": "Student identifies two or more basic needs such as food, water, or air with simple explanations appropriate for kindergarten.",
+        "approaching": "Student identifies one or two needs but explanations are vague or incomplete (e.g., just says 'food' without describing what kind).",
+        "beginning": "Student provides a minimal or unclear response with little evidence of understanding what dragonflies need to survive."
+      }
+    },
+    {
+      "questionText": "If you were a dragonfly, what would you like about living near water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes two or more specific reasons related to dragonfly habitat, such as finding food/insects, laying eggs, drinking water, or having a safe place to hide.",
+        "meets": "Student describes one clear reason dragonflies like water, such as finding food, having water to drink, or being able to fly over it.",
+        "approaching": "Student mentions living near water is good but provides vague or partially correct reasoning (e.g., 'it's fun' with no connection to dragonfly survival).",
+        "beginning": "Student gives a minimal response with little connection to actual dragonfly needs or water habitats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:19:30.984Z",
+  "cost": 0.004736
+}

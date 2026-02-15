@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages might complete metamorphosis give monarchs compared to animals that don't transform?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific advantages (e.g., caterpillar eats plants while butterfly drinks nectar, allowing different food sources; caterpillar and butterfly occupy different habitats reducing competition) and explains how these benefits help monarchs survive.",
+        "meets": "Student identifies at least two advantages of metamorphosis, such as caterpillars and butterflies eating different foods or living in different places, with clear explanations.",
+        "approaching": "Student identifies one advantage of metamorphosis or mentions multiple advantages with incomplete or vague explanations (e.g., 'they get to eat different things' without explaining why this helps).",
+        "beginning": "Student provides a minimal response that shows limited understanding, such as 'monarchs change' or makes inaccurate statements about metamorphosis."
+      }
+    },
+    {
+      "questionText": "How do you think the butterfly 'knows' what to do after emerging, like how to fly or find food?",
+      "bloomsLevel": "Synthesize",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that butterflies have innate (built-in) behaviors or instincts and may reference how the body structure enables flight or how senses help find food, showing understanding that behaviors are programmed rather than learned.",
+        "meets": "Student suggests that butterflies know what to do through instinct or because their body is designed to fly and find food, with reasonable logic.",
+        "approaching": "Student makes an attempt to explain how butterflies 'know,' but reasoning is unclear or partially accurate (e.g., 'maybe they learn from other butterflies' without full explanation).",
+        "beginning": "Student provides a vague or unsupported response, such as 'they just know' or 'someone teaches them,' with minimal reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen to monarch populations if climate change disrupted their migration timing?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that mismatched timing could cause problems (e.g., butterflies arriving when food plants aren't available yet, or departing before conditions are right) and predicts consequences for survival and population numbers.",
+        "meets": "Student recognizes that timing disruptions could harm monarchs and migration, with at least one specific consequence (e.g., monarchs might not find food, or might not survive the journey).",
+        "approaching": "Student understands that climate change could affect monarchs but provides incomplete reasoning about how timing matters (e.g., 'they might get confused' without explaining the impact).",
+        "beginning": "Student shows minimal understanding with a vague response such as 'monarchs would die' or 'migration wouldn't work' without explaining why."
+      }
+    },
+    {
+      "questionText": "Why might it be important for the adult butterfly to look and behave so differently from the caterpillar?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different body forms allow monarchs to fill different ecological roles (e.g., wings enable dispersal and migration, different mouthparts access different food sources) and reduces competition within the species.",
+        "meets": "Student identifies at least two ways the butterfly's different form or behavior is important, such as flying to new places or eating different food than caterpillars.",
+        "approaching": "Student recognizes some differences are important (e.g., 'butterflies can fly but caterpillars can't') but provides incomplete explanations of why this matters.",
+        "beginning": "Student provides a minimal response describing differences without explaining their importance, such as 'they look different' or 'they do different things.'"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:37:33.891Z",
+  "cost": 0.005422
+}

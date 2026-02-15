@@ -1,0 +1,53 @@
+{
+  "title": "Bee",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this bee collect food from plants, and how do those parts work?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (fuzzy hairs, legs, mouth parts) and explains with specific details how each part collects or helps transport food, demonstrating understanding of how these parts work together as a system.",
+        "meets": "Student identifies at least two body parts (such as fuzzy hairs and legs) and explains how they help collect food from plants with accurate descriptions.",
+        "approaching": "Student identifies one or two body parts and provides a partial or incomplete explanation of how they help collect food, with some accurate details but missing key functions.",
+        "beginning": "Student names a body part visible on the bee but provides little or no explanation of how it collects food, or information is vague and inaccurate."
+      }
+    },
+    {
+      "questionText": "What might happen to plants in an area if all the bees disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bees pollinate plants and describes a chain of consequences: fewer flowers/fruits would grow, which would affect food sources for animals and people, demonstrating understanding of ecosystem relationships.",
+        "meets": "Student explains that bees help plants make seeds or fruits and describes at least one consequence, such as fewer plants growing or less food available.",
+        "approaching": "Student recognizes that bees help plants in some way but provides incomplete reasoning about consequences, with only vague descriptions of what might happen to plants.",
+        "beginning": "Student provides a minimal response such as 'plants would die' without explanation, or information does not clearly connect bees to plant survival."
+      }
+    },
+    {
+      "questionText": "How do you think the bee's fuzzy body helps both the bee and the plants it visits?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fuzzy hairs trap pollen for the bee (food source) and that pollen sticks to the bee's body to transfer between plants (pollination), showing understanding of mutual benefit.",
+        "meets": "Student explains that the fuzzy body helps collect pollen for the bee to eat and helps move pollen between plants, showing understanding of benefits to both organisms.",
+        "approaching": "Student identifies that fuzziness collects pollen or helps plants, but explanation is incomplete or focuses on only one organism's benefit rather than both.",
+        "beginning": "Student provides a vague response such as 'it helps plants' or 'it collects pollen' with little explanation of how or why this helps both the bee and plants."
+      }
+    },
+    {
+      "questionText": "What other animals might help plants reproduce the same way bees do?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names at least two animals (such as butterflies, hummingbirds, or beetles) and explains that they carry pollen between plants when visiting flowers for food, demonstrating understanding of pollinator roles.",
+        "meets": "Student names one or two animals that visit flowers and explains that they help move pollen or help plants reproduce in a similar way to bees.",
+        "approaching": "Student names an animal that might visit flowers but provides limited or unclear explanation of how it helps plants reproduce like bees do.",
+        "beginning": "Student names an animal but does not explain how it helps plants reproduce, or the named animal has no clear connection to pollination or plant reproduction."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:22:15.968Z",
+  "cost": 0.005062
+}

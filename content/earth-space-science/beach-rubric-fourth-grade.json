@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the ghost crab's burrow changes the sand on the beach? What might happen to the sand over time as many crabs dig burrows?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that crab burrows loosen and move sand, and describes multiple effects of many burrows such as creating tunnels, mixing sand layers, or changing how water drains through the beach.",
+        "meets": "Student identifies that crab burrows break up or move sand, and explains that many burrows would create holes or tunnels that change the beach over time.",
+        "approaching": "Student recognizes that crabs dig burrows and sand moves, but provides incomplete reasoning about how multiple burrows affect the beach or uses vague descriptions.",
+        "beginning": "Student mentions crabs or burrows but shows minimal understanding of how digging changes sand, or provides inaccurate statements about the process."
+      }
+    },
+    {
+      "questionText": "Where does the sand on this beach come from? What natural processes created it?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies rocks or shells as sand sources and explains multiple processes such as breaking down, erosion, or weathering; may mention water, waves, or time as factors.",
+        "meets": "Student explains that sand comes from broken-down rocks or shells and identifies at least one natural process like erosion, waves breaking things down, or weathering.",
+        "approaching": "Student recognizes sand comes from rocks or shells but provides incomplete or unclear explanation of how rocks become sand.",
+        "beginning": "Student provides a vague answer about sand origin or mentions rocks/shells without explaining how they become sand."
+      }
+    },
+    {
+      "questionText": "If a big storm came to this beach tomorrow and created large waves, how might the beach look different after the storm? What would happen to the sand and the crab's home?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes such as sand being moved/washed away, burrows being destroyed, the beach shape changing, or sand piling in different locations; explains how storm waves cause these changes.",
+        "meets": "Student predicts that a storm would move sand and damage or destroy the crab's burrow, showing understanding that waves affect the beach.",
+        "approaching": "Student recognizes storms affect the beach or mentions sand or burrows, but predictions lack detail or scientific reasoning about wave action.",
+        "beginning": "Student makes minimal attempt to describe changes or provides vague/inaccurate predictions about storm effects on the beach."
+      }
+    },
+    {
+      "questionText": "How does the ghost crab depend on the beach's sandy landform to survive? What would happen to the crab if the beach changed significantly?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple dependencies such as sand needed for burrow homes, hiding from predators, hunting food, or moving around; predicts serious survival consequences if beach changed significantly.",
+        "meets": "Student identifies that the crab needs sand for its burrow home and explains that significant beach changes would threaten the crab's survival or force it to leave.",
+        "approaching": "Student recognizes the crab uses sand for shelter but provides incomplete reasoning about survival needs or vague predictions about beach changes affecting the crab.",
+        "beginning": "Student mentions the crab and sand but shows minimal understanding of the crab's dependence on the sandy landform or provides inaccurate responses."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:48:17.862Z",
+  "cost": 0.005154
+}

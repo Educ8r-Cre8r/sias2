@@ -1,0 +1,53 @@
+{
+  "title": "Dragonfly",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What specific body parts help this dragonfly survive, and how do you think each one works?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (such as compound eyes, wings, legs, or body shape) with detailed explanations of how each part helps the dragonfly survive, using accurate scientific vocabulary.",
+        "meets": "Student identifies two or more body parts visible in the photo and explains how each one helps the dragonfly survive in a clear, accurate way.",
+        "approaching": "Student identifies one or two body parts and attempts to explain how they help the dragonfly, but the explanation may be incomplete or lack specific details.",
+        "beginning": "Student names a body part but provides little or no explanation of how it helps the dragonfly survive, or the explanation is vague or inaccurate."
+      }
+    },
+    {
+      "questionText": "How might a dragonfly's compound eyes be better than human eyes for catching flying insects?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that compound eyes have many tiny lenses allowing the dragonfly to see movement in many directions at once, and makes a thoughtful connection to how this helps catch fast-moving prey or detect predators.",
+        "meets": "Student correctly identifies that compound eyes allow the dragonfly to see in many directions or see movement better than human eyes, with a clear explanation of why this helps catch insects.",
+        "approaching": "Student recognizes that compound eyes are different from human eyes and mentions seeing better or seeing movement, but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student makes a general statement about dragonfly eyes being different but provides little or no scientific reasoning for why they would be better for catching insects."
+      }
+    },
+    {
+      "questionText": "What evidence from the photo shows that this dragonfly is well-adapted for its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more visible adaptations (such as transparent wings for flight, striped coloring for camouflage, compound eyes for hunting, or body position) and explains how each one helps the dragonfly survive in its pond environment.",
+        "meets": "Student identifies two visible adaptations from the photo and explains how each one helps the dragonfly survive or function in its environment.",
+        "approaching": "Student identifies one or two adaptations visible in the photo but provides only partial or incomplete explanation of how they help the dragonfly.",
+        "beginning": "Student mentions a feature of the dragonfly but does not clearly explain how it shows adaptation or how it helps the organism survive."
+      }
+    },
+    {
+      "questionText": "If dragonflies disappeared from a pond ecosystem, what might happen to other organisms living there?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that dragonflies eat insects, so insect populations would increase, which could affect plants and other animals; may also mention that dragonfly larvae are food for fish and other predators, showing understanding of multiple food chain connections.",
+        "meets": "Student identifies at least one realistic consequence, such as insect populations increasing because dragonflies would no longer eat them, or that animals that eat dragonflies would lose a food source.",
+        "approaching": "Student recognizes that dragonflies are part of the food chain and that their disappearance would affect other organisms, but the explanation is unclear or only partially accurate.",
+        "beginning": "Student makes a simple statement that something would happen if dragonflies disappeared but provides little evidence of understanding food chains or ecosystem relationships."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:20:01.276Z",
+  "cost": 0.005202
+}

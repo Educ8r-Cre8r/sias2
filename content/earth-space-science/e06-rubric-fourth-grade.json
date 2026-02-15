@@ -1,0 +1,53 @@
+{
+  "title": "Drought",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to the water that used to be in this soil?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that water evaporated due to heat from the sun, and may reference that plants also used water or that the soil dried out over time without rain.",
+        "meets": "Student states that the water dried up, evaporated, or disappeared from the soil, showing understanding of the water loss process.",
+        "approaching": "Student mentions that the water is gone or that the soil is dry, but provides incomplete or vague explanation of what happened to the water.",
+        "beginning": "Student provides minimal response such as 'the water went away' with little or no explanation of the process."
+      }
+    },
+    {
+      "questionText": "How might these cracks actually help the small plants that are growing here?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways cracks help plants, such as providing spaces for roots to grow deeper, allowing water to seep into soil, or creating pathways for nutrients, with specific reference to the plants visible in the photo.",
+        "meets": "Student explains that cracks allow plant roots to grow through them or that water can get down into the soil through the cracks to reach plant roots.",
+        "approaching": "Student recognizes that cracks relate to plant growth but provides only partial reasoning, such as 'plants can grow in the cracks' without explaining the mechanism.",
+        "beginning": "Student makes a vague statement about cracks and plants without demonstrating understanding of how they are connected."
+      }
+    },
+    {
+      "questionText": "What would happen to this cracked soil if it rained heavily tomorrow?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that soil would absorb water through cracks, potentially soften and contract, and may describe how water would help plants or change soil structure, with logical reasoning.",
+        "meets": "Student predicts that the soil would get wet, soften, and/or the cracks might close up as the soil absorbs water.",
+        "approaching": "Student predicts that something would change with rain (soil gets wet or cracks close) but reasoning is incomplete or unclear.",
+        "beginning": "Student makes a simple prediction about rain and soil without clear explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "Why do you think the cracks formed in this particular pattern instead of straight lines?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that soil contracts unevenly as it dries, or that cracks follow paths of least resistance, and may note that the irregular pattern distributes stress, showing understanding of soil behavior during drying.",
+        "meets": "Student explains that uneven drying or uneven soil composition causes cracks to form in different directions, creating the puzzle-like pattern rather than straight lines.",
+        "approaching": "Student recognizes that drying causes the pattern but provides incomplete reasoning, such as 'the soil dried unevenly' without fully explaining the result.",
+        "beginning": "Student provides a vague response about the crack pattern with little scientific reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:52:16.214Z",
+  "cost": 0.00469
+}

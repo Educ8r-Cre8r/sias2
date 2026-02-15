@@ -1,0 +1,53 @@
+{
+  "title": "Raccoon",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What physical features help this raccoon survive in the forest, and how might each feature be useful?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more physical features (such as sharp claws, sensitive paws, fur color, or mask markings) and explains how each adaptation helps the raccoon survive, hunt, or hide in its forest home.",
+        "meets": "Student identifies two physical features of the raccoon and explains how they help the raccoon survive or function in the forest.",
+        "approaching": "Student identifies one or two physical features but provides incomplete or partially accurate explanations of how they help the raccoon survive.",
+        "beginning": "Student names a physical feature but offers vague or inaccurate explanations about its usefulness, or identifies only the color of the raccoon without explaining survival value."
+      }
+    },
+    {
+      "questionText": "Why might a raccoon choose to rest on a tree stump instead of on the ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides two or more reasons (such as safety from predators, better view of surroundings, protection from wet ground, or easier escape route) and explains how each reason benefits the raccoon's survival.",
+        "meets": "Student provides one or two reasonable reasons why resting on a tree stump is advantageous compared to resting on the ground.",
+        "approaching": "Student provides a reason but it is partially accurate or unclear (for example, mentions safety but without clear explanation of the danger).",
+        "beginning": "Student provides a vague answer such as 'it's more comfortable' without connecting the choice to survival advantages."
+      }
+    },
+    {
+      "questionText": "How do you think this raccoon's daily schedule differs from yours, and what advantages might this give the raccoon?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that raccoons are nocturnal (active at night) while humans are diurnal (active during day) and describes two or more advantages, such as less competition for food, cooler temperatures, or reduced predator activity.",
+        "meets": "Student correctly identifies that raccoons are active at night and describes one advantage this timing provides, such as hunting when it's cooler or avoiding daytime dangers.",
+        "approaching": "Student recognizes that raccoons and humans have different activity schedules but provides only a vague or partially accurate advantage (for example, 'they hunt at night' without explaining why this helps).",
+        "beginning": "Student acknowledges that raccoon schedules might differ but provides no accurate explanation or advantage related to nocturnal behavior."
+      }
+    },
+    {
+      "questionText": "If this forest habitat changed dramatically, what adaptations might help raccoons survive in a new environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a specific habitat change and identifies two or more existing or potential adaptations (such as flexible diet, intelligent problem-solving, adaptable shelter use, or dexterous paws) that would help raccoons survive the change.",
+        "meets": "Student describes a specific habitat change and identifies one or two adaptations that would help raccoons survive in a different environment.",
+        "approaching": "Student identifies a habitat change but describes adaptations that are vague, partially related to raccoon abilities, or unclear in how they would help survival.",
+        "beginning": "Student attempts to answer but provides inaccurate or irrelevant adaptations, or does not clearly explain a specific habitat change."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:41:59.938Z",
+  "cost": 0.005116
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fungi01",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the mushroom's gill structure helps it reproduce successfully?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that gills produce and release spores for reproduction, describing how the large surface area of gills helps spread many spores and connects this to successful reproduction across distances.",
+        "meets": "Student identifies that gills produce spores and explains that gills help the mushroom reproduce by releasing these spores into the air or environment.",
+        "approaching": "Student mentions that gills are involved in reproduction or that spores are produced, but the explanation is incomplete or lacks clarity about how this helps reproduction succeed.",
+        "beginning": "Student provides a vague response about gills or reproduction with minimal scientific detail, such as stating gills are important without explaining how."
+      }
+    },
+    {
+      "questionText": "What would happen to a forest ecosystem if all the fungi disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple consequences such as dead organisms not decomposing, nutrients remaining locked in dead matter, reduced soil health, and harm to plants and animals dependent on fungi, showing understanding of fungi's ecosystem role.",
+        "meets": "Student explains that fungi help decompose dead organisms and recycle nutrients back into the soil, and identifies that the forest would be negatively affected without this process.",
+        "approaching": "Student recognizes that fungi are important to the forest or mentions decomposition, but the explanation of specific consequences is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal response such as the forest would be bad or sick without clear reasoning about fungi's role."
+      }
+    },
+    {
+      "questionText": "Why might fungi grow in groups rather than individually?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that growing in groups increases spore dispersal and reproduction success, and may note that shared underground networks help fungi survive or access resources more efficiently.",
+        "meets": "Student suggests that growing in groups helps fungi reproduce better, spread spores more effectively, or survive in their environment.",
+        "approaching": "Student recognizes that group growth is beneficial but provides limited reasoning, such as stating it helps them survive without explaining why or how.",
+        "beginning": "Student offers a vague response such as fungi like to grow together without providing scientific reasoning."
+      }
+    },
+    {
+      "questionText": "How are mushrooms similar to and different from plants in the way they obtain energy?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that both mushrooms and plants are living organisms needing energy, then clearly distinguishes that plants make their own food using sunlight through photosynthesis while mushrooms absorb nutrients from dead organisms through decomposition.",
+        "meets": "Student identifies that plants use sunlight to make food while mushrooms get energy differently, such as by breaking down dead material or absorbing nutrients from their surroundings.",
+        "approaching": "Student mentions that mushrooms and plants get energy differently but the explanation lacks clarity or is incomplete regarding the specific methods each uses.",
+        "beginning": "Student provides a minimal response, such as mushrooms and plants are different, without explaining how their energy methods differ."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:27:04.154Z",
+  "cost": 0.004693
+}

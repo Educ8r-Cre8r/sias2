@@ -1,0 +1,53 @@
+{
+  "title": "Swallowtail Butterfly",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How might the butterfly's feeding behavior change if this flower had a different shape?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how flower shape affects proboscis access with multiple specific examples (e.g., shallow flowers wouldn't require the butterfly to probe deeply; tube-shaped flowers might guide the proboscis better) and connects this to why the butterfly's long, thin proboscis is well-suited for the current flower's design.",
+        "meets": "Student describes how a different flower shape would change how the butterfly feeds, such as the proboscis being unable to reach nectar or feeding becoming easier/harder with a specific example.",
+        "approaching": "Student recognizes that flower shape matters for butterfly feeding but provides vague or partially accurate reasoning, such as 'it would be harder to drink' without explaining why.",
+        "beginning": "Student provides a minimal response with little connection between flower shape and feeding behavior, or gives an inaccurate answer about how the butterfly uses its proboscis."
+      }
+    },
+    {
+      "questionText": "What would happen to both butterflies and flowers if one species disappeared from this ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains the interdependent relationship between butterflies and flowers (butterflies get food, flowers get pollinated), then describes realistic chain-reaction consequences for both species if either disappeared, such as flowers not being pollinated and fewer new plants growing, or butterflies losing a food source.",
+        "meets": "Student explains that butterflies and flowers depend on each other and describes what would happen to one species if the other disappeared, showing understanding of their connection.",
+        "approaching": "Student recognizes that losing one species would affect the other but provides incomplete or partially accurate reasoning about the ecosystem relationship.",
+        "beginning": "Student gives a minimal response or shows unclear understanding of how butterflies and flowers are connected in an ecosystem."
+      }
+    },
+    {
+      "questionText": "How does the butterfly's proboscis compare to other animal feeding structures you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares the butterfly's proboscis to at least two other animal feeding structures (e.g., bird beaks, dog teeth, elephant trunk, bee mouth parts) with accurate details about how each is specialized for different foods and feeding methods.",
+        "meets": "Student compares the butterfly's proboscis to at least one other animal feeding structure (such as a bird's beak or mammal's teeth) and explains how they are different and suited to different diets.",
+        "approaching": "Student attempts to compare the proboscis to another feeding structure but provides limited detail or partial accuracy about how they differ or why the differences matter.",
+        "beginning": "Student provides a minimal comparison with little detail or inaccurately describes how the butterfly's proboscis works compared to other animal feeding structures."
+      }
+    },
+    {
+      "questionText": "Why do you think flowers evolved to have bright colors and sweet nectar?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that bright colors and sweet nectar attract pollinators like butterflies, then connects this to the advantage for flowers (reproduction/seed production) and shows understanding that these traits evolved because they helped flowers survive and spread.",
+        "meets": "Student explains that bright colors and sweet nectar help flowers attract butterflies and other pollinators, and recognizes this benefits the flowers in some way.",
+        "approaching": "Student identifies that bright colors or sweet nectar attract butterflies but provides incomplete reasoning about why this would benefit flowers or how evolution is involved.",
+        "beginning": "Student provides a minimal response about flower colors or nectar without clear connection to attracting pollinators or plant survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:19:23.443Z",
+  "cost": 0.005308
+}

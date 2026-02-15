@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the shape of these metal curves?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple specific features of the arch shape, such as how it curves up like a rainbow, is smooth, shiny, and bends in the air, using clear descriptive words.",
+        "meets": "Student identifies that the metal curves or that it looks like a rainbow shape, with at least one accurate descriptive detail about how it looks.",
+        "approaching": "Student notices the shape is curved or round but describes it with limited detail or uses vague words like \"big\" without explaining what they see.",
+        "beginning": "Student makes a minimal attempt to describe the shape but provides little detail or says something inaccurate about what the arch looks like."
+      }
+    },
+    {
+      "questionText": "How do you think the arch stays up without falling down?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the curved shape helps hold itself up and may mention that the metal is strong or that the curve spreads the weight, showing understanding of how shape relates to strength.",
+        "meets": "Student suggests the arch stays up because it is made of strong metal or because of its curved shape, showing basic understanding of one factor that supports it.",
+        "approaching": "Student offers a partial explanation such as \"it's strong\" or \"the shape helps\" but does not clearly connect the reason to how it prevents falling.",
+        "beginning": "Student gives a vague response like \"it just does\" or guesses without attempting to explain the connection between the arch's shape or material and its stability."
+      }
+    },
+    {
+      "questionText": "What other curved shapes in nature or buildings have you seen that are strong?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple curved shapes from nature or buildings (such as bridges, tree branches, bird nests, or rainbows) and explains why each example is strong or important.",
+        "meets": "Student names at least one curved shape from nature or a building and shows it is something they have observed or experienced.",
+        "approaching": "Student mentions a curved shape but is uncertain whether it is from nature or buildings, or provides only vague examples without clear details.",
+        "beginning": "Student struggles to identify any curved shape example or provides an answer that is not clearly curved or related to strength."
+      }
+    },
+    {
+      "questionText": "If you were going to build your own arch, what would you need to think about?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple important considerations, such as the shape needs to curve, the material must be strong, or the arch needs something to balance on, showing thoughtful planning.",
+        "meets": "Student mentions at least one thing to think about, such as making it curved, using strong material, or making sure it does not fall, showing basic planning awareness.",
+        "approaching": "Student suggests one factor to consider but explains it unclearly, or mentions something relevant but does not fully develop the idea.",
+        "beginning": "Student provides a minimal response such as \"be careful\" or \"make it big\" without explaining what would actually matter for building an arch."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:59:49.663Z",
+  "cost": 0.004705
+}

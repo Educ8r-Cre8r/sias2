@@ -1,0 +1,53 @@
+{
+  "title": "Fungi03",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to a forest if there were no fungi or other decomposers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead plants and animals would pile up and not break down, preventing nutrients from returning to soil, and describes how this would affect new plant growth or the forest ecosystem.",
+        "meets": "Student explains that dead things would pile up or not break down, and identifies that this would be a problem for the forest.",
+        "approaching": "Student states that dead things would pile up or mentions decomposers are important, but provides incomplete reasoning about forest impacts.",
+        "beginning": "Student provides a vague response such as 'the forest would be messy' or 'things wouldn't break down' with minimal explanation."
+      }
+    },
+    {
+      "questionText": "How are fungi different from plants and animals?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least two specific differences, such as fungi break down dead matter instead of making their own food like plants or hunting like animals, and describes how this difference helps them live.",
+        "meets": "Student identifies at least one clear difference between fungi and plants or animals, such as fungi break down dead things or don't make their own food.",
+        "approaching": "Student mentions a difference but with unclear or partially accurate reasoning, such as 'fungi are not plants' without explaining why.",
+        "beginning": "Student provides a minimal or vague response such as 'they are different' without identifying specific differences."
+      }
+    },
+    {
+      "questionText": "What conditions do you think these mushrooms need to grow successfully?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions such as moisture, dead wood to break down, shade or darkness, and warmth, and explains why at least one condition helps mushrooms grow.",
+        "meets": "Student identifies at least two conditions mushrooms need to grow, such as moisture and decaying wood or a dark, damp place.",
+        "approaching": "Student identifies one condition mushrooms need, such as water or darkness, but provides limited detail or reasoning.",
+        "beginning": "Student provides a vague response such as 'they need water' or 'they need to be wet' with no elaboration."
+      }
+    },
+    {
+      "questionText": "Why might it be important for fungi to grow on dead trees rather than living ones?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fungi breaking down dead trees returns nutrients to soil for new plants, keeps the forest healthy, or prevents harm to living trees that provide food and shelter.",
+        "meets": "Student explains that fungi should break down dead things instead of killing healthy trees, or that living trees need to stay alive.",
+        "approaching": "Student states that dead trees are okay to break down or living trees shouldn't be harmed, but lacks clear reasoning about why this matters.",
+        "beginning": "Student provides a minimal response such as 'because they are already dead' without explaining the importance to the forest."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:30:02.505Z",
+  "cost": 0.004569
+}

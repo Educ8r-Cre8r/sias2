@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where the sun is in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the sun's location with multiple specific details (e.g., 'The sun is between the buildings high up in the sky') and explains how its position affects what we see.",
+        "meets": "Student accurately describes where the sun is located in the picture (e.g., 'between the buildings' or 'in the sky above the buildings').",
+        "approaching": "Student identifies that the sun is in the picture but describes its location with limited detail or minor inaccuracy (e.g., 'the sun is there' or points vaguely).",
+        "beginning": "Student makes a minimal attempt to locate the sun or provides a vague response with little detail (e.g., 'I see the sun' with no location description)."
+      }
+    },
+    {
+      "questionText": "How do you think the shadows from these buildings might look different in the morning compared to the afternoon?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts how shadows change throughout the day using correct reasoning about sun position (e.g., 'In the morning, shadows would be long and point one way because the sun is low; in the afternoon, shadows would be shorter and point a different way').",
+        "meets": "Student makes a reasonable prediction that shadows look different in morning versus afternoon and provides a basic explanation related to sun position.",
+        "approaching": "Student attempts to predict a difference between morning and afternoon shadows but reasoning is unclear or partially incomplete (e.g., 'shadows are different' without clear explanation).",
+        "beginning": "Student makes a minimal prediction about shadows with little or no connection to sun position (e.g., 'they look different' with no reasoning)."
+      }
+    },
+    {
+      "questionText": "Why do you think we see the sun in different parts of the sky throughout the day?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that Earth's rotation causes the sun to appear to move across the sky, using grade-appropriate language and connecting it to observations of sun position at different times.",
+        "meets": "Student provides a correct explanation that the sun appears to move or change position in the sky during the day, with basic reasoning about rotation or Earth's movement.",
+        "approaching": "Student attempts an explanation but shows incomplete understanding—may confuse sun and Earth movement or provide partial reasoning (e.g., 'the sun moves around' without clear explanation).",
+        "beginning": "Student provides minimal or unclear reasoning with little connection to how Earth and sun interact (e.g., 'because it does' with no scientific thinking shown)."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice about sunlight and shadows every day?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple patterns (e.g., 'Shadows are long in morning and afternoon but short at noon' and 'Shadows point different directions at different times') showing observation of consistent daily patterns.",
+        "meets": "Student identifies at least one clear pattern about how sunlight or shadows change daily (e.g., 'shadows get longer and shorter' or 'the sun moves across the sky').",
+        "approaching": "Student notices something about sunlight or shadows but pattern description is vague or incomplete (e.g., 'shadows change' without describing how or when).",
+        "beginning": "Student makes a minimal attempt to identify a pattern or provides a response unrelated to daily sun/shadow changes (e.g., 'there are shadows' with no pattern identified)."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:48:48.466Z",
+  "cost": 0.00525
+}

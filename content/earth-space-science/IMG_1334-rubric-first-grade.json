@@ -1,0 +1,53 @@
+{
+  "title": "Mammal",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does the squirrel use to eat its food?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts the squirrel uses to eat (teeth, paws, mouth) and explains how at least two work together during eating.",
+        "meets": "Student correctly identifies two body parts the squirrel uses to eat, such as paws and teeth or mouth and paws.",
+        "approaching": "Student identifies one body part the squirrel uses to eat, such as paws or teeth, but may lack clarity or detail.",
+        "beginning": "Student provides a vague response or names only one body part with minimal explanation of how it is used."
+      }
+    },
+    {
+      "questionText": "How are a squirrel's paws similar to and different from your hands?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two similarities (both have fingers/toes, both can grab things) and two differences (squirrel paws are smaller, have claws instead of nails), showing clear understanding of both.",
+        "meets": "Student identifies at least one similarity and one difference between squirrel paws and human hands with accurate descriptions.",
+        "approaching": "Student attempts to compare but identifies only similarities or only differences, or provides incomplete descriptions of each.",
+        "beginning": "Student provides a minimal response with only one comparison point or vague, inaccurate observations."
+      }
+    },
+    {
+      "questionText": "Why do you think squirrels have such bushy tails?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful inference with multiple reasons, such as for balance, warmth, communication, or protection, with reasonable explanations.",
+        "meets": "Student provides one reasonable inference about the squirrel's bushy tail, such as for balance, staying warm, or helping with movement.",
+        "approaching": "Student makes an inference about the tail's purpose but with limited explanation or some uncertainty in reasoning.",
+        "beginning": "Student provides minimal response, a guess without reasoning, or an inaccurate statement about the tail's purpose."
+      }
+    },
+    {
+      "questionText": "What would happen if a squirrel lived somewhere with no trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences, such as difficulty finding food, no place to store nuts, no shelter from predators, or inability to escape danger, showing deep understanding of squirrels' tree dependence.",
+        "meets": "Student identifies at least two consequences squirrels might face without trees, such as losing shelter or having difficulty finding food.",
+        "approaching": "Student identifies one consequence of living without trees or provides multiple ideas with limited explanation or clarity.",
+        "beginning": "Student provides a vague or minimal response with little evidence of understanding squirrels' relationship with trees."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:45:33.877Z",
+  "cost": 0.004414
+}

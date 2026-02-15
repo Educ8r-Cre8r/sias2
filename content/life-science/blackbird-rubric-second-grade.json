@@ -1,0 +1,53 @@
+{
+  "title": "Blackbird",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this bird is looking for in the grass?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the bird is looking for food (insects, worms, seeds) and explains why birds search in grass, showing understanding of bird feeding behavior.",
+        "meets": "Student correctly identifies that the bird is looking for food such as insects or worms in the grass.",
+        "approaching": "Student mentions the bird is looking for something to eat but provides limited detail about what type of food or why grass is a good place to look.",
+        "beginning": "Student gives a vague response such as 'looking for something' or 'playing in the grass' with minimal connection to feeding behavior."
+      }
+    },
+    {
+      "questionText": "How does the shape of this bird's beak help it find food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the long, pointed beak allows the bird to poke into soil or grass to find and pull out insects and worms, demonstrating clear understanding of how beak shape matches feeding needs.",
+        "meets": "Student correctly explains that the pointed beak helps the bird pick up or find food in the grass, showing understanding of beak-to-function connection.",
+        "approaching": "Student recognizes the beak is pointed and relates it to food-finding, but the explanation lacks clarity or specific details about how the beak actually works.",
+        "beginning": "Student makes a minimal observation about the beak (e.g., 'it's pointy') with little or no connection to how it helps find food."
+      }
+    },
+    {
+      "questionText": "What would happen if this bird couldn't find enough food in this area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the bird would need to move to a new area to find food or could become weak/hungry, demonstrating understanding of survival needs and animal behavior adaptations.",
+        "meets": "Student correctly states the bird would leave to find food elsewhere or would go hungry/become weak.",
+        "approaching": "Student recognizes the bird needs food to survive but provides an incomplete explanation of what the bird might do or vague consequences.",
+        "beginning": "Student provides a simple response such as 'it would be sad' or 'it would die' without explaining the connection between food and survival."
+      }
+    },
+    {
+      "questionText": "Why do you think the bird's eyes are on the sides of its head instead of in front like humans?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that side-facing eyes help the bird see danger coming from different directions or help it spot food all around while feeding, connecting eye placement to survival advantages.",
+        "meets": "Student correctly identifies that side-facing eyes help the bird see better in different directions or watch for danger around it.",
+        "approaching": "Student recognizes that side eye placement helps the bird see more, but the explanation is incomplete or somewhat unclear about the advantage.",
+        "beginning": "Student offers a vague response such as 'birds just have eyes there' or makes an inaccurate comparison without explaining the benefit."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:22:45.794Z",
+  "cost": 0.004708
+}

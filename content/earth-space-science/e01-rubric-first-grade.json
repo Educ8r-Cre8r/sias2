@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where the sun is in this picture?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the sun's location using multiple details (e.g., \"between the buildings,\" \"high up,\" \"bright\") and may note how it creates light and shadows in the scene.",
+        "meets": "Student accurately identifies where the sun is located in the picture with at least one specific detail, such as \"between the buildings\" or \"shining down.\"",
+        "approaching": "Student identifies the sun or mentions it is visible in the picture, but provides vague or incomplete location details.",
+        "beginning": "Student makes a minimal attempt to describe the sun's location with little clarity or accuracy."
+      }
+    },
+    {
+      "questionText": "How do you think the shadows from these buildings might look different in the morning compared to the afternoon?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that shadows change because the sun moves across the sky, describing how shadows would be longer or shorter and in different directions at different times of day.",
+        "meets": "Student correctly predicts that shadows would look different in the morning versus afternoon and provides a reasonable explanation, such as shadows being longer or shorter.",
+        "approaching": "Student recognizes that shadows might change at different times of day but provides incomplete or partially accurate reasoning about why.",
+        "beginning": "Student attempts to answer but provides vague ideas about shadows or shows minimal understanding of how time of day affects shadows."
+      }
+    },
+    {
+      "questionText": "Why do you think the trees and grass need the sunlight we see in this picture?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that plants need sunlight to grow and survive, using words like \"food,\" \"energy,\" or \"grow,\" and may connect this to plants being green or healthy.",
+        "meets": "Student explains that trees and grass need sunlight to grow or stay healthy, demonstrating basic understanding of plant needs.",
+        "approaching": "Student recognizes that plants need sunlight but provides incomplete or vague reasoning about why sunlight is important.",
+        "beginning": "Student attempts to answer but provides minimal or inaccurate information about why plants need sunlight."
+      }
+    },
+    {
+      "questionText": "If you were standing in this spot tomorrow at the same time, where do you predict the sun would be?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the sun would be in approximately the same location and explains that the sun follows a similar path every day at the same time, demonstrating understanding of predictable sun patterns.",
+        "meets": "Student predicts the sun would be in approximately the same location as it is today and provides a reasonable explanation, such as \"the sun comes up in the same place.\"",
+        "approaching": "Student makes a prediction about the sun's location but reasoning is incomplete or partially accurate.",
+        "beginning": "Student makes a prediction with little or unclear reasoning about the sun's daily movement pattern."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:48:40.613Z",
+  "cost": 0.004556
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Pelican",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "How does the pelican's beak help it get food that other birds cannot catch?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the pelican's pouch-like beak scoops up fish from the water and holds large amounts of food, and describes how this special beak allows pelicans to catch bigger or more fish than birds with regular beaks.",
+        "meets": "Student accurately describes that the pelican's beak has a pouch that helps it catch fish and explains that this is different from other birds' beaks.",
+        "approaching": "Student identifies that the pelican's beak is big or has a pouch, but provides incomplete or unclear explanation of how this helps catch food.",
+        "beginning": "Student makes vague observations about the beak (such as 'it's big') with little or no explanation of how it helps the pelican get food."
+      }
+    },
+    {
+      "questionText": "What would happen if a pelican tried to live in a desert instead of near the ocean?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the pelican would struggle or not survive because it needs fish and water, and explains multiple specific reasons such as lack of food (no fish in desert), lack of water for swimming, or inability to use its specialized beak.",
+        "meets": "Student predicts the pelican would have trouble living in a desert and identifies at least one reason, such as no water or no fish for food.",
+        "approaching": "Student predicts difficulty or problems for the pelican but gives a vague or partially accurate reason, such as 'it would be too hot' without connecting to the pelican's needs.",
+        "beginning": "Student provides a prediction with little or no reasoning, or states an inaccurate reason like 'pelicans don't like deserts' without explanation."
+      }
+    },
+    {
+      "questionText": "Which body parts of this pelican are most important for its survival, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (such as beak for catching food, webbed feet for swimming, and feathers for protection) and explains why each is important for the pelican to survive and live near the ocean.",
+        "meets": "Student identifies at least two body parts important for survival and explains how each helps the pelican (such as beak catches fish and webbed feet help it swim).",
+        "approaching": "Student identifies one or two body parts with limited explanation, or provides incomplete reasoning about why they matter for survival.",
+        "beginning": "Student names a body part with vague or unclear reasoning about its importance, or provides minimal details about survival."
+      }
+    },
+    {
+      "questionText": "How are a pelican's feet different from a robin's feet, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that pelicans have webbed feet for swimming in water while robins have regular toes for hopping on land, and explains that these differences help each bird survive in its habitat.",
+        "meets": "Student accurately compares webbed feet (pelican) to regular toes (robin) and explains that this difference relates to where each bird lives or how it moves.",
+        "approaching": "Student identifies that the feet are different and mentions webs or swimming, but explanation lacks clarity or makes a weak connection to habitat or survival.",
+        "beginning": "Student notes feet are different without accurate details about the difference, or provides no explanation for why they differ."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:39:35.658Z",
+  "cost": 0.005138
+}

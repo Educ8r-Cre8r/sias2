@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about where the sun is in this picture?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student accurately describes the sun's position (behind, above, or in the sky) and notices additional details like brightness or light direction affecting the scene.",
+        "meets": "Student accurately identifies where the sun is located in the picture (such as behind the buildings or in the sky).",
+        "approaching": "Student identifies the sun or mentions it is in the sky but the description of its position is unclear or partially inaccurate.",
+        "beginning": "Student mentions the sun but provides vague or incorrect information about its location, or gives a response that shows minimal observation."
+      }
+    },
+    {
+      "questionText": "How do you think the shadows of these buildings might change during the day?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that shadows move or change length/direction as the sun moves across the sky, demonstrating understanding that the sun's position affects shadow placement.",
+        "meets": "Student predicts that shadows will change or move during the day without fully explaining the reason why.",
+        "approaching": "Student recognizes that something might change about shadows but the explanation is vague, incomplete, or shows unclear reasoning.",
+        "beginning": "Student provides a response about shadows that is unclear, incorrect, or shows little connection to how sunlight causes shadows."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of the buildings look brighter than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sunlight hits some parts of the buildings directly while other parts are in shadow, demonstrating understanding of how light creates bright and dark areas.",
+        "meets": "Student correctly identifies that the sun or light makes some parts brighter and provides a simple, accurate explanation.",
+        "approaching": "Student notices that parts are brighter or darker but the explanation about why is incomplete or partially unclear.",
+        "beginning": "Student acknowledges differences in brightness but offers no clear explanation or provides an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "What would this same place look like at nighttime?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple nighttime changes (dark sky, no sun visible, buildings harder to see, lights on buildings or streets) showing comprehensive understanding of day-night differences.",
+        "meets": "Student describes the scene as dark or explains that the sun would be gone and it would be nighttime, showing basic understanding of day-night differences.",
+        "approaching": "Student attempts to describe nighttime conditions but the description is vague, incomplete, or partially inaccurate.",
+        "beginning": "Student provides a minimal or unclear response that shows difficulty imagining or describing the nighttime scene."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:48:34.306Z",
+  "cost": 0.004276
+}

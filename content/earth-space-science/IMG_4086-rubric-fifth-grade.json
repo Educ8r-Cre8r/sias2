@@ -1,0 +1,53 @@
+{
+  "title": "Rocks",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How does this fountain model the natural water cycle happening in our local environment?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple water cycle processes (evaporation, condensation, precipitation) shown in the fountain and makes specific connections to how these same processes occur in nature, such as water evaporating from the fountain and returning as rain.",
+        "meets": "Student correctly identifies at least two water cycle processes demonstrated by the fountain (such as water flowing down and evaporating) and makes a general connection to the natural water cycle.",
+        "approaching": "Student identifies one water cycle process in the fountain or mentions the water cycle but makes an unclear or incomplete connection between the fountain and natural water cycle processes.",
+        "beginning": "Student provides a vague response about water moving in the fountain or mentions the water cycle but shows minimal understanding of how they relate to each other."
+      }
+    },
+    {
+      "questionText": "What would happen to the fountain if the pump stopped working, and how does this compare to what drives the natural water cycle?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that water flow would stop and explains that the pump provides energy like the sun does in the natural water cycle, making a detailed comparison of how both systems need an energy source to keep water moving.",
+        "meets": "Student correctly predicts the fountain would stop flowing and identifies that the pump provides the energy to move water, comparing it to how the sun drives the natural water cycle.",
+        "approaching": "Student predicts the fountain would stop but provides an incomplete comparison to the natural water cycle, or identifies the pump's role without fully explaining how it compares to natural forces.",
+        "beginning": "Student makes a simple prediction that water would stop but provides little to no explanation of the pump's role or makes an unclear/inaccurate comparison to the water cycle."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that shows water is interacting with the rock materials in this fountain?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple observable evidence of water-rock interaction, such as water flowing over and between the stacked rocks, possible discoloration or wetness of rocks, and explains how moving water can shape or affect rocks over time.",
+        "meets": "Student identifies at least two pieces of observable evidence, such as water flowing over the rocks or rocks appearing wet, showing that water is actively interacting with the rock materials.",
+        "approaching": "Student identifies one observation of water and rocks (such as water touching the rocks) but provides limited detail or explanation of the interaction.",
+        "beginning": "Student provides a vague observation about water and rocks but shows minimal understanding of how they are interacting with each other."
+      }
+    },
+    {
+      "questionText": "How might this fountain affect the plants and animals in the surrounding garden ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple ecosystem effects, such as providing water and moisture for plants, creating a water source for animals, affecting humidity levels, and explains how these changes support living things in the garden.",
+        "meets": "Student identifies at least two ways the fountain affects the ecosystem, such as providing water for plants or animals, or creating a wet habitat for certain organisms.",
+        "approaching": "Student identifies one way the fountain might affect plants or animals in the garden but provides incomplete reasoning about the impact on the ecosystem.",
+        "beginning": "Student provides a minimal or vague response about the fountain's effect on garden life without clear connection to how water or habitats are affected."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:47:38.966Z",
+  "cost": 0.005129
+}

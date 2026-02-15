@@ -1,0 +1,53 @@
+{
+  "title": "Predator and Prey",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help the dragonfly and gecko survive in their habitat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts for both animals (such as wings, eyes, feet, tail) and explains how each part helps them survive or move in their habitat.",
+        "meets": "Student identifies at least two body parts (such as wings or feet) and explains how they help the dragonfly or gecko survive.",
+        "approaching": "Student names one or two body parts for the animals but provides unclear or incomplete explanations of how they help with survival.",
+        "beginning": "Student names a body part but provides no explanation, or response shows minimal understanding of how body parts help animals survive."
+      }
+    },
+    {
+      "questionText": "How might the gecko use its special feet to catch food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the gecko's sticky feet help it climb to catch insects, stay in place while hunting, or move quickly on plants to grab prey.",
+        "meets": "Student explains that the gecko's special feet help it climb or hold onto plants to catch food, showing understanding of how feet help with hunting.",
+        "approaching": "Student mentions the gecko's feet are special and relates this to catching food, but the explanation is vague or partially incorrect.",
+        "beginning": "Student mentions the gecko's feet or food but does not connect them, or response shows little understanding of how feet help with hunting."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if there were no dragonflies in this habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple consequences, such as the gecko having less food to eat, more insects in the habitat, or changes to the food chain.",
+        "meets": "Student predicts a reasonable consequence, such as the gecko having less food or there being more insects, showing understanding of the dragonfly's role.",
+        "approaching": "Student makes a prediction about what would happen but it is unclear, partially incorrect, or shows limited understanding of how animals depend on each other.",
+        "beginning": "Student provides a response that is vague, incorrect, or shows minimal understanding of how removing one animal affects a habitat."
+      }
+    },
+    {
+      "questionText": "How are the gecko's feet different from your feet, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (such as sticky pads, smaller size, claws, or shape) and explains why each difference helps the gecko climb or survive in its habitat.",
+        "meets": "Student identifies at least one difference between gecko feet and human feet and explains why that difference helps the gecko climb or live on plants.",
+        "approaching": "Student identifies a difference between gecko and human feet but provides unclear or incomplete reasoning about why the difference matters.",
+        "beginning": "Student names a body part or mentions feet but does not clearly identify a difference or explain why it matters for the gecko."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:18:07.594Z",
+  "cost": 0.004497
+}

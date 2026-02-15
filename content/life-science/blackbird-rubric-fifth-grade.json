@@ -1,0 +1,53 @@
+{
+  "title": "Blackbird",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How might this bird's beak shape help it find different types of food compared to a hawk or hummingbird?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the blackbird's pointed, straight beak is designed for pecking and catching insects/worms in soil or grass, contrasts this with a hawk's hooked beak for tearing meat and a hummingbird's long, thin beak for sipping nectar, and explains how beak shape matches diet and feeding behavior.",
+        "meets": "Student describes that the blackbird's pointed beak helps it catch insects and worms, and correctly contrasts it with either a hawk's hooked beak or hummingbird's long beak, noting these shapes fit different foods.",
+        "approaching": "Student mentions the blackbird's beak is pointed and used for finding food, and attempts to compare it to other bird beaks, but the comparison is incomplete or contains minor inaccuracies about how beak shape connects to food type.",
+        "beginning": "Student makes a vague statement about the bird's beak helping it eat, with little or no accurate comparison to other bird beaks, or provides inaccurate information about beak function."
+      }
+    },
+    {
+      "questionText": "What would happen to this bird population if all the insects and worms in this area disappeared?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the blackbird population would decline or starve because insects and worms are their primary food source, and extends thinking by discussing related effects such as migration, changes to other food sources, or impacts on predators that eat blackbirds.",
+        "meets": "Student correctly identifies that the blackbird population would decrease or face starvation because they rely on insects and worms as food, showing understanding of the bird's dependence on this food source.",
+        "approaching": "Student recognizes that the loss of insects and worms would negatively affect the birds, but the explanation lacks clarity about why (food source) or overstates/understates the impact on the population.",
+        "beginning": "Student provides a minimal response such as 'the birds would die' without explaining the connection to food sources, or gives an inaccurate or irrelevant answer."
+      }
+    },
+    {
+      "questionText": "Why do you think this bird is foraging on wet grass rather than dry ground?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that wet grass makes insects and worms more visible, easier to find, or more active near the surface, and may support this with details such as worms moving to avoid waterlogged soil or insects being more accessible when the ground is wet.",
+        "meets": "Student provides a reasonable explanation, such as insects are easier to see on wet grass, worms come closer to the surface when wet, or worms are more active in moisture.",
+        "approaching": "Student suggests a connection between wet grass and finding food more easily, but the explanation is incomplete, unclear, or contains minor inaccuracies about how moisture affects insect or worm behavior.",
+        "beginning": "Student makes a vague guess such as 'the bird likes wet grass' or 'it's cooler there' without connecting to foraging or food-finding behavior."
+      }
+    },
+    {
+      "questionText": "How does this blackbird's role in the ecosystem connect to plants, decomposers, and other animals?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the blackbird eats insects/worms (controlling their populations), is eaten by predators, and may help plants by dispersing seeds or controlling harmful insects; demonstrates understanding of interconnected roles and energy flow through the ecosystem.",
+        "meets": "Student identifies at least two connections, such as the bird eating insects that may harm plants, the bird being food for larger animals, or the bird helping decomposers by consuming organisms, showing solid understanding of ecosystem relationships.",
+        "approaching": "Student attempts to describe the blackbird's role and its connection to other ecosystem parts, but explanation is incomplete, lists items without explaining relationships, or shows partial understanding of how organisms interact.",
+        "beginning": "Student makes a general statement about the bird being 'part of nature' or names ecosystem parts without explaining how the blackbird connects to them or why those connections matter."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:23:12.340Z",
+  "cost": 0.00604
+}

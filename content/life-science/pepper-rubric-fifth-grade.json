@@ -1,0 +1,53 @@
+{
+  "title": "Bell Pepper",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe that shows this pepper was once part of a living, growing plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific structures (seeds, placenta, thick walls, green color) and explains how each one demonstrates the pepper was alive and growing, using terms like photosynthesis, nutrient storage, or seed development.",
+        "meets": "Student identifies at least two structures (such as seeds and thick walls) and explains that they show the pepper was once part of a living plant that grew.",
+        "approaching": "Student identifies one or two structures inside the pepper but provides limited or unclear explanation of how they prove the pepper was alive.",
+        "beginning": "Student identifies something inside the pepper (seeds, white part, or color) with minimal or no explanation of its connection to the pepper being alive."
+      }
+    },
+    {
+      "questionText": "How might the structure of this pepper help ensure its seeds survive and grow into new plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how multiple structures (thick walls for protection, white core holding seeds in place, seeds inside rather than exposed) each help seeds survive, and may mention additional benefits like dispersal or nutritional value.",
+        "meets": "Student identifies at least two structural features (such as thick walls protecting seeds or seeds being contained inside) and explains how each helps seeds survive or grow.",
+        "approaching": "Student identifies one protective feature (thick walls or seeds being inside) but explanation is incomplete or only partially explains how it helps survival.",
+        "beginning": "Student names a part of the pepper's structure with vague or minimal explanation of how it helps seeds survive."
+      }
+    },
+    {
+      "questionText": "What would happen to pepper plants if all the seeds stayed right next to the parent plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that seeds would compete for water, nutrients, sunlight, or space, preventing healthy growth, and may discuss how seed dispersal helps avoid this competition or increases survival chances.",
+        "meets": "Student explains that seeds need resources (water, nutrients, sunlight, or space) and that having many seeds in one place would cause competition or prevent some from growing well.",
+        "approaching": "Student suggests that seeds would have a problem if they stayed together but explanation lacks clarity or is incomplete (e.g., mentions 'they'd get crowded' without explaining why that matters).",
+        "beginning": "Student provides a minimal response suggesting seeds staying together would be bad, with little or no explanation of the reason."
+      }
+    },
+    {
+      "questionText": "Why do you think peppers are colorful and have thick, juicy walls instead of being brown and dry like some other fruits?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that color attracts animals to eat and disperse seeds, and thick juicy walls protect seeds and may provide nutrients, using terms like adaptation, dispersal, or seed protection strategically.",
+        "meets": "Student explains that bright color helps attract animals or insects to eat the pepper, and thick juicy walls protect the seeds inside from damage.",
+        "approaching": "Student identifies that color attracts animals and/or thick walls provide protection, but explanation is incomplete or lacks clarity about how these features help the plant.",
+        "beginning": "Student makes a simple observation about color or thickness with minimal explanation of the purpose or benefit."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:40:35.767Z",
+  "cost": 0.004983
+}

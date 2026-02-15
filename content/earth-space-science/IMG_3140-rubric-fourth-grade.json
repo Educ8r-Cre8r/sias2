@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the fog if the sun came out and warmed the air?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that fog would disappear and explains that warming causes water droplets to evaporate back into water vapor, demonstrating understanding of the water cycle phase change.",
+        "meets": "Student predicts that fog would go away or disappear when the sun warms the air, showing basic understanding of how heat affects fog.",
+        "approaching": "Student recognizes that something would change with the fog but provides vague reasoning, such as 'it would get warmer' without clearly connecting heat to fog disappearance.",
+        "beginning": "Student makes a prediction about the fog but it is inaccurate or shows minimal understanding, such as 'the fog would get thicker' or no clear explanation is provided."
+      }
+    },
+    {
+      "questionText": "How might this foggy weather affect the plants and animals living near this beach?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple effects on both plants and animals (such as reduced sunlight affecting plants, or altered visibility affecting animal behavior) and explains how these connect to survival needs.",
+        "meets": "Student describes at least one reasonable effect on plants or animals, such as less sunlight for plants or difficulty seeing for animals, with a logical explanation.",
+        "approaching": "Student mentions that fog affects plants or animals but provides incomplete reasoning, such as 'plants need light' without connecting it to fog blocking sunlight.",
+        "beginning": "Student provides a vague or minimally accurate response, such as 'animals don't like fog' without explanation or evidence of understanding cause and effect."
+      }
+    },
+    {
+      "questionText": "If you were a water droplet in the ocean, describe your journey to becoming part of the fog we see.",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a complete water cycle journey using scientific vocabulary (evaporation, condensation, water vapor) and explains how ocean water becomes fog through specific steps in sequence.",
+        "meets": "Student traces water's path from ocean to fog, mentioning key steps like the water rising into the air and forming droplets, showing understanding of the basic water cycle.",
+        "approaching": "Student describes part of the journey from ocean to fog but is missing steps or uses incomplete reasoning; may skip the evaporation or condensation process.",
+        "beginning": "Student provides a minimal or unclear journey description with little connection to the water cycle, such as 'water goes up and becomes fog' without detail."
+      }
+    },
+    {
+      "questionText": "What evidence in the photo tells us that water is constantly moving and changing in this environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence (fog present, wet sand, waves, seagulls at water's edge) and explains how each shows water movement or change in the water cycle.",
+        "meets": "Student points to specific details in the photo, such as waves, fog, or wet sand, and connects them to water movement or the water cycle.",
+        "approaching": "Student identifies visible water features like waves or fog but provides limited explanation of how they demonstrate water movement or change.",
+        "beginning": "Student names water features in the photo with minimal explanation, or provides vague responses that do not clearly connect observations to water movement."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:46:43.055Z",
+  "cost": 0.004984
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Deer Camouflage",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the deer's fur color compares to the grass around them?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the deer's brown fur matches the golden/dry grass color and explains that this similarity makes the deer hard to see or blend in with their environment.",
+        "meets": "Student correctly states that the deer's fur color is similar to or the same as the grass color around them.",
+        "approaching": "Student notices the deer and grass are similar colors but description is vague or incomplete (e.g., 'they're both brown' without clear comparison).",
+        "beginning": "Student provides minimal response such as naming only one color or making an unclear connection between the deer and grass."
+      }
+    },
+    {
+      "questionText": "Why might it be helpful for deer to be hard to see in their habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that blending in helps deer hide from predators to stay safe, and may add that it helps them survive or that predators might not find them if they can't see them clearly.",
+        "meets": "Student explains that being hard to see helps keep the deer safe from predators or helps them hide.",
+        "approaching": "Student provides a partial explanation such as 'it helps them hide' or mentions predators but doesn't clearly connect why hiding is helpful.",
+        "beginning": "Student gives a response that shows minimal understanding, such as 'so they don't get seen' without explaining the purpose or consequence."
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that might blend in with this grassland environment?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more realistic grassland animals and explains why at least one would blend in (e.g., 'rabbits are brown like the grass' or 'snakes are tan and would hide in dried grass').",
+        "meets": "Student names one or two grassland animals that would realistically blend in with the golden grass environment.",
+        "approaching": "Student names an animal or animals that might live in grasslands but with weak or unclear connection to how they blend in, or names an animal with unclear habitat fit.",
+        "beginning": "Student names an animal with little or no explanation, or suggests an animal unlikely to live in a grassland (e.g., polar bear, tropical bird)."
+      }
+    },
+    {
+      "questionText": "How do you think these deer might look different if they lived in a snowy place instead?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the deer would have white or light-colored fur and explains that this color would help them blend in or hide in snow, showing understanding of how animals adapt to their environment.",
+        "meets": "Student predicts the deer would have white or lighter-colored fur to match a snowy environment.",
+        "approaching": "Student identifies that the deer's color would need to change but is vague about the new color or doesn't clearly connect it to blending in with snow.",
+        "beginning": "Student provides a minimal response such as 'they would be different' or suggests an unrealistic change without connecting it to the snowy habitat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:25:02.913Z",
+  "cost": 0.004797
+}

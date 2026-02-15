@@ -1,0 +1,53 @@
+{
+  "title": "Fountain",
+  "category": "physical-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make the water look different?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that cold weather froze the water and explains that freezing makes water hard or solid, using the fountain as a specific example.",
+        "meets": "Student recognizes that the water froze or got cold and describes that the water changed from flowing to looking hard or icy.",
+        "approaching": "Student mentions cold or freezing but provides limited explanation of how this changed the water's appearance or state.",
+        "beginning": "Student gives a vague response like 'it got cold' or 'it changed' without describing what freezing means or how it affected the water."
+      }
+    },
+    {
+      "questionText": "How do you think the weather affected this fountain?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that cold weather froze the moving water and stopped it from flowing, and notes that this change would not happen in warm weather.",
+        "meets": "Student describes that cold weather froze the fountain water and made it look different, connecting the cold temperature to the ice formation.",
+        "approaching": "Student mentions that cold or freezing happened but provides incomplete reasoning about how weather caused the specific changes seen in the fountain.",
+        "beginning": "Student gives a minimal response such as 'it was cold' without explaining the connection between weather and the fountain's frozen appearance."
+      }
+    },
+    {
+      "questionText": "What other places have you seen water turn into ice?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more places where water freezes (puddles, ponds, ice skating rinks, icicles on roofs) and describes why water freezes in those locations.",
+        "meets": "Student names at least one place where water turns to ice, such as a puddle, pond, or their freezer, showing familiarity with freezing water.",
+        "approaching": "Student names a place where ice or frozen water exists but may not clearly explain that the water froze or turned into ice.",
+        "beginning": "Student provides a vague response or struggles to identify a specific place where water freezes into ice."
+      }
+    },
+    {
+      "questionText": "What do you predict would happen if the weather got warmer?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the ice would melt and the water would flow again, explaining that warm weather melts ice and turns it back into liquid water.",
+        "meets": "Student predicts that the ice would melt or the water would flow again if it got warmer, showing understanding of how heat affects frozen water.",
+        "approaching": "Student predicts a change would happen but provides unclear reasoning about the connection between warmth and melting the ice.",
+        "beginning": "Student gives a minimal or unclear prediction such as 'it would change' without explaining how warmth affects the frozen fountain."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:59:00.003Z",
+  "cost": 0.004441
+}

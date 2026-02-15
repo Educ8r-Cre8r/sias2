@@ -1,0 +1,53 @@
+{
+  "title": "Erosion",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to the rocks and dirt being carried by this flowing water?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts multiple outcomes (rocks/dirt will be carried downstream, deposited in new locations, sorted by size) and explains the process using erosion vocabulary, showing understanding that moving water transports materials over distance.",
+        "meets": "Student predicts that rocks and dirt will be carried away by the water to another location downstream, demonstrating basic understanding of water transport.",
+        "approaching": "Student predicts that rocks and dirt will move but provides incomplete explanation, such as stating they will be carried away without explaining where or why.",
+        "beginning": "Student makes a vague prediction or states only that something will happen to the rocks and dirt without demonstrating understanding of water's transport ability."
+      }
+    },
+    {
+      "questionText": "How might this type of erosion affect the railroad tracks over time, and what could engineers do to prevent damage?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that erosion can expose, shift, or damage railroad beds/ties and suggests multiple prevention solutions (drainage systems, barriers, reinforced banks) with reasoning about why each strategy works.",
+        "meets": "Student identifies that flowing water can wash away soil around tracks and suggests at least one reasonable prevention method, such as building barriers or improving drainage.",
+        "approaching": "Student recognizes that erosion could damage the railroad but provides limited explanation of how or suggests only vague prevention ideas without clear reasoning.",
+        "beginning": "Student attempts to address the question but provides minimal or inaccurate information about erosion damage or prevention strategies."
+      }
+    },
+    {
+      "questionText": "If you were designing a city, how would you plan for managing water runoff like this during heavy storms?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a comprehensive plan including multiple systems (storm drains, retention ponds, sloped streets, permeable surfaces, channels) and explains how each element reduces flooding and erosion damage.",
+        "meets": "Student describes a reasonable water management plan with 2-3 strategies (such as drainage systems, designated runoff areas, or protective barriers) that would help manage heavy rainfall.",
+        "approaching": "Student suggests at least one water management idea but explanation lacks detail or is only partially thought through regarding effectiveness or implementation.",
+        "beginning": "Student attempts to propose a plan but provides vague or unclear ideas with little connection to managing water runoff during storms."
+      }
+    },
+    {
+      "questionText": "What evidence do you see in the photo that shows water has the power to move solid materials?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific visual details (muddy color indicates soil in water, rocks/gravel displaced from railroad bed, visible flow patterns, erosion of banks) and connects observations to the concept of water's erosive power.",
+        "meets": "Student identifies clear evidence such as muddy water, rocks being carried by water, or materials washing across the railroad tracks, demonstrating understanding that water transports solids.",
+        "approaching": "Student points out some evidence (like the muddy appearance or movement of materials) but description lacks sufficient detail or clear connection to water's transport ability.",
+        "beginning": "Student identifies an observation from the photo but does not clearly explain how it demonstrates water's power to move solid materials."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:56:28.271Z",
+  "cost": 0.004978
+}

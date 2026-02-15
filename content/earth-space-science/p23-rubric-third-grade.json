@@ -1,0 +1,53 @@
+{
+  "title": "Erosion",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think caused the water to look brown and muddy?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that soil, rocks, and sediment are mixed into the water and explains how fast-moving water picks up and carries these materials, making it brown.",
+        "meets": "Student recognizes that dirt or soil is mixed in the water and causes the brown color, with a basic explanation of how it gets there.",
+        "approaching": "Student states that the water is brown because of dirt or mud but provides limited or incomplete explanation of how these materials get into the water.",
+        "beginning": "Student makes a vague statement about the water being brown (like \"it's dirty\") with little or no explanation of the cause."
+      }
+    },
+    {
+      "questionText": "How might this flooding change the landscape over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that fast-moving water erodes soil, carves channels, moves rocks and sediment to new locations, and changes the shape of the land—describing multiple ways flooding reshapes the landscape.",
+        "meets": "Student describes that water can move soil and rocks, wash things away, or change where they are located, showing understanding of basic erosion or sediment movement.",
+        "approaching": "Student mentions that the flooding changes things or moves materials but provides only one vague example or incomplete reasoning about landscape changes.",
+        "beginning": "Student gives a minimal response like \"it changes the ground\" or \"makes a mess\" without explaining how or why the landscape changes."
+      }
+    },
+    {
+      "questionText": "Where do you predict this water and the materials it's carrying will end up?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts water flows downhill to lower areas (streams, rivers, or low-lying areas) and explains that rocks, soil, and sediment settle at the bottom of these water bodies due to gravity.",
+        "meets": "Student predicts that water flows to a lower area like a river, stream, or pond, and materials will be deposited or left behind in those locations.",
+        "approaching": "Student makes a prediction about where water goes (lower areas or a specific water body) but provides minimal explanation of what happens to the materials.",
+        "beginning": "Student provides a vague guess about location (like \"somewhere far away\") with little reasoning or understanding of water flow patterns."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice about where the grass is growing compared to where the water is flowing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student clearly identifies that grass grows along the edges away from the water flow and explains that grass cannot survive in fast-moving water or that water erodes the soil where grass tries to grow.",
+        "meets": "Student observes that grass grows at the edges or sides and that the water flows in the middle or center, noting the separation between the two.",
+        "approaching": "Student notices that grass and water are in different places but provides limited detail about the pattern or relationship between them.",
+        "beginning": "Student makes a simple statement like \"grass is there and water is here\" with minimal observation of the pattern or its cause."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:56:10.452Z",
+  "cost": 0.004752
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fungi01",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the shape of this mushroom? How might this shape help it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the umbrella or round shape and identifies multiple ways the shape helps, such as protecting spores underneath, spreading spores into the air, or collecting water.",
+        "meets": "Student accurately describes the mushroom's round or umbrella-like shape and explains one clear way this shape helps, such as protecting the ridges underneath or spreading spores.",
+        "approaching": "Student notices the mushroom's shape but gives a vague or partially correct explanation of how it helps; may mention only that it looks like something familiar without connecting to function.",
+        "beginning": "Student identifies the mushroom's shape but cannot explain how it helps, or provides an answer unrelated to the mushroom's actual function."
+      }
+    },
+    {
+      "questionText": "Where do you think mushrooms get their food since they don't have leaves like plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms get food from dead leaves, soil, wood, or other dead material by breaking it down, showing understanding that mushrooms are decomposers.",
+        "meets": "Student recognizes that mushrooms don't make their own food like plants and correctly identifies that they get food from the ground, soil, or dead material around them.",
+        "approaching": "Student shows partial understanding that mushrooms get food differently than plants but gives an unclear or incomplete explanation; may mention the ground without explaining what or why.",
+        "beginning": "Student's response is vague or inaccurate, such as saying mushrooms absorb food through their cap or get food from water, with little connection to decomposition or soil nutrients."
+      }
+    },
+    {
+      "questionText": "Why do you think we find mushrooms growing in damp, shady places?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms need both dampness (moisture for growth) and shade (mushrooms don't need sunlight), connecting both conditions to mushroom survival needs.",
+        "meets": "Student identifies that mushrooms like damp or moist places and/or shady places, giving a reasonable explanation such as 'they need water to grow' or 'they don't need sunlight like plants do.'",
+        "approaching": "Student mentions dampness or shade but gives an incomplete or partially correct reason; may confuse mushroom needs with plant needs or mention only one condition.",
+        "beginning": "Student's response is vague or shows limited understanding, such as 'mushrooms just like those places' without explaining why moisture or shade matters."
+      }
+    },
+    {
+      "questionText": "How are mushrooms the same as plants? How are they different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both grow from ground, both need moisture) and differences (plants make own food/have leaves, mushrooms don't; mushrooms break down dead things), showing clear understanding of both categories.",
+        "meets": "Student correctly identifies at least one similarity and one difference, such as 'both grow in soil' and 'plants have leaves but mushrooms don't' or 'mushrooms don't need sunlight but plants do.'",
+        "approaching": "Student attempts to compare mushrooms and plants but gives incomplete or partially correct information; may mention only similarities or only differences, or confuse some plant and mushroom characteristics.",
+        "beginning": "Student's response is minimal or mostly inaccurate, such as 'they're both the same' or 'they're both alive' without specific comparisons of characteristics."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:26:32.490Z",
+  "cost": 0.005246
+}

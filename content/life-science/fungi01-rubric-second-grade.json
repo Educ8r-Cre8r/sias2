@@ -1,0 +1,53 @@
+{
+  "title": "Fungi01",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where this mushroom is growing, and what might it need to survive there?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the mushroom's location in grass/soil with multiple needs (moisture, darkness, dead material to eat) and explains how the environment provides at least two of these things.",
+        "meets": "Student identifies that the mushroom grows in grass or soil and names at least two things it needs to survive, such as moisture or darkness.",
+        "approaching": "Student notices the mushroom is in grass or soil and mentions one survival need, but explanation is incomplete or partially inaccurate.",
+        "beginning": "Student makes a simple observation about location or names a survival need, but shows limited understanding of the connection between where it grows and what it needs."
+      }
+    },
+    {
+      "questionText": "How might this mushroom be similar to and different from the plants growing around it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies similarities (both living, both grow from ground, both need moisture) and differences (mushroom doesn't make its own food/plants do, mushroom has different body parts, mushroom comes from spores/plants from seeds).",
+        "meets": "Student provides at least one accurate similarity and one accurate difference between mushrooms and plants, such as both living and growing differently.",
+        "approaching": "Student attempts to compare mushrooms and plants but includes only partial or partially inaccurate details; may confuse how they grow or get food.",
+        "beginning": "Student makes a simple statement about mushrooms or plants but does not make a clear comparison, or provides inaccurate information."
+      }
+    },
+    {
+      "questionText": "If you were a tiny spore from this mushroom, what would need to happen for you to grow into a new mushroom?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple conditions needed (moisture/water, darkness, warm place, dead material) and explains how spores are different from seeds and require specific environments.",
+        "meets": "Student identifies at least two conditions needed for spore growth, such as moisture and a good place to land, with reasonable explanations.",
+        "approaching": "Student identifies one or two conditions but explanation lacks detail or shows partial understanding of what spores need.",
+        "beginning": "Student names one condition or gives a vague response about what the spore might need to grow."
+      }
+    },
+    {
+      "questionText": "What role do you think mushrooms play in helping other living things in their habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms break down dead plants and animals, returning nutrients to soil that help other plants grow, and may mention that some animals eat mushrooms.",
+        "meets": "Student describes at least one way mushrooms help their habitat, such as breaking down dead things or providing food for animals.",
+        "approaching": "Student identifies a general helpful role for mushrooms but explanation is vague or partially incomplete.",
+        "beginning": "Student attempts to answer but provides minimal or unclear information about mushrooms' role in their habitat."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:26:39.897Z",
+  "cost": 0.004692
+}

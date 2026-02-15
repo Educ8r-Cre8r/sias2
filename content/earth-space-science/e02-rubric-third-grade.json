@@ -1,0 +1,53 @@
+{
+  "title": "Hill",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this area looked like before people built houses here?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a detailed natural landscape with multiple features (e.g., more trees, wild animals, open fields, streams) and explains how it was different from today's human-built environment.",
+        "meets": "Student describes the area as having mostly trees and open land without buildings, showing understanding that the natural landscape existed before human development.",
+        "approaching": "Student mentions that trees or plants were present before, but description is vague or incomplete; may not clearly contrast with the current human-built landscape.",
+        "beginning": "Student provides minimal or unclear response, such as 'it had stuff' or 'there were trees,' with little detail about the natural landscape."
+      }
+    },
+    {
+      "questionText": "Why might someone choose to live on a hill instead of in the valley?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple logical reasons (e.g., better views, water runoff/drainage, easier to see around, protection from flooding) with clear explanations of why each would benefit the homeowner.",
+        "meets": "Student gives one or two reasonable reasons (e.g., can see better, good view, water drains away) that show practical thinking about hill placement.",
+        "approaching": "Student attempts to explain a reason but the explanation is incomplete or partially unclear; may mention a benefit without fully explaining why it matters.",
+        "beginning": "Student provides a minimal or incorrect response, such as 'because they like hills' or offers no explanation for the choice."
+      }
+    },
+    {
+      "questionText": "How do you think the plants and animals were affected when people built homes in this area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple impacts on plants and animals (e.g., loss of habitat, animals forced to move, trees cut down, less food available) and explains how these changes affected the organisms.",
+        "meets": "Student explains that animals and plants lost space or homes due to building, or that some plants were removed, showing understanding of habitat disruption.",
+        "approaching": "Student recognizes that plants or animals were affected, but explanation lacks detail or clarity about how the building caused the change.",
+        "beginning": "Student provides vague response like 'they were sad' or 'something happened to them' with no clear connection to human building activity."
+      }
+    },
+    {
+      "questionText": "What evidence can you see that shows how humans have changed this natural landscape?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific changes visible in the photo (e.g., house built on hill, cleared land around house, city buildings in distance, roads or structures) as evidence of human impact.",
+        "meets": "Student points to at least two clear human-made features in the photo (e.g., house, buildings, cleared areas) as evidence that people have changed the landscape.",
+        "approaching": "Student identifies one human-made feature (e.g., 'there's a house') but may not fully explain it as evidence of landscape change, or description is vague.",
+        "beginning": "Student makes minimal observations, such as 'there are buildings' or 'people live here,' without connecting these to landscape changes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:49:43.961Z",
+  "cost": 0.004892
+}

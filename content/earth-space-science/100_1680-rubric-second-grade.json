@@ -1,0 +1,53 @@
+{
+  "title": "Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this snow when spring comes?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that snow will melt into water and explains what causes melting (warmer temperatures from the sun), demonstrating understanding of seasonal temperature changes and the water cycle.",
+        "meets": "Student predicts that the snow will melt and disappear when it gets warmer, showing basic understanding of spring temperature changes.",
+        "approaching": "Student predicts the snow will go away but provides incomplete reasoning; may mention warmth or spring without fully explaining the connection.",
+        "beginning": "Student provides a vague response such as 'the snow will be gone' with little or no explanation of what causes this change."
+      }
+    },
+    {
+      "questionText": "How do you think the wagon would look different in summer compared to winter?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple seasonal differences (no snow, warmer weather, more visible wood or metal, greener surroundings) and explains how temperature changes affect what we see on the wagon.",
+        "meets": "Student identifies at least two clear differences between summer and winter (such as no snow on the wagon, warmer weather, or more visible parts of the wagon).",
+        "approaching": "Student identifies one difference between summer and winter versions of the wagon but lacks detail or clarity in the comparison.",
+        "beginning": "Student attempts to compare but provides vague or mostly inaccurate descriptions with minimal evidence of understanding seasonal differences."
+      }
+    },
+    {
+      "questionText": "Why do you think the snow stays on top of things instead of falling through them?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snow piles up and stacks on solid surfaces because the wagon and objects are hard and don't let snow pass through, demonstrating understanding of material properties and how solids support weight.",
+        "meets": "Student explains that snow stays on top because the wagon and objects are solid or hard, showing understanding that snow cannot pass through solid things.",
+        "approaching": "Student recognizes that snow rests on the wagon but provides incomplete or partially accurate reasoning about why it doesn't fall through.",
+        "beginning": "Student attempts an answer but shows minimal understanding; response may be vague or focus on unrelated details."
+      }
+    },
+    {
+      "questionText": "What other changes do you notice in your neighborhood during winter?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes three or more specific winter changes (such as bare trees, cold temperatures, ice, fewer outdoor activities, different animal behavior, or changes in daylight) with clear observations.",
+        "meets": "Student identifies two winter changes in their neighborhood (such as snow on the ground, trees without leaves, or cold weather) with reasonable descriptions.",
+        "approaching": "Student identifies one winter change but describes it vaguely or with limited detail about what winter looks or feels like.",
+        "beginning": "Student attempts to describe a change but provides minimal detail or makes vague observations that are hard to understand."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:44:55.569Z",
+  "cost": 0.004583
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Bell Pepper",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if you planted one of these pepper seeds?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that a pepper plant would grow and describes multiple stages (sprouting, growing leaves, producing flowers, making peppers) with accurate sequencing and details.",
+        "meets": "Student predicts that a pepper plant would grow and describes at least one or two stages of growth (like sprouting or making peppers) with reasonable accuracy.",
+        "approaching": "Student predicts something will grow but provides vague or partially accurate details; may confuse what would grow or skip important growth stages.",
+        "beginning": "Student makes a prediction but it is vague, inaccurate, or shows minimal understanding of how seeds grow into plants."
+      }
+    },
+    {
+      "questionText": "Why do you think the pepper plant makes the fruit thick and colorful around the seeds?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the thick fruit protects the seeds and mentions that color attracts animals to eat and spread the seeds; demonstrates understanding of multiple purposes.",
+        "meets": "Student explains that the fruit protects the seeds or that the color helps with seed spreading (animals eating them or people noticing them); shows clear reasoning.",
+        "approaching": "Student gives a partial explanation such as 'to protect the seeds' or 'because it's colorful' but lacks complete reasoning or detail.",
+        "beginning": "Student's response is vague, such as 'the plant needs it' or 'to make peppers,' with little evidence of understanding the fruit's purpose."
+      }
+    },
+    {
+      "questionText": "How are the seeds in this pepper similar to and different from other seeds you've seen?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (small, white, need water to grow) and differences (flat shape, size, found inside peppers) compared to other seeds, using specific examples.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between pepper seeds and other seeds, with accurate observations.",
+        "approaching": "Student mentions similarities or differences but they are vague, partially accurate, or only one type of comparison is given.",
+        "beginning": "Student attempts comparison but response lacks accuracy, clarity, or shows minimal observation of seed characteristics."
+      }
+    },
+    {
+      "questionText": "What conditions do you think these seeds would need to grow into new pepper plants?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more growing conditions (water, sunlight, warm temperature, soil/nutrients) and explains why each is important for seed growth.",
+        "meets": "Student identifies two or more growing conditions (such as water and sunlight) that seeds need to grow, with reasonable explanations.",
+        "approaching": "Student identifies one or two conditions but explanations are incomplete or one condition may be inaccurate or not well-explained.",
+        "beginning": "Student names a condition but provides minimal explanation, or response shows limited understanding of what seeds need to grow."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:40:19.660Z",
+  "cost": 0.00462
+}

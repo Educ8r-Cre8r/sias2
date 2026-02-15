@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the lizard's colors match the tree bark?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple color matches between lizard and bark (brown, tan, bumpy texture) and explains how this makes the lizard hard to see against the tree.",
+        "meets": "Student accurately describes that the lizard's brown color is similar to the tree bark color and notices they look alike.",
+        "approaching": "Student mentions that the lizard and bark are similar colors but provides limited detail or observation about the match.",
+        "beginning": "Student makes a vague statement about colors or the lizard on the tree with minimal accurate observation."
+      }
+    },
+    {
+      "questionText": "Why do you think this lizard's brown color helps it survive better than if it were bright pink?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that brown helps the lizard hide from predators by blending in with its environment, and recognizes that bright pink would make the lizard easy to spot and catch.",
+        "meets": "Student correctly explains that brown color helps the lizard blend in or hide on the tree, and that bright pink would be easier to see.",
+        "approaching": "Student recognizes that brown is better for hiding but provides incomplete reasoning about why hiding helps survival or why pink would be a problem.",
+        "beginning": "Student gives a simple answer like 'brown is better' or 'pink is bad' without explaining how color relates to survival."
+      }
+    },
+    {
+      "questionText": "How might this lizard look different if it lived in a sandy desert instead of on trees?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the lizard would be lighter in color (tan, sandy, or pale), explains this would help it hide in sand, and may mention other adaptations like a different tail or body shape for desert survival.",
+        "meets": "Student predicts the lizard would be lighter or sandy-colored in the desert and explains this would help it blend in with sand.",
+        "approaching": "Student predicts some color change to desert colors but provides weak or incomplete reasoning about why the change would help the lizard.",
+        "beginning": "Student makes a vague prediction about the lizard looking different without clear connection to desert environments or survival."
+      }
+    },
+    {
+      "questionText": "What evidence can you find in the photo that shows this lizard is well-adapted for climbing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple climbing adaptations: tiny toes for gripping, four legs for holding on, long tail for balance, and bumpy skin for gripping, and explains how each helps with climbing.",
+        "meets": "Student identifies at least two adaptations (such as tiny toes, four legs, or long tail) and explains how they help the lizard climb trees.",
+        "approaching": "Student identifies one or two body parts related to climbing but provides limited explanation of how they help the lizard grip or balance on trees.",
+        "beginning": "Student mentions a body part or says the lizard can climb without providing clear evidence from the photo or explanation of how features help."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:33:00.349Z",
+  "cost": 0.004751
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this bird needs to survive in this garden?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple survival needs (food, water, shelter, safety) with specific examples from the garden, such as seeds from plants, water sources, or hiding places among flowers and pots.",
+        "meets": "Student identifies at least two survival needs (such as food and shelter or water and safety) with basic explanations of how the garden provides these.",
+        "approaching": "Student identifies one survival need correctly (such as food or shelter) but explanations lack detail or connection to the garden environment.",
+        "beginning": "Student provides a vague or incomplete answer, such as naming only one need with minimal explanation, or gives an inaccurate response."
+      }
+    },
+    {
+      "questionText": "How is this bird's home different from where a fish lives?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences with specific details, such as birds live on land/in gardens with air while fish live in water, birds need nests while fish don't, or birds can fly while fish swim.",
+        "meets": "Student identifies at least two clear differences between a bird's habitat (land, garden, air) and a fish's habitat (water), with accurate explanations.",
+        "approaching": "Student identifies one difference between bird and fish habitats but may lack clarity or provide incomplete reasoning about why habitats differ.",
+        "beginning": "Student provides a vague answer or one inaccurate comparison; shows minimal understanding of habitat differences between birds and fish."
+      }
+    },
+    {
+      "questionText": "Why do you think the bird chose to sit in this garden instead of on the sidewalk?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple logical reasons with specific evidence, such as the garden has plants for food and shelter, the sidewalk is hard/unsafe, or the garden offers camouflage with brown feathers matching brown soil.",
+        "meets": "Student provides at least two reasonable reasons why the garden is better than the sidewalk, such as finding food, staying safe, or having shelter from plants.",
+        "approaching": "Student provides one reason why the garden might be better, but reasoning is incomplete or lacks connection to bird survival needs.",
+        "beginning": "Student's answer is vague, illogical, or shows minimal understanding of why a bird would prefer a garden to a sidewalk."
+      }
+    },
+    {
+      "questionText": "What might happen to this bird if all the plants in the garden were removed?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences with reasoning, such as the bird would lose food sources, shelter, and protection, and might have to move to a new garden or struggle to survive.",
+        "meets": "Student identifies at least two consequences, such as loss of food or loss of shelter, and explains how these would negatively affect the bird's survival.",
+        "approaching": "Student identifies one consequence of removing plants, such as less food, but explanation lacks detail about how this affects the bird's survival.",
+        "beginning": "Student provides a minimal or unclear answer about what might happen; shows little understanding of how plants support the bird's needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:37:56.115Z",
+  "cost": 0.004778
+}

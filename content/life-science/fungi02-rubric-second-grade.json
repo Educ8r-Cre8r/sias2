@@ -1,0 +1,53 @@
+{
+  "title": "Fungi02",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how these mushrooms are similar and different from each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific similarities (round caps, thin stems, yellow-brown color) and differences (size variation, growth stages) with clear descriptive language and explains what these differences might mean.",
+        "meets": "Student accurately describes at least two similarities and two differences between the mushrooms, such as shape, color, or size, using observable details from the photo.",
+        "approaching": "Student identifies one or two similarities or differences between the mushrooms, but descriptions may be vague or only partially accurate.",
+        "beginning": "Student attempts to compare mushrooms but provides minimal or unclear observations; may confuse similarities with differences or vice versa."
+      }
+    },
+    {
+      "questionText": "Why do you think these mushrooms are growing near old wood instead of in other places?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms get food from dead wood, connecting decay/decomposition to mushroom growth and extending to the concept that mushrooms need certain conditions to survive and grow.",
+        "meets": "Student provides a reasonable explanation that mushrooms need old wood or that wood helps them grow, showing understanding that mushrooms depend on their environment in a specific way.",
+        "approaching": "Student suggests a connection between wood and mushroom growth but the explanation is incomplete or partially inaccurate; may mention wood without explaining why it matters.",
+        "beginning": "Student makes a vague statement about wood and mushrooms or provides an inaccurate reason; shows minimal understanding of habitat needs."
+      }
+    },
+    {
+      "questionText": "How might these mushrooms help other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms break down dead wood and help nutrients return to the soil, or mentions they provide food for animals, showing understanding of decomposition and food chains.",
+        "meets": "Student identifies one way mushrooms help the forest, such as breaking down dead material, feeding animals, or enriching soil, with a logical explanation.",
+        "approaching": "Student suggests mushrooms help in some way but the explanation is unclear or incomplete; may mention a benefit without fully explaining it.",
+        "beginning": "Student provides a minimal or vague answer about mushrooms helping; shows little understanding of the role mushrooms play in forests."
+      }
+    },
+    {
+      "questionText": "What questions do you have about how mushrooms grow and live?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student asks thoughtful, specific questions showing curiosity about mushroom biology, such as how they get food, why they grow in stages, or what controls their growth.",
+        "meets": "Student asks one or more genuine questions about mushrooms that demonstrate curiosity about their growth, life, or behavior in a clear way.",
+        "approaching": "Student asks a question about mushrooms but it may be vague, off-topic, or show limited understanding of what we don't know about them.",
+        "beginning": "Student asks a minimal or unclear question; may not demonstrate genuine curiosity about mushroom growth or living processes."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:27:26.518Z",
+  "cost": 0.004705
+}

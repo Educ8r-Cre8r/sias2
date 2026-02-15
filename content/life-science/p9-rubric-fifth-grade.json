@@ -1,0 +1,53 @@
+{
+  "title": "Monarch Caterpillar",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do the caterpillar's bright colors help it survive, and what does this tell us about predator-prey relationships?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors warn predators the caterpillar is toxic or poisonous (aposematic coloration) and describes how this creates an advantage in predator-prey relationships where predators learn to avoid brightly colored prey, protecting the caterpillar.",
+        "meets": "Student identifies that the bright yellow and black stripes warn predators to stay away and explains that this helps the caterpillar survive because predators will not eat it.",
+        "approaching": "Student states that the bright colors help the caterpillar by making predators notice it or avoid it, but lacks clear explanation of how or why the predator's behavior protects the caterpillar.",
+        "beginning": "Student provides a vague response such as 'the colors help it' or 'predators don't like bright colors' without explaining the connection to survival or predator-prey relationships."
+      }
+    },
+    {
+      "questionText": "What evidence could you collect to prove that a caterpillar and butterfly are the same organism at different life stages?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple types of evidence including: observing a caterpillar form a chrysalis and emerge as a butterfly, comparing DNA or genetic material, tracking the same individual through metamorphosis stages, and examining structural similarities (body segments, legs, antennae) before and after transformation.",
+        "meets": "Student describes at least two types of evidence such as observing metamorphosis in a chrysalis, comparing physical features between caterpillars and butterflies, or tracking the same organism through different stages.",
+        "approaching": "Student suggests one piece of evidence (such as watching a caterpillar change into a butterfly) but provides incomplete description or lacks detail about how this would prove they are the same organism.",
+        "beginning": "Student provides minimal or unclear evidence, such as 'they look similar' or 'they are related,' without explaining how the evidence would prove they are the same organism."
+      }
+    },
+    {
+      "questionText": "How might climate change affect the timing of monarch metamorphosis and migration patterns?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that warming temperatures could cause earlier metamorphosis and earlier spring migration, leading to timing mismatches with milkweed availability or migration pathways, and predicts potential consequences like starvation or population decline.",
+        "meets": "Student explains that climate change affects temperature, which could cause monarchs to complete metamorphosis earlier or migrate at different times than in the past.",
+        "approaching": "Student recognizes that climate change could affect monarchs' timing or migration but provides incomplete reasoning about why temperature changes would cause these effects.",
+        "beginning": "Student provides a vague response such as 'climate change would affect monarchs' without explaining the specific mechanisms or consequences related to metamorphosis or migration."
+      }
+    },
+    {
+      "questionText": "What would happen to milkweed plant populations if monarch caterpillars disappeared from an ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that milkweed populations would likely increase because caterpillars would no longer eat the plants, and connects this to broader ecosystem effects such as changes to plant diversity, herbivore balance, or the loss of a food source for other organisms that depend on monarchs.",
+        "meets": "Student explains that without monarch caterpillars eating milkweed, the milkweed plant population would grow or increase.",
+        "approaching": "Student recognizes a connection between monarch caterpillars and milkweed but provides incomplete reasoning, such as stating milkweed would change without clearly explaining why or in what direction.",
+        "beginning": "Student provides a minimal response such as 'something would happen to milkweed' or makes an unsupported claim without explanation of the relationship between caterpillars and plants."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:39:05.543Z",
+  "cost": 0.005753
+}

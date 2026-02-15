@@ -1,0 +1,53 @@
+{
+  "title": "Parts of a Plant",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we planted this seedling upside down with roots pointing up?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would struggle or die, explaining that roots need to grow downward into soil to find water and nutrients, and leaves need to grow upward toward sunlight for energy.",
+        "meets": "Student predicts the plant would not grow well, identifying that roots need to go down into the ground to get water or nutrients.",
+        "approaching": "Student makes a prediction but with incomplete reasoning, such as stating the plant would die without explaining why, or mentioning only one factor (roots or sunlight).",
+        "beginning": "Student provides a vague prediction or minimal response, such as 'it would be bad' or 'it wouldn't work' with little to no explanation."
+      }
+    },
+    {
+      "questionText": "How does the root system shown here help the plant survive in its environment?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the spread-out roots absorb water and nutrients from soil, anchor the plant so it doesn't fall over, and may reference how the branching pattern increases surface area for absorption.",
+        "meets": "Student explains that roots take in water and nutrients the plant needs to survive and/or that roots hold the plant in the ground.",
+        "approaching": "Student identifies one function of roots (such as getting water or staying in place) but lacks detail or gives an incomplete explanation of how it helps survival.",
+        "beginning": "Student provides a minimal or unclear response, such as 'roots help plants' without explaining how or why."
+      }
+    },
+    {
+      "questionText": "What evidence do you see that this seed had everything it needed to begin growing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple pieces of evidence, such as the seed's stored food (visible as the dark seed), successful root development, green leaf growth, and explains how the seed contained everything needed to start growing before water and soil were added.",
+        "meets": "Student identifies at least two pieces of evidence from the seedling, such as the presence of both roots and leaves or mentions the seed contained stored food that allowed growth to begin.",
+        "approaching": "Student identifies one piece of evidence (such as 'it has roots' or 'it grew') but cannot explain how this shows the seed had what it needed to start growing.",
+        "beginning": "Student provides a vague observation about the seedling without connecting it to evidence of what the seed contained, or gives minimal response."
+      }
+    },
+    {
+      "questionText": "If you were designing a root system for a plant, what features would you include and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes multiple realistic root features (such as branching, spread-out structure, or thick and thin roots) and explains the purpose of each, connecting to plant survival needs like water absorption, nutrient uptake, or stability.",
+        "meets": "Student proposes at least two root features that are logical for plant survival and provides a reason for each choice.",
+        "approaching": "Student proposes one or two root features but explanations are incomplete or weakly connected to how they would help the plant survive.",
+        "beginning": "Student makes a simple design suggestion with minimal or unclear reasoning, or provides a response that shows limited understanding of root functions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:17:46.054Z",
+  "cost": 0.004981
+}

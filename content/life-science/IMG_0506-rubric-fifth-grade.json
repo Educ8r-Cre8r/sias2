@@ -1,0 +1,53 @@
+{
+  "title": "Predator and Prey",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe that shows these two animals live in different parts of the food web?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the gecko is a predator and the dragonfly is prey, explains how this predator-prey relationship shows different food web positions, and describes how each animal's role (consumer levels) differs in the food chain.",
+        "meets": "Student recognizes that the gecko eats the dragonfly and explains that this shows they have different positions in the food web, with one being a predator and one being prey.",
+        "approaching": "Student observes that the gecko and dragonfly are different animals and mentions that one eats the other, but provides limited explanation of how this shows different food web positions.",
+        "beginning": "Student states that the animals are different or that one is eating the other, but does not explain what this tells us about their food web positions."
+      }
+    },
+    {
+      "questionText": "How might the gecko's hunting success affect other organisms in this ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that successful gecko hunting decreases dragonfly populations, which affects plants (more plants survive without dragonfly damage), and other predators that eat dragonflies, showing understanding of multiple interconnected relationships in the ecosystem.",
+        "meets": "Student explains that when geckos hunt successfully, there are fewer dragonflies, and describes at least one effect on another organism (such as less food for other predators or more surviving plants).",
+        "approaching": "Student recognizes that successful hunting affects dragonfly numbers but provides only vague or incomplete explanations of how this impacts other organisms in the ecosystem.",
+        "beginning": "Student mentions that the gecko's hunting has some effect but provides little or no explanation of how other organisms in the ecosystem would be affected."
+      }
+    },
+    {
+      "questionText": "What adaptations help each animal survive in their shared habitat?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple adaptations for each animal (such as gecko's climbing feet and color for hiding; dragonfly's wings for speed and eyes for seeing prey) and explains how each adaptation helps the animal survive or hunt in this specific habitat.",
+        "meets": "Student identifies at least two adaptations total for the animals shown and explains how these features help them survive or function in their shared habitat.",
+        "approaching": "Student identifies one or two adaptations but provides incomplete or unclear explanations of how they help the animals survive in this habitat.",
+        "beginning": "Student mentions physical features of the animals but does not clearly describe them as adaptations or explain how they help the animals survive."
+      }
+    },
+    {
+      "questionText": "If dragonfly populations decreased in this area, what might happen to the gecko population and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that gecko populations would likely decrease because dragonflies are a food source, and explains the cause-and-effect relationship clearly, using words like 'because' or 'if-then' to show logical reasoning about how food availability affects predator survival.",
+        "meets": "Student predicts that gecko populations would decrease due to fewer dragonflies for food, and provides a basic cause-and-effect explanation connecting food availability to predator survival.",
+        "approaching": "Student predicts a change in gecko population but provides an incomplete or partially unclear explanation of why dragonfly population loss would cause this change.",
+        "beginning": "Student makes a prediction about gecko population but provides little or no explanation for why the change would occur."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:18:37.010Z",
+  "cost": 0.005192
+}

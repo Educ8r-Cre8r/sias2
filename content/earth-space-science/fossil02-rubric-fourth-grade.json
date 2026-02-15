@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What can these fossil shells tell us about what this place was like millions of years ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that this place was once underwater or an ocean and explains that shells show ancient sea creatures lived here; may add details about the environment or climate based on shell types.",
+        "meets": "Student states that shells show this place had water or was an ocean long ago, and that sea animals lived here; recognizes fossils provide information about past life.",
+        "approaching": "Student recognizes that fossils show something about the past or that water was involved, but explanation is incomplete or lacks clear connection between shells and ancient ocean environment.",
+        "beginning": "Student provides a vague response like \"it was different a long time ago\" or \"shells were here\" without explaining what fossils reveal about the ancient environment."
+      }
+    },
+    {
+      "questionText": "Why do you think we find more fossils of shells and bones than of soft body parts like skin?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard parts like shells and bones last longer and preserve better because they do not decay quickly; may mention that soft parts rot away or that hard materials turn to stone more easily.",
+        "meets": "Student recognizes that shells and bones are harder and stronger, making them last longer and easier to turn into fossils; shows understanding that soft parts break down or disappear.",
+        "approaching": "Student identifies that hard parts are stronger or last longer, but the explanation of why they fossilize better is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal response such as \"shells are hard\" without explaining why this makes fossils more common."
+      }
+    },
+    {
+      "questionText": "If you found these fossils on top of a mountain, what might that tell you about Earth's history?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mountain was once underwater or beneath an ocean, and that Earth's surface has changed over time; may reference plate movement or Earth's layers shifting.",
+        "meets": "Student recognizes that sea shells on a mountain mean this place was once underwater and that the land has moved or changed a lot since then.",
+        "approaching": "Student understands that finding ocean fossils on a mountain is unusual and suggests Earth changed, but does not clearly explain how or why the mountain contains sea shells.",
+        "beginning": "Student makes a vague statement like \"Earth changed\" or \"it was under water\" without connecting how the fossils got to the mountain top."
+      }
+    },
+    {
+      "questionText": "How are these ancient shells similar to and different from shells you might find at the beach today?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both are shells from sea creatures and have similar spiral or ridged shapes; explains differences such as ancient shells are fossilized/turned to stone, harder, or show different species than modern shells.",
+        "meets": "Student notes similarities (both are shells, similar shapes) and differences (ancient shells are stone/fossilized, beach shells are not); recognizes these shells come from different time periods.",
+        "approaching": "Student identifies some similarities or differences (like shape or material) but does not compare both aspects; explanation may be incomplete.",
+        "beginning": "Student provides minimal observations like \"they look the same\" or \"they are different\" without specific details about similarities or differences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:53:56.525Z",
+  "cost": 0.005014
+}

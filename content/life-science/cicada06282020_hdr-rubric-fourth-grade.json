@@ -1,0 +1,53 @@
+{
+  "title": "Cicada",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages might cicadas gain by staying underground for so many years before emerging?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple advantages (e.g., avoiding predators, waiting for tree roots to mature for food, surviving harsh weather) and explains how each helps cicadas survive and reproduce.",
+        "meets": "Student identifies at least two advantages of underground life, such as protection from predators or access to underground plant roots for food.",
+        "approaching": "Student identifies one advantage of staying underground, such as hiding from predators, but explanation lacks detail or clarity.",
+        "beginning": "Student provides a vague response or guess about underground life with little connection to cicada survival (e.g., 'it's dark' or 'they like dirt')."
+      }
+    },
+    {
+      "questionText": "How do you think the forest ecosystem changes during a major cicada emergence?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple ecosystem changes with specific details, such as increased food for predators and birds, potential damage to trees from egg-laying, and changes in forest noise and activity.",
+        "meets": "Student describes at least two changes in the forest ecosystem, such as more food for animals or effects on trees, with reasonable explanations.",
+        "approaching": "Student identifies one ecosystem change (e.g., 'birds have more food') but lacks explanation or misses other impacts.",
+        "beginning": "Student gives a vague or incomplete response, such as 'the forest gets crowded' without explaining what that means for the ecosystem."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in the cicada's body structure that are similar to other insects?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple insect features (e.g., six legs, wings, segmented body, eyes, antennae) and explains how these features help cicadas function like other insects.",
+        "meets": "Student identifies at least three insect body parts that cicadas share with other insects, such as legs, wings, and eyes.",
+        "approaching": "Student identifies one or two insect features shared by cicadas, such as wings or legs, with minimal explanation.",
+        "beginning": "Student provides vague observations about the cicada's appearance with little connection to other insects (e.g., 'it has a body')."
+      }
+    },
+    {
+      "questionText": "Why might it be beneficial for millions of cicadas to emerge at the same time rather than gradually throughout the years?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple benefits such as overwhelming predators through sheer numbers, increasing chances of finding mates quickly, and improving overall species survival through synchronized reproduction.",
+        "meets": "Student identifies at least two benefits, such as predators cannot eat all the cicadas or cicadas find mates more easily when emerging together.",
+        "approaching": "Student identifies one benefit of simultaneous emergence, such as safety in numbers, but explanation is incomplete or unclear.",
+        "beginning": "Student provides minimal reasoning, such as 'more cicadas together' without explaining what advantage this provides."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:23:48.476Z",
+  "cost": 0.004742
+}

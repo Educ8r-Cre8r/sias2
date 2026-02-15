@@ -1,0 +1,53 @@
+{
+  "title": "Sunflower",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this seed needed to start growing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more things seeds need (water, soil/nutrients, sunlight, warmth) with specific details about why each is important for growth.",
+        "meets": "Student identifies at least two things seeds need to grow, such as water and sunlight, with brief explanations of how they help.",
+        "approaching": "Student identifies one thing a seed needs to grow (water, soil, or sunlight) but provides vague or incomplete reasoning about why it matters.",
+        "beginning": "Student gives a minimal response mentioning only one basic need (like 'water') with little to no explanation, or provides an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "How might this plant look different in two weeks compared to now?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple specific changes, such as taller stem, more leaves, larger leaf size, possible flower buds forming, and explains how sunlight and water cause these growth changes.",
+        "meets": "Student describes at least two physical changes the plant will undergo, such as growing taller or developing more leaves, showing understanding of plant growth.",
+        "approaching": "Student describes one change the plant might experience but lacks detail, or mentions growth without explaining what specific parts will change.",
+        "beginning": "Student provides a vague response like 'it will be bigger' with no specific details about plant parts or growth, or gives an inaccurate prediction."
+      }
+    },
+    {
+      "questionText": "Why do you think the seed is still attached to the plant?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the seed coat provides protection and/or nutrients to the new seedling, and connects this to how seeds help young plants survive and grow strong.",
+        "meets": "Student identifies that the seed helps protect or provide food/nutrients to the young plant, showing understanding of the seed's role in early growth.",
+        "approaching": "Student recognizes the seed is still there but gives an unclear or partially correct reason, such as 'it stays with the plant' without explaining the purpose.",
+        "beginning": "Student provides little explanation or suggests an inaccurate reason, such as the seed being 'stuck' or 'glued' without recognizing its protective or nutritional function."
+      }
+    },
+    {
+      "questionText": "What would happen if we put this seedling in a dark closet for a week?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would stop growing or weaken without light, explains that plants need sunlight to make food, and may describe how the leaves might change color or become pale.",
+        "meets": "Student predicts the plant would struggle or stop growing because it needs light, demonstrating understanding that sunlight is necessary for plant growth.",
+        "approaching": "Student predicts the plant would have a negative reaction to darkness but provides incomplete reasoning, such as 'plants need sun' without explaining why or what would happen.",
+        "beginning": "Student gives a vague or inaccurate prediction, such as 'it would die' or 'nothing would happen,' with no connection to the plant's need for light."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:43:23.989Z",
+  "cost": 0.00487
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Seedling",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this plant needs to keep growing big and healthy?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more things plants need (water, sunlight, soil) and explains simply why each one helps the plant grow.",
+        "meets": "Student names two plant needs such as water and sunlight, or water and soil, with brief explanations of why they matter.",
+        "approaching": "Student names one plant need like water or sunlight but gives little or no explanation of why it helps.",
+        "beginning": "Student gives a vague answer like 'food' or 'stuff' with no clear connection to how plants grow."
+      }
+    },
+    {
+      "questionText": "Why did the person put the plant by the window instead of in a dark corner?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the plant needs sunlight from the window to grow and stay healthy, and notes that dark places don't have enough light for plants.",
+        "meets": "Student explains that the window has sunlight and plants need light to grow.",
+        "approaching": "Student mentions that windows have light or that light helps plants, but doesn't fully explain why the plant was moved.",
+        "beginning": "Student says 'it's by the window' or 'plants like light' without explaining the reason or connection."
+      }
+    },
+    {
+      "questionText": "If we stopped giving this plant water, what would happen to it? Why?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would wilt, dry out, or die, and explains that water helps plants stay healthy and grow, or that plants need water like people need to drink.",
+        "meets": "Student predicts the plant would die or get sick and states that plants need water to live.",
+        "approaching": "Student says the plant would die but gives incomplete reasoning, such as 'plants need water' without explaining what water does.",
+        "beginning": "Student makes a prediction like 'it would die' with no explanation or reasoning."
+      }
+    },
+    {
+      "questionText": "How is this plant similar to you? What do both of you need to live and grow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies two or more things both need to grow (water, food, sunlight/air, soil/nutrients) and explains how each helps both the plant and child.",
+        "meets": "Student identifies that both need water and food, or water and sunlight, and explains simply that both need these to grow.",
+        "approaching": "Student names one thing both need like water or food but gives limited explanation of the similarity.",
+        "beginning": "Student gives a vague answer like 'we both grow' with little evidence of understanding what plants and people share."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:13:56.398Z",
+  "cost": 0.00435
+}

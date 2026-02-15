@@ -1,0 +1,53 @@
+{
+  "title": "Matter",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the builders chose to make arches instead of straight lines?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that arches are stronger or can hold weight better, and connects this to how the curved shape distributes force differently than straight lines would.",
+        "meets": "Student identifies that arches are stronger or work better than straight lines, with a simple but accurate explanation of the advantage.",
+        "approaching": "Student recognizes that arches might be better or stronger but gives an incomplete or partially unclear reason for why builders chose them.",
+        "beginning": "Student makes a guess about why arches were chosen but provides little or vague reasoning, or focuses on appearance only."
+      }
+    },
+    {
+      "questionText": "What would happen if we tried to build these same structures using wood instead of metal?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that wood would not work as well and explains multiple reasons, such as wood being weaker, less flexible, or more likely to break under weight compared to metal.",
+        "meets": "Student predicts that wood would likely not work well and gives at least one accurate reason, such as wood being weaker or less durable than metal.",
+        "approaching": "Student makes a prediction about wood but gives unclear or partially inaccurate reasoning about why it would or would not work.",
+        "beginning": "Student makes a simple guess with little explanation, or shows confusion about the properties of wood and metal."
+      }
+    },
+    {
+      "questionText": "How are these arches similar to other curved things you see in nature?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple natural curved structures (rainbows, tree branches, bird wings, shells) and explains a similarity in shape or function with specific details.",
+        "meets": "Student identifies at least one natural curved thing (like a rainbow or tree branch) and makes a reasonable comparison to the arch shape.",
+        "approaching": "Student names a curved thing in nature but makes a vague or incomplete comparison to the arch, or struggles to explain the similarity.",
+        "beginning": "Student names something curved but provides little connection to the arches, or the response shows unclear thinking about the comparison."
+      }
+    },
+    {
+      "questionText": "What problem do you think these arches were designed to solve?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies a specific problem the arches solve (providing shelter, creating an entrance, supporting weight, or framing a space) and explains why this shape is a good solution.",
+        "meets": "Student identifies a reasonable problem the arches might solve, such as creating an entrance or providing structure, with adequate explanation.",
+        "approaching": "Student suggests a possible problem but gives an unclear or only partially relevant explanation for how arches help solve it.",
+        "beginning": "Student makes a vague guess about a problem with minimal or illogical reasoning connected to the arch design."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T03:00:04.626Z",
+  "cost": 0.004472
+}

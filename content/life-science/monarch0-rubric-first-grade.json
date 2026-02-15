@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about the caterpillar's colors and patterns?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific colors (yellow, black, white) and describes the stripe pattern with detail, such as noting how the stripes go across the caterpillar's body.",
+        "meets": "Student correctly names at least two colors of the caterpillar and mentions that it has stripes or a pattern.",
+        "approaching": "Student names one color or mentions stripes, but lacks detail or accuracy in describing the pattern.",
+        "beginning": "Student makes a simple observation about how the caterpillar looks, such as saying it is colorful or has lines, with minimal specific details."
+      }
+    },
+    {
+      "questionText": "Why do you think the caterpillar needs to shed its skin?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that caterpillars shed their skin because they grow bigger and their old skin becomes too tight, and may connect this to the empty shell shown in the photo.",
+        "meets": "Student provides a reasonable explanation that the caterpillar sheds its skin because it grows or because the skin gets too small.",
+        "approaching": "Student attempts an explanation related to growth or changing, but the reasoning is unclear or incomplete.",
+        "beginning": "Student provides a vague response such as the caterpillar sheds its skin to clean itself, or gives little to no explanation."
+      }
+    },
+    {
+      "questionText": "How is this caterpillar similar to and different from the butterfly it will become?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (both have stripes/colors, both are insects, both have bodies) and differences (caterpillar crawls/eats plants vs. butterfly flies/drinks nectar, different body shape), showing understanding of life cycle changes.",
+        "meets": "Student correctly identifies at least one similarity and one difference between the caterpillar and butterfly, such as noting they look different or move differently.",
+        "approaching": "Student identifies either a similarity or a difference, but not both, or the response contains one inaccurate comparison.",
+        "beginning": "Student provides a minimal or unclear response that does not clearly compare the caterpillar and butterfly."
+      }
+    },
+    {
+      "questionText": "What would happen if caterpillars couldn't shed their skin as they grew?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillar would not be able to grow properly, might get stuck or uncomfortable, and would not be able to become a butterfly, showing understanding of how shedding supports growth and development.",
+        "meets": "Student provides a reasonable prediction that the caterpillar would have trouble growing or would not be able to get bigger.",
+        "approaching": "Student attempts a prediction but with incomplete reasoning, such as saying something bad would happen without explaining why.",
+        "beginning": "Student provides a vague response such as the caterpillar would be sad, or offers a prediction with little connection to the skin-shedding concept."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:33:38.048Z",
+  "cost": 0.004692
+}

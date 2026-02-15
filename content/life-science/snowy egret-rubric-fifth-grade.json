@@ -1,0 +1,53 @@
+{
+  "title": "Snowy Egret",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do the egret's body parts work together as a system to help it catch food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three body parts (long legs, sharp beak, keen eyes) and explains how each part has a specific function that works together as a system—such as long legs for wading, sharp beak for spearing, and good eyesight for spotting prey—showing understanding of how systems work.",
+        "meets": "Student identifies at least two body parts and explains how they help the egret catch food with accurate descriptions of their functions and how they work together.",
+        "approaching": "Student identifies one or two body parts and attempts to explain their functions, but explanation is incomplete or lacks clear connection to how they work as a system.",
+        "beginning": "Student identifies a body part or mentions hunting but provides vague or inaccurate explanations of how it helps catch food, or response lacks system thinking."
+      }
+    },
+    {
+      "questionText": "What might happen to egret populations if wetlands continue to disappear?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that egrets depend on wetlands for habitat and food, then reasons that habitat loss would reduce food sources and nesting areas, leading to population decline, and may mention long-term ecological consequences.",
+        "meets": "Student makes a clear connection between wetland habitat loss and negative effects on egret populations, such as lack of food or places to nest, with accurate reasoning about cause and effect.",
+        "approaching": "Student recognizes that wetlands are important to egrets and mentions population decline, but explanation lacks clear cause-and-effect reasoning or misses key impacts.",
+        "beginning": "Student provides a minimal response that mentions wetlands or egrets but shows limited understanding of the relationship between habitat and population survival."
+      }
+    },
+    {
+      "questionText": "Compare and contrast how an egret's hunting adaptations differ from a duck's feeding adaptations.",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies specific adaptations for both birds (egret: long legs, sharp beak for spearing; duck: webbed feet, flat bill for dabbling/filtering) and explains how these differences reflect different hunting/feeding strategies and habitats.",
+        "meets": "Student identifies at least one adaptation for each bird and explains how they are different, with accurate reasoning about why each adaptation helps their feeding method.",
+        "approaching": "Student mentions some adaptations for egrets and ducks but comparison is incomplete; may confuse features or lack clear explanation of how adaptations relate to different feeding methods.",
+        "beginning": "Student attempts to name features of egrets or ducks but provides vague comparisons or inaccurate information about their adaptations."
+      }
+    },
+    {
+      "questionText": "If you were designing a robot to catch fish like an egret, what features would you include?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes at least three features based on egret adaptations (like long legs for wading, sharp pointed appendage for spearing, sensors for detecting movement) and explains why each feature would help the robot successfully catch fish.",
+        "meets": "Student proposes two or more realistic features inspired by the egret's adaptations and provides reasonable explanations for why each feature would be useful for catching fish.",
+        "approaching": "Student proposes at least one feature inspired by the egret but explanations may be incomplete or missing; may include features that don't clearly connect to fishing.",
+        "beginning": "Student proposes a feature or design idea but lacks clear connection to how egret adaptations work, or provides vague reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:42:53.139Z",
+  "cost": 0.005298
+}

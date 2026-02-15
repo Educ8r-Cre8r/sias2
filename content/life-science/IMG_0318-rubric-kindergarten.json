@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this baby bird needs to stay healthy and alive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more basic needs (food, water, warmth, shelter, parents) with specific examples, such as 'the chick needs food like bugs and water to drink, and its mom and dad to keep it warm.'",
+        "meets": "Student identifies two basic needs for the chick's survival, such as 'it needs food and its parents to take care of it' or 'it needs to stay warm and get food.'",
+        "approaching": "Student identifies one basic need with limited detail, such as 'it needs food' or 'it needs its mom,' but does not explain why.",
+        "beginning": "Student gives a vague or unclear response, such as 'it needs stuff' or 'it needs to be happy,' showing minimal understanding of chick survival needs."
+      }
+    },
+    {
+      "questionText": "Why do you think the chick has such fluffy, soft feathers instead of smooth, shiny feathers like a grown-up bird?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fluffy feathers trap air and warmth, connecting this to why a baby bird needs extra protection, such as 'fluffy feathers keep the baby warm because they trap the air around it, and baby birds need to stay warm.'",
+        "meets": "Student correctly explains that fluffy feathers help keep the chick warm, such as 'the fluffy feathers keep it warm' or 'they help the baby bird stay cozy.'",
+        "approaching": "Student identifies that the feathers are different and mentions warmth or protection, but the explanation is incomplete, such as 'fluffy feathers are warmer' without explaining why or how.",
+        "beginning": "Student makes a minimal or inaccurate attempt, such as 'because they look fluffy' or 'I don't know,' showing little understanding of feather function."
+      }
+    },
+    {
+      "questionText": "If this chick was living in a snowy place instead of a rocky place, what would need to be different to help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple changes needed for survival in snow, such as 'it would need thicker feathers or more feathers to stay extra warm, and its parents would need to find different food because there are no bugs in the snow.'",
+        "meets": "Student identifies at least one specific change needed, such as 'it would need thicker or fluffier feathers to stay warmer' or 'it would need its parents to find different food because bugs don't live in snow.'",
+        "approaching": "Student recognizes that something would be different but lacks specificity, such as 'it would need more stuff to stay alive' or 'it would need help because it's cold,' without explaining what would change.",
+        "beginning": "Student provides a vague or incorrect response, such as 'it would be cold' or 'it would be different,' with no clear explanation of what changes would help the chick survive."
+      }
+    },
+    {
+      "questionText": "Where do you think the chick's parents are right now, and what might they be doing to help their baby?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student makes a logical prediction about parent location and describes multiple helpful behaviors, such as 'the parents are probably nearby looking for food like worms and bugs to bring back to feed their baby chick.'",
+        "meets": "Student makes a reasonable prediction about where parents are and identifies one helpful behavior, such as 'the parents are looking for food' or 'they are nearby protecting the baby from danger.'",
+        "approaching": "Student makes a simple prediction about parents being nearby or finding food, but the connection to helping the chick is unclear or incomplete, such as 'the parents are somewhere' or 'they are looking for stuff.'",
+        "beginning": "Student gives a minimal or vague response, such as 'I don't know where they are' or 'they are helping,' with no clear reasoning about parental roles."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:15:36.438Z",
+  "cost": 0.005958
+}

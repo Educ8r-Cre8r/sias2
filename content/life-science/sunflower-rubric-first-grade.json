@@ -1,0 +1,53 @@
+{
+  "title": "Sunflower",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this seed needed to start growing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple things seeds need to grow (soil, water, sunlight, air) with specific details about why each helps the plant.",
+        "meets": "Student identifies at least two things seeds need to grow, such as water and soil or sunlight, with a basic explanation.",
+        "approaching": "Student identifies one thing seeds need to grow (water, soil, or sun) but explanation is vague or incomplete.",
+        "beginning": "Student provides a response that is unclear, inaccurate, or shows minimal understanding of seed growth needs."
+      }
+    },
+    {
+      "questionText": "How is this baby plant like a human baby?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes multiple accurate comparisons (both need food/nutrients, water, air, grow bigger, need care) and explains how these are similar between plants and humans.",
+        "meets": "Student makes at least two accurate comparisons between baby plants and human babies, such as both need water or both grow bigger.",
+        "approaching": "Student makes one accurate comparison between a baby plant and human baby, but reasoning may be incomplete or lack detail.",
+        "beginning": "Student's response is unclear, off-topic, or shows little understanding of how plants and humans are alike."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this plant in one week?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a reasonable prediction with multiple details (plant will grow taller, leaves will get bigger, seed shell may fall off) and explains why based on how plants grow.",
+        "meets": "Student makes a reasonable prediction about plant growth in one week, such as the plant getting taller or the seed shell falling off.",
+        "approaching": "Student makes a prediction about the plant, but it is unclear, partially unrealistic, or lacks explanation.",
+        "beginning": "Student's prediction is vague, unrealistic, or shows minimal understanding of plant growth."
+      }
+    },
+    {
+      "questionText": "Where do you think the seed shell will go as the plant grows bigger?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the seed shell will fall off as the plant grows and describes where it might go (ground, decompose, break apart) with reasoning about why.",
+        "meets": "Student identifies that the seed shell will fall off or stay on the ground and provides a basic reason for this prediction.",
+        "approaching": "Student recognizes the seed shell might fall off or move, but explanation is unclear or lacks detail.",
+        "beginning": "Student's response is vague, unclear, or shows minimal understanding of what happens to seed shells."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:43:06.105Z",
+  "cost": 0.004263
+}

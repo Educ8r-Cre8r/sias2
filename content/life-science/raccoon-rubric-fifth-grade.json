@@ -1,0 +1,53 @@
+{
+  "title": "Raccoon",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe in the photo that suggests this raccoon has adaptations for climbing?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific climbing adaptations (sharp claws, strong limbs, flexible body) visible in the photo and explains how each adaptation helps the raccoon climb trees effectively.",
+        "meets": "Student identifies at least two climbing adaptations (such as claws or strong limbs) from the photo and explains how they help the raccoon climb.",
+        "approaching": "Student identifies one climbing adaptation visible in the photo but provides limited or incomplete explanation of how it helps with climbing.",
+        "beginning": "Student makes a vague observation about the raccoon's body or simply states that raccoons can climb without identifying specific adaptations from the photo."
+      }
+    },
+    {
+      "questionText": "How might the raccoon's choice to rest on this tree stump during the day help it survive in the forest ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple survival benefits of daytime tree resting (such as protection from predators, camouflage in dappled light, staying hidden while being nocturnal) and connects these to the raccoon's role in the ecosystem.",
+        "meets": "Student identifies at least two ways that resting on a tree stump during the day helps the raccoon survive, such as safety from predators or using nighttime for hunting.",
+        "approaching": "Student identifies one survival benefit of resting on the tree stump but explanation lacks detail or shows incomplete understanding of daytime/nighttime behavior.",
+        "beginning": "Student provides a general response about why raccoons rest without connecting it specifically to survival advantages or daytime behavior patterns."
+      }
+    },
+    {
+      "questionText": "If you were to design the perfect habitat for a raccoon, what components would you include and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student includes at least four habitat components (trees, water source, food sources, shelter) with detailed explanations of why each meets specific raccoon needs based on their adaptations and behaviors.",
+        "meets": "Student includes at least three habitat components (such as trees, water, and food sources) with reasonable explanations of why raccoons need each component.",
+        "approaching": "Student lists three habitat components but provides minimal explanation of why raccoons need them, or explanations lack scientific reasoning.",
+        "beginning": "Student lists one or two habitat components with vague or missing explanations of their importance to raccoon survival."
+      }
+    },
+    {
+      "questionText": "What other animals might compete with raccoons for similar resources in this forest habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple forest animals (such as opossums, squirrels, bears) and specifically explains what resources each would compete for with raccoons (food, shelter, water).",
+        "meets": "Student identifies at least two forest animals that compete with raccoons and names at least one specific resource they would compete for.",
+        "approaching": "Student names one or two forest animals but provides vague or incomplete explanation of what resources they compete for with raccoons.",
+        "beginning": "Student names an animal but provides no explanation of resource competition, or identifies animals unlikely to be forest competitors."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:42:06.991Z",
+  "cost": 0.00486
+}

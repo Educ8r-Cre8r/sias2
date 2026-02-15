@@ -1,0 +1,53 @@
+{
+  "title": "Chrysalis",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think is happening inside this green case?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the chrysalis is a protective home where a caterpillar is changing or transforming into a butterfly, using words like 'growing' or 'changing.'",
+        "meets": "Student identifies that something is happening inside the chrysalis and mentions the caterpillar or butterfly, showing basic understanding of the chrysalis's purpose.",
+        "approaching": "Student provides a vague response that the chrysalis contains something or is a home, but doesn't clearly connect it to caterpillar or butterfly change.",
+        "beginning": "Student gives a minimal response like 'something is inside' or makes an inaccurate guess with no connection to insect growth or change."
+      }
+    },
+    {
+      "questionText": "How is this chrysalis the same or different from other animal homes you know about?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student compares the chrysalis to multiple other animal homes (nest, burrow, web) and identifies both similarities and differences, such as shape, material, or how animals use them.",
+        "meets": "Student identifies at least one similarity or difference between the chrysalis and another animal home, such as comparing it to a nest or showing how it protects the animal inside.",
+        "approaching": "Student mentions another animal home and the chrysalis but makes only a partial or unclear comparison without clear reasoning.",
+        "beginning": "Student names another animal home or the chrysalis separately but does not make a meaningful comparison between them."
+      }
+    },
+    {
+      "questionText": "What do you predict will come out of this chrysalis?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student predicts a butterfly will emerge and explains a reason, such as 'the caterpillar changed into a butterfly' or 'that's what chrysalises make.'",
+        "meets": "Student correctly predicts that a butterfly will come out of the chrysalis, showing understanding of chrysalis function.",
+        "approaching": "Student makes a prediction related to the chrysalis but is uncertain or vague, such as guessing 'an insect' without specifying butterfly.",
+        "beginning": "Student makes an inaccurate prediction or gives a response that shows little understanding of what a chrysalis produces."
+      }
+    },
+    {
+      "questionText": "Why do you think the chrysalis is green instead of another color?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the green color helps the chrysalis hide or blend in with plants and leaves, using words like 'camouflage,' 'hide,' or 'protection.'",
+        "meets": "Student suggests the green color helps the chrysalis hide or stay safe in nature, showing understanding of color as a protective feature.",
+        "approaching": "Student mentions that green matches nature or plants but doesn't clearly explain why this matters for the chrysalis's safety.",
+        "beginning": "Student offers a minimal response like 'because it's pretty' or 'I don't know' with no connection to hiding or protection."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:56:43.793Z",
+  "cost": 0.004668
+}

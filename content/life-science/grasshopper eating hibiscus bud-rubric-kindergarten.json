@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper Eating Hibiscus Bud",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the grasshopper is using its body parts to eat?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts the grasshopper uses to eat (such as mouth, legs, or antennae) and describes what each part does during eating with specific details from the photo.",
+        "meets": "Student identifies at least two body parts the grasshopper uses to eat and explains what at least one part does to help it eat.",
+        "approaching": "Student names one or two body parts the grasshopper uses, but explanation of how they help with eating is vague or incomplete.",
+        "beginning": "Student points out something about the grasshopper's body but does not clearly connect it to eating, or response is very unclear."
+      }
+    },
+    {
+      "questionText": "Why do you think the grasshopper chose to eat this flower instead of something else?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful reason based on observable features (such as color, location, or what grasshoppers like to eat) and shows understanding that animals choose food based on preference or availability.",
+        "meets": "Student gives a reasonable reason the grasshopper might have chosen this flower, such as it looks tasty, it smells good, or it is near the grasshopper.",
+        "approaching": "Student offers a simple reason but it may be partially unclear or only loosely connected to why the grasshopper would choose this food.",
+        "beginning": "Student makes a guess about why the grasshopper ate the flower but the reasoning is vague, illogical, or difficult to understand."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen eating plants?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more animals that eat plants and may describe what part of the plant they eat or where they saw them.",
+        "meets": "Student names two or more animals that eat plants accurately.",
+        "approaching": "Student names one animal that eats plants, or names animals but one choice is unclear or incorrect.",
+        "beginning": "Student attempts to name an animal but the response is unclear, or provides an animal that does not eat plants."
+      }
+    },
+    {
+      "questionText": "How is the way the grasshopper eats similar to or different from how you eat?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities and/or differences (such as body parts used, types of food, or eating methods) and explains why these differences exist.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between how a grasshopper eats and how a person eats.",
+        "approaching": "Student notices a similarity or difference but explanation lacks clarity or completeness; reasoning may be partially incorrect.",
+        "beginning": "Student attempts comparison but response is vague, inaccurate, or does not clearly show understanding of how either the grasshopper or person eats."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:31:11.704Z",
+  "cost": 0.004548
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Swallowtail Butterfly",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does the butterfly use to get food from the flower?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the butterfly's tongue/long mouth part and explains how it works to drink nectar from the flower, using accurate scientific vocabulary.",
+        "meets": "Student correctly identifies that the butterfly uses its tongue or long mouth part to get food from the flower.",
+        "approaching": "Student identifies that the butterfly's mouth is used to get food, but description is vague or partially inaccurate (e.g., says 'nose' or 'straw' without clarifying what part it is).",
+        "beginning": "Student provides a minimal or unclear response, such as 'it uses its mouth' with no additional detail, or shows confusion about which body part is used."
+      }
+    },
+    {
+      "questionText": "How do you think the butterfly knows which flowers have the sweetest nectar?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple ways a butterfly might sense sweet nectar, such as using senses (smell, taste, or sight) and notes that butterflies may visit different flowers to find the best food.",
+        "meets": "Student provides a reasonable explanation that butterflies use their senses (such as smell or taste) to find sweet nectar in flowers.",
+        "approaching": "Student suggests that butterflies can sense sweetness but explanation is unclear or incomplete (e.g., 'it can taste' without explaining how).",
+        "beginning": "Student offers a minimal response such as 'it just knows' or provides an inaccurate explanation with little reasoning."
+      }
+    },
+    {
+      "questionText": "What might happen to the flowers if there were no butterflies or bees around?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that without butterflies and bees, flowers would not get pollinated, making it hard for new flowers to grow, and connects this to the importance of pollinators.",
+        "meets": "Student identifies that flowers need butterflies or bees, and suggests something negative might happen such as fewer flowers or flowers not being able to make seeds.",
+        "approaching": "Student recognizes that butterflies or bees are important to flowers but explanation is vague (e.g., 'flowers need them' without explaining what would happen).",
+        "beginning": "Student provides minimal response such as 'flowers would be sad' or shows little understanding of the butterfly-flower relationship."
+      }
+    },
+    {
+      "questionText": "How are a butterfly's mouth parts similar to and different from your mouth?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies similarities (both drink liquids/eat food) and differences (butterfly has a long tongue for drinking nectar; humans have teeth for chewing), using clear comparisons.",
+        "meets": "Student provides at least one similarity and one difference between a butterfly's mouth and a human mouth, with accurate descriptions.",
+        "approaching": "Student attempts a comparison but descriptions are incomplete or partially inaccurate (e.g., mentions the long tongue but does not explain its purpose).",
+        "beginning": "Student provides a minimal response or focuses on only one aspect without making a clear comparison between the two."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:18:51.046Z",
+  "cost": 0.0048
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice that is the same and different about these two cocoons?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (color, shine, texture) and similarities (both are cocoons, both hanging) using descriptive words and shows understanding that both serve the same purpose.",
+        "meets": "Student identifies at least one clear difference (such as color) and one similarity (both are cocoons) between the two cocoons with simple descriptions.",
+        "approaching": "Student notices that the cocoons look different or mentions one feature, but observations lack detail or clarity; may confuse similarities and differences.",
+        "beginning": "Student makes a vague observation or repeats the question without providing clear comparisons between the two cocoons."
+      }
+    },
+    {
+      "questionText": "What do you think the animal inside needs to stay safe while it changes?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple protection needs (shelter from weather, protection from predators, staying attached to branch) and explains why the cocoon provides these things in age-appropriate language.",
+        "meets": "Student identifies one or two ways the cocoon keeps the animal safe (such as protection or shelter) with a reasonable explanation.",
+        "approaching": "Student mentions one basic need (protection or shelter) but explanation is vague or incomplete; may show uncertainty about why.",
+        "beginning": "Student provides a minimal response or guesses without connecting the cocoon's structure to protection or safety."
+      }
+    },
+    {
+      "questionText": "How might you feel if you were changing inside a cocoon?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple feelings (cozy, safe, dark, crowded, excited) and explains why the cocoon might cause those feelings using descriptive language.",
+        "meets": "Student identifies one or two feelings (such as safe or dark) and provides a simple reason related to being inside the cocoon.",
+        "approaching": "Student names a feeling but provides little or no explanation for why they would feel that way in a cocoon.",
+        "beginning": "Student gives a one-word answer or response unrelated to the cocoon experience."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that change as they grow up?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names multiple animals that go through changes (such as tadpole to frog, caterpillar to butterfly, chick from egg) and describes one specific change each animal undergoes.",
+        "meets": "Student names one or two animals that change as they grow up (such as frogs or butterflies) with basic understanding that they transform.",
+        "approaching": "Student names an animal but is uncertain if it actually changes, or describes a change that is not accurate; limited examples provided.",
+        "beginning": "Student cannot name any animals that change, provides an unrelated answer, or shows no understanding of animal transformations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:36:08.473Z",
+  "cost": 0.004486
+}

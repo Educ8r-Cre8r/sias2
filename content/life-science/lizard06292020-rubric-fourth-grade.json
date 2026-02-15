@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this lizard survive in trees, and how does each part help?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three body parts (claws, tail, body shape) and explains how each one specifically helps the lizard climb, balance, or move in trees with clear cause-and-effect reasoning.",
+        "meets": "Student identifies two or more body parts (such as claws, tail, or body shape) and explains how each helps the lizard survive in trees with accurate reasoning.",
+        "approaching": "Student identifies one or two body parts and explains how they help, but explanation is incomplete or lacks detail about how they specifically aid survival in trees.",
+        "beginning": "Student names a body part but provides vague or inaccurate explanations of how it helps the lizard live in trees, or response shows minimal understanding of adaptation."
+      }
+    },
+    {
+      "questionText": "If this lizard lived in a desert instead of on trees, how might it look different?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple physical changes (such as thicker skin, different coloring for sand camouflage, or different foot structure) and explains why each adaptation would help survival in a desert environment.",
+        "meets": "Student predicts at least two reasonable physical changes the lizard might have in a desert and connects them to desert survival needs.",
+        "approaching": "Student predicts one or two changes but explanations are incomplete or lack clear connection to how these changes help desert survival.",
+        "beginning": "Student makes a prediction but it is vague, unrealistic, or shows little understanding of how animals adapt to different environments."
+      }
+    },
+    {
+      "questionText": "Why do you think the lizard's eyes are positioned on the sides of its head rather than in front?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that side-positioned eyes provide a wider field of view to spot predators or prey, and connects this advantage to survival in the tree environment.",
+        "meets": "Student explains that side-positioned eyes help the lizard see a wider area or see things around it, connecting this to a survival advantage.",
+        "approaching": "Student provides a partial explanation, such as seeing more, but the connection to survival or hunting is unclear or incomplete.",
+        "beginning": "Student offers a vague reason or demonstrates minimal understanding of why eye position matters for survival or sensing the environment."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that shows this animal is well-adapted to its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple observations from the photo (brown coloring matches bark, scales provide protection, claws for gripping, tail for balance) and explains how each piece of evidence demonstrates adaptation to tree life.",
+        "meets": "Student identifies at least two observable features from the photo and explains how they show the lizard is well-adapted to its tree environment.",
+        "approaching": "Student identifies one or two features but explanation of how they show adaptation is incomplete or lacks clear reasoning.",
+        "beginning": "Student names a feature but provides little or unclear explanation of how it demonstrates adaptation, or response is vague and unfocused."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:33:14.991Z",
+  "cost": 0.004828
+}

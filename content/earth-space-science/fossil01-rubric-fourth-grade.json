@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What can these fossils tell us about what this place was like millions of years ago?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple details from the fossils (such as specific sea creatures present) and uses them to describe a complete ancient environment, explaining how the presence of these organisms indicates conditions like saltwater, shallow seas, or warm water.",
+        "meets": "Student recognizes that fossils show what lived in this place long ago and describes the general environment (such as 'it was an ocean' or 'sea creatures lived here'), with accurate reference to the fossil evidence.",
+        "approaching": "Student states that fossils show ancient life or that this place was different long ago but provides limited detail about the specific environment or the connection between the fossils shown and past conditions.",
+        "beginning": "Student offers a vague response such as 'dinosaurs lived here' or 'it was different' without using evidence from the fossils or showing understanding of what the fossils reveal about the ancient environment."
+      }
+    },
+    {
+      "questionText": "Why do you think we find more fossils of shells and bones than of soft body parts like skin or leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that hard structures like shells and bones preserve better because they resist decay, and may extend thinking by noting that soft parts decompose quickly or that hard parts are more likely to be buried and protected by sediment.",
+        "meets": "Student correctly identifies that hard parts preserve better than soft parts and provides a basic explanation such as 'shells and bones don't break down as easily' or 'they last longer in the ground.'",
+        "approaching": "Student recognizes a difference between hard and soft preservation but offers incomplete reasoning, such as stating that hard parts preserve better without explaining why, or providing a partially accurate explanation.",
+        "beginning": "Student provides a minimal or inaccurate response, such as 'hard things don't break' without connecting this to fossil preservation, or demonstrates confusion about why certain fossils are more common."
+      }
+    },
+    {
+      "questionText": "If you found a fossil of a fish in the mountains, what would that tell you about the history of that area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the mountains were once underwater (covered by an ocean or sea) and uses this to infer major environmental changes over time, possibly mentioning that water levels or land formations changed dramatically.",
+        "meets": "Student correctly deduces that the mountains were once covered by water or were an ocean, showing understanding that the presence of a fish fossil indicates the area's environment was very different in the past.",
+        "approaching": "Student recognizes that a fish fossil means water was once present but offers limited explanation of what this tells about the mountains' history, or makes the connection without explaining what it means for the area's geological changes.",
+        "beginning": "Student provides a vague response such as 'a fish lived there once' without connecting the fossil evidence to major environmental changes or the history of the mountains."
+      }
+    },
+    {
+      "questionText": "How might scientists use fossils like these to learn about ancient climates and environments?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that scientists can identify which organisms lived in specific climates (such as warm water or shallow seas) and use this information to reconstruct past environments, and may mention comparing fossils across locations or time periods.",
+        "meets": "Student describes that scientists study what organisms are in the fossils to understand the climate and environment where those organisms lived, such as 'shells lived in warm oceans, so we know it was warm.'",
+        "approaching": "Student recognizes that fossils help scientists learn about the past but provides limited explanation of the connection between specific fossils and climate or environment information.",
+        "beginning": "Student offers a minimal response such as 'fossils tell us about the past' without explaining how scientists use fossil evidence to learn about specific climates or ancient environments."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:53:09.235Z",
+  "cost": 0.005645
+}

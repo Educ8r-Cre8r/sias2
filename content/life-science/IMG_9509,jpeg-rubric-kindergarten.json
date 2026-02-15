@@ -1,0 +1,53 @@
+{
+  "title": "Seed Germination",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you think this plant needs to keep growing bigger?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more things plants need (water, sunlight, soil) and explains why one of them helps the plant grow bigger.",
+        "meets": "Student identifies two things plants need to grow, such as water and sunlight, with simple explanations.",
+        "approaching": "Student identifies one thing plants need to grow (water or sunlight) but explanation is unclear or incomplete.",
+        "beginning": "Student provides a vague response like \"food\" or \"stuff\" without connecting it to plant growth."
+      }
+    },
+    {
+      "questionText": "How is this baby plant the same or different from a big tree?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two similarities and two differences, such as: both have leaves and roots, but baby plant is smaller and tree is much bigger and older.",
+        "meets": "Student identifies at least one similarity and one difference between the baby plant and a big tree using observable features.",
+        "approaching": "Student identifies either a similarity or a difference but not both, or the comparison lacks clear details.",
+        "beginning": "Student makes a simple statement like \"they are both plants\" without explaining how they are the same or different."
+      }
+    },
+    {
+      "questionText": "What would happen if we put this plant in a dark closet for a week?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would get sick, wilt, or stop growing because it needs sunlight and explains that plants use sunlight to stay healthy.",
+        "meets": "Student predicts the plant would not do well or would get sad/sick because it needs light.",
+        "approaching": "Student makes a prediction but with unclear reasoning, such as \"it would die\" without explaining why light matters.",
+        "beginning": "Student gives an unclear prediction like \"something bad\" or does not attempt an answer about what would happen."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice about how plants grow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes two or more patterns, such as: plants grow from seeds/soil upward, leaves get bigger, or plants need water and sun regularly.",
+        "meets": "Student identifies one clear pattern about how plants grow, such as plants grow upward from the ground or plants get taller over time.",
+        "approaching": "Student notices something about the plant but the pattern is unclear or only partially explained, such as \"it gets bigger.\"",
+        "beginning": "Student provides a minimal response that does not show a clear understanding of growth patterns, such as \"plants grow.\""
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:20:15.602Z",
+  "cost": 0.004219
+}

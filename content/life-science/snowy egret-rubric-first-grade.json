@@ -1,0 +1,53 @@
+{
+  "title": "Snowy Egret",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "How do the egret's long legs help it get food?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that long legs let the egret walk in deep water without getting wet, and describes how this helps it reach fish or other food that other animals cannot get.",
+        "meets": "Student states that the egret's long legs help it walk in the water to find and catch food.",
+        "approaching": "Student identifies that the egret has long legs and mentions water or food, but does not clearly explain the connection between leg length and getting food.",
+        "beginning": "Student makes a vague statement about the egret's legs or food with little or no explanation of how they work together."
+      }
+    },
+    {
+      "questionText": "What might happen to the egret if all the shallow water dried up?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the egret would lose its food source and might need to move to a new place with water, and describes how this would affect where the egret could live or survive.",
+        "meets": "Student states that the egret would have trouble finding food or would need to go somewhere else to find water.",
+        "approaching": "Student recognizes that water is important to the egret but gives an incomplete explanation, such as mentioning only that the bird would be sad or that it needs water without connecting it to food.",
+        "beginning": "Student provides a minimal or unclear response, such as 'the egret would be bad' or 'it would go away,' without explaining why."
+      }
+    },
+    {
+      "questionText": "How is an egret's beak different from a robin's beak, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that the egret has a long, pointy beak for catching fish in water, while a robin has a shorter, thicker beak for eating worms or seeds, and explains how each beak shape fits what each bird eats.",
+        "meets": "Student identifies that the egret's beak is longer and pointy while a robin's beak is shorter, and explains that different beaks help birds eat different foods.",
+        "approaching": "Student notices that the beaks look different and mentions that they help birds eat, but does not fully describe the differences or explain why each beak is useful for its bird.",
+        "beginning": "Student makes a simple observation about the beaks being different with little or no explanation of how the beak shapes help the birds."
+      }
+    },
+    {
+      "questionText": "What other animals have body parts that help them get food in water?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names at least two water animals and describes specific body parts each one uses to get food, such as a duck's flat beak for straining water or a fish's fins for swimming to catch food.",
+        "meets": "Student names at least one water animal and describes a body part that helps it get food in water.",
+        "approaching": "Student names a water animal but provides vague or incomplete details about how its body parts help it get food.",
+        "beginning": "Student names a water animal with no description of how it gets food, or provides an unclear answer."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:42:20.998Z",
+  "cost": 0.0048
+}

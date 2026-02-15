@@ -1,0 +1,53 @@
+{
+  "title": "Seed Germination",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this plant needed to grow through all that dead material?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs (water, sunlight, soil nutrients) and explains how each helps the plant grow strong enough to push through dead material.",
+        "meets": "Student identifies at least two plant needs (such as water and sunlight) and explains how they help the plant survive and grow.",
+        "approaching": "Student identifies one plant need (water, sunlight, or soil) but explanation of how it helps is unclear or incomplete.",
+        "beginning": "Student names a plant need but provides no explanation, or response is vague (e.g., 'it needed stuff to grow')."
+      }
+    },
+    {
+      "questionText": "How might this young plant change the environment around it as it continues to grow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple environmental changes (breaking down dead material, providing shade, creating shelter for animals, returning nutrients to soil) and explains how these changes affect the surrounding area.",
+        "meets": "Student describes at least two ways the growing plant changes its environment (such as shading the ground or breaking apart dead material).",
+        "approaching": "Student describes one environmental change but explanation lacks detail, or identifies a change without explaining how it happens.",
+        "beginning": "Student provides a vague response ('it will change things') or describes a change that is unclear or inaccurate."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice between where plants grow and what surrounds them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific patterns (plants grow where there is light, through loose or decaying material, where water may be present) and explains why these conditions help plants thrive.",
+        "meets": "Student identifies at least two patterns between plant location and surroundings (such as plants needing light or growing in certain types of material).",
+        "approaching": "Student identifies one pattern between location and surroundings but explanation is incomplete or lacks detail.",
+        "beginning": "Student makes a general observation with little evidence of recognizing patterns, or response is mostly inaccurate."
+      }
+    },
+    {
+      "questionText": "If you planted seeds in different materials, what do you predict would happen and why?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student makes specific predictions for multiple materials (e.g., seeds grow best in soil, poorly in plastic, differently in sand) and provides scientific reasoning based on what seeds need (water, air, nutrients).",
+        "meets": "Student makes a reasonable prediction for at least two different materials and gives a simple scientific reason (such as soil has nutrients or rocks block water).",
+        "approaching": "Student makes a prediction for one or two materials but reasoning is weak, incomplete, or only partially based on plant needs.",
+        "beginning": "Student makes a vague prediction ('some will grow, some won't') without clear reasoning or based on non-scientific ideas."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:20:36.220Z",
+  "cost": 0.004577
+}

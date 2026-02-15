@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how this butterfly looks different from a caterpillar?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences (wings, body shape, color pattern, size) and uses descriptive words to explain the changes seen in the photo.",
+        "meets": "Student identifies at least two clear differences between a butterfly and caterpillar, such as wings or body shape.",
+        "approaching": "Student identifies one difference between a butterfly and caterpillar, but description may be vague or incomplete.",
+        "beginning": "Student attempts to compare but makes inaccurate statements or provides only minimal observations about the butterfly."
+      }
+    },
+    {
+      "questionText": "Why do you think butterflies need to go through these changes to become adults?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that changes help the butterfly survive (flying to find food, escape danger) and connects changes to adult butterfly needs using logical reasoning.",
+        "meets": "Student provides a reasonable explanation that changes help butterflies do something they need to do as adults, such as flying or eating different food.",
+        "approaching": "Student recognizes that changes are important but explanation is incomplete or shows partial understanding of why changes occur.",
+        "beginning": "Student attempts an answer but shows little understanding of the purpose of metamorphosis or provides mostly inaccurate ideas."
+      }
+    },
+    {
+      "questionText": "What would happen if a caterpillar never made a chrysalis?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the caterpillar would not become an adult butterfly and explains logical consequences, such as being unable to fly or reproduce.",
+        "meets": "Student predicts that without a chrysalis, a caterpillar would not turn into a butterfly or would not grow into an adult.",
+        "approaching": "Student makes a prediction but reasoning is unclear or only partially explains what would happen.",
+        "beginning": "Student attempts a prediction but response is vague, illogical, or shows minimal understanding of the chrysalis's role."
+      }
+    },
+    {
+      "questionText": "How is a butterfly changing from a caterpillar similar to how you have changed as you've grown?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (getting bigger, developing new abilities, body changes) and explains how both the butterfly and child go through stages to grow into adults.",
+        "meets": "Student identifies at least one similarity between butterfly metamorphosis and human growth, such as getting bigger or developing new abilities.",
+        "approaching": "Student makes a connection between the two but explanation is incomplete or comparison lacks clear reasoning.",
+        "beginning": "Student attempts to compare but shows minimal understanding of growth changes in either butterflies or humans."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:36:59.204Z",
+  "cost": 0.004306
+}

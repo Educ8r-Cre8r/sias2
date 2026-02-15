@@ -1,0 +1,53 @@
+{
+  "title": "Fountain",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to this fountain if the weather got warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that ice would melt into water and explains that warm temperatures cause ice to change back into liquid water, possibly describing where the water would go.",
+        "meets": "Student predicts that the ice would melt and become water, showing understanding that warmth causes ice to change state.",
+        "approaching": "Student predicts that something would happen to the ice but explanation is vague or incomplete, such as 'it would get wet' or 'the ice would go away' without mentioning melting.",
+        "beginning": "Student provides a minimal response such as 'it would change' or 'something would happen' with no clear explanation of the change."
+      }
+    },
+    {
+      "questionText": "How is this frozen fountain similar to ice cubes in your freezer at home?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities such as both are frozen water, both are hard and cold, and both formed when water was exposed to freezing temperatures.",
+        "meets": "Student identifies at least two accurate similarities between the frozen fountain and ice cubes, such as both being ice or both being cold and hard.",
+        "approaching": "Student identifies one similarity but with limited detail, or mentions similarities that are partially accurate but incomplete.",
+        "beginning": "Student provides a vague or unclear response such as 'they are both cold' with no additional supporting details."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of the fountain have more ice than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that water flowing or falling from higher areas freezes as it moves, or that parts exposed to colder air freeze more, or that water from different levels freezes at different times.",
+        "meets": "Student provides a reasonable explanation such as different parts get colder, water falls differently on different areas, or some parts freeze longer than others.",
+        "approaching": "Student attempts an explanation but it is incomplete or partially unclear, such as 'some parts are colder' without explaining why or 'water goes there' without detail.",
+        "beginning": "Student provides minimal explanation or guesses without reasoning, such as 'I don't know' or 'some parts just have more ice.'"
+      }
+    },
+    {
+      "questionText": "What other things have you seen that change from liquid to solid when it gets cold?",
+      "bloomsLevel": "Recall/Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple relevant examples (such as water, juice, puddles, or popsicles) and clearly identifies that they change from liquid to solid when cold.",
+        "meets": "Student provides at least two accurate examples of liquids that turn solid when cold, demonstrating understanding of the freezing concept.",
+        "approaching": "Student provides one or two examples but explanation lacks clarity, or examples are somewhat unclear in whether they are actually liquids that freeze.",
+        "beginning": "Student provides a vague or inaccurate example, or responds with minimal detail such as 'ice' without explaining what liquid froze."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:59:13.939Z",
+  "cost": 0.004734
+}

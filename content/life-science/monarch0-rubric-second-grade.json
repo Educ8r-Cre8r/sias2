@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make the caterpillar leave behind this white skin?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillar grew too big for its skin and had to shed it to make room for its larger body, using the term \"outgrew\" or \"molt.\"",
+        "meets": "Student correctly identifies that the caterpillar got bigger and needed to leave its old skin behind because it no longer fit.",
+        "approaching": "Student shows partial understanding by mentioning that the caterpillar got bigger or that the skin was left behind, but the connection between growth and shedding is unclear.",
+        "beginning": "Student provides a minimal response such as \"the caterpillar left it\" or \"it fell off\" with no explanation of why this happened."
+      }
+    },
+    {
+      "questionText": "How is a caterpillar shedding its skin similar to you outgrowing your shoes?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that both the caterpillar and child grow bigger and must leave behind something too small, explaining that both need larger replacements to fit their growing bodies.",
+        "meets": "Student explains that both the caterpillar and child outgrow something and need something bigger, showing understanding of the similarity in the growth process.",
+        "approaching": "Student mentions that caterpillars and children both grow, but makes only a weak connection to outgrowing shoes or explains just one side of the comparison clearly.",
+        "beginning": "Student's response is vague or incomplete, such as \"they both get bigger\" without explaining what gets left behind or how it is similar."
+      }
+    },
+    {
+      "questionText": "Why might it be important for caterpillars to be able to grow bigger?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple reasons why growth is important, such as getting stronger, being able to eat more food, preparing to become a butterfly, or surviving better.",
+        "meets": "Student provides one logical reason for why growth is important, such as becoming stronger, eating enough food, or preparing for changes.",
+        "approaching": "Student recognizes that growth is important but gives a vague or only partially accurate reason, such as \"so they can do more things\" without specific details.",
+        "beginning": "Student provides a minimal or unclear response, such as \"so they can grow\" or \"because they need to\" without explaining why this matters."
+      }
+    },
+    {
+      "questionText": "What other animals do you know that change as they grow up?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names two or more animals that change as they grow and describes a specific change for at least one, such as tadpoles becoming frogs or puppies growing fur.",
+        "meets": "Student names at least two animals that change or grow, such as frogs, butterflies, chickens, or dogs, showing understanding that many animals change.",
+        "approaching": "Student names one animal that changes, or names multiple animals but does not clearly explain that they change as they grow.",
+        "beginning": "Student provides a vague response such as \"some animals\" or names an animal without indicating awareness that it changes or grows."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:33:45.779Z",
+  "cost": 0.004838
+}

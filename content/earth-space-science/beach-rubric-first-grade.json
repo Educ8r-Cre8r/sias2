@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the crab is doing on the beach? Why does the crab live here instead of in the mountains or forest?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies a specific crab behavior (finding food, hiding, looking for water) and explains two or more reasons why crabs need the beach habitat (water, sand for shelter, food sources).",
+        "meets": "Student identifies what the crab is doing and explains at least one reason why crabs live at the beach instead of other places.",
+        "approaching": "Student attempts to describe what the crab is doing or why it lives at the beach, but explanation is incomplete or partially unclear.",
+        "beginning": "Student provides a vague answer with little detail or shows minimal understanding of crab behavior and beach habitats."
+      }
+    },
+    {
+      "questionText": "Feel the wet sand and the dry sand. How are they different? What makes the sand wet?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple differences between wet and dry sand (texture, firmness, color, how it sticks together) and correctly identifies that water from the ocean makes the sand wet.",
+        "meets": "Student describes at least two ways wet and dry sand are different and explains that ocean water makes sand wet.",
+        "approaching": "Student identifies one or two differences between wet and dry sand but explanation of why sand is wet is vague or incomplete.",
+        "beginning": "Student mentions sand being wet or dry but provides little detail about differences or sources of water."
+      }
+    },
+    {
+      "questionText": "Where does all this sand come from? Do you think the beach always looked like this, or did it change over time?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sand comes from rocks that broke down or eroded and describes how the beach changes over time due to waves, weather, or natural processes.",
+        "meets": "Student suggests a reasonable source for sand and acknowledges that beaches change over time.",
+        "approaching": "Student attempts to answer where sand comes from or whether beaches change, but reasoning is incomplete or partially unclear.",
+        "beginning": "Student provides minimal explanation about sand origin or beach changes with little evidence of understanding natural processes."
+      }
+    },
+    {
+      "questionText": "If you visited this beach on a stormy day with big waves, what do you think would happen to the sand? Would it stay in the same place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that big waves would move or wash away sand, explaining that water force causes changes to the beach shape and sand positions.",
+        "meets": "Student predicts that sand would move or change during a storm and explains this is caused by big waves or water.",
+        "approaching": "Student predicts sand movement during a storm but explanation of how or why is incomplete.",
+        "beginning": "Student provides a minimal or unclear prediction about sand during a storm with little reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:47:54.388Z",
+  "cost": 0.004549
+}

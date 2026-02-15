@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to the fog if the sun came out?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the fog would disappear or go away, and explains that the sun's warmth would cause the fog to evaporate or turn into water vapor with specific reference to heat or the water cycle.",
+        "meets": "Student predicts the fog would disappear, go away, or become less thick, with a basic explanation that the sun or heat would cause this change.",
+        "approaching": "Student predicts the fog would change or disappear but provides minimal or unclear reasoning, such as 'the sun would make it go away' without explaining how.",
+        "beginning": "Student makes a vague prediction or guesses without clear reasoning, or states an unrelated response like 'the fog would get bigger' or 'it would rain.'"
+      }
+    },
+    {
+      "questionText": "How is fog the same as or different from clouds you see in the sky?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that fog and clouds are both made of water droplets and are similar in appearance, and explains that fog is near the ground while clouds are high in the sky, demonstrating understanding of where each forms.",
+        "meets": "Student identifies at least one similarity (both are white, fluffy, or made of water) and one difference (fog is on the ground/low, clouds are in the sky/high), using grade-appropriate language.",
+        "approaching": "Student attempts to compare fog and clouds but provides only one characteristic or an incomplete comparison, such as identifying appearance without location or vice versa.",
+        "beginning": "Student provides a vague or inaccurate response, such as 'they look the same' or 'clouds are in the sky' without attempting to explain fog's characteristics or make a meaningful comparison."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of the picture are harder to see than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fog blocks visibility and makes farther objects harder to see, such as the buildings being blurry, and connects this to how fog is made of water droplets that get in the way of light reaching our eyes.",
+        "meets": "Student explains that fog makes things harder to see and identifies that objects far away or in the fog are blurrier than things closer by, such as the buildings versus the people on the beach.",
+        "approaching": "Student recognizes that fog makes some things harder to see but provides incomplete reasoning, such as 'the fog makes it hard to see' without explaining which parts or why distance matters.",
+        "beginning": "Student provides a vague response such as 'it's foggy' or 'the fog is in the way' without explaining how or why this affects visibility in different parts of the picture."
+      }
+    },
+    {
+      "questionText": "What evidence can you find in the picture that shows water in different forms?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least two forms of water in the picture (liquid water in the ocean/waves, fog/water vapor in the air, and wet sand) and explains what each form looks like or how it behaves.",
+        "meets": "Student identifies at least two forms of water in the picture, such as the ocean water, fog, or wet sand, and describes what they look like or where they appear.",
+        "approaching": "Student identifies one clear form of water (such as the ocean or fog) but struggles to identify or explain a second form, or provides incomplete descriptions of what they see.",
+        "beginning": "Student names water or mentions one form of water but provides little specific evidence from the picture, such as simply saying 'there is water' without describing what they actually see."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:46:26.226Z",
+  "cost": 0.00544
+}

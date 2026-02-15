@@ -1,0 +1,53 @@
+{
+  "title": "Raccoon",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the raccoon's body parts that might help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (fur, claws, mask, ears, tail) and explains how each helps the raccoon survive with specific details (e.g., 'thick fur keeps it warm,' 'claws help it climb').",
+        "meets": "Student identifies two body parts and explains how they help the raccoon survive with reasonable connections to survival (e.g., fur for warmth, claws for climbing).",
+        "approaching": "Student identifies one or two body parts but provides limited or unclear explanations of how they help the raccoon survive.",
+        "beginning": "Student names one body part with no explanation, or provides only vague observations without connecting to survival needs."
+      }
+    },
+    {
+      "questionText": "Where do you think this raccoon might find food and water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific locations (trees, streams, trash cans, under logs) and explains why raccoons find food and water in those places based on their environment or habits.",
+        "meets": "Student identifies two locations where raccoons find food and water with reasonable explanations (e.g., 'near water' or 'in trees').",
+        "approaching": "Student identifies one location where a raccoon might find food or water, but the explanation is incomplete or unclear.",
+        "beginning": "Student provides a vague answer (e.g., 'outside') with little or no reasoning about where raccoons find food and water."
+      }
+    },
+    {
+      "questionText": "How are a raccoon's paws different from your hands?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more differences (claws vs. fingernails, fur vs. skin, more/fewer digits, size) and explains how each difference helps the raccoon (e.g., 'claws help it climb').",
+        "meets": "Student identifies two differences between raccoon paws and human hands with simple explanations of why raccoons have these differences.",
+        "approaching": "Student identifies one or two differences but explanations are vague or incomplete.",
+        "beginning": "Student notices a difference but provides no clear description or explanation, or gives a minimal response."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that have special markings on their faces?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names three or more animals with facial markings and describes the markings with specific details (e.g., 'skunks have white stripes,' 'owls have big circles around their eyes').",
+        "meets": "Student names two animals with facial markings and describes what the markings look like.",
+        "approaching": "Student names one animal with facial markings but provides minimal or unclear description of the markings.",
+        "beginning": "Student names an animal but does not clearly identify or describe any facial markings, or provides only a vague response."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:41:29.185Z",
+  "cost": 0.004642
+}

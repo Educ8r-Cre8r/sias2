@@ -1,0 +1,53 @@
+{
+  "title": "Conductor",
+  "category": "physical-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we removed one of the wires?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly predicts the light would go out and explains that electricity needs a complete path (circuit) to flow from the battery through the wire to the bulb and back.",
+        "meets": "Student correctly predicts the light would go out and provides a simple explanation that the electricity cannot travel without all the wires connected.",
+        "approaching": "Student predicts the light would go out but provides an incomplete or unclear explanation about why the circuit needs to be complete.",
+        "beginning": "Student makes a prediction but it is incorrect, or the prediction is correct but lacks any explanation of why this would happen."
+      }
+    },
+    {
+      "questionText": "Why do you think the wire is made of metal instead of plastic?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that metal conducts (allows electricity to flow through it) while plastic does not, and recognizes that the metal wire is necessary for electricity to travel to the light bulb.",
+        "meets": "Student explains that metal conducts electricity or that metal allows electricity to pass through it, while plastic blocks electricity.",
+        "approaching": "Student recognizes that metal and plastic are different materials but provides an incomplete or vague explanation about their ability to conduct electricity.",
+        "beginning": "Student provides a response that shows limited understanding, such as 'metal is stronger' or 'plastic is not good,' without connecting to electricity flow."
+      }
+    },
+    {
+      "questionText": "How is this simple circuit similar to the lights in our classroom?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities, such as both have a power source (battery or electricity from the wall), wires that carry electricity, and a light bulb that glows when electricity flows through the circuit.",
+        "meets": "Student identifies at least two similarities between the simple circuit and classroom lights, such as both use electricity, both have wires, or both light up.",
+        "approaching": "Student identifies one similarity between the simple circuit and classroom lights, but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student attempts to compare but provides an inaccurate or irrelevant response with little connection between the simple circuit and classroom lights."
+      }
+    },
+    {
+      "questionText": "What other materials could we test to see if they conduct electricity?",
+      "bloomsLevel": "Generate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple testable materials (such as aluminum foil, paperclip, pencil lead, coin) and shows understanding that some materials conduct while others do not by predicting which would and would not work.",
+        "meets": "Student suggests at least two different materials that could be tested in a circuit to determine if they conduct electricity.",
+        "approaching": "Student suggests one material that could be tested, or suggests multiple materials but shows incomplete understanding of what makes a good test material.",
+        "beginning": "Student provides a vague response such as 'other stuff' or suggests materials without showing understanding of how they would be tested in a circuit."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:58:36.072Z",
+  "cost": 0.00462
+}

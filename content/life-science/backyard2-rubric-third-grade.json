@@ -1,0 +1,53 @@
+{
+  "title": "Backyard Landscape",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that these plants are healthy and getting what they need to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific signs of plant health (bright colors, green leaves, blooming flowers) and explains what basic needs these signs show are being met (water, sunlight, soil nutrients).",
+        "meets": "Student identifies at least two signs of plant health (such as green leaves or bright flowers) and explains that plants need water and sunlight to survive.",
+        "approaching": "Student identifies one sign of plant health (like green color or flowers) but provides incomplete explanation of plant needs or makes vague connections to survival.",
+        "beginning": "Student names a plant part or color seen in the garden but does not clearly identify signs of health or connect observations to plant survival needs."
+      }
+    },
+    {
+      "questionText": "How might this garden look different in winter, and what would the plants need to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes specific winter changes (fewer flowers, brown or dormant plants, possible frost) and explains how plants adapt or what they need in winter (less water, shelter, or dormancy), showing understanding of seasonal plant cycles.",
+        "meets": "Student describes that the garden would look different in winter (fewer flowers, different colors) and identifies at least one winter survival need (protection from cold or less water).",
+        "approaching": "Student attempts to describe winter changes but is vague or incomplete; identifies a winter need but without clear reasoning about why plants need it.",
+        "beginning": "Student provides a minimal or unclear response about winter changes; does not explain plant survival needs or makes inaccurate statements about winter."
+      }
+    },
+    {
+      "questionText": "If you wanted to add a new plant to this garden, what would you need to consider about where to place it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student considers multiple placement factors such as sunlight availability (sunny vs. shaded spots), space for growth, proximity to water feature, and soil conditions; explains why each factor matters for plant health.",
+        "meets": "Student identifies at least two factors to consider (such as amount of sunlight or available space) and explains how these affect where a new plant should go.",
+        "approaching": "Student identifies one placement consideration (like sunlight or space) but reasoning is incomplete or partially unclear; may miss other important factors.",
+        "beginning": "Student suggests a placement but provides no clear reasoning, or identifies factors without explaining their importance to plant survival."
+      }
+    },
+    {
+      "questionText": "What connections can you make between the different living and non-living parts of this garden system?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple connections between living things (plants, possible insects or animals) and non-living parts (water, rocks, soil, sunlight), explaining how each non-living part supports living things.",
+        "meets": "Student makes at least two connections between living parts (plants) and non-living parts (water, soil, or sunlight), showing how they work together in the garden.",
+        "approaching": "Student identifies some living and non-living parts but makes only one weak connection, or connections lack clear explanation of how parts work together.",
+        "beginning": "Student lists living or non-living parts but does not make meaningful connections between them, or connections are inaccurate or too vague."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:21:22.054Z",
+  "cost": 0.005006
+}

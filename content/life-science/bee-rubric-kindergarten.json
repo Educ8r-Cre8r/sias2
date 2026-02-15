@@ -1,0 +1,53 @@
+{
+  "title": "Bee",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What body parts do you see on this bee that help it do its job?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (legs, wings, eyes, fuzzy hair) and explains how at least two parts help the bee do its job, such as wings for flying or legs for holding onto flowers.",
+        "meets": "Student identifies at least two bee body parts (such as wings, legs, or fuzzy hair) and describes what they do or why they are helpful.",
+        "approaching": "Student names one or two bee body parts but provides limited or unclear explanation of how they help the bee.",
+        "beginning": "Student attempts to name a body part or points to the bee but cannot explain what it does or provides inaccurate information."
+      }
+    },
+    {
+      "questionText": "How do you think the bee's fuzzy hair helps it when it visits flowers?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fuzzy hair helps collect pollen or flower dust and may add that this helps flowers make seeds or that pollen sticks to the fuzz.",
+        "meets": "Student explains that the fuzzy hair helps pick up or collect something from flowers, such as pollen or dust, or helps the bee stick to flowers.",
+        "approaching": "Student makes a simple connection between fuzz and flowers but explanation is unclear or incomplete, such as 'it helps pick stuff up' without naming pollen.",
+        "beginning": "Student provides a vague answer, guesses without reasoning, or suggests an unrelated function for the fuzzy hair."
+      }
+    },
+    {
+      "questionText": "What do you notice about where the bee chose to rest?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the leaf and makes a connection to why it's a good resting place, such as 'it's on a green leaf where there might be flowers nearby' or 'the leaf is a safe place.'",
+        "meets": "Student accurately describes where the bee is resting, such as 'on a green leaf' or 'on a plant,' showing clear observation.",
+        "approaching": "Student identifies the general location but description lacks detail, such as 'on something green' without mentioning it is a leaf.",
+        "beginning": "Student provides minimal or unclear observation, such as pointing without describing, or gives inaccurate information about the location."
+      }
+    },
+    {
+      "questionText": "If you were a bee, what would you need to stay healthy and safe?",
+      "bloomsLevel": "Create",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies three or more bee needs, such as flowers for food, safe places to rest, water, or protection from danger, with brief explanations for at least two.",
+        "meets": "Student identifies two bee needs, such as flowers/food and a safe place to rest, with simple explanations for why these are important.",
+        "approaching": "Student identifies one need with limited explanation, or names multiple needs without explaining why they matter.",
+        "beginning": "Student provides a vague or unrelated answer, such as 'be happy,' without connecting it to actual bee health or safety needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:21:45.718Z",
+  "cost": 0.004735
+}

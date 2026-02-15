@@ -1,0 +1,53 @@
+{
+  "title": "Cows",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the cows' body parts help them eat grass?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (teeth, tongue, lips, mouth) and explains specifically how each part helps with eating grass, such as using teeth to bite or tongue to pull grass.",
+        "meets": "Student identifies at least two cow body parts and explains how they help the cow eat grass with accurate descriptions.",
+        "approaching": "Student names one or two body parts used for eating but gives vague or partially correct explanations of how they work.",
+        "beginning": "Student mentions a body part or eating but provides minimal detail or shows incomplete understanding of how body parts are used to eat grass."
+      }
+    },
+    {
+      "questionText": "Why might having different colored coats be helpful for different cows?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different coat colors help cows blend in with environments, regulate temperature differently, or help farmers identify individual animals, demonstrating understanding of camouflage or practical purposes.",
+        "meets": "Student provides a reasonable explanation that different colors could help with identification or possibly one other benefit like staying cool or warm.",
+        "approaching": "Student attempts to explain a benefit of different colors but reasoning is incomplete or contains minor inaccuracies.",
+        "beginning": "Student acknowledges that colors are different or guesses at a reason without clear scientific thinking."
+      }
+    },
+    {
+      "questionText": "How do you think these cows would survive if they were moved to a desert environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple challenges (lack of grass, extreme heat, water scarcity) and suggests specific adaptations or changes needed for survival, showing understanding of environmental requirements.",
+        "meets": "Student identifies at least two challenges cows would face in a desert (such as finding food or water) and reasonably explains how survival would be difficult.",
+        "approaching": "Student identifies one challenge or solution but reasoning is incomplete or shows partial understanding of desert conditions.",
+        "beginning": "Student makes a simple statement about the desert being different but provides minimal explanation of survival challenges."
+      }
+    },
+    {
+      "questionText": "What patterns do you observe in how the cows are behaving in the field?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple behavioral patterns (grazing, grouping together, movement patterns) and makes connections to why cows might behave this way (protection, finding food).",
+        "meets": "Student identifies 2-3 observable behaviors such as grazing together or staying near other cows with simple explanations.",
+        "approaching": "Student notices one or two behaviors but descriptions lack detail or reasoning about why patterns occur.",
+        "beginning": "Student mentions what the cows are doing but does not identify clear patterns or explain why behaviors might be repeated."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:24:24.288Z",
+  "cost": 0.004427
+}

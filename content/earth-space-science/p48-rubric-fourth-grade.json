@@ -1,0 +1,53 @@
+{
+  "title": "Chrysalis",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages might this complete transformation give butterflies compared to animals that look similar throughout their lives?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific advantages (e.g., caterpillar eats leaves while butterfly drinks nectar, different body structures for different life stages, uses different food sources or habitats), explaining how complete metamorphosis allows butterflies to occupy different ecological roles than animals with incomplete life cycles.",
+        "meets": "Student identifies at least two advantages of complete metamorphosis, such as being able to eat different foods at different life stages or having different abilities as a caterpillar versus butterfly, with reasonable explanations.",
+        "approaching": "Student identifies one advantage of metamorphosis (e.g., \"butterflies can fly when grown up\") but provides limited explanation or shows incomplete reasoning about why this is beneficial compared to animals that stay the same.",
+        "beginning": "Student provides a vague response about butterflies or metamorphosis with minimal connection to the question, such as \"butterflies are pretty\" or \"they change a lot.\""
+      }
+    },
+    {
+      "questionText": "How does the chrysalis structure protect the developing butterfly inside?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple protective features of the chrysalis structure shown in the photo (e.g., hard shell provides defense, color camouflage against predators or environment, smooth exterior prevents damage) and connects these features to specific threats or dangers the developing butterfly faces.",
+        "meets": "Student identifies at least two ways the chrysalis protects the butterfly, such as having a hard shell to block predators or matching the environment through color, with accurate explanations.",
+        "approaching": "Student identifies one protective feature of the chrysalis (e.g., \"it has a hard shell\" or \"it hides the butterfly\") but provides limited explanation or reasoning about how this actually protects the developing butterfly.",
+        "beginning": "Student provides a minimal or inaccurate response, such as \"it protects the butterfly\" without explanation, or describes the chrysalis appearance without connecting it to protection."
+      }
+    },
+    {
+      "questionText": "What would happen to butterfly populations if something disrupted the chrysalis stage?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that butterfly populations would decrease or disappear, explaining that butterflies cannot complete their life cycle without the chrysalis stage, and connects this to broader ecological impacts such as effects on plants that depend on butterflies for pollination or predators that eat butterflies.",
+        "meets": "Student predicts that butterfly populations would decline significantly because butterflies need the chrysalis stage to become adults and reproduce, demonstrating understanding that disruption would prevent normal metamorphosis.",
+        "approaching": "Student predicts that butterfly populations would be affected negatively but provides incomplete reasoning, such as \"there would be fewer butterflies\" without explaining why the chrysalis stage is critical to their survival or reproduction.",
+        "beginning": "Student provides a minimal or unclear response, such as \"butterflies would die\" without explanation, or does not connect the disruption to population-level consequences."
+      }
+    },
+    {
+      "questionText": "How is a butterfly's metamorphosis similar to and different from how humans grow and change?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (e.g., both change over time, both grow larger) and multiple differences (e.g., butterflies have complete metamorphosis with distinct stages while humans grow gradually, butterflies change body structure completely while humans maintain the same basic form), using accurate vocabulary.",
+        "meets": "Student identifies at least one similarity and one difference between butterfly metamorphosis and human growth, such as \"both grow bigger\" and \"butterfly changes shape but humans don't,\" with generally accurate reasoning.",
+        "approaching": "Student identifies a similarity or a difference but not both, or provides incomplete comparisons, such as \"butterflies change more than humans\" without clarifying how they differ.",
+        "beginning": "Student provides a vague or minimally accurate response, such as \"they both change\" without elaborating on similarities or differences, or confuses human and butterfly development stages."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:57:09.425Z",
+  "cost": 0.005815
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Fungi02",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen to a forest if there were no fungi to break down fallen trees and leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead materials would pile up and not break down, and connects this to how nutrients would not return to the soil for new plants to use; may mention the forest would become unhealthy or crowded with dead stuff.",
+        "meets": "Student explains that dead trees and leaves would pile up and not break down, or that the forest would become messy or full of dead materials.",
+        "approaching": "Student recognizes that something would happen without fungi or mentions that dead materials would not go away, but reasoning is unclear or incomplete.",
+        "beginning": "Student gives a vague answer such as 'the forest would be bad' or 'there would be lots of stuff' with little explanation of why or how."
+      }
+    },
+    {
+      "questionText": "How are these mushrooms similar to and different from the plants growing around them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies similarities (both living things, both grow from the ground) and differences (mushrooms don't have green color/chlorophyll or roots like plants; mushrooms break down dead materials instead of making their own food), using grade-appropriate scientific reasoning.",
+        "meets": "Student identifies at least one similarity (both living, both grow from ground) and one clear difference (mushrooms don't have green color, or plants make food differently).",
+        "approaching": "Student notices some differences (like mushrooms look different from plants) but lacks clear explanations, or mentions only similarities without differences.",
+        "beginning": "Student makes vague comparisons such as 'they are both in the forest' or 'they look different' without specific details about fungi and plants."
+      }
+    },
+    {
+      "questionText": "What conditions do you think these fungi need to survive and grow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions such as moisture/dampness, darkness or shade, dead or decaying materials to eat, and appropriate temperature; explains why at least one condition matters for fungi.",
+        "meets": "Student identifies two or more conditions fungi need, such as moisture, darkness, or dead materials to break down.",
+        "approaching": "Student identifies one condition fungi need (like water or dark places) or mentions multiple conditions with limited detail or clarity.",
+        "beginning": "Student gives a minimal response such as 'they need food' or 'they need water' with no further explanation or context."
+      }
+    },
+    {
+      "questionText": "Why might finding fungi be a sign of a healthy forest ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fungi breaking down dead materials returns nutrients to soil so plants can grow, and/or that fungi means the forest has the right moisture and conditions; may mention this helps the whole forest ecosystem stay healthy.",
+        "meets": "Student explains that fungi breaking down dead materials is important for the forest, or that fungi need good conditions that make a healthy forest.",
+        "approaching": "Student recognizes fungi are connected to forest health but explanation is unclear, such as 'fungi help the forest' without explaining how.",
+        "beginning": "Student gives a vague answer such as 'healthy forests have fungi' or 'fungi are good' with little reasoning about why."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:27:34.233Z",
+  "cost": 0.00495
+}

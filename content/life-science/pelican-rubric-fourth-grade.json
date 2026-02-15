@@ -1,0 +1,53 @@
+{
+  "title": "Pelican",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the pelican's body parts work together when it catches fish?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how multiple body parts (bill, pouch, wings, eyes) work together as a system to catch fish, using specific details about what each part does and how they coordinate during fishing.",
+        "meets": "Student describes how at least two body parts (such as the bill and pouch, or wings and eyes) work together to help the pelican catch fish with accurate explanations.",
+        "approaching": "Student identifies some body parts involved in catching fish but gives only partial or incomplete explanations of how they work together.",
+        "beginning": "Student names one body part or gives a vague response with minimal explanation of how the pelican catches fish."
+      }
+    },
+    {
+      "questionText": "What would happen if a pelican had a short, narrow bill instead of a long one with a pouch?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific consequences (such as inability to catch large fish, less water storage, difficulty diving, or impact on survival) and explains the relationship between bill structure and function.",
+        "meets": "Student predicts at least one reasonable consequence of having a short, narrow bill and explains how this would affect the pelican's ability to catch or hold fish.",
+        "approaching": "Student makes a prediction about what would happen but with incomplete reasoning or limited connection to how the bill helps with catching fish.",
+        "beginning": "Student makes a vague prediction or identifies that it would be 'harder' without clear explanation of why the bill's size and pouch matter."
+      }
+    },
+    {
+      "questionText": "Which pelican body parts can you observe in this photo, and what job do you think each one does?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least four body parts (such as bill, pouch, webbed feet, wings, eyes, feathers) and accurately explains the function of each with specific details about how they help the pelican survive.",
+        "meets": "Student identifies at least three body parts visible in the photo and describes a reasonable function for each one.",
+        "approaching": "Student identifies two body parts and describes the function of at least one, but explanations may be incomplete or partially inaccurate.",
+        "beginning": "Student identifies one body part or names multiple parts with little to no explanation of their functions."
+      }
+    },
+    {
+      "questionText": "Why might pelicans choose to perch on posts like this one near the water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple connected reasons (such as resting between hunts, watching for fish, staying close to food source, safety from predators, or drying feathers) that show understanding of pelican behavior and habitat needs.",
+        "meets": "Student gives at least two reasonable reasons why a pelican would perch near water, such as being close to food or having a good view for hunting.",
+        "approaching": "Student gives one reason why the pelican might perch on the post, or multiple reasons that are only partially explained.",
+        "beginning": "Student gives a vague answer such as 'to rest' without explaining why location near water matters, or provides minimal reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:39:42.996Z",
+  "cost": 0.004884
+}

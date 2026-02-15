@@ -1,0 +1,53 @@
+{
+  "title": "Monarch Caterpillar",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about this caterpillar's colors and patterns?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific colors (black, white, and yellow) and accurately describes the stripe pattern, using words like stripes or bands to show clear observation.",
+        "meets": "Student identifies at least two colors and mentions that the caterpillar has a pattern or stripes on its body.",
+        "approaching": "Student names one or two colors or mentions a pattern, but description is vague or incomplete (e.g., 'it has colors' or 'it's striped').",
+        "beginning": "Student gives minimal response with little detail, such as naming only one color or saying 'it looks different,' with no clear observation of the stripes or pattern."
+      }
+    },
+    {
+      "questionText": "Why might bright colors help keep a caterpillar safe from animals that want to eat it?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors warn predators the caterpillar might be poisonous or taste bad, and connects this to the idea that animals learn to avoid brightly colored prey.",
+        "meets": "Student explains that bright colors warn animals to stay away or that animals know not to eat something that is brightly colored.",
+        "approaching": "Student mentions that bright colors help keep the caterpillar safe but gives incomplete reasoning, such as 'bright colors scare animals' without explaining why.",
+        "beginning": "Student provides a minimal or unclear response, such as 'the colors keep it safe' with no explanation of how or why the colors help."
+      }
+    },
+    {
+      "questionText": "How do you think this caterpillar will look different when it becomes an adult?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the caterpillar will become a butterfly or moth with wings, and describes specific changes such as loss of stripes, development of wings, or change in body shape.",
+        "meets": "Student correctly predicts the caterpillar will become a butterfly or moth and mentions at least one major change, such as growing wings or looking completely different.",
+        "approaching": "Student identifies that the caterpillar will change into a butterfly or moth but provides vague or incomplete details about what will be different.",
+        "beginning": "Student makes a prediction with minimal reasoning or provides an inaccurate response, such as 'it will get bigger' without mentioning the change to an adult insect."
+      }
+    },
+    {
+      "questionText": "What would happen if this caterpillar couldn't find the right kind of leaves to eat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the caterpillar would not have enough food to grow and become strong, and may not survive or be able to change into an adult butterfly or moth.",
+        "meets": "Student explains that the caterpillar would not have enough food, get hungry, or might not be able to grow properly without the right leaves.",
+        "approaching": "Student recognizes that the caterpillar needs the right leaves to eat but explanation is incomplete, such as 'it would be sad' or 'it wouldn't have food' without connecting to growth or survival.",
+        "beginning": "Student provides minimal understanding, such as 'it would be hungry' or 'it would die' without explaining the connection between food and the caterpillar's growth or survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:38:40.915Z",
+  "cost": 0.005086
+}

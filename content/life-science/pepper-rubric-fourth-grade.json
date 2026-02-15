@@ -1,0 +1,53 @@
+{
+  "title": "Bell Pepper",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if you planted one of these pepper seeds, and what would it need to grow successfully?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes that the seed would grow into a pepper plant and identifies at least three specific requirements (water, sunlight, soil, warmth) with explanations of why each is needed for growth.",
+        "meets": "Student correctly states that the seed would grow into a pepper plant and identifies two or more basic requirements (water, sunlight, soil) needed for growth.",
+        "approaching": "Student recognizes that the seed could grow into a plant and mentions at least one requirement, but explanations are vague or partially incomplete.",
+        "beginning": "Student provides a minimal response about planting the seed with little detail or mentions only one vague requirement without clear understanding."
+      }
+    },
+    {
+      "questionText": "How might the structure of this pepper help ensure its seeds survive and grow into new plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how multiple structural features (thick skin protects seeds, hollow interior holds and distributes seeds, seeds clustered together for dispersal) work together to protect and spread seeds for reproduction.",
+        "meets": "Student identifies at least two structural features of the pepper (such as protective thick skin or enclosed seeds) and explains how they help protect or disperse seeds.",
+        "approaching": "Student identifies one or two structural features but provides incomplete explanations of how they help seeds survive or spread.",
+        "beginning": "Student names a visible structure (like the skin or seeds) but makes little or no connection to how it helps ensure seed survival or growth."
+      }
+    },
+    {
+      "questionText": "Why do you think some plants make colorful, tasty fruits while others have seeds with wings or hooks?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that different seed dispersal methods (animal attraction through color and taste, or wind/animal transport via wings and hooks) help seeds reach new growing locations, and provides specific examples of how each method works.",
+        "meets": "Student recognizes that colorful, tasty fruits attract animals for seed dispersal, and that wings or hooks help seeds spread in different ways.",
+        "approaching": "Student mentions that fruits attract animals or that some seeds have special features for dispersal, but reasoning is incomplete or partially unclear.",
+        "beginning": "Student provides a minimal response about fruit color or seed structures with little connection to how seeds are spread to new locations."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice when comparing the seeds and structure of this pepper to other fruits like apples, tomatoes, or oranges?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (seeds inside protective fruit, different dispersal methods) and differences (seed arrangements, fruit sizes, outer protections) across different fruits and explains what these patterns show about how plants reproduce.",
+        "meets": "Student identifies at least two similarities or differences between pepper seeds/structure and other fruits, such as all having seeds inside or different outer protections.",
+        "approaching": "Student notices at least one similarity or difference but provides limited detail or makes unclear connections between the fruits.",
+        "beginning": "Student makes a vague observation about one fruit or structure with minimal comparison or pattern recognition."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:40:27.811Z",
+  "cost": 0.0049
+}

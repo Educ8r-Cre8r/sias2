@@ -1,0 +1,53 @@
+{
+  "title": "Conductor",
+  "category": "physical-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if we removed one of the wires?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the bulb would stop glowing and explains that electricity needs a complete path or loop through all the wires to flow; may mention that the circuit would be broken.",
+        "meets": "Student predicts the bulb would stop glowing and provides a simple explanation that the electricity cannot travel without all the wires connected.",
+        "approaching": "Student predicts the bulb would stop glowing but provides limited or unclear reasoning about why this would happen.",
+        "beginning": "Student makes a prediction but it is inaccurate, or provides no explanation for why removing a wire would affect the bulb."
+      }
+    },
+    {
+      "questionText": "Why do you think the bulb lights up when connected to the battery?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that electricity from the battery travels through the wires to the bulb, making it light up; may use terms like 'power,' 'energy,' or 'complete circuit.'",
+        "meets": "Student explains that the battery provides power or energy that makes the bulb light up when everything is connected.",
+        "approaching": "Student attempts to explain the connection between the battery and bulb lighting but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a vague response such as 'the battery makes it light' with little or no explanation of how."
+      }
+    },
+    {
+      "questionText": "What other materials could we test to see if electricity flows through them?",
+      "bloomsLevel": "Generate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student suggests multiple specific materials (such as metal, pencil, plastic, paper, cloth) and shows awareness that some materials might conduct electricity while others might not.",
+        "meets": "Student suggests two or more specific materials that could be tested in a circuit to see if electricity flows through them.",
+        "approaching": "Student suggests one or two materials but they may be vague, or provides limited detail about what materials could be tested.",
+        "beginning": "Student suggests a material but with little clarity, or response shows minimal engagement with the testing idea."
+      }
+    },
+    {
+      "questionText": "How is this simple circuit similar to the lights in our classroom?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities, such as both use electricity from a power source, both have wires and a bulb or light, and both need a complete circuit to work; may mention switches.",
+        "meets": "Student identifies at least two similarities between the simple circuit and classroom lights, such as both use electricity or both light up when connected.",
+        "approaching": "Student identifies one similarity between the simple circuit and classroom lights, but the explanation may be incomplete or lacking detail.",
+        "beginning": "Student attempts to make a connection but the similarity identified is unclear, inaccurate, or too vague to demonstrate understanding."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:58:28.587Z",
+  "cost": 0.004478
+}

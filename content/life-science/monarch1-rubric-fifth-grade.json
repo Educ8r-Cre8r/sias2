@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence from the photo shows that major changes happen during the chrysalis stage?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observations (bright green color, yellow spots, black line, change from caterpillar form) and explains how these features demonstrate internal transformation and preparation for becoming a butterfly.",
+        "meets": "Student identifies at least two visual details from the photo (such as color, shape, or markings) and explains that these show the caterpillar is changing inside the chrysalis.",
+        "approaching": "Student identifies one or two visual details from the chrysalis but provides incomplete or vague explanation of how these show change is happening.",
+        "beginning": "Student makes a general statement about the chrysalis or change but provides little specific evidence from the photo or unclear reasoning."
+      }
+    },
+    {
+      "questionText": "How might the timing of metamorphosis help monarch butterflies survive in their environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains how chrysalis timing connects to seasonal changes (weather, food availability, migration) and describes how completing metamorphosis at the right time helps monarchs find resources or avoid harsh conditions.",
+        "meets": "Student identifies that timing of metamorphosis relates to survival and provides at least one reasonable explanation such as matching with flower blooming or favorable weather.",
+        "approaching": "Student recognizes that metamorphosis timing is important for survival but gives vague or partially correct reasoning without clear environmental connections.",
+        "beginning": "Student mentions timing or survival but does not make a clear connection between when metamorphosis occurs and how it helps monarchs survive."
+      }
+    },
+    {
+      "questionText": "What would happen to monarch populations if something disrupted their ability to form chrysalises?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts population decline and explains multiple consequences: caterpillars cannot transform into adults, fewer adults to reproduce, population decreases significantly or disappears, possibly affecting other organisms that depend on monarchs.",
+        "meets": "Student predicts that populations would decrease and provides logical reasoning that without chrysalises, caterpillars cannot become adult butterflies needed for reproduction.",
+        "approaching": "Student predicts a negative outcome but explanation is incomplete, such as stating populations would decline without fully explaining why (reproduction/life cycle connection is unclear).",
+        "beginning": "Student provides a brief answer with minimal reasoning or states only that something bad would happen without explaining the connection to the monarch life cycle."
+      }
+    },
+    {
+      "questionText": "Why do you think complete metamorphosis evolved as a successful life strategy for many insects?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple advantages such as caterpillars and butterflies eating different foods, living in different habitats, or reducing competition, and explains how these benefits help survival and reproduction.",
+        "meets": "Student identifies at least one clear advantage of complete metamorphosis (such as different life stages having different food sources or using different environments) and explains why this is beneficial.",
+        "approaching": "Student mentions a possible advantage of metamorphosis but reasoning is incomplete or partially unclear, such as naming a benefit without explaining why it helps insects survive.",
+        "beginning": "Student attempts to answer but provides vague reasoning or minimal explanation of why complete metamorphosis would be a successful strategy for insects."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:36:45.710Z",
+  "cost": 0.004922
+}

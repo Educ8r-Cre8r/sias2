@@ -1,0 +1,53 @@
+{
+  "title": "Cows",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the grassland would change if these cattle were removed from the pasture?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific changes (grass would grow taller/thicker, different plants might grow, soil composition might change) and explains the cause-and-effect relationship between cattle grazing and vegetation growth with scientific reasoning.",
+        "meets": "Student predicts at least two reasonable changes to the grassland (such as grass growing taller or more plants appearing) and provides a basic explanation of why these changes would occur without cattle present.",
+        "approaching": "Student predicts one change to the grassland (such as more grass) but the explanation is vague or incomplete; may show partial understanding of the relationship between grazing animals and plant growth.",
+        "beginning": "Student provides a minimal or unclear prediction about grassland changes; reasoning is missing or inaccurate, showing little understanding of how cattle affect the environment."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe that shows these animals are well-adapted to their environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific adaptations (body structure for grazing, teeth for eating grass, hooves for walking on terrain, thick bodies for storing energy) with detailed explanations of how each adaptation helps the cattle survive in this grassland environment.",
+        "meets": "Student identifies at least two clear adaptations (such as flat teeth for eating grass or hooves for walking) with reasonable explanations of how each helps cattle survive in a pasture environment.",
+        "approaching": "Student identifies one or two adaptations but explanations lack detail; may describe physical features without clearly connecting them to how the animal survives in its grassland habitat.",
+        "beginning": "Student identifies a feature of the cattle (such as color or size) but does not explain it as an adaptation, or provides vague/inaccurate connections to environmental survival."
+      }
+    },
+    {
+      "questionText": "If you were to create a food web for this ecosystem, what other organisms might you include and how would they connect?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies multiple organisms (grass, cattle, predators, decomposers, insects) and accurately describes food web connections with directional arrows showing energy flow; explains roles of at least three different organism types (producers, consumers, decomposers).",
+        "meets": "Student identifies at least three different organisms beyond cattle (such as grass, predators, and decomposers) and describes how they connect in a food web; shows understanding that energy flows from plants to animals.",
+        "approaching": "Student identifies some organisms that belong in the food web but connections are incomplete or partially inaccurate; may show grass and cattle but miss predators or decomposers, or unclear about energy flow direction.",
+        "beginning": "Student lists one or two organisms with little explanation of connections, or creates connections that show misunderstanding of how food webs function in an ecosystem."
+      }
+    },
+    {
+      "questionText": "How might the seasonal changes affect both the cattle and the grassland throughout the year?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes how multiple seasons affect both cattle (shelter needs, food availability, energy requirements) and grassland (growth cycles, plant dormancy, soil conditions) with specific examples and explanations of cause-and-effect relationships.",
+        "meets": "Student describes how at least two seasons affect either the cattle or grassland (such as spring grass growth or winter food shortages) with clear explanations of how these seasonal changes matter to the ecosystem.",
+        "approaching": "Student mentions seasonal changes and their effects but explanations are incomplete or somewhat vague; may describe one season well but miss connections to ecosystem impacts.",
+        "beginning": "Student provides minimal or unclear examples of seasonal changes; reasoning about impacts on cattle or grassland is missing or inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:24:40.718Z",
+  "cost": 0.00555
+}

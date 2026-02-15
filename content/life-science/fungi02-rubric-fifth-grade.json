@@ -1,0 +1,53 @@
+{
+  "title": "Fungi02",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What would happen to a forest if there were no decomposers like fungi?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead wood and leaves would pile up, nutrients would not return to soil, and plants would struggle to grow because they couldn't get nutrients from decomposed material; may reference a specific chain of consequences.",
+        "meets": "Student states that dead material would not break down and nutrients would not go back into the soil, affecting plant growth in the forest.",
+        "approaching": "Student identifies that fungi break down dead material or that nutrients are important, but explanation is incomplete or lacks connection between decomposition and plant health.",
+        "beginning": "Student provides a vague response such as 'the forest would be bad' or 'fungi are important' without explaining what would actually happen to materials or nutrients."
+      }
+    },
+    {
+      "questionText": "How might the nutrients from these decomposing wood chips eventually end up in a nearby tree?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student traces a complete pathway: fungi break down wood into nutrients, nutrients enter the soil, tree roots absorb nutrients from soil and transport them throughout the plant; may mention specific nutrients like nitrogen.",
+        "meets": "Student explains that fungi break down the wood into nutrients that go into the soil, and tree roots take in those nutrients from the soil.",
+        "approaching": "Student identifies that nutrients come from the wood or that roots take in nutrients, but misses one or more steps in the process or provides incomplete reasoning.",
+        "beginning": "Student gives a minimal response such as 'the tree gets nutrients' without explaining the role of fungi, soil, or roots in the process."
+      }
+    },
+    {
+      "questionText": "What evidence can you observe in this photo that shows fungi are different from plants?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific differences from the photo: fungi have no green color (no chlorophyll), grow on dead material rather than soil, have a stem-and-cap structure unlike plant leaves/roots, and mention they don't make their own food.",
+        "meets": "Student observes that fungi lack green color and notes they grow on decomposing wood rather than having roots in soil, showing structural differences from plants.",
+        "approaching": "Student recognizes one difference such as lack of green color or unusual growth pattern, but explanation is limited or lacks supporting details from the photo.",
+        "beginning": "Student makes a general statement like 'fungi are different' or 'they're not plants' without providing observable evidence from the photograph."
+      }
+    },
+    {
+      "questionText": "Why do you think these mushrooms are growing in clusters rather than spread out individually?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that clusters grow from the same fungal network (mycelium) spreading through the wood, or that clustering helps fungi find resources together, share nutrients, or increases chances of reproducing by releasing spores.",
+        "meets": "Student suggests that the mushrooms grow together because they come from the same fungal growth in the wood, or that staying together helps them in some way.",
+        "approaching": "Student recognizes that the mushrooms might be connected or that grouping offers some advantage, but reasoning is unclear or only partially developed.",
+        "beginning": "Student provides a minimal response such as 'they just grow together' without reasoning about why clustering might be beneficial to the fungi."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:27:50.032Z",
+  "cost": 0.005018
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Raccoon",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where this raccoon chose to rest, and why might that be a good spot?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific features of the resting spot (tree stump, shade, forest location) and explains at least two reasons why it's good (protection, hiding from predators, staying cool) using complete thoughts.",
+        "meets": "Student describes where the raccoon is resting (on a log/stump in shade or trees) and gives one logical reason why it's a good spot (safety, rest, or hiding).",
+        "approaching": "Student notices the raccoon is in a tree or shady area but provides unclear or incomplete reasoning about why this location helps the raccoon.",
+        "beginning": "Student makes a simple observation about the location (\"in a tree\" or \"on wood\") with little to no explanation of why it might be good for the raccoon."
+      }
+    },
+    {
+      "questionText": "How do you think the raccoon's black mask might help it survive in the wild?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the black mask helps the raccoon hide or blend in (camouflage) and provides at least one additional survival benefit, such as reducing glare or helping it see better at night.",
+        "meets": "Student correctly explains that the black mask helps the raccoon hide or camouflage itself from predators or other animals.",
+        "approaching": "Student recognizes the mask is black and attempts to connect it to survival but explanation is vague (\"it helps it\" or \"so animals don't see it\") without clear reasoning.",
+        "beginning": "Student describes the mask's appearance (\"it's black\" or \"around the eyes\") with minimal or no connection to how it helps the raccoon survive."
+      }
+    },
+    {
+      "questionText": "What would happen if there were no trees or logs in this raccoon's habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains multiple consequences, such as the raccoon losing shelter, safe resting places, and protection from predators, and may suggest the raccoon would need to find a different habitat.",
+        "meets": "Student identifies one or two clear consequences, such as the raccoon having nowhere to rest, hide, or be safe from danger.",
+        "approaching": "Student recognizes that trees or logs are important but provides unclear consequences (\"the raccoon couldn't live\" or \"it would be bad\") without explaining what would happen.",
+        "beginning": "Student acknowledges the question but gives a vague or minimally accurate response (\"it would be sad\" or \"the raccoon wouldn't like it\") without explaining specific impacts."
+      }
+    },
+    {
+      "questionText": "How are raccoons similar to and different from other animals that live in forests?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides at least two accurate similarities (live in forest, eat food, have fur) and two differences (black mask, specific diet, behavior) comparing raccoons to another named forest animal with clear explanations.",
+        "meets": "Student gives at least one similarity and one difference between raccoons and other forest animals (e.g., \"Raccoons and bears both live in forests, but raccoons have masks and bears don't\").",
+        "approaching": "Student attempts a comparison but explanation is incomplete or partially unclear; may identify similarities or differences but not both, or lacks detail about another specific animal.",
+        "beginning": "Student makes a simple observation about raccoons or forest animals but does not clearly compare them to other animals, or comparison is inaccurate."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:41:45.226Z",
+  "cost": 0.005288
+}

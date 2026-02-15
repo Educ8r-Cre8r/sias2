@@ -1,0 +1,53 @@
+{
+  "title": "Parts of a Plant",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this seed needed to start growing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple things seeds need to grow (water, soil/nutrients, air, warmth, light) and explains why at least one is important for sprouting.",
+        "meets": "Student identifies at least two things seeds need to grow, such as water and warmth or soil and water.",
+        "approaching": "Student identifies one thing a seed needs to grow, such as water or soil, but explanation is vague or incomplete.",
+        "beginning": "Student provides a response that shows minimal understanding, such as naming only one need without explanation or giving an inaccurate answer."
+      }
+    },
+    {
+      "questionText": "How is this baby plant similar to and different from adult plants you know?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple accurate similarities (green leaves, roots, growing) and differences (smaller size, still has seed shell, fewer/smaller leaves) and connects them to how plants change as they grow.",
+        "meets": "Student identifies at least one clear similarity and one clear difference between the baby plant and an adult plant, such as both having leaves and roots but the baby being smaller.",
+        "approaching": "Student attempts to compare but identifies only similarities or only differences, or comparisons are vague or partially inaccurate.",
+        "beginning": "Student makes a comparison that is largely inaccurate, unclear, or shows little evidence of understanding plant growth stages."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this plant over the next few weeks?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student makes a detailed, logical prediction that includes multiple changes (leaves will grow larger and more numerous, roots will spread more, seed shell will fall off, plant may need soil or bigger space) with reasoning based on plant growth.",
+        "meets": "Student predicts that the plant will grow bigger and describe one or two specific changes, such as more leaves or longer roots.",
+        "approaching": "Student makes a prediction about growth but is vague (just \"it will grow\") or includes one specific change without clear reasoning.",
+        "beginning": "Student's prediction is unclear, unrealistic, or shows minimal understanding of how plants develop over time."
+      }
+    },
+    {
+      "questionText": "Why do you think the plant grew roots before it grew bigger leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots need to grow first to absorb water and nutrients from soil to support leaf growth, or that roots help anchor the plant, showing understanding of plant structure and function.",
+        "meets": "Student recognizes that roots grew first and offers a reasonable explanation, such as roots help the plant get water or food from the ground.",
+        "approaching": "Student acknowledges that roots came before leaves but the explanation is incomplete or partially accurate, such as \"roots need to come first\" without explaining why.",
+        "beginning": "Student's response shows minimal or inaccurate understanding of the relationship between root growth and leaf development."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:17:32.525Z",
+  "cost": 0.00462
+}

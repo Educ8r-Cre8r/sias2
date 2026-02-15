@@ -1,0 +1,53 @@
+{
+  "title": "Anole",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this lizard is trying to tell other animals with its colorful display?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the lizard uses its bright dewlap to communicate a specific message (such as warning others to stay away, showing strength, or attracting a mate) and provides reasoning about why bright colors are effective for communication.",
+        "meets": "Student identifies that the lizard is using its colorful dewlap to send a message to other animals and explains a reasonable purpose, such as showing it is strong or telling others to go away.",
+        "approaching": "Student recognizes that the bright colors are a form of communication but provides a vague explanation of the message, such as 'it's showing off' or 'it's trying to do something.'",
+        "beginning": "Student makes a minimal attempt to connect the colors to communication but provides little explanation or suggests the colors are purely for appearance without considering their purpose."
+      }
+    },
+    {
+      "questionText": "How might this lizard's ability to show and hide its bright colors help it survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains two distinct survival advantages: that the hidden brown body helps the lizard hide from predators (camouflage), while the bright dewlap helps it communicate with other lizards; student uses vocabulary like 'blend in' or 'disguise' accurately.",
+        "meets": "Student identifies that the lizard can hide its colors to blend in with rocks and dirt to avoid being seen by predators, or can show colors to communicate danger or strength to other animals.",
+        "approaching": "Student recognizes that hiding and showing colors are useful for survival but provides incomplete reasoning, such as only describing hiding OR showing without explaining how each helps.",
+        "beginning": "Student provides a vague response about colors and survival with minimal connection to how the lizard actually uses them to stay safe or communicate."
+      }
+    },
+    {
+      "questionText": "What other animals have you seen that use bright colors or special body parts to communicate?",
+      "bloomsLevel": "Remember/Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student names at least three animals with bright colors or special body parts used for communication (such as peacocks, fireflies, or poison dart frogs) and describes how each uses its feature to communicate.",
+        "meets": "Student identifies at least two animals that use bright colors or special body parts to communicate and briefly explains what they communicate with these features.",
+        "approaching": "Student names one or two animals with bright colors or special features but provides limited or unclear explanation of how they use them for communication.",
+        "beginning": "Student names an animal but does not clearly connect it to communication using colors or body parts, or provides only very vague descriptions."
+      }
+    },
+    {
+      "questionText": "If you were designing an animal that needed to communicate danger to its family, what body parts would you give it?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes multiple body parts (such as bright colors, loud sounds, or distinctive patterns) and explains specifically how each part would help communicate danger; student shows understanding that different animals use different methods.",
+        "meets": "Student describes at least one or two body parts that would help communicate danger (such as bright colors, large flaps, or loud noises) and provides a reasonable explanation for why these features would work.",
+        "approaching": "Student suggests a body part for communication but provides limited reasoning, or suggests features that don't clearly connect to warning of danger.",
+        "beginning": "Student suggests a body part with little explanation of how it would communicate danger, or provides a response that doesn't clearly address the communication purpose."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:16:48.732Z",
+  "cost": 0.005283
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happens to rocks and pebbles at the beach when big waves crash on them for many, many years?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that waves break rocks and pebbles into smaller and smaller pieces over time, creating sand, and connects this to weathering or erosion by name.",
+        "meets": "Student correctly identifies that waves break rocks and pebbles into smaller pieces, and understands this happens gradually over a long time.",
+        "approaching": "Student recognizes that waves affect rocks and pebbles, but explanation is vague (e.g., 'they get smaller') without clarity about the process or time involved.",
+        "beginning": "Student provides a minimal response such as 'waves move them' or 'they break' with little understanding of the long-term change process."
+      }
+    },
+    {
+      "questionText": "Why do you think different beaches around the world might have different colored sand?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that sand color depends on what rocks and minerals are in that area, and may note that different places have different types of rocks that break down into sand.",
+        "meets": "Student identifies that different beaches have different colored sand because they come from different rocks or minerals in that location.",
+        "approaching": "Student recognizes that sand color varies and attempts to connect it to rocks or location, but explanation lacks clarity or contains minor inaccuracies.",
+        "beginning": "Student provides a vague response like 'sand is different colors' without attempting to explain why or connect to rock sources."
+      }
+    },
+    {
+      "questionText": "How do you think the shape of a beach might change after a big storm with strong winds and large waves?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that strong waves and wind can move and reshape sand, describing specific changes such as moving sand away, creating new patterns, or flattening features.",
+        "meets": "Student correctly identifies that a big storm would change the beach's shape by moving sand or altering its appearance due to strong waves and wind.",
+        "approaching": "Student recognizes storms affect beaches but gives incomplete explanation; may mention sand movement or shape changes without explaining how waves/wind cause this.",
+        "beginning": "Student provides a minimal response such as 'the beach changes' or 'sand moves' without describing how or why the shape would be different."
+      }
+    },
+    {
+      "questionText": "What would happen to the crab's home if all the sand washed away during a storm?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the crab's burrow would be destroyed and the crab would lose its shelter, explaining that crabs depend on sand for protection and survival.",
+        "meets": "Student correctly identifies that the crab's home would be destroyed or washed away, and recognizes this would be a problem for the crab.",
+        "approaching": "Student understands sand washes away and this affects the crab, but explanation is incomplete or unclear about why having no sand is harmful.",
+        "beginning": "Student provides a minimal response such as 'the crab's home would be gone' without explaining consequences or why sand is important for the crab."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:48:10.269Z",
+  "cost": 0.004887
+}

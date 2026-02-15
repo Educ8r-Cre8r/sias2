@@ -1,0 +1,53 @@
+{
+  "title": "Fungi03",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think these mushrooms need to grow and survive?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple needs (water, the dead wood to break down, darkness, or moisture) and explains why mushrooms need at least two of these things to survive.",
+        "meets": "Student identifies at least two things mushrooms need to grow, such as water, dead wood, or a damp place, with simple explanations.",
+        "approaching": "Student identifies one thing mushrooms need (water, wood, or dampness) but may lack detail or provide incomplete reasoning about why it matters.",
+        "beginning": "Student provides a vague answer (\"food\" or \"water\") with little to no explanation, or confuses mushroom needs with plant needs like sunlight."
+      }
+    },
+    {
+      "questionText": "How might these mushrooms help other living things in the forest?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms break down dead wood and describes how this helps forest animals, soil, or new plants, using terms like 'decomposer' or 'breaking down.'",
+        "meets": "Student explains that mushrooms break down the dead wood or help make the forest healthy for other living things with a clear connection between the mushroom's action and the benefit.",
+        "approaching": "Student recognizes that mushrooms help other living things but provides a simple or partially formed explanation, such as 'they break down wood' without explaining how that helps.",
+        "beginning": "Student gives a minimal response like 'they help animals' or 'they're food' without explanation, or provides an inaccurate statement about how mushrooms help."
+      }
+    },
+    {
+      "questionText": "What would happen to a forest if there were no decomposers like mushrooms?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that dead wood and plants would pile up, soil would not get nutrients, or new plants couldn't grow well, demonstrating understanding of the forest cycle.",
+        "meets": "Student describes a logical consequence, such as 'dead wood would stay on the ground' or 'the forest would get messy' or 'plants wouldn't have food,' with appropriate reasoning.",
+        "approaching": "Student identifies a consequence but with limited detail or reasoning, such as 'bad things would happen' or 'there would be too much dead stuff' without full explanation.",
+        "beginning": "Student provides a vague or incorrect response like 'the forest would die' with no reasoning, or misunderstands the question entirely."
+      }
+    },
+    {
+      "questionText": "Where else might you find mushrooms or fungi growing?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple places where fungi grow (rotting logs, forest floor, damp basements, bread, soil) and explains why these places work (damp, dark, dead material).",
+        "meets": "Student identifies at least two real-world places where mushrooms or fungi grow, such as on logs, in soil, or in damp places, with simple reasoning about why.",
+        "approaching": "Student identifies one place where fungi might grow (like 'on trees' or 'in the dirt') with limited detail or reasoning about the conditions needed.",
+        "beginning": "Student provides a vague answer like 'outside' or 'in nature' with no specific examples, or provides an inaccurate location."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:29:55.028Z",
+  "cost": 0.005043
+}

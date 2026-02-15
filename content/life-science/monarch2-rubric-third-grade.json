@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think would happen if a butterfly tried to fly right after coming out of its chrysalis?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the butterfly would struggle or fail to fly and explains why using specific details (e.g., wings are wet, crumpled, or need to dry and harden before they work properly).",
+        "meets": "Student predicts the butterfly would have difficulty flying right away and provides a reasonable explanation, such as wings needing time to dry or become strong.",
+        "approaching": "Student makes a prediction about flight difficulty but offers only a vague or partially accurate reason, such as mentioning wings but not explaining why that matters.",
+        "beginning": "Student provides a prediction with little or no explanation, or gives an inaccurate response about what would happen to the butterfly."
+      }
+    },
+    {
+      "questionText": "How might the butterfly's new body parts help it survive differently than when it was a caterpillar?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways the butterfly's body parts help survival differently, such as wings for flying to escape predators, long tube mouth for drinking nectar, or new eyes for seeing colors, and explains how each helps survival.",
+        "meets": "Student identifies at least two ways the butterfly's new body helps it survive differently, such as wings for flying or a different mouth for eating, with basic explanations.",
+        "approaching": "Student identifies one or two ways the butterfly's body is different but provides incomplete explanations or struggles to connect differences to survival needs.",
+        "beginning": "Student mentions that the butterfly looks different from a caterpillar but provides little or no explanation of how new body parts help it survive."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how the butterfly's wings look compared to other monarch butterflies?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes multiple wing patterns in detail, such as the symmetry of orange and black colors, the placement of white spots, or how the left and right wings match, using descriptive language.",
+        "meets": "Student describes one or two clear patterns, such as the matching colors on both wings or the black lines on orange wings, with accurate details.",
+        "approaching": "Student notices that the wings have colors and patterns but descriptions are vague or incomplete, such as just saying 'the wings are orange and black.'",
+        "beginning": "Student provides minimal observation of wing patterns or focuses on only one simple feature without detail."
+      }
+    },
+    {
+      "questionText": "Why do you think nature designed butterflies to go through such a big change instead of just growing bigger?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student provides thoughtful reasons for metamorphosis, such as allowing the insect to eat different foods at different life stages, escape predators through flying, or live in different environments, showing deeper understanding of survival advantages.",
+        "meets": "Student gives a reasonable explanation for why metamorphosis helps butterflies, such as getting wings to fly away or being able to eat different food as an adult.",
+        "approaching": "Student attempts to explain the advantage of metamorphosis but reasoning is unclear or only partially connects to survival, such as 'it helps them' without explaining how.",
+        "beginning": "Student provides minimal explanation or suggests that metamorphosis is only for appearance, showing little understanding of survival benefits."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:37:16.064Z",
+  "cost": 0.005006
+}

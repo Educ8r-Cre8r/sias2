@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper Eating Hibiscus Bud",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What body parts help this grasshopper successfully eat plants, and how does each part help?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple grasshopper body parts (mouth/jaws, legs, mandibles) and explains how each part specifically helps with eating or holding food, using accurate details like \"mandibles cut and chew\" or \"legs grip the plant stem.\"",
+        "meets": "Student identifies at least two grasshopper body parts and explains how they help the grasshopper eat plants with accurate but basic descriptions.",
+        "approaching": "Student identifies one or two body parts but provides incomplete explanations of how they help with eating, or makes general statements without specific details.",
+        "beginning": "Student names a body part with little or no explanation of its role in eating, or provides vague/inaccurate information about grasshopper feeding."
+      }
+    },
+    {
+      "questionText": "How might the plant be affected if too many grasshoppers lived in this area?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that many grasshoppers would eat more plant material, causing damage to flowers, buds, and leaves, and connects this to potential harm like reduced plant growth or inability to reproduce.",
+        "meets": "Student correctly predicts that too many grasshoppers would eat more of the plant and cause damage, with a simple cause-and-effect explanation.",
+        "approaching": "Student recognizes that grasshoppers eat plants and might cause harm, but reasoning is unclear or partially developed.",
+        "beginning": "Student provides a minimal response such as \"grasshoppers would eat the plant\" with no explanation of effects or consequences."
+      }
+    },
+    {
+      "questionText": "What do you think would happen to grasshoppers if all the plants in their habitat disappeared?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that grasshoppers would die or leave the area because plants are their food source, and may extend thinking to explain how this would affect other animals that eat grasshoppers.",
+        "meets": "Student predicts that grasshoppers would die or have no food to eat, making a clear connection between plants as a food source and grasshopper survival.",
+        "approaching": "Student recognizes that plants are important to grasshoppers but reasoning about the consequence is incomplete or unclear.",
+        "beginning": "Student provides a vague response like \"grasshoppers would die\" with no explanation linking it to food or habitat needs."
+      }
+    },
+    {
+      "questionText": "How does this grasshopper's feeding behavior connect it to other animals in the ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that grasshoppers eat plants (becoming part of a food chain) and identifies that other animals eat grasshoppers, demonstrating understanding of interconnected relationships in an ecosystem.",
+        "meets": "Student identifies that grasshoppers eat plants and/or that other animals eat grasshoppers, showing basic understanding of food chain connections.",
+        "approaching": "Student mentions grasshoppers eating plants or being eaten by other animals, but connection to ecosystem relationships is unclear or incomplete.",
+        "beginning": "Student provides a minimal response about grasshoppers or other animals with little evidence of understanding ecosystem connections."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:31:42.843Z",
+  "cost": 0.004922
+}

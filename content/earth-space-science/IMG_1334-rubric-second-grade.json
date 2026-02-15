@@ -1,0 +1,53 @@
+{
+  "title": "Mammal",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does the squirrel use to get and eat its food?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies at least three specific body parts (paws, teeth, mouth) and explains how each part helps the squirrel get or eat food with clear details.",
+        "meets": "Student correctly identifies two body parts (such as paws and teeth) and explains what each part does to help the squirrel eat.",
+        "approaching": "Student identifies one or two body parts but provides limited explanation of how they are used for getting or eating food.",
+        "beginning": "Student names a body part but gives vague or minimal explanation of its purpose in eating."
+      }
+    },
+    {
+      "questionText": "How do you think this squirrel's habitat provides what it needs to survive?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple ways the habitat helps the squirrel survive (food sources, shelter from plants, water access) and connects specific features from the photo to meet the squirrel's needs.",
+        "meets": "Student explains how at least two features of the habitat (plants, flowers, or garden) provide food or shelter that help the squirrel survive.",
+        "approaching": "Student identifies that the habitat provides food or shelter but gives incomplete or partially accurate explanations of how.",
+        "beginning": "Student attempts to connect the habitat to survival but provides vague or minimally developed ideas."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice about how different animals hold and eat their food?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes a clear pattern about animal eating behaviors (using paws, holding with front limbs, positioning food) and compares the squirrel's method to at least one other animal with specific details.",
+        "meets": "Student identifies a pattern in how animals use their body parts to hold or eat food and provides one or two examples with reasonable accuracy.",
+        "approaching": "Student notices some similarities or differences in how animals eat but the pattern description is incomplete or somewhat unclear.",
+        "beginning": "Student makes a simple observation about animal eating but does not clearly identify or explain a pattern."
+      }
+    },
+    {
+      "questionText": "Why might squirrels be successful living in places where people live?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides multiple reasons (abundant food in gardens, shelter in trees, adaptability) and explains how each factor helps squirrels survive in human neighborhoods.",
+        "meets": "Student gives at least two reasonable reasons why squirrels do well near people (such as available food sources or safe places to live) with basic explanation.",
+        "approaching": "Student provides one or two reasons but with limited detail or clarity in explaining why these factors help squirrels survive.",
+        "beginning": "Student attempts to answer but provides minimal or unclear reasons with little connection to squirrel survival needs."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:45:40.612Z",
+  "cost": 0.004459
+}

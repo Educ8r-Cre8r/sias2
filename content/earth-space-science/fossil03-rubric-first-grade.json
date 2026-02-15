@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think this animal looked like when it was alive?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student describes the animal with multiple details (such as size, color, body parts, or where it lived) and uses reasoning to explain their ideas based on the shell shape.",
+        "meets": "Student describes what the animal might have looked like with at least two details that connect to the shell fossil shown.",
+        "approaching": "Student attempts to describe the animal but provides only one detail or vague descriptions like 'it was small' or 'it lived in water.'",
+        "beginning": "Student gives a minimal response with little detail, such as 'I don't know' or a response unrelated to the shell."
+      }
+    },
+    {
+      "questionText": "How do you think this shell got inside the rock?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains a sequence of events showing how the shell became trapped (such as being buried by sediment, mud hardening into rock, or sinking to the ocean floor) with clear reasoning.",
+        "meets": "Student provides a reasonable explanation that the shell was buried or covered by something that turned into rock, showing basic fossil formation understanding.",
+        "approaching": "Student suggests the shell got into the rock but the explanation is incomplete or partially unclear, such as 'dirt covered it' without explaining what happened next.",
+        "beginning": "Student offers a guess with little or no reasoning, such as 'someone put it there' or 'I don't know.'"
+      }
+    },
+    {
+      "questionText": "What other things from today might become fossils someday?",
+      "bloomsLevel": "Imagine",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student lists three or more items that could become fossils and explains why each one could be preserved (such as hard parts, bones, or shells that last a long time).",
+        "meets": "Student names two appropriate things that might become fossils (such as bones, shells, or teeth) with simple explanations.",
+        "approaching": "Student names one or two things but explanations are vague or unclear, or suggests one item that wouldn't typically fossilize (like a leaf or soft item).",
+        "beginning": "Student provides minimal response with no clear examples or reasoning, such as 'rocks' or 'I don't know.'"
+      }
+    },
+    {
+      "questionText": "How is this fossil the same or different from shells you might find at the beach?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities and differences (such as the fossil being inside rock and very old while beach shells are loose and fresh) with clear explanations.",
+        "meets": "Student describes at least one similarity and one difference between the fossil and beach shells, such as 'both are shells' and 'this one is in rock.'",
+        "approaching": "Student attempts a comparison but only identifies one characteristic or the comparison is unclear, such as mentioning only that one is old.",
+        "beginning": "Student provides a minimal or unclear response with little evidence of comparison, such as 'they're different' without details."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:54:20.768Z",
+  "cost": 0.004656
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Mammal",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that this squirrel is well-adapted to its environment?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific adaptations (bushy tail for balance, front paws for gripping food, alert eyes for watching for danger) and explains how each helps the squirrel survive in the garden environment.",
+        "meets": "Student identifies at least two squirrel adaptations (such as bushy tail, strong paws, or keen eyes) and explains what each adaptation helps the squirrel do.",
+        "approaching": "Student identifies one or two physical features of the squirrel (such as tail or paws) but provides only partial or unclear explanations of how they help the squirrel survive.",
+        "beginning": "Student names a body part of the squirrel (tail, paws, eyes) with little or no explanation of how it helps the squirrel adapt to its environment."
+      }
+    },
+    {
+      "questionText": "How might this garden ecosystem be different from a forest ecosystem where squirrels also live?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies at least three differences between garden and forest ecosystems (such as food sources, number of trees, human presence, types of plants) and explains how these differences affect squirrels differently.",
+        "meets": "Student identifies at least two clear differences between garden and forest ecosystems (such as planted food vs. natural food, or open space vs. many trees) and describes how squirrels experience each differently.",
+        "approaching": "Student identifies one difference between a garden and forest ecosystem, or identifies multiple differences without explaining how they affect squirrels.",
+        "beginning": "Student attempts to describe a garden or forest but shows minimal understanding of how the two ecosystems differ or provides only vague comparisons."
+      }
+    },
+    {
+      "questionText": "What would happen to the squirrel population if humans stopped planting gardens in this area?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that the squirrel population would likely decrease and provides multiple scientific reasons (fewer food sources, loss of habitat, squirrels would need to migrate or compete in other areas).",
+        "meets": "Student predicts a reasonable outcome for the squirrel population (likely decrease) and provides at least one logical reason such as loss of food source or habitat.",
+        "approaching": "Student makes a prediction about what might happen to squirrels but reasoning is incomplete, vague, or only partially correct (such as mentioning fewer gardens without connecting to food or survival).",
+        "beginning": "Student provides a prediction with little or no reasoning, or reasoning that shows minimal understanding of how food sources affect animal populations."
+      }
+    },
+    {
+      "questionText": "Design an investigation to determine what foods squirrels prefer in your local area.",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a detailed investigation with clear steps, identifies multiple food types to test, describes how to observe and record data, and explains what results would show about squirrel preferences.",
+        "meets": "Student designs an investigation with clear steps that includes different food choices for squirrels and a way to observe which foods they eat; may need minor clarification on data collection.",
+        "approaching": "Student outlines an investigation idea but lacks some key components, such as unclear steps, incomplete food choices, or an underdeveloped plan for observing or recording results.",
+        "beginning": "Student attempts to design an investigation but provides only a vague idea with minimal steps or unclear methods for determining squirrel food preferences."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:46:03.426Z",
+  "cost": 0.005191
+}

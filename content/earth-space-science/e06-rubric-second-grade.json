@@ -1,0 +1,53 @@
+{
+  "title": "Drought",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think happened to make the ground look like puzzle pieces?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the ground dried out and shrunk, causing it to crack into pieces, and may add that water is needed to keep soil soft and together.",
+        "meets": "Student identifies that the ground is very dry and cracked, explaining that the lack of water caused the cracks to form.",
+        "approaching": "Student recognizes that the ground cracked but provides only a partial explanation, such as mentioning dryness or cracks without clearly connecting the two.",
+        "beginning": "Student provides a vague response like \"the ground broke\" with little or no explanation of why the cracks happened."
+      }
+    },
+    {
+      "questionText": "How might the small plants growing in the cracks be getting the water they need?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple water sources (rain, groundwater, or moisture) and explains how water might collect or seep into the cracks to reach plant roots.",
+        "meets": "Student recognizes that water from rain or soil moisture reaches the plant roots through the cracks in the ground.",
+        "approaching": "Student mentions that plants need water and that cracks might help, but does not clearly explain how water actually reaches the roots.",
+        "beginning": "Student provides a simple statement like \"the plants get water from rain\" without connecting it to how the cracks help."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in how the ground cracked?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies specific patterns such as cracks forming connected lines, pieces resembling puzzle shapes, or a web-like or branching pattern, and may explain that cracks spread in multiple directions.",
+        "meets": "Student describes clear patterns in the cracks, such as pieces looking like puzzle pieces or cracks forming connected lines across the ground.",
+        "approaching": "Student notices that there are cracks with some pattern but describes them vaguely, such as \"the cracks go different ways\" without clear details.",
+        "beginning": "Student responds with minimal observation, such as \"there are cracks\" without identifying any specific patterns."
+      }
+    },
+    {
+      "questionText": "If you were a farmer, what would you do if your field looked like this?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes a practical solution (such as watering, adding water through irrigation, or waiting for rain) and explains how it would help plants grow or prevent damage to the soil.",
+        "meets": "Student suggests a reasonable action like watering or adding water to the field and identifies that this would help the soil and plants.",
+        "approaching": "Student suggests an action related to the problem, such as watering or fixing the ground, but does not clearly explain why this would help.",
+        "beginning": "Student provides a vague or unclear response like \"fix it\" or \"water it\" without explaining the purpose or how it would help the farm."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:52:01.123Z",
+  "cost": 0.004596
+}

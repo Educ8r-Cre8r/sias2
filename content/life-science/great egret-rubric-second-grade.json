@@ -1,0 +1,53 @@
+{
+  "title": "Great Egret",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "How do this bird's body parts help it catch food in the water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies and explains how multiple body parts (long legs, long neck, sharp beak) work together to help the egret catch food, using specific details about how each part is useful in the water.",
+        "meets": "Student describes how at least two body parts (such as long legs for wading or sharp beak for catching) help the egret catch food in the water with accurate explanations.",
+        "approaching": "Student mentions one or two body parts that help the egret catch food, but explanation is incomplete or shows partial understanding of how they are used.",
+        "beginning": "Student provides a vague or minimal response, such as naming one body part with little or no explanation of how it helps catch food."
+      }
+    },
+    {
+      "questionText": "What would happen if this bird tried to live in a desert instead of near water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the egret would struggle to survive because it needs water for food and habitat, and describes specific problems such as lack of fish or other water animals to eat.",
+        "meets": "Student identifies that the desert would be a problem for the egret because it needs water to find food or would not have the right environment to live in.",
+        "approaching": "Student recognizes that the desert would be difficult for the egret but gives an incomplete or partially accurate reason, such as mentioning water or food but not clearly connecting both.",
+        "beginning": "Student provides a minimal response such as 'the bird would be sad' or 'it would not work' without explaining why."
+      }
+    },
+    {
+      "questionText": "What other animals have long legs like this bird, and why might they need them?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple animals with long legs (such as herons, cranes, or storks) and explains that long legs help them wade through water to find food or stay safe from predators.",
+        "meets": "Student names at least one other animal with long legs and provides a reasonable explanation for why long legs would be helpful, such as wading in water or reaching food.",
+        "approaching": "Student names one animal with long legs but gives an unclear or incomplete reason for why they might need them.",
+        "beginning": "Student names an animal or mentions long legs but does not connect the two ideas or provides inaccurate information."
+      }
+    },
+    {
+      "questionText": "How is this bird's beak different from a robin's beak, and what does that tell us about what they eat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes that the egret's beak is long and sharp (for catching fish and water animals) while a robin's beak is shorter and more rounded (for eating worms and insects), and explains how beak shape matches what each bird eats.",
+        "meets": "Student identifies that the egret's beak is longer and/or sharper than a robin's beak, and explains that this difference helps the egret catch fish or water animals.",
+        "approaching": "Student notices that the beaks look different but provides incomplete or partially accurate reasoning about how the difference relates to what each bird eats.",
+        "beginning": "Student makes a vague comparison or provides minimal information about the beaks without connecting beak shape to food or diet."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:32:13.107Z",
+  "cost": 0.005044
+}

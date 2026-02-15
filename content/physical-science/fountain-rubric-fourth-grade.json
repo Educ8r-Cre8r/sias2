@@ -1,0 +1,53 @@
+{
+  "title": "Fountain",
+  "category": "physical-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the water keeps flowing even though there are icicles forming?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moving water has energy that helps it resist freezing and identifies that the pump keeps pushing warm or moving water through the fountain, preventing complete freezing despite the cold temperature.",
+        "meets": "Student recognizes that the water keeps moving because of the pump and notes that moving water freezes differently than still water, or mentions that the flowing water stays warmer.",
+        "approaching": "Student acknowledges that the pump makes the water move or that the water is still flowing, but provides incomplete reasoning about why movement affects freezing.",
+        "beginning": "Student provides a vague answer like \"the water just keeps going\" or \"it's still cold\" without connecting movement to freezing."
+      }
+    },
+    {
+      "questionText": "What would happen to this fountain if the temperature dropped much lower or if the pump stopped working?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that lower temperature would cause all water to freeze solid and explains that if the pump stopped, water would freeze completely since it would no longer be moving; student may note that the fountain would stop working or that ice would build up.",
+        "meets": "Student predicts that the water would freeze completely if temperature dropped lower, and states that stopping the pump would also cause freezing, showing understanding of both variables.",
+        "approaching": "Student makes a prediction about either lower temperature or the pump stopping but doesn't fully explain the consequences for both scenarios, or reasoning is partially unclear.",
+        "beginning": "Student provides minimal predictions such as \"it would freeze\" without explaining conditions or consequences for the fountain's operation."
+      }
+    },
+    {
+      "questionText": "Where else have you seen water in two different states at the same time?",
+      "bloomsLevel": "Recall",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student provides multiple specific examples (ice cubes in liquid water, snow and rain, frost on grass with dew, steam from hot water) and correctly identifies the states of matter in each example.",
+        "meets": "Student provides at least two clear, real-world examples of water in two states simultaneously and correctly names the states (such as ice and liquid water, or snow and liquid water).",
+        "approaching": "Student provides one example or provides examples but shows uncertainty about whether they truly represent two different states of water.",
+        "beginning": "Student provides a vague or unclear example, or confuses states of matter without demonstrating understanding of the difference between liquid, solid, and gas water."
+      }
+    },
+    {
+      "questionText": "How could we design an experiment to test what makes water freeze faster - moving water or still water?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes a complete experimental design including: two containers (one with moving water, one without), keeping all other conditions the same (same temperature, same amount of water, same container type), a method to measure freezing time, and explains why controlling variables is important.",
+        "meets": "Student outlines a basic experiment comparing moving and still water with most key elements: two containers, a way to keep water moving in one, freezing time measurements, and recognition that other conditions should stay the same.",
+        "approaching": "Student describes comparing moving and still water but is missing some experimental details such as how to keep water moving, how to measure time, or doesn't mention controlling other variables.",
+        "beginning": "Student makes a simple suggestion like \"put water outside and see what freezes first\" without clear methodology or consideration of fair testing conditions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:59:32.492Z",
+  "cost": 0.005154
+}

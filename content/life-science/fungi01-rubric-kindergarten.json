@@ -1,0 +1,53 @@
+{
+  "title": "Fungi01",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how this mushroom looks similar to or different from plants in your yard?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific visual differences (mushroom has no leaves or flowers, has a cap and stem, grows from ground) and makes at least one similarity (both grow from ground); uses words like 'cap,' 'stem,' or 'gills' to describe parts.",
+        "meets": "Student identifies at least two accurate observations about how mushrooms differ from plants (no leaves, has a cap) or mentions one similarity and one difference with basic descriptions.",
+        "approaching": "Student notices one difference or one similarity between mushrooms and plants, but explanation is vague or only partially accurate (e.g., 'it looks different' without specific details).",
+        "beginning": "Student makes minimal observations with little detail, provides inaccurate comparisons, or responds with unrelated statements about the mushroom."
+      }
+    },
+    {
+      "questionText": "Where do you think this mushroom came from, and what do you think it needs to grow?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies mushrooms grow from the ground or soil and lists multiple growth needs (water, dark places, or decaying materials); reasoning shows logical thinking about what living things need.",
+        "meets": "Student suggests mushrooms grow from soil or ground and identifies 1-2 growth needs (like water or a damp place) with reasonable explanation.",
+        "approaching": "Student identifies where mushrooms come from OR what they need to grow, but one part is missing or vague; reasoning is incomplete.",
+        "beginning": "Student provides minimal response about mushroom origin or needs; answer lacks clear reasoning or contains significant inaccuracies."
+      }
+    },
+    {
+      "questionText": "How might this mushroom help other living things in the forest?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that mushrooms provide food for animals and/or help break down dead plants into soil; uses words like 'decompose' or 'nutrients' and shows understanding of forest connections.",
+        "meets": "Student identifies one way mushrooms help (animals eat them, or they break down dead things) with a logical explanation.",
+        "approaching": "Student attempts to explain how mushrooms help but reasoning is unclear, partially correct, or describes only one idea vaguely.",
+        "beginning": "Student provides minimal response with little understanding of how mushrooms help; answer may be inaccurate or off-topic."
+      }
+    },
+    {
+      "questionText": "What questions do you have about mushrooms after looking at this picture?",
+      "bloomsLevel": "Generate",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student asks 2 or more thoughtful, specific questions about mushrooms (e.g., 'Why are there lines under the cap?' 'Do all mushrooms have stems?'); questions show curiosity and connection to observable features.",
+        "meets": "Student asks 1-2 clear, on-topic questions about mushrooms that show genuine curiosity (e.g., 'How do mushrooms grow?' 'Can we eat this one?').",
+        "approaching": "Student asks a question about mushrooms, but it is vague, unclear, or only partially related to the picture; limited curiosity shown.",
+        "beginning": "Student provides no question, an off-topic question, or a response that does not demonstrate understanding of the task."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:26:24.545Z",
+  "cost": 0.005056
+}

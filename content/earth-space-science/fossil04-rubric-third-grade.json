@@ -1,0 +1,53 @@
+{
+  "title": "Fossil in Sedimentary Rock",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What can this fossil tell us about what Earth was like millions of years ago?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies multiple details about ancient Earth (e.g., presence of oceans, different sea creatures, changes over time) and explains how the fossil provides evidence of these conditions.",
+        "meets": "Student correctly states that fossils show Earth had oceans and different creatures lived long ago, with at least one supporting detail from the fossil.",
+        "approaching": "Student mentions that fossils show something about the past or that oceans existed, but explanations lack clear details or contain minor inaccuracies.",
+        "beginning": "Student provides a vague response such as 'fossils are old' or 'they lived a long time ago' with little connection to what Earth was actually like."
+      }
+    },
+    {
+      "questionText": "Why do you think we find fossils of sea creatures in places that are now far from the ocean?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that oceans covered different areas long ago or that land has changed position, and connects this to why sea creature fossils are found inland; may mention sediment or rocks moving.",
+        "meets": "Student correctly explains that the ocean used to cover places that are now land, or that Earth has changed since the fossils formed.",
+        "approaching": "Student recognizes that Earth has changed or oceans were in different places, but explanation is unclear or only partially correct.",
+        "beginning": "Student offers a guess or unclear reason, such as 'the fossils moved' or 'the sea creatures walked there,' showing limited understanding of Earth's changes."
+      }
+    },
+    {
+      "questionText": "What conditions do you think would be best for making fossils?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple conditions for fossil formation (e.g., quick burial, presence of sediment/mud, ocean or water environments, absence of decay) and explains why each helps preserve organisms.",
+        "meets": "Student identifies at least two conditions helpful for fossilization, such as being covered quickly or being in water/mud, with reasonable explanations.",
+        "approaching": "Student mentions one or two conditions but explanations are incomplete or partially inaccurate (e.g., 'fossils need to be buried' without explaining why).",
+        "beginning": "Student provides minimal or unclear conditions, such as 'fossils need to be old' or 'they need rocks,' showing limited understanding of preservation."
+      }
+    },
+    {
+      "questionText": "How is this ancient brachiopod similar to and different from sea creatures living today?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies both similarities (e.g., shell structure, ocean habitat, body parts) and differences (e.g., extinct species, shell design, size) and explains what these differences might mean about evolution.",
+        "meets": "Student identifies at least one similarity and one difference between the ancient brachiopod and modern sea creatures with accurate descriptions.",
+        "approaching": "Student attempts to compare but identifies only similarities OR only differences, or descriptions lack accuracy or clarity.",
+        "beginning": "Student provides vague or unclear comparisons, such as 'they're both shells' or 'they lived in water,' with minimal specific details."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:55:24.257Z",
+  "cost": 0.004937
+}

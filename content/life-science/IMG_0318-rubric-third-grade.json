@@ -1,0 +1,53 @@
+{
+  "title": "Mourning Dove",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "If you were a fox hunting for kildeers on a rocky beach, why would it be hard to find this bird?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student explains that the killdeer's light brown and gray feathers blend in with the rocky, sandy ground, making it hard to see. Student may also note specific colors or patterns that help it hide.",
+        "meets": "Student identifies that the killdeer's colors help it blend in or hide on the rocky beach, making it difficult to spot.",
+        "approaching": "Student mentions that the bird's color or the background are related to finding it, but explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a vague response such as 'it's hard to see' or 'it hides' without explaining how color or the environment help."
+      }
+    },
+    {
+      "questionText": "Where else in nature do you think animals might have camouflage like the killdeer? Why would camouflage be useful in those places?",
+      "bloomsLevel": "Apply",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple habitats where camouflage would be useful (such as forests, grass, snow, or deserts) and clearly explains why camouflage helps animals survive or hide in each place.",
+        "meets": "Student identifies at least one realistic habitat where camouflage would be useful and provides a reasonable explanation of why it would help animals there.",
+        "approaching": "Student identifies a habitat but gives a weak or incomplete reason why camouflage would be useful, or identifies a less realistic example.",
+        "beginning": "Student provides a vague habitat idea or unclear connection between the habitat and why camouflage matters."
+      }
+    },
+    {
+      "questionText": "If a group of kildeers had some birds with very dark feathers and some with very light feathers, which ones might survive better on a light-colored beach? Why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student correctly identifies that light-feathered kildeers would survive better and explains that they blend in with the light-colored beach, making them harder for predators to see.",
+        "meets": "Student correctly identifies that light-feathered kildeers would survive better and provides a basic explanation involving blending in or matching the beach color.",
+        "approaching": "Student identifies the light-feathered birds as better but gives an unclear or incomplete reason related to camouflage.",
+        "beginning": "Student makes an incorrect choice or provides little explanation for their answer."
+      }
+    },
+    {
+      "questionText": "What would happen to kildeers if their rocky, sandy habitat turned into a thick forest? Would their camouflage still help them survive?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the killdeer's light brown feathers would not work well in a dark forest and that its camouflage would no longer help it hide or survive. Student may discuss how the bird's appearance wouldn't match the forest environment.",
+        "meets": "Student recognizes that the killdeer's camouflage would not work in a forest and provides a basic reason, such as the feathers wouldn't match or blend in with trees.",
+        "approaching": "Student indicates that camouflage might not help in a forest but provides limited reasoning or is somewhat unclear about why the change matters.",
+        "beginning": "Student provides a minimal response or unclear connection between the habitat change and whether camouflage would still be useful."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:15:59.343Z",
+  "cost": 0.005188
+}

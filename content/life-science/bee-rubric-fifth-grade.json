@@ -1,0 +1,53 @@
+{
+  "title": "Bee",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What body features help this bee collect pollen, and how might these features be different from other insects?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pollen-collection features (fuzzy body, branched hairs, leg structures) with detailed explanations of how each works, and makes accurate comparisons to other insects (e.g., smooth-bodied beetles or smooth-winged butterflies cannot collect pollen as effectively).",
+        "meets": "Student identifies at least two pollen-collection features (such as fuzzy body or special hairs) and explains how they work, with a basic comparison to how other insects differ in structure.",
+        "approaching": "Student identifies one or two features that help collect pollen but provides incomplete explanations of how they work, or makes vague comparisons to other insects without specific details.",
+        "beginning": "Student names a body part but shows minimal understanding of its function in pollen collection, or makes inaccurate comparisons to other insects."
+      }
+    },
+    {
+      "questionText": "How would our ecosystem change if all the bees disappeared tomorrow?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple interconnected consequences including loss of pollination, plant reproduction failure, food chain collapse, and impacts on various organisms (herbivores losing food sources, predators losing prey). Response demonstrates understanding of ecosystem interdependence.",
+        "meets": "Student describes at least two major changes such as lack of pollination leading to fewer flowers and plants, and resulting impacts on animals that depend on those plants for food.",
+        "approaching": "Student identifies one significant change (such as fewer flowers or plants dying) but explanations lack detail about how this would affect other organisms in the ecosystem.",
+        "beginning": "Student provides a vague response such as 'things would be bad' or names only one organism affected without explaining the connection to bees or the broader ecosystem."
+      }
+    },
+    {
+      "questionText": "What evidence from the photo shows that this bee is well-adapted for visiting flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple adaptations visible in the photo (fuzzy body for pollen collection, compound eyes for seeing flowers, antennae for sensing, wings for flight) and explains how each adaptation specifically helps the bee find and collect pollen from flowers.",
+        "meets": "Student identifies at least three visible adaptations (such as fuzzy body, wings, and antennae or eyes) and explains how they help the bee visit flowers and collect pollen.",
+        "approaching": "Student identifies two adaptations visible in the photo but provides limited or partially accurate explanations of how they help with flower visitation or pollen collection.",
+        "beginning": "Student names one feature from the photo but shows unclear understanding of how it relates to the bee's ability to visit flowers."
+      }
+    },
+    {
+      "questionText": "Why do you think flowers are often colorful and smell sweet?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that flowers are colorful and fragrant to attract pollinators like bees, and connects this to the bee's adaptations (compound eyes detect colors, antennae detect scents). Response demonstrates understanding of pollination as a plant-insect interaction.",
+        "meets": "Student correctly identifies that colors and scents attract bees or other insects to flowers, and explains that this helps with pollination or flower visiting.",
+        "approaching": "Student recognizes that flowers' colors and scents are related to attracting insects, but explanation lacks clarity about the purpose or how bees detect these signals.",
+        "beginning": "Student provides a general or inaccurate response such as 'they look pretty' without connecting colors and scents to bee attraction or pollination."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:22:23.902Z",
+  "cost": 0.005387
+}

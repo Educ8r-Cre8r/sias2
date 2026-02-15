@@ -1,0 +1,53 @@
+{
+  "title": "Great Egret",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does this bird have that help it catch food in the water?",
+      "bloomsLevel": "Identify",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more specific body parts (long beak, long legs, eyes) and explains how each one helps the bird catch food in the water.",
+        "meets": "Student identifies two body parts (such as long beak and long legs) and explains that they help the bird catch food in the water.",
+        "approaching": "Student identifies one body part that helps catch food, or mentions two parts with limited explanation of how they help.",
+        "beginning": "Student names a body part but provides no clear connection to catching food, or gives a vague response like 'it has a beak.'"
+      }
+    },
+    {
+      "questionText": "How do you think this bird's long legs help it survive?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long legs allow the bird to wade deep in water to find food and stay safe, showing understanding of multiple survival benefits.",
+        "meets": "Student explains that long legs help the bird reach food in the water or walk in deep water without getting wet.",
+        "approaching": "Student says long legs help the bird get food or move in water, but the explanation is incomplete or somewhat unclear.",
+        "beginning": "Student provides a minimal response such as 'it helps it move' with little connection to survival or water activities."
+      }
+    },
+    {
+      "questionText": "What would happen if this bird had short legs like a robin?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the bird would have difficulty catching food in water, would stay in shallow areas, or would struggle to survive in its current environment, with clear reasoning.",
+        "meets": "Student predicts the bird could not reach food in the water or could not wade as deep, showing understanding of how body parts affect function.",
+        "approaching": "Student makes a prediction about short legs limiting the bird, but reasoning is vague or partially developed.",
+        "beginning": "Student makes a prediction with little or no explanation, or provides an unclear response about what would happen."
+      }
+    },
+    {
+      "questionText": "What other animals have body parts that help them get food from water?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names two or more water animals and describes specific body parts each uses to get food (such as a duck's beak, a fish's fins, or a heron's beak).",
+        "meets": "Student names one or two water animals and describes at least one body part that helps them get food from water.",
+        "approaching": "Student names a water animal but provides limited or vague description of its body parts, or names an animal without explaining how its body parts help get food.",
+        "beginning": "Student names an animal with no connection to water feeding, or provides a response that does not clearly address the question."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:32:05.543Z",
+  "cost": 0.004445
+}

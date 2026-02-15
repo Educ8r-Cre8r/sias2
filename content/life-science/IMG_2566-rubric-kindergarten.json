@@ -1,0 +1,53 @@
+{
+  "title": "Swallowtail Butterfly",
+  "category": "life-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the butterfly's body parts?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies three or more body parts (such as wings, antennae, body, legs) with accurate descriptions and shows understanding of how they look or what they do.",
+        "meets": "Student identifies two body parts (such as wings and antennae) accurately and describes what they see.",
+        "approaching": "Student identifies one body part or mentions the butterfly has different parts but with incomplete or vague descriptions.",
+        "beginning": "Student makes a minimal attempt to describe the butterfly's body parts with little detail or accuracy."
+      }
+    },
+    {
+      "questionText": "How do you think the butterfly and flower help each other?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the butterfly gets food from the flower and the flower gets help making seeds or new flowers, showing understanding of a simple partnership.",
+        "meets": "Student recognizes that the butterfly and flower help each other in some way, such as the butterfly getting food or the flower getting help.",
+        "approaching": "Student mentions that the butterfly and flower interact but with unclear or partially correct reasoning about how they help each other.",
+        "beginning": "Student provides a minimal or unclear response showing little understanding of the relationship between butterflies and flowers."
+      }
+    },
+    {
+      "questionText": "What might happen if there were no butterflies to visit flowers?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a logical consequence, such as flowers not making seeds, not having new flowers, or other effects, and explains why this would happen.",
+        "meets": "Student predicts a reasonable consequence, such as flowers not getting help or not making new flowers.",
+        "approaching": "Student makes a prediction but with limited explanation or unclear connection to how butterflies help flowers.",
+        "beginning": "Student provides a minimal or illogical prediction with little or no explanation."
+      }
+    },
+    {
+      "questionText": "Why do you think flowers have bright colors like this pink one?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that bright colors help butterflies and other insects find the flowers, showing understanding that color serves a purpose in attracting visitors.",
+        "meets": "Student suggests that bright colors help butterflies see or find the flowers.",
+        "approaching": "Student mentions that butterflies notice or like the bright colors but with incomplete reasoning about why.",
+        "beginning": "Student provides a minimal response such as 'flowers are pretty' with no connection to butterflies or insects."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:18:42.718Z",
+  "cost": 0.004038
+}

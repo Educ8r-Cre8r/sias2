@@ -1,0 +1,53 @@
+{
+  "title": "Seedling",
+  "category": "life-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the plant's roots are growing down into the water instead of up toward the air?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that roots grow down to find water and nutrients they need to survive, and may add that roots naturally grow downward (gravity) while leaves grow upward toward light.",
+        "meets": "Student correctly identifies that roots grow down because they need water, or that roots are looking for water to help the plant grow.",
+        "approaching": "Student mentions water or that roots need something from below, but explanation is unclear or incomplete (e.g., 'roots go down to get stuff').",
+        "beginning": "Student provides a vague answer like 'roots just do that' or 'I don't know' with no reference to water or plant needs."
+      }
+    },
+    {
+      "questionText": "What would happen if we moved this bottle away from the window and put it in a dark closet? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would stop growing or the leaves would lose their green color, and explains that plants need light to grow and stay healthy or to make their own food.",
+        "meets": "Student predicts the plant would not grow well or the leaves might turn lighter/yellow, and mentions that plants need light or sunlight to be healthy.",
+        "approaching": "Student predicts something negative would happen (plant dies, stops growing, gets darker) but provides weak or incomplete reasoning about why.",
+        "beginning": "Student makes a prediction with no explanation, or gives an answer unrelated to light and plant growth (e.g., 'it will be cold')."
+      }
+    },
+    {
+      "questionText": "How is this baby plant the same as its parent plant? How might it be a little different?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple similarities (heart-shaped leaves, green color, growing roots) and differences (baby plant is smaller, parent is bigger, or baby grew from water while parent may have different roots), showing understanding of plant growth.",
+        "meets": "Student identifies at least one similarity (same leaf shape, both green, both plants) and one difference (baby is smaller, or one is in water/soil), with clear statements.",
+        "approaching": "Student mentions one similarity or one difference, but descriptions lack detail or clarity (e.g., 'they look alike' or 'this one is smaller').",
+        "beginning": "Student gives a vague or incomplete response with minimal comparison (e.g., 'they're plants' or no answer)."
+      }
+    },
+    {
+      "questionText": "If we took another cutting from this growing plant and put it in water, what do you think would happen? Why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the new cutting would grow roots and become a new plant like the one in the photo, and explains that cuttings can grow roots in water just like the original plant did, showing understanding of plant reproduction.",
+        "meets": "Student predicts the cutting would grow roots and survive in water, with a reasonable explanation that it would work like the plant already growing in the bottle.",
+        "approaching": "Student predicts growth or root development but explanation is unclear; may say 'it would grow' without explaining why or how it would be similar to the current plant.",
+        "beginning": "Student makes a vague prediction like 'it would grow' or 'it would die' with no explanation or reasoning."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:14:05.019Z",
+  "cost": 0.005158
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Mammal",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What specific body parts help this squirrel gather and eat food successfully?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body parts (front paws, teeth, claws, whiskers) and explains how each part specifically helps with gathering or eating food with accurate scientific details.",
+        "meets": "Student identifies at least two body parts (such as front paws and teeth) and describes how they help the squirrel gather or eat food.",
+        "approaching": "Student identifies one or two body parts and provides a partial or unclear explanation of how they help with gathering or eating food.",
+        "beginning": "Student names a body part with little to no explanation, or provides only vague descriptions of how body parts help the squirrel eat."
+      }
+    },
+    {
+      "questionText": "How might this squirrel's feeding behavior change during different seasons, and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student describes feeding behavior changes in at least two seasons and explains scientifically accurate reasons, such as food availability, temperature, or hibernation/torpor patterns.",
+        "meets": "Student describes how feeding behavior changes in at least one season and provides a reasonable explanation related to food availability or weather.",
+        "approaching": "Student mentions seasonal changes in feeding or food availability but provides incomplete or partially accurate reasoning.",
+        "beginning": "Student provides a vague response about seasons or feeding with minimal or inaccurate reasoning."
+      }
+    },
+    {
+      "questionText": "What would happen to the plants in this garden if squirrels and other animals weren't present?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains multiple impacts such as overgrowth of plants, lack of seed dispersal, or changes in plant populations, demonstrating understanding of ecosystem relationships.",
+        "meets": "Student identifies at least one reasonable consequence, such as plants growing too much or seeds not spreading, and explains a basic connection.",
+        "approaching": "Student mentions a change to plants but provides limited or incomplete reasoning about why it would occur.",
+        "beginning": "Student provides a minimal response with little understanding of how animals affect garden plants."
+      }
+    },
+    {
+      "questionText": "How do you think this squirrel's habitat needs compare to those of a fish or bird?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences in habitat needs (shelter type, water access, food sources, air vs. land environments) and explains why squirrels, fish, and birds require different conditions.",
+        "meets": "Student describes at least two differences in habitat needs between squirrels and either fish or birds with reasonable explanations.",
+        "approaching": "Student mentions one or two habitat differences but explanations are vague or only partially accurate.",
+        "beginning": "Student provides minimal information about habitat differences or uses only very general descriptions."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:45:54.541Z",
+  "cost": 0.004391
+}

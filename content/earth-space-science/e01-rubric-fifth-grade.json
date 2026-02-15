@@ -1,0 +1,53 @@
+{
+  "title": "Sunrise",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How might the temperature difference between this city and a nearby forest affect the plants and animals living in each place?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple temperature-related effects on both city and forest organisms (e.g., heat stress on city animals, different plant growth rates, migration patterns) and explains how organisms are adapted to their specific environments.",
+        "meets": "Student describes how temperature differences affect plants or animals in both locations with at least one specific example for each (e.g., city plants need more water, forest animals stay cooler).",
+        "approaching": "Student mentions that temperature affects plants and animals differently in cities versus forests but provides limited or vague examples, or focuses on only one location.",
+        "beginning": "Student provides a minimal response that acknowledges temperature differences exist but offers little or no explanation of how this impacts living things."
+      }
+    },
+    {
+      "questionText": "What solutions could city planners use to reduce the heat island effect while still meeting people's needs for housing and transportation?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes at least three feasible solutions (e.g., green roofs, light-colored pavement, public transportation, urban forests) and explains how each reduces heat while addressing housing or transportation needs.",
+        "meets": "Student suggests two or more reasonable solutions that reduce the heat island effect and briefly explains how they could work alongside human needs.",
+        "approaching": "Student proposes one or two solutions but either lacks explanation of how they reduce heat or doesn't clearly connect them to meeting city needs.",
+        "beginning": "Student suggests a vague or unrealistic solution with little explanation of how it would reduce the heat island effect or serve city populations."
+      }
+    },
+    {
+      "questionText": "Why do you think the glass buildings in this photo might reflect more heat than brick buildings?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that glass is reflective and smooth while brick absorbs and stores heat, connecting this to how different material properties affect light absorption and heat reflection in urban environments.",
+        "meets": "Student correctly explains that glass reflects light and heat while brick absorbs it, demonstrating understanding of how material properties affect temperature.",
+        "approaching": "Student identifies that glass and brick behave differently with heat or light but provides incomplete or partially accurate reasoning about reflection versus absorption.",
+        "beginning": "Student makes a guess or provides a response with minimal or incorrect reasoning about how glass and brick interact with heat."
+      }
+    },
+    {
+      "questionText": "How does the urban heat island effect demonstrate that human activities can change natural systems?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student clearly explains how human activities (building cities, using dark materials, removing vegetation) create warmer urban temperatures and connects this to broader impacts on weather, ecosystems, and energy use.",
+        "meets": "Student explains that human-built environments cause higher temperatures and describes how this shows humans can alter natural systems, with logical reasoning.",
+        "approaching": "Student recognizes that cities are warmer due to human activities but provides limited connection to how this demonstrates humans changing natural systems overall.",
+        "beginning": "Student provides a vague statement about humans and heat or cities without clearly explaining the cause-and-effect relationship between human activities and the heat island effect."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:49:12.328Z",
+  "cost": 0.004875
+}

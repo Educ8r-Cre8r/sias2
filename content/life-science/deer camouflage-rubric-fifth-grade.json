@@ -1,0 +1,53 @@
+{
+  "title": "Deer Camouflage",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How might a deer's camouflage be different if it lived in a snowy mountain environment instead of grasslands?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that deer in snowy environments would need white or light-colored fur to blend with snow instead of brown/tan, and connects this to how camouflage must match the specific environment to be effective for survival.",
+        "meets": "Student correctly identifies that a deer's fur color would need to be white or light-colored to match snow, showing understanding that camouflage depends on habitat color.",
+        "approaching": "Student recognizes that a deer's appearance would need to change in snow but provides vague or partially accurate reasoning about why (e.g., 'it would be different' without explaining the color match).",
+        "beginning": "Student provides minimal response with little understanding, such as 'it would look different' or an inaccurate statement about how camouflage works in different environments."
+      }
+    },
+    {
+      "questionText": "What would happen to deer populations if their main predators disappeared from the ecosystem?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that deer populations would likely increase significantly and explains potential consequences such as overgrazing, food scarcity, or habitat damage, demonstrating understanding of ecosystem balance.",
+        "meets": "Student correctly predicts that deer populations would increase without predators and provides a reasonable explanation of why (fewer deer are hunted/eaten).",
+        "approaching": "Student predicts population increase but provides incomplete or somewhat unclear reasoning about the connection between predators and population control.",
+        "beginning": "Student provides a vague or partially inaccurate response, such as 'deer would be happy' or 'nothing would happen,' showing limited understanding of predator-prey relationships."
+      }
+    },
+    {
+      "questionText": "Why do you think baby deer (fawns) have spots while adult deer have solid-colored coats?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that fawn spots provide camouflage in dappled forest light and tall grass where they spend time, while solid-colored adult coats work better in open grasslands, connecting camouflage to different habitats and life stages.",
+        "meets": "Student explains that spots help fawns hide in grass or forest environments where they stay, showing understanding that camouflage changes serve different survival needs.",
+        "approaching": "Student recognizes that spots and solid colors serve different purposes but provides incomplete explanation (e.g., 'spots are for hiding' without explaining where or why they work).",
+        "beginning": "Student provides minimal response such as 'fawns are born with spots' or an inaccurate statement, showing little understanding of how camouflage relates to survival."
+      }
+    },
+    {
+      "questionText": "What other animals can you think of that use camouflage, and how does their camouflage match their habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names at least two animals with camouflage and clearly explains how each animal's specific colors, patterns, or appearance match features of its habitat (e.g., polar bear's white fur in snow, spotted leopard in dappled forest light).",
+        "meets": "Student names at least one animal that uses camouflage and correctly explains how its appearance matches its habitat.",
+        "approaching": "Student names one or two animals but provides vague or partially accurate explanation of how their camouflage matches their habitat (e.g., 'chameleon changes color to hide' without specifying how).",
+        "beginning": "Student names an animal but provides little or no explanation of how camouflage works, or names animals that do not primarily use camouflage for survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:25:27.669Z",
+  "cost": 0.005517
+}

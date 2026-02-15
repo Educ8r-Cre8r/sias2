@@ -1,0 +1,53 @@
+{
+  "title": "Beach",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the sand at this beach was before it became sand?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that sand came from rocks and shells, explains that waves and weathering broke them into small pieces, and may mention other sources like minerals or coral.",
+        "meets": "Student correctly states that sand came from rocks and/or shells that were broken down by waves or water over time.",
+        "approaching": "Student identifies rocks or shells as a source of sand but provides incomplete or unclear explanation of how they became sand.",
+        "beginning": "Student makes a guess about sand's origin with minimal reasoning or provides an inaccurate response."
+      }
+    },
+    {
+      "questionText": "How might this beach look different after a big storm with really big waves?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple specific changes such as sand being moved/washed away, the beach becoming wider or narrower, rocks or shells being uncovered or buried, and explains that waves move sand and other materials.",
+        "meets": "Student predicts that the beach would look different and describes at least one change, such as sand being moved, washed away, or piled up in a different way.",
+        "approaching": "Student predicts the beach will change but provides vague descriptions or only suggests the beach will look 'messy' or 'different' without specific details.",
+        "beginning": "Student makes a minimal prediction with little or no explanation of how storm waves would affect the beach."
+      }
+    },
+    {
+      "questionText": "Why do you think the hermit crab lives on a sandy beach instead of on rocks?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the hermit crab uses sand to hide or bury itself for protection, and may mention that sand is easier for the crab to move through or that it can find food in sandy areas.",
+        "meets": "Student provides a reasonable explanation such as the crab can hide in sand, dig in sand, or find food more easily on sand than on rocks.",
+        "approaching": "Student recognizes that sand is important for the hermit crab but gives an incomplete or partially accurate reason, such as 'the crab likes sand' without clear explanation.",
+        "beginning": "Student provides a minimal or inaccurate response with little evidence of understanding why habitat matters to animals."
+      }
+    },
+    {
+      "questionText": "If we took a photo of this same beach every week for a whole year, what changes do you think we might see?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts multiple seasonal or long-term changes such as varying amounts of sand, different water levels, erosion patterns, different plants or animals appearing, and recognizes that beaches change over time due to weather and seasons.",
+        "meets": "Student predicts at least two realistic changes to the beach throughout the year, such as more or less sand, different weather conditions, or seasonal changes in water level or animal activity.",
+        "approaching": "Student predicts some changes but descriptions are vague or only mentions one type of change repeatedly without variety or clear connection to seasonal/long-term effects.",
+        "beginning": "Student makes a prediction with minimal detail or gives a response that shows limited understanding of how beaches change over time."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:48:02.156Z",
+  "cost": 0.004915
+}

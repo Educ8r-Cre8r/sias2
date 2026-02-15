@@ -1,0 +1,53 @@
+{
+  "title": "Sunflower",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe that shows this plant is using energy to grow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific observable changes (stem elongation, leaf unfurling, emergence from soil) and explains that these physical changes require energy from the seed's stored food to build new plant structures.",
+        "meets": "Student identifies at least two observable changes (such as the stem growing upward or leaves beginning to unfold) and connects these to plant growth requiring energy.",
+        "approaching": "Student identifies one observable change in the seedling's appearance but provides incomplete or unclear connection between the observation and energy use for growth.",
+        "beginning": "Student makes a vague observation about the plant growing or changing but does not clearly explain what evidence shows energy is being used."
+      }
+    },
+    {
+      "questionText": "How might this seedling's growth be different if it were planted in complete darkness versus bright sunlight?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific differences (seedling in darkness would be taller/paler with smaller leaves; in sunlight would be shorter/greener with larger leaves) and explains that plants need light to make chlorophyll and food through photosynthesis.",
+        "meets": "Student predicts that sunlight affects the seedling's color, size, or leaf development and provides a basic explanation that plants need light to grow properly.",
+        "approaching": "Student predicts that light would make a difference to the seedling but explanation is incomplete or only describes one aspect (color OR size OR leaf development).",
+        "beginning": "Student states that light matters to plants but provides minimal detail about how darkness versus sunlight would actually change this seedling's growth."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to the seed coat over the next few days, and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the seed coat will fall off or be pushed off and explains that it protected the seed underground but is no longer needed as the plant develops its own leaves for protection and food-making.",
+        "meets": "Student predicts the seed coat will fall off or separate from the seedling and provides a reasonable explanation about its role in protecting the seed.",
+        "approaching": "Student predicts the seed coat will fall off but provides unclear or incomplete reasoning about why this happens or what the seed coat's original purpose was.",
+        "beginning": "Student makes a prediction about the seed coat but offers no explanation or states that something will happen without clear reasoning."
+      }
+    },
+    {
+      "questionText": "How does this seedling's survival strategy compare to how baby animals get the energy they need to grow?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that the seedling uses stored food from the seed while baby animals eat food (from parents or other sources), and recognizes both strategies provide energy for growth but through different methods—seeds are self-contained while baby animals depend on external food sources.",
+        "meets": "Student identifies that seedlings start with stored seed energy while baby animals need to eat food from their parents or surroundings, acknowledging these are different ways to get energy for growth.",
+        "approaching": "Student recognizes that seedlings and baby animals both need energy to grow but provides an incomplete or unclear comparison of how each obtains that energy.",
+        "beginning": "Student attempts a comparison but shows minimal understanding of how seedlings or baby animals obtain energy for growth."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:43:40.424Z",
+  "cost": 0.005056
+}

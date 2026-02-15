@@ -1,0 +1,53 @@
+{
+  "title": "Fungi04",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you notice about where these pink balls are growing?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the specific location (dead wood, forest floor, leaves) and describes multiple details about the surroundings, such as the ground being damp or dark.",
+        "meets": "Student correctly identifies that the pink balls are growing on dead wood or leaves on the forest floor with at least one supporting detail.",
+        "approaching": "Student identifies the general location (like 'on the ground' or 'on wood') but lacks specific details or is partially inaccurate.",
+        "beginning": "Student makes a vague observation about location (like 'outside' or 'somewhere') with little to no accurate detail."
+      }
+    },
+    {
+      "questionText": "Why do you think the slime mold makes these pink balls instead of staying as gooey slime?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the pink balls help the slime mold spread its spores and survive, and connects this to an idea like protection, travel, or reproduction with scientific reasoning.",
+        "meets": "Student provides a reasonable explanation that the pink balls help the slime mold spread, move, or protect itself in some way.",
+        "approaching": "Student attempts an explanation but it is unclear, partially accurate, or shows incomplete understanding of why the shape change might be helpful.",
+        "beginning": "Student gives a vague answer or guesses without reasonable scientific thinking (like 'it just wanted to' or 'it looks pretty')."
+      }
+    },
+    {
+      "questionText": "How might these pink spore balls help the slime mold survive in different places?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that spores can travel by wind, water, or animals to new locations, and describes how this helps the slime mold find new sources of food or suitable environments.",
+        "meets": "Student explains that the spore balls allow the slime mold to spread to new places or survive in a way that makes sense (such as being carried away or staying protected).",
+        "approaching": "Student identifies that the balls help spread or survive but provides incomplete reasoning or lacks clarity about how movement to new places helps survival.",
+        "beginning": "Student provides a minimal answer that shows little understanding of how spores or spreading helps the slime mold survive."
+      }
+    },
+    {
+      "questionText": "What other living things have you seen that change their shape or form during their life?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student names multiple living things that change form (such as caterpillar to butterfly, tadpole to frog, seed to plant) and describes the change with specific details.",
+        "meets": "Student names at least one living thing that changes shape or form during its life and describes the change accurately.",
+        "approaching": "Student names a living thing but the described change is vague, partially inaccurate, or only loosely related to shape/form changes.",
+        "beginning": "Student names a living thing but provides little or no description of change, or the answer shows misunderstanding of the concept."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:30:41.537Z",
+  "cost": 0.004749
+}

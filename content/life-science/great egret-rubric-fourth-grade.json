@@ -1,0 +1,53 @@
+{
+  "title": "Great Egret",
+  "category": "life-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "How do you think the egret's long legs help it survive in its habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that long legs allow the egret to wade into deeper water to hunt prey while keeping its body dry, and connects this to how the trait helps it catch food that other birds cannot reach.",
+        "meets": "Student describes that long legs help the egret walk in water and reach food like fish or frogs in the pond.",
+        "approaching": "Student mentions that long legs help the egret in water or that they help it hunt, but the explanation lacks detail or connection to survival.",
+        "beginning": "Student provides a vague response such as 'long legs are good' or does not explain how the legs help the egret survive."
+      }
+    },
+    {
+      "questionText": "What might happen to the egret population if the pond dried up?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the egret population would decrease or move to other habitats because their food source (fish and frogs) would disappear, and explains that egrets depend on water to survive.",
+        "meets": "Student explains that egrets would have no food or water, so fewer egrets could live there or they would have to leave.",
+        "approaching": "Student identifies that a dry pond would be bad for egrets or that they need water, but reasoning is incomplete or unclear.",
+        "beginning": "Student gives a minimal response such as 'egrets would die' without explaining why or how the pond affects them."
+      }
+    },
+    {
+      "questionText": "Compare the egret's beak to a duck's beak - how are they different and why?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the egret has a long, pointed beak for spearing fish while ducks have flat, wider beaks for filtering water and plants, and explains how each beak shape matches the bird's food and hunting method.",
+        "meets": "Student describes that the egret's beak is long and pointed while a duck's beak is flat or wide, and notes that different beaks help them eat different foods.",
+        "approaching": "Student notes some differences between the beaks (long vs. flat, or pointed vs. wide) but does not clearly explain why these differences matter for survival.",
+        "beginning": "Student makes a vague comparison such as 'they look different' or identifies only one beak shape without comparing."
+      }
+    },
+    {
+      "questionText": "Design a new bird that could live in a desert environment - what body parts would it need?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a bird with multiple adaptations suited to deserts, such as light coloring to reflect heat, a strong curved beak for cracking seeds, short legs for ground movement, or water-storing ability, and explains how each part helps survival.",
+        "meets": "Student describes a desert bird with at least two body part adaptations (such as light feathers, a different beak shape, or legs suited to sand) and explains why these parts are useful in a desert.",
+        "approaching": "Student suggests one or two body part changes for desert survival, but the reasoning is incomplete or the adaptations show limited understanding of desert conditions.",
+        "beginning": "Student provides a minimal design with little detail or offers body part changes that do not clearly connect to desert survival."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:32:30.290Z",
+  "cost": 0.005035
+}

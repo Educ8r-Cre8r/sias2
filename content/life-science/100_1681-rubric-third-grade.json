@@ -1,0 +1,53 @@
+{
+  "title": "Seedling",
+  "category": "life-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "Why do you think the plant's stem is growing toward the window instead of in other directions?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that plants grow toward light and explains that the window provides the most light, using the term 'light' or 'sunlight' and demonstrating understanding that plants respond to their environment.",
+        "meets": "Student states that the plant is growing toward the window because of light or the sun, with a clear connection between the light source and the plant's growth direction.",
+        "approaching": "Student mentions light or sun as a reason for the plant's growth, but the explanation is incomplete or lacks clarity about why plants respond this way.",
+        "beginning": "Student provides a vague response such as 'it likes the window' or 'it's growing that way' with little to no mention of light or scientific reasoning."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if we covered this bottle with a dark box for two weeks?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts the plant would stop growing or grow slowly and pale/yellow, explaining that plants need light to grow healthy and strong, showing understanding of photosynthesis concepts appropriate for third grade.",
+        "meets": "Student predicts the plant would not grow well or would become lighter in color, connecting this prediction to the plant's need for light.",
+        "approaching": "Student makes a prediction about what would happen in the dark but provides incomplete or partially accurate reasoning about why.",
+        "beginning": "Student makes a vague prediction without clear reasoning, or suggests the plant would be unaffected by darkness."
+      }
+    },
+    {
+      "questionText": "How is this plant in the bottle different from a plant growing in a garden, and how is it the same?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences (such as water instead of soil, smaller size, confined space, artificial conditions) and similarities (needs light, grows, has leaves and stems), demonstrating thoughtful comparison of both aspects.",
+        "meets": "Student identifies at least one valid difference and one similarity between the bottle plant and a garden plant, such as the water versus soil or both needing sunlight.",
+        "approaching": "Student identifies either a difference or a similarity but not both, or provides incomplete descriptions of the comparison.",
+        "beginning": "Student provides a vague or inaccurate response with minimal comparison between the two growing environments."
+      }
+    },
+    {
+      "questionText": "Is this a fair test to see if plants need soil? Why or why not?",
+      "bloomsLevel": "Evaluate",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student correctly identifies this as a fair test because the plant is growing in water (not soil) and still surviving, demonstrating that soil may not be essential; or identifies it as not completely fair because other variables (light, water quality, nutrients) are not controlled, showing understanding of experimental design.",
+        "meets": "Student identifies this as a fair test because the plant grows without traditional soil, or recognizes that it shows plants can grow in water; reasoning is clear and connected to what the test demonstrates.",
+        "approaching": "Student attempts to evaluate whether this is a fair test but reasoning is incomplete or partially unclear about what makes a test fair or what this test actually shows.",
+        "beginning": "Student provides minimal reasoning or an unclear answer about whether this is a fair test, with little reference to how the test works or what it shows."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:14:20.446Z",
+  "cost": 0.005066
+}

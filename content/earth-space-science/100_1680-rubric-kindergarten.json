@@ -1,0 +1,53 @@
+{
+  "title": "Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about how the snow sits on different objects in the picture?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies and describes multiple specific observations (e.g., snow is thick and fluffy on branches, piled high on the wagon, covers the ground) using accurate descriptive words.",
+        "meets": "Student describes how snow looks or sits on at least two different objects in the picture with basic observations (e.g., snow is on the tree and on the wagon).",
+        "approaching": "Student notices snow on objects but provides vague or incomplete descriptions (e.g., says snow is on things but lacks specific details about different objects).",
+        "beginning": "Student makes minimal effort to notice details, provides only one vague observation, or describes something not clearly visible in the picture."
+      }
+    },
+    {
+      "questionText": "Why do you think the snow sticks to the tree branches but might fall off sometimes?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that snow sticks because it's cold and stacks up on branches, and predicts it falls off when it gets too heavy, melts, or when branches move; shows understanding of cause and effect.",
+        "meets": "Student provides a reasonable explanation that snow sticks because of cold or weight, and suggests it might fall off due to heaviness, warmth, or movement.",
+        "approaching": "Student offers a simple reason why snow sticks (e.g., it's cold) but explanation for why it falls off is unclear or underdeveloped.",
+        "beginning": "Student provides a minimal or unclear response, such as 'because it snows' or 'I don't know,' showing little understanding of why snow sticks or falls."
+      }
+    },
+    {
+      "questionText": "What do you predict will happen to this snow when the weather gets warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts snow will melt or disappear and explains the connection between warmer weather and melting with descriptive details (e.g., it will turn into water, drip from branches, go away).",
+        "meets": "Student accurately predicts the snow will melt or go away when it gets warmer, showing basic understanding of temperature's effect on snow.",
+        "approaching": "Student makes a prediction about the snow but reasoning is unclear or partially accurate (e.g., says it will move or change but doesn't clearly explain melting).",
+        "beginning": "Student provides a vague prediction (e.g., 'it will be different') or an inaccurate response showing minimal understanding of how warmth affects snow."
+      }
+    },
+    {
+      "questionText": "How might the animals and plants in this area be affected by all this snow?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific effects on both animals and plants (e.g., animals may struggle to find food, plants are covered and sleeping, animals might stay inside or move to warmer places).",
+        "meets": "Student explains at least two ways snow affects either animals or plants in the area (e.g., animals have less food, plants are buried under snow).",
+        "approaching": "Student mentions that snow affects animals and plants but provides only vague or incomplete explanations (e.g., snow makes it hard, but details are minimal).",
+        "beginning": "Student provides a minimal response such as 'animals and plants don't like it' or offers unclear ideas showing little understanding of snow's effects."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:44:41.034Z",
+  "cost": 0.005134
+}

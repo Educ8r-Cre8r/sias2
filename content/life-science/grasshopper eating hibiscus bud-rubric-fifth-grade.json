@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper Eating Hibiscus Bud",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "How might the grasshopper's feeding behavior change if this hibiscus plant was the only food source available in its habitat?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific behavioral changes (e.g., increased feeding frequency, longer feeding duration, broader consumption of plant parts) and explains how scarcity of a single food source would force adaptation, demonstrating understanding of resource limitation and herbivore survival strategies.",
+        "meets": "Student describes at least one realistic behavioral change the grasshopper would make if hibiscus were its only food source, with a logical explanation connecting the change to survival or energy needs.",
+        "approaching": "Student suggests a behavioral change (e.g., 'it would eat more') but provides incomplete or partially inaccurate reasoning about why the change would occur.",
+        "beginning": "Student provides a vague response or one behavioral change with little to no explanation of cause or consequence."
+      }
+    },
+    {
+      "questionText": "What adaptations does the grasshopper have that make it successful at eating plants, and how do these compare to adaptations of carnivorous insects?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies at least two grasshopper adaptations (e.g., strong jaws, long antennae for sensing) visible in the photo and makes detailed comparisons to carnivorous insects (e.g., sharp mandibles for piercing meat, different sensory organs), explaining how each adaptation relates to diet type.",
+        "meets": "Student identifies at least two grasshopper adaptations and makes a basic comparison to how carnivorous insects differ (e.g., 'carnivores have sharper teeth for tearing meat'), showing understanding that different diets require different adaptations.",
+        "approaching": "Student identifies one or two grasshopper adaptations but makes incomplete or unclear comparisons to carnivorous insects, or identifies adaptations without explaining their purpose.",
+        "beginning": "Student names a grasshopper body part but does not identify it as an adaptation, or provides an inaccurate comparison to carnivorous insects."
+      }
+    },
+    {
+      "questionText": "If grasshopper populations suddenly increased dramatically in an ecosystem, what effects might this have on both plant and animal communities?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student identifies effects on both plants (e.g., overgrazing, plant decline) and animals (e.g., food source increases for predators, but plant-dependent animals face starvation), and explains cause-and-effect relationships showing understanding of ecosystem balance and food webs.",
+        "meets": "Student describes at least one effect on plants and one effect on animals (e.g., fewer plants for herbivores, more food for grasshopper predators), demonstrating understanding of how population changes affect ecosystem members.",
+        "approaching": "Student identifies effects on either plants or animals but not both, or describes effects without clear reasoning about how the grasshopper population increase causes the change.",
+        "beginning": "Student provides a vague or partially inaccurate response with minimal explanation of ecosystem effects."
+      }
+    },
+    {
+      "questionText": "What evidence from the photograph supports the idea that energy flows from producers to consumers in food chains?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that the hibiscus plant (producer) is being consumed by the grasshopper (consumer) and explicitly explains that the grasshopper is gaining energy from the plant material, demonstrating clear understanding of energy flow in food chains.",
+        "meets": "Student identifies the hibiscus as a producer and grasshopper as a consumer, and explains that energy is being transferred from plant to insect through feeding, showing solid understanding of producer-to-consumer energy flow.",
+        "approaching": "Student identifies the plant and grasshopper in the photo and mentions energy or feeding but does not clearly explain the direction or nature of energy flow.",
+        "beginning": "Student describes what is visible in the photo (grasshopper eating plant) but does not connect this to the concept of energy flow in food chains."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:31:51.774Z",
+  "cost": 0.005778
+}

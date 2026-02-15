@@ -1,0 +1,53 @@
+{
+  "title": "Wood",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What patterns do you notice in the tree rings, and what might cause some rings to be wider or narrower than others?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that rings form concentric circles and explains that wider rings indicate years with good growing conditions (adequate water and warmth), while narrower rings indicate years with poor conditions (drought or cold), demonstrating understanding of how climate affects tree growth.",
+        "meets": "Student describes that tree rings are circular patterns and correctly explains that ring width relates to growing conditions, with wider rings representing better years and narrower rings representing difficult years.",
+        "approaching": "Student notices that rings vary in width and attempts to explain the difference by mentioning growing conditions or weather, but the explanation is incomplete or partially inaccurate.",
+        "beginning": "Student identifies that rings exist and are different sizes but provides vague or incorrect explanations for why rings vary, such as random patterns or unclear references to age."
+      }
+    },
+    {
+      "questionText": "How could scientists use tree rings to learn about events that happened before they were born?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that each ring represents one year of growth and that scientists can count rings to determine a tree's age, then connects this to understanding past climate events, droughts, or volcanic eruptions by analyzing patterns in rings from centuries-old trees.",
+        "meets": "Student explains that scientists can count tree rings to learn how old a tree is and use that information to understand what happened in past years based on the ring patterns.",
+        "approaching": "Student mentions that tree rings show age or that scientists can study them to learn about the past, but lacks clear explanation of how the counting or ring patterns provide this information.",
+        "beginning": "Student provides a minimal response such as 'scientists study rings' or 'rings show the past' without explaining the connection between rings and historical events."
+      }
+    },
+    {
+      "questionText": "If you found a tree with 50 rings but it was planted in your schoolyard only 30 years ago, what might explain this difference?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student proposes that the tree was not actually planted 30 years ago but was much older when transplanted, or suggests that multiple rings could have formed in a single year due to environmental stress causing dormancy and regrowth, demonstrating critical thinking about limitations of ring counting.",
+        "meets": "Student correctly identifies that the tree must have been older when planted rather than growing all 50 rings in the schoolyard, or suggests that some years might produce more than one ring.",
+        "approaching": "Student recognizes there is a discrepancy between the ring count and planting date but provides an incomplete or partially accurate explanation, such as mentioning the tree's age without fully resolving the problem.",
+        "beginning": "Student acknowledges the difference between 50 and 30 but cannot explain it, or provides an inaccurate explanation that does not address the timeline issue."
+      }
+    },
+    {
+      "questionText": "What would happen to tree ring patterns if climate change causes more extreme weather events?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student predicts that extreme weather would create more variable ring patterns, with some years showing very narrow rings (due to droughts or harsh cold) and others showing wider rings (after wet or favorable years), and explains how scientists could use these patterns to track climate change.",
+        "meets": "Student predicts that extreme weather would change ring patterns, either by creating narrower rings overall or by making rings more irregular and unpredictable in width.",
+        "approaching": "Student makes a prediction about how extreme weather might affect ring patterns but the reasoning is incomplete or based on only partial understanding of how weather influences growth.",
+        "beginning": "Student attempts a prediction but it is vague, inaccurate, or shows minimal understanding of the relationship between weather and ring formation."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:58:06.636Z",
+  "cost": 0.00557
+}

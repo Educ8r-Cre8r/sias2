@@ -1,0 +1,53 @@
+{
+  "title": "Clouds",
+  "category": "earth-space-science",
+  "gradeLevel": "first-grade",
+  "questions": [
+    {
+      "questionText": "What do you think the cloud is made of?",
+      "bloomsLevel": "Understand",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that clouds are made of water or water droplets and explains that tiny drops of water are stuck together, demonstrating clear understanding of cloud composition.",
+        "meets": "Student correctly states that clouds are made of water or identifies water as the main ingredient of clouds.",
+        "approaching": "Student mentions water or something wet but the explanation is vague or incomplete, such as saying 'it's wet' without clearly connecting it to water.",
+        "beginning": "Student provides a response that shows minimal understanding, such as guessing 'air' or 'sky' without mentioning water, or gives no clear answer."
+      }
+    },
+    {
+      "questionText": "Why does the crane look so small compared to the cloud?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the cloud is very far away in the sky, making it look bigger, and connects this to the idea that things look smaller when they are far away.",
+        "meets": "Student correctly identifies that the cloud is far away or very high up in the sky, which makes the crane appear small by comparison.",
+        "approaching": "Student recognizes that the cloud is bigger or higher, but the explanation of why the crane looks small is incomplete or unclear.",
+        "beginning": "Student states that the cloud is big or the crane is small without explaining the distance or relationship between size and distance."
+      }
+    },
+    {
+      "questionText": "What might happen to this cloud if the weather gets warmer?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that the cloud will disappear or turn into water vapor and explains that heat causes water to evaporate, using appropriate heat-related vocabulary.",
+        "meets": "Student predicts that the cloud will go away or disappear and connects this to warmth or heat making it vanish.",
+        "approaching": "Student makes a prediction about the cloud changing, but the connection to warming is weak or partially explained.",
+        "beginning": "Student provides a vague prediction about the cloud or mentions warm weather without clearly connecting the two ideas."
+      }
+    },
+    {
+      "questionText": "How do you think the water got up into the sky to make this cloud?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes the water cycle process, explaining that water from oceans, lakes, or ground goes up into the sky through heat or the sun's warmth, then forms clouds.",
+        "meets": "Student explains that water from below (oceans, lakes, ground) goes up into the sky, with some mention of the sun or heat helping this happen.",
+        "approaching": "Student identifies that water comes from below and goes up, but provides incomplete reasoning about what causes it to rise.",
+        "beginning": "Student gives a minimal answer such as 'the sun' or 'rain' without clearly explaining how water moves from the ground to the sky."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:50:17.652Z",
+  "cost": 0.004477
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Clouds",
+  "category": "earth-space-science",
+  "gradeLevel": "kindergarten",
+  "questions": [
+    {
+      "questionText": "What do you notice about the size of the crane compared to the clouds?",
+      "bloomsLevel": "Observe",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies that the clouds are much bigger than the crane and uses comparison words (bigger, taller, larger) with specific details about both objects' sizes.",
+        "meets": "Student correctly observes that the clouds are bigger than the crane or that the crane is small compared to the clouds.",
+        "approaching": "Student makes a comparison between the crane and clouds but the comparison is unclear or partially accurate (e.g., says they are the same size or mentions only one object's size).",
+        "beginning": "Student provides a vague response or states something unrelated to the size comparison (e.g., 'I see clouds' or 'The crane is there')."
+      }
+    },
+    {
+      "questionText": "What do you think these clouds might tell us about today's weather?",
+      "bloomsLevel": "Infer",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student connects the fluffy white cloud appearance to specific weather predictions (sunny, might rain, warm) and explains their thinking using observable cloud features.",
+        "meets": "Student makes a reasonable weather prediction based on the clouds being white and fluffy (e.g., 'It will be sunny' or 'It might rain').",
+        "approaching": "Student attempts a weather prediction but reasoning is unclear or only partially connected to the cloud appearance (e.g., 'Clouds mean weather' with no specific prediction).",
+        "beginning": "Student provides a weather guess unrelated to the clouds or cannot articulate what the clouds suggest about weather."
+      }
+    },
+    {
+      "questionText": "How do you think clouds get so high up in the sky?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes how water or air movement causes clouds to rise high, using simple cause-and-effect language (e.g., 'Air pushes them up' or 'Water goes up and makes clouds').",
+        "meets": "Student provides a simple, partially accurate explanation such as 'They float up' or 'The wind pushes them' or 'They go up in the sky.'",
+        "approaching": "Student attempts an explanation but it lacks clarity or accuracy (e.g., 'They just go up' or provides an incomplete thought).",
+        "beginning": "Student offers a vague or incorrect response with minimal reasoning (e.g., 'I don't know' or 'They are there')."
+      }
+    },
+    {
+      "questionText": "If you could touch a cloud, what do you predict it would feel like and why?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts a specific tactile quality (soft, fluffy, wet, cold) and justifies the prediction by referencing the cloud's appearance (looks like cotton) or known properties of water/air.",
+        "meets": "Student makes a sensible prediction about how a cloud would feel (soft, wet, cold, or fluffy) with a simple reason related to what they observe.",
+        "approaching": "Student makes a prediction but reasoning is unclear or minimally connected to cloud properties (e.g., 'It would feel squishy' with no explanation).",
+        "beginning": "Student provides a prediction with little or no reasoning, or responds with an unrelated answer."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:50:11.098Z",
+  "cost": 0.00493
+}

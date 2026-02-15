@@ -1,0 +1,53 @@
+{
+  "title": "Chrysalis",
+  "category": "earth-space-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What advantages might complete metamorphosis give butterflies compared to animals that look similar throughout their lives?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific advantages (e.g., different food sources at each stage, specialized body structures, reduced competition, efficient resource use) and explains how complete metamorphosis allows butterflies to adapt to different environments or lifestyles.",
+        "meets": "Student identifies at least two clear advantages of complete metamorphosis, such as caterpillars and butterflies eating different foods or having different roles in their environment.",
+        "approaching": "Student identifies one advantage of complete metamorphosis, such as caterpillars and adult butterflies being different, but lacks detail or explanation of why this is beneficial.",
+        "beginning": "Student makes a vague statement about metamorphosis or butterflies but does not clearly explain any specific advantage compared to other animals."
+      }
+    },
+    {
+      "questionText": "How do you think the chrysalis structure protects the developing butterfly while still meeting its needs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains how multiple features (hard outer shell, tight seal, color/camouflage) provide protection while describing how the chrysalis allows oxygen and moisture exchange or protection from predators and weather; may reference the smooth jade surface shown in the photo.",
+        "meets": "Student describes how the chrysalis's hard, sealed structure protects the butterfly inside while explaining how it allows at least one need to be met (air, water, or safety from predators).",
+        "approaching": "Student identifies that the chrysalis protects the butterfly but provides incomplete reasoning about how it meets the developing butterfly's needs or how protection works.",
+        "beginning": "Student states that the chrysalis is protective but provides little to no explanation of how the structure accomplishes this or how needs are met inside."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice in the timing and location where butterflies form their chrysalises?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student observes that the chrysalis hangs from above, is firmly attached to wood, and makes connections to environmental advantages such as protection from ground predators, safety from weather, or access to plants; may note seasonal timing related to food availability or temperature.",
+        "meets": "Student identifies at least two patterns, such as chrysalises hanging from branches or high locations and being attached securely to structures, with brief explanation of why location matters.",
+        "approaching": "Student notices the chrysalis is attached to wood or is in an elevated location but provides incomplete reasoning about why this location or timing pattern is important.",
+        "beginning": "Student makes a simple observation about where the chrysalis is but does not identify a clear pattern or explain its significance."
+      }
+    },
+    {
+      "questionText": "If you could design the perfect protection for a transforming animal, what features would you include and why?",
+      "bloomsLevel": "Create",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student designs a protective structure with at least three specific features (e.g., hard exterior, camouflage, secure attachment, ventilation, moisture balance) and explains scientifically sound reasoning for each choice based on the needs of a transforming animal.",
+        "meets": "Student designs a protective structure with at least two features and provides reasonable explanations for why each feature would protect a transforming animal or meet its survival needs.",
+        "approaching": "Student proposes one or two protective features with partial reasoning, or describes features without clear connection to why they would be effective for protection during transformation.",
+        "beginning": "Student suggests a protective idea with minimal detail or reasoning; explanation lacks scientific logic or clarity about how it would function."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:57:19.132Z",
+  "cost": 0.005288
+}

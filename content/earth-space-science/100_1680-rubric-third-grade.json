@@ -1,0 +1,53 @@
+{
+  "title": "Seasons",
+  "category": "earth-space-science",
+  "gradeLevel": "third-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this snow when spring arrives?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts snow will melt and explains why using temperature or seasonal changes (e.g., 'The snow will melt because spring is warmer and the sun melts it'), and may describe what happens next (water runoff, puddles).",
+        "meets": "Student predicts snow will melt when spring arrives with a basic explanation of warmth or temperature change.",
+        "approaching": "Student predicts snow will melt but provides limited or unclear reasoning; may confuse spring with another season.",
+        "beginning": "Student provides a minimal response ('it will melt') or an inaccurate prediction about what happens to snow in spring."
+      }
+    },
+    {
+      "questionText": "Why do you think the snow is piled higher on the wagon than on the tree branches?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that the flat, wide surface of the wagon collects and holds more snow than thin branches, and may describe how snow slides off angled surfaces or how surface shape affects snow accumulation.",
+        "meets": "Student explains that the wagon's flat surface catches more snow than branches, or that branches are thinner and snow falls off them.",
+        "approaching": "Student recognizes a difference between wagon and branches but provides incomplete reasoning (e.g., 'the wagon is bigger' without explaining why this matters for snow).",
+        "beginning": "Student observes the wagon has more snow but cannot explain why, or provides an inaccurate reason."
+      }
+    },
+    {
+      "questionText": "How might animals in this area find food and shelter during snowy weather?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple strategies animals use, such as seeking shelter under snow, in trees, or burrows, and finding food under snow or stored from fall; may mention specific animals (squirrels, rabbits, birds).",
+        "meets": "Student identifies at least two ways animals find food or shelter in winter (e.g., under snow, in tree holes, eating stored seeds).",
+        "approaching": "Student identifies one strategy for finding food or shelter but lacks detail, or shows partial understanding (e.g., 'animals hide' without explaining where).",
+        "beginning": "Student provides a vague or minimally accurate response (e.g., 'they stay warm') with little connection to food or shelter needs."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice about where snow collects in this picture?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple patterns, such as snow collecting on top of flat surfaces (wagon bed), on branches, and in protected areas; may explain why snow accumulates differently based on surface shape or wind protection.",
+        "meets": "Student identifies at least two locations where snow collects (e.g., 'on the wagon' and 'on tree branches') and notes that snow piles up on top of things.",
+        "approaching": "Student identifies where snow collects but describes only one location in detail, or notices snow is present without analyzing patterns of where it gathers.",
+        "beginning": "Student provides a vague observation ('there is snow everywhere') without identifying specific patterns or locations."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:45:04.153Z",
+  "cost": 0.004913
+}

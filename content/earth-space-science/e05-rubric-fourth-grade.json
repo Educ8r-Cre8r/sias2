@@ -1,0 +1,53 @@
+{
+  "title": "Rock covered with Moss and Lichen",
+  "category": "earth-space-science",
+  "gradeLevel": "fourth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence do you see that living things can change rocks over time?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence (moss and lichen growth, color changes, surface texture changes) and explains how these organisms break down or wear away the rock surface over time.",
+        "meets": "Student identifies that moss and/or lichen are growing on the rock and explains that living things can change or break down rocks as they grow on them.",
+        "approaching": "Student notices that moss and/or lichen are on the rock but provides only a vague explanation of how living things might change it, or describes what they see without clearly connecting it to rock change.",
+        "beginning": "Student mentions moss or lichen on the rock but provides little or no explanation of how living things change rocks, or gives an inaccurate response."
+      }
+    },
+    {
+      "questionText": "How might this rock look different in 100 years if these organisms keep growing on it?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts specific changes such as more moss/lichen coverage, smaller rock pieces, smoother edges wearing away, or formation of soil, and explains the process of weathering or organism growth causing these changes.",
+        "meets": "Student predicts that the rock will have more moss and lichen coverage, become smaller, or change appearance, with a reasonable explanation of why.",
+        "approaching": "Student makes a prediction about the rock changing but with limited detail or weak reasoning; may describe only surface-level changes without explaining the cause.",
+        "beginning": "Student makes a vague prediction or suggests an unlikely change with little or no explanation of how organisms would cause it."
+      }
+    },
+    {
+      "questionText": "What do you think would happen if you moved this rock to a desert environment?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts that moss and lichen would die or stop growing due to lack of moisture in the desert, and explains how different environmental conditions (water, humidity, temperature) affect which organisms can survive on rocks.",
+        "meets": "Student predicts that the moss and/or lichen would die or disappear in the desert, with a reasonable explanation such as lack of water or different conditions.",
+        "approaching": "Student predicts some change to the organisms on the rock but provides only a partial or incomplete explanation of why desert conditions would affect them.",
+        "beginning": "Student makes a prediction with minimal reasoning, or suggests an inaccurate outcome without explaining how desert conditions differ from the forest."
+      }
+    },
+    {
+      "questionText": "Why do you think some parts of the rock have lichens while other parts have moss?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies that different organisms have different environmental needs (sunlight, moisture, shade) and explains how rock position, shade, wetness, or other local conditions cause different organisms to grow in different locations.",
+        "meets": "Student identifies that moss and lichen have different needs and suggests that differences in light, moisture, or shade on the rock cause them to grow in different areas.",
+        "approaching": "Student acknowledges that different parts of the rock have different organisms but provides limited explanation of why, such as vague references to conditions without clear reasoning.",
+        "beginning": "Student notices the different organisms but offers no explanation, an inaccurate explanation, or only restates what is visible in the photo."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:51:29.841Z",
+  "cost": 0.005013
+}

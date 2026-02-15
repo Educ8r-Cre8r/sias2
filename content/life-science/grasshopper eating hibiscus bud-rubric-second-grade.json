@@ -1,0 +1,53 @@
+{
+  "title": "Grasshopper Eating Hibiscus Bud",
+  "category": "life-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What body parts does the grasshopper use to eat the flower?",
+      "bloomsLevel": "Remember",
+      "dokLevel": 1,
+      "rubric": {
+        "exceeds": "Student identifies the mouth/jaws as the main eating part and accurately describes at least two additional body parts the grasshopper uses (legs to hold, antennae to sense, head to position itself).",
+        "meets": "Student correctly identifies that the grasshopper uses its mouth to eat and mentions at least one other body part like legs or head.",
+        "approaching": "Student mentions the mouth but provides vague or partially accurate descriptions of other body parts, or only identifies body parts without clearly connecting them to eating.",
+        "beginning": "Student provides a vague response like 'its mouth' with little to no mention of other body parts, or shows minimal understanding of which parts are involved."
+      }
+    },
+    {
+      "questionText": "Why do you think the grasshopper chose to eat this flower bud instead of the leaves?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student provides a thoughtful explanation with specific observations (e.g., flower bud may be softer, newer, more nutritious, tastier, or easier to eat than mature leaves) and supports reasoning with details from the photo.",
+        "meets": "Student offers a reasonable explanation such as the bud being softer, tastier, or more tender than leaves, with adequate support for their thinking.",
+        "approaching": "Student attempts an explanation but it is incomplete or somewhat unclear; may suggest a reason without fully explaining why that matters (e.g., 'because it likes buds' without explaining why).",
+        "beginning": "Student provides a minimal or unclear response that shows limited thinking, such as 'because it wanted to' with no scientific reasoning."
+      }
+    },
+    {
+      "questionText": "What might happen to this grasshopper if there were no plants around?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that grasshoppers need plants for food and may die or have to leave the area; shows understanding of the relationship between grasshoppers and plants, and may mention effects on survival or habitat.",
+        "meets": "Student correctly states that the grasshopper would not have food and would struggle to survive, demonstrating understanding that grasshoppers depend on plants.",
+        "approaching": "Student recognizes that plants are food for grasshoppers but explanation lacks clarity or completeness; may say the grasshopper would 'be sad' without explaining the survival consequence.",
+        "beginning": "Student provides a vague response like 'it would be hungry' with minimal understanding of why plants matter to grasshoppers' survival."
+      }
+    },
+    {
+      "questionText": "How is the way a grasshopper eats different from how you eat?",
+      "bloomsLevel": "Compare",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple differences with specific details (e.g., grasshopper uses jaws/mandibles to bite and chew plants; humans use hands to pick up food and teeth to chew; grasshopper eats only plants; humans eat both plants and meat).",
+        "meets": "Student describes at least two clear differences, such as grasshoppers biting directly with their mouth while humans use hands and utensils, or differences in what they eat.",
+        "approaching": "Student mentions some differences but they may be incomplete or lack clarity (e.g., 'grasshoppers eat different food' without explaining how they eat it differently).",
+        "beginning": "Student provides a vague or minimal response such as 'they eat different things' with little detail about actual differences in eating methods."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:31:28.024Z",
+  "cost": 0.005225
+}

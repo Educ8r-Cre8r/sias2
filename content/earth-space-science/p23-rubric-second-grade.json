@@ -1,0 +1,53 @@
+{
+  "title": "Erosion",
+  "category": "earth-space-science",
+  "gradeLevel": "second-grade",
+  "questions": [
+    {
+      "questionText": "What do you think will happen to this flowing water next?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts multiple logical outcomes (e.g., water flows downhill, joins a stream, soaks into ground) and explains why using observations from the photo like the slope or ground type.",
+        "meets": "Student predicts one or two reasonable outcomes for the flowing water, such as it will continue downhill or flow into a larger body of water.",
+        "approaching": "Student makes a prediction about the water's movement but lacks clear reasoning or provides a partially accurate outcome (e.g., 'it will go somewhere' without specifics).",
+        "beginning": "Student provides a vague or incorrect prediction with minimal reasoning (e.g., 'it will disappear' or 'it stays there')."
+      }
+    },
+    {
+      "questionText": "Why do you think the water looks brown and muddy?",
+      "bloomsLevel": "Explain",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student explains that moving water picks up soil, rocks, and sediment from the ground and rocks visible in the photo, demonstrating understanding of erosion and sediment transport.",
+        "meets": "Student correctly identifies that dirt, soil, or mud from the ground mixes with the water, making it brown and muddy.",
+        "approaching": "Student recognizes the water is dirty or muddy but provides incomplete or partially accurate reasoning about where the dirt comes from.",
+        "beginning": "Student offers a vague explanation or guesses without connecting muddy water to soil or ground materials (e.g., 'it's just brown')."
+      }
+    },
+    {
+      "questionText": "How might this flowing water change the land around it?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student describes multiple ways water changes land (e.g., carves paths, moves rocks, washes away soil, shapes the ground) and connects observations to the fast-moving water and rocks shown in the photo.",
+        "meets": "Student identifies one or two ways flowing water changes land, such as moving rocks, washing soil away, or creating paths on the ground.",
+        "approaching": "Student recognizes water can change land but provides limited or vague examples without clear explanation of how the change happens.",
+        "beginning": "Student provides minimal response or incorrect information about water's impact on land (e.g., 'it makes mud')."
+      }
+    },
+    {
+      "questionText": "What would happen if we poured water on different surfaces like concrete, sand, and grass?",
+      "bloomsLevel": "Predict",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student predicts different outcomes for each surface (e.g., water runs off concrete quickly, soaks into sand, gets absorbed by grass roots) showing understanding of how materials absorb or repel water differently.",
+        "meets": "Student predicts at least two different outcomes for the three surfaces, showing basic understanding that water behaves differently on different materials.",
+        "approaching": "Student attempts to predict outcomes for the surfaces but provides incomplete or partially accurate responses for only one or two surfaces.",
+        "beginning": "Student makes predictions that show little understanding of how different surfaces interact with water (e.g., 'water goes on all of them the same way')."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:56:02.328Z",
+  "cost": 0.004774
+}

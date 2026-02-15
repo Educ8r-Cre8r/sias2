@@ -1,0 +1,53 @@
+{
+  "title": "Life Cycle Stage of Monarch Butterfly",
+  "category": "life-science",
+  "gradeLevel": "fifth-grade",
+  "questions": [
+    {
+      "questionText": "What evidence can you observe that shows this butterfly recently completed metamorphosis?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple specific pieces of evidence such as the empty chrysalis case, the caterpillar's absence from the chrysalis, and explains that the butterfly emerged from the chrysalis by describing what happened during this transformation.",
+        "meets": "Student observes that the empty chrysalis case shows the butterfly has left it and recognizes this as evidence of metamorphosis completion.",
+        "approaching": "Student notices either the empty chrysalis or mentions metamorphosis but does not clearly connect the observation to the timing of completion or provides vague reasoning.",
+        "beginning": "Student provides a minimal response that may mention the chrysalis or butterfly but shows little understanding of how the image demonstrates recent metamorphosis."
+      }
+    },
+    {
+      "questionText": "How might the monarch's life cycle strategy help the species survive environmental challenges that a simpler life cycle could not?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that metamorphosis allows monarchs to occupy different niches (caterpillar eats plants, adult drinks nectar) and describes how this reduces food competition, increases resource availability, or allows different survival strategies at each life stage.",
+        "meets": "Student identifies that the caterpillar and butterfly stages have different jobs or eat different foods, and explains how having multiple life stages helps the species survive or adapt.",
+        "approaching": "Student recognizes that monarchs have different life stages or that caterpillars and butterflies are different, but makes unclear or incomplete connections to survival advantages.",
+        "beginning": "Student provides a response showing minimal understanding of the life cycle or mentions survival without connecting it to metamorphosis strategies."
+      }
+    },
+    {
+      "questionText": "What patterns do you notice between the caterpillar's body design and its job of eating leaves compared to the butterfly's body design and its job of finding mates and laying eggs?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 2,
+      "rubric": {
+        "exceeds": "Student identifies multiple body adaptations for each stage, such as caterpillar's strong jaws/mandibles for chewing leaves, wings on butterflies for flying to find mates, and explains how each body feature suits its specific job.",
+        "meets": "Student describes at least two body differences between caterpillar and butterfly stages and explains how each design helps them do their job (caterpillar chews leaves, butterfly searches for mates).",
+        "approaching": "Student notices some body differences between the caterpillar and butterfly stages but provides incomplete or unclear explanations of how these features help them survive or reproduce.",
+        "beginning": "Student identifies caterpillar and butterfly as different but provides minimal or no connection between body design and their specific roles."
+      }
+    },
+    {
+      "questionText": "If climate change affects the timing of milkweed plant growth, how might this impact monarch metamorphosis and migration?",
+      "bloomsLevel": "Analyze",
+      "dokLevel": 3,
+      "rubric": {
+        "exceeds": "Student explains that milkweed is necessary for caterpillar survival, describes how timing mismatches could disrupt metamorphosis (caterpillars hatch when food is unavailable) or delay migration, and considers multiple consequences such as starvation or missed migration windows.",
+        "meets": "Student recognizes that milkweed is the caterpillar's food source and explains that a timing change could prevent caterpillars from finding food or disrupt their development and migration patterns.",
+        "approaching": "Student mentions that climate change or plant timing matters but provides unclear or incomplete reasoning about how this would specifically affect metamorphosis or migration.",
+        "beginning": "Student attempts to answer but shows minimal understanding of the connection between milkweed availability and monarch survival or development."
+      }
+    }
+  ],
+  "generatedAt": "2026-02-15T02:36:01.202Z",
+  "cost": 0.00543
+}
